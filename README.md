@@ -12,6 +12,8 @@ The former Normandy landing scope and all of its implementation plans are archiv
 
 ## Start here
 
+Continuing in a new chat/window? Read [HANDOFF.md](HANDOFF.md) first for the complete project state, exact paths, remaining work and previous-session decisions.
+
 | Document | Purpose |
 |---|---|
 | [Project proposal](Docs/Proposal/PROJECT_PROPOSAL.md) | PRD, priorities, three pillars, MVP, and cuts |

@@ -2,6 +2,7 @@
 
 ## Active authority
 
+- [New-session handoff](HANDOFF.md)
 - [Agent rules](AGENTS.md)
 - [Scope reset](Docs/Decisions/SCOPE_RESET.md)
 - [Team and ownership](Docs/Decisions/TEAM_AND_OWNERSHIP.md)

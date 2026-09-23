@@ -3,6 +3,7 @@
 ## Authority and scope
 
 - This is the active CS549 project at `D:\0.Rutgers\CS549\Project-New`.
+- New sessions should read `HANDOFF.md` for the transition checkpoint, local dependency paths and remaining work, then check current Git state before editing. Its status snapshot is dated; later verified records take precedence.
 - The team explicitly retired the Normandy landing implementation, its proposal, pipeline, system matrix, and character-production plans on 22 September 2026. They do not govern this project.
 - Only three primary pillars are retained: **Rendering, Animation, Collision Detection**. History and bounded gunplay references are retained. AI/navigation support the encounter; they are not additional primary contributions.
 - The playable setting is a small fictionalized Paris street encounter during the liberation period in August 1944. Normandy is historical background only. Date, player unit, enemy formation, and weapon variants must be recorded before historical asset approval.
