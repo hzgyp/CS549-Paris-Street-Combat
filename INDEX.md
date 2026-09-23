@@ -7,6 +7,8 @@
 - [Team and ownership](Docs/Decisions/TEAM_AND_OWNERSHIP.md)
 - [Proposal](Docs/Proposal/PROJECT_PROPOSAL.md)
 - [Proposal PDF](Docs/Proposal/CS549_Paris_Street_Combat_Proposal.pdf)
+- [Chinese proposal PDF](Docs/Proposal/CS549_Paris_Street_Combat_Proposal_CN.pdf) - synchronized translation for team review
+- [Proposal image sources](Docs/Proposal/Visuals/README.md)
 - [Pipeline](DEVELOPMENT_PIPELINE.md)
 - [Technical design](Docs/Design/TECHNICAL_DESIGN.md)
 - [Submission status](Docs/Submission/STATUS.md)

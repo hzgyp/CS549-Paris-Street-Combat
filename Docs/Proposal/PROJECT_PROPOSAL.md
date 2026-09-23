@@ -4,6 +4,8 @@
 
 **Team:** Yupu Guo (yg745, team leader), Yuqi Pu (yp549), Jingdi Wu (jw2046).
 
+Two-page reports: [English submission version](CS549_Paris_Street_Combat_Proposal.pdf) and [Chinese review translation](CS549_Paris_Street_Combat_Proposal_CN.pdf). Both include the team panel and two environment reference views; [image provenance](Visuals/README.md) distinguishes supplier illustrations from team implementation results.
+
 ## 1. Project concept
 
 We will build a compact single-player first-person combat encounter in a fictionalized Paris street during the liberation period in August 1944. Normandy provides historical background; no landing sequence is playable. Existing environment and compatible character/weapon assets provide the visual foundation. The team focuses on coherent interaction and explainable implementations of **Rendering, Animation, and Collision Detection**.

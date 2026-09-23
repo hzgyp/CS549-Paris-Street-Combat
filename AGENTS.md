@@ -44,6 +44,6 @@
 - Preserve dates, locations, units, rights, provenance, and limitations for every reference. Store links for reference images whose redistribution rights have not been established.
 - Asset marketing, game footage, AI images, museum restorations, and later-war manuals are not direct evidence for a specific 1944 encounter.
 - Unknown weather values remain unknown. Normandy D-Day weather does not describe August Paris.
-- Project documents and formal deliverables are in English; conversational reviews may be in Chinese.
+- Project documents and formal deliverables are in English. User-requested Chinese review translations are allowed; keep them synchronized with the English original. Conversational reviews may be in Chinese.
 - Do not put word counts, internal QA labels, prompts, or generation-process commentary into submission documents. Keep required course disclosures and asset attribution.
 - Assignment 2 is a report of at most two pages plus actual approval/mentor email proof. Do not invent approval, a mentor, test results, or confirmed course deadlines. Do not send email without user authorization.

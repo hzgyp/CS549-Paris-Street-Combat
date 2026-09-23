@@ -16,6 +16,7 @@ The former Normandy landing scope and all of its implementation plans are archiv
 |---|---|
 | [Project proposal](Docs/Proposal/PROJECT_PROPOSAL.md) | PRD, priorities, three pillars, MVP, and cuts |
 | [Two-page proposal PDF](Docs/Proposal/CS549_Paris_Street_Combat_Proposal.pdf) | Compact Assignment 2 report; email proof is separate |
+| [Chinese proposal PDF](Docs/Proposal/CS549_Paris_Street_Combat_Proposal_CN.pdf) | Matching two-page translation for team review |
 | [Development pipeline](DEVELOPMENT_PIPELINE.md) | Phase order, stop conditions, and deferred checks |
 | [Technical design](Docs/Design/TECHNICAL_DESIGN.md) | System boundaries, shot/action contracts, evidence plan |
 | [Asset inventory and restoration](Assets/README.md) | Existing city, reuse candidates, and missing dependencies |

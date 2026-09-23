@@ -4,6 +4,8 @@ Assignment 2 requires one report PDF of at most two pages covering PRD, Technica
 
 The new English report is Docs/Proposal/CS549_Paris_Street_Combat_Proposal.pdf. The longer Markdown proposal, pipeline and technical design support implementation. The formal PDF does not include internal QA labels, word counts or generation notes.
 
+The synchronized Chinese review translation is Docs/Proposal/CS549_Paris_Street_Combat_Proposal_CN.pdf. Both PDFs have two pages, a prominent three-member panel and two attributed environment reference images. The images are supplier showcase views, not evidence of completed team gameplay; source details are in Docs/Proposal/Visuals/README.md. The English PDF remains the course submission version. Rebuild both together with Tools/build_proposal.py.
+
 The former Assignment 1 submission remains historical course evidence in the Normandy archive. Its scope has been superseded; do not present it as the current Paris proposal. The assignment requests the Assignment 1 attachment in the approval email. Attach that original alongside a concise explanation of the change and the new report where appropriate.
 
 ## Still external/pending
