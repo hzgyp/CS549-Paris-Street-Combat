@@ -1,0 +1,8 @@
+﻿id,date,original_time,time_basis,utc_time,location,variable,min_value,max_value,unit,direction_from,evidence_kind,source,usable_as_omaha_observation,note
+W01,1944-06-06,Approach and early landing period,Unresolved operational time convention,,Omaha offshore transport area,wind_speed,10,18,knots,NW,official_retrospective_account,S01,No; historical range only,No instrument/site/height specified; do not label exact hourly observation.
+W02,1944-06-06,Approach and early landing period,Unresolved,,Omaha transport area,wave_height_typical,3,4,ft,,official_retrospective_account,S01,No; narrative range,Occasional waves reported up to 6 ft; not a calibrated significant-wave-height statistic.
+W03,1944-06-06,Approach and early landing period,Unresolved,,Omaha beach,breaker_height,3,4,ft,,official_retrospective_account,S01,No; narrative range,Do not merge with offshore wave statistic.
+W04,1944-06-06,13 UTC,UTC,1944-06-06T13:00:00Z,Sword Beach,wind_beaufort,4,4,Beaufort,NW,period_report_described_by_ECMWF,S07,No; different beach,Mainly sunny. Beaufort category is not exact measured wind speed.
+W05,1944-06-06,Daily maximum,Daily summary,,Thorney Island England,air_temperature_daily_max,17.8,17.8,C,,archival_daily_statistic,S04,No; different country/location/time statistic,Explicitly excluded from Omaha weather keys.
+W06,1944-06-06,,Unknown,,Selected Omaha sector,air_temperature,,,C,,unknown,,No,No verified local time series collected.
+W07,1944-06-06,,Unknown,,Selected Omaha sector,relative_humidity,,,percent,,unknown,,No,Do not infer from wet sand/clouds; no verified local time series collected.

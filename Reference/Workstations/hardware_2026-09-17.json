@@ -1,0 +1,85 @@
+{
+  "CPU": [
+    {
+      "Name": "12th Gen Intel(R) Core(TM) i9-12900F",
+      "NumberOfCores": 16,
+      "NumberOfLogicalProcessors": 24,
+      "MaxClockSpeed": 2400
+    }
+  ],
+  "System": {
+    "Manufacturer": "Alienware",
+    "Model": "Alienware Aurora R13",
+    "RAM_GiB": 31.8
+  },
+  "Memory": [
+    {
+      "Capacity_GiB": 16,
+      "Speed": 4800,
+      "ConfiguredClockSpeed": 4400
+    },
+    {
+      "Capacity_GiB": 16,
+      "Speed": 4800,
+      "ConfiguredClockSpeed": 4400
+    }
+  ],
+  "GPU": [
+    {
+      "Name": "NVIDIA GeForce RTX 3080",
+      "DriverVersion": "32.0.16.1692",
+      "VideoProcessor": "NVIDIA GeForce RTX 3080"
+    }
+  ],
+  "Volumes": [
+    {
+      "DriveLetter": "C",
+      "FileSystem": "NTFS",
+      "Size_GiB": 3722.9,
+      "Free_GiB": 1769.6,
+      "HealthStatus": "Healthy"
+    },
+    {
+      "DriveLetter": "D",
+      "FileSystem": "NTFS",
+      "Size_GiB": 3725.9,
+      "Free_GiB": 676.2,
+      "HealthStatus": "Healthy"
+    }
+  ],
+  "Disks": [
+    {
+      "FriendlyName": "CT4000P3SSD8",
+      "MediaType": "SSD",
+      "BusType": "NVMe",
+      "Size_GiB": 3726.0,
+      "HealthStatus": "Healthy"
+    },
+    {
+      "FriendlyName": "CT4000P3SSD8",
+      "MediaType": "SSD",
+      "BusType": "NVMe",
+      "Size_GiB": 3726.0,
+      "HealthStatus": "Healthy"
+    }
+  ],
+  "PartitionMap": [
+    {
+      "DiskNumber": 0,
+      "DriveLetter": "C"
+    },
+    {
+      "DiskNumber": 1,
+      "DriveLetter": "D"
+    }
+  ],
+  "OS": {
+    "Caption": "Microsoft Windows 11 Pro Education",
+    "Version": "10.0.26200",
+    "BuildNumber": "26200"
+  },
+  "Nvidia": [
+    "NVIDIA GeForce RTX 3080, 10240 MiB, 616.92"
+  ],
+  "UnrealInstalled": []
+}

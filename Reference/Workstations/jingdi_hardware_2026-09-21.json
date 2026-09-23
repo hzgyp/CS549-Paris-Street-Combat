@@ -1,0 +1,64 @@
+{
+  "recorded_date": "2026-09-21",
+  "source": {
+    "type": "user_supplied_windows_settings_screenshot",
+    "capture_date": null,
+    "live_scan_performed": false
+  },
+  "role": "Jingdi Wu personal development workstation",
+  "owner_team_member": "Jingdi Wu",
+  "system": {
+    "manufacturer": "Alienware",
+    "model": "Alienware m15 R7",
+    "operating_system_family": "Windows",
+    "os_edition": null,
+    "os_version": null,
+    "os_build": null
+  },
+  "cpu": {
+    "name": "12th Gen Intel Core i9-12900H",
+    "displayed_frequency_GHz": 2.5
+  },
+  "memory": {
+    "installed_GB_displayed": 32.0,
+    "usable_GB_displayed": 31.7,
+    "speed_MT_per_s_displayed": 4800,
+    "type": null,
+    "module_layout": null
+  },
+  "graphics": [
+    {
+      "name": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+      "role": "dedicated",
+      "memory_GB_displayed": 8,
+      "driver_version": null,
+      "power_limit_W": null
+    },
+    {
+      "name": "Intel Iris Xe Graphics",
+      "role": "integrated",
+      "memory_MB_displayed": 128,
+      "total_shared_memory": null
+    }
+  ],
+  "storage": {
+    "total_GB_displayed": 954,
+    "used_GB_displayed": 486,
+    "remaining_GB_approximate": 468,
+    "remaining_basis": "954 - 486; arithmetic from rounded displayed values, not an exact free-space measurement",
+    "medium": null,
+    "drive_layout": null
+  },
+  "unreal": {
+    "installed_version": null,
+    "project_version": null,
+    "project_path": null,
+    "performance_measured": false
+  },
+  "notes": [
+    "Displayed units retained without reinterpreting them as exact byte or GiB measurements.",
+    "CPU frequency is a displayed value, not sustained or turbo frequency measured under load.",
+    "The integrated graphics 128 MB field does not establish total shared-memory capacity.",
+    "Personal device name, device ID and product ID omitted."
+  ]
+}

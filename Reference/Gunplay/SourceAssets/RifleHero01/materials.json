@@ -1,0 +1,14 @@
+{
+  "Wood": {
+    "material": {
+      "refPath": "/Game/Normandy/Materials/RifleHero01/M_RifleWood_Hero01.M_RifleWood_Hero01"
+    },
+    "code": "\nstruct Pattern {\n float hash(float2 p) { return frac(sin(dot(p,float2(127.1,311.7)))*43758.5453); }\n float noise(float2 p) {\n  float2 i=floor(p),f=frac(p);f=f*f*(3-2*f);\n  return lerp(lerp(hash(i),hash(i+float2(1,0)),f.x),lerp(hash(i+float2(0,1)),hash(i+1),f.x),f.y);\n }\n float fbm(float2 p) { return noise(p)*.57+noise(p*2.03+3.1)*.28+noise(p*4.17-2.4)*.15; }\n}; Pattern n;\n\nfloat2 q=UV*100;float slow=n.fbm(float2(q.x/32,q.y/4));float grain=n.noise(float2(q.x*.075,q.y*4.5+n.noise(q/9)*2));float fine=n.noise(q*8);\nfloat3 color=lerp(float3(.052,.021,.009),float3(.16,.065,.023),slow)*lerp(.85,1.08,grain);\nSurfaceNormal=normalize(float3((fine-.5)*.018,(grain-.5)*.028,1));SurfaceRoughness=.38+.17*slow;return color;"
+  },
+  "Steel": {
+    "material": {
+      "refPath": "/Game/Normandy/Materials/RifleHero01/M_RifleSteel_Hero01.M_RifleSteel_Hero01"
+    },
+    "code": "\nstruct Pattern {\n float hash(float2 p) { return frac(sin(dot(p,float2(127.1,311.7)))*43758.5453); }\n float noise(float2 p) {\n  float2 i=floor(p),f=frac(p);f=f*f*(3-2*f);\n  return lerp(lerp(hash(i),hash(i+float2(1,0)),f.x),lerp(hash(i+float2(0,1)),hash(i+1),f.x),f.y);\n }\n float fbm(float2 p) { return noise(p)*.57+noise(p*2.03+3.1)*.28+noise(p*4.17-2.4)*.15; }\n}; Pattern n;\n\nfloat2 q=UV*100;float f=n.fbm(q/7);float fine=n.noise(q*13);float scratch=smoothstep(.83,.94,n.noise(float2(q.x*.3,q.y*20)));\nSurfaceNormal=normalize(float3((fine-.5)*.015,0,1));SurfaceRoughness=lerp(.31,.52,f);return lerp(float3(.026,.033,.034),float3(.060,.072,.074),f)+scratch*.018;"
+  }
+}

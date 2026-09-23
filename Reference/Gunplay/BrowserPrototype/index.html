@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#22291f">
+  <meta name="description" content="A small playable Normandy beach landing. Move between cover, aim, reload, and reach the bunker in this CS549 first-person concept.">
+  <meta property="og:title" content="Normandy / Beachhead">
+  <meta property="og:description" content="A small playable first-person beach landing concept for CS549.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://cs549-normandy-beachhead.cicerocatobrutus.chatgpt.site/public/og.png">
+  <meta property="og:image:alt" content="Illustrated Normandy Beachhead concept poster">
+  <meta name="twitter:image" content="https://cs549-normandy-beachhead.cicerocatobrutus.chatgpt.site/public/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Normandy — First-person concept</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="vendor/three.js"></script>
+  <script defer src="engine.js"></script>
+  <script defer src="scene.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body data-phase="ready">
+  <main id="game" aria-label="Normandy first-person concept">
+    <canvas id="gameCanvas" tabindex="0" aria-label="First-person beach scene. Use W A S D to move, mouse or arrow keys to look, Space to shoot, and R to reload."></canvas>
+    <div class="film-grain" aria-hidden="true"></div>
+    <header class="masthead">
+      <a class="wordmark" href="#" id="home" aria-label="Open mission briefing">N<span class="mark-line"></span><span>NORMANDY<small>BEACHHEAD</small></span></a>
+      <div class="chapter">06 JUNE 1944<span>OMAHA BEACH / CONCEPT SCENE</span></div>
+      <button class="icon-button" id="settingsButton" aria-expanded="false" aria-controls="settings" title="Scene settings">Scene settings <span aria-hidden="true">＋</span></button>
+    </header>
+
+    <section id="briefing" class="briefing" aria-labelledby="briefTitle">
+      <div class="brief-copy">
+        <p class="eyebrow" id="briefEyebrow"><span class="signal"></span> CS549 / PLAYABLE CONCEPT</p>
+        <h1 id="briefTitle">Make it off<br>the beach.</h1>
+        <p class="intro" id="briefText">Leave the surf. Move with your squad. Find cover among the wrecks and make your way to the bunker.</p>
+        <div class="brief-actions"><button class="primary" id="startButton" disabled>Preparing scene… <span aria-hidden="true">↗</span></button><button class="text-button" id="restartBrief" hidden>Start over</button></div>
+        <p class="start-note" id="startNote">A short, stylized browser FPS. Desktop, keyboard & mouse recommended.</p>
+        <details class="howto" id="howto"><summary>Controls & mission</summary><div class="help-grid"><span><kbd>W A S D</kbd> Move</span><span><kbd>Mouse / arrows</kbd> Look</span><span><kbd>Click / Space</kbd> Fire</span><span><kbd>Right click / F</kbd> Aim</span><span><kbd>R</kbd> Reload</span><span><kbd>Shift</kbd> Sprint</span><span><kbd>C</kbd> Crouch</span><span><kbd>Esc</kbd> Pause</span></div><p>Clear the two defenders and reach the bunker marker. Solid wrecks and sandbags block shots. Wooden cover can break. Use cover to recover health.</p><p>If mouse capture is unavailable, drag on the scene to look or use the arrow keys.</p></details>
+      </div>
+      <aside class="mission-card" aria-label="Mission objectives"><p class="eyebrow">YOUR OBJECTIVE</p><h2>One beach.<br>A way through.</h2><ol><li><span>01</span><div><strong>Move between cover</strong><p>Wrecks, sandbags, and beach obstacles.</p></div></li><li><span>02</span><div><strong>Clear two defenders</strong><p>Aim carefully. Reload behind cover.</p></div></li><li><span>03</span><div><strong>Reach the bunker</strong><p>Follow your squad toward the bluff.</p></div></li></ol><div class="pillar-tags"><span>Rendering</span><span>Animation</span><span>Collision</span></div></aside>
+    </section>
+
+    <section class="hud" id="hud" hidden aria-label="Mission status">
+      <div class="objective"><p class="eyebrow" id="objectiveStage">BEACH ADVANCE</p><h2 id="objectiveText">Move toward the bunker</h2><p><span id="distance">100</span> m to objective <span class="dot-divider">·</span> <span id="defenders">2</span> defenders remaining</p><div class="objective-progress"><i id="progress"></i></div></div>
+      <div class="crosshair" id="crosshair" aria-hidden="true"><i></i><i></i><i></i><i></i><span></span></div>
+      <div class="hit-marker" id="hitMarker" aria-hidden="true">×</div>
+      <div class="damage-wash" id="damageWash" aria-hidden="true"></div>
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+      <div class="bottom-hud"><div class="vitals"><span class="eyebrow">CONDITION</span><div><strong id="health">100</strong><span id="stance">STANDING</span></div><div class="health-track" role="progressbar" aria-label="Health" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" id="healthBar"><i id="healthFill"></i></div></div><div class="field-notes"><span><kbd>R</kbd> Reload</span><span><kbd>C</kbd> Crouch</span><span><kbd>Esc</kbd> Pause</span></div><div class="ammunition"><span class="eyebrow">SERVICE RIFLE</span><div><strong id="ammo">08</strong><span>/ <b id="reserve">64</b></span></div><small id="weaponState">READY</small><div class="reload-track"><i id="reloadFill"></i></div></div></div>
+      <button id="pauseButton" class="pause-button">Pause</button>
+      <div class="touch-controls" aria-label="Touch controls"><div class="dpad"><button data-move="forward" aria-label="Move forward">↑</button><button data-move="left" aria-label="Move left">←</button><button data-move="back" aria-label="Move backward">↓</button><button data-move="right" aria-label="Move right">→</button></div><div class="touch-actions"><button id="touchAim">Aim</button><button id="touchReload">Reload</button><button id="touchFire">Fire</button></div></div>
+    </section>
+
+    <aside class="settings" id="settings" hidden aria-label="Scene settings"><div class="settings-title"><h2>Scene settings</h2><button id="closeSettings" aria-label="Close scene settings">×</button></div><p>Compare the light and surface treatment.</p><label class="slider-label" for="wetness">Wet sand <output id="wetnessValue">75%</output></label><input id="wetness" type="range" min="0" max="100" value="75"><label class="switch"><input type="checkbox" id="fog" checked><span>Coastal haze</span></label><label class="switch"><input type="checkbox" id="shadows" checked><span>Shadows</span></label><label class="switch"><input type="checkbox" id="sound" checked><span>Sound effects</span></label><div class="performance"><span>Live frame rate</span><strong id="fps">—</strong></div><p class="settings-note">Procedural 3D browser mockup. The final semester project will use Unreal Engine.</p></aside>
+    <footer class="footer" id="footer"><span>YUPU GUO · YUQI PU · JINGDI WU</span><span>CS549 <i>/</i> INTERACTIVE MOCKUP</span></footer>
+    <div id="error" class="error" role="alert" hidden><h2>The 3D scene could not start.</h2><p id="errorText">Open this demo in a desktop browser with WebGL 2 enabled.</p></div>
+    <noscript><div class="error">Enable JavaScript to play this concept.</div></noscript>
+  </main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "source": "RifleHero01.blend",
+  "reference": "HistoricalReference/images/weapons/us_garand_carbine.png; S02",
+  "status": "exterior silhouette study; exact variant and animation not approved",
+  "muzzle_cm": [
+    69,
+    0,
+    2.5
+  ],
+  "meshes": [
+    {
+      "name": "SM_Rifle_Wood_Hero01",
+      "triangles": 2740,
+      "bounds_cm": [
+        88.0,
+        4.5,
+        13.149999618530273
+      ]
+    },
+    {
+      "name": "SM_Rifle_Steel_Hero01",
+      "triangles": 10432,
+      "bounds_cm": [
+        108.34999084472656,
+        5.670000076293945,
+        15.605189323425293
+      ]
+    }
+  ]
+}

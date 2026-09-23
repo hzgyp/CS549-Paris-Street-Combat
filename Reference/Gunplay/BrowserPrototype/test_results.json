@@ -1,0 +1,54 @@
+{
+  "suite": "Normandy FPS simulation",
+  "passed": 12,
+  "results": [
+    {
+      "name": "Fresh state is independent, serializable and has the intended small encounter",
+      "status": "PASS"
+    },
+    {
+      "name": "Ready and paused states freeze movement, combat, reload and elapsed time",
+      "status": "PASS"
+    },
+    {
+      "name": "Sprint collision stops before thin cover and diagonal input slides alongside it",
+      "status": "PASS"
+    },
+    {
+      "name": "Diagonal movement is normalized and crouching changes speed and eye height",
+      "status": "PASS"
+    },
+    {
+      "name": "Nearest cover blocks rifle shots and LOS; visible targets take two hits",
+      "status": "PASS"
+    },
+    {
+      "name": "Shooting removes only the destructible cover and opens movement plus visibility",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload and fire cooldown cannot create ammunition or permit firing early",
+      "status": "PASS"
+    },
+    {
+      "name": "Terrain blocks a shot into the bluff and rays choose the nearest defender",
+      "status": "PASS"
+    },
+    {
+      "name": "Cover protects the crouching player from enemy fire",
+      "status": "PASS"
+    },
+    {
+      "name": "Authored ally route is traversable and allies eventually reach the objective",
+      "status": "PASS"
+    },
+    {
+      "name": "Mission requires both defenders; a scripted movement-and-shooting run can win",
+      "status": "PASS"
+    },
+    {
+      "name": "A longer western flank also reaches both defenders and wins under live fire",
+      "status": "PASS"
+    }
+  ]
+}

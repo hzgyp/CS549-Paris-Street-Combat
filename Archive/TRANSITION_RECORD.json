@@ -1,0 +1,16 @@
+{
+  "transition_date": "2026-09-22",
+  "active_project": "Paris Street Combat",
+  "active_workspace": "D:\\0.Rutgers\\CS549\\Project-New",
+  "new_repository": "https://github.com/hzgyp/CS549-Paris-Street-Combat",
+  "new_repository_visibility": "private",
+  "old_local_archive": "D:\\0.Rutgers\\CS549\\Project",
+  "old_repository": "https://github.com/hzgyp/CS549-Normandy-Sim",
+  "old_baseline_commit": "7cadd764e565c2da160c935acddd8f333ef289b5",
+  "old_closure_commit": "ccc4e9d2609508a4b82935403d6503093238a5d7",
+  "old_remote_archived": false,
+  "archive_status": "closure snapshot pushed before remote archive; awaiting new repository push",
+  "city_policy": "organized working copy local; vendor Content excluded from Git; entitled restoration required",
+  "legacy_policy": "source preserved in place; selected history/gunplay copied with hashes; all former plans inactive",
+  "validation": "documentation/layout and source-control organization only; detailed runtime checks deferred"
+}

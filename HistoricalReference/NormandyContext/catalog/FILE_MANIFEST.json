@@ -1,0 +1,192 @@
+[
+  {
+    "file": "archive/fm23_95_75mm_1942.pdf",
+    "bytes": 7259647,
+    "sha256": "ec5d1f3d96d544f110407a30758aa0a2a058123a2044474c4bc9d28fa6291cfb"
+  },
+  {
+    "file": "archive/german_handbook_1945.pdf",
+    "bytes": 86572532,
+    "sha256": "dfa9fd6f83d12beadcd3c10c7460ad46c189b665181809b0b77c66e532f25b36"
+  },
+  {
+    "file": "archive/metoffice_19440606_1300utc.pdf",
+    "bytes": 6072008,
+    "sha256": "2b1f4cb6ab4087f40940c09bfa8fddd561c069e70019dc8f2072a566a26fd816"
+  },
+  {
+    "file": "archive/metoffice_dday_factsheet.pdf",
+    "bytes": 1957759,
+    "sha256": "751032f196aa34cf846d4c8d9eb4becf6a2b7cadb173a52d220fada193805fdf"
+  },
+  {
+    "file": "archive/us_uniform_survey.pdf",
+    "bytes": 7643543,
+    "sha256": "408b3f7da9f1e0cc31f5e38170ced7e8bd00fada675460b8d27c9121d30a1dff"
+  },
+  {
+    "file": "images/aircraft/b26_invasion_stripes.jpg",
+    "bytes": 17629,
+    "sha256": "02f5aa716e99861bceed21ed9fe68b2b392e58ab40bb355e23c593d4c9dd7a6a"
+  },
+  {
+    "file": "images/aircraft/fw190a_captured_shape_only.jpg",
+    "bytes": 7369756,
+    "sha256": "e95b4687c520a70227fbc1e09d84ab2f202db3f16e48647ff914ea3ed6d7529c"
+  },
+  {
+    "file": "images/beach/easy_red_bluffs.jpg",
+    "bytes": 42548,
+    "sha256": "1a6b47517d1f41b87a27072f96e655dcc4ec8f5f0ac0a7f6248d9292f71c94e8"
+  },
+  {
+    "file": "images/beach/omaha_landing_visibility.jpg",
+    "bytes": 43325,
+    "sha256": "7870bb433c4a865b138aca081654ae8e58549c8e0f78d7cfdac0825d4e3e4267"
+  },
+  {
+    "file": "images/beach/omaha_sector_map.jpg",
+    "bytes": 255099,
+    "sha256": "d1501b57cc195bcf46a9662655b4c8b612feecfc16ac5b86d773c47fc68775ef"
+  },
+  {
+    "file": "images/beach/shingle_embankment.jpg",
+    "bytes": 66044,
+    "sha256": "34422b94a0a83a8f942a5ed2788cd7f8fba0315d36080814db23a89423c72dde"
+  },
+  {
+    "file": "images/beach/tidal_flat_19440519.jpg",
+    "bytes": 39400,
+    "sha256": "0a69d9d7610c2beb98c58faea6ed0bf3d3716f74e251b8400138738be074a23f"
+  },
+  {
+    "file": "images/beach/vierville_flanking_pillbox.jpg",
+    "bytes": 56260,
+    "sha256": "65da152ade016691759da8a41f78e8d6bb30354f263297a611faebd8bc6a5903"
+  },
+  {
+    "file": "images/ranks/british_officer_rank_chart_1943.jpg",
+    "bytes": 2102296,
+    "sha256": "68d197439a426578fdb3f9cc177682ba0059b7610dec865ef624b7f0224a51cf"
+  },
+  {
+    "file": "images/ranks/heer_branch_colors.png",
+    "bytes": 195548,
+    "sha256": "c8a2a33dc6447ff894c3b9d5b52ded76bcbda86794dc8bd0511a65c04e05f6cb"
+  },
+  {
+    "file": "images/ranks/heer_enlisted_ranks.png",
+    "bytes": 183637,
+    "sha256": "0c4857094d6e785e43b3ef079b9f7c01fddd356c278daaf2e714e6417891868e"
+  },
+  {
+    "file": "images/ranks/heer_officer_nco_ranks.png",
+    "bytes": 203585,
+    "sha256": "867a83c3ddc0c019cb21bf969a24fdcf44899d47be2637ed83113a2a88fa90bf"
+  },
+  {
+    "file": "images/ranks/us_officer_rank_chart_1943.jpg",
+    "bytes": 1586714,
+    "sha256": "9776a8efbfc86ea28f1e557b5fa622fe33637f31efc0db4bc15c96f6d4750d1d"
+  },
+  {
+    "file": "images/ranks/us_wwii_rank_chart.png",
+    "bytes": 1499323,
+    "sha256": "12ab9eb9387ae72bda3e94284a303e4a984fd4cfab37774c290b275b2d001044"
+  },
+  {
+    "file": "images/uniforms/british_1944_recognition.jpg",
+    "bytes": 113931,
+    "sha256": "f67b933d364c70044b6a503cf8e30b3f3812a6ea378846a9f346ddd0e365ee10"
+  },
+  {
+    "file": "images/uniforms/heer_field_uniform.png",
+    "bytes": 118348,
+    "sha256": "aa94817835d94e6cc69a60f7255595cf19fa28df5df3167166eef1914258eb55"
+  },
+  {
+    "file": "images/uniforms/heer_officer_and_specialists.png",
+    "bytes": 148476,
+    "sha256": "bed4f710363d257635b2d4f3198256ca772dd5e3a57864d49d50525bdb5feb11"
+  },
+  {
+    "file": "images/uniforms/us_equipment_temporal_check.png",
+    "bytes": 895520,
+    "sha256": "ad5b6684f053ce8a96974ac9e84d72f8a07200478f9224232cb46081ac6a63c7"
+  },
+  {
+    "file": "images/uniforms/us_field_jackets.png",
+    "bytes": 862311,
+    "sha256": "3cc786dbd51afcede8e6daa93c71b003292a62345c7162763255209bfb83d839"
+  },
+  {
+    "file": "images/uniforms/us_helmet_and_specialist_clothing.png",
+    "bytes": 755343,
+    "sha256": "958e95846bdbeaad3f5883f61ee50d5befa2eed4888552f24cda635c21e51632"
+  },
+  {
+    "file": "images/uniforms/us_web_equipment.png",
+    "bytes": 665212,
+    "sha256": "57a77a7169215bd4938be33c8fe696dbeefd611fc889e879e8d1a1fe7288c36c"
+  },
+  {
+    "file": "images/vehicles/german_panther_tiger_reference.png",
+    "bytes": 337001,
+    "sha256": "82ede910b5f49c81091f064236dd9d090ea0497c904ac3eb83e2c2ad67620a25"
+  },
+  {
+    "file": "images/vehicles/sherman_omaha_19440606.jpg",
+    "bytes": 5217924,
+    "sha256": "cc34a6799a92f444c3431cb205c22ac42522bba5a636c7e8b2af4f3e5dc0dd1b"
+  },
+  {
+    "file": "images/weapons/captured_76mm_emplacement.jpg",
+    "bytes": 116899,
+    "sha256": "850d08389f5b1841d8fda1a6428d527671a9f4e738a5c5ca5f7a43671df184cc"
+  },
+  {
+    "file": "images/weapons/german_81mm_mortar.png",
+    "bytes": 229223,
+    "sha256": "d0676da450ac2d4e81d5cacc4f844b54f58586f1e4ad27b99edf6d45cf176edf"
+  },
+  {
+    "file": "images/weapons/german_rifle_reference.png",
+    "bytes": 166464,
+    "sha256": "3a312d693932d0d99a0744c3155be7cc06144e8368b168a89175f121cd71d30c"
+  },
+  {
+    "file": "images/weapons/german_submachine_guns.png",
+    "bytes": 164979,
+    "sha256": "ba9cbc4a46598407226687d633cef916e6c313c4bf3c0fbcb0d475e6f7727100"
+  },
+  {
+    "file": "images/weapons/mg34_mg42.png",
+    "bytes": 125105,
+    "sha256": "8147a6150987a8cac5c5788ea56b0013b57feb8e010d2f364598886c1f87cd82"
+  },
+  {
+    "file": "images/weapons/us_75mm_m48_external.png",
+    "bytes": 35528,
+    "sha256": "72a3e9a142244b2a5d6bdbe097e6ad2bb73904e0be762d95509442bb06c2a905"
+  },
+  {
+    "file": "images/weapons/us_carbine_variants.png",
+    "bytes": 558961,
+    "sha256": "32b72a763c8bb83c6814d39bca8b19006a90dd950314bf9b9ac1b814da4c6fe9"
+  },
+  {
+    "file": "images/weapons/us_garand_carbine.png",
+    "bytes": 646242,
+    "sha256": "df7935d93a213cd3e0b53646c027c8b760fba8b99db8bccaaeca33deec42776f"
+  },
+  {
+    "file": "images/weapons/us_rifle_comparison.png",
+    "bytes": 699445,
+    "sha256": "1d5fa400927fcd0b58f5650bc4642eb8d2bb7958aae2bde02fabff11ca007041"
+  },
+  {
+    "file": "images/weather/metoffice_19440606_1300utc.png",
+    "bytes": 5910640,
+    "sha256": "a110157c1f96624acb05fae932db1ce7edd260e98f74758cd4eb36e5593ac2d8"
+  }
+]

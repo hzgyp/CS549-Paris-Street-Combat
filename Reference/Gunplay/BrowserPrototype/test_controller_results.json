@@ -1,0 +1,47 @@
+{
+  "suite": "FPS controller with DOM/API stubs and real simulation",
+  "passed": 10,
+  "limitations": "No native DOM, browser input dispatch, audio, WebGL, GPU or visual-layout validation.",
+  "results": [
+    {
+      "name": "All controller DOM ids exist; initial scene, controls and rendering initialize",
+      "status": "PASS"
+    },
+    {
+      "name": "Begin captures mouse; WASD/shift move; mouse/arrows aim; C/F update stance",
+      "status": "PASS"
+    },
+    {
+      "name": "Mouse and Space fire real ammo; reload blocks shots until completion",
+      "status": "PASS"
+    },
+    {
+      "name": "Escape and pointer unlock pause; resume clears held inputs; restart rebuilds state",
+      "status": "PASS"
+    },
+    {
+      "name": "Settings pause safely and send wetness, haze and shadow values to renderer",
+      "status": "PASS"
+    },
+    {
+      "name": "Drag and tap fallback work without pointer lock; touch movement, aim and fire work",
+      "status": "PASS"
+    },
+    {
+      "name": "Defender-hit events update mission messages and destroyed-cover events display",
+      "status": "PASS"
+    },
+    {
+      "name": "Real death and win transitions display correct briefing and restart actions",
+      "status": "PASS"
+    },
+    {
+      "name": "FPS uses actual frame interval, while simulation remains capped for slow frames",
+      "status": "PASS"
+    },
+    {
+      "name": "Initialization failure presents the visible error state",
+      "status": "PASS"
+    }
+  ]
+}

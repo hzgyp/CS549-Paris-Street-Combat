@@ -1,0 +1,17 @@
+{
+  "units": "cm",
+  "status": "original provisional silhouette study; not a dimensionally approved M1 reconstruction",
+  "reference": "HistoricalReference/images/weapons/us_garand_carbine.png",
+  "meshes": [
+    {
+      "file": "SM_Rifle_SteelStudy.obj",
+      "triangles": 152,
+      "sha256": "cf881751fe8458b6686be917137ca9faf68347a033d36c9ed49e3e76487d0ef8"
+    },
+    {
+      "file": "SM_Rifle_WoodStudy.obj",
+      "triangles": 92,
+      "sha256": "2f20ab15095c1661263d1f4c2dd437bd79ee25a8d6b91b4e91082e915a638bfe"
+    }
+  ]
+}

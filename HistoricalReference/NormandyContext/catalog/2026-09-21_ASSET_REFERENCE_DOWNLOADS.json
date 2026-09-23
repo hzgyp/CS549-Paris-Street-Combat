@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.archives.gov/research/still-pictures/highlights/into-the-jaws-of-death",
+    "local": "archive/pages/nara_into_jaws_of_death.html",
+    "sha256": "8fbab9f42ee2ea4db2f61e3e6cb6504e9b3a016bd8df58b1af9fbdf3eb49eca7",
+    "accessed": "2026-09-21"
+  },
+  {
+    "url": "https://www.nationalww2museum.org/war/articles/louisiana-landing-craft-higgins-boat-d-day",
+    "local": "archive/pages/ww2museum_lcvp_lcm.html",
+    "sha256": "6f18af16898d63690456a5b51a28ac959cc7204930af24f75ff79ea36f518bba",
+    "accessed": "2026-09-21"
+  },
+  {
+    "url": "https://polyhaven.com/a/coast_sand_01",
+    "local": "archive/pages/polyhaven_coast_sand_01.html",
+    "sha256": "7e9daea0f1af231a22a282b6bc75e68b841608e3b99e40391bca52d096956ec9",
+    "accessed": "2026-09-21"
+  },
+  {
+    "url": "https://polyhaven.com/a/coast_sand_rocks_02",
+    "local": "archive/pages/polyhaven_coast_sand_rocks_02.html",
+    "sha256": "d3ea3feb953b6fa795737d921fd032a3199fd8ad731cdb2f0149ac617288425b",
+    "accessed": "2026-09-21"
+  },
+  {
+    "url": "https://polyhaven.com/a/sand_rocks_small_01",
+    "local": "archive/pages/polyhaven_sand_rocks_small_01.html",
+    "sha256": "fea526c5b78c56c5aa20e07d8a245f568af4f7b08532f640f5fb8209836c2095",
+    "accessed": "2026-09-21"
+  },
+  {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_diff_1k.jpg",
+    "local": "Assets/Source/ThirdParty/PolyHaven/coast_sand_01/coast_sand_01_diff_1k.jpg",
+    "sha256": "58af2e40100f7f405703a86d593af64379f822c4786850def23ecfc921450d54",
+    "license": "CC0",
+    "author": "Rob Tuytel / Poly Haven",
+    "purpose": "material input; not Omaha historical evidence",
+    "accessed": "2026-09-21"
+  },
+  {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_nor_dx_1k.jpg",
+    "local": "Assets/Source/ThirdParty/PolyHaven/coast_sand_01/coast_sand_01_nor_dx_1k.jpg",
+    "sha256": "8b34a218c1422bff76b434fa4f8af915b87c9c1141e25b4a895dd42575b67121",
+    "license": "CC0",
+    "author": "Rob Tuytel / Poly Haven",
+    "purpose": "material input; not Omaha historical evidence",
+    "accessed": "2026-09-21"
+  },
+  {
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_rough_1k.jpg",
+    "local": "Assets/Source/ThirdParty/PolyHaven/coast_sand_01/coast_sand_01_rough_1k.jpg",
+    "sha256": "cbc3e0bf2214e04318a643c9dc81f50f33cc5f7b935a20016c5d9efd9a6d1696",
+    "license": "CC0",
+    "author": "Rob Tuytel / Poly Haven",
+    "purpose": "material input; not Omaha historical evidence",
+    "accessed": "2026-09-21"
+  }
+]

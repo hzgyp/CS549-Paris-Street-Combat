@@ -1,0 +1,37 @@
+# Licensed vendor content stays local; restore from an entitled source.
+/WW2FranceLiberation---Version*/
+/Unreal/ParisStreetCombat/Content/WW2City/
+/Unreal/ParisStreetCombat/Content/__ExternalActors__/
+/Unreal/ParisStreetCombat/Content/__ExternalObjects__/
+/Unreal/ParisStreetCombat/Content/Collections/
+/Unreal/ParisStreetCombat/Content/Developers/
+/Assets/LocalVendor/
+
+# Unreal generated output and local credentials/tool state
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.temp
+*.blend1
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+.env
+.env.*
+*.pem
+*.key
+Thumbs.db
+.DS_Store
+~$*
+/tmp/
+/output/qa/

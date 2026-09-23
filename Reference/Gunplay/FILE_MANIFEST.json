@@ -1,0 +1,398 @@
+{
+  "source_commit": "7cadd764e565c2da160c935acddd8f333ef289b5",
+  "dependency_closure": "not guaranteed; candidates outside active Content",
+  "files": [
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Blueprints\\Player\\BP_NormandyPlayerCharacter.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Blueprints/Player/BP_NormandyPlayerCharacter.uasset",
+      "bytes": 555370,
+      "sha256": "ec7adfca236b4cfd17b0b249f0adc02f3c2f7708dde39ef86b7b569297ab8f4f",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Blueprints\\Player\\BP_WeaponComponent.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Blueprints/Player/BP_WeaponComponent.uasset",
+      "bytes": 196373,
+      "sha256": "093d42ccf4c54bd53766df76fa640f95098649ddfed3e4c17b792e20a5b08f8a",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Meshes\\RifleHero01\\SM_Rifle_Steel_Hero01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Meshes/RifleHero01/SM_Rifle_Steel_Hero01.uasset",
+      "bytes": 403325,
+      "sha256": "815ff9bc30df3348656cf2bc4b4c6de827a75576a8e044c5101ae2388c165085",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Meshes\\RifleHero01\\SM_Rifle_Wood_Hero01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Meshes/RifleHero01/SM_Rifle_Wood_Hero01.uasset",
+      "bytes": 215375,
+      "sha256": "66079985ebbf83c14b8f3d5b16df068770fec2db6bad3f0f314b9da092e753aa",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Meshes\\Weapons\\SM_Rifle_SteelStudy.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Meshes/Weapons/SM_Rifle_SteelStudy.uasset",
+      "bytes": 14026,
+      "sha256": "6e12d873d792b732c1170ac2d57227b38da8a69d5f60b02c87d369bb683ce1f3",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Meshes\\Weapons\\SM_Rifle_WoodStudy.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Meshes/Weapons/SM_Rifle_WoodStudy.uasset",
+      "bytes": 13372,
+      "sha256": "18bfdd3ceab0adf30c0030899022602836c9285d1df8f486913dc52fcd882446",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattlePlayer01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattlePlayer01.uasset",
+      "bytes": 112801,
+      "sha256": "8800bd10fd64f98d2292e32cb7c87a21b6d12b5d887f523e25a24218cdfa27f2",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattleMode01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleMode01.uasset",
+      "bytes": 28597,
+      "sha256": "63ab4b302047a3036871607dc2a715a7d862758dc751244e662441f0f452facf",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattleHUD01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleHUD01.uasset",
+      "bytes": 183339,
+      "sha256": "f29a799f5594fb5bb4693d89aa3aeec4e84a5fce637593400cc197602ce70e7e",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattleTracer01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleTracer01.uasset",
+      "bytes": 36415,
+      "sha256": "ea77ecf95ce10504ac3adeea0dd35bdc04a7b9cd0064c9cf1a08294289477e12",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattleImpact01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleImpact01.uasset",
+      "bytes": 132747,
+      "sha256": "e1a51ce4096d81f2b36c08a1a852a42d128e8c975ed26cdafad83cae25800a34",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_MGEmplacement01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_MGEmplacement01.uasset",
+      "bytes": 322314,
+      "sha256": "fe8f3e11b323b5fba458f74f5b242e90ebdaedd0e452f66da1ecd1e396b3bbcf",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\ATT_Battlefield.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/ATT_Battlefield.uasset",
+      "bytes": 1434,
+      "sha256": "28a0ced2b9d20b938094cf26a7fa4eef0cbd2bdd886d5690b5e079fe9d00a72b",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\S_MGBurstShot.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/S_MGBurstShot.uasset",
+      "bytes": 25974,
+      "sha256": "0c00b7eab4b48497e7bc93cc4f35eb69a039fea03f80149bc797b66c29a5c7dd",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\S_DirtImpact.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/S_DirtImpact.uasset",
+      "bytes": 14438,
+      "sha256": "31e954b96c288601bf3f9309bccbe065e984df0e3950d16064b5643268c1ef55",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\M_Tracer.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Tracer.uasset",
+      "bytes": 11079,
+      "sha256": "320e74ac85eeeded06d09ce3943424cdc7d109ee40cff49877a8ceefa7e31514",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\M_Flash.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Flash.uasset",
+      "bytes": 11172,
+      "sha256": "ff7d3a85a9d01395273fef044ade4dd7256cded6125098a974c820d2834975df",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\M_Dust.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Dust.uasset",
+      "bytes": 10084,
+      "sha256": "2c4c4c72a15e5aff50e0f3aae5587408ca3e09a0c050c36509ddffd2ea17b380",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\manifest.json",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/manifest.json",
+      "bytes": 638,
+      "sha256": "6b29264ef25d536ecf80b289af2d4ad6ecd3587aea90ed2b407a5e78e85affcf",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\materials.json",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/materials.json",
+      "bytes": 1710,
+      "sha256": "04d18bf49aa8569b32b45ef367d1e7d7453245162a626d5d7b0a12305c9f522d",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\README.md",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/README.md",
+      "bytes": 1265,
+      "sha256": "cd31618e8066b3197a13ede9e6fb126a11e29adb45ad974316ae54cdb6529c11",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\RifleHero01.blend",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/RifleHero01.blend",
+      "bytes": 776203,
+      "sha256": "9237ebf2839ee2304fb9d8a43b61119ab05fa4a8222f29c71e053ccd0e7dffe2",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\RifleHero01.blend1",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/RifleHero01.blend1",
+      "bytes": 776203,
+      "sha256": "40b7511a4356ceeb5608153639dc56a94322e4d635cca2a150cedb177830ba19",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\SM_Rifle_Steel_Hero01.fbx",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/SM_Rifle_Steel_Hero01.fbx",
+      "bytes": 223468,
+      "sha256": "31715bc8c96aa7bc402af05f6c1dca3408cd0ce0f05c2b057e56efb2479306f7",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\SM_Rifle_Wood_Hero01.fbx",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/SM_Rifle_Wood_Hero01.fbx",
+      "bytes": 77676,
+      "sha256": "1af41a4e9b4d8385e00a0f91ab03f11678a111729782be949fe02f8453fb7aff",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RiflePrototype\\manifest.json",
+      "destination": "Reference/Gunplay/SourceAssets/RiflePrototype/manifest.json",
+      "bytes": 551,
+      "sha256": "99bfefa0ba2517c6e6ead72e3c33167b8c40ee18973193988cc5952ad79d1942",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RiflePrototype\\README.md",
+      "destination": "Reference/Gunplay/SourceAssets/RiflePrototype/README.md",
+      "bytes": 1123,
+      "sha256": "d0f2547a4c1a518c66b7b2fe2ce6bb668e4c0ec8f265d08a7bf0b65abb8bea75",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RiflePrototype\\SM_Rifle_SteelStudy.obj",
+      "destination": "Reference/Gunplay/SourceAssets/RiflePrototype/SM_Rifle_SteelStudy.obj",
+      "bytes": 16855,
+      "sha256": "cf881751fe8458b6686be917137ca9faf68347a033d36c9ed49e3e76487d0ef8",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RiflePrototype\\SM_Rifle_WoodStudy.obj",
+      "destination": "Reference/Gunplay/SourceAssets/RiflePrototype/SM_Rifle_WoodStudy.obj",
+      "bytes": 10284,
+      "sha256": "2f20ab15095c1661263d1f4c2dd437bd79ee25a8d6b91b4e91082e915a638bfe",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Docs\\prototype\\app.js",
+      "destination": "Reference/Gunplay/BrowserPrototype/app.js",
+      "bytes": 16538,
+      "sha256": "4b00b9edfc89f149b547457f267d42d5e4f80cc5022290ee2b049814e2d4e231",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\engine.js",
+      "destination": "Reference/Gunplay/BrowserPrototype/engine.js",
+      "bytes": 16597,
+      "sha256": "f1387437aba8dddd2fabf65af62b83f52aca29cb2ca2c24b722eb6252290e5fb",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\index.html",
+      "destination": "Reference/Gunplay/BrowserPrototype/index.html",
+      "bytes": 7522,
+      "sha256": "c9f5d21c6e9d6c891cc8e9a5e790b913cdf859f52e9022dd6eafc04c71cadf02",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\public\\og.png",
+      "destination": "Reference/Gunplay/BrowserPrototype/public/og.png",
+      "bytes": 2219924,
+      "sha256": "14b99083b8412bf0c9e1fe8b7157ff317adbf899a6998d78f30fff07e9d718fc",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\public\\PROVENANCE.md",
+      "destination": "Reference/Gunplay/BrowserPrototype/public/PROVENANCE.md",
+      "bytes": 2718,
+      "sha256": "936dbb311deeff1c8369d5c208de72281387f0b80e3cd53786255dd0fe8e56d1",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\README.md",
+      "destination": "Reference/Gunplay/BrowserPrototype/README.md",
+      "bytes": 5710,
+      "sha256": "b7cee41b9acc3c22a61b7de63f8f448b876637c7b6a6afdfe9726f7bf684dca2",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\scene.js",
+      "destination": "Reference/Gunplay/BrowserPrototype/scene.js",
+      "bytes": 36240,
+      "sha256": "7ab683798529eb34a378478cf088d5437598086f1fdfdbdcfe0740c4426ff9b6",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\serve.py",
+      "destination": "Reference/Gunplay/BrowserPrototype/serve.py",
+      "bytes": 2326,
+      "sha256": "14ca20ea85e7bbfcb1ac9225eedc9386e60d41e980f27bc16e1089d0b1b84e99",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\style.css",
+      "destination": "Reference/Gunplay/BrowserPrototype/style.css",
+      "bytes": 12480,
+      "sha256": "94576633e8654ca593e513a0de6a36afffd165ea21359c5729e3fcc615b661a2",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\test_controller.cjs",
+      "destination": "Reference/Gunplay/BrowserPrototype/test_controller.cjs",
+      "bytes": 11783,
+      "sha256": "3e36001e70caa71db7bbd77367d6433d8410165b5bbab02d447bfae3c5130840",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\test_controller_results.json",
+      "destination": "Reference/Gunplay/BrowserPrototype/test_controller_results.json",
+      "bytes": 1544,
+      "sha256": "a07e98cac8d2d10450b70f43202b8a167b5c4e5e8c757a19315aa78d9e031f93",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\test_engine.cjs",
+      "destination": "Reference/Gunplay/BrowserPrototype/test_engine.cjs",
+      "bytes": 8928,
+      "sha256": "5b91650b9ef01079665ca87bbb8b0e6f339f4434c44454c38cbc605d28a61a27",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\test_results.json",
+      "destination": "Reference/Gunplay/BrowserPrototype/test_results.json",
+      "bytes": 1654,
+      "sha256": "c39d51503ff29e455b59a1e61d5779cfb737b295ec41b11bc66b6bf74e6ad514",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\vendor\\THREE-LICENSE.txt",
+      "destination": "Reference/Gunplay/BrowserPrototype/vendor/THREE-LICENSE.txt",
+      "bytes": 1102,
+      "sha256": "df2a91696186fe58c92518a25d48bc59c8ee2edc7cac9ca6d19a5a0d599a2a05",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\vendor\\three.js",
+      "destination": "Reference/Gunplay/BrowserPrototype/vendor/three.js",
+      "bytes": 2084398,
+      "sha256": "14e14d7fd5caf428069fed095464dee0e69b8cccdd79213d0ff00630e5277177",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g0_weapon_component.py",
+      "destination": "Reference/Gunplay/Scripts/build_g0_weapon_component.py",
+      "bytes": 10603,
+      "sha256": "a31f701ade9490ec11bed903b8dbb91e33d5a75c8a421d88cd13315a7b067ed2",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g0_player_character.py",
+      "destination": "Reference/Gunplay/Scripts/build_g0_player_character.py",
+      "bytes": 1687,
+      "sha256": "7ce18b2b08b299b9ab6a0476e688c000191d5557c733605d0849ec4468ad6eaf",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g0_player_actions.py",
+      "destination": "Reference/Gunplay/Scripts/build_g0_player_actions.py",
+      "bytes": 1655,
+      "sha256": "93433a3d7dd565d195c4c9d3c1191f1dc62f5180a791914256d625c880bb5903",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g1_weapon.py",
+      "destination": "Reference/Gunplay/Scripts/build_g1_weapon.py",
+      "bytes": 13965,
+      "sha256": "c7c46b84f1acc785780344468250cb28f8b7a5fcb9d1d2183a5ad17efc6bd385",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g1_weapon_probe.py",
+      "destination": "Reference/Gunplay/Scripts/build_g1_weapon_probe.py",
+      "bytes": 3811,
+      "sha256": "eed48675378869c4534b2a538dc09d644a2ea80c185f605ca4ee1a575d0a9fcb",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\connect_battle_weapon.py",
+      "destination": "Reference/Gunplay/Scripts/connect_battle_weapon.py",
+      "bytes": 281,
+      "sha256": "c3fa02fb99e91dd96b6a7958cf2ffcfae0164579bbf996ff4340a38026772a7f",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_battlefield_combat.py",
+      "destination": "Reference/Gunplay/Scripts/build_battlefield_combat.py",
+      "bytes": 7664,
+      "sha256": "8dcb6faba84c8b2505d64a4d43655b7293b4a57b9b8e999386c83df6c5491ff2",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\check_player_hit_channel.py",
+      "destination": "Reference/Gunplay/Scripts/check_player_hit_channel.py",
+      "bytes": 523,
+      "sha256": "587d1410bf89b014abcaa88f8040b0d48af815367d68b2f8226045cd934cbbf9",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\check_battle_interaction.py",
+      "destination": "Reference/Gunplay/Scripts/check_battle_interaction.py",
+      "bytes": 2679,
+      "sha256": "7c2d9106f32d796b8eddf376b06f4ee3b6d1ad2d8d02f135202f77e25659737b",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\g1_graph.py",
+      "destination": "Reference/Gunplay/Scripts/g1_graph.py",
+      "bytes": 3582,
+      "sha256": "5d26bdb292ff07f9faabb48ac86b94f7f8829fd425797fe46001c95bee78e96a",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\battlefield_common.py",
+      "destination": "Reference/Gunplay/Scripts/battlefield_common.py",
+      "bytes": 4616,
+      "sha256": "5db54bffb40061c1627548f4eb8637a703e0f6e632cb056c7dfd0eb5000468c5",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_first_asset_kit.py",
+      "destination": "Reference/Gunplay/Scripts/build_first_asset_kit.py",
+      "bytes": 13491,
+      "sha256": "d218919d169cac74988bf689286e690cfe90bc93a836a19ada344ed916654714",
+      "role": "inactive-script-reference"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+id,source_id,work,work_year,source_kind,url,locator,review_status,local_media,limitation
+R01,S34,Saving Private Ryan,1998,dramatized_film,https://www.youtube.com/watch?v=g_cCSWBo4cA,"00:17;01:21;03:38",selected_frames_visually_inspected,false,"High-Def Digest upload; approximate upload-relative times; no full sequence/audio review or reusable asset license"
+R01K,S34,Saving Private Ryan,1998,academic_scene_catalog,https://kinolab.org/FilmClip.php?id=3714,Omaha Beach Invasion,metadata_read_playback_signin_required,false,"Catalog only; not a substitute for inspected footage"
+R02,S35,The Longest Day,1962,studio_title_catalog,https://www.20thcenturystudios.com/movies/the-longest-day,,catalog_only,false,"Scene review pending; distinguish Omaha from other beaches"
+R03,S37,Call of Duty WWII,2017,original_publisher_gameplay_recording,https://www.youtube.com/watch?v=V5zhW8X881A,"00:06;03:20;05:00",selected_frames_visually_inspected,false,"VentureBeat recording linked by GamesBeat; game staging not historical proof"
+R03P,S36,Call of Duty WWII,2017,publisher_announcement,https://blog.activision.com/call-of-duty/archives/announcing-call-of-duty-wwii,Normandy campaign,article_read,false,"Setting confirmation only"
+R04,S38,Medal of Honor Allied Assault,2002,publisher_product_catalog,https://www.ea.com/games/medal-of-honor/medal-of-honor-allied-assault-war-chest?isLocalized=true,Omaha campaign,catalog_only,false,"Gameplay observations pending; no assets acquired"
+H01,S01,Omaha Beachhead,1945,official_retrospective_history,https://www.ibiblio.org/hyperwar/USA/USA-A-Omaha/USA-A-Omaha-3.html,"printed pp.41;43-45;47-49",text_reviewed,true,"Existing local omaha3.html; circumstances differ by sector and wave"
+H02,S27,Into the Jaws of Death,1944,period_photograph,https://www.archives.gov/research/still-pictures/highlights/into-the-jaws-of-death,1944-06-06,previously_collected,true,"Existing local photograph; cannot establish gait timing"

@@ -1,0 +1,10 @@
+id,name,location,origin,role,status,git_policy
+A01,France Liberation city,Unreal/ParisStreetCombat/Content/WW2City,Meshingun Studio/Fab,environment baseline,present; entitlement and runtime checks deferred,local only
+A02,City descriptor and config,Unreal/ParisStreetCombat,local vendor working copy,environment configuration,map/plugin configuration prepared; untested,tracked
+A03,Gunplay Blueprint/script candidates,Reference/Gunplay,Normandy commit 7cadd76,reuse reference,not integrated; not dependency-closed,tracked/LFS
+A04,Prototype rifles,Reference/Gunplay/SourceAssets,team historical studies,placeholder/reference,not final historical or first-person quality acceptance,tracked/LFS
+A05,Browser FPS prototype,Reference/Gunplay/BrowserPrototype,team/Three.js,logic reference,old beach theme; not Paris Unreal evidence,tracked with original license
+A06,Soldier and action set,not yet selected,compatible existing licensed asset required,enemy animation,missing/pending selection,decide by license
+A07,First-person weapon/arms/action set,not yet selected,compatible existing licensed asset required,player animation,missing/pending selection,decide by license
+A08,Normandy source collection,HistoricalReference/NormandyContext,preserved institutional/reference sources,background only,existing rights/caveats preserved,private reference/LFS
+A09,Paris historical sources,HistoricalReference/Paris1944,institutional source links,current history,bounded research gaps recorded,links and catalogs only

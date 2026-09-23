@@ -1,0 +1,1001 @@
+{
+  "source_commit": "7cadd764e565c2da160c935acddd8f333ef289b5",
+  "copy_policy": "preserve old archive; copied useful records to new project",
+  "validation": "file organization and copy hashes only; runtime checks deferred",
+  "files": [
+    {
+      "source": "HistoricalReference\\01_SCOPE_AND_ACCURACY.md",
+      "destination": "HistoricalReference/NormandyContext/01_SCOPE_AND_ACCURACY.md",
+      "bytes": 2956,
+      "sha256": "31788bbff40d1bd2e3ad54689b970c8993134cc9dc08a6d290c779115269c4c1",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\02_UNIFORMS_AND_RANKS.md",
+      "destination": "HistoricalReference/NormandyContext/02_UNIFORMS_AND_RANKS.md",
+      "bytes": 7172,
+      "sha256": "ae97c09c1149680ae6277bcc59720f441020c4cf02c764a669290f5914391634",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\03_WEAPONS_AND_AMMUNITION.md",
+      "destination": "HistoricalReference/NormandyContext/03_WEAPONS_AND_AMMUNITION.md",
+      "bytes": 4844,
+      "sha256": "15912d871711ed27ba6dde7da8234e46232c923cb87cefe7749f890815b1c874",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\04_VEHICLES_AND_AIRCRAFT.md",
+      "destination": "HistoricalReference/NormandyContext/04_VEHICLES_AND_AIRCRAFT.md",
+      "bytes": 4901,
+      "sha256": "a4c0053c0d24399c412c6ea229b7bb91020084beaf246c230fc3b6cbaa531022",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\05_WEATHER_EVIDENCE.md",
+      "destination": "HistoricalReference/NormandyContext/05_WEATHER_EVIDENCE.md",
+      "bytes": 4699,
+      "sha256": "83a11b612e8f4287c798255c08af286b344b8647b4717a6b23d815f1f06bad25",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\06_BLUEPRINT_SPECIFICATION.md",
+      "destination": "HistoricalReference/NormandyContext/06_BLUEPRINT_SPECIFICATION.md",
+      "bytes": 7127,
+      "sha256": "2fa704a1c621a7d03a688efb5dac14761c6fce91d98700091993cd3a9bd73624",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\07_REVIEW_GATES.md",
+      "destination": "HistoricalReference/NormandyContext/07_REVIEW_GATES.md",
+      "bytes": 2655,
+      "sha256": "172aa5e12f1ae9238afe2dc15d1e1aa149e3f8bb00ca76db20c91fb1c2cdafd5",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\08_ASSET_PRODUCTION_REFERENCES.md",
+      "destination": "HistoricalReference/NormandyContext/08_ASSET_PRODUCTION_REFERENCES.md",
+      "bytes": 7537,
+      "sha256": "89b768f2e7c6a273138debfb6e8418f5ceff9a46e6ab25b6110fdf1c6c625b0b",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\09_LANDING_PERFORMANCE_REFERENCES.md",
+      "destination": "HistoricalReference/NormandyContext/09_LANDING_PERFORMANCE_REFERENCES.md",
+      "bytes": 7311,
+      "sha256": "71dbb2d5e828b06733bd1b2158322f5cef457aa1d5cbe5fb8a6e71274c234447",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\fm23_95_75mm_1942.pdf",
+      "destination": "HistoricalReference/NormandyContext/archive/fm23_95_75mm_1942.pdf",
+      "bytes": 7259647,
+      "sha256": "ec5d1f3d96d544f110407a30758aa0a2a058123a2044474c4bc9d28fa6291cfb",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\german_handbook_1945.pdf",
+      "destination": "HistoricalReference/NormandyContext/archive/german_handbook_1945.pdf",
+      "bytes": 86572532,
+      "sha256": "dfa9fd6f83d12beadcd3c10c7460ad46c189b665181809b0b77c66e532f25b36",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\metadata\\coast_sand_01_files.json",
+      "destination": "HistoricalReference/NormandyContext/archive/metadata/coast_sand_01_files.json",
+      "bytes": 26219,
+      "sha256": "1df98d49d68849061028a478abf940ebf063efce86b0964b77dda1cd5daf7334",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\metadata\\pebbles_files.json",
+      "destination": "HistoricalReference/NormandyContext/archive/metadata/pebbles_files.json",
+      "bytes": 32380,
+      "sha256": "ae4fd5d820c713b2445ceb9eaee32167097ca51e0130d66d30cb035ec57d2afc",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\metadata\\pebbles_info.json",
+      "destination": "HistoricalReference/NormandyContext/archive/metadata/pebbles_info.json",
+      "bytes": 1080,
+      "sha256": "05ed06e7467ffebe902aef1fa26880ea5cc0f9f676a6d2af0509807bb343d373",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\metoffice_19440606_1300utc.pdf",
+      "destination": "HistoricalReference/NormandyContext/archive/metoffice_19440606_1300utc.pdf",
+      "bytes": 6072008,
+      "sha256": "2b1f4cb6ab4087f40940c09bfa8fddd561c069e70019dc8f2072a566a26fd816",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\metoffice_dday_factsheet.pdf",
+      "destination": "HistoricalReference/NormandyContext/archive/metoffice_dday_factsheet.pdf",
+      "bytes": 1957759,
+      "sha256": "751032f196aa34cf846d4c8d9eb4becf6a2b7cadb173a52d220fada193805fdf",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\british_uniform.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/british_uniform.html",
+      "bytes": 96464,
+      "sha256": "e9fc54f172aef85e5c2e3ebd841fcb7b408b1976bab926a4c6f899ede9412925",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\fw190.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/fw190.html",
+      "bytes": 91593,
+      "sha256": "ded5e3fbc589bb88e829c2cea286c28dab4e86c0878f16fde412ed784dca443a",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\nara_into_jaws_of_death.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/nara_into_jaws_of_death.html",
+      "bytes": 36636,
+      "sha256": "8fbab9f42ee2ea4db2f61e3e6cb6504e9b3a016bd8df58b1af9fbdf3eb49eca7",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\omaha2.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/omaha2.html",
+      "bytes": 61014,
+      "sha256": "fac23f29c898e1493ddfab3bb85b922b62f01eab68812117bb75ccaa58ece160",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\omaha3.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/omaha3.html",
+      "bytes": 73232,
+      "sha256": "4f18339b428e30334ef22cfff7f6ca091380aba4b4b4ef29fca6387db68b1995",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\plane.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/plane.html",
+      "bytes": 100064,
+      "sha256": "e23ef15dc20793ca32fd89134aaf8787076cfafa1770d9ba8fe7e6834565470e",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\pocketguide_links.json",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/pocketguide_links.json",
+      "bytes": 8677,
+      "sha256": "4526bb5c9de7f51f480987fe039e8a2c98bd4ba2fd8212b0e2747d72a2c813b9",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\polyhaven_coast_sand_01.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/polyhaven_coast_sand_01.html",
+      "bytes": 193973,
+      "sha256": "7e9daea0f1af231a22a282b6bc75e68b841608e3b99e40391bca52d096956ec9",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\polyhaven_coast_sand_rocks_02.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/polyhaven_coast_sand_rocks_02.html",
+      "bytes": 197365,
+      "sha256": "d3ea3feb953b6fa795737d921fd032a3199fd8ad731cdb2f0149ac617288425b",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\polyhaven_sand_rocks_small_01.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/polyhaven_sand_rocks_small_01.html",
+      "bytes": 199537,
+      "sha256": "fea526c5b78c56c5aa20e07d8a245f568af4f7b08532f640f5fb8209836c2095",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\S24.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/S24.html",
+      "bytes": 92440,
+      "sha256": "a43c801b8dae2c396ac2ddd1b304b03a87251a95f4065161d6c95aea2a84ae2f",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\S25.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/S25.html",
+      "bytes": 109705,
+      "sha256": "6535e4464de494c8fb885c6e70b9d1929a20b6b56e0b9c30eea61b7c915e09c0",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\tank.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/tank.html",
+      "bytes": 119771,
+      "sha256": "610362e2e87cbda95eb0d887d29c3d59637259079674eb71b215dbd66c01af1f",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\pages\\ww2museum_lcvp_lcm.html",
+      "destination": "HistoricalReference/NormandyContext/archive/pages/ww2museum_lcvp_lcm.html",
+      "bytes": 97288,
+      "sha256": "6f18af16898d63690456a5b51a28ac959cc7204930af24f75ff79ea36f518bba",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\archive\\us_uniform_survey.pdf",
+      "destination": "HistoricalReference/NormandyContext/archive/us_uniform_survey.pdf",
+      "bytes": 7643543,
+      "sha256": "408b3f7da9f1e0cc31f5e38170ced7e8bd00fada675460b8d27c9121d30a1dff",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\catalog\\2026-09-21_ASSET_REFERENCE_DOWNLOADS.json",
+      "destination": "HistoricalReference/NormandyContext/catalog/2026-09-21_ASSET_REFERENCE_DOWNLOADS.json",
+      "bytes": 2683,
+      "sha256": "1ee756a9ba67392e84460242c4c5337f5c9c8fd46e6db55f32fa960db98c326d",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\catalog\\FILE_MANIFEST.json",
+      "destination": "HistoricalReference/NormandyContext/catalog/FILE_MANIFEST.json",
+      "bytes": 6511,
+      "sha256": "61d26b8fa29ef48a352b37acf922316f4c69d516b2b797a0c2a8cc3fa5be50c5",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\catalog\\IMAGE_CATALOG.csv",
+      "destination": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+      "bytes": 16643,
+      "sha256": "9931b1a5851f6ca484bdbd77284e0b1ddab8b58df70125878d890962c1da6f32",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\catalog\\images.json",
+      "destination": "HistoricalReference/NormandyContext/catalog/images.json",
+      "bytes": 21416,
+      "sha256": "809dc9f9f3cbc21d0a062140f8bb76c0cacd079252187c932543857e69db9eca",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\catalog\\LANDING_MOTION_REFERENCES.csv",
+      "destination": "HistoricalReference/NormandyContext/catalog/LANDING_MOTION_REFERENCES.csv",
+      "bytes": 1949,
+      "sha256": "20e6f3fb66b1c8a25c7bea669cd503b61eb0f684f3dc53bba3e922f3bcaf1324",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\catalog\\SOURCES.csv",
+      "destination": "HistoricalReference/NormandyContext/catalog/SOURCES.csv",
+      "bytes": 8306,
+      "sha256": "5dca7e9332c871d436f163761144f792a970ea261a717d36e835f2311ddd1940",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\catalog\\VALIDATION.json",
+      "destination": "HistoricalReference/NormandyContext/catalog/VALIDATION.json",
+      "bytes": 378,
+      "sha256": "debeb0c4e63c069b88a91ab180e28b9f9bbf77e6e1b95499a9999ec8d6a87339",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\data\\weather_evidence.csv",
+      "destination": "HistoricalReference/NormandyContext/data/weather_evidence.csv",
+      "bytes": 1619,
+      "sha256": "8ca6248bb42942c57a569a4ff22e41f09f6329f7f978811a2e8f4214d855e7d9",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\data\\weather_keyframe_template.csv",
+      "destination": "HistoricalReference/NormandyContext/data/weather_keyframe_template.csv",
+      "bytes": 242,
+      "sha256": "f6f192f145770f19146477107c6f4b4c7b48547b27262c31ec4303d2ac826a5b",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\gallery.html",
+      "destination": "HistoricalReference/NormandyContext/gallery.html",
+      "bytes": 25426,
+      "sha256": "426209a79cc3cb6c5362046617f2d589839e08ed4c1f0d8c84a9dcbc1dbd6825",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\IMAGE_GALLERY.md",
+      "destination": "HistoricalReference/NormandyContext/IMAGE_GALLERY.md",
+      "bytes": 20883,
+      "sha256": "d5b9bffc6377a07362dbeb0419a4b47bf0c0b0751639f7d28afd77112fd1bc2c",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\aircraft\\b26_invasion_stripes.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/aircraft/b26_invasion_stripes.jpg",
+      "bytes": 17629,
+      "sha256": "02f5aa716e99861bceed21ed9fe68b2b392e58ab40bb355e23c593d4c9dd7a6a",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\aircraft\\fw190a_captured_shape_only.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/aircraft/fw190a_captured_shape_only.jpg",
+      "bytes": 7369756,
+      "sha256": "e95b4687c520a70227fbc1e09d84ab2f202db3f16e48647ff914ea3ed6d7529c",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\beach\\easy_red_bluffs.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/beach/easy_red_bluffs.jpg",
+      "bytes": 42548,
+      "sha256": "1a6b47517d1f41b87a27072f96e655dcc4ec8f5f0ac0a7f6248d9292f71c94e8",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\beach\\nara_into_jaws_of_death.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/beach/nara_into_jaws_of_death.jpg",
+      "bytes": 112596,
+      "sha256": "ea8ce01b4ba0f0b3a9b066d698854d332b967384445ddf617cbe0f7f9d4ffe41",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\beach\\omaha_landing_visibility.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/beach/omaha_landing_visibility.jpg",
+      "bytes": 43325,
+      "sha256": "7870bb433c4a865b138aca081654ae8e58549c8e0f78d7cfdac0825d4e3e4267",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\beach\\omaha_sector_map.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/beach/omaha_sector_map.jpg",
+      "bytes": 255099,
+      "sha256": "d1501b57cc195bcf46a9662655b4c8b612feecfc16ac5b86d773c47fc68775ef",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\beach\\shingle_embankment.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/beach/shingle_embankment.jpg",
+      "bytes": 66044,
+      "sha256": "34422b94a0a83a8f942a5ed2788cd7f8fba0315d36080814db23a89423c72dde",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\beach\\tidal_flat_19440519.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/beach/tidal_flat_19440519.jpg",
+      "bytes": 39400,
+      "sha256": "0a69d9d7610c2beb98c58faea6ed0bf3d3716f74e251b8400138738be074a23f",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\beach\\vierville_flanking_pillbox.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/beach/vierville_flanking_pillbox.jpg",
+      "bytes": 56260,
+      "sha256": "65da152ade016691759da8a41f78e8d6bb30354f263297a611faebd8bc6a5903",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\ranks\\british_officer_rank_chart_1943.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/ranks/british_officer_rank_chart_1943.jpg",
+      "bytes": 2102296,
+      "sha256": "68d197439a426578fdb3f9cc177682ba0059b7610dec865ef624b7f0224a51cf",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\ranks\\heer_branch_colors.png",
+      "destination": "HistoricalReference/NormandyContext/images/ranks/heer_branch_colors.png",
+      "bytes": 195548,
+      "sha256": "c8a2a33dc6447ff894c3b9d5b52ded76bcbda86794dc8bd0511a65c04e05f6cb",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\ranks\\heer_enlisted_ranks.png",
+      "destination": "HistoricalReference/NormandyContext/images/ranks/heer_enlisted_ranks.png",
+      "bytes": 183637,
+      "sha256": "0c4857094d6e785e43b3ef079b9f7c01fddd356c278daaf2e714e6417891868e",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\ranks\\heer_officer_nco_ranks.png",
+      "destination": "HistoricalReference/NormandyContext/images/ranks/heer_officer_nco_ranks.png",
+      "bytes": 203585,
+      "sha256": "867a83c3ddc0c019cb21bf969a24fdcf44899d47be2637ed83113a2a88fa90bf",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\ranks\\us_officer_rank_chart_1943.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/ranks/us_officer_rank_chart_1943.jpg",
+      "bytes": 1586714,
+      "sha256": "9776a8efbfc86ea28f1e557b5fa622fe33637f31efc0db4bc15c96f6d4750d1d",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\ranks\\us_wwii_rank_chart.png",
+      "destination": "HistoricalReference/NormandyContext/images/ranks/us_wwii_rank_chart.png",
+      "bytes": 1499323,
+      "sha256": "12ab9eb9387ae72bda3e94284a303e4a984fd4cfab37774c290b275b2d001044",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\british_1944_recognition.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/british_1944_recognition.jpg",
+      "bytes": 113931,
+      "sha256": "f67b933d364c70044b6a503cf8e30b3f3812a6ea378846a9f346ddd0e365ee10",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\heer_field_uniform.png",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/heer_field_uniform.png",
+      "bytes": 118348,
+      "sha256": "aa94817835d94e6cc69a60f7255595cf19fa28df5df3167166eef1914258eb55",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\heer_officer_and_specialists.png",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/heer_officer_and_specialists.png",
+      "bytes": 148476,
+      "sha256": "bed4f710363d257635b2d4f3198256ca772dd5e3a57864d49d50525bdb5feb11",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\service_shoes_type_ii\\view_1.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg",
+      "bytes": 747886,
+      "sha256": "02a200be46d757867c7ef3df04be00ccf4be87b7bd30a6be5666648e68d155c8",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\service_shoes_type_ii\\view_2.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_2.jpg",
+      "bytes": 372949,
+      "sha256": "add45df5f296f0bc4e9274ff749a5b0dbc534195639d94cc0986972c8dbe2708",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\us_equipment_temporal_check.png",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/us_equipment_temporal_check.png",
+      "bytes": 895520,
+      "sha256": "ad5b6684f053ce8a96974ac9e84d72f8a07200478f9224232cb46081ac6a63c7",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\us_field_jackets.png",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/us_field_jackets.png",
+      "bytes": 862311,
+      "sha256": "3cc786dbd51afcede8e6daa93c71b003292a62345c7162763255209bfb83d839",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\us_helmet_and_specialist_clothing.png",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/us_helmet_and_specialist_clothing.png",
+      "bytes": 755343,
+      "sha256": "958e95846bdbeaad3f5883f61ee50d5befa2eed4888552f24cda635c21e51632",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\uniforms\\us_web_equipment.png",
+      "destination": "HistoricalReference/NormandyContext/images/uniforms/us_web_equipment.png",
+      "bytes": 665212,
+      "sha256": "57a77a7169215bd4938be33c8fe696dbeefd611fc889e879e8d1a1fe7288c36c",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\vehicles\\german_panther_tiger_reference.png",
+      "destination": "HistoricalReference/NormandyContext/images/vehicles/german_panther_tiger_reference.png",
+      "bytes": 337001,
+      "sha256": "82ede910b5f49c81091f064236dd9d090ea0497c904ac3eb83e2c2ad67620a25",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\vehicles\\sherman_omaha_19440606.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/vehicles/sherman_omaha_19440606.jpg",
+      "bytes": 5217924,
+      "sha256": "cc34a6799a92f444c3431cb205c22ac42522bba5a636c7e8b2af4f3e5dc0dd1b",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\captured_76mm_emplacement.jpg",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/captured_76mm_emplacement.jpg",
+      "bytes": 116899,
+      "sha256": "850d08389f5b1841d8fda1a6428d527671a9f4e738a5c5ca5f7a43671df184cc",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\german_81mm_mortar.png",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/german_81mm_mortar.png",
+      "bytes": 229223,
+      "sha256": "d0676da450ac2d4e81d5cacc4f844b54f58586f1e4ad27b99edf6d45cf176edf",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\german_rifle_reference.png",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/german_rifle_reference.png",
+      "bytes": 166464,
+      "sha256": "3a312d693932d0d99a0744c3155be7cc06144e8368b168a89175f121cd71d30c",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\german_submachine_guns.png",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/german_submachine_guns.png",
+      "bytes": 164979,
+      "sha256": "ba9cbc4a46598407226687d633cef916e6c313c4bf3c0fbcb0d475e6f7727100",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\mg34_mg42.png",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/mg34_mg42.png",
+      "bytes": 125105,
+      "sha256": "8147a6150987a8cac5c5788ea56b0013b57feb8e010d2f364598886c1f87cd82",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\us_75mm_m48_external.png",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/us_75mm_m48_external.png",
+      "bytes": 35528,
+      "sha256": "72a3e9a142244b2a5d6bdbe097e6ad2bb73904e0be762d95509442bb06c2a905",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\us_carbine_variants.png",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/us_carbine_variants.png",
+      "bytes": 558961,
+      "sha256": "32b72a763c8bb83c6814d39bca8b19006a90dd950314bf9b9ac1b814da4c6fe9",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\us_garand_carbine.png",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/us_garand_carbine.png",
+      "bytes": 646242,
+      "sha256": "df7935d93a213cd3e0b53646c027c8b760fba8b99db8bccaaeca33deec42776f",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weapons\\us_rifle_comparison.png",
+      "destination": "HistoricalReference/NormandyContext/images/weapons/us_rifle_comparison.png",
+      "bytes": 699445,
+      "sha256": "1d5fa400927fcd0b58f5650bc4642eb8d2bb7958aae2bde02fabff11ca007041",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\images\\weather\\metoffice_19440606_1300utc.png",
+      "destination": "HistoricalReference/NormandyContext/images/weather/metoffice_19440606_1300utc.png",
+      "bytes": 5910640,
+      "sha256": "a110157c1f96624acb05fae932db1ce7edd260e98f74758cd4eb36e5593ac2d8",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\README.md",
+      "destination": "HistoricalReference/NormandyContext/README.md",
+      "bytes": 4545,
+      "sha256": "6ee96524c615002745210df2372163264d9d10a5554ce09b62749f52aceebedb",
+      "role": "historical-background"
+    },
+    {
+      "source": "HistoricalReference\\SOURCES.md",
+      "destination": "HistoricalReference/NormandyContext/SOURCES.md",
+      "bytes": 17925,
+      "sha256": "3833a14e226692d907f4ff363a2746445653a14e88129a804a8b10f1aacfdbfa",
+      "role": "historical-background"
+    },
+    {
+      "source": "Assignment 1.docx",
+      "destination": "Course/Assignments/Assignment 1.docx",
+      "bytes": 3012763,
+      "sha256": "67ba19b226c9c142753b9598a5af1c54f865c09395d76c876798c9b8b24a6846",
+      "role": "course-authority"
+    },
+    {
+      "source": "Assignment 2.docx",
+      "destination": "Course/Assignments/Assignment 2.docx",
+      "bytes": 3043818,
+      "sha256": "ca10d7310f2325110ae22fea9aff1f3a42bd581b04e0158de008e94094a23b6d",
+      "role": "course-authority"
+    },
+    {
+      "source": "Development\\PRIMARY_WORKSTATION.md",
+      "destination": "Reference/Workstations/PRIMARY_WORKSTATION.md",
+      "bytes": 4853,
+      "sha256": "7dbd500e1d0724c37a53602d440abd8f04ece009de4a406ed57aff0247cb3c0d",
+      "role": "hardware-reference"
+    },
+    {
+      "source": "Development\\hardware_2026-09-17.json",
+      "destination": "Reference/Workstations/hardware_2026-09-17.json",
+      "bytes": 1757,
+      "sha256": "2e0eb056104e188316539ce08fa4f4162f5c50901774e50b88b3e99344d9e5a7",
+      "role": "hardware-reference"
+    },
+    {
+      "source": "Development\\JINGDI_WORKSTATION.md",
+      "destination": "Reference/Workstations/JINGDI_WORKSTATION.md",
+      "bytes": 2101,
+      "sha256": "cd9de4b6975adb52a37b1f54177e647ee52ffb32fa0209939bb85f5c54cdc172",
+      "role": "hardware-reference"
+    },
+    {
+      "source": "Development\\jingdi_hardware_2026-09-21.json",
+      "destination": "Reference/Workstations/jingdi_hardware_2026-09-21.json",
+      "bytes": 1925,
+      "sha256": "93f674471af0e2598872955b3306a2251c2e44b5b5ba6350ba50a62c2f48da6e",
+      "role": "hardware-reference"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Blueprints\\Player\\BP_NormandyPlayerCharacter.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Blueprints/Player/BP_NormandyPlayerCharacter.uasset",
+      "bytes": 555370,
+      "sha256": "ec7adfca236b4cfd17b0b249f0adc02f3c2f7708dde39ef86b7b569297ab8f4f",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Blueprints\\Player\\BP_WeaponComponent.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Blueprints/Player/BP_WeaponComponent.uasset",
+      "bytes": 196373,
+      "sha256": "093d42ccf4c54bd53766df76fa640f95098649ddfed3e4c17b792e20a5b08f8a",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Meshes\\RifleHero01\\SM_Rifle_Steel_Hero01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Meshes/RifleHero01/SM_Rifle_Steel_Hero01.uasset",
+      "bytes": 403325,
+      "sha256": "815ff9bc30df3348656cf2bc4b4c6de827a75576a8e044c5101ae2388c165085",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Meshes\\RifleHero01\\SM_Rifle_Wood_Hero01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Meshes/RifleHero01/SM_Rifle_Wood_Hero01.uasset",
+      "bytes": 215375,
+      "sha256": "66079985ebbf83c14b8f3d5b16df068770fec2db6bad3f0f314b9da092e753aa",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Meshes\\Weapons\\SM_Rifle_SteelStudy.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Meshes/Weapons/SM_Rifle_SteelStudy.uasset",
+      "bytes": 14026,
+      "sha256": "6e12d873d792b732c1170ac2d57227b38da8a69d5f60b02c87d369bb683ce1f3",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Meshes\\Weapons\\SM_Rifle_WoodStudy.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Meshes/Weapons/SM_Rifle_WoodStudy.uasset",
+      "bytes": 13372,
+      "sha256": "18bfdd3ceab0adf30c0030899022602836c9285d1df8f486913dc52fcd882446",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattlePlayer01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattlePlayer01.uasset",
+      "bytes": 112801,
+      "sha256": "8800bd10fd64f98d2292e32cb7c87a21b6d12b5d887f523e25a24218cdfa27f2",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattleMode01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleMode01.uasset",
+      "bytes": 28597,
+      "sha256": "63ab4b302047a3036871607dc2a715a7d862758dc751244e662441f0f452facf",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattleHUD01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleHUD01.uasset",
+      "bytes": 183339,
+      "sha256": "f29a799f5594fb5bb4693d89aa3aeec4e84a5fce637593400cc197602ce70e7e",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattleTracer01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleTracer01.uasset",
+      "bytes": 36415,
+      "sha256": "ea77ecf95ce10504ac3adeea0dd35bdc04a7b9cd0064c9cf1a08294289477e12",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_BattleImpact01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleImpact01.uasset",
+      "bytes": 132747,
+      "sha256": "e1a51ce4096d81f2b36c08a1a852a42d128e8c975ed26cdafad83cae25800a34",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\BP_MGEmplacement01.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_MGEmplacement01.uasset",
+      "bytes": 322314,
+      "sha256": "fe8f3e11b323b5fba458f74f5b242e90ebdaedd0e452f66da1ecd1e396b3bbcf",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\ATT_Battlefield.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/ATT_Battlefield.uasset",
+      "bytes": 1434,
+      "sha256": "28a0ced2b9d20b938094cf26a7fa4eef0cbd2bdd886d5690b5e079fe9d00a72b",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\S_MGBurstShot.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/S_MGBurstShot.uasset",
+      "bytes": 25974,
+      "sha256": "0c00b7eab4b48497e7bc93cc4f35eb69a039fea03f80149bc797b66c29a5c7dd",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\S_DirtImpact.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/S_DirtImpact.uasset",
+      "bytes": 14438,
+      "sha256": "31e954b96c288601bf3f9309bccbe065e984df0e3950d16064b5643268c1ef55",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\M_Tracer.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Tracer.uasset",
+      "bytes": 11079,
+      "sha256": "320e74ac85eeeded06d09ce3943424cdc7d109ee40cff49877a8ceefa7e31514",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\M_Flash.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Flash.uasset",
+      "bytes": 11172,
+      "sha256": "ff7d3a85a9d01395273fef044ade4dd7256cded6125098a974c820d2834975df",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Unreal\\NormandySimulation\\Content\\Normandy\\Battlefield01\\M_Dust.uasset",
+      "destination": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Dust.uasset",
+      "bytes": 10084,
+      "sha256": "2c4c4c72a15e5aff50e0f3aae5587408ca3e09a0c050c36509ddffd2ea17b380",
+      "role": "gunplay-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\manifest.json",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/manifest.json",
+      "bytes": 638,
+      "sha256": "6b29264ef25d536ecf80b289af2d4ad6ecd3587aea90ed2b407a5e78e85affcf",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\materials.json",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/materials.json",
+      "bytes": 1710,
+      "sha256": "04d18bf49aa8569b32b45ef367d1e7d7453245162a626d5d7b0a12305c9f522d",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\README.md",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/README.md",
+      "bytes": 1265,
+      "sha256": "cd31618e8066b3197a13ede9e6fb126a11e29adb45ad974316ae54cdb6529c11",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\RifleHero01.blend",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/RifleHero01.blend",
+      "bytes": 776203,
+      "sha256": "9237ebf2839ee2304fb9d8a43b61119ab05fa4a8222f29c71e053ccd0e7dffe2",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\RifleHero01.blend1",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/RifleHero01.blend1",
+      "bytes": 776203,
+      "sha256": "40b7511a4356ceeb5608153639dc56a94322e4d635cca2a150cedb177830ba19",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\SM_Rifle_Steel_Hero01.fbx",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/SM_Rifle_Steel_Hero01.fbx",
+      "bytes": 223468,
+      "sha256": "31715bc8c96aa7bc402af05f6c1dca3408cd0ce0f05c2b057e56efb2479306f7",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RifleHero01\\SM_Rifle_Wood_Hero01.fbx",
+      "destination": "Reference/Gunplay/SourceAssets/RifleHero01/SM_Rifle_Wood_Hero01.fbx",
+      "bytes": 77676,
+      "sha256": "1af41a4e9b4d8385e00a0f91ab03f11678a111729782be949fe02f8453fb7aff",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RiflePrototype\\manifest.json",
+      "destination": "Reference/Gunplay/SourceAssets/RiflePrototype/manifest.json",
+      "bytes": 551,
+      "sha256": "99bfefa0ba2517c6e6ead72e3c33167b8c40ee18973193988cc5952ad79d1942",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RiflePrototype\\README.md",
+      "destination": "Reference/Gunplay/SourceAssets/RiflePrototype/README.md",
+      "bytes": 1123,
+      "sha256": "d0f2547a4c1a518c66b7b2fe2ce6bb668e4c0ec8f265d08a7bf0b65abb8bea75",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RiflePrototype\\SM_Rifle_SteelStudy.obj",
+      "destination": "Reference/Gunplay/SourceAssets/RiflePrototype/SM_Rifle_SteelStudy.obj",
+      "bytes": 16855,
+      "sha256": "cf881751fe8458b6686be917137ca9faf68347a033d36c9ed49e3e76487d0ef8",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Assets\\Source\\Normandy\\RiflePrototype\\SM_Rifle_WoodStudy.obj",
+      "destination": "Reference/Gunplay/SourceAssets/RiflePrototype/SM_Rifle_WoodStudy.obj",
+      "bytes": 10284,
+      "sha256": "2f20ab15095c1661263d1f4c2dd437bd79ee25a8d6b91b4e91082e915a638bfe",
+      "role": "weapon-study-candidate"
+    },
+    {
+      "source": "Docs\\prototype\\app.js",
+      "destination": "Reference/Gunplay/BrowserPrototype/app.js",
+      "bytes": 16538,
+      "sha256": "4b00b9edfc89f149b547457f267d42d5e4f80cc5022290ee2b049814e2d4e231",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\engine.js",
+      "destination": "Reference/Gunplay/BrowserPrototype/engine.js",
+      "bytes": 16597,
+      "sha256": "f1387437aba8dddd2fabf65af62b83f52aca29cb2ca2c24b722eb6252290e5fb",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\index.html",
+      "destination": "Reference/Gunplay/BrowserPrototype/index.html",
+      "bytes": 7522,
+      "sha256": "c9f5d21c6e9d6c891cc8e9a5e790b913cdf859f52e9022dd6eafc04c71cadf02",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\public\\og.png",
+      "destination": "Reference/Gunplay/BrowserPrototype/public/og.png",
+      "bytes": 2219924,
+      "sha256": "14b99083b8412bf0c9e1fe8b7157ff317adbf899a6998d78f30fff07e9d718fc",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\public\\PROVENANCE.md",
+      "destination": "Reference/Gunplay/BrowserPrototype/public/PROVENANCE.md",
+      "bytes": 2718,
+      "sha256": "936dbb311deeff1c8369d5c208de72281387f0b80e3cd53786255dd0fe8e56d1",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\README.md",
+      "destination": "Reference/Gunplay/BrowserPrototype/README.md",
+      "bytes": 5710,
+      "sha256": "b7cee41b9acc3c22a61b7de63f8f448b876637c7b6a6afdfe9726f7bf684dca2",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\scene.js",
+      "destination": "Reference/Gunplay/BrowserPrototype/scene.js",
+      "bytes": 36240,
+      "sha256": "7ab683798529eb34a378478cf088d5437598086f1fdfdbdcfe0740c4426ff9b6",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\serve.py",
+      "destination": "Reference/Gunplay/BrowserPrototype/serve.py",
+      "bytes": 2326,
+      "sha256": "14ca20ea85e7bbfcb1ac9225eedc9386e60d41e980f27bc16e1089d0b1b84e99",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\style.css",
+      "destination": "Reference/Gunplay/BrowserPrototype/style.css",
+      "bytes": 12480,
+      "sha256": "94576633e8654ca593e513a0de6a36afffd165ea21359c5729e3fcc615b661a2",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\test_controller.cjs",
+      "destination": "Reference/Gunplay/BrowserPrototype/test_controller.cjs",
+      "bytes": 11783,
+      "sha256": "3e36001e70caa71db7bbd77367d6433d8410165b5bbab02d447bfae3c5130840",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\test_controller_results.json",
+      "destination": "Reference/Gunplay/BrowserPrototype/test_controller_results.json",
+      "bytes": 1544,
+      "sha256": "a07e98cac8d2d10450b70f43202b8a167b5c4e5e8c757a19315aa78d9e031f93",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\test_engine.cjs",
+      "destination": "Reference/Gunplay/BrowserPrototype/test_engine.cjs",
+      "bytes": 8928,
+      "sha256": "5b91650b9ef01079665ca87bbb8b0e6f339f4434c44454c38cbc605d28a61a27",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\test_results.json",
+      "destination": "Reference/Gunplay/BrowserPrototype/test_results.json",
+      "bytes": 1654,
+      "sha256": "c39d51503ff29e455b59a1e61d5779cfb737b295ec41b11bc66b6bf74e6ad514",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\vendor\\THREE-LICENSE.txt",
+      "destination": "Reference/Gunplay/BrowserPrototype/vendor/THREE-LICENSE.txt",
+      "bytes": 1102,
+      "sha256": "df2a91696186fe58c92518a25d48bc59c8ee2edc7cac9ca6d19a5a0d599a2a05",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Docs\\prototype\\vendor\\three.js",
+      "destination": "Reference/Gunplay/BrowserPrototype/vendor/three.js",
+      "bytes": 2084398,
+      "sha256": "14e14d7fd5caf428069fed095464dee0e69b8cccdd79213d0ff00630e5277177",
+      "role": "old-browser-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g0_weapon_component.py",
+      "destination": "Reference/Gunplay/Scripts/build_g0_weapon_component.py",
+      "bytes": 10603,
+      "sha256": "a31f701ade9490ec11bed903b8dbb91e33d5a75c8a421d88cd13315a7b067ed2",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g0_player_character.py",
+      "destination": "Reference/Gunplay/Scripts/build_g0_player_character.py",
+      "bytes": 1687,
+      "sha256": "7ce18b2b08b299b9ab6a0476e688c000191d5557c733605d0849ec4468ad6eaf",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g0_player_actions.py",
+      "destination": "Reference/Gunplay/Scripts/build_g0_player_actions.py",
+      "bytes": 1655,
+      "sha256": "93433a3d7dd565d195c4c9d3c1191f1dc62f5180a791914256d625c880bb5903",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g1_weapon.py",
+      "destination": "Reference/Gunplay/Scripts/build_g1_weapon.py",
+      "bytes": 13965,
+      "sha256": "c7c46b84f1acc785780344468250cb28f8b7a5fcb9d1d2183a5ad17efc6bd385",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_g1_weapon_probe.py",
+      "destination": "Reference/Gunplay/Scripts/build_g1_weapon_probe.py",
+      "bytes": 3811,
+      "sha256": "eed48675378869c4534b2a538dc09d644a2ea80c185f605ca4ee1a575d0a9fcb",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\connect_battle_weapon.py",
+      "destination": "Reference/Gunplay/Scripts/connect_battle_weapon.py",
+      "bytes": 281,
+      "sha256": "c3fa02fb99e91dd96b6a7958cf2ffcfae0164579bbf996ff4340a38026772a7f",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_battlefield_combat.py",
+      "destination": "Reference/Gunplay/Scripts/build_battlefield_combat.py",
+      "bytes": 7664,
+      "sha256": "8dcb6faba84c8b2505d64a4d43655b7293b4a57b9b8e999386c83df6c5491ff2",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\check_player_hit_channel.py",
+      "destination": "Reference/Gunplay/Scripts/check_player_hit_channel.py",
+      "bytes": 523,
+      "sha256": "587d1410bf89b014abcaa88f8040b0d48af815367d68b2f8226045cd934cbbf9",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\check_battle_interaction.py",
+      "destination": "Reference/Gunplay/Scripts/check_battle_interaction.py",
+      "bytes": 2679,
+      "sha256": "7c2d9106f32d796b8eddf376b06f4ee3b6d1ad2d8d02f135202f77e25659737b",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\g1_graph.py",
+      "destination": "Reference/Gunplay/Scripts/g1_graph.py",
+      "bytes": 3582,
+      "sha256": "5d26bdb292ff07f9faabb48ac86b94f7f8829fd425797fe46001c95bee78e96a",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\battlefield_common.py",
+      "destination": "Reference/Gunplay/Scripts/battlefield_common.py",
+      "bytes": 4616,
+      "sha256": "5db54bffb40061c1627548f4eb8637a703e0f6e632cb056c7dfd0eb5000468c5",
+      "role": "inactive-script-reference"
+    },
+    {
+      "source": "Development\\Scripts\\build_first_asset_kit.py",
+      "destination": "Reference/Gunplay/Scripts/build_first_asset_kit.py",
+      "bytes": 13491,
+      "sha256": "d218919d169cac74988bf689286e690cfe90bc93a836a19ada344ed916654714",
+      "role": "inactive-script-reference"
+    }
+  ]
+}
