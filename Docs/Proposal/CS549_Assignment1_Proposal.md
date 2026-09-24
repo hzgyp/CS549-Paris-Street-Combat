@@ -14,15 +14,15 @@ Yupu submits for the group. Implementation roles will be agreed at kickoff, with
 
 ## 2. Project concept summary
 
-We propose a single-player first-person squad mission through a connected part of Meshingun Studio's WW2 - France Liberation city, set during the August 1944 liberation period. Our earlier Normandy mission was too complex in scope because it combined sea, beach, and fortified terrain with different movement, combat, and environmental interactions. Reusing the existing city lets us focus on character interaction and NPC design. We will survey the level in Unreal and choose linked streets with an approach, a defended objective, an exit, and an alternative route. The actual geometry will determine the mission area and traversal time.
+We propose a single-player first-person squad mission through a connected part of Meshingun Studio's WW2 - France Liberation city, set during the August 1944 liberation period. Our earlier Normandy mission was too complex in scope because it combined sea, beach, and fortified terrain with different movement, combat, and environmental interactions. Reusing the existing city lets us focus on character interaction and NPC design. An Unreal editor survey of connectivity, collision, sightlines and travel time will determine the playable routes and objective locations.
 
-The initial configuration has six characters: one Allied player, two Allied NPCs, and three German NPCs. This is a development starting point, not a final population cap. We may add enemy groups and separately configured patrol/search routes after testing pacing, navigation, and performance. Allies accompany the player and regroup after corners. Enemies patrol, guard, investigate observed positions, and reposition during combat. Shared behavior logic supports different roles and routes without requiring a new AI system for every soldier.
+The initial configuration has six characters: one Allied player, two Allied NPCs, and three German NPCs. This is a development starting point, not a final population cap. We may add finite groups after evaluating pacing, navigation and performance. Allies accompany the player, regroup and use distinct support positions. Enemies guard, patrol on foot, react to visible targets and search near their last observed positions. Shared behavior definitions and individual state allow different soldiers to coordinate without copying one another's actions.
 
-Intermediate objectives guide the mission: reach a rally point, clear its assigned enemy group, then reach an endpoint. Additional arrival or clearance stages can be configured later. Clearing a stage requires its registered enemy group to be defeated; walking outside an area does not count as defeat. The objective display advances when the current condition passes. Player death causes failure, and restart restores the configured roster and all objectives. Progress between stages preserves casualties and ammunition.
+Intermediate objectives guide progress through connected streets. Reaching a location and clearing an assigned enemy group are example objective types; the sequence and geography remain open. We propose checkpoints at selected safe objective boundaries. Retrying restores the saved objective, health, ammunition and relevant NPC state; a new mission restores the initial configuration. Saving does not itself heal, refill ammunition or replace casualties. Checkpoint locations, resupply and reinforcement rules will be selected through playtesting.
 
-The visual goal is coherent movement and combat across the environment. Running and aiming should blend naturally, reload events should agree with ammunition, and walls should block movement and gunfire. Allies must negotiate narrow passages without teleporting or overlapping, while enemies lose sight behind buildings and search only their last observed target positions. Fixed daylight and static cover keep these interactions readable. The mission uses selected connected routes within the larger city; it does not require every building to be enterable.
+The visual goal is coherent movement and combat within the purchased environment. Running and aiming should blend naturally, reload actions should agree with ammunition, and walls should block movement and gunfire. Allies must negotiate narrow passages without teleporting or overlapping, while enemies respond to sight rather than knowing unseen player positions. Health, ammunition and objective displays must reflect the same gameplay state. These interactions and coordinated NPC movement are the main integration challenge as the population grows.
 
-Licensed soldier/rifle assets and compatible clips provide visual content, while Unreal supplies rendering and physical simulation. We will integrate these resources with student-built gameplay and evaluate the encounter through repeatable tests and a packaged Windows build. Multiplayer, driving, ocean simulation, unrestricted destruction, and detailed character modeling remain outside scope.
+Licensed soldier/rifle assets and compatible motion clips provide visual content, while Unreal supplies rendering, navigation and physical simulation. We will configure these resources and build the gameplay, coordination and UI integration. A connected mission area provides the initial playable slice; not every city building must be enterable. Multiplayer, driving, ocean simulation, unrestricted destruction and detailed character modeling remain outside scope.
 
 ## 3. Street concept and staged mission
 
@@ -32,18 +32,18 @@ AI-generated concept (OpenAI ImageGen), informed by official Meshingun Studio Fr
 
 ![AI assisted staged mission flowchart](Visuals/paris-mission-flowchart.png)
 
-Initial roster: 1 player + 2 allies + 3 enemies. Add finite groups/stages after testing. Objective markers are not checkpoint saves; this flow shows logic, not map geometry.
+Initial roster: 1 player + 2 allies + 3 enemies, expandable after testing. Flow and checkpoint policy are proposed; objective locations and resupply rules remain open.
 
 ## 4. Selected pillars and implementation plan
 
 | Pillar | Specific work | Implementation route |
 | --- | --- | --- |
-| Animation | Run/aim transitions; fire, reload, hit and death actions. | Retarget purchased clips; Blend Spaces + Montages. Guarded Notifies commit ammo once per reload ID; cancel stale actions. [2] |
-| Collision Detection | Character/wall contact; bullet hits on cover and soldiers. | Capsules + camera-aim and muzzle-clearance/obstruction traces. First blocker controls damage; allies block shots without friendly damage. [3] |
-| Pathfinding & Navigation | Routes between goals; ally follow/regroup and bottleneck handling. | Student A* at surveyed junctions; NavMesh path lengths as costs, Euclidean heuristic. MoveTo executes legs; reserve distinct destinations. [4] |
-| NPC AI | Guard/patrol, sight-driven combat, bounded search, return to role. | Shared Behavior Tree; per-NPC team, role, group, patrol route and search zone. Private Blackboard; search near last seen position. [5, 6] |
+| Animation | Smooth idle/walk/run/aim; fire, reload, hit and death actions. | Adapt clips to soldier skeletons; Blend Spaces blend movement, Montages play actions. Reload events transfer ammo once; interrupted actions cannot update it later. [2] |
+| Collision Detection | Block movement at walls; identify the first object hit by gunfire. | Capsules enclose moving characters. Trace from camera to aim, then muzzle to aim to detect cover. Apply one hit result; friendly-fire is a separate rule. [3] |
+| Pathfinding & Navigation | Reach goals; follow/regroup; avoid crowding and recover from blocked paths. | UE NavMesh finds walkable routes; MoveTo follows them. Assign distinct destinations, avoid nearby NPCs and replan on blockage. Custom tactical A* is optional. [4] |
+| NPC AI | Guard, patrol on foot, engage visible enemies, search and regroup. | Reuse a Behavior Tree with separate controller/Blackboard state per NPC. A squad coordinator assigns roles and support goals; perception drives individual decisions. [5, 6] |
 
-Integration and physics support. A Blueprint manager advances Reach/Clear stages from overlap/death events. Reuse compatible rigs/clips, CharacterMovement and engine physics; no custom dynamics solver.
+Integration and physics support. Connect UI, combat and coordinated NPC movement within the city. A Blueprint manager controls objectives and checkpoint state. Configure CharacterMovement, collision and engine physics; no custom dynamics solver.
 
 References  [1] France Liberation asset  |  [2] Animation Notifies  |  [3] Collision  |  [4] Navigation  |  [5] Behavior Trees  |  [6] AI Perception  |  [7] Event Dispatchers
 

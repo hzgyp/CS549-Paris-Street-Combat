@@ -1,15 +1,12 @@
 flowchart LR
-    Start([Start and load configured roster]) --> A[Reach rally A]
-    A --> ACheck{Player in rally trigger}
-    ACheck -->|No| A
-    ACheck -->|Yes| B[Clear area B]
-    B --> BCheck{Assigned nonempty group registered and alive count zero}
-    BCheck -->|No| B
-    BCheck -->|Yes| C[Reach endpoint C]
-    C --> CCheck{Player in exit trigger}
-    CCheck -->|No| C
-    CCheck -->|Yes| Won([Mission success])
-    Active[Any active mission stage] -->|Player dies| Lost([Mission failed])
-    Lost --> Restart[Full mission restart]
-    Won -->|Replay| Restart
-    Restart -->|Reset roster and objectives| Start
+    Start([Start or resume initial or saved state]) --> Current[Current objective: Reach or Clear]
+    Current --> Check{Current condition passed}
+    Check -->|No| Current
+    Check -->|Yes| Progress[Advance progress; save at selected safe boundary if configured]
+    Progress --> More{More objectives}
+    More -->|Yes| Current
+    More -->|No| Success([Mission complete])
+    Active[Any active objective] -->|Player dies| Retry[Retry latest checkpoint or start if none]
+    Retry --> Start
+    Success -->|New mission| New[Restore initial configured state]
+    New --> Start

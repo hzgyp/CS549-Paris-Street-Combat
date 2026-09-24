@@ -6,9 +6,9 @@ Yupu Guo (yg745), Group Leader  |  Yuqi Pu (yp549)  |  Jingdi Wu (jw2046)
 
 ## 1. Product requirements (PRD)
 
-1.1. Problem and audience. For PC FPS players and CS549 reviewers, make animation, gunfire, cover and NPC decisions agree. Reuse France Liberation to simplify the varied terrain and interactions of the earlier Normandy mission.
+1.1. Problem and audience. For PC FPS players and CS549 reviewers, integrate UI, character/environment interactions and coordinated NPC behavior in France Liberation, reducing the varied terrain and interaction complexity of the Normandy concept.
 
-1.2. Experience. Traverse connected streets through Reach/Clear objectives and an alternate approach. Begin with 1 Allied player, 2 Allied NPCs and 3 German NPCs; six is not a final cap. Add finite groups/stages after pacing, navigation and performance checks. Casualties persist between stages.
+1.2. Experience. Traverse connected streets with intermediate objectives; their sequence and locations remain open. Begin with 1 Allied player, 2 Allied NPCs and 3 German NPCs. Expand finite groups after pacing, navigation and performance checks; six is not a final cap.
 
 ## 1.3. User stories
 
@@ -16,22 +16,22 @@ As a player, I want synchronized run/aim/fire/reload actions so that motion and 
 
 As a player, I want walls and soldiers to block shots so that cover has consistent consequences.
 
-As a player, I want allies to follow and enemies to patrol/search so that city traversal affects combat.
+As a player, I want allies to coordinate and enemies to patrol/search on foot so that movement affects combat.
 
-As a player, I want intermediate objectives so that I know where to go and which group to defeat.
+As a player, I want clear objectives and checkpoint retry so that progress and failure are understandable.
 
 ## 1.4. Feature priorities (MoSCoW)
 
 | MoSCoW | Feature commitment |
 | --- | --- |
-| Must | Initial six; configurable Reach/Clear stages and NPC routes/search zones; ally follow/regroup; one rifle; four pillars; move/aim/fire/reload/damage; health/ammo/objective UI; win/fail/reset; Windows build. |
-| Should | Additional enemy groups/stages after validation; crouch if supported; simple impact/footstep audio. |
-| Could | Checkpoint saves; hearing; exposure-weighted routes; ragdolls; improved hand IK. |
+| Must | Initial six; configurable objectives and NPC routes; ally follow/regroup; one rifle; four pillars; move/aim/fire/reload/damage; health/ammo/objective UI; win/fail/retry; Windows build. |
+| Should | Checkpoints at selected safe objective boundaries; additional finite groups after testing; crouch if supported; impact/footstep audio. |
+| Could | Hearing; custom tactical A*; exposure-weighted routes; ragdolls; improved hand IK. |
 | Won't | Landing/ocean, multiplayer, driving, broad interiors, destructible buildings, custom detailed soldiers, complex squad commands, infinite waves, runtime LLMs. |
 
 ## 2. Technical specification
 
-2.1. Stack. UE5; Blueprint visual scripting, C++ only if needed. Enhanced Input, UMG, Animation Blueprints, IK Retargeter, NavMesh, AIController/Behavior Trees, AI Perception and Niagara. Structs/Data Assets configure stages/NPCs; Git/LFS; no external runtime library.
+2.1. Stack. UE5; Blueprint visual scripting, C++ only if needed. Enhanced Input, UMG, Animation Blueprints, IK Retargeter, NavMesh, AIController/Behavior Trees, AI Perception and Niagara. Structs/Data Assets configure stages/NPCs; no external runtime library required.
 
 2.2. Dependencies. Original asset: UE5.6; working copy: 5.8. Pin a tested version; retain ChaosVehiclesPlugin. Purchase compatible soldier/rifle rigs and clips separately. Survey routes, collision, sightlines and NavMesh; use fixed daylight/static cover. [1]
 
@@ -45,28 +45,28 @@ AI-generated concept (OpenAI ImageGen), informed by official Meshingun Studio Fr
 
 | Pillar | Specific work | Implementation route |
 | --- | --- | --- |
-| Animation | Run/aim transitions; fire, reload, hit and death actions. | Retarget purchased clips; Blend Spaces + Montages. Guarded Notifies commit ammo once per reload ID; cancel stale actions. [2] |
-| Collision Detection | Character/wall contact; bullet hits on cover and soldiers. | Capsules + camera-aim and muzzle-clearance/obstruction traces. First blocker controls damage; allies block shots without friendly damage. [3] |
-| Pathfinding & Navigation | Routes between goals; ally follow/regroup and bottleneck handling. | Student A* at surveyed junctions; NavMesh path lengths as costs, Euclidean heuristic. MoveTo executes legs; reserve distinct destinations. [4] |
-| NPC AI | Guard/patrol, sight-driven combat, bounded search, return to role. | Shared Behavior Tree; per-NPC team, role, group, patrol route and search zone. Private Blackboard; search near last seen position. [5, 6] |
+| Animation | Smooth idle/walk/run/aim; fire, reload, hit and death actions. | Adapt clips to soldier skeletons; Blend Spaces blend movement, Montages play actions. Reload events transfer ammo once; interrupted actions cannot update it later. [2] |
+| Collision Detection | Block movement at walls; identify the first object hit by gunfire. | Capsules enclose moving characters. Trace from camera to aim, then muzzle to aim to detect cover. Apply one hit result; friendly-fire is a separate rule. [3] |
+| Pathfinding & Navigation | Reach goals; follow/regroup; avoid crowding and recover from blocked paths. | UE NavMesh finds walkable routes; MoveTo follows them. Assign distinct destinations, avoid nearby NPCs and replan on blockage. Custom tactical A* is optional. [4] |
+| NPC AI | Guard, patrol on foot, engage visible enemies, search and regroup. | Reuse a Behavior Tree with separate controller/Blackboard state per NPC. A squad coordinator assigns roles and support goals; perception drives individual decisions. [5, 6] |
 
-2.5. Shared integration. Player/NPC weapons share ammo and hit rules; tracers are cosmetic. Configure purchased rigs, collision and clips; reuse CharacterMovement and engine physics.
+2.5. Shared integration. UI reads authoritative health/ammo/objective state. Player/NPC weapons share hit rules; tracers are cosmetic. Configure purchased rigs, collision and CharacterMovement; reuse engine physics.
 
 ## 2.6. Mission flow and objective control
 
 ![AI assisted staged mission flowchart](Visuals/paris-mission-flowchart.png)
 
-Initial MVP: 1 player + 2 allies + 3 enemies. Add configured groups/stages after validation; objective markers do not imply checkpoint saves.
+Proposed logic, not final geography. Six is an initial roster; checkpoint sites and any resupply/reinforcement rules remain open.
 
-A Blueprint mission manager evaluates Reach/Clear stages from overlap/death events. Reach checks the player. Clear requires a registered, nonempty assigned group with zero survivors; leaving the area does not count. Deduplicate events, include earlier kills, and recheck state on stage activation. Full restart rejects stale callbacks and restores the configured roster. [7]
+A Blueprint manager advances objectives once from player arrival or assigned-group defeat events. Proposed checkpoints save objective, player health/ammo and relevant NPC state; retry restores that snapshot, or starts fresh if none exists. Saving alone does not heal, refill or revive. Full restart remains available. [7]
 
 ## 3. Narrow vertical slice (MVP)
 
-3.1. Core slice and hardest feature. Deliver a polished, playable three-stage mission with the initial roster, one rifle and an alternate approach. The hardest feature is keeping squad navigation, combat and objective progression consistent through the full mission.
+3.1. Core slice and hardest feature. Deliver a polished connected-street encounter with the initial roster, one rifle, basic UI and intermediate objectives. The hardest feature is integrating UI and physical interactions with the city while NPC movement, decisions and roles remain coordinated as numbers grow.
 
-3.2. Midterm demonstration. Provide a packaged Windows build, gameplay recording and debug logs. Show allies following/regrouping, enemies losing sight and searching, walls blocking shots, and interrupted reloads updating ammo correctly. Compare A*/Dijkstra route costs. Demonstrate ordered objectives, persistent casualties and full restart, including early kills and duplicate events. Record frame times and path failures before expanding the roster.
+3.2. Midterm demonstration. Provide a Windows build, gameplay recording and logs. Show UI matching health/ammo, walls blocking movement/shots, correct interrupted reloads, ally regrouping and enemy sight/search. Check objective progression and checkpoint restoration. Compare independent NPC movement with coordinated destinations at bottlenecks; record stalls/frame times before adding NPCs.
 
-3.3. MVP exclusions. Cut additional groups/stages, checkpoint saves, advanced cover tactics, physical bullets and citywide simulation. Keep the core mission functional before expanding content.
+3.3. MVP exclusions. Defer additional groups, complex squad commands, advanced cover tactics, physical bullets and citywide simulation. Final mission layout and checkpoint placement follow the editor survey and playtesting.
 
 4. References  [1] France Liberation asset  |  [2] Animation Notifies  |  [3] Collision  |  [4] Navigation  |  [5] Behavior Trees  |  [6] AI Perception  |  [7] Event Dispatchers
 

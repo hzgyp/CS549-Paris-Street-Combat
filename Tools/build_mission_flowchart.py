@@ -8,14 +8,14 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "Docs/Proposal/Visuals"
-W, H, SCALE = 1300, 385, 2
+W, H, SCALE = 1300, 405, 2
 canvas = Image.new("RGB", (W*SCALE, H*SCALE), "white")
 draw = ImageDraw.Draw(canvas)
 font_dir = Path("/System/Library/Fonts/Supplemental")
 svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">',
        '<title id="title">Paris Street Combat staged mission flow</title>',
-       '<desc id="desc">Start loads the configured roster. Reach rally A, clear assigned group B once its roster is registered and no enemies survive, then reach endpoint C and succeed. A failed condition keeps its stage active. Player death during any active stage causes failure. Restart or replay resets the full mission. Six soldiers are the initial configuration, not a final cap.</desc>',
-       '<rect width="1300" height="385" fill="white"/>']
+       '<desc id="desc">Proposed flow: start or resume, pursue a current Reach or Clear objective until its condition passes, advance progress and save at selected safe boundaries if configured, then continue to the next objective or complete. Player death leads to retry from the latest checkpoint or the start when none exists. Objective order, map locations and checkpoint sites remain open. Saving does not automatically heal, refill or revive.</desc>',
+       '<rect width="1300" height="405" fill="white"/>']
 
 def text(x, y, value, size=23, bold=False, color="#142636"):
     font = ImageFont.truetype(str(font_dir / ("Arial Bold.ttf" if bold else "Arial.ttf")), int(size*SCALE))
@@ -25,7 +25,7 @@ def text(x, y, value, size=23, bold=False, color="#142636"):
 def box(x, y, w, h, heading, details, fill="#F0F5FA", stroke="#557A99"):
     draw.rounded_rectangle((x*SCALE,y*SCALE,(x+w)*SCALE,(y+h)*SCALE),radius=10*SCALE,fill=fill,outline=stroke,width=2*SCALE)
     svg.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="10" fill="{fill}" stroke="{stroke}" stroke-width="2"/>')
-    text(x+w/2,y+27,heading,26,True)
+    text(x+w/2,y+27,heading,23 if heading == "START / RESUME" else 26,True)
     for i,line in enumerate(details):
         text(x+w/2,y+61+i*27,line,22)
 
@@ -43,42 +43,35 @@ def arrow(points, color="#455665", width=3):
     draw.polygon([(int(a*SCALE),int(b*SCALE)) for a,b in tri],fill=color)
     svg.append('<polygon points="'+' '.join(f'{a},{b}' for a,b in tri)+f'" fill="{color}"/>')
 
-text(650,20,"Advance only when the current condition passes; otherwise continue that stage",23)
-box(30,53,160,112,"START",["Load roster","Stage 1"])
-box(235,53,205,112,"REACH A",["Player enters","rally trigger"])
-box(485,53,280,112,"CLEAR AREA B",["Group registered","Living enemies = 0"],"#FFF6E2","#B48A33")
-box(810,53,210,112,"REACH END C",["Player enters","exit trigger"])
-box(1065,53,200,112,"SUCCESS",["Mission complete"],"#EAF5EF","#53856A")
-for a,b in [(190,235),(440,485),(765,810),(1020,1065)]:
+text(650,20,"Proposed flow: objective order, locations and checkpoint sites remain open",23)
+box(25,53,215,112,"START / RESUME",["Initial or saved","mission state"])
+box(285,53,340,112,"CURRENT OBJECTIVE",["Reach location or clear group","Continue until condition passes"])
+box(670,53,305,112,"PROGRESS UPDATE",["Advance objective","Save if configured"],"#FFF6E2","#B48A33")
+box(1030,53,240,112,"COMPLETE",["Final objective passed"],"#EAF5EF","#53856A")
+for a,b in [(240,285),(625,670),(975,1030)]:
     arrow([(a,109),(b,109)])
+arrow([(820,165),(820,210),(455,210),(455,165)])
+text(641,191,"More objectives: continue",22)
 
-box(120,230,295,88,"ANY ACTIVE STAGE",["Player dies"],"#FFF1EF","#AD625A")
-box(490,230,195,88,"FAIL",["Stop mission"],"#FFF1EF","#AD625A")
-box(760,230,360,88,"RESTART MISSION",["Reset roster and objectives"])
-arrow([(415,274),(490,274)],"#9C554D")
-arrow([(685,274),(760,274)])
-arrow([(1165,165),(1165,205),(940,205),(940,230)])
-text(1120,185,"Replay",21)
-arrow([(940,318),(940,360),(9,360),(9,109),(30,109)])
+box(140,265,310,88,"PLAYER DIES",["At any active objective"],"#FFF1EF","#AD625A")
+box(535,265,600,88,"RETRY",["Restore latest checkpoint; start if none"])
+arrow([(450,309),(535,309)],"#9C554D")
+arrow([(835,353),(835,388),(9,388),(9,109),(25,109)])
 svg.append('</svg>')
 OUT.mkdir(parents=True,exist_ok=True)
 (OUT/'paris-mission-flowchart.svg').write_text('\n'.join(svg)+'\n',encoding='utf-8')
 canvas.save(OUT/'paris-mission-flowchart.png')
 (OUT/'paris-mission-flowchart.mmd').write_text('''flowchart LR
-    Start([Start and load configured roster]) --> A[Reach rally A]
-    A --> ACheck{Player in rally trigger}
-    ACheck -->|No| A
-    ACheck -->|Yes| B[Clear area B]
-    B --> BCheck{Assigned nonempty group registered and alive count zero}
-    BCheck -->|No| B
-    BCheck -->|Yes| C[Reach endpoint C]
-    C --> CCheck{Player in exit trigger}
-    CCheck -->|No| C
-    CCheck -->|Yes| Won([Mission success])
-    Active[Any active mission stage] -->|Player dies| Lost([Mission failed])
-    Lost --> Restart[Full mission restart]
-    Won -->|Replay| Restart
-    Restart -->|Reset roster and objectives| Start
+    Start([Start or resume initial or saved state]) --> Current[Current objective: Reach or Clear]
+    Current --> Check{Current condition passed}
+    Check -->|No| Current
+    Check -->|Yes| Progress[Advance progress; save at selected safe boundary if configured]
+    Progress --> More{More objectives}
+    More -->|Yes| Current
+    More -->|No| Success([Mission complete])
+    Active[Any active objective] -->|Player dies| Retry[Retry latest checkpoint or start if none]
+    Retry --> Start
+    Success -->|New mission| New[Restore initial configured state]
+    New --> Start
 ''',encoding='utf-8')
-print('Generated mission flowchart SVG, PNG and Mermaid source')
-
+print(OUT/'paris-mission-flowchart.png')
