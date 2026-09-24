@@ -1,51 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="385" viewBox="0 0 1300 385" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="405" viewBox="0 0 1300 405" role="img" aria-labelledby="title desc">
 <title id="title">Paris Street Combat staged mission flow</title>
-<desc id="desc">Start loads the configured roster. Reach rally A, clear assigned group B once its roster is registered and no enemies survive, then reach endpoint C and succeed. A failed condition keeps its stage active. Player death during any active stage causes failure. Restart or replay resets the full mission. Six soldiers are the initial configuration, not a final cap.</desc>
-<rect width="1300" height="385" fill="white"/>
-<text x="650" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#142636">Advance only when the current condition passes; otherwise continue that stage</text>
-<rect x="30" y="53" width="160" height="112" rx="10" fill="#F0F5FA" stroke="#557A99" stroke-width="2"/>
-<text x="110.0" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">START</text>
-<text x="110.0" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Load roster</text>
-<text x="110.0" y="141" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Stage 1</text>
-<rect x="235" y="53" width="205" height="112" rx="10" fill="#F0F5FA" stroke="#557A99" stroke-width="2"/>
-<text x="337.5" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">REACH A</text>
-<text x="337.5" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Player enters</text>
-<text x="337.5" y="141" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">rally trigger</text>
-<rect x="485" y="53" width="280" height="112" rx="10" fill="#FFF6E2" stroke="#B48A33" stroke-width="2"/>
-<text x="625.0" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">CLEAR AREA B</text>
-<text x="625.0" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Group registered</text>
-<text x="625.0" y="141" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Living enemies = 0</text>
-<rect x="810" y="53" width="210" height="112" rx="10" fill="#F0F5FA" stroke="#557A99" stroke-width="2"/>
-<text x="915.0" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">REACH END C</text>
-<text x="915.0" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Player enters</text>
-<text x="915.0" y="141" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">exit trigger</text>
-<rect x="1065" y="53" width="200" height="112" rx="10" fill="#EAF5EF" stroke="#53856A" stroke-width="2"/>
-<text x="1165.0" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">SUCCESS</text>
-<text x="1165.0" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Mission complete</text>
-<polyline points="190,109 235,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
-<polygon points="235,109 225,103 225,115" fill="#455665"/>
-<polyline points="440,109 485,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
-<polygon points="485,109 475,103 475,115" fill="#455665"/>
-<polyline points="765,109 810,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
-<polygon points="810,109 800,103 800,115" fill="#455665"/>
-<polyline points="1020,109 1065,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
-<polygon points="1065,109 1055,103 1055,115" fill="#455665"/>
-<rect x="120" y="230" width="295" height="88" rx="10" fill="#FFF1EF" stroke="#AD625A" stroke-width="2"/>
-<text x="267.5" y="257" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">ANY ACTIVE STAGE</text>
-<text x="267.5" y="291" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Player dies</text>
-<rect x="490" y="230" width="195" height="88" rx="10" fill="#FFF1EF" stroke="#AD625A" stroke-width="2"/>
-<text x="587.5" y="257" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">FAIL</text>
-<text x="587.5" y="291" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Stop mission</text>
-<rect x="760" y="230" width="360" height="88" rx="10" fill="#F0F5FA" stroke="#557A99" stroke-width="2"/>
-<text x="940.0" y="257" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">RESTART MISSION</text>
-<text x="940.0" y="291" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Reset roster and objectives</text>
-<polyline points="415,274 490,274" fill="none" stroke="#9C554D" stroke-width="3" stroke-linejoin="round"/>
-<polygon points="490,274 480,268 480,280" fill="#9C554D"/>
-<polyline points="685,274 760,274" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
-<polygon points="760,274 750,268 750,280" fill="#455665"/>
-<polyline points="1165,165 1165,205 940,205 940,230" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
-<polygon points="940,230 934,220 946,220" fill="#455665"/>
-<text x="1120" y="185" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#142636">Replay</text>
-<polyline points="940,318 940,360 9,360 9,109 30,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
-<polygon points="30,109 20,103 20,115" fill="#455665"/>
+<desc id="desc">Proposed flow: start or resume, pursue a current Reach or Clear objective until its condition passes, advance progress and save at selected safe boundaries if configured, then continue to the next objective or complete. Player death leads to retry from the latest checkpoint or the start when none exists. Objective order, map locations and checkpoint sites remain open. Saving does not automatically heal, refill or revive.</desc>
+<rect width="1300" height="405" fill="white"/>
+<text x="650" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#142636">Proposed flow: objective order, locations and checkpoint sites remain open</text>
+<rect x="25" y="53" width="215" height="112" rx="10" fill="#F0F5FA" stroke="#557A99" stroke-width="2"/>
+<text x="132.5" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#142636">START / RESUME</text>
+<text x="132.5" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Initial or saved</text>
+<text x="132.5" y="141" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">mission state</text>
+<rect x="285" y="53" width="340" height="112" rx="10" fill="#F0F5FA" stroke="#557A99" stroke-width="2"/>
+<text x="455.0" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">CURRENT OBJECTIVE</text>
+<text x="455.0" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Reach location or clear group</text>
+<text x="455.0" y="141" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Continue until condition passes</text>
+<rect x="670" y="53" width="305" height="112" rx="10" fill="#FFF6E2" stroke="#B48A33" stroke-width="2"/>
+<text x="822.5" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">PROGRESS UPDATE</text>
+<text x="822.5" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Advance objective</text>
+<text x="822.5" y="141" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Save if configured</text>
+<rect x="1030" y="53" width="240" height="112" rx="10" fill="#EAF5EF" stroke="#53856A" stroke-width="2"/>
+<text x="1150.0" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">COMPLETE</text>
+<text x="1150.0" y="114" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Final objective passed</text>
+<polyline points="240,109 285,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="285,109 275,103 275,115" fill="#455665"/>
+<polyline points="625,109 670,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="670,109 660,103 660,115" fill="#455665"/>
+<polyline points="975,109 1030,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1030,109 1020,103 1020,115" fill="#455665"/>
+<polyline points="820,165 820,210 455,210 455,165" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="455,165 449,175 461,175" fill="#455665"/>
+<text x="641" y="191" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">More objectives: continue</text>
+<rect x="140" y="265" width="310" height="88" rx="10" fill="#FFF1EF" stroke="#AD625A" stroke-width="2"/>
+<text x="295.0" y="292" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">PLAYER DIES</text>
+<text x="295.0" y="326" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">At any active objective</text>
+<rect x="535" y="265" width="600" height="88" rx="10" fill="#F0F5FA" stroke="#557A99" stroke-width="2"/>
+<text x="835.0" y="292" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#142636">RETRY</text>
+<text x="835.0" y="326" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#142636">Restore latest checkpoint; start if none</text>
+<polyline points="450,309 535,309" fill="none" stroke="#9C554D" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="535,309 525,303 525,315" fill="#9C554D"/>
+<polyline points="835,353 835,388 9,388 9,109 25,109" fill="none" stroke="#455665" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="25,109 15,103 15,115" fill="#455665"/>
 </svg>
