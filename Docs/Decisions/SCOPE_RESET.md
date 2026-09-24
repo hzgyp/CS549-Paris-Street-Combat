@@ -1,14 +1,14 @@
-# Scope reset - 22 September 2026
+# Scope reset - 22-23 September 2026
 
 ## Accepted team decision
 
-The team cannot complete the earlier Normandy scene modeling and character interactions within the course schedule. Work now centers on an existing Paris city asset and a limited single-player street-combat FPS. The three retained academic pillars are Rendering, Animation, and Collision Detection.
+The team cannot complete the earlier Normandy scene modeling and character interactions within the course schedule. Work now centers on an existing Paris city asset and a bounded single-player squad FPS. On 23 September the team replaced the interim three-pillar plan with four primary academic pillars: Animation, Collision Detection, Pathfinding and Navigation, and NPC AI / Behavior Trees. Rendering and physical simulation are supporting engine/asset systems rather than team-authored pillars.
 
 The user explicitly authorized rewriting the proposal, pipeline and technical design, organizing useful assets in Project-New, creating a new GitHub repository, committing and pushing, and archiving Normandy. Detailed runtime validation is deferred to subsequent development work. This reset is not a claim that the game already works.
 
 ## Keep
 
-- The three pillars and the evidence-based course objectives.
+- The four current pillars and their evidence-based course objectives.
 - Normandy historical sources as background, with their dates and limitations intact.
 - Gunplay logic, Blueprint/script samples and the earlier browser prototype as reference candidates, with original provenance and dependencies.
 - Course assignment requirements and the primary workstation record.
@@ -22,7 +22,7 @@ The user explicitly authorized rewriting the proposal, pipeline and technical de
 
 ## New limits
 
-- One bounded street encounter, one player weapon, one enemy configuration, small enemy count, one objective, and fixed lighting.
+- A surveyed connected mission route, one player rifle, an initial one-player/two-ally/three-enemy configuration, ordered Reach/Clear/Reach objectives, fixed lighting, and full mission restart. Additional finite groups/stages require pacing, navigation and performance evidence.
 - Normandy is background; the playable scene belongs to August 1944 Paris. Do not imply a continuous same-day transition or transfer an Omaha unit identity to Paris without evidence.
 - Reuse environment assets. Acquire compatible character/weapon/animation assets rather than reopening the rejected character-production route.
 - The narrative location is fictionalized. Do not promise an exact street reconstruction.

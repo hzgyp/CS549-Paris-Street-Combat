@@ -1,4 +1,8 @@
-"""Build matching two-page English and Chinese proposals with attributed visuals.
+"""Build the superseded 22 September English and Chinese proposal snapshots.
+
+Do not use this script for the current Assignment 1 or Assignment 2 reports. Their
+source is Tools/build_assignment_proposals.py; this builder remains only so the
+dated provenance PDFs can be reproduced without silently rewriting history.
 
 Requires reportlab and pypdf. Windows Arial / Microsoft YaHei fonts are embedded.
 No Unreal execution or asset modification occurs in this document build.

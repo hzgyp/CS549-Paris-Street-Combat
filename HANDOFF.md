@@ -34,9 +34,9 @@ Start with `git status --short --branch` and `git log -5 --oneline` in the activ
 
 The previous Normandy landing implementation was retired after the team judged its modeling and interaction scope infeasible. The replacement is **Paris Street Combat**: a compact, single-player FPS encounter in a fictional Paris street during the **August 1944 liberation period**. Normandy remains historical background only.
 
-The only primary academic pillars are **Rendering, Animation, Collision Detection**. Basic NPC behavior and navigation support the encounter. They are not additional pillars. Earlier threat-aware pathfinding, dynamic battlefield, weather and full-simulation proposals no longer govern this project.
+The current primary academic pillars are **Animation, Collision Detection, Pathfinding and Navigation, and NPC AI / Behavior Trees**. Rendering and physical simulation are supporting engine/asset systems, not team-authored pillars. The team uses existing licensed environment and character assets rather than claiming original modeling or rendering technology.
 
-Baseline: one bounded outdoor street, one player weapon, one enemy configuration with a small group, one objective, fixed lighting, movement/aim/fire/reload/damage, win/fail/reset and a packaged Windows build. The first complete encounter should last approximately **60-90 seconds**.
+Baseline: a surveyed connected city route, one player rifle, an initial roster of one Allied player, two Allied NPCs and three German NPCs, ordered Reach/Clear/Reach objectives, fixed lighting, movement/aim/fire/reload/damage, ally follow/regroup, bounded enemy patrol/search, win/fail/full restart and a packaged Windows build. Actual area, route length and duration follow the editor survey rather than a preset one-block or 60-90-second limit.
 
 Exclude landing/ocean interaction, dynamic weather, driving, custom detailed character production, cinematic armies, complex allies/civilians, broad interiors, unrestricted destruction, multiplayer, an open-world city and runtime LLM NPCs. Availability of a vendor feature does not add it to the scope.
 
@@ -57,7 +57,7 @@ Do not resume Refine38, generate another detailed soldier from scratch, or attem
 | Project configuration | Engine association `5.8`; ChaosVehiclesPlugin enabled; initial default maps point to the vendor Paris map |
 | Historical references | Paris index and open questions created; Normandy references retained only as background |
 | Selected old gunplay assets/scripts | Copied into `Reference/Gunplay` with provenance; not integrated into the active city |
-| Paris gameplay, three mechanisms, compatible soldier/weapon/action set | Planned, not demonstrated as implemented by this transition |
+| Paris gameplay, four pillar mechanisms, compatible soldier/weapon/action set | Planned, not demonstrated as implemented by this transition |
 | Scene load, Blueprint compilation, play, packaging, performance, second-machine reproduction | Deferred; no successful validation claimed |
 | Unreal editor automation connection for this project | Not established or verified in this handoff; do not assume an old bridge is connected |
 | Course approval, assigned mentor and actual approval email evidence | Pending confirmation; an email draft exists, but it has not been sent by this task |
@@ -106,7 +106,7 @@ Do not edit, unarchive or restart the old project. Its proposals, pipeline, matr
 |---|---|---|
 | Yupu Guo | yg745 | Confirmed leader/integration owner; collision and gunplay implementation split proposed |
 | Yuqi Pu | yp549 | Animation/action and compatible rig/weapon integration, proposed for kickoff confirmation |
-| Jingdi Wu | jw2046 | Existing environment/rendering responsibility retained |
+| Jingdi Wu | jw2046 | Navigation/NPC AI and bounded environment setup, proposed for kickoff confirmation |
 
 The plan does not assume three equally experienced developers; Yupu may execute the critical path serially. Each member should understand one mechanism, its baseline, failure case and evidence.
 
@@ -121,9 +121,10 @@ The account-to-person mapping was not independently established here. Do not inv
 
 | Pillar | Team-owned mechanism | Planned evidence |
 |---|---|---|
-| **Rendering** | Surface-driven hit feedback; position/normal and parameter control; effect lifetime and active-count limits | Generic vs surface-aware feedback under matched shots/views; visual evidence, GPU frame time and effect count |
 | **Animation** | Move/aim/fire/reload arbitration; guarded animation events synchronize ammunition and action state | Timer-only vs event synchronization; repeated inputs, interrupted reloads, hand/weapon alignment |
 | **Collision Detection** | Camera-intent query followed by muzzle-path obstruction query; a single authoritative hit/surface result | Camera-only vs two-stage query at walls/corners; false damage/blocking and different frame-rate conditions |
+| **Pathfinding and Navigation** | Student A* over surveyed junctions with NavMesh path-length costs; MoveTo leg execution, bounded replanning and destination reservations | A* versus Dijkstra on matched routes; cost equality, expansions, blocked-route recovery and ally bottlenecks |
+| **NPC AI / Behavior Trees** | Shared controller/tree with per-NPC faction, role, group, patrol route and search zone; ally follow/regroup and bounded enemy search | Repeatable faction, sight-loss, search-expiry, death, regroup and distinct-route scenarios |
 
 Blueprints are the primary implementation method. C++ needs a demonstrated reason. Unreal supplies the renderer, skeletal runtime, collision queries and navigation; purchased assets supply geometry/materials/motions. The team's contribution is the bounded mechanisms, integration rules and controlled comparisons. Do not claim ownership of Lumen, Nanite or vendor master materials.
 
@@ -143,19 +144,19 @@ Target, not measured result: Windows at 1920 x 1080, declared quality preset, ai
 When development resumes, execute a bounded readiness session:
 
 1. Inspect current Git changes and teammate updates; identify the active descriptor and installed engine. Determine the actual editor/automation connection, if any, rather than reusing an old window's state or endpoint.
-2. Confirm environment acquisition/usage rights and required plugins; select one small playable street and a fixed lighting preset.
+2. Confirm environment acquisition/usage rights and required plugins; survey connected routes, collision, sightlines, NavMesh coverage and travel time before selecting the mission area and fixed lighting preset.
 3. Choose one existing historically appropriate soldier configuration and one compatible first-person gun/arms/action set. Record source, rig, reload requirements and usage rights. The city pack does not supply the trailer soldiers or a complete playable combat set.
 4. Check the chosen assets in a small compatibility map and establish the first Windows packaging path. Record actual failures and decisions; do not hide missing dependencies behind a visual screenshot.
 5. Update the readiness record and next action before moving into Gate 2.
 
-Continue in the established order: **Gate 2 combat loop -> Gate 3 three mechanisms and comparisons -> Gate 4 quality/performance -> Gate 5 freeze and delivery**. Build the complete small loop before optional polish. A two-workday investigation checkpoint is a decision point, not a guaranteed schedule.
+Continue in the established order: **Gate 2 combat/mission spine -> Gate 3 four pillar mechanisms and comparisons -> Gate 4 quality/performance -> Gate 5 freeze and delivery**. Build the complete initial mission before optional roster or stage growth. A two-workday investigation checkpoint is a decision point, not a guaranteed schedule.
 
 The team mentioned a late-November final deadline, but official dates, midterm timing, mentor and member availability remain unconfirmed. Reserve the final two weeks for freeze/regressions after dates are verified; do not silently expand scope because time appears available.
 
 ## 8. Documents and submission status
 
-- [English two-page proposal](Docs/Proposal/CS549_Paris_Street_Combat_Proposal.pdf): intended course version.
-- [Chinese two-page proposal](Docs/Proposal/CS549_Paris_Street_Combat_Proposal_CN.pdf): matching review translation requested by the user.
+- [Assignment 1 proposal](Docs/Proposal/CS549_Assignment1_Proposal.pdf): current two-page Assignment 1 report.
+- [Assignment 2 proposal](Docs/Proposal/CS549_Assignment2_Proposal.pdf): current two-page PRD, technical specification and MVP report.
 - [Long-form proposal](Docs/Proposal/PROJECT_PROPOSAL.md): implementation planning context.
 - [Image source record](Docs/Proposal/Visuals/README.md): two official Meshingun Studio showcase views; retain attribution and do not relabel as team results.
 - [Approval email draft](Docs/Submission/APPROVAL_EMAIL_DRAFT.md): prepared, not sent.
@@ -163,18 +164,18 @@ The team mentioned a late-November final deadline, but official dates, midterm t
 
 Assignment 2 calls for a report of at most two pages containing PRD, technical specification and narrow MVP, plus actual concept/pillar approval and mentor-assignment email proof outside that page limit. Never fabricate approval, mentor identity or test results. Prior approval of a Normandy concept cannot automatically be assumed to cover Paris. Do not send email without authorization.
 
-Both PDFs currently include all three names/NetIDs, Yupu's leader designation, proposed roles, bold pillars, two scene references and the same planned mechanisms. Do not remove required disclosures or image attribution. Formal submission files must not include word-count notes, prompts or internal QA/generation commentary.
+Both current assignment PDFs include all three names/NetIDs, Yupu's leader designation, the four pillars, the AI-generated street concept and the mission flowchart. Do not remove required disclosures or visual attribution. Formal submission files must not include word-count notes, prompts or internal QA/generation commentary.
 
-### Rebuilding the proposal
+### Rebuilding the current assignment proposals
 
-`Tools/build_proposal.py` produces both language versions together and checks page count, member names and embedded images. It uses ReportLab and pypdf, with Windows Arial/Microsoft YaHei fonts embedded. Use the bundled runtime if system Python lacks ReportLab:
+`Tools/build_assignment_proposals.py` produces the current Assignment 1 and Assignment 2 DOCX/Markdown sources. Render each DOCX through the documents workflow, inspect both pages, and copy only the accepted PDFs into `Docs/Proposal/`. The older English/Chinese `CS549_Paris_Street_Combat_Proposal*.pdf` files and `Tools/build_proposal.py` are superseded 22 September provenance and must not overwrite the current reports.
 
 ```powershell
 Set-Location -LiteralPath 'D:\0.Rutgers\CS549\Project-New'
-& 'C:\Users\hzgyp\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' Tools/build_proposal.py
+& 'C:\Users\hzgyp\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' Tools/build_assignment_proposals.py
 ```
 
-Apply the available PDF skill when editing PDFs, render and visually inspect all four pages, and keep both languages synchronized. Source strings for both compact versions live in the builder. The full Markdown proposal is a longer planning document, not a page-for-page transcript. Temporary PDF renders are under ignored `tmp/pdf-review/`.
+Apply the documents and PDF workflows when rebuilding, render and visually inspect all four report pages, and keep each PDF synchronized with its DOCX and Markdown source. The full Markdown proposal is longer implementation context, not a page-for-page transcript. Temporary renders belong under ignored `tmp/proposal-review/`.
 
 ## 9. History questions and working style
 
