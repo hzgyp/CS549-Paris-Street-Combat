@@ -1,5 +1,13 @@
 # Development pipeline - Paris Street Combat
 
+**Latest scope correction:** six soldiers are the initial roster, not a final cap. The connected city mission uses ordered Reach rally A → Clear assigned group B → Reach end C objectives and full mission restart. NPCs share AI code with individual team, role, encounter-group, patrol-route and search-zone settings. Follow the current proposal's map-survey gate before choosing area, duration or graph size; earlier compact-street assumptions below are superseded.
+
+**Current delivery direction, 23 September 2026:** use the [proposal](Docs/Proposal/PROJECT_PROPOSAL.md) for all four pillars and the initial one-player/two-ally/three-German roster. First complete its three-stage mission with ally follow/regroup, bounded patrol/search, group registration and unique-death counting, and a full restart that restores the configured roster and objective state. Then consider small NPC increments and extra finite groups/stages after three successful full-mission runs, coverage of both verified approaches where available, no progression/navigation deadlocks, and performance within the declared budget. Keep total roster separate from the measured simultaneous active-AI budget; do not hide/despawn engaged actors or reset earlier casualties. Infinite waves, automatic difficulty increases and checkpoint/save reload are outside the baseline.
+
+## Historical pipeline snapshot — superseded scope
+
+The remaining sections retain the earlier three-pillar/no-allies implementation snapshot. Their asset-readiness and integration principles remain useful only where consistent with the current proposal; its delivery sequence and evidence plan govern new work.
+
 This replaces every earlier Normandy pipeline. It implements [the new proposal](Docs/Proposal/PROJECT_PROPOSAL.md) with Rendering, Animation and Collision Detection as the only primary pillars. The present task establishes the baseline, organizes files and publishes source control. Detailed runtime validation is explicitly deferred.
 
 ## Execution order

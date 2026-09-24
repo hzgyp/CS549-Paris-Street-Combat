@@ -1,86 +1,146 @@
 # Paris Street Combat
 
-**CS549 - Project specification and MVP definition**
+**CS549 - Current project proposal and implementation plan**
 
 **Team:** Yupu Guo (yg745, team leader), Yuqi Pu (yp549), Jingdi Wu (jw2046).
 
-Two-page reports: [English submission version](CS549_Paris_Street_Combat_Proposal.pdf) and [Chinese review translation](CS549_Paris_Street_Combat_Proposal_CN.pdf). Both include the team panel and two environment reference views; [image provenance](Visuals/README.md) distinguishes supplier illustrations from team implementation results.
+Current course deliverables: [Assignment 1 PDF](CS549_Assignment1_Proposal.pdf), [editable DOCX](CS549_Assignment1_Proposal.docx), [Assignment 2 PDF](CS549_Assignment2_Proposal.pdf), and [editable DOCX](CS549_Assignment2_Proposal.docx). The older combined English and Chinese PDFs are historical versions, not synchronized translations of this revision. Assignment 2 approval and mentor-assignment email evidence remains pending.
 
-## 1. Project concept
+## 1. Concept and product requirements
 
-We will build a compact single-player first-person combat encounter in a fictionalized Paris street during the liberation period in August 1944. Normandy provides historical background; no landing sequence is playable. Existing environment and compatible character/weapon assets provide the visual foundation. The team focuses on coherent interaction and explainable implementations of **Rendering, Animation, and Collision Detection**.
+Paris Street Combat is a single-player first-person squad mission through a connected part of the existing WW2 - France Liberation city, fictionalized during the August 1944 liberation period. It replaces the Normandy landing concept because producing its coastline, beach, fortifications, and detailed characters exceeded the team's resources. Compatible licensed soldier, rifle, and animation assets will supply production content; the team develops interaction and NPC systems.
 
-The experience follows one short loop: enter a bounded street, use corners and cover, engage a small enemy group, complete an objective, and restart. We will select the exact date, units and equipment from historical references before approving the final assets. We do not claim an exact recreation of a historical street or incident.
+The four primary pillars are **Animation**, **Collision Detection**, **Pathfinding & Navigation**, and **NPC AI / Behavior Trees**. Rendering supports readable combat through the supplied environment, fixed daylight, and restrained effects. Physics uses engine facilities; a custom dynamics solver is outside scope.
 
-## 2. Product requirements
+The initial MVP configuration has six soldiers: one Allied player, two Allied NPCs, and three German NPCs. **Six is a starting configuration, not the final population limit.** Combatants share an architecture driven by faction, role, encounter group, patrol route, and search zone data. The team may add NPCs and intermediate objectives after evaluating mission pacing, navigation, and performance. Defeated actors remain defeated until a full mission restart; moving between objective stages does not restore earlier casualties.
 
-### Problem and audience
+The initial mission has three sequential objectives: reach rally point A, clear the assigned enemy group at area B, and reach end point C. The player leads while living allies automatically follow and regroup. Player death during any playing stage causes failure; allied casualties do not add a separate failure condition. A full restart restores the configured roster and mission state, rather than a hardcoded count of six.
 
-A convincing FPS depends on agreement between what the player sees, the weapon's animated state, and where a shot can physically travel. A high-quality environment alone does not solve those interaction problems. Our target audience is PC FPS players and course reviewers evaluating real-time graphics and interaction mechanisms.
+The route will connect an approach, a defended objective and an exit, with an alternate route where the existing geometry supports one. The team will first survey the city in Unreal, recording overhead captures, route connectivity, collision, sightlines, NavMesh coverage and travel time. That survey determines the mission area, route length and expected duration; neither a one-block boundary nor a fixed 60-90-second duration is imposed. The surrounding city can remain visible without making every street or building navigable. The vendor documentation describes environment tools and materials, not a validated gameplay floorplan, so exact locations and their connectivity remain unverified until the survey.
 
-### User stories
+The audience is PC FPS players and course reviewers. Players should understand where they can move, why cover blocks a shot, when reloading permits firing, and how NPCs respond to visibility. Reviewers should inspect algorithms, compare alternatives, and distinguish student work from purchased content.
 
-- As a player, I want to move and aim around street cover so that positioning affects the encounter.
-- As a player, I want a wall in front of my muzzle to block my shot even when the crosshair sees past it, so that cover behaves consistently.
-- As a player, I want firing and reloading to match weapon animation and ammunition state, so that repeated or interrupted actions remain predictable.
-- As a player, I want recognizable surface-specific impact feedback so that I can understand what a shot hit.
-- As a player, I want clear win/fail conditions and restart so that I can replay the encounter.
-- As a reviewer, I want matched technical views and recorded comparisons so that I can distinguish team-authored behavior from supplied assets and engine capabilities.
-
-### MoSCoW priorities
-
-| Priority | Scope |
+| Priority | Requirements |
 |---|---|
-| Must | One bounded outdoor street encounter; one player weapon; movement, aim, fire, reload, damage, win/fail/reset; one enemy configuration with basic detection/attack behavior; reliable cover/shot collision; synchronized action/ammo state; bounded surface feedback; three pillar comparisons; packaged Windows build |
-| Should | Crouch where compatible animation is available; minimal enemy movement; basic spatial audio; unobtrusive objective/health/ammo UI; an additional encounter segment within the same asset area after the MVP passes |
-| Could | One additional feedback refinement or a second short approach, only after all Must items and packaging work |
-| Won't | Playable Normandy landing; custom detailed character production; dynamic weather/day-night; ocean simulation; driving; complex allies/civilians; broad interiors; unrestricted destruction; multiplayer; open-world city; runtime LLM NPCs |
+| Must | Initial six-soldier configuration with data-configurable population and distinguishable factions; connected mission route; ordered Reach/ClearArea objectives; automatic ally follow/regroup; movement, aim, fire, reload, damage; health/ammo/current-objective UI; four pillars; win/fail/full-restart; Windows package; reproducible evidence |
+| Should | Additional finite NPC groups and Reach/ClearArea stages after validation and measured evaluation; crouch if clips support it; simple impact/footstep audio |
+| Could | Checkpoint saves; gunshot hearing; exposure-weighted routing; ragdoll death; improved hand IK after the baseline passes |
+| Excluded | Multiplayer, complex squad commands, civilians, weather, driving, ocean interaction, broad interiors, destruction, ballistic penetration, multiple player weapons, infinite waves, runtime LLM agents, new detailed character modeling |
 
-## 3. Technical specification
+Exactly one player rifle is supported. NPCs share weapon behavior with faction-appropriate visuals and compatible action sets. Six unique models, rigs, or animation systems are unnecessary. Exact units, date, uniforms, and weapon variants remain asset-approval decisions; this is not a reconstruction of a documented individual battle.
 
-### Stack and boundaries
+### Staged mission flow and population growth
 
-Windows desktop, Unreal Engine 5.8.x (installed working baseline 5.8.2), Blueprint-first gameplay, Unreal materials/Niagara, Animation Blueprints/Montages with retargeting when required, collision traces and Physical Materials, Enhanced Input, UMG, and simple engine-supported NPC behavior. Git and Git LFS track team-authored material. Blender is reserved for bounded adaptation of acquired assets rather than a new character-production pipeline.
+![Proposed mission state flow: initialize configured roster, reach rally A, clear the registered enemy group at B, reach end C, and succeed; player death leads to failure and full restart.](Visuals/paris-mission-flowchart.png)
 
-The locally supplied WW2 - France Liberation environment is the starting asset dependency. Its vendor package is not the team's modeling contribution and is excluded from the source repository pending rights verification. Soldier characters and some promotional combat VFX are not supplied by that pack. Exact asset/engine compatibility is a future development check.
+The [SVG flowchart](Visuals/paris-mission-flowchart.svg) and [editable Mermaid source](Visuals/paris-mission-flowchart.mmd) describe game rules, not the city floorplan. The lettered locations are placeholders to be placed after the editor survey. Intermediate objective points provide readable progress in the style of a linear squad campaign; they do not imply checkpoint saves or reloads.
 
-### Three primary contributions
-
-| Pillar | Team-authored mechanism | Baseline and evidence |
+| Stage | Completion condition | Player and NPC behavior |
 |---|---|---|
-| **Rendering** | Surface-driven impact selection, correct placement, reusable parameters and bounded feedback lifetime/count | Generic impact versus surface-aware feedback under identical view/shot conditions; GPU frame time and active feedback count |
-| **Animation** | Move/aim/fire/reload state arbitration and ammunition changes synchronized to a guarded animation event | Timer-only reference versus action-event synchronization; repeated input, interrupted reload and hand/weapon alignment evidence |
-| **Collision Detection** | Camera-intent query followed by muzzle-path obstruction query, with consistent hit and surface results | Camera-only reference versus two-stage query; wall/corner and near-cover cases, false hits/blocking and frame-rate consistency |
+| Ready / initialize | Configured roster and finite group records registered; mission initialization complete | Reset objective index, actions, timers, group counters, and actor state, then start Playing |
+| 1. Reach rally A | Living player enters A's designated trigger while this stage is active | Show A's marker; living allies follow and regroup; enemies follow their configured roles |
+| 2. Clear area B | B's nonempty finite roster is fully registered and its assigned EnemyGroupID has zero living members | Show B's objective; allies support visible contacts; enemies guard, patrol, search, or reposition according to perception |
+| 3. Reach end C | Living player enters C's designated trigger while this stage is active | Show C's marker; living allies follow and regroup; other living actors retain their state |
+| Won | All ordered stages complete | Stop combat decisions and offer full mission restart |
+| Lost | Player dies during any Playing stage | Stop combat decisions and offer full mission restart |
 
-The engine supplies rendering, skeletal animation, collision queries and navigation. Purchased assets supply geometry, textures and selected motions. The team owns the integration rules, Blueprint mechanisms and controlled comparisons. AI/navigation remains supporting gameplay, not a fourth pillar. Technical depth will be aligned with the instructor/mentor.
+A Blueprint mission controller stores an ordered array of objective records: ObjectiveID, Type (Reach or ClearArea), Trigger/Marker reference, EnemyGroupID where applicable, and UI text. Only the current stage can complete, and each completion advances the objective index exactly once. Reach checks the living player's presence when the stage activates as well as on later entry, avoiding a missed overlap when the player is already inside. Reach does not wait for allies, so allied death or delayed regrouping cannot prevent progression. The death/failure check takes precedence over success; a lethal event cannot also award completion.
 
-### AI strategy
+ClearArea counts living registered members of its assigned group, not every German in the city and not the occupants of a trigger volume. A surviving enemy who moves away still counts. A group cannot complete unless its configured roster is nonempty and fully registered. Unique death events update an actor-ID ledger; despawn or level unloading does not count as death. Blueprint [Event Dispatchers](https://dev.epicgames.com/documentation/en-us/unreal-engine/event-dispatchers-in-unreal-engine) carry death and objective-change notifications; the team's ledger and mission-state guards enforce their meaning. Death notifications and stage advancement are idempotent: duplicate callbacks cannot decrement twice, make counters negative, or skip objectives. Each stage re-evaluates the current overlap or living-member ledger on activation. Earlier legitimate kills remain counted; a cleared group can complete its stage once activated without recreating enemies. Full restart restores the configured roster, objective index, registration flags, counters, and timers, and rejects callbacks from the previous run.
 
-AI supports research, documentation, scripts, Blueprint assistance, debugging and evidence collection. No runtime AI service is required. The team has discontinued AI-led from-scratch detailed character production after its unsuccessful 38-iteration project experiment. Missing models will be addressed through compatible existing assets, limited adaptation, professional assistance or scope reduction.
+The proposed growth route is to keep the initial two allies while adding enemies in small increments, then add an extra finite group and objective stage only if the larger encounter improves pacing. Compare the six-soldier baseline with exploratory eight- or ten-soldier configurations; those comparison values are not promised final counts. Record quiet travel time, encounter duration, enemy visibility, ally responsiveness, navigation stalls, and CPU/GPU frame times through the full mission. Before adding another group, require three successful full-mission runs covering both verified approaches where an alternate exists, no progression or navigation deadlocks, and performance within the declared budget. Retain an expansion only if the results and playtests justify it.
 
-### Performance constraints
+The total mission roster and simultaneous active-AI budget are separate design decisions. Set that budget from measured AI, animation, navigation, and rendering costs. A later mission may introduce predeclared finite groups on later stages, but must register each group's complete roster before testing its clear condition. Do not hide or despawn engaged actors to satisfy a budget, repopulate defeated groups on entering a new zone, introduce infinite waves, or increase difficulty automatically. Checkpoint/save reload is separate future scope; the MVP always restarts the full mission.
 
-Target: Windows, 1920 x 1080 at a declared quality preset, aiming for 60 FPS on Yupu Guo's i9-12900F / RTX 3080 10 GB / 32 GB desktop. This is an unmeasured target. Later evidence will record frame-time distribution, hitches and GPU memory on the fixed encounter and a second machine. Lighting, shadows, loaded map area and effects budgets will be adjusted to measured costs.
+## 2. Assets, stack, and contribution boundaries
 
-## 4. Narrow MVP
+The stack is Unreal Engine, Blueprint-first gameplay, Enhanced Input, UMG, Animation Blueprints/Montages, collision queries, AIController, Behavior Tree/Blackboard, AI Perception, and navigation. Small C++ additions require a demonstrated need. Git/LFS track permitted team content. Vendor packages retain `/Game/WW2City` names; team content belongs under `/Game/ParisCombat`.
 
-A 60-90-second playable street-corner encounter: the player uses one gun against a small group using one enemy configuration, interacts with solid cover, reloads, receives damage, reaches a clear success/failure state and restarts. Fixed lighting and a limited outdoor area constrain the content budget.
+France Liberation supplies city geometry, materials, prefabs, lighting options, and tools. Its official listing excludes cinematic trailer soldiers and some impact/explosion effects. Allied/German character visuals, player rifle/arms, action clips, and combat audio remain pending selection. Acceptance requires checking skeletons, clips, sockets, first-person suitability, Physics Assets, engine support, and rights. Retargeting is bounded adaptation, not proof that arbitrary packs work together.
 
-**Hardest feature:** keeping muzzle obstruction, hit feedback and weapon/ammunition animation consistent during close-cover combat and interrupted actions, using compatible acquired assets.
+The original ZIP's `WW2FranceLiberation/WW2FranceLiberation.uproject` declares **5.6**; the active project records **5.8**, and the workstation handoff records **5.8.2**. These observations are not compatibility tests. The original descriptor only explicitly enables ModelingToolsEditorMode, whereas the vendor requires ChaosVehiclesPlugin. Gate 1 will pin a tested engine/plugin configuration across the team, using a compatibility copy and preserving the original delivery.
 
-**Midterm proof plan:** a Windows package running outside the editor, a complete encounter and three resets, a fixed set of corner/reload cases, matched pillar comparisons and declared performance captures. A teammate will reproduce the run. These are future acceptance checks, not completed results.
+UE supplies rendering, skeletal evaluation, collision primitives, low-level navigation, and physical simulation. Purchases supply geometry and motions. The team owns action rules, shot resolution, graph search, NPC policies, integration contracts, and comparisons. AI tools may assist research, documentation, code/Blueprint work, and debugging; no runtime AI service is required. The rejected from-scratch detailed character-production route will not restart.
 
-The MVP excludes driving, allies, civilians, moving doors, weather, destruction, multiple weapons, broad interiors and extra street segments. New features must not displace core interaction correctness.
+## 3. Four technical pillars
 
-## 5. Delivery and collaboration
+The table connects each pillar to planned implementation work and the evidence the team will collect. Purchased clips and meshes supply content; the student contribution is the behavior and integration described below. These are planned checks, not completed results.
 
-Yupu Guo leads integration and the proposed collision/gunplay work; Jingdi Wu continues environment/rendering ownership; Yuqi Pu is proposed for animation/action integration. Each member maintains one explainable mechanism and its evidence. The full development order and dependencies are in DEVELOPMENT_PIPELINE.md and Docs/Design/TECHNICAL_DESIGN.md.
+| Pillar | Concrete work | UE5 route & student contribution | Evidence |
+|---|---|---|---|
+| **Animation** | Blend idle/walk/run; play aim, fire, reload, hit and death; keep hands and weapon aligned. | Animation Blueprint, Blend Space, Montages and Notifies; implement guarded action states and a reload transaction that commits ammunition once despite interruption or reset. | Compare timer-only and event-synchronized reloads in 20 action cycles; record duplicate commits, illegal shots and visible alignment. |
+| **Collision Detection** | Prevent movement through street obstacles; resolve bullet hits on cover, characters and friendly blockers. | Configure capsules, collision profiles and Physics Assets; implement muzzle-clearance, camera-aim and muzzle-to-aim queries with one authoritative damage result. | Compare camera-only and two-stage shots in 12 fixtures at 30/60/120 FPS; check obstruction, first hit and duplicate damage. |
+| **Pathfinding & Navigation** | Move through connected city routes; let allies follow/regroup, select distinct destinations and recover from blocked paths. | Build a surveyed tactical graph; implement A* with path-length costs; use NavMesh/MoveTo for each leg and bounded replanning/reservations for execution. | Compare A* with Dijkstra on 10 identical start/goal pairs; record cost, expansions and time, then test blocked routes and ally bottlenecks. |
+| **NPC AI / Behavior Trees** | Give soldiers individual patrol/search assignments; react to sight, reload, engage, investigate a last-seen position and return to role. | Share AIController, Behavior Tree and AI Perception; author priorities and bounded search with per-NPC Blackboard state, faction, role, group, patrol route and search zone. | Run 10 behavior scenarios against a direct-chase reference; inspect target choice, sight loss, memory expiry, death and distinct NPC routes. |
 
-The final demonstration will show a short encounter, repeatable technical comparisons, the boundaries between acquired assets and team work, and limitations. The late-November final target is a team planning assumption pending the official course schedule. Assignment 2 requires the compact report plus actual concept/pillar approval and mentor-assignment email proof; the new setting must be communicated in that approval chain.
+**Integration and supporting systems (not additional pillars):** A Blueprint mission manager will advance configurable Reach/ClearArea stages, count registered group deaths, display objectives and restore the configured roster on full restart. Cross-pillar mission runs will check progression, persistent casualties, action cancellation and reset. UE CharacterMovement, Physics Assets and optional Chaos ragdolls provide supporting motion/physics; the team configures these facilities rather than building a dynamics solver. Start with six soldiers, then evaluate small finite NPC additions using the same architecture and measured performance budget.
 
-## References
+### Animation: action arbitration and synchronization
 
-- [WW2 - France Liberation, Meshingun Studio](https://www.fab.com/listings/dae418da-1969-444a-821c-c1f30a3f21b6)
-- [The Liberation of Paris, Musee de la Liberation](https://www.museeliberation-leclerc-moulin.paris.fr/en/museum/la-liberation-de-paris)
-- [Paris municipal historical event map](https://www.paris.fr/en/pages/relive-the-liberation-of-paris-through-an-interactive-map-36122)
-- Local assignment authority: Course/Assignments/Assignment 2.docx.
+Compatible idle, walk/run, aim, fire, reload, hit, and death clips feed a shared Animation Blueprint. A speed/direction Blend Space handles locomotion; Montages control discrete actions. Upper-body blending is used where clips support it. Sockets and limited IK maintain hand alignment. Player arms and NPC full-body presentation may differ while sharing gameplay rules.
+
+The team implements a guarded action state machine. An accepted reload receives a transaction identifier. One animation event commits ammunition exactly once; cancellation, stale notifies, repeated input, death, and reset cannot duplicate ammunition. Cancellation before commit leaves ammunition unchanged; cancellation after commit preserves the transfer. Firing requires a living actor, active encounter, ammunition, and an action state permitting discharge. Action identifiers connect gameplay, animation, and feedback.
+
+Evidence compares a timer-only reference with event-synchronized reload handling under identical clips/inputs. Twenty planned cycles cover repeated requests, interruption before/after commit, death, reset, and movement transitions. Acceptance requires zero duplicate commits or illegal discharges, visible hand/weapon alignment, and consistent completion.
+
+### Collision Detection: authoritative shot resolution
+
+Character capsules and environment collision handle locomotion. Explicit weapon-query profiles make walls, cover, and hit bodies consistent. Visual detail does not establish collision correctness; street meshes and narrow passages require inspection. Skeletal Physics Assets supply appropriate character hit bodies where available.
+
+Each shot checks muzzle clearance. A player camera trace establishes the intended aim point; NPCs derive intent from their currently visible target. A muzzle-to-aim trace resolves the first obstruction. An embedded muzzle is rejected without discharging. An accepted discharge consumes one round even when it strikes nearby cover. One authoritative hit drives damage, impact position, normal, and feedback. Cosmetic tracers do not decide damage. Friendly bodies block shots without receiving friendly damage, preventing bullets from passing through teammates to enemies.
+
+Player and NPC weapons use the same function, including ammunition, obstruction, cooldown, death, and encounter checks. Twelve planned fixtures cover open shots, corners, close walls, narrow cover, character hits, friendly blockers, and muzzle overlap at 30/60/120 FPS. Compare camera-only and two-stage results. Acceptance requires no through-wall or duplicate damage and consistent fixture decisions across frame-rate conditions.
+
+### Pathfinding & Navigation: bounded graph search
+
+The team authors a small shared tactical graph at verified junctions and route decisions along the surveyed approach, intermediate objectives and end point. Its node count follows the actual connectivity; no fixed 8-12-node cap is imposed. An alternate route is included only after its connectivity is validated. Each edge represents a validated traversable NavMesh path; its cost is that path's length. Student-authored A* maintains an open set, accumulated costs, and predecessors, using Euclidean distance as its heuristic. Since traversable path length is at least straight-line distance, the heuristic is admissible for this graph's nonnegative length costs.
+
+UE MoveTo executes NavMesh legs between successive nodes. The team does not implement UE's NavMesh generator or claim global optimality over the environment. A* optimality applies to the authored graph and recorded costs. Replanning follows destination changes, invalidated edges, or failed movement; bounded retries prevent repeated stalls.
+
+The two Allied NPCs automatically follow and regroup with the player. Follow waypoints are projected onto NavMesh and checked for a reachable path. Allies reserve distinct temporary destinations, wait rather than compete at bottlenecks, and replan when blocked or separated. Engagement uses distinct reachable support positions near the current encounter instead of two permanent slots on the map. Catch-up uses navigation and movement, never teleportation; no player command system is required.
+
+Ten fixed start/goal pairs sampled from the surveyed route compare A* with Dijkstra by setting the same search's heuristic to zero. Both use identical graph snapshots and costs. Record reachability, total cost, node expansions, and search time; costs should agree within numerical tolerance. Full-route tests cover the approach, validated alternate route, objective and exit. A blocked-edge test requires an alternative route or an explicit no-path result. Ally tests cover catch-up, regrouping after separation, destination reservations and bottleneck wait/replan, with no teleports or persistent mutual blocking. Exposure-weighted routing is optional and does not replace the controlled baseline.
+
+### NPC AI / Behavior Trees: perception and decisions
+
+All NPCs, including later additions, share one AIController class and Behavior Tree. Per-NPC configuration supplies Team, Role, EncounterGroupID, PatrolRouteID, and SearchZoneID; Blackboard state holds target, last seen location/time, ammunition, and current goal. Route, target, and last-seen keys are private to each NPC, with Instance Synced disabled, so sharing code does not share personal perception or route state. Separate patrol routes and search zones give NPCs distinct responsibilities without creating a new tree for every soldier. Sight events are filtered by faction; Blueprint tags or a team interface support filtering. Priorities are death/encounter stop, reload, visible-target engagement, investigation, and return to role. NPCs react after a configured delay and fire only with current line of sight; the shared shot function still checks muzzle obstruction.
+
+After losing sight, an NPC may investigate the last observed position using a configurable bounded memory period, initially **three seconds**, without tracking the unseen target's current position or firing through cover. Search chooses from reachable authored points within its SearchZoneID near that last observed position, with bounded attempts and time; no-path or expired memory returns it to its role. This separates routine patrol routes from perception-driven search and combat. Germans resume guarding or patrolling the current objective and approaches; Allies regroup with the player. Surviving Germans may reposition as contact changes, without omniscient knowledge or a predetermined combat route. Allies follow automatically between contacts and reserve distinct temporary support positions when engaging visible Germans. Reservations clear when goals change, on death and on reset; complex cover search and squad commands are unnecessary.
+
+Ten planned scenarios exercise occlusion, sight loss and memory expiry, delayed response, reload, death during attack/movement, ally follow/regroup and muzzle obstruction. Acceptance requires correct target factions, no firing without current sight, no tracking beyond bounded last-seen memory, no actions after death, and return to the appropriate role after memory expiry. Behavior traces and video show Blackboard changes and decisions; a simple direct-chase policy provides comparison. A mission traversal also verifies that actor identity, damage and defeated enemies persist across objective stages. Each added NPC configuration must demonstrate its assigned patrol route and bounded search behavior without changing shared AI code.
+
+## 4. Supporting systems and narrow MVP
+
+Rendering uses supplied Nanite/Lumen content with fixed daylight. The existing city provides surrounding scenery while navigation and gameplay validation cover the selected connected mission area. Team work covers readability, restrained feedback, and performance settings; vendor materials are not original shader contributions. CharacterMovement supplies locomotion. Chaos/Physics Assets support collision and optional ragdoll death. Buying meshes does not remove configuration work, but reimplementing rigid-body dynamics would not advance the baseline.
+
+The MVP uses **the initial six-soldier configuration and all four pillars**, with a surveyed connected route, Reach A → ClearArea B → Reach C objectives, automatic ally follow/regroup and temporary support positions, German guard/patrol behavior, one shared graph, static cover, basic clips, and minimal UI. Its roster and objective records remain configurable for later measured growth. It excludes hearing, complex cover search, destruction, vehicles, projectile ballistics, and checkpoint/save reload. The hardest integration problem is agreement between animation, ammunition, sight, muzzle obstruction, interrupted NPC actions, objective progression, and movement through the city.
+
+Encounter states are Ready, Playing, Won, and Lost, with an objective index inside Playing. Moving between mission locations does not reset actor state or repopulate defeated enemies. Full restart clears timers, pending actions, perception memory, routes, reservations, effects, damage state, objective index, and group counters before restoring the configured roster. A reset generation identifier rejects stale callbacks. Three planned packaged runs, each followed by restart, must cover the surveyed route and all three objective stages, demonstrate ally regrouping and bottleneck handling, confirm no teleports or replacement waves, and show restored starting conditions and operation outside the editor.
+
+Objective fixtures cover out-of-order trigger entry, already-overlapping Reach activation, a group not yet registered, an empty-but-uncleared area after enemies move away, duplicate death events, a group cleared before activation, player death during every stage, repeated completion events, and restart with both the initial and an expanded finite roster. Acceptance requires no premature clear, skipped stage, duplicate count change, success after player death, or stale event from an earlier run. Expansion is optional until the baseline passes these checks.
+
+The target is 60 FPS at 1920 x 1080 on the recorded i9-12900F / RTX 3080 10 GB / 32 GB desktop with a declared fixed quality preset. Measurements will report mean and p95 frame times, build, settings, and limitations. This is an unmeasured target, not a result.
+
+## 5. Delivery gates and proposed ownership
+
+1. **Dependency readiness:** approve compatible licensed assets, pin engine/plugins, survey the city using overhead captures and route/collision/sightline/NavMesh/travel-time checks, select a connected mission area, and establish an initial Windows package.
+2. **Complete loop:** integrate the configurable initial six-soldier roster, shared actions, automatic ally follow/regroup, German guard/patrol roles, the complete mission route, ordered Reach/ClearArea objectives, failure, and full restart.
+3. **Four mechanisms:** complete guarded animation events, collision pipeline, graph A*, and perception-driven behavior; collect comparisons.
+4. **Validation and optional population tuning:** execute scenario sets across the approach, alternate route, intermediate objectives and end point, including ally catch-up, bottlenecks, sight loss, actor-state persistence and objective-counter rules; profile the complete mission, compare small NPC increments only if useful, correct failures, and reproduce a package on a teammate's machine.
+5. **Freeze/submission:** preserve build, source/dependency instructions, demonstration, evidence, disclosures, and actual approval correspondence.
+
+Proposed ownership: Yupu Guo leads integration, collision, and shared gunplay; Yuqi Pu leads animation and compatible rig/action integration; Jingdi Wu leads navigation/AI and bounded environment setup, with Guo helping implement search and behavior. Roles require team confirmation. No course deadline or mentor identity is assumed. Assignment 2's actual concept/pillar approval and mentor-assignment email proof must accompany the report separately; this plan does not substitute for it.
+
+## 6. Visual provenance and map-selection limits
+
+Both proposals include the regenerated [street concept](Visuals/paris-six-character-concept.png) and formal [game flowchart](Visuals/paris-mission-flowchart.svg). The street image was generated with OpenAI ImageGen using both official Meshingun Studio gallery images as appearance references. It depicts a first-person view toward connected streets with two allies and three enemies: the initial six-person configuration, not a final population cap. It is new concept art, not an edited supplier screenshot, verified floorplan or implemented gameplay. The unchanged supplier images remain local reference inputs and are not separately embedded in the reports. The [exact prompt and input record](Visuals/STREET_MOCKUP_PROMPT.md) document this generation.
+
+The flowchart is an AI-assisted conceptual visual generated deterministically in code from explicit mission rules. It represents staged objectives, failure and full restart without specifying city geometry. Exact route diagrams require the editor survey. The original text-only compact-street mockup is archived as `paris-six-character-concept-text-only-v1.png`; it and the earlier connected-city ImageGen schematic are no longer embedded. See [visual provenance](Visuals/README.md) for all image records and limitations.
+
+## Sources
+
+- Course authority: `Course/Assignments/Assignment 1.docx` and `Assignment 2.docx`.
+- [Meshingun Studio: WW2 - France Liberation](https://www.fab.com/listings/dae418da-1969-444a-821c-c1f30a3f21b6): environment features, excluded trailer content, required plugin.
+- [Vendor documentation](https://docs.google.com/document/d/15GFarJQnrFBj0UlDT0GBIWS6xswP3kJXnVOzU1083T0/edit), archived as `WW2_France_Liberation_Official_Documentation.pdf` in the source asset's `文档教程（Documentation）/官方源文档归档（Official Source Archive）` directory. Printed pp.9, 14, 23 cover plugins/collision; p.70 marks audio controls inapplicable; pp.71-75 cover optimization/rendering.
+- Epic: [IK Retargeting](https://dev.epicgames.com/documentation/unreal-engine/ik-rig-animation-retargeting-in-unreal-engine), [Animation Notifies](https://dev.epicgames.com/documentation/unreal-engine/animation-notifies-in-unreal-engine), [Traces](https://dev.epicgames.com/documentation/unreal-engine/traces-in-unreal-engine---overview), and [Physics Assets](https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-asset-editor-in-unreal-engine).
+- Epic: [Navigation System](https://dev.epicgames.com/documentation/en-us/unreal-engine/navigation-system-in-unreal-engine), [Behavior Trees](https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-tree-in-unreal-engine---overview), and [AI Perception](https://dev.epicgames.com/documentation/en-us/unreal-engine/ai-perception-in-unreal-engine).

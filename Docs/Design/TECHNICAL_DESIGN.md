@@ -1,5 +1,13 @@
 # Technical design - Paris Street Combat
 
+**Latest scope correction:** use the current proposal's connected city mission with an initial configurable six-soldier roster, not a final population cap. Automatic ally follow/regroup, temporary support positions and the map-survey requirements remain. All NPCs share an AIController/Behavior Tree with individual team, role, encounter-group, patrol-route and search-zone settings and private per-NPC Blackboard state. Extra finite groups/stages depend on pacing, navigation and performance evaluation.
+
+**Current mission contract, 23 September 2026:** the revised [proposal](../Proposal/PROJECT_PROPOSAL.md) governs the four pillars, shared A* graph and staged Reach rally A → Clear assigned group B → Reach end C mission. Reach checks only the living player and re-evaluates overlap on activation. ClearArea requires a nonempty fully registered EnemyGroupID with zero living members; unique death events update an actor-ID ledger, including earlier kills. Leaving a volume, despawning or unloading does not count as death. Only the current stage advances, once; player-death failure takes precedence. Full restart restores the configured roster, objective index, counters and timers and rejects stale callbacks. Earlier casualties persist across stages. Objective markers are not checkpoint saves.
+
+## Historical design snapshot — superseded scope
+
+The remaining sections retain the earlier design. The shot/action contracts remain useful where consistent with the current proposal; older fixed-street, three-pillar, stationary-enemy and one-objective limits do not govern new work. This file is not evidence of implemented or validated systems.
+
 ## 1. Boundaries
 
 The asset pack supplies the city geometry, materials and vendor utilities. Unreal supplies rendering, animation runtime, scene queries, navigation and packaging. The team implements a bounded encounter and the three mechanisms in the proposal. This is a design baseline; it is not an implementation or validation report.

@@ -1,10 +1,16 @@
 # Paris Street Combat
 
-A CS549 single-player FPS project using an existing Paris/European city environment. The academic pillars are **Rendering, Animation, and Collision Detection**. The encounter is fictionalized within the August 1944 liberation of Paris; the Normandy landing is background context only.
+A CS549 single-player FPS project using an existing Paris/European city environment. The proposed academic pillars are **Animation, Collision Detection, Pathfinding and Navigation, and NPC AI / Behavior Trees**. The encounter is fictionalized within the August 1944 liberation of Paris; the Normandy landing is background context only.
 
 **Team:** Yupu Guo (yg745, leader), Yuqi Pu (yp549), Jingdi Wu (jw2046).
 
 ## Current baseline
+
+**23 September proposal revision:** the current [two assignment reports](Docs/Proposal/README.md) and [detailed proposal](Docs/Proposal/PROJECT_PROPOSAL.md) specify an initial roster of one Allied player, two Allied NPCs and three German NPCs. Six is not a final population cap. They supersede the earlier three-pillar scope in the dated handoff, pipeline and technical-design snapshot. Rendering/physics support the four selected pillars; the revision is a plan, not completed gameplay or course approval.
+
+The mission moves across a connected part of the existing city through ordered intermediate objectives: **Reach rally A → Clear assigned group B → Reach end C**. An Unreal map survey selects actual locations and any alternate route. Reach checks the living player; ClearArea waits for its nonempty finite roster to be fully registered and have zero living members. Player death causes failure; full restart restores the configured roster and mission state. Allies follow/regroup; enemies patrol, search around last observed targets and reposition. Individual route/search settings use shared AI code. Additional NPCs, finite groups and stages depend on full-mission pacing, navigation and performance tests.
+
+The former one-block, fixed-duration, fixed-node-count and final-six assumptions are superseded. Both proposals connect pillars to concrete work and UE5 routes in a table, and include the [formal game flowchart](Docs/Proposal/Visuals/paris-mission-flowchart.svg) plus the regenerated [street concept](Docs/Proposal/Visuals/paris-six-character-concept.png). The concept uses both official gallery images as appearance references; the flowchart is generated in code from mission rules. Neither verifies vendor geography or implemented gameplay. Earlier text-only concepts remain provenance only. See the [visual records](Docs/Proposal/Visuals/README.md).
 
 The team has approved the scope reset and an existing-assets-first production policy. This repository establishes the new proposal, technical design, development order, historical references, and selected gunplay reuse candidates. Detailed engine/gameplay validation is scheduled for later gates, not claimed as completed during this reset.
 
@@ -16,9 +22,10 @@ Continuing in a new chat/window? Read [HANDOFF.md](HANDOFF.md) first for the com
 
 | Document | Purpose |
 |---|---|
-| [Project proposal](Docs/Proposal/PROJECT_PROPOSAL.md) | PRD, priorities, three pillars, MVP, and cuts |
-| [Two-page proposal PDF](Docs/Proposal/CS549_Paris_Street_Combat_Proposal.pdf) | Compact Assignment 2 report; email proof is separate |
-| [Chinese proposal PDF](Docs/Proposal/CS549_Paris_Street_Combat_Proposal_CN.pdf) | Matching two-page translation for team review |
+| [Project proposal](Docs/Proposal/PROJECT_PROPOSAL.md) | PRD, priorities, four pillars, technical routes, MVP, and cuts |
+| [Assignment 1 proposal](Docs/Proposal/CS549_Assignment1_Proposal.pdf) | Two-page concept, roster, pillar/work table, street mockup and game flowchart |
+| [Assignment 2 proposal](Docs/Proposal/CS549_Assignment2_Proposal.pdf) | Two-page PRD, technical table, MVP and visuals; email proof is separate |
+| [Editable proposals and version notes](Docs/Proposal/README.md) | Word/Markdown sources and superseded report status |
 | [Development pipeline](DEVELOPMENT_PIPELINE.md) | Phase order, stop conditions, and deferred checks |
 | [Technical design](Docs/Design/TECHNICAL_DESIGN.md) | System boundaries, shot/action contracts, evidence plan |
 | [Asset inventory and restoration](Assets/README.md) | Existing city, reuse candidates, and missing dependencies |
@@ -47,7 +54,7 @@ Restore the environment using the recorded asset version and original `Content/W
 
 ## Deliberate limits
 
-One small street area, one player weapon, one enemy configuration, basic combat behavior, one objective, fixed lighting, and reliable restart. AI/navigation support this experience. Vehicle driving, dynamic weather, landing/water, complex allied squads, broad destruction, multiplayer, and large interiors are outside the baseline.
+One surveyed connected city mission, one player weapon, an initial configurable six-soldier roster, automatic ally follow/regroup, basic enemy patrol/guard/search behavior, ordered Reach/ClearArea objectives, fixed lighting, and full mission restart. An authored A* graph at real route decisions and shared behavior trees provide the navigation/AI contributions. Later finite groups are data-configured and must pass evaluation before inclusion. Defeated actors remain defeated across stages, and engaged actors are not hidden/despawned to meet an AI budget. Vehicle driving, dynamic weather, landing/water, complex squad commands, infinite waves, automatic difficulty increases, checkpoint/save reload, broad destruction, multiplayer, and large interiors are outside the baseline.
 
 ## Archive
 

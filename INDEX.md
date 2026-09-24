@@ -1,5 +1,7 @@
 # Project index
 
+Current scope: an initial configurable six-soldier roster across a surveyed connected city area, with Reach A → Clear assigned group B → Reach C objectives and full mission restart. Later finite NPC groups use individual patrol/search settings and require pacing, navigation and performance evaluation. The current proposal supersedes historical fixed-population and one-objective notes.
+
 ## Active authority
 
 - [New-session handoff](HANDOFF.md)
@@ -7,12 +9,18 @@
 - [Scope reset](Docs/Decisions/SCOPE_RESET.md)
 - [Team and ownership](Docs/Decisions/TEAM_AND_OWNERSHIP.md)
 - [Proposal](Docs/Proposal/PROJECT_PROPOSAL.md)
-- [Proposal PDF](Docs/Proposal/CS549_Paris_Street_Combat_Proposal.pdf)
-- [Chinese proposal PDF](Docs/Proposal/CS549_Paris_Street_Combat_Proposal_CN.pdf) - synchronized translation for team review
+- [Assignment 1 proposal PDF](Docs/Proposal/CS549_Assignment1_Proposal.pdf)
+- [Assignment 2 proposal PDF](Docs/Proposal/CS549_Assignment2_Proposal.pdf)
+- [Editable reports and current version notes](Docs/Proposal/README.md)
 - [Proposal image sources](Docs/Proposal/Visuals/README.md)
+- [Current street concept](Docs/Proposal/Visuals/paris-six-character-concept.png)
+- [Street concept prompt and reference inputs](Docs/Proposal/Visuals/STREET_MOCKUP_PROMPT.md)
+- [Current game flowchart](Docs/Proposal/Visuals/paris-mission-flowchart.svg)
+- [Editable mission flow](Docs/Proposal/Visuals/paris-mission-flowchart.mmd)
 - [Pipeline](DEVELOPMENT_PIPELINE.md)
 - [Technical design](Docs/Design/TECHNICAL_DESIGN.md)
 - [Submission status](Docs/Submission/STATUS.md)
+- [Assignment 2 requirements review](Docs/Submission/ASSIGNMENT2_REQUIREMENTS_REVIEW.md)
 - [Approval update email draft](Docs/Submission/APPROVAL_EMAIL_DRAFT.md)
 
 ## Assets and working environment
@@ -40,6 +48,8 @@
 
 - [Archive index](Archive/README.md)
 - [Transition record](Archive/TRANSITION_RECORD.json)
-- [Proposal builder](Tools/build_proposal.py)
+- [Current assignment proposal builder](Tools/build_assignment_proposals.py)
+- [Current game flowchart builder](Tools/build_mission_flowchart.py)
+- [Superseded combined proposal builder](Tools/build_proposal.py)
 
 Only the active-authority documents govern new work. Files under Archive, Reference/Gunplay, and HistoricalReference/NormandyContext do not reactivate the former project requirements.
