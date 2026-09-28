@@ -6,6 +6,8 @@ The selected workflow is **GitHub for code and small project files; SFTP for lar
 
 Git tracks version manifests; SFTP holds immutable file versions. Transfer only changed/missing files, not the entire environment on each edit. Existing migration/vendor inventories remain provenance records, not evidence of an uploaded, verified SFTP release. The server store and local external-asset working area are ignored by Git.
 
+**First publication completed, 27 September 2026:** the original France Liberation Content tree (15,850 files, 26.47 GiB) and a rights-filtered historical reference mirror (66 files, 122.46 MiB) are now present in SFTP storage and hash-verified. See [published baselines and exact download paths](Sync/README.md) and the owner's [sharing attestation](Sync/RIGHTS.md). This is server-filesystem verification, not a teammate download or runtime test. Twenty historical files with unresolved sharing rights were excluded and listed in the historical manifest.
+
 ## Production policy
 
 Use existing models and compatible action sets. Fine-grained AI-led soldier production is rejected. A visually appealing model is not accepted until its required rig, weapon, animation, source rights and engine integration are understood. Detailed checks take place later; the current task organizes and records assets.
@@ -48,6 +50,6 @@ Search existing assets first; favor a coherent compatible set. Exact historical 
 - `ASSET_REGISTER.csv`: role, path, source and acceptance state.
 - `VENDOR_DEPENDENCY.json`: local source/version and exclusions.
 - `MIGRATION_MANIFEST.json`: copied-file provenance and hashes; includes an explicit not-validated status.
-- `Sync/manifests/<asset-id>.json`: create per-asset version manifests during verified publication, following the team manual. No complete live SFTP catalog is claimed by this documentation update.
+- `Sync/manifests/<asset-id>.json`: per-asset verified publication inventories. Current releases are indexed in `Sync/README.md`; they do not imply that every other local asset has been published.
 
 The private repository contains team documents and permitted reference material. It does not contain the entire local city, engine installation, caches, or a packaged game.

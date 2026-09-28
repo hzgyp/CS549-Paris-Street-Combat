@@ -1,0 +1,710 @@
+{
+    "schema_version":  1,
+    "asset_id":  "historical-reference-subset",
+    "asset_version":  "initial-20260927-222549",
+    "owner":  "Yupu Guo",
+    "published_at":  "2026-09-27T22:50:43.3617161-04:00",
+    "source":  "HistoricalReference in this workspace; rights-filtered subset",
+    "license_record":  "Assets/Sync/RIGHTS.md",
+    "sharing_status":  "recorded_public_domain_cc0_and_team_authored_material",
+    "recipients":  [
+                       "Yupu Guo",
+                       "Yuqi Pu",
+                       "Jingdi Wu"
+                   ],
+    "dependencies":  [
+
+                     ],
+    "required_git_paths":  "HistoricalReference/README.md",
+    "restore_policy":  "Git/LFS remains authoritative; SFTP is a convenience snapshot only; do not overwrite a different Git revision",
+    "files":  [
+                  {
+                      "path":  "HistoricalReference/README.md",
+                      "storage":  "git",
+                      "size_bytes":  1032,
+                      "sha256":  "823db9bb6a22126f07065a7859dcca7cf1f39f088aab9b1e859b3d8758a03d11",
+                      "source_path":  "HistoricalReference/README.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/README.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/01_SCOPE_AND_ACCURACY.md",
+                      "storage":  "git",
+                      "size_bytes":  2956,
+                      "sha256":  "31788bbff40d1bd2e3ad54689b970c8993134cc9dc08a6d290c779115269c4c1",
+                      "source_path":  "HistoricalReference/NormandyContext/01_SCOPE_AND_ACCURACY.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/01_SCOPE_AND_ACCURACY.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/02_UNIFORMS_AND_RANKS.md",
+                      "storage":  "git",
+                      "size_bytes":  7172,
+                      "sha256":  "ae97c09c1149680ae6277bcc59720f441020c4cf02c764a669290f5914391634",
+                      "source_path":  "HistoricalReference/NormandyContext/02_UNIFORMS_AND_RANKS.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/02_UNIFORMS_AND_RANKS.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/03_WEAPONS_AND_AMMUNITION.md",
+                      "storage":  "git",
+                      "size_bytes":  4844,
+                      "sha256":  "15912d871711ed27ba6dde7da8234e46232c923cb87cefe7749f890815b1c874",
+                      "source_path":  "HistoricalReference/NormandyContext/03_WEAPONS_AND_AMMUNITION.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/03_WEAPONS_AND_AMMUNITION.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/04_VEHICLES_AND_AIRCRAFT.md",
+                      "storage":  "git",
+                      "size_bytes":  4901,
+                      "sha256":  "a4c0053c0d24399c412c6ea229b7bb91020084beaf246c230fc3b6cbaa531022",
+                      "source_path":  "HistoricalReference/NormandyContext/04_VEHICLES_AND_AIRCRAFT.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/04_VEHICLES_AND_AIRCRAFT.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/05_WEATHER_EVIDENCE.md",
+                      "storage":  "git",
+                      "size_bytes":  4699,
+                      "sha256":  "83a11b612e8f4287c798255c08af286b344b8647b4717a6b23d815f1f06bad25",
+                      "source_path":  "HistoricalReference/NormandyContext/05_WEATHER_EVIDENCE.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/05_WEATHER_EVIDENCE.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/06_BLUEPRINT_SPECIFICATION.md",
+                      "storage":  "git",
+                      "size_bytes":  7127,
+                      "sha256":  "2fa704a1c621a7d03a688efb5dac14761c6fce91d98700091993cd3a9bd73624",
+                      "source_path":  "HistoricalReference/NormandyContext/06_BLUEPRINT_SPECIFICATION.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/06_BLUEPRINT_SPECIFICATION.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/07_REVIEW_GATES.md",
+                      "storage":  "git",
+                      "size_bytes":  2655,
+                      "sha256":  "172aa5e12f1ae9238afe2dc15d1e1aa149e3f8bb00ca76db20c91fb1c2cdafd5",
+                      "source_path":  "HistoricalReference/NormandyContext/07_REVIEW_GATES.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/07_REVIEW_GATES.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/08_ASSET_PRODUCTION_REFERENCES.md",
+                      "storage":  "git",
+                      "size_bytes":  7537,
+                      "sha256":  "89b768f2e7c6a273138debfb6e8418f5ceff9a46e6ab25b6110fdf1c6c625b0b",
+                      "source_path":  "HistoricalReference/NormandyContext/08_ASSET_PRODUCTION_REFERENCES.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/08_ASSET_PRODUCTION_REFERENCES.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/09_LANDING_PERFORMANCE_REFERENCES.md",
+                      "storage":  "git",
+                      "size_bytes":  7311,
+                      "sha256":  "71dbb2d5e828b06733bd1b2158322f5cef457aa1d5cbe5fb8a6e71274c234447",
+                      "source_path":  "HistoricalReference/NormandyContext/09_LANDING_PERFORMANCE_REFERENCES.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/09_LANDING_PERFORMANCE_REFERENCES.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/AGENTS.md",
+                      "storage":  "git",
+                      "size_bytes":  406,
+                      "sha256":  "a8c53b4c66d73e716c5487cf5057f5a4481c408830bc35028c9a8a58c2b8a329",
+                      "source_path":  "HistoricalReference/NormandyContext/AGENTS.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/AGENTS.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/gallery.html",
+                      "storage":  "git",
+                      "size_bytes":  25426,
+                      "sha256":  "426209a79cc3cb6c5362046617f2d589839e08ed4c1f0d8c84a9dcbc1dbd6825",
+                      "source_path":  "HistoricalReference/NormandyContext/gallery.html",
+                      "rights_record":  "Team-authored gallery; some referenced files intentionally excluded",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/gallery.html"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/IMAGE_GALLERY.md",
+                      "storage":  "git",
+                      "size_bytes":  20883,
+                      "sha256":  "d5b9bffc6377a07362dbeb0419a4b47bf0c0b0751639f7d28afd77112fd1bc2c",
+                      "source_path":  "HistoricalReference/NormandyContext/IMAGE_GALLERY.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/IMAGE_GALLERY.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/README.md",
+                      "storage":  "git",
+                      "size_bytes":  4545,
+                      "sha256":  "6ee96524c615002745210df2372163264d9d10a5554ce09b62749f52aceebedb",
+                      "source_path":  "HistoricalReference/NormandyContext/README.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/README.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/SOURCES.md",
+                      "storage":  "git",
+                      "size_bytes":  17925,
+                      "sha256":  "3833a14e226692d907f4ff363a2746445653a14e88129a804a8b10f1aacfdbfa",
+                      "source_path":  "HistoricalReference/NormandyContext/SOURCES.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/SOURCES.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/archive/fm23_95_75mm_1942.pdf",
+                      "storage":  "git",
+                      "size_bytes":  7259647,
+                      "sha256":  "ec5d1f3d96d544f110407a30758aa0a2a058123a2044474c4bc9d28fa6291cfb",
+                      "source_path":  "HistoricalReference/NormandyContext/archive/fm23_95_75mm_1942.pdf",
+                      "rights_record":  "U.S. government manual; catalog SOURCES.csv and IMAGE_CATALOG.csv",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/archive/fm23_95_75mm_1942.pdf"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/archive/german_handbook_1945.pdf",
+                      "storage":  "git",
+                      "size_bytes":  86572532,
+                      "sha256":  "dfa9fd6f83d12beadcd3c10c7460ad46c189b665181809b0b77c66e532f25b36",
+                      "source_path":  "HistoricalReference/NormandyContext/archive/german_handbook_1945.pdf",
+                      "rights_record":  "U.S. government manual; catalog SOURCES.csv and IMAGE_CATALOG.csv",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/archive/german_handbook_1945.pdf"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/archive/us_uniform_survey.pdf",
+                      "storage":  "git",
+                      "size_bytes":  7643543,
+                      "sha256":  "408b3f7da9f1e0cc31f5e38170ced7e8bd00fada675460b8d27c9121d30a1dff",
+                      "source_path":  "HistoricalReference/NormandyContext/archive/us_uniform_survey.pdf",
+                      "rights_record":  "U.S. government manual; catalog SOURCES.csv and IMAGE_CATALOG.csv",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/archive/us_uniform_survey.pdf"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/catalog/2026-09-21_ASSET_REFERENCE_DOWNLOADS.json",
+                      "storage":  "git",
+                      "size_bytes":  2683,
+                      "sha256":  "1ee756a9ba67392e84460242c4c5337f5c9c8fd46e6db55f32fa960db98c326d",
+                      "source_path":  "HistoricalReference/NormandyContext/catalog/2026-09-21_ASSET_REFERENCE_DOWNLOADS.json",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/catalog/2026-09-21_ASSET_REFERENCE_DOWNLOADS.json"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/catalog/FILE_MANIFEST.json",
+                      "storage":  "git",
+                      "size_bytes":  6511,
+                      "sha256":  "61d26b8fa29ef48a352b37acf922316f4c69d516b2b797a0c2a8cc3fa5be50c5",
+                      "source_path":  "HistoricalReference/NormandyContext/catalog/FILE_MANIFEST.json",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/catalog/FILE_MANIFEST.json"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/catalog/images.json",
+                      "storage":  "git",
+                      "size_bytes":  21416,
+                      "sha256":  "809dc9f9f3cbc21d0a062140f8bb76c0cacd079252187c932543857e69db9eca",
+                      "source_path":  "HistoricalReference/NormandyContext/catalog/images.json",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/catalog/images.json"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+                      "storage":  "git",
+                      "size_bytes":  16643,
+                      "sha256":  "9931b1a5851f6ca484bdbd77284e0b1ddab8b58df70125878d890962c1da6f32",
+                      "source_path":  "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/catalog/LANDING_MOTION_REFERENCES.csv",
+                      "storage":  "git",
+                      "size_bytes":  1949,
+                      "sha256":  "20e6f3fb66b1c8a25c7bea669cd503b61eb0f684f3dc53bba3e922f3bcaf1324",
+                      "source_path":  "HistoricalReference/NormandyContext/catalog/LANDING_MOTION_REFERENCES.csv",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/catalog/LANDING_MOTION_REFERENCES.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/catalog/SOURCES.csv",
+                      "storage":  "git",
+                      "size_bytes":  8306,
+                      "sha256":  "5dca7e9332c871d436f163761144f792a970ea261a717d36e835f2311ddd1940",
+                      "source_path":  "HistoricalReference/NormandyContext/catalog/SOURCES.csv",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/catalog/SOURCES.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/catalog/VALIDATION.json",
+                      "storage":  "git",
+                      "size_bytes":  378,
+                      "sha256":  "debeb0c4e63c069b88a91ab180e28b9f9bbf77e6e1b95499a9999ec8d6a87339",
+                      "source_path":  "HistoricalReference/NormandyContext/catalog/VALIDATION.json",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/catalog/VALIDATION.json"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/data/weather_evidence.csv",
+                      "storage":  "git",
+                      "size_bytes":  1619,
+                      "sha256":  "8ca6248bb42942c57a569a4ff22e41f09f6329f7f978811a2e8f4214d855e7d9",
+                      "source_path":  "HistoricalReference/NormandyContext/data/weather_evidence.csv",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/data/weather_evidence.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/data/weather_keyframe_template.csv",
+                      "storage":  "git",
+                      "size_bytes":  242,
+                      "sha256":  "f6f192f145770f19146477107c6f4b4c7b48547b27262c31ec4303d2ac826a5b",
+                      "source_path":  "HistoricalReference/NormandyContext/data/weather_keyframe_template.csv",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/data/weather_keyframe_template.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/aircraft/b26_invasion_stripes.jpg",
+                      "storage":  "git",
+                      "size_bytes":  17629,
+                      "sha256":  "02f5aa716e99861bceed21ed9fe68b2b392e58ab40bb355e23c593d4c9dd7a6a",
+                      "source_path":  "HistoricalReference/NormandyContext/images/aircraft/b26_invasion_stripes.jpg",
+                      "rights_record":  "Commons identifies U.S. Air Force public-domain source; original caption attribution retained on source page",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/aircraft/b26_invasion_stripes.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/aircraft/fw190a_captured_shape_only.jpg",
+                      "storage":  "git",
+                      "size_bytes":  7369756,
+                      "sha256":  "e95b4687c520a70227fbc1e09d84ab2f202db3f16e48647ff914ea3ed6d7529c",
+                      "source_path":  "HistoricalReference/NormandyContext/images/aircraft/fw190a_captured_shape_only.jpg",
+                      "rights_record":  "Official U.S. Navy photograph 80-G-224686; public domain",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/aircraft/fw190a_captured_shape_only.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/easy_red_bluffs.jpg",
+                      "storage":  "git",
+                      "size_bytes":  42548,
+                      "sha256":  "1a6b47517d1f41b87a27072f96e655dcc4ec8f5f0ac0a7f6248d9292f71c94e8",
+                      "source_path":  "HistoricalReference/NormandyContext/images/beach/easy_red_bluffs.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/easy_red_bluffs.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/nara_into_jaws_of_death.jpg",
+                      "storage":  "git",
+                      "size_bytes":  112596,
+                      "sha256":  "ea8ce01b4ba0f0b3a9b066d698854d332b967384445ddf617cbe0f7f9d4ffe41",
+                      "source_path":  "HistoricalReference/NormandyContext/images/beach/nara_into_jaws_of_death.jpg",
+                      "rights_record":  "U.S. Coast Guard photograph by Robert F. Sargent; U.S. government work",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/nara_into_jaws_of_death.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/omaha_landing_visibility.jpg",
+                      "storage":  "git",
+                      "size_bytes":  43325,
+                      "sha256":  "7870bb433c4a865b138aca081654ae8e58549c8e0f78d7cfdac0825d4e3e4267",
+                      "source_path":  "HistoricalReference/NormandyContext/images/beach/omaha_landing_visibility.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/omaha_landing_visibility.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/omaha_sector_map.jpg",
+                      "storage":  "git",
+                      "size_bytes":  255099,
+                      "sha256":  "d1501b57cc195bcf46a9662655b4c8b612feecfc16ac5b86d773c47fc68775ef",
+                      "source_path":  "HistoricalReference/NormandyContext/images/beach/omaha_sector_map.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/omaha_sector_map.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/shingle_embankment.jpg",
+                      "storage":  "git",
+                      "size_bytes":  66044,
+                      "sha256":  "34422b94a0a83a8f942a5ed2788cd7f8fba0315d36080814db23a89423c72dde",
+                      "source_path":  "HistoricalReference/NormandyContext/images/beach/shingle_embankment.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/shingle_embankment.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/tidal_flat_19440519.jpg",
+                      "storage":  "git",
+                      "size_bytes":  39400,
+                      "sha256":  "0a69d9d7610c2beb98c58faea6ed0bf3d3716f74e251b8400138738be074a23f",
+                      "source_path":  "HistoricalReference/NormandyContext/images/beach/tidal_flat_19440519.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/tidal_flat_19440519.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/vierville_flanking_pillbox.jpg",
+                      "storage":  "git",
+                      "size_bytes":  56260,
+                      "sha256":  "65da152ade016691759da8a41f78e8d6bb30354f263297a611faebd8bc6a5903",
+                      "source_path":  "HistoricalReference/NormandyContext/images/beach/vierville_flanking_pillbox.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/vierville_flanking_pillbox.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/british_officer_rank_chart_1943.jpg",
+                      "storage":  "git",
+                      "size_bytes":  2102296,
+                      "sha256":  "68d197439a426578fdb3f9cc177682ba0059b7610dec865ef624b7f0224a51cf",
+                      "source_path":  "HistoricalReference/NormandyContext/images/ranks/british_officer_rank_chart_1943.jpg",
+                      "rights_record":  "U.S. Army Special Service Division / U.S. Government Printing Office; public-domain official publication",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/british_officer_rank_chart_1943.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/heer_branch_colors.png",
+                      "storage":  "git",
+                      "size_bytes":  195548,
+                      "sha256":  "c8a2a33dc6447ff894c3b9d5b52ded76bcbda86794dc8bd0511a65c04e05f6cb",
+                      "source_path":  "HistoricalReference/NormandyContext/images/ranks/heer_branch_colors.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/heer_branch_colors.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/heer_enlisted_ranks.png",
+                      "storage":  "git",
+                      "size_bytes":  183637,
+                      "sha256":  "0c4857094d6e785e43b3ef079b9f7c01fddd356c278daaf2e714e6417891868e",
+                      "source_path":  "HistoricalReference/NormandyContext/images/ranks/heer_enlisted_ranks.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/heer_enlisted_ranks.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/heer_officer_nco_ranks.png",
+                      "storage":  "git",
+                      "size_bytes":  203585,
+                      "sha256":  "867a83c3ddc0c019cb21bf969a24fdcf44899d47be2637ed83113a2a88fa90bf",
+                      "source_path":  "HistoricalReference/NormandyContext/images/ranks/heer_officer_nco_ranks.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/heer_officer_nco_ranks.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/us_officer_rank_chart_1943.jpg",
+                      "storage":  "git",
+                      "size_bytes":  1586714,
+                      "sha256":  "9776a8efbfc86ea28f1e557b5fa622fe33637f31efc0db4bc15c96f6d4750d1d",
+                      "source_path":  "HistoricalReference/NormandyContext/images/ranks/us_officer_rank_chart_1943.jpg",
+                      "rights_record":  "U.S. Army Special Service Division / U.S. Government Printing Office; public-domain official publication",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/us_officer_rank_chart_1943.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/us_wwii_rank_chart.png",
+                      "storage":  "git",
+                      "size_bytes":  1499323,
+                      "sha256":  "12ab9eb9387ae72bda3e94284a303e4a984fd4cfab37774c290b275b2d001044",
+                      "source_path":  "HistoricalReference/NormandyContext/images/ranks/us_wwii_rank_chart.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/us_wwii_rank_chart.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/british_1944_recognition.jpg",
+                      "storage":  "git",
+                      "size_bytes":  113931,
+                      "sha256":  "f67b933d364c70044b6a503cf8e30b3f3812a6ea378846a9f346ddd0e365ee10",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/british_1944_recognition.jpg",
+                      "rights_record":  "Commons marks German official work public domain under section 5(1) UrhG",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/british_1944_recognition.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/heer_field_uniform.png",
+                      "storage":  "git",
+                      "size_bytes":  118348,
+                      "sha256":  "aa94817835d94e6cc69a60f7255595cf19fa28df5df3167166eef1914258eb55",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/heer_field_uniform.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/heer_field_uniform.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/heer_officer_and_specialists.png",
+                      "storage":  "git",
+                      "size_bytes":  148476,
+                      "sha256":  "bed4f710363d257635b2d4f3198256ca772dd5e3a57864d49d50525bdb5feb11",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/heer_officer_and_specialists.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/heer_officer_and_specialists.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/us_equipment_temporal_check.png",
+                      "storage":  "git",
+                      "size_bytes":  895520,
+                      "sha256":  "ad5b6684f053ce8a96974ac9e84d72f8a07200478f9224232cb46081ac6a63c7",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/us_equipment_temporal_check.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/us_equipment_temporal_check.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/us_field_jackets.png",
+                      "storage":  "git",
+                      "size_bytes":  862311,
+                      "sha256":  "3cc786dbd51afcede8e6daa93c71b003292a62345c7162763255209bfb83d839",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/us_field_jackets.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/us_field_jackets.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/us_helmet_and_specialist_clothing.png",
+                      "storage":  "git",
+                      "size_bytes":  755343,
+                      "sha256":  "958e95846bdbeaad3f5883f61ee50d5befa2eed4888552f24cda635c21e51632",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/us_helmet_and_specialist_clothing.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/us_helmet_and_specialist_clothing.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/us_web_equipment.png",
+                      "storage":  "git",
+                      "size_bytes":  665212,
+                      "sha256":  "57a77a7169215bd4938be33c8fe696dbeefd611fc889e879e8d1a1fe7288c36c",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/us_web_equipment.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/us_web_equipment.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg",
+                      "storage":  "git",
+                      "size_bytes":  747886,
+                      "sha256":  "02a200be46d757867c7ef3df04be00ccf4be87b7bd30a6be5666648e68d155c8",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg",
+                      "rights_record":  "CC0 recorded in NormandyContext/SOURCES.md, Paris Musees record 942801",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_2.jpg",
+                      "storage":  "git",
+                      "size_bytes":  372949,
+                      "sha256":  "add45df5f296f0bc4e9274ff749a5b0dbc534195639d94cc0986972c8dbe2708",
+                      "source_path":  "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_2.jpg",
+                      "rights_record":  "CC0 recorded in NormandyContext/SOURCES.md, Paris Musees record 942801",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_2.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/vehicles/german_panther_tiger_reference.png",
+                      "storage":  "git",
+                      "size_bytes":  337001,
+                      "sha256":  "82ede910b5f49c81091f064236dd9d090ea0497c904ac3eb83e2c2ad67620a25",
+                      "source_path":  "HistoricalReference/NormandyContext/images/vehicles/german_panther_tiger_reference.png",
+                      "rights_record":  "U.S. War Department; public-domain official publication",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/vehicles/german_panther_tiger_reference.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/vehicles/sherman_omaha_19440606.jpg",
+                      "storage":  "git",
+                      "size_bytes":  5217924,
+                      "sha256":  "cc34a6799a92f444c3431cb205c22ac42522bba5a636c7e8b2af4f3e5dc0dd1b",
+                      "source_path":  "HistoricalReference/NormandyContext/images/vehicles/sherman_omaha_19440606.jpg",
+                      "rights_record":  "U.S. Navy / National Archives; Commons marks public domain",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/vehicles/sherman_omaha_19440606.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/captured_76mm_emplacement.jpg",
+                      "storage":  "git",
+                      "size_bytes":  116899,
+                      "sha256":  "850d08389f5b1841d8fda1a6428d527671a9f4e738a5c5ca5f7a43671df184cc",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/captured_76mm_emplacement.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/captured_76mm_emplacement.jpg"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/german_81mm_mortar.png",
+                      "storage":  "git",
+                      "size_bytes":  229223,
+                      "sha256":  "d0676da450ac2d4e81d5cacc4f844b54f58586f1e4ad27b99edf6d45cf176edf",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/german_81mm_mortar.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/german_81mm_mortar.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/german_rifle_reference.png",
+                      "storage":  "git",
+                      "size_bytes":  166464,
+                      "sha256":  "3a312d693932d0d99a0744c3155be7cc06144e8368b168a89175f121cd71d30c",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/german_rifle_reference.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/german_rifle_reference.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/german_submachine_guns.png",
+                      "storage":  "git",
+                      "size_bytes":  164979,
+                      "sha256":  "ba9cbc4a46598407226687d633cef916e6c313c4bf3c0fbcb0d475e6f7727100",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/german_submachine_guns.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/german_submachine_guns.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/mg34_mg42.png",
+                      "storage":  "git",
+                      "size_bytes":  125105,
+                      "sha256":  "8147a6150987a8cac5c5788ea56b0013b57feb8e010d2f364598886c1f87cd82",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/mg34_mg42.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/mg34_mg42.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/us_75mm_m48_external.png",
+                      "storage":  "git",
+                      "size_bytes":  35528,
+                      "sha256":  "72a3e9a142244b2a5d6bdbe097e6ad2bb73904e0be762d95509442bb06c2a905",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/us_75mm_m48_external.png",
+                      "rights_record":  "U.S. War Department publication; public domain in United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/us_75mm_m48_external.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/us_carbine_variants.png",
+                      "storage":  "git",
+                      "size_bytes":  558961,
+                      "sha256":  "32b72a763c8bb83c6814d39bca8b19006a90dd950314bf9b9ac1b814da4c6fe9",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/us_carbine_variants.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/us_carbine_variants.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/us_garand_carbine.png",
+                      "storage":  "git",
+                      "size_bytes":  646242,
+                      "sha256":  "df7935d93a213cd3e0b53646c027c8b760fba8b99db8bccaaeca33deec42776f",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/us_garand_carbine.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/us_garand_carbine.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/us_rifle_comparison.png",
+                      "storage":  "git",
+                      "size_bytes":  699445,
+                      "sha256":  "1d5fa400927fcd0b58f5650bc4642eb8d2bb7958aae2bde02fabff11ca007041",
+                      "source_path":  "HistoricalReference/NormandyContext/images/weapons/us_rifle_comparison.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/us_rifle_comparison.png"
+                  },
+                  {
+                      "path":  "HistoricalReference/Paris1944/CONTEXT.md",
+                      "storage":  "git",
+                      "size_bytes":  3209,
+                      "sha256":  "b31366e911e1711c1df39210c4690146731989578623fd134d05aed0e4a9047f",
+                      "source_path":  "HistoricalReference/Paris1944/CONTEXT.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/Paris1944/CONTEXT.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/Paris1944/IMAGE_REFERENCES.csv",
+                      "storage":  "git",
+                      "size_bytes":  566,
+                      "sha256":  "eb9b2446941374b6b93e79ef4993ea40a8aef414792ef9584ba01b4c9cbcb4bf",
+                      "source_path":  "HistoricalReference/Paris1944/IMAGE_REFERENCES.csv",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/Paris1944/IMAGE_REFERENCES.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/Paris1944/RESEARCH_GAPS.md",
+                      "storage":  "git",
+                      "size_bytes":  1195,
+                      "sha256":  "c5959c7a446a3e7e790db915c58774d7bba59c86c4f53598484a9c441ebebd56",
+                      "source_path":  "HistoricalReference/Paris1944/RESEARCH_GAPS.md",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/Paris1944/RESEARCH_GAPS.md"
+                  },
+                  {
+                      "path":  "HistoricalReference/Paris1944/SOURCES.csv",
+                      "storage":  "git",
+                      "size_bytes":  1685,
+                      "sha256":  "647717629520af384127fe87562175e3d161dd22bf86a3da5b7f1b8ebe0d166d",
+                      "source_path":  "HistoricalReference/Paris1944/SOURCES.csv",
+                      "rights_record":  "Team notes/catalogs; source links and original caveats retained",
+                      "mirror_remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/Paris1944/SOURCES.csv"
+                  }
+              ],
+    "file_count":  66,
+    "size_bytes":  128413050,
+    "retired_paths":  [
+
+                      ],
+    "excluded_files":  [
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metoffice_19440606_1300utc.pdf",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metoffice_dday_factsheet.pdf",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metadata/coast_sand_01_files.json",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metadata/pebbles_files.json",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metadata/pebbles_info.json",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/british_uniform.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/fw190.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/nara_into_jaws_of_death.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/omaha2.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/omaha3.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/plane.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/pocketguide_links.json",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/polyhaven_coast_sand_01.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/polyhaven_coast_sand_rocks_02.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/polyhaven_sand_rocks_small_01.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/S24.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/S25.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/tank.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/ww2museum_lcvp_lcm.html",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/images/weather/metoffice_19440606_1300utc.png",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           }
+                       ],
+    "verification":  {
+                         "method":  "SHA-256 and size compared for source, staged copy and final server file; final file count checked",
+                         "verifier":  "Local administrator diagnostic/publisher",
+                         "verified_at":  "2026-09-27T22:50:43.3627177-04:00",
+                         "teammate_sftp_download":  "not tested",
+                         "runtime_import":  "not tested"
+                     }
+}

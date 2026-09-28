@@ -11,7 +11,7 @@
   "main_map_sha256": "8e6a6a09ff036f2d96cf49a64c1d7a3af33faaa424e401f8daa02d898b2e27a3",
   "file_count": 15850,
   "bytes": 28421951358,
-  "entitlement_status": "not_verified; delivery paperwork is not a license receipt",
+  "entitlement_status": "owner_attested_2026-09-27: Yupu Guo confirms lawful acquisition and private source sharing for the three CS549 team members; see Assets/Sync/RIGHTS.md; receipt/license text not independently reviewed",
   "runtime_validation": "deferred; no load, compile, play, packaging or performance validation performed",
   "git_status": "vendor Content and source delivery intentionally excluded; source clone requires restoration",
   "working_config_changes": [

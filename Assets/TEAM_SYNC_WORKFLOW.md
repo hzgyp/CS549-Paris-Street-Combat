@@ -51,10 +51,13 @@ For each logical asset, create a JSON manifest in `Assets/Sync/manifests/` durin
 | `files[].storage` | `sftp` or `git`; a restore destination must not have two competing storage owners. |
 | `files[].size_bytes`, `files[].sha256` | Exact byte length and lowercase 64-character SHA-256 of actual file bytes. |
 | `files[].remote_path` | For SFTP files, an immutable baseline or hash-object location; never `/incoming` or mutable `latest`. |
+| `files[].mirror_remote_path` | Optional convenience copy of an already Git/LFS-owned file. `storage` stays `git`; do not restore this snapshot over a different Git revision or treat the mirror as a second authority. |
 | `verification` | Method, verifier and time of remote-byte verification; runtime/import validation is a separate result. |
 | `retired_paths` | Explicit paths removed/replaced since the previous version, with reason; review before local cleanup. |
 
 Do not include secrets or raw purchase receipts. Historical migration/vendor manifests remain evidence of the original copy, not the current edited version. A release catalog must include unchanged required files as well as changed ones; dependency closure is not established by uploading only the visible model. No two manifests may claim conflicting versions at the same restore path.
+
+The owner's France Liberation sharing attestation and the historical subset's item-selection rules are recorded in [Sync/RIGHTS.md](Sync/RIGHTS.md). Check the actual publication manifests before assuming a file has been copied. A rights-filtered historical mirror may omit source webpage snapshots and images while retaining their source links; inspect its `excluded_files` list.
 
 Use a local SHA-256 and size check for each saved file. For example, replace this illustrative path with a real asset path:
 
