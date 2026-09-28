@@ -10,6 +10,8 @@ Each member owns a small mechanism, its diagram/Blueprint entry point, a baselin
 
 ## Handoffs
 
+All three members must follow the [GitHub + SFTP synchronization manual](../../Assets/TEAM_SYNC_WORKFLOW.md) before development and at task/day end. GitHub carries code, small project files and asset manifests; SFTP carries large originals and changed asset versions. Confirm one named editor per binary before work; shared server write access is not an edit lock. Publish verified SFTP objects before the corresponding Git manifest, then hand off the Git revision, asset IDs, verification results and unresolved work. Yupu coordinates conflicting edits; do not automatically choose one person's binary over another's.
+
 - Animation delivers action-state and reload-notify contracts for the selected rig/weapon pair.
 - Collision/gunplay delivers a single authoritative shot/hit result and resettable health/ammo/objective state.
 - Pathfinding/navigation delivers the surveyed graph, A*/Dijkstra comparison, route execution and blocked-path recovery rules.

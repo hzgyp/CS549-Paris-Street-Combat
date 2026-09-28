@@ -29,6 +29,7 @@ Continuing in a new chat/window? Read [HANDOFF.md](HANDOFF.md) first for the com
 | [Development pipeline](DEVELOPMENT_PIPELINE.md) | Phase order, stop conditions, and deferred checks |
 | [Technical design](Docs/Design/TECHNICAL_DESIGN.md) | System boundaries, shot/action contracts, evidence plan |
 | [Asset inventory and restoration](Assets/README.md) | Existing city, reuse candidates, and missing dependencies |
+| [GitHub + SFTP team workflow](Assets/TEAM_SYNC_WORKFLOW.md) | Mandatory start/end synchronization, large-asset versions, ownership and recovery |
 | [Paris history](HistoricalReference/Paris1944/CONTEXT.md) | Timeline, unit constraints, and source links |
 | [Submission status](Docs/Submission/STATUS.md) | Approval and instructor alignment still needed |
 | [Full index](INDEX.md) | Directory and file navigation |
@@ -41,7 +42,9 @@ The working environment is `Unreal/ParisStreetCombat/WW2FranceLiberation.uprojec
 
 The original vendor delivery remains in the local `WW2FranceLiberation---Version d20260630(UE5.6+)` directory. It is not a second active gameplay project. The organized working copy excludes generated caches from the original delivery.
 
-**The city content is local-only and intentionally absent from GitHub.** A fresh clone contains the project descriptor/configuration, our documents and selected reference assets, but requires the correctly entitled environment package before opening the city. The missing soldier/weapon/action set is a separate acquisition and compatibility task. See Assets/README.md; do not assume a blank clone is a packaged game.
+**Code and small project files go to GitHub; large models/assets go to SFTP (decision: 27 September 2026).** The city content remains intentionally absent from GitHub. A fresh clone requires the correctly entitled external environment package and any versioned asset changes before opening the city. SFTP availability does not grant vendor redistribution rights. Follow the [team synchronization manual](Assets/TEAM_SYNC_WORKFLOW.md) before editing and at every end-of-day handoff. The missing soldier/weapon/action set remains a separate acquisition and compatibility task.
+
+The LFS commands below restore existing tracked objects only; new large models and asset packages use SFTP plus Git-tracked manifests. Existing LFS history is not migrated by this decision.
 
 ```powershell
 git lfs install

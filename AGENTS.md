@@ -38,9 +38,17 @@
 - The new repository is private. Privacy alone is not a license grant.
 - Vendor `WW2City` content and associated external actor/object packages are intentionally excluded from Git. Record version, listing, local paths, hashes, and restoration instructions in Assets/.
 - Do not upload raw commercial/vendor assets until acquisition rights and permitted team sharing have been verified. A local upload manifest or third-party tutorial is not proof of entitlement.
-- The user has not decided on Git/LFS for version control. Existing repository records do not constitute a current commitment; do not add Git/LFS as a chosen stack item in proposals or slides. If selected later, store permitted team-authored binaries appropriately. Do not force-add ignored vendor content, engine caches, backups, local credentials, or unrelated files.
+- On 27 September 2026, the user selected **GitHub for code/small project files and SFTP for large models/assets**, including new originals and modified versions. Follow `Assets/TEAM_SYNC_WORKFLOW.md` before editing and at every end-of-day handoff. Existing Git/LFS history and attributes remain for compatibility; do not add new large assets to LFS or migrate history without explicit approval. Do not force-add ignored vendor content, engine caches, backups, local credentials, or unrelated files.
 - Explain that a source clone needs the external environment dependency restored. Do not claim the GitHub repository alone contains the entire city.
 - Keep stable task-specific asset ownership; avoid simultaneous edits to the same Unreal binary.
+
+### Mandatory GitHub + SFTP synchronization
+
+- Before development: inspect Git state AND local external-asset changes (Git ignores these); preserve unfinished work; fetch/integrate the intended Git revision safely; read its asset manifests; download only missing/changed SFTP files, verify SHA-256 and size, and restore their recorded paths with affected editors closed. Resolve conflicts and confirm one owner per binary before editing. Never overwrite unsynchronized local assets.
+- At task/day end: save assets, close affected editors, identify changed/new files and dependencies, upload only those files as new immutable SFTP versions, and verify remote bytes before committing/pushing the matching manifests and code. Do not publish a manifest pointing to missing or unverified files. Record incomplete work honestly; GitHub and SFTP publication require the user's task authorization.
+- Git stores per-file paths, sizes, SHA-256 hashes, SFTP version locations, ownership, dependencies and rights records; SFTP stores the bytes. A changed texture does not require re-uploading the whole city. A changed monolithic model/package still requires transferring that changed file; SFTP alone is not binary-delta version control.
+- Use the same intake/versioning process for historical assets, new originals and modified Unreal/model assets. Preserve original baselines and published versions; never use a mutable `latest` folder as the version authority. No automatic overwrite, mirror deletion or concurrent edits to one binary.
+- Keep the local SFTP store (`Assets/LocalShared/`) out of Git. The writable SFTP child directories are for collaboration, not permission to overwrite history or redistribute unlicensed assets. Passwords, private keys and connection secrets must remain outside tracked files. Read the manual for connection, recovery and legacy-LFS rules.
 
 ## History and formal deliverables
 

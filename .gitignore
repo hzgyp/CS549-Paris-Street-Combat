@@ -7,6 +7,11 @@
 /Unreal/ParisStreetCombat/Content/Developers/
 /Assets/LocalVendor/
 
+# External asset working copies and the local SFTP server store.
+# Version metadata belongs in Assets/Sync/manifests/, not in these directories.
+/Assets/LocalShared/
+/Assets/LocalWorking/
+
 # Unreal generated output and local credentials/tool state
 Binaries/
 Build/
