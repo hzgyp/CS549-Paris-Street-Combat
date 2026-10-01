@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T21:15:10-04:00",
+  "updated_at": "2026-09-30T21:18:43-04:00",
   "repository": "hzgyp/CS549-Paris-Street-Combat",
   "visibility": "private",
-  "stage": "sftp_verified_clean_source_prepared_before_remote_push",
+  "stage": "sftp_and_remote_source_verified_publication_blocked_by_provider_retention",
   "authorized_scope": "Migrate permitted existing asset/history bytes to private SFTP; remove asset-bearing Git history in the same repository; publish source only after verification.",
   "sftp": {
     "run_id": "git-assets-20260930-210133",
@@ -20,12 +20,22 @@
   },
   "git": {
     "old_remote_main": "abcbec3eed0402b48828421fdc058de5a08a23ab",
-    "history_rewrite": "Prepared in isolated clone; original Git/LFS metadata and current working files backed up privately.",
+    "history_rewrite": "Completed and pushed with expected-old-head force lease; source commit f904daa88cf43b1f4f51459ad1635522948e4d23. Original Git/LFS metadata and current working files backed up privately.",
     "source_originals_deleted": false,
-    "remote_push": "not yet performed",
-    "fresh_remote_source_audit": "not yet performed",
-    "provider_removed_object_retention": "not yet checked; keep private until resolved"
+    "remote_push": "Cleaned main verified on GitHub; only main published; no backup/old refs pushed.",
+    "fresh_remote_source_audit": "Passed: exact catalog-pinned manifest bytes survive a fresh clone with line-ending conversion disabled; all reachable source paths pass asset checks; 213 blob/commit objects passed bounded credential/private-path/NUL/LFS-signature checks. Source pack 2.66 MiB.",
+    "provider_removed_object_retention": {
+      "checked_at": "2026-09-30T21:18:37.2160280-04:00",
+      "old_commit_http": 200,
+      "removed_raw_blob_http": 200,
+      "removed_raw_bytes_match_original_git_object": true,
+      "old_lfs_download_offered": true,
+      "old_lfs_download_size_bytes": 1434,
+      "old_lfs_download_sha256_matches_original": true,
+      "result": "Blocked: GitHub still serves removed raw content and an orphaned LFS object to the authorized account. Keep private until provider purge is verified or deletion/recreation is explicitly authorized."
+    }
   },
   "team_action": "Preserve unfinished code and ignored assets; clone cleaned source into a new folder and restore verified SFTP versions. Never merge or push pre-cleanup history.",
-  "limitations": "Storage checks do not prove license rights beyond recorded scope, gameplay acceptance, performance, packaging or course submission. Repository deletion/recreation and support messages are not authorized by this migration request."
+  "provider_guidance": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/removing-files-from-git-large-file-storage",
+  "limitations": "Storage checks do not prove license rights beyond recorded scope, gameplay acceptance, performance, packaging or course submission. Repository deletion/recreation and support messages require additional explicit authorization. Local originals and private recovery backups remain intact."
 }
