@@ -28,6 +28,9 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 ## Assets and working environment
 
 - [Asset policy, inventory and restoration](Assets/README.md)
+- [3D asset inventory and acquisition gaps](Assets/3D_ASSET_AUDIT.md)
+- [Chinese model search checklist](Assets/3D_ASSET_AUDIT_ZH.md)
+- [Character compatibility tests and repair plan](Assets/CHARACTER_COMPATIBILITY_AND_REPAIR.md)
 - [Current authoritative asset catalog](Assets/Sync/CATALOG.json)
 - [Git/SFTP migration and source publication status](Assets/Sync/PUBLICATION_STATUS.json)
 - [Source publication checks and recovery](Docs/Submission/PUBLICATION_REVIEW.md)

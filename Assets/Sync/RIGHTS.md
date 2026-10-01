@@ -24,4 +24,12 @@ Sources and item-level rights remain in `HistoricalReference/NormandyContext/cat
 
 Exclude the two Met Office PDFs and their chart image pending item-specific sharing review. Exclude archived third-party webpage snapshots and provider metadata pending review; retain source links in the catalogs. Paris image references remain links only. These omissions must appear in the publication manifest; a subset is not the complete original archive. Some legacy galleries link to intentionally omitted items.
 
-The historical library already contains Git/LFS-tracked files. Its SFTP copy is a versioned convenience mirror, not a migration of Git ownership. Team members should normally obtain these files from Git/LFS; the manifest records mirror locations for this snapshot without creating a second authoritative restore target. Normandy notes remain inactive background, not current production instructions.
+The earlier historical Git/LFS convenience mirror was superseded by the authorized 30 September migration. Current bytes are SFTP-owned and selected by `CATALOG.json`; do not restore old LFS history. Normandy notes remain inactive background, not current production instructions.
+
+## Soldier and rifle animation intake
+
+On 1 October 2026, Yupu Guo explicitly answered "allowed" to the request to confirm that German Soldier WWII, US Paratrooper and Rifle Animset Pro permit sharing originals and modified versions with this project's three members. Record this as the owner's entitlement/team-sharing attestation, not independent receipt or full-license review. The earlier France Liberation attestation is separate. Receipts, account details and keys are not published in Git.
+
+Permitted recipients are Yupu Guo, Yuqi Pu and Jingdi Wu, for this CS549 project through private SFTP only. Public source visibility does not authorize redistribution of these model, texture, animation or source-archive bytes. External packaged-build distribution and historical suitability remain separate gates.
+
+Preserve the delivered originals, including their wrapper/source files, unchanged. The UE 5.8.2 adaptation and Blender exchange repair are an integration baseline, not final gameplay acceptance. Every published file must be size/SHA-256 verified and selected by the active catalog. All shared areas grant the members CRUD through the shared account; published versions remain immutable by team procedure.

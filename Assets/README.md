@@ -2,6 +2,10 @@
 
 ## Team synchronization (27 September 2026)
 
+**1 October character publication:** the verified private release `character-20261001-v1` contains three preserved original deliveries (590 files) and the UE 5.8.2/Blender 5.2.2 integration baseline (721 files). Its four manifests are active in [the catalog](Sync/CATALOG.json). Read [download and restoration instructions](Sync/README.md#character-integration-baseline-on-1-october) and [actual publication checks](Sync/CHARACTER_PUBLICATION_STATUS.json). All shared areas grant team CRUD; originals/releases remain immutable by procedure. Teammate restoration and final gameplay/history/performance acceptance are separate remaining checks.
+
+**1 October storage correction:** asset bytes on the server workstation now target one physical home under `Assets/LocalShared/SFTP/`, with one writable workspace per owner and immutable originals/releases kept separately. Existing editor/intake paths may be junction aliases, not duplicate copies. Relocation is complete only when its before/after hash report succeeds; a proposed target is not evidence of migration. Read the manual before copying, editing or cleaning files. The character repair batch must finish its relevant regressions and permitted SFTP publication before character/weapon integration resumes.
+
 **30 September migration:** the user explicitly selected the same repository for public code/docs/config/hash records after removing its existing asset bytes/history. Current permitted model, historical and document/image bytes use private SFTP even when small. Read [the active catalog](Sync/CATALOG.json), [publication checks](../Docs/Submission/PUBLICATION_REVIEW.md) and [reclone/restoration procedure](TEAM_SYNC_WORKFLOW.md#8-rejoin-after-the-authorized-history-rewrite). Older Git/LFS ownership notes below are pre-migration snapshots. Local originals and private backups are preserved; 22 unresolved-rights reference files remain local-only with source links.
 
 The selected workflow is **GitHub for code and small project files; SFTP for large models/assets, both originals and modified versions**. The mandatory [team synchronization manual](TEAM_SYNC_WORKFLOW.md) defines start-of-work checks, end-of-day publication, SHA-256 manifests, ownership, new-asset intake and recovery. Read it before changing assets. The user reports SFTP is working; the local service was also observed listening on TCP 22222. This does not establish vendor sharing rights or verify that any particular asset version has been published.
@@ -41,11 +45,15 @@ The pack contains city/environment/car resources and map components. Its [offici
 
 ## Assets still needed
 
-- One approved enemy soldier configuration, with usable rig and basic motions.
-- One first-person weapon/arms/action set, including the chosen weapon's actual reload behavior.
+- One finished Allied and one finished German infantry configuration, each with a usable full-body rig, plus compatible third-person rifle locomotion/combat actions. Reuse these across the initial roster; six actors do not require six different models.
+- One first-person weapon/arms/action set, including the chosen weapon's actual reload behavior and required ammunition props; one suitable German NPC world rifle. Included bundle components need not be acquired twice.
 - Surface feedback/audio resources if those retained or supplied are unsuitable.
 
 Search existing assets first; favor a coherent compatible set. Exact historical variants follow the selected date/units. No purchase, acquisition license, compatibility result or final quality acceptance is inferred merely from a folder being present.
+
+See the [30 September 3D asset audit and priority gaps](3D_ASSET_AUDIT.md) and its [Chinese model search checklist](3D_ASSET_AUDIT_ZH.md). Existing rifles are prototypes; the stopped Lux3D/MPFB pilot is not a production soldier/action set. The audit separates these from the present city dependency and does not authorize new acquisition or modeling.
+
+The new soldier/action intake has a separate [compatibility test and repair plan](CHARACTER_COMPATIBILITY_AND_REPAIR.md). Its isolated UE 5.8.2 lab preserves originals and records actual loading, exchange, appearance/deformation and conversion evidence separately. Read its completion limits before treating an asset as accepted or publishing an adapted version.
 
 ## Registers
 

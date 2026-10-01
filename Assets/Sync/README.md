@@ -1,5 +1,24 @@
 # Published SFTP asset baselines
 
+## Character integration baseline on 1 October
+
+Yupu confirmed private three-member original/derivative sharing for all three character/action bundles. Release **`character-20261001-v1`** is published and selected by `CATALOG.json`; see [the rights record](RIGHTS.md#soldier-and-rifle-animation-intake) and [verification status](CHARACTER_PUBLICATION_STATUS.json).
+
+| Active asset ID | Files | Bytes | Purpose |
+| --- | ---: | ---: | --- |
+| `german-soldier-original` | 104 | 294,224,744 | Unchanged German delivery; material dependencies include US textures. |
+| `us-paratrooper-original` | 186 | 478,639,266 | Unchanged US delivery, including delivered wrapper files. |
+| `rifle-animset-pro-original` | 300 | 473,464,019 | Unchanged animation delivery including source archive. |
+| `character-ue582-integration-baseline` | 721 | 1,288,786,002 | Complete resaved native lab dependency closure and repaired exchange sources. |
+
+The originals physically reside under `/baselines/character-original-intake/character-20261001-v1/`; the former host intake paths are junction aliases, not extra copies. Baseline originals must not be edited. The integration release uses per-file `/objects/sha256/` locations. Its four manifest copies are under `/releases/character-20261001-v1/`. Every source/final server file and release manifest was SHA-256/size verified. Actual local SFTP downloaded four manifests plus UE/PNG/FBX/Blender samples with matching hashes; temporary downloaded asset samples were removed after comparison.
+
+For the usable lab, restore the **entire 721-file integration manifest**, not just four soldier meshes, to its recorded `Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/` paths. This includes 540 native UE packages across the German, US, RifleAnimsetPro and team adaptation roots, 148 texture sources, 19 FBX files, 12 editable Blender sources, the `.uproject` and sanitized renderer configuration. Restore originals separately only when needed for provenance or new adaptation. Missing/changed files only need to be downloaded; compare every restored SHA-256 and size before opening affected editors. Never overwrite unique local edits.
+
+Open `AssetCompatibilityLab.uproject` with **UE 5.8.2**, not the Paris gameplay descriptor, to inspect the lab baseline. Adapted mesh packages are under `/Game/ParisCombat/Characters/Adaptation/Meshes/`; Blender sources are under `Evidence/Repair20261001/Exchange/` with their relative texture dependencies. Do not flatten folders, rename vendor packages or copy only a mesh without its materials/skeleton/actions. Python/EditorScriptingUtilities/GLTFExporter are enabled in the lab descriptor. This publication does not integrate the files into the active city.
+
+All published asset areas and the shared repair working directory grant members CRUD through the shared account; actual workspace CRUD passed. The chroot root remains protected. Workspace paths are mutable and **not** release authorities: teammates restore the hash objects selected by Git. Yupu retains the editing reservation until the team coordinates handoff. The lab regression record is in [the repair report](../CHARACTER_COMPATIBILITY_AND_REPAIR.md); final Paris lighting, historical configuration, weapon contact/events, physics, LOD/performance and packaging remain unaccepted. No teammate restoration or new external-forwarding test is claimed.
+
 ## Current asset authority after Git migration
 
 The 30 September user request authorizes removing asset/history/document binary bytes from the same Git repository and moving permitted material to private SFTP before public visibility. `CATALOG.json` selects and hashes current active manifests: the fully reverified working city, `historical-reference-assets`, `gunplay-reference-assets` and `project-document-assets`. Restore exact per-file `remote_path` locations; most new files use immutable `/objects/sha256/<prefix>/<hash>` objects. Historical asset bytes reuse the previously verified baseline where identical.

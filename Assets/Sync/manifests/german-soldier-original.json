@@ -1,0 +1,767 @@
+{
+    "schema_version":  1,
+    "asset_id":  "german-soldier-original",
+    "asset_version":  "character-20261001-v1",
+    "owner":  "Yupu Guo",
+    "published_at":  "2026-10-01T13:53:59.8931367-04:00",
+    "source":  "Unchanged delivered CHAR-G-GermanSoldierWWII intake",
+    "license_record":  "Assets/Sync/RIGHTS.md#soldier-and-rifle-animation-intake",
+    "sharing_status":  "owner_attested_private_three_member_original_and_derivative_sharing",
+    "recipients":  [
+                       "Yupu Guo",
+                       "Yuqi Pu",
+                       "Jingdi Wu"
+                   ],
+    "dependencies":  [
+                         {
+                             "asset_id":  "us-paratrooper-original",
+                             "asset_version":  "character-20261001-v1"
+                         }
+                     ],
+    "engine":  "Original delivered version; not normalized",
+    "files":  [
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Idle_Rifle_Hip.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  202180,
+                      "sha256":  "08ce209597ecaea619150ee3cb225aa71e0da2409ecb1f06b39b7cc0ef2d948e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Idle_Rifle_Hip.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Idle_Rifle_Hip_Break1.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  186921,
+                      "sha256":  "c71d800f77f65b7bfe0a60849f6f76c96a6ae855a68aeb5e9b036a888e43cc62",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Idle_Rifle_Hip_Break1.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Prone_Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  238295,
+                      "sha256":  "c263a5c83d76ec64c752811338c9cbdf7211e874b9cf14f0221579533656374c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Prone_Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Sprint_Fwd_Rifle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  129024,
+                      "sha256":  "dcff73bbc7e9e2433d854ce63719856a2c97886bfc1663d02ec465818aa70de4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Sprint_Fwd_Rifle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/ThirdPersonIdle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  211994,
+                      "sha256":  "1ea4633868aa3e18495889a9790aa04256847651703e6fcc6dd41b7c68908597",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/ThirdPersonIdle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/ThirdPersonWalk.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  151556,
+                      "sha256":  "bb14d17f82859ed1118179e922468b15170c0b6929d8e57ce22179fdeee62c43",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/ThirdPersonWalk.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Walk_Fwd_Rifle_Ironsights.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  135600,
+                      "sha256":  "e51ae3273a991e224b1f4694a3f495d38e2af777a37237def4703f7b9ed86100",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Animation/Walk_Fwd_Rifle_Ironsights.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/German Soldier WWII.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  1328333,
+                      "sha256":  "2bff44aa31a51c73beee754ba57bb1b9c773990158d04266c1c321c9d7ff38dd",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/German Soldier WWII.jpg"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Maps/Overview.umap",
+                      "storage":  "sftp",
+                      "size_bytes":  629836,
+                      "sha256":  "94e7f527ea1dc084b8d6ce475d76e07b0a4b25d8f69fe54cde775b3844d17aa8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Maps/Overview.umap"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Maps/Overview_BuiltData.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  165330,
+                      "sha256":  "57616d672de12dd50cbf30e33674834d059905b43e702c24b59e125e73b50558",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Maps/Overview_BuiltData.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Maps/Showcase.umap",
+                      "storage":  "sftp",
+                      "size_bytes":  1270884,
+                      "sha256":  "c07efebe7a1cc7da5cf7d659acf9b3cb92e4c80c8de36a1b67ee637221f92f02",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Maps/Showcase.umap"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Maps/Showcase_BuiltData.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  473387,
+                      "sha256":  "2c3cb27727c790472be77abf3d3dda6161e81296e7d003c01df09b95e5113a59",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Maps/Showcase_BuiltData.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/CustomizationExample/M_USParatrooperJacket.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  138521,
+                      "sha256":  "6678522f412227b3f178c1922d9af430bfb6bcf0c0df18b913c4856c9056b087",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/CustomizationExample/M_USParatrooperJacket.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/CustomizationExample/M_USParatrooperPants.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  141448,
+                      "sha256":  "6e3183f850f7bee686d3388e3ed7f478f885336ac6da98d75b625320a6af8372",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/CustomizationExample/M_USParatrooperPants.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_env.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  94608,
+                      "sha256":  "c4892a91b2f262ee20afc805da39f4d7c86f7e58159a779e6bbafa367a50dc0d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_env.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_Equipment.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  143375,
+                      "sha256":  "0ac3d10de31ade18b0fee159adc12ca6d922e46d9b3176c981ec3a6f005a6f1f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_Equipment.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_Eye.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  175604,
+                      "sha256":  "bad4d4d5c2bf2ddde653eee4a7c0b145349b60460105ce1707688c70a860d88c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_Eye.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_GermSoldier_master.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  177165,
+                      "sha256":  "a281a06db449984546cb0eb51886de7b1f46a89b8d5ce5369d03e14bd343d545",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_GermSoldier_master.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_Hair.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  116934,
+                      "sha256":  "069d16708fbe679a3c6691d0ea989823c8170bfb4efabffe643de679ba0e6568",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_Hair.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_Skin_Master.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  138482,
+                      "sha256":  "d365c0622e13eb70316733360e767bd030218bbd7012036ec322597a27f825ea",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/M_Skin_Master.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MaterialFunctions/ML_EyeRefraction.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  99265,
+                      "sha256":  "bdd22f8685486be8f7e22b4615a8b55c0ea064187536f0a746b01ca252f003db",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MaterialFunctions/ML_EyeRefraction.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_EyeMaterial.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  118842,
+                      "sha256":  "6fc041b280f97d5f461a4792b23fcfddaeb9a9f1fa6b45738ab8f20b19dcb48c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_EyeMaterial.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_FiledFlask.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  153654,
+                      "sha256":  "3156033bc733533066f7956366496358e739ff69d875e03842774b60dfc14bdd",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_FiledFlask.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GasMaskCase.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  140148,
+                      "sha256":  "eeff9eef5ebbf2b9d084ea9e373f707647312c01393e90d18f5ef0e06ca87075",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GasMaskCase.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldier_HelmetCamo.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  167470,
+                      "sha256":  "45863b8a48be326e7718a433293484f3cf18a3bdb1dd167a4fb1090f57141e5d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldier_HelmetCamo.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldier_Jacket.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  163417,
+                      "sha256":  "bad3336622e1b2683f07fb868fa49755f4590ec7a8b3bc02e5f3c9bb53d96f15",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldier_Jacket.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldier_Pants.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  161934,
+                      "sha256":  "713b5b61846ba48d1328663dd15724fe90ada52300e4fe7f637411786efa87f6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldier_Pants.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldierFaseA.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  106219,
+                      "sha256":  "1a441e15b6e0762a73ee3cf2a93e423ad97cd831b443f0b781660326565df049",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldierFaseA.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldierFaseB.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  136912,
+                      "sha256":  "a412ab08364f6ed7242b8122d9f9bc5417e12df71df8427f743693f9b65076fe",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GermSoldierFaseB.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GrmBags.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  138332,
+                      "sha256":  "fb13613abc1807152a73d45aa036dfc3e95713925e09f7c02dda04d200f4d527",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_GrmBags.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_Hair_Short.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  107189,
+                      "sha256":  "20e9905c09253d968db8fc636afd69a84bf74b563031ccef3e746f53cb893980",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_Hair_Short.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_HairLong.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  108251,
+                      "sha256":  "3647cb9b40321b6a26ae2b1746fd02e0593d5aba8e50288aef6255d684e35073",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_HairLong.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_Helmet.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  135915,
+                      "sha256":  "2a711da2740faa1d5bbc1ba95dae9e5fc1c9755a61d888753b931a3aa4a19658",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_Helmet.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_Shovel.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  145152,
+                      "sha256":  "74f84b2e711f15a181217ad46ad14976efbe91b8d09928fb9a4f935d63cc7a7c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_Shovel.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_Weapon_MP40.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  141362,
+                      "sha256":  "9918e891077b730044a7cfde8183a5a23e6ec341764d289b2d4bc224c72b3004",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/MI_Weapon_MP40.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/VarB/MI_GermSoldier_JacketB.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  173447,
+                      "sha256":  "38479c9b0738b33c3cb19e8a91c08c0f660fee1be24bde0f370ae8fe550e7596",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/VarB/MI_GermSoldier_JacketB.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/VarB/MI_GermSoldier_PantsB.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  163896,
+                      "sha256":  "3813283d16847c039c06b4c1143043aa631493da5e72da70bf4638d86c572246",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Materials/VarB/MI_GermSoldier_PantsB.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/Equipment/SK_WWII_GermanSoldier_equpA.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1880538,
+                      "sha256":  "b87e2a0d72d3c0ce2db77acdc6425772a06c95c62a042498e471ff6988caf935",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/Equipment/SK_WWII_GermanSoldier_equpA.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/Equipment/SK_WWII_GermanSoldier_equpB.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1856920,
+                      "sha256":  "60edcc630cf1efa73fb9cffdfb57ee3bc2efa7905de797a0b0ab684e5393f96d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/Equipment/SK_WWII_GermanSoldier_equpB.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/Equipment/SK_WWII_GermanSoldier_equpB_PhysicsAsset.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  104528,
+                      "sha256":  "498641e87772c89504a98b16981fdd3b30f4f51696bd119327efb9e843f3b127",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/Equipment/SK_WWII_GermanSoldier_equpB_PhysicsAsset.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_noHead.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  2537582,
+                      "sha256":  "284724da1b8404659514b5d6942501d430c8f869cd1cfdb1ae3a387a23618e5b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_noHead.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_simple.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1373,
+                      "sha256":  "9f90307ac45025b55d459918460d0d0bad81f4008c6adacc110180a3cdb95854",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_simple.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_simple_PhysicsAsset.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  134225,
+                      "sha256":  "2607e5ee92631680642c9cbb1a27db74eee1ae1d71ece8f81a161ad5187105c7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_simple_PhysicsAsset.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_simple_Skeleton.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  18256,
+                      "sha256":  "e494112a7ca868f054f4f28185298364cea4866ad189a3451195fee037255e0d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_simple_Skeleton.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_varA.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6093108,
+                      "sha256":  "e381c74a3367db4127cbf8079d53f44d760697b69e9deb6544efde75b9470d97",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_varA.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_varB.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6311347,
+                      "sha256":  "2777109b5c331fe5ef7feed1cacffd3deb41d757bdbe80b45ad6dcd9387218aa",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/SK_WWII_GermanSoldier_varB.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/Weapon/SM_WWII_MP40.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  629816,
+                      "sha256":  "92245d3ad9b84eab8ab316d02c7517769578ebda644fb782dfd17a7549c6a907",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Meshes/Weapon/SM_WWII_MP40.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Bags/T_GrmSoldierEquipment_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1711146,
+                      "sha256":  "3652902992e880d520401be9a16828b62153cc6f483b68291c4101f0175fb2de",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Bags/T_GrmSoldierEquipment_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Bags/T_GrmSoldierEquipment_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  2041326,
+                      "sha256":  "62c5a7c6601f565fbdef84187a18379dba15b36ff84b5516848139ff5126a6ad",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Bags/T_GrmSoldierEquipment_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Bags/T_GrmSoldierEquipment_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1427999,
+                      "sha256":  "3873e4a3092a40ab38037985dbc0461b2aa5d187f7a0a590362c5af29b453bf8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Bags/T_GrmSoldierEquipment_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Blue.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  430002,
+                      "sha256":  "d20713d24082a258a9cc33f9b2b264c53c9953eb91cf88d7f5ac0870c05e4975",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Blue.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Camo_desert.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  314740,
+                      "sha256":  "e06477ba999afaf3cdde7723443f78990326eb9e2b0bb0d58eb83d544eaf0520",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Camo_desert.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_CamoGermanWWII_A.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  742862,
+                      "sha256":  "becafd80c74c7950a26a92bf833bd361423c3bee02c57353159339474823bce2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_CamoGermanWWII_A.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_CamoGermanWWII_B.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  777232,
+                      "sha256":  "daca73e090048cb6b900d4732dd4c96ab9a671813254969fdba1490d4bb9d5cc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_CamoGermanWWII_B.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_CamoGermanWWII_C.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  704828,
+                      "sha256":  "01b17c6cb5b53ac9caa96108f7bc3f41b0e0412dc46018453d3192ca28c466e9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_CamoGermanWWII_C.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_CamoUSWWII.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  690350,
+                      "sha256":  "7bf10559b766f45baf8a08cf948f4dd65bce06f10ed0637c9fde3cd6fcbeb3e9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_CamoUSWWII.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Denim_d.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  734136,
+                      "sha256":  "245820e2f556e3873c1eb57e98d2616430339e26dd1f53a35532800fcc859a09",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Denim_d.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_FlatGreen.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  508300,
+                      "sha256":  "70d99d88c11ea066bc5c47c2fd0da7ba392fe1747384aeb1ec83ddb0c4e37d52",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_FlatGreen.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_FlatMid.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  331120,
+                      "sha256":  "9c9c60028e2db13560afd3b64e2976d14cdbe8cac981e58a8c5460c0d4cc5526",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_FlatMid.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Orange_d.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  500571,
+                      "sha256":  "6b2901ee072399f61c6b32864e24c300b2381ea34a91c24a7eb5e61b9c3d3938",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Orange_d.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Snow.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  581354,
+                      "sha256":  "4a2caaa6bf7372757d2a16ff7cadc112b6309d97c78f62db443b6a3ad54280de",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/CAMO/T_Snow.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_Eye_Wet_Normal.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1047976,
+                      "sha256":  "381efeeb17c4324e0a0b524514232837e71c41c0dbeaae06a23c30cfeeec2580",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_Eye_Wet_Normal.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeBaseColor.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  415584,
+                      "sha256":  "0228d97bcffa1f4deaa92a01b7b7098e032a7ddaa61d1461d88a353b8dee2d76",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeBaseColor.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeDisplacement.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  428496,
+                      "sha256":  "9ec1e6d39d7f400e0260b22e43f3ec2ccdbbcf7ad0dc2989ccd68a9801254a41",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeDisplacement.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeNormals.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  259298,
+                      "sha256":  "258f4c6b56998daf658fa5cd2ff4ad8cce705af3bfa9c16eb6010bf5b2ebd1f0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeNormals.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeScleraBaseColor.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4028188,
+                      "sha256":  "a796df554fad307665454ecc703b103dfa0ee2f5729b79d11fe08925688e57b9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeScleraBaseColor.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeSphere_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  809412,
+                      "sha256":  "c20f69e25560c9fc831db3716884b1cf8e865a4adbb923e0841d84245ebf6a23",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_EyeSphere_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_SecondReflection.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  73793585,
+                      "sha256":  "0a5641c011685098b38e1ec0b0f0b1d2dfad4ef9ba16f1a74e372f7be75ce314",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Eyes/T_SecondReflection.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Face/T_PoliceOfficer_04_skin_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5007042,
+                      "sha256":  "a03d847fb8368a560b53e0f8d322b3b7fe4cca85fa906e78d07b296737765ba4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Face/T_PoliceOfficer_04_skin_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Face/T_PoliceOfficer_04_skin_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5546762,
+                      "sha256":  "4569bd74c07f0fc7f2a28318bf4148d24fc494336d8861d0a47761344b889a19",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Face/T_PoliceOfficer_04_skin_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Face/T_PoliceOfficer_04_skin_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4262279,
+                      "sha256":  "b36d5460a85a84ab606b16be498b002d49c9f6e03f7710451c11fa929d150b0c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Face/T_PoliceOfficer_04_skin_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FaceB/T_GHead_B_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4011001,
+                      "sha256":  "aa88f822ddaf20deb298ac04bfd6dd2f5acb50b94a43494389acd433ab9d04a7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FaceB/T_GHead_B_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FaceB/T_GHead_B_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4501183,
+                      "sha256":  "32848fe819740dbf3e351107520f3be163d40df9838fe4c8098d49771ede10b0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FaceB/T_GHead_B_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FaceB/T_GHead_B_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3197952,
+                      "sha256":  "2d5bc195f760a82b0807b49e9091617b5faa800f24e5efe901047d1a3f882f59",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FaceB/T_GHead_B_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6958824,
+                      "sha256":  "d5e78737f777f99a3800b55ebcd0ecec16eb164cd6bc4e0ac3976d0c030b2375",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  9748021,
+                      "sha256":  "4c52bcca87fe55d6e573fcba549786482b3fcfa9776d0ab41123336a03f5b3c7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6334816,
+                      "sha256":  "85170725972c6b3931c816dc0f12f4ec72bf11737e4f9d2f6e2cc3ca18a97c6f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5686147,
+                      "sha256":  "69609d300fb073d7731a4966311afe9498886ff2087eb7a4eab8f3e476d050d9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  9071976,
+                      "sha256":  "f7173284081676b10a5b74e78dbdbb0a71e0dcdf5e96643f7746bfa976b19eba",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6736293,
+                      "sha256":  "e6f382b0dd14f5312213a72e02618a47e0b1658c0b411db9e38ec16314d992cd",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4333825,
+                      "sha256":  "47acb090ce6b264042c498bfbb7c644a1c2ee7360ac414109f529361f8c4f693",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6279233,
+                      "sha256":  "c9785be09dd17b39057e308bb7ce351c26b9114848ca3444daa538a74fdf1f05",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5623824,
+                      "sha256":  "26413f94359943d759c605dfbe48e023cdd488aa52b5f3c6045ab90317e19011",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_B_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5500097,
+                      "sha256":  "0dcb5ab9390cdf8d8e9f0dcea1ea24007d46de1e39ae24bbf9744a5ffa2f53da",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_B_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_SM_B_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5528560,
+                      "sha256":  "b35bda966d7a3a9c0b63debdc6dc562e48698464be32826c1346e4377e91d667",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_SM_B_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_SM_B_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5754357,
+                      "sha256":  "e295e3db111003a9742de8a7eaf22c8f77d8d9079d5441f2a8ea0f6d830ae031",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetA/T_SM_Grm_WWII_Helmet_SM_B_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetWCover/T_GrmSoldierHelmetCover_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1593735,
+                      "sha256":  "15eacee975fb2c6dc3b800245f93663fd8ab905bc9eea2ad8e35908eab04c951",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetWCover/T_GrmSoldierHelmetCover_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetWCover/T_GrmSoldierHelmetCover_ID.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  686555,
+                      "sha256":  "2650e0abc32ca8810f30f7404ba3ba29ced372268566ffd3008db664d2441181",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetWCover/T_GrmSoldierHelmetCover_ID.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetWCover/T_GrmSoldierHelmetCover_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  2449881,
+                      "sha256":  "c8e3ffb93101c150583d4391660e05e928ea24d1cdae774f42569158ed224688",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetWCover/T_GrmSoldierHelmetCover_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetWCover/T_GrmSoldierHelmetCover_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1185726,
+                      "sha256":  "cb6db7a77bf99ebb7bb8c3d7b3ce2d42559b2442236cf8145c1fdd31d57e5430",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/HelmetWCover/T_GrmSoldierHelmetCover_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Jacket/T_GrmSoldierTorso_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6308284,
+                      "sha256":  "758757d3791497b1c310ba7b7482eb6c825428749aba3585218f8b2c8e4118c4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Jacket/T_GrmSoldierTorso_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Jacket/T_GrmSoldierTorso_ID.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  2578416,
+                      "sha256":  "935ea45c8eac6ad2028a7da642d195de8383e2c765c051dba2e27b16eeb05467",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Jacket/T_GrmSoldierTorso_ID.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Jacket/T_GrmSoldierTorso_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  7729189,
+                      "sha256":  "856890251d6fb984ea66a23371f94ca742ae8572bbf28d1818bb2c7a495d8434",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Jacket/T_GrmSoldierTorso_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Jacket/T_GrmSoldierTorso_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5332801,
+                      "sha256":  "fb1ce4e15abad76f270d2988a05137bbdd3dd3ee8725f013b60bf2bb7827c059",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Jacket/T_GrmSoldierTorso_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Legs/T_GrmSoldierLegs_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6360268,
+                      "sha256":  "9ff5fb66279e941054d21afb684ca2f296bcb26ef00bfcda490e1a5e4e002b62",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Legs/T_GrmSoldierLegs_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Legs/T_GrmSoldierLegs_ID.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3197041,
+                      "sha256":  "73af2eb8e723f538bb6e20da8519c3c1ae4b415225a6c77f168e455c7c721617",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Legs/T_GrmSoldierLegs_ID.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Legs/T_GrmSoldierLegs_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  7309840,
+                      "sha256":  "c1468746b28206ff4aa5649b78320d35bf7d8ff7d76a80d042ff604bbcaeeca4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Legs/T_GrmSoldierLegs_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Legs/T_GrmSoldierLegs_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4910626,
+                      "sha256":  "328997e50e7702327c143735cbed9fcf145c714cb0d46724d5e57e11f9d37ad7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Legs/T_GrmSoldierLegs_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/MP40/T_MP40_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3882542,
+                      "sha256":  "3efc2974f9d897f805c964c2a32718eac760b608ac2ae84f3fb63d928481a545",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/MP40/T_MP40_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/MP40/T_MP40_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4114207,
+                      "sha256":  "edfb83d7c4697dfb4f55818f0af9b60d31919fe6b247c4d3cde5e370e134e603",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/MP40/T_MP40_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/MP40/T_MP40_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6809053,
+                      "sha256":  "3d42db527eb05a4ff99b5c7348eb8e06cf3570edc50ef835adf655daae1e504d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/MP40/T_MP40_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Shovel/T_GrmSoldierShovel_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1544666,
+                      "sha256":  "c7f66f80a2894e196b5b3e721ed19bcf919d0906a595b0ef8cfb44ea98088e56",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Shovel/T_GrmSoldierShovel_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Shovel/T_GrmSoldierShovel_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  2172128,
+                      "sha256":  "c6d13a3c0fea51a84c44ff758c20fb4a2c635d14aa9d35c41484fac6218678d4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Shovel/T_GrmSoldierShovel_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Shovel/T_GrmSoldierShovel_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1520514,
+                      "sha256":  "eb714dc15ea41984d8c85ccd5b051ba0f64efb5d08b2d7870850ab508f679a9c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-G-GermanSoldierWWII/Original/Textures/Shovel/T_GrmSoldierShovel_ORM.uasset"
+                  }
+              ],
+    "file_count":  104,
+    "size_bytes":  294224744,
+    "retired_paths":  [
+
+                      ],
+    "excluded_files":  [
+
+                       ],
+    "verification":  {
+                         "teammate_restoration":  "not performed",
+                         "method":  "Live source and final server SHA-256/size for every file",
+                         "runtime":  "Local lab regressions in Assets/CHARACTER_COMPATIBILITY_AND_REPAIR.md; not final gameplay acceptance",
+                         "verifier":  "Authorized local administrator",
+                         "verified_at":  "2026-10-01T13:53:59.8961359-04:00"
+                     }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30T21:15:10.7339587-04:00",
+  "updated_at": "2026-10-01T13:54:25.5277002-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -38,6 +38,42 @@
       "file_count": 15,
       "size_bytes": 27144036,
       "release_manifest": "/releases/git-assets-20260930-210133/project-document-assets.json"
+    },
+    {
+      "asset_id": "rifle-animset-pro-original",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/rifle-animset-pro-original.json",
+      "sha256": "88c190397e6b08f02fe8c8c9db257991bcffeb7f398164a38b171f9b72a0f9c6",
+      "file_count": 300,
+      "size_bytes": 473464019,
+      "release_manifest": "/releases/character-20261001-v1/rifle-animset-pro-original.json"
+    },
+    {
+      "asset_id": "us-paratrooper-original",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/us-paratrooper-original.json",
+      "sha256": "6d9d1a3cf4619bca80205c60958ea29fb3d0689b6759e7b585036549027846a4",
+      "file_count": 186,
+      "size_bytes": 478639266,
+      "release_manifest": "/releases/character-20261001-v1/us-paratrooper-original.json"
+    },
+    {
+      "asset_id": "german-soldier-original",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/german-soldier-original.json",
+      "sha256": "5d53640520ec3c396d0d6db8ab91bbddb0b29f6c7c96fbc8099a93ef3f22f7dd",
+      "file_count": 104,
+      "size_bytes": 294224744,
+      "release_manifest": "/releases/character-20261001-v1/german-soldier-original.json"
+    },
+    {
+      "asset_id": "character-ue582-integration-baseline",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/character-ue582-integration-baseline.json",
+      "sha256": "9a0908301ca2b61ba2010fb46240975d7d413f8461354e8c58efee19db30405c",
+      "file_count": 721,
+      "size_bytes": 1288786002,
+      "release_manifest": "/releases/character-20261001-v1/character-ue582-integration-baseline.json"
     }
   ],
   "superseded_provenance_only": [

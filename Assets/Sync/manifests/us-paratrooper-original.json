@@ -1,0 +1,1338 @@
+{
+    "schema_version":  1,
+    "asset_id":  "us-paratrooper-original",
+    "asset_version":  "character-20261001-v1",
+    "owner":  "Yupu Guo",
+    "published_at":  "2026-10-01T13:53:57.3000790-04:00",
+    "source":  "Unchanged delivered CHAR-A-USSoldier intake",
+    "license_record":  "Assets/Sync/RIGHTS.md#soldier-and-rifle-animation-intake",
+    "sharing_status":  "owner_attested_private_three_member_original_and_derivative_sharing",
+    "recipients":  [
+                       "Yupu Guo",
+                       "Yuqi Pu",
+                       "Jingdi Wu"
+                   ],
+    "dependencies":  [
+
+                     ],
+    "engine":  "Original delivered version; not normalized",
+    "files":  [
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/HighresScreenshot00000.png",
+                      "storage":  "sftp",
+                      "size_bytes":  1753526,
+                      "sha256":  "d335e547a50b09170ef87a467b34b182019169c052342c16c0f70b7663955ee0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/HighresScreenshot00000.png"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Config/DefaultEditor.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Config/DefaultEditor.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Config/DefaultEngine.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  1351,
+                      "sha256":  "b6e19df03667567077da996b66ea601c61c74c1a78b81263afd746a00c753582",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Config/DefaultEngine.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Config/DefaultGame.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  97,
+                      "sha256":  "b7d0cffaedd2e76667d87f54f69b9113c10df4e8988561af09f46ffa89dbc5c5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Config/DefaultGame.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/Prone_Reload_Rifle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  244754,
+                      "sha256":  "a096566415a67a8ccda51977a0ead4c411f3ad3d6b92431c3c71882b2f662182",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/Prone_Reload_Rifle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/Sprint_Fwd_Rifle1.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  149657,
+                      "sha256":  "104de860bd48c485a7fd764241278008148c5bcbee5db7078f7289454ddc657f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/Sprint_Fwd_Rifle1.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/ThirdPersonIdle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  216905,
+                      "sha256":  "0839f9f09d4f76bb8aef7c40ab9e6be02e562f44318cfb31b422eb70ca562685",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/ThirdPersonIdle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/ThirdPersonRun.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  136780,
+                      "sha256":  "574a2d79ab795c7bc6d9c340eec71069612e7f201cf44b670888b5bacc274173",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/ThirdPersonRun.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/ThirdPersonWalk.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  149979,
+                      "sha256":  "224e34b03803beef48b2f668009395dbdbf1890ff3378a314e8270e7caf413e4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Animation/ThirdPersonWalk.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Maps/Overview.umap",
+                      "storage":  "sftp",
+                      "size_bytes":  629437,
+                      "sha256":  "141322263e1e9ad1b89663b74189a7750bb6f5013fe6e2a6cdd1981720a58106",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Maps/Overview.umap"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Maps/Overview_BuiltData.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  98941,
+                      "sha256":  "d65af7fb502b7c9ac1cfbeede8ffcab718795d080bb5322089f2fadcea10f0fa",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Maps/Overview_BuiltData.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Maps/Showcase.umap",
+                      "storage":  "sftp",
+                      "size_bytes":  63286,
+                      "sha256":  "fd6193578caadd65568f6f4cb4fbb355c89f170f524583f3112930a04a9c9ffb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Maps/Showcase.umap"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Maps/Showcase_BuiltData.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  193527,
+                      "sha256":  "1e49bb1aac0e221276992507904886b8b271a6d095fcb0f3144080022ecea9f9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Maps/Showcase_BuiltData.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/CustomizationExample/M_USParatrooperJacket.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  170150,
+                      "sha256":  "f74dfd933357f7d4e24e22e845f240b26a1246de01ab54d83758c3ce7be709f1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/CustomizationExample/M_USParatrooperJacket.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/CustomizationExample/M_USParatrooperPants.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  172207,
+                      "sha256":  "741329a36bb98eabc27940cec28a1a7ca3ce1362b2e0fae332ea905f8e34e2df",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/CustomizationExample/M_USParatrooperPants.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_env.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  97112,
+                      "sha256":  "5238b46fed0035ffda1be10b6c7190a5a49560689f5dd8eb33809b34959245dc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_env.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_Equipment.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  157863,
+                      "sha256":  "8f7f610384dd756e90821c73bd422f31e10d9f328d40a4587af8d9adfba372c5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_Equipment.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_Eye.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  189834,
+                      "sha256":  "a30f1bf1d0b8cfe0af65d11a9a231802b064ac10e3755027ef7b610bdc4b3334",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_Eye.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_Hair.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  164509,
+                      "sha256":  "2e6c8be7a3922df4e597ddeda3dfe80d52d1ba4b813253ca7b11e009b1d43183",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_Hair.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_HelmetCover.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  153352,
+                      "sha256":  "972d13daf00c985ec704d36e13c5ba75e427662644a88bdc8b8de5b42b726357",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_HelmetCover.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_SignalLightglass.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  94586,
+                      "sha256":  "9b6f065291b397ddec92d89041dee93829eb321d367dad7e72c7ce1ef296d90d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_SignalLightglass.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_Skin_Master.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  138753,
+                      "sha256":  "2488be308f0c53e5a41476a984a2069bb8368b6d52aa4b14d3ff9f16f71d299b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_Skin_Master.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_USParatrooper_master.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  187271,
+                      "sha256":  "38805b26c6fe6146ea2785638f2cb7344d626b6b708e4a2fb292aad04111fd83",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_USParatrooper_master.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_USParatrooperJacket.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  167547,
+                      "sha256":  "7ec9b630f4a960386eee48c46e0c62389da723af8b85e84e872539666c5fa645",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_USParatrooperJacket.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_USParatrooperMusetteBag.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  138738,
+                      "sha256":  "ebb82b29bbdad5318e93acc7935fd4c66bc784a0c70f4c3059a82a6ad9ace765",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_USParatrooperMusetteBag.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_USParatrooperPants.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  167426,
+                      "sha256":  "5db6b35c2dd33efb52fd8f275e8e301f4a3cb43993987477fa8a135220d5289d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/M_USParatrooperPants.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MaterialFunctions/ML_EyeRefraction.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  99158,
+                      "sha256":  "257981542ea9b0de83900bdfdb8b6b759dd30f72de9dc413567d41511d36ab9a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MaterialFunctions/ML_EyeRefraction.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_AmmoPocket.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  137393,
+                      "sha256":  "d222f26f6e6c77c94604f2823b79bc691c82e377cb476e745c9eee9150f06b0b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_AmmoPocket.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_AmmoPocket_Thompson.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  141989,
+                      "sha256":  "48e7492102a87242e31890d94e4934fa4a681820826697f655fac7af0c2b02b8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_AmmoPocket_Thompson.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_EyeMaterial.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  111675,
+                      "sha256":  "7ca258cce6f8657355ccbab890130fe56457fa4645e8d45035a2c0d50aef0389",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_EyeMaterial.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_Hair_Short.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  153618,
+                      "sha256":  "75181aa5e41f3575d4cdab41e569f0806492295a201a2e7758ddfa63c26cf46f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_Hair_Short.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_HairLong.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  168555,
+                      "sha256":  "6cb5eafc88986ed75a11df6abebe2cf15a4d81f083160e109fdbd7cd380517a8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_HairLong.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_KombatKnife.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  156225,
+                      "sha256":  "e827d9e550eedf9314af6dc4bfad0ee29a6a10d8e14809860af06c070b79d289",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_KombatKnife.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_M1_Garand.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  150637,
+                      "sha256":  "08037e45dd63d8b8ee6b8b27115179a1bb37703403aa741382ce433c4300ab4c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_M1_Garand.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_SMG_Thompson.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  140183,
+                      "sha256":  "098309c2ffd1bc4084740f4d40f2ff8ad9a25e29b36bf9c7b39006fe67954bed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_SMG_Thompson.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_FieldFlask.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  154252,
+                      "sha256":  "a728864e73f34710b11877b3136532c5d2068b6040ecb9b1a4f560345c4b4366",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_FieldFlask.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_Grenade.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  143937,
+                      "sha256":  "a47e6fba72b14e6a4582ed53a8a9580debf503932eb74ca2a00609053365cd5a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_Grenade.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_Helmet.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  150223,
+                      "sha256":  "a66397cefc9068e7190253c16ddd9a3eaeda395c525d068ecb7631dea186a3dc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_Helmet.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_SignalLight.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  141675,
+                      "sha256":  "0f627bed7536febbb73342fbc4170b7248776204c48c09acb3a7462ea15552b6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_SignalLight.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_TrenchSowel.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  142374,
+                      "sha256":  "950227d9c65535f85e918609f0cb4d2627dfec8f01efbe61be8107440ff9652d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_US_WWII_TrenchSowel.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_USParatrooper_feceA.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  132344,
+                      "sha256":  "9aa054ac35dba4b907676b322fe7c3f17271fa0e7b04cbed541cb57ce486c862",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_USParatrooper_feceA.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_USParatrooper_feceB.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  137509,
+                      "sha256":  "e983a37dd481c883585adf8bb1acd7f05e252ba01b592b0e91e411914ced6497",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Materials/MI_USParatrooper_feceB.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_equipment.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  14170477,
+                      "sha256":  "d76407765a7681bff318bbe9ec612ea11062581ab6976a728d09b35df09a5b36",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_equipment.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_no_helmet.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  16586333,
+                      "sha256":  "05f10fce2c46d94d8dc83670af1c8e1603952ba91bc39e3b392452bf92a283be",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_no_helmet.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_no_helmet_w_equipment.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  23803449,
+                      "sha256":  "9cb3f7dadd3aa5ea31f201125c0d154ccb895664960a50bb537eac136e9a91ff",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_no_helmet_w_equipment.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  30082598,
+                      "sha256":  "d9aabeca0717e8e1c2424cb1588596eb441b8c05903e292f85c54a67ac1675c9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_PhysicsAsset.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  130874,
+                      "sha256":  "3719d8bfb2bf41aa7925887f12aaef88375f3db344fdd78123a8c4211f8ea5e6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_PhysicsAsset.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_Skeleton.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  18909,
+                      "sha256":  "e5423939cbaecebda69e1ec91c8aeca75fbfbd1ec698eeef39bdd66ed8e60a44",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_Skeleton.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simpleB.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  28925691,
+                      "sha256":  "db5e0efe10436bf3149f93d9be02ce328d0486d85d2625981ae78819f8e9ce84",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simpleB.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/Weapon/SK_M1_Garand.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1567387,
+                      "sha256":  "ea0f2905cb740e514b66f81184ad5c2f3d99ba35c67068d95dbaeefa69053107",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/Weapon/SK_M1_Garand.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/Weapon/Sm_M1_Garand.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  820404,
+                      "sha256":  "626562fc6b1ff3e8379694ebc25cbcb87d2253c600f88458d4a168b1a6928f1a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/Weapon/Sm_M1_Garand.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/Weapon/SM_M1_Garand_Skeleton.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1718,
+                      "sha256":  "782422d2463eafcd1b60d0991e978d59275b7c6a4091185306455668b947b0e3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/Weapon/SM_M1_Garand_Skeleton.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/Weapon/SM_SMG_Thompson.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  597549,
+                      "sha256":  "dcdb2f2085f46f24bac4144db69903c6a9b318b69d3e93443211a609819535c8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Meshes/Weapon/SM_SMG_Thompson.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1067669,
+                      "sha256":  "43abc6e1508a382443cf251aaf853ac808e047cf713cdcaccce742dcccd8d551",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1298239,
+                      "sha256":  "9a49acb6d98f223bfcaffa363964c8867fecf8cf045ab978c61069081c32a3ff",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  713204,
+                      "sha256":  "626f76269baa7050cda38b2a7284981a6f86dccd1d9f89848da7f4837f3a9bfb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_Thompson_AmmoPocket_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  483913,
+                      "sha256":  "4adb3994ace0121dd621cc7a6de0fcf3efbe1d662ded84bdfc62965772bd9bdb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_Thompson_AmmoPocket_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_Thompson_AmmoPocket_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  631169,
+                      "sha256":  "5903689afc0a52cfa67d8437b143542a9c0edb094fbcb47f08707668756d54c3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_Thompson_AmmoPocket_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_Thompson_AmmoPocket_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  288998,
+                      "sha256":  "8a88468d984a12ffa6a275481f83191d25dcff0e93db22f84803def18cfcbe88",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/AmmoPocket/T_Thompson_AmmoPocket_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Blue.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  430002,
+                      "sha256":  "b6be3a3fe7d968e7b2f2560ad04f8da46c9ba08c7d853f4ad72184f1ebe0bafb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Blue.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Camo_desert.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  343456,
+                      "sha256":  "23843c2a35e9dca7ed218ef145c509978f1d23e0cb774bc619c98d7ef9c8e372",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Camo_desert.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Camo_DesertB.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  464232,
+                      "sha256":  "a86cbc2063cac9870077ae70b2c3af889c5fa0a4872cfb661d1eb118fa9662d2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Camo_DesertB.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Camo_Forest.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  394637,
+                      "sha256":  "30cd056fb535f2d89f14ef2db3ff7be4cdcb2109893d9a1b33254d890599ac20",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Camo_Forest.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Camo_sharp.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  503211,
+                      "sha256":  "5932bd7609275d24b9ac9b05915cd32655999af392992bad8f0f3152b764406d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Camo_sharp.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_CamoUSWWII.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  689943,
+                      "sha256":  "49978dc80fcfeb0a49be7cbfa5ab6bca995f9e9e0b861f60ef268dcdfa93c2b1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_CamoUSWWII.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Denim_d.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  734136,
+                      "sha256":  "397d5daa5072f5b7506fb716f53ab0650b524b3ed27dd4bbf6d7e3107064ddf0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Denim_d.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_FlatGreen.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  508300,
+                      "sha256":  "222cf1475b732e8ccf4a277893bb8570d608a5e2b05eed9b063f9d7d21c60392",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_FlatGreen.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_FlatMid.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  275016,
+                      "sha256":  "d94fb5fc65b948594982726bbb90022a67d8052fde7721525122fff701164c8a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_FlatMid.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Orange_d.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  500571,
+                      "sha256":  "f0e7804868c48c630cb3f28f65edbba6bd7718608a53313164fa457e51c880f0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Orange_d.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Snow.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  581354,
+                      "sha256":  "76dc206ea0dabbf8c6d72253921e9ad26f156992fbd63879891d478e24aebb58",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/CAMO/T_Snow.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6257236,
+                      "sha256":  "787d1bd911e0a431cab73a6228bbedb26efed9e79d6dfdef753ac09dbb7acaf6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_ID.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  165248,
+                      "sha256":  "fb00bbf8fc5c35f8c9528f987d0e3a5dc039de7ad693859a8d630a1985f4350b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_ID.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  7480228,
+                      "sha256":  "776a26b93e04b35f39fcdaddc56e9491ce536f475c15e4f6a516f42592c13588",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5000322,
+                      "sha256":  "3562589dfa59a2166827b010fbb88d60d8468531d1108c251f48aa1ffbe42e02",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6312708,
+                      "sha256":  "9b8a8bd2765ad64521a5e660a6e05957eea1f402e2bf877c0f0440ecd09b1549",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_ID.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  181835,
+                      "sha256":  "b0cbcd43cf8373a0ee42c3731ca2f5dea6bb07ca3aa49842d0b05cb2eb50b3b0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_ID.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  7602296,
+                      "sha256":  "4bfba895209904a7eac1debb04660aaa59bc6cf6eeb63d6e3773805f1276f31d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4926981,
+                      "sha256":  "5ac697c26da28f576dda86a5f593869256faaaf1478128e8e1ab25ed6872c61b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Equipment/T_PoliceOfficer_Equipment_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  877637,
+                      "sha256":  "3ceb6f62b117b2c7ebd3ea6f06df7caa611f9abbee6933c9fc8c1e536e46360b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Equipment/T_PoliceOfficer_Equipment_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Equipment/T_PoliceOfficer_Equipment_ID.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  69787,
+                      "sha256":  "141906997e96c3016ef4f15d3b2321950eae7fbc68f1f1e7644e852f0a8eb554",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Equipment/T_PoliceOfficer_Equipment_ID.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Equipment/T_PoliceOfficer_Equipment_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1694961,
+                      "sha256":  "b7b728ce0cf1c73fd2cfe4c3bf9ddcbbe03d461a07ea69fd03ae1b9befd4dc0e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Equipment/T_PoliceOfficer_Equipment_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Equipment/T_PoliceOfficer_Equipment_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1210425,
+                      "sha256":  "58f57f41789fbe34860068d0749a5cf04ea04b3085880b381aaefa922dfaf38e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Equipment/T_PoliceOfficer_Equipment_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_Eye_Wet_Normal.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1047976,
+                      "sha256":  "7e68a7534797f90ba6fc5328e54994f06b7f9ab3c25b6e6318995b1ee0a3ec39",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_Eye_Wet_Normal.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeBaseColor.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  415584,
+                      "sha256":  "70b1192e7d0ae646203b1de3c86d742d479ade6d58c38773330d919667d4f32d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeBaseColor.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeDisplacement.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  428496,
+                      "sha256":  "7f66d0e282de0c7a71dbe54dfe0611600decfcd8d2fd685732ed2d3dc21516e2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeDisplacement.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeNormals.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  259298,
+                      "sha256":  "4a1d04a8a52027c0285b257841cc3799f7d801a3bbeaa1226f76847ee7af648d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeNormals.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeScleraBaseColor.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4028188,
+                      "sha256":  "2124bd0a3b44f165eb9078831fc2b7a710d6e696d4065eb2659d8c0c3e7eb20b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeScleraBaseColor.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeSphere_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  809412,
+                      "sha256":  "e3930555571262c72cdfe9d1d58c164d0e861dc3886886de4fe96dedfb87cb40",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_EyeSphere_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_SecondReflection.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  73793585,
+                      "sha256":  "86b77e6b1865259381700da71649bb0d8bcfed6e3e007756ba601e5564f7c89c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Eyes/T_SecondReflection.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5026811,
+                      "sha256":  "2707eed9be589c6586f2aeb011b48045c0d843b2edb7e121686ecd43026616f9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5586071,
+                      "sha256":  "ed9a9a5d98783c2dc456b4a80fe6579d0133e4174354ba770465921cc15f155c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4302149,
+                      "sha256":  "e1398ca3b4a72de98f0b864d403ebd7194093c63d8f6ad0750e0a29e3cc0601c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FaceB/T_GHead_C_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3830938,
+                      "sha256":  "370056ed61b8eef37f691d4dd016aa607c961bce271813815b2ab9a436adbf74",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FaceB/T_GHead_C_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FaceB/T_GHead_C_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4496154,
+                      "sha256":  "8760eef9928b01ac6c2c322b3a866ffa57c8bb4c7748a6c7173893cd4a6dacdc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FaceB/T_GHead_C_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FaceB/T_GHead_C_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3250164,
+                      "sha256":  "ae1139a60d76d7d0dfd5d8b8dc060cc56f7d0af1a42679b39b7218275f846774",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FaceB/T_GHead_C_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5985039,
+                      "sha256":  "94428e2b168a5ea85fdf45a5e72577342615e6021ee7a7a2c3814ed3f9abe6bc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  7689558,
+                      "sha256":  "3deabba9a921670fbe9b80c394ed9b1880527d23c0d69906ebdac18c49cf057a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4931806,
+                      "sha256":  "eceae3bf05c0fbb7f385088f718d8af9e4e02e55c7fc3b89300060e7ec60c412",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  7816222,
+                      "sha256":  "090869f1755653ca7b967e36f98b714e96be7be9efb2471f5f4b17120a823c6d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  7741223,
+                      "sha256":  "4c56f210e49ea00272c949e08f83b3a2902651d4b7b4d7568919015eca9114b6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  8453792,
+                      "sha256":  "b65c3fd38d99d54da4542570e8907fcd5decd74f13da77d6503d2bcfa4f029ed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_AO.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1612589,
+                      "sha256":  "9a6871f2677b29abac16fcebca06c9cc7f20a9a6544c3f86d46694846119e79c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_AO.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3176157,
+                      "sha256":  "253416b9ef481e96b8b07f48e1a71874694e5ac799dd58760803f2a067d7815c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  2720214,
+                      "sha256":  "474fd98c47dc7a19c70266040abb60d65736d48e35627102907c1217eb281d40",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_colour.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3817994,
+                      "sha256":  "624dbd8e6f4cc738288cb9dd6ce97190dca6e5d52ab83ce5da6b8e614389080e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_colour.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_gloss.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1581223,
+                      "sha256":  "bd0d39fffe87b7ca7ff140be27138d162532b3a3d68a6cb869dc436a8fa1c93c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_gloss.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_glow.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  82652,
+                      "sha256":  "ba4edd47534c63e5b6fdd6ba5cd25125482954cb2cac1cd40203dc4fc60e0aee",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_glow.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_normal.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5345458,
+                      "sha256":  "938985b992a1fd5152572e31b6ab1259d938adcdb0ae603344af6ced9cc1048f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_normal.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_specular.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1651508,
+                      "sha256":  "32237adc10d3133848a3705992a2134ec4e13bd22184b9ee617eae38b713ddbe",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_specular.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6692720,
+                      "sha256":  "b70a6e0beb2ca88ab57f158e78e6bf02703f9dc91309d0b561bfb41d07d471a8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  8891754,
+                      "sha256":  "906babeb871439209e3280e4d28bf07eb373feae50fedab332c811cf3966ace9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5908215,
+                      "sha256":  "d9ae358432ff8a05192d8a7b29d7b7ae3eac938ebea85c6e77910327da94741a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/HelmetCover/T_CamoCover_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  804729,
+                      "sha256":  "d3e299071730a0b2ae6d33b0406122b195c682f5dc76c5224c0eb26aa60420bf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/HelmetCover/T_CamoCover_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/HelmetCover/T_CamoCover_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  491872,
+                      "sha256":  "5daf717cab2288c3bcceb365e88a081025b0ddf379a7a763df5326895de8d594",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/HelmetCover/T_CamoCover_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Knife/T_CombatKnife_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5866303,
+                      "sha256":  "4a9918f7dc0e72d6285eb15c0e84717a3d0e0b4e3ca59a911e08d32fc578a1f1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Knife/T_CombatKnife_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Knife/T_CombatKnife_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  8044492,
+                      "sha256":  "d27079b2da54a5d3def8c4d98f9960f632ee2a842098edc604c3c4ea5582c9a7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Knife/T_CombatKnife_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Knife/T_CombatKnife_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5634804,
+                      "sha256":  "1ce59dbacd2c06e34cf7954a2875fb5e28a7497d8c1ee43670d089a9340315aa",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Knife/T_CombatKnife_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Logos/T_Logo_L_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  189041,
+                      "sha256":  "b39188633ca745f522bd6050ca8eeaa06c0907301ae8a2c961c84b91bc34d8d1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Logos/T_Logo_L_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Logos/T_Logo_R_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  235456,
+                      "sha256":  "90fb2a15d62c4c9b16d536716f78385974ed2977c6aec07c4df3ccbc3dd9556e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Logos/T_Logo_R_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Logos/T_LogoB_L_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  302260,
+                      "sha256":  "75396b5c0004be9568b0cd0276612caf974686bf204f4fa8fecf993839d678b8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Logos/T_LogoB_L_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Logos/T_LogoC_L_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  262411,
+                      "sha256":  "d1a8f121b33f5526a0a23826d9de12fac65cd3e041f986da2e56e35fb566e88f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/Logos/T_LogoC_L_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6525189,
+                      "sha256":  "88b6ece84ba8519d54b9a7d49bad9330f6185dc6e12d69cb26756f6d2b3663c1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5952986,
+                      "sha256":  "3b11893251d91f9ff2bb298cccfc9e8927ed3a4301ec5951929c9da2670fd9fd",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5535360,
+                      "sha256":  "736f773de72d29f3bf39cae1970a174803341c7ee74b192db77330e1065a1924",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/MusetteBag/T__MusetteBag_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5573296,
+                      "sha256":  "8653636b5132b96d6be9784adeed161e0a66ef0ccdf83c8f493f617b5dc93de4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/MusetteBag/T__MusetteBag_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_ID.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  42443,
+                      "sha256":  "56533e581a011f1919928476c59daa6bbf37206bcae85b87a235db0d01b7bb0c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_ID.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  8301776,
+                      "sha256":  "0a01ed3b2c7f74ca20f2527c593b7a77ac81f8f0a6898d5df449e7ca4433c605",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5207037,
+                      "sha256":  "9c79e243e0e6c4f89338648abba661f8c6dfd2af8f77ff24776b07a0d46f315b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4010494,
+                      "sha256":  "926600431135ce5f55d07dcf42bc828bcab8a7c12844f22fdc9fc58673bd21ed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4293639,
+                      "sha256":  "4b19ae16810bbad1f7c803fc7408e07ca4772e2f77548b6d5d7ecc24118fde36",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  4414149,
+                      "sha256":  "3809a0a3e59b1d7e36f9dcfc5902b32ff8da79df7b3a210035a4ac60ef678356",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SMGThompson/T_SMG_Thompson_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1317949,
+                      "sha256":  "dc3f96cac454626a76ff92db001515974f0f5cc619b892f6e8bf9408c121def1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SMGThompson/T_SMG_Thompson_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SMGThompson/T_SMG_Thompson_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1625302,
+                      "sha256":  "c95603fc9e87a71fbc9e127c0ea2fd6c330c2dd795b26000417057a02ffac8a5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SMGThompson/T_SMG_Thompson_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SMGThompson/T_SMG_Thompson_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1463291,
+                      "sha256":  "8720a63279ba96e650e6b0984e10d27385a6ed7d7159c82bc2dc9d19928abfe7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/SMGThompson/T_SMG_Thompson_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  6991169,
+                      "sha256":  "e8dcf99abc4b2224f74ef954745d6c126fed90270158da92245dd7c2f0fbedb0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  7645887,
+                      "sha256":  "c3f4313a14fd8ffbd1eb7e8ab286053896b714524d6774561cc56a0aad7d7302",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_ORM.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3997390,
+                      "sha256":  "21dd7e1ea070c55f8dd0d53c94c77d50b0d8ae552b1241a293d45c9311db106a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_ORM.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/CachedAssetRegistry.bin",
+                      "storage":  "sftp",
+                      "size_bytes":  8712291,
+                      "sha256":  "35cda8f03ac77dca5810af85cf7fc7d41e2dec800531894c27cf5b86e9e60049",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/CachedAssetRegistry.bin"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/Crypto.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/Crypto.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/Encryption.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/Encryption.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/Engine.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  166246,
+                      "sha256":  "4afcb16a43ab440604d8f8125a8ef664ad9274fa411f0bc2d6e0b39600ab1246",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/Engine.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  63,
+                      "sha256":  "41ac48a4364eb7b1c49a3ab3e020e0e96e2537c7468c41a0784bfaf0d811f53c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/LocalizationServiceSettings.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/LocalizationServiceSettings.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/UnrealInsightsSettings.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/Config/CoalescedSourceConfigs/UnrealInsightsSettings.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/ReimportCache/3688439234.bin",
+                      "storage":  "sftp",
+                      "size_bytes":  239,
+                      "sha256":  "5ec842c9a2b99ae13388e50c03e67aefe8f57a576a4b860365044466bbcde393",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/ReimportCache/3688439234.bin"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush",
+                      "storage":  "sftp",
+                      "size_bytes":  7975,
+                      "sha256":  "d37f52be0b11851bd8fe2909e7a4a04282f49c48e207761deaf462263a8815d6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush",
+                      "storage":  "sftp",
+                      "size_bytes":  8123,
+                      "sha256":  "b49f36717954079dddd4a7435009251ab065aa0fc56df98e395346a338879bf0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Autosaves/PackageRestoreData.json",
+                      "storage":  "sftp",
+                      "size_bytes":  96,
+                      "sha256":  "fdc2d5bebf9cdef10fe7088228558cb57ff12b0ea92ea114809e20fd2add5bb6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Autosaves/PackageRestoreData.json"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/AutoScreenshot.png",
+                      "storage":  "sftp",
+                      "size_bytes":  4346,
+                      "sha256":  "7de598b37bd59b4f74d099e9207fdb884e08faaba0d53a10cb7eb07f48a20dcf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/AutoScreenshot.png"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/CrashReportClient/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2/CrashReportClient.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  112,
+                      "sha256":  "ffd2f515d5b546c4d9f3a65c58af871cfe2c11812ae3cbd7a5b3a15718906b65",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/CrashReportClient/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2/CrashReportClient.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/CrashReportClient/UECC-Windows-F58046434F753B13CCEB3FA5937B01D5/CrashReportClient.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  112,
+                      "sha256":  "ffd2f515d5b546c4d9f3a65c58af871cfe2c11812ae3cbd7a5b3a15718906b65",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/CrashReportClient/UECC-Windows-F58046434F753B13CCEB3FA5937B01D5/CrashReportClient.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Compat.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Compat.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/ControlRig.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/ControlRig.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/DeviceProfiles.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/DeviceProfiles.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Editor.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  54,
+                      "sha256":  "90e451ad3e29d8965a28e2c564d6a73f1ada83cf430b3af7746a148a23183aec",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Editor.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  84599,
+                      "sha256":  "ea5a930d0e6a6a8f0270c5ccff797d447916e95c38ce98acf3d1b6e15da61f98",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/EditorScriptingUtilities.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/EditorScriptingUtilities.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Engine.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2746,
+                      "sha256":  "fc8ea9912f269c34ce321d96bbfbb784f98d06644cef6c1f0d6ff185850e6f76",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Engine.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/FullBodyIK.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/FullBodyIK.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Game.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Game.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/GameUserSettings.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  804,
+                      "sha256":  "84267e93fdb8a66f114966769bb46a61dedd918970c8521c786633f841841d3b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/GameUserSettings.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/HairStrands.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/HairStrands.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Hardware.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Hardware.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Input.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Input.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Lightmass.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Lightmass.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Niagara.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Niagara.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Paper2D.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Paper2D.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/RuntimeOptions.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/RuntimeOptions.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Scalability.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Scalability.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Synthesis.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/Synthesis.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/TraceDataFilters.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/TraceDataFilters.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/VariantManagerContent.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  2,
+                      "sha256":  "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WindowsEditor/VariantManagerContent.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WorldState/663625648.json",
+                      "storage":  "sftp",
+                      "size_bytes":  50,
+                      "sha256":  "cfd1637a188c41a6accb22bbc76f3a84d5762b4e6b21ea8ad2e87816a3d8bbc4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Config/WorldState/663625648.json"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0000/CrashContext.runtime-xml",
+                      "storage":  "sftp",
+                      "size_bytes":  92376,
+                      "sha256":  "c13e5df54f51f10d28a91376e0ca98a8b903eacc7400ca73ef1057681c79cd44",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0000/CrashContext.runtime-xml"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0000/CrashReportClient.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  112,
+                      "sha256":  "ffd2f515d5b546c4d9f3a65c58af871cfe2c11812ae3cbd7a5b3a15718906b65",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0000/CrashReportClient.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0000/UEMinidump.dmp",
+                      "storage":  "sftp",
+                      "size_bytes":  1027392,
+                      "sha256":  "f7c91a88e615c45d8436ec6d1ae690be26991addbc2ccd17c8c7c108b08d4392",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0000/UEMinidump.dmp"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0000/USParatrooper.log",
+                      "storage":  "sftp",
+                      "size_bytes":  96370,
+                      "sha256":  "51fe024fe604009b0a9b436f989e59fcbee77f5cfdcb0611484e9809bdb311d9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0000/USParatrooper.log"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0001/CrashContext.runtime-xml",
+                      "storage":  "sftp",
+                      "size_bytes":  112734,
+                      "sha256":  "2b0db6b47516b20ce991ac2cb86024fa8b467895b1dafa8d56ba8c7917bc679a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0001/CrashContext.runtime-xml"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0001/CrashReportClient.ini",
+                      "storage":  "sftp",
+                      "size_bytes":  112,
+                      "sha256":  "ffd2f515d5b546c4d9f3a65c58af871cfe2c11812ae3cbd7a5b3a15718906b65",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0001/CrashReportClient.ini"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0001/UEMinidump.dmp",
+                      "storage":  "sftp",
+                      "size_bytes":  1027504,
+                      "sha256":  "4d6786dfeee8772e095de21c8dbe8e750ce30d72abba45a722ce31ebbefec06e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0001/UEMinidump.dmp"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0001/USParatrooper.log",
+                      "storage":  "sftp",
+                      "size_bytes":  96370,
+                      "sha256":  "51fe024fe604009b0a9b436f989e59fcbee77f5cfdcb0611484e9809bdb311d9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Crashes/UECC-Windows-DA273D8E4B77C81298A09FB48F5C0CF2_0001/USParatrooper.log"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Logs/USParatrooper-backup-2023.11.11-06.06.00.log",
+                      "storage":  "sftp",
+                      "size_bytes":  154090,
+                      "sha256":  "f4ae31708911f4cbba659741ce989705dd00ea35090964c3128c9ea146ea7f28",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Logs/USParatrooper-backup-2023.11.11-06.06.00.log"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Logs/USParatrooper.log",
+                      "storage":  "sftp",
+                      "size_bytes":  195468,
+                      "sha256":  "751c62965848334c20c7f1c80abd37590cf4bda6103eec3c396e6b07804b08c6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/Saved/Logs/USParatrooper.log"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/USParatrooper.uproject",
+                      "storage":  "sftp",
+                      "size_bytes":  227,
+                      "sha256":  "466c060f1b35155f280abef96ece8276f79ba02c381ae821264de627dd4b49ed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/USParatrooper/USParatrooper.uproject"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/屏幕截图(6526).png",
+                      "storage":  "sftp",
+                      "size_bytes":  2328042,
+                      "sha256":  "d06a88964ba9ade9daeb1d072192f15c00ce645875c0ea1232c94ce8cede2ddb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/屏幕截图(6526).png"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/屏幕截图(6527).png",
+                      "storage":  "sftp",
+                      "size_bytes":  2126466,
+                      "sha256":  "884ffacb7747245354bc152cbe89aa2f3ce756e2628edcc71927fcced35b57d3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/CHAR-A-USSoldier/Original/屏幕截图(6527).png"
+                  }
+              ],
+    "file_count":  186,
+    "size_bytes":  478639266,
+    "retired_paths":  [
+
+                      ],
+    "excluded_files":  [
+
+                       ],
+    "verification":  {
+                         "teammate_restoration":  "not performed",
+                         "method":  "Live source and final server SHA-256/size for every file",
+                         "runtime":  "Local lab regressions in Assets/CHARACTER_COMPATIBILITY_AND_REPAIR.md; not final gameplay acceptance",
+                         "verifier":  "Authorized local administrator",
+                         "verified_at":  "2026-10-01T13:53:57.3056037-04:00"
+                     }
+}

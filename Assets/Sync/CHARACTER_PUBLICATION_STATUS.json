@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "run_id": "character-20261001-v1",
+  "status": "verified_private_sftp_publication",
+  "completed_at": "2026-10-01T13:54:25.5277002-04:00",
+  "owner": "Yupu Guo",
+  "original_files": 590,
+  "repair_files": 721,
+  "releases": [
+    {
+      "asset_id": "rifle-animset-pro-original",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/rifle-animset-pro-original.json",
+      "sha256": "88c190397e6b08f02fe8c8c9db257991bcffeb7f398164a38b171f9b72a0f9c6",
+      "file_count": 300,
+      "size_bytes": 473464019,
+      "release_manifest": "/releases/character-20261001-v1/rifle-animset-pro-original.json"
+    },
+    {
+      "asset_id": "us-paratrooper-original",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/us-paratrooper-original.json",
+      "sha256": "6d9d1a3cf4619bca80205c60958ea29fb3d0689b6759e7b585036549027846a4",
+      "file_count": 186,
+      "size_bytes": 478639266,
+      "release_manifest": "/releases/character-20261001-v1/us-paratrooper-original.json"
+    },
+    {
+      "asset_id": "german-soldier-original",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/german-soldier-original.json",
+      "sha256": "5d53640520ec3c396d0d6db8ab91bbddb0b29f6c7c96fbc8099a93ef3f22f7dd",
+      "file_count": 104,
+      "size_bytes": 294224744,
+      "release_manifest": "/releases/character-20261001-v1/german-soldier-original.json"
+    },
+    {
+      "asset_id": "character-ue582-integration-baseline",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/character-ue582-integration-baseline.json",
+      "sha256": "9a0908301ca2b61ba2010fb46240975d7d413f8461354e8c58efee19db30405c",
+      "file_count": 721,
+      "size_bytes": 1288786002,
+      "release_manifest": "/releases/character-20261001-v1/character-ue582-integration-baseline.json"
+    }
+  ],
+  "original_relocation": "Moved to immutable baseline; old intake paths are junction aliases, not copies",
+  "root_acl_unchanged": true,
+  "shared_permissions": "shared-account Modify (read/create/change/delete); immutability is procedural",
+  "repair_workspace_crud": "Actual local SFTP create/overwrite/rename/read/delete passed with SHA-256 readback; unique remote probe removed",
+  "post_publication_local_integrity": {
+    "checked_on": "2026-10-01",
+    "selected_files": 17238,
+    "method": "python Tools/check_asset_storage.py --local",
+    "result": "All active local files match catalog SHA-256 and size"
+  },
+  "method": "Authorized administrator compared live source and final server SHA-256/size for every file",
+  "sftp_client_verification": {
+    "manifest_downloads": 4,
+    "method": "Actual local authenticated SFTP download with strict known-host verification",
+    "teammate_restoration": "not performed",
+    "asset_samples": 4,
+    "checked_at": "2026-10-01T13:54:58.4761552-04:00",
+    "status": "complete",
+    "downloaded": [
+      {
+        "remote_path": "/releases/character-20261001-v1/rifle-animset-pro-original.json",
+        "sha256": "88c190397e6b08f02fe8c8c9db257991bcffeb7f398164a38b171f9b72a0f9c6"
+      },
+      {
+        "remote_path": "/releases/character-20261001-v1/us-paratrooper-original.json",
+        "sha256": "6d9d1a3cf4619bca80205c60958ea29fb3d0689b6759e7b585036549027846a4"
+      },
+      {
+        "remote_path": "/releases/character-20261001-v1/german-soldier-original.json",
+        "sha256": "5d53640520ec3c396d0d6db8ab91bbddb0b29f6c7c96fbc8099a93ef3f22f7dd"
+      },
+      {
+        "remote_path": "/releases/character-20261001-v1/character-ue582-integration-baseline.json",
+        "sha256": "9a0908301ca2b61ba2010fb46240975d7d413f8461354e8c58efee19db30405c"
+      },
+      {
+        "remote_path": "/objects/sha256/5d/5d81c52602e01fd064758dbf8347c91a4eaee951322c7cbd473e9c4da63dc819",
+        "sha256": "5d81c52602e01fd064758dbf8347c91a4eaee951322c7cbd473e9c4da63dc819"
+      },
+      {
+        "remote_path": "/objects/sha256/f9/f91d481e87ed628da24a91ccdd133d809067b5e8fce16777aef2906dc36a1fee",
+        "sha256": "f91d481e87ed628da24a91ccdd133d809067b5e8fce16777aef2906dc36a1fee"
+      },
+      {
+        "remote_path": "/objects/sha256/d4/d4ec48f9c849969246c68c8ca0cf6e1b51f7a00592fd3e883b23a5620a6e197f",
+        "sha256": "d4ec48f9c849969246c68c8ca0cf6e1b51f7a00592fd3e883b23a5620a6e197f"
+      },
+      {
+        "remote_path": "/objects/sha256/b0/b0261f25a39a43ebb4e0674e8da620049de2cf0f66bcf23c4b9dadec47a3fd50",
+        "sha256": "b0261f25a39a43ebb4e0674e8da620049de2cf0f66bcf23c4b9dadec47a3fd50"
+      }
+    ]
+  },
+  "teammate_restoration": "not performed",
+  "external_connectivity": "not retested",
+  "gameplay_integration": "not started",
+  "runtime_limits": "Lab regressions only; final Paris lighting, gun contact, history, physics, LOD/performance and packaging pending"
+}

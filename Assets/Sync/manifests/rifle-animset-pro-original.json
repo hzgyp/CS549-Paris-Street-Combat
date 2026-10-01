@@ -1,0 +1,2136 @@
+{
+    "schema_version":  1,
+    "asset_id":  "rifle-animset-pro-original",
+    "asset_version":  "character-20261001-v1",
+    "owner":  "Yupu Guo",
+    "published_at":  "2026-10-01T13:53:52.4900464-04:00",
+    "source":  "Unchanged delivered ANI-TP-RifleAnimsetPro intake",
+    "license_record":  "Assets/Sync/RIGHTS.md#soldier-and-rifle-animation-intake",
+    "sharing_status":  "owner_attested_private_three_member_original_and_derivative_sharing",
+    "recipients":  [
+                       "Yupu Guo",
+                       "Yuqi Pu",
+                       "Jingdi Wu"
+                   ],
+    "dependencies":  [
+
+                     ],
+    "engine":  "Original delivered version; not normalized",
+    "files":  [
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_CC.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  106293,
+                      "sha256":  "542057207cdb5a140a68b028d40447abf4dfec518cb7a76e2eee8d62d018d4dc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_CC.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  108184,
+                      "sha256":  "bee32c35f1b2fd170fda76863d806888c2fcc9e945c00157cc221e62e887153a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_L.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  107205,
+                      "sha256":  "ee599296d621bb998eb8e1800e17abcfe77e15e43271028994b913c37c95f4a3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_L.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_LD.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  108526,
+                      "sha256":  "3268414f11d9b50c49eb25e4969ae5eecefec5eaf5c3e27c21753de75c32c5d2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_LD.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  108134,
+                      "sha256":  "9154e6449a7ca06252beea780951386bd2c2ca805b419278c618d4804f2520a7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_R.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  106155,
+                      "sha256":  "3e9f90752c319cc0b9783aaa4f8669e1f46bdce1cbb369207979525274eb46c5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_R.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_RD.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  107165,
+                      "sha256":  "af447cb4271949ae7c62a6fe062d1dcb8327a32244658529acdc5d6c3bd31867",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_RD.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  106869,
+                      "sha256":  "7d4985ec1639f0595c6c81a172ca16d8ddc28576695a718f6fdb1c8e891bda01",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_U.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  107868,
+                      "sha256":  "97ae68b5e0ae093bda0838b922eb55dee94aed4ef0b0077780ba1fe09398fa95",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Aim_U.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_CC.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  104929,
+                      "sha256":  "ca6e0c799eb75c77b16d98bc8320fd7c28c3a5861b95d6b0638a3a042f61bb6f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_CC.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_CD.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  105991,
+                      "sha256":  "d6a9479d0ab816d56ac5fbfca4a172a22e6ab4adb3ceb939d1610e9e05dba734",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_CD.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_CU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  108856,
+                      "sha256":  "1fb9dc425844f4b1b25e7db093194a38b5632982cc75f18bc5b3b23296ac6177",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_CU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_LC.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  106547,
+                      "sha256":  "91f1c7cbb58fad626edc4733fbb7b07ca8361cb165285f0311c1de90f3fe7a2a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_LC.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_LD.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  105796,
+                      "sha256":  "a5b4673a247626257217f283a49066f8b38c795256c69cd7da12de03ea4133f4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_LD.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  108935,
+                      "sha256":  "32c730aaa9efb081f46396309034258d9fa592915836147c519c03d126b3ed06",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_RC.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  106139,
+                      "sha256":  "c8cb618516190acb3420312005f65b40f8ce6f998bdc0d8b13463fb348ef2753",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_RC.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_RD.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  104764,
+                      "sha256":  "a1b71b7be486cd2990106311d26cd6b32f8b698ac38f8ee2e53e21f3b50b395d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_RD.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  107801,
+                      "sha256":  "146aa325b6166f28634d764cb7e3b061205cd20307a4c93c5c529cc9fa0a3e7c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Crouch_AimAdditive_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_CC.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  97811,
+                      "sha256":  "0e174b95daec7e6a137eb3eb228bbdff678b19a70fa9aed94919f0852db16a2b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_CC.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_CD.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  100327,
+                      "sha256":  "1d21f18beb3d1fd8d9be399ccd888aff478ad5461355cc2f8761ac42a6428190",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_CD.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_CU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  98951,
+                      "sha256":  "8c97f40a218977eb1dbcc06e0093760589ca6baf479db5b294b99a044a222401",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_CU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_LC.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  97566,
+                      "sha256":  "947885d3719663ce5585217a59972e60d022ef86b0f6ef1b7d1b59a28e1786e5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_LC.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_RC.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  100124,
+                      "sha256":  "49a0a26d9e63bac6863c43f80b928a8eec8d3bc61b7cd4d755d140484b331fed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/AimOffsets/Rifle_Prone_AimAdditive_RC.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/EquipRifle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  634276,
+                      "sha256":  "513bb022194c2e8977fd219c41b96daf4d4bc9c8c234b5b800af389821d904a1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/EquipRifle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/HolsterRifle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  490784,
+                      "sha256":  "3dd899f88d88b4bc96fa0859f68c2c24907e72437f7f2bf0077526137cd8dc6c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/HolsterRifle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Climb_1m.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  429093,
+                      "sha256":  "b5b88722612ad928ce7b33066896633ad625d8acbebb9ed7cc5b886e0c210ae0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Climb_1m.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  144818,
+                      "sha256":  "f94d473589e89f25e6503b57cae30bd6084960cbc024c287ef9217a9efe747e3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Prone.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  310586,
+                      "sha256":  "0d6cce72eab3bd7ff559c32d4a05713aacb6519e49333a5d5c1e8c59a7fa73fc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Prone.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_Burst.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  116243,
+                      "sha256":  "3ffc9d49350c97792f11f2b664011825bbff391f5f9aaae52fa18806868cec42",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_Burst.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_Reload.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  430450,
+                      "sha256":  "7899c4661d04bf6f7699f24cd1269757c5baa3bf36a3cd4a1bcc2bc2f969d411",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_Reload.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_Reload2.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  488986,
+                      "sha256":  "405c4a106ae13b2180158c211d9bce8f9dad229a0847ac50328ac46ef9853080",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_Reload2.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_StrafeLeft135.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  207501,
+                      "sha256":  "d5a79a5eadd343cbb2413ec905fa4f4aa2e8a14c61a30302c4db219d812fec12",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_StrafeLeft135.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_StrafeLeftt45.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  231322,
+                      "sha256":  "70401859704eb2669dae54dbb795e7401830f77485014cf167a5de5bc68212b2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_StrafeLeftt45.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_StrafeRight135.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  243522,
+                      "sha256":  "cddeb5dcd02fa9186c72d619fd56d911ce45185c5a4e909cc3c1969a7db6af19",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_StrafeRight135.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_StrafeRight45.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  257221,
+                      "sha256":  "ac70cc18dcc1dfc4bd7a1b96eb6526986c29c39b8eb044fa47988a46914f7ba4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_StrafeRight45.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_TurnL90.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  183470,
+                      "sha256":  "b4187d1a72a4a5b9fdbec285c450f80baca680fc2a895b3bba619b42af78cafe",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_TurnL90.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_TurnR90.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  187028,
+                      "sha256":  "5cc2e3bcce74585d585e322b9d994d1926a84f4215be3fb3af2d70376beec6d9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_TurnR90.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwd.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  246452,
+                      "sha256":  "560004aa6385806b1c423e46d9550f61cfb35a1f14e8aa5cd579475eb3d510cb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwd.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  228870,
+                      "sha256":  "8df81caffb3088c6dadfded1f01d72ad3080b8470d89e27492eb0c4ee74e44ed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  179464,
+                      "sha256":  "1659ed784979f8317266ac42a835ba9f62bde6956c17d270c0ff7d3a1419de44",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  141338,
+                      "sha256":  "21f63e4a72008e14d319d8c3bacd97dd142f5deb0222c9584517ef239e2d23fe",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwd.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  220714,
+                      "sha256":  "98242069b36592c7dbe53785ba1b3f1d3c92bf52ae653651f0ef3d1fe30bbcd1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwd.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  142772,
+                      "sha256":  "a7a4619084d0dceeddb09e1c6991942d097608d7086a43ef02839c60bb87f3e4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  215068,
+                      "sha256":  "ed84ffbfce91285f77d0a39b32373011554caa179027ddaf8ad03712897ac59d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  169221,
+                      "sha256":  "b4a4b794559e5a5515f91ef05a3fc54b9dc14a2555f14fd6e3317c86541bf14d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkLt.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  203106,
+                      "sha256":  "1396d8737df2c2056e485c939621cb03e2857fd31d7b004447b06bab0043d579",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkLt.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkLtStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  195296,
+                      "sha256":  "8b631119fd665f5787508adc275659ef04320d076f71d4b33176b2610253f5c5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkLtStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkLtStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  160686,
+                      "sha256":  "128b9b1863f328aeffb89317bb6701c5048c56183abfd67122c6ce0be4652e32",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkLtStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkLtStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  146649,
+                      "sha256":  "ed92e9e6ebd86e1dc6a4bbea1f7e86879c579cd1586ed1e7920d9ecc8cb749ac",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkLtStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkRt.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  212124,
+                      "sha256":  "053763a3cf2f07f264d6d95e4da8211899b50221c0926f489c560208c203b9bf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkRt.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkRtStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  243082,
+                      "sha256":  "fdbdbed6e93cc5de5053fbf659eb0740d5dca8fe14c02984e7d38ed5cd67305e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkRtStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkRtStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  174754,
+                      "sha256":  "0c428d8719a326648ef6d71e1c058a60dd8493fad665528509f8830d0d882afc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkRtStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkRtStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  140249,
+                      "sha256":  "ccc658398b7f5ec974efc397557399bd5316bf2e61af14c5ce861df2c98c494f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkRtStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_CrouchLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  403727,
+                      "sha256":  "ceb0bd22ee7eb8457b39a73211f389dd21a17fa17b60486684e49dc03c7d528c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_CrouchLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Death_3.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  766013,
+                      "sha256":  "0376994aa40bad29adeb4af91d4f3df20312bbc4698bc23e0d5f022d841bc8e5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Death_3.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Death_L.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  794839,
+                      "sha256":  "bd777a91a3e4fe71147c2b3b405a62dcf27ea45f75e3e51e0bb76cc505b82c3f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Death_L.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Death_R.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  863122,
+                      "sha256":  "ab8e24f6128a4eb21972d4559e10a34792f4fa74534682bfddf1db6c95b901ac",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Death_R.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_FallingLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  485874,
+                      "sha256":  "9c9ffcb350d14978c1972c995f274698f4d25fb513014efc7f0488649993e06e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_FallingLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Cancel.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  213425,
+                      "sha256":  "e6441802f0ccb92e886a0aad7fe3b50042e2d4277fe1a346ac5f87f5826af2e7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Cancel.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Close.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  310281,
+                      "sha256":  "3fa57153d63bf6bd5eb4a64511d20141e44a598dda4d96bcbedf7993560e1cec",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Close.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Far.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  366929,
+                      "sha256":  "ba185ce9b9ca487bf0c3a96345d8040b7d4de629176ff1fbeb2026ff3efdf602",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Far.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  198042,
+                      "sha256":  "7fa5de8a9d42b788a2770f075f6113372d35947eb419cd3f7f7afe46b40ddd65",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Single.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  428129,
+                      "sha256":  "545e47a0155b53f246fd94972774392a161a29f47872b3ab1f5790084e4973a2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Single.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Start.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197015,
+                      "sha256":  "d28b607a83c97c6f4abe1a0563601d7cb5e90412e7127bcbda3d32f6fad3a366",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Grenade_Throw_Start.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Hit_C_1.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  647811,
+                      "sha256":  "85c6d54d6cbc61988337326e1f480dcd19e0a32b3b56dfe1ec91d5eea93079a4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Hit_C_1.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Hit_L_1.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  479548,
+                      "sha256":  "d6d45c4cfa30e49033acceaef904ea77504fd0a39d4c54ea53e7f66bb452e523",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Hit_L_1.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Hit_L_2.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  608689,
+                      "sha256":  "e582f1968c9c4789f90adbb51f190aa3fda12976309558019b947ce106d83f60",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Hit_L_2.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Hit_R_1.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  444314,
+                      "sha256":  "3de38671c7464c42641d231187b62ff26eeb52a8911b07ac0d08e5164f7de0f3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Hit_R_1.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  552888,
+                      "sha256":  "61a1a2ca87d739aba01f9d684f8e17f295c804f42953c8ca56958b70d6cca1ba",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Crouch.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  140084,
+                      "sha256":  "b0b5fbc7cf897435454ecd2d630d616a4241fdf86554e8387632bca92c758331",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Crouch.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Prone.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  512449,
+                      "sha256":  "10bf5b05787a7ba60e5881afef0144bd411ee10e2b97ce012f9051c8a88837bb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Prone.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle_GunDown.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  544488,
+                      "sha256":  "02e7301426ef84703872e6691cea19b33ba06af9775befeb4bcd7c60396fcdc9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle_GunDown.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle_GunDown2Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  161959,
+                      "sha256":  "c0cba69d0e1bc7cf695cb7ed3a9730ef78d74d2debbfcdff46195555aec8ba57",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle_GunDown2Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Idle_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  269472,
+                      "sha256":  "8180dbc897f09f00f23e05edd774780e5c752bc22a6179ffa6d711e6faccc472",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Idle_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_IdleFwd_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  300246,
+                      "sha256":  "13279bf0880e3b69e4c42892f142889593774252dabb6e571894ad972804ac80",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_IdleFwd_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_IdleFwd_Platformer_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  287021,
+                      "sha256":  "1f956a917c5344d2d448e82f0367e0e893670bbe352576651377ba327932346a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_IdleFwd_Platformer_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_5m_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  282328,
+                      "sha256":  "8ffb0ed74462bc31a93be5cf0461a838570c6f3cb919042fe197ef79aea79034",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_5m_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Fall.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  237996,
+                      "sha256":  "fda1d99693c6e1384d03cd889b7a8d7d19cf96d2abd137ededeb77af588edb6a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Fall.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Land.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  152126,
+                      "sha256":  "63b7192ef9ee6960ee214b7382c78b16a0e76a1cb595ee438ca1a8589817d9bb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Land.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Predict_Land.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  290260,
+                      "sha256":  "f7be0972b70ea0f1ae511285ac07c2e1f101c355249786da91fc6b98a4b435c3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Predict_Land.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Start.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  173427,
+                      "sha256":  "83fe769e2208d68fecca1e7e0fb8967438f204b884d79f61f53caa0f2d3a9464",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Start.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_WalkFwd_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  359238,
+                      "sha256":  "43f2b17def9f5a48c1b3968e65718172a44a75cadf7c2768997b64b446d419c3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_WalkFwd_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_WalkFwdShort_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  323239,
+                      "sha256":  "e484606e5421f4f0a9bb62dd974c415938e3456863f2c9797c37c12a93a6186f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_WalkFwdShort_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Melee_Hard.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  268661,
+                      "sha256":  "e3dc789f4815f6df4194682a9353405d7c49f16965f147186194ea7e096996b2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Melee_Hard.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Melee_Kick.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  319865,
+                      "sha256":  "f1e54fae49073cdb709170b1fd5a423f4c2936270d27eee9bf9d3c87ee7a5203",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Melee_Kick.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_OpenDoor.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  348851,
+                      "sha256":  "4260fed7cb02c114660945447c4342bebf31a513763a3ef485c5d9a35f638184",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_OpenDoor.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  147019,
+                      "sha256":  "b8094f55726a32d05285b8de4e2f243056e49ff12e98cb1bbdea61b390c1847b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone2Crouch.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  351702,
+                      "sha256":  "315e0bc0900acec86248b7b331a70f47321932a78a7eb5774dcdf41aacce266d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone2Crouch.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone2Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  390234,
+                      "sha256":  "422fcc4a9918b0ad0fd7e155a2956fa8058bb1236d9b1723c6bfbf40e48781aa",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone2Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_Burst.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  105640,
+                      "sha256":  "c944f9517ba970967071a9379554e3810955bfed62bf28f2e9693509d3cf891e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_Burst.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_Reload.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  579720,
+                      "sha256":  "e36d82276fab12c35ab831b62a5a93c3549079f89025da4fb80641c348bd30a5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_Reload.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_TurnLt45.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  212243,
+                      "sha256":  "3dc99cec4010abc3339d9c6b38220e122d9bd5fdef7cb017ecd020f0709d839f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_TurnLt45.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_TurnRt45.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197760,
+                      "sha256":  "8a57b1765ac873a27a723dba005ae9ba82ef1a943d8e7edee569d718ab19a5f4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_TurnRt45.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwd.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  154295,
+                      "sha256":  "fa2ae3d19a8c194c0d3cccf387b193a898f86207d3ca6524712f6043ec7719b6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwd.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwd_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  158256,
+                      "sha256":  "88e9d9e93a515d2a5789dd5d69c9b4b099b8963328c15f39867e83dc38c27e32",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwd_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwd_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  146303,
+                      "sha256":  "143c7c92dacfacd335a2f0f49bef79ac02390e639a2fa022ac047f8efa124280",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwd_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  127521,
+                      "sha256":  "52ad0ccb45daa25ac2a80ac7728d107618af56945254131ca914185056a39b20",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwd.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  228641,
+                      "sha256":  "ea7b26df4e1914e900c5768f0048386297bd986f0f4a7300995c851d9779d510",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwd.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  149748,
+                      "sha256":  "0f5c73157404d19dc7ad84ceb69e8e762a50260033a2e0852e94a77f1e2c9f31",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  126250,
+                      "sha256":  "b0186c9923969b485ae39b368317b264c3f4834d9015a30b6fdfa430e85d247c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  144424,
+                      "sha256":  "ee54f0b4b1c8b586795f997e2ba9ce87e257e22087e000a715f973a5255ce4e9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Reload_2.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  586262,
+                      "sha256":  "d5c044f6c17ab421e05d4c49d29c008210bb7af782afc4b166fb1ac798cfca28",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Reload_2.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_RunBwdLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  202582,
+                      "sha256":  "bcb8cead6b35cb5195f6d7525be27170e37cbd1f0e358ef5b81c51400457abbf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_RunBwdLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_RunFwdLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  213849,
+                      "sha256":  "9e0a7da2a832e8981897f37861558095bfe6f73dcff34eb3e1d7f1eae1d84213",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_RunFwdLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootBurst.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  178443,
+                      "sha256":  "e279a3e782ecfa1222c8024b5a8c98891afdc596b578a19866044cd997b5035c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootBurst.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootBurstLong.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197061,
+                      "sha256":  "b44e19ceb56553c8f562076cb2c94ad2efbb39cb8209f76c4ad39da52ca7199f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootBurstLong.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootGrenade.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  234658,
+                      "sha256":  "a04f6a3346a9c8d48e8db3053e5cb66210e421106112ddc0a5408e183c39dfee",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootGrenade.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootLoop_Additive.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  118579,
+                      "sha256":  "7f5953771d99d358ea8e4265c851a2212f330a7ec4e534f863ba418a8b8fb108",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootLoop_Additive.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootOnce.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  137715,
+                      "sha256":  "e2d4a39812fdc63f6e5fd68346b75df2a0773e38e6afdbf1ce5ff58d6502c2fd",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootOnce.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197498,
+                      "sha256":  "efdf84e50ac2c5f556d635d3f494c9b8bca1214eb56965d10b725318226118bc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  216940,
+                      "sha256":  "d2970a935227b23d494213d0af63ec8dc1cf67eb78a374c32d637ee53c866f60",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  359197,
+                      "sha256":  "ff49b81cafd508b348b66498e62af740c697f5a08f26a8084fdd773aca04b222",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  274680,
+                      "sha256":  "c1c2d10d78e6b35757c27a9bf95ee9be09c7457c0ca88a7fd5d4deb24b55e509",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeft135Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  163006,
+                      "sha256":  "a1e625a094bc7f7f65c4cc02d4ebb482de0c7101067b17d8b3a53aa6cb700ea1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeft135Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeft45Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  203073,
+                      "sha256":  "4e79b4ff1d326cb82f37d65a2ff3065c3d76bb3cf934ea202c89143cd646323f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeft45Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  189956,
+                      "sha256":  "48c3e5f87a98fd6087e6c3bf4bf47585b6a152ba43361dd0b77760014d35917d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  194625,
+                      "sha256":  "1384b2d498ca9dea48a1d345fae2b40657f2c3936db29ef38afad0c500471944",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  234535,
+                      "sha256":  "493a5f45d716e5fbc1f3d670cbb763860e1fb621e9bdbe1af179228156e81989",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  190975,
+                      "sha256":  "4d0625519101061f6ae3437fafc85c841af173371fffdd88f65618edc817ad22",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRight135Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  156194,
+                      "sha256":  "ade20c86ab05b2c7ddc3d8ec7712d3effddab7209ee3deb625509cc3f582a0fa",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRight135Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRight45Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  165634,
+                      "sha256":  "75958c462a6ff0bdc8d768741ac58e0b2d6a108d188271bee7f314ac409d5ff7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRight45Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  225571,
+                      "sha256":  "1a79e00619eba6bf77e5f557affaabbb1eb07592826eceb988295c7c15b812fc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  274615,
+                      "sha256":  "991e50871204542e1baa3598a02627635b2fb29ca3f5cccb7bd600882d1079eb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  241980,
+                      "sha256":  "7b03bd56d417f61111080598298c41c009f4aae646a9517077853ffdd87c73c7",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  189685,
+                      "sha256":  "f756e91542943e2d4eec2fd40b733a02e057644e01ffd23f8f6539e2533a890d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun135LeftLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  144010,
+                      "sha256":  "a5b10fa4cecffc1a0115728b7a325d7783d0d8dde465d1dfef76bfb6a51ebf77",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun135LeftLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun135RightLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  144446,
+                      "sha256":  "f6870bb7d9a702e388d53d998b76b6c674ef2871117ffd5c0d9e49f344cfd8dc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun135RightLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun45LeftLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  265759,
+                      "sha256":  "87d29a46cc376d9ecfb1a96523a26377359a0fcdb60c07051f74a13b9de82de5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun45LeftLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun45RightLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  199162,
+                      "sha256":  "463994e55914b71da9389aef5246390ebfaa8142fdf507c1c0c093d6faa7d25a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun45RightLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunLeftLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197662,
+                      "sha256":  "41dd253876444248445d096ef19f6ecb69f7821c5a262098f64c437fe85b39b0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunLeftLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunRightLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  231629,
+                      "sha256":  "e0513d7af168de16e3ea5da249c67dcf271e249136ec4164ff33200758d72734",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunRightLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnL_180.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  250124,
+                      "sha256":  "5bd7bdb6c33598d5a07aeee76ac788878f5d5ad389880557f078b3e67e8615a3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnL_180.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnL_90.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  205026,
+                      "sha256":  "1d49db8799867e9aec051372400e954a2e772d8446d0d9d2e4170d4e800b78dc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnL_90.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnL_90Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  205449,
+                      "sha256":  "d1a463604055d1811025339eb3cfc930974e84c3b88021ff67a054b3c6ea20b5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnL_90Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnR_180.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  283614,
+                      "sha256":  "8e11f2259d3beca8be89d724cecff9fb2a9366b1eeab7e3ac1eac1159570f648",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnR_180.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnR_90.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  205860,
+                      "sha256":  "4ff937ab2e96f74ea38375fcb9b3deacb95813c9cf8cb1a203843b16d57f8163",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnR_90.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnR_90Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  209273,
+                      "sha256":  "75da468514b89e8e896aa12f2a8d02f2535e030634bee57633df4beaeb573e8b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_TurnR_90Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Vault_1m.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  631764,
+                      "sha256":  "e32cbd05389bbb340f9cca5d598cac55e9b28a4a968da5cca4053cbafbdc01b9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Vault_1m.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  189933,
+                      "sha256":  "543f0714fe4d8bc598fe2bd72ddffcc311890ab648f5e31b5e94bd00a0c370e1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  218762,
+                      "sha256":  "b50a7543304765139156ce00a211b8fb24326f4121f209dacab2fd31e12206e6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  200732,
+                      "sha256":  "ee34e3d30e33d404229d7e64b48ecba59ed8be5617891a8af868fb0b67e7a409",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  174288,
+                      "sha256":  "9cc4f128f20d347fbad9404ba9f90fdc486eafa5892a620f139c560562515d37",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  236650,
+                      "sha256":  "21b82bcb82632aed5a85e8bf2eab5b860ecef4fdd4b972eeae6efcb55511ccb6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  222095,
+                      "sha256":  "0aeb15cb299a7bb93f26a167a08f9a5549ffb659c707bdad70db3842e613e386",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart180_L.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  265500,
+                      "sha256":  "d7b04c1353ba5c2e1e3ff1ac690763f64b1f09fb5cdd578f24513b4fed000ff0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart180_L.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart180_R.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  323920,
+                      "sha256":  "52e0058f76ebbf29bfe828e32051fc9dd92596719e26f9db938c8779411888af",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart180_R.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart90_L.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  258558,
+                      "sha256":  "ac12de17469a5accc7727d85f7e10dbbcac7f4b2b69537a30aa1526f291b8870",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart90_L.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart90_R.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  286510,
+                      "sha256":  "895af0176e2176f43683df326f804701955b9bdb3996b4ad2e28b0e2fee85f83",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStart90_R.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  199282,
+                      "sha256":  "bc758fec5a5faf552ab115a7dd78748bb83ff8fb4f4f720c772828c4fbf12355",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  205856,
+                      "sha256":  "cb9a114a9e003e5c5f0eb242c0fc5e0795d15d368587c5fb0184424a881bad51",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/EquipRifle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  640760,
+                      "sha256":  "b1af575dba29801b7a8fa107180b41027e83c1d740faa59c4403cd9fcbd7fadf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/EquipRifle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/HolsterRifle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  495786,
+                      "sha256":  "e02d4501d582860cbf9282fc6c3c3623dab8012714d82f92620290f3eb4dd91d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/HolsterRifle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Climb_1m.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  434762,
+                      "sha256":  "494a112b5b163b5cc124a2f5e7ef5b31c0785debdfe52e57ad5c850d23c9b748",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Climb_1m.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch2Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  146061,
+                      "sha256":  "b3345db5ceeaa0051d0f88e0fb52eec1bf28babc066e73ad50118685a35dc360",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch2Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch2Prone.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  311010,
+                      "sha256":  "8b6f01976c79881a578c24382080197fd22fd6b3bf659d8bbe0387c6371f1892",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch2Prone.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_Burst.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  116156,
+                      "sha256":  "9c12105a5b861474102b271897c45be0aae6eae53491e4602dd299b18c3adba4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_Burst.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_Reload.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  430699,
+                      "sha256":  "8b213b96b138c4b5fb60600c0404bb27f5e052b6b9d33a0d517975f0946e32ef",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_Reload.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_Reload2.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  503107,
+                      "sha256":  "caea021271746f96beb9b68a569b175d038c7fe9d7e130fd518d2f3eaf6dfe6e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_Reload2.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_StrafeLeft135.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  209913,
+                      "sha256":  "9242dd00c68b54dabbc5aefc08c1233fe25f1b4736632ffa0b2408620fd474ed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_StrafeLeft135.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_StrafeLeftt45.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  234340,
+                      "sha256":  "3952ae2a36870b7143f19e514b1f7939f3e914b539c1cde5543d68596775c086",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_StrafeLeftt45.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_StrafeRight135.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  246798,
+                      "sha256":  "11f34b78478169bd65be18a28010dfedf1a632aa4c9a679e32cff73d8d812f53",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_StrafeRight135.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_StrafeRight45.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  260784,
+                      "sha256":  "029a00a336e854fa57a14ac4499ade886f13cbd9b891a70e5e8d498b392391cf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_StrafeRight45.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_TurnL90.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  185542,
+                      "sha256":  "0698a1cbc2b7413c4dbd7583a77e6f21d93017f369301e877dd0f868550cb103",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_TurnL90.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_TurnR90.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  189054,
+                      "sha256":  "2ff291e9fc854d64ca22848bf525293fc12181612693067f9640379989d83d7f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_TurnR90.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkBwd.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  249851,
+                      "sha256":  "fccb5c1eeaa3accd08ec96df57e208ca767a1437fe0a106dc36a012c125e72d8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkBwd.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkBwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  231977,
+                      "sha256":  "84365b6fee035425599f308a45ba835ccf263987f93d9bcf5a3bbb7167a8c8c0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkBwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkBwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  181455,
+                      "sha256":  "30ba9776425255ca5cba8c6e8736546bde4f15a6027d46dcd5d0867f38c53fd0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkBwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkBwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  142252,
+                      "sha256":  "06d61ee73c7fb367bb05d42a7c2fde85734a1c8e3c0159421b6727dd9f690f6b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkBwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkFwd.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  223578,
+                      "sha256":  "a664697b722049db2ae6f5790fc1b5980fb9eb910b1810c9451a74fc211d015d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkFwd.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkFwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  144056,
+                      "sha256":  "5d483377d8517d0c7d79de495c38ab604793e586aa5ed1955f1b0aa6253485f2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkFwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkFwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  217772,
+                      "sha256":  "064a3db49f0b4027bac0c84c720e4c7209d81d65513e38dd3bc25cbba11b40cf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkFwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkFwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  170985,
+                      "sha256":  "67c61651f64b7b9fd0dd965d385f69851a356b4fb714c6005461aaa3a56124eb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkFwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkLt.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  205813,
+                      "sha256":  "544db66a174c43d1d3563373fd93b5715d01c7b8fb287d0393e132d7e1d16e30",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkLt.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkLtStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197577,
+                      "sha256":  "3eaad093393ff5678e9bce0efafe57f787ddb0bae09942560cfea09ca224e7df",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkLtStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkLtStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  162730,
+                      "sha256":  "a734a2d5925c0e8daf2055cf9ec3594d0ab6f0df6d6ed64dbea3a3d224f25b7a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkLtStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkLtStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  148139,
+                      "sha256":  "023809621fb93d84c78e60273e42ceeeb033c4eed0966b4a07b2993e09c73095",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkLtStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkRt.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  215138,
+                      "sha256":  "f086e61135f05997f9a98481da838e21f44eebd8150a257690fccc38767afc17",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkRt.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkRtStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  246719,
+                      "sha256":  "82f3d2ca71092046cb99d64927835815e01b4fb12bba3f11c296830c773cfe0a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkRtStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkRtStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  176891,
+                      "sha256":  "cd9c03a9934889627be02f2905519a12596cd3fb36918f52a324d35d676d1f8a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkRtStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkRtStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  141383,
+                      "sha256":  "1e7e099b6260f87f6b7bbc676a46bcc070b3b8084da60b9329d3e17befd6d687",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Crouch_WalkRtStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_CrouchLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  404165,
+                      "sha256":  "c4c8f7bb0cc1ad2dd476ef6cf3a526b7f0fccab6e71c96e1388e85c2611dd36e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_CrouchLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Death_3.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  784114,
+                      "sha256":  "a7670551fecc9fddd833ad4f875068a10cedd13909b7d92e402e4d8c47e767d1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Death_3.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Death_L.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  803466,
+                      "sha256":  "f6cb2852068f3996b802a9bb4cdd9d469dc334f7928be04a03046365cc29deed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Death_L.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Death_R.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  872753,
+                      "sha256":  "adcf35d6d9c6d68e65ed6c2e91bfaa3ad44dba757ec6dcca66f6b3044144076f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Death_R.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_FallingLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  486373,
+                      "sha256":  "20807ec12424e8c79660b3cbffa0fc7b8e227a583822796695232ea8523dd401",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_FallingLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Cancel.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  213645,
+                      "sha256":  "d15f66c7444fc78cba4ecd4ee987aace1508ea69789f32fe5565604f6a898e0a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Cancel.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Close.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  310499,
+                      "sha256":  "842a66b5919a4a7663bb7d4a3f40bfb9cdee534549b42c687e2539224d8c33c5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Close.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Far.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  367285,
+                      "sha256":  "d63db74a7cab28e3693a200fb9b3c1638ce03b9d2ad04fd74f7fe518ca562b11",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Far.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  198196,
+                      "sha256":  "4cee9d05ade7c1bf89f8bd43cdb2179226137df1514751da87b5b2ad9dd3e115",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Single.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  428427,
+                      "sha256":  "9cf84d1af40b3586e9efc2859d4eb2fed4ef3f51149f32cef1995a492645c950",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Single.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Start.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197305,
+                      "sha256":  "def49c330825be0f509e6d2c9725c6895aab484a29af802e36e9600c0937aff8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Grenade_Throw_Start.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Hit_C_1.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  655066,
+                      "sha256":  "fdcec8f14f988445bb6f5c4bae229e0b7d46022b128b0a93b117503f1b6eaa7a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Hit_C_1.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Hit_L_1.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  484622,
+                      "sha256":  "3d08ad9c00f819b8e06a21de587ee072a09ebbc293b19b5fa42c3e6beeb42ffc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Hit_L_1.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Hit_L_2.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  615227,
+                      "sha256":  "c397192ab6d9b8f8175e1c01f9c97228e7eac0dba24a43240f9ee493b958f5c6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Hit_L_2.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Hit_R_1.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  448891,
+                      "sha256":  "4a98f8934fe7b67e14fdcd181bdafa0ca443a9ec101df976b5ae32802c26c611",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Hit_R_1.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  553382,
+                      "sha256":  "65487902870bbc4716e95a915b9da35dd998c3db9c27e396581f12de33aead60",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle2Crouch.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  141464,
+                      "sha256":  "7293f3b8748dab06e652be343db07a8d39e65e18a9ea30b3efe81782f0d03813",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle2Crouch.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle2Prone.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  512781,
+                      "sha256":  "b2f0b4da9b514bec095963b338e9647fca04ba213a9ac57e2abb5fc0649bfafb",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle2Prone.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle_GunDown.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  544927,
+                      "sha256":  "081a8f3457633e37e188985dec6f8971bd0720f3e079c3043712ae2bd89752d4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle_GunDown.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle_GunDown2Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  162222,
+                      "sha256":  "a28e816155cfd38a57a7cabe73c24748c02f8b1ed88f4519a06e4562ab72a66e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Idle_GunDown2Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Idle_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  269708,
+                      "sha256":  "142d05932bf0d253539da7af913860f0627b3e5d4747ecc60a4b82ed0907a650",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Idle_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_IdleFwd_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  304629,
+                      "sha256":  "3f6892433d1ae1a4a50bb72d9ef037b82e168162eee0f9bc7b1a6370526d959e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_IdleFwd_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_IdleFwd_Platformer_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  291285,
+                      "sha256":  "5231c69808e7d9ac4cdc0d3825b1aeaacb4467fb29bab6df109fc26e5dded700",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_IdleFwd_Platformer_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_5m_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  286495,
+                      "sha256":  "3b90e0e1594b6dfd5a1a7cf2d313ac6cb0644807478a82396d1beb593d4de44b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_5m_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_Fall.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  238606,
+                      "sha256":  "8e325f195ebc50c263766cbe492af1374ff044b8ada39ca703bacc08d217d5bf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_Fall.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_Land.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  153213,
+                      "sha256":  "bcc6c51fbe849459cf7f851423944229132cd78ddebb6473ce1cf6717461e0d2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_Land.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_Predict_Land.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  290489,
+                      "sha256":  "c5a6ebaaf95c84c1c456bcaffaa360b67933658eba56ad94c56438eaef6d17a6",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_Predict_Land.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_Start.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  173898,
+                      "sha256":  "55e6a99d0bba97dbedb2ecc2e7665ba16bd01d9e5b8d2dd87725ccc660ccf9dc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_Platformer_Start.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_WalkFwd_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  365096,
+                      "sha256":  "60804640b7d9855e6f31634c4647dfe04b3bd16326c572758f2a0963c931cc07",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_WalkFwd_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_WalkFwdShort_ALL.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  328216,
+                      "sha256":  "028233d8f6ef916ec7369064bffa9b108f823c554d8bc17d2b360ee756ec1331",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Jump_WalkFwdShort_ALL.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Melee_Hard.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  272666,
+                      "sha256":  "36af0a5386ac5657911f7207dcf5166c0e4c0136c1ee2ce41710e4f185354f21",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Melee_Hard.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Melee_Kick.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  325045,
+                      "sha256":  "743e492930077d1f30ce00759ec4bafb9fe97bd1c702d299cff485527a380a52",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Melee_Kick.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_OpenDoor.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  349218,
+                      "sha256":  "ac8501e87c946acc73ed7c03b61e4e9fdd8e7943bf875b4cebfea293b021f1ac",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_OpenDoor.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  147334,
+                      "sha256":  "020f3e18b81cc6439654ec7bf2a3027bf63eaae5a12fa9ef3f19dab03dd8faa4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone2Crouch.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  352484,
+                      "sha256":  "6c97fb9df538a7ba3a9c5a4fa32b44fac3996a2c6504d7f34d600b0822f4ee40",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone2Crouch.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone2Idle.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  390129,
+                      "sha256":  "55815c3a8f994e491e524257af88176b5acaced3eb4110ef00792932fd026b0b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone2Idle.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_Burst.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  106193,
+                      "sha256":  "7877fb43b471fcff955e1a10a7833e5278167e1f676e0401e50ceb5a68358e7e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_Burst.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_Reload.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  580087,
+                      "sha256":  "53590a9a529d409d5a043404258b19a6dc032ef256ae8e69eaf4368886573471",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_Reload.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_TurnLt45.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  215853,
+                      "sha256":  "b60c0f9faad574981a8203c8129001d8e6c1780037690216eb56f9c47df11cc5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_TurnLt45.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_TurnRt45.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  200947,
+                      "sha256":  "1c4318bff1f70d88026a5c1cfa64426a9562a6a04b635ad4e36c3c79ea50d9b1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_TurnRt45.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkBwd.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  156115,
+                      "sha256":  "efdaf7c3016eb7323856b4aa69497844b09d60d483235694e47b846f109b237e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkBwd.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkBwd_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  159921,
+                      "sha256":  "955acb8e8ec692f0a969a7d64feb69dcaf28f9e85f4f12d19dfb6db0a074943d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkBwd_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkBwd_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  148103,
+                      "sha256":  "f13010dcfd0855d781e6051b596dded83c7dacd467e18de0a9f24e0f437a3bba",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkBwd_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkBwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  128326,
+                      "sha256":  "ee67b5436eb0878defaa72fc53b9b5208dbc0ff4ccd0d04811b94015235400a3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkBwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkFwd.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  232182,
+                      "sha256":  "f0d941e242642bf6b99d35af593424d8f4e259a3bf17e6e6ca3e93a72cf75ff3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkFwd.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkFwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  151271,
+                      "sha256":  "dfe9927884e3e68b538b07f7a1bd7be8fcaa758c1e6ed3362f9df3ce4a31fbbf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkFwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkFwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  127044,
+                      "sha256":  "250ca4a70c81fb05de31bc5c1f0d0a384eca07ef93162dc12c26ff123098152e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkFwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkFwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  145798,
+                      "sha256":  "663f63b5b90ba9698b807ed8271e41e5ad436f1eccea4cd9bfb5bf0ff72e3e4c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Prone_WalkFwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Reload_2.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  594166,
+                      "sha256":  "77501d0523a5021ac0bfa878ca231ca4211a2ad01b4b8bf236a33e5083798cb1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Reload_2.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_RunBwdLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  204923,
+                      "sha256":  "9041ada68b47c2dd2f7269c11b5bd93e05240c69d3aa54714c05a1a700190eef",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_RunBwdLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_RunFwdLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  216460,
+                      "sha256":  "2df31050d42eb3e986cbd11d8bfb9ca317e104faa5c547b1f079a4cfde4c7aad",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_RunFwdLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootBurst.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  178603,
+                      "sha256":  "155858352e2d056ed6a786d3f91ad0c7693bd39562ea03e4ca6dce9b8729f9d8",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootBurst.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootBurstLong.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197503,
+                      "sha256":  "41f6c362f6ffaa0369a30c8ec4852abd7fdb7ca50a00c923b806c2fba0921cc5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootBurstLong.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootGrenade.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  234668,
+                      "sha256":  "3017f6afc2e1466ff8b30799962c9cdc75737933dcf0fc264392d48cd0f224aa",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootGrenade.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootLoop_Additive.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  118499,
+                      "sha256":  "5479de038a5c95ab8e8848e00670db01d84c30bfdc7e1fd98d7641dcc932b59e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootLoop_Additive.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootOnce.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  137806,
+                      "sha256":  "b9417bcbdee91027d7a9c8207531863ec18101296f275fb5b79bb5589f5da7f2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_ShootOnce.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_SprintLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  199822,
+                      "sha256":  "b4f3fc383a17bc344d84a3d3955a5d908bec0b7c7290ba6e0589dd83381505f9",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_SprintLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_SprintStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  219630,
+                      "sha256":  "68671d28b65421cfc004ee0ec8437fbf5b183f98493eab0e59c3f363f85026af",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_SprintStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_SprintStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  365678,
+                      "sha256":  "24432f6e4a8f435bfcb5a24df626480278c034c916cf10a81dcc5cabb4c13f7d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_SprintStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_SprintStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  278754,
+                      "sha256":  "71b972398b0a6cf8cc9e936804a601e9bb0c65a9b888f1cd9a6c74d502eb1f75",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_SprintStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeft135Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  164504,
+                      "sha256":  "634679036bb5a63acbbac7600d51ff2dca4348282158226c99cdd2305787724f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeft135Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeft45Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  205435,
+                      "sha256":  "cea62294d0b1e7fe41bb9f00e5c6933ea0a153377b1716efc6f0bd8de41ee4dd",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeft45Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeftLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  192408,
+                      "sha256":  "1f1f3423e36f73ffcf28c46744842c7bcf73ed74484aebe0371f69d2bc35d6cd",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeftLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeftStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  197104,
+                      "sha256":  "b385e06567b116488878e652859a368956c0ead4271a444aab117eaffbcc725d",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeftStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeftStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  237967,
+                      "sha256":  "da7e6d395d5bb7ddca7a86b68621988b9e3b10a41c6d108bc6edaa6474231ad1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeftStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeftStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  192762,
+                      "sha256":  "f1401e810cae3ece18fd8f77af3d5a344165a3ce5ada7032511b269b698b3230",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeLeftStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRight135Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  157670,
+                      "sha256":  "35860c6a6f29a6620b71b2bb822821b53314e34a82dfa77e70a658fee8c2f1ac",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRight135Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRight45Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  167396,
+                      "sha256":  "9f6fcca63fe4ab1a62751eec7dd8bdea1f1cc5df1e245e265bf7f5f9d615a332",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRight45Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRightLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  228805,
+                      "sha256":  "ea4c813153bbfb43476515e31ca22f69d35e68b0556697cedb59906ca6995126",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRightLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRightStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  278645,
+                      "sha256":  "ca3b676917bbce19a51494436b90206b242fb71b3e1b08e89563549db708c953",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRightStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRightStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  245403,
+                      "sha256":  "6dd6bd03a3986aa37442fae8dba8112151f094bb4c3385e074260d16e65e6288",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRightStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRightStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  191432,
+                      "sha256":  "8e916048922f92c03fb2943f83295394859df6fbe2fbd0b65e977677ff3c5903",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRightStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRun135LeftLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  145184,
+                      "sha256":  "9467fa86b073e11a755ea7b3f6889fbebb54d4246e7e8b060d3c583039e69331",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRun135LeftLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRun135RightLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  145332,
+                      "sha256":  "57211a7b8511346d030275747629bf36a80bcd326e5087ec80e405a1424f28a4",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRun135RightLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRun45LeftLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  269268,
+                      "sha256":  "a1dc9ba09606965669b1c56687f9247ebb1ea7cf355a7f388d03c7a4f2986e87",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRun45LeftLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRun45RightLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  201643,
+                      "sha256":  "45f78e03578d747feb5b0d774023dd04a0a7cef28496c079adc2b69448bfe557",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRun45RightLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRunLeftLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  200335,
+                      "sha256":  "75a60823a65446d02646df02379079b456711b02182b8b0ce5da433893743390",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRunLeftLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRunRightLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  234763,
+                      "sha256":  "02844c5418dc77f82642366e17e2b4805e9b1e8c99f55eb75738121f6368931a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_StrafeRunRightLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnL_180.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  258092,
+                      "sha256":  "6c550daa69111fdb460ed4fe08d5996cd03d4a1a487563eba617e918696d39ed",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnL_180.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnL_90.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  210533,
+                      "sha256":  "7383e13de5b0ec1b868c1584a38e4a467549c32e2432559fa6d898e961ae8092",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnL_90.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnL_90Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  210936,
+                      "sha256":  "6410c62258f6cde69b31ab2df5c161ccde2b641b0400256da90ad7c5dc0a403f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnL_90Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnR_180.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  293313,
+                      "sha256":  "3e17cdf621bd79a42b2be7e5f73106e2bb4b9f4de9c4e23f640763e7afb44758",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnR_180.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnR_90.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  211297,
+                      "sha256":  "c2c285d7622c9354a0f41944a4246c561cd190e2e95281b77d3d394c106bb881",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnR_90.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnR_90Loop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  214974,
+                      "sha256":  "e5e4d5da3b182d5450560a39a1344b3fe908a0adb2d1109b3f7486ab047f868e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_TurnR_90Loop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Vault_1m.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  640069,
+                      "sha256":  "af3d23c423f9e1ac2aee5aac35fe1b6370474c45e885a0bd0cee08b713205d57",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_Vault_1m.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkBwdLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  191960,
+                      "sha256":  "569c5356cc6f0d9238a5863aac9cd44b83f41ee3a0a4a23d9e69b9197f5a317a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkBwdLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkBwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  221564,
+                      "sha256":  "cb92e1ba0f0a1a37626ed63b05f1fdfee4b6783b8e84083f290f0e8cc5048f2a",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkBwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkBwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  202987,
+                      "sha256":  "1a0b53eaef0615c35b4371629d983bad20a82c80f034320169ea3319b452fbe5",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkBwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkBwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  175900,
+                      "sha256":  "0f4b12930e6337f6c6df30c5c31bc9564b362e6cca9e0764946f7bbd12b55ce2",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkBwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdLoop.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  239400,
+                      "sha256":  "a24cb11fcffcf975a6f6f4305b6194353e06f436ab7b5253e4566dced46fb02c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdLoop.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  224763,
+                      "sha256":  "025e7e20d38afcaedcd1233695813d2a6fc1a824c719a3aaeebdecb10132bbf1",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart180_L.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  273688,
+                      "sha256":  "d73dee7da1a0399175e5e11c4be5d8352c17b97d82c27783e95b723f7c02fec0",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart180_L.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart180_R.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  334789,
+                      "sha256":  "031a5c61f406f58a0a5f8c691159c13eae17b55b4f97ff62e7cc3ec2306a6e56",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart180_R.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart90_L.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  266444,
+                      "sha256":  "28c30a04bd28c9ced31775756f86715907175c69ab741e58bef22363a7806762",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart90_L.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart90_R.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  296248,
+                      "sha256":  "5739259f4f78b0114cf39536e653d0a32847ee9a94a2dfb50788c183a0c475cc",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStart90_R.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStop_LU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  201223,
+                      "sha256":  "d9466c59d83cf11818df5fcafe44980146c2eea6414b7485ed0808ffc3d3cd51",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStop_LU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStop_RU.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  208343,
+                      "sha256":  "838f0a64d1d01c25aac409cdd40abb1cf4e8efe937695bd9e9d1d5ac0323185b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Animations/RootMotion/Rifle_WalkFwdStop_RU.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/BlendSpaces/ClassicRifleStrafeMovement.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  118011,
+                      "sha256":  "6991151ed7c4169c67b32c5328c81678fef825522fc2046d25bf48f50ef24a72",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/BlendSpaces/ClassicRifleStrafeMovement.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/BlendSpaces/RifleStandAim.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  101439,
+                      "sha256":  "26cc1169aa576f55e838ea162704a67c6714b247222a5f7971ab45e5ddaf54dd",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/BlendSpaces/RifleStandAim.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Maps/overview.umap",
+                      "storage":  "sftp",
+                      "size_bytes":  649967,
+                      "sha256":  "1efa2fb2be1d559ebd6a4de9103b78d84689d23bd3b0e74c38706baaf0b9d766",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/Maps/overview.umap"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/SourceFiles/SourceFiles.zip",
+                      "storage":  "sftp",
+                      "size_bytes":  388031556,
+                      "sha256":  "9f0ddce451b29187eeccc86302137e7ee233e3ffd99f9a4bb7f4b36ec4bbc935",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/SourceFiles/SourceFiles.zip"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/M_UE4Man_Body.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  136664,
+                      "sha256":  "d1531f7a8a3cb4836e9c618e966dc30379feb1aab44c3c870b4f578948375a48",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/M_UE4Man_Body.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  93829,
+                      "sha256":  "9da2badde994380ff61a0cf1c3c6dd2c957dc48584dee6498dd9551ea729ff88",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  102438,
+                      "sha256":  "3f031ec238f3025646836c3e139880c6aa2455d59ab5b6e61e06a0a1b7ad2ddf",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  98553,
+                      "sha256":  "748282a11937ea8c9367ad676efe1686dc3082ad583adf8f61a974dada0ccc95",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  99698,
+                      "sha256":  "db02cc412e5cac6762649e5ea1bfb418f79cc8e0329d5814b08411f8e5c40c9c",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  102393,
+                      "sha256":  "1bb8961b44bea180a95867436d6d398cb62951df396d501f4459a2e7b49edef3",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  434410,
+                      "sha256":  "5504e3b0839a28b24569a44de30a635aee27dda6c3df1994cf30df6f33f2680f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  405256,
+                      "sha256":  "618faf766151625f11e203f8a7b409ae1e527dcbaf911a7e1f082015fc6a581e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  470771,
+                      "sha256":  "0af00f055a1c481263f43613728db66490e95b67017b970ecb91566512fad494",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  362117,
+                      "sha256":  "1130399105dba8f49ddfa6600318fef5e932161d39a74babcb5763051fa4e73b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/SK_Mannequin.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  3771587,
+                      "sha256":  "d547d41192452ed57eca3bed7219361590232034265bac822c3bc7f7f147e352",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/SK_Mannequin.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  26064,
+                      "sha256":  "eedd3fb7af3e1f6c96128072ea3cab7853c5c61a94fd36dd791cf40d499a9136",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  16968,
+                      "sha256":  "dbb9c8bc45819c6f2da416b2f2f5e11dd06f614503f36d5da7ea78d5839d7e5e",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  95173,
+                      "sha256":  "ebf401f0e2b31ff5776da06cc24ef2ef4c51e99ef5dbec5b07730ac8a00d2778",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  5481078,
+                      "sha256":  "8549f0cdf6302be74a573fef4d948d8a3c21af08cf0dba8aef83a7aa4c3bab59",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  274906,
+                      "sha256":  "158fd33b9c12d1c7cc1c0e495bf7f6201d80c5a0c3f42a023d4f3af3846a0690",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  362358,
+                      "sha256":  "8a51f455e2d2a339b551ce4fea538294bfa545fa5ffc9b615d85895f48574d34",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  161770,
+                      "sha256":  "8d19c221de3e88ac09df1b0572db1517f882cfb2d53676f9c2e6cfa8a83b881f",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset"
+                  },
+                  {
+                      "path":  "Assets/LocalShared/SFTP/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/UE4资源安装说明.txt",
+                      "storage":  "sftp",
+                      "size_bytes":  303,
+                      "sha256":  "5119c593cde11e0ece2e624a99c87cb1a333b0e78251832f0e6b91abd383ad4b",
+                      "remote_path":  "/baselines/character-original-intake/character-20261001-v1/ANI-TP-RifleAnimsetPro/Original/UE4资源安装说明.txt"
+                  }
+              ],
+    "file_count":  300,
+    "size_bytes":  473464019,
+    "retired_paths":  [
+
+                      ],
+    "excluded_files":  [
+
+                       ],
+    "verification":  {
+                         "teammate_restoration":  "not performed",
+                         "method":  "Live source and final server SHA-256/size for every file",
+                         "runtime":  "Local lab regressions in Assets/CHARACTER_COMPATIBILITY_AND_REPAIR.md; not final gameplay acceptance",
+                         "verifier":  "Authorized local administrator",
+                         "verified_at":  "2026-10-01T13:53:52.5596407-04:00"
+                     }
+}
