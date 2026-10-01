@@ -1,0 +1,227 @@
+{
+    "schema_version":  1,
+    "asset_id":  "gunplay-reference-assets",
+    "asset_version":  "git-assets-20260930-210133",
+    "owner":  "Yupu Guo",
+    "published_at":  "2026-09-30T21:03:56.4961343-04:00",
+    "source":  "Previously Git-tracked/local project assets; migration plan verified before Git removal",
+    "license_record":  "Assets/Sync/RIGHTS.md",
+    "sharing_status":  "private_three_member_project_collaboration",
+    "recipients":  [
+                       "Yupu Guo",
+                       "Yuqi Pu",
+                       "Jingdi Wu"
+                   ],
+    "dependencies":  [
+
+                     ],
+    "files":  [
+                  {
+                      "path":  "Reference/Gunplay/BrowserPrototype/public/og.png",
+                      "storage":  "sftp",
+                      "size_bytes":  2219924,
+                      "sha256":  "14b99083b8412bf0c9e1fe8b7157ff317adbf899a6998d78f30fff07e9d718fc",
+                      "remote_path":  "/objects/sha256/14/14b99083b8412bf0c9e1fe8b7157ff317adbf899a6998d78f30fff07e9d718fc",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/SourceAssets/RifleHero01/RifleHero01.blend",
+                      "storage":  "sftp",
+                      "size_bytes":  776203,
+                      "sha256":  "9237ebf2839ee2304fb9d8a43b61119ab05fa4a8222f29c71e053ccd0e7dffe2",
+                      "remote_path":  "/objects/sha256/92/9237ebf2839ee2304fb9d8a43b61119ab05fa4a8222f29c71e053ccd0e7dffe2",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/SourceAssets/RifleHero01/SM_Rifle_Steel_Hero01.fbx",
+                      "storage":  "sftp",
+                      "size_bytes":  223468,
+                      "sha256":  "31715bc8c96aa7bc402af05f6c1dca3408cd0ce0f05c2b057e56efb2479306f7",
+                      "remote_path":  "/objects/sha256/31/31715bc8c96aa7bc402af05f6c1dca3408cd0ce0f05c2b057e56efb2479306f7",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/SourceAssets/RifleHero01/SM_Rifle_Wood_Hero01.fbx",
+                      "storage":  "sftp",
+                      "size_bytes":  77676,
+                      "sha256":  "1af41a4e9b4d8385e00a0f91ab03f11678a111729782be949fe02f8453fb7aff",
+                      "remote_path":  "/objects/sha256/1a/1af41a4e9b4d8385e00a0f91ab03f11678a111729782be949fe02f8453fb7aff",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/SourceAssets/RiflePrototype/SM_Rifle_SteelStudy.obj",
+                      "storage":  "sftp",
+                      "size_bytes":  16855,
+                      "sha256":  "cf881751fe8458b6686be917137ca9faf68347a033d36c9ed49e3e76487d0ef8",
+                      "remote_path":  "/objects/sha256/cf/cf881751fe8458b6686be917137ca9faf68347a033d36c9ed49e3e76487d0ef8",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/SourceAssets/RiflePrototype/SM_Rifle_WoodStudy.obj",
+                      "storage":  "sftp",
+                      "size_bytes":  10284,
+                      "sha256":  "2f20ab15095c1661263d1f4c2dd437bd79ee25a8d6b91b4e91082e915a638bfe",
+                      "remote_path":  "/objects/sha256/2f/2f20ab15095c1661263d1f4c2dd437bd79ee25a8d6b91b4e91082e915a638bfe",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/ATT_Battlefield.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  1434,
+                      "sha256":  "28a0ced2b9d20b938094cf26a7fa4eef0cbd2bdd886d5690b5e079fe9d00a72b",
+                      "remote_path":  "/objects/sha256/28/28a0ced2b9d20b938094cf26a7fa4eef0cbd2bdd886d5690b5e079fe9d00a72b",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleHUD01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  183339,
+                      "sha256":  "f29a799f5594fb5bb4693d89aa3aeec4e84a5fce637593400cc197602ce70e7e",
+                      "remote_path":  "/objects/sha256/f2/f29a799f5594fb5bb4693d89aa3aeec4e84a5fce637593400cc197602ce70e7e",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleImpact01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  132747,
+                      "sha256":  "e1a51ce4096d81f2b36c08a1a852a42d128e8c975ed26cdafad83cae25800a34",
+                      "remote_path":  "/objects/sha256/e1/e1a51ce4096d81f2b36c08a1a852a42d128e8c975ed26cdafad83cae25800a34",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleMode01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  28597,
+                      "sha256":  "63ab4b302047a3036871607dc2a715a7d862758dc751244e662441f0f452facf",
+                      "remote_path":  "/objects/sha256/63/63ab4b302047a3036871607dc2a715a7d862758dc751244e662441f0f452facf",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattlePlayer01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  112801,
+                      "sha256":  "8800bd10fd64f98d2292e32cb7c87a21b6d12b5d887f523e25a24218cdfa27f2",
+                      "remote_path":  "/objects/sha256/88/8800bd10fd64f98d2292e32cb7c87a21b6d12b5d887f523e25a24218cdfa27f2",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleTracer01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  36415,
+                      "sha256":  "ea77ecf95ce10504ac3adeea0dd35bdc04a7b9cd0064c9cf1a08294289477e12",
+                      "remote_path":  "/objects/sha256/ea/ea77ecf95ce10504ac3adeea0dd35bdc04a7b9cd0064c9cf1a08294289477e12",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_MGEmplacement01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  322314,
+                      "sha256":  "fe8f3e11b323b5fba458f74f5b242e90ebdaedd0e452f66da1ecd1e396b3bbcf",
+                      "remote_path":  "/objects/sha256/fe/fe8f3e11b323b5fba458f74f5b242e90ebdaedd0e452f66da1ecd1e396b3bbcf",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Dust.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  10084,
+                      "sha256":  "2c4c4c72a15e5aff50e0f3aae5587408ca3e09a0c050c36509ddffd2ea17b380",
+                      "remote_path":  "/objects/sha256/2c/2c4c4c72a15e5aff50e0f3aae5587408ca3e09a0c050c36509ddffd2ea17b380",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Flash.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  11172,
+                      "sha256":  "ff7d3a85a9d01395273fef044ade4dd7256cded6125098a974c820d2834975df",
+                      "remote_path":  "/objects/sha256/ff/ff7d3a85a9d01395273fef044ade4dd7256cded6125098a974c820d2834975df",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Tracer.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  11079,
+                      "sha256":  "320e74ac85eeeded06d09ce3943424cdc7d109ee40cff49877a8ceefa7e31514",
+                      "remote_path":  "/objects/sha256/32/320e74ac85eeeded06d09ce3943424cdc7d109ee40cff49877a8ceefa7e31514",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/S_DirtImpact.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  14438,
+                      "sha256":  "31e954b96c288601bf3f9309bccbe065e984df0e3950d16064b5643268c1ef55",
+                      "remote_path":  "/objects/sha256/31/31e954b96c288601bf3f9309bccbe065e984df0e3950d16064b5643268c1ef55",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/S_MGBurstShot.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  25974,
+                      "sha256":  "0c00b7eab4b48497e7bc93cc4f35eb69a039fea03f80149bc797b66c29a5c7dd",
+                      "remote_path":  "/objects/sha256/0c/0c00b7eab4b48497e7bc93cc4f35eb69a039fea03f80149bc797b66c29a5c7dd",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Blueprints/Player/BP_NormandyPlayerCharacter.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  555370,
+                      "sha256":  "ec7adfca236b4cfd17b0b249f0adc02f3c2f7708dde39ef86b7b569297ab8f4f",
+                      "remote_path":  "/objects/sha256/ec/ec7adfca236b4cfd17b0b249f0adc02f3c2f7708dde39ef86b7b569297ab8f4f",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Blueprints/Player/BP_WeaponComponent.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  196373,
+                      "sha256":  "093d42ccf4c54bd53766df76fa640f95098649ddfed3e4c17b792e20a5b08f8a",
+                      "remote_path":  "/objects/sha256/09/093d42ccf4c54bd53766df76fa640f95098649ddfed3e4c17b792e20a5b08f8a",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Meshes/RifleHero01/SM_Rifle_Steel_Hero01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  403325,
+                      "sha256":  "815ff9bc30df3348656cf2bc4b4c6de827a75576a8e044c5101ae2388c165085",
+                      "remote_path":  "/objects/sha256/81/815ff9bc30df3348656cf2bc4b4c6de827a75576a8e044c5101ae2388c165085",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Meshes/RifleHero01/SM_Rifle_Wood_Hero01.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  215375,
+                      "sha256":  "66079985ebbf83c14b8f3d5b16df068770fec2db6bad3f0f314b9da092e753aa",
+                      "remote_path":  "/objects/sha256/66/66079985ebbf83c14b8f3d5b16df068770fec2db6bad3f0f314b9da092e753aa",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Meshes/Weapons/SM_Rifle_SteelStudy.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  14026,
+                      "sha256":  "6e12d873d792b732c1170ac2d57227b38da8a69d5f60b02c87d369bb683ce1f3",
+                      "remote_path":  "/objects/sha256/6e/6e12d873d792b732c1170ac2d57227b38da8a69d5f60b02c87d369bb683ce1f3",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  },
+                  {
+                      "path":  "Reference/Gunplay/UnrealContent/Normandy/Meshes/Weapons/SM_Rifle_WoodStudy.uasset",
+                      "storage":  "sftp",
+                      "size_bytes":  13372,
+                      "sha256":  "18bfdd3ceab0adf30c0030899022602836c9285d1df8f486913dc52fcd882446",
+                      "remote_path":  "/objects/sha256/18/18bfdd3ceab0adf30c0030899022602836c9285d1df8f486913dc52fcd882446",
+                      "rights_record":  "Team-authored retained gunplay snapshot; source attribution and limitations in Reference/Gunplay/README.md and FILE_MANIFEST.json; private three-member collaboration only"
+                  }
+              ],
+    "file_count":  24,
+    "size_bytes":  5612645,
+    "retired_paths":  [
+
+                      ],
+    "excluded_files":  {
+
+                       },
+    "verification":  {
+                         "method":  "SHA-256 and byte size verified against live source and final server object/baseline",
+                         "verifier":  "Authorized local administrator publisher",
+                         "verified_at":  "2026-09-30T21:03:56.4971352-04:00",
+                         "teammate_sftp_download":  "not tested",
+                         "runtime_import":  "not tested"
+                     }
+}

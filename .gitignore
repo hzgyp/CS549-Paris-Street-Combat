@@ -12,6 +12,43 @@
 /Assets/LocalShared/
 /Assets/LocalWorking/
 
+# Public source release: assets, rendered/document binaries and raw research archives use SFTP.
+/HistoricalReference/NormandyContext/archive/
+/HistoricalReference/NormandyContext/images/
+/Reference/Gunplay/UnrealContent/
+/Reference/Gunplay/SourceAssets/**/*.blend
+/Reference/Gunplay/SourceAssets/**/*.fbx
+/Reference/Gunplay/SourceAssets/**/*.obj
+/Reference/Gunplay/BrowserPrototype/public/og.png
+*.pdf
+*.docx
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.blend
+*.fbx
+*.obj
+*.glb
+*.gltf
+*.wav
+*.exr
+*.zip
+*.7z
+*.rar
+*.mp4
+*.tga
+*.tif
+*.tiff
+*.psd
+# The stopped local character experiment is not a public production/source dependency.
+/Experiments/
+
+# Local course email evidence contains private correspondence.
+/Docs/Submission/LocalEvidence/
+
 # Unreal generated output and local credentials/tool state
 Binaries/
 Build/

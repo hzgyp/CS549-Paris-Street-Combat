@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "policy": "No model, historical, document-binary or vendor assets in Git. A small team-authored Unreal Blueprint that is source code needs an explicit path/owner/classification here before staging; this is not an asset exception.",
+  "files": []
+}

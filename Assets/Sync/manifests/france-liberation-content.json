@@ -1,10 +1,10 @@
 {
     "schema_version":  1,
     "asset_id":  "france-liberation-content",
-    "asset_version":  "d20260630-initial-20260927-222549",
+    "asset_version":  "git-assets-20260930-210133",
     "owner":  "Yupu Guo",
-    "published_at":  "2026-09-27T22:50:38.1605781-04:00",
-    "source":  "Original France Liberation Content tree; not a snapshot of later working-copy modifications",
+    "published_at":  "2026-09-30T21:15:10.2852467-04:00",
+    "source":  "Active working city Content rehashed against source and final server bytes; unchanged baseline objects reused",
     "license_record":  "Assets/Sync/RIGHTS.md",
     "sharing_status":  "owner_attested_private_three_member_sharing",
     "recipients":  [
@@ -142681,9 +142681,11 @@
 
                        ],
     "verification":  {
-                         "method":  "SHA-256 and size compared for source, staged copy and final server file; final file count checked",
-                         "verifier":  "Local administrator diagnostic/publisher",
-                         "verified_at":  "2026-09-27T22:50:38.3030827-04:00",
+                         "method":  "All active Content and final SFTP file bytes SHA-256/size-verified; unchanged baselines reused",
+                         "verifier":  "Authorized local administrator publisher",
+                         "verified_at":  "2026-09-30T21:15:10.3843325-04:00",
+                         "file_count":  15850,
+                         "changed_files":  0,
                          "teammate_sftp_download":  "not tested",
                          "runtime_import":  "not tested"
                      }

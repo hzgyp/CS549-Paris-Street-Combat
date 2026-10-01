@@ -1,8 +1,8 @@
 # Primary Development Workstation
 
-**Confirmed by Yupu Guo · Inventory captured 17 September 2026 · Development plan synchronized 21 September 2026**
+**Confirmed by Yupu Guo · Hardware inventory captured 17 September 2026 · Paris development plan synchronized 30 September 2026**
 
-This Alienware Aurora R13 is the primary development desktop. Project location: `D:\0.Rutgers\CS549\Project`. **Blueprints are required as the primary gameplay implementation approach.** C++ is an exception for a demonstrated need, not the default development path.
+This Alienware Aurora R13 is the primary development desktop. Active project: `D:\0.Rutgers\CS549\Project-New`. Blueprints are the primary gameplay implementation approach; C++ requires a demonstrated need. The hardware table below preserves the dated inventory and is not a new scan.
 
 | Component | Observed configuration |
 |---|---|
@@ -13,7 +13,7 @@ This Alienware Aurora R13 is the primary development desktop. Project location: 
 | C: | Crucial CT4000P3SSD8 NVMe SSD; volume 3,722.9 GiB total, 1,769.6 GiB free |
 | D: | Separate Crucial CT4000P3SSD8 NVMe SSD; volume 3,725.9 GiB total, 676.2 GiB free |
 | Storage health | Windows reports both volumes/disks Healthy |
-| Unreal detection | No Epic Launcher registered installation found in the checked manifest; no `.uproject` found in the project review. A custom installation elsewhere is not ruled out |
+| Unreal detection on 17 September | No registered installation/project found in that check. Superseded for current planning by the active UE5.8 descriptor and recorded UE5.8.2 baseline; runtime compatibility remains unverified |
 
 Capacity is shown in GiB, not decimal manufacturer GB/TB. This was a read-only inventory using Windows system/storage information and NVIDIA reporting. No synthetic benchmark, sustained thermal test, storage throughput test or Unreal performance capture was run. A Healthy flag is not a full hardware diagnostic. Serial numbers and machine/user identifiers are not included in the saved snapshot.
 
@@ -31,12 +31,12 @@ Record an agreed engine **major.minor.patch**, project plugins and the working d
 
 ## First measurement gate
 
-1. Locate/install and test the agreed engine, record the exact major.minor.patch, and create a Blueprint First Person graybox. The engine version remains pending this lab.
-2. Package Windows and measure the environment without NPC load; then measure the same 30–60-second landing-to-first-cover path with the scripted craft/ramp, at least three allies, weapon, shallow-water feedback and surface effects. Add the fourth ally only after stability.
-3. Warm shaders before collecting repeatable captures; separately record startup/shader hitches. Use the same route and duration for each configuration.
-4. Capture settings, resolution, build mode, engine version, CPU/GPU frame time, median/p95 frame time and peak memory. Compare against the 1080p/approximately 60 fps target without claiming it has already been met.
-5. After the MVP, profile the full mission with four allies, two defenders, cover change and controlled bunker destruction. Dynamic weather and day/night progression are outside the current Assignment 2 semester scope; they are not part of this measurement gate.
+1. Validate the active Paris project, record the tested exact engine/plugin versions and establish a Windows package. The current association is UE5.8 and the recorded installed baseline is UE5.8.2; neither establishes a compatibility pass.
+2. Survey the connected city and record a repeatable route. Measure the environment alone, then the initial one-player/two-ally/three-German mission with the selected rifle, actions and UI. Do not impose a one-block boundary or fixed duration.
+3. Warm shaders before repeatable captures; record startup/shader hitches separately. Keep route, workload and settings fixed across comparisons.
+4. Record resolution, quality/upscaling, build mode, engine/plugins, hardware/driver, CPU/GPU frame times, mean/median/p95 frame times and peak memory. Verify the 1080p/60 FPS target; disclose failures rather than treating the target as achieved.
+5. Run a separate bounded stress test with finite configured NPC loads at the same bottleneck. Record total roster versus active AI, navigation failures, frame-time changes and the first observed limit. Do not hide engaged actors, revive casualties or retain extra mission population without evaluation.
 
-These are planned measurements for the [Assignment 2 working proposal](../Docs/proposal/CS549_Normandy_Assignment2_Proposal.md); the browser mockup supplies no Unreal performance evidence.
+These are planned Paris measurements under the [Assignment 3 goal](../../Docs/Development/ASSIGNMENT3_GOAL_V1.md) and [acceptance checklist](../../Docs/Development/ASSIGNMENT3_ACCEPTANCE.md). No benchmark or runtime pass is claimed.
 
-See [Blueprint specification](../HistoricalReference/06_BLUEPRINT_SPECIFICATION.md) and [raw inventory](hardware_2026-09-17.json). The three core pillars remain Rendering, Animation and Collision Detection.
+See [technical design](../../Docs/Design/TECHNICAL_DESIGN.md) and [raw inventory](hardware_2026-09-17.json). The four pillars are Animation, Collision Detection, Pathfinding and Navigation, and NPC AI / Behavior Trees. Blender 5.2.2 LTS was installed and background-start verified on 30 September; old 4.5/configuration were preserved. This tool update does not reopen the stopped character pilot.

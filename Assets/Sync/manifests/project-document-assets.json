@@ -1,0 +1,166 @@
+{
+    "schema_version":  1,
+    "asset_id":  "project-document-assets",
+    "asset_version":  "git-assets-20260930-210133",
+    "owner":  "Yupu Guo",
+    "published_at":  "2026-09-30T21:03:55.3195086-04:00",
+    "source":  "Previously Git-tracked/local project assets; migration plan verified before Git removal",
+    "license_record":  "Assets/Sync/RIGHTS.md",
+    "sharing_status":  "private_three_member_project_collaboration",
+    "recipients":  [
+                       "Yupu Guo",
+                       "Yuqi Pu",
+                       "Jingdi Wu"
+                   ],
+    "dependencies":  [
+
+                     ],
+    "files":  [
+                  {
+                      "path":  "Course/Assignments/Assignment 1.docx",
+                      "storage":  "sftp",
+                      "size_bytes":  3012763,
+                      "sha256":  "67ba19b226c9c142753b9598a5af1c54f865c09395d76c876798c9b8b24a6846",
+                      "remote_path":  "/objects/sha256/67/67ba19b226c9c142753b9598a5af1c54f865c09395d76c876798c9b8b24a6846",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Course/Assignments/Assignment 2.docx",
+                      "storage":  "sftp",
+                      "size_bytes":  3043818,
+                      "sha256":  "ca10d7310f2325110ae22fea9aff1f3a42bd581b04e0158de008e94094a23b6d",
+                      "remote_path":  "/objects/sha256/ca/ca10d7310f2325110ae22fea9aff1f3a42bd581b04e0158de008e94094a23b6d",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Assignment 3_ MVP Development.docx",
+                      "storage":  "sftp",
+                      "size_bytes":  3011945,
+                      "sha256":  "95176c531b7990dc9b80207a59a91992a6227e147effb4131d517c32adb98725",
+                      "remote_path":  "/objects/sha256/95/95176c531b7990dc9b80207a59a91992a6227e147effb4131d517c32adb98725",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Presentation/CS549_Paris_Street_Combat_Presentation_2026-09-24_Final.pptx",
+                      "storage":  "sftp",
+                      "size_bytes":  3105478,
+                      "sha256":  "ac831349016235bee3519fe29e51d96e033b7fa365f2932004bdd2f6fc242001",
+                      "remote_path":  "/objects/sha256/ac/ac831349016235bee3519fe29e51d96e033b7fa365f2932004bdd2f6fc242001",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Presentation/Presentation 1.pdf",
+                      "storage":  "sftp",
+                      "size_bytes":  50162,
+                      "sha256":  "759fe50f6095fe99d4745cfb9e312a111eb2dfc4a57bd5c13912bdb79e042d33",
+                      "remote_path":  "/objects/sha256/75/759fe50f6095fe99d4745cfb9e312a111eb2dfc4a57bd5c13912bdb79e042d33",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/CS549_Assignment1_Proposal.docx",
+                      "storage":  "sftp",
+                      "size_bytes":  2951510,
+                      "sha256":  "d0238abc6cf286e45f7fbc69f0ab37778d98e3f0748273aec590a5cd0de5a38c",
+                      "remote_path":  "/objects/sha256/d0/d0238abc6cf286e45f7fbc69f0ab37778d98e3f0748273aec590a5cd0de5a38c",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/CS549_Assignment1_Proposal.pdf",
+                      "storage":  "sftp",
+                      "size_bytes":  651899,
+                      "sha256":  "5d426fb9f6247765d63ba833a2b5a5da7f65fceb26c84c413093ee0a0e97c22a",
+                      "remote_path":  "/objects/sha256/5d/5d426fb9f6247765d63ba833a2b5a5da7f65fceb26c84c413093ee0a0e97c22a",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/CS549_Assignment2_Proposal.docx",
+                      "storage":  "sftp",
+                      "size_bytes":  2952106,
+                      "sha256":  "dabb94ed50da1dbd3effcf61e453247f7ff8e594aa4b4cd62b98025f431ab731",
+                      "remote_path":  "/objects/sha256/da/dabb94ed50da1dbd3effcf61e453247f7ff8e594aa4b4cd62b98025f431ab731",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/CS549_Assignment2_Proposal.pdf",
+                      "storage":  "sftp",
+                      "size_bytes":  347301,
+                      "sha256":  "c6a89f1eff2bfef4d150421e90436492fc83e0231f2285aa9ac0b53b23919d69",
+                      "remote_path":  "/objects/sha256/c6/c6a89f1eff2bfef4d150421e90436492fc83e0231f2285aa9ac0b53b23919d69",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/CS549_Paris_Street_Combat_Proposal_CN.pdf",
+                      "storage":  "sftp",
+                      "size_bytes":  938705,
+                      "sha256":  "2d8166e333c9d46b97daba81339ac4d53e5d41e07e2d80ab31520bfa91396c88",
+                      "remote_path":  "/objects/sha256/2d/2d8166e333c9d46b97daba81339ac4d53e5d41e07e2d80ab31520bfa91396c88",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/CS549_Paris_Street_Combat_Proposal.pdf",
+                      "storage":  "sftp",
+                      "size_bytes":  704640,
+                      "sha256":  "988a6b748985edd98bec5514b0a089368bdc04e0ac11a28cdb8ac05b2ad82ff0",
+                      "remote_path":  "/objects/sha256/98/988a6b748985edd98bec5514b0a089368bdc04e0ac11a28cdb8ac05b2ad82ff0",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/Visuals/paris-connected-mission-concept.png",
+                      "storage":  "sftp",
+                      "size_bytes":  274159,
+                      "sha256":  "cdc71fd960266b663b17927280ba69e25a36fae62141febe5f15cbd3c0a135fd",
+                      "remote_path":  "/objects/sha256/cd/cdc71fd960266b663b17927280ba69e25a36fae62141febe5f15cbd3c0a135fd",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/Visuals/paris-mission-flowchart.png",
+                      "storage":  "sftp",
+                      "size_bytes":  116359,
+                      "sha256":  "e36cb2e17876d6de6272000546e63e6d3fc12c30f20f955d55c1af3c23e4ad15",
+                      "remote_path":  "/objects/sha256/e3/e36cb2e17876d6de6272000546e63e6d3fc12c30f20f955d55c1af3c23e4ad15",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/Visuals/paris-six-character-concept-text-only-v1.png",
+                      "storage":  "sftp",
+                      "size_bytes":  3169264,
+                      "sha256":  "83b25fada6648fd802a3122610de0cd2b26ab8f1aa1a8340a210b56123c49bef",
+                      "remote_path":  "/objects/sha256/83/83b25fada6648fd802a3122610de0cd2b26ab8f1aa1a8340a210b56123c49bef",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  },
+                  {
+                      "path":  "Docs/Proposal/Visuals/paris-six-character-concept.png",
+                      "storage":  "sftp",
+                      "size_bytes":  2813927,
+                      "sha256":  "095bd94a8f53b921b64a1d1dbe7e41480ee32fc632283a580bdd1ee6832c2cd1",
+                      "remote_path":  "/objects/sha256/09/095bd94a8f53b921b64a1d1dbe7e41480ee32fc632283a580bdd1ee6832c2cd1",
+                      "rights_record":  "User-authorized private project/course collaboration; preserve authorship, course source and embedded figure attribution; not a public distribution grant"
+                  }
+              ],
+    "file_count":  15,
+    "size_bytes":  27144036,
+    "retired_paths":  [
+
+                      ],
+    "excluded_files":  [
+                           {
+                               "path":  "Docs/Proposal/Visuals/paris-environment-01.jpg",
+                               "size_bytes":  269178,
+                               "sha256":  "6a7b8dbdf73a1636e769c4803ad0ccbf6c0125b0b99b1ae33f1a0b8b67888735",
+                               "reason":  "Supplier showcase reference; public/team file redistribution permission not established, retain source URL and local original"
+                           },
+                           {
+                               "path":  "Docs/Proposal/Visuals/paris-environment-02.jpg",
+                               "size_bytes":  232919,
+                               "sha256":  "de8320cc4b94207209fa58df9cc8c1e8229e8c6e0303634c1195dd5b57520d06",
+                               "reason":  "Supplier showcase reference; public/team file redistribution permission not established, retain source URL and local original"
+                           }
+                       ],
+    "verification":  {
+                         "method":  "SHA-256 and byte size verified against live source and final server object/baseline",
+                         "verifier":  "Authorized local administrator publisher",
+                         "verified_at":  "2026-09-30T21:03:55.3515084-04:00",
+                         "teammate_sftp_download":  "not tested",
+                         "runtime_import":  "not tested"
+                     }
+}

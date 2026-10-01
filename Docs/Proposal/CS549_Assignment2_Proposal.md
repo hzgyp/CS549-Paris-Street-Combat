@@ -33,7 +33,7 @@ As a player, I want clear objectives and checkpoint retry so that progress and f
 
 2.1. Stack. UE5; Blueprint visual scripting, C++ only if needed. Enhanced Input, UMG, Animation Blueprints, IK Retargeter, NavMesh, AIController/Behavior Trees, AI Perception and Niagara. Structs/Data Assets configure stages/NPCs; no external runtime library required.
 
-2.2. Dependencies. Original asset: UE5.6; working copy: 5.8. Pin a tested version; retain ChaosVehiclesPlugin. Purchase compatible soldier/rifle rigs and clips separately. Survey routes, collision, sightlines and NavMesh; use fixed daylight/static cover. [1]
+2.2. Dependencies. Current project association: UE5.8; compatibility testing remains pending. Retain ChaosVehiclesPlugin. Purchase compatible soldier/rifle rigs and clips separately. Survey routes, collision, sightlines and NavMesh; use fixed daylight/static cover. [1]
 
 2.3. AI strategy and performance. ChatGPT/Codex and ImageGen assist offline planning/code/visuals; no runtime AI service. Target: 60 FPS at 1080p on i9-12900F / RTX 3080 / 32 GB Windows PC. Profile mean/p95 frame times, roster and active NPC counts; unmeasured.
 
@@ -64,7 +64,7 @@ A Blueprint manager advances objectives once from player arrival or assigned-gro
 
 3.1. Core slice and hardest feature. Deliver a polished connected-street encounter with the initial roster, one rifle, basic UI and intermediate objectives. The hardest feature is integrating UI and physical interactions with the city while NPC movement, decisions and roles remain coordinated as numbers grow.
 
-3.2. Midterm demonstration. Provide a Windows build, gameplay recording and logs. Show UI matching health/ammo, walls blocking movement/shots, correct interrupted reloads, ally regrouping and enemy sight/search. Check objective progression and checkpoint restoration. Compare independent NPC movement with coordinated destinations at bottlenecks; record stalls/frame times before adding NPCs.
+3.2. Midterm demonstration. Provide a Windows build, gameplay recording and logs. Show UI matching health/ammo, walls blocking movement/shots, correct interrupted reloads, ally regrouping and enemy sight/search. Check objective progression; verify checkpoint restoration if implemented. Compare independent NPC movement with coordinated destinations at bottlenecks; record stalls/frame times before adding NPCs.
 
 3.3. MVP exclusions. Defer additional groups, complex squad commands, advanced cover tactics, physical bullets and citywide simulation. Final mission layout and checkpoint placement follow the editor survey and playtesting.
 

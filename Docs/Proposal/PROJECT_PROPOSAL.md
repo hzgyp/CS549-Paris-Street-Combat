@@ -4,7 +4,7 @@
 
 **Team:** Yupu Guo (yg745, team leader), Yuqi Pu (yp549), Jingdi Wu (jw2046).
 
-Current course deliverables: [Assignment 1 PDF](CS549_Assignment1_Proposal.pdf), [editable DOCX](CS549_Assignment1_Proposal.docx), [Assignment 2 PDF](CS549_Assignment2_Proposal.pdf), and [editable DOCX](CS549_Assignment2_Proposal.docx). The older combined English and Chinese PDFs are historical versions, not synchronized translations of this revision. Assignment 2 approval and mentor-assignment email evidence remains pending.
+Current reports: [Assignment 1 PDF](CS549_Assignment1_Proposal.pdf), [editable DOCX](CS549_Assignment1_Proposal.docx), [Assignment 2 PDF](CS549_Assignment2_Proposal.pdf), and [editable DOCX](CS549_Assignment2_Proposal.docx). Concept/pillar approval is evidenced by the user's 28 September email screenshot; mentor assignment and Assignment 2 completion/approval remain to be verified in [submission status](../Submission/STATUS.md). The older combined English/Chinese PDFs are historical versions. Current implementation targets follow the [Assignment 3 goal version 1](../Development/ASSIGNMENT3_GOAL_V1.md) and [acceptance checklist](../Development/ASSIGNMENT3_ACCEPTANCE.md).
 
 ## 1. Concept and product requirements
 
@@ -47,11 +47,11 @@ Separate total mission population from simultaneous active AI. Profile movement 
 
 ## 2. Assets and technical stack
 
-Use Unreal Engine with Blueprint visual scripting, Enhanced Input, UMG, Animation Blueprints, IK Retargeter, collision queries, NavMesh/MoveTo, AIController, Behavior Trees/Blackboards, AI Perception and restrained Niagara effects. Small C++ additions require a specific need. No external runtime library or online AI service is required. Version-control tooling has not been selected by the team. Vendor packages keep `/Game/WW2City` names; team content belongs under `/Game/ParisCombat`.
+Use Unreal Engine with Blueprint visual scripting, Enhanced Input, UMG, Animation Blueprints, IK Retargeter, collision queries, NavMesh/MoveTo, AIController, Behavior Trees/Blackboards, AI Perception and restrained Niagara effects. Small C++ additions require a specific need. No external runtime library or online AI service is required. GitHub carries code/small files and manifests; SFTP carries large originals and modified asset versions under the [team workflow](../../Assets/TEAM_SYNC_WORKFLOW.md). Vendor packages keep `/Game/WW2City` names; team content belongs under `/Game/ParisCombat`.
 
 France Liberation supplies city geometry, materials, prefabs, lighting options and tools. Its official listing excludes cinematic trailer soldiers and some impact/explosion effects. Allied/German character visuals, player rifle/arms, motion clips and combat audio remain pending selection. Check skeletons, clips, sockets, first-person suitability, Physics Assets, engine support and rights before acquisition/integration. Retargeting adapts compatible motion; it does not guarantee arbitrary packs work together.
 
-The original vendor project declares **UE5.6**; the active descriptor records **5.8**, and the workstation handoff records **5.8.2**. These observations are not compatibility tests. Pin a tested engine/plugin configuration on a compatibility copy, retaining the vendor-required ChaosVehiclesPlugin and preserving the original delivery.
+Both the preserved original and active project descriptors record **5.8**; the workstation handoff records **5.8.2**. The delivery wrapper's `UE5.6+` label is compatibility metadata, not the original descriptor's engine association. These observations are not compatibility tests. Pin a tested engine/plugin configuration, retain the vendor-required ChaosVehiclesPlugin and preserve the original delivery.
 
 **IK Retargeter** transfers motion between source and target skeletons using mapped body chains, with pose/alignment adjustments. It is useful when purchased animations and soldiers have different rigs; it may be unnecessary when the chosen pack already supplies compatible clips. **UMG** is Unreal's UI authoring system for widgets such as the crosshair, health/ammo display, objective text, checkpoint feedback and menus. These widgets read gameplay state rather than maintaining separate damage or ammunition calculations.
 
@@ -102,7 +102,7 @@ The MVP is a polished playable encounter across a surveyed connected part of the
 
 The hardest feature is integrating **UI and physical character/environment interactions into the purchased city while NPC movement, decisions and roles remain coordinated as the population grows**. Correct code alone cannot judge collision gaps, rig alignment, sightlines, destination crowding or enjoyable encounter pacing. These require editor inspection, animation review and repeated playtests in the actual environment.
 
-By the midterm, demonstrate a packaged Windows build, gameplay recording and debug logs. Show UI agreeing with damage/ammunition/objectives, walls blocking movement and shots, correct interrupted reloads, allies following/regrouping and enemies losing sight/searching. Exercise objective progression and the proposed checkpoint snapshot/restore path. Compare independent NPC destination choices with coordinated assignments at a bottleneck, then record movement stalls and frame times before adding NPCs. These are planned demonstrations, not completed results.
+For Assignment 3, demonstrate a packaged Windows build, gameplay recording and debug logs. Show UI agreeing with damage/ammunition/objectives, walls blocking movement and shots, correct interrupted reloads, allies following/regrouping and enemies losing sight/searching. Exercise objective progression and checkpoint restoration if implemented. Compare independent NPC destinations with coordinated assignments at a bottleneck; record stalls and frame times before retaining added NPCs. Deliver a 2-3 minute real-time video with explanation and stress testing, a 1-2 page progress PDF and working build/video/source links. These are planned demonstrations, not completed results.
 
 Keep additional groups, complex squad commands, advanced cover tactics, physical bullets and citywide simulation out of the initial slice. Reuse CharacterMovement and engine physics rather than writing a custom dynamics solver. The rendering/physics contribution is configuration and integration; vendor materials and Unreal rendering algorithms are not student-authored systems.
 
@@ -114,7 +114,7 @@ Target Windows at 1920 x 1080 and 60 FPS on the recorded i9-12900F / RTX 3080 10
 2. **Complete playable loop:** integrate initial characters, motion/gunplay, UI, ally/enemy behavior, configurable objectives and retry.
 3. **Four pillars and coordination:** refine animation events, hit resolution, navigation recovery and perception/behavior priorities; test distinct support goals at bottlenecks.
 4. **Checkpoint and population tuning:** choose safe save boundaries and verify snapshot restoration; playtest pacing, compare small finite NPC additions and profile the complete encounter.
-5. **Submission:** preserve the build, dependency instructions, demonstration, disclosures and actual approval correspondence.
+5. **Submission:** preserve the build, dependency instructions, 2-3 minute annotated real-time video with stress test, 1-2 page progress report, working build/video/public-source links, disclosures and actual prerequisite evidence. Prepare public source without commercial assets or private correspondence; do not change the private repository's visibility automatically.
 
 Proposed ownership: Yupu Guo leads collision/gunplay and integration; Yuqi Pu leads animation and compatible rig/action integration; Jingdi Wu leads navigation/NPC AI and bounded environment setup. Roles require team confirmation. No course deadline or mentor identity is assumed. Assignment 2's actual concept/pillar approval and mentor-assignment email proof must accompany the report separately; this plan does not substitute for it.
 

@@ -2,13 +2,13 @@
 
 **Latest scope correction:** use the current proposal's connected city mission with an initial configurable six-soldier roster, not a final population cap. Automatic ally follow/regroup, temporary support positions and the map-survey requirements remain. All NPCs share an AIController/Behavior Tree with individual team, role, encounter-group, patrol-route and search-zone settings and private per-NPC Blackboard state. Extra finite groups/stages depend on pacing, navigation and performance evaluation.
 
-**Current mission contract, 23 September 2026:** the revised [proposal](../Proposal/PROJECT_PROPOSAL.md) governs the four pillars, shared A* graph and staged Reach rally A → Clear assigned group B → Reach end C mission. Reach checks only the living player and re-evaluates overlap on activation. ClearArea requires a nonempty fully registered EnemyGroupID with zero living members; unique death events update an actor-ID ledger, including earlier kills. Leaving a volume, despawning or unloading does not count as death. Only the current stage advances, once; player-death failure takes precedence. Full restart restores the configured roster, objective index, counters and timers and rejects stale callbacks. Earlier casualties persist across stages. Objective markers are not checkpoint saves.
+**Current mission contract, 30 September 2026:** the [proposal](../Proposal/PROJECT_PROPOSAL.md) governs configurable intermediate objectives across a surveyed connected city area. Reach A -> Clear B -> Reach C is illustrative; locations and order follow the survey. NavMesh/MoveTo is the baseline and custom tactical A* is optional. Reach checks only the living player and re-evaluates overlap on activation. ClearArea requires a nonempty fully registered EnemyGroupID with zero living members; unique deaths update an actor-ID ledger, including earlier kills. Leaving a volume, despawning or unloading is not death. Only the current objective advances, once; player-death failure takes precedence. Full restart restores the configured initial state. Should checkpoints restore a saved snapshot and roll back later changes if implemented. Both restore paths reject stale callbacks. Earlier casualties persist during normal progression. Current delivery and evidence requirements are in the [Assignment 3 goal](../Development/ASSIGNMENT3_GOAL_V1.md) and [acceptance checklist](../Development/ASSIGNMENT3_ACCEPTANCE.md).
 
 This design follows the current four-pillar proposal. It is not evidence that any system has been implemented or validated.
 
 ## 1. Boundaries
 
-The asset pack supplies the city geometry, materials and vendor utilities. Unreal supplies rendering, animation runtime, scene queries, navigation primitives and packaging. The team implements the four proposal pillars: animation state/event rules, collision and authoritative hit resolution, student A* route selection, and shared Behavior Tree/perception behavior. Rendering and physical simulation support presentation and runtime operation but are not primary authored pillars.
+The asset pack supplies the city geometry, materials and vendor utilities. Unreal supplies rendering, animation runtime, scene queries, navigation primitives and packaging. The team implements animation state/event rules, collision and authoritative hit resolution, coordinated destination assignment and navigation recovery, and shared Behavior Tree/perception behavior. Custom tactical A* is optional. Rendering and physical simulation support operation but are not primary authored pillars.
 
 The active environment is Unreal/ParisStreetCombat/WW2FranceLiberation.uproject. Keep the vendor `/Game/WW2City` namespace unchanged. Future team content belongs in `/Game/ParisCombat/{Maps,Blueprints,Animation,Materials,VFX,UI,Tests}`. Use a team-owned encounter map or editor-aware duplication/migration when development resumes; do not rename binary package files in Explorer.
 
@@ -23,9 +23,9 @@ The active environment is Unreal/ParisStreetCombat/WW2FranceLiberation.uproject.
 | Impact feedback component | Surface lookup, position/orientation, bounded decals/particles/audio | Hit detection or repeated damage |
 | Health component | Damage acceptance and one death transition | Per-frame repeated objective updates |
 | Shared NPC controller / Behavior Tree | Faction/role decisions, patrol, sight memory, bounded search, follow/regroup and route requests | Runtime LLM, private global mission state or unbounded squad tactics |
-| Tactical route service | Surveyed graph, A* search, NavMesh path-length costs, reservations and bounded replanning | Combat damage, animation state or arbitrary citywide simulation |
-| Mission controller | Roster/group registration, ordered Reach/Clear/Reach stages, win/fail and full-restart generation | Shader or bone manipulation |
-| Debug/evidence view | Traces, action IDs, route costs/expansions, AI state, group counters and baseline selection | Shipping gameplay dependencies |
+| Navigation and destination service | Reachable NavMesh goals, distinct reservations, one selected avoidance approach, bottleneck waiting and bounded MoveTo recovery; optional tactical graph | Combat damage, animation state or arbitrary citywide simulation |
+| Mission controller | Roster/group registration, configurable objectives, win/fail/retry, full-restart generation and optional checkpoint snapshots | Shader or bone manipulation |
+| Debug/evidence view | Traces, action IDs, move requests/stalls, AI state, group counters, frame times and baseline selection; search costs/expansions only for an implemented optional graph | Shipping gameplay dependencies |
 
 Use Blueprint interfaces for damage/target interaction and explicit event payloads for shot feedback. Data assets/tables may hold weapon tuning, surface mappings and encounter placements. Do not let every actor independently trace and decide the outcome of one shot.
 
@@ -74,13 +74,15 @@ Supporting validation may compare generic and surface-aware bounded feedback on 
 
 ## 6. Pathfinding and Navigation pillar
 
-Survey the selected connected mission area before authoring its tactical graph. Record junctions, walkable connections, NavMesh coverage, path lengths, bottlenecks, collision, sightlines and representative travel times. Graph size and route length come from this survey rather than a preset node or block count.
+Survey the selected connected mission area before selecting objectives or destinations. Record walkable connections, NavMesh coverage, path lengths, bottlenecks, collision, sightlines and representative travel times. Any optional graph size and mission length follow this survey rather than a preset node or block count.
 
-Implement student A* over the surveyed junction graph. Use NavMesh path length for edge cost where available and an admissible Euclidean-distance heuristic. Unreal NavMesh and `MoveTo` execute each selected graph leg; they do not replace the student route-selection layer. If a required leg is not navigable, reject it or invoke a bounded replan rather than teleporting or silently marking it complete.
+Use Unreal NavMesh and `MoveTo` for baseline route finding and execution. Project candidate follow/support destinations onto navigable ground and verify reachability for the requesting NPC. Select one local-avoidance approach; add waiting/priority at narrow passages and bounded replanning after a move failure or goal change. Record retry limits and timeouts in configuration. A failed move must resolve to a documented waiting/fallback state, not teleportation, false arrival or an infinite retry loop.
 
-Allies reserve distinct temporary support destinations and release reservations on arrival, failure, death or restart. Bounded wait/replan behavior handles bottlenecks; it must not create an infinite retry loop. The route service records request ID, start/goal, selected nodes, total cost, expansions, execution failures and fallback reason.
+Allies reserve distinct temporary support destinations and release reservations on goal change, failure, death or restore. Arrival alone does not free a support position while its occupant still uses it; retain the reservation until that assignment ends. The navigation service records request ID, NPC, start/goal, reservation owner, move result, waits/replans, stall duration and fallback reason. Each NPC keeps separate execution state.
 
-Comparison: run A* and Dijkstra on the same surveyed start/goal pairs. Verify equal optimal costs where a path exists, then compare node expansions and elapsed search time. Exercise blocked legs, unreachable destinations and ally bottlenecks. These are planned tests, not current results.
+Compare independent NPC destination choices against coordinated reachable destinations, reservations and waiting at the same bottleneck. Record stalls, crowding, completion/regroup time and failed moves. Exercise blocked and unreachable goals and release reservations on death/restore. These are planned tests, not current results.
+
+If gameplay or instructor feedback justifies custom tactical A*, use a surveyed junction graph, documented edge costs and an admissible heuristic, with NavMesh executing local legs. Only then add A*/Dijkstra comparisons on matched start/goal pairs, checking optimal costs, expansions and elapsed time. This optional work is not an Assignment 3 prerequisite.
 
 ## 7. NPC AI / Behavior Trees pillar
 
@@ -96,7 +98,9 @@ Comparison: run repeatable cases for faction filtering, sight acquisition/loss, 
 
 The enemy must obey occlusion, stop attacks after death, and reset. Player damage, enemy damage, objective and HUD updates use authoritative state/events. The mission has explicit Ready/Playing/Won/Lost states and a restart generation ID. Restart clears actors, damage flags, action IDs, timers, ammo state, effects and objective state before re-enabling inputs.
 
-The initial ordered mission is Reach rally A -> Clear assigned group B -> Reach end C. Reach checks the living player and re-evaluates overlap when activated. ClearArea requires a registered, nonempty assigned group with zero living members; leaving the volume, unloading or despawning does not count as death. Deduplicate death events, include earlier kills, advance only the current stage once, and reject stale callbacks after full restart. No bunker destruction, driveable tank, door interaction or cinematic landing is carried over from the old plan.
+Use configurable intermediate objectives; Reach A -> Clear B -> Reach C is an example whose locations and order are selected after the survey. Reach checks the living player and re-evaluates overlap when activated. ClearArea requires a fully registered, nonempty assigned group with zero living members; leaving the volume, unloading or despawning does not count as death. Deduplicate deaths, include earlier kills, advance only the current objective once, and reject stale callbacks after retry/full restart. No bunker destruction, driveable tank, door interaction or cinematic landing is carried over from the old plan.
+
+Checkpoint saves are a Should feature at selected safe objective boundaries. A Blueprint SaveGame snapshot records objective progress, player transform/health/ammo and relevant NPC identities, alive/dead state, health/ammo and transforms. Restore reconstructs that saved state, rolls back later changes, increments the restore generation and reinitializes transient actions, timers, perception, navigation and reservations. Saving alone does not heal, refill or revive. Retry restores the latest valid snapshot if one exists, otherwise the initial state. Full new-mission restart always restores the initial state. If checkpoints are deferred for Assignment 3, demonstrate initial-state retry and report the cut.
 
 ## 9. Asset and engine integration
 
@@ -118,11 +122,11 @@ For each of the four pillars keep: problem, engine/asset boundary, owned impleme
 ## 11. Demo plan
 
 1. Briefly identify Paris liberation context and the asset/implementation boundary.
-2. Play the initial three-stage mission with movement, combat, ally follow/regroup, enemy patrol/search, objectives and full restart.
+2. Play the survey-selected mission with movement, combat, ally follow/regroup, enemy patrol/search, objectives and retry/full restart.
 3. Replay a wall/corner case with trace visualization.
 4. Show a reload interruption with action/ammunition events.
-5. Compare A* and Dijkstra on matched surveyed routes and show a blocked-route/bottleneck case.
+5. Compare independent versus coordinated NPC destinations and show bottleneck or blocked-goal recovery. Add A*/Dijkstra only if the optional graph is implemented.
 6. Show sight loss, bounded enemy search and return-to-role behavior plus an ally regroup case.
 7. Report supporting rendering/performance settings, limitations, team ownership and the source/build identity.
 
-Keep a backup recording of the same frozen build. The later final demo must reflect actual results rather than the environment vendor's trailer or the former Normandy browser prototype.
+For Assignment 3, select real-time captures from this plan to fit a 2-3 minute video with voiceover or text overlays and a bounded stress test. The time limit applies to the video, not the mission route. Keep a backup recording of the same frozen build; use actual results rather than vendor footage or the former Normandy browser prototype.

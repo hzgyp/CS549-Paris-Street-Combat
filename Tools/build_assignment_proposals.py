@@ -180,8 +180,8 @@ def mockup(d, width=6.3):
     picture(d, MOCKUP_IMAGE, width, "AI-generated first-person street concept based on official France Liberation appearance references: player rifle, two Allied NPCs and three German NPCs around a junction with streets continuing into the city. The initial six-character roster is expandable; geography is conceptual.")
     para(d, "AI-generated concept (OpenAI ImageGen), informed by official Meshingun Studio France Liberation references. Initial roster; illustrative layout, not implemented gameplay. [1]", "Caption")
 
-def flowchart(d):
-    picture(d, IMAGE, 7.1, "Proposed mission flow: start or resume, pursue a current Reach or Clear objective, advance when its condition passes, and complete after the final stage. Selected safe objective boundaries may save checkpoints. Player death leads to retry from the latest checkpoint, or the start when none exists. Final mission geography and checkpoint locations are undecided.")
+def flowchart(d, width=7.1):
+    picture(d, IMAGE, width, "Proposed mission flow: start or resume, pursue a current Reach or Clear objective, advance when its condition passes, and complete after the final stage. Selected safe objective boundaries may save checkpoints. Player death leads to retry from the latest checkpoint, or the start when none exists. Final mission geography and checkpoint locations are undecided.")
 
 def pillar_work_table(d, emphasize_pillars=False, include_proof=False):
     headers = ["Pillar", "Specific work", "Implementation route"]
@@ -285,7 +285,7 @@ def assignment2():
     ], [.8, 6.3])
     d.add_heading("2. Technical specification", 1)
     para(d, "**2.1. Stack.** UE5; Blueprint visual scripting, C++ only if needed. Enhanced Input, UMG, Animation Blueprints, IK Retargeter, NavMesh, AIController/Behavior Trees, AI Perception and Niagara. Structs/Data Assets configure stages/NPCs; no external runtime library required.")
-    para(d, "**2.2. Dependencies.** Original asset: UE5.6; working copy: 5.8. Pin a tested version; retain ChaosVehiclesPlugin. Purchase compatible soldier/rifle rigs and clips separately. Survey routes, collision, sightlines and NavMesh; use fixed daylight/static cover. [1]")
+    para(d, "**2.2. Dependencies.** Current project association: UE5.8; compatibility testing remains pending. Retain ChaosVehiclesPlugin. Purchase compatible soldier/rifle rigs and clips separately. Survey routes, collision, sightlines and NavMesh; use fixed daylight/static cover. [1]")
     para(d, "**2.3. AI strategy and performance.** ChatGPT/Codex and ImageGen assist offline planning/code/visuals; no runtime AI service. Target: 60 FPS at 1080p on i9-12900F / RTX 3080 / 32 GB Windows PC. Profile mean/p95 frame times, roster and active NPC counts; unmeasured.")
     mockup(d, width=4.6)
     d.add_page_break()
@@ -293,12 +293,12 @@ def assignment2():
     pillar_work_table(d, emphasize_pillars=True, include_proof=False)
     para(d, "**2.5. Shared integration.** UI reads authoritative health/ammo/objective state. Player/NPC weapons share hit rules; tracers are cosmetic. Configure purchased rigs, collision and CharacterMovement; reuse engine physics.")
     d.add_heading("2.6. Mission flow and objective control", 2)
-    flowchart(d)
+    flowchart(d, width=6.2)
     para(d, "Proposed logic, not final geography. Six is an initial roster; checkpoint sites and any resupply/reinforcement rules remain open.", "Caption")
     para(d, "A Blueprint manager advances objectives once from player arrival or assigned-group defeat events. Proposed checkpoints save objective, player health/ammo and relevant NPC state; retry restores that snapshot, or starts fresh if none exists. Saving alone does not heal, refill or revive. Full restart remains available. [7]")
     d.add_heading("3. Narrow vertical slice (MVP)", 1)
     para(d, "**3.1. Core slice and hardest feature.** Deliver a polished connected-street encounter with the initial roster, one rifle, basic UI and intermediate objectives. The hardest feature is integrating UI and physical interactions with the city while NPC movement, decisions and roles remain coordinated as numbers grow.")
-    para(d, "**3.2. Midterm demonstration.** Provide a Windows build, gameplay recording and logs. Show UI matching health/ammo, walls blocking movement/shots, correct interrupted reloads, ally regrouping and enemy sight/search. Check objective progression and checkpoint restoration. Compare independent NPC movement with coordinated destinations at bottlenecks; record stalls/frame times before adding NPCs.")
+    para(d, "**3.2. Midterm demonstration.** Provide a Windows build, gameplay recording and logs. Show UI matching health/ammo, walls blocking movement/shots, correct interrupted reloads, ally regrouping and enemy sight/search. Check objective progression; verify checkpoint restoration if implemented. Compare independent NPC movement with coordinated destinations at bottlenecks; record stalls/frame times before adding NPCs.")
     para(d, "**3.3. MVP exclusions.** Defer additional groups, complex squad commands, advanced cover tactics, physical bullets and citywide simulation. Final mission layout and checkpoint placement follow the editor survey and playtesting.")
     sources(d, include_local=False, label="4. References")
     save(d, "CS549_Assignment2_Proposal")

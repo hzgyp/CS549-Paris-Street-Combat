@@ -1,5 +1,7 @@
 # Current assignment proposals
 
+**28 September 2026 submission check:** Proposal 2 now states the actual UE5.8 project association with compatibility testing pending. Its midterm checkpoint-restoration check is conditional on implementation, consistent with the Should priority. Word, Markdown and the two-page PDF are synchronized; both PDF pages were visually checked after Word export. The user's email screenshot includes Danrui Li's approval of the Paris/four-pillar request, but does not name the assigned mentor. See the latest [submission status](../Submission/STATUS.md); older pending-concept-approval statements below are superseded by this evidence. The private screenshot is not tracked in Git.
+
 Updated on 23 September 2026 for staged squad objectives across a connected part of the existing France Liberation city. Six soldiers are the initial MVP configuration; later population growth is configurable and subject to playtesting and profiling.
 
 | Deliverable | PDF | Editable source |

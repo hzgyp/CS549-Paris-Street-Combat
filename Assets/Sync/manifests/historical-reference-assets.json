@@ -1,0 +1,458 @@
+{
+    "schema_version":  1,
+    "asset_id":  "historical-reference-assets",
+    "asset_version":  "git-assets-20260930-210133",
+    "owner":  "Yupu Guo",
+    "published_at":  "2026-09-30T21:03:56.1515333-04:00",
+    "source":  "Previously Git-tracked/local project assets; migration plan verified before Git removal",
+    "license_record":  "Assets/Sync/RIGHTS.md",
+    "sharing_status":  "private_three_member_project_collaboration",
+    "recipients":  [
+                       "Yupu Guo",
+                       "Yuqi Pu",
+                       "Jingdi Wu"
+                   ],
+    "dependencies":  [
+
+                     ],
+    "files":  [
+                  {
+                      "path":  "HistoricalReference/NormandyContext/archive/fm23_95_75mm_1942.pdf",
+                      "storage":  "sftp",
+                      "size_bytes":  7259647,
+                      "sha256":  "ec5d1f3d96d544f110407a30758aa0a2a058123a2044474c4bc9d28fa6291cfb",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/archive/fm23_95_75mm_1942.pdf",
+                      "rights_record":  "U.S. government manual; catalog SOURCES.csv and IMAGE_CATALOG.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/archive/german_handbook_1945.pdf",
+                      "storage":  "sftp",
+                      "size_bytes":  86572532,
+                      "sha256":  "dfa9fd6f83d12beadcd3c10c7460ad46c189b665181809b0b77c66e532f25b36",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/archive/german_handbook_1945.pdf",
+                      "rights_record":  "U.S. government manual; catalog SOURCES.csv and IMAGE_CATALOG.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/archive/us_uniform_survey.pdf",
+                      "storage":  "sftp",
+                      "size_bytes":  7643543,
+                      "sha256":  "408b3f7da9f1e0cc31f5e38170ced7e8bd00fada675460b8d27c9121d30a1dff",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/archive/us_uniform_survey.pdf",
+                      "rights_record":  "U.S. government manual; catalog SOURCES.csv and IMAGE_CATALOG.csv"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/aircraft/b26_invasion_stripes.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  17629,
+                      "sha256":  "02f5aa716e99861bceed21ed9fe68b2b392e58ab40bb355e23c593d4c9dd7a6a",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/aircraft/b26_invasion_stripes.jpg",
+                      "rights_record":  "Commons identifies U.S. Air Force public-domain source; original caption attribution retained on source page"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/aircraft/fw190a_captured_shape_only.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  7369756,
+                      "sha256":  "e95b4687c520a70227fbc1e09d84ab2f202db3f16e48647ff914ea3ed6d7529c",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/aircraft/fw190a_captured_shape_only.jpg",
+                      "rights_record":  "Official U.S. Navy photograph 80-G-224686; public domain"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/easy_red_bluffs.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  42548,
+                      "sha256":  "1a6b47517d1f41b87a27072f96e655dcc4ec8f5f0ac0a7f6248d9292f71c94e8",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/easy_red_bluffs.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/nara_into_jaws_of_death.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  112596,
+                      "sha256":  "ea8ce01b4ba0f0b3a9b066d698854d332b967384445ddf617cbe0f7f9d4ffe41",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/nara_into_jaws_of_death.jpg",
+                      "rights_record":  "U.S. Coast Guard photograph by Robert F. Sargent; U.S. government work"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/omaha_landing_visibility.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  43325,
+                      "sha256":  "7870bb433c4a865b138aca081654ae8e58549c8e0f78d7cfdac0825d4e3e4267",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/omaha_landing_visibility.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/omaha_sector_map.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  255099,
+                      "sha256":  "d1501b57cc195bcf46a9662655b4c8b612feecfc16ac5b86d773c47fc68775ef",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/omaha_sector_map.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/shingle_embankment.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  66044,
+                      "sha256":  "34422b94a0a83a8f942a5ed2788cd7f8fba0315d36080814db23a89423c72dde",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/shingle_embankment.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/tidal_flat_19440519.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  39400,
+                      "sha256":  "0a69d9d7610c2beb98c58faea6ed0bf3d3716f74e251b8400138738be074a23f",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/tidal_flat_19440519.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/beach/vierville_flanking_pillbox.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  56260,
+                      "sha256":  "65da152ade016691759da8a41f78e8d6bb30354f263297a611faebd8bc6a5903",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/beach/vierville_flanking_pillbox.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/british_officer_rank_chart_1943.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  2102296,
+                      "sha256":  "68d197439a426578fdb3f9cc177682ba0059b7610dec865ef624b7f0224a51cf",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/british_officer_rank_chart_1943.jpg",
+                      "rights_record":  "U.S. Army Special Service Division / U.S. Government Printing Office; public-domain official publication"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/heer_branch_colors.png",
+                      "storage":  "sftp",
+                      "size_bytes":  195548,
+                      "sha256":  "c8a2a33dc6447ff894c3b9d5b52ded76bcbda86794dc8bd0511a65c04e05f6cb",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/heer_branch_colors.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/heer_enlisted_ranks.png",
+                      "storage":  "sftp",
+                      "size_bytes":  183637,
+                      "sha256":  "0c4857094d6e785e43b3ef079b9f7c01fddd356c278daaf2e714e6417891868e",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/heer_enlisted_ranks.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/heer_officer_nco_ranks.png",
+                      "storage":  "sftp",
+                      "size_bytes":  203585,
+                      "sha256":  "867a83c3ddc0c019cb21bf969a24fdcf44899d47be2637ed83113a2a88fa90bf",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/heer_officer_nco_ranks.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/us_officer_rank_chart_1943.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  1586714,
+                      "sha256":  "9776a8efbfc86ea28f1e557b5fa622fe33637f31efc0db4bc15c96f6d4750d1d",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/us_officer_rank_chart_1943.jpg",
+                      "rights_record":  "U.S. Army Special Service Division / U.S. Government Printing Office; public-domain official publication"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/ranks/us_wwii_rank_chart.png",
+                      "storage":  "sftp",
+                      "size_bytes":  1499323,
+                      "sha256":  "12ab9eb9387ae72bda3e94284a303e4a984fd4cfab37774c290b275b2d001044",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/ranks/us_wwii_rank_chart.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/british_1944_recognition.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  113931,
+                      "sha256":  "f67b933d364c70044b6a503cf8e30b3f3812a6ea378846a9f346ddd0e365ee10",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/british_1944_recognition.jpg",
+                      "rights_record":  "Commons marks German official work public domain under section 5(1) UrhG"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/heer_field_uniform.png",
+                      "storage":  "sftp",
+                      "size_bytes":  118348,
+                      "sha256":  "aa94817835d94e6cc69a60f7255595cf19fa28df5df3167166eef1914258eb55",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/heer_field_uniform.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/heer_officer_and_specialists.png",
+                      "storage":  "sftp",
+                      "size_bytes":  148476,
+                      "sha256":  "bed4f710363d257635b2d4f3198256ca772dd5e3a57864d49d50525bdb5feb11",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/heer_officer_and_specialists.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  747886,
+                      "sha256":  "02a200be46d757867c7ef3df04be00ccf4be87b7bd30a6be5666648e68d155c8",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg",
+                      "rights_record":  "CC0 recorded in NormandyContext/SOURCES.md, Paris Musees record 942801"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_2.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  372949,
+                      "sha256":  "add45df5f296f0bc4e9274ff749a5b0dbc534195639d94cc0986972c8dbe2708",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_2.jpg",
+                      "rights_record":  "CC0 recorded in NormandyContext/SOURCES.md, Paris Musees record 942801"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/us_equipment_temporal_check.png",
+                      "storage":  "sftp",
+                      "size_bytes":  895520,
+                      "sha256":  "ad5b6684f053ce8a96974ac9e84d72f8a07200478f9224232cb46081ac6a63c7",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/us_equipment_temporal_check.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/us_field_jackets.png",
+                      "storage":  "sftp",
+                      "size_bytes":  862311,
+                      "sha256":  "3cc786dbd51afcede8e6daa93c71b003292a62345c7162763255209bfb83d839",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/us_field_jackets.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/us_helmet_and_specialist_clothing.png",
+                      "storage":  "sftp",
+                      "size_bytes":  755343,
+                      "sha256":  "958e95846bdbeaad3f5883f61ee50d5befa2eed4888552f24cda635c21e51632",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/us_helmet_and_specialist_clothing.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/uniforms/us_web_equipment.png",
+                      "storage":  "sftp",
+                      "size_bytes":  665212,
+                      "sha256":  "57a77a7169215bd4938be33c8fe696dbeefd611fc889e879e8d1a1fe7288c36c",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/uniforms/us_web_equipment.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/vehicles/german_panther_tiger_reference.png",
+                      "storage":  "sftp",
+                      "size_bytes":  337001,
+                      "sha256":  "82ede910b5f49c81091f064236dd9d090ea0497c904ac3eb83e2c2ad67620a25",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/vehicles/german_panther_tiger_reference.png",
+                      "rights_record":  "U.S. War Department; public-domain official publication"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/vehicles/sherman_omaha_19440606.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  5217924,
+                      "sha256":  "cc34a6799a92f444c3431cb205c22ac42522bba5a636c7e8b2af4f3e5dc0dd1b",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/vehicles/sherman_omaha_19440606.jpg",
+                      "rights_record":  "U.S. Navy / National Archives; Commons marks public domain"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/captured_76mm_emplacement.jpg",
+                      "storage":  "sftp",
+                      "size_bytes":  116899,
+                      "sha256":  "850d08389f5b1841d8fda1a6428d527671a9f4e738a5c5ca5f7a43671df184cc",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/captured_76mm_emplacement.jpg",
+                      "rights_record":  "U.S. War Department publication; U.S. government material"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/german_81mm_mortar.png",
+                      "storage":  "sftp",
+                      "size_bytes":  229223,
+                      "sha256":  "d0676da450ac2d4e81d5cacc4f844b54f58586f1e4ad27b99edf6d45cf176edf",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/german_81mm_mortar.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/german_rifle_reference.png",
+                      "storage":  "sftp",
+                      "size_bytes":  166464,
+                      "sha256":  "3a312d693932d0d99a0744c3155be7cc06144e8368b168a89175f121cd71d30c",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/german_rifle_reference.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/german_submachine_guns.png",
+                      "storage":  "sftp",
+                      "size_bytes":  164979,
+                      "sha256":  "ba9cbc4a46598407226687d633cef916e6c313c4bf3c0fbcb0d475e6f7727100",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/german_submachine_guns.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/mg34_mg42.png",
+                      "storage":  "sftp",
+                      "size_bytes":  125105,
+                      "sha256":  "8147a6150987a8cac5c5788ea56b0013b57feb8e010d2f364598886c1f87cd82",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/mg34_mg42.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/us_75mm_m48_external.png",
+                      "storage":  "sftp",
+                      "size_bytes":  35528,
+                      "sha256":  "72a3e9a142244b2a5d6bdbe097e6ad2bb73904e0be762d95509442bb06c2a905",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/us_75mm_m48_external.png",
+                      "rights_record":  "U.S. War Department publication; public domain in United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/us_carbine_variants.png",
+                      "storage":  "sftp",
+                      "size_bytes":  558961,
+                      "sha256":  "32b72a763c8bb83c6814d39bca8b19006a90dd950314bf9b9ac1b814da4c6fe9",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/us_carbine_variants.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/us_garand_carbine.png",
+                      "storage":  "sftp",
+                      "size_bytes":  646242,
+                      "sha256":  "df7935d93a213cd3e0b53646c027c8b760fba8b99db8bccaaeca33deec42776f",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/us_garand_carbine.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  },
+                  {
+                      "path":  "HistoricalReference/NormandyContext/images/weapons/us_rifle_comparison.png",
+                      "storage":  "sftp",
+                      "size_bytes":  699445,
+                      "sha256":  "1d5fa400927fcd0b58f5650bc4642eb8d2bb7958aae2bde02fabff11ca007041",
+                      "remote_path":  "/baselines/historical-reference-subset/initial-20260927-222549/HistoricalReference/NormandyContext/images/weapons/us_rifle_comparison.png",
+                      "rights_record":  "U.S. government publication; public domain in the United States"
+                  }
+              ],
+    "file_count":  38,
+    "size_bytes":  128227229,
+    "retired_paths":  [
+
+                      ],
+    "excluded_files":  [
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metadata/coast_sand_01_files.json",
+                               "size_bytes":  26219,
+                               "sha256":  "1df98d49d68849061028a478abf940ebf063efce86b0964b77dda1cd5daf7334",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metadata/pebbles_files.json",
+                               "size_bytes":  32380,
+                               "sha256":  "ae4fd5d820c713b2445ceb9eaee32167097ca51e0130d66d30cb035ec57d2afc",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metadata/pebbles_info.json",
+                               "size_bytes":  1080,
+                               "sha256":  "05ed06e7467ffebe902aef1fa26880ea5cc0f9f676a6d2af0509807bb343d373",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metoffice_19440606_1300utc.pdf",
+                               "size_bytes":  6072008,
+                               "sha256":  "2b1f4cb6ab4087f40940c09bfa8fddd561c069e70019dc8f2072a566a26fd816",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/metoffice_dday_factsheet.pdf",
+                               "size_bytes":  1957759,
+                               "sha256":  "751032f196aa34cf846d4c8d9eb4becf6a2b7cadb173a52d220fada193805fdf",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/british_uniform.html",
+                               "size_bytes":  96464,
+                               "sha256":  "e9fc54f172aef85e5c2e3ebd841fcb7b408b1976bab926a4c6f899ede9412925",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/fw190.html",
+                               "size_bytes":  91593,
+                               "sha256":  "ded5e3fbc589bb88e829c2cea286c28dab4e86c0878f16fde412ed784dca443a",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/nara_into_jaws_of_death.html",
+                               "size_bytes":  36636,
+                               "sha256":  "8fbab9f42ee2ea4db2f61e3e6cb6504e9b3a016bd8df58b1af9fbdf3eb49eca7",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/omaha2.html",
+                               "size_bytes":  61014,
+                               "sha256":  "fac23f29c898e1493ddfab3bb85b922b62f01eab68812117bb75ccaa58ece160",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/omaha3.html",
+                               "size_bytes":  73232,
+                               "sha256":  "4f18339b428e30334ef22cfff7f6ca091380aba4b4b4ef29fca6387db68b1995",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/plane.html",
+                               "size_bytes":  100064,
+                               "sha256":  "e23ef15dc20793ca32fd89134aaf8787076cfafa1770d9ba8fe7e6834565470e",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/pocketguide_links.json",
+                               "size_bytes":  8677,
+                               "sha256":  "4526bb5c9de7f51f480987fe039e8a2c98bd4ba2fd8212b0e2747d72a2c813b9",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/polyhaven_coast_sand_01.html",
+                               "size_bytes":  193973,
+                               "sha256":  "7e9daea0f1af231a22a282b6bc75e68b841608e3b99e40391bca52d096956ec9",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/polyhaven_coast_sand_rocks_02.html",
+                               "size_bytes":  197365,
+                               "sha256":  "d3ea3feb953b6fa795737d921fd032a3199fd8ad731cdb2f0149ac617288425b",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/polyhaven_sand_rocks_small_01.html",
+                               "size_bytes":  199537,
+                               "sha256":  "fea526c5b78c56c5aa20e07d8a245f568af4f7b08532f640f5fb8209836c2095",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/S24.html",
+                               "size_bytes":  92440,
+                               "sha256":  "a43c801b8dae2c396ac2ddd1b304b03a87251a95f4065161d6c95aea2a84ae2f",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/S25.html",
+                               "size_bytes":  109705,
+                               "sha256":  "6535e4464de494c8fb885c6e70b9d1929a20b6b56e0b9c30eea61b7c915e09c0",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/tank.html",
+                               "size_bytes":  119771,
+                               "sha256":  "610362e2e87cbda95eb0d887d29c3d59637259079674eb71b215dbd66c01af1f",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/archive/pages/ww2museum_lcvp_lcm.html",
+                               "size_bytes":  97288,
+                               "sha256":  "6f18af16898d63690456a5b51a28ac959cc7204930af24f75ff79ea36f518bba",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           },
+                           {
+                               "path":  "HistoricalReference/NormandyContext/images/weather/metoffice_19440606_1300utc.png",
+                               "size_bytes":  5910640,
+                               "sha256":  "a110157c1f96624acb05fae932db1ce7edd260e98f74758cd4eb36e5593ac2d8",
+                               "reason":  "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+                           }
+                       ],
+    "verification":  {
+                         "method":  "SHA-256 and byte size verified against live source and final server object/baseline",
+                         "verifier":  "Authorized local administrator publisher",
+                         "verified_at":  "2026-09-30T21:03:56.1595363-04:00",
+                         "teammate_sftp_download":  "not tested",
+                         "runtime_import":  "not tested"
+                     }
+}

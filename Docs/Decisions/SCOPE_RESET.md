@@ -22,7 +22,7 @@ The user explicitly authorized rewriting the proposal, pipeline and technical de
 
 ## New limits
 
-- A surveyed connected mission route, one player rifle, an initial one-player/two-ally/three-enemy configuration, ordered Reach/Clear/Reach objectives, fixed lighting, and full mission restart. Additional finite groups/stages require pacing, navigation and performance evidence.
+- A surveyed connected mission route, one player rifle, an initial one-player/two-ally/three-enemy configuration, configurable intermediate objectives, fixed lighting, retry and full restart. Reach/Clear sequences are examples. Safe-boundary checkpoints are Should; NavMesh/MoveTo is the baseline and tactical A* is optional. Additional finite groups/stages require pacing, navigation and performance evidence.
 - Normandy is background; the playable scene belongs to August 1944 Paris. Do not imply a continuous same-day transition or transfer an Omaha unit identity to Paris without evidence.
 - Reuse environment assets. Acquire compatible character/weapon/animation assets rather than reopening the rejected character-production route.
 - The narrative location is fictionalized. Do not promise an exact street reconstruction.
@@ -35,4 +35,4 @@ No independent gunplay Git branch existed in the old repository at inspection: o
 
 ## Facts still open
 
-Exact Paris date/sector/units, weapon variants, character/action asset selection, vendor entitlement evidence, instructor/mentor approval of the changed concept, official intermediate/final deadlines, and measured runtime performance remain open. The team's previously mentioned late-November final target is a planning assumption, not a verified course date.
+Exact Paris date/sector/units, weapon variants, character/action selection, mentor assignment, Assignment 2 completion/approval, official deadlines and measured runtime performance remain open. The 28 September screenshot evidences Paris concept/pillar approval. The owner's 27 September three-member vendor-sharing attestation and verified SFTP baselines are recorded in `Assets/Sync/RIGHTS.md` and `README.md`, without claiming independent receipt review or runtime acceptance. The previously mentioned late-November final target remains a planning assumption.

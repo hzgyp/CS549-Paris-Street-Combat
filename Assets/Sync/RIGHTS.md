@@ -1,5 +1,15 @@
 # Asset sharing records
 
+## Git asset removal and private SFTP migration
+
+On 30 September 2026, Yupu instructed the team to keep the same GitHub repository, remove uploaded asset/historical bytes from Git including their old history, use private SFTP for those bytes and retain code, documents, configuration and asset hash/version records in Git. This explicitly authorizes this scoped migration of existing Git/LFS material; it does not authorize public asset redistribution or deletion of local originals. Keep a verified Git/LFS and working-file backup before rewriting history.
+
+The migration covers the previously recorded public-domain/CC0 historical asset subset, retained team-authored gunplay model/Unreal/reference assets, and private project/course document binaries and generated illustrations. Preserve the sources, authored-work limitations and embedded figure attribution. Course/source documents and attributed course-discussion reports are shared with the three project members, not published as raw binaries in the public source repository. This is a private collaboration publication record, not a general public redistribution license.
+
+The 20 historical files with unresolved item-specific rights remain local-only, as do the two unchanged supplier showcase JPEGs in `Docs/Proposal/Visuals`. Remove their bytes from public Git history and keep their source links and exclusion/hash records. Do not silently include these 22 files in a shared SFTP release. The existing private supplier Content-sharing attestation does not establish a separate redistribution grant for website showcase downloads.
+
+Current authoritative manifests are selected by `Assets/Sync/CATALOG.json`; older historical mirror manifests remain provenance only after migration. Runtime compatibility and teammate restoration are independent checks.
+
 ## France Liberation environment
 
 On 27 September 2026, Yupu Guo confirmed in this project conversation that the team has legally acquired France Liberation and that its license permits sharing source files with the project's three members through private SFTP. This is the owner's explicit attestation, not an independent review of a purchase receipt or the full license text. No receipt, password or account secret is stored here.

@@ -1,10 +1,11 @@
 id,name,location,origin,role,status,git_policy
-A01,France Liberation city,Unreal/ParisStreetCombat/Content/WW2City,Meshingun Studio/Fab,environment baseline,present; entitlement and runtime checks deferred,local only
+A01,France Liberation city,Unreal/ParisStreetCombat/Content/WW2City,Meshingun Studio/Fab,environment baseline,three-member private sharing authorized by user; runtime untested,private SFTP bytes; active catalog hashes in Git
 A02,City descriptor and config,Unreal/ParisStreetCombat,local vendor working copy,environment configuration,map/plugin configuration prepared; untested,tracked
-A03,Gunplay Blueprint/script candidates,Reference/Gunplay,Normandy commit 7cadd76,reuse reference,not integrated; not dependency-closed,tracked/LFS
-A04,Prototype rifles,Reference/Gunplay/SourceAssets,team historical studies,placeholder/reference,not final historical or first-person quality acceptance,tracked/LFS
-A05,Browser FPS prototype,Reference/Gunplay/BrowserPrototype,team/Three.js,logic reference,old beach theme; not Paris Unreal evidence,tracked with original license
+A03,Gunplay Blueprint/script candidates,Reference/Gunplay,Normandy commit 7cadd76,reuse reference,not integrated; not dependency-closed,script source in Git; retained binary candidates in private SFTP
+A04,Prototype rifles,Reference/Gunplay/SourceAssets,team historical studies,placeholder/reference,not final historical or first-person quality acceptance,private SFTP bytes; active catalog hashes in Git
+A05,Browser FPS prototype,Reference/Gunplay/BrowserPrototype,team/Three.js,logic reference,old beach theme; not Paris Unreal evidence,source and license in Git; raster assets in private SFTP
 A06,Soldier and action set,not yet selected,compatible existing licensed asset required,enemy animation,missing/pending selection,decide by license
 A07,First-person weapon/arms/action set,not yet selected,compatible existing licensed asset required,player animation,missing/pending selection,decide by license
-A08,Normandy source collection,HistoricalReference/NormandyContext,preserved institutional/reference sources,background only,existing rights/caveats preserved,private reference/LFS
+A08,Normandy source collection,HistoricalReference/NormandyContext,preserved institutional/reference sources,background only,existing rights/caveats preserved,permitted bytes in private SFTP; catalogs in Git; unresolved originals local only
 A09,Paris historical sources,HistoricalReference/Paris1944,institutional source links,current history,bounded research gaps recorded,links and catalogs only
+A10,Course and proposal document artifacts,Docs,course materials and team-authored reports,private team documents,not evidence of submission or runtime acceptance,document binaries in private SFTP; English source and hash records in Git

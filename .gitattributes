@@ -1,8 +1,6 @@
-*.uasset filter=lfs diff=lfs merge=lfs -text
-*.umap filter=lfs diff=lfs merge=lfs -text
-*.blend filter=lfs diff=lfs merge=lfs -text
-*.fbx filter=lfs diff=lfs merge=lfs -text
-*.wav filter=lfs diff=lfs merge=lfs -text
-*.exr filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
+# Asset bytes were migrated from Git/LFS to private SFTP on 30 September 2026.
+# Only explicitly registered small team Blueprint code may be tracked as binary source.
+*.uasset -diff -merge -text
+# Catalog SHA-256 pins the exact verified SFTP manifest bytes on all platforms.
+Assets/Sync/manifests/*.json -text whitespace=cr-at-eol
+.githooks/* text eol=lf

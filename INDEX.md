@@ -1,6 +1,6 @@
 # Project index
 
-Current scope: an initial configurable six-soldier roster across a surveyed connected city area, with Reach A → Clear assigned group B → Reach C objectives and full mission restart. Later finite NPC groups use individual patrol/search settings and require pacing, navigation and performance evaluation. The current proposal supersedes historical fixed-population and one-objective notes.
+Current scope: an initial configurable six-soldier roster across a surveyed connected city area with configurable objectives, retry and full restart. Reach/Clear sequences are examples. NavMesh/MoveTo is the baseline; custom A* is optional and safe-boundary checkpoints are Should. Current work targets Assignment 3's running MVP and delivery evidence. Later finite NPC groups require pacing, navigation and performance evaluation.
 
 ## Active authority
 
@@ -19,6 +19,8 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 - [Editable mission flow](Docs/Proposal/Visuals/paris-mission-flowchart.mmd)
 - [Pipeline](DEVELOPMENT_PIPELINE.md)
 - [Technical design](Docs/Design/TECHNICAL_DESIGN.md)
+- [Assignment 3 goal version 1](Docs/Development/ASSIGNMENT3_GOAL_V1.md)
+- [Assignment 3 acceptance checklist](Docs/Development/ASSIGNMENT3_ACCEPTANCE.md)
 - [Submission status](Docs/Submission/STATUS.md)
 - [Assignment 2 requirements review](Docs/Submission/ASSIGNMENT2_REQUIREMENTS_REVIEW.md)
 - [Approval update email draft](Docs/Submission/APPROVAL_EMAIL_DRAFT.md)
@@ -26,6 +28,9 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 ## Assets and working environment
 
 - [Asset policy, inventory and restoration](Assets/README.md)
+- [Current authoritative asset catalog](Assets/Sync/CATALOG.json)
+- [Git/SFTP migration and source publication status](Assets/Sync/PUBLICATION_STATUS.json)
+- [Source publication checks and recovery](Docs/Submission/PUBLICATION_REVIEW.md)
 - [Asset register](Assets/ASSET_REGISTER.csv)
 - [File copy manifest](Assets/MIGRATION_MANIFEST.json)
 - [Local vendor dependency](Assets/VENDOR_DEPENDENCY.json)
@@ -43,6 +48,7 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 - [Normandy background](HistoricalReference/NormandyContext/README.md)
 - [Assignment 1](Course/Assignments/Assignment%201.docx)
 - [Assignment 2](Course/Assignments/Assignment%202.docx)
+- [Assignment 3 source requirements](Docs/Assignment%203_%20MVP%20Development.docx)
 
 ## Inactive provenance and reproducible document build
 

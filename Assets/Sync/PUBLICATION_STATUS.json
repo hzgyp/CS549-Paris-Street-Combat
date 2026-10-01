@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-30T21:15:10-04:00",
+  "repository": "hzgyp/CS549-Paris-Street-Combat",
+  "visibility": "private",
+  "stage": "sftp_verified_clean_source_prepared_before_remote_push",
+  "authorized_scope": "Migrate permitted existing asset/history bytes to private SFTP; remove asset-bearing Git history in the same repository; publish source only after verification.",
+  "sftp": {
+    "run_id": "git-assets-20260930-210133",
+    "catalog": "Assets/Sync/CATALOG.json",
+    "verified_file_count": 15927,
+    "verified_size_bytes": 28582935268,
+    "city_file_count": 15850,
+    "city_changed_files": 0,
+    "other_file_count": 77,
+    "local_only_unresolved_file_count": 22,
+    "verification": "Full SHA-256 and size comparison of live source and final server bytes; immutable manifest copies also verified.",
+    "teammate_download": "not tested",
+    "unreal_import_runtime": "not tested"
+  },
+  "git": {
+    "old_remote_main": "abcbec3eed0402b48828421fdc058de5a08a23ab",
+    "history_rewrite": "Prepared in isolated clone; original Git/LFS metadata and current working files backed up privately.",
+    "source_originals_deleted": false,
+    "remote_push": "not yet performed",
+    "fresh_remote_source_audit": "not yet performed",
+    "provider_removed_object_retention": "not yet checked; keep private until resolved"
+  },
+  "team_action": "Preserve unfinished code and ignored assets; clone cleaned source into a new folder and restore verified SFTP versions. Never merge or push pre-cleanup history.",
+  "limitations": "Storage checks do not prove license rights beyond recorded scope, gameplay acceptance, performance, packaging or course submission. Repository deletion/recreation and support messages are not authorized by this migration request."
+}

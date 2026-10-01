@@ -1,5 +1,7 @@
 # Retained gunplay workstream
 
+Storage policy updated 30 September 2026: scripts, browser source, licenses and provenance remain in Git. Retained Unreal binaries, rifle models and the browser raster image are private SFTP assets selected by `gunplay-reference-assets` in [the active catalog](../../Assets/Sync/CATALOG.json). Restore those paths before inspecting binary candidates; the legacy `FILE_MANIFEST.json` records provenance, not current storage ownership. This migration does not authorize executing old scripts or importing an untested dependency set.
+
 These files preserve selected gunplay work from CS549-Normandy-Sim at commit `7cadd764e565c2da160c935acddd8f333ef289b5`. They are reference candidates for Paris Street Combat, not a new approved Normandy development branch.
 
 ## Contents

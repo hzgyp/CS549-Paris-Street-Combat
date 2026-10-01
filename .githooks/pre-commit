@@ -1,0 +1,7 @@
+#!/bin/sh
+runtime=$(git config --get assets.pythonExecutable)
+if [ -z "$runtime" ]; then
+  echo "Run Tools/configure_git_hooks.ps1 with a Python 3.10+ runtime before committing."
+  exit 1
+fi
+exec "$runtime" Tools/check_asset_storage.py --git --staged

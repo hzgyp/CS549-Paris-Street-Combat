@@ -1,20 +1,20 @@
 # Team synchronization: GitHub + SFTP
 
-Decision date: 27 September 2026. Applies to all three members and development agents in Paris Street Combat. Integration owner: Yupu Guo. This is the current operational manual; older Git/LFS planning notes do not override it.
+Decision date: 27 September 2026; explicit existing Git/LFS asset migration authorized on 30 September. Applies to all three members and development agents in Paris Street Combat. Integration owner: Yupu Guo. The same repository becomes a public source repository only after asset byte removal, matching verified private SFTP manifests and publication checks. Older keep-LFS-history planning notes are superseded for this authorized migration.
 
 ## 1. Storage rules
 
 | Material | Authoritative storage | Rule |
 |---|---|---|
-| Code, scripts, configuration, documents, small permitted project files | GitHub | Commit normally; inspect staged content before publishing. |
-| Large models, textures, animations, audio, archives and environment packages | SFTP | Store original and changed versions outside Git; publish metadata in Git. |
+| Code, scripts, configuration, Markdown/document sources and SVG/Mermaid diagrams | GitHub | Commit normally; inspect staged content before publishing. PDF/DOCX/PPTX and raster outputs are SFTP bytes, not source exceptions. |
+| Models, textures, animations, audio, archives, environment packages, research source bytes, document binaries and raster illustrations | Private SFTP | Store permitted original/changed bytes outside Git regardless of size; Git records paths/hashes/versions/rights. Unresolved-rights material stays local-only with source links. |
 | Asset version catalog, SHA-256, sizes, restore paths, dependencies and ownership | GitHub: `Assets/Sync/manifests/<asset-id>.json` | One manifest per logical asset/dependency group; the selected Git commit determines exact versions. |
-| Existing tracked LFS objects | Existing Git/LFS history | Keep restoring these for compatibility. Do not migrate history or add new large models to LFS without approval. |
+| Existing Git/LFS assets | Private SFTP after verified migration | The 30 September request authorizes removing their tracked bytes and rewriting asset history in this repository. Preserve private backups and local originals. No new asset bytes or LFS pointers enter public source. |
 | Caches, editor autosaves, credentials, private keys, temporary transfers | Local, ignored | Not part of a shared source release. Back up valuable unfinished work separately. |
 
-Routing convention: new model/source-asset bundles use SFTP, even when an individual component is small. For other new binary files, use **10 MiB per file** as a conservative project routing threshold, not a GitHub platform limit. Small team-authored Blueprint/configuration packages may stay in Git under existing attributes; binary size does not make concurrent edits mergeable. Keep dependency groups coherent and record which files are in Git versus SFTP. Do not move already tracked files to SFTP implicitly.
+Routing convention: model/source-asset bundles and PDF/DOCX/PPTX/raster outputs use SFTP even when small. Markdown, code, SVG/Mermaid, configuration, catalogs, sources and hashes remain in Git. Small team-authored Unreal Blueprint logic is code, not a blanket model exception: register its exact path/owner/kind in `Sync/GIT_CODE_ALLOWLIST.json` before staging, with a 10 MiB source-code cap. Do not whitelist purchased assets, meshes, animations or archives. Existing retained gunplay binaries are migrated together as a reference dependency group. Binary code still needs one named editor.
 
-Store downloaded model sources under ignored `Assets/LocalWorking/` by default. Unreal runtime dependencies must instead be restored to their exact recorded Content paths. Before publishing a new SFTP-managed path outside ignored directories, add a narrow repository `.gitignore` rule for that file/subtree and verify it with `git check-ignore -v -- <path>`. Do not blanket-ignore all Blueprints or unrelated source. Ignore rules do not untrack existing files; a tracked-file migration needs a separate, reviewed change after verified external restoration.
+Store downloaded model sources under ignored `Assets/LocalWorking/` by default. Restore runtime assets and document binaries to their exact manifest paths. Before publishing a new managed path, verify its ignore rule. Do not blanket-ignore all Blueprints. Ignore rules alone do not remove previously tracked bytes/history; the explicitly authorized migration verifies SFTP and backs up history before removal.
 
 Vendor rights remain a prerequisite. A private server, modified texture or existing local copy does not grant redistribution permission. Record source/license and permitted recipients before sharing originals or derivatives. Unknown rights block upload; use an entitled acquisition route instead. Preserve the original vendor package. Do not revive the archived Normandy project to publish its assets.
 
@@ -33,7 +33,7 @@ The root is deliberately protected. The current development shell could not enum
 
 ## 3. Version contract: hashes in Git, bytes in SFTP
 
-The following is the required publication convention, not a claim that all existing server files already follow it. Before adopting an existing upload, inventory it, verify its bytes and rights, then write its first manifest. Do not rename/delete unknown existing server data automatically.
+`Sync/CATALOG.json` selects the current authoritative manifests and pins their SHA-256. Read only those active entries for restoration; the old `historical-reference-subset.json` is pre-migration provenance, not a competing storage owner. Before adopting another existing upload, verify bytes/rights and record its manifest. Do not rename/delete unknown server data automatically.
 
 - `/baselines/<asset-id>/<version>/...`: preserved original deliveries, immutable by team policy. For large baselines, prefer a per-file inventory so one changed texture does not require replacing a whole archive.
 - `/objects/sha256/<first-two-hash-characters>/<full-sha256>`: new or changed file bytes, immutable by team policy. Reuse an object only after verifying that it matches. These directories may be created inside the existing writable child directory as needed.
@@ -51,7 +51,7 @@ For each logical asset, create a JSON manifest in `Assets/Sync/manifests/` durin
 | `files[].storage` | `sftp` or `git`; a restore destination must not have two competing storage owners. |
 | `files[].size_bytes`, `files[].sha256` | Exact byte length and lowercase 64-character SHA-256 of actual file bytes. |
 | `files[].remote_path` | For SFTP files, an immutable baseline or hash-object location; never `/incoming` or mutable `latest`. |
-| `files[].mirror_remote_path` | Optional convenience copy of an already Git/LFS-owned file. `storage` stays `git`; do not restore this snapshot over a different Git revision or treat the mirror as a second authority. |
+| `files[].mirror_remote_path` | Legacy pre-migration field only. Current SFTP-owned assets use `remote_path`; never select an old mirror manifest instead of the active catalog. |
 | `verification` | Method, verifier and time of remote-byte verification; runtime/import validation is a separate result. |
 | `retired_paths` | Explicit paths removed/replaced since the previous version, with reason; review before local cleanup. |
 
@@ -77,7 +77,7 @@ Example: changing one standalone texture requires a new object for that texture 
 3. Fetch Git updates and integrate the intended revision only after preserving local work. Use a fast-forward update when applicable; stop on divergence or conflicts and coordinate with Yupu. Never use a hard reset, clean command or forced overwrite as a synchronization shortcut.
 4. Read the manifests at that revision. Resolve required asset versions, rights and dependency closure. Download only missing or different files into an ignored staging directory; do not modify the active Content tree mid-transfer. If a manifest is absent/incomplete, obtain the entitled baseline and record the missing synchronization work; do not guess `latest`.
 5. Verify every required staged file's hash and size. Close Unreal/Blender or other editors holding affected files. Back up conflicting local files outside the restore target, then restore only verified files to their exact paths. Review `retired_paths` explicitly; never delete unlisted files automatically. Preserve Unreal package identities and external-actor/object layout.
-6. Confirm local files match the selected manifests and required Git/LFS files are present. Record the Git revision and asset versions in your task notes. Only then begin editing the affected assets. Report missing files, hash mismatches or ownership conflicts; unrelated work may continue if it does not depend on them.
+6. Confirm local assets match the active catalog's manifests and required source/configuration is present. Use `python Tools/check_asset_storage.py --local` with Python 3.10+ (or the bundled runtime), optionally selecting `--asset-id`. Record revision/versions. Only then edit affected assets. Report missing files/hash/ownership conflicts.
 
 ## 5. Mandatory task/end-of-day checklist
 
@@ -105,4 +105,10 @@ This applies equally to historical/reference assets, incoming purchased models, 
 - Rollback: select a previous Git revision and restore the exact objects referenced by its manifests after protecting current work. Review retired paths; changing a manifest does not automatically remove stale local files. Never roll back only the code while retaining incompatible new asset bytes.
 - Retention: keep immutable originals and all published objects referenced by retained branches/releases. No automatic remote pruning. Removal requires owner review, reference checks, a verified backup and explicit authorization.
 - SFTP is distribution, not backup. Its shared account can delete writable child content, so immutability is currently procedural, not enforced object-lock storage. Maintain a separate backup of baselines, published objects and valuable unfinished work; test recovery. This update does not claim such a backup exists.
-- Tools: this manual defines a manual workflow using Git and an SFTP client. It does not claim an automatic manifest generator, hash-based downloader, lock service or deletion-safe synchronization tool has been implemented. Never run guessed sync commands.
+- Tools: `Tools/check_asset_storage.py` verifies active catalog metadata, local hashes or administrator server bytes and checks Git/staged/history asset exclusions. `Tools/configure_git_hooks.ps1` installs local pre-commit/pre-push guards with a selected Python 3.10+ runtime. Upload/download, ownership and restoration remain manual; the checker is not an automatic downloader, lock service or binary merge tool. Never bypass a failed guard to reintroduce asset bytes.
+
+## 8. Rejoin after the authorized history rewrite
+
+Do not merge or push an old clone into the rewritten branch. Save uncommitted code separately and back up ignored asset edits; clone the same repository into a new sibling folder without deleting the old checkout. Follow the new catalog, restore only missing/different permitted SFTP files to staging, verify hashes and preserve conflict versions before placement. Reapply reviewed source changes as new commits, not an old-history merge. Configure guards with `Tools/configure_git_hooks.ps1`, then run the metadata/Git and local-asset checks. Keep old Git/LFS backups private and outside the new repository. This document is the teammate handoff; no messages are sent to teammates automatically.
+
+Public source access does not grant access to private SFTP or redistribute vendor Content. Authorized team members obtain the endpoint/account privately. External reviewers need entitled dependencies or a separately licensed packaged build. The repo alone is not the full city or runnable game.

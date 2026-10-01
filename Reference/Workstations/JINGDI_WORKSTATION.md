@@ -3,7 +3,7 @@
 **Owner:** Jingdi Wu (jw2046)  
 **Machine:** Alienware m15 R7 laptop
 
-Jingdi Wu uses this laptop for his own project development, including the terrain, environment materials, and textures assigned to him. Jingdi and Yupu Guo develop on separate personal machines.
+Jingdi and Yupu Guo develop on separate personal machines. The current Paris role proposes navigation/NPC AI and bounded environment setup for Jingdi, subject to kickoff confirmation; earlier terrain/material assignments do not govern current work.
 
 Recorded 21 September 2026 from Jingdi's Windows Settings screenshot. The screenshot's capture date is not shown. These are displayed specifications, not a live hardware scan or benchmark.
 
@@ -30,4 +30,4 @@ The structured transcription is in [jingdi_hardware_2026-09-21.json](jingdi_hard
 
 The screenshot does not show the Windows edition/build, GPU driver, Unreal engine installation/version, or project location. Unreal performance has not been measured in this record.
 
-See [team decisions](../Docs/documentation/TEAM_DECISIONS.md) for Jingdi's confirmed development responsibilities.
+See [team and ownership](../../Docs/Decisions/TEAM_AND_OWNERSHIP.md) for current proposed responsibilities and confirmation status.

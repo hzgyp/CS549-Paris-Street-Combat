@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-30T21:15:10.7339587-04:00",
+  "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
+  "active_manifests": [
+    {
+      "asset_id": "france-liberation-content",
+      "asset_version": "git-assets-20260930-210133",
+      "path": "Assets/Sync/manifests/france-liberation-content.json",
+      "sha256": "31d5304d32dc2007b1fdeedc7ec528c254826a23a722c10918ce27c48001895d",
+      "file_count": 15850,
+      "size_bytes": 28421951358,
+      "release_manifest": "/releases/git-assets-20260930-210133/france-liberation-content.json"
+    },
+    {
+      "asset_id": "gunplay-reference-assets",
+      "asset_version": "git-assets-20260930-210133",
+      "path": "Assets/Sync/manifests/gunplay-reference-assets.json",
+      "sha256": "972c2eacd04bca3717edda29567a4e984e6f31896ee38f0ef16a7113e391fb23",
+      "file_count": 24,
+      "size_bytes": 5612645,
+      "release_manifest": "/releases/git-assets-20260930-210133/gunplay-reference-assets.json"
+    },
+    {
+      "asset_id": "historical-reference-assets",
+      "asset_version": "git-assets-20260930-210133",
+      "path": "Assets/Sync/manifests/historical-reference-assets.json",
+      "sha256": "7c26bab7c435cc00c8518588b2fddba2add41f1c2d2cf493c36961f09d62d927",
+      "file_count": 38,
+      "size_bytes": 128227229,
+      "release_manifest": "/releases/git-assets-20260930-210133/historical-reference-assets.json"
+    },
+    {
+      "asset_id": "project-document-assets",
+      "asset_version": "git-assets-20260930-210133",
+      "path": "Assets/Sync/manifests/project-document-assets.json",
+      "sha256": "50f2c27050265d4f7fba64a575c00eceba635d6a4f45fe2fb1754730eca8200f",
+      "file_count": 15,
+      "size_bytes": 27144036,
+      "release_manifest": "/releases/git-assets-20260930-210133/project-document-assets.json"
+    }
+  ],
+  "superseded_provenance_only": [
+    "Assets/Sync/manifests/historical-reference-subset.json"
+  ],
+  "local_only_files": [
+    {
+      "path": "Docs/Proposal/Visuals/paris-environment-01.jpg",
+      "size_bytes": 269178,
+      "sha256": "6a7b8dbdf73a1636e769c4803ad0ccbf6c0125b0b99b1ae33f1a0b8b67888735",
+      "reason": "Supplier showcase reference; public/team file redistribution permission not established, retain source URL and local original"
+    },
+    {
+      "path": "Docs/Proposal/Visuals/paris-environment-02.jpg",
+      "size_bytes": 232919,
+      "sha256": "de8320cc4b94207209fa58df9cc8c1e8229e8c6e0303634c1195dd5b57520d06",
+      "reason": "Supplier showcase reference; public/team file redistribution permission not established, retain source URL and local original"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/metadata/coast_sand_01_files.json",
+      "size_bytes": 26219,
+      "sha256": "1df98d49d68849061028a478abf940ebf063efce86b0964b77dda1cd5daf7334",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/metadata/pebbles_files.json",
+      "size_bytes": 32380,
+      "sha256": "ae4fd5d820c713b2445ceb9eaee32167097ca51e0130d66d30cb035ec57d2afc",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/metadata/pebbles_info.json",
+      "size_bytes": 1080,
+      "sha256": "05ed06e7467ffebe902aef1fa26880ea5cc0f9f676a6d2af0509807bb343d373",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/metoffice_19440606_1300utc.pdf",
+      "size_bytes": 6072008,
+      "sha256": "2b1f4cb6ab4087f40940c09bfa8fddd561c069e70019dc8f2072a566a26fd816",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/metoffice_dday_factsheet.pdf",
+      "size_bytes": 1957759,
+      "sha256": "751032f196aa34cf846d4c8d9eb4becf6a2b7cadb173a52d220fada193805fdf",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/british_uniform.html",
+      "size_bytes": 96464,
+      "sha256": "e9fc54f172aef85e5c2e3ebd841fcb7b408b1976bab926a4c6f899ede9412925",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/fw190.html",
+      "size_bytes": 91593,
+      "sha256": "ded5e3fbc589bb88e829c2cea286c28dab4e86c0878f16fde412ed784dca443a",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/nara_into_jaws_of_death.html",
+      "size_bytes": 36636,
+      "sha256": "8fbab9f42ee2ea4db2f61e3e6cb6504e9b3a016bd8df58b1af9fbdf3eb49eca7",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/omaha2.html",
+      "size_bytes": 61014,
+      "sha256": "fac23f29c898e1493ddfab3bb85b922b62f01eab68812117bb75ccaa58ece160",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/omaha3.html",
+      "size_bytes": 73232,
+      "sha256": "4f18339b428e30334ef22cfff7f6ca091380aba4b4b4ef29fca6387db68b1995",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/plane.html",
+      "size_bytes": 100064,
+      "sha256": "e23ef15dc20793ca32fd89134aaf8787076cfafa1770d9ba8fe7e6834565470e",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/pocketguide_links.json",
+      "size_bytes": 8677,
+      "sha256": "4526bb5c9de7f51f480987fe039e8a2c98bd4ba2fd8212b0e2747d72a2c813b9",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/polyhaven_coast_sand_01.html",
+      "size_bytes": 193973,
+      "sha256": "7e9daea0f1af231a22a282b6bc75e68b841608e3b99e40391bca52d096956ec9",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/polyhaven_coast_sand_rocks_02.html",
+      "size_bytes": 197365,
+      "sha256": "d3ea3feb953b6fa795737d921fd032a3199fd8ad731cdb2f0149ac617288425b",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/polyhaven_sand_rocks_small_01.html",
+      "size_bytes": 199537,
+      "sha256": "fea526c5b78c56c5aa20e07d8a245f568af4f7b08532f640f5fb8209836c2095",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/S24.html",
+      "size_bytes": 92440,
+      "sha256": "a43c801b8dae2c396ac2ddd1b304b03a87251a95f4065161d6c95aea2a84ae2f",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/S25.html",
+      "size_bytes": 109705,
+      "sha256": "6535e4464de494c8fb885c6e70b9d1929a20b6b56e0b9c30eea61b7c915e09c0",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/tank.html",
+      "size_bytes": 119771,
+      "sha256": "610362e2e87cbda95eb0d887d29c3d59637259079674eb71b215dbd66c01af1f",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/archive/pages/ww2museum_lcvp_lcm.html",
+      "size_bytes": 97288,
+      "sha256": "6f18af16898d63690456a5b51a28ac959cc7204930af24f75ff79ea36f518bba",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/images/weather/metoffice_19440606_1300utc.png",
+      "size_bytes": 5910640,
+      "sha256": "a110157c1f96624acb05fae932db1ce7edd260e98f74758cd4eb36e5593ac2d8",
+      "reason": "Item-specific redistribution rights not established for this publication; use source links in the catalogs"
+    }
+  ],
+  "verification": {
+    "method": "Authorized administrator verified live source and final SFTP SHA-256/size; manifest copies verified in immutable release directory",
+    "run_id": "git-assets-20260930-210133",
+    "source_files_deleted": false,
+    "teammate_restore": "not tested",
+    "runtime": "not tested"
+  }
+}

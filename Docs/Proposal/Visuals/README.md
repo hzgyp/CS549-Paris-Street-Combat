@@ -1,5 +1,7 @@
 # Proposal visual sources
 
+Storage policy updated 30 September 2026: generated raster visuals are private SFTP document assets selected by `project-document-assets` in [the active catalog](../../../Assets/Sync/CATALOG.json). SVG, Mermaid, builders and provenance remain in Git. The two supplier JPEG originals remain local only because redistribution rights are unresolved; use their attributed source links below. A source-only clone intentionally omits the PNG/JPEG files, including those linked in this document.
+
 ## Current proposal visuals
 
 Both proposals embed [`paris-six-character-concept.png`](paris-six-character-concept.png), regenerated on 23 September 2026 with the built-in OpenAI ImageGen tool. Both unchanged official Meshingun Studio gallery images, `paris-environment-01.jpg` and `paris-environment-02.jpg`, were supplied as image references for architecture, materials and visual density. They remain local source references and are not separately embedded in the reports. The [exact generation record](STREET_MOCKUP_PROMPT.md) identifies the inputs and prompt.

@@ -14,7 +14,7 @@ All three members must follow the [GitHub + SFTP synchronization manual](../../A
 
 - Animation delivers action-state and reload-notify contracts for the selected rig/weapon pair.
 - Collision/gunplay delivers a single authoritative shot/hit result and resettable health/ammo/objective state.
-- Pathfinding/navigation delivers the surveyed graph, A*/Dijkstra comparison, route execution and blocked-path recovery rules.
+- Pathfinding/navigation delivers surveyed NavMesh coverage, reachable distinct destinations, reservations, one avoidance approach, bottleneck waiting and bounded MoveTo recovery. Compare independent versus coordinated movement. A tactical graph and A*/Dijkstra comparison are optional, only if implemented.
 - NPC AI delivers the shared controller/tree, per-NPC configuration, ally follow/regroup and bounded enemy patrol/search behavior.
 - Rendering, physical simulation and acquired models are supporting dependencies; the team still records configuration and performance evidence without claiming them as primary authored pillars.
 - Everyone uses the same documented engine/asset versions and runs the later shared package; binary assets have one editor at a time.

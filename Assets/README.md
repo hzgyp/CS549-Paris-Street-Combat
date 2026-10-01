@@ -2,6 +2,8 @@
 
 ## Team synchronization (27 September 2026)
 
+**30 September migration:** the user explicitly selected the same repository for public code/docs/config/hash records after removing its existing asset bytes/history. Current permitted model, historical and document/image bytes use private SFTP even when small. Read [the active catalog](Sync/CATALOG.json), [publication checks](../Docs/Submission/PUBLICATION_REVIEW.md) and [reclone/restoration procedure](TEAM_SYNC_WORKFLOW.md#8-rejoin-after-the-authorized-history-rewrite). Older Git/LFS ownership notes below are pre-migration snapshots. Local originals and private backups are preserved; 22 unresolved-rights reference files remain local-only with source links.
+
 The selected workflow is **GitHub for code and small project files; SFTP for large models/assets, both originals and modified versions**. The mandatory [team synchronization manual](TEAM_SYNC_WORKFLOW.md) defines start-of-work checks, end-of-day publication, SHA-256 manifests, ownership, new-asset intake and recovery. Read it before changing assets. The user reports SFTP is working; the local service was also observed listening on TCP 22222. This does not establish vendor sharing rights or verify that any particular asset version has been published.
 
 Git tracks version manifests; SFTP holds immutable file versions. Transfer only changed/missing files, not the entire environment on each edit. Existing migration/vendor inventories remain provenance records, not evidence of an uploaded, verified SFTP release. The server store and local external-asset working area are ignored by Git.
@@ -26,7 +28,7 @@ The pack contains city/environment/car resources and map components. Its [offici
 
 ## Restore after cloning
 
-1. Clone the repository and read the synchronization manual. Restore existing LFS objects where the selected revision uses them; legacy LFS compatibility does not authorize putting new large models in Git/LFS.
+1. Clone the rewritten source repository into a new folder after preserving old work; configure Git guards and read the active catalog. Do not merge old asset-bearing history or run LFS restoration as the current asset workflow.
 2. Obtain the recorded environment package from a source the team is entitled to use; record the receipt/license separately from published source files. Use SFTP only where permitted team sharing has been verified.
 3. Follow the selected Git revision's manifests to restore the complete Content layout into `Unreal/ParisStreetCombat/Content`, including WW2City and applicable external-actor/object packages. Verify each downloaded file before replacement; preserve local edits. Do not substitute a lone main map or overwrite team project configuration blindly. If no verified SFTP manifest exists yet, use the entitled original delivery and report that synchronized restoration remains incomplete.
 4. Compare the baseline against `VENDOR_DEPENDENCY.json` and the local file manifest, then apply the exact published modifications in the selected sync manifests. Migration hashes describe the original copy, not subsequent edits. The wrapper's date label is recorded as delivered metadata, not independently verified vendor version history.
@@ -50,6 +52,7 @@ Search existing assets first; favor a coherent compatible set. Exact historical 
 - `ASSET_REGISTER.csv`: role, path, source and acceptance state.
 - `VENDOR_DEPENDENCY.json`: local source/version and exclusions.
 - `MIGRATION_MANIFEST.json`: copied-file provenance and hashes; includes an explicit not-validated status.
-- `Sync/manifests/<asset-id>.json`: per-asset verified publication inventories. Current releases are indexed in `Sync/README.md`; they do not imply that every other local asset has been published.
+- `Sync/CATALOG.json`: current authoritative manifest paths, versions and manifest hashes. Select only these entries; old mirror manifests remain provenance, not competing restore authorities.
+- `Sync/manifests/<asset-id>.json`: publication inventories selected by the catalog. Current releases are indexed in `Sync/README.md`; other local assets are not implicitly published.
 
-The private repository contains team documents and permitted reference material. It does not contain the entire local city, engine installation, caches, or a packaged game.
+The source repository contains code, document sources, configuration and hash metadata; see the publication-status record for actual visibility. It does not contain private SFTP asset bytes, the entire local city, engine installation, caches or a packaged game.
