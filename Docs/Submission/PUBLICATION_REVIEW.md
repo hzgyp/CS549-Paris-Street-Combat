@@ -1,6 +1,14 @@
 # GitHub Public Visibility Review
 
-Updated 30 September 2026. The user explicitly authorized migrating permitted asset/history bytes to private SFTP, removing the bytes and their Git history from this same repository, keeping code/docs/config/hash records, and making it public only after matching verification. This supersedes the earlier proposal for a separate public repository. Actual final status is recorded in `Assets/Sync/PUBLICATION_STATUS.json` once remote verification finishes; do not infer public visibility from authorization.
+Updated 30 September 2026. The user explicitly authorized migrating permitted asset/history bytes to private SFTP, removing the bytes and their Git history from this same repository, keeping code/docs/config/hash records, and making it public only after matching verification. This supersedes the earlier proposal for a separate public repository. Actual final status is recorded in `Assets/Sync/PUBLICATION_STATUS.json`; the verified recreation/publication outcome below supersedes the earlier blocked checkpoint.
+
+## Final outcome after explicit recreation authorization
+
+At 21:25 EDT, following the user's explicit "delete and recreate" approval, the old GitHub repository was deleted and a private repository with the same owner/name/URL was created (new ID `1398901580`). All cleaned source commits through `04b97fedfc5d33da086d50b2e24996ee74f2e8ad` were restored. Ordinary previous feature/merge settings were restored and the description corrected to the four current pillars. Inspection found no issues, PRs, releases, deploy keys, webhooks or Actions secrets; private-plan ruleset inspection returned 403, and main was not protected. Two prior team write invitations were recreated and need acceptance.
+
+The recreated repository passed a fresh source/history/catalog audit with line-ending conversion disabled; 218 blob/commit objects passed the bounded signature/private-path/binary/LFS scan. All ten inspected original old Git commits and the sampled removed raw blob return HTTP 404 on Git-object endpoints; the high-level old-commit lookup returns 422 because the revision is unavailable. All 29 backed-up orphaned LFS objects return missing-object 404 errors, with no download actions. These are scoped access/association checks, not proof of physical erasure inside GitHub infrastructure.
+
+Source visibility was then made public and anonymously verified at 21:27 EDT. [Public source repository](https://github.com/hzgyp/CS549-Paris-Street-Combat). Private SFTP asset manifests and bytes are unchanged; local originals, original Git/LFS backups and a verified complete clean-source bundle remain intact. The prior blocker below is a historical verification record, not the current state. No course submission or runtime acceptance is claimed.
 
 ## Concrete unresolved content
 
