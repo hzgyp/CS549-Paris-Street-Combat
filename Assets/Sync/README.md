@@ -1,5 +1,17 @@
 # Published SFTP asset baselines
 
+## Selected rifle-motion baseline, 2 October
+
+The D059 generic source-motion subset passed bounded native/visual/fresh-load checks: 15 clips, 33 UE5.8.2 packages, plus descriptor/config (**35 files / 18,974,540 bytes**, 18.1 MiB). `CATALOG.json` now selects `rifle-pro-mocap-ue582-selected`; [publication status](RIFLE_MOTION_PUBLICATION_STATUS.json) records all 35 actual SFTP downloads and SHA-256/size checks, two manifest downloads, an original sample and workspace CRUD. An exact elevated repair verified shared-account Modify on both new trees; root ACL stayed unchanged.
+
+Restore the 35 recorded paths under `Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/`, with editors closed and local changes preserved. Open `RifleMotionBaseline.uproject` with UE5.8.2 and bundled **ACLPlugin enabled**. Preserve `/Game/Rifle_01` names; do not mount this source-rig baseline into gameplay without its later soldier/contact checks. There is no modern M4 in the selected native closure. Immutable objects/manifests are under `/objects/sha256/` and `/releases/rifle-motion-20261002-v1/`.
+
+The complete untouched D059 original (1,563 files / 1,944,249,213 bytes) resides at `/baselines/rifle-pro-mocap-original/rifle-motion-20261002-v1/`. `manifests/rifle-pro-mocap-original.json` is provenance/rollback **not selected for default restore**. It is not an additional automatic 1.8 GiB download. Only 753 proven-identical redundant discovery files were removed (135,629,202 bytes); originals, unique work, evidence and immutable history remain. The old discovery Content mount is a verified junction to the one writable selected lab.
+
+Neither the modern FP arm candidate nor a complete WWII FP kit is accepted. Simplified-reload status and remaining gaps are in [the dated result](../../Docs/Development/WEAPON_BASELINE_AND_RELOAD_RESULT_20261002.md). Teammate restoration, external routing and public-build rights are not established by local SFTP tests. The validation task did not commit/push; subsequent user-authorized source publication is recorded in Git history.
+
+For the five top-level SFTP directories, common asset paths and the LocalWorking-to-SFTP intake flow, read [the bilingual SFTP root guide](SFTP_ROOT_README.md). Its identical deployed copy is `/README.md` on the private SFTP server. The guide explains storage; only `CATALOG.json` and its active manifests select released asset bytes.
+
 ## Character integration baseline on 1 October
 
 Yupu confirmed private three-member original/derivative sharing for all three character/action bundles. Release **`character-20261001-v1`** is published and selected by `CATALOG.json`; see [the rights record](RIGHTS.md#soldier-and-rifle-animation-intake) and [verification status](CHARACTER_PUBLICATION_STATUS.json).

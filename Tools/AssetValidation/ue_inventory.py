@@ -11,10 +11,12 @@ OUT = LAB / 'Evidence'
 repair_mode = os.environ.get('CS549_REPAIR_INVENTORY') == '1'
 if repair_mode:
     OUT = LAB / 'Evidence/Repair20261001/FinalInventory'
+if os.environ.get('CS549_INVENTORY_OUT'):
+    OUT = Path(os.environ['CS549_INVENTORY_OUT']).resolve()
 OUT.mkdir(parents=True, exist_ok=True)
 REPORT = {'engine': unreal.SystemLibrary.get_engine_version(),
           'started_at': datetime.now().astimezone().isoformat(),
-          'project': str(LAB), 'mode': 'real UE load, no main-project changes',
+          'project': str(LAB), 'mode': 'real UE asset load/inspection; no package saves',
           'assets': [], 'errors': []}
 
 
@@ -33,6 +35,11 @@ records = sorted(registry.get_assets_by_path('/Game', recursive=True),
                  key=lambda a: (str(a.asset_class_path.asset_name) == 'World', str(a.package_name)))
 if repair_mode:
     records = [data for data in records if not str(data.package_name).startswith('/Game/ParisCombat/Tests/')]
+prefixes = [p for p in os.environ.get('CS549_INVENTORY_PREFIXES', '').split(',') if p]
+if prefixes:
+    records = [data for data in records if any(str(data.package_name).startswith(p.rstrip('/') + '/')
+        or str(data.package_name) == p.rstrip('/') for p in prefixes)]
+REPORT['selected_prefixes'] = prefixes
 REPORT['registry_asset_count'] = len(records)
 REPORT['api_probe'] = {name: [v for v in dir(getattr(unreal, name)) if any(
     word in v for word in ('bone', 'pose', 'export', 'lod', 'texture', 'retarget'))]

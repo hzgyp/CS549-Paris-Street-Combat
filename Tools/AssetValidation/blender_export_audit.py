@@ -10,10 +10,14 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'Assets/LocalWorking/Validation/UE582/2026-09-30-v1/Evidence'
 EXPORTS = OUT / 'Exports' / os.environ.get('CS549_FBX_SUBDIR', '')
 REPORT_FILE = OUT / ('blender_export_audit_resaved.json' if os.environ.get('CS549_FBX_SUBDIR') else 'blender_export_audit.json')
+if os.environ.get('CS549_FBX_AUDIT_DIR'):
+    EXPORTS = Path(os.environ['CS549_FBX_AUDIT_DIR']).resolve()
+    OUT = EXPORTS
+    REPORT_FILE = OUT / 'blender_export_audit.json'
 report = {'blender': bpy.app.version_string, 'scope': 'Fresh FBX import metrics; no model repair or gameplay validation.',
           'models': [], 'animations': [], 'errors': []}
 for file in sorted(EXPORTS.glob('*.fbx')):
-    if file.stem.startswith('Rifle_'):
+    if file.stem.startswith(('Rifle_', 'W2_')):
         bpy.ops.wm.read_factory_settings(use_empty=True)
         try:
             bpy.ops.import_scene.fbx(filepath=str(file), automatic_bone_orientation=False, use_anim=True)

@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "asset_version": "rifle-motion-20261002-v1",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-02T08:41:44.335824-04:00",
+  "license_record": "Assets/Integration/WEAPON_INTAKE_RIGHTS_20261001.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "retired_paths": [],
+  "dependencies": [],
+  "verification": {
+    "method": "Every final server file rehashed SHA-256 and size; authenticated SFTP probes precede adoption",
+    "teammate_restoration": "not performed"
+  },
+  "asset_id": "rifle-pro-mocap-ue582-selected",
+  "source": "15 selected generic motions and 18 source-rig/material/texture dependencies, modern editor preview attachment removed; plus clean lab descriptor/config",
+  "engine": "UE5.8.2-56702186",
+  "engine_plugins": [
+    "ACLPlugin (bundled UE animation compression)"
+  ],
+  "scope": "Accepted generic source-motion baseline only; soldier retarget, foot/contact, FP/M1 reload, history and gameplay acceptance pending",
+  "provenance_manifest": "Assets/Sync/manifests/rifle-pro-mocap-original.json",
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Aim_Idle_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 405272,
+      "sha256": "928906f3804ddaadba95724b67ee4adfd8f5044c2dd6195337151b1cfac88dba",
+      "remote_path": "/objects/sha256/92/928906f3804ddaadba95724b67ee4adfd8f5044c2dd6195337151b1cfac88dba"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Aim_Reload_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 767873,
+      "sha256": "92fe5bf884cf4ee0c516870f53e26ce7a1c1769df9cbe815fb346a56dcd27760",
+      "remote_path": "/objects/sha256/92/92fe5bf884cf4ee0c516870f53e26ce7a1c1769df9cbe815fb346a56dcd27760"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Aim_To_Relaxed_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 501436,
+      "sha256": "992f47679e4667e01188d586ea341112f0e447b33ea12cd904bb439c03809438",
+      "remote_path": "/objects/sha256/99/992f47679e4667e01188d586ea341112f0e447b33ea12cd904bb439c03809438"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Aim_To_Walk_Aim_F_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 296634,
+      "sha256": "be38aac2bd89fb7ef6e1f39570f2f94d496ccca7271057c24ca4d28106eb6f48",
+      "remote_path": "/objects/sha256/be/be38aac2bd89fb7ef6e1f39570f2f94d496ccca7271057c24ca4d28106eb6f48"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Aim_To_Walk_Aim_L90_Fwd_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 367589,
+      "sha256": "aa0544c2662849c1b0bd265dc7bcd0509c88ca31c75c3371cf3cff87caa5862e",
+      "remote_path": "/objects/sha256/aa/aa0544c2662849c1b0bd265dc7bcd0509c88ca31c75c3371cf3cff87caa5862e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Aim_To_Walk_Aim_R90_Fwd_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 304952,
+      "sha256": "441e3c7e2b9c174db828927b47edba11f14623069d84e8d5f01e38a22ec63b2a",
+      "remote_path": "/objects/sha256/44/441e3c7e2b9c174db828927b47edba11f14623069d84e8d5f01e38a22ec63b2a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Fire_Single_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 231090,
+      "sha256": "65e771b3520f011a9c3d609915f5d79e33c357ecfcb8c1b9fcf092afccc3d6fc",
+      "remote_path": "/objects/sha256/65/65e771b3520f011a9c3d609915f5d79e33c357ecfcb8c1b9fcf092afccc3d6fc"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Relaxed_Death_B_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 912013,
+      "sha256": "c482aa5e05e2c6559b5d42fb187f486251e73ed20a509d4f006d7bd4e4e77194",
+      "remote_path": "/objects/sha256/c4/c482aa5e05e2c6559b5d42fb187f486251e73ed20a509d4f006d7bd4e4e77194"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Relaxed_Death_F_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 862224,
+      "sha256": "ff7e7fe8d778495a89dbfca5edbcb5ac25550f4c250933303228f329dea32e3d",
+      "remote_path": "/objects/sha256/ff/ff7e7fe8d778495a89dbfca5edbcb5ac25550f4c250933303228f329dea32e3d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Walk_Aim_B_Loop_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 272859,
+      "sha256": "01d6f048ca6ed99c044f09ae08d5a0e768631c7b2d78b5db00ef00ce5fc19a40",
+      "remote_path": "/objects/sha256/01/01d6f048ca6ed99c044f09ae08d5a0e768631c7b2d78b5db00ef00ce5fc19a40"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Walk_Aim_F_Loop_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 270946,
+      "sha256": "4017229acc506c3bda400864a5613f2fa6bebe9e5a6dfd0f5d75cfd8befa907a",
+      "remote_path": "/objects/sha256/40/4017229acc506c3bda400864a5613f2fa6bebe9e5a6dfd0f5d75cfd8befa907a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Walk_Aim_F_to_W2_Stand_Aim_LU_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 256748,
+      "sha256": "eadaa18b26df0eb3fa9c9b0b7196e6bad4c336d74d412b0b22478666767e7bcb",
+      "remote_path": "/objects/sha256/ea/eadaa18b26df0eb3fa9c9b0b7196e6bad4c336d74d412b0b22478666767e7bcb"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Walk_Aim_F_to_W2_Stand_Aim_RU_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 301693,
+      "sha256": "6ad15f0f89b447a1d3dc7ddf4736ba19fa6ef08eb58ac6ee57f52a49769d7e4d",
+      "remote_path": "/objects/sha256/6a/6ad15f0f89b447a1d3dc7ddf4736ba19fa6ef08eb58ac6ee57f52a49769d7e4d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Walk_Aim_L_Loop_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 273310,
+      "sha256": "c9de29418fbc58703c9682dc6b5a3d79be1064c483c7abe11e5b878a35870210",
+      "remote_path": "/objects/sha256/c9/c9de29418fbc58703c9682dc6b5a3d79be1064c483c7abe11e5b878a35870210"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Walk_Aim_R_Loop_IP.uasset",
+      "storage": "sftp",
+      "size_bytes": 270798,
+      "sha256": "7d937746dd9e88e9e095aa35cec3256b6944639921120cc1123f52439864289d",
+      "remote_path": "/objects/sha256/7d/7d937746dd9e88e9e095aa35cec3256b6944639921120cc1123f52439864289d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/M_UE4Man_Body.uasset",
+      "storage": "sftp",
+      "size_bytes": 134878,
+      "sha256": "caae34c53eb5bf045c7af80a51563e73048d08bdab08047bae5200cba78c9bc1",
+      "remote_path": "/objects/sha256/ca/caae34c53eb5bf045c7af80a51563e73048d08bdab08047bae5200cba78c9bc1"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/M_UE4Man_ChestLogo.uasset",
+      "storage": "sftp",
+      "size_bytes": 93115,
+      "sha256": "2866268ccbe3afd354fec8ed16a45099d60cb8f064fddc461c382b94382f83e2",
+      "remote_path": "/objects/sha256/28/2866268ccbe3afd354fec8ed16a45099d60cb8f064fddc461c382b94382f83e2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset",
+      "storage": "sftp",
+      "size_bytes": 102132,
+      "sha256": "32ccf5f53e5ab6198e6e3227db131863db8b44c273d6492a7b7531f243a3e991",
+      "remote_path": "/objects/sha256/32/32ccf5f53e5ab6198e6e3227db131863db8b44c273d6492a7b7531f243a3e991"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset",
+      "storage": "sftp",
+      "size_bytes": 98228,
+      "sha256": "4df303b7cce7b8a9ced31403706e215e496941f6f4ef2ac6d1ff1e2e82801479",
+      "remote_path": "/objects/sha256/4d/4df303b7cce7b8a9ced31403706e215e496941f6f4ef2ac6d1ff1e2e82801479"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset",
+      "storage": "sftp",
+      "size_bytes": 101542,
+      "sha256": "4066976339c688149b1c8ecf0870f032e62c487ffd61d152fdf832d40326a512",
+      "remote_path": "/objects/sha256/40/4066976339c688149b1c8ecf0870f032e62c487ffd61d152fdf832d40326a512"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset",
+      "storage": "sftp",
+      "size_bytes": 102506,
+      "sha256": "243437a1444196032d5333f7190f6aabdf69883e6be4ca201afd9dda75996f62",
+      "remote_path": "/objects/sha256/24/243437a1444196032d5333f7190f6aabdf69883e6be4ca201afd9dda75996f62"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset",
+      "storage": "sftp",
+      "size_bytes": 373375,
+      "sha256": "aab6aa261f42ebde23bd752e07dedeff50aaa993e4a63698fe4e24758686a2fa",
+      "remote_path": "/objects/sha256/aa/aab6aa261f42ebde23bd752e07dedeff50aaa993e4a63698fe4e24758686a2fa"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset",
+      "storage": "sftp",
+      "size_bytes": 307329,
+      "sha256": "c563935ef7d64e8f17705c1b4db531be9a3ea18eb69516b860986be6467639f8",
+      "remote_path": "/objects/sha256/c5/c563935ef7d64e8f17705c1b4db531be9a3ea18eb69516b860986be6467639f8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset",
+      "storage": "sftp",
+      "size_bytes": 417766,
+      "sha256": "49162be915dcb4f2e0df5f70a958d0ccdd74482507e9d17a268be022d8ea0efd",
+      "remote_path": "/objects/sha256/49/49162be915dcb4f2e0df5f70a958d0ccdd74482507e9d17a268be022d8ea0efd"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset",
+      "storage": "sftp",
+      "size_bytes": 292281,
+      "sha256": "a0678e03bed19743760de1d5db74fd54975c6d955cd9683095368a0efc36ceaf",
+      "remote_path": "/objects/sha256/a0/a0678e03bed19743760de1d5db74fd54975c6d955cd9683095368a0efc36ceaf"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Mesh/SK_Mannequin.uasset",
+      "storage": "sftp",
+      "size_bytes": 5124229,
+      "sha256": "6f2372c6cad39628aaad0bfaffff19e0a38900195431f21f5682490ef18a5db5",
+      "remote_path": "/objects/sha256/6f/6f2372c6cad39628aaad0bfaffff19e0a38900195431f21f5682490ef18a5db5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset",
+      "storage": "sftp",
+      "size_bytes": 42162,
+      "sha256": "12edf38d7b913b22bdf59971049603d8082c2d1bb01e6cf1f30c036b7a931108",
+      "remote_path": "/objects/sha256/12/12edf38d7b913b22bdf59971049603d8082c2d1bb01e6cf1f30c036b7a931108"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Mesh/UE4_Mannequin_Skeleton.uasset",
+      "storage": "sftp",
+      "size_bytes": 17978,
+      "sha256": "bf9d3b2a91b296982e10a8902b6430b38257766f0d94c9db511b34b6bb39d5cb",
+      "remote_path": "/objects/sha256/bf/bf9d3b2a91b296982e10a8902b6430b38257766f0d94c9db511b34b6bb39d5cb"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Textures/UE4Man_Logo_N.uasset",
+      "storage": "sftp",
+      "size_bytes": 129449,
+      "sha256": "692ec1faa4d580069d30811f1479379b7a6faa6d8f9abac8fce3c01a7922054e",
+      "remote_path": "/objects/sha256/69/692ec1faa4d580069d30811f1479379b7a6faa6d8f9abac8fce3c01a7922054e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Textures/UE4_LOGO_CARD.uasset",
+      "storage": "sftp",
+      "size_bytes": 76160,
+      "sha256": "4d07a70034571d168e6d5a3cd46975fa327935277eba6b88fd5ee2794a204a77",
+      "remote_path": "/objects/sha256/4d/4d07a70034571d168e6d5a3cd46975fa327935277eba6b88fd5ee2794a204a77"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset",
+      "storage": "sftp",
+      "size_bytes": 223463,
+      "sha256": "b299a977150f09e448670a35c512adff093ee7d6045c007c3cd19866fd7eaeb7",
+      "remote_path": "/objects/sha256/b2/b299a977150f09e448670a35c512adff093ee7d6045c007c3cd19866fd7eaeb7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Textures/UE4_Mannequin__normals.uasset",
+      "storage": "sftp",
+      "size_bytes": 4728922,
+      "sha256": "de4201974fce28460c7dd641238a497f2075036af3e1684fed3e9404991def11",
+      "remote_path": "/objects/sha256/de/de4201974fce28460c7dd641238a497f2075036af3e1684fed3e9404991def11"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Character/Textures/UE4_Mannequin_occlusion.uasset",
+      "storage": "sftp",
+      "size_bytes": 312301,
+      "sha256": "2280549120424201e88b820c0fa461d9a7748a72201b02cba60d2e00d404dc6a",
+      "remote_path": "/objects/sha256/22/2280549120424201e88b820c0fa461d9a7748a72201b02cba60d2e00d404dc6a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/RifleMotionBaseline.uproject",
+      "storage": "sftp",
+      "size_bytes": 358,
+      "sha256": "77357515f49ec16d45da7de1265074ed07134c9d5e09fdec601f1be471ae7d79",
+      "remote_path": "/objects/sha256/77/77357515f49ec16d45da7de1265074ed07134c9d5e09fdec601f1be471ae7d79"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Config/DefaultEngine.ini",
+      "storage": "sftp",
+      "size_bytes": 929,
+      "sha256": "4fd3267a70c7afe9a1a9e49321a8ade110ba119b677eaecd174b9c37e8f1bbd4",
+      "remote_path": "/objects/sha256/4f/4fd3267a70c7afe9a1a9e49321a8ade110ba119b677eaecd174b9c37e8f1bbd4"
+    }
+  ],
+  "file_count": 35,
+  "size_bytes": 18974540,
+  "clips": [
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Aim_Idle_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Fire_Single_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Aim_Reload_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Walk_Aim_F_Loop_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Walk_Aim_B_Loop_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Walk_Aim_L_Loop_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Walk_Aim_R_Loop_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Aim_To_Walk_Aim_F_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Aim_To_Walk_Aim_L90_Fwd_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Aim_To_Walk_Aim_R90_Fwd_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Walk_Aim_F_to_W2_Stand_Aim_LU_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Walk_Aim_F_to_W2_Stand_Aim_RU_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Aim_To_Relaxed_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Relaxed_Death_F_IP",
+    "/Game/Rifle_01/Animation/In-Place/W2_Stand_Relaxed_Death_B_IP"
+  ]
+}

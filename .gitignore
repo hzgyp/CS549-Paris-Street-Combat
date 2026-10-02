@@ -5,6 +5,18 @@
 /Unreal/ParisStreetCombat/Content/__ExternalObjects__/
 /Unreal/ParisStreetCombat/Content/Collections/
 /Unreal/ParisStreetCombat/Content/Developers/
+/Unreal/ParisStreetCombat/Content/GermanSoldier/
+/Unreal/ParisStreetCombat/Content/USParatrooper/
+/Unreal/ParisStreetCombat/Content/RifleAnimsetPro/
+# Bounded vendor adaptations and diagnostic scenes remain SFTP bytes, not Blueprint code.
+/Unreal/ParisStreetCombat/Content/ParisCombat/Characters/Adaptation/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Tests/Integration/P2_CharacterPreview_*
+/Unreal/ParisStreetCombat/Content/ParisCombat/Tests/Integration/P2_CharacterMovement_*
+# Locomotion draft dependencies and unverified Blueprint drafts are external bytes.
+/Unreal/ParisStreetCombat/Content/ParisCombat/Animation/LocomotionDraft/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/BP_PCCombatantBase.uasset
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/BP_PCPlayer.uasset
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/BP_PCNPC.uasset
 /Assets/LocalVendor/
 
 # External asset working copies and the local SFTP server store.
@@ -44,6 +56,12 @@
 *.tiff
 *.psd
 # The stopped local character experiment is not a public production/source dependency.
+/Unreal/ParisStreetCombat/Content/ParisCombat/Animation/RetargetDraft/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Tests/Integration/P2_CharacterLifecycle_20261001*
+/Unreal/ParisStreetCombat/Content/ParisCombat/Tests/Integration/P2_CharacterStride_20261001*
 /Experiments/
 
 # Local course email evidence contains private correspondence.

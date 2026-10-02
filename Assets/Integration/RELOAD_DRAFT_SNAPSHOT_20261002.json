@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "asset_id": "paris-reload-diagnostic-draft-snapshot",
+  "asset_version": "paris-reload-draft-20261002-v1",
+  "status": "VERIFIED_PRIVATE_DIAGNOSTIC_SNAPSHOT_NOT_CATALOG_SELECTED",
+  "owner": "yg745",
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "verified_at": "2026-10-02T09:04:22.331800-04:00",
+  "catalog_selected": false,
+  "restore_authority": false,
+  "scope": "28 team-owned native drafts frozen for rollback/diagnostic continuity only; not final P2/P3/P4, FP, history, performance or package acceptance",
+  "dependencies": [
+    "character-ue582-integration-baseline"
+  ],
+  "dependency_record": "Assets/Sync/manifests/character-ue582-integration-baseline.json",
+  "runtime_workspace": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1",
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied.uasset",
+      "sha256": "71c00fa9e0e9a17ea3d4852071346a2fd60b4e3861c7d906990b0ab21901f7b8",
+      "size_bytes": 83903,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/71/71c00fa9e0e9a17ea3d4852071346a2fd60b4e3861c7d906990b0ab21901f7b8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied_Stride_v1.uasset",
+      "sha256": "78438af98c2d3220eb57a67088228c0113a56f81c807981da3e2aaadede8bee1",
+      "size_bytes": 79723,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/78/78438af98c2d3220eb57a67088228c0113a56f81c807981da3e2aaadede8bee1"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_German.uasset",
+      "sha256": "2723e6d6f4972a13cc93ece6543300f62f7d401338d1a10172395528c05831d7",
+      "size_bytes": 83964,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/27/2723e6d6f4972a13cc93ece6543300f62f7d401338d1a10172395528c05831d7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_German_Stride_v1.uasset",
+      "sha256": "0d8f864c65f4e916e212c71d53c0c31db332c3bbeff8a237cb4bf680c551bb17",
+      "size_bytes": 79766,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0d/0d8f864c65f4e916e212c71d53c0c31db332c3bbeff8a237cb4bf680c551bb17"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_Allied.uasset",
+      "sha256": "97f178aac9e668bc86b79172767c8b54bb506c0f0a3b9669855d1939dd3b1a66",
+      "size_bytes": 37526,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/97/97f178aac9e668bc86b79172767c8b54bb506c0f0a3b9669855d1939dd3b1a66"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_Allied_Stride_v1.uasset",
+      "sha256": "f0edf2c398251795bd106ec1cf7d7e5aab3c6a559963c28878686c09ad4b7701",
+      "size_bytes": 37566,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f0/f0edf2c398251795bd106ec1cf7d7e5aab3c6a559963c28878686c09ad4b7701"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_German.uasset",
+      "sha256": "d9e3a7afffb268ea4d51f88d727b240c1cc1cd7071f70553c825a0001a8292ce",
+      "size_bytes": 37560,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d9/d9e3a7afffb268ea4d51f88d727b240c1cc1cd7071f70553c825a0001a8292ce"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_German_Stride_v1.uasset",
+      "sha256": "55bc4297ee601ba5df46f622ce40481fc2788e0dca8f5561161fc5c05e4effcb",
+      "size_bytes": 37600,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/55/55bc4297ee601ba5df46f622ce40481fc2788e0dca8f5561161fc5c05e4effcb"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/LocomotionDraft/ABP_PC_Allied.uasset",
+      "sha256": "e348f2122a52e39367590700350209d2c55e64e6182143c4139808a7573a49a7",
+      "size_bytes": 59150,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e3/e348f2122a52e39367590700350209d2c55e64e6182143c4139808a7573a49a7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/LocomotionDraft/ABP_PC_German.uasset",
+      "sha256": "b8052aee6e7d92893f53194cd9c1a23a74f44316bdba8c8c411bcd2f7e052da5",
+      "size_bytes": 59144,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b8/b8052aee6e7d92893f53194cd9c1a23a74f44316bdba8c8c411bcd2f7e052da5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/LocomotionDraft/BS_PC_Allied.uasset",
+      "sha256": "1f7dfb8e67cbb9f36800b879c8853b8a1e6cdf76260aa8e922873710a42058ba",
+      "size_bytes": 4111,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/1f/1f7dfb8e67cbb9f36800b879c8853b8a1e6cdf76260aa8e922873710a42058ba"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/LocomotionDraft/BS_PC_German.uasset",
+      "sha256": "ae17b16dc1c205ffaad37baa615b7b2f2e955c6ccc0540b59c1bb80d1b832563",
+      "size_bytes": 4107,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ae/ae17b16dc1c205ffaad37baa615b7b2f2e955c6ccc0540b59c1bb80d1b832563"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SKEL_PC_German_Translation_v1.uasset",
+      "sha256": "2c13902a2212efa8c8eb3e48e4dd19d935da7d1ba4bd17f24e31845a2f4542e1",
+      "size_bytes": 17225,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2c/2c13902a2212efa8c8eb3e48e4dd19d935da7d1ba4bd17f24e31845a2f4542e1"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SK_PC_German_A_Translation_v1.uasset",
+      "sha256": "b7344949bc54e296f7c7de83fa6c43372eec1bc6ae9063aa225fad8b06bc023e",
+      "size_bytes": 5585699,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b7/b7344949bc54e296f7c7de83fa6c43372eec1bc6ae9063aa225fad8b06bc023e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SK_PC_German_B_Translation_v1.uasset",
+      "sha256": "8867c7b0a11f43e822de4fd4ce90ca2cc2b93af7cc2096206ae0fa479b78fe15",
+      "size_bytes": 5428069,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/88/8867c7b0a11f43e822de4fd4ce90ca2cc2b93af7cc2096206ae0fa479b78fe15"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/BP_PCCombatantBase.uasset",
+      "sha256": "0f25c1c779ce69d94c9ea61199952dd9831dad00113a9439905ee878468bc1c8",
+      "size_bytes": 52489,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0f/0f25c1c779ce69d94c9ea61199952dd9831dad00113a9439905ee878468bc1c8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/BP_PCNPC.uasset",
+      "sha256": "1053da3b529f1896ff37ab4ff5e4f84c19602740725744c21185423550697277",
+      "size_bytes": 36662,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/10/1053da3b529f1896ff37ab4ff5e4f84c19602740725744c21185423550697277"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/BP_PCPlayer.uasset",
+      "sha256": "667f3c8fc98a702a5a91e1c1c8b6dad81037f3cf51f50ace9d30b41ea306aab0",
+      "size_bytes": 60758,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/66/667f3c8fc98a702a5a91e1c1c8b6dad81037f3cf51f50ace9d30b41ea306aab0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/BP_PCCombatantV2.uasset",
+      "sha256": "3ba5b097a2d5a707d821565c9b80f8a27465b65e9b337bf0604be404f703e836",
+      "size_bytes": 171216,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3b/3ba5b097a2d5a707d821565c9b80f8a27465b65e9b337bf0604be404f703e836"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/BP_PCNPCV2.uasset",
+      "sha256": "2ac2529a8a37d94773ac8e8614ecc5370ad5d54ab71f34dadb031b253a4a844e",
+      "size_bytes": 36151,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2a/2ac2529a8a37d94773ac8e8614ecc5370ad5d54ab71f34dadb031b253a4a844e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/BP_PCPlayerV2.uasset",
+      "sha256": "9dd613f2e8e689ec8b879329b2a06ad6708419287fe090c0bb59275b0215a1ad",
+      "size_bytes": 59700,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9d/9dd613f2e8e689ec8b879329b2a06ad6708419287fe090c0bb59275b0215a1ad"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Tests/Integration/P2_CharacterLifecycle_20261001.umap",
+      "sha256": "2d6adead8178eb7fb08664f76917aa793ef1b4af4b8b76954ddee237fa9b8b0f",
+      "size_bytes": 32463,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2d/2d6adead8178eb7fb08664f76917aa793ef1b4af4b8b76954ddee237fa9b8b0f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Tests/Integration/P2_CharacterMovement_20261001.umap",
+      "sha256": "cd01945e88fd7eda709c03114450b630fa054e2917b36d2c0de7ec26926a884b",
+      "size_bytes": 36917,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/cd/cd01945e88fd7eda709c03114450b630fa054e2917b36d2c0de7ec26926a884b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Tests/Integration/P2_CharacterPreview_20261001.umap",
+      "sha256": "7f0cb1358e843d41ebef57c6996e9d8e9f4741e82f458cf8a7256029a72b9b00",
+      "size_bytes": 27558,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/7f/7f0cb1358e843d41ebef57c6996e9d8e9f4741e82f458cf8a7256029a72b9b00"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Tests/Integration/P2_CharacterStride_20261001.umap",
+      "sha256": "0d3a56706538485a909b93cb0d1e1ce3ce4c8861d935287f10db986e1a47fa4b",
+      "size_bytes": 32534,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0d/0d3a56706538485a909b93cb0d1e1ce3ce4c8861d935287f10db986e1a47fa4b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/BP_PCCombatantReloadV1.uasset",
+      "sha256": "06ad11c269890d43744b3ac708e51f74cbf249bfe43262b1708a63c0cecb34bc",
+      "size_bytes": 465372,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/06/06ad11c269890d43744b3ac708e51f74cbf249bfe43262b1708a63c0cecb34bc"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/BP_PCPlayerReloadV1.uasset",
+      "sha256": "33ae4ddbc3d26050e1262ec429968c65d1e0e2789d61d8b6d1c0cbeeba0933d0",
+      "size_bytes": 59918,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/33/33ae4ddbc3d26050e1262ec429968c65d1e0e2789d61d8b6d1c0cbeeba0933d0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/BP_PCNPCReloadV1.uasset",
+      "sha256": "b6e9d3080845a008e08d5efd0ca8486eb7227c89012a5063a405dedd8cef4dfd",
+      "size_bytes": 36402,
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b6/b6e9d3080845a008e08d5efd0ca8486eb7227c89012a5063a405dedd8cef4dfd"
+    }
+  ],
+  "file_count": 28,
+  "new_reload_files": 3,
+  "unchanged_previous_files": 25,
+  "size_bytes": 12743253,
+  "tests": {
+    "native_groups": 18,
+    "assertions_passed": 432,
+    "fixed_steps_per_second": [
+      30,
+      60,
+      120
+    ],
+    "playback_rates": [
+      0.5,
+      1,
+      1.5
+    ],
+    "bridge_disabled_fresh_packages": 3
+  },
+  "verification": "All 28 final immutable objects downloaded over authenticated, pinned-host SFTP and SHA-256/size verified; protected root ACL unchanged",
+  "git_publication": "not committed or pushed",
+  "restoration_note": "Not Catalog-selected: do not automatically overwrite local work. Snapshot needs its published native dependencies and later coordinated owner-specific restoration."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T13:54:25.5277002-04:00",
+  "updated_at": "2026-10-02T08:50:44.016378-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -74,6 +74,15 @@
       "file_count": 721,
       "size_bytes": 1288786002,
       "release_manifest": "/releases/character-20261001-v1/character-ue582-integration-baseline.json"
+    },
+    {
+      "asset_id": "rifle-pro-mocap-ue582-selected",
+      "asset_version": "rifle-motion-20261002-v1",
+      "path": "Assets/Sync/manifests/rifle-pro-mocap-ue582-selected.json",
+      "sha256": "55a0fe8112e23355ebdfa69e6eb2c9dd50dbac9a2d27211918e68dc67c179126",
+      "file_count": 35,
+      "size_bytes": 18974540,
+      "release_manifest": "/releases/rifle-motion-20261002-v1/rifle-pro-mocap-ue582-selected.json"
     }
   ],
   "superseded_provenance_only": [

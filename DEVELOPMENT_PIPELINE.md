@@ -8,6 +8,8 @@ This replaces every earlier Normandy and three-pillar pipeline. It implements [t
 
 ## Execution order
 
+Before a work package changes assets or gameplay, write its implementation steps and evidence/failure gates. The next character and weapon/action packages are detailed in [the implementation plan](Docs/Development/CHARACTER_AND_WEAPON_IMPLEMENTATION_V1.md). They cover only part of Gate 1 and early Gate 2; the city survey, full mission, four pillars and delivery checks remain required. Teammates perform their own dependency restoration, without blocking Yupu's verified local work.
+
 | Gate | Work | Completion evidence | If blocked |
 |---|---|---|---|
 | 0 - Direction and organization | New scope, proposal, architecture, history index, asset provenance, source control and old-project archive | New repository and documents; local city working copy; reference inventory; no runtime success claim | Resolve missing organization/source-control facts; do not silently add features |

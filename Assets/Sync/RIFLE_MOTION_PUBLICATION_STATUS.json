@@ -1,0 +1,33 @@
+{
+  "status": "verified_private_sftp_publication",
+  "run_id": "rifle-motion-20261002-v1",
+  "started_at": "2026-10-02T08:37:44.176555-04:00",
+  "root_acl_before_sha256": "1760f652316c239bb543e73ba86b441a8fa4cea72f7038f69d29ff59f38537a0",
+  "recovery": "Verified exact relocated originals/workspace after local incoming ACL denial; transfers use authorized SFTP account",
+  "completed_at": "2026-10-02T08:42:01.486040-04:00",
+  "root_acl_unchanged": true,
+  "shared_acl_verification": {
+    "status": "complete",
+    "original_entries_verified": 1586,
+    "workspace_entries_verified": 92,
+    "permissions": "shared-account Modify; no root ACL or ownership changes",
+    "local_evidence": "tmp/rifle-motion-20261002-v1/acl-repair.json"
+  },
+  "original_files": 1563,
+  "original_bytes": 1944249213,
+  "native_files": 35,
+  "native_bytes": 18974540,
+  "native_package_headers_UE582": 33,
+  "client": {
+    "status": "complete",
+    "verified_at": "2026-10-02T08:50:43.918804-04:00",
+    "native_files_downloaded": 35,
+    "manifest_downloads": 2,
+    "original_samples": 1,
+    "workspace_crud": "create, overwrite, rename, download/read and delete passed; only task probes removed",
+    "known_host_check": "strict existing pinned known-hosts; external routing not retested"
+  },
+  "default_restore": "Only the 35 selected native/config files; complete delivered original is provenance/rollback and not Catalog-selected",
+  "git_publication": "not committed/pushed in this task",
+  "runtime_scope": "generic source-motion only; no FP/M1/history/gameplay pass"
+}
