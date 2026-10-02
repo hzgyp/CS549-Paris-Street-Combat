@@ -1,0 +1,12 @@
+{
+  "scope": "Hash guard for four task-owned partial city Blueprints; not Catalog, immutable release or restoration authority",
+  "owner": "yg745",
+  "author_identity": "author_v2",
+  "status": "Stopped during World duplication/cache drain; four saved Blueprints preserved, team map absent. Original ten maps and previous 28 drafts independently reverified.",
+  "files": [
+    {"package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1", "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1.uasset", "size_bytes": 35817, "sha256": "df3d38d440b28ef61b8cb38e9eeef65245e0eabf573241c482535cc98ab1b30d"},
+    {"package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1", "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1.uasset", "size_bytes": 21247, "sha256": "9f48052e721e956af95561553dd875da6e02936a0089c38fc3cbc39d74a52832"},
+    {"package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1", "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1.uasset", "size_bytes": 35712, "sha256": "9aaa880b100366c801dc0027619cd0fb3d486551127ec496d7c7edd13fd6b474"},
+    {"package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1", "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1.uasset", "size_bytes": 37275, "sha256": "2467153f24837f63acd40b228ad747ce470854638b6245888fdfb45b046bc8eb"}
+  ]
+}

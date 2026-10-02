@@ -7,6 +7,7 @@
 class ACharacter;
 class USkeletalMesh;
 class UAnimBlueprint;
+class UBlueprint;
 
 /** Authoring/testing only. Generated graphs never call this class. */
 UCLASS()
@@ -14,6 +15,10 @@ class PARISEDITORBRIDGE_API UParisBlueprintAuthoring : public UBlueprintFunction
 {
     GENERATED_BODY()
 public:
+    /** New, unsaved CityGameplayV1 widget template only; no runtime use/save. */
+    UFUNCTION(BlueprintCallable, Category="Paris|Editor")
+    static bool CreateStatusWidgetTemplate(UBlueprint* Blueprint);
+
     UFUNCTION(BlueprintCallable, Category="Paris|Editor")
     static bool ClearSkeletonPreviewAttachments(const FString& SkeletonPath);
 

@@ -40,6 +40,9 @@ For each ID record date/tester, Git revision, asset manifest versions, engine/pl
 
 ## Current evidence and release decision
 
+- Later bounded progress, 2 October: actual-city combat/HUD PIE passed 15 cases/62 assertions; Yupu reported no problems in interactive usability review. See `PARIS_COMBAT_AND_HUD_RESULT_20261002.md` and the subsequent `PARIS_WINDOWS_PACKAGE_RESULT_20261002.md`. These partial results do not pass the complete integrated Must rows above; performance, mission, packaged/second-machine and delivery checks remain open.
+- Early private package update: Windows Development full cook/stage/archive passed (exit 0), and its real executable started the intended city/GameMode at verified 1920x1080. Post-entry combat regression again passed 15 cases/62 assertions. Stationary startup CSV exposed cold hitches and a texture-pool warning; it is not the required three warmed mission runs/stress evidence. Full BUILD-01 still needs interactive packaged/second-machine/delivery checks and distribution rights. No Must row is passed wholesale by this checkpoint.
+
 - Paris concept/pillar approval: the user's email screenshot is recorded in [submission status](../Submission/STATUS.md); private original stays outside public Git.
 - Original city and rights-filtered history: server bytes previously SHA-256/size-verified under [published baselines](../../Assets/Sync/README.md), with the owner's three-member source-sharing attestation. This does not establish teammate restoration, package redistribution rights or runtime compatibility.
 - Active city association: UE5.8; exact tested patch/plugins and all gameplay/performance results remain unverified.

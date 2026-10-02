@@ -60,6 +60,11 @@
 /Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/
 /Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/
 /Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/
+# New team city setup is unpublished native asset bytes; source/hash metadata stays in Git.
+/Unreal/ParisStreetCombat/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/CityGameplayV1/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Input/CityGameplayV1/
+/Unreal/ParisStreetCombat/Content/ParisCombat/UI/CityGameplayV1/
 /Unreal/ParisStreetCombat/Content/ParisCombat/Tests/Integration/P2_CharacterLifecycle_20261001*
 /Unreal/ParisStreetCombat/Content/ParisCombat/Tests/Integration/P2_CharacterStride_20261001*
 /Experiments/

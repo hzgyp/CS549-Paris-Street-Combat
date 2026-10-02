@@ -41,6 +41,8 @@ Custom tactical A*, hearing, exposure-weighted routing, ragdolls and improved ha
 
 ## Execution order
 
+Execution correction, 2 October: [implementation v2](ASSIGNMENT3_IMPLEMENTATION_V2.md) uses the presentation stack to integrate gameplay directly on the verified Paris map, characters and motions. A minimal loop simplifies features, not the asset foundation; cosmetic refinement is deferred. Yupu resumed continuous development, pausing only for genuinely human-required review/decisions. Follow [the city gameplay work package](PARIS_CITY_GAMEPLAY_IMPLEMENTATION_V1.md): survey Paris and integrate characters, rifle, input and authoritative UMG, then establish early packaging/performance evidence and prove the four pillars. The abandoned route/caches are deleted; see [the cleanup record](ASSET_FIRST_CLEANUP_20261002.md). The goal is unchanged; incomplete items are not passed.
+
 | Step | Work and exit evidence | Proposed lead |
 |---|---|---|
 | 1 Readiness | Safe Git/SFTP checks, dependency versions/rights, city survey, collision/NavMesh evidence, rig/weapon/action compatibility and first Windows package | Yupu integration; Jingdi environment/navigation; Yuqi rig/actions |

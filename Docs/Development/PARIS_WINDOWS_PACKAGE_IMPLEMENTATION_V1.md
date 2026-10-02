@@ -1,0 +1,36 @@
+# Early actual-city Windows package — implementation V1
+
+2 October 2026. Owner: Yupu (`yg745`). Authorized continuous asset-first development; follow Assignment 3 Implementation V2 and the combat/HUD result. User-reported interactive usability passed. This is early M0 dependency/build work, not mission, FPS, public-distribution or course acceptance.
+
+## Scope and prerequisites
+
+Package the existing `/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1` city entry and its retained city/character/motion/rifle dependencies. Do not replace Paris with a blank fixture or refine appearance. Preserve vendor originals, selected baselines, the earlier 28 drafts and current seven combat packages. Verify Git divergence, local guarded hashes, Content junction, ownership, engine processes, disk space and Windows build tools before any writes. UE 5.8.2; ParisEditorBridge remains Editor-only and disabled for game builds.
+
+Current un-packaged game log contains `BP_Category_Platform` (vendor Overview showcase) using an Editor Subsystem outside Editor Utilities. Determine the actual reference path and runtime exposure before proposing exclusion or adaptation. A nonfatal interactive launch does not clear cook errors. Do not blanket delete/exclude referenced vendor directories or resave original packages to hide warnings.
+
+## Storage and permitted changes
+
+- Read-only registry/dependency/graph audit first; evidence under the existing single-home workspace `Evidence/CityGameplay20261002/Packaging/<unique-id>/`. Preserve occupied evidence.
+- Build tools/logs and regenerable cooked/staged artifacts use ignored `tmp/paris-city-package-20261002/` and the engine's ignored Saved/Intermediate directories. A cooked deliverable is not another editable asset workspace. No full source-city copy or immutable release/catalog update.
+- Source scripts/configuration remain Git metadata. After a supported city entry has passed usability, set `GameDefaultMap` to the team entry for package startup; keep `EditorStartupMap` vendor entry unless a documented operational need changes it. Add an explicit packaging map list and disable cook-all. Initially excluding engine editor-content failed on Landmass startup-material references in `package_v2`; retain referenced engine resources with `bSkipEditorContent=False` and no `-SkipCookingEditorContent`. This permits required resource bytes, not Editor C++ modules or gameplay bridge calls. Never assert that directory labels automatically establish editor-only dependency safety.
+- If vendor utilities actually block cooking, document the smallest dependency-safe fix before native writes. Prefer excluding truly unreferenced editor showcase content; any required runtime adaptation belongs in a separately named team package and preserves original bytes. No runtime C++ gameplay system.
+
+## Order
+
+### Documented dependency correction after read-only audit
+
+`dependencies_v1/v2` found a hard chain from the team entry through `BP_DocumentationActor_Documentation` → `BP_Overview_ThemeSystem` → `BP_Category_Platform`, with a `Get EditorActorSubsystem` graph node. Four showcase helpers are placed **only in the team root** and are not marked editor-only: `BP_Info_Slate_A_Message_C_1`, `BP_Info_Slate_C_0`, `BP_FabPage_C_2`, `BP_DocumentationActor_Documentation_C_2`. None is a city building, soldier, weapon or motion. Remove only these four exact actors from the team map through EditorActorSubsystem; preserve all their original vendor packages and vendor maps. Keep a hash-verified prior team-map recovery file in ignored packaging evidence before saving. Save only the team map, fresh-audit the closure and record a new seven-file package checkpoint; keep the combat inventory as historical evidence. Do not exclude the full showcase directory if remaining dependencies are reachable.
+
+1. Guard hashes and safely fetch source. Audit registry hard/soft dependencies and reverse reference paths to the failing showcase Blueprint. Inspect its generated class, parent, editor-only flags and offending node from installed engine APIs. Inventory enabled plugins and Windows SDK/compiler availability.
+2. Record findings. Configure only the verified city package entry and explicit cooking scope. Verify bridge/editor utilities are excluded from runtime without severing needed dependencies.
+3. Run installed AutomationTool Windows Development BuildCookRun serially, with a unique log/artifact directory. Bound cook concurrency/memory where needed. Preserve failures and report true exit codes. A successful cook is not a runtime pass.
+4. Regress the saved team-map correction using the existing bridge-disabled combat PIE harness and a new report identity, guarding the current package inventory rather than restoring obsolete map hashes. If built, run the actual city executable outside editor, verify intended map/GameMode/HUD/assets under documented tests. A startup screenshot cannot by itself prove six-actor state or every control. Record initial timing/settings, not a 60 FPS claim from launch. Later three warmed 1080p runs/stress/second-machine checks remain separate.
+5. Save/close task-owned processes, rehash protected native files and inventory any authorized team changes; record result and next NavMesh/AI work package. No commit/push or SFTP immutable publication without authorization.
+
+## Acceptance and failure handling
+
+First packaged startup probe, if cook succeeds: run the archived Development executable at 1920×1080, High scalability (all ten `sg.*Quality=2`), screen percentage 100, VSync off/no MaxFPS cap. Use an offscreen rendered process for automation, explicitly not a warmed interactive route or target-FPS pass. Request a 600-frame engine CSV capture with basename `initial_frames` in a unique evidence-local `UserDir/Saved/Profiling/CSV` (installed CSV profiler concatenates its default directory and filename), a frame-500 `Shot SHOWUI` screenshot and engine `ExitAfterCsvProfiling` for normal completion. Log actual map/GameMode, missing assets/compiler errors and exit status; preserve captures. Abort only the owned process on a documented bounded timeout, recording a failed/incomplete run. No input injection or hidden AI/roster acceptance from a screenshot. Later normal warmed route/stress comparisons remain required.
+
+Evidence must identify exact source/configuration, asset manifests plus draft inventories, engine/plugins/toolchain, commands, startup map, cook/package/runtime exit codes, warnings/errors, package size and limitations. Pass only observed stages. Public bundled-build permission is unconfirmed; keep artifacts private and do not upload them. Course BUILD-01 remains open until executable/run instructions, second machine and reviewer access are tested.
+
+Stop on unexpected native-hash change or concurrent binary ownership. Ordinary toolchain/dependency/API errors receive bounded diagnosis under this scope; do not erase failed reports. Restore only task-authored config defaults if startup fails, preserving unrelated dirty files. Do not remove source assets, originals/history or native drafts. If public delivery rights require a human choice, record the local build result first and pause only that delivery action; unrelated authorized local implementation may continue.

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-10-02",
+  "status": "unpublished_workspace_drafts_not_catalog_or_restore_authority",
+  "owner": "yg745",
+  "engine": "UE 5.8.2",
+  "scope": "Current seven city/combat/HUD packages after removal of four documentation helpers; cooking/runtime acceptance recorded separately",
+  "evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/Packaging/entry_fix_v1/result.json",
+  "storage": "Single writable Paris gameplay workspace; active project Content is its junction alias",
+  "required_catalog_assets": [
+    "france-liberation-content",
+    "character-ue582-integration-baseline",
+    "rifle-pro-mocap-ue582-selected"
+  ],
+  "retained_dependency_inventory": "Assets/Integration/RELOAD_DRAFT_SNAPSHOT_20261002.json",
+  "previous_checkpoint": "CITY_COMBAT_DRAFT_INVENTORY_20261002.json is historical after the documented team entry correction; do not restore its map over this checkpoint",
+  "file_count": 7,
+  "total_size_bytes": 1858287,
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2.uasset",
+      "size_bytes": 300043,
+      "sha256": "892836f8a7f39a3a4bc23ce799cd6b9c89c1a7ccdbe5f409927fd98100b142de"
+    },
+    {
+      "package": "/Game/ParisCombat/UI/CityGameplayV1/WBP_PCParisStatusV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/UI/CityGameplayV1/WBP_PCParisStatusV1.uasset",
+      "size_bytes": 104166,
+      "sha256": "c39e3e46a2dd70c63567ca57259b518759c291e9b346ef76de1bb57f85b44116"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1.uasset",
+      "size_bytes": 91202,
+      "sha256": "03b07dcc5a8a2ac6367a1e41cce621a909ffe27ce10a425467f496c523c6358c"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1.uasset",
+      "size_bytes": 36008,
+      "sha256": "e173eb00eea8bfab70082e5186a6ed6faa700480046b762d2037de54f250af38"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1.uasset",
+      "size_bytes": 36829,
+      "sha256": "9ff1d12e49024b219760691520cf18ff818955f699faf7586fae0af2536eaf70"
+    },
+    {
+      "package": "/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+      "size_bytes": 1268792,
+      "sha256": "19de840d155b9767253457117b0156ace0a9ec74abb21b106971cb8d7dad3084"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1.uasset",
+      "size_bytes": 21247,
+      "sha256": "9f48052e721e956af95561553dd875da6e02936a0089c38fc3cbc39d74a52832"
+    }
+  ]
+}

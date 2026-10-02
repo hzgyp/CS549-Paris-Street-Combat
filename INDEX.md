@@ -4,6 +4,20 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 
 ## Active authority
 
+- [Assignment 3 asset-first MVP implementation v2](Docs/Development/ASSIGNMENT3_IMPLEMENTATION_V2.md)
+- [Existing-city gameplay implementation v1](Docs/Development/PARIS_CITY_GAMEPLAY_IMPLEMENTATION_V1.md)
+- [Actual-city setup/input results, 2 October](Docs/Development/PARIS_CITY_GAMEPLAY_RESULT_20261002.md)
+- [Combat/HUD increment implementation](Docs/Development/PARIS_COMBAT_AND_HUD_IMPLEMENTATION_V1.md)
+- [Actual-city combat/HUD result and human review](Docs/Development/PARIS_COMBAT_AND_HUD_RESULT_20261002.md)
+- [Early actual-city Windows packaging work package](Docs/Development/PARIS_WINDOWS_PACKAGE_IMPLEMENTATION_V1.md)
+- [Early Paris package readiness/result checkpoint](Docs/Development/PARIS_WINDOWS_PACKAGE_RESULT_20261002.md)
+- [Paris navigation and shared AI work package](Docs/Development/PARIS_NAVIGATION_AND_AI_IMPLEMENTATION_V1.md)
+- [Actual Paris navigation checkpoint](Docs/Development/PARIS_NAVIGATION_RESULT_20261002.md)
+- [Current seven package-entry draft hashes](Assets/Integration/CITY_PACKAGE_DRAFT_INVENTORY_20261002.json)
+- [Current seven unpublished city/combat/HUD package hashes](Assets/Integration/CITY_COMBAT_DRAFT_INVENTORY_20261002.json)
+- [Historical five-package S1 checkpoint](Assets/Integration/CITY_GAMEPLAY_DRAFT_INVENTORY_20261002.json)
+- [Asset-first correction and completed cleanup, 2 October](Docs/Development/ASSET_FIRST_CLEANUP_20261002.md)
+
 - [New-session handoff](HANDOFF.md)
 - [Agent rules](AGENTS.md)
 - [Scope reset](Docs/Decisions/SCOPE_RESET.md)

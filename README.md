@@ -40,7 +40,7 @@ Continuing in a new chat/window? Read [HANDOFF.md](HANDOFF.md) first for the com
 
 Local workspace: `D:\0.Rutgers\CS549\Project-New`.
 
-The working environment is `Unreal/ParisStreetCombat/WW2FranceLiberation.uproject`. Its primary city map is `/Game/WW2City/Maps/LV_Paris_WW2`. The project filename and vendor package paths are retained to reduce unnecessary asset-reference changes. Project association is 5.8; UE 5.8.2 is the team's installed baseline, with compatibility and packaged execution still awaiting the later checks.
+The working environment is `Unreal/ParisStreetCombat/WW2FranceLiberation.uproject`. The original city/editor entry is `/Game/WW2City/Maps/LV_Paris_WW2`; the current local gameplay/packaging entry is `/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1`. The project filename and vendor package paths remain unchanged. The bounded integration/build tests below used UE 5.8.2; full mission/compatibility/performance acceptance remains open.
 
 The original vendor delivery remains in the local `WW2FranceLiberation---Version d20260630(UE5.6+)` directory. It is not a second active gameplay project. The organized working copy excludes generated caches from the original delivery.
 
@@ -59,7 +59,11 @@ Use Python 3.10+; the hook setup selects the bundled Codex runtime when availabl
 
 ## Build and run status
 
-The active descriptor is `Unreal/ParisStreetCombat/WW2FranceLiberation.uproject`. Verify the team's exact tested UE5.8 patch/plugins in Gate 1; UE5.8.2 is a recorded baseline, not a completed compatibility pass. After entitled dependencies are restored, open that descriptor, load the survey-selected team mission and use Unreal's Windows packaging workflow after Blueprint/dependency checks. A packaged gameplay build and those runtime steps are not yet validated; the current repository is a planning/source baseline, not a demonstrated Assignment 3 MVP. Runtime controls and tested package instructions must be added with actual implementation. The preserved vendor map/package names must not be renamed on disk.
+On 2 October, existing-city setup/input and combat/HUD passed their bounded tests; Yupu reported no problems during interactive review. The private Windows Development build cooked/staged/archived successfully and its actual executable started the intended team map/GameMode at verified 1920x1080. Combat/HUD regression passed 15 cases/62 assertions. Unsaved real-city NavMesh and two ordinary Allied/German MoveTo trials also passed, without establishing saved navigation/shared AI/mission completion. See [package results](Docs/Development/PARIS_WINDOWS_PACKAGE_RESULT_20261002.md) and [navigation results](Docs/Development/PARIS_NAVIGATION_RESULT_20261002.md). Tested provisional controls: WASD, mouse look, left mouse Fire and R simplified reload.
+
+**This is a source/configuration/documentation checkpoint, not a reproducible gameplay release.** Git contains scripts and draft hashes, not the seven new city/combat/HUD native packages or the private executable. `CITY_PACKAGE_DRAFT_INVENTORY_20261002.json` records unpublished workspace bytes, not an active restoration manifest. The active catalog restores the accepted external city/character/motion baselines, but not this new team gameplay entry. A fresh clone plus catalog restoration alone cannot run/package the new default entry yet. Do not restore old draft/map hashes over newer work, infer missing packages from `latest`, or treat one-time authoring scripts as a complete replay workflow. Wait for an explicitly verified, Catalog-selected gameplay handoff before teammate restoration of this increment. Existing local drafts stay reserved to `yg745`.
+
+On the verified owner workstation, [the packaging tool](Tools/Integration/build_paris_windows.ps1) and [startup probe](Tools/Integration/probe_paris_package_startup.ps1) describe the tested private build workflow and guard current dependencies. Full AI/objectives/retry, matched warmed mission/stress performance, second-machine/reviewer delivery and bundled-asset distribution rights remain open. Preserve vendor package identities; do not rename maps/packages on disk. No Assignment 3 MVP/course completion is claimed.
 
 ## Deliberate limits
 

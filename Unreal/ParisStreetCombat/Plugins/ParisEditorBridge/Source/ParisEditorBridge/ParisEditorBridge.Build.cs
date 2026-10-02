@@ -8,7 +8,7 @@ public class ParisEditorBridge : ModuleRules
         PublicDependencyModuleNames.AddRange(new[] { "Core", "CoreUObject", "Engine" });
         PrivateDependencyModuleNames.AddRange(new[] {
             "UnrealEd", "BlueprintGraph", "KismetCompiler", "AnimGraph", "AnimGraphRuntime",
-            "AssetTools", "Json", "RenderCore", "RHI"
+            "AssetTools", "Json", "RenderCore", "RHI", "UMG", "UMGEditor", "SlateCore"
         });
     }
 }
