@@ -7,6 +7,7 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 - [Team playtest restore and launch](Docs/Development/TEAM_PLAYTEST.md) / [组员中文试玩指南](Docs/Development/TEAM_PLAYTEST_ZH.md)
 - [Team publication implementation](Docs/Development/TEAM_PLAYTEST_PUBLICATION_IMPLEMENTATION_V1.md) / [中文实施](Docs/Development/TEAM_PLAYTEST_PUBLICATION_IMPLEMENTATION_V1_ZH.md)
 - [Verified native playtest publication](Assets/Sync/NATIVE_PLAYTEST_PUBLICATION_STATUS.json)
+- [Team playtest publication result](Docs/Development/TEAM_PLAYTEST_PUBLICATION_RESULT_20261003.md) / [中文结果](Docs/Development/TEAM_PLAYTEST_PUBLICATION_RESULT_20261003_ZH.md)
 - [Selected runtime dependency manifest](Assets/Sync/manifests/paris-gameplay-native-playtest.json)
 
 - [Native first-person display migration](Docs/Development/CONTINUOUS_ARMS_NATIVE_IMPLEMENTATION_V1.md) / [中文实施](Docs/Development/CONTINUOUS_ARMS_NATIVE_IMPLEMENTATION_V1_ZH.md)

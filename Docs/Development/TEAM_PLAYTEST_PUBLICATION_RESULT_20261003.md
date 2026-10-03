@@ -20,6 +20,6 @@ Windows initially refused `.ps1` execution under the default policy. The documen
 
 ## Source publication and teammate boundary
 
-The matching source/configuration/manifests and failure records are prepared for the authorized main commit/push; final publication receipt records actual Git identity after remote verification. No commercial binary bytes, private keys, passwords or raw screenshots are staged. Restoration and launch instructions: `TEAM_PLAYTEST.md` / `TEAM_PLAYTEST_ZH.md`.
+The matching source/configuration/manifests and failure records were committed and pushed as `9d05a85cdfa3811da772745ec18641838f7117ae`. The guarded push succeeded and `git ls-remote origin refs/heads/main` matched that SHA. A subsequent receipt-only commit records this verified event; it does not change asset versions. No commercial binary bytes, private keys, passwords or raw screenshots entered the source commit. Restoration and launch instructions: `TEAM_PLAYTEST.md` / `TEAM_PLAYTEST_ZH.md`.
 
 Teammates still need to test external SFTP access, actual local recovery and game startup/physical input. Human movement smoothness, M1-specific reload/clip contact, warmed/stress FPS, new packaging, NPC behavior design and course acceptance remain open. No messages were sent to teammates.

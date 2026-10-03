@@ -14,6 +14,14 @@
   "external_connectivity": "not retested",
   "teammate_test": "delegated to teammates; not performed",
   "verified_at": "2026-10-03T10:01:50.518839-04:00",
-  "git_publication": "pending commit/push",
+  "git_publication": "verified_pushed_main",
+  "source_commit": "9d05a85cdfa3811da772745ec18641838f7117ae",
+  "remote_ref": "refs/heads/main",
+  "remote_commit_verification": "git ls-remote origin refs/heads/main matched source_commit after successful guarded push",
+  "teammate_guide": "Docs/Development/TEAM_PLAYTEST_ZH.md",
+  "local_restore_check": {"selected_files": 16056, "needed_files": 0, "download_bytes": 0, "conflicts": 0},
+  "local_launcher_check": "CheckOnly passed; Python/bridge disabled launch configuration and UE5.8.2 checked, no new game launched",
+  "restoration_unit_tests": 6,
+  "temporary_verified_download_bytes_removed": 540314845,
   "source_runtime_test": "CONTINUOUS_ARMS_NATIVE_RESULT_20261003.md"
 }
