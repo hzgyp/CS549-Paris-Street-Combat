@@ -1,0 +1,46 @@
+# Continuous first person arms experiment V3
+
+Date: 3 October 2026. Owner: yg745. The user authorized another repair attempt and confirmed **Call of Duty: WWII**, not Call of Duty 2, as the ordinary holding reference. Saved V3 remains the functional baseline, not visual acceptance.
+
+## Cases read and changed mechanism
+
+Read `Failures/README.md`, FP001 `FAILURE_ANALYSIS.md`, the V2 rebuild result, V4 crosshair result, rejected finger-layer result and the weapon intake result. FP001 moved an unsuitable full pose and exposed forearm capsule cut edges. V2's three full-body placements brought head/neck/equipment into the view. V4's numerical barrel convergence did not establish contact/framing. ShooterStarter's direct generic animation trial failed reference-pose compatibility and has modern sleeves/gloves; it is not silently substituted.
+
+This attempt separates visibility at the **geometry boundary near the shoulders**, rather than through animated elbow-to-hand opacity masks or additional full-body offset samples. Derive complete upper arms, sleeves, forearms and hands from the licensed existing US soldier exchange mesh. Preserve selected vertex coordinates, normals/UVs/materials, skin weights, bone names/hierarchy and source actions. Remove non-arm faces only from a new display derivative. Original model/rig/fingers/animations remain untouched. The full body remains the world representation; the arm derivative is owner-only and collision-free. This is bounded extraction of existing content, not new detailed character production or hand remodeling.
+
+Reference: [actual COD WWII ordinary M1 holding capture](https://steamuserimages-a.akamaihd.net/ugc/850479378283268857/6FD1E05F7B9B71363EA2DF1BAB83CE03BD257616/) from [the original player guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1190361079). Judge lower-right receiver/rear stock outside view, continuous support sleeve entering from the bottom, clear central world view. Do not infer the game's internal rig/camera settings from this image. Viewing the reference does not authorize copying its assets.
+
+## Prerequisites and protected scope
+
+FP001 archive verification must remain passed; its seven packages stay offline. Recheck all 40 retained native sizes/SHA and source exchange hash before authoring. Git is dirty: preserve existing changes, safely fetch without resetting; inspect processes before another writer. Binary ownership remains yg745. Active Content aliases the single writable Paris gameplay workspace; no whole-project or city copies.
+
+Source exchange: `Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Exchange/SK_WWII_US_Paratrooper_simple.fbx`, recorded SHA `6dc23e8d4ec793873da65b63f65d462279caf8a5120cb896978628e51ac6fc84`. Native authoritative mesh remains `/Game/ParisCombat/Characters/Adaptation/Meshes/SK_WWII_US_Paratrooper_simple_UE582_v1`.
+
+Pin Blender 5.2.2 and UE 5.8.2. Keep camera `(25,0,60)`, FOV 90, centered crosshair, model scale 1, original skin/source actions/finger-local transforms, saved city/NPC/navigation and original gun transactions. No ADS, new movement/VFX/AI, acquisition, immutable publication, Catalog/allowlist selection, packaging or commit/push.
+
+## Storage and order
+
+New source tools use `continuous_arms_v3` names. Private exchange/audit/capture evidence belongs under `Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ContinuousArmsV3/<unique identity>/`. This is a derivative of already accepted shared source, not new delivery intake. New experimental native mesh/skeleton, if the exchange checks pass, use `/Game/ParisCombat/Characters/FirstPersonContinuousArmsV3/`. They remain ignored, unselected/unpublished drafts with explicit size/SHA records. Do not overwrite any occupied identity.
+
+1. Audit the source exchange in Blender; identify continuous sleeve/hand geometry through skin groups descended from each upper arm. Extract faces by declared arm-weight coverage, retaining complete arms through the shoulder region. Never reshape, normalize weights, edit fingers or replace materials. Record retained faces/vertices and boundary location. Stop if the available mesh cannot supply continuous arms without visible mid-arm cuts.
+2. Save a new editable derivative and FBX, then fresh-import the FBX in a clean Blender scene. Compare retained positions/weights, bone hierarchy/reference transforms, UVs/materials and arm connectivity. An export success alone is insufficient.
+
+Exchange precision clarification: the first audit's exact rounded signatures/local-unit bone matrix threshold failed. Preserve that report. A read-only audit of the already-exported file compares world-space geometry (tolerance 0.00002 m), world bone matrices (0.00001 component tolerance), full hierarchy and skin weights (0.00001 tolerance), with vertex/face/UV-layer counts retained. These are declared floating-point export tolerances, not permission to move vertices or reweight. It writes a separate precision report and never rewrites the source/derivative. Native import separately compares actual arm reference transforms and rendered deformation.
+
+3. Import into the new native namespace with a separate experimental skeleton, never merging bones into or saving the original skeleton. Bind original native materials explicitly. Audit hierarchy/reference pose against the original mesh and test standard LeaderPose mapping; stop on incompatible deformation or finger pose. Save only the new derivative packages and record their hashes.
+4. In real-city PIE, freeze the original evaluated idle for a matched static comparison. Hide the full-body representation only from its owner; use the arm derivative at one declared normal-holding composition derived from the V2 near-right framing, **without another offset sweep**. Keep original evaluated hand/rifle relationship, original materials and continuous upper arms. A second pass is allowed only for a demonstrated harness error, not to disguise a failed design.
+5. Inspect actual viewport images before extending. Initial display placement is the already-tested near-right grasp `(22,22,-16)` cm; this is a diagnostic starting composition, not a COD parameter. Keep rear stock/shoulder boundary outside the frame. Record source/follower bone and finger deltas and grasp errors. The display gun is static/transient here; original `WeaponAppearance` stays bound to V3 and is owner-hidden. **New visible muzzle gameplay remains untested during this static phase.**
+
+## Early acceptance and stopping condition
+
+Harness corrections retained separately: `native_import_v1` used an unavailable struct field and saved no assets; v2 corrected the field, but a subsequent fresh load exposed WorldGrid materials because Unreal struct-array iteration returns copies. Repair only the new mesh with explicit `slots[index] = slot`, preserving its previous bytes privately and leaving its skeleton untouched. `static_v1` is geometry-only evidence, not textured acceptance. One identical-pose/identical-placement `static_v2` repeat must assert fresh-loaded original native materials; no new offset, source pose or geometry change is permitted by this correction.
+
+Early gate: actual Paris viewport, no head/neck/equipment intrusions, no exposed shoulder/forearm cut surfaces, a continuous readable support arm and natural ordinary M1 silhouette with rear stock outside view and clear center. Both full forearms need not be visible. Verify original 40 native hashes, unchanged source/camera/fingers, original material bindings and unchanged original WeaponAppearance. Inspect the exported/native deformation rather than accepting aggregate matrix counts.
+
+Stop before dynamics if extraction/reimport changes protected data, LeaderPose deformation fails, the shoulder boundary enters view or static holding remains unnatural. Preserve evidence and report the specific limitation; do not retune offset grids, add forearm capsule masks, revive FP001/V4 rejected assets or generate a character. A usable static direction goes to human visual review before extensive gameplay integration.
+
+After that human gate, a separate documented increment may evaluate original walking/start/stop/directional/pitch/fire/reload/lifecycle phases. Full-cycle shoulder boundary visibility and generic reload contact must be checked. Explicitly define the visible versus authoritative gun binding: original PC_DoShot reads WeaponAppearance transforms for barrel/muzzle obstruction. New binding must pass actual near-wall, camera-target/visible-direction, ammo/reload/death/reset and NPC regressions, not rely on old functional passes. Saved-map selection requires human review plus fresh-load tests and updated hashes. No such selection is implicit here.
+
+## Failure and rollback
+
+Preserve every failed report/capture/exit and original bytes. Runtime rollback is ending PIE. New derivative drafts stay isolated and unselected; removing them would require a separate verified cleanup, not a destructive reset. Never restore an old map/skeleton over unique work. At closeout verify original/native hashes, source exclusion, logs and process exit, and update the result/handoff honestly. This plan is not a test pass.

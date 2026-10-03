@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-10-03",
+  "owner": "yg745",
+  "engine": "UE 5.8.2",
+  "blender": "5.2.2 LTS",
+  "status": "selected_via_local_native_display_unpublished_not_catalog_or_restore_authority",
+  "scope": "Complete existing US soldier upper limbs for bounded first-person composition; originals remain unchanged",
+  "plan": "Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_IMPLEMENTATION_V3.md",
+  "active_city_checkpoint": "Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json",
+  "protected_original_count": 40,
+  "all_retained_active_native_count": 43,
+  "file_count": 2,
+  "total_size_bytes": 1519887,
+  "native_import_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ContinuousArmsV3/native_import_v2/result.json",
+  "current_native_binding_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ContinuousArmsV3/native_material_v1/result.json",
+  "exchange_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ContinuousArmsV3/exchange_v1/roundtrip_precision_v1.json",
+  "warnings": [
+    "Native importer reports invalid bind poses and time-zero rebinding; actual native reference transforms were checked, rendered deformation still requires inspection",
+    "Native importer reports missing FBX smoothing groups; fresh render appearance must be inspected"
+  ],
+  "source_model_modified": false,
+  "camera_modified": false,
+  "saved_city_changed": true,
+  "human_model_appearance_accepted": true,
+  "native_display_python_required": false,
+  "native_result": "Docs/Development/CONTINUOUS_ARMS_NATIVE_RESULT_20261003.md",
+  "gameplay_with_display_muzzle_tested": true,
+  "visual_acceptance": false,
+  "static_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ContinuousArmsV3/static_v2/result.json",
+  "human_review": "Yupu reports the preview model looks fine but movement stutters, then authorizes formal UE-controlled migration. Native layer now locally selected and bounded fresh tests pass; weapon-specific contact, smooth movement/performance and shipping acceptance remain open.",
+  "static_direction_accepted_by_user": true,
+  "dynamic_plan": "Docs/Development/CONTINUOUS_ARMS_DYNAMIC_IMPLEMENTATION_V1.md",
+  "dynamic_result": "Docs/Development/CONTINUOUS_ARMS_DYNAMIC_RESULT_20261003.md",
+  "dynamic_evidence": ["Evidence/ContinuousArmsV3/dynamic_full_v3/result.json", "Evidence/ContinuousArmsV3/dynamic_tail_v1/result.json"],
+  "dynamic_human_acceptance": false,
+  "muzzle_regression": {"identity": "arms_muzzle_v1", "cases": 16, "assertions": 66, "exit_code": 0, "near_wall_cm": 79, "runtime_only": true},
+  "result": "Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_RESULT_20261003.md",
+  "dependencies": [
+    "character-ue582-integration-baseline",
+    "/Game/USParatrooper/Materials/M_USParatrooperJacket",
+    "/Game/USParatrooper/Materials/MI_USParatrooper_feceA"
+  ],
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Characters/FirstPersonContinuousArmsV3/SK_PC_ContinuousArmsV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Characters/FirstPersonContinuousArmsV3/SK_PC_ContinuousArmsV3.uasset",
+      "size_bytes": 1503038,
+      "sha256": "05e270597f538bbd45e310a5c22e75d620b9af5109260a37091ad0c49a9fd010"
+    },
+    {
+      "package": "/Game/ParisCombat/Characters/FirstPersonContinuousArmsV3/SK_PC_ContinuousArmsV3_Skeleton",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Characters/FirstPersonContinuousArmsV3/SK_PC_ContinuousArmsV3_Skeleton.uasset",
+      "size_bytes": 16849,
+      "sha256": "01c8b101c31865e0c2a668668b33196e88d6ca6dd4ab74658974837e61ebd6d6"
+    }
+  ]
+}

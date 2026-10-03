@@ -4,6 +4,40 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 
 ## Active authority
 
+- [Team playtest restore and launch](Docs/Development/TEAM_PLAYTEST.md) / [组员中文试玩指南](Docs/Development/TEAM_PLAYTEST_ZH.md)
+- [Team publication implementation](Docs/Development/TEAM_PLAYTEST_PUBLICATION_IMPLEMENTATION_V1.md) / [中文实施](Docs/Development/TEAM_PLAYTEST_PUBLICATION_IMPLEMENTATION_V1_ZH.md)
+- [Verified native playtest publication](Assets/Sync/NATIVE_PLAYTEST_PUBLICATION_STATUS.json)
+- [Selected runtime dependency manifest](Assets/Sync/manifests/paris-gameplay-native-playtest.json)
+
+- [Native first-person display migration](Docs/Development/CONTINUOUS_ARMS_NATIVE_IMPLEMENTATION_V1.md) / [中文实施](Docs/Development/CONTINUOUS_ARMS_NATIVE_IMPLEMENTATION_V1_ZH.md)
+- [Selected native display result](Docs/Development/CONTINUOUS_ARMS_NATIVE_RESULT_20261003.md) / [中文结果](Docs/Development/CONTINUOUS_ARMS_NATIVE_RESULT_20261003_ZH.md)
+- [Current 43 native file checkpoint](Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json)
+- [Remaining model and animation requirements](Docs/Development/ASSET_GAPS_20261003.md) / [明日咸鱼清单](Docs/Development/ASSET_GAPS_20261003_ZH.md)
+
+- [Complete existing upper limbs experiment V3](Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_IMPLEMENTATION_V3.md) / [中文审阅](Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_IMPLEMENTATION_V3_ZH.md)
+- [Continuous arms static result and accepted direction](Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_RESULT_20261003.md) / [中文结果](Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_RESULT_20261003_ZH.md)
+- [Continuous arms motion validation](Docs/Development/CONTINUOUS_ARMS_DYNAMIC_IMPLEMENTATION_V1.md) / [中文实施](Docs/Development/CONTINUOUS_ARMS_DYNAMIC_IMPLEMENTATION_V1_ZH.md)
+- [Continuous arms motion and muzzle result](Docs/Development/CONTINUOUS_ARMS_DYNAMIC_RESULT_20261003.md) / [中文结果](Docs/Development/CONTINUOUS_ARMS_DYNAMIC_RESULT_20261003_ZH.md)
+- [Unselected continuous-arm derivative hashes](Assets/Integration/CONTINUOUS_ARMS_TRIAL_INVENTORY_20261003.json)
+
+- [Mandatory failure-case review](Failures/README.md)
+- [FP001 failure analysis and archive](Failures/FP001-20261003-first-person-view/FAILURE_ANALYSIS.md)
+- [Archive implementation and verification order](Docs/Development/FAILURE_ARCHIVE_IMPLEMENTATION_20261003.md)
+- [V3-based first-person rebuild V2](Docs/Development/FIRST_PERSON_PRESENTATION_REBUILD_V2.md) / [中文审阅](Docs/Development/FIRST_PERSON_PRESENTATION_REBUILD_V2_ZH.md)
+- [V2 static result: self-obstruction, no candidate selected](Docs/Development/FIRST_PERSON_PRESENTATION_REBUILD_RESULT_20261003.md) / [中文结果](Docs/Development/FIRST_PERSON_PRESENTATION_REBUILD_RESULT_20261003_ZH.md)
+
+- [Approved bounded rifle crosshair alignment and runtime-only review scope](Docs/Development/RIFLE_CROSSHAIR_ALIGNMENT_IMPLEMENTATION_V4.md)
+- [Measured rigid fitting failure and unchanged city checkpoint](Docs/Development/RIFLE_CROSSHAIR_ALIGNMENT_RESULT_20261002.md)
+
+- [Weapon holding, shot feedback and player actions implementation](Docs/Development/WEAPON_PRESENTATION_AND_PLAYER_ACTIONS_V1.md)
+- [Gun-only walking/reload attachment implementation](Docs/Development/RIFLE_ACTION_ATTACHMENT_IMPLEMENTATION_V3.md)
+- [Gun-only action trial results and residual contact gaps](Docs/Development/RIFLE_ACTION_ATTACHMENT_RESULT_20261002.md)
+- [Current unpublished city/rifle-action draft hashes](Assets/Integration/CITY_RIFLE_ACTION_DRAFT_INVENTORY_20261002.json)
+- [Historical transform-only correction and human residual-error report](Docs/Development/WEAPON_TRANSFORM_ONLY_RESULT_20261002.md)
+- [Rejected finger-layer repair history](Docs/Development/WEAPON_GRIP_REPAIR_RESULT_20261002.md)
+- [Historical rejected city/grip hashes](Assets/Integration/CITY_WEAPON_GRIP_DRAFT_INVENTORY_20261002.json)
+- [Read-only player-action candidate and preservation record](Assets/Integration/PLAYER_ACTION_CANDIDATES_20261002_V2.json)
+
 - [Assignment 3 asset-first MVP implementation v2](Docs/Development/ASSIGNMENT3_IMPLEMENTATION_V2.md)
 - [Existing-city gameplay implementation v1](Docs/Development/PARIS_CITY_GAMEPLAY_IMPLEMENTATION_V1.md)
 - [Actual-city setup/input results, 2 October](Docs/Development/PARIS_CITY_GAMEPLAY_RESULT_20261002.md)
@@ -13,8 +47,11 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 - [Early Paris package readiness/result checkpoint](Docs/Development/PARIS_WINDOWS_PACKAGE_RESULT_20261002.md)
 - [Paris navigation and shared AI work package](Docs/Development/PARIS_NAVIGATION_AND_AI_IMPLEMENTATION_V1.md)
 - [Actual Paris navigation checkpoint](Docs/Development/PARIS_NAVIGATION_RESULT_20261002.md)
-- [Current seven package-entry draft hashes](Assets/Integration/CITY_PACKAGE_DRAFT_INVENTORY_20261002.json)
-- [Current seven unpublished city/combat/HUD package hashes](Assets/Integration/CITY_COMBAT_DRAFT_INVENTORY_20261002.json)
+- [Navigation-only retained foundation work package and stop boundary](Docs/Development/PARIS_NAVIGATION_FOUNDATION_IMPLEMENTATION_V1.md)
+- [Retained navigation result and outstanding limits](Docs/Development/PARIS_NAVIGATION_FOUNDATION_RESULT_20261002.md)
+- [Historical seven pre-presentation retained-navigation draft hashes](Assets/Integration/CITY_NAVIGATION_DRAFT_INVENTORY_20261002.json)
+- [Historical seven pre-navigation package-entry hashes](Assets/Integration/CITY_PACKAGE_DRAFT_INVENTORY_20261002.json)
+- [Historical seven city/combat/HUD package hashes](Assets/Integration/CITY_COMBAT_DRAFT_INVENTORY_20261002.json)
 - [Historical five-package S1 checkpoint](Assets/Integration/CITY_GAMEPLAY_DRAFT_INVENTORY_20261002.json)
 - [Asset-first correction and completed cleanup, 2 October](Docs/Development/ASSET_FIRST_CLEANUP_20261002.md)
 

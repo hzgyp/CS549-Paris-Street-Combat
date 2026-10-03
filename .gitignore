@@ -58,6 +58,10 @@
 # The stopped local character experiment is not a public production/source dependency.
 /Unreal/ParisStreetCombat/Content/ParisCombat/Animation/RetargetDraft/
 /Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Animation/WeaponPresentationV1/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Animation/WeaponAimingV4/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/WeaponAimingV4/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/WeaponAttachmentV3/
 /Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/
 /Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/
 # New team city setup is unpublished native asset bytes; source/hash metadata stays in Git.
@@ -100,3 +104,17 @@ Thumbs.db
 ~$*
 /tmp/
 /output/qa/
+
+# Failure archives keep only source, analysis and metadata in Git.
+/Failures/**/Private/
+/Failures/**/*.uasset
+/Failures/**/*.umap
+/Failures/**/*.dll
+/Failures/**/*.pdb
+# New bounded view-composition drafts remain private native bytes.
+/Unreal/ParisStreetCombat/Content/ParisCombat/Characters/FirstPersonContinuousArmsV3/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Animation/FirstPersonViewV2/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/FirstPersonViewV2/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Materials/FirstPersonViewV2/
+# Native gameplay bytes are shared through SFTP, including team Blueprints.
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/ContinuousArmsNativeV1/

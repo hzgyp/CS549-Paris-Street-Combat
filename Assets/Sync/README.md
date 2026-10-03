@@ -1,5 +1,9 @@
 # Published SFTP asset baselines
 
+## Current Paris team playtest
+
+Private release `paris-native-playtest-20261003-v1` is Catalog-selected as `paris-gameplay-native-playtest`. Restore its 206 non-city native packages together with `france-liberation-content`; other historical/source/lab manifests are not required to play. It reuses 195 objects and uploads 11 changed/new objects (5,694,247 bytes). All 206 final objects and release manifest were downloaded via pinned-host SFTP and hashed. See [publication receipt](NATIVE_PLAYTEST_PUBLICATION_STATUS.json), [English handoff](../../Docs/Development/TEAM_PLAYTEST.md) and [中文试玩指南](../../Docs/Development/TEAM_PLAYTEST_ZH.md). Current saved map/first-person display is UE-native; no runtime Python/bridge. This is not a new packaged EXE or a second-machine pass.
+
 ## Selected rifle-motion baseline, 2 October
 
 The D059 generic source-motion subset passed bounded native/visual/fresh-load checks: 15 clips, 33 UE5.8.2 packages, plus descriptor/config (**35 files / 18,974,540 bytes**, 18.1 MiB). `CATALOG.json` now selects `rifle-pro-mocap-ue582-selected`; [publication status](RIFLE_MOTION_PUBLICATION_STATUS.json) records all 35 actual SFTP downloads and SHA-256/size checks, two manifest downloads, an original sample and workspace CRUD. An exact elevated repair verified shared-account Modify on both new trees; root ACL stayed unchanged.

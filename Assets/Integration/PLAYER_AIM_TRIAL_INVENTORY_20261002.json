@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-10-02",
+  "owner": "yg745",
+  "engine": "UE 5.8.2",
+  "status": "unselected_unpublished_workspace_trials_not_catalog_or_restore_authority",
+  "scope": "Existing-aim comparison and separate common upper-body/rigid gun convergence; original source motions/fingers/camera/lower body preserved",
+  "active_city_checkpoint": "Assets/Integration/CITY_RIFLE_ACTION_DRAFT_INVENTORY_20261002.json",
+  "active_city_unchanged": true,
+  "current_city_or_release_selection_changed": false,
+  "storage": "One physical writable Paris gameplay workspace; no immutable publication",
+  "file_count": 3,
+  "retained_original_file_count": 37,
+  "all_retained_file_count": 40,
+  "total_size_bytes": 702473,
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Animation/WeaponAimingV4/ABP_PC_PlayerAimV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAimingV4/ABP_PC_PlayerAimV4.uasset",
+      "size_bytes": 225769,
+      "sha256": "9337823f7910abf10201803baf7f29f140c69f09b5dd13633ecb3c09141c751d"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/WeaponAimingV4/ABP_PC_PlayerRigidAimV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAimingV4/ABP_PC_PlayerRigidAimV4.uasset",
+      "size_bytes": 195329,
+      "sha256": "a57b2780d6132e0a55da2f6e054ec8440225dfbf83ea091cb535f83ea09d4252"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/WeaponAimingV4/BP_PC_PlayerRifleAimV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/WeaponAimingV4/BP_PC_PlayerRifleAimV4.uasset",
+      "size_bytes": 281375,
+      "sha256": "86acd78e7b2c4e0ab2b94135404df347ae09a57b825b5f2b121cbeab3f93af40"
+    }
+  ],
+  "human_review": "Completed: Yupu confirms arms outside frame and movement camera occlusion; visual acceptance failed. Runtime-only PIE substitution remains unselected; saved V3 city unchanged.",
+  "repair_handoff": "Failures/FP001-20261003-first-person-view/Docs/FIRST_PERSON_VIEW_REPAIR_HANDOFF_20261002.md",
+  "existing_aim_pose_comparison": "author_v4 + live_v5; unselected contact limitation",
+  "common_rotation_comparison": "rigid_author_v1 + rigid_live_v1; abnormal shutdown retained, not clean runtime acceptance",
+  "evidence_root": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/RifleCrosshairV4"
+}

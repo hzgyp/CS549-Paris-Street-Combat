@@ -1,0 +1,53 @@
+{
+  "case_id": "FP001-20261003-first-person-view",
+  "date": "2026-10-03",
+  "passed": true,
+  "archived_entries_verified": 664,
+  "archived_bytes": 640322531,
+  "native_packages_moved": 7,
+  "previous_native_files_unchanged": 40,
+  "map_sha256": "d00056e8e65d3de6cf7c6af08fe9e52fa4e95e656bfe10a7392c03a82409f51f",
+  "reference_audit": {
+    "passed": true,
+    "external_referencers": 0,
+    "report": "tmp/failure-archive-20261003/dependencies.json"
+  },
+  "baseline_combat": {
+    "identity": "archive_v3_v1",
+    "cases": 15,
+    "assertions": 62,
+    "passed": true,
+    "exit_code": 0,
+    "native_unchanged": true,
+    "report": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/Runtime/archive_v3_v1/combat.json",
+    "report_sha256": "e0f7cffd5a0b704d6ac003edd8d8096aaac0fdccc3ab6a63e99a930abd1bbd69",
+    "log": "tmp/failure-archive-20261003/baseline_v3.log",
+    "log_sha256": "efe8972e867b4f2b1ee84c074d52fb3558c94bd144d0069aec4e996e55848696",
+    "error_fatal_ensure_assert_matches": []
+  },
+  "storage_check": {
+    "command": "Tools/check_asset_storage.py --local --git",
+    "selected_files_checked": 17273,
+    "exit_code": 0,
+    "remote_publication": false
+  },
+  "restored_pre_fp_bridge": [
+    {
+      "name": "UnrealEditor-ParisEditorBridge.dll",
+      "sha256": "b5d9ce6828b71e5416f12f28237ea8ae20bc69a4ae80a22760aba3144aa994f1"
+    },
+    {
+      "name": "UnrealEditor-ParisEditorBridge.pdb",
+      "sha256": "b3582c712f72d5b2154c5467173b534da549cdaa4001c88af8768d86221e0342"
+    },
+    {
+      "name": "UnrealEditor.modules",
+      "sha256": "0e74bce9ed8efa1760434239096b642722903c8652df7766407fb327c605d7c8"
+    }
+  ],
+  "source_validation": {
+    "python_ast": true,
+    "powershell_parse": true
+  },
+  "scope": "Archive closeout and preserved V3 functionality; no new FP visual acceptance, no release/commit/push"
+}

@@ -1,4 +1,6 @@
-param([Parameter(Mandatory=$true)][ValidatePattern('^[a-zA-Z0-9_-]+$')][string]$Identity)
+param([Parameter(Mandatory=$true)][ValidatePattern('^[a-zA-Z0-9_-]+$')][string]$Identity,
+      [ValidateSet('CITY_PACKAGE_DRAFT_INVENTORY_20261002.json','CITY_NAVIGATION_DRAFT_INVENTORY_20261002.json','CITY_WEAPON_GRIP_DRAFT_INVENTORY_20261002.json','CITY_WEAPON_TRANSFORM_DRAFT_INVENTORY_20261002.json','CITY_RIFLE_ACTION_DRAFT_INVENTORY_20261002.json')]
+      [string]$NativeInventory = 'CITY_PACKAGE_DRAFT_INVENTORY_20261002.json')
 $ErrorActionPreference = 'Stop'
 $taskRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
 $taskBuildDir = Join-Path $taskRoot "tmp/paris-city-package-20261002/$Identity"
@@ -7,7 +9,7 @@ if (Get-Process UnrealEditor,UnrealEditor-Cmd -ErrorAction SilentlyContinue) { t
 $taskProject = Join-Path $taskRoot 'Unreal/ParisStreetCombat/WW2FranceLiberation.uproject'
 $taskUAT = 'C:/Program Files/Epic Games/UE_5.8/Engine/Build/BatchFiles/RunUAT.bat'
 $taskGuardFiles = @{}
-foreach ($taskInventoryName in @('RELOAD_DRAFT_SNAPSHOT_20261002.json','CITY_PACKAGE_DRAFT_INVENTORY_20261002.json')) {
+foreach ($taskInventoryName in @('RELOAD_DRAFT_SNAPSHOT_20261002.json',$NativeInventory)) {
     $taskInventory = Get-Content -LiteralPath (Join-Path $taskRoot "Assets/Integration/$taskInventoryName") -Raw | ConvertFrom-Json
     foreach ($taskItem in $taskInventory.files) {
         $taskPath = Join-Path $taskRoot $taskItem.path
@@ -23,6 +25,7 @@ $taskRecord = [ordered]@{
     identity=$Identity; started_at=(Get-Date).ToString('o'); scope='Private early actual-city Windows Development build; no full mission/FPS/public distribution pass'
     git_revision=(& git -C $taskRoot rev-parse HEAD); dirty_source=$true; engine='UE 5.8.2'
     entry='/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1'; configs=@{}; guarded_files=$taskGuardFiles.Count
+    native_inventory=$NativeInventory
 }
 foreach ($taskConfig in @('DefaultEngine.ini','DefaultGame.ini','DefaultInput.ini')) {
     $taskRecord.configs[$taskConfig] = (Get-FileHash -LiteralPath (Join-Path $taskRoot "Unreal/ParisStreetCombat/Config/$taskConfig") -Algorithm SHA256).Hash.ToLowerInvariant()

@@ -1,5 +1,7 @@
 # Assignment 3 MVP Implementation Version 2
 
+**Latest 2 October execution limit:** Yupu requests navigation foundation only, then pause. Follow `PARIS_NAVIGATION_FOUNDATION_IMPLEMENTATION_V1.md`; do not automatically implement follow/patrol, decision/Behavior Tree, coordinator or faction interaction. The tree and both factions' interaction must first be jointly designed/reviewed. This supersedes continuous-execution wording below for the current work package, without dropping those eventual MVP requirements.
+
 Corrected 2 October 2026 following Yupu's asset-first direction. Implement the Assignment 2 technical slice on the existing Paris environment, characters and motions. Minimal means fewer optional features, not replacement of the accepted asset foundation. Yupu has resumed development and authorized continuous execution, pausing only for genuinely human-required review/decisions. No unrun acceptance item is passed by this plan.
 
 ## Current state and cleanup boundary

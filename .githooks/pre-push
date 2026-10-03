@@ -4,4 +4,15 @@ if [ -z "$runtime" ]; then
   echo "Run Tools/configure_git_hooks.ps1 with a Python 3.10+ runtime before pushing."
   exit 1
 fi
-exec "$runtime" Tools/check_asset_storage.py --git --history
+set -- --git
+while read -r local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/*|refs/tags/*) ;;
+    *) echo "Refusing non-source destination (including private recovery/mirror refs): $remote_ref"; exit 1 ;;
+  esac
+  case "$local_sha" in
+    0000000000000000000000000000000000000000) ;;
+    *) set -- "$@" --publish-ref "$local_sha" ;;
+  esac
+done
+exec "$runtime" Tools/check_asset_storage.py "$@"

@@ -16,6 +16,14 @@
 #include "Animation/BlendSpace1D.h"
 #include "AnimGraphNode_BlendSpacePlayer.h"
 #include "AnimGraphNode_Root.h"
+#include "AnimGraphNode_ModifyBone.h"
+#include "AnimGraphNode_LookAt.h"
+#include "AnimGraphNode_AimOffsetLookAt.h"
+#include "AnimGraphNode_LayeredBoneBlend.h"
+#include "AnimGraphNode_SaveCachedPose.h"
+#include "AnimGraphNode_UseCachedPose.h"
+#include "AnimGraphNode_LocalToComponentSpace.h"
+#include "AnimGraphNode_ComponentToLocalSpace.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/DirectionalLightComponent.h"
@@ -919,6 +927,161 @@ FString UParisBlueprintAuthoring::ProbeMovement(const FString& ClassPath, int32 
     Report->SetArrayField(TEXT("captures"), Captures);
     World->EndPlay(EEndPlayReason::Quit); GEngine->DestroyWorldContext(World); World->DestroyWorld(false);
     return ParisDraft::Json(Report);
+}
+
+FString UParisBlueprintAuthoring::AddAlliedGripLayer(UAnimBlueprint* BP)
+{
+    auto Result = MakeShared<FJsonObject>();
+    Result->SetBoolField(TEXT("success"), false);
+    if (!BP || BP->GetPathName() != TEXT("/Game/ParisCombat/Animation/WeaponPresentationV1/ABP_PC_AlliedGripV1.ABP_PC_AlliedGripV1"))
+        return ParisDraft::Json(Result);
+    UEdGraph* Graph = nullptr;
+    for (UEdGraph* G : BP->FunctionGraphs) if (G->GetFName() == TEXT("AnimGraph")) Graph = G;
+    if (!Graph) return ParisDraft::Json(Result);
+    TArray<UAnimGraphNode_Root*> Roots; Graph->GetNodesOfClass(Roots);
+    TArray<UAnimGraphNode_BlendSpacePlayer*> Players; Graph->GetNodesOfClass(Players);
+    TArray<UAnimGraphNode_ModifyBone*> Existing; Graph->GetNodesOfClass(Existing);
+    if (Roots.Num()!=1 || Players.Num()!=1 || Existing.Num()!=0) return ParisDraft::Json(Result);
+    auto* RootPin=Roots[0]->FindPin(TEXT("Result"));
+    auto* PlayerPin=Players[0]->FindPin(TEXT("Pose"));
+    if (!RootPin || !PlayerPin || RootPin->LinkedTo.Num()!=1 || RootPin->LinkedTo[0]!=PlayerPin)
+        return ParisDraft::Json(Result);
+    BP->Modify(); Graph->Modify(); RootPin->BreakAllPinLinks();
+    auto* ToComponent=ParisDraft::Node<UAnimGraphNode_LocalToComponentSpace>(Graph,200,0);
+    ParisDraft::Wire(Players[0],TEXT("Pose"),ToComponent,TEXT("LocalPose"));
+    UEdGraphNode* Previous=ToComponent;
+    TArray<TSharedPtr<FJsonValue>> Bones;
+    int32 X=450;
+    for (const TCHAR* Finger : {TEXT("index"),TEXT("middle"),TEXT("ring"),TEXT("pinky")})
+    {
+        for (int32 Segment=1; Segment<=3; ++Segment)
+        {
+            const FName Bone(*FString::Printf(TEXT("%s_0%d_l"),Finger,Segment));
+            auto* Control=ParisDraft::Node<UAnimGraphNode_ModifyBone>(Graph,X,0); X+=250;
+            Control->Node.BoneToModify.BoneName=Bone;
+            Control->Node.TranslationMode=BMM_Ignore; Control->Node.ScaleMode=BMM_Ignore;
+            Control->Node.RotationMode=BMM_Additive; Control->Node.RotationSpace=BCS_BoneSpace;
+            const double Yaw=Segment==1 ? -30.0 : (Segment==2 ? -15.0 : -10.0);
+            Control->Node.Rotation=FRotator(0,Yaw,0); Control->Node.Alpha=1.0f;
+            if (auto* Pin=Control->FindPin(TEXT("Rotation")))
+                Pin->DefaultValue=FString::Printf(TEXT("(Pitch=0,Yaw=%f,Roll=0)"),Yaw);
+            ParisDraft::Wire(Previous,Previous==ToComponent ? TEXT("ComponentPose") : TEXT("Pose"),Control,TEXT("ComponentPose"));
+            Previous=Control; Bones.Add(MakeShared<FJsonValueString>(Bone.ToString()));
+        }
+    }
+    auto* ToLocal=ParisDraft::Node<UAnimGraphNode_ComponentToLocalSpace>(Graph,X,0);
+    ParisDraft::Wire(Previous,TEXT("Pose"),ToLocal,TEXT("ComponentPose"));
+    ParisDraft::Wire(ToLocal,TEXT("Pose"),Roots[0],TEXT("Result"));
+    FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(BP);
+    TArray<TSharedPtr<FJsonValue>> Diagnostics;
+    Result->SetBoolField(TEXT("success"),ParisDraft::Compile(BP,Diagnostics));
+    Result->SetArrayField(TEXT("bones"),Bones);
+    Result->SetArrayField(TEXT("diagnostics"),Diagnostics);
+    return ParisDraft::Json(Result);
+}
+
+FString UParisBlueprintAuthoring::AddPlayerAimLayer(UAnimBlueprint* BP, FVector LocalAimAxis)
+{
+    auto Result=MakeShared<FJsonObject>(); Result->SetBoolField(TEXT("success"),false);
+    if(!BP || BP->GetPathName()!=TEXT("/Game/ParisCombat/Animation/WeaponAimingV4/ABP_PC_PlayerAimV4.ABP_PC_PlayerAimV4") ||
+       !LocalAimAxis.IsNormalized()) return ParisDraft::Json(Result);
+    UEdGraph* Graph=nullptr;
+    for(UEdGraph* G:BP->FunctionGraphs) if(G->GetFName()==TEXT("AnimGraph")) Graph=G;
+    if(!Graph) return ParisDraft::Json(Result);
+    TArray<UAnimGraphNode_Root*> Roots; Graph->GetNodesOfClass(Roots);
+    TArray<UAnimGraphNode_BlendSpacePlayer*> Players; Graph->GetNodesOfClass(Players);
+    TArray<UAnimGraphNode_AimOffsetLookAt*> Existing; Graph->GetNodesOfClass(Existing);
+    if(Roots.Num()==1 && Players.Num()==1 && Existing.Num()==1)
+    {
+        TArray<UAnimGraphNode_LayeredBoneBlend*> Layers; Graph->GetNodesOfClass(Layers);
+        if(Layers.Num()!=1 || Layers[0]->Node.LayerSetup.Num()!=1 ||
+           Layers[0]->Node.LayerSetup[0].BranchFilters.Num()!=11) return ParisDraft::Json(Result);
+        BP->Modify(); Graph->Modify(); Layers[0]->Modify();
+        Layers[0]->Node.LayerSetup[0].BranchFilters[0].BoneName=TEXT("spine_01");
+        FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(BP);
+        Result->SetBoolField(TEXT("success"),true);
+        Result->SetStringField(TEXT("adaptation"),TEXT("Existing aim mask includes all upper spine; original finger-root exclusions retained"));
+        return ParisDraft::Json(Result);
+    }
+    if(Roots.Num()!=1 || Players.Num()!=1 || Existing.Num()!=0) return ParisDraft::Json(Result);
+    auto* RootPin=Roots[0]->FindPin(TEXT("Result"));
+    if(!RootPin || RootPin->LinkedTo.Num()!=1 || RootPin->LinkedTo[0]!=Players[0]->FindPin(TEXT("Pose")))
+        return ParisDraft::Json(Result);
+    BP->Modify(); Graph->Modify(); RootPin->BreakAllPinLinks();
+    auto* Aim=ParisDraft::Node<UAnimGraphNode_AimOffsetLookAt>(Graph,600,0);
+    auto* Offset=LoadObject<UBlendSpace>(nullptr,TEXT("/Game/RifleAnimsetPro/BlendSpaces/RifleStandAim.RifleStandAim"));
+    if(!Offset) return ParisDraft::Json(Result);
+    static_cast<FAnimNode_BlendSpacePlayerBase*>(&Aim->Node)->SetBlendSpace(Offset);
+    Aim->Node.SourceSocketName=TEXT("hand_r"); Aim->Node.SocketAxis=LocalAimAxis; Aim->Node.Alpha=1.f;
+    for(auto& P:Aim->ShowPinForProperties)
+        if(P.PropertyName==TEXT("LookAtLocation") || P.PropertyName==TEXT("Alpha")) P.bShowPin=true;
+    Aim->ReconstructNode();
+    auto* Cache=ParisDraft::Node<UAnimGraphNode_SaveCachedPose>(Graph,250,0);
+    Cache->CacheName=TEXT("PC_OriginalStride");
+    auto* UseBase=ParisDraft::Node<UAnimGraphNode_UseCachedPose>(Graph,350,250);
+    auto* UseAim=ParisDraft::Node<UAnimGraphNode_UseCachedPose>(Graph,350,0);
+    UseBase->SaveCachedPoseNode=Cache;
+    UseAim->SaveCachedPoseNode=Cache;
+    auto* Layer=ParisDraft::Node<UAnimGraphNode_LayeredBoneBlend>(Graph,900,0);
+    Layer->Node.bMeshSpaceRotationBlend=false;
+    Layer->Node.LayerSetup[0].BranchFilters.Reset();
+    FBranchFilter Upper; Upper.BoneName=TEXT("spine_03"); Upper.BlendDepth=1;
+    Layer->Node.LayerSetup[0].BranchFilters.Add(Upper);
+    for(const TCHAR* Side:{TEXT("l"),TEXT("r")})
+        for(const TCHAR* Finger:{TEXT("thumb"),TEXT("index"),TEXT("middle"),TEXT("ring"),TEXT("pinky")})
+        { FBranchFilter F; F.BoneName=FName(*FString::Printf(TEXT("%s_01_%s"),Finger,Side)); F.BlendDepth=-1;
+          Layer->Node.LayerSetup[0].BranchFilters.Add(F); }
+    Layer->Node.BlendWeights[0]=1.f;
+    ParisDraft::Wire(Players[0],TEXT("Pose"),Cache,TEXT("Pose"));
+    ParisDraft::Wire(UseAim,TEXT("Pose"),Aim,TEXT("BasePose"));
+    ParisDraft::Wire(UseBase,TEXT("Pose"),Layer,TEXT("BasePose"));
+    ParisDraft::Wire(Aim,TEXT("Pose"),Layer,TEXT("BlendPoses_0"));
+    ParisDraft::Wire(Layer,TEXT("Pose"),Roots[0],TEXT("Result"));
+    ParisDraft::Wire(ParisDraft::Get(Graph,TEXT("AimTargetWorld")),TEXT("AimTargetWorld"),Aim,TEXT("LookAtLocation"));
+    ParisDraft::Wire(ParisDraft::Get(Graph,TEXT("AimAlpha")),TEXT("AimAlpha"),Aim,TEXT("Alpha"));
+    FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(BP);
+    Result->SetBoolField(TEXT("success"), Aim->FindPin(TEXT("LookAtLocation")) && Aim->FindPin(TEXT("Alpha")));
+    Result->SetStringField(TEXT("bone"),TEXT("spine_03; finger roots excluded"));
+    Result->SetStringField(TEXT("asset"),Offset->GetPathName());
+    Result->SetStringField(TEXT("axis"),LocalAimAxis.ToString());
+    return ParisDraft::Json(Result);
+}
+
+FString UParisBlueprintAuthoring::AddPlayerRigidAimLayer(UAnimBlueprint* BP, FVector LocalAimAxis)
+{
+    auto Result=MakeShared<FJsonObject>(); Result->SetBoolField(TEXT("success"),false);
+    if(!BP || BP->GetPathName()!=TEXT("/Game/ParisCombat/Animation/WeaponAimingV4/ABP_PC_PlayerRigidAimV4.ABP_PC_PlayerRigidAimV4") ||
+       !LocalAimAxis.IsNormalized()) return ParisDraft::Json(Result);
+    UEdGraph* Graph=nullptr;
+    for(UEdGraph* G:BP->FunctionGraphs) if(G->GetFName()==TEXT("AnimGraph")) Graph=G;
+    if(!Graph) return ParisDraft::Json(Result);
+    TArray<UAnimGraphNode_Root*> Roots; Graph->GetNodesOfClass(Roots);
+    TArray<UAnimGraphNode_BlendSpacePlayer*> Players; Graph->GetNodesOfClass(Players);
+    if(Roots.Num()!=1 || Players.Num()!=1) return ParisDraft::Json(Result);
+    BP->Modify(); Graph->Modify();
+    const TArray<UEdGraphNode*> Old=Graph->Nodes;
+    for(UEdGraphNode* N:Old) if(N!=Roots[0] && N!=Players[0]) FBlueprintEditorUtils::RemoveNode(BP,N,true);
+    Roots[0]->FindPin(TEXT("Result"))->BreakAllPinLinks();
+    auto* ToComponent=ParisDraft::Node<UAnimGraphNode_LocalToComponentSpace>(Graph,200,0);
+    auto* Aim=ParisDraft::Node<UAnimGraphNode_LookAt>(Graph,450,0);
+    Aim->Node.BoneToModify.BoneName=TEXT("spine_03");
+    Aim->Node.LookAt_Axis.Axis=LocalAimAxis; Aim->Node.LookAt_Axis.bInLocalSpace=true;
+    Aim->Node.bUseLookUpAxis=false; Aim->Node.LookAtClamp=85.f;
+    Aim->Node.InterpolationTime=0.f; Aim->Node.Alpha=1.f;
+    for(auto& P:Aim->ShowPinForProperties)
+        if(P.PropertyName==TEXT("LookAtLocation") || P.PropertyName==TEXT("Alpha")) P.bShowPin=true;
+    Aim->ReconstructNode();
+    auto* ToLocal=ParisDraft::Node<UAnimGraphNode_ComponentToLocalSpace>(Graph,700,0);
+    ParisDraft::Wire(Players[0],TEXT("Pose"),ToComponent,TEXT("LocalPose"));
+    ParisDraft::Wire(ToComponent,TEXT("ComponentPose"),Aim,TEXT("ComponentPose"));
+    ParisDraft::Wire(Aim,TEXT("Pose"),ToLocal,TEXT("ComponentPose"));
+    ParisDraft::Wire(ToLocal,TEXT("Pose"),Roots[0],TEXT("Result"));
+    ParisDraft::Wire(ParisDraft::Get(Graph,TEXT("AimTargetWorld")),TEXT("AimTargetWorld"),Aim,TEXT("LookAtLocation"));
+    ParisDraft::Wire(ParisDraft::Get(Graph,TEXT("AimAlpha")),TEXT("AimAlpha"),Aim,TEXT("Alpha"));
+    FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(BP);
+    Result->SetBoolField(TEXT("success"),true); Result->SetStringField(TEXT("axis"),LocalAimAxis.ToString());
+    Result->SetStringField(TEXT("policy"),TEXT("Common spine_03 rotation; original finger locals/lower body; 85 degree clamp; standard nodes only"));
+    return ParisDraft::Json(Result);
 }
 
 #include "ParisReloadDraft.inl"

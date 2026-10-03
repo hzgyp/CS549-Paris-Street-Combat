@@ -1,0 +1,41 @@
+# Continuous arms motion validation
+
+## Interactive review launch, 3 October
+
+Yupu requests opening the validated candidate. Re-read FP001 and the failure index; reuse the reviewed RuntimeTrial setup/update functions only, not the motion test sequence or frozen capture timing. New human-preview tools and a unique private evidence identity open the existing city visibly with the bridge disabled, warm up PIE and update the transient owner display at normal speed. No fixtures, forced inputs, ammo changes, native saves or camera changes. Early acceptance is a ready report with original AnimBP/camera, display binding and unchanged 42 native files; a running editor alone is not readiness. Stop the callback and end PIE on an error, retaining evidence without automatically closing the user's editor. Ending PIE is rollback; do not restart automatically. Once opened this is a user-owned session: no timeout kill or concurrent writer. Human movement/reload/contact acceptance remains pending, distinct from automated tests.
+
+Date: 3 October 2026. Owner: yg745. Yupu reviewed the complete-arm static picture, said it was much better and authorized movement/reload validation. This clears the ordinary-holding direction gate, not dynamic or shipping acceptance.
+
+## Cases reviewed and changed mechanism
+
+Read the failure index, FP001 analysis, V2 static rebuild result, V4 alignment result, rejected finger-layer result and the continuous-arm V3 plan/result. Preserve the accepted complete shoulder-to-hand derivative and camera-local ordinary grasp `(22,22,-16)` cm. No offset sweep, capsule masks, finger repair, source animation edits or new anatomy. Unlike the static frozen comparison, the display follows the current source pose throughout locomotion and reload. Its rigid common transform preserves evaluated finger poses rather than rebuilding the hands.
+
+## Scope and prerequisites
+
+Verify all 42 retained native sizes/SHA, source exchange hash, ownership and closed editors. Safely fetch Git without merging over dirty work. Use UE 5.8.2 with ParisEditorBridge disabled. The saved V3 city, source models/rig/actions, original Stride AnimBP, camera `(25,0,60)`/FOV 90, NPC representations and gunplay/reload/lifecycle functions remain protected. No map save, asset release, AI, VFX, ADS, new actions, packaging, commit or push.
+
+The first increment is a transient diagnostic in the existing city. Owner-only collision-free arms use LeaderPose from the original source. Ready computes the common framing from current source/gun relation, keeping the accepted right-grasp anchor. Reload uses the Ready mesh-to-camera framing at entry, letting the original wrist action move naturally; it must not continually aim at the released support hand. Dead hides the owner display, reset restores it. No timer-created ammunition or animation substitute is permitted.
+
+## Storage and execution order
+
+New tools use `continuous_arms_dynamic` names; each run preserves its source snapshot under the existing private workspace `Evidence/ContinuousArmsV3/<new identity>/`. No new native package is planned for diagnostic validation.
+
+1. Actual movement input: start, forward/back/left/right travel, stop; check velocity and source/follower pose. Keep existing walk speed. Test pitch 0/±30/±60 and yaw 45.
+2. Actual stationary and moving reload at beginning/middle/late phases. Freeze simulation only for explicitly labeled phase photographs; resume before advancing gameplay. Record game time, action, speed and capture file at request. Do not attribute delayed frames to earlier phases. Inspect individual images for sleeve/shoulder boundary, central obstruction, elbow deformation and hand contact.
+3. Request fire using unchanged functions; record whether a firing animation is actually connected. Test ammo conservation, reload busy guards, death/reset and restored original AnimBP. Existing generic reload is not an M1-specific en-bloc clip action.
+4. The visual-only pass keeps original WeaponAppearance and therefore cannot pass new visible-muzzle gameplay. After motion inspection, run a separate transient binding experiment: the displayed rifle transform supplies WeaponAppearance for unchanged gunplay. Regress actual barrel/muzzle/world/friendly blockers, near wall, ammo/reload/cooldown/death/reset. Explicitly record any limitation; never disable collision or move the crosshair to obtain a pass.
+5. Verify hashes, logs, exits and inspected images; produce synchronized English/Chinese result. Human motion/contact review precedes any new native gameplay display implementation or saved-map selection.
+
+## Early check and stopping condition
+
+First inspect idle, moving and early reload before running the whole matrix. Stop this mechanism if a shoulder cut enters the view, large self-obstruction returns, source/follower finger pose changes, or reload makes the accepted framing unusable. A demonstrated harness/tick-order error may receive a separately named corrected run; retain failures. Do not solve a failed view with new offsets, masks or finger deformation. Mark generic reload contact gaps and absent actions explicitly rather than inventing them.
+
+Runtime rollback is ending PIE; saved bytes must be unchanged. Any native implementation requires a subsequent documented scope, separate package names and fresh runtime tests without diagnostic Python. This plan is not a pass.
+
+Early harness review: `dynamic_early_v1` was interrupted by a vendor BP_Building_Parent loop before arm setup; retain its log and external review, task termination is not a clean pass. The same-startup repeat `dynamic_early_v2` exited 0 and captured five actual phases with 300 cm/s forward movement, unchanged 42 files and source/follower fingers. All five images were inspected; no exposed shoulder/cut or head intrusion was observed, but the moving image retains motion blur. The full run keeps the same framing and pauses at least 0.8 seconds/12 render ticks before requesting each photograph, asserting unchanged game time and source finger pose during settling. Twelve additional sampled walk phases supply a pose-series preview rather than claiming a real-time recording. Do not raise the engine loop limit or edit vendor assets to bypass the startup failure.
+
+Capture correction supersedes the early visual finding above: the stopped image is an editor viewport (axis/icons and different framing), so the five-image early gate is incomplete, not passed. `dynamic_full_v1` was cancelled after discovering this. Preserve both reviews/exits. The corrected repeat does not use SetGamePaused: freeze source animation/component tick and player time, slow world time to 0.0001, settle at least 0.8 seconds/12 render callbacks, assert source finger pose/action stability and game-time drift below 0.01 seconds, then capture. Restore normal timing before the next phase. This is diagnostic capture, not shipping slow motion or runtime animation alteration. All actual photographs must be inspected before another full run.
+
+`dynamic_early_v3` now passes the five-image internal gate: all images are actual game views, exit 0 and unchanged protected bytes. The attempted full startup identity v2 loaded/ticked the editor but produced no test artifact/PIE start within four minutes; it was cancelled, cause unverified. A single console `py` dispatch repeat uses a new identity and identical source/framing. This changes only startup routing, not engine settings or assets.
+
+Console-dispatched `dynamic_full_v3` produced 27 inspected pictures through ±60 pitch, then failed the harness's exact camera-vector equality at yaw 45: `(25.0000000000002,-1.723e-13,60)` cm. This is a retained failed run, exit 0 is not a pass. No camera setter or native save was added; use a declared 0.000001 cm vector / 0.000001 degree FOV comparison tolerance for floating-point attachment roundoff. Complete the remaining yaw/fire/moving-reload/death/reset phases in a fresh `tail` run, first using actual reload to establish 8 loaded/10 reserve rather than injecting ammunition. Combine independently recorded bounded coverage honestly, never call the failed full run a whole-process pass. Recheck original anim/ammo/visibility and all hashes. The walking series includes collision stops at existing props, not proof of a whole gait cycle.

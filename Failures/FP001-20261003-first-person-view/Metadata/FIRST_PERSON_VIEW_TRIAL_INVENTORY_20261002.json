@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-10-02",
+  "owner": "yg745",
+  "status": "unselected_runtime_regression_pass_human_visual_review_failed",
+  "human_review": {
+    "date": "2026-10-03",
+    "status": "failed",
+    "feedback": "非常怪，视觉上感觉就是把枪顶在前胸这么处理。",
+    "requested_next_work": "Assess restarting from the preceding baseline versus continuing the failed candidate; no implementation requested yet.",
+    "selected_visual_reference": "Call of Duty: WWII M1 Garand ordinary first-person holding",
+    "assessment_recommendation": "Saved V3 gameplay baseline plus a new separate first-person presentation version; selective infrastructure reuse, without inheriting failed framing/masks.",
+    "native_selection_authorized": false
+  },
+  "author_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/FirstPersonViewV1/author_v2",
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Animation/FirstPersonViewV1/ABP_PC_FirstPersonCopyV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/FirstPersonViewV1/ABP_PC_FirstPersonCopyV1.uasset",
+      "size_bytes": 78453,
+      "sha256": "3fbb946b119c2450bcada5de5b7a9cd897443a6836c14da43f8fe91992c00d4e"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/FirstPersonViewV1/BP_PC_FirstPersonViewV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/FirstPersonViewV1/BP_PC_FirstPersonViewV1.uasset",
+      "size_bytes": 466107,
+      "sha256": "c904e4d843e270f65f45081cdfe016a42a39816b35444def256f5fc06eca712e"
+    },
+    {
+      "package": "/Game/ParisCombat/Materials/FirstPersonViewV1/M_PC_FirstPersonSleevesV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Materials/FirstPersonViewV1/M_PC_FirstPersonSleevesV1.uasset",
+      "size_bytes": 30759,
+      "sha256": "18b2b7531f76c438cf70a9dd4f5035f253def13b87e50e45c8bad61fd83b6bb9"
+    },
+    {
+      "package": "/Game/ParisCombat/Materials/FirstPersonViewV1/MI_PC_FirstPersonSleevesV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Materials/FirstPersonViewV1/MI_PC_FirstPersonSleevesV1.uasset",
+      "size_bytes": 15070,
+      "sha256": "13c6c63379420a8d0a069837647aa7ed16fe240d9504dd25d53427720388e78a"
+    },
+    {
+      "package": "/Game/ParisCombat/Materials/FirstPersonViewV1/M_PC_FirstPersonHandsV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Materials/FirstPersonViewV1/M_PC_FirstPersonHandsV1.uasset",
+      "size_bytes": 18932,
+      "sha256": "01bf2868f71d846c6343f7c01ed3a567dd73996a6f6618ce8e5be743d873e82c"
+    },
+    {
+      "package": "/Game/ParisCombat/Materials/FirstPersonViewV1/MI_PC_FirstPersonHandsV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Materials/FirstPersonViewV1/MI_PC_FirstPersonHandsV1.uasset",
+      "size_bytes": 10498,
+      "sha256": "c6773a9fa828748e58eae2264b169cf2612979bd0ed9950c86e242b72d3b2d9a"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/FirstPersonViewV1/BP_PC_FirstPersonRifleV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/FirstPersonViewV1/BP_PC_FirstPersonRifleV1.uasset",
+      "size_bytes": 325407,
+      "sha256": "b60b6ef64bfbb02b598c81070f103194ab6bcff27b221d7bd3742786237e84f0"
+    }
+  ],
+  "retained_original_count": 40,
+  "active_city_unchanged": true,
+  "camera_unchanged": true,
+  "scope": "Same source mesh and evaluated pose; owner-view rigid placement; no source geometry/finger/gameplay edits",
+  "previous_revision_backup": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/FirstPersonViewV1/mask_flags_v2",
+  "right_grip_camera_cm": [
+    46,
+    8,
+    -13
+  ],
+  "view_only_hidden_material_slots": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "view_only_cloth": {
+    "disable_cloth_simulation": false,
+    "cloth_blend_weight": 1.0,
+    "source_clothing_assets": 0
+  },
+  "view_only_material_mask": "World-position elbow-to-middle-fingertip capsules, radius 9 cm; current copied pose; slots 2/8 only",
+  "partial_author_failure": "near_v2 saved the new rifle then process exited 3; view unchanged; no acceptance. Retain near_v1/v2 logs and crashes.",
+  "presentation_min_target_cm": 150,
+  "masked_material_opaque_assumption": {
+    "Sleeves": {
+      "base_effective_blend_before": "<BlendMode.BLEND_OPAQUE: 0>",
+      "instance_effective_blend_before": "<BlendMode.BLEND_OPAQUE: 0>",
+      "instance_effective_blend_after": "<BlendMode.BLEND_MASKED: 1>"
+    },
+    "Hands": {
+      "base_effective_blend_before": "<BlendMode.BLEND_OPAQUE: 0>",
+      "instance_effective_blend_before": "<BlendMode.BLEND_OPAQUE: 0>",
+      "instance_effective_blend_after": "<BlendMode.BLEND_MASKED: 1>"
+    }
+  },
+  "validation": {
+    "report": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/FirstPersonViewV1/final_validation.json",
+    "visual_report": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/FirstPersonViewV1/view_live_v6/result.json",
+    "combat_report": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/Runtime/combat_fp_v3/combat.json",
+    "combat_exit_code": 0,
+    "visual_exit_code": 0,
+    "human_visual_acceptance": false,
+    "visible_limitations": [
+      "Forearm mask cut edges in some poses",
+      "Existing generic reload support-hand contact gap"
+    ],
+    "map_selected": false,
+    "human_preview": {
+      "identity": "human_fp_20261003_011456",
+      "pid_at_launch": 1656,
+      "status": "ready_runtime_only_human_review",
+      "user_owned_process": true,
+      "human_visual_acceptance": false
+    }
+  }
+}

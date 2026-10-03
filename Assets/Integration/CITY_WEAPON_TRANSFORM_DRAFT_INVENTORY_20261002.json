@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-10-02",
+  "status": "unpublished_workspace_drafts_not_catalog_or_restore_authority",
+  "owner": "yg745",
+  "engine": "UE 5.8.2",
+  "scope": "Original Allied stride pose, rigid rifle transform only; human contact/full presentation review pending",
+  "evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/WeaponTransformV2/city_author_v1/result.json",
+  "storage": "Single writable Paris gameplay workspace; active project Content is its junction alias",
+  "required_catalog_assets": [
+    "france-liberation-content",
+    "character-ue582-integration-baseline",
+    "rifle-pro-mocap-ue582-selected"
+  ],
+  "retained_dependency_inventory": "Assets/Integration/RELOAD_DRAFT_SNAPSHOT_20261002.json",
+  "previous_checkpoint": "CITY_WEAPON_GRIP_DRAFT_INVENTORY_20261002.json; verified rejected map in private BeforeTransformOnly",
+  "file_count": 7,
+  "total_size_bytes": 3293303,
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2.uasset",
+      "size_bytes": 300043,
+      "sha256": "892836f8a7f39a3a4bc23ce799cd6b9c89c1a7ccdbe5f409927fd98100b142de"
+    },
+    {
+      "package": "/Game/ParisCombat/UI/CityGameplayV1/WBP_PCParisStatusV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/UI/CityGameplayV1/WBP_PCParisStatusV1.uasset",
+      "size_bytes": 104166,
+      "sha256": "c39e3e46a2dd70c63567ca57259b518759c291e9b346ef76de1bb57f85b44116"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1.uasset",
+      "size_bytes": 91202,
+      "sha256": "03b07dcc5a8a2ac6367a1e41cce621a909ffe27ce10a425467f496c523c6358c"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1.uasset",
+      "size_bytes": 36008,
+      "sha256": "e173eb00eea8bfab70082e5186a6ed6faa700480046b762d2037de54f250af38"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1.uasset",
+      "size_bytes": 36829,
+      "sha256": "9ff1d12e49024b219760691520cf18ff818955f699faf7586fae0af2536eaf70"
+    },
+    {
+      "package": "/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+      "size_bytes": 2703808,
+      "sha256": "31214e4f54c6b0e01e1f65a2ec60037cc2a0578d06288ae2ffe94babb2bbea61"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1.uasset",
+      "size_bytes": 21247,
+      "sha256": "9f48052e721e956af95561553dd875da6e02936a0089c38fc3cbc39d74a52832"
+    }
+  ],
+  "known_walk_view_gap": "Phase-dependent head/helmet occlusion appears in both source and corrected walking FP captures with the unchanged full-body camera. Walking FP presentation and whole-cycle contact remain unaccepted.",
+  "rifle_attachment": {
+    "location": [
+      -20.410643220382205,
+      5.366310893498665,
+      -0.7460446157647898
+    ],
+    "rotation": [
+      6.622146174869183,
+      94.16909797066904,
+      -3.0445799423813105
+    ],
+    "name": "hollow_fit_zero",
+    "experimental_rifle_anchor": [
+      0.0,
+      -8.0,
+      0.0
+    ]
+  },
+  "original_allied_anim_class": "/Game/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied_Stride_v1",
+  "retained_unselected_rejected_trial": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponPresentationV1/ABP_PC_AlliedGripV1.uasset",
+      "sha256": "febe706ba099ce95929740624f736441fd71c8d7bf2289b0ae1c126d1039070f",
+      "size_bytes": 285235,
+      "package": "/Game/ParisCombat/Animation/WeaponPresentationV1/ABP_PC_AlliedGripV1"
+    }
+  ]
+}

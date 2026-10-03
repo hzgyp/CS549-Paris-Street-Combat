@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T08:50:44.016378-04:00",
+  "updated_at": "2026-10-03T10:02:00.482775-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -83,6 +83,15 @@
       "file_count": 35,
       "size_bytes": 18974540,
       "release_manifest": "/releases/rifle-motion-20261002-v1/rifle-pro-mocap-ue582-selected.json"
+    },
+    {
+      "asset_id": "paris-gameplay-native-playtest",
+      "asset_version": "paris-native-playtest-20261003-v1",
+      "path": "Assets/Sync/manifests/paris-gameplay-native-playtest.json",
+      "sha256": "ebb579c25d07d963103b2e8be4f7e9db21fee68fc1944ffb41cdaaf8c03a6999",
+      "file_count": 206,
+      "size_bytes": 540314845,
+      "release_manifest": "/releases/paris-native-playtest-20261003-v1/paris-gameplay-native-playtest.json"
     }
   ],
   "superseded_provenance_only": [

@@ -15,6 +15,18 @@ class PARISEDITORBRIDGE_API UParisBlueprintAuthoring : public UBlueprintFunction
 {
     GENERATED_BODY()
 public:
+    /** New unselected player upper-spine aim AnimBP only; standard node, no save/runtime use. */
+    UFUNCTION(BlueprintCallable, Category="Paris|Editor")
+    static FString AddPlayerAimLayer(UAnimBlueprint* Blueprint, FVector LocalAimAxis);
+
+    /** Bounded trial: common rigid upper-body rotation, no local finger pose edits. */
+    UFUNCTION(BlueprintCallable, Category="Paris|Editor")
+    static FString AddPlayerRigidAimLayer(UAnimBlueprint* Blueprint, FVector LocalAimAxis);
+
+    /** Exact unselected AlliedGripV1 AnimBP only. Standard nodes; no save/runtime use. */
+    UFUNCTION(BlueprintCallable, Category="Paris|Editor")
+    static FString AddAlliedGripLayer(UAnimBlueprint* Blueprint);
+
     /** New, unsaved CityGameplayV1 widget template only; no runtime use/save. */
     UFUNCTION(BlueprintCallable, Category="Paris|Editor")
     static bool CreateStatusWidgetTemplate(UBlueprint* Blueprint);

@@ -1,10 +1,14 @@
 param([Parameter(Mandatory=$true)][ValidatePattern('^[a-zA-Z0-9_-]+$')][string]$BuildIdentity,
-      [Parameter(Mandatory=$true)][ValidatePattern('^[a-zA-Z0-9_-]+$')][string]$Identity)
+      [Parameter(Mandatory=$true)][ValidatePattern('^[a-zA-Z0-9_-]+$')][string]$Identity,
+      [ValidateSet('CITY_PACKAGE_DRAFT_INVENTORY_20261002.json','CITY_NAVIGATION_DRAFT_INVENTORY_20261002.json','CITY_WEAPON_GRIP_DRAFT_INVENTORY_20261002.json','CITY_WEAPON_TRANSFORM_DRAFT_INVENTORY_20261002.json','CITY_RIFLE_ACTION_DRAFT_INVENTORY_20261002.json')]
+      [string]$NativeInventory = 'CITY_PACKAGE_DRAFT_INVENTORY_20261002.json')
 $ErrorActionPreference = 'Stop'
 $taskRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
 $taskBuildDir = Join-Path $taskRoot "tmp/paris-city-package-20261002/$BuildIdentity"
 $taskBuild = Get-Content -LiteralPath (Join-Path $taskBuildDir 'build_record.json') -Raw | ConvertFrom-Json
 if ($taskBuild.exit_code -ne 0 -or -not $taskBuild.guarded_bytes_unchanged) { throw 'Require an actually successful guarded build' }
+if ($taskBuild.native_inventory -and $taskBuild.native_inventory -ne $NativeInventory) { throw 'Build/current native inventory mismatch' }
+if (-not $taskBuild.native_inventory -and $NativeInventory -ne 'CITY_PACKAGE_DRAFT_INVENTORY_20261002.json') { throw 'Old build is not the selected native-increment package' }
 if (Get-Process UnrealEditor,UnrealEditor-Cmd,WW2FranceLiberation -ErrorAction SilentlyContinue) { throw 'Close affected processes first' }
 $taskExe = @(Get-ChildItem -LiteralPath (Join-Path $taskBuildDir 'Archive') -Filter 'WW2FranceLiberation.exe' -Recurse | Where-Object FullName -Match '[\\/]Binaries[\\/]Win64[\\/]')
 if ($taskExe.Count -ne 1) { throw 'Expected one archived game binary, not a bootstrap parent' }
@@ -12,7 +16,7 @@ $taskOut = Join-Path $taskRoot "Assets/LocalShared/SFTP/workspaces/yg745/paris-g
 if (Test-Path -LiteralPath $taskOut) { throw 'Preserve occupied startup evidence' }
 New-Item -ItemType Directory -Path $taskOut | Out-Null
 $taskNativeHashes = @{}
-foreach ($taskName in @('RELOAD_DRAFT_SNAPSHOT_20261002.json','CITY_PACKAGE_DRAFT_INVENTORY_20261002.json')) {
+foreach ($taskName in @('RELOAD_DRAFT_SNAPSHOT_20261002.json',$NativeInventory)) {
     $taskInventory = Get-Content -LiteralPath (Join-Path $taskRoot "Assets/Integration/$taskName") -Raw | ConvertFrom-Json
     foreach ($taskItem in $taskInventory.files) {
         $taskPath = Join-Path $taskRoot $taskItem.path
@@ -31,6 +35,7 @@ $taskArgs = @('-RenderOffscreen','-windowed','-ForceRes','-ResX=1920','-ResY=108
     '-ExitAfterCsvProfiling','-csvCompression=0','-csvGpuStats',('-UserDir="' + $taskUserDir + '"'),('-abslog="' + $taskLog + '"'),
     ('-ExecCmds="' + $taskExec + '"'),('-csvExecCmds="500:Shot SHOWUI -nosuffix filename=' + $taskPng + '"'))
 $taskRecord = [ordered]@{ identity=$Identity; build_identity=$BuildIdentity; started_at=(Get-Date).ToString('o')
+    native_inventory=$NativeInventory
     scope='Packaged stationary offscreen startup only; not physical input, warmed route, AI/mission or target-FPS acceptance'
     executable=$taskExe[0].FullName; executable_sha256=(Get-FileHash -LiteralPath $taskExe[0].FullName -Algorithm SHA256).Hash.ToLowerInvariant()
     resolution='1920x1080'; scalability='High, ten sg.*Quality=2'; screen_percentage=100; arguments=$taskArgs }

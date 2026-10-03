@@ -1,0 +1,19 @@
+{
+  "status": "verified_private_sftp_catalog_selected",
+  "release": "paris-native-playtest-20261003-v1",
+  "asset_id": "paris-gameplay-native-playtest",
+  "file_count": 206,
+  "size_bytes": 540314845,
+  "uploaded_unique_objects": 11,
+  "uploaded_bytes": 5694247,
+  "reused_unique_objects": 195,
+  "sftp_verified_unique_objects": 206,
+  "manifest_sha256": "ebb579c25d07d963103b2e8be4f7e9db21fee68fc1944ffb41cdaaf8c03a6999",
+  "root_acl_unchanged": true,
+  "shared_account_crud": "create/overwrite/rename/read/delete verified; exact probes removed",
+  "external_connectivity": "not retested",
+  "teammate_test": "delegated to teammates; not performed",
+  "verified_at": "2026-10-03T10:01:50.518839-04:00",
+  "git_publication": "pending commit/push",
+  "source_runtime_test": "CONTINUOUS_ARMS_NATIVE_RESULT_20261003.md"
+}

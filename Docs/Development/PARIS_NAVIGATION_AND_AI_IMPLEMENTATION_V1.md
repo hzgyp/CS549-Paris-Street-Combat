@@ -4,7 +4,9 @@
 
 ## Scope and prerequisites
 
-Implement NavMesh/MoveTo and then one shared Blueprint AIController/Behavior Tree, with separate controller/Blackboard state for each of the five NPCs. Use existing locomotion, health/death/reload/shot contracts, two allies and three Germans. Germans presently lack an accepted rifle: navigation/perception may be tested, but do not fake an armed enemy combat pass or substitute a modern weapon. No new detailed models or cosmetic refinement.
+**Latest scope override, 2 October:** Yupu requests completion of the navigation foundation only, then an explicit pause. Finish the retained team-root NavMesh, fresh-load connectivity, ordinary serial MoveTo and unreachable/cancel checks. Do not implement N2/N3 AI behavior, follow/regroup, patrol/search, a coordinator, faction interaction or mission logic. The team must first design/review the decision/Behavior Tree and both factions' interaction together. N2/N3 below remain future design requirements, not current execution authority. No automatic commit/push or immutable release.
+
+Long-term planned scope is NavMesh/MoveTo and then one shared Blueprint AIController/Behavior Tree, with separate controller/Blackboard state for each of the five NPCs; the current scope override above stops after navigation. Use existing locomotion, health/death/reload/shot contracts, two allies and three Germans. Germans presently lack an accepted rifle: navigation/perception may be tested, but do not fake an armed enemy combat pass or substitute a modern weapon. No new detailed models or cosmetic refinement.
 
 Before native writes: inspect the private early city package result, close its cooker/runtime/editor, verify current seven package-entry and earlier 28 hashes, safely integrate Git, confirm canonical Content junction and single binary owner. Preserve originals and unpublished changes. Read `CITY_PACKAGE_DRAFT_INVENTORY_20261002.json` as a dated draft checkpoint, not Catalog/restore authority; after later edits create a new checkpoint rather than restoring its map over newer work. All runtime tests disable ParisEditorBridge.
 

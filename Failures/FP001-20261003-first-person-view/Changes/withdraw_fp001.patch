@@ -1,0 +1,185 @@
+--- before/Tools/Integration/ue_paris_combat_pie.py
++++ after/Tools/Integration/ue_paris_combat_pie.py
+@@ -33,17 +33,14 @@
+                            'CITY_COMBAT_DRAFT_INVENTORY_20261002.json')
+ current = json.loads((ROOT / 'Assets/Integration' / checkpoint_name).read_text())
+ aim_preview = os.environ.get('CS549_PLAYER_AIM_PREVIEW') == '1'
+-fp_preview = os.environ.get('CS549_FIRST_PERSON_VIEW_PREVIEW') == '1'
+-assert not (aim_preview and fp_preview), 'Choose one explicit runtime-only variant'
+-if aim_preview or fp_preview:
++if os.environ.get('CS549_FIRST_PERSON_VIEW_PREVIEW') == '1':
++    raise RuntimeError('FP001 is archived after visual rejection; its preview is retired')
++if aim_preview:
+     assert checkpoint_name == 'CITY_RIFLE_ACTION_DRAFT_INVENTORY_20261002.json'
+     sys.path.insert(0, str(Path(__file__).parent))
+-    if fp_preview:
+-        from ue_first_person_view_runtime import trial_records, stage
+-    else:
+-        from ue_player_aim_runtime_preview import trial_records, stage
++    from ue_player_aim_runtime_preview import trial_records, stage
+ guarded = {f['path']: f['sha256'] for f in old['files'] + current['files'] + current.get('retained_unselected_rejected_trial', [])}
+-if aim_preview or fp_preview:
++if aim_preview:
+     guarded.update({f['path']:f['sha256'] for f in trial_records()})
+ assert guarded[fixed['saved_file']['path']] == fixed['saved_file']['sha256'], 'Changed shot graph needs a documented new regression checkpoint'
+ for file in (STORE / 'Content/WW2City/Maps').glob('*.umap'):
+@@ -63,7 +60,6 @@
+ in_tick = False
+ index = 0
+ origin_location = None
+-near_blocker = None
+ widget_class = unreal.load_class(None, '/Game/ParisCombat/UI/CityGameplayV1/WBP_PCParisStatusV1.WBP_PCParisStatusV1_C')
+ assert widget_class
+ 
+@@ -180,7 +176,7 @@
+ 
+ 
+ def tick(delta):
+-    global in_tick, world, player, controller, enemy, ally, weapon, widget, origin_location, index, near_blocker
++    global in_tick, world, player, controller, enemy, ally, weapon, widget, origin_location, index
+     if in_tick:
+         return
+     in_tick = True
+@@ -205,7 +201,7 @@
+             player = unreal.GameplayStatics.get_player_pawn(world, 0) if world else None
+             if not player:
+                 return
+-            if (aim_preview or fp_preview) and not report.get('transient_aim_variant'):
++            if aim_preview and not report.get('transient_aim_variant'):
+                 report['transient_aim_variant'] = stage(world, player)
+             controller = unreal.GameplayStatics.get_player_controller(world, 0)
+             roster = [a for a in unreal.GameplayStatics.get_all_actors_of_class(world, unreal.Character)
+@@ -257,21 +253,12 @@
+                     expected_anim = 'ABP_PC_PlayerRigidAimV4_C' if aim_preview and a == player else 'ABP_PC_Allied_Stride_v1_C'
+                     assert expected_anim in mesh.get_anim_instance().get_class().get_path_name()
+                     w = prop(a, 'WeaponAppearance')
+-                    expected_weapon = 'BP_PC_PlayerRifleAimV4_C' if (aim_preview or fp_preview) and a == player else 'BP_PC_RifleAttachmentV3_C'
+-                    if fp_preview and a == player: expected_weapon = 'BP_PC_FirstPersonRifleV1_C'
++                    expected_weapon = 'BP_PC_PlayerRifleAimV4_C' if aim_preview and a == player else 'BP_PC_RifleAttachmentV3_C'
+                     assert w.get_class().get_name() == expected_weapon
+                     grip = prop(w, 'GripMesh')
+                     assert w.get_attach_parent_actor() == grip.get_owner() and w.get_owner() == a
+                     assert prop(w, 'Combatant') == a
+-                    if fp_preview and a == player:
+-                        assert grip != mesh and grip.get_skeletal_mesh_asset() == mesh.get_skeletal_mesh_asset()
+-                        assert grip.get_owner().get_editor_property('SourceMesh') == mesh
+-                        assert grip.get_anim_instance().get_class().get_name() == 'ABP_PC_FirstPersonCopyV1_C'
+-                        assert mesh.get_editor_property('owner_no_see') and grip.get_editor_property('only_owner_see')
+-                        assert mesh.get_editor_property('cast_hidden_shadow')
+-                        assert all(grip.get_material(slot).get_blend_mode() == unreal.BlendMode.BLEND_MASKED for slot in (2,8))
+-                    else:
+-                        assert grip == mesh
++                    assert grip == mesh
+                     assert abs(prop(w, 'LeftShiftCm') - .5) < .001
+                     assert w.static_mesh_component.get_editor_property('relative_scale3d') == unreal.Vector(1, 1, 1)
+                     assert 'Sm_M1_Garand' in w.static_mesh_component.get_editor_property('static_mesh').get_path_name()
+@@ -364,55 +351,9 @@
+                     report['original_pose_after_reload_death_reset'] = player.get_component_by_class(unreal.SkeletalMeshComponent).get_anim_instance().get_class().get_path_name()
+                     expected_anim = 'ABP_PC_PlayerRigidAimV4_C' if aim_preview else 'ABP_PC_Allied_Stride_v1_C'
+                     assert expected_anim in report['original_pose_after_reload_death_reset']
+-                if fp_preview:
+-                    source_mesh = player.get_component_by_class(unreal.SkeletalMeshComponent)
+-                    view_mesh = prop(weapon, 'GripMesh')
+-                    assert view_mesh.get_owner().get_editor_property('SourceMesh') == source_mesh
+-                    assert view_mesh.get_anim_instance().get_class().get_name() == 'ABP_PC_FirstPersonCopyV1_C'
+-                    assert player.get_editor_property('WeaponAppearance') == weapon
+-                    cam = player.get_component_by_class(unreal.CameraComponent)
+-                    cam_location = cam.get_editor_property('relative_location')
+-                    camera_delta = (cam_location - unreal.Vector(25,0,60)).length()
+-                    report['camera_after_lifecycle'] = {'relative_cm':xyz(cam_location),'position_delta_cm':camera_delta,'fov':cam.get_editor_property('field_of_view')}
+-                    assert camera_delta < 1e-6 and abs(cam.get_editor_property('field_of_view') - 90) < 1e-6
+-                    report['first_person_view_retained_after_reload_death_reset'] = True
+                 report['final_state'] = state(player)
+                 report['hud_final_text'] = str(widget.get_editor_property('StatusText').get_text())
+                 capture('hud_final')
+-                if fp_preview:
+-                    player.set_actor_location(origin_location, False, True)
+-                    player.get_component_by_class(unreal.CharacterMovementComponent).stop_movement_immediately()
+-                    controller.set_control_rotation(unreal.Rotator())
+-                    advance('fp_near_setup')
+-                else: advance('capture_wait')
+-            elif phase == 'fp_near_setup':
+-                cam = player.get_component_by_class(unreal.CameraComponent)
+-                t = cam.get_world_transform();t.translation = cam.get_world_location() + cam.get_forward_vector()*80
+-                t.scale3d = unreal.Vector(.02,3,3)
+-                api = unreal.get_default_object(unreal.GameplayStatics.static_class())
+-                near_blocker = api.call_method('BeginDeferredActorSpawnFromClass', args=(world, unreal.StaticMeshActor.static_class(), t, unreal.SpawnActorCollisionHandlingMethod.ALWAYS_SPAWN, None, unreal.SpawnActorScaleMethod.MULTIPLY_WITH_ROOT))
+-                component = near_blocker.static_mesh_component
+-                component.set_mobility(unreal.ComponentMobility.MOVABLE)
+-                component.set_static_mesh(unreal.load_asset('/Engine/BasicShapes/Cube'))
+-                component.set_collision_enabled(unreal.CollisionEnabled.QUERY_ONLY)
+-                component.set_collision_response_to_all_channels(unreal.CollisionResponseType.ECR_IGNORE)
+-                component.set_collision_response_to_channel(unreal.CollisionChannel.ECC_VISIBILITY, unreal.CollisionResponseType.ECR_BLOCK)
+-                near_blocker = api.call_method('FinishSpawningActor', args=(near_blocker, t, unreal.SpawnActorScaleMethod.MULTIPLY_WITH_ROOT))
+-                advance('fp_near_assert')
+-            elif phase == 'fp_near_assert':
+-                cam = player.get_component_by_class(unreal.CameraComponent)
+-                debug = trace_debug();hit = debug['camera_hit'];assert hit and hit['actor'] == near_blocker.get_name()
+-                distance = (unreal.Vector(*hit['point'])-cam.get_world_location()).length()
+-                barrel = unreal.MathLibrary.transform_direction(weapon.get_actor_transform(),unreal.Vector(0,1,0))
+-                forward_dot = barrel.dot(cam.get_forward_vector())
+-                assert 75 < distance < 85 and forward_dot > .95
+-                report['near_presentation'] = {'camera_hit_distance_cm': distance, 'barrel_camera_dot': forward_dot, 'presentation_min_cm':150}
+-                shot('first_person_near_wall_retains_obstruction', blocked)
+-                report['final_state'] = state(player)
+-                capture('first_person_near_wall')
+-                advance('fp_near_capture_wait')
+-            elif phase == 'fp_near_capture_wait':
+-                near_blocker.destroy_actor();near_blocker = None
+                 advance('capture_wait')
+             elif phase == 'capture_wait':
+                 finish()
+--- before/Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Private/ParisBlueprintAuthoring.cpp
++++ after/Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Private/ParisBlueprintAuthoring.cpp
+@@ -24,7 +24,6 @@
+ #include "AnimGraphNode_UseCachedPose.h"
+ #include "AnimGraphNode_LocalToComponentSpace.h"
+ #include "AnimGraphNode_ComponentToLocalSpace.h"
+-#include "AnimGraphNode_CopyPoseFromMesh.h"
+ #include "Camera/CameraComponent.h"
+ #include "Components/CapsuleComponent.h"
+ #include "Components/DirectionalLightComponent.h"
+@@ -1085,30 +1084,4 @@
+     return ParisDraft::Json(Result);
+ }
+ 
+-FString UParisBlueprintAuthoring::BuildFirstPersonCopyPose(UAnimBlueprint* BP)
+-{
+-    auto Result=MakeShared<FJsonObject>(); Result->SetBoolField(TEXT("success"),false);
+-    if(!BP || BP->GetPathName()!=TEXT("/Game/ParisCombat/Animation/FirstPersonViewV1/ABP_PC_FirstPersonCopyV1.ABP_PC_FirstPersonCopyV1"))
+-        return ParisDraft::Json(Result);
+-    UEdGraph* Graph=nullptr;
+-    for(UEdGraph* G:BP->FunctionGraphs) if(G->GetFName()==TEXT("AnimGraph")) Graph=G;
+-    if(!Graph) return ParisDraft::Json(Result);
+-    TArray<UAnimGraphNode_Root*> Roots; Graph->GetNodesOfClass(Roots);
+-    if(Roots.Num()!=1) return ParisDraft::Json(Result);
+-    BP->Modify(); Graph->Modify();
+-    const TArray<UEdGraphNode*> Old=Graph->Nodes;
+-    for(UEdGraphNode* N:Old) if(N!=Roots[0]) FBlueprintEditorUtils::RemoveNode(BP,N,true);
+-    Roots[0]->FindPin(TEXT("Result"))->BreakAllPinLinks();
+-    auto* Copy=ParisDraft::Node<UAnimGraphNode_CopyPoseFromMesh>(Graph,200,0);
+-    Copy->Node.bUseAttachedParent=false; Copy->Node.bUseMeshPose=false;
+-    Copy->Node.bCopyCurves=true; Copy->Node.bCopyCustomAttributes=true;
+-    Copy->ReconstructNode();
+-    ParisDraft::Wire(ParisDraft::Get(Graph,TEXT("ViewSourceMesh")),TEXT("ViewSourceMesh"),Copy,TEXT("SourceMeshComponent"));
+-    ParisDraft::Wire(Copy,TEXT("Pose"),Roots[0],TEXT("Result"));
+-    FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(BP);
+-    Result->SetBoolField(TEXT("success"),Copy->FindPin(TEXT("SourceMeshComponent"))!=nullptr);
+-    Result->SetStringField(TEXT("policy"),TEXT("Copy existing evaluated bone-local pose; source component tick prerequisite required"));
+-    return ParisDraft::Json(Result);
+-}
+-
+ #include "ParisReloadDraft.inl"
+--- before/Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Public/ParisBlueprintAuthoring.h
++++ after/Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Public/ParisBlueprintAuthoring.h
+@@ -22,10 +22,6 @@
+     /** Bounded trial: common rigid upper-body rotation, no local finger pose edits. */
+     UFUNCTION(BlueprintCallable, Category="Paris|Editor")
+     static FString AddPlayerRigidAimLayer(UAnimBlueprint* Blueprint, FVector LocalAimAxis);
+-
+-    /** New owner-view copy only. Standard node; never changes a source pose or saves. */
+-    UFUNCTION(BlueprintCallable, Category="Paris|Editor")
+-    static FString BuildFirstPersonCopyPose(UAnimBlueprint* Blueprint);
+ 
+     /** Exact unselected AlliedGripV1 AnimBP only. Standard nodes; no save/runtime use. */
+     UFUNCTION(BlueprintCallable, Category="Paris|Editor")

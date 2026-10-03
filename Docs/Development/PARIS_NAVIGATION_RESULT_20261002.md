@@ -1,5 +1,7 @@
 # Actual Paris navigation — 2 October checkpoint
 
+**Later retained-navigation work and stop override:** see `PARIS_NAVIGATION_FOUNDATION_IMPLEMENTATION_V1.md` and `PARIS_NAVIGATION_FOUNDATION_RESULT_20261002.md`. The user now requires finishing navigation only and then pausing before the joint decision/Behavior Tree and faction-interaction design. The team map has changed since the unsaved trials below: use `CITY_NAVIGATION_DRAFT_INVENTORY_20261002.json` for current draft hashes, not the old package map. Historical unsaved results below remain evidence, not permission to start follow/patrol/AI.
+
 Owner `yg745`. Governing plan: `PARIS_NAVIGATION_AND_AI_IMPLEMENTATION_V1.md`. Existing Paris city, six retained Characters and accepted locomotion remain unchanged. Tests disable ParisEditorBridge and use standard UE navigation, not runtime C++. No shared Behavior Tree, whole-city route, mission, performance, historical/presentation or course pass follows from this checkpoint.
 
 ## Unsaved API and coverage results
@@ -34,4 +36,4 @@ Requests used normal AIController, 30 cm acceptance, pathfinding enabled and par
 
 All automated engines are closed. Post-package selected-baseline size/SHA checks passed 16,606 files; current seven/earlier 28 draft hashes remain intact. No native saving/publication, Git staging/commit/push or release authority changes occurred in navigation trials.
 
-Run bounded ordinary PIE MoveTo with one retained Allied and one German NPC on measured complete routes. Then save a separately documented team-root navigation increment, fresh-load it, expand/measure connected streets and implement individual controllers/shared BT plus destination coordination, bounded waiting/search and death/restore guards. Unsaved path queries alone do not complete N1 or NAV-01/AI-01. Germans remain unarmed pending the accepted weapon kit; do not imply an armed enemy encounter test.
+Historical next-work suggestion, superseded by the navigation-only stop override above: run bounded ordinary PIE MoveTo, save/fresh-load team-root navigation and later implement individual controllers/shared BT and coordination. The retained-navigation work is now separately recorded; shared AI/waiting/search/death/restore implementation remains paused pending joint design review. Unsaved path queries alone do not complete NAV-01/AI-01. Germans remain unarmed pending the accepted weapon kit; do not imply an armed enemy encounter test.

@@ -96,12 +96,20 @@ def code_allowlist() -> set[str]:
     return result
 
 
-def check_git(history: bool, staged: bool) -> None:
+def check_git(history: bool, staged: bool, publish_refs: list[str] | None = None) -> None:
     allowed = code_allowlist()
     current = [p.decode("utf-8") for p in git("ls-files", "-z").split(b"\0") if p]
     paths = set(current)
     if history:
         for line in git("rev-list", "--objects", "--all").decode("utf-8").splitlines():
+            if " " in line:
+                paths.add(line.split(" ", 1)[1])
+    for revision in publish_refs or []:
+        if not re.fullmatch(r"[0-9a-f]{40,64}", revision):
+            raise ValueError("Publication revision must be a complete Git object ID")
+        # Reject a blob/tree tag: assets could otherwise have no path to classify.
+        commit = git("rev-parse", revision + "^{commit}").decode().strip()
+        for line in git("rev-list", "--objects", commit).decode("utf-8").splitlines():
             if " " in line:
                 paths.add(line.split(" ", 1)[1])
     rejected = sorted(p for p in paths if (ASSET_SUFFIX.search(p) and p not in allowed) or p.startswith(RAW_PREFIX))
@@ -133,10 +141,12 @@ def main() -> None:
     parser.add_argument("--git", action="store_true", help="Check tracked source paths")
     parser.add_argument("--history", action="store_true", help="Also check all reachable Git object paths")
     parser.add_argument("--staged", action="store_true", help="Check staged source bytes")
+    parser.add_argument("--publish-ref", action="append", default=[],
+                        help="Check full ancestry of each exact outgoing commit; private recovery refs are not outgoing")
     args = parser.parse_args()
     count = check_manifests(args.local, args.sftp_root, args.asset_id)
-    if args.git or args.history or args.staged:
-        check_git(args.history, args.staged)
+    if args.git or args.history or args.staged or args.publish_ref:
+        check_git(args.history, args.staged, args.publish_ref)
     print(f"Verified manifest metadata for {count} selected files; local/server hashes checked only when requested.")
 
 

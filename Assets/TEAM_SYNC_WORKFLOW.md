@@ -1,5 +1,7 @@
 # Team synchronization: GitHub + SFTP
 
+**Current runnable handoff, 3 October:** use [TEAM_PLAYTEST.md](../Docs/Development/TEAM_PLAYTEST.md) / [中文指南](../Docs/Development/TEAM_PLAYTEST_ZH.md). Restore only the Catalog-selected city plus `paris-gameplay-native-playtest` for this editor-backed UE5.8.2 test; the latter supplies its character/action/gameplay closure at game paths. Source commit and both manifest versions must match. Actual second-machine play remains assigned to teammates. Mutable workspace copies and old draft inventories are not restore authority. Public pushes must target reviewed source branches/tags only, never `--mirror` or private recovery refs; the pre-push hook checks every outgoing commit's full ancestry. `--history` remains a broader diagnostic of all local refs, including private application recovery snapshots.
+
 Decision date: 27 September 2026; explicit existing Git/LFS asset migration authorized on 30 September. Applies to all three members and development agents in Paris Street Combat. Integration owner: Yupu Guo. The same repository becomes a public source repository only after asset byte removal, matching verified private SFTP manifests and publication checks. Older keep-LFS-history planning notes are superseded for this authorized migration.
 
 ## 1. Storage rules

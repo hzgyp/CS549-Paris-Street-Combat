@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-02T23:43:57.310749+00:00",
+  "owner": "yg745",
+  "scope": "Read-only named candidates and local size/SHA-256; not native load, deformation, gameplay, remote verification or restore authority",
+  "native_changes": false,
+  "catalog_changed": false,
+  "selection": {
+    "hold_fire": {
+      "status": "source_candidates_not_runtime_acceptance",
+      "candidates": [
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle.uasset",
+          "size_bytes": 1517986,
+          "sha256": "0603ffac6ad228be87a59cbca499fe955b20e3059179345c63e2c83b7e4c23f7",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_ShootOnce.uasset",
+          "size_bytes": 268524,
+          "sha256": "7553034e23d6f98cec79f3e6e81e91a7e4d154d1043762ff3be30ee7eaed2547",
+          "local_match": true
+        }
+      ],
+      "names_not_found": []
+    },
+    "run": {
+      "status": "source_candidates_not_runtime_acceptance",
+      "candidates": [
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_RunBwdLoop.uasset",
+          "size_bytes": 463829,
+          "sha256": "034f308a02a113b3934b535910e5634d830b22e1e98b5575f1f274c5f3fce77f",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_RunFwdLoop.uasset",
+          "size_bytes": 495297,
+          "sha256": "26d4cc40242bda852ba5766536a9e4d0ae996145fa2d427d54e9008ff2aa3ed2",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintLoop.uasset",
+          "size_bytes": 444604,
+          "sha256": "fd7ff3af460d36d7c82290838b6ba5ec348f78e729464e24c69d2c253b0b42ec",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStart.uasset",
+          "size_bytes": 504449,
+          "sha256": "a818bef96204ce7e1d84ec9e0863c670aff786443865c846cfaae2e245ddca1b",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStop_LU.uasset",
+          "size_bytes": 923987,
+          "sha256": "2dea851150f8b3ded2b81abf0347b13e3280ac3b6f7e1f9c2ae273f0c8409691",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_SprintStop_RU.uasset",
+          "size_bytes": 677331,
+          "sha256": "136e3c827e53ea0b2e93200d835fd029d5f87b86ef4e762e06f3f0d31731f2dd",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunLeftLoop.uasset",
+          "size_bytes": 448815,
+          "sha256": "05fbc6f21c44c4f8480e5980fc54c7411ddb2e3f117f6b6926095ca28366ace8",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunRightLoop.uasset",
+          "size_bytes": 551465,
+          "sha256": "4b59d672444c37ec0954a7f9a7584f90306bb61a9ce695ae57f11ffa4a3fc701",
+          "local_match": true
+        }
+      ],
+      "names_not_found": []
+    },
+    "jump": {
+      "status": "source_candidates_not_runtime_acceptance",
+      "candidates": [
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Idle_ALL.uasset",
+          "size_bytes": 675922,
+          "sha256": "a0f48eb836a43833243f156d4566c8fc97014225e846fe93c964d2637ad38a25",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Fall.uasset",
+          "size_bytes": 564723,
+          "sha256": "12f97ae9a7a92a6ae3b61815d7da52df6f42822d58ea9d3f292a3b8acaf10996",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Land.uasset",
+          "size_bytes": 312378,
+          "sha256": "af042e68c528d1162d2bd43874eec01fefd7b2aebdacf29696942cd9e5e576e5",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_Platformer_Start.uasset",
+          "size_bytes": 376101,
+          "sha256": "7ca097dada5a76469ffd88b06e709f201e427f82fdfd97563db1631df9dbb525",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Jump_WalkFwdShort_ALL.uasset",
+          "size_bytes": 851652,
+          "sha256": "86d07ac89737f895717a0c2aa0d7e11d4fd5a0cb08dd34a9062376a26b30bc86",
+          "local_match": true
+        }
+      ],
+      "names_not_found": []
+    },
+    "slow_walk_adaptation": {
+      "status": "source_candidates_not_runtime_acceptance",
+      "candidates": [
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdLoop.uasset",
+          "size_bytes": 422897,
+          "sha256": "8cb8686b903e89a5ae928a293b0968a2c1e835b7790b9e27b3fb18e04c6cf583",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdLoop.uasset",
+          "size_bytes": 579497,
+          "sha256": "22cd1aa581a41974b718cc28d5b910dbbe00d2b4d3c41370b111fc8ca5c3c3ba",
+          "local_match": true
+        }
+      ],
+      "names_not_found": [
+        "Rifle_StrafeWalkLeftLoop",
+        "Rifle_StrafeWalkRightLoop"
+      ]
+    },
+    "crouch": {
+      "status": "source_candidates_not_runtime_acceptance",
+      "candidates": [
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Idle.uasset",
+          "size_bytes": 291935,
+          "sha256": "fa628144445cee185262f35cd8aa5b7ec7a5036f74550121f767812652648b32",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Prone.uasset",
+          "size_bytes": 826275,
+          "sha256": "0de0da10afe2bb6306908798f3f3cca8f75861548b7b80c215178ba56dcaa052",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkBwd.uasset",
+          "size_bytes": 600118,
+          "sha256": "3a43fa7c2ae0b5d52113c0163572f767e96ca091e0e1cc0efa2004399750ec46",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch_WalkFwd.uasset",
+          "size_bytes": 516306,
+          "sha256": "585f90d25376ce60828bdbfe72e10b5460d7b138fb23784fc4cbe20d0f41df89",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_CrouchLoop.uasset",
+          "size_bytes": 1061763,
+          "sha256": "fd54f9047b07b50286bd91220fec604dfbb3d629f53aa8b589a8ccd0768a7ca0",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Crouch.uasset",
+          "size_bytes": 277379,
+          "sha256": "2f7e469da6c403ee28198ae63c38b91dcec3ccc3a1df81427d6d65c0b976f90a",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone2Crouch.uasset",
+          "size_bytes": 958847,
+          "sha256": "02f738511e76341f475f2ba37ab631f572840ca0c0977f897ad0e24317436818",
+          "local_match": true
+        }
+      ],
+      "names_not_found": []
+    },
+    "prone": {
+      "status": "source_candidates_not_runtime_acceptance",
+      "candidates": [
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Prone.uasset",
+          "size_bytes": 1462568,
+          "sha256": "85fd232faeca8e82fcf1b7e50de51b4bcedb9a606253fa5a774d5e38e9811fb9",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone.uasset",
+          "size_bytes": 315132,
+          "sha256": "7f975a49edb3406e1c72f24a1199038767ec8e478f7b7e7f3d82702ea955bcbc",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone2Idle.uasset",
+          "size_bytes": 1062986,
+          "sha256": "709a3ea5d904f921b72a15cad16892f85b03da75601c7b0ed0f0a874512aea8c",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkBwd.uasset",
+          "size_bytes": 339269,
+          "sha256": "35678a57f8015219be025e66b441cf5060dcbe2c9aa08276a5f72a56fc9815be",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwd.uasset",
+          "size_bytes": 576253,
+          "sha256": "e2928207867a1c53687a2a4e2493c40ba17d2ebaaa6e0e564050c19eb9b1af01",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Prone_WalkFwdStart.uasset",
+          "size_bytes": 324587,
+          "sha256": "0c223ab186d043417ed13496d695d3d388c2240cc5dbf9e8272807e98f7e223e",
+          "local_match": true
+        }
+      ],
+      "names_not_found": []
+    },
+    "feedback_textures_trails": {
+      "status": "candidates_not_ready_flash_impact_or_decal_system",
+      "candidates": [
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Particle/BulletTrail/M_GlowTrails.uasset",
+          "size_bytes": 7972,
+          "sha256": "7645dcefe7976a67af4f83e4b3d14595b3cde3cd82bd767f20fffd34725f5321",
+          "local_match": true
+        },
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Particle/BulletTrail/NS_AntiAirTrail.uasset",
+          "size_bytes": 907743,
+          "sha256": "964bb7155ab460ef2321c49449c895d279ef3812af52743fcdd272c53e295c85",
+          "local_match": true
+        },
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Particle/BulletTrail/NS_BulletTrail.uasset",
+          "size_bytes": 795667,
+          "sha256": "52bfb42aacd7999716fea2179c03be15ab5de1a71b6363f5dd2496754aa9e10e",
+          "local_match": true
+        },
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Particle/BulletTrail/NS_BulletTrail_Gunshots.uasset",
+          "size_bytes": 825225,
+          "sha256": "a16448d78d0f130dfac9ab33287cdcb1244126c74ba4dcc160e494c3bb964dff",
+          "local_match": true
+        },
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Texture/BulletHoles/T_Bullet2_N.uasset",
+          "size_bytes": 37491159,
+          "sha256": "3d8ccd59ad2e18bdb108bd41de79bfee1670580d6764f9a95ab18ca161a9bfc2",
+          "local_match": true
+        },
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Texture/BulletHoles/T_Bullet_H.uasset",
+          "size_bytes": 1602269,
+          "sha256": "25ff06174124b7dfd5181aad4412bc17fd2e679b639d2fea1c3bbeb090a3da98",
+          "local_match": true
+        },
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Texture/BulletHoles/T_Bullet_N.uasset",
+          "size_bytes": 8843637,
+          "sha256": "88e093feb1e87b763786f0ebdd6a5e5afe888f9191abd1e7f09dd070f4871c18",
+          "local_match": true
+        },
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Texture/BulletHoles/T_ConcreteGrunge.uasset",
+          "size_bytes": 115454920,
+          "sha256": "32d4a5311161f0936addb4139ea0f6ffbf655c044a1cbbe8b4198ebf67076ec1",
+          "local_match": true
+        },
+        {
+          "path": "Unreal/ParisStreetCombat/Content/WW2City/Environment/Texture/BulletHoles/T_Plaster_Bullet_01a_D.uasset",
+          "size_bytes": 105644912,
+          "sha256": "a5db3e81467a26d02dccab84e462db1db056263242d4b680039304ed2390204c",
+          "local_match": true
+        }
+      ]
+    },
+    "hold_fire_comparison": {
+      "status": "accepted_source_motion_not_soldier_contact_acceptance",
+      "candidates": [
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Aim_Idle_IP.uasset",
+          "size_bytes": 405272,
+          "sha256": "928906f3804ddaadba95724b67ee4adfd8f5044c2dd6195337151b1cfac88dba",
+          "local_match": true
+        },
+        {
+          "path": "Assets/LocalShared/SFTP/workspaces/yg745/rifle-motion-ue582-v1/Content/Rifle_01/Animation/In-Place/W2_Stand_Fire_Single_IP.uasset",
+          "size_bytes": 231090,
+          "sha256": "65e771b3520f011a9c3d609915f5d79e33c357ecfcb8c1b9fcf092afccc3d6fc",
+          "local_match": true
+        }
+      ]
+    }
+  },
+  "named_gap_screen": {
+    "dedicated_muzzle_flash": {
+      "active_named_matches": [],
+      "prior_discovery_named_matches": [],
+      "status": "missing_in_inspected_named_sets",
+      "limit": "No exhaustive semantic or unopened-archive audit; differently named assets may exist"
+    },
+    "dedicated_surface_impact": {
+      "active_named_matches": [],
+      "prior_discovery_named_matches": [],
+      "status": "missing_in_inspected_named_sets",
+      "limit": "No exhaustive semantic or unopened-archive audit; differently named assets may exist"
+    },
+    "dedicated_sneak": {
+      "active_named_matches": [],
+      "prior_discovery_named_matches": [],
+      "status": "missing_in_inspected_named_sets",
+      "limit": "No exhaustive semantic or unopened-archive audit; differently named assets may exist"
+    }
+  },
+  "guarded_drafts": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2.uasset",
+      "size_bytes": 300043,
+      "sha256": "892836f8a7f39a3a4bc23ce799cd6b9c89c1a7ccdbe5f409927fd98100b142de",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/UI/CityGameplayV1/WBP_PCParisStatusV1.uasset",
+      "size_bytes": 104166,
+      "sha256": "c39e3e46a2dd70c63567ca57259b518759c291e9b346ef76de1bb57f85b44116",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1.uasset",
+      "size_bytes": 91202,
+      "sha256": "03b07dcc5a8a2ac6367a1e41cce621a909ffe27ce10a425467f496c523c6358c",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1.uasset",
+      "size_bytes": 36008,
+      "sha256": "e173eb00eea8bfab70082e5186a6ed6faa700480046b762d2037de54f250af38",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1.uasset",
+      "size_bytes": 36829,
+      "sha256": "9ff1d12e49024b219760691520cf18ff818955f699faf7586fae0af2536eaf70",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+      "size_bytes": 2703589,
+      "sha256": "4c77844f140b2d6450a13163af9abab4ca13c2d5883186e1aa6970f00f72c620",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1.uasset",
+      "size_bytes": 21247,
+      "sha256": "9f48052e721e956af95561553dd875da6e02936a0089c38fc3cbc39d74a52832",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied.uasset",
+      "size_bytes": 83903,
+      "sha256": "71c00fa9e0e9a17ea3d4852071346a2fd60b4e3861c7d906990b0ab21901f7b8",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied_Stride_v1.uasset",
+      "size_bytes": 79723,
+      "sha256": "78438af98c2d3220eb57a67088228c0113a56f81c807981da3e2aaadede8bee1",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_German.uasset",
+      "size_bytes": 83964,
+      "sha256": "2723e6d6f4972a13cc93ece6543300f62f7d401338d1a10172395528c05831d7",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_German_Stride_v1.uasset",
+      "size_bytes": 79766,
+      "sha256": "0d8f864c65f4e916e212c71d53c0c31db332c3bbeff8a237cb4bf680c551bb17",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_Allied.uasset",
+      "size_bytes": 37526,
+      "sha256": "97f178aac9e668bc86b79172767c8b54bb506c0f0a3b9669855d1939dd3b1a66",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_Allied_Stride_v1.uasset",
+      "size_bytes": 37566,
+      "sha256": "f0edf2c398251795bd106ec1cf7d7e5aab3c6a559963c28878686c09ad4b7701",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_German.uasset",
+      "size_bytes": 37560,
+      "sha256": "d9e3a7afffb268ea4d51f88d727b240c1cc1cd7071f70553c825a0001a8292ce",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_German_Stride_v1.uasset",
+      "size_bytes": 37600,
+      "sha256": "55bc4297ee601ba5df46f622ce40481fc2788e0dca8f5561161fc5c05e4effcb",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/LocomotionDraft/ABP_PC_Allied.uasset",
+      "size_bytes": 59150,
+      "sha256": "e348f2122a52e39367590700350209d2c55e64e6182143c4139808a7573a49a7",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/LocomotionDraft/ABP_PC_German.uasset",
+      "size_bytes": 59144,
+      "sha256": "b8052aee6e7d92893f53194cd9c1a23a74f44316bdba8c8c411bcd2f7e052da5",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/LocomotionDraft/BS_PC_Allied.uasset",
+      "size_bytes": 4111,
+      "sha256": "1f7dfb8e67cbb9f36800b879c8853b8a1e6cdf76260aa8e922873710a42058ba",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/LocomotionDraft/BS_PC_German.uasset",
+      "size_bytes": 4107,
+      "sha256": "ae17b16dc1c205ffaad37baa615b7b2f2e955c6ccc0540b59c1bb80d1b832563",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SKEL_PC_German_Translation_v1.uasset",
+      "size_bytes": 17225,
+      "sha256": "2c13902a2212efa8c8eb3e48e4dd19d935da7d1ba4bd17f24e31845a2f4542e1",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SK_PC_German_A_Translation_v1.uasset",
+      "size_bytes": 5585699,
+      "sha256": "b7344949bc54e296f7c7de83fa6c43372eec1bc6ae9063aa225fad8b06bc023e",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SK_PC_German_B_Translation_v1.uasset",
+      "size_bytes": 5428069,
+      "sha256": "8867c7b0a11f43e822de4fd4ce90ca2cc2b93af7cc2096206ae0fa479b78fe15",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/BP_PCCombatantBase.uasset",
+      "size_bytes": 52489,
+      "sha256": "0f25c1c779ce69d94c9ea61199952dd9831dad00113a9439905ee878468bc1c8",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/BP_PCNPC.uasset",
+      "size_bytes": 36662,
+      "sha256": "1053da3b529f1896ff37ab4ff5e4f84c19602740725744c21185423550697277",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/BP_PCPlayer.uasset",
+      "size_bytes": 60758,
+      "sha256": "667f3c8fc98a702a5a91e1c1c8b6dad81037f3cf51f50ace9d30b41ea306aab0",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/BP_PCCombatantV2.uasset",
+      "size_bytes": 171216,
+      "sha256": "3ba5b097a2d5a707d821565c9b80f8a27465b65e9b337bf0604be404f703e836",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/BP_PCNPCV2.uasset",
+      "size_bytes": 36151,
+      "sha256": "2ac2529a8a37d94773ac8e8614ecc5370ad5d54ab71f34dadb031b253a4a844e",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/BP_PCPlayerV2.uasset",
+      "size_bytes": 59700,
+      "sha256": "9dd613f2e8e689ec8b879329b2a06ad6708419287fe090c0bb59275b0215a1ad",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Tests/Integration/P2_CharacterLifecycle_20261001.umap",
+      "size_bytes": 32463,
+      "sha256": "2d6adead8178eb7fb08664f76917aa793ef1b4af4b8b76954ddee237fa9b8b0f",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Tests/Integration/P2_CharacterMovement_20261001.umap",
+      "size_bytes": 36917,
+      "sha256": "cd01945e88fd7eda709c03114450b630fa054e2917b36d2c0de7ec26926a884b",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Tests/Integration/P2_CharacterPreview_20261001.umap",
+      "size_bytes": 27558,
+      "sha256": "7f0cb1358e843d41ebef57c6996e9d8e9f4741e82f458cf8a7256029a72b9b00",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Tests/Integration/P2_CharacterStride_20261001.umap",
+      "size_bytes": 32534,
+      "sha256": "0d3a56706538485a909b93cb0d1e1ce3ce4c8861d935287f10db986e1a47fa4b",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/BP_PCCombatantReloadV1.uasset",
+      "size_bytes": 465372,
+      "sha256": "06ad11c269890d43744b3ac708e51f74cbf249bfe43262b1708a63c0cecb34bc",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/BP_PCPlayerReloadV1.uasset",
+      "size_bytes": 59918,
+      "sha256": "33ae4ddbc3d26050e1262ec429968c65d1e0e2789d61d8b6d1c0cbeeba0933d0",
+      "local_match": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/BP_PCNPCReloadV1.uasset",
+      "size_bytes": 36402,
+      "sha256": "b6e9d3080845a008e08d5efd0ca8486eb7227c89012a5063a405dedd8cef4dfd",
+      "local_match": true
+    }
+  ],
+  "verification_failures": []
+}

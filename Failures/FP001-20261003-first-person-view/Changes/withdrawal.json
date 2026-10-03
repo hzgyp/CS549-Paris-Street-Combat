@@ -1,0 +1,20 @@
+{
+  "scope": "Only FP001-specific helper and optional test branches removed; unrelated edits retained",
+  "files": [
+    {
+      "path": "Tools/Integration/ue_paris_combat_pie.py",
+      "before_sha256": "59b598b26d94b246c95d745c623704e816f0cb97a09a25a71824bacbae013f5b",
+      "after_sha256": "c73117f97162a65cb293733d9c8c7be807b0da41fe93411d4d17c780c2ffe5e7"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Private/ParisBlueprintAuthoring.cpp",
+      "before_sha256": "2837af85b40323692894b8563283fbd3de89f12f035f8c6b7c4c0302ec9f7252",
+      "after_sha256": "1fdeb78d4a30f1f198d282d11c312b247206d0782f3afea8acc6f95e2482eedf"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Public/ParisBlueprintAuthoring.h",
+      "before_sha256": "a41ba8f73880ce3f654c6bf1987d88ae6a937f08bd3dd1d8e6b239671bef19f5",
+      "after_sha256": "68ff43fdb52880ece98d4d7891a074927d605c5bba4a5abccc74ca5265fa30c7"
+    }
+  ]
+}

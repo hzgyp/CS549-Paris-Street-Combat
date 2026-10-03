@@ -1,0 +1,1702 @@
+{
+  "schema_version": 1,
+  "asset_id": "paris-gameplay-native-playtest",
+  "asset_version": "paris-native-playtest-20261003-v1",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-03T10:01:50.518839-04:00",
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "source": "Saved Paris gameplay and its hard/soft native package dependency closure, excluding already selected WW2City bytes",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "scope": "Private editor-backed native playtest; not packaged executable, final motion/FPS/history/MVP acceptance",
+  "entry": "/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1",
+  "runtime_plugins": [
+    "UE5.8.2 bundled ACLPlugin, Niagara and MeshModelingToolsetExp; no downloaded plugin"
+  ],
+  "runtime_python_required": false,
+  "runtime_editor_bridge_required": false,
+  "dependencies": [
+    "france-liberation-content"
+  ],
+  "retired_paths": [],
+  "verification": {
+    "method": "All final immutable objects downloaded via authenticated pinned-host SFTP and SHA-256/size checked before Catalog selection",
+    "dependency_audit": "No missing hard dependencies; all existing hard/soft dependencies selected; five unchanged supplier soft gaps recorded; all 43 native guards unchanged",
+    "second_machine_test": "Assigned to teammates; not performed"
+  },
+  "known_vendor_soft_reference_gaps": {
+    "/Game/Library_Meshingun/ToolsCollection_Meshingun/MaterialCustomizer_Meshingun/Blueprint/BP_Customizable": [
+      "/Game/WW2City/Library_Meshingun/ToolsCollection_Meshingun/MaterialCustomizer_Meshingun/Blueprint/BP_Customizable"
+    ],
+    "/Game/Library_Meshingun/ToolsCollection_Meshingun/MaterialCustomizer_Meshingun/Blueprint/BP_Customizable_Pawn": [
+      "/Game/WW2City/Library_Meshingun/ToolsCollection_Meshingun/MaterialCustomizer_Meshingun/Blueprint/BP_Customizable_Pawn"
+    ],
+    "/Game/WW2City/CarsSet/Mesh/Car_2_Rig/ABP_Car_02": [
+      "/Game/WW2City/CarsSet/Mesh/Car_2_Rig/ABP_Car02"
+    ],
+    "/Game/WW2City/Library_Meshingun/ToolsCollection_Meshingun/RopeCatenaryGenerator_Meshingun/Asset/Texture/T_TintMask_02_TM": [
+      "/Game/WW2City/Library_Meshingun/ToolsCollection_Meshingun/PowerlineGenerator_Meshingun/Materials/MI_Rope_01a",
+      "/Game/WW2City/Library_Meshingun/ToolsCollection_Meshingun/PowerlineGenerator_Meshingun/Materials/MI_Rope_01a_CableEdition"
+    ],
+    "/Game/WorldProceduralToolkit/Blueprints/Library/BPL_DebugLib": [
+      "/Game/WW2City/Environment/Blueprints/RoadTool/Blueprints/Library/BPL_DebugLib"
+    ]
+  },
+  "files": [
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_EyeMaterial",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_EyeMaterial.uasset",
+      "size_bytes": 121020,
+      "sha256": "37e0f84b24ba4ccbcf29c11a99d90641faf5d8d8ef460fac86f640989dc96b4f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/37/37e0f84b24ba4ccbcf29c11a99d90641faf5d8d8ef460fac86f640989dc96b4f"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_FiledFlask",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_FiledFlask.uasset",
+      "size_bytes": 155345,
+      "sha256": "d78b062dac0845438a508dbb5e51b69089c79c7ebf980d5299eb7fbe4a67d3d5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d7/d78b062dac0845438a508dbb5e51b69089c79c7ebf980d5299eb7fbe4a67d3d5"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_GasMaskCase",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_GasMaskCase.uasset",
+      "size_bytes": 142416,
+      "sha256": "2d3e49f3e2c452e1ffcf4fb1421d6455feba013825110856c9548e94b132d835",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2d/2d3e49f3e2c452e1ffcf4fb1421d6455feba013825110856c9548e94b132d835"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_GermSoldierFaseA",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_GermSoldierFaseA.uasset",
+      "size_bytes": 107899,
+      "sha256": "82ca9ec8798ec4c182cf61870b35f5ef28f39ec5049fb7fb1333c2c9ecdf2a30",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/82/82ca9ec8798ec4c182cf61870b35f5ef28f39ec5049fb7fb1333c2c9ecdf2a30"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_GermSoldierFaseB",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_GermSoldierFaseB.uasset",
+      "size_bytes": 139424,
+      "sha256": "5ca1908e831e59513c30b75f60f3dbbf0c23a1437d273ac46e0c3268467f362c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/5c/5ca1908e831e59513c30b75f60f3dbbf0c23a1437d273ac46e0c3268467f362c"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_GermSoldier_HelmetCamo",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_GermSoldier_HelmetCamo.uasset",
+      "size_bytes": 169890,
+      "sha256": "32bc3baf9fafc65726411973a3e8093d229e2673c44cf2214f7139086ea8e749",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/32/32bc3baf9fafc65726411973a3e8093d229e2673c44cf2214f7139086ea8e749"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_GermSoldier_Jacket",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_GermSoldier_Jacket.uasset",
+      "size_bytes": 166114,
+      "sha256": "87857bfa8e6e0b6937d71c058db06a4fc1462302e8cccd4bb60167e6e1c6080b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/87/87857bfa8e6e0b6937d71c058db06a4fc1462302e8cccd4bb60167e6e1c6080b"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_GermSoldier_Pants",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_GermSoldier_Pants.uasset",
+      "size_bytes": 164570,
+      "sha256": "20bf3a58bb5085a70d1a295bd8767e1e66ea19526f838bfac4d48ed53f84f937",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/20/20bf3a58bb5085a70d1a295bd8767e1e66ea19526f838bfac4d48ed53f84f937"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_GrmBags",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_GrmBags.uasset",
+      "size_bytes": 140336,
+      "sha256": "d50b4cf3ead9b4c76f25d2c8ab1f84925448d565acb0c4c5cfefc42de5ee3e7a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d5/d50b4cf3ead9b4c76f25d2c8ab1f84925448d565acb0c4c5cfefc42de5ee3e7a"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MI_Shovel",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MI_Shovel.uasset",
+      "size_bytes": 147166,
+      "sha256": "2f6769d60470d4aeda0e427f47c87bd34a1861066feeec6d06d27f95b721d24f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2f/2f6769d60470d4aeda0e427f47c87bd34a1861066feeec6d06d27f95b721d24f"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/M_Equipment",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/M_Equipment.uasset",
+      "size_bytes": 146468,
+      "sha256": "14bf98df26703f4027f092100e1dcd2e4f4428a59daf359e76b70ddbfc96f38c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/14/14bf98df26703f4027f092100e1dcd2e4f4428a59daf359e76b70ddbfc96f38c"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/M_Eye",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/M_Eye.uasset",
+      "size_bytes": 178347,
+      "sha256": "137564a612336f23cdb7cd037b099ead23712e09a62045169a1c6fa1a10e92ba",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/13/137564a612336f23cdb7cd037b099ead23712e09a62045169a1c6fa1a10e92ba"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/M_GermSoldier_master",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/M_GermSoldier_master.uasset",
+      "size_bytes": 180060,
+      "sha256": "9e027c58cf20822a1abdc1532844981c7659f46b95bdfa50a63af8e71743ace8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9e/9e027c58cf20822a1abdc1532844981c7659f46b95bdfa50a63af8e71743ace8"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/M_Skin_Master",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/M_Skin_Master.uasset",
+      "size_bytes": 141851,
+      "sha256": "4f338d23d48fd0a60d71d95c0ff3e85ecaef2d77dc26ad216cccdc782422cff9",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4f/4f338d23d48fd0a60d71d95c0ff3e85ecaef2d77dc26ad216cccdc782422cff9"
+    },
+    {
+      "package": "/Game/GermanSoldier/Materials/MaterialFunctions/ML_EyeRefraction",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Materials/MaterialFunctions/ML_EyeRefraction.uasset",
+      "size_bytes": 101208,
+      "sha256": "7db06e5cabe55bf66379a3ac8b4b7b19785422ff85e54f9dfdf744b9a234b9f2",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/7d/7db06e5cabe55bf66379a3ac8b4b7b19785422ff85e54f9dfdf744b9a234b9f2"
+    },
+    {
+      "package": "/Game/GermanSoldier/Meshes/SK_WWII_GermanSoldier_simple_PhysicsAsset",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Meshes/SK_WWII_GermanSoldier_simple_PhysicsAsset.uasset",
+      "size_bytes": 139585,
+      "sha256": "e9e1a6f87e05393d576df4e8785913cb084f648478bb23b5ebc89629eb43a62d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e9/e9e1a6f87e05393d576df4e8785913cb084f648478bb23b5ebc89629eb43a62d"
+    },
+    {
+      "package": "/Game/GermanSoldier/Meshes/SK_WWII_GermanSoldier_simple_Skeleton",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Meshes/SK_WWII_GermanSoldier_simple_Skeleton.uasset",
+      "size_bytes": 17394,
+      "sha256": "203de4b8fa6ca80e1b8b261f51452510fdf3dd8c75296aad68ee43bef0436067",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/20/203de4b8fa6ca80e1b8b261f51452510fdf3dd8c75296aad68ee43bef0436067"
+    },
+    {
+      "package": "/Game/GermanSoldier/Meshes/SK_WWII_GermanSoldier_varA",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Meshes/SK_WWII_GermanSoldier_varA.uasset",
+      "size_bytes": 5686869,
+      "sha256": "4156303c0e3cd72cc2ca3bf4f9039f0eede9d1cecd7ad9079c6b15842e4793f5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/41/4156303c0e3cd72cc2ca3bf4f9039f0eede9d1cecd7ad9079c6b15842e4793f5"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Bags/T_GrmSoldierEquipment_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Bags/T_GrmSoldierEquipment_D.uasset",
+      "size_bytes": 1549515,
+      "sha256": "0414e1c80e412c88a2da76f0e8b998b971f9c21b65983bb4d8ed40bbf773eb46",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/04/0414e1c80e412c88a2da76f0e8b998b971f9c21b65983bb4d8ed40bbf773eb46"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Bags/T_GrmSoldierEquipment_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Bags/T_GrmSoldierEquipment_N.uasset",
+      "size_bytes": 1886096,
+      "sha256": "e7d12c6ca8992a51b14ed99bc046748b1a9a6e7b0089a2052fd1313757adf94f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e7/e7d12c6ca8992a51b14ed99bc046748b1a9a6e7b0089a2052fd1313757adf94f"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Bags/T_GrmSoldierEquipment_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Bags/T_GrmSoldierEquipment_ORM.uasset",
+      "size_bytes": 1177890,
+      "sha256": "44ac4ba2cd039d5de493ce7f2309ced412d536d838806d4724a7496f496baa6a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/44/44ac4ba2cd039d5de493ce7f2309ced412d536d838806d4724a7496f496baa6a"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/CAMO/T_CamoGermanWWII_B",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/CAMO/T_CamoGermanWWII_B.uasset",
+      "size_bytes": 706123,
+      "sha256": "cf9f5eb0658c43ed465fd242ea816fb2716adf47b3bf61fbc131dde30bc7565e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/cf/cf9f5eb0658c43ed465fd242ea816fb2716adf47b3bf61fbc131dde30bc7565e"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/CAMO/T_CamoGermanWWII_C",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/CAMO/T_CamoGermanWWII_C.uasset",
+      "size_bytes": 630897,
+      "sha256": "bae1103d3a14f0be52b9c97cdeb92a47112a960f986d8f1b838a30119890acb7",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ba/bae1103d3a14f0be52b9c97cdeb92a47112a960f986d8f1b838a30119890acb7"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Eyes/T_EyeBaseColor",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Eyes/T_EyeBaseColor.uasset",
+      "size_bytes": 365145,
+      "sha256": "1a2e1dfc3555c5559a4d1d7f13a54fe5f180712663f82df863e148158f4545ba",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/1a/1a2e1dfc3555c5559a4d1d7f13a54fe5f180712663f82df863e148158f4545ba"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Eyes/T_EyeDisplacement",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Eyes/T_EyeDisplacement.uasset",
+      "size_bytes": 182762,
+      "sha256": "6c1caedda45fc53ed8c39906590ebb83f4d77e58a0bfefe48a854d41fa3db4a6",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/6c/6c1caedda45fc53ed8c39906590ebb83f4d77e58a0bfefe48a854d41fa3db4a6"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Eyes/T_EyeNormals",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Eyes/T_EyeNormals.uasset",
+      "size_bytes": 212597,
+      "sha256": "42ddcae65336f313b3bf03de5170bebaa559d9ae2c602cc198fc90c74f48c7ae",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/42/42ddcae65336f313b3bf03de5170bebaa559d9ae2c602cc198fc90c74f48c7ae"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Eyes/T_EyeScleraBaseColor",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Eyes/T_EyeScleraBaseColor.uasset",
+      "size_bytes": 3170765,
+      "sha256": "b84129f5edaf8a82e4d243de110806bb88f94155fba0d0c7af311d5a1963a4b1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b8/b84129f5edaf8a82e4d243de110806bb88f94155fba0d0c7af311d5a1963a4b1"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Eyes/T_EyeSphere_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Eyes/T_EyeSphere_N.uasset",
+      "size_bytes": 642342,
+      "sha256": "7ac373460c66958b1e93adfa352ba4f07b920cea966bb86f200871f5c261c097",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/7a/7ac373460c66958b1e93adfa352ba4f07b920cea966bb86f200871f5c261c097"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Eyes/T_Eye_Wet_Normal",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Eyes/T_Eye_Wet_Normal.uasset",
+      "size_bytes": 977955,
+      "sha256": "9a48f8464dbea09e6e8308fa82c4a685ea34381f825801ba16a10071a1ee4d19",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9a/9a48f8464dbea09e6e8308fa82c4a685ea34381f825801ba16a10071a1ee4d19"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Eyes/T_SecondReflection",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Eyes/T_SecondReflection.uasset",
+      "size_bytes": 62958021,
+      "sha256": "f0f8cda8f795cf2f5d48f1f3044fa2720889a030e6838e6fbb45c0904fca9d7b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f0/f0f8cda8f795cf2f5d48f1f3044fa2720889a030e6838e6fbb45c0904fca9d7b"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Face/T_PoliceOfficer_04_skin_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Face/T_PoliceOfficer_04_skin_D.uasset",
+      "size_bytes": 4259137,
+      "sha256": "1e11e43e3029f4f685cc3eb4b1fe0ca44bae634bf14ac42d78e4211ebb191faa",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/1e/1e11e43e3029f4f685cc3eb4b1fe0ca44bae634bf14ac42d78e4211ebb191faa"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Face/T_PoliceOfficer_04_skin_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Face/T_PoliceOfficer_04_skin_N.uasset",
+      "size_bytes": 4797106,
+      "sha256": "7e4a788bbf948354bda3e8a104b64701d78e3d84760ad2b48e98e68b4fdb345e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/7e/7e4a788bbf948354bda3e8a104b64701d78e3d84760ad2b48e98e68b4fdb345e"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Face/T_PoliceOfficer_04_skin_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Face/T_PoliceOfficer_04_skin_ORM.uasset",
+      "size_bytes": 3367503,
+      "sha256": "408faee6be8d131f6083e4eff52a804860520e2830bb497bd8aa54c93315453e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/40/408faee6be8d131f6083e4eff52a804860520e2830bb497bd8aa54c93315453e"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/FaceB/T_GHead_B_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/FaceB/T_GHead_B_D.uasset",
+      "size_bytes": 3399993,
+      "sha256": "a1207ca19873a980477b1ff2c67880528a18ee46cd501e1b3d200d0d70f6ad4e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a1/a1207ca19873a980477b1ff2c67880528a18ee46cd501e1b3d200d0d70f6ad4e"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/FaceB/T_GHead_B_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/FaceB/T_GHead_B_N.uasset",
+      "size_bytes": 3894685,
+      "sha256": "15b510198b91524e97350e9d955b5a89fceeeb48c8611fd7ac4ae72b35719fff",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/15/15b510198b91524e97350e9d955b5a89fceeeb48c8611fd7ac4ae72b35719fff"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/FaceB/T_GHead_B_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/FaceB/T_GHead_B_ORM.uasset",
+      "size_bytes": 2456831,
+      "sha256": "e1eb5dbbdcb82e9a4cef3600d55f45f2859e03cee04b91c7266cbd7971024b8e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e1/e1eb5dbbdcb82e9a4cef3600d55f45f2859e03cee04b91c7266cbd7971024b8e"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_D.uasset",
+      "size_bytes": 6171800,
+      "sha256": "644f7a0f6d19d30b17a154386bea95f644edd4e40578c5ee6f35fe6e417eabd9",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/64/644f7a0f6d19d30b17a154386bea95f644edd4e40578c5ee6f35fe6e417eabd9"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_N.uasset",
+      "size_bytes": 9349143,
+      "sha256": "bce903ba65b9d320f53715458a50832a79a618c3d2584cbcf1c791174ce6600a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/bc/bce903ba65b9d320f53715458a50832a79a618c3d2584cbcf1c791174ce6600a"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/FieldFlask/T_SM_Grm_WWII_FieldFlask_ORM.uasset",
+      "size_bytes": 5327553,
+      "sha256": "6b20df69a5110909e00984ab0909b848ff7e7149dffa951f5babf5189fac524c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/6b/6b20df69a5110909e00984ab0909b848ff7e7149dffa951f5babf5189fac524c"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_D.uasset",
+      "size_bytes": 4891074,
+      "sha256": "b44113a78462b786ebad54ebe79a68f67afaad903f89605b8c97e39112a2e4c9",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b4/b44113a78462b786ebad54ebe79a68f67afaad903f89605b8c97e39112a2e4c9"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_N.uasset",
+      "size_bytes": 8237389,
+      "sha256": "68a70a88d46a10753287b4debdb5570df044c1d289bd0ce1a2b47effce4ea73b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/68/68a70a88d46a10753287b4debdb5570df044c1d289bd0ce1a2b47effce4ea73b"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/GasMaskCase/T_Grm_WWII_GasMaskCase_ORM.uasset",
+      "size_bytes": 5661150,
+      "sha256": "d129152d121bf7dd15cd6c469b0809c8c4c60fa30cca723315fe5e89f31362fb",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d1/d129152d121bf7dd15cd6c469b0809c8c4c60fa30cca723315fe5e89f31362fb"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_D.uasset",
+      "size_bytes": 3647197,
+      "sha256": "13b322921318a3db29c3c986f01e5284c4f898b53394b16717c076860979c633",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/13/13b322921318a3db29c3c986f01e5284c4f898b53394b16717c076860979c633"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_N.uasset",
+      "size_bytes": 5360412,
+      "sha256": "af9a58447b574d979124d62a54e9bd398a3d3e419ec9cc863d2a43cdb32d502a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/af/af9a58447b574d979124d62a54e9bd398a3d3e419ec9cc863d2a43cdb32d502a"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/HelmetA/T_SM_Grm_WWII_Helmet_A_ORM.uasset",
+      "size_bytes": 4571433,
+      "sha256": "9eb3c62870adb1f3c112e3b348234902b4d29a32150c67f3d0bdf28de481ce2e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9e/9eb3c62870adb1f3c112e3b348234902b4d29a32150c67f3d0bdf28de481ce2e"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/HelmetWCover/T_GrmSoldierHelmetCover_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/HelmetWCover/T_GrmSoldierHelmetCover_D.uasset",
+      "size_bytes": 1399203,
+      "sha256": "abf7d19e18fd63a00ceb313714ef42e6d24117bb38d53546768aaf6951fcae15",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ab/abf7d19e18fd63a00ceb313714ef42e6d24117bb38d53546768aaf6951fcae15"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/HelmetWCover/T_GrmSoldierHelmetCover_ID",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/HelmetWCover/T_GrmSoldierHelmetCover_ID.uasset",
+      "size_bytes": 484271,
+      "sha256": "64f95d0373782460d1572921dcc35f9ef85b12c1b71ce3b470bd489803326ad7",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/64/64f95d0373782460d1572921dcc35f9ef85b12c1b71ce3b470bd489803326ad7"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/HelmetWCover/T_GrmSoldierHelmetCover_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/HelmetWCover/T_GrmSoldierHelmetCover_N.uasset",
+      "size_bytes": 2308870,
+      "sha256": "845eea6adb26c55abb31bc6375e86b1b9c80eaee3280e454eb657769a9852c76",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/84/845eea6adb26c55abb31bc6375e86b1b9c80eaee3280e454eb657769a9852c76"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/HelmetWCover/T_GrmSoldierHelmetCover_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/HelmetWCover/T_GrmSoldierHelmetCover_ORM.uasset",
+      "size_bytes": 946553,
+      "sha256": "d99316215e85ee361b7b6e8ce314a962d42f3b93b746405d1c06a3ccdc8f30fe",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d9/d99316215e85ee361b7b6e8ce314a962d42f3b93b746405d1c06a3ccdc8f30fe"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Jacket/T_GrmSoldierTorso_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Jacket/T_GrmSoldierTorso_D.uasset",
+      "size_bytes": 5991887,
+      "sha256": "83b108c7fa97f2b1b9bfefb78acc3bfda06d8038b66ff2b203f027e559ab0694",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/83/83b108c7fa97f2b1b9bfefb78acc3bfda06d8038b66ff2b203f027e559ab0694"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Jacket/T_GrmSoldierTorso_ID",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Jacket/T_GrmSoldierTorso_ID.uasset",
+      "size_bytes": 1968448,
+      "sha256": "2d4ebbe1e398cb55fbb38ef87982ac1a3c80276c7c214e132706bde3b7e7b4cd",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2d/2d4ebbe1e398cb55fbb38ef87982ac1a3c80276c7c214e132706bde3b7e7b4cd"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Jacket/T_GrmSoldierTorso_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Jacket/T_GrmSoldierTorso_N.uasset",
+      "size_bytes": 7237143,
+      "sha256": "f641c1ca1f74edd691cd150d9e95fea37ab6b5f84f9d555fcad89304ac5f4418",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f6/f641c1ca1f74edd691cd150d9e95fea37ab6b5f84f9d555fcad89304ac5f4418"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Jacket/T_GrmSoldierTorso_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Jacket/T_GrmSoldierTorso_ORM.uasset",
+      "size_bytes": 4268240,
+      "sha256": "a8bb556b165f19c6ca961ef1b04fb156334dbf07d421068832767d08570fa29a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a8/a8bb556b165f19c6ca961ef1b04fb156334dbf07d421068832767d08570fa29a"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Legs/T_GrmSoldierLegs_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Legs/T_GrmSoldierLegs_D.uasset",
+      "size_bytes": 6079946,
+      "sha256": "228c0d4c55532d5a1a53064034aca0be791288391d48a7fe9297a9508bd30a2f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/22/228c0d4c55532d5a1a53064034aca0be791288391d48a7fe9297a9508bd30a2f"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Legs/T_GrmSoldierLegs_ID",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Legs/T_GrmSoldierLegs_ID.uasset",
+      "size_bytes": 2458862,
+      "sha256": "1d186157e0ffab86b89960cb7f751187a6ccdca73b8f68caea4680996f8d270a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/1d/1d186157e0ffab86b89960cb7f751187a6ccdca73b8f68caea4680996f8d270a"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Legs/T_GrmSoldierLegs_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Legs/T_GrmSoldierLegs_N.uasset",
+      "size_bytes": 6740129,
+      "sha256": "bc2b63d0070afdde9beeb6cfa0f552836d736c29818d7c9b4b508a8474b1dc41",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/bc/bc2b63d0070afdde9beeb6cfa0f552836d736c29818d7c9b4b508a8474b1dc41"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Legs/T_GrmSoldierLegs_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Legs/T_GrmSoldierLegs_ORM.uasset",
+      "size_bytes": 3902112,
+      "sha256": "231b8615e085066d4db86a5072bce34955c7d252b638229272310c2d872457ea",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/23/231b8615e085066d4db86a5072bce34955c7d252b638229272310c2d872457ea"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Shovel/T_GrmSoldierShovel_D",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Shovel/T_GrmSoldierShovel_D.uasset",
+      "size_bytes": 1343803,
+      "sha256": "23d9db8b2e77c46ba8ae5166d7022638fb27747783a9352f7e175966d7457cc5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/23/23d9db8b2e77c46ba8ae5166d7022638fb27747783a9352f7e175966d7457cc5"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Shovel/T_GrmSoldierShovel_N",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Shovel/T_GrmSoldierShovel_N.uasset",
+      "size_bytes": 2047217,
+      "sha256": "3736d82c6d067c0c903a9d1fac79ac5da07625ab47ba35b47a91ef16adc0f483",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/37/3736d82c6d067c0c903a9d1fac79ac5da07625ab47ba35b47a91ef16adc0f483"
+    },
+    {
+      "package": "/Game/GermanSoldier/Textures/Shovel/T_GrmSoldierShovel_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/GermanSoldier/Textures/Shovel/T_GrmSoldierShovel_ORM.uasset",
+      "size_bytes": 1330173,
+      "sha256": "302cc5da4ff1bf5d11c4e32b5ebbbabafe58414d0ac6ecde36fe0444474b781d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/30/302cc5da4ff1bf5d11c4e32b5ebbbabafe58414d0ac6ecde36fe0444474b781d"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied.uasset",
+      "size_bytes": 83903,
+      "sha256": "71c00fa9e0e9a17ea3d4852071346a2fd60b4e3861c7d906990b0ab21901f7b8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/71/71c00fa9e0e9a17ea3d4852071346a2fd60b4e3861c7d906990b0ab21901f7b8"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied_Stride_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_Allied_Stride_v1.uasset",
+      "size_bytes": 79723,
+      "sha256": "78438af98c2d3220eb57a67088228c0113a56f81c807981da3e2aaadede8bee1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/78/78438af98c2d3220eb57a67088228c0113a56f81c807981da3e2aaadede8bee1"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/DirectionalDraft/ABP_PC_German_Stride_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/ABP_PC_German_Stride_v1.uasset",
+      "size_bytes": 79766,
+      "sha256": "0d8f864c65f4e916e212c71d53c0c31db332c3bbeff8a237cb4bf680c551bb17",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0d/0d8f864c65f4e916e212c71d53c0c31db332c3bbeff8a237cb4bf680c551bb17"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/DirectionalDraft/BS_PC_Allied",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_Allied.uasset",
+      "size_bytes": 37526,
+      "sha256": "97f178aac9e668bc86b79172767c8b54bb506c0f0a3b9669855d1939dd3b1a66",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/97/97f178aac9e668bc86b79172767c8b54bb506c0f0a3b9669855d1939dd3b1a66"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/DirectionalDraft/BS_PC_Allied_Stride_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_Allied_Stride_v1.uasset",
+      "size_bytes": 37566,
+      "sha256": "f0edf2c398251795bd106ec1cf7d7e5aab3c6a559963c28878686c09ad4b7701",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f0/f0edf2c398251795bd106ec1cf7d7e5aab3c6a559963c28878686c09ad4b7701"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/DirectionalDraft/BS_PC_German_Stride_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Animation/DirectionalDraft/BS_PC_German_Stride_v1.uasset",
+      "size_bytes": 37600,
+      "sha256": "55bc4297ee601ba5df46f622ce40481fc2788e0dca8f5561161fc5c05e4effcb",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/55/55bc4297ee601ba5df46f622ce40481fc2788e0dca8f5561161fc5c05e4effcb"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SKEL_PC_German_Translation_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SKEL_PC_German_Translation_v1.uasset",
+      "size_bytes": 17225,
+      "sha256": "2c13902a2212efa8c8eb3e48e4dd19d935da7d1ba4bd17f24e31845a2f4542e1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2c/2c13902a2212efa8c8eb3e48e4dd19d935da7d1ba4bd17f24e31845a2f4542e1"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SK_PC_German_A_Translation_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Animation/RetargetDraft/GermanTranslationV1/SK_PC_German_A_Translation_v1.uasset",
+      "size_bytes": 5585699,
+      "sha256": "b7344949bc54e296f7c7de83fa6c43372eec1bc6ae9063aa225fad8b06bc023e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b7/b7344949bc54e296f7c7de83fa6c43372eec1bc6ae9063aa225fad8b06bc023e"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/Characters/BP_PCCombatantBase",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/BP_PCCombatantBase.uasset",
+      "size_bytes": 52489,
+      "sha256": "0f25c1c779ce69d94c9ea61199952dd9831dad00113a9439905ee878468bc1c8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0f/0f25c1c779ce69d94c9ea61199952dd9831dad00113a9439905ee878468bc1c8"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/Characters/LifecycleDraft/BP_PCCombatantV2",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/LifecycleDraft/BP_PCCombatantV2.uasset",
+      "size_bytes": 171216,
+      "sha256": "3ba5b097a2d5a707d821565c9b80f8a27465b65e9b337bf0604be404f703e836",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3b/3ba5b097a2d5a707d821565c9b80f8a27465b65e9b337bf0604be404f703e836"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/BP_PCCombatantReloadV1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/Characters/SimplifiedReloadDraft/BP_PCCombatantReloadV1.uasset",
+      "size_bytes": 465372,
+      "sha256": "06ad11c269890d43744b3ac708e51f74cbf249bfe43262b1708a63c0cecb34bc",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/06/06ad11c269890d43744b3ac708e51f74cbf249bfe43262b1708a63c0cecb34bc"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisAlliedNPCV1.uasset",
+      "size_bytes": 36008,
+      "sha256": "e173eb00eea8bfab70082e5186a6ed6faa700480046b762d2037de54f250af38",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e1/e173eb00eea8bfab70082e5186a6ed6faa700480046b762d2037de54f250af38"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2.uasset",
+      "size_bytes": 300043,
+      "sha256": "892836f8a7f39a3a4bc23ce799cd6b9c89c1a7ccdbe5f409927fd98100b142de",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/89/892836f8a7f39a3a4bc23ce799cd6b9c89c1a7ccdbe5f409927fd98100b142de"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGameModeV1.uasset",
+      "size_bytes": 21247,
+      "sha256": "9f48052e721e956af95561553dd875da6e02936a0089c38fc3cbc39d74a52832",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9f/9f48052e721e956af95561553dd875da6e02936a0089c38fc3cbc39d74a52832"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisGermanNPCV1.uasset",
+      "size_bytes": 36829,
+      "sha256": "9ff1d12e49024b219760691520cf18ff818955f699faf7586fae0af2536eaf70",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9f/9ff1d12e49024b219760691520cf18ff818955f699faf7586fae0af2536eaf70"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisPlayerV1.uasset",
+      "size_bytes": 91202,
+      "sha256": "03b07dcc5a8a2ac6367a1e41cce621a909ffe27ce10a425467f496c523c6358c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/03/03b07dcc5a8a2ac6367a1e41cce621a909ffe27ce10a425467f496c523c6358c"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/ContinuousArmsNativeV1/BP_PC_ContinuousArmsNativeV1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/ContinuousArmsNativeV1/BP_PC_ContinuousArmsNativeV1.uasset",
+      "size_bytes": 652470,
+      "sha256": "45a11672cf7f3a99bac7598a33357fb6dcd4f90fe3e8e064ed2a5430ff2a84d1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/45/45a11672cf7f3a99bac7598a33357fb6dcd4f90fe3e8e064ed2a5430ff2a84d1"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/WeaponAttachmentV3/BP_PC_RifleAttachmentV3",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/WeaponAttachmentV3/BP_PC_RifleAttachmentV3.uasset",
+      "size_bytes": 224447,
+      "sha256": "5ac4ce3fd6ce6a74aa54030c28079bc18c5558d3341ab73e3c271cbd6960c25b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/5a/5ac4ce3fd6ce6a74aa54030c28079bc18c5558d3341ab73e3c271cbd6960c25b"
+    },
+    {
+      "package": "/Game/ParisCombat/Characters/Adaptation/Materials/M_EyePBR_Allied_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Characters/Adaptation/Materials/M_EyePBR_Allied_v1.uasset",
+      "size_bytes": 10805,
+      "sha256": "5d81c52602e01fd064758dbf8347c91a4eaee951322c7cbd473e9c4da63dc819",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/5d/5d81c52602e01fd064758dbf8347c91a4eaee951322c7cbd473e9c4da63dc819"
+    },
+    {
+      "package": "/Game/ParisCombat/Characters/Adaptation/Materials/M_EyePBR_German_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Characters/Adaptation/Materials/M_EyePBR_German_v1.uasset",
+      "size_bytes": 10805,
+      "sha256": "2b8ebfa7275747b00bf6fd9d5d1b00c410ba91f411985fdfaf854e9a2ecf9d80",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2b/2b8ebfa7275747b00bf6fd9d5d1b00c410ba91f411985fdfaf854e9a2ecf9d80"
+    },
+    {
+      "package": "/Game/ParisCombat/Characters/Adaptation/Meshes/SK_WWII_US_Paratrooper_simple_UE582_v1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Characters/Adaptation/Meshes/SK_WWII_US_Paratrooper_simple_UE582_v1.uasset",
+      "size_bytes": 9352037,
+      "sha256": "787418a0d1eb753e585c882982e7752e8fb0f3ad9786d2acf04d3d4312520dcd",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/78/787418a0d1eb753e585c882982e7752e8fb0f3ad9786d2acf04d3d4312520dcd"
+    },
+    {
+      "package": "/Game/ParisCombat/Characters/FirstPersonContinuousArmsV3/SK_PC_ContinuousArmsV3",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Characters/FirstPersonContinuousArmsV3/SK_PC_ContinuousArmsV3.uasset",
+      "size_bytes": 1503038,
+      "sha256": "05e270597f538bbd45e310a5c22e75d620b9af5109260a37091ad0c49a9fd010",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/05/05e270597f538bbd45e310a5c22e75d620b9af5109260a37091ad0c49a9fd010"
+    },
+    {
+      "package": "/Game/ParisCombat/Characters/FirstPersonContinuousArmsV3/SK_PC_ContinuousArmsV3_Skeleton",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Characters/FirstPersonContinuousArmsV3/SK_PC_ContinuousArmsV3_Skeleton.uasset",
+      "size_bytes": 16849,
+      "sha256": "01c8b101c31865e0c2a668668b33196e88d6ca6dd4ab74658974837e61ebd6d6",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/01/01c8b101c31865e0c2a668668b33196e88d6ca6dd4ab74658974837e61ebd6d6"
+    },
+    {
+      "package": "/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+      "size_bytes": 2707948,
+      "sha256": "2791b4a7f76b4b3d07f42286b6ad0156c3a185c2e3e795fa2446aaac0ad68519",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/27/2791b4a7f76b4b3d07f42286b6ad0156c3a185c2e3e795fa2446aaac0ad68519"
+    },
+    {
+      "package": "/Game/ParisCombat/UI/CityGameplayV1/WBP_PCParisStatusV1",
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/UI/CityGameplayV1/WBP_PCParisStatusV1.uasset",
+      "size_bytes": 104166,
+      "sha256": "c39e3e46a2dd70c63567ca57259b518759c291e9b346ef76de1bb57f85b44116",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c3/c39e3e46a2dd70c63567ca57259b518759c291e9b346ef76de1bb57f85b44116"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_Death_3",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Death_3.uasset",
+      "size_bytes": 2304282,
+      "sha256": "279b24c078d9a49dc6371704b4d51ee0cf9fe466fbe8a0fca23f73ab9a0ec872",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/27/279b24c078d9a49dc6371704b4d51ee0cf9fe466fbe8a0fca23f73ab9a0ec872"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_Idle",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle.uasset",
+      "size_bytes": 1517986,
+      "sha256": "0603ffac6ad228be87a59cbca499fe955b20e3059179345c63e2c83b7e4c23f7",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/06/0603ffac6ad228be87a59cbca499fe955b20e3059179345c63e2c83b7e4c23f7"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_Reload_2",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Reload_2.uasset",
+      "size_bytes": 1721079,
+      "sha256": "ada6b33b9374916ae75679809bd16a6839856792b648fb7add89dacb8ef1ab93",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ad/ada6b33b9374916ae75679809bd16a6839856792b648fb7add89dacb8ef1ab93"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_RunBwdLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_RunBwdLoop.uasset",
+      "size_bytes": 463829,
+      "sha256": "034f308a02a113b3934b535910e5634d830b22e1e98b5575f1f274c5f3fce77f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/03/034f308a02a113b3934b535910e5634d830b22e1e98b5575f1f274c5f3fce77f"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_RunFwdLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_RunFwdLoop.uasset",
+      "size_bytes": 495297,
+      "sha256": "26d4cc40242bda852ba5766536a9e4d0ae996145fa2d427d54e9008ff2aa3ed2",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/26/26d4cc40242bda852ba5766536a9e4d0ae996145fa2d427d54e9008ff2aa3ed2"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeft135Loop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeft135Loop.uasset",
+      "size_bytes": 345769,
+      "sha256": "3d530f72a8e934a02a6c470eb70521b3e53ffa3ea36b7da562d65bf9f66e206a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3d/3d530f72a8e934a02a6c470eb70521b3e53ffa3ea36b7da562d65bf9f66e206a"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeft45Loop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeft45Loop.uasset",
+      "size_bytes": 462367,
+      "sha256": "c222bd4f14b597d45096796477736f2068072bc65a4d1549afd13661b726de93",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c2/c222bd4f14b597d45096796477736f2068072bc65a4d1549afd13661b726de93"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeLeftLoop.uasset",
+      "size_bytes": 424943,
+      "sha256": "3d5a18ed5a73da0c7acc4acd6e9bf643541f482a1c43646d026700fc8ba6a9b7",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3d/3d5a18ed5a73da0c7acc4acd6e9bf643541f482a1c43646d026700fc8ba6a9b7"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRight135Loop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRight135Loop.uasset",
+      "size_bytes": 324524,
+      "sha256": "5651501c023943304676f23843d7c491c78029a4f1383eb346b696e289a3552d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/56/5651501c023943304676f23843d7c491c78029a4f1383eb346b696e289a3552d"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRight45Loop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRight45Loop.uasset",
+      "size_bytes": 356935,
+      "sha256": "4c8ac814403134688578b71a62ce6fa0848bccf2557c2f3cf2d26d1464f58b1e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4c/4c8ac814403134688578b71a62ce6fa0848bccf2557c2f3cf2d26d1464f58b1e"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRightLoop.uasset",
+      "size_bytes": 533284,
+      "sha256": "9e89a170ec6c2d225a239ef4f776fdf2882b5312951a1f4cea6be68f5cfea705",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9e/9e89a170ec6c2d225a239ef4f776fdf2882b5312951a1f4cea6be68f5cfea705"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun135LeftLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun135LeftLoop.uasset",
+      "size_bytes": 289058,
+      "sha256": "8cf0b0f96c9f44f8153592167122d75dab42306c716b6e1d2813b40c9b193fc4",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/8c/8cf0b0f96c9f44f8153592167122d75dab42306c716b6e1d2813b40c9b193fc4"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun135RightLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun135RightLoop.uasset",
+      "size_bytes": 288539,
+      "sha256": "a3bbd864a8cf714f395c0942969a9b460b0ee69d05de255e810d751b46413ef7",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a3/a3bbd864a8cf714f395c0942969a9b460b0ee69d05de255e810d751b46413ef7"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun45LeftLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun45LeftLoop.uasset",
+      "size_bytes": 652256,
+      "sha256": "3ee1baeaa6b43c1321c5700b80383d5d5901e5b31218aa5bbf25a8470abff0ab",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3e/3ee1baeaa6b43c1321c5700b80383d5d5901e5b31218aa5bbf25a8470abff0ab"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun45RightLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRun45RightLoop.uasset",
+      "size_bytes": 456378,
+      "sha256": "c108729e1b9e74606f468140d2ebf51bb58e042e9aa007fbbc2f38c33993b43b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c1/c108729e1b9e74606f468140d2ebf51bb58e042e9aa007fbbc2f38c33993b43b"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunLeftLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunLeftLoop.uasset",
+      "size_bytes": 448815,
+      "sha256": "05fbc6f21c44c4f8480e5980fc54c7411ddb2e3f117f6b6926095ca28366ace8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/05/05fbc6f21c44c4f8480e5980fc54c7411ddb2e3f117f6b6926095ca28366ace8"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunRightLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_StrafeRunRightLoop.uasset",
+      "size_bytes": 551465,
+      "sha256": "4b59d672444c37ec0954a7f9a7584f90306bb61a9ce695ae57f11ffa4a3fc701",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4b/4b59d672444c37ec0954a7f9a7584f90306bb61a9ce695ae57f11ffa4a3fc701"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkBwdLoop.uasset",
+      "size_bytes": 422897,
+      "sha256": "8cb8686b903e89a5ae928a293b0968a2c1e835b7790b9e27b3fb18e04c6cf583",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/8c/8cb8686b903e89a5ae928a293b0968a2c1e835b7790b9e27b3fb18e04c6cf583"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdLoop",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/Animations/InPlace/Rifle_WalkFwdLoop.uasset",
+      "size_bytes": 579497,
+      "sha256": "22cd1aa581a41974b718cc28d5b910dbbe00d2b4d3c41370b111fc8ca5c3c3ba",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/22/22cd1aa581a41974b718cc28d5b910dbbe00d2b4d3c41370b111fc8ca5c3c3ba"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/M_UE4Man_Body",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/M_UE4Man_Body.uasset",
+      "size_bytes": 136410,
+      "sha256": "1290b48cb9b3cf5fe3843fadc1a88005aa1f03fde3149992948577c3c04767a0",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/12/1290b48cb9b3cf5fe3843fadc1a88005aa1f03fde3149992948577c3c04767a0"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/M_UE4Man_ChestLogo",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset",
+      "size_bytes": 96582,
+      "sha256": "9a5a7d49216a84d30e5bc19ec4b4ccf29d12095c1f15a683edcf3cb9899a4f90",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9a/9a5a7d49216a84d30e5bc19ec4b4ccf29d12095c1f15a683edcf3cb9899a4f90"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset",
+      "size_bytes": 104431,
+      "sha256": "8239a939bba2e7ce19934f476120cb3b441c88fec87891e54291452390cd9795",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/82/8239a939bba2e7ce19934f476120cb3b441c88fec87891e54291452390cd9795"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset",
+      "size_bytes": 100212,
+      "sha256": "c026864e776053c7881a5f6cc4f3a9deeb283264cbead962e28ad943dd49949d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c0/c026864e776053c7881a5f6cc4f3a9deeb283264cbead962e28ad943dd49949d"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset",
+      "size_bytes": 101346,
+      "sha256": "2624aaa05fec41dea69f0dbf1309b2808ed00669786b9c2ebbc392cb01ff7eab",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/26/2624aaa05fec41dea69f0dbf1309b2808ed00669786b9c2ebbc392cb01ff7eab"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset",
+      "size_bytes": 104412,
+      "sha256": "a26628afaa2012fdbfa622cb18994976bfb41916946580e12ac1b6e510df183c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a2/a26628afaa2012fdbfa622cb18994976bfb41916946580e12ac1b6e510df183c"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset",
+      "size_bytes": 373451,
+      "sha256": "eb96d28ef33ab90846d5bda33ad1c5d02922a1660268972c1df5bcbe3dd084ab",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/eb/eb96d28ef33ab90846d5bda33ad1c5d02922a1660268972c1df5bcbe3dd084ab"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset",
+      "size_bytes": 307456,
+      "sha256": "faed2c925b7a0507bd07c43a3dcf1c2573a3b8eafa50635d649444e2f84f93c1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/fa/faed2c925b7a0507bd07c43a3dcf1c2573a3b8eafa50635d649444e2f84f93c1"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset",
+      "size_bytes": 417842,
+      "sha256": "2f14d173f0b99e8af54180461fe9f033ca21ca1ebb76350a1a104f3ce1693c06",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2f/2f14d173f0b99e8af54180461fe9f033ca21ca1ebb76350a1a104f3ce1693c06"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset",
+      "size_bytes": 292408,
+      "sha256": "bd0ebaf0d466d074721021592168966bccd88a8b3d19653f5425944c0f61245e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/bd/bd0ebaf0d466d074721021592168966bccd88a8b3d19653f5425944c0f61245e"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Mesh/SK_Mannequin",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/SK_Mannequin.uasset",
+      "size_bytes": 5101606,
+      "sha256": "bea5401b13aa902fa0bbe021badaae7d1cf56547e148636d26c0ecf637e477db",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/be/bea5401b13aa902fa0bbe021badaae7d1cf56547e148636d26c0ecf637e477db"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset",
+      "size_bytes": 42206,
+      "sha256": "359c4636a4d1b3ffa3090d432204fe3828df0ce1c9b9bd5b5634fb8988beacab",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/35/359c4636a4d1b3ffa3090d432204fe3828df0ce1c9b9bd5b5634fb8988beacab"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset",
+      "size_bytes": 16069,
+      "sha256": "da8e0f7a103f426f8e868351029ec2bd0a8df69ee02eb47554ba0ce1468af19b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/da/da8e0f7a103f426f8e868351029ec2bd0a8df69ee02eb47554ba0ce1468af19b"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Textures/UE4Man_Logo_N",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset",
+      "size_bytes": 129524,
+      "sha256": "88cd6b609b3de2ec0358ee7f0437ff23de7ac191d9f591cf3e4d1a77e8e711b0",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/88/88cd6b609b3de2ec0358ee7f0437ff23de7ac191d9f591cf3e4d1a77e8e711b0"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_LOGO_CARD",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset",
+      "size_bytes": 76184,
+      "sha256": "4cd51e1705cdf6b2ee3f5fb15afcfe7fd4daceede4c31db59c36a4920fe76da5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4c/4cd51e1705cdf6b2ee3f5fb15afcfe7fd4daceede4c31db59c36a4920fe76da5"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset",
+      "size_bytes": 227698,
+      "sha256": "4bafbf71b66959d2e6cc26d3de809afb8f4ed49111b6184bd2485f0d172add0a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4b/4bafbf71b66959d2e6cc26d3de809afb8f4ed49111b6184bd2485f0d172add0a"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin__normals",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset",
+      "size_bytes": 4731210,
+      "sha256": "9fee485d8f8aa2bfefc9de7db96fd444f01a025568cb18378d05c445d6ba09a9",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9f/9fee485d8f8aa2bfefc9de7db96fd444f01a025568cb18378d05c445d6ba09a9"
+    },
+    {
+      "package": "/Game/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile",
+      "path": "Unreal/ParisStreetCombat/Content/RifleAnimsetPro/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset",
+      "size_bytes": 312412,
+      "sha256": "ae30bda1a916d18c0af41cd4f9be7067621db8be3122980b29b0be557fcb656a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ae/ae30bda1a916d18c0af41cd4f9be7067621db8be3122980b29b0be557fcb656a"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_AmmoPocket",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_AmmoPocket.uasset",
+      "size_bytes": 139427,
+      "sha256": "322cac1a5c1793b345f7f9347cac0239ef20a5113192ee3ee9239ddddf9f99d6",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/32/322cac1a5c1793b345f7f9347cac0239ef20a5113192ee3ee9239ddddf9f99d6"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_EyeMaterial",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_EyeMaterial.uasset",
+      "size_bytes": 113853,
+      "sha256": "5c0f5679a44d602956a7ae461f5d4fc18acdf99eface7db8747607128dc21280",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/5c/5c0f5679a44d602956a7ae461f5d4fc18acdf99eface7db8747607128dc21280"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_Hair_Short",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_Hair_Short.uasset",
+      "size_bytes": 155799,
+      "sha256": "85cedf5575974008927520e6fdc9d7300c139a0b34e68f659f7e90e84580dc9d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/85/85cedf5575974008927520e6fdc9d7300c139a0b34e68f659f7e90e84580dc9d"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_KombatKnife",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_KombatKnife.uasset",
+      "size_bytes": 158160,
+      "sha256": "ab16f410de87be8898849e1b95b9a2bfe249ee5f066fa20cc7edc5a5b3c88a21",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ab/ab16f410de87be8898849e1b95b9a2bfe249ee5f066fa20cc7edc5a5b3c88a21"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_M1_Garand",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_M1_Garand.uasset",
+      "size_bytes": 152568,
+      "sha256": "016bc7f4ec39bf5f251b3501b47addc0566348fa6d2866e5fb0108821b1fbf15",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/01/016bc7f4ec39bf5f251b3501b47addc0566348fa6d2866e5fb0108821b1fbf15"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_USParatrooper_feceA",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_USParatrooper_feceA.uasset",
+      "size_bytes": 134030,
+      "sha256": "18fa45c20f88f3c410a50c260669540e50fffb6a250f5d863a5927b59871f452",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/18/18fa45c20f88f3c410a50c260669540e50fffb6a250f5d863a5927b59871f452"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_US_WWII_FieldFlask",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_US_WWII_FieldFlask.uasset",
+      "size_bytes": 155963,
+      "sha256": "2e2191639dec75bc06b9de1feb2e02845c3ad9e7ee8149f1f14f4d0e13e7730c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2e/2e2191639dec75bc06b9de1feb2e02845c3ad9e7ee8149f1f14f4d0e13e7730c"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_US_WWII_Grenade",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_US_WWII_Grenade.uasset",
+      "size_bytes": 146110,
+      "sha256": "634f3b95fe1c0dcd8db214cac82447c624f698e9e720c4be9f1fb0d1bc0da766",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/63/634f3b95fe1c0dcd8db214cac82447c624f698e9e720c4be9f1fb0d1bc0da766"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_US_WWII_Helmet",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_US_WWII_Helmet.uasset",
+      "size_bytes": 152422,
+      "sha256": "9b17b8b9054ba0a3bcbc4e3ee3c154cb4309968e4a865ea5ed77166b62c22398",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9b/9b17b8b9054ba0a3bcbc4e3ee3c154cb4309968e4a865ea5ed77166b62c22398"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_US_WWII_SignalLight",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_US_WWII_SignalLight.uasset",
+      "size_bytes": 143542,
+      "sha256": "4c1774ec1cd15e7228afa0fce28e7d55ce62b7cf9ea8e31c57d7f99d5cdddb6e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4c/4c1774ec1cd15e7228afa0fce28e7d55ce62b7cf9ea8e31c57d7f99d5cdddb6e"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MI_US_WWII_TrenchSowel",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MI_US_WWII_TrenchSowel.uasset",
+      "size_bytes": 144555,
+      "sha256": "3aee47eee6748741fd9aa270206a2dca7d3ad5d1eaa579e968c1432543473149",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3a/3aee47eee6748741fd9aa270206a2dca7d3ad5d1eaa579e968c1432543473149"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_Equipment",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_Equipment.uasset",
+      "size_bytes": 160956,
+      "sha256": "0dae955a7b58a4fda843e1ea80d21cfefa4922ac1a9b2ea8b8b96d8d527d946c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0d/0dae955a7b58a4fda843e1ea80d21cfefa4922ac1a9b2ea8b8b96d8d527d946c"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_Eye",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_Eye.uasset",
+      "size_bytes": 192577,
+      "sha256": "1de8b1929bed5b8af5b1b57921804616fb68a2dde21b16ef3089c5f5d7c10cdd",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/1d/1de8b1929bed5b8af5b1b57921804616fb68a2dde21b16ef3089c5f5d7c10cdd"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_Hair",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_Hair.uasset",
+      "size_bytes": 167668,
+      "sha256": "fb6d22ef86242884c72690fddf38fa74e63086ea57c4012fb36843c1e6377634",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/fb/fb6d22ef86242884c72690fddf38fa74e63086ea57c4012fb36843c1e6377634"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_HelmetCover",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_HelmetCover.uasset",
+      "size_bytes": 156258,
+      "sha256": "a7bf485a786803e847758ea40769721fcae5d310476bcd795492b96e3e75d360",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a7/a7bf485a786803e847758ea40769721fcae5d310476bcd795492b96e3e75d360"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_Skin_Master",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_Skin_Master.uasset",
+      "size_bytes": 142121,
+      "sha256": "23f9280e8c75ac93288fbc694167b65c4db4fb6bd8e1bd0844d6a09708288680",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/23/23f9280e8c75ac93288fbc694167b65c4db4fb6bd8e1bd0844d6a09708288680"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_USParatrooperJacket",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_USParatrooperJacket.uasset",
+      "size_bytes": 170269,
+      "sha256": "03149b9bda6e534ed2850790ed9943770e348bceabed815b13d8e411d1fd73f8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/03/03149b9bda6e534ed2850790ed9943770e348bceabed815b13d8e411d1fd73f8"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_USParatrooperMusetteBag",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_USParatrooperMusetteBag.uasset",
+      "size_bytes": 141268,
+      "sha256": "5e1fbc00e6f62e9b0fb0431c13dd1159989dc57ab14e4aa3572a2c2465089cb1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/5e/5e1fbc00e6f62e9b0fb0431c13dd1159989dc57ab14e4aa3572a2c2465089cb1"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_USParatrooperPants",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_USParatrooperPants.uasset",
+      "size_bytes": 169427,
+      "sha256": "e712777184c96e71b6e20c90d594af27be7be2754f6c57bedc84767ba86644a7",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e7/e712777184c96e71b6e20c90d594af27be7be2754f6c57bedc84767ba86644a7"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/M_USParatrooper_master",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/M_USParatrooper_master.uasset",
+      "size_bytes": 190339,
+      "sha256": "69ed35869b4d9035cfc48ca95aad6a07bf0a68c43d3b1c1ce92f300708d0ce56",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/69/69ed35869b4d9035cfc48ca95aad6a07bf0a68c43d3b1c1ce92f300708d0ce56"
+    },
+    {
+      "package": "/Game/USParatrooper/Materials/MaterialFunctions/ML_EyeRefraction",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Materials/MaterialFunctions/ML_EyeRefraction.uasset",
+      "size_bytes": 101101,
+      "sha256": "ce39fc48ac717feed9feb7285cdf57361e58208b03c3f46022aa27d964849889",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ce/ce39fc48ac717feed9feb7285cdf57361e58208b03c3f46022aa27d964849889"
+    },
+    {
+      "package": "/Game/USParatrooper/Meshes/SK_WWII_US_Paratrooper_equipment",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_equipment.uasset",
+      "size_bytes": 5872929,
+      "sha256": "7473aaafe54671722e9fe861eab67b383d9cdca38346c7b3ad579bbdee9bd31c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/74/7473aaafe54671722e9fe861eab67b383d9cdca38346c7b3ad579bbdee9bd31c"
+    },
+    {
+      "package": "/Game/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple.uasset",
+      "size_bytes": 9454577,
+      "sha256": "583639572c097a73296320da4d029ae5000ab55152bc4201dc519b78aa92ee36",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/58/583639572c097a73296320da4d029ae5000ab55152bc4201dc519b78aa92ee36"
+    },
+    {
+      "package": "/Game/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_PhysicsAsset",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_PhysicsAsset.uasset",
+      "size_bytes": 136232,
+      "sha256": "44c0af9b8302503768cb546a7a1924a96ceb88ccfcea47f24bbb36fb50ada76d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/44/44c0af9b8302503768cb546a7a1924a96ceb88ccfcea47f24bbb36fb50ada76d"
+    },
+    {
+      "package": "/Game/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_Skeleton",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_Skeleton.uasset",
+      "size_bytes": 18265,
+      "sha256": "21e0d47a0ed4ab2558377c19d58cfa787af43939a64aba5dbc5ef596e6e2d5a8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/21/21e0d47a0ed4ab2558377c19d58cfa787af43939a64aba5dbc5ef596e6e2d5a8"
+    },
+    {
+      "package": "/Game/USParatrooper/Meshes/Weapon/Sm_M1_Garand",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Meshes/Weapon/Sm_M1_Garand.uasset",
+      "size_bytes": 199709,
+      "sha256": "0a0e10df4ffedae73908abe682825fdadc9949f93b7848e95dd679a47f8c88ed",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0a/0a0e10df4ffedae73908abe682825fdadc9949f93b7848e95dd679a47f8c88ed"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_D.uasset",
+      "size_bytes": 980851,
+      "sha256": "0a4d453f68c2b07ff3857a990e0f589f132679b704d09d9d7391229f21ab3875",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0a/0a4d453f68c2b07ff3857a990e0f589f132679b704d09d9d7391229f21ab3875"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_N.uasset",
+      "size_bytes": 1193670,
+      "sha256": "976ec65e3af4d58c532e9b20ca48ead483e11a2eb68c3e4b78622a1393eeea32",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/97/976ec65e3af4d58c532e9b20ca48ead483e11a2eb68c3e4b78622a1393eeea32"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/AmmoPocket/T_AmmoPocketM1_ORM.uasset",
+      "size_bytes": 558396,
+      "sha256": "10da7f5d2b9ae77d84868225717c8029cdcdaaeb7817bd9dc3be5f0f495efdc9",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/10/10da7f5d2b9ae77d84868225717c8029cdcdaaeb7817bd9dc3be5f0f495efdc9"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/CAMO/T_Camo_desert",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/CAMO/T_Camo_desert.uasset",
+      "size_bytes": 312136,
+      "sha256": "ac7ef05d1331b2b9463259e97f56e8f690076cd826a604aafbf78af2b2eda039",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ac/ac7ef05d1331b2b9463259e97f56e8f690076cd826a604aafbf78af2b2eda039"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/CAMO/T_FlatMid",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/CAMO/T_FlatMid.uasset",
+      "size_bytes": 211729,
+      "sha256": "bb0b55049f492b85b76cee738f7584808b57a21d2bbbb8529a35ab8f35a0d34e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/bb/bb0b55049f492b85b76cee738f7584808b57a21d2bbbb8529a35ab8f35a0d34e"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_D.uasset",
+      "size_bytes": 5899842,
+      "sha256": "5fd93e47daa5a6f6f4bbac7b50f0b34784eda1767b926b73e1516da762064172",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/5f/5fd93e47daa5a6f6f4bbac7b50f0b34784eda1767b926b73e1516da762064172"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_ID",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_ID.uasset",
+      "size_bytes": 83142,
+      "sha256": "d762789732dcd884bd5a5ae93b3f134d05d144401daaad2a674bf353507b784d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d7/d762789732dcd884bd5a5ae93b3f134d05d144401daaad2a674bf353507b784d"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_N.uasset",
+      "size_bytes": 6848223,
+      "sha256": "0934b08a4ce78572b4d95190c783b64a7f85341420cfcbd30894b5eb9d559343",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/09/0934b08a4ce78572b4d95190c783b64a7f85341420cfcbd30894b5eb9d559343"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_jacket_ORM.uasset",
+      "size_bytes": 4108488,
+      "sha256": "e360cbe7a2ccba1b8085862a16b5056e8944a3678f1aa53da04756dd83770e09",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e3/e360cbe7a2ccba1b8085862a16b5056e8944a3678f1aa53da04756dd83770e09"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_D.uasset",
+      "size_bytes": 5971246,
+      "sha256": "117a66a86272bd3c469fd4dfc76489815a833736aa825ce7094d08a8d0997f3b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/11/117a66a86272bd3c469fd4dfc76489815a833736aa825ce7094d08a8d0997f3b"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_ID",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_ID.uasset",
+      "size_bytes": 101710,
+      "sha256": "9cd13c48129ba4f272eef2fc5f347cfbd6f7dcff99103a84f16bc70d88e3a33f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9c/9cd13c48129ba4f272eef2fc5f347cfbd6f7dcff99103a84f16bc70d88e3a33f"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_N.uasset",
+      "size_bytes": 7106691,
+      "sha256": "cc01d5be002f3f32d9a72e63fa02f5a5c27aa9b6cac1597972bc51883a843a73",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/cc/cc01d5be002f3f32d9a72e63fa02f5a5c27aa9b6cac1597972bc51883a843a73"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Cloth/T_WWII_US_Paratrooper_pants_ORM.uasset",
+      "size_bytes": 4076788,
+      "sha256": "54c653534116fdfc902fe629d276831521f6ec0b6cd623a532a1d1a64385eb60",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/54/54c653534116fdfc902fe629d276831521f6ec0b6cd623a532a1d1a64385eb60"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Eyes/T_EyeBaseColor",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Eyes/T_EyeBaseColor.uasset",
+      "size_bytes": 365145,
+      "sha256": "6ba4009ccbe4a88ee4a4f0bad8975b0a2b89e14dc014e9de41ec4d3b6bf8fe0d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/6b/6ba4009ccbe4a88ee4a4f0bad8975b0a2b89e14dc014e9de41ec4d3b6bf8fe0d"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Eyes/T_EyeDisplacement",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Eyes/T_EyeDisplacement.uasset",
+      "size_bytes": 182762,
+      "sha256": "12206da6d4d66972d8e9ade77a46faac8a9f915ca24add32ae231e27d80a6d8d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/12/12206da6d4d66972d8e9ade77a46faac8a9f915ca24add32ae231e27d80a6d8d"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Eyes/T_EyeNormals",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Eyes/T_EyeNormals.uasset",
+      "size_bytes": 212597,
+      "sha256": "03c96364bea9fce74b2b7fb1936303984ce6b22678e61c8bc54a29dea297e3a6",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/03/03c96364bea9fce74b2b7fb1936303984ce6b22678e61c8bc54a29dea297e3a6"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Eyes/T_EyeScleraBaseColor",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Eyes/T_EyeScleraBaseColor.uasset",
+      "size_bytes": 3170765,
+      "sha256": "400758d9a2a96c6675ec3ef611d5802cae643b060469d9fe2c8ccd40ead02ba5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/40/400758d9a2a96c6675ec3ef611d5802cae643b060469d9fe2c8ccd40ead02ba5"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Eyes/T_EyeSphere_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Eyes/T_EyeSphere_N.uasset",
+      "size_bytes": 642342,
+      "sha256": "78047804b01cc407a572d6b501d95ea9f31e8861bad2d8b651a2ae696ad05a00",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/78/78047804b01cc407a572d6b501d95ea9f31e8861bad2d8b651a2ae696ad05a00"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Eyes/T_Eye_Wet_Normal",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Eyes/T_Eye_Wet_Normal.uasset",
+      "size_bytes": 977955,
+      "sha256": "fcf9e9a4cb59c9ea7f1da5f39bc11a10b9c86709bf66fa942532f06c51c3184c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/fc/fcf9e9a4cb59c9ea7f1da5f39bc11a10b9c86709bf66fa942532f06c51c3184c"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Eyes/T_SecondReflection",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Eyes/T_SecondReflection.uasset",
+      "size_bytes": 62958021,
+      "sha256": "90b25ab956145370c019c8129887771f7e840639d16f19ba3a3bcef83b8c10b5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/90/90b25ab956145370c019c8129887771f7e840639d16f19ba3a3bcef83b8c10b5"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_D.uasset",
+      "size_bytes": 4274499,
+      "sha256": "66c488cb4010a7bdf94f522404801041945b53394d02dabc517d102b31c2f560",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/66/66c488cb4010a7bdf94f522404801041945b53394d02dabc517d102b31c2f560"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_N.uasset",
+      "size_bytes": 4837343,
+      "sha256": "ae7349826560e33d979bb83cd02dfc08df70225b24343468c9b7c99a2d4347c4",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ae/ae7349826560e33d979bb83cd02dfc08df70225b24343468c9b7c99a2d4347c4"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Face/T_PoliceOfficer_04_skin_ORM.uasset",
+      "size_bytes": 3395206,
+      "sha256": "6cd8474c55e800f760c0f4a2a5f02f4eb999b6e2e0c64d791a4853edd3e2936d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/6c/6cd8474c55e800f760c0f4a2a5f02f4eb999b6e2e0c64d791a4853edd3e2936d"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_D.uasset",
+      "size_bytes": 5246366,
+      "sha256": "39b593936411b5ab07cd8dcb34df7e8c88a07263d4925d95b9497c751e09f752",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/39/39b593936411b5ab07cd8dcb34df7e8c88a07263d4925d95b9497c751e09f752"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_N.uasset",
+      "size_bytes": 7091563,
+      "sha256": "9c64f16cea7f74f1f2927d5df3b7f5f8b43203098574e3830f8fc069624223ef",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9c/9c64f16cea7f74f1f2927d5df3b7f5f8b43203098574e3830f8fc069624223ef"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/FieldFlask/T_SM_US_WWII_FieldFlask_ORM.uasset",
+      "size_bytes": 3995329,
+      "sha256": "146719ccedc504e94910f31513aaf19b27033fdbe9482a6fe5bf7ce2db48e895",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/14/146719ccedc504e94910f31513aaf19b27033fdbe9482a6fe5bf7ce2db48e895"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_D.uasset",
+      "size_bytes": 7167499,
+      "sha256": "d353397fc1153e3264dcc1a648131f2e80803413f008f30b324e8827d1700eee",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d3/d353397fc1153e3264dcc1a648131f2e80803413f008f30b324e8827d1700eee"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_N.uasset",
+      "size_bytes": 6859551,
+      "sha256": "271fe8a98db06ec3bfe4a4969ab2e6aa5f7d471f6c629a17cef353546c14d90e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/27/271fe8a98db06ec3bfe4a4969ab2e6aa5f7d471f6c629a17cef353546c14d90e"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/FragGrenade/T_MKII_FRAG_ORM.uasset",
+      "size_bytes": 7410117,
+      "sha256": "cd3222ceb1f80bb9b91f30c7f20c64e4cbcd3b9f3feee0ad5f4e4af82e77d853",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/cd/cd3222ceb1f80bb9b91f30c7f20c64e4cbcd3b9f3feee0ad5f4e4af82e77d853"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Hair/T_ShortHair_v01_colour",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_colour.uasset",
+      "size_bytes": 3186016,
+      "sha256": "2f52ff3478143dc97a98ecdbd64af5c6312f519714ae0fb5224dc351bd348b6f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2f/2f52ff3478143dc97a98ecdbd64af5c6312f519714ae0fb5224dc351bd348b6f"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Hair/T_ShortHair_v01_normal",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Hair/T_ShortHair_v01_normal.uasset",
+      "size_bytes": 5194995,
+      "sha256": "40473357f8dedf6a6b713fdc15df9da6c5593c18a7d597a3a15b81654224e3ad",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/40/40473357f8dedf6a6b713fdc15df9da6c5593c18a7d597a3a15b81654224e3ad"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Hair/T_hair_Planks_001_AO",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_AO.uasset",
+      "size_bytes": 1271006,
+      "sha256": "0b9e12bf3e5048d1fe31e85c0e08bbfaede5446cabc79d9836bd66db1a1ceee7",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/0b/0b9e12bf3e5048d1fe31e85c0e08bbfaede5446cabc79d9836bd66db1a1ceee7"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Hair/T_hair_Planks_001_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_D.uasset",
+      "size_bytes": 2864010,
+      "sha256": "81c90343248e87c92690103960732a7f6f73ace59fe649afaf3c95ea3f7bb710",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/81/81c90343248e87c92690103960732a7f6f73ace59fe649afaf3c95ea3f7bb710"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Hair/T_hair_Planks_001_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Hair/T_hair_Planks_001_N.uasset",
+      "size_bytes": 2244463,
+      "sha256": "ac68031a7d18b962f7fb1491125b3777c173ae55b4a2ee5cde31a44e2418e37f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ac/ac68031a7d18b962f7fb1491125b3777c173ae55b4a2ee5cde31a44e2418e37f"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_D.uasset",
+      "size_bytes": 5861610,
+      "sha256": "902411af2dc2a70033dc7d09314517d397e0d9062ca100ed559e063209e4a874",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/90/902411af2dc2a70033dc7d09314517d397e0d9062ca100ed559e063209e4a874"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_N.uasset",
+      "size_bytes": 8060194,
+      "sha256": "65efe1394005e9057aa058d26986b6b9de70734f1f24a9c8de2a3e6861651aa4",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/65/65efe1394005e9057aa058d26986b6b9de70734f1f24a9c8de2a3e6861651aa4"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Helmet/T_SM_US_WWII_Helmet_SM_US_WWII_Helmet_ORM.uasset",
+      "size_bytes": 4825910,
+      "sha256": "a903c7fda8eea2c0bb87fd54841f54312e3415914fa4354c79cd20a10bc8bcdd",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a9/a903c7fda8eea2c0bb87fd54841f54312e3415914fa4354c79cd20a10bc8bcdd"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/HelmetCover/T_CamoCover_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/HelmetCover/T_CamoCover_D.uasset",
+      "size_bytes": 787012,
+      "sha256": "c85c8df77dcdab9e9a8d9cdde8a2eb07d55fe2c58f78652330f81195d5cfb645",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c8/c85c8df77dcdab9e9a8d9cdde8a2eb07d55fe2c58f78652330f81195d5cfb645"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/HelmetCover/T_CamoCover_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/HelmetCover/T_CamoCover_N.uasset",
+      "size_bytes": 451674,
+      "sha256": "5ed8ef4c61d0db8081a57ef255b934b72dc2f6b209e0facead3579e37c39ba23",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/5e/5ed8ef4c61d0db8081a57ef255b934b72dc2f6b209e0facead3579e37c39ba23"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Knife/T_CombatKnife_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Knife/T_CombatKnife_D.uasset",
+      "size_bytes": 5061422,
+      "sha256": "94ed5c0e8121fd626b4a4cba767559857fcfc43e2209d3558561314e2c7731e8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/94/94ed5c0e8121fd626b4a4cba767559857fcfc43e2209d3558561314e2c7731e8"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Knife/T_CombatKnife_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Knife/T_CombatKnife_N.uasset",
+      "size_bytes": 7458603,
+      "sha256": "d1422e70cc583063cf3af20890e1db48225c9e64fd8851ea753bd445546ec1ad",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d1/d1422e70cc583063cf3af20890e1db48225c9e64fd8851ea753bd445546ec1ad"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Knife/T_CombatKnife_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Knife/T_CombatKnife_ORM.uasset",
+      "size_bytes": 4568030,
+      "sha256": "edd153f104c392133a587e108a352e4851fd1669ce9e1a072cbb2de9b6a82fff",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ed/edd153f104c392133a587e108a352e4851fd1669ce9e1a072cbb2de9b6a82fff"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Logos/T_LogoC_L_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Logos/T_LogoC_L_D.uasset",
+      "size_bytes": 249554,
+      "sha256": "839e9ad03996ebe8219acd915c45be02fdb741bc4194f1ae2b38f85841686a33",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/83/839e9ad03996ebe8219acd915c45be02fdb741bc4194f1ae2b38f85841686a33"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Logos/T_Logo_L_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Logos/T_Logo_L_D.uasset",
+      "size_bytes": 170535,
+      "sha256": "36b5fceaf4935e50558595104ef9a7e588c6c012c552c030eb50c7b4f8f1c849",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/36/36b5fceaf4935e50558595104ef9a7e588c6c012c552c030eb50c7b4f8f1c849"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/Logos/T_Logo_R_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/Logos/T_Logo_R_D.uasset",
+      "size_bytes": 226091,
+      "sha256": "06b4bee52448018cee05c052c8c6e0d43983c24c1f5b0d9c3777f09947393180",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/06/06b4bee52448018cee05c052c8c6e0d43983c24c1f5b0d9c3777f09947393180"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/M1_Garand/T_M1_Garand_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_D.uasset",
+      "size_bytes": 5819395,
+      "sha256": "3c0bbce69e02e9059ab96f6c8e8fab3de8ed7b297a37d22e98428133126cf17e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3c/3c0bbce69e02e9059ab96f6c8e8fab3de8ed7b297a37d22e98428133126cf17e"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/M1_Garand/T_M1_Garand_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_N.uasset",
+      "size_bytes": 5362944,
+      "sha256": "9b1432a92c49c9f43fa8e0a2c120ad114e63e8ecc6ea8f21a0a52fb6bac47db5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9b/9b1432a92c49c9f43fa8e0a2c120ad114e63e8ecc6ea8f21a0a52fb6bac47db5"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/M1_Garand/T_M1_Garand_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/M1_Garand/T_M1_Garand_ORM.uasset",
+      "size_bytes": 4805010,
+      "sha256": "eee088ea22f4ca1113cbbdf1013cb09b6019d3df0e95aa5ac82e55fa376e080b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ee/eee088ea22f4ca1113cbbdf1013cb09b6019d3df0e95aa5ac82e55fa376e080b"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/MusetteBag/T_MusetteBag_ID",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_ID.uasset",
+      "size_bytes": 33524,
+      "sha256": "259ea984ccd1c351ca06c5ec0bbd122f7ede16677d5ce932ce333b19c4bbcc4a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/25/259ea984ccd1c351ca06c5ec0bbd122f7ede16677d5ce932ce333b19c4bbcc4a"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/MusetteBag/T_MusetteBag_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_N.uasset",
+      "size_bytes": 7529311,
+      "sha256": "1dc52b7f2ffb59763918434f711676c99d28814bbcccaa45724d6836448d0048",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/1d/1dc52b7f2ffb59763918434f711676c99d28814bbcccaa45724d6836448d0048"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/MusetteBag/T_MusetteBag_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/MusetteBag/T_MusetteBag_ORM.uasset",
+      "size_bytes": 3749097,
+      "sha256": "f9129699ebeac62f0f89dcf2e6d92976a092a20ea6960b0c96ae534fe26d23ad",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f9/f9129699ebeac62f0f89dcf2e6d92976a092a20ea6960b0c96ae534fe26d23ad"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/MusetteBag/T__MusetteBag_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/MusetteBag/T__MusetteBag_D.uasset",
+      "size_bytes": 5039072,
+      "sha256": "eb2e7c233e8e851d45c40a5cef1a56ece6ede29de8282bbf846b19e76ba32ccb",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/eb/eb2e7c233e8e851d45c40a5cef1a56ece6ede29de8282bbf846b19e76ba32ccb"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_D.uasset",
+      "size_bytes": 3361772,
+      "sha256": "7482c61db6a79f7bc84cc5cb1eb62c11931521c807545230f2082a8e759a96a0",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/74/7482c61db6a79f7bc84cc5cb1eb62c11931521c807545230f2082a8e759a96a0"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_N.uasset",
+      "size_bytes": 3564161,
+      "sha256": "07f6341466b691884a538c99b5e61d91fae5e33da881f5af97ada16e5ed6ccb0",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/07/07f6341466b691884a538c99b5e61d91fae5e33da881f5af97ada16e5ed6ccb0"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/SignalLight/T_SM_US_WWII_SignalLight_ORM.uasset",
+      "size_bytes": 3450748,
+      "sha256": "a18b26076bafacae4b247270a0b750fca817515d7eabc384214d11d31dba3522",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a1/a18b26076bafacae4b247270a0b750fca817515d7eabc384214d11d31dba3522"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_D",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_D.uasset",
+      "size_bytes": 6261028,
+      "sha256": "98753fd3a5b01870f782084106d538c095e3bd663cdc4599e3ebc54b0bcb74a5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/98/98753fd3a5b01870f782084106d538c095e3bd663cdc4599e3ebc54b0bcb74a5"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_N",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_N.uasset",
+      "size_bytes": 7080991,
+      "sha256": "4a2de3f5de6808712f59dc32acedc67d064651e269708adc0f298b6ea83b6fdc",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4a/4a2de3f5de6808712f59dc32acedc67d064651e269708adc0f298b6ea83b6fdc"
+    },
+    {
+      "package": "/Game/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_ORM",
+      "path": "Unreal/ParisStreetCombat/Content/USParatrooper/Textures/TrenchSowel/T_SM_US_WWII_TrenchSowel_lambert1_ORM.uasset",
+      "size_bytes": 3234599,
+      "sha256": "554efc0ab3bf09226bf6b20f398a4f1b645402b1d4e6eb68e2645075d3cf896c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/55/554efc0ab3bf09226bf6b20f398a4f1b645402b1d4e6eb68e2645075d3cf896c"
+    }
+  ],
+  "file_count": 206,
+  "size_bytes": 540314845
+}

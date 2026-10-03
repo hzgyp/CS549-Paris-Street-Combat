@@ -4,3 +4,6 @@
 # Catalog SHA-256 pins the exact verified SFTP manifest bytes on all platforms.
 Assets/Sync/manifests/*.json -text whitespace=cr-at-eol
 .githooks/* text eol=lf
+# Failure evidence is byte-preserved, not reformatted on checkout.
+Failures/** -text
+Failures/**/Changes/*.patch whitespace=-blank-at-eol
