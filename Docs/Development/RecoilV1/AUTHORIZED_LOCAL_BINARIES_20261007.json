@@ -1,0 +1,23 @@
+{
+  "authorization": "2026-10-07 user requests visible firing recoil repair for character presentation",
+  "proof": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/RecoilV1/local_install_v3_20261007/result.json",
+  "proof_sha256": "ff9c7ebcb154b65a73121a2995a098dbd535f2bf72d4ab9be9a0851c12ad2010",
+  "scope": "Three local display DLLs only; preserve immutable source epoch,700 other guards, map, assets, AI and Catalog; no publication",
+  "rows": [
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Binaries/Win64/UnrealEditor-ParisGripBindingV18.dll",
+      "sha256": "cfcd213297e817e2146d4c831b2671a3ce819f3cefcfae8ac420f33e69a1b8f1",
+      "size_bytes": 281088
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Binaries/Win64/UnrealEditor-ParisNPCGripV15.dll",
+      "sha256": "0ae8167bd8176ad0c00f78b1cc87f81e435a030b6d774ad8a7fa844216801c16",
+      "size_bytes": 369664
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Binaries/Win64/UnrealEditor-ParisNPCGripV15Editor.dll",
+      "sha256": "5a0b4bf691d74f099402765fb9a29d37d92bb94b1f2021278d659b73ad94ed68",
+      "size_bytes": 153600
+    }
+  ]
+}

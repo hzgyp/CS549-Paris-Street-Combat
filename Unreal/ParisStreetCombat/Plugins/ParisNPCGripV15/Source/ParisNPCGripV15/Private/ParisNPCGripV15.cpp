@@ -9,18 +9,26 @@
 #include "Serialization/JsonSerializer.h"
 #include "UObject/UnrealType.h"
 #include "Modules/ModuleManager.h"
+#include "EngineUtils.h"
+#include "TwoBoneIK.h"
 
 // Action access is game-thread only; worker graph consumes a proxy-owned bool.
 struct FParisNPCGripProxy : public FAnimInstanceProxy
 {
     using FAnimInstanceProxy::FAnimInstanceProxy;
     bool Ready=true;
+    FTransform RecoilDelta=FTransform::Identity;
     virtual void PreUpdate(UAnimInstance* Instance,float Dt) override
     {
         FAnimInstanceProxy::PreUpdate(Instance,Dt);
         auto* Owner=Instance->GetOwningActor();
         const auto* P=Owner ? FindFProperty<FNameProperty>(Owner->GetClass(),TEXT("ActionState")):nullptr;
         Ready=P && P->GetPropertyValue_InContainer(Owner)==FName(TEXT("Ready"));
+        RecoilDelta=FTransform::Identity;
+        if(Owner && Owner->GetWorld())
+            for(TActorIterator<AParisNPCGripActor> It(Owner->GetWorld());It;++It)
+                if(It->Target==Owner && It->Initialized)
+                {RecoilDelta=It->SampleExistingRecoil();break;}
     }
 };
 FAnimInstanceProxy* UParisNPCGripAnimInstance::CreateAnimInstanceProxy(){return new FParisNPCGripProxy(this);}
@@ -37,6 +45,68 @@ void FAnimNode_ParisNPCGrip::Update_AnyThread(const FAnimationUpdateContext& C)
     InputPose.Update(C);
     const bool Ready=static_cast<FParisNPCGripProxy*>(C.AnimInstanceProxy)->Ready;
     HoldingAlpha=FMath::Clamp(HoldingAlpha+(Ready?1:-1)*C.GetDeltaTime()/.15f,0.f,1.f);
+}
+namespace
+{
+double ApplyExistingRigidRecoil(FPoseContext& Output,const FTransform& Delta,TSet<int32>& Modified)
+{
+    if(Delta.Equals(FTransform::Identity,1.e-10))return 0;
+    const auto& Bones=Output.Pose.GetBoneContainer();
+    const auto& Ref=Bones.GetReferenceSkeleton();
+    TArray<FCompactPoseBoneIndex> Arms;
+    for(const TCHAR* Name:{TEXT("upperarm_r"),TEXT("lowerarm_r"),TEXT("hand_r"),TEXT("upperarm_l"),TEXT("lowerarm_l"),TEXT("hand_l")})
+    {
+        const int32 MeshIndex=Ref.FindBoneIndex(Name);
+        if(MeshIndex<0)return 1.e9;
+        const auto Index=Bones.MakeCompactPoseIndex(FMeshPoseBoneIndex(MeshIndex));
+        if(Index.GetInt()<0)return 1.e9;
+        Arms.Add(Index);
+    }
+    TArray<FTransform> Component,Original;
+    for(auto I:Output.Pose.ForEachBoneIndex())Original.Add(Output.Pose[I]);
+    auto Rebuild=[&]()
+    {
+        Component.SetNum(Original.Num());
+        for(auto I:Output.Pose.ForEachBoneIndex())
+        {
+            const auto P=Bones.GetParentBoneIndex(I);
+            Component[I.GetInt()]=P.GetInt()>=0?Output.Pose[I]*Component[P.GetInt()]:Output.Pose[I];
+        }
+    };
+    Rebuild();
+    const FTransform Right=Component[Arms[2].GetInt()],Left=Component[Arms[5].GetInt()];
+    const FTransform Goals[2]={Delta*Right,Left.GetRelativeTransform(Right)*(Delta*Right)};
+    const FTransform Assembly=Right.Inverse()*Delta*Right;
+    for(int32 Side=0;Side<2;++Side)
+        if(Bones.GetParentBoneIndex(Arms[Side*3+2])!=Arms[Side*3+1] || Bones.GetParentBoneIndex(Arms[Side*3+1])!=Arms[Side*3]
+            || Bones.GetParentBoneIndex(Arms[Side*3]).GetInt()<0)return 1.e9;
+    for(int32 Side=0;Side<2;++Side)
+    {
+        const auto U=Arms[Side*3],L=Arms[Side*3+1],H=Arms[Side*3+2];
+        const auto Parent=Bones.GetParentBoneIndex(U);
+        FTransform Upper=Component[U.GetInt()],Lower=Component[L.GetInt()],Hand=Component[H.GetInt()];
+        const double UpperLength=FVector::Distance(Upper.GetLocation(),Lower.GetLocation());
+        const double LowerLength=FVector::Distance(Lower.GetLocation(),Hand.GetLocation());
+        const FVector Pole=Assembly.TransformPosition(Lower.GetLocation());
+        AnimationCore::SolveTwoBoneIK(Upper,Lower,Hand,Pole,Goals[Side].GetLocation(),UpperLength,LowerLength,false,1.,1.);
+        Hand.SetRotation(Goals[Side].GetRotation());
+        // Preserve source translation and scale exactly, including bone lengths.
+        Output.Pose[U].SetRotation(Upper.GetRelativeTransform(Component[Parent.GetInt()]).GetRotation());
+        Output.Pose[L].SetRotation(Lower.GetRelativeTransform(Upper).GetRotation());
+        Output.Pose[H].SetRotation(Hand.GetRelativeTransform(Lower).GetRotation());
+    }
+    Rebuild();
+    const double Error=FMath::Max(FVector::Distance(Component[Arms[2].GetInt()].GetLocation(),Goals[0].GetLocation()),
+        FVector::Distance(Component[Arms[5].GetInt()].GetLocation(),Goals[1].GetLocation()));
+    if(Error>.01)
+    {
+        // A failed candidate must not leave a partially solved pose behind.
+        for(auto I:Output.Pose.ForEachBoneIndex())Output.Pose[I]=Original[I.GetInt()];
+        return Error;
+    }
+    for(auto I:Arms)Modified.Add(I.GetInt());
+    return Error;
+}
 }
 void FAnimNode_ParisNPCGrip::Evaluate_AnyThread(FPoseContext& Output)
 {
@@ -55,6 +125,7 @@ void FAnimNode_ParisNPCGrip::Evaluate_AnyThread(FPoseContext& Output)
         Output.Pose[I].SetRotation(Q);Modified.Add(I.GetInt());
         AdapterError=FMath::Max(AdapterError,FMath::RadiansToDegrees(Q.AngularDistance(Output.Pose[I].GetRotation())));
     }
+    RecoilHandErrorCm=ApplyExistingRigidRecoil(Output,static_cast<FParisNPCGripProxy*>(Output.AnimInstanceProxy)->RecoilDelta,Modified);
     for(auto I:Output.Pose.ForEachBoneIndex())
     {
         const auto& A=Before[I.GetInt()];const auto& B=Output.Pose[I];
@@ -83,6 +154,7 @@ void UParisNPCGripAnimInstance::NativePostEvaluateAnimation()
             const auto* N=P->ContainerPtrToValuePtr<FAnimNode_ParisNPCGrip>(this);
             ValidInput=N->HasValidInput;
             HoldingWeight=N->HoldingAlpha;
+            RecoilHandErrorCm=N->RecoilHandErrorCm;
             ProtectedQuatComponentError=N->ProtectedQuatComponentError;
             SourceQuatNormError=N->SourceQuatNormError;RawProtectedAngle=N->RawProtectedAngle;
             ProtectionError=FMath::Max(FMath::Max(N->TranslationError,N->ScaleError),N->ProtectedRotationError);
@@ -124,6 +196,9 @@ bool AParisNPCGripActor::Bind()
     GunHand=FTransform(FQuat(Q[0]->AsNumber(),Q[1]->AsNumber(),Q[2]->AsNumber(),Q[3]->AsNumber()),
         FVector(T[0]->AsNumber(),T[1]->AsNumber(),T[2]->AsNumber()),FVector(S[0]->AsNumber(),S[1]->AsNumber(),S[2]->AsNumber()));
     if(!BindingConfig->PostProcessClass)return Fail(TEXT("Postprocess asset not set"));
+    auto* ShootingClip=LoadObject<UAnimSequence>(nullptr,TEXT("/Game/RifleAnimsetPro/Animations/InPlace/Rifle_ShootOnce.Rifle_ShootOnce"));
+    if(!ExistingRecoil.Prepare(ShootingClip))return Fail(*ExistingRecoil.Error);
+    RecoilSourceMaximumCm=ExistingRecoil.SourceMaximumCm;
     BoundMesh->SetOverridePostProcessAnimBP(BindingConfig->PostProcessClass,true);
     BoundMesh->SetDisablePostProcessBlueprint(false);
     const FTransform ComponentActor=GunMesh->GetComponentTransform().GetRelativeTransform(BoundGun->GetActorTransform());
@@ -133,6 +208,13 @@ bool AParisNPCGripActor::Bind()
     BoundGun->SetActorRelativeTransform(ComponentActor.Inverse()*GunHand);
     AddTickPrerequisiteComponent(BoundMesh);
     Initialized=true;return true;
+}
+FTransform AParisNPCGripActor::SampleExistingRecoil()
+{
+    const auto Delta=ExistingRecoil.Update(Target,GetWorld()->GetTimeSeconds());
+    RecoilActive=ExistingRecoil.Active;RecoilStarts=ExistingRecoil.Starts;
+    RecoilAge=ExistingRecoil.Age;RecoilError=ExistingRecoil.Error;
+    return Delta;
 }
 void AParisNPCGripActor::Tick(float Dt)
 {
@@ -151,6 +233,8 @@ void AParisNPCGripActor::Tick(float Dt)
         return;
     }
     PendingEvaluationStart=-1;
+    if(!RecoilError.IsEmpty() || (Anim && Anim->RecoilHandErrorCm>.01))
+    {BindingError=FString::Printf(TEXT("Existing recoil input/hand goal failed: %s / %.9fcm"),*RecoilError,Anim?Anim->RecoilHandErrorCm:-1);ExistingRecoil.Error=BindingError;ExistingRecoil.Active=false;SetActorTickEnabled(false);return;}
     if(!Anim || !Anim->ValidInput || Anim->ProtectionError>.0001)
     {BindingError=FString::Printf(TEXT("Native input/protection failure: eval=%lld valid=%d error=%.9f"),Anim?Anim->Evaluations:-1,Anim?Anim->ValidInput:false,Anim?Anim->ProtectionError:-1);SetActorTickEnabled(false);return;}
     ++NativeUpdates;

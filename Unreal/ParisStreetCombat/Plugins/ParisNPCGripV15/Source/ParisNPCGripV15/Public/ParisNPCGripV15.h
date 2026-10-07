@@ -5,6 +5,7 @@
 #include "Engine/DataAsset.h"
 #include "GameFramework/Actor.h"
 #include "BoneContainer.h"
+#include "ParisExistingRecoil.h"
 #include "ParisNPCGripV15.generated.h"
 
 USTRUCT(BlueprintType)
@@ -27,6 +28,7 @@ struct PARISNPCGRIPV15_API FAnimNode_ParisNPCGrip : public FAnimNode_Base
     double TranslationError=0,ScaleError=0,ProtectedRotationError=0,AdapterError=0;
     double ProtectedQuatComponentError=0,SourceQuatNormError=0,RawProtectedAngle=0;
     bool HasValidInput=false;
+    double RecoilHandErrorCm=0;
     virtual void Initialize_AnyThread(const FAnimationInitializeContext& Context) override;
     virtual void CacheBones_AnyThread(const FAnimationCacheBonesContext& Context) override;
     virtual void Update_AnyThread(const FAnimationUpdateContext& Context) override;
@@ -45,6 +47,7 @@ public:
     UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Audit") double RawProtectedAngle=0;
     UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Audit") bool ValidInput=false;
     UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Audit") float HoldingWeight=0;
+    UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Existing Recoil") double RecoilHandErrorCm=0;
     virtual void NativePostEvaluateAnimation() override;
 protected:
     virtual FAnimInstanceProxy* CreateAnimInstanceProxy() override;
@@ -74,6 +77,12 @@ public:
     UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Audit") double GunErrorCm=0;
     UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Audit") double GunErrorDegrees=0;
     UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Audit") int32 PendingEvaluationFrames=0;
+    UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Existing Recoil") bool RecoilActive=false;
+    UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Existing Recoil") int64 RecoilStarts=0;
+    UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Existing Recoil") double RecoilAge=0;
+    UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Existing Recoil") double RecoilSourceMaximumCm=0;
+    UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category="Existing Recoil") FString RecoilError;
+    FTransform SampleExistingRecoil();
     UFUNCTION(BlueprintCallable,Category="Audit") FString ObservationJson() const;
     virtual void Tick(float DeltaSeconds) override;
 private:
@@ -85,4 +94,5 @@ private:
     double PendingEvaluationStart=-1;
     struct FObservation {double Time;float Dt,Alpha;FName Action;FTransform Gun,Right,Left;};
     TArray<FObservation> Observations;
+    FParisExistingRecoil ExistingRecoil;
 };

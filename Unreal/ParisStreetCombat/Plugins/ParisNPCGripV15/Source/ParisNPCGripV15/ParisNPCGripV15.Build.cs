@@ -5,6 +5,6 @@ public class ParisNPCGripV15 : ModuleRules
     {
         PCHUsage=PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new[]{"Core","CoreUObject","Engine"});
-        PrivateDependencyModuleNames.AddRange(new[]{"Json"});
+        PrivateDependencyModuleNames.AddRange(new[]{"Json","AnimationCore"});
     }
 }

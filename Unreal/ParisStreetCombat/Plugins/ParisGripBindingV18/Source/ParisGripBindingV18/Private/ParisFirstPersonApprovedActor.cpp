@@ -6,6 +6,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "EngineUtils.h"
 #include "UObject/UnrealType.h"
+#include "ParisExistingRecoil.h"
 
 namespace
 {
@@ -25,6 +26,20 @@ bool ReadBool(UObject* Object, const TCHAR* Name)
 AParisFirstPersonApprovedActor::AParisFirstPersonApprovedActor()
 {
     Pose->SetVisibility(false, true);
+}
+AParisFirstPersonApprovedActor::~AParisFirstPersonApprovedActor() = default;
+
+FString AParisFirstPersonApprovedActor::InspectExistingRecoilSource() const
+{
+    FParisExistingRecoil Probe;
+    const bool Valid=Probe.Prepare(LoadObject<UAnimSequence>(nullptr,TEXT("/Game/RifleAnimsetPro/Animations/InPlace/Rifle_ShootOnce.Rifle_ShootOnce")));
+    FString Result=FString::Printf(TEXT("{\"valid\":%s,\"maximum\":%.12f,\"duration\":%.12f,\"error\":\"%s\",\"samples\":["),Valid?TEXT("true"):TEXT("false"),Probe.SourceMaximumCm,Probe.Duration,*Probe.Error);
+    for(int32 I=0;I<Probe.Samples.Num();++I)
+    {
+        const auto& T=Probe.Samples[I];const auto V=T.GetTranslation();const auto Q=T.GetRotation();
+        Result+=FString::Printf(TEXT("%s{\"t\":[%.12f,%.12f,%.12f],\"q\":[%.12f,%.12f,%.12f,%.12f]}"),I?TEXT(","):TEXT(""),V.X,V.Y,V.Z,Q.X,Q.Y,Q.Z,Q.W);
+    }
+    return Result+TEXT("]}");
 }
 
 void AParisFirstPersonApprovedActor::StopSetup(const FString& Reason)
@@ -84,4 +99,23 @@ void AParisFirstPersonApprovedActor::Tick(float DeltaSeconds)
     if (!Initialized && !SetupStopped) TryInitialize(DeltaSeconds);
     Super::Tick(DeltaSeconds);
     if (!Initialized && SetupState == TEXT("NativeApprovedDisplayReady")) StopSetup(BindingError);
+    if (Initialized)
+    {
+        if (!ExistingRecoil)
+        {
+            ExistingRecoil = MakeUnique<FParisExistingRecoil>();
+            auto* Clip = LoadObject<UAnimSequence>(nullptr, TEXT("/Game/RifleAnimsetPro/Animations/InPlace/Rifle_ShootOnce.Rifle_ShootOnce"));
+            if (!ExistingRecoil->Prepare(Clip)) { RecoilSourceMaximumCm=ExistingRecoil->SourceMaximumCm; RecoilError = ExistingRecoil->Error; Initialized=false; StopSetup(RecoilError); return; }
+            RecoilSourceMaximumCm = ExistingRecoil->SourceMaximumCm;
+        }
+        const FTransform Delta = ExistingRecoil->Update(GetOwner(), GetWorld()->GetTimeSeconds());
+        const FTransform Hand = Pose->GetSocketTransform(TEXT("hand_r"), RTS_Component);
+        // Move the entire accepted display about its current hand frame.
+        // Both hands and the attached rifle retain all relative geometry.
+        Pose->SetRelativeTransform(Hand.Inverse() * Delta * Hand * CachedAssemblyFrame);
+        RecoilActive = ExistingRecoil->Active;
+        RecoilStarts = ExistingRecoil->Starts;
+        RecoilAge = ExistingRecoil->Age;
+        RecoilError = ExistingRecoil->Error;
+    }
 }

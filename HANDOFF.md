@@ -1,5 +1,39 @@
 # Paris Street Combat - new-session handoff
 
+**Local visible recoil COMPLETE — 7 October, fresh original-project regression passed:**
+User asks to repair invisible firing recoil in the character lane. Read RecoilV1/
+RECOIL_IMPLEMENTATION_20261007.md and RECOIL_VISUAL_ADMISSION_20261007.md (Chinese
+reviews synchronized), plus AN009. Independent v3 source, three-role original
+one-shot/cooldown and five-shot/reload/death/reset checks pass;9 lit unpaused
+originals inspected, no new obvious arm rupture/gun separation. Earlier rail-
+occluded/dark views retained, not admitted as complete visual proof. Existing
+Rifle_ShootOnce hand motion only, no camera shake/source clip or grip refinement.
+Three display DLLs now locally replaced, exact backups retained in RecoilV1/
+local_install_v3_20261007. Explicit AUTHORIZED_LOCAL_BINARIES_20261007.json
+authenticates their receipt; NPCInteractionV1/common.py applies ONLY this three-
+path allowlist after the immutable678+B+9ff map epoch.703 rows remain,700 other
+rows/module manifests/map/source rigs/weights/materials/actions/AI/Catalog exact.
+Other lanes must adopt this LOCAL binary increment before new writers; do not
+restore historical DLL hashes or map/Catalog. Not published or Git-committed.
+Fresh original-project installed_runtime_v3 passes three-role one-shot/cooldown
+checks,18/21/20 active samples, gun excursion5.672/5.506/6.069cm; max interval
+0.070308s is observation cadence, not FPS. Owned51084 exits0/strict0/current703
+exact.38 offline tests pass. Read RECOIL_RESULT_20261007.md / Chinese review and
+private selected_local_v3_20261007 current703 snapshot. This closes visible
+recoil only, not full contact/near-wall/clear-shot/all-NPC/FPS/Shipping acceptance.
+Check actual engine ownership again, never terminate a foreign/user editor.
+
+**Recoil source-only publication request — 7 October:**
+Yupu requests commit/push of this window only. Include recoil display source,
+RecoilV1 tools/metadata/reviews and AN009, plus only this lane's shared-document
+and guard-wrapper changes. Pending NPC AI/map epoch and navigation work belongs
+to the other window and is excluded, as are DefaultEditor.ini and private bytes.
+The recoil ledger wrapper is independent of the base epoch implementation;
+an incompatible or absent prerequisite fails closed, never silently rebases.
+Local703 evidence depends on the other lane's current local baseline/private
+receipts; this source checkpoint is not a standalone restored playtest release.
+Verify remote main before reporting publication success; Catalog/SFTP unchanged.
+
 **Matching Git revision — user-requested publication,6 October:**
 This revision includes the accumulated generic FP/Allied/German native source,
 configuration, current SFTP Catalog/manifests, guides and retained failure records.

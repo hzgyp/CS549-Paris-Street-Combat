@@ -15,7 +15,44 @@ def digest(path: Path) -> str:
     return h.hexdigest()
 
 
-def guard_rows():
+def apply_recoil_binary_ledger(rows, ledger):
+    """Only three locally repaired display DLLs; immutable source epoch stays."""
+    expected = {
+        "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Binaries/Win64/UnrealEditor-ParisGripBindingV18.dll",
+        "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Binaries/Win64/UnrealEditor-ParisNPCGripV15.dll",
+        "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Binaries/Win64/UnrealEditor-ParisNPCGripV15Editor.dll",
+    }
+    authority = "2026-10-07 user requests visible firing recoil repair for character presentation"
+    assert ledger["authorization"] == authority
+    proof_path = ROOT / ledger["proof"]
+    assert digest(proof_path) == ledger["proof_sha256"], "Recoil installation receipt changed"
+    proof = json.loads(proof_path.read_text(encoding="utf-8-sig"))
+    assert proof["authorization"] == authority and proof["local_only"]
+    assert proof["status"] == "pass_local_recoil_display_binaries_installed_runtime_unpassed"
+    assert proof["original_guard_count"] == 703 and proof["unchanged_other_guard_count"] == 700 and proof["unchanged_other_guards"]
+    assert digest(ROOT / proof["candidate_audit"]) == proof["candidate_audit_sha256"]
+    audit = json.loads((ROOT / proof["candidate_audit"]).read_text())
+    assert audit["status"] == "pass_finite_candidate_receipts_visual_review_separate"
+    assert set(audit["receipts"]) == {"source", "motion", "contract", "visual"}
+    for receipt in audit["receipts"].values():
+        assert digest(ROOT / receipt["path"]) == receipt["sha256"], "Candidate recoil evidence changed"
+    assert len(ledger["rows"]) == len(proof["new_rows"]) == len(proof["original_rows"]) == 3
+    assert ledger["rows"] == proof["new_rows"]
+    old = {r["path"]: r for r in proof["original_rows"]}
+    new = {r["path"]: r for r in ledger["rows"]}
+    assert set(old) == set(new) == expected
+    assert expected.issubset({r["path"] for r in rows}), "Display paths missing from source epoch"
+    assert len(proof["backups"]) == 3
+    for original, backup in zip(proof["original_rows"], proof["backups"]):
+        assert digest(ROOT / backup) == original["sha256"], "Original display DLL backup changed"
+    for i, row in enumerate(rows):
+        if row["path"] in expected:
+            assert all(row[k] == old[row["path"]][k] for k in ("path", "size_bytes", "sha256")), "Recoil allowlist does not match original epoch"
+            rows[i] = dict(new[row["path"]])
+    return rows
+
+
+def _base_guard_rows():
     snapshot = ROOT / "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FirstPersonFormalV21/selected_v1/result.json"
     rows = json.loads(snapshot.read_text())["files"]
     # A human explicitly authorized the shared FF change on 5 October. Preserve
@@ -54,6 +91,16 @@ def guard_rows():
             rows.append(row)
             known.add(row["path"])
     assert len(rows) == inventory["combined_protected_count"]
+    return rows
+
+
+def guard_rows():
+    # Presentation-only increment is independent of pending AI/map epoch work.
+    # An incompatible or missing prerequisite fails closed in the exact ledger.
+    rows = _base_guard_rows()
+    recoil_ledger = ROOT / "Docs/Development/RecoilV1/AUTHORIZED_LOCAL_BINARIES_20261007.json"
+    if recoil_ledger.exists():
+        rows = apply_recoil_binary_ledger(rows, json.loads(recoil_ledger.read_text()))
     return rows
 
 
