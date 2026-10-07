@@ -65,6 +65,15 @@ class RestoreTests(unittest.TestCase):
             restore.apply(self.args, [], [self.e])
         self.assertFalse(restore.safe_path(self.e['path']).exists())
 
+    def test_private_native_module_and_manifest_restore_outside_content(self):
+        plugin = 'Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Binaries/Win64/'
+        records = [{**self.e, 'path': plugin + name,
+            'remote_path': '/objects/sha256/' + self.e['sha256'][:2] + '/' + self.e['sha256']}
+            for name in ('UnrealEditor-ParisGripBindingV18.dll', 'UnrealEditor.modules')]
+        restore.apply(self.args, [], records)
+        self.assertTrue(all(restore.same(restore.safe_path(e['path']), e) for e in records))
+        self.assertFalse((restore.STAGE / self.e['sha256']).exists())
+
     def test_manifest_hash_and_duplicate_paths_rejected(self):
         sync = restore.ROOT / 'Assets/Sync'
         sync.mkdir(parents=True)

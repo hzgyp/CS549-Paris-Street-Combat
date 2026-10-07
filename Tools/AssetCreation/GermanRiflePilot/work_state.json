@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-03",
+  "stage": "reviewed two bounded adaptations",
+  "status": "stopped_production_gate_not_passed",
+  "taskId": 3919866,
+  "baseCallsAllowed": 1,
+  "baseCallsAttempted": 1,
+  "giftCreditsBefore": 260,
+  "quotedCredits": 20,
+  "giftCreditsAfterSubmit": 240,
+  "repairRoundsAllowed": 2,
+  "repairRoundsAttempted": 2,
+  "source": "Paris Musees CC0 originals, collection 2019.1.1",
+  "privateState": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/api-state/",
+  "scope": "German NPC rifle world-prop pilot only",
+  "formalGameChanged": false,
+  "sftpPublished": false,
+  "next": "Read GP001 and result; no automatic third repair/cloud submission or production selection",
+  "basicExportChecksPass": 14,
+  "productionVisualPass": false,
+  "optimizedTriangles": 28884,
+  "reproducedGLBSha256": "5ecc94326f18df9a217986dd6b1c1724e8c71e278bb3da7e541522562bab1d56"
+}

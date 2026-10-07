@@ -1,0 +1,5 @@
+# Reference observations
+
+Reuse previously retrieved CC0 museum Kar98k2019.1.1 series, page https://parismuseescollections.paris.fr/en/node/860143 . Local original top receiver photo `20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736128.jpg` reopened during this work chain. Museum top photo shows dark rounded handle knob on a narrow bent stem, continuous stock shoulders below the narrow receiver; no large black wooden-wrist patch or replacement cover plate. Projection is not calibrated mechanical measurement. Ball dimensions are fitted to existing source, not claimed exact historical diameters.
+
+Allied M1 V5 study: learn clear manufactured contours and smooth normals/coherent own UV response. Do not copy its semi-auto mechanism, copyrighted source atlas or attachment transforms. Current bound revisits structural/polish/export stages on one proven ball only; receiver/sights and textures remain unfinished. Museum replacement Sten sling is not historical loadout approval.

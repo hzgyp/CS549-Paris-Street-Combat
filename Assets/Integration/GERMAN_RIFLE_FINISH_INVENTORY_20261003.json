@@ -1,0 +1,702 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "owner": "yg745",
+  "status": "local_partial_normals_repair_surface_gate_failed",
+  "restoration_authority": "None; LocalWorking candidate, no Catalog/native/SFTP selection",
+  "whole_rifle_finished": false,
+  "german_production_accepted": false,
+  "triangles": 299479,
+  "meshes": 2,
+  "geometry_uv_image_material_changes": false,
+  "rifle_corner_normals_changed": true,
+  "metal_selection_accepted": false,
+  "images_generated": 70,
+  "images_actually_inspected": [
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_bottom_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_left_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_muzzle.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_quarter.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_right_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_top_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_whole_bottom.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_whole_left.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_whole_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_muzzle.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_quarter.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_top_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_whole_left.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_bottom_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_left_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_muzzle.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_quarter.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_right_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_top_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_whole_bottom.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_whole_left.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_whole_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/before_clay_quarter.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/before_clay_top_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/before_clay_whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/original_pbr/pbr_quarter.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/original_pbr/pbr_top_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/original_pbr/pbr_whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_bottom_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_left_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_muzzle.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_quarter.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_right_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_top_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_whole_bottom.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_whole_left.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_whole_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_bottom_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_left_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_muzzle.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_quarter.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_right_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_top_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_whole_bottom.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_whole_left.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_whole_top.png"
+  ],
+  "cloud_calls": 0,
+  "credit_debit": 0,
+  "audit": {
+    "allPass": true,
+    "allVertexFaceCornerUvExactToV6": true,
+    "allSourceImagesMaterialsExact": true,
+    "slingNormalsExact": true,
+    "independentCleanReproductionExact": true,
+    "glbBytesReproduced": true,
+    "glbSha256": "34368dbb3e40828fd58c07ae668585d0f63fcb081d480b927bb17b3c15185c2d",
+    "freshImport": [
+      {
+        "triangles": 261789,
+        "positionUvMaxError": 0.0,
+        "normalComponentMaxErrorFreshBlender": 0.0026654601097106934,
+        "freshBlenderNormalMaxDegrees": 0.1632764929611158,
+        "rawGlbNormalMaxError": 6.595253944396973e-05,
+        "rawGlbNormalMaxDegrees": 0.00487911156946312,
+        "rawGlbPositionUvMaxError": 0.0,
+        "finite": true,
+        "normalPayloadDiagnostic": {
+          "rawPositionUv": 0.0,
+          "rawNormalMaxComponentError": 6.595253944396973e-05,
+          "rawNormalMaxDegrees": 0.00487911156946312,
+          "sourceNormalAtMax": [
+            0.7114506363868713,
+            -0.4790480136871338,
+            -0.5141507983207703
+          ],
+          "exportNormalAtMax": [
+            0.7114733457565308,
+            -0.4789820611476898,
+            -0.5141807198524475
+          ],
+          "sourceNormalLengthAtMax": 1.0000000254233787,
+          "exportNormalLengthAtMax": 0.9999999746456308
+        }
+      },
+      {
+        "triangles": 37690,
+        "positionUvMaxError": 0.0,
+        "normalComponentMaxErrorFreshBlender": 0.000440061092376709,
+        "freshBlenderNormalMaxDegrees": 0.027483299768785947,
+        "rawGlbNormalMaxError": 6.434321403503418e-05,
+        "rawGlbNormalMaxDegrees": 0.00465973254687453,
+        "rawGlbPositionUvMaxError": 0.0,
+        "finite": true,
+        "normalPayloadDiagnostic": {
+          "rawPositionUv": 0.0,
+          "rawNormalMaxComponentError": 6.434321403503418e-05,
+          "rawNormalMaxDegrees": 0.00465973254687453,
+          "sourceNormalAtMax": [
+            -0.46084851026535034,
+            0.4050546884536743,
+            0.7896514534950256
+          ],
+          "exportNormalAtMax": [
+            -0.4607841670513153,
+            0.40508607029914856,
+            0.7896728515625
+          ],
+          "sourceNormalLengthAtMax": 1.0000000340294506,
+          "exportNormalLengthAtMax": 0.9999999927252157
+        }
+      }
+    ],
+    "visualAcceptanceInferred": false,
+    "wholeRifleFinished": false,
+    "metalSelectionRejected": true
+  },
+  "protected_after": {
+    "checks": [
+      {
+        "name": "PILOT",
+        "files": 77,
+        "sources": 7,
+        "mismatches": []
+      },
+      {
+        "name": "REFINEMENT",
+        "files": 65,
+        "sources": 5,
+        "mismatches": []
+      },
+      {
+        "name": "PART_SPLIT",
+        "files": 31,
+        "sources": 4,
+        "mismatches": []
+      },
+      {
+        "name": "SURFACE",
+        "files": 39,
+        "sources": 7,
+        "mismatches": []
+      },
+      {
+        "name": "ALLIED_REFERENCE",
+        "files": 16,
+        "sources": 6,
+        "mismatches": []
+      },
+      {
+        "name": "JOINT",
+        "files": 41,
+        "sources": 10,
+        "mismatches": []
+      },
+      {
+        "name": "CITY_CONTINUOUS_ARMS_NATIVE",
+        "files": 43,
+        "sources": 0,
+        "mismatches": []
+      },
+      {
+        "name": "PLAYER_ACTIONS_DRAFT",
+        "files": 7,
+        "sources": 0,
+        "mismatches": []
+      }
+    ],
+    "M1": [
+      {
+        "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Exchange/SK_M1_Garand.blend",
+        "sha256": "fde2154318cbb9b266be30fb17ad8793e5c86db819adeed04f9bc00d07d38c68",
+        "matches": true
+      },
+      {
+        "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Textures/USParatrooper/Textures/M1_Garand/T_M1_Garand_D.png",
+        "sha256": "821c49ef5c4a0c5f5d5811e42ccfcc53904012777c6f5b853b6c941e2665bb6c",
+        "matches": true
+      },
+      {
+        "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Textures/USParatrooper/Textures/M1_Garand/T_M1_Garand_N.png",
+        "sha256": "6151a0c753840e967f0d4b0df7857d38cd4a49ba45d1183c430d2b1423ad23ee",
+        "matches": true
+      },
+      {
+        "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Textures/USParatrooper/Textures/M1_Garand/T_M1_Garand_ORM.png",
+        "sha256": "1ab47905f86c07e3fe77694904133bdeda0887960e5e7c6f96007e6a803a2167",
+        "matches": true
+      }
+    ],
+    "allPass": true
+  },
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_bottom_detail.png",
+      "size_bytes": 983379,
+      "sha256": "a496817c736cd5e9a0204b0f7b32e0cb4cabde9f3e28eb68f381c79fcafe965b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_left_detail.png",
+      "size_bytes": 1076009,
+      "sha256": "dc58d3731fe2c6ab071001613fa4e98cbbdd717f423a966a8c6670b78e23e222"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_muzzle.png",
+      "size_bytes": 995033,
+      "sha256": "2b18a76c1ced4ca9e118c488a5fea352739d8b19ab6df6fb8dcd4a7cf7d42e9c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_quarter.png",
+      "size_bytes": 1182926,
+      "sha256": "a5bb3a70d15d4c00fdb9a168afab598d046c3a79000a5560807f377c137c979d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_reverse.png",
+      "size_bytes": 1123818,
+      "sha256": "cecf244f1511ddc2dbb0538528a4579e3d011602e15809df17425652cf021030"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_right_detail.png",
+      "size_bytes": 1070608,
+      "sha256": "3dd97ef39afa31eb33ef4cce1fe200436a260703438f1a5851d6a54b4b9f5e2c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_top_detail.png",
+      "size_bytes": 1003664,
+      "sha256": "c4df1179383e0d564e5ea690b0ba46a557f5ec5f015256d0a3405ea3e5d7ee83"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_whole_bottom.png",
+      "size_bytes": 818050,
+      "sha256": "bbd2a3bbdb952233af3bc737cb3e75cd63f522b40c043edf41bff5a8b906a3c5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_whole_left.png",
+      "size_bytes": 880774,
+      "sha256": "ed2280f5f55bb13c03596705e899d6af21c117f36b497521b404df13c77c90aa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_whole_right.png",
+      "size_bytes": 883504,
+      "sha256": "3d3b39485fd0e4797c8d3e6ba3357bf9cea7f3b4f6fe4fbf40a6a22f41eee9b1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/fresh_clay_whole_top.png",
+      "size_bytes": 825220,
+      "sha256": "38559934f2072dbafefdfd7c82f31a750591212ff77108509802bfefb40810d5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_muzzle.png",
+      "size_bytes": 1499848,
+      "sha256": "f250cf888d6869b62089b44f7bbabe0966443f1df06fac882be2690f6c13f60f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_quarter.png",
+      "size_bytes": 1613142,
+      "sha256": "c1496bef0d53b99cc1312b1797707bc863116689b767cf3a479c05a66267ec73"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_reverse.png",
+      "size_bytes": 1613707,
+      "sha256": "0c2da1adef7ebdccd7b3225848663b17adc118656e96a6212b52c3ddaca5eb63"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_top_detail.png",
+      "size_bytes": 1536818,
+      "sha256": "d6a8ea054c4f99f94df66903cba2341a41611026fbdb9348fbc1662d1983929e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_whole_left.png",
+      "size_bytes": 1475438,
+      "sha256": "60dabbd568d25969e96629b53183a31b4f8c0aba17afb9bbd23b49d2778b8731"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/pbr_whole_right.png",
+      "size_bytes": 1468729,
+      "sha256": "23f1a904f2624367f5a92f97311e457dd6942094f4f54409bad946f1447e8cdb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/fresh_review/review.json",
+      "size_bytes": 517,
+      "sha256": "07dfcbe3494f333710004aa36ebe0afa2327259bf72ba77766bd7ffda32e2951"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/independent_audit_v3.json",
+      "size_bytes": 2334,
+      "sha256": "626c5f54510c04c1f18dc85a06aaad1988f82c8060150f213bb282cce1c69bfe"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_bottom_detail.png",
+      "size_bytes": 983405,
+      "sha256": "f4ad368898c8dec47d791ac8db36fd675967ecac2eb4bbfb1ae4b2ed18f004b9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_left_detail.png",
+      "size_bytes": 1076401,
+      "sha256": "ac66e4eef4882aef26450f5b4eab878b04f6e20a0c6fb606ea971d3914370a67"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_muzzle.png",
+      "size_bytes": 995047,
+      "sha256": "bd191208160a01cced58a182aea8091cda892af2244ed1f2c248af798e88f450"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_quarter.png",
+      "size_bytes": 1183045,
+      "sha256": "b84ebe4e8f8062e50b1e2252cc98784b77e7fe2ab7535c6298a489689881e15f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_reverse.png",
+      "size_bytes": 1124068,
+      "sha256": "e15ac24a3fc4c403f0e0fc84605e529421af141be174be0f3012bf8f16d29226"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_right_detail.png",
+      "size_bytes": 1070616,
+      "sha256": "168208329e70c5c603f45315cf2d8d3bf6a5d46bfa563dd4b72458ef4166f24d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_top_detail.png",
+      "size_bytes": 1003653,
+      "sha256": "d36bb2234b361cfdc81a11479de6c3efba84d27fb5f6d47d2bd6b4b894fcde9d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_whole_bottom.png",
+      "size_bytes": 818408,
+      "sha256": "dce4a593d87c7a9c37095e00ce0c5b866e2bae6b02524d9bbc80262dc54dd8bc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_whole_left.png",
+      "size_bytes": 880927,
+      "sha256": "fea1f868304efef5dab6d1d67679540db438451f172be0ba1d03e39f298cad24"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_whole_right.png",
+      "size_bytes": 883765,
+      "sha256": "1455947bfdfb6834a85ba2a146765a3ee8c18669bc96aba1d6908af70fd12814"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/after_clay_whole_top.png",
+      "size_bytes": 825160,
+      "sha256": "cf0e90154d50ef2474f087fdef8712d68278f6d628162ebd28c7930da62bd93c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/before_clay_quarter.png",
+      "size_bytes": 1183836,
+      "sha256": "93f9128e93f7c55ae2379b8bab1b90ff25009e99192e96223a90150c3c8c9584"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/before_clay_top_detail.png",
+      "size_bytes": 1006502,
+      "sha256": "676cbc6b34023fdd315c9057b837e89f12a73b366e6e2516f953684a160a3917"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/before_clay_whole_right.png",
+      "size_bytes": 885481,
+      "sha256": "37b6364534ab1246f03c27279d2ce6b97ac09ea2855a8747b3e817529e17830d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/Kar98k_Normals_V7.blend",
+      "size_bytes": 19568536,
+      "sha256": "26bd1e195f53cdbf4128a93735a263d3d56a02843203344b2b7405088ee9c837"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/Kar98k_Normals_V7.glb",
+      "size_bytes": 18233952,
+      "sha256": "34368dbb3e40828fd58c07ae668585d0f63fcb081d480b927bb17b3c15185c2d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_rerun/normal_diagnostic.json",
+      "size_bytes": 235,
+      "sha256": "4c19a597aeda0b59ca0a60e679bc0a49e7183b4606e5bdb813e4afa039000f68"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_bottom_detail.png",
+      "size_bytes": 983405,
+      "sha256": "623c464ef6ad1f8f88f7a4b6e95da1b059dda3157700669daad7dcbfaca22f55"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_left_detail.png",
+      "size_bytes": 1076401,
+      "sha256": "ce013873febffc36a3c0b16af055416af0a8ca274839553c0be4ccc77f5f692a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_muzzle.png",
+      "size_bytes": 995047,
+      "sha256": "2ce45a5b191f48bcff18f753737a9d6b788d335bb923015f23ceb9297874519d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_quarter.png",
+      "size_bytes": 1183045,
+      "sha256": "2cb69fe32d6cc7fdf657f63ea0c7563ecbb768294032e54d1ee8cc849de7ec23"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_reverse.png",
+      "size_bytes": 1124068,
+      "sha256": "7be0812d19809e5e7948802d3b5d6b1834fa727e7b338d4ba47fb30587039175"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_right_detail.png",
+      "size_bytes": 1070616,
+      "sha256": "cb96937f7c9f64df5c547f81c3877b1e317bd9cff290b2699569a6fd9fe89021"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_top_detail.png",
+      "size_bytes": 1003653,
+      "sha256": "a9ebfc8dde06838f8b653734d520e31d4acf11b5c9015c001fbb8d734fb3e2b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_whole_bottom.png",
+      "size_bytes": 818408,
+      "sha256": "925a0fa512446a470a4a901d620e863354a8757cf5f96ef29ee57d25960f7056"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_whole_left.png",
+      "size_bytes": 880927,
+      "sha256": "e0fa1a8618887c46d9c9c908f24498d0215f5a905d7e9f1dfde406face00d68d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_whole_right.png",
+      "size_bytes": 883765,
+      "sha256": "10a98e72fac1d4a32df8f98c858cac14071e76760e33b547379df48a43f46d36"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/after_clay_whole_top.png",
+      "size_bytes": 825160,
+      "sha256": "5920d23b480bf40e9a9e32927f064b0c11580c12dbea20a07e0ef49ae3707838"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/before_clay_quarter.png",
+      "size_bytes": 1183836,
+      "sha256": "a63fdc7244b19226e61316601c57c39a08e3e5c31053ed085c39ff8c32da9d89"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/before_clay_top_detail.png",
+      "size_bytes": 1006502,
+      "sha256": "7ab5ee6fac122d5b8b2e0e0872c4bf5de93cdbd7dd168f3b3b34a179614d8142"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/before_clay_whole_right.png",
+      "size_bytes": 885481,
+      "sha256": "1d9f6774152052a2e2cc8287c695ab7e9d77a0ea28a1faab669c14bcaf249fff"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/Kar98k_Normals_V7.blend",
+      "size_bytes": 19568535,
+      "sha256": "ae7122df78b3daa6c9da0e21a65fb615bc33bab3e41329f870982923661031f0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/Kar98k_Normals_V7.glb",
+      "size_bytes": 18233952,
+      "sha256": "34368dbb3e40828fd58c07ae668585d0f63fcb081d480b927bb17b3c15185c2d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/normal_diagnostic.json",
+      "size_bytes": 235,
+      "sha256": "4c19a597aeda0b59ca0a60e679bc0a49e7183b4606e5bdb813e4afa039000f68"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/original_pbr/pbr_quarter.png",
+      "size_bytes": 1619882,
+      "sha256": "7caf0c6229867f68687d8c32fc8a2256bd5a1be4556c5cf5442f58f0c9d547c7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/original_pbr/pbr_top_detail.png",
+      "size_bytes": 1548037,
+      "sha256": "baebd147b2d2d8aa2caf763cb776296a45f7abb12fdb65c76a70f937ec355690"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/original_pbr/pbr_whole_right.png",
+      "size_bytes": 1471312,
+      "sha256": "e95b67c7bae62b04a87c82ea2cdf5fe5e3e1b37f439853fd8ea9203bfa556a11"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/original_pbr/review.json",
+      "size_bytes": 468,
+      "sha256": "c951817c2a35f37ee455afc17757b6e4f69a56f32808873f5687a5c0078df037"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/protected_after.json",
+      "size_bytes": 2061,
+      "sha256": "2675c6091895570c62966f3501b6146fb0a1c95c4f4917414a2e67f4f4da6ce3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/protected_before.json",
+      "size_bytes": 2061,
+      "sha256": "2675c6091895570c62966f3501b6146fb0a1c95c4f4917414a2e67f4f4da6ce3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/ManualSurfaceProof.blend",
+      "size_bytes": 19576437,
+      "sha256": "9c5d82aa381b9264c8707da290f68e9f6885d78720844ea7650fc76904ea0e30"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_bottom_detail.png",
+      "size_bytes": 996649,
+      "sha256": "57cf1a7ccb02c535dbd659f400c52dd68ff433dc1a944398d5683887177a1772"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_left_detail.png",
+      "size_bytes": 1117465,
+      "sha256": "8b10a9ea8cbb6f58a8901529a5d316c9be328673b4e588d65a7f917763c4c49b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_muzzle.png",
+      "size_bytes": 1022407,
+      "sha256": "a1e6b5689092ce6a914d0e164d95918e30112493ef6a528d33ac9c1cb5e5b9cd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_quarter.png",
+      "size_bytes": 1224096,
+      "sha256": "3b77996114dc6983c9641a5c4442db729261320efc30e4477c451a05f8b6509c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_reverse.png",
+      "size_bytes": 1160194,
+      "sha256": "60ad3e03a5c1fa80cca11a567c0fc22ea1e2b266db2174f33f0b0e911925c840"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_right_detail.png",
+      "size_bytes": 1108851,
+      "sha256": "98b2a7d71df78e13ec7d1a5d0e11e6824c471d7344d4b462e549c7cff161bcb8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_top_detail.png",
+      "size_bytes": 1052672,
+      "sha256": "a0c891a3bd0f21de5338e102327daac522f11e68344c3f0147ec2613e14d502d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_whole_bottom.png",
+      "size_bytes": 825656,
+      "sha256": "5c749d9d4d4df8e3439abff12885e89867b16847bde084c8927bbe38eed2ae96"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_whole_left.png",
+      "size_bytes": 902222,
+      "sha256": "cd5ebdae9ef6aaf7fcc35bb89a326b5246c8346d6af0a1bb1a2410a06c84687b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_whole_right.png",
+      "size_bytes": 902751,
+      "sha256": "7b7ab36ab9612a6872d05158a236ab729571f4ff2c3debabfb019ecd99f12df1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/selection_whole_top.png",
+      "size_bytes": 845690,
+      "sha256": "6668ef0018f00e2649da9d271e3d328545cb555ea9817871fb6b97887bf2bf72"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/source_snapshot.py",
+      "size_bytes": 6122,
+      "sha256": "22e8aa402d4890ce6e2ad171fbb643fe97d3fa7e42167b82cb01afc861b8bd7f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v1/surface_faces.json",
+      "size_bytes": 1205704,
+      "sha256": "84175a9be7f5da03a3090c8e2cc235b211572dd3621755e824d0a21763bd767c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/ManualSurfaceProof.blend",
+      "size_bytes": 19575216,
+      "sha256": "1da0b81f53546cb9b3fe9bce5ce6f7da85b30e08f8330f3d96777906d0c69564"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_bottom_detail.png",
+      "size_bytes": 994971,
+      "sha256": "83dcc6d7f6a4f4f4f95d826c09afa132c39584f07333bf968c30aff21e2ede33"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_left_detail.png",
+      "size_bytes": 1104786,
+      "sha256": "e2a6c8dcd6b559d582510b8013a37ff2b492aaf9fa702d48d4df56ee2cff0c93"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_muzzle.png",
+      "size_bytes": 1022407,
+      "sha256": "a3350e6f9e1ff0747473e245243bdcd074e99ee3c177856785256512871cd398"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_quarter.png",
+      "size_bytes": 1222516,
+      "sha256": "09a02772c679962f856d25f1b770fc9903655faf23203acf4f52323e91dbbdc7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_reverse.png",
+      "size_bytes": 1153659,
+      "sha256": "270da9f5af1f6e5a6d9e5043fbfcb4ff9c36ec57ad53fd7cb8bee3f38041dbf1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_right_detail.png",
+      "size_bytes": 1100090,
+      "sha256": "394b05ec92950afe2e1675dcfa327d47e57f239aa07131d20ba125b4d7d79d23"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_top_detail.png",
+      "size_bytes": 1046831,
+      "sha256": "1e93316103a754a10fde04ac84c63c31f6af0b6fee5fe98f24b7a5d3a4dfce67"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_whole_bottom.png",
+      "size_bytes": 824509,
+      "sha256": "fdb1a6e55aaa6db798d3b790d060f5eaf40614ef9381f8561944d691c9fec34b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_whole_left.png",
+      "size_bytes": 897178,
+      "sha256": "97440e581102e30296d31a469e14399474366d0c31f9151055ebdc5efde00ba9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_whole_right.png",
+      "size_bytes": 899882,
+      "sha256": "fae3c5dca198a87a92c275440190a28a54e844c11eae91eff2d0026f075ae5d8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/selection_whole_top.png",
+      "size_bytes": 844157,
+      "sha256": "08d4adfa1e9a155860075d6eface9f173bf2392c185c886a655b68f90bb2334f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/surface_v2/surface_faces.json",
+      "size_bytes": 1028299,
+      "sha256": "ec51b277900ce7a385aed9fdfe32fb048e3505283447ccf31e03b431b467df15"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/audit.py",
+      "size_bytes": 6782,
+      "sha256": "3a03564207c520f9fb275afea8ac2ce1b7119809ae7d8e6ef3e731df2869910b"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/common.py",
+      "size_bytes": 2956,
+      "sha256": "9bd69d62cb5b0fe52deef4d27ccfb5e5a207c40752e11f01ba5ea78f22eb3444"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/final_report.md",
+      "size_bytes": 1871,
+      "sha256": "cae6b126d8c723595e9eb0e81c457773d98cf96248b003841a9dc2bc8e6c91b3"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/guard.py",
+      "size_bytes": 1955,
+      "sha256": "8d6d3bbc74ddf257a7f7aff4b7f3114391ef7aee31010255430e16261e8f810b"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/normals.py",
+      "size_bytes": 2476,
+      "sha256": "0dcd4991737b6525520bf4ff1228118a37c646a41b606e06051c1e0e465919dd"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/record.py",
+      "size_bytes": 1975,
+      "sha256": "ce6430e1e1a0af49c0366d08d9c755461fefaafce8add059ce6b9a96f33bfc6a"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/reference_notes.md",
+      "size_bytes": 1270,
+      "sha256": "b46a1104eebc27699f19a1c2de322552ccca53e5fcfb256dadb125a8fae61a71"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/review.py",
+      "size_bytes": 1462,
+      "sha256": "4c57d5af23e779295692741f9fd0867aadd25274525d587b436a09480a9b220b"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/surface_paint.py",
+      "size_bytes": 6767,
+      "sha256": "b875c0cf26854e30d378178d74877e0976e9db7a6d69b1cd28bb133294916551"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/work_state.md",
+      "size_bytes": 1267,
+      "sha256": "a4f9b4b549dca78b6f37bab44eaf371fe5a3d664a45723a2e5e9af83b450ff58"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "scope": "Local unselected reload V5 diagnostic drafts; not Catalog/teammate automatic restore authority",
+  "date": "2026-10-04",
+  "selected": false,
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadBlendCapabilityV5",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadBlendCapabilityV5.uasset",
+      "size_bytes": 88616,
+      "sha256": "6839600b52c33107a967b058b9293cd33227a3763956796c76b4d6ab5155c9cd"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadTransitionProofV5",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadTransitionProofV5.uasset",
+      "size_bytes": 103400,
+      "sha256": "2cfaeb658c9df5a807ded5007a5c7113d6b4b2b8bed2db981ed8391589a04f59"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadOwnerBlendV5",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadOwnerBlendV5.uasset",
+      "size_bytes": 203777,
+      "sha256": "ac55708eda57ced33012977ab8a850ee55b1523b90b260f57e74e296eeb18b48"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadBlendGunV5",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadBlendGunV5.uasset",
+      "size_bytes": 94862,
+      "sha256": "4f55d2a95460e88eef12c9db56f1d842638923a1c4f4015524b86b306f0cda5c"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadOwnerBlendV5",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadOwnerBlendV5.uasset",
+      "size_bytes": 830157,
+      "sha256": "42332b44f7b91fdf0b385538482630e856ea8610c70a6295a99a747665f4e77f"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadOwnerReframeV5",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadOwnerReframeV5.uasset",
+      "size_bytes": 891118,
+      "sha256": "f3294882ada3debca97f632b33f205f4f05bee45735d3c066f16e79625c4c0a4"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Characters/ReloadRepairV5/SK_PC_SleeveWeightsV5.uasset",
+      "size_bytes": 1507491,
+      "sha256": "f410b25766bb718c77b182b5e238ec48b6fc1b2593c5455cf3462c97ed9430d5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Characters/ReloadRepairV5/SK_PC_SleeveWeightsV5_Skeleton.uasset",
+      "size_bytes": 22614,
+      "sha256": "51082e31afe0b520e2ce6e51b3cbc8884cbb64e5e1297cfa7f8aa2a26e116848"
+    }
+  ],
+  "original_protected_count": 514,
+  "combined_protected_count": 522,
+  "guard_snapshot": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5/checkpoint_v1/guards.json",
+  "result": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5/checkpoint_v1/result.json",
+  "stopped_owners": [
+    "BP_PCReloadOwnerBlendV5",
+    "BP_PCReloadOwnerReframeV5"
+  ],
+  "private_only": true,
+  "commercial_native_bytes_in_git": false
+}

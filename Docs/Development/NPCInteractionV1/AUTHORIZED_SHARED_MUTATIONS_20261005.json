@@ -1,0 +1,35 @@
+{
+  "authorization": "2026-10-05 user explicitly permits shared friendly-fire integration and regression",
+  "author_identity": "friendly_fire_exec_repair_v1",
+  "original_backup_identity": "friendly_fire_author_v1",
+  "history": [
+    {
+      "identity": "friendly_fire_author_v1",
+      "old_sha256": "892836f8a7f39a3a4bc23ce799cd6b9c89c1a7ccdbe5f409927fd98100b142de",
+      "new_sha256": "8262e5c2e56d222e6d9e08d6affdeee227e16b089108a4899b358b8124868a20",
+      "status": "native author only; missing query exec edge pending repair, not runtime acceptance"
+    },
+    {
+      "identity": "friendly_fire_exec_repair_v1",
+      "old_sha256": "8262e5c2e56d222e6d9e08d6affdeee227e16b089108a4899b358b8124868a20",
+      "new_sha256": "dc2f8fc2da7653bc4eaa53015c96e1bbab24aa4dd6afbc77cc2a398a8c824f5d",
+      "status": "native exec repair; actual-city regression pending"
+    }
+  ],
+  "rows": [
+    {
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2.uasset",
+      "sha256": "dc2f8fc2da7653bc4eaa53015c96e1bbab24aa4dd6afbc77cc2a398a8c824f5d",
+      "size_bytes": 327903,
+      "original_sha256": "892836f8a7f39a3a4bc23ce799cd6b9c89c1a7ccdbe5f409927fd98100b142de",
+      "original_size_bytes": 300043
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2.uasset",
+      "sha256": "dc2f8fc2da7653bc4eaa53015c96e1bbab24aa4dd6afbc77cc2a398a8c824f5d",
+      "size_bytes": 327903,
+      "original_sha256": "892836f8a7f39a3a4bc23ce799cd6b9c89c1a7ccdbe5f409927fd98100b142de",
+      "original_size_bytes": 300043
+    }
+  ]
+}

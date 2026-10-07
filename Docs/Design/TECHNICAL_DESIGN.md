@@ -1,5 +1,14 @@
 # Technical design - Paris Street Combat
 
+**5 October first-person selection:** the approved V20 grip and existing V19
+hold source are now persisted through a native auto-binding actor/private config,
+with generic source in Git and native data/module in SFTP. Original gameplay
+transactions/actions remain authoritative. See the formal V21 result; human hand
+appearance acceptance does not certify deferred sleeves/full-return/lifecycle/
+near-wall/FPS or the proposed NPC/mission contracts below. No further hand polish.
+
+**Confirmed behavior rules, 3 October 2026:** Allies may pursue visible enemies for a short, configurable distance before regrouping; Germans search the actual last-seen area for a bounded time after sight loss, then return to guard/patrol. Shared FriendlyFireEnabled applies to the player and both NPC factions: on computes normal damage for an actual friendly hit, off computes none. Friendly bodies block shots in both modes; NPCs avoid friendly-obstructed lanes regardless of the switch. Do not infer on-mode/configuration tests from the existing off-mode regression. Details and action-level trees are in [the behavior draft](NPC_BEHAVIOR_DRAFT_V1.md) / [Chinese review](NPC_BEHAVIOR_DRAFT_V1_ZH.md); confirmation settles these rule choices, not implementation or acceptance.
+
 **Latest scope correction:** use the current proposal's connected city mission with an initial configurable six-soldier roster, not a final population cap. Automatic ally follow/regroup, temporary support positions and the map-survey requirements remain. All NPCs share an AIController/Behavior Tree with individual team, role, encounter-group, patrol-route and search-zone settings and private per-NPC Blackboard state. Extra finite groups/stages depend on pacing, navigation and performance evaluation.
 
 **Current mission contract, 30 September 2026:** the [proposal](../Proposal/PROJECT_PROPOSAL.md) governs configurable intermediate objectives across a surveyed connected city area. Reach A -> Clear B -> Reach C is illustrative; locations and order follow the survey. NavMesh/MoveTo is the baseline and custom tactical A* is optional. Reach checks only the living player and re-evaluates overlap on activation. ClearArea requires a nonempty fully registered EnemyGroupID with zero living members; unique deaths update an actor-ID ledger, including earlier kills. Leaving a volume, despawning or unloading is not death. Only the current objective advances, once; player-death failure takes precedence. Full restart restores the configured initial state. Should checkpoints restore a saved snapshot and roll back later changes if implemented. Both restore paths reject stale callbacks. Earlier casualties persist during normal progression. Current delivery and evidence requirements are in the [Assignment 3 goal](../Development/ASSIGNMENT3_GOAL_V1.md) and [acceptance checklist](../Development/ASSIGNMENT3_ACCEPTANCE.md).

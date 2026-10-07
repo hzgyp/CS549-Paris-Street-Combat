@@ -25,6 +25,20 @@ if(-not(Test-Path -LiteralPath $EngineEditor)){throw 'UE editor not found; suppl
 $taskVersionPath=Join-Path (Split-Path (Split-Path (Split-Path $EngineEditor))) 'Build/Build.version'
 $taskVersion=Get-Content -LiteralPath $taskVersionPath -Raw|ConvertFrom-Json
 if($taskVersion.MajorVersion -ne 5 -or $taskVersion.MinorVersion -ne 8 -or $taskVersion.PatchVersion -ne 2 -or $taskVersion.Changelist -ne 56702186){throw 'Team playtest requires UE5.8.2 CL56702186'}
+if($taskManifest.first_person_selection){
+    $taskProjectConfig=Get-Content -LiteralPath (Join-Path $taskRoot 'Unreal/ParisStreetCombat/WW2FranceLiberation.uproject') -Raw|ConvertFrom-Json
+    if(-not ($taskProjectConfig.Plugins|Where-Object {$_.Name -eq 'ParisGripBindingV18' -and $_.Enabled})){throw 'Update Git: approved first-person runtime plugin is not enabled'}
+    $taskModule=Get-Content -LiteralPath (Join-Path $taskRoot 'Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Binaries/Win64/UnrealEditor.modules') -Raw|ConvertFrom-Json
+    $taskEngineModule=Get-Content -LiteralPath (Join-Path (Split-Path $EngineEditor) 'UnrealEditor.modules') -Raw|ConvertFrom-Json
+    if($taskModule.BuildId -ne $taskEngineModule.BuildId){throw 'Private native module does not match installed editor build'}
+}
+if($taskManifest.allied_npc_selection -or $taskManifest.german_npc_selection){
+    $taskProjectConfig=Get-Content -LiteralPath (Join-Path $taskRoot 'Unreal/ParisStreetCombat/WW2FranceLiberation.uproject') -Raw|ConvertFrom-Json
+    if(-not ($taskProjectConfig.Plugins|Where-Object {$_.Name -eq 'ParisNPCGripV15' -and $_.Enabled})){throw 'Update Git: approved NPC runtime plugin is not enabled'}
+    $taskModule=Get-Content -LiteralPath (Join-Path $taskRoot 'Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Binaries/Win64/UnrealEditor.modules') -Raw|ConvertFrom-Json
+    $taskEngineModule=Get-Content -LiteralPath (Join-Path (Split-Path $EngineEditor) 'UnrealEditor.modules') -Raw|ConvertFrom-Json
+    if($taskModule.BuildId -ne $taskEngineModule.BuildId){throw 'NPC native module does not match installed editor build'}
+}
 if($CheckOnly){Write-Output 'Selected gameplay hashes, city sizes and UE5.8.2 checked; no game launched';return}
 $taskLog=Join-Path $taskRoot ('tmp/continuous-arms-native/human-native-'+(Get-Date -Format 'yyyyMMdd-HHmmss')+'.log')
 New-Item -ItemType Directory -Path (Split-Path $taskLog) -Force|Out-Null

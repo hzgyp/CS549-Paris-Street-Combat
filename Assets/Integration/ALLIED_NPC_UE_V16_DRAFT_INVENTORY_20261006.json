@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "date": "2026-10-06",
+  "status": "native_draft_unselected",
+  "engine": "UE5.8.2 Win64 Editor Development",
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/AlliedGripV15/ABP_PC_AlliedGripPostV16.uasset",
+      "size_bytes": 47139,
+      "sha256": "d49cbcb063caafaa2628fdd65ab7056b30ce5e56b92b43bc26f558c4d03f083f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/AlliedGripV15/DA_PC_AlliedGripV16.uasset",
+      "size_bytes": 8272,
+      "sha256": "eecf97739d1d1e7b5475f9ec107742f9f503e0e29b7d5c894a481fb4a21986de"
+    }
+  ],
+  "dependencies": {
+    "/Game/ParisCombat/Animation/AlliedGripV15/DA_PC_AlliedGripV16": [
+      "/Game/ParisCombat/Animation/AlliedGripV15/ABP_PC_AlliedGripPostV16",
+      "/Script/ParisNPCGripV15"
+    ],
+    "/Game/ParisCombat/Animation/AlliedGripV15/ABP_PC_AlliedGripPostV16": [
+      "/Game/ParisCombat/Characters/Adaptation/Meshes/SK_WWII_US_Paratrooper_simple_UE582_v1",
+      "/Game/USParatrooper/Meshes/SK_WWII_US_Paratrooper_simple_Skeleton",
+      "/Script/AnimGraph",
+      "/Script/ParisNPCGripV15",
+      "/Script/ParisNPCGripV15Editor"
+    ]
+  },
+  "private_binding_sha256": "5b4a6e94f04086a03915bea264a2ed1fe111392d5ab0b36a6916da3b2a0f8db9",
+  "formal_map_changed": false,
+  "catalog_changed": false,
+  "source_assets_changed": false,
+  "first_person_changed": false,
+  "german_changed": false,
+  "b_ai_changed": false,
+  "immutable_sftp_release_published": false,
+  "git_commit_push_performed": false,
+  "new_uasset_bytes": 55411,
+  "draft_fresh_read_verified": true,
+  "ready_pose_verified": true,
+  "walk_test_speed_cm_s": 300,
+  "reload_transaction": [
+    [
+      2,
+      16
+    ],
+    [
+      8,
+      10
+    ]
+  ],
+  "full_motion_accepted": false,
+  "pending_frames_not_validated": 1,
+  "remaining": [
+    "foreground full-transition/contact",
+    "unobstructed shot/muzzle/recoil",
+    "near-wall",
+    "death/interruption/reset",
+    "second Allied NPC",
+    "FPS/package/second-machine",
+    "dependency release audit and verified SFTP publication"
+  ],
+  "descriptor_restored_sha256": "a33b248fcaba8c02d4f04972869f79a6faa72c2a54db44b14a42e90ebaaa1976",
+  "protected_current_rows_exact": 611
+}

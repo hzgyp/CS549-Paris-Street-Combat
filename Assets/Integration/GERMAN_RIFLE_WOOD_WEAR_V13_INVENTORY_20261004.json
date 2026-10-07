@@ -1,0 +1,1468 @@
+{
+  "date": "2026-10-04",
+  "scope": "private V13 coordinated local material repair; not production/restore authority",
+  "selected_review_candidate": "finish_v2/GermanRifle_CoordinatedWear_V13.glb",
+  "user_appearance_approved": false,
+  "shared": false,
+  "catalog_selected": false,
+  "restore_authority": false,
+  "cloud_spend": 0,
+  "fresh_audit_passed": true,
+  "fresh_material_and_protected_png_audit_passed": true,
+  "repeat_embedded_images_identical": true,
+  "repeat_whole_glb_identical": false,
+  "private_files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/audit_v1/audit.json",
+      "bytes": 39944,
+      "sha256": "dc897e0d7b3a671c08d37647481132a3dafcffaba13eefcc40aa3adb6be2a778"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/audit_v1/fresh_pbr_left.png",
+      "bytes": 1076791,
+      "sha256": "20da783d72e955589768f1b83a37bf247ee094c2ba0bbce3880779bf1e8750a5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/audit_v1/fresh_pbr_quarter.png",
+      "bytes": 1092384,
+      "sha256": "118e283fb7c959b43b8298b933865d7d6ba0cb6fe9050f156c675040cb8bc136"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/audit_v1/fresh_pbr_receiver.png",
+      "bytes": 1145181,
+      "sha256": "41ede96b3603506beaf954b5945cf1900816e820d2a847f5071155f0e517e5de"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/audit_v1/fresh_pbr_right.png",
+      "bytes": 1070518,
+      "sha256": "c541a07af407d9f802d4ef9053aa627382ac201b68e08a1e00d9bab5903f3a4e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/audit_v1/fresh_pbr_top.png",
+      "bytes": 1034694,
+      "sha256": "db051ef786b45fc997e5520cf3435ae400d31564e2a4a014729b936faea39de4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/audit_v1/fresh_pbr_underside.png",
+      "bytes": 1079413,
+      "sha256": "5d2530c92d7b8ef82f3dc8f07bcb6aadd30d82d735dc66a656728fae460caf2e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/allied_m1_inspection.blend",
+      "bytes": 17321861,
+      "sha256": "13b0ba5362a44fca790193f034c8fe256c2b912b92fec39d80cf14a632a75beb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/allied_m1_receiver.png",
+      "bytes": 974647,
+      "sha256": "275e5d59003acd193bb767122de5d6fa2bf9d1859232ac947f0c9ef78bde312d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/allied_m1_stock.png",
+      "bytes": 1077380,
+      "sha256": "8ea481d0b42ea503d6b500850e90833ea549ece3f3edbd751f585ed8e9649472"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/allied_m1_whole.png",
+      "bytes": 751856,
+      "sha256": "80526c2ac1f3c6dc8fc8792a506c76f78bbabaff6942183357ed3f5dee46f4db"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/comparison.json",
+      "bytes": 12662,
+      "sha256": "3082f7cbd8ae1e735a51a6b046a0ba8559c961070d426cc1c21294dc72ed700a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/german_v13_inspection.blend",
+      "bytes": 67478593,
+      "sha256": "48082709bef7381752bc6887fc2ccd44c51f1e014dcbab4597177d264333442f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/german_v13_receiver.png",
+      "bytes": 795292,
+      "sha256": "7a2982faabb2a5f42d3f98d59e8df9d7174de24ffc429d49c90e0fc5490389dc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/german_v13_stock.png",
+      "bytes": 826314,
+      "sha256": "3a5dacf709b3d3223c13f39b332e6dca16d628f3649d1101ccab8fa26d5650a2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/german_v13_whole.png",
+      "bytes": 721883,
+      "sha256": "a57f61ecb2e7b59708b8e8176dd9885fc3f709a769fb9b44ff395019d87409e1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/early_export_v1/audit.json",
+      "bytes": 39998,
+      "sha256": "5cc621115d18d52c0dae19e092272acfa7acb6d60495f95bbc230105d8acf6d2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/alternate_barrel.png",
+      "bytes": 811395,
+      "sha256": "c37612888ae3142700cf94849531d6be93bb2259130a456c7ff2bff5757a6f02"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/alternate_stock.png",
+      "bytes": 918437,
+      "sha256": "b7d2d298bb241e11d493404de1c6e3386c6d663692cd14bc45119de68d20b397"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/build_report.json",
+      "bytes": 250195,
+      "sha256": "d0f9d0b9735bf41b53bb06b0046434a64eda85ca64ea53fa426b406fc523fb6d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/frozen_source/main.py",
+      "bytes": 17965,
+      "sha256": "dad4b02e6857009c00f216b875684249f2def0d2c2160a9058b8bff7c599fd44"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/frozen_source/preflight.py",
+      "bytes": 5665,
+      "sha256": "5742f44c25877543b4ede070d6ddf673c9a8064eb87bf9facf14bf66084a529c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/GermanRifle_CoordinatedWear_V13.blend",
+      "bytes": 77142615,
+      "sha256": "8da3679bafbd4bbe8c906aed661ec017847e1e68c4b70f02815758fad2da0c7f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/GermanRifle_CoordinatedWear_V13.glb",
+      "bytes": 67460068,
+      "sha256": "a84ed4390d45f37ad453a6a0867a074849ae8387b7737defcc88f2b50d8374d6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_barrel.png",
+      "bytes": 811294,
+      "sha256": "a9a6657a68f0f5485c3ae9019b5601f6f82ea1d25ca94367c75077dbf2892fc6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_handguard.png",
+      "bytes": 834625,
+      "sha256": "ac1c9fa346a78a42b8b741ecf395325fb8647ae7610e29f13a8cef49abba08b0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_left.png",
+      "bytes": 798247,
+      "sha256": "baacb89abb74bbf694b82aa6b1984ba5708bd2dc17a2f4440c933c998a799ec9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_muzzle.png",
+      "bytes": 871866,
+      "sha256": "e920012255e4a879cfeb129eefb95890254982b4a7035b293a8bfc396cd19bb7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_quarter.png",
+      "bytes": 809976,
+      "sha256": "7825efe66f8d1ac152778b2f862ab82aa9ae1775f2c1a68a4c92c82ac18af034"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_receiver.png",
+      "bytes": 851876,
+      "sha256": "1f0189bf3f20817d1a8cd443d8d3ede2952ce27212cb7bfaacdb4b3ef17b1072"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_right.png",
+      "bytes": 793870,
+      "sha256": "1853c01574c2cbd80ad0bb3c4d65ea4fb9a4ef1b0feacd7fe81b55ef41a847d9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_stock.png",
+      "bytes": 924392,
+      "sha256": "1e0cabce029b0bbd07f313fdc32635385d5e9a84c14a1fcbb41ccd6965b313b2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_stock_reverse.png",
+      "bytes": 972208,
+      "sha256": "0a749f5a2e123ca03750d363e1b51be49fdf02c5a49a8fd8499abc4ab976fb11"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_stock_under.png",
+      "bytes": 833319,
+      "sha256": "69c0b5ceb0698b7e557c5a7f8cab766293061ae77e2522c44b165c555cd54297"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_top.png",
+      "bytes": 767049,
+      "sha256": "2dda4fff14f0065d420adc0dbbe3a7ab48e7458c28b8f9c0aa7b534ea941bb9e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/pbr_underside.png",
+      "bytes": 798344,
+      "sha256": "a9531fe413bf2b73e4070adb0cbe5769335238a651bc2d63528269e260f2c793"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/unlit_barrel.png",
+      "bytes": 789250,
+      "sha256": "2672150849c5659601e86da8ae281cc112b678095c6bbd017881ec099806e664"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/unlit_stock.png",
+      "bytes": 957825,
+      "sha256": "53f3bdb5d53bb7728870f9733e6f78b98c27320964de1530d75dc835256b05cd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Barrel_Donor_Tapered_BaseColor.png",
+      "bytes": 737575,
+      "sha256": "dd78f9f72bc3a1c59c9a5b1c249128622cee141c36c3fd1628e4ea15c997b81a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Barrel_Donor_Tapered_HandlingMask.png",
+      "bytes": 99936,
+      "sha256": "b891fbc8d8f6deb413ed4ca261e052afcba9a71a0e4ac12080b218da2d442e0d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Barrel_Donor_Tapered_ORM.png",
+      "bytes": 1221052,
+      "sha256": "2781578302f3781a2b1270c20f5aff0c590b118d7b50eece261b21723232903e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Barrel_Donor_Tapered_ScratchMask.png",
+      "bytes": 25992,
+      "sha256": "844240e301511bef09a23043e6405c6a03196558fd1536df5934b4def3895b5b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Barrel_Donor_Tapered_WearMask.png",
+      "bytes": 30094,
+      "sha256": "8280ccf6bd191fc96687f135bc92683b6286c23d33678708169174191be4ee58"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_HandleCaps_BaseColor.png",
+      "bytes": 726009,
+      "sha256": "40b7ce734778fe0f04b2cda6b97cf1ba7748a3c1710c80bb0ff5e79dc1c1dff1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_HandleCaps_HandlingMask.png",
+      "bytes": 68931,
+      "sha256": "969cad25e3d9f3046dd64f15c0cf3aa4981488617359e4a91706c418d68e7421"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_HandleCaps_ORM.png",
+      "bytes": 1220673,
+      "sha256": "7d152a188ab76ce60b801b263dcbcae98628ab243fbe833be15b0ba6bfa7be5b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_HandleCaps_ScratchMask.png",
+      "bytes": 27022,
+      "sha256": "18242145680cbdc4c5e053ca3b135de5739a89762afdba3d6363b1a7a9900488"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_HandleCaps_WearMask.png",
+      "bytes": 29182,
+      "sha256": "baec470acf2bfed208166c728efc12e4f44b38eedfa6294bd071392cc5d4aa6c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_TubeSafety_BaseColor.png",
+      "bytes": 1207586,
+      "sha256": "8f3d6e84c2e27c46ea1faa207a68011e033843974c0479b2ea9f2b491c74aa0a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_TubeSafety_HandlingMask.png",
+      "bytes": 107595,
+      "sha256": "16e2a29f162a5b5e16f5ea4805b316f3f5e5b98274efac04b9f394a6465b0976"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_TubeSafety_ORM.png",
+      "bytes": 2130564,
+      "sha256": "ecf5cf37a83ca22ffb871e3b958f6d52a521bd0b3a0cc944b62eafba2f3fafbe"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_TubeSafety_ScratchMask.png",
+      "bytes": 39296,
+      "sha256": "2fb9ddb7eb34bda00d3487a9509bd306dc84fa0cddcc672e3bb98c89467439ee"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Bolt_Donor_TubeSafety_WearMask.png",
+      "bytes": 45813,
+      "sha256": "c5e6a2895a23b97361753e1e0e5ab4c9521312f6e6cb7600c659496a519680b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_ButtPlate_BaseColor.png",
+      "bytes": 737357,
+      "sha256": "a6dd07100651634f1ebf9ee787ae0b715ae352e9002dfe28697b2077964d8835"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_ButtPlate_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_ButtPlate_ORM.png",
+      "bytes": 1220791,
+      "sha256": "6262069ed80f8d6bab2ffa231d74d7410ba53e1605734fcff51d3a7817c10c77"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_ButtPlate_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_ButtPlate_WearMask.png",
+      "bytes": 100907,
+      "sha256": "d3056f0fac4272bff4191e768544eb9dd26348e1e9c230cd61b32a9a179ddd75"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_FrontBand_BaseColor.png",
+      "bytes": 717119,
+      "sha256": "ba754dceeecc99cb5928567f79a1f1c0ce663fa3b7d38678054029b1a5849dec"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_FrontBand_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_FrontBand_ORM.png",
+      "bytes": 1220454,
+      "sha256": "198e6a29b13f7f034f4a3fc52aea96dab5c012f73d4da2920e5a3cd798e3850c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_FrontBand_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_FrontBand_WearMask.png",
+      "bytes": 25998,
+      "sha256": "a8df98f96e2940298946543c9ab4a1c715cf4489381cdf1521a1af8fc7d5779c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_RearBand_BaseColor.png",
+      "bytes": 716459,
+      "sha256": "7fe13989fd65affb1abfcc1b3f97d58776f737ebc3afe8a885fd1d2b676c93ba"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_RearBand_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_RearBand_ORM.png",
+      "bytes": 1220417,
+      "sha256": "98ad29a726d138cbd39dc8a35e2217cbfc390780e4a402a71c91e546ba09c894"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_RearBand_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Furniture_RearBand_WearMask.png",
+      "bytes": 25503,
+      "sha256": "64892f50bb3782f6fe9be83d02aebc42599793fa2c6bcaf56f46d7c298da8891"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Guard_OpenBow_BaseColor.png",
+      "bytes": 718463,
+      "sha256": "30a201c67775b060d1366ac209dae04082b95a98cc796268c2afe9d1b7ce897f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Guard_OpenBow_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Guard_OpenBow_ORM.png",
+      "bytes": 1220433,
+      "sha256": "4b161cef5c136b6fba8e481b09f4a2c64448f131e7b7eabef0de84e5b69b0b9a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Guard_OpenBow_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Guard_OpenBow_WearMask.png",
+      "bytes": 31521,
+      "sha256": "ed4f495f7893b4a87702002bcd0e2765b001063296f0ddc335d42de6606e77be"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Handguard_BaseColor.png",
+      "bytes": 6192386,
+      "sha256": "1e73cffb23d561f92955625e5dac732009ef2a70e82ed43226830143a5827961"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Handguard_HandlingMask.png",
+      "bytes": 78303,
+      "sha256": "98af1805c2d325e0d84b365ca83126f8297f3994debc43ee46b2cee121eb471a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Handguard_Normal.png",
+      "bytes": 3088146,
+      "sha256": "2c04afd8cce9bbf4accdbde84bafa453147f1eac6394ee5c883f7848d78ac028"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Handguard_ORM.png",
+      "bytes": 1408348,
+      "sha256": "6fbc4b9f17e8e647b84e001bbef00f8656f5c6ff29b980ae918d67c6606814d0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Handguard_ScratchMask.png",
+      "bytes": 116572,
+      "sha256": "dec5ebe78fb87b6391756b8d34c2d959442875a06be0bba69534a69478b30bcd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Handguard_WearMask.png",
+      "bytes": 110663,
+      "sha256": "4210094e3cfd01a3f77a4f8094665f70205c963c7bbd0c4872ab998fb67bc334"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Muzzle_Donor_Insert_BaseColor.png",
+      "bytes": 58502,
+      "sha256": "ddd8612e752fa4d1308fe0104ca8f8e162bec17f812e3eba1d2e68953c515d7c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Muzzle_Donor_Insert_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Muzzle_Donor_Insert_ORM.png",
+      "bytes": 426570,
+      "sha256": "c30b6f82b7ef9d28a169f4866f6f844f1c7a5df681069fd03e170277d2da59f3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Muzzle_Donor_Insert_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Muzzle_Donor_Insert_WearMask.png",
+      "bytes": 22019,
+      "sha256": "eb736f62346ff71bd7e450c68f4b2041f088f15e9b935da89a4d752c152f2090"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Receiver_Donor_Lower_BaseColor.png",
+      "bytes": 1219519,
+      "sha256": "9e1ec5aa3c67c174c745a252380d3368222ed13edcd3873ed5eac92adad4e539"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Receiver_Donor_Lower_HandlingMask.png",
+      "bytes": 132959,
+      "sha256": "e01c95bbc5029c968aede1c868c22c5c966effa1a57bd4fea7c9319fe6eb714e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Receiver_Donor_Lower_ORM.png",
+      "bytes": 2132235,
+      "sha256": "afd55f0204bd8281e774106bfc5fe399325bbcdfc7a92e070c647c10ebcaed00"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Receiver_Donor_Lower_ScratchMask.png",
+      "bytes": 44443,
+      "sha256": "acf66dc78b79f1529e74a486423dad411b1b4ed7d2727a20656496bda5ef77b5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Receiver_Donor_Lower_WearMask.png",
+      "bytes": 47243,
+      "sha256": "929717688df12d8a40452e1cc9434c0a7d454b8071dff920aad05491258bdd7b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Stock_BaseColor.png",
+      "bytes": 6191515,
+      "sha256": "8ec8cd593d45fc5f4836db8bbf7fb1665bb281bd1f4b2c82c6aa6e282cf8257d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Stock_HandlingMask.png",
+      "bytes": 250523,
+      "sha256": "ff00f37c16101b082d99de03f28752e0e3acba34b07edbb5b78383fd9cdd93b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Stock_Normal.png",
+      "bytes": 3088513,
+      "sha256": "187ac300b1b078c9e74e30a0dd37e892d2c907458513137e16c94e308db5771a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Stock_ORM.png",
+      "bytes": 1453553,
+      "sha256": "d764690101f48ae5de02ab0e7d24e87ee71248717a429b0abd18e928a21cb730"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Stock_ScratchMask.png",
+      "bytes": 137775,
+      "sha256": "9e34a10f0c3ec91c04f37eace3570120dc1dbdaf32706b0701190c7cc705e622"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/V13_Stock_WearMask.png",
+      "bytes": 148461,
+      "sha256": "783d672f97aeb5c0c331af9b4a50e804ba73c1ad71a9fc2dd7df53bb763b499c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/alternate_barrel.png",
+      "bytes": 811827,
+      "sha256": "345569939df4468ccdc63f4b523ed2da39c7d86d0fdb026ec561663fd57db1c2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/alternate_stock.png",
+      "bytes": 920302,
+      "sha256": "3a76e1a2ba7da746a4969415341318194c32669f63133888ad132dd47117151a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/build_report.json",
+      "bytes": 250315,
+      "sha256": "90d83a8ba41d995d678cc52970bc3d5610e326442a740a51e9c067c2b6be259e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/GermanRifle_CoordinatedWear_V13.blend",
+      "bytes": 77183277,
+      "sha256": "bb730a98cfe70241fb1a6af069d2366bdce69536db813aa9bbcd5634afb0f46e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/GermanRifle_CoordinatedWear_V13.glb",
+      "bytes": 67500732,
+      "sha256": "76c557b3334c8b9a7ee178b33783376642b5c8a176a37e662ab7203714c00a81"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_barrel.png",
+      "bytes": 811564,
+      "sha256": "679573fb4555964966adacdfb17929a48d7fd4aaa81c0bbc0208d4835aae84ae"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_handguard.png",
+      "bytes": 834605,
+      "sha256": "111c1228bd399bf4e603c361010bf8dec385da1b826a017c6f93cb9b092de4ef"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_left.png",
+      "bytes": 798801,
+      "sha256": "83d5231733bab44002eab05ae05d5c9770d98cee10f0cb5874a9379ab6a570e6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_muzzle.png",
+      "bytes": 870794,
+      "sha256": "fd31d403adc141fa5012c3a1e84a037618707c032ef12ba0f460ff7805020f91"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_quarter.png",
+      "bytes": 810288,
+      "sha256": "720efb622a64187c7e56be146f36df741e94cceb801543e4e5fc1f84046bd377"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_receiver.png",
+      "bytes": 852752,
+      "sha256": "6e37f5af6f775611182015de7326cff5fec1d5143389935302dba794868d1637"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_right.png",
+      "bytes": 794135,
+      "sha256": "b980d5dc0c98c8593e6aaf7bd07ab19942ced465e01d24f3951913b94141addd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_stock.png",
+      "bytes": 926046,
+      "sha256": "614bcee816faeba6d053fdf4d2b1e89921e82d32f55e82ac27d45341f8677448"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_stock_reverse.png",
+      "bytes": 974338,
+      "sha256": "ecb590404e739d846d30fcd166cdba2b8427b6f60fcaa4c04ceec38a5666fe86"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_stock_under.png",
+      "bytes": 834343,
+      "sha256": "de758f3e0d7bb7c3ef9a4f7cd83a30189bb2045ee6a59757666512fbf01ab18f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_top.png",
+      "bytes": 767452,
+      "sha256": "307bf21ee149e043cb70dadd93895e2c27109543cd1d35d723195a6b27af1f6b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/pbr_underside.png",
+      "bytes": 798710,
+      "sha256": "76b88c42fbebdadae5e1a73396b8f07c2d9692417f3af241737d9485c1bc5d6b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/unlit_barrel.png",
+      "bytes": 790523,
+      "sha256": "f8778cb4a5be0a2511fdb21d418b32d376326c735b38b5e75fc1dbc4c0862173"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/unlit_stock.png",
+      "bytes": 959527,
+      "sha256": "3b2ba8d1fc92fe7b4ffecf06920c075f4cdb9bbd24bf50c3498166200fc027eb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Barrel_Donor_Tapered_BaseColor.png",
+      "bytes": 744870,
+      "sha256": "8855742ebb417dc1821cf49afe0f1d1cf3683b5089acdadbe3c6242a0fe7ec40"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Barrel_Donor_Tapered_HandlingMask.png",
+      "bytes": 99936,
+      "sha256": "b891fbc8d8f6deb413ed4ca261e052afcba9a71a0e4ac12080b218da2d442e0d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Barrel_Donor_Tapered_ORM.png",
+      "bytes": 1221427,
+      "sha256": "191d173a0222cc4bf57b96c07b43dc4d06f5c4ceab077605a2bde9c5b1114117"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Barrel_Donor_Tapered_ScratchMask.png",
+      "bytes": 25992,
+      "sha256": "844240e301511bef09a23043e6405c6a03196558fd1536df5934b4def3895b5b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Barrel_Donor_Tapered_WearMask.png",
+      "bytes": 30094,
+      "sha256": "8280ccf6bd191fc96687f135bc92683b6286c23d33678708169174191be4ee58"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_HandleCaps_BaseColor.png",
+      "bytes": 728741,
+      "sha256": "7b932e33768b7739151beb9cfec54c25d8c55647a48b0095bd5a3689c4e0fe40"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_HandleCaps_HandlingMask.png",
+      "bytes": 68931,
+      "sha256": "969cad25e3d9f3046dd64f15c0cf3aa4981488617359e4a91706c418d68e7421"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_HandleCaps_ORM.png",
+      "bytes": 1220728,
+      "sha256": "a7706e6a3d443e14b01da6f98d8449db6bfdba251d308f5c028d4223f7701d2f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_HandleCaps_ScratchMask.png",
+      "bytes": 27022,
+      "sha256": "18242145680cbdc4c5e053ca3b135de5739a89762afdba3d6363b1a7a9900488"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_HandleCaps_WearMask.png",
+      "bytes": 29182,
+      "sha256": "baec470acf2bfed208166c728efc12e4f44b38eedfa6294bd071392cc5d4aa6c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_TubeSafety_BaseColor.png",
+      "bytes": 1212962,
+      "sha256": "f2c5e4152ee560174588578ca66f21ab7a1b84f9a653889fe2c8f2581f07cbde"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_TubeSafety_HandlingMask.png",
+      "bytes": 107595,
+      "sha256": "16e2a29f162a5b5e16f5ea4805b316f3f5e5b98274efac04b9f394a6465b0976"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_TubeSafety_ORM.png",
+      "bytes": 2130827,
+      "sha256": "d1d99ebfaaec7df9f61c7391dd0d6b288f2494c5de68bedde516c9d0ad86c2f6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_TubeSafety_ScratchMask.png",
+      "bytes": 39296,
+      "sha256": "2fb9ddb7eb34bda00d3487a9509bd306dc84fa0cddcc672e3bb98c89467439ee"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Bolt_Donor_TubeSafety_WearMask.png",
+      "bytes": 45813,
+      "sha256": "c5e6a2895a23b97361753e1e0e5ab4c9521312f6e6cb7600c659496a519680b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_ButtPlate_BaseColor.png",
+      "bytes": 737357,
+      "sha256": "a6dd07100651634f1ebf9ee787ae0b715ae352e9002dfe28697b2077964d8835"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_ButtPlate_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_ButtPlate_ORM.png",
+      "bytes": 1220791,
+      "sha256": "6262069ed80f8d6bab2ffa231d74d7410ba53e1605734fcff51d3a7817c10c77"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_ButtPlate_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_ButtPlate_WearMask.png",
+      "bytes": 100907,
+      "sha256": "d3056f0fac4272bff4191e768544eb9dd26348e1e9c230cd61b32a9a179ddd75"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_FrontBand_BaseColor.png",
+      "bytes": 717119,
+      "sha256": "ba754dceeecc99cb5928567f79a1f1c0ce663fa3b7d38678054029b1a5849dec"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_FrontBand_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_FrontBand_ORM.png",
+      "bytes": 1220454,
+      "sha256": "198e6a29b13f7f034f4a3fc52aea96dab5c012f73d4da2920e5a3cd798e3850c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_FrontBand_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_FrontBand_WearMask.png",
+      "bytes": 25998,
+      "sha256": "a8df98f96e2940298946543c9ab4a1c715cf4489381cdf1521a1af8fc7d5779c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_RearBand_BaseColor.png",
+      "bytes": 716459,
+      "sha256": "7fe13989fd65affb1abfcc1b3f97d58776f737ebc3afe8a885fd1d2b676c93ba"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_RearBand_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_RearBand_ORM.png",
+      "bytes": 1220417,
+      "sha256": "98ad29a726d138cbd39dc8a35e2217cbfc390780e4a402a71c91e546ba09c894"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_RearBand_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Furniture_RearBand_WearMask.png",
+      "bytes": 25503,
+      "sha256": "64892f50bb3782f6fe9be83d02aebc42599793fa2c6bcaf56f46d7c298da8891"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Guard_OpenBow_BaseColor.png",
+      "bytes": 718463,
+      "sha256": "30a201c67775b060d1366ac209dae04082b95a98cc796268c2afe9d1b7ce897f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Guard_OpenBow_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Guard_OpenBow_ORM.png",
+      "bytes": 1220433,
+      "sha256": "4b161cef5c136b6fba8e481b09f4a2c64448f131e7b7eabef0de84e5b69b0b9a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Guard_OpenBow_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Guard_OpenBow_WearMask.png",
+      "bytes": 31521,
+      "sha256": "ed4f495f7893b4a87702002bcd0e2765b001063296f0ddc335d42de6606e77be"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Handguard_BaseColor.png",
+      "bytes": 6196947,
+      "sha256": "18f1ec648e9618c52679e34522c9fc1a069e710d4a15a0ea060a17a996d70a5d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Handguard_HandlingMask.png",
+      "bytes": 78303,
+      "sha256": "98af1805c2d325e0d84b365ca83126f8297f3994debc43ee46b2cee121eb471a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Handguard_Normal.png",
+      "bytes": 3088146,
+      "sha256": "2c04afd8cce9bbf4accdbde84bafa453147f1eac6394ee5c883f7848d78ac028"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Handguard_ORM.png",
+      "bytes": 1408348,
+      "sha256": "6fbc4b9f17e8e647b84e001bbef00f8656f5c6ff29b980ae918d67c6606814d0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Handguard_ScratchMask.png",
+      "bytes": 116572,
+      "sha256": "dec5ebe78fb87b6391756b8d34c2d959442875a06be0bba69534a69478b30bcd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Handguard_WearMask.png",
+      "bytes": 110663,
+      "sha256": "4210094e3cfd01a3f77a4f8094665f70205c963c7bbd0c4872ab998fb67bc334"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Muzzle_Donor_Insert_BaseColor.png",
+      "bytes": 58502,
+      "sha256": "ddd8612e752fa4d1308fe0104ca8f8e162bec17f812e3eba1d2e68953c515d7c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Muzzle_Donor_Insert_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Muzzle_Donor_Insert_ORM.png",
+      "bytes": 426570,
+      "sha256": "c30b6f82b7ef9d28a169f4866f6f844f1c7a5df681069fd03e170277d2da59f3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Muzzle_Donor_Insert_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Muzzle_Donor_Insert_WearMask.png",
+      "bytes": 22019,
+      "sha256": "eb736f62346ff71bd7e450c68f4b2041f088f15e9b935da89a4d752c152f2090"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Receiver_Donor_Lower_BaseColor.png",
+      "bytes": 1228514,
+      "sha256": "40d95b977d354b08dbdbbb24570b1e650c0f85cd390f900c703de4aaf2fa7b8c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Receiver_Donor_Lower_HandlingMask.png",
+      "bytes": 132959,
+      "sha256": "e01c95bbc5029c968aede1c868c22c5c966effa1a57bd4fea7c9319fe6eb714e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Receiver_Donor_Lower_ORM.png",
+      "bytes": 2133227,
+      "sha256": "b9472da980a2f6f9e2de7f09c7e9a6722e85dbc0a52bde1631bd51a2abe68f39"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Receiver_Donor_Lower_ScratchMask.png",
+      "bytes": 44443,
+      "sha256": "acf66dc78b79f1529e74a486423dad411b1b4ed7d2727a20656496bda5ef77b5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Receiver_Donor_Lower_WearMask.png",
+      "bytes": 47243,
+      "sha256": "929717688df12d8a40452e1cc9434c0a7d454b8071dff920aad05491258bdd7b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Stock_BaseColor.png",
+      "bytes": 6201533,
+      "sha256": "328fd3fab1c12f6a0d59395d41f804d0bea0dee676628a47647d039efc25f88f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Stock_HandlingMask.png",
+      "bytes": 250523,
+      "sha256": "ff00f37c16101b082d99de03f28752e0e3acba34b07edbb5b78383fd9cdd93b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Stock_Normal.png",
+      "bytes": 3088513,
+      "sha256": "187ac300b1b078c9e74e30a0dd37e892d2c907458513137e16c94e308db5771a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Stock_ORM.png",
+      "bytes": 1453553,
+      "sha256": "d764690101f48ae5de02ab0e7d24e87ee71248717a429b0abd18e928a21cb730"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Stock_ScratchMask.png",
+      "bytes": 137775,
+      "sha256": "9e34a10f0c3ec91c04f37eace3570120dc1dbdaf32706b0701190c7cc705e622"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/V13_Stock_WearMask.png",
+      "bytes": 148461,
+      "sha256": "783d672f97aeb5c0c331af9b4a50e804ba73c1ad71a9fc2dd7df53bb763b499c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/fresh_details_v1/details_audit.json",
+      "bytes": 9689,
+      "sha256": "2d235c5db95f389610383c35ac74144824761896174e0ac2336183479331953a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/fresh_details_v1/fresh_barrel.png",
+      "bytes": 807865,
+      "sha256": "b2c4b399fb235ec727c5036916ef612876d7ff81c6b018bf7f22b7e5a904bb88"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/fresh_details_v1/fresh_handguard.png",
+      "bytes": 831395,
+      "sha256": "0b7a3c3922a1126cebc0d41fc9fb3b3ad37b8acb7511c8c4ef0c7fcfc90bafc8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/fresh_details_v1/fresh_muzzle.png",
+      "bytes": 863582,
+      "sha256": "9c68fcb01a01f87932a32f36f15fb1bd8a8b873e5dbcc8932f4d7a33569ab129"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/fresh_details_v1/fresh_stock.png",
+      "bytes": 917781,
+      "sha256": "e8a97e96b15872d69710d94747c01b43ffbf097fb7e099baff1b6fd9ce19dd8e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/ownership_v1/ownership.json",
+      "bytes": 8522,
+      "sha256": "0a9df6188500c60092b0b8b2adffff8001381b67110d272c88610b0218c37e8d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/preflight_v1/preflight.json",
+      "bytes": 100561,
+      "sha256": "32dbddc7dfcb0fa96622623381767ac0cd4ec6a4b1bc74dd300e8e692f354c8a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/presentation_v1/m1_v12_v13.png",
+      "bytes": 1842211,
+      "sha256": "5d00892b809d97760a46aee027710044f577055b404cc4d61df63c557ea7f053"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/presentation_v1/presentation.json",
+      "bytes": 2724,
+      "sha256": "1b5ce71e5b69deea30848044fe5bfa691ac8a125f967ad3e08a83a239089a794"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_mask_v1/mask_barrel.png",
+      "bytes": 490617,
+      "sha256": "27dfb75da739ff726a477287508f40e6da678eb42f04d47bd4b66fc47d3fef57"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_mask_v1/mask_butt.png",
+      "bytes": 454019,
+      "sha256": "d0883cb806be1cc5f506535be590142d4077e9ebb216bafd54553f96fbec9d60"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_mask_v1/mask_butt_reverse.png",
+      "bytes": 454581,
+      "sha256": "1644af993e4b4bfb7f297887b05cffa7d3a3b4ab31d7104a4d98eccd68ec7d12"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_mask_v1/mask_review.json",
+      "bytes": 133,
+      "sha256": "cd42ee0e926d866a066268366c9edb0c64a49cacd4f70d9f1e2386f625759e87"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_mask_v2/mask_barrel.png",
+      "bytes": 490020,
+      "sha256": "e974f70862596b9925e1493e4a1b4ba8db33abc478c06525e8bbbe4e315aa396"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_mask_v2/mask_butt.png",
+      "bytes": 413062,
+      "sha256": "20a9d7bbb01b5fd395f2d63f6ed37e2b164f14ebb2ebe13ca249b54104863449"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_mask_v2/mask_butt_reverse.png",
+      "bytes": 417896,
+      "sha256": "df111055461d9be0e4fb3911c85add09d1bbdd5a68eef5df01205bbeb79eb543"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_mask_v2/mask_review.json",
+      "bytes": 503,
+      "sha256": "51da8ece79f57d3d5ee60d6607b8af676a814aef06d5b586ee9b5e60fdc46273"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/alternate_barrel.png",
+      "bytes": 807644,
+      "sha256": "e1ae67eebae5cd588cd88d8af2a9522320bcbe80e4479b43e743e5308e002b27"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/alternate_stock.png",
+      "bytes": 911084,
+      "sha256": "bb6299c09530145dc326c3612fe35cba229126a21ba908424c6fceb377d0467b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/build_report.json",
+      "bytes": 115947,
+      "sha256": "bc52479b3e970b27d8845a23dbc81eaec92f63e3ec8cdea829cca10b6db521e0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/GermanRifle_CoordinatedWear_V13.blend",
+      "bytes": 49583720,
+      "sha256": "d5cdb15de922991099132387a8661875aed669fcee0cd3085bb7fe8f1f5ec640"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/pbr_barrel.png",
+      "bytes": 807930,
+      "sha256": "c1ce8da62e4933f6f53092ea3b4d1021d2c1accd26355003cc808a5b414a97a9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/pbr_stock.png",
+      "bytes": 916925,
+      "sha256": "2bfca86ebbb4a91928f41f0eaf1cf5c2b13e18cad54afd06fb81ce6816768496"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/pbr_stock_reverse.png",
+      "bytes": 966782,
+      "sha256": "c31baa993eb5575237875dfa6241530c58acb5c0bd51984b7eac7c28cfe10e38"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/pbr_stock_under.png",
+      "bytes": 831512,
+      "sha256": "43c6acfc193e4fa41cac383e14ee129be81d56bf22358008e7a67f792b0b50e5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/unlit_barrel.png",
+      "bytes": 789728,
+      "sha256": "c7fc1fee0580af8b3bdb2d81521e5607e8218d0e177b110698b9605bf85ae928"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/unlit_stock.png",
+      "bytes": 961868,
+      "sha256": "335333943575503b484cede23eec5452d731c7db5a4616f124a319007e3e9b4b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Barrel_Donor_Tapered_BaseColor.png",
+      "bytes": 719266,
+      "sha256": "530a25171037f7a364dd840927c14d10c5e1341820aaa9c9f5224537edf5917d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Barrel_Donor_Tapered_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Barrel_Donor_Tapered_ORM.png",
+      "bytes": 1220468,
+      "sha256": "3a82193c8194bf7ee312cb389d1b4016021b9f7bb3ae6a4abfc74c683f86a902"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Barrel_Donor_Tapered_ScratchMask.png",
+      "bytes": 25992,
+      "sha256": "844240e301511bef09a23043e6405c6a03196558fd1536df5934b4def3895b5b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Barrel_Donor_Tapered_WearMask.png",
+      "bytes": 30094,
+      "sha256": "8280ccf6bd191fc96687f135bc92683b6286c23d33678708169174191be4ee58"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Muzzle_Donor_Insert_BaseColor.png",
+      "bytes": 58502,
+      "sha256": "ddd8612e752fa4d1308fe0104ca8f8e162bec17f812e3eba1d2e68953c515d7c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Muzzle_Donor_Insert_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Muzzle_Donor_Insert_ORM.png",
+      "bytes": 426570,
+      "sha256": "c30b6f82b7ef9d28a169f4866f6f844f1c7a5df681069fd03e170277d2da59f3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Muzzle_Donor_Insert_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Muzzle_Donor_Insert_WearMask.png",
+      "bytes": 22019,
+      "sha256": "eb736f62346ff71bd7e450c68f4b2041f088f15e9b935da89a4d752c152f2090"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Stock_BaseColor.png",
+      "bytes": 6193515,
+      "sha256": "b01468519466ecb5090d41b072386834a77f0349a69f488e16d548d83e69fbbc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Stock_HandlingMask.png",
+      "bytes": 78303,
+      "sha256": "98af1805c2d325e0d84b365ca83126f8297f3994debc43ee46b2cee121eb471a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Stock_Normal.png",
+      "bytes": 3087152,
+      "sha256": "0d8b0434172964db73b959ed29f744ef7d37c071c1254cd13000af3f2ae74ce1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Stock_ORM.png",
+      "bytes": 1397511,
+      "sha256": "90dec328074238fb0170234fbeba7ce07c7414c8b8b17322eb4e88297bfa628d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Stock_ScratchMask.png",
+      "bytes": 78303,
+      "sha256": "98af1805c2d325e0d84b365ca83126f8297f3994debc43ee46b2cee121eb471a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/V13_Stock_WearMask.png",
+      "bytes": 86383,
+      "sha256": "0546ca5eb13038d2f74116151bb4fa21442c3d63c6debe38d95bc3746fb24649"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_audit_v1/audit.json",
+      "bytes": 40096,
+      "sha256": "5d6bd02645b27792ef4e0e4614cccd88cd07411be34f2268c33dec6269f43496"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/build_report.json",
+      "bytes": 250315,
+      "sha256": "3cc99b0835908065b389c04600ed2340b196333093fda80f623d27582de20cdb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/GermanRifle_CoordinatedWear_V13.blend",
+      "bytes": 77122957,
+      "sha256": "484e1258f232aaa4f9c5db73e658c92108288a1b931b05a87fe882c7acfd85cf"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/GermanRifle_CoordinatedWear_V13.glb",
+      "bytes": 67500732,
+      "sha256": "bb9b3cd0b09f7e43c7280a43f9954ea6024500abddbd9d3a510f913de258241b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Barrel_Donor_Tapered_BaseColor.png",
+      "bytes": 744870,
+      "sha256": "8855742ebb417dc1821cf49afe0f1d1cf3683b5089acdadbe3c6242a0fe7ec40"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Barrel_Donor_Tapered_HandlingMask.png",
+      "bytes": 99936,
+      "sha256": "b891fbc8d8f6deb413ed4ca261e052afcba9a71a0e4ac12080b218da2d442e0d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Barrel_Donor_Tapered_ORM.png",
+      "bytes": 1221427,
+      "sha256": "191d173a0222cc4bf57b96c07b43dc4d06f5c4ceab077605a2bde9c5b1114117"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Barrel_Donor_Tapered_ScratchMask.png",
+      "bytes": 25992,
+      "sha256": "844240e301511bef09a23043e6405c6a03196558fd1536df5934b4def3895b5b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Barrel_Donor_Tapered_WearMask.png",
+      "bytes": 30094,
+      "sha256": "8280ccf6bd191fc96687f135bc92683b6286c23d33678708169174191be4ee58"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_HandleCaps_BaseColor.png",
+      "bytes": 728741,
+      "sha256": "7b932e33768b7739151beb9cfec54c25d8c55647a48b0095bd5a3689c4e0fe40"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_HandleCaps_HandlingMask.png",
+      "bytes": 68931,
+      "sha256": "969cad25e3d9f3046dd64f15c0cf3aa4981488617359e4a91706c418d68e7421"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_HandleCaps_ORM.png",
+      "bytes": 1220728,
+      "sha256": "a7706e6a3d443e14b01da6f98d8449db6bfdba251d308f5c028d4223f7701d2f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_HandleCaps_ScratchMask.png",
+      "bytes": 27022,
+      "sha256": "18242145680cbdc4c5e053ca3b135de5739a89762afdba3d6363b1a7a9900488"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_HandleCaps_WearMask.png",
+      "bytes": 29182,
+      "sha256": "baec470acf2bfed208166c728efc12e4f44b38eedfa6294bd071392cc5d4aa6c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_TubeSafety_BaseColor.png",
+      "bytes": 1212962,
+      "sha256": "f2c5e4152ee560174588578ca66f21ab7a1b84f9a653889fe2c8f2581f07cbde"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_TubeSafety_HandlingMask.png",
+      "bytes": 107595,
+      "sha256": "16e2a29f162a5b5e16f5ea4805b316f3f5e5b98274efac04b9f394a6465b0976"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_TubeSafety_ORM.png",
+      "bytes": 2130827,
+      "sha256": "d1d99ebfaaec7df9f61c7391dd0d6b288f2494c5de68bedde516c9d0ad86c2f6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_TubeSafety_ScratchMask.png",
+      "bytes": 39296,
+      "sha256": "2fb9ddb7eb34bda00d3487a9509bd306dc84fa0cddcc672e3bb98c89467439ee"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Bolt_Donor_TubeSafety_WearMask.png",
+      "bytes": 45813,
+      "sha256": "c5e6a2895a23b97361753e1e0e5ab4c9521312f6e6cb7600c659496a519680b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_ButtPlate_BaseColor.png",
+      "bytes": 737357,
+      "sha256": "a6dd07100651634f1ebf9ee787ae0b715ae352e9002dfe28697b2077964d8835"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_ButtPlate_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_ButtPlate_ORM.png",
+      "bytes": 1220791,
+      "sha256": "6262069ed80f8d6bab2ffa231d74d7410ba53e1605734fcff51d3a7817c10c77"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_ButtPlate_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_ButtPlate_WearMask.png",
+      "bytes": 100907,
+      "sha256": "d3056f0fac4272bff4191e768544eb9dd26348e1e9c230cd61b32a9a179ddd75"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_FrontBand_BaseColor.png",
+      "bytes": 717119,
+      "sha256": "ba754dceeecc99cb5928567f79a1f1c0ce663fa3b7d38678054029b1a5849dec"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_FrontBand_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_FrontBand_ORM.png",
+      "bytes": 1220454,
+      "sha256": "198e6a29b13f7f034f4a3fc52aea96dab5c012f73d4da2920e5a3cd798e3850c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_FrontBand_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_FrontBand_WearMask.png",
+      "bytes": 25998,
+      "sha256": "a8df98f96e2940298946543c9ab4a1c715cf4489381cdf1521a1af8fc7d5779c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_RearBand_BaseColor.png",
+      "bytes": 716459,
+      "sha256": "7fe13989fd65affb1abfcc1b3f97d58776f737ebc3afe8a885fd1d2b676c93ba"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_RearBand_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_RearBand_ORM.png",
+      "bytes": 1220417,
+      "sha256": "98ad29a726d138cbd39dc8a35e2217cbfc390780e4a402a71c91e546ba09c894"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_RearBand_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Furniture_RearBand_WearMask.png",
+      "bytes": 25503,
+      "sha256": "64892f50bb3782f6fe9be83d02aebc42599793fa2c6bcaf56f46d7c298da8891"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Guard_OpenBow_BaseColor.png",
+      "bytes": 718463,
+      "sha256": "30a201c67775b060d1366ac209dae04082b95a98cc796268c2afe9d1b7ce897f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Guard_OpenBow_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Guard_OpenBow_ORM.png",
+      "bytes": 1220433,
+      "sha256": "4b161cef5c136b6fba8e481b09f4a2c64448f131e7b7eabef0de84e5b69b0b9a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Guard_OpenBow_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Guard_OpenBow_WearMask.png",
+      "bytes": 31521,
+      "sha256": "ed4f495f7893b4a87702002bcd0e2765b001063296f0ddc335d42de6606e77be"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Handguard_BaseColor.png",
+      "bytes": 6196947,
+      "sha256": "18f1ec648e9618c52679e34522c9fc1a069e710d4a15a0ea060a17a996d70a5d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Handguard_HandlingMask.png",
+      "bytes": 78303,
+      "sha256": "98af1805c2d325e0d84b365ca83126f8297f3994debc43ee46b2cee121eb471a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Handguard_Normal.png",
+      "bytes": 3088146,
+      "sha256": "2c04afd8cce9bbf4accdbde84bafa453147f1eac6394ee5c883f7848d78ac028"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Handguard_ORM.png",
+      "bytes": 1408348,
+      "sha256": "6fbc4b9f17e8e647b84e001bbef00f8656f5c6ff29b980ae918d67c6606814d0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Handguard_ScratchMask.png",
+      "bytes": 116572,
+      "sha256": "dec5ebe78fb87b6391756b8d34c2d959442875a06be0bba69534a69478b30bcd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Handguard_WearMask.png",
+      "bytes": 110663,
+      "sha256": "4210094e3cfd01a3f77a4f8094665f70205c963c7bbd0c4872ab998fb67bc334"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Muzzle_Donor_Insert_BaseColor.png",
+      "bytes": 58502,
+      "sha256": "ddd8612e752fa4d1308fe0104ca8f8e162bec17f812e3eba1d2e68953c515d7c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Muzzle_Donor_Insert_HandlingMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Muzzle_Donor_Insert_ORM.png",
+      "bytes": 426570,
+      "sha256": "c30b6f82b7ef9d28a169f4866f6f844f1c7a5df681069fd03e170277d2da59f3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Muzzle_Donor_Insert_ScratchMask.png",
+      "bytes": 20726,
+      "sha256": "b423c3205b957f68b072235b9343520f84b1adde4b216bd44893a20e9398f704"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Muzzle_Donor_Insert_WearMask.png",
+      "bytes": 22019,
+      "sha256": "eb736f62346ff71bd7e450c68f4b2041f088f15e9b935da89a4d752c152f2090"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Receiver_Donor_Lower_BaseColor.png",
+      "bytes": 1228514,
+      "sha256": "40d95b977d354b08dbdbbb24570b1e650c0f85cd390f900c703de4aaf2fa7b8c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Receiver_Donor_Lower_HandlingMask.png",
+      "bytes": 132959,
+      "sha256": "e01c95bbc5029c968aede1c868c22c5c966effa1a57bd4fea7c9319fe6eb714e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Receiver_Donor_Lower_ORM.png",
+      "bytes": 2133227,
+      "sha256": "b9472da980a2f6f9e2de7f09c7e9a6722e85dbc0a52bde1631bd51a2abe68f39"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Receiver_Donor_Lower_ScratchMask.png",
+      "bytes": 44443,
+      "sha256": "acf66dc78b79f1529e74a486423dad411b1b4ed7d2727a20656496bda5ef77b5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Receiver_Donor_Lower_WearMask.png",
+      "bytes": 47243,
+      "sha256": "929717688df12d8a40452e1cc9434c0a7d454b8071dff920aad05491258bdd7b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Stock_BaseColor.png",
+      "bytes": 6201533,
+      "sha256": "328fd3fab1c12f6a0d59395d41f804d0bea0dee676628a47647d039efc25f88f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Stock_HandlingMask.png",
+      "bytes": 250523,
+      "sha256": "ff00f37c16101b082d99de03f28752e0e3acba34b07edbb5b78383fd9cdd93b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Stock_Normal.png",
+      "bytes": 3088513,
+      "sha256": "187ac300b1b078c9e74e30a0dd37e892d2c907458513137e16c94e308db5771a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Stock_ORM.png",
+      "bytes": 1453553,
+      "sha256": "d764690101f48ae5de02ab0e7d24e87ee71248717a429b0abd18e928a21cb730"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Stock_ScratchMask.png",
+      "bytes": 137775,
+      "sha256": "9e34a10f0c3ec91c04f37eace3570120dc1dbdaf32706b0701190c7cc705e622"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/V13_Stock_WearMask.png",
+      "bytes": 148461,
+      "sha256": "783d672f97aeb5c0c331af9b4a50e804ba73c1ad71a9fc2dd7df53bb763b499c"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/final_report.md",
+      "bytes": 1091,
+      "sha256": "885e5c68048a5478588da11a7c0bbd2d1197a4cb2370b465c9a73e897a68f7bc"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/fresh_details.py",
+      "bytes": 4793,
+      "sha256": "3d87537afdac6a13057751e9d9bfc39409bb910d93e1a2664c2b982959ebc65c"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/inventory.py",
+      "bytes": 2107,
+      "sha256": "aa722a9d87bdf5ff117e9bd4b91a696d33f11bf1421b8db2c55615232524bfc2"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/main.py",
+      "bytes": 18263,
+      "sha256": "2809285587a25cc66fbe9d1d901de888620c7e3f80bcce1e81c5ecbad2623947"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/mask_review.py",
+      "bytes": 2064,
+      "sha256": "13a7204be42230642e97c56df7a64186740eb443d81a631b1fcf3d7fbad3ff3f"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/ownership_checks.py",
+      "bytes": 1217,
+      "sha256": "742e5205c7c59a8c693ac394b3f092470b9a4a5218ed1c2438679cb028241ee9"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/preflight.py",
+      "bytes": 5665,
+      "sha256": "5742f44c25877543b4ede070d6ddf673c9a8064eb87bf9facf14bf66084a529c"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/presentation.py",
+      "bytes": 1728,
+      "sha256": "be4bea1053defa253dd81d31a1128895aac841a8f2f602ad0f5c6b850b6c626d"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/README.md",
+      "bytes": 2310,
+      "sha256": "a7ee8dff64d680b8827930dfda5fc2599df8c9e296d5e7ae00c47bc227ba01b2"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/reference_notes.md",
+      "bytes": 1462,
+      "sha256": "3d371b0c562c34747d352ca5ab64c44a310add6c4a23988f326bc6e0ea3c4723"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/work_state.md",
+      "bytes": 3269,
+      "sha256": "d652dfc9a24ecf38d0745431d4e5a8ba40772d243f222c4048851183912f6213"
+    },
+    {
+      "path": "Docs/Development/GERMAN_RIFLE_LOCALIZED_WOOD_WEAR_V13_20261004.md",
+      "bytes": 12492,
+      "sha256": "f3d0a9e912e444eb5b8f30c1ba4512134524557e5ea033fd284d3cb9033bce64"
+    },
+    {
+      "path": "Docs/Development/GERMAN_RIFLE_LOCALIZED_WOOD_WEAR_V13_20261004_ZH.md",
+      "bytes": 15288,
+      "sha256": "9965fd3b716a0c2c63a0b6efe51e7a0cf6579f2e4e4cf41b6f97c922e350845f"
+    },
+    {
+      "path": "Docs/Development/GERMAN_RIFLE_WOOD_WEAR_RESULT_20261004.md",
+      "bytes": 7553,
+      "sha256": "3bc03849974dfa7891080cdaa12caf66054e95d0dbedab48402c945d54d16329"
+    },
+    {
+      "path": "Docs/Development/GERMAN_RIFLE_WOOD_WEAR_RESULT_20261004_ZH.md",
+      "bytes": 6934,
+      "sha256": "ddc7f3bd61381b46fef85a628433d24c0470fa2a10fb8b61ca61c57b506d4cc0"
+    }
+  ]
+}

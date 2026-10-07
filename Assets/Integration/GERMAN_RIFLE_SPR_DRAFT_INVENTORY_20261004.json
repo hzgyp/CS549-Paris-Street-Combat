@@ -1,0 +1,719 @@
+{
+  "date": "2026-10-04",
+  "scope": "private local SP-R donor adaptation, not production/restore authority",
+  "original_source": {
+    "path": "Assets/LocalWorking/Intake/2026-10-03/01_MW2_Guns_Asset_Library/MW2_Guns_Asset_Library.blend",
+    "bytes": 2364179404,
+    "sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11"
+  },
+  "candidate": {
+    "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/GermanRifle_SPR_V10.glb",
+    "bytes": 11621376,
+    "sha256": "795967ab635064139c69a4e46ffacfce222b992e275a7ffec5043cb974642323"
+  },
+  "historical_approval": false,
+  "user_visual_approval": false,
+  "ue_runtime_approval": false,
+  "rights_status": "MW2 project-use/derivative-sharing confirmation pending; no publication",
+  "metrics": {
+    "triangles": 24466,
+    "dimensions_m": [
+      1.1073039770126343,
+      0.07919801771640778,
+      0.18300700932741165
+    ],
+    "embedded_images": 12
+  },
+  "repeat_byte_identical": false,
+  "repeat_geometry_uv_normal_checks_passed": true,
+  "repeat_embedded_images_identical": true,
+  "private_files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v1/audit.json",
+      "bytes": 26180,
+      "sha256": "a617b554e611c03455595e73b47e9f8635512ec2ccfb12456882d6fd42c564ef"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/audit.json",
+      "bytes": 32132,
+      "sha256": "4815affd1ccebcce6abaaa15638000e7d12f5306802ab0798af0638c2ca17ad7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_gray_left.png",
+      "bytes": 685534,
+      "sha256": "a4af01aec815db1c6a584b3a66342361cafce0f01710160210ca0a0375a64c2b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_gray_quarter.png",
+      "bytes": 680397,
+      "sha256": "1d76891dccd4b9042d656bfaed06660ae38423d471200df21cdc35a35956516c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_gray_receiver.png",
+      "bytes": 834326,
+      "sha256": "779661ee73d34dfcef21c29f3868cc5e97e403cad2e6f436181fa88a3e151e82"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_gray_right.png",
+      "bytes": 686298,
+      "sha256": "812444d2496ab34f5a2776954ffab04cea50810c735479aad922854a36c5114f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_gray_top.png",
+      "bytes": 649470,
+      "sha256": "5db088acc321fc878a4d6085a77039891243dfd605beefd0bcef37c1cfbd1ba1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_gray_underside.png",
+      "bytes": 680242,
+      "sha256": "4f6929c938ac58751c5f9513f8a37209073e974743af45153c68dd128ddd6003"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_pbr_left.png",
+      "bytes": 1038813,
+      "sha256": "191dfbdc5643b794e52472e1ef4f6079951ca2937b078aaee8b59a3626e6d67a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_pbr_quarter.png",
+      "bytes": 1058571,
+      "sha256": "df6a97432b3c3435faed1040378761e453f294e40b88c60776f6170958094a32"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_pbr_receiver.png",
+      "bytes": 1109453,
+      "sha256": "aa9e05b3c62a544addaeb572060c9d3f55c318321d106c10320b7f0e9df85ea1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_pbr_right.png",
+      "bytes": 1037258,
+      "sha256": "bb63b81363a092c9f8faf94eddde834248f9d8695eeff940d7be61b3b67946c9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_pbr_top.png",
+      "bytes": 1021354,
+      "sha256": "fca1c444a05bded71f9c49ed161e117bcb2b12c0a8ffc378290a08972be150e3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/audit_v2/fresh_pbr_underside.png",
+      "bytes": 1051633,
+      "sha256": "8c96455062aad6e8b0bc75ac48e2e5be683d0ca27b4e9954b449ccbea50eebd3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/build_report.json",
+      "bytes": 1727,
+      "sha256": "530575297153c4e801ca64e6878a455b54083e19f0e6f44ecb7df80b33d624cb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/GermanRifle_SPR_V10.blend",
+      "bytes": 13558627,
+      "sha256": "8f39109ff6139ae492fe74b2ef44270171b85410dfb2390675f592e3499bb40f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/GermanRifle_SPR_V10.glb",
+      "bytes": 12265864,
+      "sha256": "6a5463a0d20b206c4389329bfd7a8c5a309b9f8d53d8abfd3c8979406f324510"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/gray_left.png",
+      "bytes": 666999,
+      "sha256": "b8d45adb17ae7df05a4fba9abbd53cae107b1902ef7c1daae44add11fe0e50fe"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/gray_quarter.png",
+      "bytes": 678383,
+      "sha256": "4b38b42307a38ac25f10da853b1ebe72e983d476e0f48343c1848caa242bc1f1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/gray_receiver.png",
+      "bytes": 785808,
+      "sha256": "143bdfef6d4d48ab2b56b7d65f8292e45b936939204f9b2447b8a7ce54245395"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/gray_right.png",
+      "bytes": 668838,
+      "sha256": "8d96fe0cdee3f129f84bb5c1b30bc6a7ea2a7a49e582b6371979b73f02925390"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/gray_top.png",
+      "bytes": 641836,
+      "sha256": "90b87afb24b4058f49c417d06b796c30c7ff15ecf351440699b442fb5416f52a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/gray_underside.png",
+      "bytes": 672898,
+      "sha256": "d0529551b8f836b5f80715cea1154f0752145f681d7dab6553c43f8933fc2391"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/pbr_left.png",
+      "bytes": 1053972,
+      "sha256": "fa5b14cd143f5c63f23fff433d2fa9ade48a7cc019f2bac1a4bfb1257359a58b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/pbr_quarter.png",
+      "bytes": 1074911,
+      "sha256": "4c50235afa01cb329f111e4101310d2d748ce67ae16ec1776a29ad44ba0a42d9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/pbr_receiver.png",
+      "bytes": 1124737,
+      "sha256": "fe81a36faa7bfc8133515589a19bbb9276356cd5c4b9b14a1f5fe02b85831de6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/pbr_right.png",
+      "bytes": 1049274,
+      "sha256": "f08a048592d55d9e8a422c31acf06f7303f73f11431fd86b7494ae1fdf538e14"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/pbr_top.png",
+      "bytes": 1028632,
+      "sha256": "eb624b56a0b9d007ac16ca5d7a766da410138d614b6e86068f569aad8cfc15f8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/pbr_underside.png",
+      "bytes": 1064637,
+      "sha256": "04dab058b2fb3f2545a21fa3f819f48689b25352d1b44f3c9dbe10c1f5542b03"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/source/main.py",
+      "bytes": 17850,
+      "sha256": "e9bee19d12da21a2a4714b41715f5b5febba8fc675c5e716d2e8c3d2dc368fec"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/V10_NewSteel_BaseColor.png",
+      "bytes": 381,
+      "sha256": "27b4819e642f9c109bb406e16c5b7adb18e19335a554efda05992ca662da3534"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/V10_Steel_xmaterial_186b9121178ec392.png",
+      "bytes": 57592,
+      "sha256": "f5115d02f376bcb9e3f407dde4fcc5c30321d673fcaa0c35003b07fa8369521d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/V10_Steel_xmaterial_42e05d0da00d12e3_001.png",
+      "bytes": 182122,
+      "sha256": "6e49904283030805c1b3abd302da1800a70f41ba07faa5e322861348220825d8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/V10_Steel_xmaterial_52c7b7dfc45b27e9.png",
+      "bytes": 215825,
+      "sha256": "1493e8fdabe7c6e9135858292ce612930569c5527c4d2ac970a5b77692e9b89a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/V10_Steel_xmaterial_7e84d985c10702d3.png",
+      "bytes": 77401,
+      "sha256": "1b93a17a866f0adcdc66cad801cda1157569c2de0699ef81f445fdf7e5c148e7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/V10_Walnut_BaseColor.png",
+      "bytes": 1460063,
+      "sha256": "6d572b6bd0e3ceeacd51c0c93321959065550d8f5c38d7f53cff382e32870a46"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/V10_Walnut_Normal.png",
+      "bytes": 224774,
+      "sha256": "2a0df72274415e5a2876fe2066deceeaea93191097086e52ada5f8d0508c253f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/V10_Walnut_ORM.png",
+      "bytes": 870396,
+      "sha256": "f8e1d5322cae949692065ddeedb0ad10d432df3fdaef5de0440565aab90f8f6e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/build_report.json",
+      "bytes": 1832,
+      "sha256": "12b56b9789a0b4d7e11113b36b5f4376b354cf33dda558f67726d06d0d9eb342"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/GermanRifle_SPR_V10.blend",
+      "bytes": 12842973,
+      "sha256": "59778c10a50b5ae62229ba0308e87a046a2e1ddbdd962538028cd86b1dc47841"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/GermanRifle_SPR_V10.glb",
+      "bytes": 11550212,
+      "sha256": "121128e7480447ffee49ab8aeff4d8c17547896370e350432953386eab776626"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/gray_left.png",
+      "bytes": 666991,
+      "sha256": "22e9d340a11d70270c0b5598433d5dedec5ab81797762148fb017c180816a225"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/gray_quarter.png",
+      "bytes": 678821,
+      "sha256": "f02e8ad8833f32477475b6627cf93498dc0c07ac5645f4fb7720c3fe51d82dba"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/gray_receiver.png",
+      "bytes": 785840,
+      "sha256": "3e569a1f45faf8439606a0d45732e52a640138e6ef48c5aa2b4c116f52d1c4c8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/gray_right.png",
+      "bytes": 668831,
+      "sha256": "a6d8842ffa6410e28ceccbb4dc4de96b169c0910d67533ed3448cfc106ba4167"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/gray_top.png",
+      "bytes": 641836,
+      "sha256": "d89ab441f9ce9b78b9648e3f43b5d8a1027a2b414a40ab4813c027067366a4ac"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/gray_underside.png",
+      "bytes": 672895,
+      "sha256": "fa69aa82b71fd680a56515f7b062154ee9d76870a31c0f008a32bc3fa6ff30cb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/pbr_left.png",
+      "bytes": 1038698,
+      "sha256": "c97634d51fd5d4a14db69e3b7d5261f150566a5f11b615f244aeca67fd55c4e2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/pbr_quarter.png",
+      "bytes": 1058743,
+      "sha256": "96cd1256a199ec3310ace275417b0d76a771e0723d88b9a7e45871e0ffb7aae5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/pbr_receiver.png",
+      "bytes": 1109772,
+      "sha256": "403537fa4f2f2d7c26e7d1eb2e01b8ee4b75a0e4fe62a8217a02b1e1dfae021f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/pbr_right.png",
+      "bytes": 1037462,
+      "sha256": "c044d5c18b1eb11d91f123f9c9cb7948471410adcc431ba79d4067dd9db697de"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/pbr_top.png",
+      "bytes": 1021749,
+      "sha256": "f9da8ead30ffa19bc2b1595537197cf33d50172d076f7682371de22aed2f815e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/pbr_underside.png",
+      "bytes": 1051237,
+      "sha256": "83f5e44ed4986ccdca6effa1e10d53f85e90047b775a96c736ef1acc4f78f715"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/V10_NewSteel_BaseColor.png",
+      "bytes": 381,
+      "sha256": "27b4819e642f9c109bb406e16c5b7adb18e19335a554efda05992ca662da3534"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/V10_Steel_xmaterial_186b9121178ec392.png",
+      "bytes": 57592,
+      "sha256": "f5115d02f376bcb9e3f407dde4fcc5c30321d673fcaa0c35003b07fa8369521d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/V10_Steel_xmaterial_42e05d0da00d12e3_001.png",
+      "bytes": 182122,
+      "sha256": "6e49904283030805c1b3abd302da1800a70f41ba07faa5e322861348220825d8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/V10_Steel_xmaterial_52c7b7dfc45b27e9.png",
+      "bytes": 215825,
+      "sha256": "1493e8fdabe7c6e9135858292ce612930569c5527c4d2ac970a5b77692e9b89a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/V10_Steel_xmaterial_7e84d985c10702d3.png",
+      "bytes": 77401,
+      "sha256": "1b93a17a866f0adcdc66cad801cda1157569c2de0699ef81f445fdf7e5c148e7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/V10_Walnut_BaseColor.png",
+      "bytes": 742925,
+      "sha256": "87909cf94f17c02fc25d9e5f9402f27f7b82f7e0157d217cc9cbf87829c87bd7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/V10_Walnut_Normal.png",
+      "bytes": 224774,
+      "sha256": "2a0df72274415e5a2876fe2066deceeaea93191097086e52ada5f8d0508c253f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/V10_Walnut_ORM.png",
+      "bytes": 870408,
+      "sha256": "e4c14da1ce9db33cb8686f6f66fad483615fbb201b762408d01ff9119ab5c498"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/build_report.json",
+      "bytes": 1832,
+      "sha256": "50afc992ecfb94b8e9f5386ba8ad5886368acc461d59ac55d8c4582ddae923fa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/GermanRifle_SPR_V10.blend",
+      "bytes": 13077144,
+      "sha256": "5895c9631dedcab873c63670055bf90330a2b467d654ea734acfa68de72849a6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/GermanRifle_SPR_V10.glb",
+      "bytes": 11621376,
+      "sha256": "795967ab635064139c69a4e46ffacfce222b992e275a7ffec5043cb974642323"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/gray_left.png",
+      "bytes": 666991,
+      "sha256": "2f75cd6ba8931f2a74f23a71c74332b5e4000b5f3e749b32f5dea3aa608e7b57"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/gray_quarter.png",
+      "bytes": 678821,
+      "sha256": "92c61d9b0e5190f69dd5d043087c1f72a1929c704670af9609ffdff5854fb1a2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/gray_receiver.png",
+      "bytes": 785840,
+      "sha256": "8660c2a7e3bac3d598dbf289a500d79021bd5512685f6daef4007a87b1974a17"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/gray_right.png",
+      "bytes": 668831,
+      "sha256": "aac84fa992e37b5f92a9e60ef2806434eb6606619529f582384210b8ae52d89c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/gray_top.png",
+      "bytes": 641836,
+      "sha256": "98daa3491bd56ed6c68ce42b83f43b7d700f573c564cac1447c12162416ab7ef"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/gray_underside.png",
+      "bytes": 672895,
+      "sha256": "71bfbb1659043a110b1d85696cc5b91b12d01cfefc1488326d3a1715f3499922"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/pbr_left.png",
+      "bytes": 1039216,
+      "sha256": "68cc64295a182b4b5575615de99ac29b2dde75984d57c31539d8c6d0b9bbec53"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/pbr_quarter.png",
+      "bytes": 1058581,
+      "sha256": "9b360282aeb200de0885a5032edf5bccafdd96b38ec94dc489781d060417269c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/pbr_receiver.png",
+      "bytes": 1109901,
+      "sha256": "d5c3e11befbf13ab29849dca0c75fcedce5813762beab82fd3aaa870fefe76f4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/pbr_right.png",
+      "bytes": 1037486,
+      "sha256": "4b44e560cee68087c39078453e40c3fd593444bed66a93d64b0dd596b3e27865"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/pbr_top.png",
+      "bytes": 1021788,
+      "sha256": "b5dd6a4c08b083968a678b235d49abe49dec441e412d769ea087cfedc2f9b9ec"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/pbr_underside.png",
+      "bytes": 1051483,
+      "sha256": "30507c06acc3b501ef30fe55830a4f12984dc5b757bae71684242a840f09a2e3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/source/main.py",
+      "bytes": 19224,
+      "sha256": "1f8b457a3a49683d82878aa552cc4087ad0d98b07a970768cdb04586cadfed6b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/V10_NewSteel_BaseColor.png",
+      "bytes": 381,
+      "sha256": "27b4819e642f9c109bb406e16c5b7adb18e19335a554efda05992ca662da3534"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/V10_Steel_xmaterial_186b9121178ec392.png",
+      "bytes": 57592,
+      "sha256": "f5115d02f376bcb9e3f407dde4fcc5c30321d673fcaa0c35003b07fa8369521d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/V10_Steel_xmaterial_42e05d0da00d12e3_001.png",
+      "bytes": 182122,
+      "sha256": "6e49904283030805c1b3abd302da1800a70f41ba07faa5e322861348220825d8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/V10_Steel_xmaterial_52c7b7dfc45b27e9.png",
+      "bytes": 215825,
+      "sha256": "1493e8fdabe7c6e9135858292ce612930569c5527c4d2ac970a5b77692e9b89a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/V10_Steel_xmaterial_7e84d985c10702d3.png",
+      "bytes": 77401,
+      "sha256": "1b93a17a866f0adcdc66cad801cda1157569c2de0699ef81f445fdf7e5c148e7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/V10_Walnut_BaseColor.png",
+      "bytes": 742925,
+      "sha256": "87909cf94f17c02fc25d9e5f9402f27f7b82f7e0157d217cc9cbf87829c87bd7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/V10_Walnut_Normal.png",
+      "bytes": 224774,
+      "sha256": "2a0df72274415e5a2876fe2066deceeaea93191097086e52ada5f8d0508c253f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/V10_Walnut_ORM.png",
+      "bytes": 870408,
+      "sha256": "e4c14da1ce9db33cb8686f6f66fad483615fbb201b762408d01ff9119ab5c498"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/build_report.json",
+      "bytes": 1725,
+      "sha256": "6f3978371845060c56c8f0e0fe0fcea7d559d24bd810a3eba6dbf0f7271bd026"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/GermanRifle_SPR_V10.blend",
+      "bytes": 13522666,
+      "sha256": "4e5bbd19860524eabdc90ccfd438449e9d4b0e7038a443a219cfd2de6c181a1f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/GermanRifle_SPR_V10.glb",
+      "bytes": 12264868,
+      "sha256": "8c5a7da367e94d20cbea6652cbd312d1fe2f6ee2899ff4b01e59729b02106ad0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/gray_left.png",
+      "bytes": 666968,
+      "sha256": "178c88d581112150afc9dea36ae6c1225f3aabae28742f12d4c4c2c8be385aec"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/gray_quarter.png",
+      "bytes": 678237,
+      "sha256": "083292eef9be3e9b7597d1ab53df35a6f8e2da0f4bbef400809fad77e5d43325"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/gray_receiver.png",
+      "bytes": 789119,
+      "sha256": "f7f391b9068532a4b867fab3ed5e4b4204e6d1324f305b0aa137b6dab6ee25bc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/gray_right.png",
+      "bytes": 669270,
+      "sha256": "ea3ca3e05b4e776802514cb3d45022cc9f1a371acc9d109d11dafd48e93b6bda"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/gray_top.png",
+      "bytes": 641424,
+      "sha256": "97b314b0c324635846ca248069b96d3e0b3f1a9002e69afe0dea15f48060c70e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/gray_underside.png",
+      "bytes": 675633,
+      "sha256": "fdbd32d096878528dfabc4daa1bdc0a709dc23ef7b09ca6604b127f8948ab1fe"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/source/main.py",
+      "bytes": 17188,
+      "sha256": "ca0ef00b563e6f4f072c915411f1366e7cb9b192c05dff09c0690c219fa14c79"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/V10_NewSteel_BaseColor.png",
+      "bytes": 381,
+      "sha256": "27b4819e642f9c109bb406e16c5b7adb18e19335a554efda05992ca662da3534"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/V10_Steel_xmaterial_186b9121178ec392.png",
+      "bytes": 57592,
+      "sha256": "f5115d02f376bcb9e3f407dde4fcc5c30321d673fcaa0c35003b07fa8369521d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/V10_Steel_xmaterial_42e05d0da00d12e3_001.png",
+      "bytes": 182122,
+      "sha256": "6e49904283030805c1b3abd302da1800a70f41ba07faa5e322861348220825d8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/V10_Steel_xmaterial_52c7b7dfc45b27e9.png",
+      "bytes": 215825,
+      "sha256": "1493e8fdabe7c6e9135858292ce612930569c5527c4d2ac970a5b77692e9b89a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/V10_Steel_xmaterial_7e84d985c10702d3.png",
+      "bytes": 77401,
+      "sha256": "1b93a17a866f0adcdc66cad801cda1157569c2de0699ef81f445fdf7e5c148e7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/V10_Walnut_BaseColor.png",
+      "bytes": 1460063,
+      "sha256": "6d572b6bd0e3ceeacd51c0c93321959065550d8f5c38d7f53cff382e32870a46"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/V10_Walnut_Normal.png",
+      "bytes": 224774,
+      "sha256": "2a0df72274415e5a2876fe2066deceeaea93191097086e52ada5f8d0508c253f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/V10_Walnut_ORM.png",
+      "bytes": 870396,
+      "sha256": "f8e1d5322cae949692065ddeedb0ad10d432df3fdaef5de0440565aab90f8f6e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_audit_v1/audit.json",
+      "bytes": 35891,
+      "sha256": "e98791f0682b11a5b740129b15b2757c280b2d9250bc3f5b9601f4e53e8e2433"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/build_report.json",
+      "bytes": 1830,
+      "sha256": "34e205b346847c84f841eee8355b8f552706e716c8d565f5635cbfb1acb06208"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/GermanRifle_SPR_V10.blend",
+      "bytes": 13040424,
+      "sha256": "1343d5ad4b78bc8efa69cea567aed8db8dcf66c9d47e58da91537ae5231cdbbb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/GermanRifle_SPR_V10.glb",
+      "bytes": 11621376,
+      "sha256": "a8cbdba702b109fbb0189da6ed306bb2ae4cc5793d80c1979d17bbc0d4ae5c36"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/gray_left.png",
+      "bytes": 666991,
+      "sha256": "772f128b2f96a49e82abfdcace0fbf606bef0fb9841424b09890f271f47945fc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/gray_quarter.png",
+      "bytes": 678821,
+      "sha256": "0538c52d49fb282f111c9d5a18a3e4bffd43597c82dcd92e4d7e384a8aafb243"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/gray_receiver.png",
+      "bytes": 785840,
+      "sha256": "78e750ae54acda41201d2c67cb2afab7b851b25c1375e5a3bc2dba5fe2224c01"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/gray_right.png",
+      "bytes": 668831,
+      "sha256": "b2cae3bd2336dbc1a02ec84720b4e597d1f3cd43f7955c221ad4f0d110e8b2d1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/gray_top.png",
+      "bytes": 641836,
+      "sha256": "50ab7cc47fa6efbc1f8f6c03a15ccaaa306347e8403c9fbd1a3667749afdab56"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/gray_underside.png",
+      "bytes": 672895,
+      "sha256": "10051760dcbb2c60fcb91f11b645325c48e653459c20a43c2d1edf7a62fce169"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/V10_NewSteel_BaseColor.png",
+      "bytes": 381,
+      "sha256": "27b4819e642f9c109bb406e16c5b7adb18e19335a554efda05992ca662da3534"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/V10_Steel_xmaterial_186b9121178ec392.png",
+      "bytes": 57592,
+      "sha256": "f5115d02f376bcb9e3f407dde4fcc5c30321d673fcaa0c35003b07fa8369521d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/V10_Steel_xmaterial_42e05d0da00d12e3_001.png",
+      "bytes": 182122,
+      "sha256": "6e49904283030805c1b3abd302da1800a70f41ba07faa5e322861348220825d8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/V10_Steel_xmaterial_52c7b7dfc45b27e9.png",
+      "bytes": 215825,
+      "sha256": "1493e8fdabe7c6e9135858292ce612930569c5527c4d2ac970a5b77692e9b89a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/V10_Steel_xmaterial_7e84d985c10702d3.png",
+      "bytes": 77401,
+      "sha256": "1b93a17a866f0adcdc66cad801cda1157569c2de0699ef81f445fdf7e5c148e7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/V10_Walnut_BaseColor.png",
+      "bytes": 742925,
+      "sha256": "87909cf94f17c02fc25d9e5f9402f27f7b82f7e0157d217cc9cbf87829c87bd7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/V10_Walnut_Normal.png",
+      "bytes": 224774,
+      "sha256": "2a0df72274415e5a2876fe2066deceeaea93191097086e52ada5f8d0508c253f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/V10_Walnut_ORM.png",
+      "bytes": 870408,
+      "sha256": "e4c14da1ce9db33cb8686f6f66fad483615fbb201b762408d01ff9119ab5c498"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/components.json",
+      "bytes": 588199,
+      "sha256": "3eb28b298d5d5b72256872c32e0da722fad8d19edc446cb9c12fa48a892608fe"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/Mesh_0.070.png",
+      "bytes": 192100,
+      "sha256": "3e0e72da7e31d7e2b7b8db04834103ce5c11a16d24b9b555ec9d45bae4472e51"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/Mesh_0.073.png",
+      "bytes": 313892,
+      "sha256": "dcb59fb268fb72a524223dd8aa75f28db4f79741bc3d4eb75656a9e8c37db2d8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/Mesh_0.074.png",
+      "bytes": 165308,
+      "sha256": "df58ef98eab01ae1e7ce0b722094484160b67e8401c7ee6c2d7065da2c1dbc0b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/Mesh_1.034.png",
+      "bytes": 223353,
+      "sha256": "c26d72c7d6b1da2627fe726d46fd355c53c2292750e9cedbe90389dec5d723c2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/Mesh_2.025.png",
+      "bytes": 220195,
+      "sha256": "89723c894bf409d08787543c949111952f698c5dda93886ae6271c6c3a5e1de3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/Mesh_3.020.png",
+      "bytes": 188385,
+      "sha256": "9321c057bca8e3ea58df1bfab4868c2b69e3f6f9bbce89ace35fc103d58db206"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/Mesh_4.017.png",
+      "bytes": 253649,
+      "sha256": "834f1ab9e62a7dc672240105dce2cf3dd805b7adf97924048b5938f2dd25d0db"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/source_diagnosis_v1/Mesh_5.011.png",
+      "bytes": 151272,
+      "sha256": "0560ead1dd4d3abcdba45b06bd02edeaf8cda07d3724e3a2c951e1cb0d8880de"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/audit.py",
+      "bytes": 7980,
+      "sha256": "446583de8074504d19c131e2b1f7dbca5f1f46f363d64cd37fbd80ce47672aff"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/final_report.md",
+      "bytes": 765,
+      "sha256": "657a0b9c364987b112a56db99e23149e38cf603ea17f7103464852ef1dce50f8"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/inspect_source.py",
+      "bytes": 3453,
+      "sha256": "4434d7a538d8ed6f630bd9bc4debe88b5554bfea0bd2bc9d7a13553630986349"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/main.py",
+      "bytes": 19224,
+      "sha256": "1f8b457a3a49683d82878aa552cc4087ad0d98b07a970768cdb04586cadfed6b"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/manifest.py",
+      "bytes": 2107,
+      "sha256": "cd3843007e53e02b457a033113eea1d01f6369c2047a3734d25f5329a5439da2"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/reference_notes.md",
+      "bytes": 2207,
+      "sha256": "0fbd37d5db0ffa540dc9dcabbdb433c2cc3dfe3e3b0f1d3f4b8c5c848010b755"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/work_state.md",
+      "bytes": 3336,
+      "sha256": "df0fa25a7d0244a71ea7ac223e47ba7d0f0b283d8fb524f704fcb88ad1a2b613"
+    }
+  ]
+}

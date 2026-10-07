@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "status": "local_refinement_visual_gate_failed",
+  "owner": "yg745",
+  "restoration_authority": "None: unselected local drafts, not CATALOG/SFTP/native restore",
+  "cloud_calls_this_refinement": 0,
+  "credit_debit_this_refinement": 0,
+  "previous_pilot_files_unchanged": 77,
+  "previous_pilot_sources_unchanged": 7,
+  "production_visual_pass": false,
+  "basic_export_checks_passed": 13,
+  "triangles": 265976,
+  "mesh_count": 46,
+  "exact_glb_reproduction": false,
+  "different_reproduction_buffer_views": 18,
+  "protected_native_action_guards": [
+    {
+      "all_pass": true,
+      "checks": [
+        {
+          "manifest": "Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json",
+          "files": 43,
+          "mismatches": []
+        },
+        {
+          "manifest": "Assets/Integration/PLAYER_ACTIONS_DRAFT_INVENTORY_20261003.json",
+          "files": 7,
+          "mismatches": []
+        }
+      ]
+    },
+    {
+      "all_pass": true,
+      "checks": [
+        {
+          "manifest": "Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json",
+          "files": 43,
+          "mismatches": []
+        },
+        {
+          "manifest": "Assets/Integration/PLAYER_ACTIONS_DRAFT_INVENTORY_20261003.json",
+          "files": 7,
+          "mismatches": []
+        }
+      ]
+    }
+  ],
+  "source_base_sha256": "a8ccfed78eed6da13de2070b86cec6bd32357218dd0c0cfb4efe6ae512387b60",
+  "limitations": [
+    "Stock cut interfaces/fins fail visual acceptance",
+    "Some exterior supports remain block-like",
+    "Overbright new steel highlights",
+    "Whole-plane hull closure stopped",
+    "No exact GLB byte reproduction",
+    "Detail master not runtime LOD",
+    "No matched bolt/reload action",
+    "Museum replacement sling/historical loadout unapproved",
+    "No UE or SFTP acceptance"
+  ],
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/interface_finish_v3/Kar98k_RefinedMaster_V2.blend",
+      "size_bytes": 15686768,
+      "sha256": "c471b10b00cfa7f73959838bb6d49ded97433aa60bfbf93e3eb3a0c1ea087d76"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/interface_finish_v3/Kar98k_RefinedMaster_V2.glb",
+      "size_bytes": 15899872,
+      "sha256": "6f4261db85d5f77255a18ccc3bf9c72b8a6225f68cf5511d08929249963249fd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/interface_finish_v3/refinement.json",
+      "size_bytes": 12909,
+      "sha256": "0e35687404cc04e1589b49adc30174c0dfcffb12032be4cf186a40f673e6c363"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/structural_v1b/Kar98k_RefinedMaster_V2.blend",
+      "size_bytes": 16000818,
+      "sha256": "9fdd0e7c2d2b054a145d48f2fb743f1e5109b57c82237c307b9c29b6ac9b85c8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/structural_v1b/Kar98k_RefinedMaster_V2.glb",
+      "size_bytes": 16197240,
+      "sha256": "48c547e0c259eda8680e15d86bbea13e8ff8440c26e06db06923aec8b16cce3e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/structural_v1b/refinement.json",
+      "size_bytes": 10786,
+      "sha256": "919cbbd56e48843449374e92325706a85780e0394c630018fb7f8bf782c3727c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/structural_v2/Kar98k_RefinedMaster_V2.blend",
+      "size_bytes": 15682416,
+      "sha256": "5e59de8cf7dae3b43797e4d9d7f7e5f720bbb4cfacb1bb6f8e7777f85d5d858d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/structural_v2/Kar98k_RefinedMaster_V2.glb",
+      "size_bytes": 15893208,
+      "sha256": "8115d3d4d06137f3976ea199ee9f5abf2d4f32685d48b6d7995497841277ca6c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/blender/structural_v2/refinement.json",
+      "size_bytes": 11243,
+      "sha256": "4d039681243040573656fcccb5f857dede229551f7342ea3a756b53a9d95bad6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_bottom.png",
+      "size_bytes": 665954,
+      "sha256": "1cfc4d9322b316214b70c22238afcc8ae4fd2b43c56e7871c91a32634277a8f1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_left_side.png",
+      "size_bytes": 721549,
+      "sha256": "bf1e53cc2a739df63a8dec657e95c075311710c2b96cc3b11dc678ef85cf6162"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_muzzle_quarter.png",
+      "size_bytes": 805773,
+      "sha256": "2ef22ecb4cbd0a52826942ee7b8d2291c9df574e905decd7353c92c0d9400856"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_receiver_quarter.png",
+      "size_bytes": 1033231,
+      "sha256": "07a838ff655a21e5776350d2fc472357fed5f068be531fb8bd59e5de2a8fd5da"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_receiver_side.png",
+      "size_bytes": 1001160,
+      "sha256": "56d091fb64fadac7bb0776331cb533b893ef30977fb1862bdc15442d7cae9202"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_receiver_top.png",
+      "size_bytes": 881679,
+      "sha256": "f23becba2f24f9bfc1f609abbc5bb32ba914582252bb0a7931d62ec6e65028a4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_reverse_quarter.png",
+      "size_bytes": 721290,
+      "sha256": "368f55cd8d2ec902e910426164b0d3bfb8d9da3ed79a1e5c9cc2235b69fa6efb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_right_side.png",
+      "size_bytes": 732347,
+      "sha256": "36409cfe88dab9047c3caf79795d3ae47894121bec775860ef13ce0c6e34138e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_three_quarter.png",
+      "size_bytes": 730664,
+      "sha256": "903d5571b459043c469c8560e35a4dfece6c02ed795af03fe44b4bb4666515a8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/clay_top.png",
+      "size_bytes": 665967,
+      "sha256": "dae7c7763a14cc1a9d19f9b571cdf1250bac50a715b465b252671e992058081f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/diagnostic_bolt_displaced.png",
+      "size_bytes": 1054563,
+      "sha256": "4c9f2746e33334af4c857dde19bacfc23fe6b4719c6d58b6dec10508a397da84"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/Kar98k_RefinedMaster_Review.blend",
+      "size_bytes": 15526776,
+      "sha256": "b9905ae84fa2395aad93a714d3203c3ad258b69cbb679b858cea47e492eda331"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/pbr_left_side.png",
+      "size_bytes": 1251777,
+      "sha256": "ba25a39bab1872b60a868098c11c29a14fe6909ffb425f1061ac990e53365563"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/pbr_muzzle_quarter.png",
+      "size_bytes": 1234058,
+      "sha256": "074e7d64f758890a9f0f2c64e609f49f8d17f17d69a9ff60ee84228cad3861bd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/pbr_receiver_quarter.png",
+      "size_bytes": 1353218,
+      "sha256": "151734fe9c9da522800d8dc7aa8d7f7a281b114d3994b75380bbc7dc3e890876"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/pbr_receiver_top.png",
+      "size_bytes": 1262516,
+      "sha256": "b169947a28dceac8a6d37bb6388db4355b8f14dd36a51a14ea71d2254aa6ec49"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/pbr_reverse_quarter.png",
+      "size_bytes": 1264854,
+      "sha256": "584e9a4dcf413d22e2292345d307621e8535e6e528f20128b360da46fae9019a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/pbr_right_side.png",
+      "size_bytes": 1250335,
+      "sha256": "c8c88a66b25e9bc15769412adcb202d14c6dd05064dd0e1ea6e5576053218472"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/pbr_three_quarter.png",
+      "size_bytes": 1263314,
+      "sha256": "99629f77bd9c93b1aa0a65ae9b039d925724dbade47fa4b65395c423ee46d798"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/pbr_top.png",
+      "size_bytes": 1205909,
+      "sha256": "325de8036fea751c3fd152ca05f4faca287a915f9103f3b3759fc33d38ba8cad"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/final_v3/validation.json",
+      "size_bytes": 17292,
+      "sha256": "41d11cec4d137df4e1bb0501a4b53961031c9e3cc08da5852b4a515600c90943"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/protected_after.json",
+      "size_bytes": 340,
+      "sha256": "cdf9446b75a4df7c79c3a62e4969424e063f9525b5dc4d23590085343faed1fd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/protected_before.json",
+      "size_bytes": 340,
+      "sha256": "cdf9446b75a4df7c79c3a62e4969424e063f9525b5dc4d23590085343faed1fd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/reproduction_comparison.json",
+      "size_bytes": 5279,
+      "sha256": "ab9345b8adaead9a3df6297bdae3f93965d6671a8af740cdd088ee9874a121d7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/source_probe/muzzle_quarter.png",
+      "size_bytes": 822951,
+      "sha256": "321a86717bab443c8fcce80ae2e8624dea352b084e07e1e0895b71a837443494"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/source_probe/receiver_quarter.png",
+      "size_bytes": 982660,
+      "sha256": "c870840f88a39caa9891658ec864ddc271c3f53e3446df51e791c6c94a1929e3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/source_probe/receiver_side.png",
+      "size_bytes": 940728,
+      "sha256": "b1326bdc175ec0a068222986dbcde95d13abd5a1e9e380d4a1975bd969b87248"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/source_probe/receiver_top.png",
+      "size_bytes": 896527,
+      "sha256": "085e3a0c46986833be236148fe6248bfeff297486c9d3b696291f5eb3d2b6ad4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/source_probe/sections.json",
+      "size_bytes": 17374,
+      "sha256": "8b70321a05b82029227a2b9b460b2d5ece88e91c92299e48901b1fbdc05b3bdb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_bottom.png",
+      "size_bytes": 665488,
+      "sha256": "4f07d452e1d53adc99d2e23bec44130d2c494f88c0f05d6f40a27e4fb43995cb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_left_side.png",
+      "size_bytes": 726400,
+      "sha256": "ca883f624449de3fee4a9446add80854be42d7e4cf75a110eac2b5e6d636345e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_muzzle_quarter.png",
+      "size_bytes": 804057,
+      "sha256": "86c1751d4420c66c45e06e2d9bd26c7822143eb6f2db5cf5cda3196c17d9438b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_receiver_quarter.png",
+      "size_bytes": 1046180,
+      "sha256": "2ab0eec98b0d3766863dd1a467df5ff7c1c274fdfd8348a5147894830aef4dc5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_receiver_side.png",
+      "size_bytes": 999120,
+      "sha256": "e919ed2120ec418ca3e3895ee939806e5847c7911cbf640b6605fd779b9dab2e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_receiver_top.png",
+      "size_bytes": 881228,
+      "sha256": "faeaad716a81d7e5f70ba99cb242618288fb3d294bda29b2b68d8edd229dc3d2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_reverse_quarter.png",
+      "size_bytes": 727058,
+      "sha256": "9f3e3ebdbcc70d9fd6a892a8465195a27a0a6afb9a9e55cdcc5a322393db10ea"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_right_side.png",
+      "size_bytes": 732875,
+      "sha256": "beb404adc4296f40457d5e32bb2f99edcf41b196eeb407ee63ce5deca59c732d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_three_quarter.png",
+      "size_bytes": 737872,
+      "sha256": "1f0de9feba64eebcef71ee86885eef24f292d34e9d9b4b6ff2fec130eeb6381d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/clay_top.png",
+      "size_bytes": 667821,
+      "sha256": "c90eb02b13d48564523d2086d2bec56f56952370a9cdde15f0108e8967d76124"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/refine_rifle_used.py",
+      "size_bytes": 15490,
+      "sha256": "ce549181847db6394c9bd3b9cea5fceed69b07c11f100ad0f2b57caec2e9d083"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v1b/validation.json",
+      "size_bytes": 15555,
+      "sha256": "0c76a9c8336287be06a259d29051c314d04e34906d79c7f2b7a2bea883e10d4e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_bottom.png",
+      "size_bytes": 669289,
+      "sha256": "e73b7646871fd25b41e251c460a38c2b88df3bbd52c91c03f2164995ca1a348f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_left_side.png",
+      "size_bytes": 721864,
+      "sha256": "eac4517b9068ebf121ee5e7dc81d97fbd14388a52b258954401722365f856e65"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_muzzle_quarter.png",
+      "size_bytes": 805773,
+      "sha256": "d0f2951f774af29c6f6788a0973d94b3a9dfb81776e520fe15a24cf7ccc8e33c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_receiver_quarter.png",
+      "size_bytes": 1044256,
+      "sha256": "30d35105505f72f074033e44744617fa8d586fad47a74967471beb1dd532c0bf"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_receiver_side.png",
+      "size_bytes": 1005161,
+      "sha256": "7e864101461311e35fb89cdb51aab55c3dffdd666baa6be4e0caf5890945c3f1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_receiver_top.png",
+      "size_bytes": 896450,
+      "sha256": "2e495ec80fed9e4ab697f45966b61e573de2436f761b1e65c9d851962d02a494"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_reverse_quarter.png",
+      "size_bytes": 722196,
+      "sha256": "04a5e79970016b7162153b49e7f18a1c7d43e843c9a6b1c4cb0050c432c74993"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_right_side.png",
+      "size_bytes": 732726,
+      "sha256": "80ce2f3753cdb4446a3dff342154c426f18b5209daef47b5247360bcf8beb1b7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_three_quarter.png",
+      "size_bytes": 731334,
+      "sha256": "24ae86ecaf8ac3d87bdd6fe3223f1f932776f734daeb53d2c9c59f0833ff29bc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/clay_top.png",
+      "size_bytes": 669604,
+      "sha256": "47f375687f6f6d515fce74729608015d2c1ce320ea71b2bc37235f4630c44c64"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/refine_rifle_used.py",
+      "size_bytes": 15681,
+      "sha256": "2f5e1045c18139c4a98d9095491d3f604835bc749aaefd258c287fd2beb7f10c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/evidence/structural_v2/validation.json",
+      "size_bytes": 16267,
+      "sha256": "49a5a254042d35c4cd9736019b1e5ea2b158c84203e9405f7a24986d04fa08d9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/exports/reproduced_v3/Kar98k_RefinedMaster_V2.blend",
+      "size_bytes": 15686947,
+      "sha256": "13bc17a250f9849f400a258c1224fb3613bf97c197743e7f8fa47faef09d0954"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/exports/reproduced_v3/Kar98k_RefinedMaster_V2.glb",
+      "size_bytes": 15899872,
+      "sha256": "1fa3432f7319d6baf9550e9059a2c5fe0f4fd032cccd376eaf784d9e4d5cc348"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-refine-v2/exports/reproduced_v3/refinement.json",
+      "size_bytes": 12909,
+      "sha256": "0e35687404cc04e1589b49adc30174c0dfcffb12032be4cf186a40f673e6c363"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleRefinementV2/check_reproduction.py",
+      "size_bytes": 2019,
+      "sha256": "34e64f7ec305addb982ce14ad9d7d90067558e3f24037a8ee3b494a8392cdaa7"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleRefinementV2/probe_source.py",
+      "size_bytes": 1780,
+      "sha256": "7d60afa811327d51393c41a05b448d7708658dc46fad01e9160337a1da65f819"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleRefinementV2/record_outputs.py",
+      "size_bytes": 2814,
+      "sha256": "af1143d54f42af1fc3b9c87b135aac8039d9b469a1bc53680feca2c9d66347e5"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleRefinementV2/refine_rifle.py",
+      "size_bytes": 17926,
+      "sha256": "101d770a9eed924e8f29a84a40bee816e9f7940d2dd900c5846b45076a54dcba"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleRefinementV2/review_export.py",
+      "size_bytes": 6612,
+      "sha256": "c2cc0c7249e5149623c9e9e3e6e259ff914e5d9484950f1187f88bc409312d4e"
+    }
+  ],
+  "sensitive_state_excluded": true
+}

@@ -6,6 +6,17 @@ A CS549 single-player FPS project using an existing Paris/European city environm
 
 ## Current baseline
 
+**Approved first-person selection, 5 October:** the saved map now uses the
+human-approved V20 grip/holding display with persistent native auto-binding.
+[Result](Docs/Development/FIRST_PERSON_FORMAL_V21_RESULT_20261005.md) /
+[中文结果](Docs/Development/FIRST_PERSON_FORMAL_V21_RESULT_20261005_ZH.md).
+Catalog selects `paris-native-playtest-20261005-fp-v20`:228 private files,
+224 objects reused/four new (~2.84MiB), all authenticated SFTP readback verified.
+Ordinary Python-disabled native entry, saved-map movement/one reload and startup
+precheck pass. Source publication awaits commit/push; no teammate/Shipping/FPS
+pass claimed. Hands are frozen; sleeves remain deferred. Older checkpoints below
+are historical. Use the updated team restore guides once matching Git is available.
+
 **Current native team playtest, 3 October:** the saved Paris map now includes the UE-controlled continuous-arm display. The private `paris-native-playtest-20261003-v1` release is selected by [Catalog](Assets/Sync/CATALOG.json); all 206 non-city dependencies and its manifest were downloaded over pinned-host SFTP and verified. Existing city bytes remain in their prior manifest. Follow [team restore and launch](Docs/Development/TEAM_PLAYTEST.md) / [中文试玩步骤](Docs/Development/TEAM_PLAYTEST_ZH.md). Use UE5.8.2; Python/ParisEditorBridge are disabled during play. This is a restore-ready local-tested source/asset release, not a new EXE or an actual second-machine pass. Historical checkpoints below are superseded where they disagree.
 
 **First-person failure archive, 3 October:** the prior candidate failed human visual review and is retired. Read [the mandatory failure index](Failures/README.md) and [FP001 analysis](Failures/FP001-20261003-first-person-view/FAILURE_ANALYSIS.md). Its seven native assets and exclusive tooling/documentation are archived with hashes; saved V3 and the previous 40 files stay protected. Archival validation precedes a new COD WWII-based first-person implementation. No source/asset publication is implied.

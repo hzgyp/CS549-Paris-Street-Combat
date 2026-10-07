@@ -1,0 +1,453 @@
+{
+  "date": "2026-10-04",
+  "purpose": "Private diagnostic metadata; NOT Catalog, release, production selection or teammate restore authority",
+  "candidate": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/GermanRifle_DarkWood_V14.glb",
+  "user_appearance_approved": false,
+  "shared": false,
+  "cloud_spend": 0,
+  "all_private_files_ignored": true,
+  "private_files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/audit_v1/audit.json",
+      "bytes": 40077,
+      "sha256": "464a5ba2d7f6185011ef1c8488ee7b11022648263d519415b911f95042df1bb5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/audit_v1/fresh_pbr_left.png",
+      "bytes": 1069956,
+      "sha256": "55b007a44e15e4e6206aa8fee20de3277eff9f638ece979e90fb41f9e1df27f7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/audit_v1/fresh_pbr_quarter.png",
+      "bytes": 1086324,
+      "sha256": "369492b1e9b80bef9d7791e6b9e32e8b7c90bf3159e32134de522a0d88eeaebf"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/audit_v1/fresh_pbr_receiver.png",
+      "bytes": 1143739,
+      "sha256": "c83f5d0d7e46ecdca5855643d1f8be27c8983b4a1a8829e7dbdce066c04d6d26"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/audit_v1/fresh_pbr_right.png",
+      "bytes": 1065375,
+      "sha256": "4d2543fb7b7d47abbd44f47af31a47e91e10c0fde15820c3a0ba7da4a30caf19"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/audit_v1/fresh_pbr_top.png",
+      "bytes": 1033234,
+      "sha256": "3d343e57ac46b0df5e19ad945b5ecd2c0fbcf7f9628faade51a3c769d7f52ee6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/audit_v1/fresh_pbr_underside.png",
+      "bytes": 1076160,
+      "sha256": "01b33c3609ed31f284180ddc9f93fb289ffd81aa70d8cc99043bb35a444ea372"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/allied_m1_inspection.blend",
+      "bytes": 17321862,
+      "sha256": "9bdcf71918a19157712ec80957c2ed72bef1be45a85d356fe42a815a72eeb678"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/allied_m1_receiver.png",
+      "bytes": 974647,
+      "sha256": "9070650b1f4d006e28dcb2ba5e8f114de776a7b13f50bead166f41364d178d07"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/allied_m1_stock.png",
+      "bytes": 1077380,
+      "sha256": "a61c536092f0401ea809268d29bd0a11d04c8fed15a48f7637197f0e7cbc693e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/allied_m1_whole.png",
+      "bytes": 751856,
+      "sha256": "5c88be04b87ef42c0fe199b374c923f4bcb8a18863bce02b862f357787669c34"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/comparison.json",
+      "bytes": 12711,
+      "sha256": "c126322d79154d664a6522e9f593725bffce65cbfddb9f1c1a5e222e60cefcff"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/german_v14_inspection.blend",
+      "bytes": 65620751,
+      "sha256": "63458691382185719a4045c0bdb530a0e685428bbc4309b5630382f6bbe7d908"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/german_v14_receiver.png",
+      "bytes": 789062,
+      "sha256": "e0d2fd98274ee63aa77d363e527463e03ed3ddaa2a6c4e8e962a292fe492f8c0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/german_v14_stock.png",
+      "bytes": 799246,
+      "sha256": "b5853fd47729ec2957693175c4f0e7b0318bbe5c93e00d73e16e14ddbc627982"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/german_v14_whole.png",
+      "bytes": 718456,
+      "sha256": "97293fd5d0a234fd754d8dc6080ce9850e0c101e27c05b67826b59cd79661406"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/diagnostic_v1/diagnostic.json",
+      "bytes": 8682,
+      "sha256": "9c5d944d54f69e1e74995057358e506face3f02134a668943df6d680e2cc821b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/diagnostic_v1/inventory_before_null_fix.py",
+      "bytes": 2218,
+      "sha256": "f4053e225796dd43550e34875c6e879c2876a5b6fcd81227a4cf97240f5281d3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/build_report.json",
+      "bytes": 19050,
+      "sha256": "b2d1d098a5fa556adde652c5369e0afb85221620b63404ee07f11b20ee47f96e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/GermanRifle_DarkWood_V14.blend",
+      "bytes": 93200590,
+      "sha256": "5372fa3f4d85a7ee6c15bd476daa6b6fe42efdc22bf0a5d22743e312d2a53917"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/GermanRifle_DarkWood_V14.glb",
+      "bytes": 65642620,
+      "sha256": "9ca471321bd2b684d324cd094eb50d2e3ae0b0adaf174f3ea19dd8b30b0d3c80"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_handguard.png",
+      "bytes": 829222,
+      "sha256": "a5ae6db10ea6269d7e55ab54142f1dffdab3ab094ce0c52a8b423893bbc24142"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_left.png",
+      "bytes": 794484,
+      "sha256": "e64e29cd0fe3a61b4d8b9f2f6f4fbe85b8dd296f8b9959e116d15a42adbcbe54"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_quarter.png",
+      "bytes": 804810,
+      "sha256": "e3a33891c7f5abf08e96adfeab3f0116f56a81472eafbc65310ec34160edb3ac"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_receiver.png",
+      "bytes": 849064,
+      "sha256": "50367805c3ad401ad1233619815389906851781ecfd9ea4e1065d512a0a7f5b5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_right.png",
+      "bytes": 789905,
+      "sha256": "20824de200e647085b0a6d8de95581a904cef516e2dfeeb344067f0a35cfe1f2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_stock.png",
+      "bytes": 905517,
+      "sha256": "0dfd1ccf947baff121a47cfc6662d310a582734cfbb659114e7f4a707114ac44"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_stock_reverse.png",
+      "bytes": 944724,
+      "sha256": "c37dcf47232f2d17c5d27c7ff55450c2d914338022b358ec8befade71cf67086"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_stock_under.png",
+      "bytes": 829077,
+      "sha256": "2808f369414307226c631d9aed16045653c7608d73afb0fee3e8608c43e6e1e1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_top.png",
+      "bytes": 763435,
+      "sha256": "1533940f912b0055a1f6cd804637ee76e6e3a1f299bf71a622f01ffb23732d97"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/pbr_underside.png",
+      "bytes": 797510,
+      "sha256": "83da0132a41bf3f51147b4b9c3a0cf6c5c2b25c2ac0b4a4692fb997886f29a08"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/unlit_stock.png",
+      "bytes": 897583,
+      "sha256": "a306a6b18b74dfb54ca8d596817d5e4e0ada3a2908bd31e393461f69c7612101"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/V14_Walnut_EndFaces_BaseColor.png",
+      "bytes": 1794977,
+      "sha256": "4d1361a884b747bf2babcdc1a325db4c3272712e06da2a7558fe34eb7f2621b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/V14_Walnut_EndFaces_ORM.png",
+      "bytes": 478155,
+      "sha256": "d3d443f0811906a4ecf2c3d4e643bdb9921304b64909bbc28b04faaffbb29483"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/V14_Walnut_Handguard_BaseColor.png",
+      "bytes": 5457034,
+      "sha256": "58285bd2c6e15cdaea1265d3b2610f34d356bf0b4775391d15074b23c4a6a019"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/V14_Walnut_Handguard_ORM.png",
+      "bytes": 1378572,
+      "sha256": "597ccf3a5d35ec94c74aca21accbac15fbd4799fbc0d222be3156b33e7ca4204"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/V14_Walnut_Stock_BaseColor.png",
+      "bytes": 5466751,
+      "sha256": "da4249a19d05bee619f6af98fb52ffb112a550386bb48a8ea802540fa80db0c7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/V14_Walnut_Stock_ORM.png",
+      "bytes": 1392896,
+      "sha256": "cb2a46ead3e13e23986cbcecfdb55f9958d47636150d255f8f3098ce041efbde"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/material_audit_v1/fresh_handguard.png",
+      "bytes": 826586,
+      "sha256": "2014e33502901c306a77bbfe309eb7bb1fd159c0f80a089034a2c5afdd1f5a2c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/material_audit_v1/fresh_stock.png",
+      "bytes": 897653,
+      "sha256": "bc005b75092f4c466af4acf125b0c116b605c8469276528a6feb51cb6f3af78d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/material_audit_v1/material_audit.json",
+      "bytes": 11356,
+      "sha256": "9f10c5519e3ca466fea5b155ca0df385d1e3547e5c00e3ffbbf864bd7dfe04a7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/presentation_v1/m1_v13_v14.png",
+      "bytes": 1899274,
+      "sha256": "d55769a427b8cc5c4e02197bac90d70e66d1acbce9a9c497fc7e0103d1e6d293"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/presentation_v1/presentation.json",
+      "bytes": 2733,
+      "sha256": "cdcdd532ecf5065ed725e7c460866463697d74eeb662869e6a041b14aa178ca6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/build_report.json",
+      "bytes": 18868,
+      "sha256": "a5cfa43d447d584702462a1505a85b24a83ab04b3ac6fb2e77e037017597b454"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/GermanRifle_DarkWood_V14.blend",
+      "bytes": 93076593,
+      "sha256": "774396db60454ce4d9e286875d2a3891faf08ee6704101337716fb9e014825a6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/GermanRifle_DarkWood_V14.glb",
+      "bytes": 65530408,
+      "sha256": "d3f1713d1d256ae079c482c65fa1a82fab010114ff7b8b800f07bdc1162bdd8b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/pbr_handguard.png",
+      "bytes": 827133,
+      "sha256": "5109cf47d556aa293fa4d0449b0f63944fbd9508ccc35008526b74a7b3de2238"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/pbr_quarter.png",
+      "bytes": 802709,
+      "sha256": "297e1386acce305b1623258a1aa71d39606dc43a0360ac3f6143652bbd8fd548"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/pbr_receiver.png",
+      "bytes": 847874,
+      "sha256": "b50925239e415d851023124889dd55a61cb275be4faa8f80de34a101814ec439"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/pbr_stock.png",
+      "bytes": 904350,
+      "sha256": "cef3c44ae2e8f96b4ed5be55f3fb20dffbb285e031d3f9d96414adfc7d2496e1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/source_before_correction.py",
+      "bytes": 9422,
+      "sha256": "3e1757e26837a331dc4ed5504c2020f703a7710d6a75f911f810eddd05f9db03"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/unlit_stock.png",
+      "bytes": 897583,
+      "sha256": "760717c2c5461f0e428e418e6cf734bbc63a747c5c2d0253f122dec437aae4c2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/V14_Walnut_EndFaces_BaseColor.png",
+      "bytes": 1794977,
+      "sha256": "4d1361a884b747bf2babcdc1a325db4c3272712e06da2a7558fe34eb7f2621b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/V14_Walnut_EndFaces_ORM.png",
+      "bytes": 458596,
+      "sha256": "88efb8e1394136be2867024f8c89e22f8b3e64c6f21173905ca7edd112b16581"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/V14_Walnut_Handguard_BaseColor.png",
+      "bytes": 5457034,
+      "sha256": "58285bd2c6e15cdaea1265d3b2610f34d356bf0b4775391d15074b23c4a6a019"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/V14_Walnut_Handguard_ORM.png",
+      "bytes": 1318742,
+      "sha256": "54dccda00e02feb4d00129b2165b22bc2abaf8d6b96ebbb159c2704066f1cfbb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/V14_Walnut_Stock_BaseColor.png",
+      "bytes": 5466751,
+      "sha256": "da4249a19d05bee619f6af98fb52ffb112a550386bb48a8ea802540fa80db0c7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/V14_Walnut_Stock_ORM.png",
+      "bytes": 1360352,
+      "sha256": "28da2604aaf70ffbb57423beaf3c0e41ce638bdd13aef60205d1d1d1a04809dc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_audit_v1/audit.json",
+      "bytes": 40136,
+      "sha256": "ba283167731d2a582bf44c3dd6bb19ac01c660b5edeb197a90154303b71337fb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/build_report.json",
+      "bytes": 19050,
+      "sha256": "807f914eb97766c69771f75ffdacd5ea43909b7f91d4fd3b5aca27e923f5d88a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/GermanRifle_DarkWood_V14.blend",
+      "bytes": 93170430,
+      "sha256": "a2ee8d07d89cfdce102f43691076317323fdf8ed505d80e5c61f73ef0f2998de"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/GermanRifle_DarkWood_V14.glb",
+      "bytes": 65642620,
+      "sha256": "5421f0b1897fb5c07ec2856ba8be37e098643efc9ae7db08f3d4185968e44068"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/V14_Walnut_EndFaces_BaseColor.png",
+      "bytes": 1794977,
+      "sha256": "4d1361a884b747bf2babcdc1a325db4c3272712e06da2a7558fe34eb7f2621b6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/V14_Walnut_EndFaces_ORM.png",
+      "bytes": 478155,
+      "sha256": "d3d443f0811906a4ecf2c3d4e643bdb9921304b64909bbc28b04faaffbb29483"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/V14_Walnut_Handguard_BaseColor.png",
+      "bytes": 5457034,
+      "sha256": "58285bd2c6e15cdaea1265d3b2610f34d356bf0b4775391d15074b23c4a6a019"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/V14_Walnut_Handguard_ORM.png",
+      "bytes": 1378572,
+      "sha256": "597ccf3a5d35ec94c74aca21accbac15fbd4799fbc0d222be3156b33e7ca4204"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/V14_Walnut_Stock_BaseColor.png",
+      "bytes": 5466751,
+      "sha256": "da4249a19d05bee619f6af98fb52ffb112a550386bb48a8ea802540fa80db0c7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/V14_Walnut_Stock_ORM.png",
+      "bytes": 1392896,
+      "sha256": "cb2a46ead3e13e23986cbcecfdb55f9958d47636150d255f8f3098ce041efbde"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Docs/Development/GERMAN_RIFLE_WOOD_FINISH_RESULT_20261004.md",
+      "bytes": 5680,
+      "sha256": "456bc92297017204e78f0abe844b46dc9f43d6d81c66a08e032d505b5fa18b88"
+    },
+    {
+      "path": "Docs/Development/GERMAN_RIFLE_WOOD_FINISH_RESULT_20261004_ZH.md",
+      "bytes": 4512,
+      "sha256": "be27f2d503f31c2777ec30bb4331dca33cee2ff082d070324ae14de3569ab782"
+    },
+    {
+      "path": "Docs/Development/GERMAN_RIFLE_WOOD_FINISH_V14_20261004.md",
+      "bytes": 3600,
+      "sha256": "6d2f19f40e08adc7c242ce6ba746905fca9eb26d35c254e017fe73facd16e793"
+    },
+    {
+      "path": "Docs/Development/GERMAN_RIFLE_WOOD_FINISH_V14_20261004_ZH.md",
+      "bytes": 2857,
+      "sha256": "06edb6464eaa11a714b6921684c7c8943d6317757bd8f2abe3029aa8d7d64658"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleM1Transfer_v12/main.py",
+      "bytes": 9405,
+      "sha256": "534714e093dc12e293d73bdf14374d47c02974e1a0ea369b0e8193007920471c"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/audit.py",
+      "bytes": 8501,
+      "sha256": "06fb6333e5340973f9022f300320179a2e36ed872a85742d42e96b7201260b48"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/main.py",
+      "bytes": 19224,
+      "sha256": "1f8b457a3a49683d82878aa552cc4087ad0d98b07a970768cdb04586cadfed6b"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v11/main.py",
+      "bytes": 10112,
+      "sha256": "5d7454db5766cbf55b1d5fc02b827150ada82a43c29a80ef8896a11f6b021889"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/diagnose.py",
+      "bytes": 1947,
+      "sha256": "d219b4eb1a51d8ad0d8957f4be5f176bee740c3081febfb5ac9896180fba8f77"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/final_report.md",
+      "bytes": 1261,
+      "sha256": "c1fc179024d0ba5037b7a6f0912e80e258eadec34907920aa573b0c4e415d0c7"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/inventory.py",
+      "bytes": 2259,
+      "sha256": "278813ccee9bcdcb29ac73976ff3b8e4403fd5cc5da5612bbc2a6c294e7f2e12"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/main.py",
+      "bytes": 9776,
+      "sha256": "7e0e7527d8284c80014e6c237f96a9f6b8882842b792486e9ccfa5ea1b48e4a6"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/material_audit.py",
+      "bytes": 6689,
+      "sha256": "eb559db28f5567f69fc7e536cd4e3f921c6ebc04623b7ba0857cd45184cc3787"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/presentation.py",
+      "bytes": 1736,
+      "sha256": "6cc20b94993af22e0080cc27a4491770a7ac3db00cc0bef6095450148c6ea574"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/README.md",
+      "bytes": 1482,
+      "sha256": "f6b2648c0aad79572c03a59af0ae03d61c2af793ca4b1cc8db578c651f3e6ab1"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/reference_notes.md",
+      "bytes": 888,
+      "sha256": "719c80fce6aeb371641646e957da83af5c62ee7c4a019d6ed6fa6357479fd92d"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/work_state.md",
+      "bytes": 2286,
+      "sha256": "553e1c6ba555f984b7fae91d2d057a25b723df1fb15ebd46d6e35dea313dce19"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/main.py",
+      "bytes": 18263,
+      "sha256": "2809285587a25cc66fbe9d1d901de888620c7e3f80bcce1e81c5ecbad2623947"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/preflight.py",
+      "bytes": 5665,
+      "sha256": "5742f44c25877543b4ede070d6ddf673c9a8064eb87bf9facf14bf66084a529c"
+    },
+    {
+      "path": "Tools/AssetValidation/blender_rifle_texture_compare.py",
+      "bytes": 6884,
+      "sha256": "0273652fb87fcee911888e3a46c8c5f604c2557f7b3d52c778f656ba1a23f986"
+    }
+  ]
+}

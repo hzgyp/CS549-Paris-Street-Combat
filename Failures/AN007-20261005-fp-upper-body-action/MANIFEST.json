@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "case": "AN007",
+  "relocation_status": "not_relocated_private_evidence_referenced",
+  "formal_selection": false,
+  "catalog_authority": false,
+  "restoration_authority": false,
+  "protected_guard_count": 528,
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/early_review.json",
+      "size_bytes": 627,
+      "sha256": "686bf85b95e8b70a3fc6286eff29e025575e6a1dba30a66a856750177bfaaa54"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/idle.png",
+      "size_bytes": 1916367,
+      "sha256": "b072d707608c5a3488f0fa198d8372c0a09a7e454c19633d66a01c88936143e8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/look_down.png",
+      "size_bytes": 1923963,
+      "sha256": "faadf0178b3ce70c1524375f1be649eb54714c0d03b79e55e0f158f434756296"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/look_up.png",
+      "size_bytes": 2018959,
+      "sha256": "da06839503af33b4d2388b02931c78ca0e6caaf349d4fc85748031881c174ba3"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/post_reload.png",
+      "size_bytes": 1996864,
+      "sha256": "4c0c83c9ec30c0d37e9268a3f7d93d22c2bf20c13c0cdd8b25998fdd114a4518"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/reload_mid.png",
+      "size_bytes": 2007445,
+      "sha256": "e496c8b9981c6da2efc4982ab177852428323057e7e3c3e2861bad27163f019b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/reload.png",
+      "size_bytes": 1994167,
+      "sha256": "ef1603a79577c6de0c76a59e358ac2c75b5b7353f1001b1360333640d41bb3a7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/result.json",
+      "size_bytes": 1849158,
+      "sha256": "fe7e7a856a8b89ec4dcca4501467ca8de181a01c73db62d38fbb3b703af6a34c"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/source.py",
+      "size_bytes": 14949,
+      "sha256": "1afb741cfe49b2470a6e8d34b5641df57736f75fdecc3682dc7f4cfd610f2f13"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/stop.png",
+      "size_bytes": 1999829,
+      "sha256": "b0179722696e4831c2df8bcb43a14322a9cbd8a31b5674948b63136fcf63812a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/visual_review.json",
+      "size_bytes": 1015,
+      "sha256": "e1d8a817312479e39b9d906dcb72ea0594d15ccc3fa47404f176498f9cbcccc5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/walk_back.png",
+      "size_bytes": 1969379,
+      "sha256": "d51005ed5007f84822816f265657a5ddad753d798184d6586b86fdb405880331"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/walk_forward.png",
+      "size_bytes": 1789700,
+      "sha256": "6767e5bf92706176af99eea21a0051e04a548efa276b8c456fbb233381467ad6"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/walk_left.png",
+      "size_bytes": 1941370,
+      "sha256": "87dfe5716d7899b370ca8e4ae8c0002ff3ee757ebc460a841c1e188e0bf1d3ea"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/city_v1/walk_right.png",
+      "size_bytes": 1601221,
+      "sha256": "3eb27378f3d24718cd480ca7e3c44754b2436e1bd0eb117f3e2126444cb9e511"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_probe_v1/result.json",
+      "size_bytes": 542,
+      "sha256": "c03b32011881d781ac8be2299e843e175632675f99f342172e237775dd08c86b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_probe_v1/source.py",
+      "size_bytes": 5635,
+      "sha256": "03f530d807c83ba31a7b8a6f338aef3dd9296f18ff01cccb5e111f18b9e67c0d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_probe_v2/result.json",
+      "size_bytes": 262534,
+      "sha256": "cdaaf85b34843d9763258a97d560c1b7c243e1b1878b113d548c866094756870"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_probe_v2/source.py",
+      "size_bytes": 5482,
+      "sha256": "f13391d5476f0b8810fe96a5d6c7bbaff5c458d9cf54a965dfb10d38d460bf2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_selection_v1/prior_binary_inventory.json",
+      "size_bytes": 489,
+      "sha256": "0c7cdf9231faf731bb69318cbe271df384a9614f74351df0be4590f4b1beb1e2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_selection_v1/selection.json",
+      "size_bytes": 1069,
+      "sha256": "09eb203a582175758d7c936eff4dd4346c4e183b9b7bbef9aec3f11d85487494"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_selection_v1/prior_plugin/UnrealEditor-ParisGripBindingV18.dll",
+      "size_bytes": 189952,
+      "sha256": "3be71f12f3b3e0c6a215f4dedebf239b1eee5836841a54232e6ad0127db8f9a8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_selection_v1/prior_plugin/UnrealEditor-ParisGripBindingV18.pdb",
+      "size_bytes": 62345216,
+      "sha256": "29054d789d5d7db47035c0edef6bce2039522bd0047f52bd240821a5a4d66a83"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/holding_selection_v1/prior_plugin/UnrealEditor.modules",
+      "size_bytes": 116,
+      "sha256": "738f7c4bfde066bdf844f988252781ba17f23ea0d9a77fcbe3e825b1327e4488"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/postcheck_v1/result.json",
+      "size_bytes": 1565,
+      "sha256": "e73160340294570d3de0ba5e49e4e5be9418891b402924e6c3ab700f74a3b478"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/postcheck_v1/source.py",
+      "size_bytes": 1572,
+      "sha256": "10167e247976879a7cb7aa044c6c1f2fa6c80c589de2e2217baf1b6e85918f1b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/source_analysis_holding_probe_v2/result.json",
+      "size_bytes": 39237,
+      "sha256": "f56d5a34e97c2122722da62f4799c2d3e31cbd1deca91826dec989be917698c9"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/source_analysis_source_probe_v2/result.json",
+      "size_bytes": 65023,
+      "sha256": "6e7c3aee16f0a7e57b897de3134bff0ec0165dd1dfc70b6b674862c3518ff8e2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/source_analysis_v1/result.json",
+      "size_bytes": 57788,
+      "sha256": "fbd3812fd12ae403e7c77f88b08b1d93156cfc965f0c55df483254bbebc284fa"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/source_probe_v1/result.json",
+      "size_bytes": 441290,
+      "sha256": "0c2d3fcf19e3c1ff1e096dc76da05dec8c5b0b5b7a651c7fb5fd619b61915fc6"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/source_probe_v1/source.py",
+      "size_bytes": 4000,
+      "sha256": "2a75812a54400db839395c969b8d01f9785139410ed16cb40e80bff65bb341bd"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/source_probe_v2/result.json",
+      "size_bytes": 436750,
+      "sha256": "4b19f61ace5182cf4d65e439931c9048392ec92905b4ad838e77bf47f2e15637"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/source_probe_v2/source.py",
+      "size_bytes": 5042,
+      "sha256": "b46958cc7381f6da049e1bbd9cc3f2f3ad7faf532d29aa216e889f3b20793e09"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FPUpperBodyV19/verification_v1/result.json",
+      "size_bytes": 16577,
+      "sha256": "4bb2d94cdb4f0bbe306f5b55dfd797dd087bb1b3c0f5de155db86fdbecffd3ac"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/analyze_source.py",
+      "size_bytes": 1951,
+      "sha256": "882593b501e41da7f14a221712999c9ae0caafdf228f8525a23557f561821d1e"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/finalize.py",
+      "size_bytes": 2741,
+      "sha256": "7312d73d8e0a76e8a8743fd4765b1c27ff00fff6a643cef33f73a8fa1084f56d"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/postcheck.py",
+      "size_bytes": 1572,
+      "sha256": "10167e247976879a7cb7aa044c6c1f2fa6c80c589de2e2217baf1b6e85918f1b"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/run_native.ps1",
+      "size_bytes": 2783,
+      "sha256": "e4a0c24f4efffc7298c41797acae0bf75c6b570ebdceb67111ead60722f14baf"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/select_holding.py",
+      "size_bytes": 1804,
+      "sha256": "265f68faa7059e0398f30887cbafd92dffcc9bfecac06f383dd678d7385fbc34"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/ue_city.py",
+      "size_bytes": 14949,
+      "sha256": "1afb741cfe49b2470a6e8d34b5641df57736f75fdecc3682dc7f4cfd610f2f13"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/ue_source_probe.py",
+      "size_bytes": 5482,
+      "sha256": "f13391d5476f0b8810fe96a5d6c7bbaff5c458d9cf54a965dfb10d38d460bf2d"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/ParisGripBindingV18.Build.cs",
+      "size_bytes": 389,
+      "sha256": "9f6c94ff4b6959cdeaaa5cf91ea96c92ca474c473c7819c25c404f715047d937"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisFPUpperBodyV19Actor.cpp",
+      "size_bytes": 4320,
+      "sha256": "47d7ef9eb402dd1740999b853cc6d9145b60ded1cb7266d81efd9b19b84d90a7"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGripBindingV18.cpp",
+      "size_bytes": 93,
+      "sha256": "859be4005e69a9b44e0ca7a072239d3bf2e3ac4d100faf0c4a709823db820b82"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGripV18Actor.cpp",
+      "size_bytes": 11189,
+      "sha256": "bbfceff033bd057f1c1a08468e9ab101e40d45f7d52100dbdd1f03720c4efe5b"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisFPUpperBodyV19Actor.h",
+      "size_bytes": 1573,
+      "sha256": "67de0a63946edd99337c28d3c9aa6ab0bb483a979e4f05e81fd181f587dd2f06"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisGripV18Actor.h",
+      "size_bytes": 3238,
+      "sha256": "e7587f0755957c8dc959138b25b138da04d5e1c771a29dbbbd7bbbe79775d1dd"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/city_v1.log",
+      "size_bytes": 292568,
+      "sha256": "4d32cba76811f359c40adabdcc498e680203d712b033726fa3b7aab92f6ad004"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/city_v1.log.exit.json",
+      "size_bytes": 193,
+      "sha256": "54c5eb0b9ca55792d24ec0b5055c5239631238b6166660bff1c284c3cffce378"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/holding_probe_v1.log",
+      "size_bytes": 263055,
+      "sha256": "9eaf3131c567d5af7104b9c77ff37a9d22f4002b7a6c95d4e12f5b424f48399c"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/holding_probe_v1.log.exit.json",
+      "size_bytes": 219,
+      "sha256": "4d1a8019a7990c3adf0b82e66e5367cf69f414d24f68f46d2f2656290df000c1"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/holding_probe_v2.log",
+      "size_bytes": 268252,
+      "sha256": "2afcbc07e1e228a33e7ec8ef683cac9a66d29780500dd845817f2a71228a373e"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/holding_probe_v2.log.exit.json",
+      "size_bytes": 218,
+      "sha256": "074880a67bd37f71d0e560284cc2e9c218205d2fe3ee2488557f3cd6167630bb"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/plugin_build_v1_compile.log",
+      "size_bytes": 162776,
+      "sha256": "7f17a1d94a642a05458ef0031409337726fe449dc438474f1444d08458e623b6"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/plugin_build_v2_compile.log",
+      "size_bytes": 158277,
+      "sha256": "229f92f8c362840da15778ae719c78ebf7df457018f6cb57017dfb386457ad06"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/plugin_build_v3_compile.log",
+      "size_bytes": 158301,
+      "sha256": "5e5b37b6695f057fd43c21608c09c8851c0763c51bce1fb5d25a8cd85ecebef4"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/source_probe_v1.log",
+      "size_bytes": 265027,
+      "sha256": "03608a406ba012f6feec82465e8df1dbf8884136d041e574796fa5aede784057"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/source_probe_v1.log.exit.json",
+      "size_bytes": 217,
+      "sha256": "fdfd23829919c2cb41c2cefaba57a3163025300ac2b8d5d0351a10189a69bc84"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/source_probe_v2.log",
+      "size_bytes": 268059,
+      "sha256": "f0d255d68bd71d685b0376dddba818214260baaf3541622279c5b7d20cc3b8eb"
+    },
+    {
+      "path": "tmp/fp-upper-body-v19/source_probe_v2.log.exit.json",
+      "size_bytes": 217,
+      "sha256": "a6ba2d301f0b2fa67d94351bd9f9c765406f218a4c3d8638f6361e30c9ead16d"
+    }
+  ]
+}

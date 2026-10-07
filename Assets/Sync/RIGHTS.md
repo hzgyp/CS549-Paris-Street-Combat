@@ -1,5 +1,22 @@
 # Asset sharing records
 
+## German rifle model (MW2-derived)
+
+On4October2026 Yupu Guo accepts GermanRifle_FineWood_V15 modeling and requests
+private SFTP asset publication. In response to a separate rights question he
+explicitly confirms that MW2_Guns_Asset_Library may be used in this project and
+that the three members may privately share these modified Blender/GLB files.
+This is the owner's attestation, not independent receipt/full-license review.
+
+Permitted recipients: Yupu Guo, Yuqi Pu and Jingdi Wu for this CS549 project only.
+The model reuses bounded SP-R components and permitted Allied M1 texture detail;
+M1 comes from the separately attested US Paratrooper baseline below. Publish the
+accepted self-contained derivative and necessary evidence, not the full MW2
+library/other original weapons. Preserve original deliveries and attribution.
+No public source-model/texture redistribution or external build-distribution
+rights are inferred. Modeling approval is separate from historical variant,
+complete mechanism/rig/actions/contact, UE/runtime and second-machine checks.
+
 ## Git asset removal and private SFTP migration
 
 On 30 September 2026, Yupu instructed the team to keep the same GitHub repository, remove uploaded asset/historical bytes from Git including their old history, use private SFTP for those bytes and retain code, documents, configuration and asset hash/version records in Git. This explicitly authorizes this scoped migration of existing Git/LFS material; it does not authorize public asset redistribution or deletion of local originals. Keep a verified Git/LFS and working-file backup before rewriting history.

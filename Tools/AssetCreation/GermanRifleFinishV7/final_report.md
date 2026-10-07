@@ -1,0 +1,9 @@
+# V7 final report — partial repair, finish gate failed
+
+Source contract: GERMAN_RIFLE_FINISH_V7.md / _ZH.md. Blender5.2.2LTS. normal repair: area weights/angular45-degree filter over coincident-coordinate diagnostic adjacency; zero welding/movement/topology/UV/image/material edits.785367 rifle corners; median normal change0.760698 degrees,95th14.66749 degrees. Original sling normals intact. Whole gray/PBR surfaces smoother; manufacturing shape and atlas ambiguity unresolved.
+
+Early visible-face proof fails: v1 includes wood/ignores sling occlusion; one corrected v2 removes major wood mistakes but misses safety/stem/trigger hardware and leaves jagged steel edges/fore-end contamination. Both remain diagnostics; no source profile/metal material adaptation. Stop this mechanism, not add contours/views or hide it with paint.
+
+Clean script reproduction from V6 and fresh GLB audit: source/auth vertex/face/cornerUV/image/material exact; source sling normals exact.2meshes/299479 triangles. GLB SHA34368dbb3e40828fd58c07ae668585d0f63fcb081d480b927bb17b3c15185c2d reproduced exactly. Raw float32 export triangle position/UV maxerror0, normal angular error≤0.00487912degrees; fresh Blender internal corner-normal angular error≤0.16327650degrees. Two initially stricter component-normal failures are preserved, not declared passed. Encoding-cause inference remains unproved.
+
+Primary before/clay/selection/fresh evidence56 PNGs actually inspected;14 reproduction PNGs not separately reviewed. Seven task source Python files; packed blend/GLB and all evidence private LocalWorking. Six older manifests269 private/39sources,50native/action and4M1 references match before/after. No cloud/debit, game/UE edits, SFTP/Catalog selection, commit or push. New record metadata is not production/restore authority. Do not call the whole gun finished, animated or game-ready.

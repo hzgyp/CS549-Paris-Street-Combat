@@ -1,0 +1,33 @@
+{
+  "case_id": "AN004",
+  "status": "failed_integration_stopped_unselected_retained_in_place",
+  "exclusive_failed_package": "/Game/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadOwnerBlendV5",
+  "exclusive_failed_package_record": {
+    "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadOwnerBlendV5.uasset",
+    "size_bytes": 830157,
+    "sha256": "42332b44f7b91fdf0b385538482630e856ea8610c70a6295a99a747665f4e77f"
+  },
+  "shared_diagnostic_dependencies_not_moved": [
+    "/Game/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadBlendCapabilityV5",
+    "/Game/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadTransitionProofV5",
+    "/Game/ParisCombat/Animation/ReloadRepairV5/ABP_PCReloadOwnerBlendV5",
+    "/Game/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadBlendGunV5"
+  ],
+  "author_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5/owner_blend_author_v1/result.json",
+  "city_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5/owner_blend_city_v1/result.json",
+  "exit_record": "tmp/reload-repair-v5/owner_blend_city_v1.exit.json",
+  "native_files_moved_or_deleted": false,
+  "additional_failed_trial": {
+    "package": "/Game/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadOwnerReframeV5",
+    "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadRepairV5/BP_PCReloadOwnerReframeV5.uasset",
+    "size_bytes": 891118,
+    "sha256": "f3294882ada3debca97f632b33f205f4f05bee45735d3c066f16e79625c4c0a4",
+    "author_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5/owner_reframe_author_v2/result.json",
+    "city_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5/owner_reframe_city_v1/result.json",
+    "max_end_gun_step_cm": 5.086548066849042,
+    "max_end_wrist_step_cm": 4.487089256076251,
+    "status": "failed_3cm_early_gate_stopped_unselected"
+  },
+  "catalog_selected": false,
+  "restore_authority": false
+}

@@ -1,5 +1,39 @@
 # Assignment 3 MVP Implementation Version 2
 
+**5 October approved first-person checkpoint:** Yupu ends hand refinement and
+accepts current V20; formal native selection/SFTP publication are recorded in
+`FIRST_PERSON_FORMAL_V21_RESULT_20261005.md` / `_ZH.md`. This supersedes older
+no-selection notes only for this display. Original actions/transactions unchanged;
+sleeves deferred and full-return/lifecycle/near-wall/FPS still unpassed. NPC work
+remains separate, must not copy player fit numbers. This is not complete MVP or
+new Git publication; resume other implementation through coordinated ownership.
+
+**4 October parallel-work authorization:** human reload review confirms finger
+penetration, sleeve obstruction and finish-to-hold discontinuity. Existing-action
+repair stays in lane A; user-opened lane B may implement bounded NPC interaction
+under `NPC_INTERACTION_HANDOFF_20261004.md`, optional C prepares regressions.
+Follow `PARALLEL_GAMEPLAY_WORKFLOW_20261004.md`: offline work parallel, aliased
+native Content has one serialized writer, shared combat/map integration belongs
+to the coordinator. Previous global AI pauses are historical within this scope,
+not completed AI/action acceptance. No automatic release/selection/commit/push.
+
+**4 October binding animation-repair policy:** use existing purchased Xianyu
+finished motions first, then bounded source-traced target adaptation. No new
+from-scratch, manually keyframed, procedural or AI-created replacement actions.
+Read the animation-policy sections of `GERMAN_RIFLE_UE_AND_ACTION_RESULT_20261004.md`
+/ `_ZH.md`, the Xianyu catalog/native index and reload comparison before choosing
+clips. Preserve originals and existing fingers/rig/model/camera/gun transactions;
+test actual target soldier/gun/view and reload lifecycle. Missing suitable content
+is logged for user direction, not automatically created/bought. The four human
+action/weapon issues remain open; this policy update does not resume repairs or
+establish visual acceptance.
+
+**3 October confirmed behavior choices:** revision 3 of the NPC draft records user-approved short-distance Allied pursuit, configurable friendly damage and time-limited German search on sight loss. Preserve friendly-body collision in both damage modes, safe fire-lane selection, chase/regroup bounds and non-omniscient finite search. The three gameplay choices are settled; action visual review and a separate implementation plan remain. Add on/off damage, bounded pursuit and search-expiry tests; no current runtime acceptance is inferred from this design update.
+
+**3 October behavior-design update:** revision 2 of `Docs/Design/NPC_BEHAVIOR_DRAFT_V1.md` / `_ZH.md` maps the priority/combat/faction/recovery decision trees to capability-tagged character action leaves and actual completion/rejection feedback. It is documentation only. Per-faction action adaptation, player visual review and joint behavior choices remain gates before a separately planned AI implementation; no additional runtime acceptance or release selection follows from the diagrams.
+
+**Latest 3 October checkpoint:** the selected native holding playtest was privately published with matching source; navigation foundation remains saved. The subsequent player-action request produced local unselected V6/owner-V1 trials: `PLAYER_ACTIONS_RESULT_20261003.md` / `_ZH.md` records29 strict action checks and16-case/66-assertion gunplay regression. No canonical-map/release selection yet; physical input/body/contact/posture eye-height require human review. `Docs/Design/NPC_BEHAVIOR_DRAFT_V1.md` / `_ZH.md` is ready for joint review, not implemented AI. After visual and behavior review, use a separate AI work-package plan; do not resume old automatic follow/patrol/tree execution or claim an M1/M2/MVP exit. Older snapshots below retain their dates and are superseded only within the later verified scope.
+
 **Latest 2 October execution limit:** Yupu requests navigation foundation only, then pause. Follow `PARIS_NAVIGATION_FOUNDATION_IMPLEMENTATION_V1.md`; do not automatically implement follow/patrol, decision/Behavior Tree, coordinator or faction interaction. The tree and both factions' interaction must first be jointly designed/reviewed. This supersedes continuous-execution wording below for the current work package, without dropping those eventual MVP requirements.
 
 Corrected 2 October 2026 following Yupu's asset-first direction. Implement the Assignment 2 technical slice on the existing Paris environment, characters and motions. Minimal means fewer optional features, not replacement of the accepted asset foundation. Yupu has resumed development and authorized continuous execution, pausing only for genuinely human-required review/decisions. No unrun acceptance item is passed by this plan.

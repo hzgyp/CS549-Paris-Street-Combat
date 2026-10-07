@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "owner": "yg745",
+  "status": "local_unselected_native_rifle_and_action_review_not_catalog_or_restore_authority",
+  "source_asset": "german-rifle-model-20261004-v1",
+  "human_review": "issues_reported_requires_correction_not_visual_acceptance",
+  "human_feedback": {
+    "date": "2026-10-04",
+    "evidence": "Yupu physical-play text feedback; no new automated reproduction",
+    "model_appearance": "German gun model itself reaffirmed; no remodeling request",
+    "issues": [
+      {"id": "REV-01", "status": "open", "issue": "Sprint hands move without rifle; visible separation"},
+      {"id": "REV-02", "status": "open", "issue": "Prone still forward-holds rifle", "requested_direction": "Back-slung prone carry, firing prohibited; not implemented"},
+      {"id": "REV-03", "status": "open", "issue": "Allied and German NPC right index fingers do not contact triggers"},
+      {"id": "REV-04", "status": "open", "issue": "No visible firing recoil; cause not yet diagnosed"}
+    ],
+    "implementation_authorized_by_this_feedback": false
+  },
+  "canonical_map_unchanged": true,
+  "canonical_map_sha256": "2791b4a7f76b4b3d07f42286b6ad0156c3a185c2e3e795fa2446aaac0ad68519",
+  "review_package": "/Game/ParisCombat/Weapons/GermanRifleUEV1/BP_PC_GermanRifleAttachmentV2",
+  "mesh": "/Game/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/StaticMeshes/SM_PC_GermanRifleV15.SM_PC_GermanRifleV15",
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V12_M1_DonorSteel_2.uasset",
+      "size_bytes": 77976,
+      "sha256": "294d85f7c73cfef21915855e26d865a870680a739ee6fe2aa83e83cc19a19bc1"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V12_M1_New_BluedSteel.uasset",
+      "size_bytes": 74210,
+      "sha256": "088b6c9fb4f70eb619f25aa99e2cb884f80983a5761976fb126972279c36d0b7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Barrel_Donor_Tapered.uasset",
+      "size_bytes": 74266,
+      "sha256": "2de394f8e14defed45804d134ad3abff6140dd08c62c5595bcdb110e626d1a2f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Bolt_Donor_HandleCaps.uasset",
+      "size_bytes": 74298,
+      "sha256": "64b82b04d9cd702c3c1ba3dc12bb8489801d841e88b1806604dcfa4495335391"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Bolt_Donor_TubeSafety.uasset",
+      "size_bytes": 74298,
+      "sha256": "d1479c047580ab6764ba252884a0e504fec6cf450530d1a5c245405b41c25e31"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Furniture_ButtPlate.uasset",
+      "size_bytes": 74294,
+      "sha256": "16f65c74288f249ad3ed2bb92c3fc47fa17b40aaf4fbad37a7659782266caf16"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Furniture_FrontBand.uasset",
+      "size_bytes": 74294,
+      "sha256": "45693a0f6855797bb050d754f86fb9b045d9584a6d415f9430801b3b95cce2d0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Furniture_RearBand.uasset",
+      "size_bytes": 74262,
+      "sha256": "3bbdc39d26215b3bf13d730a828da2bde09ec1bb83c178f8d2c6c6791a2c1afa"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Guard_OpenBow.uasset",
+      "size_bytes": 74102,
+      "sha256": "3ec569438ad130816f42e09409e2f5876e63daad8e4283cdae6e5ddd2bb7a442"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Muzzle_Donor_Insert.uasset",
+      "size_bytes": 74274,
+      "sha256": "49824e47868d81ac5aea1d5a9025ec64de646b2b897b6d61017b406dbf1b8838"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V13_Receiver_Donor_Lower.uasset",
+      "size_bytes": 74306,
+      "sha256": "f06db81607c4bbe59a392b3108bafbe375d022bf67429ac6718db004a1609538"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V14_Walnut_EndFaces.uasset",
+      "size_bytes": 74664,
+      "sha256": "cef1b7d2d14ef75e867d100fbf7d4c7a1debf9fa4fb2a832d421398490f694c2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V15_FineWalnut_Handguard.uasset",
+      "size_bytes": 74874,
+      "sha256": "1095df5a6480ab1db5e0dc1566f7e949ba22695bda031d5439acddc2bc63f7ce"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Materials/V15_FineWalnut_Stock.uasset",
+      "size_bytes": 74706,
+      "sha256": "b70767ea6f1adcbdc12057eb9ab8ecd5e25b8b5b274b84ba126561b026267a25"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/StaticMeshes/SM_PC_GermanRifleV15.uasset",
+      "size_bytes": 661407,
+      "sha256": "b82f08379b9f16cd3538eeed8062bce3f9c64b6f8320c202e51bd89b093a96ea"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_DonorSteel_0_Normal.uasset",
+      "size_bytes": 2645051,
+      "sha256": "9c521bcfa31043c251427c3e840d57c07b46655ab1608d4e88343e0b9cbbdf89"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_DonorSteel_0_Normal1.uasset",
+      "size_bytes": 2645071,
+      "sha256": "84ec6053bbb97d84206f2d05d964542bc91910ee3a8897776d2d38b568e9c1d5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_DonorSteel_1_Normal.uasset",
+      "size_bytes": 1429555,
+      "sha256": "bb58e803ead9109b24b5bd82a67e7ee1f6b2eb260a2dfd2d868a1c2accf3d8fd"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_DonorSteel_2_BaseColor.uasset",
+      "size_bytes": 1500654,
+      "sha256": "95b41dc15e25e923a79a6eaa6370e30c1bea2290d5af8b65754ebe26fc0f8546"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_DonorSteel_2_Normal.uasset",
+      "size_bytes": 6334580,
+      "sha256": "8cb53234abe8b4b3ff01b4b1336bd372a438c6b3eb04a8dc4c4017128e2ef13f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_DonorSteel_2_ORM.uasset",
+      "size_bytes": 3015519,
+      "sha256": "cd1360a6472d92307c2e3ce8115edbd3b3aae016936f2b5a0e3877956c1ac7b4"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_DonorSteel_3_Normal.uasset",
+      "size_bytes": 1642158,
+      "sha256": "9ee2d1167461e1c8f23af2b25b753fcdee4f393f8786eca59d587e9e5e9cb94a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_DonorSteel_3_Normal1.uasset",
+      "size_bytes": 1642178,
+      "sha256": "03928e6a1be51bae1c4799c6eef95af169897a5507dec87b459335eb94f825f8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_New_BluedSteel_BaseColor.uasset",
+      "size_bytes": 601291,
+      "sha256": "c72412ca05e205801d61c2f2a3d5ab686f3dd4ec9f8cd07c810c21617e8ccf16"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_New_BluedSteel_Normal.uasset",
+      "size_bytes": 1053568,
+      "sha256": "954ffaa26cac479c1b8af953f208ca589d5939445de2fe7e718009f63159813e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_New_BluedSteel_Normal1.uasset",
+      "size_bytes": 1053588,
+      "sha256": "6843cd87636bf729722010bdd126de1a49c4bda8e026e50f9f8a8fef50c9161a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_New_BluedSteel_Normal2.uasset",
+      "size_bytes": 1053588,
+      "sha256": "9fa786971143f2556de5fd4976b453e27be1df5998c5b298ff660d91c1935df0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_New_BluedSteel_Normal3.uasset",
+      "size_bytes": 1053588,
+      "sha256": "ccc36f7554d5abd9dbb32df519d625b00b279f32a20ff9ea6acb7dcef6f24f66"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_New_BluedSteel_Normal4.uasset",
+      "size_bytes": 1053588,
+      "sha256": "598f1a99538c8f65cd5af4e645dd37752e407dfc9e97eb3779019a0f89fa1344"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_New_BluedSteel_ORM.uasset",
+      "size_bytes": 1088474,
+      "sha256": "84669ddb2326068767e2d8b345985fc30d6eff4d5fb70026986151cd0942c02f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V12_M1_Oiled_Walnut_Normal.uasset",
+      "size_bytes": 1167296,
+      "sha256": "7519392d331ee786342a4de7eb8fcbf964c0df1a7baac0bb1fa70b52538b5478"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Barrel_Donor_Tapered_BaseColor.uasset",
+      "size_bytes": 607796,
+      "sha256": "564b17b2daf7aaa4ada61817f0474a7f8a322d2ecd00309ac8f6ce08589e1802"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Barrel_Donor_Tapered_ORM.uasset",
+      "size_bytes": 978202,
+      "sha256": "e46e04f0a53b8f1577fc803c59d5d712a03adb5e9e86766d8955a2b1a19e1d75"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Bolt_Donor_HandleCaps_BaseColor.uasset",
+      "size_bytes": 593876,
+      "sha256": "86d18317935ddf845b542afb10913a99253bfef84fa7eb176c491fef9ce1f17e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Bolt_Donor_HandleCaps_ORM.uasset",
+      "size_bytes": 975646,
+      "sha256": "e02de64304809299663913c8aae164b716df6310fb8f9a2563ff5daef5c0b22b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Bolt_Donor_TubeSafety_BaseColor.uasset",
+      "size_bytes": 959554,
+      "sha256": "6b2cda1d03c8b5f882e36b8e042d4fbf6f229540b5c9fdb70e82ac4b0c36a6f3"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Bolt_Donor_TubeSafety_ORM.uasset",
+      "size_bytes": 1642066,
+      "sha256": "ecddf729ba54d16bb316278778a199444d9ea120a611bd75e00055b33c962206"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Furniture_ButtPlate_BaseColor.uasset",
+      "size_bytes": 604922,
+      "sha256": "1a35aaaa4446a3d7ac6f8294bd459025e9315eb0e6a19c97dc680b3dffe66562"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Furniture_ButtPlate_ORM.uasset",
+      "size_bytes": 976364,
+      "sha256": "2e44d6d1cb2176d99790f834e3a68b5e6e85c7df95e9e315564940e292f1f66d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Furniture_FrontBand_BaseColor.uasset",
+      "size_bytes": 580938,
+      "sha256": "b450f3608a3550f6d430e4e1b2962f527e7bd59b905a8acace39f024d9cc364f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Furniture_FrontBand_ORM.uasset",
+      "size_bytes": 972894,
+      "sha256": "6b45b413fcb8a4d574d942a34ed3a52284c04c02d513d6f9212884cbff2967ee"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Furniture_RearBand_BaseColor.uasset",
+      "size_bytes": 580695,
+      "sha256": "8941ab9a7c897fac0a35a16fb8e279a87348a950d4db29469e2317e567cbf0ba"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Furniture_RearBand_ORM.uasset",
+      "size_bytes": 973027,
+      "sha256": "4d18b43429ac21794f2c301d62b3caaae334cb2da2f67f0cce44dc27dcf808be"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Guard_OpenBow_BaseColor.uasset",
+      "size_bytes": 582003,
+      "sha256": "5828053fe1868642b312319f0e82c249909d4455f7542f6ba07dae16ed0df8cb"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Guard_OpenBow_ORM.uasset",
+      "size_bytes": 973096,
+      "sha256": "455f548a7fee15c9fa57bc534a951015b0ef3a0b13511ab490c0c8afa29b5ae6"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Muzzle_Donor_Insert_BaseColor.uasset",
+      "size_bytes": 94723,
+      "sha256": "5def8b653e043dfc1d9eec6b6349348bb6f9e1c1f0a951e9a8088c8d0a66b804"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Muzzle_Donor_Insert_ORM.uasset",
+      "size_bytes": 354325,
+      "sha256": "339ba6ee4a0a741892d807a2ec0440ef8d79416ff7e38dd58708e71b7ac720f0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Receiver_Donor_Lower_BaseColor.uasset",
+      "size_bytes": 973633,
+      "sha256": "265989352a6d9390cc16b497e6a97c0a84a8418f6b0f635c2fcc89e31dbbdafc"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V13_Receiver_Donor_Lower_ORM.uasset",
+      "size_bytes": 1648737,
+      "sha256": "f58f96758d70fc8fbea36661440bdaaa5ded1755912a18ddebe520f75563d1b7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V14_Walnut_EndFaces_BaseColor.uasset",
+      "size_bytes": 1734816,
+      "sha256": "ba404929822040f7ad620c44b986a87c6782f450eb7c6784ddda9100d8c23ac9"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V14_Walnut_EndFaces_ORM.uasset",
+      "size_bytes": 408540,
+      "sha256": "58c18e097da73bab8d06e47ba07588a690e2a1123e2bbf13a88286bfd6946edf"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V15_FineWalnut_Handguard_BaseColor.uasset",
+      "size_bytes": 6260260,
+      "sha256": "92ac7f24a5280ed1f61aa78425b7e3dd240ea2fad568d9ce84219c9ae1983b8b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V15_FineWalnut_Handguard_Normal.uasset",
+      "size_bytes": 4496182,
+      "sha256": "7f1c0e2f981919eefa344cbd8e892040b83913354922e8e835af2ac23eada046"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V15_FineWalnut_Handguard_ORM.uasset",
+      "size_bytes": 1190778,
+      "sha256": "0f236b8a2404e08bc36d07761bf3d887e557a161c6e774ca810974eff83c9a41"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V15_FineWalnut_Stock_BaseColor.uasset",
+      "size_bytes": 10601967,
+      "sha256": "c527866e8abdc72f6c9d2d91e2d717628e3b7896b3fa1dd53913cedc6a8750e6"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V15_FineWalnut_Stock_Normal.uasset",
+      "size_bytes": 7234621,
+      "sha256": "b6126c4a4750485c058c3e1e2af302778b9d185a8f1d3d5b21b7fff1aea372f4"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/GermanRifle_FineWood_V15/Textures/V15_FineWalnut_Stock_ORM.uasset",
+      "size_bytes": 1966242,
+      "sha256": "463276cef82b69a73fa1e048676993351c135195ae1180964768a57e015fbdd8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/ImportV1/P_PC_GermanGLTFImportV1.uasset",
+      "size_bytes": 56431,
+      "sha256": "31ddba879025187038c967b3fc352cf7038606e35ce94e5328a6c7c3b7185ff5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/BP_PC_GermanRifleAttachmentV2.uasset",
+      "size_bytes": 236570,
+      "sha256": "fc203644bfd68a3ce6ccf001c09d3f854cbc582624a108078fb7a4436bdde072"
+    }
+  ],
+  "native_file_count": 59,
+  "native_bytes": 79944882,
+  "rejected_unselected_v1": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Weapons/GermanRifleUEV1/BP_PC_GermanRifleAttachmentV1.uasset",
+      "size_bytes": 233491,
+      "sha256": "a8f780587b69403a91bc6f512ab0214086d6c0d2903223d72e9e001ae30342ed"
+    }
+  ],
+  "validation": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/GermanRifleUEV1/import_v3/result.json",
+      "size_bytes": 48819,
+      "sha256": "882191acb3aaa069126004819f441abcef2ed50cdea60fe4bd28fdbb32e0fcfc"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/GermanRifleUEV1/author_v2/result.json",
+      "size_bytes": 737,
+      "sha256": "49606979e124207bdcf45d931fb40938e4a95543b03174e9ee18f3947af135b8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/GermanRifleUEV1/review_v3/result.json",
+      "size_bytes": 170868,
+      "sha256": "8905e0a6e7ea3d5bcbfb6b563664474deb7b0f125dfa4a3949323a0da23cf52e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/GermanRifleUEV1/review_validation_v1/result.json",
+      "size_bytes": 1341,
+      "sha256": "b4eab441dd230217c4d23bb852e4aa7d26ffc2c22c9bf7f5ab8754bf7ba6b05b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/Runtime/german_combat_v2/combat.json",
+      "size_bytes": 115336,
+      "sha256": "b8c0c0d62ada22341fb9f545be3e090aa6193574d8490881e910d56de28270ec"
+    }
+  ],
+  "protected_count": 412,
+  "muzzle_frame_cm": [
+    0,
+    83.23,
+    0
+  ],
+  "grip_anchor_cm": [
+    0.0,
+    3.7996005344390795,
+    -3.0
+  ],
+  "runtime": "UE native Blueprint; no runtime bridge/Python",
+  "remaining": [
+    "human player movement/body/eye-height review",
+    "human German gun contact/appearance review",
+    "generic reload contact",
+    "historical variant/loadout",
+    "selection/publication",
+    "mission/AI/FPS/package/second machine"
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "owner": "yg745",
+  "status": "local_semantic_split_diagnostic",
+  "restoration_authority": "None; not Catalog/SFTP/native or production selection",
+  "taskId": 3920959,
+  "submittedTasks": 1,
+  "giftDebit": 30.0,
+  "giftBalanceAfter": 210,
+  "reservedGiftCredits": 40,
+  "paidTopUp": false,
+  "quoteApi": "PRICING_ITEM_NOT_QUOTABLE; official pricing page observed30/40 before submit",
+  "sourceSha256": "a8ccfed78eed6da13de2070b86cec6bd32357218dd0c0cfb4efe6ae512387b60",
+  "resultSha256": "78d3398820afc92314ce553afc4f1aa2528267281b644432177338bc052f4bf4",
+  "partCount": 2,
+  "triangles": 299479,
+  "partsObserved": [
+    "Entire rifle including wood/metal/bolt/sights",
+    "Sling"
+  ],
+  "usefulWoodMetalBoltSeparationPassed": false,
+  "allFacesAndCornerUvsExact": true,
+  "packedImagesExact": true,
+  "initialImagesActuallyInspected": 15,
+  "diagnosticReproduction": [
+    {
+      "file": "audit.json",
+      "shaIdentical": true
+    },
+    {
+      "file": "colored_right.png",
+      "shaIdentical": false,
+      "pixelsExact": true,
+      "maxChannelDelta": 0
+    },
+    {
+      "file": "colored_top.png",
+      "shaIdentical": false,
+      "pixelsExact": true,
+      "maxChannelDelta": 0
+    },
+    {
+      "file": "colored_quarter.png",
+      "shaIdentical": false,
+      "pixelsExact": true,
+      "maxChannelDelta": 0
+    },
+    {
+      "file": "isolated_part_0.png",
+      "shaIdentical": false,
+      "pixelsExact": true,
+      "maxChannelDelta": 0
+    },
+    {
+      "file": "isolated_part_1.png",
+      "shaIdentical": false,
+      "pixelsExact": true,
+      "maxChannelDelta": 0
+    }
+  ],
+  "production_visual_pass": false,
+  "previousBytesVerified": [
+    {
+      "manifest": "GERMAN_RIFLE_PILOT_INVENTORY_20261003.json",
+      "verifiedFiles": 77,
+      "verifiedSources": 7
+    },
+    {
+      "manifest": "GERMAN_RIFLE_REFINEMENT_INVENTORY_20261003.json",
+      "verifiedFiles": 65,
+      "verifiedSources": 5
+    }
+  ],
+  "nativeGuards": [
+    {
+      "all_pass": true,
+      "checks": [
+        {
+          "manifest": "Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json",
+          "files": 43,
+          "mismatches": []
+        },
+        {
+          "manifest": "Assets/Integration/PLAYER_ACTIONS_DRAFT_INVENTORY_20261003.json",
+          "files": 7,
+          "mismatches": []
+        }
+      ]
+    },
+    {
+      "all_pass": true,
+      "checks": [
+        {
+          "manifest": "Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json",
+          "files": 43,
+          "mismatches": []
+        },
+        {
+          "manifest": "Assets/Integration/PLAYER_ACTIONS_DRAFT_INVENTORY_20261003.json",
+          "files": 7,
+          "mismatches": []
+        }
+      ]
+    }
+  ],
+  "sensitive_state_excluded": true,
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/clay_bottom.png",
+      "size_bytes": 667866,
+      "sha256": "b84c3fff6466f13ad63890c9e005d8c31937e1556dd2dc3f8ccf761c3021b938"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/clay_left_side.png",
+      "size_bytes": 719140,
+      "sha256": "01e8c628f9f82261095abb9b754d69fe16dab2d4c3011ed2d5aa3f24d5620f49"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/clay_reverse_quarter.png",
+      "size_bytes": 723503,
+      "sha256": "d871c74d51a42334d6b0493b744dc3c54e48c1d73bd4bbd6be37e55bc80afdee"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/clay_right_side.png",
+      "size_bytes": 724772,
+      "sha256": "a2827e7ede98a36b5e3e3904e18c0fc952997125cc14cf03b18ecaa74824b060"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/clay_three_quarter.png",
+      "size_bytes": 730139,
+      "sha256": "8330576e9a39d01e5e8ec71f8747176c5ab06470a3750f3f83eb8260950e00fa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/clay_top.png",
+      "size_bytes": 673797,
+      "sha256": "3ba38511213ba39d3b31a3f02079708001ef2d3207f02c1dabcd4982cd26beae"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/incoming_inspection.blend",
+      "size_bytes": 16995407,
+      "sha256": "7cee421628fcdd30ff7d5afabdbf460b6a68363335666e2f607fb07105b6cf68"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/inspection.json",
+      "size_bytes": 17378,
+      "sha256": "06a834f4cdaf7459a66794b36a167cfce4ab4055625aaf0740d6395fb501ce71"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/pbr_left_side.png",
+      "size_bytes": 1256422,
+      "sha256": "d1f921c20e2142942a7a7b9606f655050e1caf7145bcfc682dc62d1da2532afa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/pbr_right_side.png",
+      "size_bytes": 1252968,
+      "sha256": "cfd87ae1b8790276cd97760535d3ae3028c9a608061602e68bc1fdc2d204c1ff"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/pbr_three_quarter.png",
+      "size_bytes": 1281227,
+      "sha256": "74b58a54e8abfb63f486feeceaea88942c03d10f9336b6800bd3f304a3e66258"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/fresh_import/pbr_top.png",
+      "size_bytes": 1222434,
+      "sha256": "ff26ff78780c8e671b61bd216b59938294fe8c5d83253b71964c9fd0344af47a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/full_partition_check.json",
+      "size_bytes": 514,
+      "sha256": "6fc446416f3f011c4e3f2a521da19aec90936918520fab92b2ec9aca0e53135c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit/audit.json",
+      "size_bytes": 3014,
+      "sha256": "116c5e43197241e8039ca4a34bbd19201750c7d40a5813b42c6b3badf1099396"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit/colored_quarter.png",
+      "size_bytes": 1242188,
+      "sha256": "f4bedc77924564210c292f0bedec18f9e06656d20b8c003a4d32aa994853dfeb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit/colored_right.png",
+      "size_bytes": 1237302,
+      "sha256": "cd4b6b72e1e2166393ee0f325dac8a82f6e3d633081601184a0ef60ffc87e13e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit/colored_top.png",
+      "size_bytes": 1192479,
+      "sha256": "91cbc1b5fc223f178b25433cb68c7ff4a3e8dd0d0821544656481776ced588a7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit/isolated_part_0.png",
+      "size_bytes": 1183807,
+      "sha256": "6cbf3c98f3a2665c1412564acf03f346a6f40aa283555f39e351bf86c329a069"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit/isolated_part_1.png",
+      "size_bytes": 1154085,
+      "sha256": "5815c27f0a1eef858c9b7e194c7d500e045e5a9bd3a11d6ce94439394af62846"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit/part_diagnostic.blend",
+      "size_bytes": 16811801,
+      "sha256": "b0102f625940a9f223b6305db5bef90d91ea1b39a72124ab941a61c31215561a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit_reproduced/audit.json",
+      "size_bytes": 3014,
+      "sha256": "116c5e43197241e8039ca4a34bbd19201750c7d40a5813b42c6b3badf1099396"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit_reproduced/colored_quarter.png",
+      "size_bytes": 1242188,
+      "sha256": "5d1950d82d17cb7cb424caa02a6e26773e981acd59a162e26713d2eae05d6766"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit_reproduced/colored_right.png",
+      "size_bytes": 1237302,
+      "sha256": "faf1e52a556f47dc4c450580d3c6365c8bd234ac991de3ba48579511f77cf389"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit_reproduced/colored_top.png",
+      "size_bytes": 1192479,
+      "sha256": "7f2d85a968dfe4237c09c8ce47a9de8131cda1e022453bc868919e846ea32535"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit_reproduced/isolated_part_0.png",
+      "size_bytes": 1183807,
+      "sha256": "02a4f52c5090f6971505842e831d1fccd11621b53092c7b2ce41a08221fed6ef"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit_reproduced/isolated_part_1.png",
+      "size_bytes": 1154085,
+      "sha256": "ffb9a05d24914e21e5fb4f201a3be7944d08f9d84fd65ef27da5a4466588c377"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/evidence/part_audit_reproduced/part_diagnostic.blend",
+      "size_bytes": 16811997,
+      "sha256": "0bb98b40b33c715f9e8bd6e63726d0eb8271105646f183d033fa781e0ee9aad7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/incoming/kar98k-parts-v3-0-recovery.glb",
+      "size_bytes": 17191104,
+      "sha256": "78d3398820afc92314ce553afc4f1aa2528267281b644432177338bc052f4bf4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/incoming/kar98k-parts-v3-0.glb",
+      "size_bytes": 11534336,
+      "sha256": "3c5087fe8466326c1f41cd371385dddd67249dd6eaa213365bb6c46ad5e59ed7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/protected_after.json",
+      "size_bytes": 340,
+      "sha256": "cdf9446b75a4df7c79c3a62e4969424e063f9525b5dc4d23590085343faed1fd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-parts-v3/protected_before.json",
+      "size_bytes": 340,
+      "sha256": "cdf9446b75a4df7c79c3a62e4969424e063f9525b5dc4d23590085343faed1fd"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRiflePartSplitV3/aholo_parts.py",
+      "size_bytes": 9936,
+      "sha256": "0e006dba794dc9823659be39bbab5ffe8a158013c8b116882a1dd75a44847b19"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRiflePartSplitV3/audit_parts.py",
+      "size_bytes": 5692,
+      "sha256": "e8c439e5a1bcbdee238c74407b9bab094cdfc645acff08ff833b810b1e618429"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRiflePartSplitV3/record_outputs.py",
+      "size_bytes": 3852,
+      "sha256": "379a97e2112e7881835df4693e58751594fe18b6fdf3c9b72fff429a98dad413"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRiflePartSplitV3/verify_partition.py",
+      "size_bytes": 2172,
+      "sha256": "681d5feb53eb4a3af62e1cef9cb60dfd30fb28e73d68ac6e415093617c8a7c81"
+    }
+  ]
+}

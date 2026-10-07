@@ -1,8 +1,24 @@
 # Published SFTP asset baselines
 
+## Accepted German rifle model, 4 October
+
+`german-rifle-model-20261004-v1` is Catalog-selected:16files/200,288,247bytes,
+two self-contained accepted V15 Blender/GLB models and selected evidence/README.
+All16 final immutable objects and the release manifest were downloaded through
+authenticated pinned-host SFTP and SHA-256/size compared. Named shared-account
+Modify and actual workspace CRUD pass; root ACL unchanged. See
+[asset/restoration guide](../GERMAN_RIFLE_MODEL.md) and
+[publication receipt](GERMAN_RIFLE_PUBLICATION_STATUS.json).
+
+Readable working location: `/workspaces/yg745/german-rifle-model-v1/Model/`.
+Fixed version: `/releases/german-rifle-model-20261004-v1/german-rifle-model.json`.
+The new optional static model is NOT yet imported/bound into UE or automatically
+downloaded by the native-playtest restore tool. No public binary sharing rights.
+Local metadata is not yet committed/pushed; the SFTP release is available now.
+
 ## Current Paris team playtest
 
-Private release `paris-native-playtest-20261003-v1` is Catalog-selected as `paris-gameplay-native-playtest`. Restore its 206 non-city native packages together with `france-liberation-content`; other historical/source/lab manifests are not required to play. It reuses 195 objects and uploads 11 changed/new objects (5,694,247 bytes). All 206 final objects and release manifest were downloaded via pinned-host SFTP and hashed. See [publication receipt](NATIVE_PLAYTEST_PUBLICATION_STATUS.json), [English handoff](../../Docs/Development/TEAM_PLAYTEST.md) and [中文试玩指南](../../Docs/Development/TEAM_PLAYTEST_ZH.md). Current saved map/first-person display is UE-native; no runtime Python/bridge. This is not a new packaged EXE or a second-machine pass.
+Private release `paris-native-playtest-20261006-allied-grip-v16` is Catalog-selected as `paris-gameplay-native-playtest`. Restore its 234 non-city files together with `france-liberation-content`; other historical/source/lab manifests are not required to play. It reuses 226 objects and uploads 8 changed/new objects (3,596,009 bytes). All 234 final objects and the exact release manifest were downloaded via pinned-host SFTP and hashed. See [publication receipt](NATIVE_PLAYTEST_PUBLICATION_STATUS.json), [English handoff](../../Docs/Development/TEAM_PLAYTEST.md) and [中文试玩指南](../../Docs/Development/TEAM_PLAYTEST_ZH.md). Saved native policy selects the human-approved FP V20 and both/later compatible Allied V16 grips; no runtime Python/bridge. NPC AI drafts are not selected. Matching Git commit/push is pending. This is not complete motion/FPS/MVP acceptance, a new packaged EXE or a second-machine pass.
 
 ## Selected rifle-motion baseline, 2 October
 

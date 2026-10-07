@@ -118,3 +118,18 @@ Thumbs.db
 /Unreal/ParisStreetCombat/Content/ParisCombat/Materials/FirstPersonViewV2/
 # Native gameplay bytes are shared through SFTP, including team Blueprints.
 /Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/ContinuousArmsNativeV1/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Blueprints/PlayerActionsV1/
+/Unreal/ParisStreetCombat/Content/ParisCombat/Animation/PlayerActionsV1/
+# Imported commercial-derivative rifle and native attachment drafts: SFTP only.
+/Unreal/ParisStreetCombat/Content/ParisCombat/Weapons/GermanRifleUEV1/
+
+# Approved first-person pose payload is private SFTP data, not public code.
+/Unreal/ParisStreetCombat/Content/ParisCombat/FirstPerson/ApprovedV20/
+# Private Allied NPC native posture/config derivatives; generic adapter source is Git.
+/Unreal/ParisStreetCombat/Content/ParisCombat/Animation/AlliedGripV15/
+
+# Native packages (including new folders) are SFTP bytes, not public source.
+# A future small Blueprint-code exception needs both GIT_CODE_ALLOWLIST.json
+# registration and a narrowly scoped negative ignore rule; never force-add assets.
+*.uasset
+*.umap

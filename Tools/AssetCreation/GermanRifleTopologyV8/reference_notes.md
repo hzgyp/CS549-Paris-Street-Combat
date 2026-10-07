@@ -1,0 +1,9 @@
+# V8 references / assumptions
+
+Existing same1943 museum Kar98k2019.1.1 CC0 series from https://parismuseescollections.paris.fr/en/node/860143. Original locally stored full sides1736212/1736206 and top1736128/underside1736089 under20261003-v1/references/originals. No new proprietary image upload or material reuse. Photos are perspective, not calibrated drawings; provisional source dimensions stay unchanged.
+
+Receiver follows the barrel axis inside retained wood shoulders. Cylindrical rings/bolt cap need clean curves and deliberate transitions, not white soft blobs. Rear sight has an inclined leaf with supported base and rectangular sliding hardware; it is not a long modern accessory rail. Front sight/muzzle should have proper barrel bore and slim supported blade; this museum example lacks a hood/cleaning rod, not general variant approval. Museum replacement sling remains an open historical limitation.
+
+Primary gate is actual original-mesh interface, not decorative detail. Hand-picked surface landmarks must lead to a simple continuous original-edge loop before topology replacement. V7 fixed cameras retained for genuine before/after comparisons. Compare both steel interiors and wood shoulders, not only top silhouette. No unavailable overlay/IoU tool or manufactured dimensional accuracy claim.
+
+Actual outcome: original-edge156 proof alone insufficient: top projection crosses and region has an exactly coincident four-face edge. V8/V8B stopped without source replacement (GP007). V8C outputs **standalone** analytical receiver/sight/muzzle objects in a provisional sloped frame. Its own cameras review only those parts; they are NOT same-whole-rifle before/after evidence. Safety flag is static neutral approximation, notch simplified two-shoulder gap, sight scale rails have no engraved numbers. No handle/stock/sling integration or dimensional certification. Source preservation does not establish interface acceptance.

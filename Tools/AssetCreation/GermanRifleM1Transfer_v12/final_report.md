@@ -1,0 +1,5 @@
+# V12 local material handoff
+
+Blender modeling skill stages5–7 complete for this narrow private texture transplant, not the complete historical/game weapon. main.py reruns clean; source M1 D/N/ORM flat wood/steel patches are resampled into existing targetUV textures, DX-normal converted/high-pass filtered; donor steel structural normal retained. Roughness adapts the existing source variation after one glossy-preview failure. Geometry and originals stay exact.
+
+Final root Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1: GermanRifle_M1Texture_V12.blend/.glb and6 PBRviews; audit_v1 six actual imported views and passed JSON. 24meshes/24,466triangles/1.1073m/18embedded images, GLB SHA862baf5ab6afa6f977e373d4710fce1e3bf6964e51e7e6483424f15bc9424193. Clean rerun attributes/images match, whole GLB differs/cause unproved. presentation_v1 labeled V11/V12 comparison inspected. Read paired Docs/Development/GERMAN_RIFLE_M1_TEXTURE_RESULT_20261004.md / _ZH.md for evidence, warnings and limits. Stop for appearance review; no UE/game/SFTP/release/commit/push.

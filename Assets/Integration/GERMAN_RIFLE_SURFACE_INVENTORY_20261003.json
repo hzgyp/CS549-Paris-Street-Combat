@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "owner": "yg745",
+  "status": "early_surface_label_visual_gate_failed",
+  "restoration_authority": "None; LocalWorking failed diagnostics, not Catalog/SFTP/native restore",
+  "geometry_refinement_executed": false,
+  "selected_improved_asset": false,
+  "cloud_calls": 0,
+  "credit_debit": 0,
+  "triangles": 299479,
+  "fresh_import_meshes": 2,
+  "generated_images": 18,
+  "actually_inspected_images": 11,
+  "source_geometry_uv_exact": true,
+  "visual_pass": false,
+  "production_pass": false,
+  "failed_identities": [
+    "interface_v1 export API",
+    "interface_v1b rectangular labels",
+    "contour_v1 labels",
+    "independent_audit first float32 path"
+  ],
+  "prior_checks": [
+    {
+      "manifest": "GERMAN_RIFLE_PILOT_INVENTORY_20261003.json",
+      "files": 77,
+      "source_files": 7,
+      "mismatches": []
+    },
+    {
+      "manifest": "GERMAN_RIFLE_REFINEMENT_INVENTORY_20261003.json",
+      "files": 65,
+      "source_files": 5,
+      "mismatches": []
+    },
+    {
+      "manifest": "GERMAN_RIFLE_PART_SPLIT_INVENTORY_20261003.json",
+      "files": 31,
+      "source_files": 4,
+      "mismatches": []
+    }
+  ],
+  "native_checks": {
+    "all_pass": true,
+    "checks": [
+      {
+        "manifest": "Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json",
+        "files": 43,
+        "mismatches": []
+      },
+      {
+        "manifest": "Assets/Integration/PLAYER_ACTIONS_DRAFT_INVENTORY_20261003.json",
+        "files": 7,
+        "mismatches": []
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/audit_at_v1_failure.py",
+      "size_bytes": 2847,
+      "sha256": "9af66da46805fb938099a94e681b6a5503a430759e727c7d5314034209ad22e8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/contour_v1/Kar98k_SurfaceMaster_V4.blend",
+      "size_bytes": 18992537,
+      "sha256": "c7e1e6db53ab7a860bddf360e63bdfae7696c0f178d6c4129100d69fe855021c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/contour_v1/Kar98k_SurfaceMaster_V4.glb",
+      "size_bytes": 15822740,
+      "sha256": "dd7b38fe5e93d2d1b9f70f1c8e5c0335f6403c3232341473c028b2c166b65695"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/contour_v1/source_at_export.py",
+      "size_bytes": 9782,
+      "sha256": "05d32fc343f44251426983ef217f7a5c3bf93aac2da24e5effae562905c3e257"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/contour_v1/surface.json",
+      "size_bytes": 1351,
+      "sha256": "cf2934707cf2f7a36804fcf5fb43d0457b3d9fb42b895fcc002e0581bd81cfb2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/contour_v1/clay_receiver_quarter.png",
+      "size_bytes": 967902,
+      "sha256": "b5c75d1bce22cfcfec9c70da022ff262ae0359c54bbc19980bb3aade0ef807a4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/contour_v1/clay_receiver_side.png",
+      "size_bytes": 930006,
+      "sha256": "9bbf6e7fb5476071c88f9eac7a18ca301019ec388113969bb91871a7fade1810"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/contour_v1/clay_receiver_top.png",
+      "size_bytes": 883505,
+      "sha256": "5188ac03b8dd6f7f6651fbd295e44460b5762ea192513640646094397afdd7ec"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/contour_v1/Kar98k_SurfaceReview_V4.blend",
+      "size_bytes": 14012125,
+      "sha256": "60f0eff0dbbeb73685ad3820f7a680feb432a3b2cedfaeb953617269b89bde2d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/contour_v1/pbr_receiver_quarter.png",
+      "size_bytes": 1290209,
+      "sha256": "223d04e5fec0742cefd81765d742a8da61c6ba53923a78bddf973ccb21844815"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/contour_v1/pbr_receiver_side.png",
+      "size_bytes": 1224124,
+      "sha256": "75e90f39b511ea887b7222caaad301b494e1d529b1e1e2e561feedd28c5c9b2b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/contour_v1/pbr_receiver_top.png",
+      "size_bytes": 1261669,
+      "sha256": "3e4ce1370f8b0124d97bea6ecdf00524e7678a766dd748af5c2f2887a109b2a4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/contour_v1/review.json",
+      "size_bytes": 1311,
+      "sha256": "e7815c3c8b3ed8d0644ba6470671a8adf22eb45306bae0ef08a7185591947ab3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/clay_receiver_quarter.png",
+      "size_bytes": 967769,
+      "sha256": "bb647e6fbc9a67fcf1f64641270c9ca246e0f5af5bf5961b54c24de7e1b51870"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/clay_receiver_side.png",
+      "size_bytes": 929965,
+      "sha256": "374cf2a9fae3ada66c93872a672bfd4a6d4a7a30cac0fe3b21fef436cbc742e3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/clay_receiver_top.png",
+      "size_bytes": 883502,
+      "sha256": "5811d943f27bf53fd7cbf373a7cf0033f373a2d36e3e1d0ba415304fbd7a898e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/clay_reverse_quarter.png",
+      "size_bytes": 719491,
+      "sha256": "043ae466294f895b221e073e95d3ffe1af90d93ad8a7affe7bde9fcbcdd20d44"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/clay_right_side.png",
+      "size_bytes": 721073,
+      "sha256": "7a2fc641e414c170836676702566bb3758b1e76583e0010e82cfc8ef849e21d6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/clay_three_quarter.png",
+      "size_bytes": 720952,
+      "sha256": "95dedde6bfd0976878c36fb6844072416914ae151f20a275142dc7e5b2e3f90d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/Kar98k_SurfaceReview_V4.blend",
+      "size_bytes": 13942890,
+      "sha256": "f05b3548d498a2fa2a642cbce28718e8c492af30181e6222b6ae35a27cfa224c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/pbr_receiver_quarter.png",
+      "size_bytes": 1300032,
+      "sha256": "b8397b3918abede26f89e4022c9cd4b21864b992234344656f180cd8525d62a9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/pbr_receiver_side.png",
+      "size_bytes": 1232249,
+      "sha256": "2efbf69c19fcc9b8b06fb89014048d7c7fa8e4fa32eb2e0bc4a34caf6c12ffff"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/pbr_receiver_top.png",
+      "size_bytes": 1273325,
+      "sha256": "d6ba3b2c62ba048c13c999ed4bb5b1100b3a5bcf2c9bc81c8143952e377301ae"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/pbr_reverse_quarter.png",
+      "size_bytes": 1211625,
+      "sha256": "1e7ba4cc35ce0ef36f2e613c17053de45d34f9e06ebde342460f3ebdd5da021f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/pbr_right_side.png",
+      "size_bytes": 1198803,
+      "sha256": "a2c5a31a6ee97774e68ca11a39f9560de458a77252e3c9294158b151e3d70b42"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/pbr_three_quarter.png",
+      "size_bytes": 1214179,
+      "sha256": "4fc7c8039d101958903e3828b62a8a6ae0da552f1147393d3a984f9a95d14e84"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/evidence/interface_v1b/review.json",
+      "size_bytes": 1376,
+      "sha256": "78f88c124073fc4d3acf9a167c35cabe6ab92f9c76cdf8e3a1d9b2d25df208ed"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/independent_audit.json",
+      "size_bytes": 2391,
+      "sha256": "0101ffc5913fa45b83f3871212c4987931ec056dd15e950c5a655df45e9a9b9b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/independent_audit_v2.json",
+      "size_bytes": 2298,
+      "sha256": "e9a3ccb2d2288407cdf51e164a22e0962871f19559224a9acccd4e1bb6513a15"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/interface_v1/Kar98k_SurfaceMaster_V4.blend",
+      "size_bytes": 18982882,
+      "sha256": "57e7d04de616589c750a3eb32b2ae2d8dc491d6526ee825e6fe82d542fdef82a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/interface_v1/source_at_export_failure.py",
+      "size_bytes": 8566,
+      "sha256": "0fd76a6c2d41d16fb69a0695570aa5c264287b17624b14a42a0293255599a99f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/interface_v1/surface.json",
+      "size_bytes": 1305,
+      "sha256": "55a0c10bbe7064842aa390de86f55c9278be64a4e17e8dc0c23c7c14be5d3be4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/interface_v1b/Kar98k_SurfaceMaster_V4.blend",
+      "size_bytes": 18982876,
+      "sha256": "e568d7afd37c27800e04d3bb4537c8eb38d23e4c12f86db57a9d28a53be97430"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/interface_v1b/Kar98k_SurfaceMaster_V4.glb",
+      "size_bytes": 15902060,
+      "sha256": "9de2852760151388f1637402434d9e0b3b274c860a162a35012e07d855ebcc53"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/interface_v1b/source_at_export.py",
+      "size_bytes": 8609,
+      "sha256": "2f426dd5dd903b98a679828c085a0d2204ffe565c3a87494a12ff6149a173c2b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/interface_v1b/surface.json",
+      "size_bytes": 1305,
+      "sha256": "55a0c10bbe7064842aa390de86f55c9278be64a4e17e8dc0c23c7c14be5d3be4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/probe/materials.json",
+      "size_bytes": 8767,
+      "sha256": "d749e945798cdeb5df00008666dab3c843b8b24366fa0856dabff6e141147781"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/protected_after.json",
+      "size_bytes": 340,
+      "sha256": "cdf9446b75a4df7c79c3a62e4969424e063f9525b5dc4d23590085343faed1fd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-surface-v4/protected_before.json",
+      "size_bytes": 340,
+      "sha256": "cdf9446b75a4df7c79c3a62e4969424e063f9525b5dc4d23590085343faed1fd"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleSurfaceV4/audit_surface.py",
+      "size_bytes": 3350,
+      "sha256": "5c53f24c89f06357baa17eacc25bede7634643da3456f02b8ac4a0707ec1be1a"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSurfaceV4/final_report.md",
+      "size_bytes": 1004,
+      "sha256": "59711df50741d64b5328c0fc221e9acc09ef6e75e3d74f9e1b4c0b4343d2f6ec"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSurfaceV4/probe_materials.py",
+      "size_bytes": 2713,
+      "sha256": "f526c1b7a5f3c10e96fdce8793650238843335083bbdf0e97c0610a096910a76"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSurfaceV4/record_result.py",
+      "size_bytes": 2681,
+      "sha256": "3d77a3c65a91333b1fdbb53c7c6ea838c5db8b71cc98959a2af7d641e557ee50"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSurfaceV4/refine_surface.py",
+      "size_bytes": 9928,
+      "sha256": "2ba2c5699608a603e67c5dcab2fdfa5237224d9d8944dc60ece0bd0a6064c33d"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSurfaceV4/render_surface.py",
+      "size_bytes": 3908,
+      "sha256": "66dedcfdcc50f7d9740d515ad23c869bad4670ee9e69c6227d0353421b2c6802"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSurfaceV4/work_state.md",
+      "size_bytes": 916,
+      "sha256": "156f885c1f5b38202b2fb18aa99bebf51dccbde85f35030460d4e8800eb613e3"
+    }
+  ]
+}

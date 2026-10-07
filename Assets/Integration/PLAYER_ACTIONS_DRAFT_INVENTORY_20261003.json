@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "status": "local_unselected_action_drafts_not_catalog_or_restore_authority",
+  "functional_verified": true,
+  "action_source": "author_v7",
+  "owner_source": "owner_author_v2",
+  "canonical_map_unchanged": true,
+  "canonical_map_sha256": "2791b4a7f76b4b3d07f42286b6ad0156c3a185c2e3e795fa2446aaac0ad68519",
+  "review_packages": [
+    "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV6",
+    "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCActionOwnerViewV1"
+  ],
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV1.uasset",
+      "size_bytes": 1103902,
+      "sha256": "5b4204f40ac272360ff21e48f83c34dcab9074fa0a6a959d0ae28df1a6e62f8b",
+      "author_identity": "author_v2",
+      "selection": "unselected",
+      "human_review_candidate": false
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV2.uasset",
+      "size_bytes": 1148129,
+      "sha256": "c15829e996c1a6b2e3a7983e6c32ca3d39dc5fd600ad634285259682071c7436",
+      "author_identity": "author_v3",
+      "selection": "unselected",
+      "human_review_candidate": false
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV3.uasset",
+      "size_bytes": 1211637,
+      "sha256": "0ecd7ef66daae950bf61fc148848168c2edbfd9be611ef77636ea06ba8fa7f41",
+      "author_identity": "author_v4",
+      "selection": "unselected",
+      "human_review_candidate": false
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV4.uasset",
+      "size_bytes": 1225694,
+      "sha256": "80ae0a8375a982c1ad7cc2ce6d3b56c8b9f739a20fef119cc18c56096b631fcd",
+      "author_identity": "author_v5",
+      "selection": "unselected",
+      "human_review_candidate": false
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV5",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV5.uasset",
+      "size_bytes": 1262753,
+      "sha256": "2b5ba308d85f92334d56b078869d82c73d291ae66bc393ecac4af7f2dec49862",
+      "author_identity": "author_v6",
+      "selection": "unselected",
+      "human_review_candidate": false
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCActionOwnerViewV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/PlayerActionsV1/BP_PCActionOwnerViewV1.uasset",
+      "size_bytes": 838045,
+      "sha256": "3cb655ef1b9336a9e8a9129d04510ed2ed8acae0954e1debd75586643dabc08b",
+      "author_identity": "owner_author_v2",
+      "selection": "unselected",
+      "human_review_candidate": true
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV6",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/PlayerActionsV1/BP_PCParisPlayerActionsV6.uasset",
+      "size_bytes": 1355801,
+      "sha256": "ebf22a46d11cfb7279458ac908d1c967642bd167a0509393e5e3026d7298e1f0",
+      "author_identity": "author_v7",
+      "selection": "unselected",
+      "human_review_candidate": true
+    }
+  ],
+  "total_native_bytes": 8145961,
+  "storage": "Single local SFTP workspace Content; no immutable asset release or Catalog changes.",
+  "runtime": "UE native Blueprints; Python authoring/testing/startup substitution only.",
+  "validation": [
+    {
+      "size_bytes": 2162385,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PlayerActionsV1/runtime_v10/result.json",
+      "sha256": "b72489db4cc41ee7afe9a8388af9d9f9412face545189e26e7df85dfea219e17",
+      "identity": "runtime_v10",
+      "action_candidate": "V6",
+      "observations": 2410,
+      "phases": 40,
+      "checks": 29,
+      "all_pass": true,
+      "protected_bytes_unchanged": true,
+      "exit_receipt": {
+        "size_bytes": 90,
+        "path": "tmp/player-actions/runtime_v10.log.exit.json",
+        "sha256": "80328dc419e49494fd82a917ce81750297802a93444904dfa9be2cad6bcde855"
+      }
+    },
+    {
+      "size_bytes": 93866,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/CityGameplay20261002/Runtime/actions_combat_v2/combat.json",
+      "sha256": "31d712c5e93f6e263ca23b875cb4d5a7e394e6bd8b59e44484234ec127ddecc3",
+      "identity": "actions_combat_v2",
+      "action_candidate": "V6",
+      "cases": 16,
+      "assertions": 66,
+      "all_pass": true,
+      "protected_bytes_unchanged": true,
+      "exit_receipt": {
+        "size_bytes": 98,
+        "path": "tmp/player-actions/actions_combat_v2.log.exit.json",
+        "sha256": "21e76a5fd48833248b9856becc7922b67e491626796c8eeb53a90b66b0be13f7"
+      }
+    }
+  ],
+  "human_visual_acceptance": "pending",
+  "limitations": [
+    "Prone forward/back only on relatively flat supported ground, no yaw/side input.",
+    "Crouch/prone/run/jump reject fire/reload; no posture-specific gun contact acceptance.",
+    "First-person Ready uses original holding pose; no dedicated first-person sprint/jump clip.",
+    "Protected camera mounting stays unchanged; posture eye height and transitions need human review.",
+    "No new NPC/German action adaptation or AI behavior implementation."
+  ],
+  "historical_safety_rejection": {
+    "candidate": "BP_PCParisPlayerActionsV5",
+    "evidence": "runtime_v9",
+    "reason": "Any-sample check falsely passed; blocked/zero-velocity frames still advanced 49.12 cm toward wall. New input-admission V6 must pass strict positional checks."
+  },
+  "source_evidence": {
+    "author": {
+      "size_bytes": 32049,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PlayerActionsV1/author_v7/result.json",
+      "sha256": "d84e79a75d68759b8a69b0ac695d9743434311bc6d381c8d6f509b9ef9ceb296"
+    },
+    "owner": {
+      "size_bytes": 578,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PlayerActionsV1/owner_author_v2/result.json",
+      "sha256": "1d29a1c3ba1b3451066202e245d6ec6743606e3e585bf8727c0ce9552fcb7d5a"
+    },
+    "source_animation_guards": 127
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "date": "2026-10-04",
+  "scope": "private texture-only draft, not SFTP/production/restore authority",
+  "candidate": {
+    "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.glb",
+    "bytes": 21605816,
+    "sha256": "f979fb6a5ad4a725553d73804c3f3efd7a793e55c16129164223bd69ccb55a8d"
+  },
+  "blend": {
+    "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.blend",
+    "bytes": 23109377,
+    "sha256": "7f9283212611c8753efc3b3c0a8ae2bb69a60e8c011856478589e0214e444b42"
+  },
+  "baseline_form_user_approved": true,
+  "weathering_user_approved": false,
+  "historical_approval": false,
+  "runtime_approval": false,
+  "rights_status": "MW2 project-use/derivative-sharing confirmation pending; local-only",
+  "geometry_raw_fingerprint_exact": true,
+  "protected_v10_hashes_match": true,
+  "metrics": {
+    "triangles": 24466,
+    "dimensions_m": [
+      1.1073039770126343,
+      0.07919801771640778,
+      0.18300700932741165
+    ],
+    "embedded_images": 17
+  },
+  "repeat_embedded_images_identical": true,
+  "repeat_attributes_passed": true,
+  "repeat_byte_identical": false,
+  "inspected_evidence": [
+    "preview_v1/before_quarter.png",
+    "preview_v1/before_receiver.png",
+    "preview_v1/pbr_quarter.png",
+    "preview_v1/pbr_receiver.png",
+    "finish_v1/pbr_right.png",
+    "finish_v1/pbr_left.png",
+    "finish_v1/pbr_quarter.png",
+    "finish_v1/pbr_top.png",
+    "finish_v1/pbr_underside.png",
+    "finish_v1/pbr_receiver.png",
+    "audit_v1/fresh_pbr_right.png",
+    "audit_v1/fresh_pbr_left.png",
+    "audit_v1/fresh_pbr_quarter.png",
+    "audit_v1/fresh_pbr_top.png",
+    "audit_v1/fresh_pbr_underside.png",
+    "audit_v1/fresh_pbr_receiver.png"
+  ],
+  "private_files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/audit_v1/audit.json",
+      "bytes": 36650,
+      "sha256": "3c6cd8382e15af5af0d65d180afea82280e7ea1678cea798a8701a1db797cd10"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/audit_v1/fresh_pbr_left.png",
+      "bytes": 1038828,
+      "sha256": "8ffa9661ffd9a93a59907ae57e6fcbcf3189546200ace4493a3d5ab5e6776f41"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/audit_v1/fresh_pbr_quarter.png",
+      "bytes": 1059918,
+      "sha256": "6b0874dd139da15e82206e545c7fdc3f1dc660863ae8f7f31a05159f77b2596c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/audit_v1/fresh_pbr_receiver.png",
+      "bytes": 1110563,
+      "sha256": "055f1d2a64b63bf932d30548dd883bb394bfdc75d67f2329ad04064934d55233"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/audit_v1/fresh_pbr_right.png",
+      "bytes": 1036822,
+      "sha256": "72b8e11d948ee7529268a4a72958d73c4a3ea7e1afe48168143588428c2a7dd5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/audit_v1/fresh_pbr_top.png",
+      "bytes": 1022850,
+      "sha256": "2a8a01cc8e53fb994479fb6b229cd60db23a86faf63abcae11cbe602ac4938b4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/audit_v1/fresh_pbr_underside.png",
+      "bytes": 1052006,
+      "sha256": "74bb391f86deabf2e4b1493c1a57566c1a567904a8a4a6ab88f671ad68b2a300"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/build_report.json",
+      "bytes": 6864,
+      "sha256": "6e0ed1b91f751e7b42c3e693c10c59c4fe537771705989a78b644ab7fd57793f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.blend",
+      "bytes": 23109377,
+      "sha256": "7f9283212611c8753efc3b3c0a8ae2bb69a60e8c011856478589e0214e444b42"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.glb",
+      "bytes": 21605816,
+      "sha256": "f979fb6a5ad4a725553d73804c3f3efd7a793e55c16129164223bd69ccb55a8d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/pbr_left.png",
+      "bytes": 1038727,
+      "sha256": "f6d44e5ee5080910c791af31b6aaff9ba78fcf974260094f9e294b60769a7a77"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/pbr_quarter.png",
+      "bytes": 1060168,
+      "sha256": "8d35f23d779d3d26fe0121e692fc5554efa3b846ccfef5b594c01a1b10b0e8fc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/pbr_receiver.png",
+      "bytes": 1110800,
+      "sha256": "ecfb4ce1c4ecaa4bcbfe92efc05be8b243ae2a2399bdb0715909984d0bedd384"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/pbr_right.png",
+      "bytes": 1037185,
+      "sha256": "e14276559725fca3baa4522d748440b1f1b726aee0d23f6156ac600631f14bac"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/pbr_top.png",
+      "bytes": 1022823,
+      "sha256": "e186cfcada39d1c52344f3df9ee34903ada7d63275897f1da15f39a4a00a3f10"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/pbr_underside.png",
+      "bytes": 1052132,
+      "sha256": "3822d1475e741046e65d1b8625389056bee7a422463dd624c4046038a1472bb5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/source/main.py",
+      "bytes": 10112,
+      "sha256": "5d7454db5766cbf55b1d5fc02b827150ada82a43c29a80ef8896a11f6b021889"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_DonorSteel_0_Worn_BaseColor.png",
+      "bytes": 814080,
+      "sha256": "ff162f060ba1860d1be635da954acf5a52166858ddf8288ea637043657342783"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_DonorSteel_0_Worn_ORM.png",
+      "bytes": 1631581,
+      "sha256": "4c903ff175139bc7c558d1d0e42e826fd10815f9e31ffd2951bc8ba57039d8fa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_DonorSteel_1_Worn_BaseColor.png",
+      "bytes": 240549,
+      "sha256": "80205efecf35bc3e137269edcc1d656545898722d7311ff0bc755ac99c7e8514"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_DonorSteel_1_Worn_ORM.png",
+      "bytes": 410847,
+      "sha256": "43c84bc85f44f4dec9431c3b56a940eee8b5bd5b31d5af45eaa8d626111d2464"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_DonorSteel_2_Worn_BaseColor.png",
+      "bytes": 1537641,
+      "sha256": "4d65cafedb6b44cd73cdcf5a2be18c0814d294f85ce2dda2986e5835695f9e10"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_DonorSteel_2_Worn_ORM.png",
+      "bytes": 3262205,
+      "sha256": "d65d67907c1ba7369b61113c5ccbad45712da7df5fba3cbb296021b8c63838d3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_DonorSteel_3_Worn_BaseColor.png",
+      "bytes": 422596,
+      "sha256": "40673033fde4c32af12f7e07aa6ccd30bd73eccbb39364b0343a306ddcee0b30"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_DonorSteel_3_Worn_ORM.png",
+      "bytes": 820949,
+      "sha256": "e08a07a0d40da650e0293946d75b0ef2da5c7cadb459702e952020a1b865db45"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_New_BluedSteel_Worn_BaseColor.png",
+      "bytes": 443407,
+      "sha256": "a02945b82d3688522cd2d545a87ecc0feea47d85807e44cfb75ea9832e541437"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_New_BluedSteel_Worn_ORM.png",
+      "bytes": 821844,
+      "sha256": "71d5c0f77a8071605228a77204ba8a1909cb8db22d374247463f3d057034febc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_Walnut_Worn_BaseColor.png",
+      "bytes": 848871,
+      "sha256": "040974def946482732e1c49a5ce21e70624651b5c34a1190b1ae21bbf9d16b36"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_Walnut_Worn_Normal.png",
+      "bytes": 227367,
+      "sha256": "f6de8acc3a1a499b724a278f1816dd2e4d30cdb544042e3695bcaaf5744c6967"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/V11_Walnut_Worn_ORM.png",
+      "bytes": 873127,
+      "sha256": "4b7b0b1f930fd499247a1b5417fc46ddc1ff9007464998acdc695ecff96500ce"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/before_quarter.png",
+      "bytes": 547078,
+      "sha256": "8ac89ebfce4f690739283cca13ba05c3793c4ad39cbb72d0b95689ec22c03b11"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/before_receiver.png",
+      "bytes": 576899,
+      "sha256": "5ed97bc43a03ee810cf40d02873fd201068680b9ac53039afd6a29093a1f143c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/build_report.json",
+      "bytes": 6850,
+      "sha256": "c36368e51144c786e68b8e98fa089795d1b5d3d7e8789e93b571369711284e9a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/GermanRifle_SPR_Weathered_V11.blend",
+      "bytes": 23014320,
+      "sha256": "7a94610073aa0e104284bf01ee0d7d423983a8beffd3549b5f569f414babe480"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/GermanRifle_SPR_Weathered_V11.glb",
+      "bytes": 21510756,
+      "sha256": "eb244b72f935682ab649813b0f50b77fdfeee069c16a8b046b8ca1cb633e6491"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/pbr_quarter.png",
+      "bytes": 547188,
+      "sha256": "623e7b0b39ab338c8c66e2d28ff2b6478d37c096579af8ddbaf18c23972ed858"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/pbr_receiver.png",
+      "bytes": 577495,
+      "sha256": "fad05a90f967ecd225d180f05f5a110ce657ead09c0dfe180420d1fc58dcdd94"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/source/main.py",
+      "bytes": 10070,
+      "sha256": "cc85953e5b29588115660c693a68eef464205e9b7e6d8db4a9f9e4122623d14d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_DonorSteel_0_Worn_BaseColor.png",
+      "bytes": 811082,
+      "sha256": "9df40cb33a21a836d4a1f77e5206b30496e3024f15eb630c98f1eb2ad815e817"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_DonorSteel_0_Worn_ORM.png",
+      "bytes": 1631942,
+      "sha256": "5216e24c6c18bba6678e3f7a1257612dad8160457639cb6f97fc0b6be43d55d9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_DonorSteel_1_Worn_BaseColor.png",
+      "bytes": 236896,
+      "sha256": "96c35367a5276c721574103c06bd0ba95a32b02e97d5be31d0432e15e8ac57e5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_DonorSteel_1_Worn_ORM.png",
+      "bytes": 410715,
+      "sha256": "a0caa7799f03b1d3177eea10d23b1d735873381c4826b5c120cc855c71a560c1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_DonorSteel_2_Worn_BaseColor.png",
+      "bytes": 1518184,
+      "sha256": "7d5e9ddbfe6015d4ca8461e13aad919aced7ab0954e2e60081961ddb39a41422"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_DonorSteel_2_Worn_ORM.png",
+      "bytes": 3263085,
+      "sha256": "7383ae5dd672006fc6f41ca4b334a630fe65b484ca1166451466936cdae9d928"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_DonorSteel_3_Worn_BaseColor.png",
+      "bytes": 415166,
+      "sha256": "16245280a4e3b9f29751b4c8b6f745180503375dfa84f3b0317b5d101fc1d83e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_DonorSteel_3_Worn_ORM.png",
+      "bytes": 821027,
+      "sha256": "cd948828fe3285725fcef574a7620395bb662aee6be706ff325f86d4da5a22bb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_New_BluedSteel_Worn_BaseColor.png",
+      "bytes": 432859,
+      "sha256": "c8d2581ec10908cd2fe7612034f500493449ad65f8c7bfa5c566d9ef38bf1788"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_New_BluedSteel_Worn_ORM.png",
+      "bytes": 821804,
+      "sha256": "cda1da53b9104dac4776d6d8dcfe2a776f78d4b1fa0babb698d6459bde4cf2f2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_Walnut_Worn_BaseColor.png",
+      "bytes": 797747,
+      "sha256": "8ff722dc20cdf8d18136cbab51c40fbb7e4dfce05da2ec4c24f17af5db1aa3e1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_Walnut_Worn_Normal.png",
+      "bytes": 227007,
+      "sha256": "18f21bd32d6e5b98708f2f1cddeefafd1b544f72cc8fb867d08bfc98f1e59b32"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/V11_Walnut_Worn_ORM.png",
+      "bytes": 872493,
+      "sha256": "5edecaa64920086fcb48bb4fd504640ba8e4bc80596692c579d1adf31bdedd2e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_audit_v1/audit.json",
+      "bytes": 36733,
+      "sha256": "fba1fb60a12385c19db183e1900f204350941d085eb98c4ac6ba00f7f3f2bc0b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/build_report.json",
+      "bytes": 6864,
+      "sha256": "b3d49cbb96a45f43e4197e573f84ad6fc63681403d7d7c23fdd4c065793506d6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/GermanRifle_SPR_Weathered_V11.blend",
+      "bytes": 23109377,
+      "sha256": "2c1c917ed08b8c6ccfc96d46a2a23edf76f71f329c014131c4bd7c4465622fab"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/GermanRifle_SPR_Weathered_V11.glb",
+      "bytes": 21605816,
+      "sha256": "74bca68ecc6618e2a364e374560a890c9b6c1e1ad4d02c7d0613419de152a4e7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/pbr_left.png",
+      "bytes": 1038651,
+      "sha256": "e7b053c1bb9cfd6bc792598b602ef780653ada82d05ea610f9da1aa0b6e79aaf"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/pbr_quarter.png",
+      "bytes": 1060550,
+      "sha256": "1fbf05e66efc5cfed59b4a16d9a216173822d796024314bfabe13d4a5473c445"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/pbr_receiver.png",
+      "bytes": 1110921,
+      "sha256": "f83833ae912c40647dbe7a71bb6c897ef70e560bcdd36488e5f7120fe361bcea"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/pbr_right.png",
+      "bytes": 1037183,
+      "sha256": "b891f0a5e5bac30c702fd5059f1c5ef5ef127c3c523f9e367531024c189cb681"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/pbr_top.png",
+      "bytes": 1022631,
+      "sha256": "661412d82ca4ebb7ea247efc0df10f86c16df3b8746625b5411d1856e279b9d0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/pbr_underside.png",
+      "bytes": 1052208,
+      "sha256": "2bfcb10434483a8092e720effc0837afe5d4472cd658148459673f0a4777e07b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_DonorSteel_0_Worn_BaseColor.png",
+      "bytes": 814080,
+      "sha256": "ff162f060ba1860d1be635da954acf5a52166858ddf8288ea637043657342783"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_DonorSteel_0_Worn_ORM.png",
+      "bytes": 1631581,
+      "sha256": "4c903ff175139bc7c558d1d0e42e826fd10815f9e31ffd2951bc8ba57039d8fa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_DonorSteel_1_Worn_BaseColor.png",
+      "bytes": 240549,
+      "sha256": "80205efecf35bc3e137269edcc1d656545898722d7311ff0bc755ac99c7e8514"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_DonorSteel_1_Worn_ORM.png",
+      "bytes": 410847,
+      "sha256": "43c84bc85f44f4dec9431c3b56a940eee8b5bd5b31d5af45eaa8d626111d2464"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_DonorSteel_2_Worn_BaseColor.png",
+      "bytes": 1537641,
+      "sha256": "4d65cafedb6b44cd73cdcf5a2be18c0814d294f85ce2dda2986e5835695f9e10"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_DonorSteel_2_Worn_ORM.png",
+      "bytes": 3262205,
+      "sha256": "d65d67907c1ba7369b61113c5ccbad45712da7df5fba3cbb296021b8c63838d3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_DonorSteel_3_Worn_BaseColor.png",
+      "bytes": 422596,
+      "sha256": "40673033fde4c32af12f7e07aa6ccd30bd73eccbb39364b0343a306ddcee0b30"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_DonorSteel_3_Worn_ORM.png",
+      "bytes": 820949,
+      "sha256": "e08a07a0d40da650e0293946d75b0ef2da5c7cadb459702e952020a1b865db45"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_New_BluedSteel_Worn_BaseColor.png",
+      "bytes": 443407,
+      "sha256": "a02945b82d3688522cd2d545a87ecc0feea47d85807e44cfb75ea9832e541437"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_New_BluedSteel_Worn_ORM.png",
+      "bytes": 821844,
+      "sha256": "71d5c0f77a8071605228a77204ba8a1909cb8db22d374247463f3d057034febc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_Walnut_Worn_BaseColor.png",
+      "bytes": 848871,
+      "sha256": "040974def946482732e1c49a5ce21e70624651b5c34a1190b1ae21bbf9d16b36"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_Walnut_Worn_Normal.png",
+      "bytes": 227367,
+      "sha256": "f6de8acc3a1a499b724a278f1816dd2e4d30cdb544042e3695bcaaf5744c6967"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/V11_Walnut_Worn_ORM.png",
+      "bytes": 873127,
+      "sha256": "4b7b0b1f930fd499247a1b5417fc46ddc1ff9007464998acdc695ecff96500ce"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v11/final_report.md",
+      "bytes": 765,
+      "sha256": "51c2ffdadf71358eb8218facf874d625cb3e2c57cf0f846637dfb6647ffb09a7"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v11/main.py",
+      "bytes": 10112,
+      "sha256": "5d7454db5766cbf55b1d5fc02b827150ada82a43c29a80ef8896a11f6b021889"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v11/manifest.py",
+      "bytes": 2840,
+      "sha256": "424babb9db446bd236389da529fbd39cb6ee6f941051127391d929528eb20e86"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v11/reference_notes.md",
+      "bytes": 1303,
+      "sha256": "f05eaa1d34f948950168e99588262a47fa7c1919a4181214f336e9ff37a679b7"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v11/work_state.md",
+      "bytes": 927,
+      "sha256": "64e6655c36ea9ceb79eda3102b8a8ad8d81d65d63aae865287cbcb5cfe6848a7"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/main.py",
+      "bytes": 19224,
+      "sha256": "1f8b457a3a49683d82878aa552cc4087ad0d98b07a970768cdb04586cadfed6b"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/audit.py",
+      "bytes": 8501,
+      "sha256": "06fb6333e5340973f9022f300320179a2e36ed872a85742d42e96b7201260b48"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "native_candidates_created": 0,
+  "guard_mismatches": 0,
+  "guarded_records": 512,
+  "case": "AN002-20261004-reload-sleeve-diagnostic",
+  "preservation": "retained_in_place_private_ignored",
+  "files": [
+    {
+      "size_bytes": 2795,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/binding_probe_v1/source.py",
+      "sha256": "081f33710807a7538aa00fd290aeb304d1eb60803fd24cd6ce1fb57ffb3bdb08"
+    },
+    {
+      "size_bytes": 1374,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/binding_probe_v2/result.json",
+      "sha256": "f67a9cf8c4ecdb249fbfbb9fc8ba483c7ac01b5367071fba1727401eaf6efb20"
+    },
+    {
+      "size_bytes": 2793,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/binding_probe_v2/source.py",
+      "sha256": "5935fec48fb3cdc3a9f501d2ebd9186681f7a23220fda539f3c6e266e0341fb3"
+    },
+    {
+      "size_bytes": 813249,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/bone_audit_v1/result.json",
+      "sha256": "ed3d4155b661a417e8d6e6d6e6575f4e4320feab3e8a453b7355316cd4c4c7f4"
+    },
+    {
+      "size_bytes": 4366,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/bone_audit_v1/source.py",
+      "sha256": "23f97df54a17f03ffa1517da61f94f03e89d6794f8a3214d395e2b5960accf8b"
+    },
+    {
+      "size_bytes": 3768,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/edge_audit_v1/source.py",
+      "sha256": "ab0e11055daa5ad7492c799b9d18866636333b2a9ec0a9ece6513194eb4f136e"
+    },
+    {
+      "size_bytes": 2003,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/skin_probe_v1/source.py",
+      "sha256": "0f8c4916a5ec1d2d47b76f13e74720e76d67eb26702b4d9c0b4ff5be871f4166"
+    },
+    {
+      "size_bytes": 2040,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/skin_probe_v2/source.py",
+      "sha256": "92ef680e1d9f3d321cd8ed53849e72f1379dd903f7db46d2e4dffe791879e28d"
+    },
+    {
+      "size_bytes": 73074,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/skin_probe_v3/result.json",
+      "sha256": "23765bcce94ceb4f00f87051d7e567a64a54be7b9f03b99bfa2279e598c2ba07"
+    },
+    {
+      "size_bytes": 2194,
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadSleeveAdaptationV2/skin_probe_v3/source.py",
+      "sha256": "db7c1c7f7a812bb14dfd4b6439f7c6b5368eb992d168f42f9dce3bac6d3b3ab3"
+    },
+    {
+      "size_bytes": 217977,
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-ACE423E54B9143E11AA58E8A0095C123_0000/CrashContext.runtime-xml",
+      "sha256": "83f9c61058cb48240601211701cfcb67d3307ac52c49e21449954e92f4ff2e82"
+    },
+    {
+      "size_bytes": 239,
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-ACE423E54B9143E11AA58E8A0095C123_0000/CrashReportClient.ini",
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "size_bytes": 313461,
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-ACE423E54B9143E11AA58E8A0095C123_0000/human_reload_assets_20261004_160111_428.log",
+      "sha256": "dc5a3272782675dd972d7cca98e4795d76c734038bdee60206aa5f63a622e6b0"
+    },
+    {
+      "size_bytes": 2835581,
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-ACE423E54B9143E11AA58E8A0095C123_0000/UEMinidump.dmp",
+      "sha256": "77344301ca33d8a30c2782a4b58f4bfc67500bf3d21d7e23e1d21cfca8ad3eb1"
+    },
+    {
+      "size_bytes": 319966,
+      "path": "tmp/weapon-animation-reuse/human_reload_assets_20261004_160111_428.log",
+      "sha256": "009361f3cd8d6f04bfc6dfe1df1518eaf785043950fb95d64c4b1b92b181c882"
+    }
+  ]
+}

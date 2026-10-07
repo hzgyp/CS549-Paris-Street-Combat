@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "owner": "yg745",
+  "status": "local_read_only_audit_not_release_or_native_runtime_acceptance",
+  "vfx": {
+    "file_count": 68,
+    "size_bytes": 78239739,
+    "package_root": "/Game/MsvFx_MuzzleFlash_Pack",
+    "header_version_clues": [
+      "4.26.2",
+      "4.26.0"
+    ],
+    "files": [
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Blueprints/BP_Ak47_Shot.uasset",
+        "size_bytes": 110575,
+        "sha256": "30f65db23bd8287ed6e4ab3c2af412cdff4d44ef096b28415e4e85b2ebe8a76c"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Maps/TestMap.umap",
+        "size_bytes": 132369,
+        "sha256": "6daec3498b4b56a1f82f6d84a2c6c931c7af2849777c49746aaa1fa374098a8f"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Maps/TestMap_BuiltData.uasset",
+        "size_bytes": 1226749,
+        "sha256": "c91ed06bd8d2caaf7a1f28dd1b3495540081dfc47ec79eab53d46bfcb300ad2b"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_HiveShot_762MM.uasset",
+        "size_bytes": 1484065,
+        "sha256": "14e1a6e5dfdb52e2b6d2cec5bb67923801a01d24cf949badd8a8c98050047ba8"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_HiveShot_9MM.uasset",
+        "size_bytes": 1483977,
+        "sha256": "65a22d66483a334633fac76d07695bda2610323401d18c2900e8499f71048fc0"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_HiveShot_Shotgun.uasset",
+        "size_bytes": 1496565,
+        "sha256": "c3019bd83977dacfe70cfad04e93979ceafb872e80ce4cda911b31bd338eed7f"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_Riffle_MuzzleFlash_01.uasset",
+        "size_bytes": 1816513,
+        "sha256": "781066089af14f70e7e822dfafdfc2c0df1b0111ff0607ec657dc34254f33951"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_Riffle_MuzzleFlash_02.uasset",
+        "size_bytes": 2269754,
+        "sha256": "5383a0897c8f38b51b0fed0a696d6c23b8ad5c4903a89988838a065d24193c17"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_Riffle_MuzzleFlash_03.uasset",
+        "size_bytes": 2796340,
+        "sha256": "d087ebb589912d351473d981f96ee1cb4e57b7c44f14c495f8c880d19a913277"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_Riffle_MuzzleFlash_04.uasset",
+        "size_bytes": 2796340,
+        "sha256": "736c613c5b54cd3f7c5fa7fef2a7e3c961b8d5b049ab241d0f73c075d7c61691"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_Shotgun_Muzzle_Flash_01.uasset",
+        "size_bytes": 2414367,
+        "sha256": "c34457e3bb93bae817e9b01cd6149a3c994f40a549cfea4299a6877f4192710c"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_Shotgun_Muzzle_Flash_02.uasset",
+        "size_bytes": 2409413,
+        "sha256": "fe410044c5a8044dd2118095d0e9c41cbdd7401f4dfe522565ed3f6c15153e5d"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Prefabs/Niagara_Shotgun_Muzzle_Flash_03.uasset",
+        "size_bytes": 2515148,
+        "sha256": "e650e67ed4fba1b882c4bf25c93b68bdfb9d436115948471a333a20679b3526e"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Animation/Anim_Ak_47.uasset",
+        "size_bytes": 83865,
+        "sha256": "b3ff796b051fb1e26f1a7694922b3851a753be8f0ec737a368782188e183eecc"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Bullet_Casing_762MM.uasset",
+        "size_bytes": 87746,
+        "sha256": "c30cbf0e0161d5cb9407e203a68645aa33a2fe4a2e5f12b81e77aaa803a754e1"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Bullet_Casing_9MM.uasset",
+        "size_bytes": 75031,
+        "sha256": "3fcfdbec908914dd5ccae4cbdd542203cad59b962e49d49872b0138cf8c83295"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Bullet_Casing_Shotgun1.uasset",
+        "size_bytes": 83425,
+        "sha256": "9f53949ca119b32757a339ddac5e0ff49ec930caf6879822a504c8a26e185953"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Bullet_Casing_Shotgun2.uasset",
+        "size_bytes": 87185,
+        "sha256": "5ff94d244b03c4339b36099a1089ce3010a6d6f5f89c3cafd81a05feabed33a4"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Ground.uasset",
+        "size_bytes": 99504,
+        "sha256": "c9e5b84ee39a6312e18c1a096ef0180d66330448e90297c9fb28d918584b9166"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Guns.uasset",
+        "size_bytes": 89909,
+        "sha256": "40f4450277cfdde059a89d7d5ae1dba5e917a05cf4f15fc722c12dcc95a2e769"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Muzzle_Flash_01.uasset",
+        "size_bytes": 85410,
+        "sha256": "112e70ad3bc90865cb8cda63820220e5616c443a8ffb77f176f2c04954f45bd6"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Muzzle_Flash_02.uasset",
+        "size_bytes": 85325,
+        "sha256": "5e34093b0e4cbef1fb835aa50585510b5e6559be6cf182acc7833ead2c92d527"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Muzzle_Flash_03.uasset",
+        "size_bytes": 86579,
+        "sha256": "8b6716580a34559472cc2d0b7938c0dd506548b99f40f7878a9d78c76c1353db"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Muzzle_Flash_04.uasset",
+        "size_bytes": 84331,
+        "sha256": "c56d74f4b5b5b5ac7fb13e18cbd903f2a398085e5ac3cdfad34269595586eb5c"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Muzzle_Flash_05.uasset",
+        "size_bytes": 88447,
+        "sha256": "bcd5495f1b1c42d80eb9271e86c1327248eb9ac2ae6b51ae07639acf67da5f86"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Muzzle_Flash_05_Shotgun.uasset",
+        "size_bytes": 91896,
+        "sha256": "89b131a640b5e87e20d1c3cbdec1ef89e0aae7eb22665848337c2cdf73cca7a9"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_MuzzleSmoke_01.uasset",
+        "size_bytes": 87584,
+        "sha256": "7189dfcce93746be1d5688812587664a52102c234ffd9c7f57bae3f8a7150fce"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/InstanceMTL/MI_Pyro_01.uasset",
+        "size_bytes": 74091,
+        "sha256": "0bb10aa0e30b99874ccb4fb1324578396351f21ca592a28538c08fe40df4fc95"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/MasterMTL/M_Ak47.uasset",
+        "size_bytes": 144304,
+        "sha256": "6ffd19a1e6d396c8939430b98b8a92e1c42837f5256b03767e59704719912c67"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/MasterMTL/M_BulletCasing.uasset",
+        "size_bytes": 100092,
+        "sha256": "b2c0702cc82c48f83387bf77cba1c07d3ea697d237551f0f55526b186acd59ca"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/MasterMTL/M_DefaultMesh_MTL.uasset",
+        "size_bytes": 78597,
+        "sha256": "97e9e1fc7f676ce12c71cb83695762045dd6205a9dd22a9c695792ec6fd63fcb"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/MasterMTL/M_Ground.uasset",
+        "size_bytes": 102022,
+        "sha256": "a183666a6561013d85c91cb26a4a0b42e633a4e9a40cb3bcd472be18149226af"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/MasterMTL/M_Guns.uasset",
+        "size_bytes": 91909,
+        "sha256": "0966a3517e2129635d3dbd7eaac06dfe7b5b89ac3d116f2fa4f4c51b84272a6d"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/MasterMTL/M_Muzzle_Flash.uasset",
+        "size_bytes": 143936,
+        "sha256": "b59c0dba7469f3d59ad90984276587b17620117f0785b2ef8bb7d85e7db4d7a9"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/MasterMTL/M_MuzzlePyro.uasset",
+        "size_bytes": 104084,
+        "sha256": "3c6ef27a12624c3f5f4a3ef7833f90735cbd56ce6ae410259f9ec03e19b978a4"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Materials/MasterMTL/M_MuzzleSmoke.uasset",
+        "size_bytes": 98781,
+        "sha256": "62812a8791bf52c3cb1694a486b1cbd2bb48c3dc57d5d03075ad84822bee2433"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/Guns/SM_AK47.uasset",
+        "size_bytes": 221224,
+        "sha256": "2fb3c39e3938966cb607bed4974bb3a35a7a376ad90feb3bf2c9c909b9f68cfe"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/Guns/Sm_M1_carbine.uasset",
+        "size_bytes": 576091,
+        "sha256": "3fef484199171c51cbcae18c99ebfd2f9125188c3eda4b49f54ce8f142aaa6c0"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/Guns/Sm_M4.uasset",
+        "size_bytes": 350217,
+        "sha256": "fe0206e20b6f9bc7d855a69e279cf8167662468f10a031508326bf43b72cf3fe"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/SM_bullet_casing_762mm.uasset",
+        "size_bytes": 129068,
+        "sha256": "2653b95cb243364691bae54937f2bb8d2ee7e70a7da8c6f1ce8e0bd341d4085c"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/SM_bullet_casing_9mm.uasset",
+        "size_bytes": 157372,
+        "sha256": "bd7514ef7c4715c7c139ed3dfce46cea809da40f9f5ebbb078b220d2a9e1d3d9"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/SM_Bullet_Casing_Shotgun.uasset",
+        "size_bytes": 94523,
+        "sha256": "9ecaa2c37a540fb14a6ac318bf56e77645525403d009f98864198904f41394e8"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/Sm_Root_Muzzle_Flash_0.uasset",
+        "size_bytes": 75191,
+        "sha256": "6cd0f2b16363902f9f407a01994fbf6d03c8e589fb4963792e1c9b09275dda5c"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/Sm_Root_Muzzle_Flash_04.uasset",
+        "size_bytes": 79485,
+        "sha256": "d35bde9794d4852ea3625079c958e840252f381a0bd1b496442fcf4ae213007d"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/Sm_Root_Muzzle_Flash_Radial_01.uasset",
+        "size_bytes": 79905,
+        "sha256": "65ae4f74bd73740e9e7b9b1ee1c8fafa6632167b2bfe027621f4e997a3804ad1"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Meshes/Sm_Small_Muzzle_Flash_01.uasset",
+        "size_bytes": 74616,
+        "sha256": "5be2db32c2a132b0c66aaba51a8fc231936adee04a471dbbdb6c3fefba52a345"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Skeleton_Mesh/PA_Ak_47.uasset",
+        "size_bytes": 82718,
+        "sha256": "2b42154f46cac7b73a2f5cbee6cf9117bbdd352772b1087b62c3f9f82dce231f"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Skeleton_Mesh/SK_Ak_47.uasset",
+        "size_bytes": 950379,
+        "sha256": "515a05e753b5ef9747f02b9a05523f544ac53f4eae61bea5db17eac007a7c1ac"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Skeleton_Mesh/SM_Ak_47.uasset",
+        "size_bytes": 2159,
+        "sha256": "071d021033e89cf1e175edbffad09dfc2c5dceea49efe6c8a0729089880cdaaf"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Flash_T/T_Flash_01.uasset",
+        "size_bytes": 724471,
+        "sha256": "aec239bd8c85686b32ba77728e6f1aa0e9a43d90457e193f79be0e1951bd5dba"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Flash_T/T_Flash_04.uasset",
+        "size_bytes": 1070078,
+        "sha256": "7dda9229ddc396703a2f7a9fa673ac4fba9fc11e05795b8113df7f322df7dbe9"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Flash_T/T_Flash_Mask_02.uasset",
+        "size_bytes": 808336,
+        "sha256": "8f132ad6a8f555a7d04bbefe3b8896cc3ed7ac27d0fe4b6d3ce028da288af180"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Flash_T/T_Flash_Mask_03.uasset",
+        "size_bytes": 446501,
+        "sha256": "7651de3d3cf3e943f1378c9a4fb2ca4539fbe50a337a675e98ded0397d3f364e"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Flash_T/T_Flash_Mask_04.uasset",
+        "size_bytes": 734594,
+        "sha256": "90176df4aae28c4e59b3c02d95659785ce5b0795fc460b19e72157a1f598a341"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Flash_T/T_Flash_Mask_05.uasset",
+        "size_bytes": 681074,
+        "sha256": "ef82e765abc74b455922925a9f84df02bfde231167048b2ea4ae721fb1a399d9"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Guns/AK47/T_AK47_albedo.uasset",
+        "size_bytes": 4998436,
+        "sha256": "e0a5b5868445e8872955d08fc52f838e98008dc5c8c43ff2ff184afa3b778769"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Guns/AK47/T_AK47_ao.uasset",
+        "size_bytes": 1302167,
+        "sha256": "6e84b28d912414f13394adab76fc9e7a45ef20f4632a8de622c00f61811e511f"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Guns/AK47/T_AK47_metalness.uasset",
+        "size_bytes": 1327908,
+        "sha256": "d5983540290a06b425373fd5bb385ff2db2d3353a63100110188a29b1159cf1f"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Guns/AK47/T_AK47_normal.uasset",
+        "size_bytes": 3690685,
+        "sha256": "b58aee56160f403dc8381d87e722ce8b755875db2ada06a1eb484a60c09bf36c"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Guns/AK47/T_AK47_roughness.uasset",
+        "size_bytes": 3499503,
+        "sha256": "ef7dfdb0e42fc455b9f513e78d9fd2472ac5a06b97842d042f6ef4b56bd01c73"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Noise/T_Cloud_Mask.uasset",
+        "size_bytes": 88266,
+        "sha256": "bbee3c4ecface38b6293c9495a13dad3e72737ecd3a6d381784b212476d89cc2"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Noise/T_cloud_rgba.uasset",
+        "size_bytes": 359083,
+        "sha256": "ec7b308bd877495fe2cfdbba2e1e45c3348e7810a1d64141dfcfae5741a97fff"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/Noise/T_Noise_Cloud.uasset",
+        "size_bytes": 5684039,
+        "sha256": "66a9e0045a2f8ea5b906ba98c1dfb66ff81f505365b29f4c54321d63da8e2642"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/SpriteSheet/T_Exp_3x10.uasset",
+        "size_bytes": 7406911,
+        "sha256": "47834890e44e033dea3b5f1b8fea1bc4db4eae55cd23572a0225a2edb1349a6a"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/SpriteSheet/T_Exp_7x10.uasset",
+        "size_bytes": 12494365,
+        "sha256": "dec6cfeb73c1f0904c0333ae52ebec9f058c181e5dfaa84c8d08e800a64a5f6e"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/SpriteSheet/T_Smoke_sprite_sheet_6x5.uasset",
+        "size_bytes": 1647500,
+        "sha256": "2408a8e9a004869ec9264489b308053be4ca0e754f9a2bb0b2d8595bf5794d96"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/SpriteSheet/T_Smoke_sprite_sheet_N_6x5.uasset",
+        "size_bytes": 2796938,
+        "sha256": "7148570ebaef9d69f308a70b1fed7fbedfa94bf069b9075809092d6cf0440b62"
+      },
+      {
+        "path": "Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/Sources/Textures/SwrilMaps/T_Swirlmap.uasset",
+        "size_bytes": 499708,
+        "sha256": "70e2197e771debd4be88ee17c1aa686b0786ad545b40b4fc12cdad23e6d08b8c"
+      }
+    ]
+  },
+  "duplicate_animation": {
+    "intake_path": "Assets/LocalWorking/Intake/2026-10-04/02_Firearm_Animations",
+    "delivery_files": 301,
+    "delivery_bytes": 473848190,
+    "original_manifest": "Assets/Sync/manifests/rifle-animset-pro-original.json",
+    "original_manifest_sha256": "88c190397e6b08f02fe8c8c9db257991bcffeb7f398164a38b171f9b72a0f9c6",
+    "old_files_rehashed": 300,
+    "new_native": 298,
+    "old_native": 298,
+    "sha_exact_native": 298,
+    "changed_native": 0,
+    "new_native_only": 0,
+    "old_native_only": 0,
+    "source_zip_sha256": "9f0ddce451b29187eeccc86302137e7ee233e3ffd99f9a4bb7f4b36ec4bbc935",
+    "source_zip_also_exact_duplicate": true,
+    "zip_fbx_members": 324,
+    "zip_expanded_bytes": 697727824,
+    "zip_crc_passed": true,
+    "prior_exact_motion_inventory": 277,
+    "prior_motion_inventory_not_new_playback": true,
+    "conclusion": "No new motions; native and FBX source delivery repeats existing RifleAnimsetPro; packaging differs"
+  },
+  "evidence": {
+    "path": "Assets/LocalWorking/Validation/2026-10-04-xianyu-intake-v1/Audit/intake_audit.json",
+    "size_bytes": 478065,
+    "sha256": "c8497e1d626a42d6c142fc6a184678ff8dd73cdd14416b52e6840b51f1c6d8b5"
+  },
+  "protected_412_inputs_unchanged": true,
+  "new_vfx_sharing_rights": "unconfirmed",
+  "engine_launched": false,
+  "deleted_files": [],
+  "original_assets_changed": false,
+  "sftp_published": false
+}

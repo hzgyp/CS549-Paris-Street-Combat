@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-04",
+  "status": "stopped",
+  "reload_visual_gate": "failed",
+  "recoil_native_authoring": "two_engine_crashes_no_saved_package",
+  "no_automatic_rerun": true,
+  "requires": "New documented mechanism and user direction; preserve this failure evidence."
+}

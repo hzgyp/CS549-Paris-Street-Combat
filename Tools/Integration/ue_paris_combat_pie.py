@@ -36,6 +36,16 @@ current = json.loads((ROOT / 'Assets/Integration' / checkpoint_name).read_text()
 aim_preview = os.environ.get('CS549_PLAYER_AIM_PREVIEW') == '1'
 arms_preview = os.environ.get('CS549_CONTINUOUS_ARMS_MUZZLE_PREVIEW') == '1'
 native_preview = os.environ.get('CS549_CONTINUOUS_ARMS_NATIVE_TEST') == '1'
+actions_preview = os.environ.get('CS549_ACTIONS_NATIVE_TEST') == '1'
+assert not actions_preview or native_preview
+expected_player_name='BP_PCParisPlayerV1_C'
+expected_view_name='BP_PC_ContinuousArmsNativeV1_C'
+if actions_preview:
+    sys.path.insert(0,str(Path(__file__).parent))
+    from ue_player_actions_stage import action_records,stage_actions_actor
+    action_files=action_records()
+    expected_player_name=action_files[0]['package'].rsplit('/',1)[1]+'_C'
+    expected_view_name=action_files[1]['package'].rsplit('/',1)[1]+'_C'
 arms_trial = near_blocker = None
 assert not (aim_preview and arms_preview), 'Use one transient diagnostic mechanism'
 assert not (native_preview and (aim_preview or arms_preview)), 'Native test cannot use Python display adaptation'
@@ -59,6 +69,7 @@ if arms_preview:
     guarded.update({f['path']:f['sha256'] for f in arms_records()})
 if native_preview:
     f=native_record();guarded[f['path']]=f['sha256']
+if actions_preview:guarded.update({f['path']:f['sha256'] for f in action_files})
 assert guarded[fixed['saved_file']['path']] == fixed['saved_file']['sha256'], 'Changed shot graph needs a documented new regression checkpoint'
 for file in (STORE / 'Content/WW2City/Maps').glob('*.umap'):
     guarded[file.relative_to(ROOT).as_posix()] = hashlib.sha256(file.read_bytes()).hexdigest()
@@ -225,7 +236,7 @@ def tick(delta):
             controller = unreal.GameplayStatics.get_player_controller(world, 0)
             roster = [a for a in unreal.GameplayStatics.get_all_actors_of_class(world, unreal.Character)
                       if a.get_class().get_name().startswith('BP_PCParis')]
-            assert len(roster) == 6 and player.get_class().get_name() == 'BP_PCParisPlayerV1_C'
+            assert len(roster) == 6 and player.get_class().get_name() == expected_player_name
             enemy = min((a for a in roster if prop(a, 'TeamId') == 1), key=lambda a: (a.get_actor_location()-player.get_actor_location()).length())
             ally = next(a for a in roster if a != player and prop(a, 'TeamId') == 0)
             weapon = prop(player, 'WeaponAppearance')
@@ -273,9 +284,12 @@ def tick(delta):
                     assert expected_anim in mesh.get_anim_instance().get_class().get_path_name()
                     w = prop(a, 'WeaponAppearance')
                     if native_preview and a == player and checkpoint_name == 'CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json':
-                        native_actors=[n for n in unreal.GameplayStatics.get_all_actors_of_class(world,unreal.SkeletalMeshActor) if n.get_class().get_name() == 'BP_PC_ContinuousArmsNativeV1_C']
+                        native_actors=[n for n in unreal.GameplayStatics.get_all_actors_of_class(world,unreal.SkeletalMeshActor) if n.get_class().get_name() == expected_view_name]
                         assert len(native_actors)==1
                         w=prop(native_actors[0],'WorldGun')
+                        if actions_preview:
+                            w=next(g for g in unreal.GameplayStatics.get_all_actors_of_class(world,unreal.StaticMeshActor)
+                                   if g.get_class().get_name()=='BP_PC_RifleAttachmentV3_C' and prop(g,'Combatant')==a and prop(g,'GripMesh')==mesh)
                     expected_weapon = 'BP_PC_PlayerRifleAimV4_C' if aim_preview and a == player else 'BP_PC_RifleAttachmentV3_C'
                     assert w.get_class().get_name() == expected_weapon
                     grip = prop(w, 'GripMesh')
@@ -306,7 +320,7 @@ def tick(delta):
                 if native_preview:
                     if arms_trial is None:
                         if checkpoint_name == 'CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json':
-                            existing_actors=[n for n in unreal.GameplayStatics.get_all_actors_of_class(world,unreal.SkeletalMeshActor) if n.get_class().get_name() == 'BP_PC_ContinuousArmsNativeV1_C']
+                            existing_actors=[n for n in unreal.GameplayStatics.get_all_actors_of_class(world,unreal.SkeletalMeshActor) if n.get_class().get_name() == expected_view_name]
                             assert len(existing_actors)==1
                             existing=existing_actors[0]
                         else:
@@ -446,5 +460,7 @@ def tick(delta):
 
 unreal.EditorPythonScripting.set_keep_python_script_alive(True)
 callback = unreal.register_slate_post_tick_callback(tick)
+if actions_preview:
+    report['action_staging'],_,_=stage_actions_actor()
 checkpoint()
 levels.editor_request_begin_play()

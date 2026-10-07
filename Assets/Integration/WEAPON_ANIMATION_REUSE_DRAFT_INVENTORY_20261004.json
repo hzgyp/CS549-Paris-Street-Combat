@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "owner": "yg745",
+  "status": "stopped_failed_reload_visual_and_recoil_native_authoring",
+  "canonical_map_unchanged": true,
+  "canonical_map_sha256": "2791b4a7f76b4b3d07f42286b6ad0156c3a185c2e3e795fa2446aaac0ad68519",
+  "protected_file_count": 507,
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Animation/WeaponAnimationReuseV1/IK_PC_D059SourceV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAnimationReuseV1/IK_PC_D059SourceV1.uasset",
+      "size_bytes": 60583,
+      "sha256": "c15e4b886061da6e3444d78e25d551df8bfcd328fc65b12c07c59dc43b3891e6",
+      "selection": "unselected_failed_visual_gate"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/WeaponAnimationReuseV1/IK_PC_D059AlliedV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAnimationReuseV1/IK_PC_D059AlliedV1.uasset",
+      "size_bytes": 63515,
+      "sha256": "244a97b90e0fb034f6ea69106a1573d9904c621df50a3548633b85b1f4f6253b",
+      "selection": "unselected_failed_visual_gate"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/WeaponAnimationReuseV1/RTG_PC_D059AlliedV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAnimationReuseV1/RTG_PC_D059AlliedV1.uasset",
+      "size_bytes": 17991,
+      "sha256": "0ee30163c5922160f2917b340829da52429673f5cd74a9ed35b91b8ee33dfd70",
+      "selection": "unselected_failed_visual_gate"
+    },
+    {
+      "package": "/Game/ParisCombat/Animation/WeaponAnimationReuseV1/AS_PC_D059AimReloadV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAnimationReuseV1/AS_PC_D059AimReloadV1.uasset",
+      "size_bytes": 573059,
+      "sha256": "ce6fac6314e010d9d7800b016929c92395604eb766fa1f21bf9e73d5f718ea39",
+      "selection": "unselected_failed_visual_gate"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/WeaponAnimationReuseV1/BP_PCParisAnimationPlayerV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/WeaponAnimationReuseV1/BP_PCParisAnimationPlayerV1.uasset",
+      "size_bytes": 153575,
+      "sha256": "4eb60c3f6dadf407617f2ea46f904b855b5703b5034926ded8b46985509199fd",
+      "selection": "unselected_failed_visual_gate"
+    }
+  ],
+  "files_remain_in_place": true,
+  "automatic_restore_authority": false,
+  "catalog_selected": false,
+  "immutable_release_created": false,
+  "functional_regression_run": false,
+  "recoil_native_package_saved": false,
+  "old_reload_original_deleted": false,
+  "old_reload_binding_withdrawn_in_failed_candidate_only": true,
+  "failure_case": "Failures/AN001-20261004-existing-weapon-animation/FAILURE_ANALYSIS.md",
+  "evidence_root": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1",
+  "stopped_author_identities": [
+    "author_owner_v1",
+    "author_owner_v2"
+  ],
+  "review": "Six valid frozen reload phases captured; actual visual rejection, not continuous-motion acceptance."
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "AN005",
+  "date": "2026-10-04",
+  "status": "local_numeric_improvement_actual_view_failed_stopped_unselected",
+  "user_authorized_scope": "One new FP copy shoulder/underarm sleeve weight experiment only",
+  "selected": false,
+  "restore_authority": false,
+  "native_files_moved_or_deleted": false,
+  "retained_private_evidence_root": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5",
+  "evidence_identities": ["sleeve_weights_offline_v1", "sleeve_weights_offline_v2", "sleeve_weights_validate_v1", "sleeve_native_import_v1", "sleeve_native_views_v1", "sleeve_native_views_v2"],
+  "exclusive_native_files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Characters/ReloadRepairV5/SK_PC_SleeveWeightsV5.uasset",
+      "size_bytes": 1507491,
+      "sha256": "f410b25766bb718c77b182b5e238ec48b6fc1b2593c5455cf3462c97ed9430d5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Characters/ReloadRepairV5/SK_PC_SleeveWeightsV5_Skeleton.uasset",
+      "size_bytes": 22614,
+      "sha256": "51082e31afe0b520e2ce6e51b3cbc8884cbb64e5e1297cfa7f8aa2a26e116848"
+    }
+  ],
+  "export_records": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5/sleeve_weights_offline_v2/result.json#artifacts",
+  "combined_guard_snapshot": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadRepairV5/checkpoint_v1/guards.json",
+  "draft_inventory": "Assets/Integration/RELOAD_REPAIR_V5_DRAFT_INVENTORY_20261004.json",
+  "guard_count": 522,
+  "source_geometry_rig_finger_camera_transactions_modified": false,
+  "new_copy_local_weights_modified": true
+}

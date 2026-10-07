@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-03",
+  "status": "partial_joined_front_verified_receiver_skin_stopped_not_selected",
+  "purpose": "Private LocalWorking experiment, NOT SFTP/Catalog/production/teammate restore authority",
+  "plan": "Docs/Development/GERMAN_RIFLE_MANUAL_V9.md",
+  "result": "Docs/Development/GERMAN_RIFLE_MANUAL_RESULT_20261003.md",
+  "failure_case": "Failures/GP008-20261003-kar98k-manual-skin/FAILURE_ANALYSIS.md",
+  "cloud_calls": 0,
+  "credits_spent": 0,
+  "ue_or_m1_changes": false,
+  "native_files_guarded": 50,
+  "prior_private_files_guarded": 414,
+  "prior_source_files_guarded": 59,
+  "m1_reference_files_guarded": 4,
+  "triangles": 296719,
+  "meshes": 5,
+  "candidate": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/Kar98k_ManualFront_V9.glb",
+  "glb_sha256": "1232612899a1ede8de05db3e8d6ebb3694b15fd5f3d4fa07a335399ce97d771a",
+  "clean_rebuild_glb_byte_exact": true,
+  "generated_pngs": 32,
+  "actual_reviewed_pngs": 28,
+  "actual_reviewed_png_paths": [
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/muzzle.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/muzzle_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/muzzle_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/whole_left.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/whole_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/whole_bottom.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/muzzle.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/muzzle_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/muzzle_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/muzzle_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/whole_left.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/whole_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/whole_bottom.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/muzzle.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/muzzle_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/muzzle_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/muzzle_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_whole_right.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_whole_left.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_whole_top.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_whole_bottom.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_quarter.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_reverse.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_top_detail.png",
+    "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_muzzle.png"
+  ],
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/assembly_gray_v1/receiver_boundary_proof.json",
+      "size_bytes": 471,
+      "sha256": "ff70e6b62f705df00af82cd4a32e2fb76d09c41ca2811a0876c9af90545b8a97"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/assembly_gray_v1/source_snapshot/receiver.py",
+      "size_bytes": 6102,
+      "sha256": "b3e8798f75390ba3b651e530a0f017d0d5976715b2e66d9a94b0bb4bea47aed4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/assembly_gray_v2/receiver_boundary_proof.json",
+      "size_bytes": 471,
+      "sha256": "ff70e6b62f705df00af82cd4a32e2fb76d09c41ca2811a0876c9af90545b8a97"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/assembly_gray_v3/receiver_boundary_proof.json",
+      "size_bytes": 471,
+      "sha256": "ff70e6b62f705df00af82cd4a32e2fb76d09c41ca2811a0876c9af90545b8a97"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/assembly_gray_v3/skin_construction_diagnosis.json",
+      "size_bytes": 370,
+      "sha256": "2b33cbafaf61d8bc21e43f884d4ed35a07018d48a271352fbd3dc07225494f8d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/Kar98k_ManualFront_V9.blend",
+      "size_bytes": 16908485,
+      "sha256": "dbfe53d7284c5293a537cbda167ec24cb832ec547ece0a32367aa1f2c6e4d617"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/Kar98k_ManualFront_V9.glb",
+      "size_bytes": 16885676,
+      "sha256": "b9de53c3aed29b1dae2a89a1a2a546e5b952d59bfaeff585e689c144105c0a9d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/metrics.json",
+      "size_bytes": 672,
+      "sha256": "e20ba97c7ab0b8591751b777d126eb1521c490b8989449acf33d0a0a696c7464"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/muzzle.png",
+      "size_bytes": 981882,
+      "sha256": "bcea8b675bd86a658a6c062cad9b513fbbd93472c8bb3e9a1b66f8ddfa43cbd4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/muzzle_reverse.png",
+      "size_bytes": 985771,
+      "sha256": "86aebc620772590d1d860af8a462ad6a0ee35254fbcaf076688cc1079d836a20"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/muzzle_right.png",
+      "size_bytes": 1005629,
+      "sha256": "754366b863320052afdc58e5c6fc3485039c72fd3e4551d29b4fefa30f44a3f6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/muzzle_top.png",
+      "size_bytes": 908320,
+      "sha256": "e5750a9308ea76c735807b9f0f8fb29d6983cf6086011f6089723a25037b4243"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/whole_bottom.png",
+      "size_bytes": 819162,
+      "sha256": "53b181e8b492108b52d42a19d6c0da25ba3dbe798784acbb7191ff23b8ad716c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/whole_left.png",
+      "size_bytes": 880249,
+      "sha256": "cc93efaf28b7607d72bf1a0509697acaac3a23b6929f85ebddbe1c28de86914a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/whole_right.png",
+      "size_bytes": 884560,
+      "sha256": "00e028f47f9ce198702320f19c0340cccedd8d283b203573ad356efc59a5fd21"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/barrel_v1/whole_top.png",
+      "size_bytes": 825992,
+      "sha256": "9536b8497a826f565de1db09bc27baccd5ff3497aeb3e5c8486d78a702df59e7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/audit.json",
+      "size_bytes": 1801,
+      "sha256": "c9f8992eda378a2e199f92449531f1abd2c64e4676a46a06fa55e3c62095488e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_muzzle.png",
+      "size_bytes": 1483751,
+      "sha256": "a5ea4993e4a14a92fa8b725f088339086f083a5c9109a0f95e857bac6ea55273"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_quarter.png",
+      "size_bytes": 1612723,
+      "sha256": "2eeee79db6cb09245cc2c4d24ff9f6e167c77de23f983ab8608f2b8131877fef"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_reverse.png",
+      "size_bytes": 1613231,
+      "sha256": "325c1c42a985a3bb06af5e2dd81226465c6635b481b594dc2ec07e32ff9d4552"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_top_detail.png",
+      "size_bytes": 1536746,
+      "sha256": "6b0e95f23878f9f7f26f5572d2e8ea7e13ca14bbb5d112e188861d1e9267a363"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_whole_bottom.png",
+      "size_bytes": 1399958,
+      "sha256": "2153d2408d56ff5805cb8147ffbad6d4c2bbf8842b28762abb15c25b7274c4b7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_whole_left.png",
+      "size_bytes": 1472742,
+      "sha256": "c5cd8b24801f191662c610fda87ec32c7f558130fa8311b05aa0e41992a56558"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_whole_right.png",
+      "size_bytes": 1466878,
+      "sha256": "57d79ca3373d600cf76ea3c0aeb20a85568bef02c39b3239577ceff0b15a4def"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/fresh_whole_top.png",
+      "size_bytes": 1431280,
+      "sha256": "18e66ee4f90fe172b6983967e71c45c6548357381f6d61ccf4c898b3f3ce3e10"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_audit_v1/FreshImportReview.blend",
+      "size_bytes": 19679904,
+      "sha256": "ace0011f463ee137062e2ca1e54d26fc89089fc086521c1588e39b03856022a0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/Kar98k_ManualFront_V9.blend",
+      "size_bytes": 19433327,
+      "sha256": "12a40f3c29a7f76460373672b4308aecff57d6d2a738ce29d33feafa9d957e46"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/Kar98k_ManualFront_V9.glb",
+      "size_bytes": 18266924,
+      "sha256": "1232612899a1ede8de05db3e8d6ebb3694b15fd5f3d4fa07a335399ce97d771a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/metrics.json",
+      "size_bytes": 672,
+      "sha256": "e20ba97c7ab0b8591751b777d126eb1521c490b8989449acf33d0a0a696c7464"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/muzzle.png",
+      "size_bytes": 1483254,
+      "sha256": "45628b658bab83fdc156e7b7b2c14555c619aabdae183ae7be3567afc1414fec"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/muzzle_reverse.png",
+      "size_bytes": 1473247,
+      "sha256": "eed43080fe7cfca1509b4c1eec83373f39716ed159c6231afb0548ae4da4e411"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/muzzle_right.png",
+      "size_bytes": 1433182,
+      "sha256": "8df21ac2aa17a32f2c94519f6f0f52be86c06cfce042fa12e9a70cd2a29f32d0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/muzzle_top.png",
+      "size_bytes": 1417898,
+      "sha256": "dea12e2ba4af2dac7a0d0266b25bdf1aa23a31376c92473359f978ffd3258842"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/whole_bottom.png",
+      "size_bytes": 1400654,
+      "sha256": "64ffe56a1bae990e87e9c99d7e8a64c2f733ee2cc51db46041289687d02ed8b2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/whole_left.png",
+      "size_bytes": 1472944,
+      "sha256": "764fbdc6fa422e22a903bfb525cff360d761842ce1bf10615db1662625a162ce"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/whole_right.png",
+      "size_bytes": 1467222,
+      "sha256": "b223e731ee3b3b0fc94d3554c148c3d50773e092e0a58c706c86def037fe5b59"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/whole_top.png",
+      "size_bytes": 1431793,
+      "sha256": "03b66884a93dcadb221e66680ca8de88b8bcb994c9b425a4f17e5a798f1da73c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/Kar98k_ManualFront_V9.blend",
+      "size_bytes": 19432812,
+      "sha256": "3f0e5238aee4334c69271ed4fe1fefa4c377f4ee984ef3faae0617883fd0fd2f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/Kar98k_ManualFront_V9.glb",
+      "size_bytes": 18266924,
+      "sha256": "1232612899a1ede8de05db3e8d6ebb3694b15fd5f3d4fa07a335399ce97d771a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/metrics.json",
+      "size_bytes": 672,
+      "sha256": "e20ba97c7ab0b8591751b777d126eb1521c490b8989449acf33d0a0a696c7464"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/muzzle.png",
+      "size_bytes": 976981,
+      "sha256": "90a90d8ee3a40536ab823194bbe5b47dd6a8612786c2e06d70e54bce54fe417b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/muzzle_reverse.png",
+      "size_bytes": 980891,
+      "sha256": "5aa11b0ec5cc4c77fef8c9be2bf1f1a274a7f02d5ef34c57331ac3165e204c69"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/muzzle_right.png",
+      "size_bytes": 999687,
+      "sha256": "715f045f8ed60e5f426471c51aad4653b5fb21318508ef6caf1046602c1a98a7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/muzzle_top.png",
+      "size_bytes": 907397,
+      "sha256": "98b72fef1fcc356be84ab9cc02008c3317174de84b3e120d6ffc492a99b7ac7d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/whole_bottom.png",
+      "size_bytes": 817833,
+      "sha256": "87af2a3948045a6c864488243e720e6522c7e5cd4553038a51367e29a18214cd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/whole_left.png",
+      "size_bytes": 879616,
+      "sha256": "c705ce91e8f436f8386838bc840270923765fd848cbdc1b9ff88975593c7795f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/whole_right.png",
+      "size_bytes": 882672,
+      "sha256": "664f1929b0e2561732cf17a294a089e6363b079848ad0bc443d50a3df820aa06"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_gray_v2/whole_top.png",
+      "size_bytes": 824134,
+      "sha256": "0f402dab08078a5b2c7dcc61a35f1edd79808ffca43b772e132a07628af4aab5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_repeat_v1/Kar98k_ManualFront_V9.blend",
+      "size_bytes": 19432763,
+      "sha256": "6a94b0d51278a43386423e110b274d7792bb307b3b376099433cf9da59cb447c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_repeat_v1/Kar98k_ManualFront_V9.glb",
+      "size_bytes": 18266924,
+      "sha256": "1232612899a1ede8de05db3e8d6ebb3694b15fd5f3d4fa07a335399ce97d771a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_repeat_v1/metrics.json",
+      "size_bytes": 672,
+      "sha256": "e20ba97c7ab0b8591751b777d126eb1521c490b8989449acf33d0a0a696c7464"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/protected_after.json",
+      "size_bytes": 2167,
+      "sha256": "1f71e493f338e72e71d34745241c83737a69d6b76fc90bf873e3d694e74bb846"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/protected_before.json",
+      "size_bytes": 2167,
+      "sha256": "1f71e493f338e72e71d34745241c83737a69d6b76fc90bf873e3d694e74bb846"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/seam_diagnosis.json",
+      "size_bytes": 13148,
+      "sha256": "654bb18d9a279178ebee8d14b29518ec586ad711996300e2b7af8cb544d4a052"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/skin_diagnosis_v1/receiver_boundary_proof.json",
+      "size_bytes": 471,
+      "sha256": "ff70e6b62f705df00af82cd4a32e2fb76d09c41ca2811a0876c9af90545b8a97"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/skin_diagnosis_v1/skin_construction_diagnosis.json",
+      "size_bytes": 370,
+      "sha256": "2b33cbafaf61d8bc21e43f884d4ed35a07018d48a271352fbd3dc07225494f8d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/skin_diagnosis_v1/source_snapshot/receiver.py",
+      "size_bytes": 6600,
+      "sha256": "9883d49f933c89d16f842808e917cb822907a16ec2374f4482eb7a008027faf2"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/assemble.py",
+      "size_bytes": 1619,
+      "sha256": "f4f2dcab286767af6add076193ed67dac7e63ec388c9e56660eede108467c503"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/audit.py",
+      "size_bytes": 4276,
+      "sha256": "b8f377a9372911391ea5c74b27107687c548611d0810d9f1511afd9ea8056c91"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/barrel.py",
+      "size_bytes": 9774,
+      "sha256": "b25118ab82eaa7b25b6bf7c7347e84e11bc83b758f629d0d541e124a5939ab8e"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/diagnose_seam.py",
+      "size_bytes": 1642,
+      "sha256": "639b2d1ff06b262ea04d1a0fefdd147fe6dea77a8d2a4a1b4640faafa08f383e"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/final_report.md",
+      "size_bytes": 2539,
+      "sha256": "8c3ca0691f8adaa0b196c3df9ea269fd859b528e961ee6e61c7afa92398684f6"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/receiver.py",
+      "size_bytes": 7751,
+      "sha256": "b49f61c34a549576c3a739c51546d8952ef7311cc334caeeab3b983a00c1e0f5"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/record.py",
+      "size_bytes": 3156,
+      "sha256": "fd13921e029936f9ca4bade7ab0d399363b01d2d7263a2f1b1e6a0fba71ab100"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/reference_notes.md",
+      "size_bytes": 2043,
+      "sha256": "2f76127e9418a1aeec3ac71ae3a3b1bdee5df01c5d47d018bfede8c6c58a028f"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/seam.py",
+      "size_bytes": 3213,
+      "sha256": "bcff87cbebd0f0dacc261c805054208cedbaa8fedaec35dd16e9e06b87b54efd"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-03",
+  "status": "partial_standalone_mechanical_candidate_not_integrated_not_selected",
+  "purpose": "Private failure evidence and analytical parts; NOT Catalog/production/teammate restore authority",
+  "parts": 24,
+  "triangles": 10104,
+  "cloud_calls": 0,
+  "credit_spend": 0,
+  "ue_or_original_rifle_changes": false,
+  "source_input": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-finish-v7/normals_v1/Kar98k_Normals_V7.blend",
+  "evidence_png_count": 37,
+  "evidence_pngs_actually_inspected": 37,
+  "result": "Docs/Development/GERMAN_RIFLE_TOPOLOGY_RESULT_20261003.md",
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/final_report.md",
+      "size_bytes": 5874,
+      "sha256": "c397d49ec0aacee06b7a0237cdaf1eb4f6c775cb2081aa4b0c0ae7719b047888"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/interface_v1/interface.json",
+      "size_bytes": 48858,
+      "sha256": "ee23c8334e584603a2b15d846e129135c89dd711d8c1fec3a71f0cfd3e542fd9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/interface_v1/proof_left_detail.png",
+      "size_bytes": 1084044,
+      "sha256": "446477d0e5cbf218333b6ce37ae33615b832bc8556c66c80b75a79e0f222e3da"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/interface_v1/proof_quarter.png",
+      "size_bytes": 1172756,
+      "sha256": "431ff1b06a6414488f8b6d17a5ec184e233ce1c36746ecdac9a778f2fe829112"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/interface_v1/proof_reverse.png",
+      "size_bytes": 1126866,
+      "sha256": "7ec6df64b9b479e564ac07a1052c2ce5426be9a7f656d496d363ec2fc2b939c8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/interface_v1/proof_right_detail.png",
+      "size_bytes": 1075403,
+      "sha256": "5b69d88df7ce52e2d5b40c45eab8b1794ab9b4f66d432f0ec17ec70d426e21e3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/interface_v1/proof_top_detail.png",
+      "size_bytes": 1011454,
+      "sha256": "d6de9a7df42bc6404c24742bd431760c6f46e94373105a58ffe788ce84f61d67"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/interface_v1/ReceiverInterfaceProof.blend",
+      "size_bytes": 19571057,
+      "sha256": "ba24fae8c0ae40a04784ce98cbc70d60a5f405351c59c49eead3a6fc79e7e339"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/intrinsic_failure_diagnosis.json",
+      "size_bytes": 4945,
+      "sha256": "315ef6c2185e8bf7d2d2296f984e8c137147acbd5e652e6402ac85706b162187"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/audit.json",
+      "size_bytes": 7911,
+      "sha256": "51efb8d9873b7db1a82f4e74cc9b154279eb413e66b4a9b7bca7ca1b1253ca30"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/fresh_all_bottom.png",
+      "size_bytes": 1368374,
+      "sha256": "7589028b60a271e428db7c71bd872c2637924cb63ef3579bef948b6eb9347adc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/fresh_all_left.png",
+      "size_bytes": 1387529,
+      "sha256": "fbf0aeab7c640d39662c29a6333b720340bb2d9f2c7d30a0468038c687dbe0ce"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/fresh_all_quarter.png",
+      "size_bytes": 1397102,
+      "sha256": "d8632687e471e53cddec0689d269048003e4c338c12a8755708315905c61c5df"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/fresh_all_right.png",
+      "size_bytes": 1384937,
+      "sha256": "e5bb457a7f468a2c29fe50270f7d96a7bfd6c76f771b6590f63518ba381cb282"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/fresh_all_top.png",
+      "size_bytes": 1369809,
+      "sha256": "a9d29dc836bdd1caa9364943dca0bbec5aee8a1f081c803e83d961e02185f95c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/fresh_muzzle.png",
+      "size_bytes": 1402680,
+      "sha256": "1aeeaad9d1bd6f1d7aa48307337f108379bd8804902728473760c3a81d4b2de1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/fresh_receiver.png",
+      "size_bytes": 1475565,
+      "sha256": "49e32c36a041c50e11696a00b05eed7e8d08cf72a15ab6a9168fa1c80892210a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_audit_v1/fresh_sight.png",
+      "size_bytes": 1477195,
+      "sha256": "8b9edd83e7a1ac0f70bd80efef7e4bc3c3e226ddc5a23910e124964e319cc612"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/all_bottom.png",
+      "size_bytes": 761505,
+      "sha256": "1f5016025b5fc1ecb7b7b075bb8737ec088fffe235171ca0b7a065ed981697bc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/all_left.png",
+      "size_bytes": 767020,
+      "sha256": "4ca87ae7c646f7f55313ca3671ea46155386553aa5f0682e9ea9e08a9dae2ab8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/all_quarter.png",
+      "size_bytes": 769530,
+      "sha256": "aafc3debdd19ba253652a20f3dd2ed4a18f3bbe36d2e4a1140e7f3c25d835cee"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/all_right.png",
+      "size_bytes": 764768,
+      "sha256": "5bd137ad9d9ff3b1a2907be484cb4781abf1eb0a609899265e309a0d5a559505"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/all_top.png",
+      "size_bytes": 762038,
+      "sha256": "68bcfda049b87b533b5fc809ca5d88d4f9e76778a4b028228c203af8dc1973b2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/Kar98k_StandaloneMechanical_V8C.blend",
+      "size_bytes": 229899,
+      "sha256": "0e07bdf5dfaa66b0152e0fa5bfd2af6ebdfa230c28fcc75d6cb49c40b8fe12dd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/Kar98k_StandaloneMechanical_V8C.glb",
+      "size_bytes": 327140,
+      "sha256": "3161ff9bb986d09a3e3d4082b59c87c11bc53cb2174f512b58115e63b5e196d2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/metrics.json",
+      "size_bytes": 14426,
+      "sha256": "cc624fb63299c825a066b614d3f8e01108b6b232dda0c108bb8167fd872e5268"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/muzzle.png",
+      "size_bytes": 947839,
+      "sha256": "6c72176dbf8b6c3b3e60dcfe5d506b0ebf95451bb4e60051a64560ef134c0a9f"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/receiver.png",
+      "size_bytes": 926672,
+      "sha256": "ff898662bf4790481527362928b29ba7715d543d5cd0d853f648d6905491e539"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/sight.png",
+      "size_bytes": 974408,
+      "sha256": "e9abc5808e0f601e48c69f82a4e9e7f91b3620a612d16ca3f312ff8765f794b9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v1/source_before_correction.py",
+      "size_bytes": 9033,
+      "sha256": "e7b7f80ca800b31b8ac1f8c1a18fd13992b6fbcd6f878f2362217765f36e3a86"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/all_bottom.png",
+      "size_bytes": 761195,
+      "sha256": "633097ca075c9d03c7c64be94edd2495a35c96af33a6e1b4f24877955252e999"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/all_left.png",
+      "size_bytes": 767339,
+      "sha256": "2b68799024944d68e37ed61da6438219c7e3bce62d26848ccaa20409c802a098"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/all_quarter.png",
+      "size_bytes": 769904,
+      "sha256": "4038e77a70c91c65eda73c5000e8ec4e0717f8ec5a9f5399cfd0109d90788e14"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/all_right.png",
+      "size_bytes": 763239,
+      "sha256": "60402121c6c2a6dfb2178c754e9d7387906c82aaf7e1b77f0a66f45a66ba8fc7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/all_top.png",
+      "size_bytes": 761646,
+      "sha256": "75004dfd61cf158471b12ce201731c69bf668bca6acaf754d70862f866b8f2f6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/Kar98k_StandaloneMechanical_V8C.blend",
+      "size_bytes": 231369,
+      "sha256": "e4d6417ccb52d1ec6da1148bfb75992f3e4be560cee07001bd40fb5a4fd2e08c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/Kar98k_StandaloneMechanical_V8C.glb",
+      "size_bytes": 330408,
+      "sha256": "6e49674ce0b0871df97951b1bd197c4cec540b7719276e174bc60b6f8a3376f4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/metrics.json",
+      "size_bytes": 15264,
+      "sha256": "8d4e8b4a042db5b27db7a3200e3dfd3ed74353f71deed45efdef8d72294fb3f9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/muzzle.png",
+      "size_bytes": 947839,
+      "sha256": "40d3d4df6809fac6f0e1f64ccad746939caddad2780f1915b4a64c8c41406151"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/receiver.png",
+      "size_bytes": 930972,
+      "sha256": "c441557a3c2646fa9253ab8f35e194496cde8bb8a1e8193bc25441d33c7399b8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_clay_v2/sight.png",
+      "size_bytes": 972978,
+      "sha256": "a41b11e3e7507e81c60e53203ca5fcf67db626a8c603f12bffa16b84e9735d27"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/all_bottom.png",
+      "size_bytes": 1368458,
+      "sha256": "65f4c350112aeaf83690a5fc2c070b5041e76e74ecbf60782456c33889a610e6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/all_left.png",
+      "size_bytes": 1387611,
+      "sha256": "84e443568049cd684d872f50ee623b3ce5114555fcc0fdfaf9fa94007974c2e9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/all_quarter.png",
+      "size_bytes": 1396841,
+      "sha256": "74894f3c7aadd31089673847564ae8c9eed0e90f6402103eb2865e2fb51f5ed9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/all_right.png",
+      "size_bytes": 1384273,
+      "sha256": "1f326889aa5a711467661d3441853e848dea9232b20249b016a9a4aa76dd20c4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/all_top.png",
+      "size_bytes": 1369619,
+      "sha256": "bd56e486c9ca5e193ba840dc4cbc475ee1b3178519e5cb20f162010166d717c6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/Kar98k_StandaloneMechanical_V8C.blend",
+      "size_bytes": 232161,
+      "sha256": "a1dc24ccb7de3e7a323e3c876fbaaf7566e08c1d44d5b400699cd18e5ce3f6a6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/Kar98k_StandaloneMechanical_V8C.glb",
+      "size_bytes": 330408,
+      "sha256": "6e49674ce0b0871df97951b1bd197c4cec540b7719276e174bc60b6f8a3376f4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/metrics.json",
+      "size_bytes": 15264,
+      "sha256": "8d4e8b4a042db5b27db7a3200e3dfd3ed74353f71deed45efdef8d72294fb3f9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/muzzle.png",
+      "size_bytes": 1402740,
+      "sha256": "5c4371d55185f4a79f3191fcb55364a843bbbec3c08f6d5da974c2d3f1e86800"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/receiver.png",
+      "size_bytes": 1475886,
+      "sha256": "046d7a5ad7c57d78856a577e00261493b70312ec267ac4b49c7bb6071be41a1e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_finish_v1/sight.png",
+      "size_bytes": 1476898,
+      "sha256": "82c062722e244700d647f752ce9ffe95cf739bf394076bd0601c0ef5e7883890"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_repeat_v1/Kar98k_StandaloneMechanical_V8C.blend",
+      "size_bytes": 232695,
+      "sha256": "bd5fda500dfc863295caf54ba1e14ce73661b0e40e60149529efba08bebfa118"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_repeat_v1/Kar98k_StandaloneMechanical_V8C.glb",
+      "size_bytes": 330408,
+      "sha256": "6e49674ce0b0871df97951b1bd197c4cec540b7719276e174bc60b6f8a3376f4"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/parts_repeat_v1/metrics.json",
+      "size_bytes": 15264,
+      "sha256": "8d4e8b4a042db5b27db7a3200e3dfd3ed74353f71deed45efdef8d72294fb3f9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/profile_measurements.json",
+      "size_bytes": 13073,
+      "sha256": "a9379d3f64b52adedf5ba10ce23e759803bb01f0b1d94a017520348ceb2c3965"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/protected_after.json",
+      "size_bytes": 2167,
+      "sha256": "1f71e493f338e72e71d34745241c83737a69d6b76fc90bf873e3d694e74bb846"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/protected_before.json",
+      "size_bytes": 2167,
+      "sha256": "1f71e493f338e72e71d34745241c83737a69d6b76fc90bf873e3d694e74bb846"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-topology-v8/work_state.json",
+      "size_bytes": 1095,
+      "sha256": "dafa51473ddb9055a60bf75d5e381bfaa3ef63dab1632c5db1caf88856f7974a"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/common.py",
+      "size_bytes": 3145,
+      "sha256": "4cc99c103e83413f41cd81b5e9098d52f858dab3ec2d40f29271d598daa6174b"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/disk_diagnose.py",
+      "size_bytes": 1787,
+      "sha256": "97f00db1b7c73cfc9e0136781aab7a5902a9d9ff0ebe3ef4365a9cff6ee3dfec"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/guard.py",
+      "size_bytes": 1800,
+      "sha256": "7f94336a37540d5a5755c9ad61f1bfd3de5421ec5a4de7aa3921514a80839f4e"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/interface.py",
+      "size_bytes": 5828,
+      "sha256": "2f8fa2312dc68fd3623f66aa18e28693444da65581ee526cb52592325abbb9c2"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/intrinsic.py",
+      "size_bytes": 2818,
+      "sha256": "a9ef0be97b8b444458870e9cc15d577c621b14aa55a0f99bb8b3d3561680bd49"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/manifest.py",
+      "size_bytes": 1906,
+      "sha256": "67fe8773bdac5d57cd3caf98b697b7f78d4ca5eeffda460a6fbebddb175e06bc"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/parts.py",
+      "size_bytes": 9438,
+      "sha256": "3762af620e37afbf6d87c2dcf6629321a8a65b1203ab225526f4600cf8bd2eb6"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/profile_probe.py",
+      "size_bytes": 1767,
+      "sha256": "5622c17f01540bcda781b6b28e8454702b0a1adad584a560d288165dc54ea34c"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/reference_notes.md",
+      "size_bytes": 1940,
+      "sha256": "cbc4151bf393ebdccdf587279610893669532d6f7027b500d8a7b52ea7b450ec"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/verify_parts.py",
+      "size_bytes": 4653,
+      "sha256": "e115cf0583d2555c4055737dcbe29a7ba0814ad1ae1373c5d943ebf5a389b4a8"
+    }
+  ]
+}

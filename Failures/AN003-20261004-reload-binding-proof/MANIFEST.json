@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "case_id": "AN003-20261004-reload-binding-proof",
+  "date": "2026-10-04",
+  "status": "stopped_visual_gate_failed_no_formal_adoption",
+  "storage": "Private bytes retained in the single workspace; no move/copy/deletion performed.",
+  "source_preview_human_accepted": true,
+  "game_target_visual_accepted": false,
+  "map_saved": false,
+  "catalog_selected": false,
+  "protected_existing_files": 512,
+  "protected_with_proof_files": 514,
+  "proof_native_bytes": 936584,
+  "entry_count": 34,
+  "files": [
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_saved_v1/result.json",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_saved_v1/result.json",
+      "size_bytes": 447989,
+      "sha256": "3cb7d49bd9b1b3ea2daee879571d1a4366c583fdeb1dc90f5abee7902e1f9aac",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_saved_v1/source.py",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_saved_v1/source.py",
+      "size_bytes": 10596,
+      "sha256": "bc894d5deda7e839f79484d3aecdc8e05959b301d0323a4e81013b3b5340e03e",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_saved_v1.log",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_saved_v1.log",
+      "size_bytes": 302047,
+      "sha256": "6b4f1cd69dd632efd7acd893554f157df7f7eb6b27b55063376efc4999c10f7e",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_saved_v1.log.exit.json",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_saved_v1.log.exit.json",
+      "size_bytes": 97,
+      "sha256": "b0e7cf18a10a06c0104fe05e1d76b7e1eed29ea76fc81712dd2e287c294b3db5",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_actions_v1/result.json",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_actions_v1/result.json",
+      "size_bytes": 642880,
+      "sha256": "616edcd927e8811885974e259730b52f05652dd6338ed91d21da23d519354960",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_actions_v1/source.py",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_actions_v1/source.py",
+      "size_bytes": 10596,
+      "sha256": "bc894d5deda7e839f79484d3aecdc8e05959b301d0323a4e81013b3b5340e03e",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_actions_v1.log",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_actions_v1.log",
+      "size_bytes": 308987,
+      "sha256": "966bcb08f7a297a8e382cdc3752d8892a52dfae9b2efc720f86e75a807aa26d8",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_actions_v1.log.exit.json",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_actions_v1.log.exit.json",
+      "size_bytes": 101,
+      "sha256": "565c11f15722c7178feff4da2f822382ee5d2df5b665bcae913372c69b1e28c6",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v1/result.json",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v1/result.json",
+      "size_bytes": 1183,
+      "sha256": "e8b498335f82e644d805f7a4d40fd02c12d6cef62aaf598ffbdfaaf662dc09f0",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v1/source.py",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v1/source.py",
+      "size_bytes": 8521,
+      "sha256": "c860497d8db8e292bb2c6ee2396b6c4760f755685d56949f61717173294bfd1c",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_proof_author_v1.log",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_proof_author_v1.log",
+      "size_bytes": 265404,
+      "sha256": "304635f8c8a9ce7545a145a73b948e2cf33fefc8074dbc1fd6bd6e03d174a0b1",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_proof_author_v1.log.exit.json",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_proof_author_v1.log.exit.json",
+      "size_bytes": 104,
+      "sha256": "1292b6423bacf7a214d82ea459e28d3844654dd6c9b99161fc0908ebc59f1ecc",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v2/result.json",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v2/result.json",
+      "size_bytes": 1678,
+      "sha256": "d20af4313eecd6afbb5e98521088ee08e2fd779f65b9b6b74a79633df959b6e6",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v2/source.py",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v2/source.py",
+      "size_bytes": 8557,
+      "sha256": "0418271ca9fe465a0794586a6264cef67805f64ef921f750ef5d1fec4c2c7910",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_proof_author_v2.log",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_proof_author_v2.log",
+      "size_bytes": 288936,
+      "sha256": "0a856a8158e286a7ed78050f5801497e91d8a23bf9a9fc49b4a2760db445c671",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_proof_author_v2.log.exit.json",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_proof_author_v2.log.exit.json",
+      "size_bytes": 104,
+      "sha256": "ab0c4034d3c67ea699795b6809c0e3a446017b48b04df7f04ea452abc3e0391c",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v1/holding.png",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v1/holding.png",
+      "size_bytes": 1865744,
+      "sha256": "bf7e018114fdfa2979d6b59428b22d3109096f05c0068097b8fbf5bc6d79da7d",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v1/result.json",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v1/result.json",
+      "size_bytes": 39540,
+      "sha256": "6c20c32ae8333c712df5cecb782e5a813b480ec2a8e59d38b7dabf7f20bd77a2",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v1/source.py",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v1/source.py",
+      "size_bytes": 10064,
+      "sha256": "37b8e59a7285b439492e0aef376b7ca370fa2c66137ef4fa0b837106dd907255",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_proof_views_v1.log",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_proof_views_v1.log",
+      "size_bytes": 383767,
+      "sha256": "736d0b54f5e74c977371a2f7bb6abff05fc3f624f461ecd716d28d2b08d884b3",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_proof_views_v1.log.exit.json",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_proof_views_v1.log.exit.json",
+      "size_bytes": 103,
+      "sha256": "de59623df1531f903037797324ad51416c0bd67042ce0c15ecd8b28130403731",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/holding.png",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/holding.png",
+      "size_bytes": 1927374,
+      "sha256": "3c696e21e115842254756bd237385b744de69851d5e7db74cf94ae5af1f8e9be",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_finish.png",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_finish.png",
+      "size_bytes": 1966813,
+      "sha256": "66a6799b97f8dd6c84fd4e3f1e031efc37fa3965c420131c7672af987c9427ee",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_operate.png",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_operate.png",
+      "size_bytes": 2015363,
+      "sha256": "08d490535ca3a800868d6e77881f9662570e4f94109e59b27f9bb21a5e64c67b",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_return.png",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_return.png",
+      "size_bytes": 2002969,
+      "sha256": "a19a5835d19f24fbd55349f5a8727303135a49abb7fb00f9803590366d9b9281",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_start.png",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_start.png",
+      "size_bytes": 1940055,
+      "sha256": "28a766b07dd8fe1ea6d09632c9c8ae94083c1fe3ffe7a3798cdf172a6cb6f50e",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_take.png",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reload_take.png",
+      "size_bytes": 2053886,
+      "sha256": "5e227168d69fe76c6189673667783e64a77e3c5dc6d327aa9e51f077a1c6ee95",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reset_ready.png",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/reset_ready.png",
+      "size_bytes": 1980900,
+      "sha256": "26bdbd71943c1a359d2a3314f07766c51668159e92a9088e854354cc13bd1b1b",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/result.json",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/result.json",
+      "size_bytes": 69442,
+      "sha256": "b882d5966d76811055a7d43227732e80d25acb25cef72c100004af21ca5023be",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/source.py",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/source.py",
+      "size_bytes": 10497,
+      "sha256": "5d346a9fcc6f17e2a3df171213137236f0d9c059023cb63aee724d81c7d3e640",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_proof_views_v2.log",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_proof_views_v2.log",
+      "size_bytes": 381036,
+      "sha256": "20516184ac7d62fd6519b5f03b1a85c56825a3bdb04a9a2ab16a8e7e96a3e237",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "tmp/reload-contact-binding-v3/binding_proof_views_v2.log.exit.json",
+      "retained_path": "tmp/reload-contact-binding-v3/binding_proof_views_v2.log.exit.json",
+      "size_bytes": 103,
+      "sha256": "d3e08d1dce5eb694d1d89b7ce8d01b45fd91a19b3dc4b4db07fe07bd01793acb",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadApprovedV4/BP_PCReloadGunProofV4.uasset",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadApprovedV4/BP_PCReloadGunProofV4.uasset",
+      "size_bytes": 83714,
+      "sha256": "ebd2cf238906ef33368143cd7346fc4839d889812805b66a5edeeed66fd6f470",
+      "status": "retained_in_place_private"
+    },
+    {
+      "original_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadApprovedV4/BP_PCReloadOwnerProofV4.uasset",
+      "retained_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadApprovedV4/BP_PCReloadOwnerProofV4.uasset",
+      "size_bytes": 852870,
+      "sha256": "452d5f317e490eb25883abfab19a0d884cf490635cc93835c1ee65aa7481e19b",
+      "status": "retained_in_place_private"
+    }
+  ]
+}

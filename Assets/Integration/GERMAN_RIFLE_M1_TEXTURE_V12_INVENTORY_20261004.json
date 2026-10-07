@@ -1,0 +1,553 @@
+{
+  "schema": "private-modeling-draft-v1",
+  "date": "2026-10-04",
+  "purpose": "V12 M1 surface-transfer evidence only; NOT CATALOG/release/restore authority",
+  "user_visual_approval": false,
+  "shared": false,
+  "historical_approval": false,
+  "runtime_approval": false,
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/audit_v1/audit.json",
+      "size": 36817,
+      "sha256": "e87fa55e5fd322f47972ce8c40a3204f02e328ad8a6fa4d337b8f69b73fd4956"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/audit_v1/fresh_pbr_left.png",
+      "size": 1076804,
+      "sha256": "fa4143dae7670db2b2a39c58d97a636655e17c73fd8c2d0194b0a7a17531f0b8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/audit_v1/fresh_pbr_quarter.png",
+      "size": 1093433,
+      "sha256": "293421b8e7c92e3edc8c6d54d486f51467cb43f1ec4ff4a4d8c5147bc6741c62"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/audit_v1/fresh_pbr_receiver.png",
+      "size": 1147979,
+      "sha256": "9871a8a4a67059eb5a0bd41ab912004cc5421d17a270b5406b6076f3c44eba11"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/audit_v1/fresh_pbr_right.png",
+      "size": 1071144,
+      "sha256": "989545197c6d83002134288cdf3952f2495a139a065138863b46cbafe88a7dc0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/audit_v1/fresh_pbr_top.png",
+      "size": 1035098,
+      "sha256": "afa3660cc3e482fc2946eee18f180e500b3753cfbe15f71253e8eddc50bcee56"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/audit_v1/fresh_pbr_underside.png",
+      "size": 1080077,
+      "sha256": "7ac6811ea4008a9b3f8a84231125d2c5dcc0124e830b470321ae4540b686c1df"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/build_report.json",
+      "size": 9178,
+      "sha256": "672d4ae764fdb4180c7d9b0ed73eb2fb87206d3495b7c9972cd5e579ea5a5adb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/GermanRifle_M1Texture_V12.blend",
+      "size": 36270382,
+      "sha256": "a7115130c30c5d53c1631f5aac6c90d020612a934bdc0fb9e65855453f13ff66"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/GermanRifle_M1Texture_V12.glb",
+      "size": 34722348,
+      "sha256": "862baf5ab6afa6f977e373d4710fce1e3bf6964e51e7e6483424f15bc9424193"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/pbr_left.png",
+      "size": 1077116,
+      "sha256": "507c5a326d62b1aba68ed0d7bffdf2e4cfc6637d0658d4ce09e8e09babe0e0da"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/pbr_quarter.png",
+      "size": 1093667,
+      "sha256": "c90b964166e366ada7e444406745e231d03cd0911e09eac10a875540ac17ade8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/pbr_receiver.png",
+      "size": 1148030,
+      "sha256": "a41f8771066df9024aec523886bc5040a471216d3d0505a36a73cdd42828b28b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/pbr_right.png",
+      "size": 1071443,
+      "sha256": "895cbfd697abd1898047143d59b3e6202a16d62136e973d6c0e2707c83a480d0"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/pbr_top.png",
+      "size": 1035175,
+      "sha256": "e011ce8efcf55d7b28af91752cf2377f2801ebaf033c5d9ae0118c8189192a17"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/pbr_underside.png",
+      "size": 1079857,
+      "sha256": "9f8b78d5556dd1f1b02b9a4922b9fb8bf1b08b269c9989a4b2367e0e7b9e1f98"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_0_BaseColor.png",
+      "size": 1215180,
+      "sha256": "d378ffe4f7ef373aff90b157fbfc6f7cbdb4b0feda3d396a6c8d522b260283ff"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_0_Normal.png",
+      "size": 2895151,
+      "sha256": "9db34e2eb7e8622161b2bb9b9ea372d387c13e67c97b054349796e7339edf833"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_0_ORM.png",
+      "size": 2226305,
+      "sha256": "faf32ad5cfbc42ea8db5c33c3033a2d5e59988c53aae589364ceef2cba7080c2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_1_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_1_Normal.png",
+      "size": 1605775,
+      "sha256": "45d142d62dde05fd06f8425869f2315cecb1ab3193c4467770fa83864223e70b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_1_ORM.png",
+      "size": 1312332,
+      "sha256": "a1ce354b9e1f21381d9dc5605475e2e231a0f130efea00a79edb61f92fbeca16"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_2_BaseColor.png",
+      "size": 2043781,
+      "sha256": "a482f85e3c78100487b106734a5abf5a50e209a9d4a7989cdc484538ccf904ed"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_2_Normal.png",
+      "size": 7032637,
+      "sha256": "3b650f31651233201b089635a9a2ca94bceb7732e385e9e420d2c1e2fa8a412a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_2_ORM.png",
+      "size": 4022025,
+      "sha256": "9790562e2901a482677aa05864c5c912941c5e56ad228e57b2bb9cc883a42c78"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_3_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_3_Normal.png",
+      "size": 1846775,
+      "sha256": "e6478df25a5e08c744e2646abdda9712daa2cabf1dbc4428c7eb64d5271e9df3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_DonorSteel_3_ORM.png",
+      "size": 1312332,
+      "sha256": "a1ce354b9e1f21381d9dc5605475e2e231a0f130efea00a79edb61f92fbeca16"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_New_BluedSteel_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_New_BluedSteel_Normal.png",
+      "size": 1275736,
+      "sha256": "8fa5e984317d56379bca477314b19dfbeef47eb01e7688c27b49cdbf4938deab"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_New_BluedSteel_ORM.png",
+      "size": 1312332,
+      "sha256": "a1ce354b9e1f21381d9dc5605475e2e231a0f130efea00a79edb61f92fbeca16"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_Oiled_Walnut_BaseColor.png",
+      "size": 2072264,
+      "sha256": "ffac7dc182b4e38e803fe6ab00138e17934a3425ee1e65c920e04a30d12c4b3a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_Oiled_Walnut_Normal.png",
+      "size": 1150891,
+      "sha256": "b4e6b7965f321d25eaa3ea917def5f392e1b0f6682ddc881ffd888fde285f7fc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/finish_v1/V12_M1_Oiled_Walnut_ORM.png",
+      "size": 494173,
+      "sha256": "7284fece3d615252f090a5b337752d06bac23a5d5ae539d0f98d56955280c016"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v1/patch_report.json",
+      "size": 2004,
+      "sha256": "ca751b4cfa30c7a5030d979cdf84d04e9315c936cba6ec57b77290a0c2cb2ff7"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v1/source/patches.py",
+      "size": 1653,
+      "sha256": "2b87db62dbc84302c30828be858f04073e7ce314fdf8c56b629c2fc65d44691d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v1/steel_D.png",
+      "size": 20448,
+      "sha256": "3bc65268f8ec2ac8bfc7797e8b023697fb5659e96e9e43f3c00e3aaf8753a9f5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v1/steel_N.png",
+      "size": 22576,
+      "sha256": "47e5a4e371b120731237a58755909e726e91c0eab265f998493ae035220ad1d6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v1/steel_ORM.png",
+      "size": 31543,
+      "sha256": "63b5a307f6813904c2c7c9ed3d52ab7b43e889b4314ce0b280df71a416b5d654"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v1/wood_D.png",
+      "size": 1048205,
+      "sha256": "becb9855925601141dcfe088345c45afde0b0ba925c21572d6743809357132c9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v1/wood_N.png",
+      "size": 566771,
+      "sha256": "498f3453f2c87efff21efe5035d8175517e47f108d0c478b25b52cbcc8b2dc69"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v1/wood_ORM.png",
+      "size": 259005,
+      "sha256": "69293396fe014c94e7f1a81ad926cf214232c22780b1b9266f7fe253598694c6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v2/patch_report.json",
+      "size": 1984,
+      "sha256": "40a3f7cbc1cf1bed057b8522d6dddff6043317b4d6e8b56df072bcd2bcc9d4d6"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v2/steel_D.png",
+      "size": 24997,
+      "sha256": "4902df2a26dd8553476b54e90bf4ffb0c7fec6113d295c2e86105abfa342af17"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v2/steel_N.png",
+      "size": 52283,
+      "sha256": "5b875bc493f29f38e257d10a43ec2c859b5aac1a27b25b374a134b21277e2113"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v2/steel_ORM.png",
+      "size": 65892,
+      "sha256": "a68399344c15691ba3d4b87077ee16e0cfff292e3cb04540dc1bd3fc3587ead1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v2/wood_D.png",
+      "size": 654792,
+      "sha256": "890aafcb6a08e559d5ddf3d5b594afcd33911061970f98e027ab77db8cce8f8d"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v2/wood_N.png",
+      "size": 341685,
+      "sha256": "e9fd3f8b6a0c62ffa4d74a9e6a7eb8c02c1ca913bcd7b7ec2012cc6c8843653b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/patch_review_v2/wood_ORM.png",
+      "size": 168323,
+      "sha256": "dd87aaaae36a41ce03f6b30eff3e6fad447ab2bb900632862e7c8577752662ad"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/presentation_v1/presentation.json",
+      "size": 1011,
+      "sha256": "ec3d7d2d7c3a4bccb02a7046963f91347dc50853ca08cf894e277fc7033777bf"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/presentation_v1/v11_vs_v12.png",
+      "size": 1000961,
+      "sha256": "995067e23412ad4468aff01a4d000b962a00e9b517b8eb9228efbffc400b509b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/build_report.json",
+      "size": 9078,
+      "sha256": "a988ec2aeca03d615889389f8465af38beb291b0b35aaf815a631e19922dac30"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/GermanRifle_M1Texture_V12.blend",
+      "size": 31913053,
+      "sha256": "eb46067d49705f0f0d502c6a7d5341372f46500aa400cb09d541a59c10d69fc9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/GermanRifle_M1Texture_V12.glb",
+      "size": 30395176,
+      "sha256": "bf3aca4b4b5d289788d5e81d7f978926bfc9d55170d020c89ff1c724d09c1c87"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/pbr_quarter.png",
+      "size": 815802,
+      "sha256": "d5b2099be7b0aa18d6afea9947d5da9daff2fde6c4d256e6016898207e3eb5ac"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/pbr_receiver.png",
+      "size": 863123,
+      "sha256": "eed8bd4d7ac9ac8e4e6ca2ae69368be477a094565e8026a525d943dd565d2608"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/pbr_stock.png",
+      "size": 874255,
+      "sha256": "c07a13e433898d19ca781012c34946478c65b6e013f151371857895d28fef1cf"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/source/main.py",
+      "size": 9090,
+      "sha256": "d3728eeaecc1a990595ba4646bd111ae5666b215f683fb79a8a40e731cd90826"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_0_BaseColor.png",
+      "size": 1215180,
+      "sha256": "d378ffe4f7ef373aff90b157fbfc6f7cbdb4b0feda3d396a6c8d522b260283ff"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_0_Normal.png",
+      "size": 2895151,
+      "sha256": "9db34e2eb7e8622161b2bb9b9ea372d387c13e67c97b054349796e7339edf833"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_0_ORM.png",
+      "size": 1283403,
+      "sha256": "dd6d83ba754c6b74c5c353c31d7209ab7eebb2b0948cbdcc5e3943d15d3304f5"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_1_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_1_Normal.png",
+      "size": 1605775,
+      "sha256": "45d142d62dde05fd06f8425869f2315cecb1ab3193c4467770fa83864223e70b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_1_ORM.png",
+      "size": 790273,
+      "sha256": "210d8edba84ac08046515f63709036b6a7062ec3acc74f00cf76c53e8be03ce1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_2_BaseColor.png",
+      "size": 2043781,
+      "sha256": "a482f85e3c78100487b106734a5abf5a50e209a9d4a7989cdc484538ccf904ed"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_2_Normal.png",
+      "size": 7032637,
+      "sha256": "3b650f31651233201b089635a9a2ca94bceb7732e385e9e420d2c1e2fa8a412a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_2_ORM.png",
+      "size": 2331804,
+      "sha256": "2cda096bb3115b8944f4e00a1e66b6036fb83fc86c192c2b8577244c54b8fa83"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_3_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_3_Normal.png",
+      "size": 1846775,
+      "sha256": "e6478df25a5e08c744e2646abdda9712daa2cabf1dbc4428c7eb64d5271e9df3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_DonorSteel_3_ORM.png",
+      "size": 790273,
+      "sha256": "210d8edba84ac08046515f63709036b6a7062ec3acc74f00cf76c53e8be03ce1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_New_BluedSteel_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_New_BluedSteel_Normal.png",
+      "size": 1275736,
+      "sha256": "8fa5e984317d56379bca477314b19dfbeef47eb01e7688c27b49cdbf4938deab"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_New_BluedSteel_ORM.png",
+      "size": 790273,
+      "sha256": "210d8edba84ac08046515f63709036b6a7062ec3acc74f00cf76c53e8be03ce1"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_Oiled_Walnut_BaseColor.png",
+      "size": 2072264,
+      "sha256": "ffac7dc182b4e38e803fe6ab00138e17934a3425ee1e65c920e04a30d12c4b3a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_Oiled_Walnut_Normal.png",
+      "size": 1150891,
+      "sha256": "b4e6b7965f321d25eaa3ea917def5f392e1b0f6682ddc881ffd888fde285f7fc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/preview_v1/V12_M1_Oiled_Walnut_ORM.png",
+      "size": 366304,
+      "sha256": "23acf3f3ac01b42ed3e6274c5679fb61527721c04652b7a20daa30d8a756dfbb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_audit_v1/audit.json",
+      "size": 36875,
+      "sha256": "39c3e0acb82997a60b54be57c4e0d2363a55038c8073a793ddc1a841a2e7fa61"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/build_report.json",
+      "size": 9178,
+      "sha256": "9f637723b1ffb8ba7644149daf55b2f44f75247307cd13af8490ab86f4866184"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/GermanRifle_M1Texture_V12.blend",
+      "size": 36231278,
+      "sha256": "d4911c0a0ec32371bd48c2378e7b76b8a7d84596264fa0484649ec7c9088d65c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/GermanRifle_M1Texture_V12.glb",
+      "size": 34722348,
+      "sha256": "0010c3b87da2b60b903b60c1af61ac28747c0fe472fc94c7bdbb483149a72c89"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_0_BaseColor.png",
+      "size": 1215180,
+      "sha256": "d378ffe4f7ef373aff90b157fbfc6f7cbdb4b0feda3d396a6c8d522b260283ff"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_0_Normal.png",
+      "size": 2895151,
+      "sha256": "9db34e2eb7e8622161b2bb9b9ea372d387c13e67c97b054349796e7339edf833"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_0_ORM.png",
+      "size": 2226305,
+      "sha256": "faf32ad5cfbc42ea8db5c33c3033a2d5e59988c53aae589364ceef2cba7080c2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_1_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_1_Normal.png",
+      "size": 1605775,
+      "sha256": "45d142d62dde05fd06f8425869f2315cecb1ab3193c4467770fa83864223e70b"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_1_ORM.png",
+      "size": 1312332,
+      "sha256": "a1ce354b9e1f21381d9dc5605475e2e231a0f130efea00a79edb61f92fbeca16"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_2_BaseColor.png",
+      "size": 2043781,
+      "sha256": "a482f85e3c78100487b106734a5abf5a50e209a9d4a7989cdc484538ccf904ed"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_2_Normal.png",
+      "size": 7032637,
+      "sha256": "3b650f31651233201b089635a9a2ca94bceb7732e385e9e420d2c1e2fa8a412a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_2_ORM.png",
+      "size": 4022025,
+      "sha256": "9790562e2901a482677aa05864c5c912941c5e56ad228e57b2bb9cc883a42c78"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_3_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_3_Normal.png",
+      "size": 1846775,
+      "sha256": "e6478df25a5e08c744e2646abdda9712daa2cabf1dbc4428c7eb64d5271e9df3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_DonorSteel_3_ORM.png",
+      "size": 1312332,
+      "sha256": "a1ce354b9e1f21381d9dc5605475e2e231a0f130efea00a79edb61f92fbeca16"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_New_BluedSteel_BaseColor.png",
+      "size": 743630,
+      "sha256": "395186293f97e15a11408e9c5820c9d9d9fe40dd0de7e34c73a9b6a57e176bfa"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_New_BluedSteel_Normal.png",
+      "size": 1275736,
+      "sha256": "8fa5e984317d56379bca477314b19dfbeef47eb01e7688c27b49cdbf4938deab"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_New_BluedSteel_ORM.png",
+      "size": 1312332,
+      "sha256": "a1ce354b9e1f21381d9dc5605475e2e231a0f130efea00a79edb61f92fbeca16"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_Oiled_Walnut_BaseColor.png",
+      "size": 2072264,
+      "sha256": "ffac7dc182b4e38e803fe6ab00138e17934a3425ee1e65c920e04a30d12c4b3a"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_Oiled_Walnut_Normal.png",
+      "size": 1150891,
+      "sha256": "b4e6b7965f321d25eaa3ea917def5f392e1b0f6682ddc881ffd888fde285f7fc"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-m1-texture-v12/repeat_v1/V12_M1_Oiled_Walnut_ORM.png",
+      "size": 494173,
+      "sha256": "7284fece3d615252f090a5b337752d06bac23a5d5ae539d0f98d56955280c016"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleM1Transfer_v12/main.py",
+      "size": 9405,
+      "sha256": "534714e093dc12e293d73bdf14374d47c02974e1a0ea369b0e8193007920471c"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleM1Transfer_v12/patches.py",
+      "size": 1651,
+      "sha256": "ba4c5100dcdde261798508fefbc0ecd9fab4973836d35686531d7cf56611c39c"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleM1Transfer_v12/report.py",
+      "size": 3761,
+      "sha256": "9e269f0d8dd92692c7101a1290b828a262a778f7c31054f238919a5d8c5b1502"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/main.py",
+      "size": 19224,
+      "sha256": "1f8b457a3a49683d82878aa552cc4087ad0d98b07a970768cdb04586cadfed6b"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/audit.py",
+      "size": 8501,
+      "sha256": "06fb6333e5340973f9022f300320179a2e36ed872a85742d42e96b7201260b48"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v11/main.py",
+      "size": 10112,
+      "sha256": "5d7454db5766cbf55b1d5fc02b827150ada82a43c29a80ef8896a11f6b021889"
+    }
+  ],
+  "protected_files_rechecked": {
+    "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalWorking\\Experiments\\GermanRiflePilot\\20261004-spr-v10\\finish_v3\\GermanRifle_SPR_V10.blend": "5895c9631dedcab873c63670055bf90330a2b467d654ea734acfa68de72849a6",
+    "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalWorking\\Experiments\\GermanRiflePilot\\20261004-spr-v10\\finish_v3\\GermanRifle_SPR_V10.glb": "795967ab635064139c69a4e46ffacfce222b992e275a7ffec5043cb974642323",
+    "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalWorking\\Experiments\\GermanRiflePilot\\20261004-spr-weather-v11\\finish_v1\\GermanRifle_SPR_Weathered_V11.blend": "7f9283212611c8753efc3b3c0a8ae2bb69a60e8c011856478589e0214e444b42",
+    "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalWorking\\Experiments\\GermanRiflePilot\\20261004-spr-weather-v11\\finish_v1\\GermanRifle_SPR_Weathered_V11.glb": "f979fb6a5ad4a725553d73804c3f3efd7a793e55c16129164223bd69ccb55a8d",
+    "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\character-ue582-v1\\Evidence\\Repair20261001\\Textures\\USParatrooper\\Textures\\M1_Garand\\T_M1_Garand_D.png": "821c49ef5c4a0c5f5d5811e42ccfcc53904012777c6f5b853b6c941e2665bb6c",
+    "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\character-ue582-v1\\Evidence\\Repair20261001\\Textures\\USParatrooper\\Textures\\M1_Garand\\T_M1_Garand_N.png": "6151a0c753840e967f0d4b0df7857d38cd4a49ba45d1183c430d2b1423ad23ee",
+    "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\character-ue582-v1\\Evidence\\Repair20261001\\Textures\\USParatrooper\\Textures\\M1_Garand\\T_M1_Garand_ORM.png": "1ab47905f86c07e3fe77694904133bdeda0887960e5e7c6f96007e6a803a2167"
+  },
+  "metrics": {
+    "triangles": 24466,
+    "dimensions_m": [
+      1.1073039770126343,
+      0.07919801771640778,
+      0.18300700932741165
+    ],
+    "embedded_images": 18
+  },
+  "rerun_images_equal": true,
+  "rerun_whole_glb_equal": false
+}

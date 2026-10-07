@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "owner": "yg745",
+  "status": "stopped_unselected_binding_proof_visual_gate_failed_AN003",
+  "production_selection": false,
+  "catalog_selected": false,
+  "native_map_saved": false,
+  "implementation": "Docs/Development/RELOAD_APPROVED_GAME_INTEGRATION_V4_20261004.md",
+  "author_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v2/result.json",
+  "prior_failed_technical_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_author_v1/result.json",
+  "protected_before": 512,
+  "protected_after": 514,
+  "canonical_map_sha256_before": "2791b4a7f76b4b3d07f42286b6ad0156c3a185c2e3e795fa2446aaac0ad68519",
+  "diagnostic_motion_only": "/Game/ParisCombat/Animation/WeaponAnimationReuseV1/AS_PC_D059AimReloadV1",
+  "files": [
+    {
+      "package": "/Game/ParisCombat/Blueprints/ReloadApprovedV4/BP_PCReloadGunProofV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadApprovedV4/BP_PCReloadGunProofV4.uasset",
+      "size_bytes": 83714,
+      "sha256": "ebd2cf238906ef33368143cd7346fc4839d889812805b66a5edeeed66fd6f470"
+    },
+    {
+      "package": "/Game/ParisCombat/Blueprints/ReloadApprovedV4/BP_PCReloadOwnerProofV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/ReloadApprovedV4/BP_PCReloadOwnerProofV4.uasset",
+      "size_bytes": 852870,
+      "sha256": "452d5f317e490eb25883abfab19a0d884cf490635cc93835c1ee65aa7481e19b"
+    }
+  ],
+  "not_restore_authority": true,
+  "visual_evidence": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/ReloadContactBindingV3/binding_proof_views_v2/result.json",
+  "result": "Docs/Development/RELOAD_APPROVED_GAME_INTEGRATION_RESULT_20261004.md",
+  "failure_case": "Failures/AN003-20261004-reload-binding-proof/FAILURE_ANALYSIS.md",
+  "notes": "User accepted original source preview; target game sleeve/spike gate still failed. Binding/contact improves but does not establish visual compatibility. Two fixtures remain unselected; launcher stopped. No retarget/new motion/model/finger/camera or formal-game changes. Existing published releases remain selected."
+}

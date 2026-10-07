@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "scope": "Lane B unselected local NPCInteractionV1 B0-B3 and action gates; includes retained failed packages, not Catalog/release/restore or full AI acceptance",
+  "date": "2026-10-05",
+  "selected": false,
+  "author_identity": "b0_author_v3",
+  "files": [
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BB_PC_NPCInteractionV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BB_PC_NPCInteractionV1.uasset",
+      "size_bytes": 8005,
+      "sha256": "9a2f059701a3a61517be012db665488225c54490d5626d3e0789f9caeb24af3d"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCInteractionV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCInteractionV1.uasset",
+      "size_bytes": 2428,
+      "sha256": "77b31dc6ca9cdacecc41b80e6c33cb4a88b7894c9c4b4005d26d77029f279414"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerV1.uasset",
+      "size_bytes": 29807,
+      "sha256": "ae4bbcd28cff0148e0f73d43ce3dbe1db494b1cf15414f0cebb7f633d21d5c39"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedNPCInteractionV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedNPCInteractionV1.uasset",
+      "size_bytes": 46153,
+      "sha256": "65658461b655492a4a0fdf8cc887f5541e7fa52342d83b0eed0c5c9840340584"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanNPCInteractionV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanNPCInteractionV1.uasset",
+      "size_bytes": 46061,
+      "sha256": "9f2418f229fa1ae3f3eacda80bdbdf21bc8d2788471b1ce0a04d2a36889808fe"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCMoveV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCMoveV1.uasset",
+      "size_bytes": 3037,
+      "sha256": "a36a3200260403f55ffb8189a5231e4587d2a61691501a04496950a9543f9e62"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerSightV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerSightV1.uasset",
+      "size_bytes": 116203,
+      "sha256": "9796718ce3c78a419c9f03d2a6a55713e5344e6e55e7fabf2eb4e5f98e93e46c"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedNPCSightV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedNPCSightV1.uasset",
+      "size_bytes": 45884,
+      "sha256": "0a5c6d466a0dbc0a7d3d6c5cd9554ddb0cad3c592687484ba0edd76fd9ee11b3"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanNPCSightV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanNPCSightV1.uasset",
+      "size_bytes": 45828,
+      "sha256": "52169d4bae55e947fc12308322ff8cec480950ff9dad1a85dcbef90cf6b509bb"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerSightV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerSightV2.uasset",
+      "size_bytes": 113418,
+      "sha256": "e9f6f86382840bb9163231e16582388a2c369ba2849dac849c79cc2cf1e1cc88",
+      "status": "unselected_partial_author_failure_cast_node_api"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerSightV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerSightV3.uasset",
+      "size_bytes": 113418,
+      "sha256": "576f591b59bef74fcee114e0b96dcfbc48595cf176fae895e0f8df5eb3140cc2",
+      "status": "unselected_partial_author_failure_cross_blueprint_function_call"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerSightV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCControllerSightV4.uasset",
+      "size_bytes": 113406,
+      "sha256": "cffd98ab2c142756f07c5da0ac1e790885662df6aa64e3f2db7f4655a2cf6dee",
+      "status": "unselected_author_pass_runtime_failed_no_acquisition"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedNPCSightV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedNPCSightV4.uasset",
+      "size_bytes": 60062,
+      "sha256": "42153891b5d42d9650076d4a59fd3151d33efdec1cac6274c0f68416dd6a1d36",
+      "status": "unselected_author_pass_runtime_failed_no_acquisition"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanNPCSightV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanNPCSightV4.uasset",
+      "size_bytes": 60006,
+      "sha256": "fe25778ba8c2a69e8619d473f31454837129652293c270125d41111968d6dc74",
+      "status": "unselected_author_pass_runtime_failed_no_acquisition"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCBehaviorV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCBehaviorV1.uasset",
+      "size_bytes": 49085,
+      "sha256": "19d352c214c93138f1190ab4b563c4cbccee63f0b2e3f74f1ddcd70d5cb0465c",
+      "status": "unselected_partial_author_world_context_pin_failure"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCBehaviorV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCBehaviorV2.uasset",
+      "size_bytes": 49085,
+      "sha256": "97a5ceb4d27e44618003d8993765fe5fa47627701322f69f9c05198700696fa0",
+      "status": "unselected_partial_author_navigation_pure_pin_failure"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCBehaviorV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCBehaviorV3.uasset",
+      "size_bytes": 49085,
+      "sha256": "3cc4785c98cd9ad20e3a19035d717f537a2282d0975dcc4c4fd920d4d8098c13",
+      "status": "unselected_native_behavior_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTT_PC_NPCPlanV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTT_PC_NPCPlanV3.uasset",
+      "size_bytes": 157221,
+      "sha256": "78ab868759a46fb226fde9c3802b4bdb76ddb024c279eed7736a2c545e0c1e5a",
+      "status": "unselected_native_behavior_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTT_PC_NPCArriveV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTT_PC_NPCArriveV3.uasset",
+      "size_bytes": 59942,
+      "sha256": "a671796ca270b3b74a881aa6b1abbe34d546969bb06ca8d4705834d9912a19bf",
+      "status": "unselected_native_behavior_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTT_PC_NPCFailureV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTT_PC_NPCFailureV3.uasset",
+      "size_bytes": 87850,
+      "sha256": "f09a69a5bcbfe2d90e57b67de5a4bf14dc3ba4e88a8c54829358bf7caa9aa13e",
+      "status": "unselected_native_behavior_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCLifecycleV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCLifecycleV3.uasset",
+      "size_bytes": 88150,
+      "sha256": "feb94ab3b3dcc9dce0afb84705afa388cbd27862190b61d04113b69814a064e1",
+      "status": "unselected_native_behavior_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCBehaviorV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCBehaviorV3.uasset",
+      "size_bytes": 7417,
+      "sha256": "a54eaf72f09a44213b5cbcd93fa0c4b0de216126903d8ee80503532ccdb58934",
+      "status": "unselected_native_behavior_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedBehaviorV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedBehaviorV3.uasset",
+      "size_bytes": 45828,
+      "sha256": "eae4f229d174b59618097aab724ea42afc4da98abf0d8bb4c10b480313ea352b",
+      "status": "unselected_native_behavior_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanBehaviorV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanBehaviorV3.uasset",
+      "size_bytes": 45772,
+      "sha256": "0785a566310f07c1069d459a55175fffe9a97a23547fd262c70f7139a365fab7",
+      "status": "unselected_native_behavior_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCBehaviorV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCBehaviorV4.uasset",
+      "size_bytes": 80235,
+      "sha256": "4f91ff64a5778301bc249d1425c437bd380e4caba8b9409da0a37a9b38f4b1ab",
+      "status": "unselected_native_patrol_config_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedBehaviorV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedBehaviorV4.uasset",
+      "size_bytes": 45828,
+      "sha256": "6e4213b9b68426d466c2da782e9d5e2e562e0f69a1b3b4d50f55310bd3dc8e02",
+      "status": "unselected_native_patrol_config_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanBehaviorV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanBehaviorV4.uasset",
+      "size_bytes": 45590,
+      "sha256": "09978ab004e42290d0766f8bf9dd1114933b4ba1b7459797b2e872a80f9c122c",
+      "status": "unselected_native_patrol_config_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSearchV8",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSearchV8.uasset",
+      "size_bytes": 592538,
+      "sha256": "35981c2c51ae597eb0fa5e72beb5e953fdc5aabdfa71a660198b8a0a5709102f",
+      "status": "unselected_native_search_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSearchV8",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSearchV8.uasset",
+      "size_bytes": 21918,
+      "sha256": "100e262fb117dd6755c51b7f625ab59dc80edd6dbaf960aa4fa931f57785b378",
+      "status": "unselected_native_search_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSearchV8",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSearchV8.uasset",
+      "size_bytes": 7772,
+      "sha256": "62fcac6c0d43d23fdac4479defcc794c394cc42023a2537021b3dcd6a03252c1",
+      "status": "unselected_native_search_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSearchV8",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSearchV8.uasset",
+      "size_bytes": 45784,
+      "sha256": "378776551b2d5a81fc976c32c55b307b41682a4fe57dc14241f45fe7f32c0a12",
+      "status": "unselected_native_search_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSearchV8",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSearchV8.uasset",
+      "size_bytes": 45728,
+      "sha256": "ca93b12004314d7abb14cc833b8bcb52bd940cffc51ed032ba5a3785525f9d92",
+      "status": "unselected_native_search_authored_requires_runtime"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSearchV9",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSearchV9.uasset",
+      "size_bytes": 592412,
+      "sha256": "fd686f82c5b2b3bd3bdac5c110cb9ad55a23c68c48a913ce552a40ad2117aa0e"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSearchV9",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSearchV9.uasset",
+      "size_bytes": 21918,
+      "sha256": "8eed8effb9619ad1bba2806526e0ca2a822fd193f7feec853533972dd86ff293"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSearchV9",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSearchV9.uasset",
+      "size_bytes": 7772,
+      "sha256": "6d0335ba8990b0dce8d02ebda161bf6f5c8a47229be5ffda1e6605afd78b4d3c"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSearchV9",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSearchV9.uasset",
+      "size_bytes": 45784,
+      "sha256": "aabd24bcb61287767bebf9367a5c95408ae900e49a28e112d284598d0df93592"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSearchV9",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSearchV9.uasset",
+      "size_bytes": 45728,
+      "sha256": "1d22e7db80e00577ecbbd8eb8d1334a690a96e4eacf37186b6c0095ca1ce95b4"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCSquadReservationV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCSquadReservationV1.uasset",
+      "size_bytes": 307498,
+      "sha256": "e8e11bd8f3ccc5dd9a45b11f6217916c602cd550ede1b389c7b224400e777f8d"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSquadV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSquadV1.uasset",
+      "size_bytes": 508628,
+      "sha256": "4e3fea5414302901762498353718bb46c1b7ce54f9426f5cb210cf364a483322"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSquadV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSquadV1.uasset",
+      "size_bytes": 21888,
+      "sha256": "73b63ef8ef06a10face5b7d16a86dcacd2de99131bcd9f7f2885ca22ef4aa6df"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSquadV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSquadV1.uasset",
+      "size_bytes": 8130,
+      "sha256": "03d997fbdb3545454b57b8dba79b069a1a7835c2b1647e5bcab9da2cdfa61cff"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSquadV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSquadV1.uasset",
+      "size_bytes": 45794,
+      "sha256": "e54408d796e6cd7611c3de177134d284a6d1b2466027e650af945e6835143024"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSquadV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSquadV1.uasset",
+      "size_bytes": 45738,
+      "sha256": "8f844c37fa9f7b26fa18c39c39d96c25c746e392992eeacd9c97318d0d3968e5"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCFriendlyFirePolicyV1",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCFriendlyFirePolicyV1.uasset",
+      "size_bytes": 33234,
+      "sha256": "f0c0ef3db57a15f7b481e8aafa2082508ca9794a90d26d345fee4b6cdff73be9"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCSquadReservationV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCSquadReservationV2.uasset",
+      "size_bytes": 307434,
+      "sha256": "7368b04bef6e7be567b2fe788cd2b5e14afba567c19fa2c8074171b09aa81a59"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSquadV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSquadV2.uasset",
+      "size_bytes": 509171,
+      "sha256": "a72dbe5765944d3d789e1313bfc52d9c1857925f831fd79e6456383dc49b5ff0"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSquadV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSquadV2.uasset",
+      "size_bytes": 21888,
+      "sha256": "90eee45b995923ab9e518ab2a36db318d63e3de50b72cd75e66a2b66756bd714"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSquadV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSquadV2.uasset",
+      "size_bytes": 8130,
+      "sha256": "69fc4bebc5e0a7cdbdc7e42212e188e746bda4c4f8a3172c9dd9269573f147bd"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSquadV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSquadV2.uasset",
+      "size_bytes": 35824,
+      "sha256": "8124637bace88a692c7bac074beb3f0e49c604f95dd59ab1d31ebf0d4fd0941b"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSquadV2",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSquadV2.uasset",
+      "size_bytes": 35824,
+      "sha256": "9ee7a2e14ab2a988435adbddaeebfb67c8ad51cca48dc15dfdfbbb4d222b7eff"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCSquadReservationV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCSquadReservationV3.uasset",
+      "size_bytes": 307452,
+      "sha256": "0c0e194fa9cf699c925d78b5cb985ca922999773c138be27b4d45c735dbac236"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCSquadReservationV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCSquadReservationV4.uasset",
+      "size_bytes": 307512,
+      "sha256": "0e1cb49f6f808cd9bd8ec4ce16cda2bc0c57f0c783bc73775dd2d7d1404c0c22"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSquadV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCSquadV4.uasset",
+      "size_bytes": 666708,
+      "sha256": "95d887847e444836c7ac572e5c09ce558c58bcb70d4ba74e430480c32ce15756"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSquadV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCSquadV4.uasset",
+      "size_bytes": 21888,
+      "sha256": "fe55c888220611a85b6832d20e2b95ff106b671f3bf4a607e1c21490cb185680"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSquadV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCSquadV4.uasset",
+      "size_bytes": 8130,
+      "sha256": "4c398c2e1d78b4a2a33a35b23f17a1310eb33b1e665c30d5216bc30a0b3e3b57"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSquadV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedSquadV4.uasset",
+      "size_bytes": 35824,
+      "sha256": "b80ee7e87028d82619b749fc68be2ed1fabd05bfb2cc41c3f85db86a8bda28d3"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSquadV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanSquadV4.uasset",
+      "size_bytes": 35824,
+      "sha256": "b09b4312d8722d50262d8530dafa42a8611c98bf52394c0e9f12893de44783fc"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCActionGateV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCActionGateV3.uasset",
+      "size_bytes": 766502,
+      "sha256": "3477d7f833646acd1c2bbc9f621308a4007b38bd158483c8fdf8691aefe1ba15"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCActionGateV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCActionGateV3.uasset",
+      "size_bytes": 22042,
+      "sha256": "8fa9f0ea14ac820b8f1bfa99cbd92d708b59fae61624d822a251819440ee6943"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCActionGateV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCActionGateV3.uasset",
+      "size_bytes": 8528,
+      "sha256": "ba5a270e26333dc61e233726ef2683cebc77c55b57530123e3647617e982c340"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedActionGateV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedActionGateV3.uasset",
+      "size_bytes": 35881,
+      "sha256": "062c6b6a77eeb1fd55fc58ce03e391cc1b682048df1e7f51eec3fa9cd97bfe34"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanActionGateV3",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanActionGateV3.uasset",
+      "size_bytes": 35881,
+      "sha256": "6efac68bf614256a17821e60dd5ef36274bf29a0d0e639c6ca987be708950947"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCNPCActionGateV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCNPCActionGateV4.uasset",
+      "size_bytes": 997501,
+      "sha256": "c3c6ca1f9ff5b04f9eabc5e26af45d7c4622b7c9e456f500fd980e48b8991eba"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCActionGateV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BTS_PC_NPCActionGateV4.uasset",
+      "size_bytes": 22042,
+      "sha256": "5a2d2d25fec45f172e829fc1491659a02bd81833d3acea742f59a4c972a7c852"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCActionGateV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BT_PC_NPCActionGateV4.uasset",
+      "size_bytes": 8528,
+      "sha256": "7dbcfa46c36274b2f5fc10e7eac9dc9f1a2cbaaa80e2cd565242e7908249feee"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedActionGateV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCAlliedActionGateV4.uasset",
+      "size_bytes": 35881,
+      "sha256": "d10f8ce704c4a4e07e35655afbe3a0de324b4b357ecbe273f25047976719448b"
+    },
+    {
+      "package": "/Game/ParisCombat/AI/NPCInteractionV1/BP_PCGermanActionGateV4",
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/AI/NPCInteractionV1/BP_PCGermanActionGateV4.uasset",
+      "size_bytes": 35881,
+      "sha256": "4794af6fa0f43222225e7bb9cd095c8d09c23032343000e4cedb19eb5d054708"
+    }
+  ],
+  "prior_protected_count": 522,
+  "combined_protected_count": 611,
+  "current_guard_epoch": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FirstPersonFormalV21/selected_v1/result.json",
+  "latest_author_identity": "action_gate_author_v4"
+}

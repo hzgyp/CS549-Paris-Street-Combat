@@ -1,0 +1,17 @@
+# German rifle V11 — restrained weathering result
+
+2026-10-04. Blender modeling skill, paired V11 plan. Latest user accepts V10's whole form; only textures changed. Weathering itself awaits user review, not historical/runtime/sharing acceptance.
+
+Added sparse along-grain scuffs, oil/patina and sheen variation to wood; fine steel scratches/roughness variation, retaining donor normal detail. No rust coating, large chips or geometry additions. First wear was too weak: preserved preview/source, one width/contrast correction. Final finish remains subtle, barely changing ordinary whole-rifle appearance and adding slight close-view irregularity. No Aholo, coordinate substance classifier or micro-detail escalation.
+
+Raw fingerprints preserve all24 meshes' topology, UVs, normals, modifiers, parents and world transforms exactly. Approved V10 blend SHA5895c963...2849a6 and GLB SHA795967ab...642323 match after work. Explicit modifier export and clean authored/fresh import `audit_v1` pass, exit0:24 names/24,466 triangles,1.107304×0.079198×0.183007m,17 embedded images/no external textures/no Actions. Position max0m, UV5.96e-8, normal0.0411594deg; compared with V10 GLB position0m/UV5.96e-8/normal0.0334681deg. Not bit-exact exported normals or a global self-intersection proof.
+
+Actually inspected four matched initial before/after views and six final authored/six final imported views (opposing sides/quarter/top/underside/receiver). No obvious missing texture, material misclassification or new broken surface. Clean repeat_v1 plus repeat_audit_v1 passes attributes and exact embedded PNG bytes; wholeGLB bytes differ, cause unproved, not byte-exact reproduction. Repeat six pictures not independently reviewed. Sampler-node warning remains; actual imported appearance inspected. World.use_nodes future deprecation is not this task's failure. Task Blender jobs ended.
+
+- [Blender](D:/0.Rutgers/CS549/Project-New/Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.blend):23,109,377 bytes,SHA `7f9283212611c8753efc3b3c0a8ae2bb69a60e8c011856478589e0214e444b42`.
+- [GLB](D:/0.Rutgers/CS549/Project-New/Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.glb):21,605,816 bytes,SHA `f979fb6a5ad4a725553d73804c3f3efd7a793e55c16129164223bd69ccb55a8d`.
+- [Source](D:/0.Rutgers/CS549/Project-New/Tools/AssetCreation/GermanRifleSPR_v11/main.py). Small approved V10 dependency only, no original2.2GiB reopen/copy/save. Old game/M1/other rifle groups not rehashed this task. V10 generic audit gains optional filename/baseline geometry/PBR-only arguments, old defaults unchanged; V10 generator/assets unchanged.
+
+![Actual fresh GLB](D:/0.Rutgers/CS549/Project-New/Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/audit_v1/fresh_pbr_quarter.png)
+
+New `GERMAN_RIFLE_WEATHERING_DRAFT_INVENTORY_20261004.json` is diagnostic metadata, not production/restore/SFTP authority. Stop this small refinement here. No game/M1/action/UE/cloud/spend/SFTP/Catalog/commit/push; private bytes remain ignored LocalWorking. Storage guard passes17,479 selected manifest metadata entries, not remote/local-all-byte audit. MW2 use/derivative-sharing rights, modern donor details/historical variant, complete operating mechanism/rig/actions/contact and UE/collision/LOD/performance remain unresolved; German production gap not closed.

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03T10:02:00.482775-04:00",
+  "updated_at": "2026-10-06T21:11:07.626909-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -86,12 +86,21 @@
     },
     {
       "asset_id": "paris-gameplay-native-playtest",
-      "asset_version": "paris-native-playtest-20261003-v1",
+      "asset_version": "paris-native-playtest-20261006-german-grip-v11",
       "path": "Assets/Sync/manifests/paris-gameplay-native-playtest.json",
-      "sha256": "ebb579c25d07d963103b2e8be4f7e9db21fee68fc1944ffb41cdaaf8c03a6999",
-      "file_count": 206,
-      "size_bytes": 540314845,
-      "release_manifest": "/releases/paris-native-playtest-20261003-v1/paris-gameplay-native-playtest.json"
+      "sha256": "6c8eab2205379c796c0a446de71b8a3032e9adbaa5b254464859228cd3c86cd8",
+      "file_count": 294,
+      "size_bytes": 634257570,
+      "release_manifest": "/releases/paris-native-playtest-20261006-german-grip-v11/paris-gameplay-native-playtest.json"
+    },
+    {
+      "asset_id": "german-rifle-model",
+      "asset_version": "german-rifle-model-20261004-v1",
+      "path": "Assets/Sync/manifests/german-rifle-model.json",
+      "sha256": "963a7487565153d7c895b180db7797cf0d59a97387d2c939ef3c1d3cdaf60168",
+      "file_count": 16,
+      "size_bytes": 200288247,
+      "release_manifest": "/releases/german-rifle-model-20261004-v1/german-rifle-model.json"
     }
   ],
   "superseded_provenance_only": [

@@ -1,5 +1,29 @@
 # Asset inventory and restoration
 
+**4 October delivery receipt/audit:** both physical, Git-ignored folders now
+contain user files. [Catalog Section11](XIAN_YU_ASSET_CATALOG_20261003_ZH.md)
+records new VFX68files/78,239,739bytes and a confirmed RifleAnimsetPro repeat:
+all298native files plus SourceFiles.zip match the existing original by SHA/size.
+No new motions. VFX is not yet native-runtime accepted. Originals remain here:
+
+- `Assets/LocalWorking/Intake/2026-10-04/01_Muzzle_Flash_VFX/` — muzzle-flash/fire VFX delivery.
+- `Assets/LocalWorking/Intake/2026-10-04/02_Firearm_Animations/` — purchased firearm animation delivery.
+
+Preserve original archives/package names/structures; no duplicate deletion.
+File/header/ZIP audit only, no extraction, supplied-script execution, live UE
+import, upgrade/resave, relocation or SFTP publication. The324FBX ZIP passes CRC
+but repeats existing source. New VFX has UE4.26 header clues and its actual root
+is MsvFx_MuzzleFlash_Pack; target compatibility/dependency/visual checks remain.
+Use existing mature motions/no-new-animation policy. New VFX sharing rights need
+confirmation before publication; existing licensed motion baseline remains valid.
+
+**4 October German static model:** user-accepted V15 is published as
+`german-rifle-model-20261004-v1` (16files/~191MiB), authenticated SFTP hash verified.
+Read [model and download guide](GERMAN_RIFLE_MODEL.md) / [receipt](Sync/GERMAN_RIFLE_PUBLICATION_STATUS.json).
+Single editable home `/workspaces/yg745/german-rifle-model-v1/Model/`, plus
+immutable versions. Not yet UE/game/animated-kit/historical acceptance; no
+further automatic appearance polish or another bare static-rifle purchase.
+
 ## Team synchronization (27 September 2026)
 
 **1 October character publication:** the verified private release `character-20261001-v1` contains three preserved original deliveries (590 files) and the UE 5.8.2/Blender 5.2.2 integration baseline (721 files). Its four manifests are active in [the catalog](Sync/CATALOG.json). Read [download and restoration instructions](Sync/README.md#character-integration-baseline-on-1-october) and [actual publication checks](Sync/CHARACTER_PUBLICATION_STATUS.json). All shared areas grant team CRUD; originals/releases remain immutable by procedure. Teammate restoration and final gameplay/history/performance acceptance are separate remaining checks.
@@ -57,6 +81,7 @@ The new soldier/action intake has a separate [compatibility test and repair plan
 
 ## Registers
 
+- `XIAN_YU_ASSET_CATALOG_20261003_ZH.md` ([Chinese catalog](XIAN_YU_ASSET_CATALOG_20261003_ZH.md), [English](XIAN_YU_ASSET_CATALOG_20261003.md)): detailed local Xianyu delivery contents, original/native action indexes, all 125 archive headers and private embedded diagnostic images. A catalog entry is not a runtime or rights pass; current reload bindings and unselected alternatives are separated.
 - `ASSET_REGISTER.csv`: role, path, source and acceptance state.
 - `VENDOR_DEPENDENCY.json`: local source/version and exclusions.
 - `MIGRATION_MANIFEST.json`: copied-file provenance and hashes; includes an explicit not-validated status.

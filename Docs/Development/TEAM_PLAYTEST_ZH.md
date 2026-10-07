@@ -1,14 +1,14 @@
 # 组员恢复并试玩当前巴黎版本
 
-适用范围：本项目已获授权的三名组员。Git提供代码、配置和版本清单，私有SFTP提供地图、人物、动作和原生Blueprint。固定试玩资产版本为 `paris-native-playtest-20261003-v1`；不要复制yg745的可变工作区，也不要拿之前的独立打包版当成这一版。英文原稿：`TEAM_PLAYTEST.md`。
+适用范围：本项目已获授权的三名组员。Git提供代码、配置和版本清单，私有SFTP提供地图、人物、动作、原生Blueprint和原生显示模块。固定试玩版本为 `paris-native-playtest-20261006-german-grip-v11`；不要复制yg745的可变工作区，也不要拿旧打包版替代。英文原稿：`TEAM_PLAYTEST.md`。本次Git版本包含匹配的通用源码、配置和Catalog；先拉取对应远程版本，再恢复SFTP资产。源码发布不等于组员运行已验收。
 
 ## 这一版能测什么
 
-现有巴黎地图、六名士兵、基础移动/碰撞、射击、简化换弹、HUD、已保存的导航基础和UE原生第一人称手臂显示。游戏运行不需要Python每帧控制，也不需要编译ParisEditorBridge。跟随/巡逻/双方NPC决策仍暂停；M1专用漏夹/换弹接触、枪口火光/材质命中反馈和最终性能还未完成。它不是完整任务/MVP，也不是新的独立EXE。
+现有巴黎地图、六名士兵、基础移动/碰撞、射击、原换弹、HUD、导航基础、人工认可的V20第一人称显示层、两名盟军统一使用的V16握枪版本，以及三名德军统一使用的V11握姿和FineWoodV15枪械。保存的原生策略也会绑定后续新增的同阵营兼容NPC，不需要Python准备或每帧控制，也不需要ParisEditorBridge。NPC交互草稿独立、未采用；跟随/巡逻/双方决策未进入本正式版本。衣袖和德军细小握姿问题明确延期，专用M1动作、完整返回/生命周期/贴墙、效果与性能验收未完成。详见 FIRST_PERSON_FORMAL_V21_RESULT_20261005_ZH.md、[盟军正式采用结果](ALLIED_NPC_FORMAL_V18_RESULT_20261006.md)和[德军正式采用结果](GERMAN_NPC_FORMAL_V14_RESULT_20261006.md)。不是完整MVP或新的独立EXE。
 
 ## 准备环境与代码
 
-安装Windows版 **UE5.8.2**（CL 56702186）、Python3.10+和Windows OpenSSH客户端；保留UE内置ACLPlugin、Niagara及MeshModelingToolsetExp内容。无需付费插件。SFTP地址、账号和可信主机指纹由Yupu私下提供；密码和私钥不得放Git或聊天。
+安装Windows版 **UE5.8.2**（CL 56702186）、Python3.10+和Windows OpenSSH客户端；保留UE内置ACLPlugin、Niagara、MeshModelingToolsetExp及InterchangeAssets内容。无需付费插件。SFTP地址、账号和可信主机指纹由Yupu私下提供；密码和私钥不得放Git或聊天。
 
 当前干净克隆可以 `git pull --ff-only`。如果还保留仓库清理前的旧资产历史，按 `Assets/TEAM_SYNC_WORKFLOW.md` 第8节新克隆，不要合并旧历史。同步前保留未提交代码和被Git忽略的资产修改；不要用hard reset或clean。以下命令在你自己的仓库根目录运行，不用照抄Yupu的D盘路径：
 
@@ -22,6 +22,13 @@ python Tools/Integration/restore_native_playtest.py plan
 初始化工具仅在项目Content不存在时创建本机唯一可写资产目录 `Assets/LocalShared/SFTP/workspaces/<Owner>/paris-gameplay-v1/Content` 和Content目录联接。已有指向本仓库内的联接会保留；已有实体Content会拒绝操作，不会擅自迁移、合并或删除。遇到这种情况单独协调。不能复制服务器上包含绝对D盘地址的联接到另一台电脑。
 
 ## 下载与恢复
+
+本版清单294个文件，包含第一人称/盟军/德军私有握姿DataAsset/图，以及
+`Plugins/ParisGripBindingV18/Binaries/Win64` 和
+`Plugins/ParisNPCGripV15/Binaries/Win64` 下的DLL/modules；不可替换成
+其他UE版本编译的模块。通用插件源码和项目启用配置由Git提供，SFTP提供
+匹配UE5.8.2的编辑器模块。德军枪械网格/材质依赖已包含，不需要额外下载
+Blender源文件版本才能玩；这不代表已提供Shipping打包版本。
 
 本轮只需两个Catalog清单：`france-liberation-content` 和 `paris-gameplay-native-playtest`。新清单已经包含所需人物、动作、材质、骨架和游戏逻辑的正确路径，不需要先下载所有历史资料、原始源文件和实验室基线。首次城市下载约26.47GiB，另加原生依赖；之后只下载缺失/改变的文件。SFTP不是游戏远程流式加载，也不会只传一个模型文件内部改变的字节块。
 

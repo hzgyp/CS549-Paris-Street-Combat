@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "status": "stopped_evidence_retained_in_place",
+  "migration_performed": false,
+  "automatic_restore_authority": false,
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAnimationReuseV1/AS_PC_D059AimReloadV1.uasset",
+      "size_bytes": 573059,
+      "sha256": "ce6fac6314e010d9d7800b016929c92395604eb766fa1f21bf9e73d5f718ea39",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAnimationReuseV1/IK_PC_D059AlliedV1.uasset",
+      "size_bytes": 63515,
+      "sha256": "244a97b90e0fb034f6ea69106a1573d9904c621df50a3548633b85b1f4f6253b",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAnimationReuseV1/IK_PC_D059SourceV1.uasset",
+      "size_bytes": 60583,
+      "sha256": "c15e4b886061da6e3444d78e25d551df8bfcd328fc65b12c07c59dc43b3891e6",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animation/WeaponAnimationReuseV1/RTG_PC_D059AlliedV1.uasset",
+      "size_bytes": 17991,
+      "sha256": "0ee30163c5922160f2917b340829da52429673f5cd74a9ed35b91b8ee33dfd70",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Blueprints/WeaponAnimationReuseV1/BP_PCParisAnimationPlayerV1.uasset",
+      "size_bytes": 153575,
+      "sha256": "4eb60c3f6dadf407617f2ea46f904b855b5703b5034926ded8b46985509199fd",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/audit_v1/result.json",
+      "size_bytes": 151927,
+      "sha256": "cec098a8bfa340a2fdc02a95ceb8e5dab3246bae54769ec3f387ebd08c5b9568",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/audit_v1/source.py",
+      "size_bytes": 4276,
+      "sha256": "93ffbce50b25cf12dfcd4ddc77585c9b818a79c1a5b928ab454906c4a42a04f8",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/author_owner_v1/source.py",
+      "size_bytes": 9697,
+      "sha256": "120254740162362a31a18643bf06c022b801968c3627be8730198143d310746d",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/author_owner_v2/source.py",
+      "size_bytes": 10086,
+      "sha256": "588f481abc0ce9037b6790739f026fec04611d5d92e25e242dcf45eb76dd7d03",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/author_reload_v1/result.json",
+      "size_bytes": 801,
+      "sha256": "f8c7e16122f2e62dd9f015a086f81890d64857b6361d7ff71c5fc6ca2b5c3386",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/author_reload_v1/source.py",
+      "size_bytes": 9615,
+      "sha256": "ffb19965898fc8f6f343c0d889be342b6423cfbc34ec6446c3ed1bb6182531b7",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_probe_v1/result.json",
+      "size_bytes": 19688,
+      "sha256": "507e0cc1886ee294a90255e5ec2f1b2a719c33ff9107f6c99fff233ac69bc166",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v1/holding.png",
+      "size_bytes": 1894075,
+      "sha256": "ef4b07d89af0320127743b5c4ea3c99e32d7e97e625d1c5318810af91de7f7f6",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v1/result.json",
+      "size_bytes": 6295,
+      "sha256": "833102b225bfa09ba16590dab898a00da75dfb649ca2a2427f299fab42746a4d",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v1/source.py",
+      "size_bytes": 6648,
+      "sha256": "1fec084a89246199fced7d0b8708751068a48a8f3e82a27e9f65566c6aeb00ab",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v2/holding.png",
+      "size_bytes": 1909505,
+      "sha256": "c48a45710fd5f8e1fbac5d9c8548b4a25c60b82e18201a430017a9bf042cba0b",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v2/reload_complete.png",
+      "size_bytes": 1937520,
+      "sha256": "1d1c2ce0781db59e5bc35701b0690a5da3681a14d6773af5219e57743ec4f05a",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v2/reload_early.png",
+      "size_bytes": 1851308,
+      "sha256": "b24ccca559b7a21bc2b50c8947be97583cf713a07bb7fea9085dee89d1ebd119",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v2/reload_operate.png",
+      "size_bytes": 1913208,
+      "sha256": "821f7dd31066d6397e48471988e3e8efde0eba0a13680c25cc2a9a440f74d8e8",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v2/reload_return.png",
+      "size_bytes": 1904991,
+      "sha256": "bf1ded1160b2b7a8354ccff6ab225b136abe563d1ade7853d53c9f68a7ddd593",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v2/reload_take.png",
+      "size_bytes": 1924082,
+      "sha256": "077a2a2cc7ff04418e0351d6ef6cea0645f550231b2845334a038ecb64375568",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v2/result.json",
+      "size_bytes": 20566,
+      "sha256": "9cdc5e11fd6f5120b715cb294c400ea629119c445ff9ecf9ebda662834fd1e2b",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/reload_views_v2/source.py",
+      "size_bytes": 7672,
+      "sha256": "b97bd9f217630e4053a9dfbfd70ebd0d9cc9619a9f272e31b0139f7b0b290890",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/retarget_v1/result.json",
+      "size_bytes": 2906,
+      "sha256": "ab53f1d3d0e11e98c137ac3aab3e0e1faf8b6a676ad21d2fe965e5bf4f2b7d4f",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/WeaponAnimationReuseV1/retarget_v1/source.py",
+      "size_bytes": 5752,
+      "sha256": "799070aa7761f4348176755f5e8a8e7eb6828f13414491e9e21736b7e1da9018",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Docs/Development/WEAPON_ANIMATION_REUSE_V1.md",
+      "size_bytes": 8638,
+      "sha256": "a989b3eaec34848c15d9474f169eefa606f58689c954e9bd21e352afb1c83eaa",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Docs/Development/WEAPON_ANIMATION_REUSE_V1_ZH.md",
+      "size_bytes": 6755,
+      "sha256": "8b4aa395c2bf9a34e951e9b56e1da46d5a3747bf134e9d79205647c3d76a372f",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/audit_v1.log",
+      "size_bytes": 267862,
+      "sha256": "c0d816e13bf59bb233d078c9e3f0ec3143fa411ef4f9f49cc3224a3c767b224e",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/audit_v1.log.exit.json",
+      "size_bytes": 88,
+      "sha256": "f10d19b71a033815752d426483c40155e2d63e264b9d56dd910c36b34cf5913d",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/author_owner_v1.log",
+      "size_bytes": 261081,
+      "sha256": "9ff77c5bed483e78510f0ddc2c6d6a3593340b87a711fe0317882509aa4a4edb",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/author_owner_v1.log.exit.json",
+      "size_bytes": 95,
+      "sha256": "3e24ab2d2a5d943401360e123f702e31e55afde965b72c52bc09ee736198c75c",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/author_owner_v2.log",
+      "size_bytes": 265323,
+      "sha256": "15e9e0501d3bc2ae35e12511556ff9bd3916f9b95cb6f537bc406be62d3ef45e",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/author_owner_v2.log.exit.json",
+      "size_bytes": 96,
+      "sha256": "9c7908b9af535acd72f7b63472be198b2a3efc80ba694cdd5791bc08e0b21d1a",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/author_reload_v1.log",
+      "size_bytes": 267419,
+      "sha256": "9d4725565840ad38df6ae8520c28f1db3a4819b0d32faa99c890052055154dfd",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/author_reload_v1.log.exit.json",
+      "size_bytes": 97,
+      "sha256": "06741549079d2beb6a37a4416b27160ae07f11789465f76cd48797737d6af025",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/preflight_v1.json",
+      "size_bytes": 134816,
+      "sha256": "b1be7cc11feda6cda9bd6d6fe70bc04fb4ae1e0e6b8994b17536be8f51283830",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/reload_probe_v1.log",
+      "size_bytes": 266410,
+      "sha256": "6c74dadd649aea49df4fd8d80fd52d7fb56dd5efd402f4c0bba98f8e8dc4cbbe",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/reload_probe_v1.log.exit.json",
+      "size_bytes": 95,
+      "sha256": "6cac0d075750bf347fb006945d6d8d1fe4aebc003e65e040e964c2f84c85bd99",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/reload_views_v1.log",
+      "size_bytes": 284218,
+      "sha256": "730ae6778bee5ba930679415b7b39459b43fec1a343b0bea52e1ce9ee0be69b6",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/reload_views_v1.log.exit.json",
+      "size_bytes": 96,
+      "sha256": "a98697bf453cda39b8fd0ce063485380ef59a90838662b5ac4edaf8b548b6a69",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/reload_views_v2.log",
+      "size_bytes": 286618,
+      "sha256": "03acf262460fcb1376ba75b54b6fe1066a6b8fbfbfacec22582f21eaceb7f94e",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/reload_views_v2.log.exit.json",
+      "size_bytes": 96,
+      "sha256": "c0227c0c09b933dee39ea56cdeccc8b469e5c45e3a017ffc62343740da1ba5ac",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/retarget_v1.log",
+      "size_bytes": 277494,
+      "sha256": "5ea035faa07118a7be5019b8e27959c3263cc73375ddfd97b63f21eae2e6339c",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "tmp/weapon-animation-reuse/retarget_v1.log.exit.json",
+      "size_bytes": 94,
+      "sha256": "aaf2957570f37e829aec350133e221ac8a754be07adae3e5c01e35d595a6d024",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/finalize_weapon_animation_reuse.py",
+      "size_bytes": 4174,
+      "sha256": "f15aded56156e235c44fd1249f14eb0be8cdf260765005e4e08e6400e87fe7da",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/run_weapon_animation_reuse.ps1",
+      "size_bytes": 2740,
+      "sha256": "51d1d380e1da2508f26af25d5783b0d26611f286381ba5ee42eb97ed7871fbc3",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_audit.py",
+      "size_bytes": 4276,
+      "sha256": "93ffbce50b25cf12dfcd4ddc77585c9b818a79c1a5b928ab454906c4a42a04f8",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_author.py",
+      "size_bytes": 10086,
+      "sha256": "588f481abc0ce9037b6790739f026fec04611d5d92e25e242dcf45eb76dd7d03",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_probe.py",
+      "size_bytes": 1923,
+      "sha256": "18c1cca39701dc94b44be29331da56b320a6f709735525ec7269ec45f406d4d5",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_retarget.py",
+      "size_bytes": 5752,
+      "sha256": "799070aa7761f4348176755f5e8a8e7eb6828f13414491e9e21736b7e1da9018",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_review.py",
+      "size_bytes": 7688,
+      "sha256": "c89d8d71398703b9107659c598c92df0a45f4ce76e1d1f06e0dd50450496ac68",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_stage.py",
+      "size_bytes": 2404,
+      "sha256": "3b04fc9e89542e2400e2086bcc1346cccb8c8b3b6b7699be11a6cba822be7cf0",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_test.py",
+      "size_bytes": 11721,
+      "sha256": "6465e3b21884e63a8750f6123ee106a3541b6f18b443a4842ec1bc4f19caf92c",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Tools/Integration/weapon_animation_reuse_common.py",
+      "size_bytes": 2743,
+      "sha256": "66ef218bf571a21dca30c86f3da1d6f57268342674891801b78eaea7b055a2a5",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-BBE8FAAD4D44AB8E62688FB83A3A574E_0000/author_owner_v2.log",
+      "size_bytes": 259148,
+      "sha256": "0847c458d904bcad0e4e00a51902356ec18de5192288b6fdfc0b71ee0750c418",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-BBE8FAAD4D44AB8E62688FB83A3A574E_0000/CrashContext.runtime-xml",
+      "size_bytes": 199055,
+      "sha256": "7a9621802b6957f7bc4b58df7cb5c20ba70a5e78ea3183181582ca8661c823fb",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-BBE8FAAD4D44AB8E62688FB83A3A574E_0000/CrashReportClient.ini",
+      "size_bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-BBE8FAAD4D44AB8E62688FB83A3A574E_0000/UEMinidump.dmp",
+      "size_bytes": 1873364,
+      "sha256": "a4a5341e1dfcca44bca9657e62f428e7978bc82b433212939afff329e2242e66",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-D44454C14D6EDAEBB3B69EB1969C06A5_0000/author_owner_v1.log",
+      "size_bytes": 259500,
+      "sha256": "149ef297e1e1dd74ce4e55e59509744ff8618a1bbd46f4ad2a4d993c5602e493",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-D44454C14D6EDAEBB3B69EB1969C06A5_0000/CrashContext.runtime-xml",
+      "size_bytes": 198702,
+      "sha256": "2b375eb9a8a93db131fc9665e606fc71e7d48067fa06b6149899abe0618b0de1",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-D44454C14D6EDAEBB3B69EB1969C06A5_0000/CrashReportClient.ini",
+      "size_bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893",
+      "storage": "retained_in_place_no_duplicate_copy"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-D44454C14D6EDAEBB3B69EB1969C06A5_0000/UEMinidump.dmp",
+      "size_bytes": 1767206,
+      "sha256": "ac34260b415b7d96eecb1120dc266cdd30c89d079fa85fa0feac6dd34eec2cb7",
+      "storage": "retained_in_place_no_duplicate_copy"
+    }
+  ]
+}

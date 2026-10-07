@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "owner": "yg745",
+  "status": "reference_study_complete_response_trial_not_selected",
+  "restoration_authority": "None; render-only LocalWorking study, not Catalog/usable asset/native restore",
+  "allied_exchange_triangles": 3923,
+  "kar_triangles_with_sling": 299479,
+  "images_generated_and_inspected": 9,
+  "geometry_uv_source_atlas_unchanged": true,
+  "useful_repair_accepted": false,
+  "german_production_accepted": false,
+  "glb_exported": false,
+  "native_runtime_tested": false,
+  "cloud_calls": 0,
+  "credit_debit": 0,
+  "prior_checks": [
+    {
+      "manifest": "GERMAN_RIFLE_PILOT_INVENTORY_20261003.json",
+      "private_files": 77,
+      "source_files": 7,
+      "mismatches": []
+    },
+    {
+      "manifest": "GERMAN_RIFLE_REFINEMENT_INVENTORY_20261003.json",
+      "private_files": 65,
+      "source_files": 5,
+      "mismatches": []
+    },
+    {
+      "manifest": "GERMAN_RIFLE_PART_SPLIT_INVENTORY_20261003.json",
+      "private_files": 31,
+      "source_files": 4,
+      "mismatches": []
+    },
+    {
+      "manifest": "GERMAN_RIFLE_SURFACE_INVENTORY_20261003.json",
+      "private_files": 39,
+      "source_files": 7,
+      "mismatches": []
+    }
+  ],
+  "m1_reference_checks": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Exchange/SK_M1_Garand.blend",
+      "sha256": "fde2154318cbb9b266be30fb17ad8793e5c86db819adeed04f9bc00d07d38c68",
+      "matches": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Textures/USParatrooper/Textures/M1_Garand/T_M1_Garand_D.png",
+      "sha256": "821c49ef5c4a0c5f5d5811e42ccfcc53904012777c6f5b853b6c941e2665bb6c",
+      "matches": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Textures/USParatrooper/Textures/M1_Garand/T_M1_Garand_N.png",
+      "sha256": "6151a0c753840e967f0d4b0df7857d38cd4a49ba45d1183c430d2b1423ad23ee",
+      "matches": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Evidence/Repair20261001/Textures/USParatrooper/Textures/M1_Garand/T_M1_Garand_ORM.png",
+      "sha256": "1ab47905f86c07e3fe77694904133bdeda0887960e5e7c6f96007e6a803a2167",
+      "matches": true
+    }
+  ],
+  "native_checks": {
+    "all_pass": true,
+    "checks": [
+      {
+        "manifest": "Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json",
+        "files": 43,
+        "mismatches": []
+      },
+      {
+        "manifest": "Assets/Integration/PLAYER_ACTIONS_DRAFT_INVENTORY_20261003.json",
+        "files": 7,
+        "mismatches": []
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/inspection/ally_parameters.json",
+      "size_bytes": 7585,
+      "sha256": "2ab2acc948968e3148d6175df8911f9387a29c2779e3b63cf4a90658e93af0ef"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/protected_after.json",
+      "size_bytes": 340,
+      "sha256": "cdf9446b75a4df7c79c3a62e4969424e063f9525b5dc4d23590085343faed1fd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/reopen_verification.json",
+      "size_bytes": 1972,
+      "sha256": "3a9b7a49efcaa2b412b10a08990dde3ae2028066f3347e3547adc5f718e35cbb"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/allied_m1_portable.blend",
+      "size_bytes": 17321930,
+      "sha256": "5409c15bbf2ceb5e73573cabe982db7dbff65bfff09fe4472f9fbdcd8fd46a2c"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/allied_m1_portable_receiver_quarter.png",
+      "size_bytes": 1385343,
+      "sha256": "9506d722cb77b053990d272039b6be6a171147adebb1f0046b295fa3dd67dc35"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/allied_m1_portable_receiver_top.png",
+      "size_bytes": 1251160,
+      "sha256": "ce33de5572dc7d700ae90156d0810b31551291b6a18625a2fd0123e6752423e3"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/allied_m1_portable_whole_side.png",
+      "size_bytes": 1210713,
+      "sha256": "9b97f48784666308ecb6080f5a3897fe3227e9fe4747c32f1d45c7830974f101"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/comparison.json",
+      "size_bytes": 3242,
+      "sha256": "e0ed8c9ca6fc7c4bb60e9a8f3c7dbe2b526f7f2effc4b1667a214e6aff084614"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/kar98k_original_pbr.blend",
+      "size_bytes": 16812923,
+      "sha256": "66da279782d8f4e006084c9a9a19d17b4c63f7c92d927af513a1f73f55176ad9"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/kar98k_original_pbr_receiver_quarter.png",
+      "size_bytes": 1330789,
+      "sha256": "51d9c6c13aab64f01b8b541b2d7f47b1df5c773a5c65e96c820f614dc27279a8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/kar98k_original_pbr_receiver_top.png",
+      "size_bytes": 1304729,
+      "sha256": "b29e25f6e4029945f8f065e1406d060233d344269822e4a4bfd4ba3feda1f7c2"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/kar98k_original_pbr_whole_side.png",
+      "size_bytes": 1208803,
+      "sha256": "918c81be7f7a41757aa6a5bb03659024743cfb59b3ab19d9a6c4d384bc0c109e"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/kar98k_response_v1.blend",
+      "size_bytes": 16814627,
+      "sha256": "74d0486c08e211da397d8054dbd482f0045cd3723eb85c61c8fb7cc5806eb1bd"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/kar98k_response_v1_receiver_quarter.png",
+      "size_bytes": 1335731,
+      "sha256": "994cbb43c59b3e487588e83b181610743ebfa5f8c200e3e620fab630dc1447a8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/kar98k_response_v1_receiver_top.png",
+      "size_bytes": 1301079,
+      "sha256": "9b3cc7b0573db81c02d58c32b2f0f8ed13f00fbcf602e9f7b23a5fb23268c4a8"
+    },
+    {
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-ally-reference-v5/response_v1/kar98k_response_v1_whole_side.png",
+      "size_bytes": 1210747,
+      "sha256": "09606a1a0a6b55efc8bcccdcaddd3cb405c3a25794fe88c9f460d7c46302e4f3"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Tools/AssetCreation/GermanRifleAlliedReferenceV5/compare_response.py",
+      "size_bytes": 5508,
+      "sha256": "bbedcc395d737009591b806aaaf1237999811428cebd9a8f8456909934a3a0be"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleAlliedReferenceV5/final_report.md",
+      "size_bytes": 1197,
+      "sha256": "bd126a393bdef3d8c0b9f1a20699f6c5e45b314fc621e6ac0042b7eaf433016e"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleAlliedReferenceV5/inspect_ally.py",
+      "size_bytes": 3327,
+      "sha256": "e477166c0c6e7e3595353205402988bd87c5edb06075f0c1e4d4e04bb4af69c1"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleAlliedReferenceV5/record_study.py",
+      "size_bytes": 2991,
+      "sha256": "affed32ab4b344ecadaf6f952fa8121b9dbaad726b9a37c624add7851232f622"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleAlliedReferenceV5/verify_study.py",
+      "size_bytes": 2254,
+      "sha256": "39fb7a67c2829acd0d645763a621883f274f5b4deb04d9ceddf8b680d861a6ad"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleAlliedReferenceV5/work_state.md",
+      "size_bytes": 977,
+      "sha256": "bed084b8bd0baf2d424ead97a97ecc44a47e583b7448a2e34712ae317e25e8fb"
+    }
+  ]
+}
