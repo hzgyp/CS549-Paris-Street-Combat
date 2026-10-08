@@ -1,0 +1,45 @@
+{
+  "identity": "fixed_surface_v12_20261007",
+  "status": "remote_prefix_only_not_clean_batch",
+  "input_sha256": {
+    "entry.json": "ca8e7e54f746d85aef45f4e446a3d5ec16e3830917f8ab66e14358a4f15acffd",
+    "exit.json": "2ab68e9e6e0a37778495b999a41c105312950e89d4da3a61fa2387dde52a3ec4",
+    "graph.json": "c4dc7e95b1f90d61060d05adc4aac060d56789996cbe5f11c974b1c15857c744",
+    "guards_before.json": "2c79a09ebd44c5e592ea2e24284220f19d8048881ea1a16656450fa99f1c023f",
+    "navmesh.json": "160f267a489335dc892034ceabca1cd4c592502c2b59a4a3a9b8f1f380505e20",
+    "pure_map_graph.py": "68040018380659768422a5d70546814851d652bc4f2745bac4fbb4aac9e8b03d",
+    "survey.json": "9ade615f8ae178dd411232f20e33bcfbbe63e6ffc804ac4677cc72a90c0c820d",
+    "ue_pure_map_survey.py": "237cd2ab8a9a95954f492c6e9cac33720d8ce0f83c0a56ef2b1f2475306aa84b"
+  },
+  "inventory_sha256": "072719794c3fa2f20f48688b1a64b14094c03ba96ba7bc2aa1a303bac87d10e9",
+  "exclusion_margin_cm": 300,
+  "exclusion_xy_cm": [
+    5219.603413484533,
+    -4115.062580220927,
+    6317.292163824773,
+    -3134.329068828999
+  ],
+  "height_ignored_conservatively": true,
+  "retained_count": 11633,
+  "retained_cases_sha256": "e7035e2b4abb9b976cceafd2861861c61e29533a22d5633abae92269c8f4f6ae",
+  "quarantined_cases": [
+    "case_11633",
+    "case_11634",
+    "case_11635",
+    "case_11636",
+    "case_11637",
+    "case_11638",
+    "case_11639",
+    "case_11640",
+    "case_11641",
+    "case_11642",
+    "case_11643",
+    "case_11644"
+  ],
+  "ungraded_initializations": [
+    "case_11645"
+  ],
+  "native_positive_criteria_unchanged": true,
+  "protected_rows": 703,
+  "log_sha256": "d5a990b38815793ae72c960efbbc475d1cbc8d2cf53efe27ca1773724eecb865"
+}

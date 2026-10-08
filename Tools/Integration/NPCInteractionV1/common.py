@@ -53,6 +53,52 @@ def apply_recoil_binary_ledger(rows, ledger):
 
 
 def _base_guard_rows():
+    epoch_path = ROOT / "Docs/Development/NPCInteractionV1/GUARD_EPOCH_20261006.json"
+    if epoch_path.exists():
+        epoch = json.loads(epoch_path.read_text())
+        snapshot = ROOT / epoch["snapshot"]
+        assert digest(snapshot) == epoch["sha256"], "Selected immutable epoch changed"
+        proof = json.loads(snapshot.read_text())
+        assert proof["status"] == epoch["status"] and proof["release"] == epoch["release"]
+        rows = proof["files"]
+        assert len(rows) == epoch["count"] == 678
+        approved = {r["path"]: r for r in rows}
+        assert len(approved) == len(rows), "Duplicate selected guard path"
+        inventory = json.loads((ROOT / "Docs/Development/NPCInteractionV1/NPC_INTERACTION_V1_DRAFT_INVENTORY_20261004.json").read_text())
+        for row in inventory["files"]:
+            if row["path"] in approved:
+                assert all(row[k] == approved[row["path"]][k] for k in ("size_bytes", "sha256")), "B package conflicts with selected epoch"
+            else:
+                rows.append(row)
+                approved[row["path"]] = row
+        assert len(rows) == inventory["combined_protected_count"], "Register explicit epoch and added B packages"
+        # The 7 October human authorization covers ONE local map increment,
+        # not a Catalog/release rebase. Preserve A's immutable snapshot and
+        # authenticate the exact author receipt before replacing its two aliases.
+        map_ledger_path = ROOT / "Docs/Development/NPCInteractionV1/AUTHORIZED_FORMAL_MAP_20261007.json"
+        if map_ledger_path.exists():
+            ledger = json.loads(map_ledger_path.read_text())
+            assert ledger["authorization"] == "2026-10-07 user explicitly permits formal map NPC AI integration and play regression"
+            proof_path = ROOT / ledger["proof"]
+            assert digest(proof_path) == ledger["proof_sha256"], "Formal map receipt changed"
+            proof = json.loads(proof_path.read_text())
+            assert proof["authorization"] == ledger["authorization"]
+            assert proof["status"] == "pass_formal_combat_map_saved_fresh_runtime_unpassed"
+            assert proof["authorized_map_mutation_verified"] and proof["protected_guards_unchanged_except_authorized_map"]
+            expected = {
+                "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+                "Unreal/ParisStreetCombat/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+            }
+            assert {r["path"] for r in ledger["rows"]} == expected
+            assert ledger["rows"] == proof["new_map_rows"]
+            old = {r["path"]: r for r in proof["original_map_rows"]}
+            new = {r["path"]: r for r in ledger["rows"]}
+            assert set(old) == expected and len({r["sha256"] for r in new.values()}) == 1
+            for i, row in enumerate(rows):
+                if row["path"] in expected:
+                    assert all(row[k] == old[row["path"]][k] for k in ("path", "size_bytes", "sha256"))
+                    rows[i] = dict(new[row["path"]])
+        return rows
     snapshot = ROOT / "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FirstPersonFormalV21/selected_v1/result.json"
     rows = json.loads(snapshot.read_text())["files"]
     # A human explicitly authorized the shared FF change on 5 October. Preserve

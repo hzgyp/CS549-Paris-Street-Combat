@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Paris native navigation diagnostics",
+  "Description": "Read-only standard query diagnosis; no movement or production navigation changes.",
+  "Category": "Diagnostics",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Modules": [{"Name": "ParisNavDiagnosticsV1", "Type": "Editor", "LoadingPhase": "Default"}]
+}

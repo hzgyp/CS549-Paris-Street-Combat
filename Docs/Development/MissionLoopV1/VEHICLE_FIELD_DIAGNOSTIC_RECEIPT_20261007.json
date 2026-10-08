@@ -1,0 +1,19 @@
+{
+  "identity": "vehicle_fields_v16_20261007",
+  "snapshot_count": 21,
+  "only_wrapper_addresses_differ": true,
+  "not_physical_or_fixture_acceptance": true,
+  "exit": {
+    "strict_log_errors": 0,
+    "exit_code": 0,
+    "owned_pid": 50092,
+    "ended_utc": "2026-10-07T17:55:40.8079531Z"
+  },
+  "files": {
+    "entry.json": "f97f47b0c35cb510c016a9a81a0c68a7a9296bec71068ef29fd0e1813fc4cc7d",
+    "exit.json": "670fa596ceafbe5a1be9cc58f07c08de083889084695b97ecff744c1da24514f",
+    "snapshot_source.py": "fa8097e8fc89012b3cfad3e6eeb5269835728f63564b06eb77bf864f5ec12ff4",
+    "survey.json": "95f1b62340430a33da99e3316de31729333e974e46e64a216a48a78c3c2a1911",
+    "ue_vehicle_fixture_diagnostic.py": "0757e4834637cfef12ccf3e3f95240e57bc5306fd20d995fe1bf73bc222e08d5"
+  }
+}

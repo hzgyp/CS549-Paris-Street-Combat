@@ -1,0 +1,93 @@
+{
+  "failure": "ML015",
+  "private_archive_only": true,
+  "original_negative_not_rewritten": true,
+  "outward_not_rerun": true,
+  "inputs": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/native.log",
+      "bytes": 293158,
+      "sha256": "7ccefe1334a082add1222909c08de76c67cfbac09b1b3a2adfa2f33c27d9a991"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/frozen_bank/adaptation.json",
+      "bytes": 1168,
+      "sha256": "b1e6c28b78b277c8e047367d3f7b54e667504e1037e57879d72dbb5d6dce5e23"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/frozen_bank/cases.json",
+      "bytes": 4195,
+      "sha256": "63ef7eba8567ea58ec8e080bd6504f7fc4b7a225c54990a59840a0bff5aaf995"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/frozen_bank/discovery.json",
+      "bytes": 7135,
+      "sha256": "581218b23d6cc6741a4389c54dc9123d1bc5067ee7aeae928108748db9604025"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/frozen_bank/ue_bridge_verify.py",
+      "bytes": 30566,
+      "sha256": "ab1546c6e3bb3c4d01f606b4cf64bbd3708cdb38767d994a864f7c14d3489dbb"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/runtime_entry/audit_v1.json",
+      "bytes": 2192,
+      "sha256": "f82aacabeaaa217ceec837a2de1f4a17e2cce0477bbaafbf3aeb84c333a2fdb8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/runtime_entry/early_0_0_out_walking.png",
+      "bytes": 2244875,
+      "sha256": "772965f9157b60908fb50cba06c1ef72d81f5a43308c27bda07e87e8f2fecbc8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/runtime_entry/entry.json",
+      "bytes": 281,
+      "sha256": "a0b63e6b03e0e007a62ba90180600db2d4b9db71bef14f8bd75fd2de35ff8700"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/runtime_entry/exit.json",
+      "bytes": 122,
+      "sha256": "f286198d822a3f528ed35b21b577d5cf23bb855a064e95776992f83a829ec236"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/runtime_entry/guards_before.json",
+      "bytes": 167126,
+      "sha256": "2c79a09ebd44c5e592ea2e24284220f19d8048881ea1a16656450fa99f1c023f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/runtime_entry/result.json",
+      "bytes": 256879,
+      "sha256": "416ab2fbda02ac9333f8e8298c16fe558e78ece7f7fe4a28aa5926d5298dfeda"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/runtime_entry/ue_bridge_verify.py",
+      "bytes": 30566,
+      "sha256": "ab1546c6e3bb3c4d01f606b4cf64bbd3708cdb38767d994a864f7c14d3489dbb"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/bank_reverse_v2_20261007/cases.json",
+      "bytes": 9528,
+      "sha256": "3a20afec6e9d02d0660e084ce1fa99ee8509c100af46ecd6b9727aad80cb23d4"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/bank_reverse_v2_20261007/outward_evidence_v1.json",
+      "bytes": 11574,
+      "sha256": "fa5325f9d43c74fc8367184e54bd170d03062340ac3a66c7784ed0538337d22c"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/bank_reverse_v2_20261007/PREPARATION_FAILURE.txt",
+      "bytes": 215,
+      "sha256": "05f168e06d9aa675ea5b0c9eec2eade480312bd97e49eb2c5cb4a27c4b18f593"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/bank_reverse_v2_20261007/prepare_bridge_reverse_failed.py",
+      "bytes": 7382,
+      "sha256": "2876a7f968c6ee9e5dc4686383f9c22891b9fda64b94d670f501aa1fd739d68b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/BridgeConnectivityV1/failed_bare_bridge_gate_v1_20261007/bridge_figure_pre_overlay_label.py",
+      "bytes": 4016,
+      "sha256": "b31c8869ea1e0beea81c41d8a0c356a53d0358c7cb719cacc03c836c501b9047"
+    }
+  ]
+}

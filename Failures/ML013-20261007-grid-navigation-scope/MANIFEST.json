@@ -1,0 +1,232 @@
+{
+  "failure": "ML013-20261007-grid-navigation-scope",
+  "commercial_derived_bytes_private": true,
+  "no_formal_asset_relocation": true,
+  "inputs": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_encounter_surface_0.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_encounter_surface_1.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_encounter_surface_2.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_encounter_surface_3.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_encounter_surface_4.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_spawn_surface_0.png",
+      "bytes": 211,
+      "sha256": "aea0e4aef3c341d2c2198a9411bb020f4d81b31f7bd64d0651b09d71bdb439bf"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_spawn_surface_1.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_spawn_surface_2.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_spawn_surface_3.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_spawn_surface_4.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_task_surface_0.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_task_surface_1.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_task_surface_2.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_task_surface_3.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_task_surface_4.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_walk_surface_0.png",
+      "bytes": 357,
+      "sha256": "6a586a85a95d058650f136e4c8dd06407c72a8869c8ece382999f1caee49fcd9"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_walk_surface_1.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_walk_surface_2.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_walk_surface_3.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/current_walk_surface_4.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/manifest.json",
+      "bytes": 59391,
+      "sha256": "47842c8ea3f8415a6050aea78f9e966d0da9b223e9fe0bf7f6c7fde4a3d823bd"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/PARIS_BLACK_WHITE_GRID_20261007.png",
+      "bytes": 86718,
+      "sha256": "f762befca295523b7af53e6ceb10bcee4ec5e056a860526e15a9c3806de99d8d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_encounter_surface_0.png",
+      "bytes": 8045,
+      "sha256": "31b4e3933ef12be2bbceee7ce787690059beebfffc71e8c0dfeddd880f77457e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_encounter_surface_1.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_encounter_surface_2.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_encounter_surface_3.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_encounter_surface_4.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_spawn_surface_0.png",
+      "bytes": 8306,
+      "sha256": "a08feb83658f74180d74ad001d6be2cf3ed55fb535c32a2304e1110e261cd1a8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_spawn_surface_1.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_spawn_surface_2.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_spawn_surface_3.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_spawn_surface_4.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_task_surface_0.png",
+      "bytes": 8488,
+      "sha256": "bf84ecab8d417792b769d3fec355c20e0aec0874a668508ed6b78861d9e891fc"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_task_surface_1.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_task_surface_2.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_task_surface_3.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_task_surface_4.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_walk_surface_0.png",
+      "bytes": 8432,
+      "sha256": "53610d6464143818221be48d52dc52cbb3f8f9d85f015dd8c04e5b6b86c38b16"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_walk_surface_1.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_walk_surface_2.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_walk_surface_3.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/artifact/survey_walk_surface_4.png",
+      "bytes": 204,
+      "sha256": "4a27b4fb92c73a8edb5b39013877a9bb69e88b7e217e584bd5b5a71d7910da2d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/build_artifact.py",
+      "bytes": 4066,
+      "sha256": "273758f74dc0c13d6af9bcb00a127e96c1e05a40e7a713c21a454925b8085ad8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/planning_data.py",
+      "bytes": 6767,
+      "sha256": "8dfaa37da31d1a4fbd7735b813ce8bb43de9b211a16cb000c791c19d909d8375"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_saved_match_v1_20261007/prepare_links.py",
+      "bytes": 4562,
+      "sha256": "07bed6b33eb48e5a08c5c70306a9bcad8444634110d64a363ab3230cd224da5f"
+    }
+  ]
+}

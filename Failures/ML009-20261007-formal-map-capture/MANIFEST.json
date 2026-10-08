@@ -1,0 +1,51 @@
+{
+  "visual_review": "all six originals inspected; blurred street; subjects/motion not established",
+  "functional_gate": "six native controls and independent audit passed",
+  "inputs": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/ue_verify.py",
+      "bytes": 25178,
+      "sha256": "8fb681dae2a0091de97d83ca16e6f9148eb7ee3ce58192cb6a33808592377855"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/result.json",
+      "bytes": 343726,
+      "sha256": "9c7a8c8cda4fcf29a69e7f68be0b8317026028b3491be3d4ea7d00201216049b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/audit_v1.json",
+      "bytes": 1256,
+      "sha256": "aa2efc1ace61d691855f0e09ec3cda2465d0b20989e6b0c98c617eaaf28882ad"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/early_0_0_back_walking.png",
+      "bytes": 4180024,
+      "sha256": "024b667b866522d80dd2baaaba4dc85a5d3a33e89cdc3a48a818114db6dcf58e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/early_0_0_out_walking.png",
+      "bytes": 4157637,
+      "sha256": "e02c08a2fc46aac32cbb5a24e28add0b551ff096edfa36b79371a062490348c5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/early_0_1_back_walking.png",
+      "bytes": 4337030,
+      "sha256": "ec624b572bb8873b67384f79fab8fbe49ed74817e05dc79266c5e940a83caaaa"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/early_0_1_out_walking.png",
+      "bytes": 4287428,
+      "sha256": "d8b05c411e2edccfc2c6e912c51d924f2a973153524316e1c45b9d915bcc14f3"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/early_0_3_back_walking.png",
+      "bytes": 4342986,
+      "sha256": "9db09039a5e3f9ef60c40c1586021a78eba68e35e39807c43dcc22b9bb936f96"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/early_v1_20261007/early_0_3_out_walking.png",
+      "bytes": 4286672,
+      "sha256": "d9d7a660480db42f85550598b5d144b92614673468e9c08979f4779702b04143"
+    }
+  ]
+}

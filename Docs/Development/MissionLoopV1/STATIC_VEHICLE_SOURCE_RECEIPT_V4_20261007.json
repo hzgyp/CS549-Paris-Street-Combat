@@ -1,0 +1,38 @@
+{
+  "status": "reviewed_static_fixture_revision",
+  "old_source_sha256": "237cd2ab8a9a95954f492c6e9cac33720d8ce0f83c0a56ef2b1f2475306aa84b",
+  "source_sha256": "074dd62cd2e02708217b4586d7e05aa2bb973b69c3bf3f5b2e71951f7211af74",
+  "unchanged_function_ast": {
+    "spawn_probe": "b30b423bea01538952cc04753139af53425e40e5c3a008af2bf81a156f269e48",
+    "standing": "26e4e66856e7958645b48407ac660105dc7bde6db3d8abf4220be2cd733b87ed",
+    "teardown_probe": "2bf7c5262af2a43eec95652a70e765cdcc02c75a162a02536209f4812bf3a05f",
+    "live_nav": "3a50432572774e964ec89b3b36af5b9ffdbef731fe5047005d495cc7f4db813b",
+    "clean_cache_interruption": "d88acb2e8b03ae64395b51d39a4b37b3cd672f24f43727950ad967dfb3682e3c",
+    "checkpoint": "b48a9359119ec4990d6e8ea290cd5e7988f4bcf7a73bde1ae161336d2b2706c6",
+    "isolate": "ab812e69361b2a5619bea063ee98a4dec8c747902a6da85b63ca848770fc4b1b",
+    "finish": "5477d0d1a4227a4d34f89448265127bc8f0ae666b916e09fdac6ed17c595148c"
+  },
+  "native_profile_exact": {
+    "radius_cm": 34,
+    "half_height_cm": 96.5,
+    "step_cm": 35,
+    "slope_degrees": 45,
+    "speed_cm_s": 600,
+    "acceleration_cm_s2": 2048,
+    "gravity_scale": 1,
+    "early_time_dilation": 1,
+    "broad_time_dilation": 4,
+    "max_frame_seconds": 0.1,
+    "arrival_xy_cm": 30,
+    "measurement_margin_cm": 5,
+    "foot_height_error_cm": 35
+  },
+  "changes": [
+    "vehicle ticks/simulation stopped with collision geometry parity",
+    "near-car control separate from denominator",
+    "authenticated conservative remote prefix only",
+    "new normal-time static fixture reference"
+  ],
+  "plan_sha256": "5827f5b49dd8e98a4e0c84fccfbb8c1408b32ef315bca2da4d3ad6c6c681a06b",
+  "prefix_receipt_sha256": "c9452444daaafd6bceb3bca5516d310257b38dc97be8a069c14b98a828844b72"
+}

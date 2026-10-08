@@ -1,0 +1,31 @@
+{
+  "ue_entries": 0,
+  "physical_attempts": 0,
+  "status": "rejected_before_ue_landscape_not_city_street",
+  "files": [
+    {
+      "original": "Tools\\Integration\\FormalMapVerificationV1\\prepare_cases.py",
+      "archive": "Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FormalMapVerificationV1\\case_selection_failure_v1_20261007\\prepare_cases.py",
+      "size_bytes": 6128,
+      "sha256": "06ceef17a77e996ac1d3505cf0a4eb2759229a671e553c1ee5955717e01cdef3"
+    },
+    {
+      "original": "Docs\\Development\\MissionLoopV1\\FORMAL_ROLE_SQUAD_TEST_PLAN_20261007.md",
+      "archive": "Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FormalMapVerificationV1\\case_selection_failure_v1_20261007\\FORMAL_ROLE_SQUAD_TEST_PLAN_20261007.md",
+      "size_bytes": 9828,
+      "sha256": "48b0aca78e71c80f55a89e3e487fd4d75da6340642f6bcfff6e15a8283072e1c"
+    },
+    {
+      "original": "Docs\\Development\\MissionLoopV1\\FORMAL_ROLE_SQUAD_TEST_PLAN_20261007_ZH.md",
+      "archive": "Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FormalMapVerificationV1\\case_selection_failure_v1_20261007\\FORMAL_ROLE_SQUAD_TEST_PLAN_20261007_ZH.md",
+      "size_bytes": 7745,
+      "sha256": "3bb05fae457eb46035d44a7715b1bf8d8122baa7cd2a99d720cf8f77ffe58c64"
+    },
+    {
+      "original": "Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FormalMapVerificationV1\\case_bank_v1_20261007\\cases.json",
+      "archive": "Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FormalMapVerificationV1\\case_selection_failure_v1_20261007\\cases.json",
+      "size_bytes": 20766,
+      "sha256": "87638acb4faee920f096a46cc4a8de4b76ad5c6396f7cc5b3c902832eb41511c"
+    }
+  ]
+}

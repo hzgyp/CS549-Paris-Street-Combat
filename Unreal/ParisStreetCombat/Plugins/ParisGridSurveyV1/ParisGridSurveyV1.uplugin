@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Paris Map Grid Survey",
+  "Description": "Disposable Editor-only exact-surface collision sampling for a private planning grid.",
+  "Category": "Testing",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [{"Name": "ParisGridSurveyV1", "Type": "Editor", "LoadingPhase": "Default", "PlatformAllowList": ["Win64"]}]
+}

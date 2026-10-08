@@ -1,0 +1,323 @@
+{
+  "schema": "paris_mission_layout_review_v1",
+  "date": "2026-10-08",
+  "status": "draft_user_review_pending",
+  "private_artifact": "Evidence/MissionLayoutV1/layout_v2_20261008",
+  "grid_spec": {
+    "cell_cm": 25.0,
+    "xmin_cm": -50400.0,
+    "ymax_cm": 50400.0,
+    "xmax_cm": 50400.0,
+    "ymin_cm": -50400.0,
+    "columns": 4032,
+    "rows": 4032,
+    "row_direction": "-Y",
+    "column_direction": "+X",
+    "meaning": "Cell center; white does not admit every position in the square"
+  },
+  "points": [
+    {
+      "id": "S",
+      "label_zh": "盟军集结／玩家",
+      "kind": "spawn",
+      "node_id": 1214710,
+      "cell": [
+        1889,
+        3053
+      ],
+      "group": 3,
+      "local_stack": 0,
+      "station_count_3m": 14,
+      "task_filter": false,
+      "requested_xy_cm": [
+        -3162.5,
+        -25937.5
+      ],
+      "snap_distance_cm": 0.0,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        -3162.5,
+        -25937.5,
+        110.11689776211418
+      ],
+      "nav_cm": [
+        -3162.5,
+        -25937.5,
+        118.36277941494622
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_SplineRoads.LV_SplineRoads:PersistentLevel.BP_Road_Childs_C_40.NODE_AddSplineMeshComponent-1_13",
+      "support_mesh": "/Game/WW2City/Environment/Blueprints/RoadTool/Meshes/SM_Road_7m.SM_Road_7m"
+    },
+    {
+      "id": "A1",
+      "label_zh": "盟军1",
+      "kind": "ally",
+      "node_id": 1216623,
+      "cell": [
+        1883,
+        3057
+      ],
+      "group": 3,
+      "local_stack": 0,
+      "station_count_3m": 9,
+      "task_filter": false,
+      "requested_xy_cm": [
+        -3312.5,
+        -26087.5
+      ],
+      "snap_distance_cm": 50.0,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        -3312.5,
+        -26037.5,
+        110.15006571008513
+      ],
+      "nav_cm": [
+        -3312.5,
+        -26037.5,
+        125.88660516931364
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_SplineRoads.LV_SplineRoads:PersistentLevel.BP_Road_Childs_C_40.NODE_AddSplineMeshComponent-1_13",
+      "support_mesh": "/Game/WW2City/Environment/Blueprints/RoadTool/Meshes/SM_Road_7m.SM_Road_7m"
+    },
+    {
+      "id": "A2",
+      "label_zh": "盟军2",
+      "kind": "ally",
+      "node_id": 1212069,
+      "cell": [
+        1894,
+        3048
+      ],
+      "group": 3,
+      "local_stack": 0,
+      "station_count_3m": 17,
+      "task_filter": false,
+      "requested_xy_cm": [
+        -3012.5,
+        -26087.5
+      ],
+      "snap_distance_cm": 276.1340254296815,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        -3037.5,
+        -25812.5,
+        109.51176540943496
+      ],
+      "nav_cm": [
+        -3037.5,
+        -25812.5,
+        112.09292461964003
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_SplineRoads.LV_SplineRoads:PersistentLevel.BP_Road_Childs_C_40.NODE_AddSplineMeshComponent-1_12",
+      "support_mesh": "/Game/WW2City/Environment/Blueprints/RoadTool/Meshes/SM_Road_7m.SM_Road_7m"
+    },
+    {
+      "id": "T1",
+      "label_zh": "目标1／抵达对岸",
+      "kind": "task",
+      "node_id": 1094421,
+      "cell": [
+        2249,
+        2825
+      ],
+      "group": 3,
+      "local_stack": 0,
+      "station_count_3m": 16,
+      "task_filter": true,
+      "requested_xy_cm": [
+        5850,
+        -20250
+      ],
+      "snap_distance_cm": 17.67766952966369,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        5837.5,
+        -20237.5,
+        110.1500057220459
+      ],
+      "nav_cm": [
+        5837.5,
+        -20237.5,
+        108.40625
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_NewsetDressing.LV_NewsetDressing:PersistentLevel.StaticMeshActor_1265.StaticMeshComponent0",
+      "support_mesh": "/Game/WW2City/Environment/Blueprints/RoadTool/Meshes/SM_Road_5mx7m_3way.SM_Road_5mx7m_3way"
+    },
+    {
+      "id": "G1",
+      "label_zh": "德军1／桥头守卫",
+      "kind": "guard",
+      "node_id": 1095251,
+      "cell": [
+        2299,
+        2827
+      ],
+      "group": 3,
+      "local_stack": 0,
+      "station_count_3m": 8,
+      "task_filter": false,
+      "requested_xy_cm": [
+        7100,
+        -20300
+      ],
+      "snap_distance_cm": 17.67766952966369,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        7087.5,
+        -20287.5,
+        132.78399721182612
+      ],
+      "nav_cm": [
+        7087.5,
+        -20287.5,
+        133.2608206371191
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_NewsetDressing.LV_NewsetDressing:PersistentLevel.StaticMeshActor_1940.StaticMeshComponent0",
+      "support_mesh": "/Game/WW2City/Environment/Mesh/Debris/SM_ConcreteRubble_Patch_01a.SM_ConcreteRubble_Patch_01a"
+    },
+    {
+      "id": "T2",
+      "label_zh": "目标2／进城路口",
+      "kind": "task",
+      "node_id": 881764,
+      "cell": [
+        2499,
+        2499
+      ],
+      "group": 0,
+      "local_stack": 0,
+      "station_count_3m": 20,
+      "task_filter": true,
+      "requested_xy_cm": [
+        12087.5,
+        -12087.5
+      ],
+      "snap_distance_cm": 0.0,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        12087.5,
+        -12087.5,
+        101.4382807766228
+      ],
+      "nav_cm": [
+        12087.5,
+        -12087.5,
+        121.71067457545094
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_SplineRoads.LV_SplineRoads:PersistentLevel.BP_Road_Childs_C_20.NODE_AddSplineMeshComponent-1_12",
+      "support_mesh": "/Game/WW2City/Environment/Blueprints/RoadTool/Meshes/SM_Road_7m.SM_Road_7m"
+    },
+    {
+      "id": "G2",
+      "label_zh": "德军2／路口守卫或巡逻",
+      "kind": "guard",
+      "node_id": 849195,
+      "cell": [
+        2499,
+        2455
+      ],
+      "group": 0,
+      "local_stack": 0,
+      "station_count_3m": 27,
+      "task_filter": true,
+      "requested_xy_cm": [
+        12100,
+        -11000
+      ],
+      "snap_distance_cm": 17.67766952966369,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        12087.5,
+        -10987.5,
+        99.89567705223917
+      ],
+      "nav_cm": [
+        12087.5,
+        -10987.5,
+        110.82527834008097
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_SplineRoads.LV_SplineRoads:PersistentLevel.BP_Road_Childs_C_20.NODE_AddSplineMeshComponent-1_15",
+      "support_mesh": "/Game/WW2City/Environment/Blueprints/RoadTool/Meshes/SM_Road_7m.SM_Road_7m"
+    },
+    {
+      "id": "T3",
+      "label_zh": "目标3／市中心据点",
+      "kind": "task",
+      "node_id": 625228,
+      "cell": [
+        2230,
+        2163
+      ],
+      "group": 0,
+      "local_stack": 0,
+      "station_count_3m": 20,
+      "task_filter": true,
+      "requested_xy_cm": [
+        5500,
+        -3600
+      ],
+      "snap_distance_cm": 162.98006013006622,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        5362.5,
+        -3687.5,
+        100.56583283842815
+      ],
+      "nav_cm": [
+        5362.5,
+        -3687.5,
+        120.05995210112346
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_NewsetDressing.LV_NewsetDressing:PersistentLevel.StaticMeshActor_1225.StaticMeshComponent0",
+      "support_mesh": "/Game/WW2City/Environment/Blueprints/RoadTool/Meshes/SM_Road_5m_3way.SM_Road_5m_3way"
+    },
+    {
+      "id": "G3",
+      "label_zh": "德军3／据点守军",
+      "kind": "guard",
+      "node_id": 617497,
+      "cell": [
+        2271,
+        2155
+      ],
+      "group": 0,
+      "local_stack": 0,
+      "station_count_3m": 20,
+      "task_filter": true,
+      "requested_xy_cm": [
+        6400,
+        -3500
+      ],
+      "snap_distance_cm": 17.67766952966369,
+      "status": "static_survey_candidate_not_mission_runtime_accepted",
+      "feet_cm": [
+        6387.5,
+        -3487.5,
+        130.1973888975762
+      ],
+      "nav_cm": [
+        6387.5,
+        -3487.5,
+        137.39782606188282
+      ],
+      "support_component": "/Game/WW2City/Maps/LV_NewsetDressing.LV_NewsetDressing:PersistentLevel.StaticMeshActor_1865.StaticMeshComponent0",
+      "support_mesh": "/Game/WW2City/Environment/Mesh/Debris/SM_ConcreteRubble_PlainPatch_02b.SM_ConcreteRubble_PlainPatch_02b"
+    }
+  ],
+  "images": {
+    "PARIS_MISSION_LAYOUT_20261008.png": {
+      "bytes": 300350,
+      "sha256": "3e1ef5f6c79478de77aec9fd1a547985345900be79d24554024f99522d8f91c9"
+    },
+    "PARIS_MISSION_LAYOUT_DETAILS_20261008.png": {
+      "bytes": 167156,
+      "sha256": "d06c7dbb2c179c0543087d0d05ad7ca65e6b22a2465712c2360c8e6e2928d5b4"
+    }
+  },
+  "private_receipt_sha256": "4936cdc7b9096fc91b95be4eea5800aa94b3e2dad5d043051890e7cf6a1fa315",
+  "formal_placement_saved": false,
+  "mission_route_physically_walked": false,
+  "original_source_masks_unchanged": true,
+  "visual_review_pass": true
+}

@@ -1,0 +1,52 @@
+{
+  "failure": "ML016",
+  "native_queries": 0,
+  "rows": [
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\result.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\result.json",
+      "sha256": "1feea3514a10726c545773bfc092af79a7ab6dd3d8cd9d2a4a2eae640762407a"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\entry.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\entry.json",
+      "sha256": "60c0b005922fed093183fe7574664d6482eb35237b04ba68282a4f67871926d0"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\exit.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\exit.json",
+      "sha256": "2b273c1e5189af7fa19f4bb2a3d654d22d4fcbeec737a391ee7c3594d3706424"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\ue_fine_grid.py",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\ue_fine_grid.py",
+      "sha256": "8884bf6a56f1e189bc6fb1f4d3e2a7f427fddfbb71faf8fc15792dc1fbc3e08e"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\prepare_fine_candidates.py",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\prepare_fine_candidates.py",
+      "sha256": "55a4e87e4e8434dc6a8ec56844f9eb1d95da606389b447dc110581fdfaa5a5eb"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\prepare_fine_links.py",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\prepare_fine_links.py",
+      "sha256": "450858c481c86a76656429ef6c9f79cb79c5f78ec7a29240f7755b626d4ba5ce"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\grid_core.py",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\grid_core.py",
+      "sha256": "c18ed998b5a3347dfc80f59598c8d5152eefc3c119881f7334b5c40638374a08"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\grid_spec.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\grid_spec.json",
+      "sha256": "bf72a98c00d07542c64f9b7643cacf9d0104d9d416f0057dbf9efe56660d7cb8"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007\\guards_before.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_dependency_v1_20261007\\guards_before.json",
+      "sha256": "2c79a09ebd44c5e592ea2e24284220f19d8048881ea1a16656450fa99f1c023f"
+    }
+  ],
+  "complete_original_entry_retained": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\early_v1_20261007"
+}

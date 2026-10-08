@@ -1,0 +1,59 @@
+{
+  "scope": "Measured SVGs are private derived map evidence",
+  "files": [
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\current_visual_v1_20261007.svg",
+      "bytes": 151897,
+      "sha256": "c098efdcaac68e95fb4a172e765642f7b65f05c1ca014cf77f211fb607e260f0",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\current_visual_v1_20261007.svg"
+    },
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\current_visual_v2_20261007.svg",
+      "bytes": 159611,
+      "sha256": "f37144eb84d6f1f20f7185c1659ca54e8c69253c20bcdfc9919e16232339a8b0",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\current_visual_v2_20261007.svg"
+    },
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\PURE_MAP_CLEAN_EARLY_20261007.svg",
+      "bytes": 4687075,
+      "sha256": "46b5c0eb0983c0ac90a2e31fede4a7f1dcaea2c640333a1c1550eef373fa159b",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\PURE_MAP_CLEAN_EARLY_20261007.svg"
+    },
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\PURE_MAP_HEIGHT_CONNECTION_20261007.svg",
+      "bytes": 130689,
+      "sha256": "0df69fc3326f7ff9a36d39b7cb762f5d529d94310a83c3db62fed0fa9cfe7512",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\PURE_MAP_HEIGHT_CONNECTION_20261007.svg"
+    },
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\PURE_MAP_HEIGHT_CONNECTION_V2_20261007.svg",
+      "bytes": 123989,
+      "sha256": "dba5c4874019c981267263c1d645d25b76c721e4dcec3457c2910fcce80710ae",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\PURE_MAP_HEIGHT_CONNECTION_V2_20261007.svg"
+    },
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\PURE_MAP_NATIVE_QUERY_EARLY_20261007.svg",
+      "bytes": 5616586,
+      "sha256": "8f8a875275e1d88b1d02cd5b5fb9b7be491bd2fa88dd9fde182036ab4030140f",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\PURE_MAP_NATIVE_QUERY_EARLY_20261007.svg"
+    },
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\PURE_MAP_REMOTE_PREFIX_20261007.svg",
+      "bytes": 8091097,
+      "sha256": "deab61da5080ce9a2abb98a1865fa8782610b40dcdc9ce6b461dd95d38073fb1",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\PURE_MAP_REMOTE_PREFIX_20261007.svg"
+    },
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\PURE_MAP_SURFACE_ADMISSION_20261007.svg",
+      "bytes": 4687072,
+      "sha256": "f3f0d45eba0fa238921cd887010c0d53bdf4e7572f431fe883dead06b72ae3f2",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\PURE_MAP_SURFACE_ADMISSION_20261007.svg"
+    },
+    {
+      "destination": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\PureMapSurveyV1\\Visuals\\retained_analysis_v1_20261007.svg",
+      "bytes": 124584,
+      "sha256": "aa0061ffaf2b802e9f1317816c5ba8b5186789fba12399f4d35c86101956f0ab",
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\MissionLoopV1\\Visuals\\retained_analysis_v1_20261007.svg"
+    }
+  ]
+}

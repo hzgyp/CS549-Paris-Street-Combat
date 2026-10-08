@@ -1,0 +1,28 @@
+# Paris 25 cm grid result
+
+7 October2026. The planning grid now uses25 cm centers instead of1 m, freshly sampled natively: sixteen times the areal density over the same world frame. The expanded fine survey connects the two C-bank test positions in one component; the saved-navigation fine filter still separates them. Models, fingers, weapon logic, AI, formal map/navigation and final layout remain unchanged.
+
+Read the implementation plan and ML006/ML008/ML012–ML017. Retain every coarse artifact, movement failure and bridge negative. The two new preparation failures have indexed analyses and authenticated private archives. This result is synchronized with the Chinese review.
+
+Frame: X/Y−50400..50400 cm,4032×4032, one pixel per25 cm center, columns+X/rows−Y, freshly measured real feet Z. White admits a filtered center, not every location in its square. Black includes blocked, disconnected and unadmitted/unmeasured; it is not universally physical obstruction. Capsule radius34 cm/half-height96.23316 cm/step45 cm/slope44.7651 degrees are unchanged. Sample the documented city-support/neighbor/missed-polygon/bridge envelope; non-city peripheral Landscape is not entirely densely remeasured.
+
+| Scope | New center records | Geometry clear | Directed link records | Links clear |
+|---|---:|---:|---:|---:|
+| Saved navigation |1,345,702|1,326,254|2,809,784|2,777,028|
+| Disposable expanded survey |2,215,761|2,148,657|5,104,876|5,060,095|
+
+Independent audit recomputes admission, coordinates and provenance: zero false admissions; maximum exact-surface XY error7.1054×10⁻¹⁵ cm. Environment/collision/static-vehicle snapshots,703 protected rows and all three previous survey binaries are exact. Owned UE21992/32260/2004/30708 exit0/strict log0. No world/NavMesh save, production role movement, firing, resource mutation, publication or Git commit/push. This is not FPS, contact, squad or MVP acceptance.
+
+C's coarse bridge-support nodes had no road admission. Fine saved scope has239 clear bare-bridge nodes/230 road-connected; expanded670/661. The unchanged test XY[1950,−20650] and[5850,−20250] project to saved groups10/3 and expanded group3/3. Independently reconstructing reciprocal expanded links gives a56.778959 m cardinal route with69 nodes inside C's original bounds, feet Z108.627199..153.312479 cm, within the previously admitted bridge-area range. This is a static graph route, not a new role traversal; the earlier two-direction original-player actual~45 m trajectories remain independent.
+
+This confirms only the local test pair, not a merger of all road components or entire banks. A has clear support but no bridge-support road admission; B has partial road links but no confirmed actual cross-bank movement. A/B, Allied/German and squads receive no new movement/combat acceptance. Diagnose specific saved-scope break reasons next, rather than shrinking further, relaxing collision or painting connections.
+
+Selected private tool: Evidence/FineMapGridV1/expanded_v2_20261007/artifact/PARIS_FINE_GRID_TOOL_20261007.html. Default expanded city survey/all road groups; choose saved navigation, one group, measured stacked surface and purpose. All-group white centers are not universally mutually reachable; local surface ordinals are not building floors. Spawn filters use conservative1 m station lattices within2/3 m, stations≥1 m apart and every intervening25 cm reciprocal link checked. Task arms remain1 m with all intermediate links. The entire failed1 m footprint maps to16 fine cells;15 measured city nodes per scope are removed and components rebuilt, all purposes black there.
+
+Fine encounter endpoint sight is unmeasured and therefore excluded; coarse exact-endpoint sight remains in the old tool. The optional historical C player trace shows independent actual movement on the saved lowest-surface view and never paints cells white or admits other roles/purposes. Export centimeter XYZ, real support/surface, native source, component and draft status. Body-center export uses the declared maximum capsule as a reference; place a specific role using its actual half-height and validate again.
+
+Outputs:72 pure1-bit purpose masks plus8 component rasters, all4032×4032. Mask/quarantine audit passes; four physical-distance/intermediate-break tests pass. Offline tool151,510,413 bytes/366 lazy blocks, caches at most4 tiles/2 masks;53 coordinate/scope/Z/quarantine/data-routing checks pass. Large-file browser/iPad interaction and performance remain unpassed. The equal-world-scale comparison was visually inspected; private receipts retain all output/source hashes.
+
+ML016: early_v1 stops before native sampling because UE Python lacks NumPy; distinct early_v2 freezes offline controls and passes road/blocker/stack/three-bridge controls with738 coordinate checks, without engine dependency installation or criterion change. ML017: city_v1 completes saved data then fails expanded preparation: all27,836 world polygons match exactly but25,832 rebuilt refs differ. Preserve that global failure. Independently audit its completed saved scope, explicitly reuse it, and measure only the unfinished expanded scope in distinct expanded_v2, selecting envelopes by exact unrounded world vertices and using fresh native refs. No successful-query repetition, cross-scope Z/link copy or failed-identity rerun.
+
+Selected evidence is expanded_v2 plus its explicit city_v1 saved source. The original703 protection epoch and formal map9ff18c13…d65b are unchanged. All owned engines are closed/native slot released. Retain raw records, independent audits/routes/masks/tool/figure and authenticated failure archives in private ignored storage.

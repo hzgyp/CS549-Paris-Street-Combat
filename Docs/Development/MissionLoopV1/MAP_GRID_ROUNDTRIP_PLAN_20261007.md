@@ -1,0 +1,15 @@
+# Paris grid runtime coordinate verification
+
+7 October 2026. This bounded check verifies that coordinates selected from the new white grid centers place and move the original formal characters correctly in the saved Paris map. All selected coordinates are tests, not spawn, objective or encounter choices. The parent MAP_GRID_IMPLEMENTATION governs storage, protection and geometric claims.
+
+Read ML001, ML006, ML008, ML010, ML011 and ML012. This attempt uses exact measured grid-center feet coordinates, independently tested saved-nav links and the existing formal role observer. It never retries failed formation/combat episodes, substitutes a model, changes navigation, relaxes the original 35 cm standing/arrival limits or drives movement per frame.
+
+Freeze up to three new routes after the native grid audit: a road connection, a second local connection and, when admitted by the grid, a connection with at least 50 cm total height change. Each route must have a reciprocal saved-nav grid path, original city support and endpoints at least 10 m from parked inactive bodies. Exclude exact prior failed runtime sites. Grid-center XY differs from previous representative tests. If no height route is admitted, retain that gap rather than using an isolated upper surface.
+
+Use original player, Allied1 and German1, covering the existing two capsule heights and three controller/role bindings. Test outward and return legs, continuing returns from the observed arrival. Three admitted routes schedule18 legs; two schedule12. Original six bodies/resources/meshes/rigs/native grip policies and player possession remain protected; inactive bodies use the authenticated prior test parking bank. Native path/completion requests drive movement. There are no squad or combat episodes.
+
+The new launcher generates a narrowly adapted copy of the authenticated completed formal observer: only the bank path, plan reference, report metadata and route enumeration change. Existing frozen observer/launcher and failed receipts remain untouched. Stage Early retains its immediate-stop behavior. Freeze adapted source and new bank hashes before UE.
+
+Early acceptance requires original native readiness/resources, exact saved profiles, source standing within35 cm XY/feet, walkable native CurrentFloor and no blocking overlap. A leg then requires the matched native controller/request SUCCESS, idle path follow, actual endpoint within35 cm XY/feet and walking floor. One bad standing/request/completion or global API/log/protection check stops this entry; preserve the failure and mark the affected planning cell/link as not runtime-admitted. Do not reposition or retry it. A source-supported measurement correction requires a new documented mechanism and identity.
+
+Normal owned exit0, strict log0, all703 guard rows and both previous survey helper binaries must remain exact. Capture actual native scenes and audit all raw samples independently. Passing this finite bank validates the selected mapping and routes only, not every white grid cell, full motion contact, AI formation, mission completion or FPS.

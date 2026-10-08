@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Paris Formal Character Survey",
+  "Description": "Editor-only bounded native path stimuli and passive formal-character diagnostics.",
+  "Category": "Testing",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [{"Name": "ParisFormalSurveyV1", "Type": "Editor", "LoadingPhase": "Default", "PlatformAllowList": ["Win64"]}]
+}

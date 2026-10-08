@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "authorization": "2026-10-07 user explicitly permits formal map NPC AI integration and play regression",
+  "proof": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/NPCInteractionV1/formal_map_author_v1_20261007/formal_combat_author.json",
+  "proof_sha256": "a15997a255dfd981a98988938d6521f7334c47e743e0e57087a14e18b1de2283",
+  "physical_map_mutations": 1,
+  "immutable_a_snapshot_rewritten": false,
+  "catalog_changed": false,
+  "publication": false,
+  "rows": [
+    {
+      "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+      "size_bytes": 2720990,
+      "sha256": "9ff18c1339ee1de61add8a15acebd56512617ed69547de668b7d59ee1772d65b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+      "size_bytes": 2720990,
+      "sha256": "9ff18c1339ee1de61add8a15acebd56512617ed69547de668b7d59ee1772d65b"
+    }
+  ]
+}

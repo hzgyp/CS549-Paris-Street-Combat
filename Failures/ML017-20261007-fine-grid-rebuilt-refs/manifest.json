@@ -1,0 +1,53 @@
+{
+  "failure": "ML017",
+  "full_native_queries": 0,
+  "rows": [
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007\\result.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_rebuilt_refs_v1_20261007\\result.json",
+      "sha256": "f7f854f79e0f0e40ca1244bddc7333447c994e7c3fe849e0ef77854fc0628fa8"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007\\entry.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_rebuilt_refs_v1_20261007\\entry.json",
+      "sha256": "299a0584e7b3e9bb110e2f3636e22c9e932ccf06bffc595c5bd6497a7b3d749d"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007\\exit.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_rebuilt_refs_v1_20261007\\exit.json",
+      "sha256": "0c00239fae3d54bec364a31d2976e060a5a78c722292fbf295a83e38dfa63d8f"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007\\ue_fine_grid.py",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_rebuilt_refs_v1_20261007\\ue_fine_grid.py",
+      "sha256": "15b49eb71105655873e1b8aec2e98c77026a419b7dc9d84a08a282fce4676beb"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007\\prepare_fine_candidates.py",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_rebuilt_refs_v1_20261007\\prepare_fine_candidates.py",
+      "sha256": "a7364b31b75028ddda67364e10f2fdacf0e6e495b48215c2c622c5dfd9f45cdf"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007\\prepare_fine_links.py",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_rebuilt_refs_v1_20261007\\prepare_fine_links.py",
+      "sha256": "450858c481c86a76656429ef6c9f79cb79c5f78ec7a29240f7755b626d4ba5ce"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007\\guards_before.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_rebuilt_refs_v1_20261007\\guards_before.json",
+      "sha256": "2c79a09ebd44c5e592ea2e24284220f19d8048881ea1a16656450fa99f1c023f"
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007\\full\\prepare.log",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\failed_rebuilt_refs_v1_20261007\\prepare.log",
+      "sha256": "2c57e9c57ae70462d9ff25cbc0e82ebba109edc72a121e46f7bdb0affbe13564"
+    }
+  ],
+  "complete_original_entry_retained": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\FineMapGridV1\\city_v1_20261007",
+  "read_only_geometry_comparison": {
+    "old_polygons": 27836,
+    "new_polygons": 27836,
+    "exact_world_vertex_matches": 27836,
+    "different_refs": 25832
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "shared_evidence_retained_in_place": true,
+  "vehicle_parity_failure_exit0": 19996,
+  "diagnostic_crash_exit_receipt": "unavailable; native log requests3; never exit0",
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/entry.json",
+      "bytes": 175,
+      "sha256": "1eac05d2e3f901fe1055e076c938a4e64804e140f941c57070fdd3e9ae9a8da9"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/exit.json",
+      "bytes": 122,
+      "sha256": "c8bac82f7e88127b06128120507ab924fc8b3fe11ec8e2ae72043d75445a47de"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/graph.json",
+      "bytes": 31765135,
+      "sha256": "b7e022d053dff191621820e80d735b3def4b44e2915460308a6e554f4dd8b081"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/guards_before.json",
+      "bytes": 167126,
+      "sha256": "2c79a09ebd44c5e592ea2e24284220f19d8048881ea1a16656450fa99f1c023f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/navmesh.json",
+      "bytes": 20244765,
+      "sha256": "6dc8d5cf213996bbbed364af7773467b70e6ad92f81f0774ef6dda59dc74c038"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/pure_map_graph.py",
+      "bytes": 7997,
+      "sha256": "68040018380659768422a5d70546814851d652bc4f2745bac4fbb4aac9e8b03d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/survey.json",
+      "bytes": 6057,
+      "sha256": "7461492d013b1a5baa243b0c2ce01641b1ed91a1f3ac52239785ff12e72f78f0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/ue_pure_map_survey.py",
+      "bytes": 39702,
+      "sha256": "fa8097e8fc89012b3cfad3e6eeb5269835728f63564b06eb77bf864f5ec12ff4"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/vehicle_prefix.py",
+      "bytes": 3852,
+      "sha256": "7116cd2562087006c92bcdfe9279a28790df309bc592c8847af2651fe5e34864"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/__pycache__/pure_map_graph.cpython-311.pyc",
+      "bytes": 16309,
+      "sha256": "14ccc71a22682836f1383d36d6f6c91b7a15908253023b847efe6c4d99d4468a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v14_20261007/__pycache__/vehicle_prefix.cpython-311.pyc",
+      "bytes": 10141,
+      "sha256": "7b347847cc282be17c483a0b7b5bca449e9e8d0f1c2cef74bca3f6f70574166b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/vehicle_fields_v15_20261007/entry.json",
+      "bytes": 186,
+      "sha256": "f6446a42115e9771e598c9cc8f9774143e1f033e7a049bb5af069f62054db239"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/vehicle_fields_v15_20261007/ue_vehicle_fixture_diagnostic.py",
+      "bytes": 5546,
+      "sha256": "319e0273fe86853fa1d1c575bd648a8ac0062b095e9bd1934b94195d72710d2d"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-40313D1242677F7289808B8BDE4BE2D3_0000/CrashContext.runtime-xml",
+      "bytes": 217199,
+      "sha256": "858ddcc72ced9dfd9e5639342d6df01555e753f25d6d527417630d2bddf13900"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-40313D1242677F7289808B8BDE4BE2D3_0000/CrashReportClient.ini",
+      "bytes": 239,
+      "sha256": "ce69d7e7bbd1a64729bd4d5724f3c1efc47c6c3d555da9d2c6ad741eddc3d893"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-40313D1242677F7289808B8BDE4BE2D3_0000/UEMinidump.dmp",
+      "bytes": 3895010,
+      "sha256": "4e3ac7f3e3e103f9b6f35c06425d46c208c31954f29f0363c497a8750861022d"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Saved/Crashes/UECC-Windows-40313D1242677F7289808B8BDE4BE2D3_0000/vehicle_fields_v15_20261007.log",
+      "bytes": 259212,
+      "sha256": "eea917487da1fdddc15ac4984d8073992da8899a98d9f25e555f80c2dbd08da7"
+    },
+    {
+      "path": "tmp/pure-map-survey-v1/vehicle_fields_v15_20261007.log",
+      "bytes": 271910,
+      "sha256": "61ca41974d71e0056918b42660dff5cd85379d46d50be5baf65c68bb7c273d99"
+    },
+    {
+      "path": "tmp/pure-map-survey-v1/early_static_vehicle_v14_20261007.log",
+      "bytes": 292198,
+      "sha256": "1210ef2c9c5c0f4e2f535556d70babb2ee3ed0040d4475267fa1e274d16e96c0"
+    }
+  ]
+}

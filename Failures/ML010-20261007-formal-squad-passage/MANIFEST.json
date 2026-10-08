@@ -1,0 +1,98 @@
+{
+  "negative_cases": [
+    "allied_follow_0_out",
+    "allied_follow_1_back"
+  ],
+  "inputs": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/ue_verify.py",
+      "bytes": 29238,
+      "sha256": "240b673a19921681872661a463455bd0432671e99f0537980e0485609c261460"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/result.json",
+      "bytes": 9492189,
+      "sha256": "e5847b76ec0b7e9424e7aa3fbadef37c2b923560c344d89b3fbf1873c2821047"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/audit_v1.json",
+      "bytes": 1656,
+      "sha256": "b5d777fbcc2c82d0ca138a7d0bdd9755a39e6e1b8d97b72c3aa6fc7edb5eda95"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/exit.json",
+      "bytes": 122,
+      "sha256": "429c839eabe997085936b41bc1db834effb3dcb86d79574d5643057e93459ae2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/allied_follow_0_back_walking.png",
+      "bytes": 3090912,
+      "sha256": "a02ce4b78c4d45a698420b6374904bbafa564822d6bdb2002bd4b986e07a7039"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/allied_follow_0_out_walking.png",
+      "bytes": 2244875,
+      "sha256": "614121a62c87f80f1a6b0f759c70b9cc52477c3b4ca5ab688531c54700757d94"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/allied_follow_1_back_walking.png",
+      "bytes": 1624447,
+      "sha256": "063aed50323ecca89ebd02883d6409702ab5ae130c1197db9f0b0972066403bf"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/allied_follow_1_out_walking.png",
+      "bytes": 1624447,
+      "sha256": "2a5a4dee981b14ce29fb5e611c6a25848667abc7050838dc7116b9b43efcfd36"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/allied_follow_2_back_walking.png",
+      "bytes": 3090912,
+      "sha256": "285366dad49188f3a10c1e71535414a1febf426b66a921e98184e193277f8c23"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/allied_follow_2_out_walking.png",
+      "bytes": 3090912,
+      "sha256": "84057cc3497fe57e761214c3eb4ad9745fa80530bc876d3342d7dfdaf35119f2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/german_traffic_0_back_walking.png",
+      "bytes": 3090912,
+      "sha256": "0c191d9f6a5b9afbc8af0f420bc1a826c1cb5bc50a4e4b5f6e4971b14dbb8c19"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/german_traffic_0_out_walking.png",
+      "bytes": 3090912,
+      "sha256": "75083577b1b851ce708dc4c61232b79f8f124bb777c78692eb5e8f74a6992382"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/german_traffic_1_back_walking.png",
+      "bytes": 1624447,
+      "sha256": "e4e1111753dc7fc309752916fb584fd5a3a04685fd3fc366dffa2da561d5d0ab"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/german_traffic_1_out_walking.png",
+      "bytes": 1624447,
+      "sha256": "b57456f59841021fef43cd1e60a5b6abbaac53bc3ef9fdb2bdae62c2102cc9b8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/german_traffic_2_back_walking.png",
+      "bytes": 3090912,
+      "sha256": "7b85c29dd53bc099c845d0a75905e978ff75b75108aa194b00d7fe63624a8569"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/german_traffic_2_out_walking.png",
+      "bytes": 3090912,
+      "sha256": "7b8658657f07e469237149a31132da8bf79dff86de81a115a17dd10ae26daaac"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/opposing_0_walking.png",
+      "bytes": 3090912,
+      "sha256": "ee8ee607e9ae6e9bfc2503e84cbdac71d9e32d1f4ad22ed5c132eeeb59f85316"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/FormalMapVerificationV1/squad_v1_20261007/opposing_1_walking.png",
+      "bytes": 1624447,
+      "sha256": "ce63b97d4080b1aa2dc4f4aaa2b1f911733f2511b718b24f238618d550201274"
+    }
+  ]
+}

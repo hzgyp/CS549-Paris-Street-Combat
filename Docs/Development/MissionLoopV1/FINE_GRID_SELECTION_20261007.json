@@ -1,0 +1,14 @@
+{
+  "schema": "paris_grid_precision_selection_v1",
+  "date": "2026-10-07",
+  "cell_cm": 25,
+  "old_cell_cm": 100,
+  "columns": 4032,
+  "rows": 4032,
+  "private_evidence": "Evidence/FineMapGridV1/expanded_v2_20261007",
+  "closure_sha256": "c6d6c2c47e59177839cefe351fee414b6a23905b14687921c48c6bd5ba442ff3",
+  "native_guard_epoch_rows": 703,
+  "static_survey_only": true,
+  "browser_tablet_qa": false,
+  "final_layout_selected": false
+}

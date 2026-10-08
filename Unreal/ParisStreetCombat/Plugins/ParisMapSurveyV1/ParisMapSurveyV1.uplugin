@@ -1,0 +1,7 @@
+{
+  "FileVersion": 3, "Version": 1, "VersionName": "1.0-survey",
+  "FriendlyName": "Paris Pure Map Survey", "Category": "Editor",
+  "Description": "Read-only native Recast polygon and neighbor export for isolated tests.",
+  "EnabledByDefault": false, "CanContainContent": false,
+  "Modules": [{"Name": "ParisMapSurveyV1", "Type": "Editor", "LoadingPhase": "Default"}]
+}

@@ -1,7 +1,111 @@
 # 失败案例索引 / Failure case index
 
+7 October standard UE navigation control: [ML020](ML020-20261007-saved-nav-coverage/ANALYSIS.md).
+Saved navigation admission differs from unsaved expanded physical traversal; preserve all raw negatives/scopes.
+
+7 October standard navigation fixture: [ML021](ML021-20261007-standard-nav-fixture/ANALYSIS.md).
+Disabled editor-body collision is inherited into PIE; zero movement, restore exact original flags before new entry.
+
+7 October native convergence negatives: [ML019](ML019-20261007-convergence-runtime/ANALYSIS.md).
+Complete138-case finite bank preserves source/path/travel negatives; black only exact role/hub-relative starts.
+Separate3-person exact-point observation preserves interaction negatives and blackens zero terrain cells.
+
+7 October convergence setup dependency: [ML018](ML018-20261007-convergence-fixture-dependency/ANALYSIS.md).
+Extracted vehicle isolation function misses its snapshot container; no hub/movement attempted.
+Preserve early_v1; explicitly provide the complete dependency contract before distinct early_v2.
+
+7 October rebuilt navigation refs: [ML017](ML017-20261007-fine-grid-rebuilt-refs/ANALYSIS.md).
+Saved fine scope completes; expanded preparation fails before native queries. All27,836 world polygons match,
+but25,832 refs change. Use exact world geometry for envelope selection and fresh refs for native admission;
+audit/reuse completed saved evidence explicitly without relabeling the failed whole entry.
+
+7 October fine-grid dependency: [ML016](ML016-20261007-fine-grid-dependency/ANALYSIS.md).
+Early v1 stops before native queries because UE Python lacks NumPy. Retain entry/guards/exit0/log0;
+v2 freezes control JSON from the existing offline runtime, keeping native acceptance unchanged.
+
+7 October bridge identity: [ML015](ML015-20261007-bridge-surface-identity/FAILURE_ANALYSIS.md).
+Player outward native SUCCESS but bare-bridge support gate fails; actual bridge-area collision is original tram/debris/canal overlay.
+Keep negative/no outward retry; authenticate existing trajectory and separately test reverse only under a new overlay plan.
+
+7 October grid runtime mapping: [ML014](ML014-20261007-grid-runtime-return/FAILURE_ANALYSIS.md).
+Player return-source overlaps original road collider after successful outward arrival.
+7 passed/1 negative/10 unmeasured; stop, quarantine that XY and rebuild graph/filter admission.
+
+7 October planning grid scopes: [ML013](ML013-20261007-grid-navigation-scope/FAILURE_ANALYSIS.md).
+Saved/rebuilt Recast heights differ despite identical physical standing sites; derived43-cell mask rejected.
+Keep saved and expanded native collections independent; associate only actual XY/support/feet within0.01cm.
+
+7 October private planning grid: [ML012](ML012-20261007-map-grid-native/FAILURE_ANALYSIS.md).
+Independent helper StrictIncludes misses condensed JSON policy header; native attempts0.
+Preserve staged source/log; explicit include correction and a new build precede early admission.
+
+7 October formal encounters: [ML011](ML011-20261007-formal-encounter/FAILURE_ANALYSIS.md).
+Flat: both factions see, Allies die without firing; narrow passes two-sided combat.
+Height_v1 fails initial standing after639.888cm pre-admission drift; combat/LOS
+unmeasured. Distinct once-only native bootstrap isolation needs unchanged-site
+standing admission; no offset/time/asset/AI repair or flat combat rerun.
+
+7 October formal Allied group arrival: [ML010](ML010-20261007-formal-squad-passage/FAILURE_ANALYSIS.md).
+Solo36/36 pass, group12/14 pass; Ally2 fails two native follow episodes with
+914.356/200.010cm body errors and released reservations. Original55cm/25s gates
+stay fixed. No offset/time/AI retry; fresh frozen encounters remain independent.
+
+7 October formal-role observation: [ML009](ML009-20261007-formal-map-capture/FAILURE_ANALYSIS.md).
+Six early native legs pass, but all six viewport images are blurred and cannot
+establish subjects/motion. Preserve them; fixed whole-scene render-target capture
+is a different observation mechanism for the previously planned main cases.
+
+7 October formal map selection: [ML008](ML008-20261007-formal-map-case-selection/FAILURE_ANALYSIS.md).
+WW2City package membership admitted outer Landscape as street candidates; bankV1
+rejected before UE/physical attempts0. Require actual city support and road evidence.
+
+7 October pure-map static fixture: [ML007 vehicle motion](ML007-20261007-pure-map-vehicle-motion/FAILURE_ANALYSIS.md).
+An unpossessed simulated car moved beyond5cm; owned36488 normal exit0/log0/703exact.
+V12 is failed, not blindly resumable. Authenticated remote prefix11633 only;
+12 later cases and one initialization quarantined. New static-car collision parity
+and near-car early gate must pass; never remove the obstacle to obtain a route.
+Later V17 admits a numerically exact static fixture; V20 completes all28,684
+scheduled records with exit0/log0/703exact and independent audit. V12 remains
+failed; static finite completion is not dynamic-vehicle or whole-map acceptance.
+
+7 October pure-map representative height: [ML006](ML006-20261007-pure-map-surface-height/FAILURE_ANALYSIS.md).
+Vertex-average center differed from detailed surface by about50cm. Owned4528
+normal exit0/log0/703 exact;7,311 historical records are not a corrected full survey.
+Use an exact-poly grounded sample and a separate standing calibration before a new schedule.
+
+7 October pure-map native isolation: [ML005](ML005-20261007-pure-map-native-isolation/FAILURE_ANALYSIS.md).
+Native FP bootstrap escaped Character/Blueprint/GripPolicy filters; broad log errors
+invalidate pure admission of prior inventory/early proof and400 observed legs.
+Remove project-native actors in memory, check inheritance, live-log stop and new clean gates;703 exact.
+
+7 October pure-map probe cleanup: [ML004](ML004-20261007-pure-map-probe-cleanup/FAILURE_ANALYSIS.md).
+Native export complete, Python controller teardown loops; owned23472 forced stop,
+703 exact. Exact-native lifecycle acceptance must precede a declared fixed-step survey.
+
+7 October isolated navigation preflight: [ML003 locked build / capacity slots](ML003-20261007-pure-map-nav-preflight/FAILURE_ANALYSIS.md).
+Rebuild refused AsyncLoadLock0x20; export misclassified vacant tile refs.
+No PIE/movement,703 exact/owned exit0. Wait for natural unlock, verify registered
+full bounds, distinguish active/vacant tiles; never promote old420m data to full map.
+
 7 October人物后坐力：[AN009 新观测入口](AN009-20261007-recoil-observer/FAILURE_ANALYSIS.md)。
 观测API、地图加载回调重入、未完整类型编译及直接压缩骨骼求值失败均保留；栏杆遮挡/偏暗画面不算完整视觉准入。不同v3完整动画求值与事务/补光原图/原项目新进程回归通过，3显示DLL本地接入有准确备份与授权账本，其他700项不变、当前703精确。只是可见后坐修复，不是完整接触/FPS/Shipping验收；没有素材/地图保存或发布。
+
+7 October pure-map inventory: [ML002 enum binding](ML002-20261007-pure-map-api/FAILURE_ANALYSIS.md).
+P0 observer guessed CollisionResponse.BLOCK, absent in installed Python binding;
+no PIE/movement/rebuild,703 exact/owned exit0. Reflect the unique actual enum
+member and record it; no collision modification or rewritten old receipt.
+
+7 October map survey: [ML001 occupied-anchor approach](ML001-20261007-map-connectivity-fixture/FAILURE_ANALYSIS.md).
+All30 navigation queries pass, but native leg8 stops100.936cm away and fails the
+unchanged80cm admission. No completion-result cause is proven; no tolerance
+relaxation or full-cycle rerun. Roof/road/landscape/awning layers are not floors.
+
+7 October NPC functional closure: [NI003 acceptance fixtures](NI003-20261007-npc-acceptance-fixtures/FAILURE_ANALYSIS.md).
+Raw offset is not a projected reachable formation point; preserve failed early
+path evidence and test actual cutoff/body regroup rather than weakening budgets.
+Later records distinguish observer API/fixture failures from retained intermittent
+body-arrival57cm failures. Fresh bounded passes do not prove whole-city stability
+or a speculative native/spawn repair; PC_EnableCombat's source gates are qualified.
 
 **开发前必读。** 每个新工作包先阅读需求与本索引，再阅读直接相关案例的失败分析。实施文档必须列出“已读案例、这次改变了什么、如何证明不会重犯”。功能测试通过不能替代人工视觉验收。没有相关案例时也要明确记录查阅结果。
 
@@ -11,6 +115,8 @@
 
 | 案例 | 状态/范围 | 开发前必须记住 |
 | --- | --- | --- |
+| [NI002 — 正式地图 NPC 原生启动夹具](NI002-20261007-formal-npc-startup/FAILURE_ANALYSIS.md) | 反射名及第二段遭遇计数错误均保留；不同的新观测通过，用户授权正式地图保存及新进程回归通过 | 从 PIE 前计数直接观测原生开战，不复活/传送伤亡队伍。单地图两别名有明确账本，703 保护一致；不是完整动作/任务/FPS 或 SFTP 发布通过。 |
+| [NI001 — 当前装备与动作适配](NI001-20261006-npc-combat-adapter/FAILURE_ANALYSIS.md) | 当前装备、原换弹身份及双阵营自动战斗后来有界通过，早期失败保留 | 核对实际枪 Actor 碰撞、原换弹终态 ID 和夹具实测几何；动作/有限遭遇通过不是完整画面或正式地图接入。 |
 | [关联：德军V13整套盟军握姿复用被人工否决](../Docs/Development/GERMAN_NPC_ALLIED_GRIP_V13_RESULT_20261006.md) | 30局部旋转可映射/原骨长保留，但枪托与左支撑不合；一次整体对位又抬高枪口。用户明确废弃，回到之前精修德军V11 | 骨架兼容不等于握合；先核对用户指定的实际图片，NPC待机和FP握姿不是同一套。零相交可能是虚握。V13全部停用，保留失败，恢复V11视觉基线而非失败V12；不覆盖正式盟军/FP或回滚map/Catalog。618guard保护，未进UE/未正式采用。 |
 | [关联：德军V12食指弯曲与整枪对位未过](../Docs/Development/GERMAN_NPC_INDEX_GRIP_V12_RESULT_20261006.md) | 用户认可V11三指外观；完整现成食指握姿缩回过多/整枪移动破坏中指。仅03半幅现成弯曲10.50°+枪移1.051cm，护圈改善但扳机仍22相交，未采用 | 不拉长手指；成熟姿态不保证适配同一枪。全片指腹平均点/最近点不等于完整接触，移动枪后必须复查已过三指。保留API错误与继承的错误链弯曲字段，03旋转不能用关节头夹角验证。618guard保护/12最终原图3对照已看/未进入UE；停止盲扫角度与偏移，未覆盖正式资产。 |
 | [关联：德军V11三指贴合试验未过](../Docs/Development/GERMAN_NPC_LOWER_GRIP_V11_RESULT_20261006.md) | 拇指已获认可；现成握姿仍虚握/16新自交，截面另一侧目标够不到，下缘固定朝下骨架框架超90°；同目标原姿态框架减少间隙但新增30/32/39木托相交和19自交 | 指腹中心接近不等于整个弯曲指腹贴合；不拉长指骨、不放宽角度门槛、不改权重遮盖。保留失败与已过拇指/食指/枪。4共享食指边界和48掌部混合点仍动，骨骼不动不等于全部掌皮固定。24原图/3对照已看，618guard保护，未进UE/未正式采用；停止自动重复这些拟合。 |

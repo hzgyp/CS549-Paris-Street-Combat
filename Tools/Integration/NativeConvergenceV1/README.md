@@ -1,0 +1,11 @@
+# Native convergence survey V1
+
+Read the synchronized implementation/result documents in Docs/Development/MissionLoopV1 and ML018/ML019 before work. The completed bank and launcher are locked by the private closure. A new physical test requires its own bounded plan, new bank and evidence identity; do not replay the failed or successful V1 cases.
+
+The immutable25cm fine map is retained.69 physical50m tiles each provide one measured white origin, tested once with an original Allied and German NPC. Native saved Recast/Detour A* and original PathFollowing/CharacterMovement perform actual locomotion at original300cm/s; the expanded survey provides origins, not replacement navigation. Source/endpoint standing,35cm actual feet/XY, matching native SUCCESS and0.6s grounded dwell are independently audited.
+
+Early four positives are reused. The134 fresh terrain cases temporarily isolate test-character capsule collisions and RVO steering groups, while preserving original enable flags/profile/assets. A separate three-new-start crowd entry restores original mutual collision/RVO and retains arrived bodies. Its negatives never update terrain masks. No Python moving-frame position or pose driver, formal map/NavMesh/config/package save, model/grip/weapon/AI asset repair, publication or Git operation.
+
+Selected private evidence: Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/NativeConvergenceV1. `bank_v1`, `early_v2`, `full_v1`, `crowd_bank_v1`, `crowd_v1`, `artifact_v1`, `layer_atlas_v1` and closure use the20261007 suffix. Source/derived masks are4032² pure1bit; only actual rejected initial25cm centres are additionally black in role/hub-relative masks. Unmeasured white remains geometry-only. Layer ordinals are local height stacks, not semantic floors. Incoming convergence does not prove reverse/all-pairs passage, stairs or formation acceptance. Browser/iPad work is explicitly deferred.
+
+The first setup NameError is retained in `early_v1` and exact private `failed_dependency_v1`; it had no native movement requests. Runtime negatives and all relevant raw evidence are authenticated in `failed_runtime_v1`. Original native observer snapshots remain the authority for their receipts even if later source formatting changes. No asset dependencies are relocated or deleted.

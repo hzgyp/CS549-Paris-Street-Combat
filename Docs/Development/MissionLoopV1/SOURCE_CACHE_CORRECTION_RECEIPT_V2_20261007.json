@@ -1,0 +1,16 @@
+{
+  "scope": "Bootstrap only two identical previously unsafe source points; accept one typed normal clean interruption; no Character/MoveTo/helper/geometry/profile change",
+  "clean_interrupted_identity": "fixed_surface_v10_20261007",
+  "old_source_sha256": "35a4a10d3dbc8b2105229c246e6c9c24ca90d5eb470cf3f8758563f5006c9194",
+  "new_source_sha256": "237cd2ab8a9a95954f492c6e9cac33720d8ce0f83c0a56ef2b1f2475306aa84b",
+  "source_rejections": [
+    "region_03541",
+    "region_03573"
+  ],
+  "new_clean_prefix_preserved": 5500,
+  "workflow": "Docs/Development/MissionLoopV1/PURE_MAP_TEST_WORKFLOW_20261007.md",
+  "retired_preflight_source_sha256": "b00c2ae5a549815b65e928649109a4329eab71fea6298e64d40903cdf112b68e",
+  "source_equivalence_only_cm": 0.001,
+  "core_driver_functions_and_motion_tail_unchanged": true,
+  "center_spec_positive_cases_merged": false
+}

@@ -1,5 +1,291 @@
 # Paris Street Combat - new-session handoff
 
+**User-authorized map and mission source publication scope — 8 October:**
+This increment carries the Paris survey/native-navigation tools and Editor-only
+helper source, mission design, reviewed2D candidate coordinates/hash metadata,
+relevant failure records and necessary current703 guard/roster dependencies.
+Generated maps/screenshots/raw survey exports/native packages/DLLs remain private;
+the existing selected Catalog is unchanged. This source publication does not
+select mission locations, save navigation or certify the complete playable loop.
+
+**MissionLayoutV1 candidate map READY FOR REVIEW — 8 October:**
+User requests all mission locations on the 2D map before implementation. Read
+MissionLoopV1/MISSION_LAYOUT_ANNOTATION_PLAN and MISSION_LAYOUT_20261008 withZH.
+Nine static L0 candidates: S/player+2Allies west of lowerC bridge, far-bankT1/G1,
+right-bank junctionT2/G2, centreT3/G3. T3 distinct from old hub. Authenticated source
+node XYZ, exact25cm white-cell mapping/quarantine and three separated assembly
+centres pass; original fine sources byte-identical. L0 is NOT a semantic floor.
+Selected private Evidence/MissionLayoutV1/layout_v2_20261008 contains overview,
+details, layoutJSON and source/QA receipts; earlier presentation retained in v1.
+Green original-player reverse bridge trace, orange proposed corridor references
+old65536 UE query plus new unqueried joins. Every objective is on the proposed
+line; no new route query/physical pass/allies bridge acceptance. User review
+pending; no UE process, placement/save/nav adoption/model/fingers/gun/commit/push.
+
+**Bridge-to-centre mission direction SELECTED / design only — 7 October22:25EDT:**
+User proposes Allies across the river, first task crossing a bridge, final city-centre
+capture and finite enemies en route. Read MissionLoopV1/BRIDGE_TO_CENTRE_MISSION_DESIGN
+20261007 withZH; this updates the earlier generic mission route. First roster remains
+1player/2Allies/3Germans: far-bank guard, junction guard/patrol, centre defender.
+G1/G2 kills optional; final sealed defender Clear then living-player occupation,
+no living registered German in zone. No wave/refill/revive/teleport at phase advance.
+Prioritize C bridge as candidate: original player two-way evidence only, squad pending.
+Current hub/world midpoint NOT final centre. Selected corridor physical/group/encounter
+and coverage/budget save+fresh-load gates remain; no universal white-cell gate required.
+No UE entry/native save/site adoption/model/fingers/weapons edit/commit/publication this turn.
+Native slot remains RELEASED by previous closure; inspect actual ownership before future entry.
+
+**UEStandardNavigationV1 COMPLETE / native slot RELEASED — 7 October:**
+User explicitly authorizes standardUE control of original69 sites/hub. Read
+Query diagnosis48/0physical also complete: expanded origins7/18/49 bothroles
+reach2048 search limit; cloned65536 filter yields671.65/557.38/420.27m complete
+paths. Saved partials do not hit limit; no saved recovery. Preserve default
+negative masks as conditional, NOT physical obstacles. QUERY_RESULT and deliveryQA
+authenticate the extra query figure; high-budget physical legs UNMEASURED.
+UE_STANDARD_NAV_IMPLEMENTATION/RESULT withZH andML020. Saved standard request-only
+admission Allied27/69/German27/69 (intentionally cancelled, not arrivals).
+Unsaved expanded original-model actual138 cases: {"allied": {"negative": 43, "passed": 26}, "german": {"negative": 43, "passed": 26}};
+negative reasons{"allied": {"standard_navigation_request_rejected": 41, "native_path_following_failed": 2}, "german": {"standard_navigation_request_rejected": 41, "native_path_following_failed": 2}}. Four early actual receipts counted once; zero bank unmeasured.
+Saved2274tiles/11124polygons versus expanded11828/27838.
+UseAIController.MoveToLocation, native projection/filter/path/300cm/s/strict35cm+overlap+dwell.
+Original blackwhite/old derivatives/evidence retained. New derivatives conditional on expanded/hub/role;
+do not infer physical blockage from old saved path negatives or adopt unsaved nav automatically.
+703/currenthelpers/finesources/models/fingers/weapons exact; normal exits0/strict log0/audits pass.
+No formal save/config/adoption/commit/publication/final mission sites; no return/allpairs/floors/crowd/MVP pass.
+Selected private Evidence/UEStandardNavigationV1/artifact_v1_20261007; ML020 authenticates negatives.
+All owned engines closed; verify actual process before a writer. Old completed launchers remain locked.
+
+**UEStandardNavigationV1 IN PROGRESS / native slot HELD — 7 October21:23EDT:**
+User explicitly requests standardUE navigation retest. Read UE_STANDARD_NAV_IMPLEMENTATION
+and FIXTURE_ADDENDUM withZH, plusML020 when finalized andML021 now. SavedProbe138
+request-only cases complete:27 admitted/42 rejected each role, intentionally cancelled
+before travel, independent audit passes. Expanded early_v1 normal exit0/log0 but
+editor collision suppression leaked intoPIE, all six bodies fell; zero movement,
+703/helpers exact, authentic failed_fixture archive/ML021. Distinct early_v2 normally exits0/log0 and independently audits four cases:2pass/2request negative.
+CurrentFull owns hiddenUE41108; both entries restored all six original flags beforePIE;
+original bank/hub/gates unchanged. Actual routes still in progress. Verify actual
+process/entry before another native writer; do not terminate a user preview.
+Full must use independently audited early_v2. No permanent map/nav/config save,
+models/fingers/weapons/AI change, commit/push or final mission placement.
+
+**NativeConvergenceV1 finite bank COMPLETE / native slot RELEASED — 7 October:**
+User defers browser/iPad work and retains25cm original map. Read MissionLoopV1/
+NATIVE_CONVERGENCE_IMPLEMENTATION and dependency/isolation/crowd plans plus RESULT/ZH,
+ML018/19 before further map work. Frozen69 physical50m white tiles, each Allied/German,
+138 native A* outcomes: Allied25pass/44negative;
+German25pass/44negative.0bank unmeasured;
+not all733900white centres certified. Temporary hub feet[187.5,-337.5,107.87759089519764]cm.
+Expanded white origins, CURRENT SAVED NAV actual movement; original300cm/s,35cm/overlap/
+0.6s standing/distance-scaled gates. Four early_v2 positives reused, Full134fresh cases:
+test-character capsule+RVO group isolation only in unsaved world, original enable/profile exact.
+Three new simultaneous crowd starts restore original RVO/mutual collision, retain arrived bodies:
+1pass/2negative; zero terrain cells blackened from crowd.
+Independent bank/crowd audits pass. Per-role/per-local-stack pure1bit4032² derivatives remove
+only actual failed25cm initial centres relative to this hub/currentNav, not tiles/components.
+All source fine files/703frozen guards/three helpers exact; no formal assets/nav/map save or
+commit/push. ML018 early_v1 setup NameError before any move retained/private exact archive;
+distinct v2 complete function dependency. Runtime negatives ML019 archived/no retries.
+Private selected Evidence/NativeConvergenceV1/artifact_v1_20261007 plus layer_atlas_v1.
+Saved3/full5 stacks retained; higher road white0, semantic floors/stairs/bridge layer links
+UNVERIFIED. Early native photos dark/occluded, not visual/full-motion acceptance.
+Tests are incoming-only; hub-to-origin return/all-pairs mutual reachability UNVERIFIED.
+Figures are measured plots. Browser/iPad deferred, no final mission placements/squad/FPS/MVP pass.
+All owned engines normally exited; verify actual process/closure before another writer.
+
+
+**FineMapGridV1 25cm COMPLETE / native slot RELEASED — 7 October:**
+User requests finer grid spacing. Read MissionLoopV1/FINE_GRID_IMPLEMENTATION_20261007.md
+and Chinese review plus ML016. Static-only25cm early_v2 owned32260 passes road/blocker/
+stack/three-bridge controls,738 coordinate checks, exit0/strict log0/703 and old helpers exact.
+early_v1 NumPy-in-UE failure retained before native queries; v2 freezes offline controls.
+city_v1 owned2004 closes exit0/strict log0 but FAILS expanded preparation before queries:
+27,836 exact world-vertex matches,25,832 rebuilt refs differ; see ML017. Its completed saved
+scope1,345,702 centers/2,809,784 links independently audits passed and is explicitly reused.
+Distinct expanded_v2 owned30708 completes2,215,761 fresh expanded centers/5,104,876 directed
+links with exact-world-geometry envelope selection and pre-batch bridge controls. Normal exit0/
+strict log0/703/old helpers exact; no UE remains. Independent combined native audit passes:
+zero false admission/maxXY7.1054e-15cm. Read MissionLoopV1/FINE_GRID_RESULT_20261007.md/ZH.
+Fine4032²/25cm/72purpose+8group PNGs, mask/quarantine audit and4 physical-station tests pass.
+Tool151,510,413B/366lazy blocks/53data contract checks pass; browser/iPad manual QA UNPASSED.
+Selected private expanded_v2/artifact. C saved projections groups10/3; expanded3/3. Reciprocal
+fine route56.778959m/69C-area nodes/Z108.627..153.312cm passes; historic real player evidence
+stays independent. Default expanded/all groups; optional C trace, no painted admission.
+A/B/roles/squads/fine encounter sight not accepted; fine encounter filter excluded.
+Full previous1m failure footprint remains16fine cells black/15city nodes excluded per scope.
+Inspect actual ownership before another UE entry; no further native task runs in this lane.
+No role movement, formal layout, map/nav save, model/fingers/weapons/AI edit or publication.
+New private Evidence/FineMapGridV1 is separate from every coarse/bridge failure identity.
+
+**River bridge C local crossing CONFIRMED / first grid omitted connection — 7 October:**
+Read MissionLoopV1/BRIDGE_CONNECTIVITY_PLAN, BRIDGE_OVERLAY_ADMISSION,
+BRIDGE_CONNECTIVITY_RESULT and Chinese reviews, plus ML015/ML006/ML008/ML012–14.
+Inventory finds3 original Bridge01 placements A upper/B middle/C lower. Raw grid
+has clear bridge support but every bridge group lacks road connectivity; no
+whole-bank physical disconnection can be inferred. Native saved local C route
+exists, but grid four-neighbor/sweep/road filtering omits it. A/B bounded road
+candidate search has no route; neither physically attempted or declared broken.
+Original player C outward moves45.415m, native matching SUCCESS/grounded endpoint
+XY17.871cm/feet0.000002902cm,69 samples/22 within bridge footprint. Exact bare-
+bridge floor gate fails because original tram/debris/canal support is evaluated;
+raw1negative/5unmeasured stays unchanged/ML015 archived/no outward retry. Bank
+Landscape samples lie outside bridge footprint, not walking water. Distinct
+reverse-only overlay plan starts exact observed arrival in new initialized
+entry, not continuous actor state. Preparation_v2 contract fails beforeUE;
+retained partial bank/source, unique v3 corrects only solo-loop anchor. Reverse
+passes1/1/native45.316m/XY20.924cm/feet0.408cm/70samples/21bridge-overlay samples,
+including bare bridge among authenticated support. Combined independent audit
+confirms original-player two directions through C bridge neighborhood in TWO
+entries; does not rewrite first negative or admit Allied/German/squad/A/B/all
+arbitrary deck cells/all left-right street districts. Original source grid groups
+18→3 are local endpoint groups; whole-bank network reach remains unverified.
+Owned42532 and22360 normal exit0/strict0/703 exact; prior helpers/native rigs/
+fingers/guns/AI/map/navigation/Catalog unchanged/no save/rebuild/commit/push.
+Private BridgeConnectivityV1 holds discovery/banks/receipts/audits/failure archive,
+3 original captures and PARIS_BRIDGES_REVIEW_20261007.png with blue bridge bounds/
+green actual reverse trajectory over old binary grid. All images inspected;
+dark/occluded static scenes are not motion/contact/FPS acceptance. figure_v1
+bare-component footer historical; review says actual bridge-area support.
+Old40 grid masks/offline tool remain immutable historical output with a KNOWN
+omitted crossing; not final physical-obstacle/layout truth. Future topology
+correction must preserve explicit native portal/actual route evidence instead
+of silently painting water white or joining untested cells. No final locations.
+All derived bytes ignored/private; final engine ownership check precedes new work.
+
+**Paris black/white planning grid GENERATED / runtime and UI gaps retained — 7 October:**
+Read MissionLoopV1/MAP_GRID_IMPLEMENTATION, MAP_GRID_ROUNDTRIP_PLAN,
+MAP_GRID_RUNTIME_QUARANTINE and MAP_GRID_RESULT (Chinese reviews synchronized),
+plus ML012–ML014. Private MapGridV1/full_v1_20261007 is immutable native evidence:
+156,083 saved cells/157,242 saved links;1,025,709 expanded cells/268,040 city
+links/62,567 two-way sight pairs;owned36052 exit0/strict0/703 exact/vehicles0drift.
+Saved46,013 and expanded83,855 city nodes kept separate;45,650 actual-point
+associations preserve both nav heights. ML013 wrong43-cell mask archived.
+ML012 compiler/transient-inventory/unbound Editor movement failures retained;
+new explicit capsule binding early_v3 passes. Independent disabled Editor-only
+ParisGridSurveyV1; both older helpers and all formal model/finger/gun/AI/map/
+Catalog exact. No saved navigation expansion, layout placement or Git publication.
+New grid-coordinate original player/Allied1/German1 route bank schedules18 legs;
+actual7 pass/1 negative/10 unmeasured. ML014 player second-route return-source
+standing overlaps original road spline; no return request/retry. Owned22308
+exit0/strict0/703 exact. Failed XY cell651,640 is black in both scopes/all
+surfaces; derived_v3 rebuilds groups/local conditions without it. Frozen bank/
+observer/7 captures copied to private failed_runtime_return_v1 archive.
+Selected artifact_v3:40 pure1bit1008x1008 masks,1m/cell,+X right/+Y up,5 overlapping
+surface orders (not floors),actual feetXYZ/native sample scope and IDs. Saved
+lowest-surface/all-road-group white counts walk38,545/spawn37,586/task17,609/
+encounter35,265;not mutually reachable across groups. Default view largest saved
+road group is not final playable boundary. Coordinate roundtrip0cm; native and
+planning independent audits pass,9 unit checks and56 offline filter contract
+checks pass. Private offline HTML20,730,376bytes/no external requests or service.
+Browser policy blocks file URLs; IAB timeout/Edge explicit rejection. Server
+background startup previously policy-rejected, not bypassed. UI click/download/
+tablet performance remain manual review gaps; no browser acceptance claim.
+Black includes obstruction/unknown/filter exclusion/runtime quarantine; white
+certifies geometric centers, not entire squares/arrival offsets/formal all-cell
+walking/squad/AI/fire. All output data/images/HTML remain ignored private bytes.
+No final spawn/task/encounter points; draft exports alone. Failed-site work needs
+a new bounded arrival/collision plan. All own engines closed; verify actual
+ownership/current703 epoch before new entry. Whole MVP/FPS/course gates open.
+
+**Formal role/group/encounter finite verification COMPLETE with negatives — 7 October:**
+Read MissionLoopV1/FORMAL_ROLE_SQUAD_TEST_PLAN_20261007.md and synchronized
+Chinese review, FORMAL_HEIGHT_ADMISSION_PLAN and FORMAL_ROLE_SQUAD_TEST_RESULT;
+also ML008–ML011 and NI002/NI003 before future implementation. Original six
+formal bodies/current9ff map/703 guard epoch, selected FP/AlliedV16/GermanV11,
+original rigs/fingers/weapons/actions/AI/Nav/config/Catalog preserved. Separate
+default-disabled Editor-only ParisFormalSurveyV1 adds formal floor/request/result
+diagnostics; old pure-map helper untouched. No source asset/map save or Git push.
+Frozen actual-city bankV3 selects5.748m flat/5.335m narrow straight/7.814m height
+routes within existing formal Nav; not whole-map/district/mission coverage.
+Six early controls pass independently; six blurred original viewport PNGs FAIL
+visual evidence and remain ML009. Main36/36 solo pass matching request/controller/
+SUCCESS/grounded endpoint, maxXY29.394/feet19.067cm, sampled falling0. Group12/14:
+Allied follow4/6, German concurrent3-body traffic6/6, opposing2vs3 traffic2/2.
+ML010 Ally2 fails flat outward914.356cm/narrow return200.010cm from HeldGoal,
+reservation0/SquadFailed/RetryCount2; do not compensate slot/offset/time/tolerance.
+German native leader-follow remains unimplemented. Three admitted30s encounters:
+both factions see actual opposite NPCs3/3; two-sided original fire/hostile damage
+2/3. Flat Allies0/Germans6 shots, two Allies die; retained negative, not rerun.
+Narrow7/6 shots passes; height distinct native-latch2/6 passes. Height_v1 initial
+Ally drift639.888cm BEFORE admission; no combat/LOS measured, retained separately.
+Different height plan observes all five native Ready transitions0.800000s, latches
+policy once, same frozen sites stand/maxfeet0.167cm, restores native flags/brains
+and admits30.083s; no runtime reposition/HP/ammo reset or gameplay authoring.
+Independent interaction audits rederive25 shot intervals/8casualties/880 dead-stop
+checks, ammo18/FFoff/no reset. Sample health association is not a per-bullet log.
+Main53 cases50pass3negative; early6 and original height admission failure separate.
+Private Evidence/FormalMapVerificationV1 contains seven unique source/result/
+entry/exit/guard receipts, logs, audits, case bank, final_summary and measured PNG.
+All32 main originals inspected; dark/cropped/occluded frames do NOT establish
+full-body contact/motion/five-body readability. No wholly occluded approach,
+corner reveal, balance, human input, FPS/Shipping/second-machine/MVP acceptance.
+All seven owned engines exit0/strict0/703exact/vehicle drift0; final process check
+required before any subsequent writer. No final spawn/objective/encounter/patrol
+or playable boundary selected. Next diagnose preserved Allied slot and flat
+fire-lane/readiness/timing negatives under new bounded plans, then extend longer
+connected-area/fully occluded tests; retain unrelated lanes' work and ownership.
+
+**Pure-map finite survey COMPLETE — 2026-10-07 19:16 UTC:**
+Workflow written first, isolated default-character execution and independent
+audit now cover all28684 scheduled cases: 26497 movements passed,
+1119 standing-only passes, 1068 negatives/cached rejections, unmeasured0.
+Not whole-map mutual connectivity.8levels/23037blockers/15gameplay removals;
+runtime project gameplay0.11828active/exported tiles/invalid0,27836polygons,
+15543regions/47176directed query edges/2231query SCCs. Passed-edge evidence SCC
+count1027;unknown/standing-only are not disconnected proof.
+Read PURE_MAP_TEST_WORKFLOW/RESULT and Chinese reviews, static plan and ML001–007.
+Keep XYZ/exact-poly surfaces/directed connectors;2.5D is recording only.
+Actual road0.90m↔surface7m reciprocal native walking passes;not all floors.
+Existing BasicShapes/proxy supports are not final Paris mission area. Existing
+roster coordinates remain temporary;no final player/NPC/objective placement.
+V12 only authenticated remote11633prefix;12 suffix cases/one init quarantined.
+V17 numeric static-car fixture passes,car collision retained/component bounds
+exact/drift0. V18 typed interruption really followed14 cases,remote11637 repeated
+once;raw fact retained/audited before continued prefix. Source V5/core/profile
+parity and prior negative caches retained;old polluted/center-only positives excluded.
+Latestfixed_static_vehicle_v20_20261007 owned51328 normal exit0/log0/current703exact,
+audit_v1 full coverage. Adopt authorized LOCAL3recoil DLLs;other700/map9ff/models/
+fingers/weapons/actions/AI/Catalog exact. No formal save/adoption/commit/publication.
+NullRHI fixed20/80ms600cm/s is simulation,notFPS/original-role/squad/MVP acceptance.
+Next select candidate connected Paris scope and test original roles/squad/mission
+returns. Raw files/template/PNG/binaries private;full chain in entry/audit_v1.json.
+Owned native slot RELEASED;check actual processes before later entry and preserve
+foreign/user editors. Chronological prior checkpoints archived in MissionLoopV1.
+Post-closure process check observes foreign MuzzleFlash effect_pulse_v1 PID2432;
+preserved without interaction. No owned map engine remains.
+
+**Map connectivity priority — 7 October, queries and bounded height proof complete:**
+User puts mutual spawn/objective/enemy reachability and usable height layers
+before mission placement. Read MissionLoopV1/MAP_CONNECTIVITY implementation
+and result (synchronized Chinese reviews). Current9ff map/703 guards queried
+without PIE/save/rebuild:30/30 directed saved-roster paths complete;1854 XYZ
+samples,449 mutual-query nodes.43 close-XY stacked sites have no both-extremes
+connection to the player in coarse sampling; this is NOT a floor count or
+absence-of-stairs proof. Keep XYZ/surface identity and directed connectors.
+Separate current_traversal_v1 FAILS leg8 after7approaches:Enemy2 arrival100.936cm
+outside unchanged80cm(+5margin); full-cycle launcher locked/read ML001. Geometry
+shows roof/road/Landscape/Cube/awning layers, not certified floors. Independent
+height_walk_v1 PASSES exact high-point-and-home2legs/native SUCCESS2/strict
+errors0/owned17496exit0/703exact, unchanged30XY(+5)/35foot limits. Arrival
+26.991/13.883cm out and28.844/18.030cm home; actual sampled feetZ56.905–460.200cm.
+This proves existing terrain height locomotion, not stairs/floors/visible-contact
+acceptance or ML001 repair. All original100HP/2/16/zero shots retained/no native
+save/rebuild/config/Catalog changes. Post-run actual UE0 is a dated snapshot;
+check process ownership again before later entry. Use2.5D diagnostic XY+realZ/
+surface identity/directed edges, keep3D native navigation. Mission anchors still
+unadmitted; next bounded gate is native completion/occupancy diagnosis then
+actual mission-anchor returns and squad bottlenecks, not flattening or tolerance
+relaxation. Do not claim physical/whole-city connectivity from query results.
+
+**Mission-loop design V1 — 7 October, documents only:**
+User requests route, objective progression and retry/full-restart design with
+diagrams. Read `Docs/Development/MissionLoopV1/MISSION_LOOP_DESIGN_20261007.md`
+and its synchronized `_ZH.md` review. It proposes survey-selected S/A/B/C,
+pre-combat readiness admission, a sealed six-actor registry/death ledger and
+initial-state map-reload retry. Checkpoints are a later Should increment.
+No mission/native/map/config edits, engine entry, acceptance or publication
+occurred. Next package is current-map survey, then an unsaved startup/lifecycle
+proof after the latest B checkpoint and native ownership are checked.
+
 **Local visible recoil COMPLETE — 7 October, fresh original-project regression passed:**
 User asks to repair invisible firing recoil in the character lane. Read RecoilV1/
 RECOIL_IMPLEMENTATION_20261007.md and RECOIL_VISUAL_ADMISSION_20261007.md (Chinese

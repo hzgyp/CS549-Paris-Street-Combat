@@ -1,0 +1,58 @@
+{
+  "identity": "early_static_vehicle_v13_20261007",
+  "exit": {
+    "strict_log_errors": 0,
+    "ended_utc": "2026-10-07T17:47:58.5173894Z",
+    "owned_pid": 46800,
+    "exit_code": 0
+  },
+  "before_probe": true,
+  "protected_exact": true,
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/entry.json",
+      "bytes": 175,
+      "sha256": "d92ee8a0b1d317c4facf8d37003b19d2c18f5e1cc1838e73e8432ee060ee0ca2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/exit.json",
+      "bytes": 122,
+      "sha256": "dbe8171cd8e7b04ea85a080a0c3a580c0d770de2954309c94ca619d2a3f1f95e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/graph.json",
+      "bytes": 31765135,
+      "sha256": "aaa8e4be909ba0a8f3d01d17d32317eb3d42f81e085fca0a9cd7cc8923667704"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/guards_before.json",
+      "bytes": 167126,
+      "sha256": "2c79a09ebd44c5e592ea2e24284220f19d8048881ea1a16656450fa99f1c023f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/navmesh.json",
+      "bytes": 20244765,
+      "sha256": "d130454e378eb88660355528f303f60a2375c204c6e12f983b4286fa2e494478"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/pure_map_graph.py",
+      "bytes": 7997,
+      "sha256": "68040018380659768422a5d70546814851d652bc4f2745bac4fbb4aac9e8b03d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/survey.json",
+      "bytes": 6326,
+      "sha256": "5aa25e62fc0e2841cd04b71859e4f714679fc115cb9a0312835b346c575ab728"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/ue_pure_map_survey.py",
+      "bytes": 39611,
+      "sha256": "e2918855a751eeec1917f83e8d0f692837461eb86a9937df91ebfe8c2bc43944"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/PureMapSurveyV1/early_static_vehicle_v13_20261007/vehicle_prefix.py",
+      "bytes": 3852,
+      "sha256": "7116cd2562087006c92bcdfe9279a28790df309bc592c8847af2651fe5e34864"
+    }
+  ]
+}

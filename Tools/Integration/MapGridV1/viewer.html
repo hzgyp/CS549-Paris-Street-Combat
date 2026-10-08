@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>巴黎地图黑白网格</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,"Microsoft YaHei",sans-serif;color:#181818;background:#f2f2f2}
+header{padding:18px 24px 12px;background:white;border-bottom:1px solid #bbb}h1{font-size:23px;margin:0 0 5px}p{margin:5px 0}
+.sub{color:#555;font-size:13px}.toolbar{display:flex;gap:13px;align-items:end;flex-wrap:wrap;margin-top:12px}label{display:flex;flex-direction:column;font-size:12px;gap:3px}
+select,button,input{font:inherit;padding:7px 9px;border:1px solid #aaa;background:white;border-radius:5px;color:#111}button{cursor:pointer}button:hover{background:#e8e8e8}button:disabled{opacity:.45;cursor:default}
+main{display:grid;grid-template-columns:minmax(400px,1fr) 360px;gap:14px;padding:14px;height:calc(100vh - 186px)}
+.map{position:relative;background:black;border:1px solid #777;overflow:hidden;min-height:400px}canvas{width:100%;height:100%;display:block;touch-action:none}
+.badge{position:absolute;left:12px;top:10px;background:white;padding:5px 9px;border:1px solid black;font-size:12px;pointer-events:none}
+.scale{position:absolute;left:14px;bottom:12px;background:white;padding:6px 10px;font-size:12px;border:1px solid black;pointer-events:none}
+aside{background:white;border:1px solid #bbb;padding:16px;overflow:auto}h2{font-size:17px;margin:0 0 8px}h3{font-size:14px;margin:16px 0 5px}dl{display:grid;grid-template-columns:95px 1fr;gap:6px;margin:10px 0}dt{color:#555}dd{margin:0;word-break:break-all}
+.note{background:#f2f2f2;padding:9px;font-size:12px;border-left:3px solid #222}.surface{border-top:1px solid #ddd;padding:9px 0;font-size:12px}.surface strong{display:block;font-size:13px}.mono{font-family:ui-monospace,Consolas,monospace}
+.draft{margin-top:10px;border-top:1px solid #ccc;padding-top:8px;font-size:12px}.row{display:flex;gap:7px;flex-wrap:wrap}.status{min-height:24px;margin-top:8px;font-size:13px}ul{padding-left:20px}
+@media(max-width:900px){main{grid-template-columns:1fr;height:auto}.map{height:65vh}aside{max-height:65vh}.toolbar{gap:8px}header{padding:12px}select{max-width:160px}}
+</style></head><body>
+<header><h1>巴黎地图黑白网格</h1><div class="sub">每格1米 · 黑色为阻挡或未准入 · 白色为满足筛选的格心 · 点选显示真实UE坐标</div>
+<div class="toolbar">
+<label>查看用途<select id="mode"><option value="walk">通行候选</option><option value="spawn">生成候选</option><option value="task">任务候选</option><option value="encounter">遭遇候选</option></select></label>
+<label>导航范围<select id="current"><option value="1">当前正式导航</option><option value="0">完整临时测绘</option></select></label>
+<label>互相连接的区域<select id="group"></select></label>
+<label>同XY叠置表面<select id="layer"></select></label>
+<label id="minimumLabel">独立站位数<select id="minimum"><option value="3">至少3人</option><option value="5">至少5人</option><option value="6">至少6人</option></select></label>
+<label id="radiusLabel">展开半径<select id="radius"><option value="2">2米</option><option value="3">3米</option></select></label>
+<button id="fit">适配白格</button><button id="full">整图</button><button id="zoomIn">＋</button><button id="zoomOut">－</button>
+</div><div id="status" class="status">正在载入测绘数据…</div></header>
+<main><section class="map"><canvas id="map" aria-label="巴黎黑白网格地图"></canvas><div class="badge" id="badge">白格表示候选格心</div><div class="scale" id="scale">滚轮缩放 · 拖动平移 · 点击选格</div></section>
+<aside><h2>格心与表面</h2><div class="note">用途筛选提供几何候选。具体小队行为、任务交互与战斗仍须按选定位置验证。这里的标记只保存为草案。正式角色抽测：7段通过、1段失败、10段未测；失败格已隔离。白格尚未逐格进行角色行走验证。</div>
+<div id="point"><p class="sub">点击白格查看脚底高度、连通组和用途条件。点击黑格查看阻挡或未准入原因。</p></div>
+<h3>候选标记</h3><div class="row"><input id="name" placeholder="草案名称" maxlength="60" style="width:175px"><button id="add" disabled>加入草案</button></div>
+<div id="drafts" class="draft">尚无标记</div><div class="row" style="margin-top:10px"><button id="export" disabled>导出坐标JSON</button><button id="clear">清空草案</button></div>
+<h3>如何理解分层</h3><p class="sub">表面按每个格心的城市支撑高度从低到高排列，并非楼层编号。不同格的同一序号可能高度不同；真实Z和表面身份始终独立保存。</p>
+<h3>用途条件</h3><p class="sub" id="conditions"></p>
+</aside></main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id),canvas=$('map'),ctx=canvas.getContext('2d');
+let config,image,meta,view={scale:1,x:0,y:0},selected=null,pointData=null,drafts=[],loadSeq=0,drag=null,first=true;
+const escapeText=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const conditions={walk:'指定表面的原生地面支撑、正式尺寸胶囊净空及到道路的双向格间连接。',spawn:'半径内至少有指定数量的独立格心站位，横向相隔至少1米、高差不超过20厘米，并通过局部双向格间连接。',task:'格心及四个方向1米处有独立站位，脚底高差不超过20厘米，四向连接均通过。交互物体与任务规则尚未设置。',encounter:'两处候选各有至少3个局部站位，可在同一连通组接近；140厘米高度的原生双向视线通过，候选距离5至20米。此项不代表AI或开枪验收。'};
+function params(){return new URLSearchParams(Object.fromEntries(['mode','current','group','layer','minimum','radius'].map(k=>[k,$(k).value])))}
+async function getJSON(url){const r=await fetch(url);if(!r.ok)throw Error('数据读取失败 '+r.status);return r.json()}
+function resize(){const rect=canvas.getBoundingClientRect();canvas.width=Math.round(rect.width*devicePixelRatio);canvas.height=Math.round(rect.height*devicePixelRatio);draw()}
+function draw(){ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);const w=canvas.width/devicePixelRatio,h=canvas.height/devicePixelRatio;ctx.fillStyle='black';ctx.fillRect(0,0,w,h);if(!image)return;ctx.imageSmoothingEnabled=false;ctx.drawImage(image,view.x,view.y,image.width*view.scale,image.height*view.scale);
+ if(view.scale>=7){ctx.strokeStyle='black';ctx.lineWidth=.6;ctx.beginPath();let c0=Math.max(0,Math.floor(-view.x/view.scale)),c1=Math.min(config.spec.columns,Math.ceil((w-view.x)/view.scale));let r0=Math.max(0,Math.floor(-view.y/view.scale)),r1=Math.min(config.spec.rows,Math.ceil((h-view.y)/view.scale));for(let c=c0;c<=c1;c++){let x=view.x+c*view.scale;ctx.moveTo(x,Math.max(0,view.y));ctx.lineTo(x,Math.min(h,view.y+image.height*view.scale))}for(let r=r0;r<=r1;r++){let y=view.y+r*view.scale;ctx.moveTo(Math.max(0,view.x),y);ctx.lineTo(Math.min(w,view.x+image.width*view.scale),y)}ctx.stroke()}
+ for(const d of drafts)if(d.source_scope===($('current').value==='1'?'saved':'full')&&d.surface_layer===Number($('layer').value))marker(d.col,d.row,false);if(selected)marker(selected.c,selected.r,true);$('scale').textContent='每格1米 · 当前 '+view.scale.toFixed(1)+'屏幕像素/米 · 滚轮缩放 / 拖动平移';}
+function marker(c,r,chosen){const x=view.x+(c+.5)*view.scale,y=view.y+(r+.5)*view.scale;ctx.strokeStyle='white';ctx.lineWidth=4;ctx.strokeRect(x-6,y-6,12,12);ctx.strokeStyle='black';ctx.lineWidth=2;ctx.strokeRect(x-6,y-6,12,12);if(chosen){ctx.fillStyle='white';ctx.fillRect(x-1,y-10,2,20);ctx.fillRect(x-10,y-1,20,2);ctx.strokeStyle='black';ctx.lineWidth=.6;ctx.strokeRect(x-1,y-10,2,20);ctx.strokeRect(x-10,y-1,20,2)}}
+function fit(box){const w=canvas.width/devicePixelRatio,h=canvas.height/devicePixelRatio,margin=14;view.scale=Math.min((w-margin*2)/(box[2]-box[0]),(h-margin*2)/(box[3]-box[1]));view.x=(w-(box[2]-box[0])*view.scale)/2-box[0]*view.scale;view.y=(h-(box[3]-box[1])*view.scale)/2-box[1]*view.scale;draw()}
+function groups(){const gs=config[$('current').value==='1'?'current_groups':'survey_groups'];$('group').innerHTML='<option value="-1">全部道路连通组</option>'+gs.map(g=>`<option value="${g.id}">组 ${g.id} · ${g.cells.toLocaleString()} 格</option>`).join('');if(gs.length)$('group').value=String(gs[0].id)}
+async function load(){const seq=++loadSeq,p=params();$('status').textContent='正在生成筛选视图…';$('minimumLabel').style.display=$('radiusLabel').style.display=$('mode').value==='spawn'?'flex':'none';$('conditions').textContent=conditions[$('mode').value];
+ try{const m=await getJSON('/api/mask?'+p);const im=new Image();await new Promise((resolve,reject)=>{im.onload=resolve;im.onerror=reject;im.src='/map.png?'+p});if(seq!==loadSeq)return;meta=m;image=im;$('status').textContent=`${m.white_cells.toLocaleString()} 白格 · ${m.black_cells.toLocaleString()} 黑格 · ${m.current_saved_navigation?'正式保存导航':'扩展测绘导航，正式地图未保存扩展'} · ${m.group>=0?'当前白格属于同一几何连通组':'当前白格可能分属不同连通组'}`;$('badge').textContent='黑：阻挡或未准入 | 白：候选格心 | +X向右 / +Y向上';if(first){fit(m.bbox_cells);first=false}else draw();if(selected)await inspect(selected.c,selected.r)}catch(e){$('status').textContent=e.message}}
+async function inspect(c,r){selected={c,r};draw();$('add').disabled=true;try{const p=params();p.set('c',c);p.set('r',r);const d=await getJSON('/api/point?'+p);pointData=d;const n=d.city_nodes.find(n=>n.layer===Number($('layer').value));const pos=n?n.feet_cm:null;
+ $('point').innerHTML=`<dl><dt>网格</dt><dd>列 ${c}，行 ${r}</dd><dt>UE横向坐标</dt><dd class="mono">X ${d.xy_cm[0].toFixed(2)} cm<br>Y ${d.xy_cm[1].toFixed(2)} cm</dd>${pos?`<dt>真实脚底Z</dt><dd class="mono">${pos[2].toFixed(3)} cm</dd><dt>参考实体中心Z</dt><dd class="mono">${(pos[2]+config.profile.half_height_cm).toFixed(3)} cm</dd><dt>当前筛选</dt><dd>${n.eligible?'白格 · 候选准入':escapeText(n.filter_reasons.join('；'))}</dd><dt>连通组</dt><dd>测绘 ${n.group} / 正式 ${n.saved_group<0?'未覆盖':n.saved_group}</dd><dt>局部独立站位</dt><dd>${n.assembly_site_count??n.assembly_sites.length} 个</dd>`:''}</dl>${d.empty_reason?`<p class="note">${escapeText(d.empty_reason)}</p>`:''}<h3>此XY的全部实测表面</h3>`+d.surfaces.map(s=>`<div class="surface"><strong>Z ${s.nav_cm[2].toFixed(3)} cm · ${escapeText(s.reason_text)}</strong><span>${escapeText(s.mesh||s.component||'支撑未识别')}</span>${s.blockers.length?'<br>阻挡：'+escapeText(s.blockers.join('；')):''}</div>`).join('');$('add').disabled=!(n&&n.eligible);selected.node=n||null;
+ }catch(e){$('point').textContent=e.message}}
+function zoom(f,x=canvas.width/devicePixelRatio/2,y=canvas.height/devicePixelRatio/2){let next=Math.max(.3,Math.min(40,view.scale*f));let ratio=next/view.scale;view.x=x-(x-view.x)*ratio;view.y=y-(y-view.y)*ratio;view.scale=next;draw()}
+canvas.addEventListener('wheel',e=>{e.preventDefault();let b=canvas.getBoundingClientRect();zoom(Math.exp(-e.deltaY*.0015),e.clientX-b.left,e.clientY-b.top)},{passive:false});
+canvas.addEventListener('pointerdown',e=>{canvas.setPointerCapture(e.pointerId);drag={x:e.clientX,y:e.clientY,vx:view.x,vy:view.y,moved:false}});
+canvas.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.hypot(dx,dy)>4)drag.moved=true;if(drag.moved){view.x=drag.vx+dx;view.y=drag.vy+dy;draw()}});
+canvas.addEventListener('pointerup',e=>{if(!drag)return;if(!drag.moved){const b=canvas.getBoundingClientRect(),c=Math.floor((e.clientX-b.left-view.x)/view.scale),r=Math.floor((e.clientY-b.top-view.y)/view.scale);if(c>=0&&r>=0&&c<config.spec.columns&&r<config.spec.rows)inspect(c,r)}drag=null});canvas.addEventListener('pointercancel',()=>drag=null);
+$('fit').onclick=()=>meta&&fit(meta.bbox_cells);$('full').onclick=()=>fit([0,0,config.spec.columns,config.spec.rows]);$('zoomIn').onclick=()=>zoom(1.6);$('zoomOut').onclick=()=>zoom(1/1.6);
+['mode','group','layer','minimum','radius'].forEach(k=>$(k).addEventListener('change',load));$('current').onchange=()=>{groups();load()};
+function renderDrafts(){if(config)try{localStorage.setItem('parisGridDraft:'+config.identity,JSON.stringify(drafts))}catch{};$('drafts').innerHTML=drafts.length?drafts.map((d,i)=>`<div>${i+1}. ${escapeText(d.name)} · ${escapeText(d.purpose)} · (${d.feet_cm.map(v=>v.toFixed(2)).join(', ')}) cm</div>`).join(''):'尚无标记';$('export').disabled=!drafts.length;draw()}
+$('add').onclick=()=>{if(!selected?.node?.eligible)return;const n=selected.node;drafts.push({name:$('name').value.trim()||'候选'+(drafts.length+1),purpose:$('mode').value,col:n.c,row:n.r,surface_layer:n.layer,feet_cm:n.feet_cm,body_center_cm:[n.feet_cm[0],n.feet_cm[1],n.feet_cm[2]+config.profile.half_height_cm],survey_group:n.group,saved_group:n.saved_group,polygon_ids:n.polys,source_sample_ids:n.sample_ids,source_scope:n.source_sample_scope,status:'draft_candidate_not_final_layout',filter:Object.fromEntries(params())});$('name').value='';renderDrafts()};
+$('clear').onclick=()=>{drafts=[];renderDrafts()};$('export').onclick=()=>{const value={schema:'paris_grid_draft_v1',grid:config.spec,profile:config.profile,source:config.identity,final_layout_selected:false,points:drafts};const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='paris-grid-draft.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+new ResizeObserver(resize).observe(canvas);window.addEventListener('resize',resize);
+(async()=>{config=await getJSON('/api/config');try{drafts=JSON.parse(localStorage.getItem('parisGridDraft:'+config.identity)||'[]')}catch{drafts=[]}$('layer').innerHTML=Array.from({length:config.layers},(_,i)=>`<option value="${i}">${i===0?'最低城市表面':'叠置城市表面 '+i}</option>`).join('');groups();resize();await load();renderDrafts()})().catch(e=>$('status').textContent=e.message);
+</script></body></html>

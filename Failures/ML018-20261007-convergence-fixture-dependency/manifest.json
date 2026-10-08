@@ -1,0 +1,50 @@
+{
+  "failure": "ML018",
+  "movement_attempts": 0,
+  "originals_preserved": true,
+  "commercial_derived_bytes_private": true,
+  "rows": [
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\early_v1_20261007\\entry.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\failed_dependency_v1_20261007\\entry.json",
+      "sha256": "3c0e81b7d2f13c314a0684d40d002480842b57cd17f30b697683f7c757d575f8",
+      "bytes": 135
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\early_v1_20261007\\exit.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\failed_dependency_v1_20261007\\exit.json",
+      "sha256": "c2a9f4b3ad699a9d648fc6e6c6070b87ec94f468f8b2391a97228b1358cf1e32",
+      "bytes": 122
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\early_v1_20261007\\guards_before.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\failed_dependency_v1_20261007\\guards_before.json",
+      "sha256": "2c79a09ebd44c5e592ea2e24284220f19d8048881ea1a16656450fa99f1c023f",
+      "bytes": 167126
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\early_v1_20261007\\result.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\failed_dependency_v1_20261007\\result.json",
+      "sha256": "96872904b3005300b90572621bbbf294fca04a79678afe9b46229c7bec3c4c00",
+      "bytes": 26734
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\early_v1_20261007\\ue_convergence.py",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\failed_dependency_v1_20261007\\ue_convergence.py",
+      "sha256": "dc45dc9a3c48f2a7c9b72d7d57854ada41aae2ae8722c36fdfd45232c16074d2",
+      "bytes": 18590
+    },
+    {
+      "source": "tmp\\native-convergence-v1\\early_v1_20261007.log",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\failed_dependency_v1_20261007\\early_v1_20261007.log",
+      "sha256": "2bbfb3fd100e8e911d503a8cda2ec7fd5efa253e01c807d1643c10cde7323c24",
+      "bytes": 291704
+    },
+    {
+      "source": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\bank_v1_20261007\\bank.json",
+      "copy": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\NativeConvergenceV1\\failed_dependency_v1_20261007\\frozen_bank.json",
+      "sha256": "84f80730f0a25af8ca6c2a628aab27ff536788aa08d0e57bedc275d1a525801d",
+      "bytes": 348249
+    }
+  ]
+}

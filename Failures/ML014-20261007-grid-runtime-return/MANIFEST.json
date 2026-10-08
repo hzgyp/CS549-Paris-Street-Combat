@@ -1,0 +1,87 @@
+{
+  "failure": "ML014-20261007-grid-runtime-return",
+  "commercial_derived_bytes_private": true,
+  "no_formal_asset_relocation": true,
+  "inputs": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/frozen_bank/adaptation.json",
+      "bytes": 850,
+      "sha256": "8e08b5ea950f0e78b679c80970f0e35486c212a5cfe01143897b57c096720589"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/frozen_bank/cases.json",
+      "bytes": 4550,
+      "sha256": "fa0fa3d41260cdf05ecc5aaada8ff34946236c7ceded94ce734f5f0fbdd6b90e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/frozen_bank/ue_grid_roundtrip.py",
+      "bytes": 29560,
+      "sha256": "e1c77c3a99df922b35350bf567091906a51c5574d6a5ab142b076f398c6ec902"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/early_0_0_back_walking.png",
+      "bytes": 3090912,
+      "sha256": "8f774855ea3b6474838b835e43fbada0ac3faf3b8b693b2b3017ae43c56f0cb8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/early_0_0_out_walking.png",
+      "bytes": 3090912,
+      "sha256": "49fbe4d443a99f41d9d6ebaf4a8d1f31366b341ce48c70e1292016021d943b9f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/early_0_1_back_walking.png",
+      "bytes": 3090912,
+      "sha256": "2521e3b0ce1c71cf404f178692ca851d4f2c48696ed01aa111f8290e3343a563"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/early_0_1_out_walking.png",
+      "bytes": 3090912,
+      "sha256": "0693fa64d16c36a0c714e92651c3af3964c3c33ab23559067f81757ed044787b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/early_0_3_back_walking.png",
+      "bytes": 3090912,
+      "sha256": "8901c69a149c2cc0c2899155c03c9a3023a3e37216bd63157e58c25559ce175c"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/early_0_3_out_walking.png",
+      "bytes": 3090912,
+      "sha256": "c90463ebe29acb15bbfe08514f0d52ae98aef5e269ba724c45ffbfbae6ecf041"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/early_1_0_out_walking.png",
+      "bytes": 2244875,
+      "sha256": "f371f4e0179bf6cb16d0cef67a2f0dc845b9a1bd3a62fd257bb8ffdb593a34b7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/entry.json",
+      "bytes": 294,
+      "sha256": "457c0a9ea616c1141deb609a70b9e5544ac6b59e5a1ea168bf6fd84dbcbaab88"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/exit.json",
+      "bytes": 122,
+      "sha256": "67b23b2090d5f0ebad73767c3eed92d8aed5938cfe185de5d12d10503accbb2a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/guards_before.json",
+      "bytes": 167126,
+      "sha256": "2c79a09ebd44c5e592ea2e24284220f19d8048881ea1a16656450fa99f1c023f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/result.json",
+      "bytes": 467009,
+      "sha256": "f27f6a2aa15c86c6fff329d3e67444ccbf34656273dfe7bcb1ac9413e5cc3b07"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/ue_grid_roundtrip.py",
+      "bytes": 29560,
+      "sha256": "e1c77c3a99df922b35350bf567091906a51c5574d6a5ab142b076f398c6ec902"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MapGridV1/failed_runtime_return_v1_20261007/runtime_entry/walking_contact_sheet.png",
+      "bytes": 2698331,
+      "sha256": "91922e08a539483100293ad71fbb0aa1e96d245d4a22dcc3f974fcf3b7b504ee"
+    }
+  ]
+}

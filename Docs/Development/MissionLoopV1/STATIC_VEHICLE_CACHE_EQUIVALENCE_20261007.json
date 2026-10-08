@@ -1,0 +1,14 @@
+{
+  "admitted_fixture_source_sha256": "602b9c5414e14943115d5c357893e43d09223ec931639213730ecf79f7274dfa",
+  "new_source_sha256": "074dd62cd2e02708217b4586d7e05aa2bb973b69c3bf3f5b2e71951f7211af74",
+  "unchanged_function_ast": [
+    "vehicle_snapshot",
+    "freeze_environment_vehicle",
+    "assert_isolation",
+    "spawn_probe",
+    "standing",
+    "teardown_probe"
+  ],
+  "change": "cache remote exact negative11637 outside excluded vehicle zone; no repeated physical attempt",
+  "early_receipt_sha256": "de4ef020d08fb038f5354421ce516a65977b7578db97a720bd74c28d582f45af"
+}

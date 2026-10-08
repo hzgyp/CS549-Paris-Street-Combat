@@ -1,0 +1,15 @@
+# Bounded height traversal proof
+
+7 October 2026. Independent continuation of the user's height-access question. [Chinese review](MAP_HEIGHT_PROOF_IMPLEMENTATION_20261007_ZH.md). Read [ML001](../../../Failures/ML001-20261007-map-connectivity-fixture/FAILURE_ANALYSIS.md), NI001/NI002/NI003 through the [survey plan](MAP_CONNECTIVITY_IMPLEMENTATION_20261007.md), the current C1 receipt and the failed C3 source/captures. The occupied-anchor cycle remains stopped.
+
+Changed mechanism: isolate **terrain-only height locomotion** with two unoccupied endpoints, rather than walking into stationary character locations. Bind native MoveCompleted result and disable sensing as well as stopping brains after original hidden bootstrap; no per-frame behavior/pose driver. This explicitly isolates original AI stimuli, not a demonstrated cause/fix for ML001. Do not rerun its failed anchor sequence or adjust acceptance.
+
+Before a separate serial engine entry, verify map9ff and all703 guards, current C1 hash and no competing process. Unsaved source actors stay at saved positions. Preserve original gear/grips/models/actions/capsules and100HP/2/16/zero shots throughout. Freeze combat/brains/sensing before revealing the finite roster; no resource writes/resets/teleports.
+
+One original Ally walks from saved spawn to exact C1 `sample_0952`: XYZ(-3952,6000,443.409610984)cm; then walks back to its original projected home. Require complete fresh runtime queries in both directions,30cmXY admission (+5cm measurement margin),35cmfoot-height error, native success result/Idle and no resource change. Both legs have length-derived finite game deadlines and total600s wall deadline. Other actors remain present; this is not a performance test. Captures remain diagnostics; no visual contact/floor/stair acceptance from a movement result.
+
+Early gate is unchanged initial resources, five selected native equipment bootstraps and one live PIE navigation receiver. Stop immediately on an API/log error, unexpected resources, Blocked/Aborted/failure completion, wrong endpoint height, stall or guard mismatch. No automatic alternative point, collision edit, bounds expansion, target offset, tolerance relaxation or retry. Preserve unique evidence and update ML001/index if a new failure is observed.
+
+Passing establishes only that an original capsule can traverse this existing high collision-supported route and return. C2 already identifies a broken-roof/debris source and simple-vs-complex height discrepancy; a pass does not establish a real second storey, stairs, acceptable visual contact, all43 stacked sites, other high structures or final mission locations. Query-only nodes and the occupied-anchor issue retain their pending/failed status.
+
+Reuse the source observer in a separate `Height` entry with its own immutable script snapshot/receipt; old `Traversal` launch is locked. No native save/export/adoption, map/config/asset/Catalog mutation, publication, commit/push or model/grip adjustment. End PIE, restore staged visibility/background setting, close owned process and reverify703 guards.

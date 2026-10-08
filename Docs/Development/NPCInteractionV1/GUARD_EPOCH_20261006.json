@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "snapshot": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/GermanNPCFormalV14/selected_v1/result.json",
+  "sha256": "a298c06e258192ad6a97ca73ca46b48971f0895a0c796aefa55dc05aaf3e8f60",
+  "count": 678,
+  "status": "formal_german_v11_with_rifle_and_private_sftp_verified",
+  "release": "paris-native-playtest-20261006-german-grip-v11",
+  "authority": "2026-10-06 user resumes NPC development after both faction formal visual selections",
+  "historical_snapshot_rewritten": false
+}
