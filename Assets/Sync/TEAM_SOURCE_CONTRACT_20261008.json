@@ -1,0 +1,3040 @@
+{
+  "schema_version": 1,
+  "asset_version": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+  "normalization": "CRLF to LF only; preserves all other bytes",
+  "scope": "Runtime/plugin configuration and integration source; other files selected by matching Git revision",
+  "files": [
+    {
+      "path": "Tools/Integration/AlliedNPCFormalV18/common.py",
+      "sha256_lf": "58c6dbbb71ea651d9c8177364f5d59b9898af996f87f1bbfd62c42c53913c14b"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCFormalV18/preflight.py",
+      "sha256_lf": "51fda763ab03f56a245f72c46a02f117ff6ad5ff12dcfa9682baeb23fa3c4e4e"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCFormalV18/publish.py",
+      "sha256_lf": "a1efe768c12772738e200b4b720f564c25e71b16f1236a6451c698fcbd3e4e28"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCFormalV18/run_entry.ps1",
+      "sha256_lf": "d08f128318ffb5007b514fae0617838870cdcaec0957ebc10b91181e76affd65"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCFormalV18/run_game.ps1",
+      "sha256_lf": "2ee3474e88f44077afa5afa527e47c97f38ebdf717aa2e45bc46efbfeb731399"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCFormalV18/ue_entry.py",
+      "sha256_lf": "af5171ea59354820243580f3daff92927cc3a9de316baaafc2a1239bc94275fd"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_firing_assembly_v13.py",
+      "sha256_lf": "1756bfd0b7881898dbc240c0c63a37e494af8132cdcc2ca3804d04f995c40e24"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_fp_wrist_v14.py",
+      "sha256_lf": "be52ff9494cea927d2e1fcb84071d57584e98c341df59b3bd17efe1b5720f0c6"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_index_curl_v11.py",
+      "sha256_lf": "2cf75096705ce43d6559638f37bbe0d6dd8be34023e868a6fe8cb02c26b3ff7b"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_index_curl_v11b.py",
+      "sha256_lf": "e6539bd3b4bdc1a9c87bcff75b13488d840dfa039c589e14605ef07129daee41"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_index_curl_v11c.py",
+      "sha256_lf": "32878acfd9fb21406e2b049a297f6c90911271966c99a0762c142a39c76d5d96"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_index_curl_v11d.py",
+      "sha256_lf": "f7943655d8ab0b1e93f7ac975847c746f3309ce3befe147e8c05f1efdb9afbf7"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_index_curl_v11e.py",
+      "sha256_lf": "0fb0e75235d54b86c85e81135dfd6f8f9daa031bdce1657dcc61075ab8d01401"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_pivot_raise_v7.py",
+      "sha256_lf": "ef463e47f07ee8280cc1a24f0b1c977c1b75b2090fa6b5a0f50c3d77d977034f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_pivot_rotate_v9.py",
+      "sha256_lf": "fb33dd8e1784fc4e5e85b40efefbbe02010788f8046bb342058de8ec1886357c"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_tip_curl_v12.py",
+      "sha256_lf": "62a1584f45ed7aea29304b1c3849f71b64c80dbc8a1bf7d8d51f56c32df651a4"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_trigger_fit_v10.py",
+      "sha256_lf": "97eb221efc77784c85a57178cb9b2cd40be8cb985e81804bd0f92402bde6bc35"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_trigger_pad_v10d.py",
+      "sha256_lf": "b0850d6054bb8afc87654e98462a1277fbc7a916217fdeded3933cd8fbc6ffb2"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_trigger_surface_v10b.py",
+      "sha256_lf": "395f2778cf3ae0f512222f7404e8a05974305d9db6ff014738e44e8306f11527"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_trigger_tangent_v10c.py",
+      "sha256_lf": "20fb08cd669488363ebe7c18a5d682ff674b4b4e65f26c839c8d1cbdf1e3e82a"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/blender_whole_raise_v8.py",
+      "sha256_lf": "de6bf7b96e256008dd5195926f3c3858d99e954876ee5882c40a5d37d795f31b"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/common.py",
+      "sha256_lf": "3c5a46444ac65b4b932ad820ccc3beed8ff423946adc8725d29c76a961e358fb"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_firing_assembly_v13_views.py",
+      "sha256_lf": "a32523863420abb80817cb85ac0b1c13bb8e23593e2c213bee070bfb76c3ab86"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_fit_v5_views.py",
+      "sha256_lf": "1d5e6d556dec95626a8711c21c939f4e33f9f1271106fa8debb41b09d6c29438"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_fp_wrist_v14_views.py",
+      "sha256_lf": "1363c8db6fd8c2e008367d36534707aa3bf7dbc1b3e2841607e2501440fd6d77"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_index_curl_v11_views.py",
+      "sha256_lf": "46044c64c626a7c0ae44e03689bb54c19abcd6c6dc7564efe8a600047625b3ec"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_marked_web_v6_views.py",
+      "sha256_lf": "155327e37681906c6c5eb73304b2d4de31781c1ae2c53b04856f6c0d8f46877f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_pivot_raise_v7_views.py",
+      "sha256_lf": "59dfdfceedb605b972190bb582257d3bfd2c7a5cff9214af792dc53400d3bbd8"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_pivot_rotate_v9_views.py",
+      "sha256_lf": "8852af5a00045153c5f0373bd6558d4af98c6f36b4a9f902f506524bac760620"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_raise_v4_views.py",
+      "sha256_lf": "118d752d8becd8591408a4a5c717410218593bb59002a80b951a0147251d691c"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_raise_views.py",
+      "sha256_lf": "fbffb22d6e98bb1ff1b3400be0559a84b397395fc815768f65d1c4627cd7fbfa"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_tip_curl_v12_views.py",
+      "sha256_lf": "282d1d282ba8aa2d77f88728e37408656c04a012f5ed58f8c6aa1f864e788752"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_translation_views.py",
+      "sha256_lf": "7b3c55fd525f27f33eae2cd023c43b4b94b144c631f6e3809c0a34c0c1efc013"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/compose_trigger_fit_v10_views.py",
+      "sha256_lf": "ea683cd3a6c0bf4c03f2d754008478f55a68431bd98477182f236b71da74a804"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/marked_web_math.py",
+      "sha256_lf": "02df8c2fe573913e231c5bd5f1029082dfbeb7138bfbf0bb5d5cc9da70d8e13b"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/measure_foreend_v6c.py",
+      "sha256_lf": "9f187209ec01b598b22633381643eeb79187c61d73dbbadcdb27a6fe79c0eb12"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/measure_marked_web.py",
+      "sha256_lf": "a780e69f975ef25358981f1fc121c601f4e1d9b44af360ce945070c1036213a8"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/measure_marked_web_v6b.py",
+      "sha256_lf": "e1a2ef316faaa585ec8b625074f928885ea7cff1970e13792858d721384a12b1"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/measure_pivot_raise_v7.py",
+      "sha256_lf": "c702c293a5f385bd2789571d724a05d42424381f7e334c0c9710e24197704d3f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/offline_contact.py",
+      "sha256_lf": "ca1ff50988f3519977d10fe14510d111f6a7658241a924f20c69fc90b69a87ab"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_firing_assembly_v13_views.ps1",
+      "sha256_lf": "fde1991a2a2a6260da1899c24f188db38fffc82832c4a39aa4a42ca4122f630e"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_fit_v5_views.ps1",
+      "sha256_lf": "70f42cd73a96d21163d3a7f9d1eb652cfb6a4d96dc41d7c5ab7fdb9851403785"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_fp_wrist_v14_views.ps1",
+      "sha256_lf": "0fcb1ef90f511881006fa7b02a0334df092a9281cf99599a653a8a17d1bc559f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_index_curl_v11_views.ps1",
+      "sha256_lf": "05f78d9e91bcc93236d0780f8297095c828c345a1d239652040e0b0cdd5f78ff"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_marked_web_v6_views.ps1",
+      "sha256_lf": "7f5d8b894ee86bb69b6e6c026129fdcddbae3afc6e173505c76489171b3ec7ed"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_pivot_raise_v7_views.ps1",
+      "sha256_lf": "a4e639651b3cad23cb546183183b109abc9913e5081479558bc386ab1bff203b"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_pivot_raise_v7b_views.ps1",
+      "sha256_lf": "0a2dcca3999f7e667dee3e99cabffb5fa312815af2bfd386302107af7aedcda3"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_pivot_rotate_v9_views.ps1",
+      "sha256_lf": "9c22437f19f06aab4d693f228f12ddd3d7d285580917625d4ed5966c47a41741"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_raise_v4_views.ps1",
+      "sha256_lf": "78cb40e02d1bc702de2b098696a7a89b119804b8d753d8ca135e3769953fe48f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_raise_views.ps1",
+      "sha256_lf": "82de471db0c3d0ce7a063769a8c26e4e1f898808eee08488315c06859e4ee2d7"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_tip_curl_v12_views.ps1",
+      "sha256_lf": "de4beab1b2489409e09246f7c63a112b8c2aef62b758e3d510a2e37467e7d96f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_translation_views.ps1",
+      "sha256_lf": "9b026d29ce49be29339c84fbbc81659dd1e352dc2e041e186a3dd31cc0f486e7"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_trigger_fit_v10_views.ps1",
+      "sha256_lf": "120c0e0e27d89b006f5f4b2a0b4427e0f6b5633a7a5914fc8d36e169ad4bbc7a"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/run_whole_raise_v8_views.ps1",
+      "sha256_lf": "7efa6e409cdb3eb5fb261666888887a86ea56d4ec9c64a25f379cc9cca01f007"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/transform_math.py",
+      "sha256_lf": "b8c18faf99ac828d4ff00648921f8c00cd10a7e0bfd46788b8edb23e9c415a1c"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_firing_assembly_v13_views.py",
+      "sha256_lf": "3a5be95d72fb6828733cd99a48b6e628e4f94eade773d4764d1bdfacd63d3661"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_fit_v5_views.py",
+      "sha256_lf": "aeaad65a9dbf162065475353232d414db0477608046f350db71272269c5c86eb"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_fp_wrist_v14_views.py",
+      "sha256_lf": "ef1aa93cf7894bbcb969317b14dc225122691886149de302f526ded2cbb687a8"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_index_curl_v11e_views.py",
+      "sha256_lf": "64c0d127afc965970650894e8ccede4c91967bd119e3e917e2b47743e029d318"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_marked_web_v6_views.py",
+      "sha256_lf": "0c3a459634da2f569aa1d6584beb69f034b8d82ef11e41b1201d5afec2cd9023"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_pivot_raise_v7_views.py",
+      "sha256_lf": "be9fb119f5f6522aba7a0a7ef86cf8450f5484a01a42711a7f2442c209c6e49e"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_pivot_raise_v7b_views.py",
+      "sha256_lf": "04526a7e6e4e7ca7f730e1e7714a0fe9b02f14df92005b259f93649f379fc115"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_pivot_rotate_v9_views.py",
+      "sha256_lf": "e2c0ee9e2e36564ff3bfd93360ace24f531d14b2653a044856caf08798464dc1"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_raise_v4_views.py",
+      "sha256_lf": "e25a314d1fb1fa3aac5df12f4676d89edf7c1e28c35035d068035653052afc58"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_raise_views.py",
+      "sha256_lf": "ab2c0a5e830e26f7bb8a3daa8214d0150acac705738cf7f0859fedd66ba5aca5"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_tip_curl_v12_views.py",
+      "sha256_lf": "8e0ebe590d42175137b61bca21ac46616651f6ae5786cc7d90f1f30e89d49940"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_translation_views.py",
+      "sha256_lf": "ca17d1d89a70d7b86a22867fb507f143906544c8a75f87b0156015a38970d19e"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_trigger_fit_v10_views.py",
+      "sha256_lf": "52c7cb86cd5d7c06c75c6a96f400e643f76c0ffc22b1a4ef8879248f5b6cf5d5"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/ue_whole_raise_v8_views.py",
+      "sha256_lf": "22584e5fceaea57f595caccbc003503f3508bdacc0cc750d168e946bb71a7b5d"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_firing_assembly_v13.py",
+      "sha256_lf": "c76f9d7973cb9f3aedd546c620defc25b61bcfad0819fba6cd9895d3e2e0f498"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_firing_assembly_v13_offline.py",
+      "sha256_lf": "eab170707122985cbe9af56294b6741cadc6bb2d5a23a4aa1ffe9084903dcc5f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_fp_wrist_v14.py",
+      "sha256_lf": "0a8e8a4acbb99d18cd2d2e69291b56fce462c62c41c2b3f29005075ee8d83fcc"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_fp_wrist_v14_offline.py",
+      "sha256_lf": "d66fda948aea25505cc838e5d240f37547ec4f96cb9d6453f601d8fa1d5c887f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_index_curl_v11.py",
+      "sha256_lf": "af773b5753fcf02184d6bb259acbd4e951e6a987fea4d86add34fee2b73af884"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_index_curl_v11_offline.py",
+      "sha256_lf": "b3264b750a34b0d6b66571c0498023f0b25d369c312105b0b1fb75567e6a9490"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_marked_web_v6.py",
+      "sha256_lf": "1887c428e6779a49357c0f65f6d983a0f4a6828fbc530b8a4b9a51e4b6da3924"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_pivot_raise_v7.py",
+      "sha256_lf": "353d521fa47df331dcc58e22c38485ef8e05b8649e71efd801ed446e6c4eaae0"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_pivot_rotate_v9.py",
+      "sha256_lf": "bd642ba208c75b9346358f189953ddd933cb83c02ebc2ce9361d70a7b0dc03bc"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_tip_curl_v12.py",
+      "sha256_lf": "4dfb328843dd474db5bb18129fb37d573bc1673c1b40c72c62ab485ce74d4ab5"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_tip_curl_v12_offline.py",
+      "sha256_lf": "14094d46551eaa56bdd79e651d4ff2e73913e6765b57ef2b0f8fba4b037a858c"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_trigger_fit_v10.py",
+      "sha256_lf": "54aaf59913849a8018adc008f5ebc5f7933c6b6cac964f526b9c99011efebf38"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCGripV2/verify_trigger_fit_v10_offline.py",
+      "sha256_lf": "151789b07faab5ea4dc4bdef988cd0e65cd954c4aaccb285287071b3c5ac5c6f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/build.ps1",
+      "sha256_lf": "198edd61d13a951bbdfd4679c38d622fa07dfd7e4fa9a722fbafb15297436f65"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/common.py",
+      "sha256_lf": "a1d88ac187ab4f5057221e23a8b30b8c1d54c8c922e890e17a4ed6544c967106"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/finalize.py",
+      "sha256_lf": "8987463494e19a8df0855656cf2f15066f897f6cf479f0c3b2292ec0a3971ddd"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/human_controls.py",
+      "sha256_lf": "fd28acbc5a5d06d889363796d2ee337db494ad752116a5daabec0bb1fa9c1109"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/prepare.py",
+      "sha256_lf": "bbd67d5c20bbebdfef9ade385710822c14c4f2af679ac4353684340bea847ebc"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/prepare_draft_read.py",
+      "sha256_lf": "27d6b284e7ed7e18f3a28889592cbd68ee98042381f517f30609bb5114660480"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/prepare_v16.py",
+      "sha256_lf": "af2b9de3b7bb26abf9ee1f5f25a3d216a5ee74bcd32644081d4a3d1d96888697"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/run.ps1",
+      "sha256_lf": "ebd8f99569abbf564c1acdc3eccad44452c0ccf5bc9b0d50bc7eb8e8538aecad"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/run_draft.ps1",
+      "sha256_lf": "66930ea06ff162f6462e23046e7a5bd6c11e34447686cc578e094cbdf0ad2e40"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/run_draft_read.ps1",
+      "sha256_lf": "d1aa0758eb41c91feaf741238b47e6d1e780e418b33c9b05dab63349811c259c"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/run_human_preview.ps1",
+      "sha256_lf": "99b426faa020727373e31baf14c0583aaf71c730d2f10a5a4b84278c0abe9bdd"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/ue_entry.py",
+      "sha256_lf": "aacc8648e0d386254f2a53f6b137a3ed612f2bdd605aaed1690076f83fffdafd"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/ue_human_preview.py",
+      "sha256_lf": "cff3efd5a5c8e7de28da9b15d274564d995d6beb4e3afadc85d536a86e6d634f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/ue_save_draft.py",
+      "sha256_lf": "9fd73f61e1f2269c67d9628f06e1560685647441b877190cdd15f2220ce0793f"
+    },
+    {
+      "path": "Tools/Integration/AlliedNPCUEV15/ue_verify_draft.py",
+      "sha256_lf": "2845b5d929f45ab93d5ffbe5153ec8efb602790f5d83a865c47b98c28346f27a"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/analyze_source.py",
+      "sha256_lf": "882593b501e41da7f14a221712999c9ae0caafdf228f8525a23557f561821d1e"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/finalize.py",
+      "sha256_lf": "7312d73d8e0a76e8a8743fd4765b1c27ff00fff6a643cef33f73a8fa1084f56d"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/postcheck.py",
+      "sha256_lf": "10167e247976879a7cb7aa044c6c1f2fa6c80c589de2e2217baf1b6e85918f1b"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/run_human_preview.ps1",
+      "sha256_lf": "be8c5d9c9e2012993b5d0e9b553d7eb7ccf0c0b3af09effe811552e83a7ed4a7"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/run_native.ps1",
+      "sha256_lf": "e4a0c24f4efffc7298c41797acae0bf75c6b570ebdceb67111ead60722f14baf"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/select_holding.py",
+      "sha256_lf": "265f68faa7059e0398f30887cbafd92dffcc9bfecac06f383dd678d7385fbc34"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/ue_city.py",
+      "sha256_lf": "1afb741cfe49b2470a6e8d34b5641df57736f75fdecc3682dc7f4cfd610f2f13"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/ue_human_preview.py",
+      "sha256_lf": "daf6775d8f9946150de7d419c418d9d05df22505955e963086542f27884bdcc7"
+    },
+    {
+      "path": "Tools/Integration/FPUpperBodyV19/ue_source_probe.py",
+      "sha256_lf": "f13391d5476f0b8810fe96a5d6c7bbaff5c458d9cf54a965dfb10d38d460bf2d"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/formal_common.py",
+      "sha256_lf": "4688d89c8ce19fd4f5aa2569c9743bf0cbfef16e15918076e6355fc5a1a5f5fd"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/normalize_manifest_newlines.py",
+      "sha256_lf": "86dda70bc74737a7f409f5088ff921419da821fdd4d4a6730e7f548b88b9fda3"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/preflight.py",
+      "sha256_lf": "cbc8339c67b7745cecb45019e292c6ccae811eeb1ad3eda98a38b285070fbdba"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/publish.py",
+      "sha256_lf": "ee940c771159c3d43558a26b538dab0e1ee4cf99e6dc11c4e93b17197e4fc37b"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/record_game_check.py",
+      "sha256_lf": "ebb0a82eb857ccf201535fc88a193be1d98414b03b244dfc7fe818010c634af3"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/run_entry.ps1",
+      "sha256_lf": "79e55bc2946766207c37767a3374f72f50f236d306f29c704defccd65c531194"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/run_game_check.ps1",
+      "sha256_lf": "1e94e351d9575a24542b3e1d8137c84c6c9b976d7834700948222e1bcae55ae2"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/ue_entry.py",
+      "sha256_lf": "0982d01234641217abcd086692493903aea3f4695f50c832b51d7992c2e77481"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonFormalV21/verify_author_guards.py",
+      "sha256_lf": "fddcba6d5b22399cc17c3b0ae4dc5de2987df5d563f90e48ea92f2ca59863ca1"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonV18Acceptance/check_culling_parity.py",
+      "sha256_lf": "35f1690e48eb5a545e21ee34fcffcc94bd297d5b38bebc5a4a68bfbe39076c5c"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonV18Acceptance/project_complete_arms.py",
+      "sha256_lf": "c62078781922a04da24645be98079ab90c6174d0a98aa270d6379e2e361a8e41"
+    },
+    {
+      "path": "Tools/Integration/FirstPersonV18Acceptance/project_positive_basis.py",
+      "sha256_lf": "e5ce34ebf798849a5d54e4b9f8574a582b5196829a299038f194463d1399f76e"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/README.md",
+      "sha256_lf": "d44a3af5071b1d7a1663cf1f7921fff49c2b6c9538e55aeab5a8db30af1ff648"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/audit.py",
+      "sha256_lf": "db56eadf964273325cb51eda71dcdbdf727cbbfbfe4335197e0990ac32b8b8a3"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/audit_interactions.py",
+      "sha256_lf": "b1dd14e2da21557e3a1adf9a7c0baa6231dd229fc17ba4bcfc65d05278b02d8a"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/build_helper.ps1",
+      "sha256_lf": "15cf172b273fdc156baa1a68310ff5414cde11ebf7e613c2d63b04be38e59313"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/plot_results.py",
+      "sha256_lf": "c665341caf66715dac6a6dc96d83504abd3cbd0022df37e62e86acb9a5cb96b5"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/prepare_cases.py",
+      "sha256_lf": "0072aaaa2a434f2f38acf77b2b2ada5731058ddf6cccbb6686b4657cd6902ce6"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/run_verification.ps1",
+      "sha256_lf": "b16c4a856eeab1f99abf57da4ba826c7cb02bdb6cb44a87527bcc0fb489bf7f2"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/summarize.py",
+      "sha256_lf": "4ba470d764270d5f6a7b8b31e016b93712d6879880db34e8bab884388f648aef"
+    },
+    {
+      "path": "Tools/Integration/FormalMapVerificationV1/ue_verify.py",
+      "sha256_lf": "d83488d4027702337257f926bba291641d5d4d8cca7051040f52c663fdb2143d"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/audit.py",
+      "sha256_lf": "17fe54ec2ead6cdf1790f11084a23b7f69a28f8bb3e0730e9b0ca5bdf3bdae2b"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/build.ps1",
+      "sha256_lf": "0c6e1fdb8c98a93afd907792921b2ec22f42c75f3c51966532eda4fea28a1888"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/close_evidence.py",
+      "sha256_lf": "0878e203ba0a64aed167c846745a7f315a13f66efa1e2a00c2cbbb246f5cf87a"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/install.ps1",
+      "sha256_lf": "b667d81897ba4b6ee4e79c8a6dcad12659db46aaaf4708979948e7524a90b54c"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/play.ps1",
+      "sha256_lf": "f0d2c09f29efa68605bdb45335c25b3a26ebfe8cb3df1f8338f826c06f4820d7"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/plot_layout.py",
+      "sha256_lf": "6a6686519d825ea56374b78f5878581b2bcc6bbeb91ae6c070a81d910ecacd88"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/prepare.py",
+      "sha256_lf": "92b55c6bb537ffffcd7323c9a6446883105701db50b25f184af7e05db12f25e7"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/prepare_encounter.py",
+      "sha256_lf": "a0503613482dbd6d62143a713ad1606e061046bfad396f8a0270d9d8437e50a3"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/prepare_staging.py",
+      "sha256_lf": "2d439056cce6b442062e673b76265c29956c5727887fec0330fee2a618b5e23a"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/run.ps1",
+      "sha256_lf": "2e3dde047f2fd88a6a64979ad9c9d95f84071268aad8e6187caef0b0ee59d1ce"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/ue_author.py",
+      "sha256_lf": "0433b5dfe56ae7dabd8894ae2a51645a4afc01ac15d7b7f356999e224a36b3c8"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/ue_bridge_hook.py",
+      "sha256_lf": "52e1f6fa431505f3f0618994f73a433116f66f3e75f3044db4d1c78fee16553d"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/ue_headings.py",
+      "sha256_lf": "d90369f10d069ee3d2671aabfeefebe139552ecd74b26a6fe633d374754e7f8f"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/ue_inspect.py",
+      "sha256_lf": "a4f3503a10809dd5d90a6777c188d96d201627fb5eeded74352eea55cdc41b87"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/ue_staging_author.py",
+      "sha256_lf": "1491638ef865dd9c723cb10516621a1e167f5849105e8124a60c39f676b7eeab"
+    },
+    {
+      "path": "Tools/Integration/G1MissionV1/ue_test.py",
+      "sha256_lf": "94ad959e94d1f00c8ad33cd946c9b8fdc324994410757b23906d5b75a77cc9e5"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/RETIRED.md",
+      "sha256_lf": "f85096b2d8339f83b66ee11a2ef0a7943c274c6f5f84d1bdc45440333557e744"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/final_check.py",
+      "sha256_lf": "7b5c4fe7d42430a8a909c6b1c0789b5e9f8af0d56ec27acd0bc514aeafd9c482"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/fit.py",
+      "sha256_lf": "24859c19c1103dbd13fe101c6c581fd94c0fced7bd51aeb2aaf3dd18d3781228"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/pack.py",
+      "sha256_lf": "47c840c8b5ba93197b4ab9ccac0c5b075912ed9f48a056192f525ede9b62eb49"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/presentation.py",
+      "sha256_lf": "8afb5b518a1acdd62f243dea60e152de8159a1ce775826a764f5ba58f8aad16a"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/probe.py",
+      "sha256_lf": "bf1af67bc8794e2b94f02e0af28daed588c9a9488edcbc677e655a962ad1c0ba"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/probe_reference.py",
+      "sha256_lf": "07c84d6fdffb7f51f17adad35e6474e9f0498513743bae82a6be2abc0e712045"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/retire.py",
+      "sha256_lf": "d37638525e21fc863070862156f0f14390ab9e3a1ca597c42e3ba4d06c61c3ef"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/review.py",
+      "sha256_lf": "96d059704578c0f7a94a46862845dd5b0e905bdf05c047733b0a85275304c43b"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCAlliedGripV13/seat.py",
+      "sha256_lf": "38ee8cb2f40ac6fda667cecc0683e1fd55dda31d06854e4acfdb92a41a63d115"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/README.md",
+      "sha256_lf": "a1c4ef316bcee05d78fd37e3457f7c8609e5354ea56b9294bc8dd56dbe777c55"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/build.ps1",
+      "sha256_lf": "e918966465b5a4e84be508244b14a9d3fcafc0bea60262bc10460257e6b03e52"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/common.py",
+      "sha256_lf": "eb07bf03bbbf281ba4643b33c4d2670b611f699adf05b5f4701ea8a3c9fd86ae"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/preflight.py",
+      "sha256_lf": "42c3f7dc4b85c18fb89928fb8f26f87c76ae30b959580673417909318dfbf0b0"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/publish.py",
+      "sha256_lf": "431b49e955410e2bb43e9fd10b23bfddeb38602942e20e393736430bb726ac46"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/run_entry.ps1",
+      "sha256_lf": "87a385383fdf2ebf7c840aec45be947fe4025f3679332235c0afa6e12d135662"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/run_game.ps1",
+      "sha256_lf": "ebc168b99a46efeb40d48727c7b477d0b8c0be9e5e698671da65f84b87ba4263"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/ue_entry.py",
+      "sha256_lf": "5fc540f5cff4e92b5f775a68fbe352c6243489773a4b68226d60793ec4d1676d"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCFormalV14/verify_final.py",
+      "sha256_lf": "a629a06e5d280bbe7cd0053ddeff89414bca4272c94b9f5d20975569d9001d71"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCGripV1/common.py",
+      "sha256_lf": "8e2516cd51a8f650cc3c23e23eb2c13f7f427e76bc03fd6c46772b91c68c42c9"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCGripV1/compose.py",
+      "sha256_lf": "029d252e42a203112e3dc69b094413f01e3351bb612f119fe1287d0987e5f01a"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCGripV1/prepare.py",
+      "sha256_lf": "e9c317492f97bbc08a6aef2cf0932fdd880e742867dce612724a691de68e294f"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCGripV1/run_translation.ps1",
+      "sha256_lf": "d2b075fbcb93503f64e349e6a68945ab61c5c890e3570a46b011f574015c5dca"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCGripV1/ue_translation.py",
+      "sha256_lf": "1c337b245e78f2d127c78255756508a74984f0f3bab7977f0297df12a30e2670"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/final_check.py",
+      "sha256_lf": "e5f3e7e6542c4db38d6babbf7219d3f0b36eede21465d2b07f97a7f4f6e160a1"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/fit.py",
+      "sha256_lf": "4de1c159472e27ceb50f8609796216484a18d6ffe2c723836c5f1ab78e2fa14b"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/fit_patch.py",
+      "sha256_lf": "dbee1a08a20183cc1e6ae435afc87411bb64a71a9296d519214871928da9f1bb"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/fit_root.py",
+      "sha256_lf": "de4930e4b508bbe4ac14b406adf0ad8d48d9a015965599d00c572c904aac5e94"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/fit_tip.py",
+      "sha256_lf": "00ea752a2c7142158551a58a18b2d44eb12a46651b4854c5fa2a4c59d846c0c8"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/fit_tip_fixed.py",
+      "sha256_lf": "1aeb69a47e539ddb4d74ccc95cc67483188196399be4b0ab4e44b7005c493f80"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/pack.py",
+      "sha256_lf": "4e72e103b265bb31134f5fac8f152f73577b5cd7053f13f9a66cea42bcc83907"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/probe.py",
+      "sha256_lf": "10e764661e55910311244c4a18adcf4a637f03d494d126ffe66149816706c334"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/review.py",
+      "sha256_lf": "ee6f49acc3f3088f0ca5c4baa77da1739c152bfa245b9eedfe4899286a796b99"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCIndexGripV12/review_root_limit.py",
+      "sha256_lf": "10d626911a54334d3829e8be542d5ad1221fba4eb7952a2f7ec17e72959f22dc"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/compose.py",
+      "sha256_lf": "c51d57aa1b334fc5da5b346c1d92a43d12f24acdb2f863da144e22a4e2d2218f"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/fit.py",
+      "sha256_lf": "96cf381006007b64c018aeac29c989226ff8ac8cea56f262d57a55a2fd2cae9e"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/frame_probe.py",
+      "sha256_lf": "8ea7de076be1ef7f14c2c47be55fc1fb63bf87c873c786b4b8a6408e447c5b4c"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/nearest_surface.py",
+      "sha256_lf": "00642c888e755fc01905fc25fe29cd2681d4d6631d5224fefa218c3b9f664de9"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/reach_probe.py",
+      "sha256_lf": "0e31031d12f15285c6764150921c4b03cfecd1ee0f66c6981eba4ba9d597442f"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/review.py",
+      "sha256_lf": "021164198cee17756bc08f301b2e32a07d11784ca255826fb0c82c8e533c90cb"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/review_mature_snapshot.py",
+      "sha256_lf": "2e4cddf500ab839af7a65025931607559699f7800bf5fffbdc5b1bceb8ac51ad"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/source_frame.py",
+      "sha256_lf": "fd74236ff47218fead5442c03dd5ca5dd21acec53b126eef30f082fbee88071c"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/stock_section.py",
+      "sha256_lf": "b8cef67921b1b351877d973935123882d8411ea0aedc5a09276a2b9a95c8c40c"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCLowerGripV11/verify.py",
+      "sha256_lf": "92f800d6f948189ad3435f2e7823e8208ba0d91fe4281fb889cb92fcbe8e55cc"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/arm_fit.py",
+      "sha256_lf": "0707b4c89e22ad6fcb2ca63a0e1b7a7a2b56602cf6caad4aa602d132ce46c097"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/compose.py",
+      "sha256_lf": "ae341c6094f67099c5c413db8d738b941096dda5aa36d0d6e41bb60232bf0da5"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/final_clearance.py",
+      "sha256_lf": "33f1f159af54a6b83b6e23970cfe22bd4c466970ec3e542b52e1f942d41a77b6"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/offline_fit.py",
+      "sha256_lf": "d571dccc323f9a9a28c14869e0ea34d699288f1a3153deae7463afa65f02e221"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/offline_fit_v2.py",
+      "sha256_lf": "e519f1ab267087786f117afa5374c6965b14a16d04ddcc14b82ede3b6eaf0b2c"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/offline_fit_v3.py",
+      "sha256_lf": "b0633a90005c377116d27fdbd9754aba1eb9c4d88108c127f89966b1587e97c7"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/offline_fit_v4.py",
+      "sha256_lf": "69bb88ae28974bf548ab957d4664ab12f48891d41f50ccc7710baefad9e72413"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/offline_fit_v5.py",
+      "sha256_lf": "89a0e54a15f07b7b6e6e48dff0c7c3d4f3848d3e7d9bbad39f23c2d092581c6b"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/offline_fit_v6.py",
+      "sha256_lf": "f519a0d8ddaf8c559543b446fd8713f3de29f30124daf3412c86f723e4a6708d"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/run_views.ps1",
+      "sha256_lf": "6cbc3fac817a3c8a8ba740774403cf058807ee90e0c21207a09a04a771a5f67e"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/ue_views.py",
+      "sha256_lf": "84df543ad297e384dc2eef67c901546cee2c6dad941815b1eaa54475c73a1e0a"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/ue_views_v2.py",
+      "sha256_lf": "806d6fd9c4960dcd5f859922870f9500da0675aae4c61f8f0ceb98d60e757ec1"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/ue_views_v3.py",
+      "sha256_lf": "624567fa0b59bd75218144e66f3faa969840e7701181259228312a3e8ed932f3"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCOrderedGripV4/verify.py",
+      "sha256_lf": "613e91922608df272e8797e42aa9be0ababa510a90a4d6796bee54fc8cc072d7"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCRightThumbV6/compare.py",
+      "sha256_lf": "f7e955b2edcaba93afe32c517aaeef2ebc4d42669d9082aa3078caf98e947250"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCRightThumbV6/compose.py",
+      "sha256_lf": "2f401bc40a78eb54b7a4f433871c56a970d62e5ae3b0dec7c5ce2a5f364a0da0"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCRightThumbV6/render_failure.py",
+      "sha256_lf": "fe745243828ed517aa94e46e623d5a91a37c659fb5d88e26c3f31cebb99c383a"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCRightThumbV6/render_failure_v2.py",
+      "sha256_lf": "9d11132734fdddc4e87246e6bcdd6e9492c295dab27e5ed67397a44ed7d06c5c"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCRightThumbV6/root_lift.py",
+      "sha256_lf": "7ca2e091063868943831d7b8f86a66f0982358ce2307190e5e2f1a266474c1c6"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCRightThumbV6/vertical_lift.py",
+      "sha256_lf": "80f0eb53698d49ce264225783e7fdca93b939b44b3ae8b398148d2e07f82f214"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCScreenRotateV8/compose.py",
+      "sha256_lf": "5f146f55a14a72db8b815fb3b7bf59383dd6ad98d3c6fb3ef0c63d5504437aba"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCScreenRotateV8/fit.py",
+      "sha256_lf": "6a9c2ffb5dd706294c31e6b76a30cc1b35f9a754900767001b158b09e80748a9"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCScreenRotateV8/review.py",
+      "sha256_lf": "93ec03bcf234b6475af269cbddb8b686fd3cec9ac2d87c4e09b05bab4c031a3f"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCScreenRotateV9/compose.py",
+      "sha256_lf": "d3f9e36c75140233fe8109fe4f748e7e80840c82fba0db9953d7482e4a740fe1"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCScreenRotateV9/fit.py",
+      "sha256_lf": "6299ba11558c6b16bc0308b1273d50c32379542a9632af75913853e48464bd6e"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCScreenRotateV9/review.py",
+      "sha256_lf": "930a800be7e08666227eee176de54bce46ac0bed4f7768267d38097ddfe6323a"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCSmallPivotV3/compose.py",
+      "sha256_lf": "9c6fd1f845975f1591036719a79cb3f4093384a2ae5f22f2b1c23fcac92ffd4e"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCSmallPivotV3/prepare.py",
+      "sha256_lf": "17baafb5990bd6603a38631098ef96733f5c0b013cc7de0350886e074a092763"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCSmallPivotV3/run_small_rotation.ps1",
+      "sha256_lf": "f66ddbd0ac591e1484238d5485a344451a3a29565b3c64db1e031c1904ec9fa2"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCSmallPivotV3/ue_small_rotation.py",
+      "sha256_lf": "b03159623fa8c543c5002f77ac91caa66bbc61575aff6adab0a483679710ab1d"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCThumbCurlV10/compose.py",
+      "sha256_lf": "8f199587a4d2b86c5a3ddb1778fce05c036a9d2a770945ea9a679f6f0890d980"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCThumbCurlV10/fit.py",
+      "sha256_lf": "b7f2500a414ec6340e7d72ff487eeddc02dcae4a2dfaf5a9eee235281170cffe"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCThumbCurlV10/review.py",
+      "sha256_lf": "f857c7ececf7d01c6f4680ace05b111661bb18d81c9f1534a5fded69ea84cfab"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCThumbCurlV10/surface_limit.py",
+      "sha256_lf": "f9d40c2314f853fde4c5527b794796a45fd8126caad3215afb25cd811fe517e7"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCThumbSeatV5/measure.py",
+      "sha256_lf": "e57535bad1473c50dbf7e5f7f2d56f48465bae2c6c2e8081d0cbbf4767749e03"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCTriggerLowerV7/compose.py",
+      "sha256_lf": "f51b5916010f5c7497f7307fa4c1cec286d6b35b601436f972cf084505cfb20d"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCTriggerLowerV7/fit.py",
+      "sha256_lf": "7743d1b2d380537990abe9eaa5b2b0e71fae4b38bda3d11b622787f1adce6302"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCTriggerLowerV7/fit_v2.py",
+      "sha256_lf": "f5ed32865b9e996c24a1852480036a44e8a9d0304c421ffdfb1362820a636c15"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCTriggerLowerV7/review.py",
+      "sha256_lf": "797b5a7af25c669dbc81373a39ce5c1c60b714dc27419cd4bf168cc570749d62"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCTriggerPivotV2/compose.py",
+      "sha256_lf": "13d7fa6d3058654f2f93817824ef8a2165ec9f24f0994368d87c79a12e89fa20"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCTriggerPivotV2/prepare.py",
+      "sha256_lf": "2ebc6141e80fcf928813b0e5fe9b393be6d3990241b020f5d52380e1aad707b7"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCTriggerPivotV2/run_rotation.ps1",
+      "sha256_lf": "d7064715cd653d4e8216f3c32537749f1f92cac29276d5e4971e92e9da07b920"
+    },
+    {
+      "path": "Tools/Integration/GermanNPCTriggerPivotV2/ue_rotation.py",
+      "sha256_lf": "5c047ca81c0e0476e83aafb5cd75933e06ad14c4bab86ec30e614dbf19998b18"
+    },
+    {
+      "path": "Tools/Integration/GripBindingV18/audit_unit_bias.py",
+      "sha256_lf": "35f3b74e78abf276f0f5afbdb11dd81e67fda46555bcffef8365eeef10ffea15"
+    },
+    {
+      "path": "Tools/Integration/GripBindingV18/common.py",
+      "sha256_lf": "017dc6f721273741009c68d69ef67be18a5ce59d46cc43e2607597feb0ed5d7a"
+    },
+    {
+      "path": "Tools/Integration/GripBindingV18/extract_config.py",
+      "sha256_lf": "8bf3469187b6ced8f2ac7f3afa14e50d4ffc9017eb9613b31525b58eebb37571"
+    },
+    {
+      "path": "Tools/Integration/GripBindingV18/finalize_cpp_evidence.py",
+      "sha256_lf": "262bf3648f8845daaf030ade4abe157b92e6b64c53216430bc0c614b48910ed8"
+    },
+    {
+      "path": "Tools/Integration/GripBindingV18/run_native.ps1",
+      "sha256_lf": "cca2cc854af18ec665da792eff5320c304e8d562a72a187eac09325f13d1dd94"
+    },
+    {
+      "path": "Tools/Integration/GripBindingV18/ue_anim.py",
+      "sha256_lf": "f9ea5253ba87f406522030bef7308817949b3f6d7776bade301a568a7e36d416"
+    },
+    {
+      "path": "Tools/Integration/GripBindingV18/ue_cpp_view.py",
+      "sha256_lf": "bfbc4c190ecff3be433dde4675f79bd8876c08f3f1617e136cbc994c3c77afb7"
+    },
+    {
+      "path": "Tools/Integration/GripBindingV18/ue_owner.py",
+      "sha256_lf": "538ae71087bd33f446e9a06fbf4a21b523e7c3edfc0f0aa4b677ca442235372e"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/audit_contact.py",
+      "sha256_lf": "0570744c4d4554896ab62935e633d3226db2c98b6c645b651dca9b4073fd57a9"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/finalize.py",
+      "sha256_lf": "9749698f4b4c95c1995b0397a809bfeaf011ef2b8228a77b0733737812708617"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/probe_fit.py",
+      "sha256_lf": "8a5eec1903df079e87254b9c2d17f846d6f9f38506fbfdb15e7a7a5f0f23b697"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/render_stopped_fit.py",
+      "sha256_lf": "4395af051865bb5bea163c19e8ae3b6a613739d0898a1836c7eca842db08ddbc"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/reuse_pose.py",
+      "sha256_lf": "62184c74fbbb9609b51c0c6f12bd3c06302da52cf7b9297b80a5b18dd8e5618b"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/run_human_preview.ps1",
+      "sha256_lf": "de1284bcccfed80dd510079d1dd2212aca552361763521b304a742b4d27581a5"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/run_native_review.ps1",
+      "sha256_lf": "79d1b0c3cfaa355cc7ed2c4f744501d1116a263bb5ca58b6c6bc98cd3828bc7c"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/select_existing_thumb.py",
+      "sha256_lf": "1878f52d0340702b25e22a9602ba7c5418cb93e93040f769a934186f72c0ae8c"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/ue_human_preview.py",
+      "sha256_lf": "fc9893f4a0f1c29db661a1ebb0576c8f13a793d8531aa8af37d1b3f4ae2efb52"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/ue_native_review.py",
+      "sha256_lf": "2dd26be7f3f990d0552c940125a28f75cec92bad907b95f209d4977d5d68107c"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/verify_config.py",
+      "sha256_lf": "711a568b1cbbc9421ceb0abd7973c4d71ea7e4448413926f988801504765780e"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/verify_existing_rotation.py",
+      "sha256_lf": "452404d07903ba65cfa72669bdc7aa45e2f96b84c8b8f419c3b1c1ccbbffccb1"
+    },
+    {
+      "path": "Tools/Integration/LeftSupportV20/verify_skin_boundary.py",
+      "sha256_lf": "cda53f305cea1935889b1ab5a02e86b139192bd7f3b91e0183484a319eda8334"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/README.md",
+      "sha256_lf": "196f0ea632fb6fe2d3f1803f762b0551d98b8f4f5e2d12e1d2f48715ba7f959f"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/apply_quarantine.py",
+      "sha256_lf": "c4755b2acf8342c6afec7e325dc49b7f2f1496729f01391fb8aef47d1204e918"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_bridge.py",
+      "sha256_lf": "956f0a89ccc7b5e0aa5156907a0afddd423d0d518e9773fa1cf783d980837337"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_bridge_reverse.py",
+      "sha256_lf": "92236d2853e09b8ebe58482cd73ed361bb49a8eae770e81c52891eda6ff3328a"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_fine_artifact.py",
+      "sha256_lf": "3d9cab99a4228be57515e9a73edc1dfe0b379ca0b87a43e2a2665c14b966f9f9"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_fine_bridge_path.py",
+      "sha256_lf": "db872d049e5d74101a4e8d2df86d7f903ba1e4ca77134218601a3a79efd60ffe"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_fine_native.py",
+      "sha256_lf": "e2c91e3a88e3e3822aaeb320e174253ad6f2f24dac211441547118ec468796ae"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_fine_tool.js",
+      "sha256_lf": "dfc266775096c7c7cff966459640c915e16cf3ff7275cb22dc791d0106308555"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_native_grid.py",
+      "sha256_lf": "6815ee3086585d93670c55ff87bbf734d6d22fa2cfc41f33f1d6e0f067b645af"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_offline.js",
+      "sha256_lf": "4e01e9503b4a05e94fe6bbf3eab2f697f70b07b26128f12f8b315e38afca5c80"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_planning_grid.py",
+      "sha256_lf": "d05c04537c2a7140f64eb8d780f08f19c94bcd6e28619c86ce79ff9b02546ae5"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/audit_roundtrip.py",
+      "sha256_lf": "b33c03f6c5cddd1de8cfce87f9c270a28eb7686cc788a8c4ee56bf426568be23"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/bridge_figure.py",
+      "sha256_lf": "54af911190b6a8899d79aa823bffde02b69feb87e8b85f429873375d94a68049"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/build_artifact.py",
+      "sha256_lf": "fefa85dcf3b3471c1b46976c728700691ba9bd36e9e3b22e8f6bfbd65341cca8"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/build_fine_offline.py",
+      "sha256_lf": "896258c93ad53bd0c5961091cd58b7554aa53536457fd7dfbc47e1f385ab861b"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/build_helper.ps1",
+      "sha256_lf": "daf3eab07bdcb1cb98424ed9ff441946533931200698caf68b16e70ac372c8cd"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/build_offline.py",
+      "sha256_lf": "e085c0fae85dde87a0e9a0027e0413833b5b1db5ded825e33e1787f79a009fc0"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/derive_fine.py",
+      "sha256_lf": "f84ea181ddb61508b91dd3bd825915fe4c695fe492a61e5f27714946e9e48722"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/derive_scopes.py",
+      "sha256_lf": "0e7ae6535ed382d0974f5f2d762b4dba5393535e5cb75cd085679375d9517df6"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/fine_figure.py",
+      "sha256_lf": "0f7fbef5386c7f92f694f9dd8aaf8d3de5fb8bae437336520144fc985e674247"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/fine_filters.py",
+      "sha256_lf": "3dd1ca9d6cb8852b4e64647553960c8f4e0e8dc944d8db0dc86b5e11d8de1603"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/fine_offline_api.js",
+      "sha256_lf": "9de014cf849b908231d3bff5722b2321c27d069257235bcb444d931787ffcf8d"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/grid_core.py",
+      "sha256_lf": "c18ed998b5a3347dfc80f59598c8d5152eefc3c119881f7334b5c40638374a08"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/make_fine_driver.py",
+      "sha256_lf": "58fae3c38b429c47650b62cf78a150867b5c09fdbd7683249c7bb7e89c62af3e"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/offline_api.js",
+      "sha256_lf": "d2b2ef202cf5c447b893a965a637a54064638b7b5de8b421d79a7324e50a8bf3"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/planning_data.py",
+      "sha256_lf": "454948859a1eb0b5d30579820cd2dcd68d233abf0774417b8d819aa5f043d258"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/prepare_bridge.py",
+      "sha256_lf": "957eadcc81db44f982fa334685f0d0c05b118f4c3d26e3bc107d10b532a7c4ff"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/prepare_bridge_reverse.py",
+      "sha256_lf": "e21f9f1f1366bb20ef46e297f882621ae7d7f7048a33cf569b7f362846b7d99c"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/prepare_candidates.py",
+      "sha256_lf": "238e1f6bcf257271513695c577fb2f95e180b1ce65533ac1145d69c241680176"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/prepare_fine_candidates.py",
+      "sha256_lf": "e3b036f62981428eaffadda2ac12b2d8b73b6f7e96e347754bef235deee1c121"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/prepare_fine_links.py",
+      "sha256_lf": "450858c481c86a76656429ef6c9f79cb79c5f78ec7a29240f7755b626d4ba5ce"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/prepare_links.py",
+      "sha256_lf": "07bed6b33eb48e5a08c5c70306a9bcad8444634110d64a363ab3230cd224da5f"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/prepare_roundtrip.py",
+      "sha256_lf": "71bae27035a8fb9da4fc1a7de1f71529f86f4a07f15d2ea26b8c975b46d50af9"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/prepare_sight.py",
+      "sha256_lf": "d6498e474198fd3d0a9e3f10a80eb3cad9e2e9d3db5d48727927cbf226e4e036"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/run_bridge.ps1",
+      "sha256_lf": "53a8828441c3bd5213a40d835d38b8351aaffe5c15f06957d5cb7eebe7f88458"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/run_fine_grid.ps1",
+      "sha256_lf": "827622ed8817c325854fad4fb0214729083723960b8bae658494a578fd7ddc72"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/run_grid.ps1",
+      "sha256_lf": "59c9a4edfdf08281ac95567162e6da3690ef2d33e3e415db583841b866615cb6"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/run_roundtrip.ps1",
+      "sha256_lf": "40c08546d9fff99147649b1a625dc4595f73402d707e5c3720fe28a718d88d20"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/serve_grid.py",
+      "sha256_lf": "b6d1b0498ec5211568e787306e79c21c3426110fafc76117e54664bee83c815c"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/test_fine_filters.py",
+      "sha256_lf": "8e20d350fc9845e4122646ee031d1099cff3931e882c06b07ee18a88224f2118"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/test_grid_core.py",
+      "sha256_lf": "03a50b26646660c823a3ab2e2f320b5e464714fa2cab4b74df8c0d78cb4f39ff"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/test_planning_filters.py",
+      "sha256_lf": "324bc6d75089274737150fb666872e9e8c9c8a9d3bb3155ce19dfc2eaa6a0b71"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/ue_fine_grid.py",
+      "sha256_lf": "23cdc718467777d9b875520d8ac463b62cc65c08e113c824e8dddf1aa91367e1"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/ue_grid_sample.py",
+      "sha256_lf": "f764f78de2fa8444c0b14afc2685c7bcfee9e28e9179bb8b5b077ae3db2d5ce9"
+    },
+    {
+      "path": "Tools/Integration/MapGridV1/viewer.html",
+      "sha256_lf": "304c036bc165291b51f76ca59276d69e94ce4e142eb1dd98dfcfd6b443538da2"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/analyze_retained_navigation.py",
+      "sha256_lf": "0fa8be7f1b8a5f3706f6aafa002af0a27c091feffbada11e964d6bf28f954871"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/audit_pure_map.py",
+      "sha256_lf": "a68afe723173a2a624b2e2705ca118d322343a50e51da2835279e361d9cc6bad"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/build_pure_map_helper.ps1",
+      "sha256_lf": "a61a643325dc1820a178f17acc48fa76bc69eaeed3656e1578eaf8e4ecc4f624"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/close_pure_map_docs.py",
+      "sha256_lf": "77f745eace377e5a9c833ea3e6649d7a907c737106927d46e15f6080bbf140d0"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/prepare_pure_map_templates.py",
+      "sha256_lf": "317827208fa01b94fdbd51367f6e35fbac78805273822b1d5e911ce489bac7bf"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/prepare_static_vehicle_source.py",
+      "sha256_lf": "f29b4e8a151669e8381f4935c708be129c740aeaae922eb6bf50d769c33b9303"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/prepare_vehicle_prefix.py",
+      "sha256_lf": "e724a58af45bd325c9ec68eaa64a7ae2b7d1a28140105513a1e152f6f1cf4d06"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/pure_map_graph.py",
+      "sha256_lf": "68040018380659768422a5d70546814851d652bc4f2745bac4fbb4aac9e8b03d"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/render_current_queries.py",
+      "sha256_lf": "ba756125f3368bf18687e0840625625a559108af216884d89c29c2a4ab1d72e5"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/render_final_connectivity.py",
+      "sha256_lf": "5054f25a3d5ed9923038c1bce3f493f58394dc51b13b568e2aa839b25154388d"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/render_height_connection.py",
+      "sha256_lf": "2f07207de370364a6d98075a7b48361e0244b1240ce8c5a0b9e2dc378f66fd86"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/render_pure_map.py",
+      "sha256_lf": "942d7271679f3602d78ec3983d2cd6a4c401b14382c042d006ba67f6302a8175"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/run_pure_map.ps1",
+      "sha256_lf": "0d4a20193b53304e0284f16b80a62bb70264c918065ec9205271da975cbca2cb"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/run_query.ps1",
+      "sha256_lf": "0300deec751764ff8557dce90febaeef3f4b91d15ceb3b825ae75680a9649636"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/test_vehicle_prefix.py",
+      "sha256_lf": "230161c9f2f9a9c9e39f9b2d56150ac046f70e7dad1e6d7baed79829b10a4bda"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/ue_pure_map_inventory.py",
+      "sha256_lf": "80959947e0f8329a969302ba0217b34da18a6e25ee3c6e3fcbe08ed5940d59e7"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/ue_pure_map_survey.py",
+      "sha256_lf": "3c7af06e369be26fa40f6579b98ecd2c502af442c6cf7737890c8a80f542fc2e"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/ue_query_connectivity.py",
+      "sha256_lf": "eecea41c4a4899aa0d368015db3e202e790b25ccbd19f01e6e39911ae6a2e6a4"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/ue_traverse_connectivity.py",
+      "sha256_lf": "f9391146193298f3118afdeacd2d5ba88b00472d410a094e4a33254f2d3827c5"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/ue_vehicle_fixture_diagnostic.py",
+      "sha256_lf": "0757e4834637cfef12ccf3e3f95240e57bc5306fd20d995fe1bf73bc222e08d5"
+    },
+    {
+      "path": "Tools/Integration/MissionConnectivityV1/vehicle_prefix.py",
+      "sha256_lf": "7116cd2562087006c92bcdfe9279a28790df309bc592c8847af2651fe5e34864"
+    },
+    {
+      "path": "Tools/Integration/MissionLayoutV1/build_layout.py",
+      "sha256_lf": "2bed7146c5fcf359296efe0a3ce0626cf0d0447b590f70c79eb13ad6ecb95640"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/asset_gate_contract.py",
+      "sha256_lf": "8914ebd30ff3b5df1111a8fdd4f4f44b532a1ad356556dcf763b4a2e63d5e1b6"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/build_candidate.ps1",
+      "sha256_lf": "38415b425b2288365d737dc4b0108f13c44f0fb7749e5fb01006e82ddf9956e4"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/common.py",
+      "sha256_lf": "1d9c3f7796a4dba3675fcf0702226b53327b5c2f2b9185e83ee9884217b0eaa8"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/copy_local.ps1",
+      "sha256_lf": "62408e3717116a2bdcbce4671bcaacc5e8f884b883c159d39deefd88b640d6ee"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/effect_gate_contract.py",
+      "sha256_lf": "d36e02d2384a39e275f621d09be9421ac2a4725bde61bb09f97402d8f258f15b"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/formal_contract.py",
+      "sha256_lf": "4bbb2037bc9bf8b5a700b3b1e1e822f82eb993ac5c6e1b4fb803dd9fc11906c3"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/geometry_mounts.py",
+      "sha256_lf": "94794c19f404ae98036554031bc247e1418138768a71c47bac4ab8235a2d1a0d"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/guard_contract.py",
+      "sha256_lf": "f2326fbf9d1679ed5e50d1a07dbcad1fa0b45ba417087dd534399630e00a92e6"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/install_local.py",
+      "sha256_lf": "7f179c29da6ee4028c3dad984ef16b875f8d65164a2ec3c328553dc45ee925f2"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/intake_candidate.py",
+      "sha256_lf": "0e43e59a434d9006847092cdf19f37ed0352fbde3c34c5a356bed73a51a641b7"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/prepare_candidate.ps1",
+      "sha256_lf": "652edbb41a9930ec0f6d8d7ec9685f57687cc80fb9ff83bb5293a1e5f28bd074"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/rate_pulse_contract.py",
+      "sha256_lf": "2a8b5fdebbb8b603d5fa7e404b3f62513805e1a116794fe66b6d78950d8dfc04"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/review_mount.py",
+      "sha256_lf": "ad45e3ef2a2e0ccc41a748adb7aa5379022fbb7b82309fc0c6cf2ef0955d9cae"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/review_pulse.py",
+      "sha256_lf": "603cc2311eef18e50ec618a81827be3690ba285a1ee77790760b71b03a8bc802"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/review_rate_pulse.py",
+      "sha256_lf": "46e714347141fdd3a85023cdfedb9b9c5f2986d80cdacf36074995183aa7b85d"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/review_scale.py",
+      "sha256_lf": "221d5c013107a9e743698af5c411891ab8c713f184c3ffbfa78b149343b17e12"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/review_transactions.py",
+      "sha256_lf": "a2494eb95483b2e473f12f7a92cb00a85794a4a117f6a6bd081fcf053eae09fc"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/run_asset_gate.ps1",
+      "sha256_lf": "161fab2e28f9abe66bb516caf5f34d6bae1612b80ae22673e9af2dde7639f867"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/run_transactions.ps1",
+      "sha256_lf": "97488799495870aec6622c7732443a48e21902f7cd9a1d7b2fe540f2f13357b7"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/runtime_audit.py",
+      "sha256_lf": "527194e8ed65b4bd3507fd97a56c44e170e04bc51f5be54bd2cdb64d3fe96625"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/scale_contract.py",
+      "sha256_lf": "3b38b77348f2e87602cb6f47a58fbfccdbfa90ef9afc4ecd9db547b0afc5339a"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/test_guard_contract.py",
+      "sha256_lf": "3a7e1c1759f570edae0cff3d9409e9d9c39f9a3169eef6c18d8dcc3bd8977305"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/test_offline.py",
+      "sha256_lf": "1ea5677913dccb8ef3d0c69f07b8cbff8cd65c5810ad0d0faeeba01a2e0b81b8"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/ue_asset_gate.py",
+      "sha256_lf": "c0793c68d0be76a1ace0de8b372b2e4a55d845bd6b0a68d5fcbc86b2149417da"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/ue_effect_gate.py",
+      "sha256_lf": "58a77bb49fe91914917e7e7150749222d43a8add4b8ad0cf0c777d6e4d467ae4"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/ue_mount_gate.py",
+      "sha256_lf": "2cd19bc91f04a8af57e8f771d19862bdc029b539bd8d1d78300d014d1b427089"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/ue_rate_pulse_gate.py",
+      "sha256_lf": "526f6a817a518a91ca13ca3eb76383dd96a50b4924ec3fc2bd76cb0dc983410c"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/ue_rifle_geometry.py",
+      "sha256_lf": "3ea2a568b9c850e6f1d7b8bede90c154102ea0c0107fed3754da0a9fc39d7af3"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/ue_transactions.py",
+      "sha256_lf": "9e4eca456563ff48d486760f800ea44a5c3d6e6ab6fdc0a3846fa21cec1d07c2"
+    },
+    {
+      "path": "Tools/Integration/MuzzleFlashV1/wait_transactions.ps1",
+      "sha256_lf": "890585c8e6d338a00242d3108beda7745e7236701394533683ca10f8e2f63a66"
+    },
+    {
+      "path": "Tools/Integration/NPCGripBaselineV1/common.py",
+      "sha256_lf": "13c829bfd58885717f015b071c0a6a665fbf673322da24d6938d62e7619a3c9d"
+    },
+    {
+      "path": "Tools/Integration/NPCGripBaselineV1/compose_views.py",
+      "sha256_lf": "01c2b2806eea894a6a5296def34a9bc47874152bc01d41f540053f2514281dcd"
+    },
+    {
+      "path": "Tools/Integration/NPCGripBaselineV1/run_capture.ps1",
+      "sha256_lf": "ef8a52a8afa4e683ffaba6314ce1396505897ba8b1cf7c64fa845ca01d261854"
+    },
+    {
+      "path": "Tools/Integration/NPCGripBaselineV1/ue_capture.py",
+      "sha256_lf": "495d595277884008dee86165476e686096dbdca43a136800c6fc67f8e2b64e78"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/audit_acceptance.py",
+      "sha256_lf": "2a9c3104dff91332d6055587e6af0f6676d473e795799c4f6c3c9417300f29e9"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/common.py",
+      "sha256_lf": "84ecfb60e208e1a1ee669a6ff535144458a10441d8401604522b0387c52dd350"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/model.py",
+      "sha256_lf": "bd77b13109b484ee783f00bf8b684650d47624f051c0ab9717b9ca6cc0f2b411"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/preflight.py",
+      "sha256_lf": "256ab703eada504366b603c1126905cd83148670711aca081ad49d748464bb7b"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/run_acceptance.ps1",
+      "sha256_lf": "71f06bba8d9548ad54d012401ff1441f878c699b510970c0645ee7d1395dcf6d"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/run_formal_combat.ps1",
+      "sha256_lf": "9dc723ecff8eb5fe5b442495f7379b1f7e88385bf4c48e25bb9d6b437f21b5c5"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/run_npc_interaction.ps1",
+      "sha256_lf": "2b59d2908b7e8f67bc36b4a746ac94afacd7b4124bf785a4e125f68fc26b4634"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/run_ue_python_tool_probe.ps1",
+      "sha256_lf": "b1359c8427b1fa4d6d647be06271bca0cd8fe0656abe647a74da4626c1053360"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/test_acceptance_audit.py",
+      "sha256_lf": "17fa9eb9f30e3bf81f31bc9fe933d9d3c8b6204baf3cd9442519b590a6d9e6d1"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/test_formal_guard.py",
+      "sha256_lf": "56fed36d3200c0fc44a76d9392fa364de34168bbd331f28a28e7845d34c7e201"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/test_model.py",
+      "sha256_lf": "3f8e37c5ea5356a1e215b4a09569c25b36104561bf60a9ebea1fc054b76350da"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_acceptance_test.py",
+      "sha256_lf": "8a2df44f5a423e09eabc0dc13fdb38f051e01dc1ed56a0bd376e50b3fb21eeb8"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_action_combat_test.py",
+      "sha256_lf": "62593dd01a83374e746e7e25e08dd42b071ad6b6c9354fc54ba1b8f58835bdc4"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_action_gate_author.py",
+      "sha256_lf": "530a21a48e85058c5d0eb62eb55e5629de6b1d1a402873b3a887200d11afb5db"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_action_gate_test.py",
+      "sha256_lf": "7353a360ecba194431b149d74334c6ab2153944f4146310877c6ca200480c920"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_autonomous_combat_author.py",
+      "sha256_lf": "7baceabaed73e0556fa4bfd32b5631972a1fe916e56f18a8ecbf915411be164d"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_autonomous_combat_test.py",
+      "sha256_lf": "b716287c9c9da014d240cf9f25cdb2b725d09a97cd83dbfb2271a649eee540a5"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b0_author.py",
+      "sha256_lf": "acc4f63ec08a82bcc4ade37fa2d15f0ac421cb8174a47fbc8b9bbfe796fed578"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b0_test.py",
+      "sha256_lf": "7b888b4c59968555c63a794722d48ecfed46944edf5b165e886c35ab643b0b01"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_author.py",
+      "sha256_lf": "65e6475e01dba85ac81a43870c53ec82dd27b70724e57775522392ef02211a04"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_sight_author.py",
+      "sha256_lf": "3a443f867017eb4aa7e527ab7d81f38f2fbc1c9f4b65f0745b8aec97b9d5f116"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_sight_author_v2.py",
+      "sha256_lf": "26d5807fe6430543ec85361cb1d58d21bc6837298b8945e8fb82c5516b04b26c"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_sight_author_v3.py",
+      "sha256_lf": "6ddae086d4d6e1f87f542fa3c9160a5421a772dc2b3c7030e29b29e410140774"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_sight_author_v4.py",
+      "sha256_lf": "e278ccb502f36e5b7c17d08c9ac044a688196dc0aa12596247b94189012548f3"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_sight_test.py",
+      "sha256_lf": "64e69ccbdf29f69067dcd3ba0b2da7bbb97ea88581bc2aa726a7cb3261c2e13f"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_sight_test_v2.py",
+      "sha256_lf": "38244fd7f35b08c216967f89a54b39a806bd762e264bbbe8f88c7b4fd292b382"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_sight_test_v3.py",
+      "sha256_lf": "46c1f8f2caf429f34b8950fa8ea067ce4df46c3df9e89cda31c781a7349be118"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_sight_test_v4.py",
+      "sha256_lf": "97cb25455e1f4b72363c9954bae8d0b569e61b188beb1ab68fd8ad1faf69424d"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_stop_test.py",
+      "sha256_lf": "ca395b76f4966d5efce6923b289fb224dae4b470729968e09442883c091a3eb6"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_b1_test.py",
+      "sha256_lf": "e867d81ee21c3068bc62a32fb4d36999aa44ae2c38a526dc6182fd15beb78a00"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_behavior_author.py",
+      "sha256_lf": "45a1dc186f4e65337c719f2b60b6de17ecf5224af6cedd0d7921dc08544e46f0"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_behavior_config_author.py",
+      "sha256_lf": "87ccfb807e0d3933620ee97b361bdada1d9ab0d1316a11a51ff6a9efed67981c"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_behavior_test.py",
+      "sha256_lf": "1f6e7884830cde5d46e997ccb3ac5c27723459b973345d4d79c82ad1df0b2da9"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_bt_capability_probe.py",
+      "sha256_lf": "8871d0b746fe1f87a50fd8827b0270fccd18446accdbe4253eaaeaf5ffd741ec"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_combat_regression.py",
+      "sha256_lf": "b2282cdc99de7ca54aa20ab47a9f5fea63ff85ddd7e0fb4016156f645a2123e3"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_cross_blueprint_call_probe.py",
+      "sha256_lf": "29fd728abffb6f464a8ea9c57c759e2ad3857b51675d2880b28d0289b1c54001"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_cross_blueprint_public_call_probe.py",
+      "sha256_lf": "56ba4a9695bb03d605ff648f1aad3e9d7d376b9bf9b0aa6d44aee17071756518"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_equipment_fixture.py",
+      "sha256_lf": "84f936556faeeeb65b3e3b92839d84255119481dd6360f35dd2fa1e814da3956"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_ff_exec_repair.py",
+      "sha256_lf": "78e05ee494d7a91a54d563ca84f15d540556185be0592eea0ec0a7f605f97c0b"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_formal_bootstrap_author.py",
+      "sha256_lf": "9e61eef5b17441cb74b7f398a1239a3478d2c24e34e130640fe78b9c646a1366"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_formal_combat_author.py",
+      "sha256_lf": "1e384e028a360237d282f7485f939de9577050ca27a0378b107c69c7ea332749"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_formal_combat_test.py",
+      "sha256_lf": "a26404138871943a600918905a685ab9f48138a034fd9e2f8b4e67c0d3c9d41b"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_formal_roster.py",
+      "sha256_lf": "ef525dd859d9e674d1dfe8d936463cf0178b726643dc818b8ce4cc4ce806d6dd"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_friendly_fire_author.py",
+      "sha256_lf": "1e5d2f11f9b01549484f441426b35449645006fc35aa3f56b0e02bd29d36063a"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_graph.py",
+      "sha256_lf": "88898e3ba7dac3c5925575cc3197acceb71be20b3631dfc66a1ea0582ffa6e3e"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_python_tool_probe.py",
+      "sha256_lf": "5cdb4b5cc5cbc358d352168aa992e66e04559259a47e825b4a66b4e101454fbf"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_search_author.py",
+      "sha256_lf": "43faeb4dd18a1f43af2344fb5522cb322bec3a49b44f2953e2997b0ec6ca5315"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_search_test.py",
+      "sha256_lf": "cefcb4f9875655459ca2408a76a99412613f2104439dec860087880a38914425"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_sight_causal_probe.py",
+      "sha256_lf": "bffe08af99bf619ceb44d4277e2995cd6611bb70e48fb05265354aff934bf4bd"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_sight_verified_test.py",
+      "sha256_lf": "7d3869b7766ca647d76e8bdc6336fcdca5d0e3376c12d53b68cba8b6677c9c64"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_squad_author.py",
+      "sha256_lf": "677a15e5cc285c3ca4f9c2f105121f68763772b2256b58fc0506f42d64879db3"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/ue_squad_test.py",
+      "sha256_lf": "a630ad817690963919b2fa37b452f26297b913ddebb86e3b4ed818dd5aaf39d7"
+    },
+    {
+      "path": "Tools/Integration/NPCInteractionV1/validate_plain_game.py",
+      "sha256_lf": "bb5829a7587f226fce84f1b486e02a02ae65ae540e36be33c86c76272f883b50"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/README.md",
+      "sha256_lf": "4e2d1c7348ec536c69ec1bc7ff145fc8cd46573db7126e74df0aa7d52fb9007b"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/audit.py",
+      "sha256_lf": "c1260edb28124c0c1ec1bd402558cc94a9f31082257e2525246bc704ca9e0ac6"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/audit_crowd.py",
+      "sha256_lf": "f10f1da6367782d9667932b6c24a3878d434269c17929f42ef6e2605feb68d5b"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/figures.py",
+      "sha256_lf": "3fe997fdb19211012698a567d1b74017acc5dbb7d1682c5f1079f6672a883101"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/finish_delivery.py",
+      "sha256_lf": "13061150fc93235a237cfac10c268e18f0b85697620e65e113c4f8efdc568fb5"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/prepare_bank.py",
+      "sha256_lf": "3a9928f58a23ce75e7387308d550ba4443d25edb6c8030e80623ab4d27bd93f1"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/prepare_crowd.py",
+      "sha256_lf": "ae5c93e102b4c6ba69506b2b680bd2370e04bf9de7dadfeae4f8452fa4a6bedc"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/run_convergence.ps1",
+      "sha256_lf": "481656a8f9ea471306bfce1c080a82054d9a769d5851669b9ca431d9232cb4db"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/run_crowd.ps1",
+      "sha256_lf": "bbf8b579f69e3b116248939ec7433c33552dbf0044866d42fb1a3a69e029831d"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/ue_convergence.py",
+      "sha256_lf": "9443a900d49166da021692a9250bce46218e98e09c661e32abd24f20474a43db"
+    },
+    {
+      "path": "Tools/Integration/NativeConvergenceV1/ue_crowd.py",
+      "sha256_lf": "20659fbf18d3f3bd13e55385f3478b9719e5b8dca6327677f3bcc36ba0308f66"
+    },
+    {
+      "path": "Tools/Integration/README.md",
+      "sha256_lf": "1a02d42a41e4afc5adf62e6670b00dac9359d6b832b46e0a645b82a00d8eb7cb"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/audit_recoil.py",
+      "sha256_lf": "634e590bef59eb67fdaec3dd05782bb111efbd646c58821c2da33377a16b3ffc"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/build_candidate.ps1",
+      "sha256_lf": "efcddd6161b088096d7d58514364557462039c9f1f505ad04e2afd14686dc36b"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/common.py",
+      "sha256_lf": "7753b0cead6e6a29aa26772f2898a1467f483f0a9b1e658ea56d0f38d34c0780"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/install_local.ps1",
+      "sha256_lf": "89794e8ff9b12d7d669f17a77c0d81930f9b2d6e63aba2f5deb948c656586e2f"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/prepare_candidate.ps1",
+      "sha256_lf": "2e0c826ee2904e2ed1d031fb0e31a95290d5b286e55a1a0095b8922d0c767462"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/recoil_contract.py",
+      "sha256_lf": "19ca2c57e50e7bbf1eb0e8fd703c7d07f6a80c2d361c9b7c59dddaedf6276313"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/run_probe.ps1",
+      "sha256_lf": "fc35ab028f297d1bbdfd83c2e211e8f283fc91bacfb99235322d363cb82b949d"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/test_recoil_audit.py",
+      "sha256_lf": "6c4ffd72cd75104fd307d04070af14bbe949af77bcf75e91d4fbbd06e921dbda"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/test_recoil_contract.py",
+      "sha256_lf": "37ec5e6676090a31746136bb4b1b6fdd0d7aa13b03753bcd1426d2c99c6de20e"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/ue_probe.py",
+      "sha256_lf": "877e21053d6d7fa5502c4801bd476c3ecb6f2055ddf22c69cbadf589ab832565"
+    },
+    {
+      "path": "Tools/Integration/RecoilV1/verify_local.py",
+      "sha256_lf": "29d39078d7d1b215713a8796ca29b5f6f04ee9dfbcbd8489cc33f31c3caab3a6"
+    },
+    {
+      "path": "Tools/Integration/ReloadIndexContactV6/audit_inputs.py",
+      "sha256_lf": "9a7bcc68f0b11dc3f2a441ab021bc0474cbe8e58964c783976c5603bbfc26415"
+    },
+    {
+      "path": "Tools/Integration/ReloadIndexContactV6/blender_contact_audit.py",
+      "sha256_lf": "bc34ec6f69e79056098203c5948c9dc8bd32dd68a3d81ad450cf6fad14896f2d"
+    },
+    {
+      "path": "Tools/Integration/ReloadIndexContactV6/restore_accidental_map.py",
+      "sha256_lf": "af4b16bfb0266902087ffeaa149a9beff946c29f9daf7ce6dc6ad49153e03ca2"
+    },
+    {
+      "path": "Tools/Integration/ReloadIndexContactV6/run_contact_exchange.ps1",
+      "sha256_lf": "68f05ef1dbf84054bb6813d13d1a2cb3fafaed448e838a6fb9c219f31c9a7e57"
+    },
+    {
+      "path": "Tools/Integration/ReloadIndexContactV6/ue_contact_exchange.py",
+      "sha256_lf": "375838a509fbed947317878b2fdc135188e71a78dcc1871bb49bebde1ccffad0"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/audit_transition_sources.py",
+      "sha256_lf": "e8945bbac6cd0aed88ec25c1fbcc54cb05b677fef93d228bbbf9682c7a8b3190"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/blender_offline_skin_cause.py",
+      "sha256_lf": "ee334aea77cba77993241e25ebc1594cb961c13debd566255c58a4b13e4c8699"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/blender_sleeve_validate.py",
+      "sha256_lf": "aaf57304b1f53d899ae9490576c4b39ce974476814b8ef521341dc90b5722bb4"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/blender_sleeve_weights.py",
+      "sha256_lf": "bdaccadbfceb6e8d3b1d53d55a95573b9693fafe55a0c22891a9e7e99711c537"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/common.py",
+      "sha256_lf": "684e8ee313f7d629a14a7995c9cc18ce4ed7391953448b49d13f171b188a50b2"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/finalize_checkpoint.py",
+      "sha256_lf": "e0dd6029e7c53c0a1a13e63fb022e134b88a46d1c3827ef98b674f957781c85e"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/review_sleeve_views.py",
+      "sha256_lf": "ec662c2337df670e49b0a74aae184ec966f400ae7d923133767133b301dbdd2f"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/run_human_preview.ps1",
+      "sha256_lf": "19c4745bedd0ad759ea5d1692b643e53af1740362e362cc84b572144f67b7415"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/run_native_probe.ps1",
+      "sha256_lf": "4d0b675cccccc4e56ad46186c0ad57fe2fa3e1d5701f8478ccb12bfaaa8abe21"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_blend_capability.py",
+      "sha256_lf": "ac12917bb236a48cbe67f8c131e53612dc55fb665da16c3c82f9e9ca833e2efe"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_human_preview.py",
+      "sha256_lf": "91f52937f465d7b19e941d7ce36cb27f256f90db53f6d631632c66fd5d8bda9c"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_human_preview_resume.py",
+      "sha256_lf": "45be23b751d4ee26832e264a30398acd9bc966c074ffa90bed2a9c7a055bea2b"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_natural_end_probe.py",
+      "sha256_lf": "fb6ea49646d33334f5dc0f756ae2bf18e4854586b07a1db30f3faa13028dd908"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_owner_blend_author.py",
+      "sha256_lf": "525bbe5beb6e424f3a5b3fb4ca77c9e2c9741432c23900473cf71e26fce68e12"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_owner_blend_city.py",
+      "sha256_lf": "4e9bf392c3ce2c8e2c1aee7f3ebdf1d71fe6f11ef255793fcf777878804e9bae"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_owner_reframe_author.py",
+      "sha256_lf": "3dcd9b190419a650d2977e5085db8403a5c65980b1ec2ff4d1b61b0d951e9919"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_sleeve_import.py",
+      "sha256_lf": "0255a52f3c81e52e1dcf547aa19863fed8332335d3b01529ffe43d5072f4fa4b"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_sleeve_view_compare.py",
+      "sha256_lf": "f5808adb42ebd902ffa4c8ae3e15aa79c0322ea84e4e9fff2a3a5dad8a021cd4"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_transition_proof_author.py",
+      "sha256_lf": "17c861d008c93fd79774581083262dad69fd2216209a52014271caf53f0993b5"
+    },
+    {
+      "path": "Tools/Integration/ReloadRepairV5/ue_transition_proof_fresh.py",
+      "sha256_lf": "5fb4da31455cf2dd0635c3491b62daa798b8f3737bf9da5e9df7f44006132d8f"
+    },
+    {
+      "path": "Tools/Integration/TeamSyncV1/release.py",
+      "sha256_lf": "fe7cdf3584ea9bea24226bf62d6a623857295989d8172ded707a3a6cd538c488"
+    },
+    {
+      "path": "Tools/Integration/TeamSyncV1/run_audit.ps1",
+      "sha256_lf": "e58b605e2a3336fa9c8394d78195e694b1469de5f573f55fe33612ded0b86601"
+    },
+    {
+      "path": "Tools/Integration/TeamSyncV1/ue_audit.py",
+      "sha256_lf": "9f81f75657f06197c0500b080821e1139e240a100de520302f9e4e34f1baa240"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/README.md",
+      "sha256_lf": "ba37e88704cdaa8e748ec78085272cc63976eb44d9b197f8fe77efd529ff7301"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/audit.py",
+      "sha256_lf": "c1665e2408f9b9286ebf82fa28140da6f2527a000766ca397a12ce5167c09bf2"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/audit_diagnosis.py",
+      "sha256_lf": "25f0db0450ee322ba67dc9fb5b4146e153848ffffd4439f1a214a271a95d0b63"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/build_diagnostic.ps1",
+      "sha256_lf": "7f0815bbd0a34118c2b78dc54da2863430f5930f5d3dabf38b84acd6f7c8b699"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/close_diagnosis.py",
+      "sha256_lf": "33047e468393f898943bdf91eb64bbc05424af50aafff0e74d600dadde2b33b0"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/finish.py",
+      "sha256_lf": "f6e3b5bde749c48e05c9937d5ad0e0b5b42c12c9a53dbbc1b78ee7b2eb818016"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/prepare.py",
+      "sha256_lf": "c11d4d6402b6669d5546025ba0f0e977d732e70acba6f97074470aa2e8b487f9"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/prepare_diagnosis.py",
+      "sha256_lf": "085f7e56d11285a81d6fa3cad85f4822d6d6f878817a878152749756fea54dc9"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/run_diagnosis.ps1",
+      "sha256_lf": "2036d482a24d3422a8f593caa741341a1b61963442e731a546451fedec37e2c6"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/run_standard.ps1",
+      "sha256_lf": "dea316d9cf75348756ae39310e71df71cc43567d610b249ad6119cea304f3d2a"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/standard_api.py",
+      "sha256_lf": "77d5204bb5c460250418ad0b7692129b1fa05bc22cd5b1ef264b7d7ea7206f6f"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/ue_diagnosis.py",
+      "sha256_lf": "d418883176ca9da2b1d79025a42e04bff5ae55de35c452d46291cc77c4088245"
+    },
+    {
+      "path": "Tools/Integration/UEStandardNavigationV1/ue_standard.py",
+      "sha256_lf": "aa6ad5f631b2643a25357730743edf79edeee0dfbbf25d3862c4673f7a9053c5"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_closed_grip_fit.py",
+      "sha256_lf": "0db15b72882c9dfe1a19a11a84d7385c5b114398ffdd9a5901e3e292065770fd"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_finger_separation_probe_v9.py",
+      "sha256_lf": "f6be6eca9bdab661c106b1b2bebd3e17bddb4d48267345389b272c8517cf1c58"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_grip_chain_v8.py",
+      "sha256_lf": "22b4eaf044caa2761f95ed9c0bf156c4b9de218ba125ba0f577704b3a2d23800"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_grip_coupled_v9.py",
+      "sha256_lf": "71f49e8c9d7cc74862021084997a35f903e2fc15d5e470efa442e7d9fbec3721"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_grip_envelope_v7.py",
+      "sha256_lf": "aa97a038a1b201118543aa91dff204032cad00c0c9334786bc33f2ee7f6c64be"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_grip_failure_probe.py",
+      "sha256_lf": "af51e4b10c3b4dfc21e45927059d627811cb1e90157a78c3c9832599f6972c41"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_grip_final_review.py",
+      "sha256_lf": "73408798f9c51c05200962cb7b00d08a494d30777924ca3b515ebf8e50064b32"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_grip_probe.py",
+      "sha256_lf": "2ab4c35678865b415683c0c720f493205e14028ec6248a3612bedaeee0dac38a"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_grip_witness_v10.py",
+      "sha256_lf": "03af78337b5ecbafed3c083196a53992d2ab9892f7c7df5820b7ebfed6369501"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/blender_stock_surface_probe_v7.py",
+      "sha256_lf": "4cca48a24afd1eec8ea198bb1234ff3c82a4dbe764e458cb563a8db0ec63151b"
+    },
+    {
+      "path": "Tools/Integration/WeaponClosedGripV6/compose_grip_review.py",
+      "sha256_lf": "87af217898f78aa6f84e17c92c4d1bfcf42a60bb0210dbcaa4125e5365822096"
+    },
+    {
+      "path": "Tools/Integration/WeaponGripPivotV15/blender_grip_raise.py",
+      "sha256_lf": "f3bf1352f9cf97eee73b0152d5030d48d7e884f736ea8ef8a65411684fcff22a"
+    },
+    {
+      "path": "Tools/Integration/WeaponGripPivotV15/blender_grip_raise_edge.py",
+      "sha256_lf": "6f3e224a95798d2bde670cbc9e249038dca9b139b622dda755cceb716324fc0b"
+    },
+    {
+      "path": "Tools/Integration/WeaponMarkedGripV16/blender_marked_fresh.py",
+      "sha256_lf": "1d55edd23b32941e9db6eb8f27b26a5ce441a442cdd962b7d937d8b64b5b3401"
+    },
+    {
+      "path": "Tools/Integration/WeaponMarkedGripV16/blender_marked_grip_raise.py",
+      "sha256_lf": "607c98bfe866ad7618f427a6c67f190e5b2b10ac083b4650ef1268999bb02388"
+    },
+    {
+      "path": "Tools/Integration/WeaponMarkedGripV16/blender_marked_pivot_probe.py",
+      "sha256_lf": "5ec87ea7cc69089cdbe7234bf496683fd67afac6ada12f81f756912dae3e39ff"
+    },
+    {
+      "path": "Tools/Integration/WeaponMarkedGripV16/compose_marked_review.py",
+      "sha256_lf": "0b2ce7b5de7a95d56f919d4a146f33a38d01320cc65eec865fac363ba5658550"
+    },
+    {
+      "path": "Tools/Integration/WeaponMarkedGripV16/verify_marked_result.py",
+      "sha256_lf": "2fc04ba847af1e8d488353527972c17e59cb78bca58c47733ba899cf8e53d68f"
+    },
+    {
+      "path": "Tools/Integration/WeaponPinkyLengthV18/compose_comparison.py",
+      "sha256_lf": "5ec904c863d50ddaeab71152cb6b8c8b74bc35318ed6adea5c254044c4cabb58"
+    },
+    {
+      "path": "Tools/Integration/WeaponPinkyLengthV18/diagnose_boundary.py",
+      "sha256_lf": "ebf331411cac89f205c05a74e9386016bf0210ebf0c18973dd656dc7da5a4238"
+    },
+    {
+      "path": "Tools/Integration/WeaponPinkyLengthV18/fresh_verify.py",
+      "sha256_lf": "40d6681aacecfd00cbb9a25bc4efae5e663b8648dc01392735e00eab6d7609b6"
+    },
+    {
+      "path": "Tools/Integration/WeaponPinkyLengthV18/probe_pinky.py",
+      "sha256_lf": "1b133a664fc1a886b87f92ee8a75b583000bd329a9da6eb65c4d0894c4d2e2cd"
+    },
+    {
+      "path": "Tools/Integration/WeaponPinkyLengthV18/shorten_distal.py",
+      "sha256_lf": "c6bb1a883b001a02ca6e72f2dd538d866801ad5e856f0ffd0229de2de3b919c6"
+    },
+    {
+      "path": "Tools/Integration/WeaponPinkyLengthV18/shorten_pinky.py",
+      "sha256_lf": "f0423b845aa9dde30f3eb5ffadd6d33b26120898c9a2e8968f382d334acc6829"
+    },
+    {
+      "path": "Tools/Integration/WeaponTexturedViewsV17/clarify_views.py",
+      "sha256_lf": "3b2ddc36de4efbad434443b052ee7165b9c68bfbacecbacce1282f231e3bed0c"
+    },
+    {
+      "path": "Tools/Integration/WeaponTexturedViewsV17/compose_sheet.py",
+      "sha256_lf": "e7c7263afa27b03ebda0301583e783ef37d98e623e4e7698d251d4f8ce379a31"
+    },
+    {
+      "path": "Tools/Integration/WeaponTexturedViewsV17/probe_sources.py",
+      "sha256_lf": "776a4106a2ca1603c709779f29c907e41a0f27c76588d802c678e62414660afb"
+    },
+    {
+      "path": "Tools/Integration/WeaponTexturedViewsV17/render_views.py",
+      "sha256_lf": "0bd0ed311994cab9c6ffea412ceaea2a6ab92b752b6274d0198ab0771eaf8603"
+    },
+    {
+      "path": "Tools/Integration/WeaponTexturedViewsV17/verify_and_compose.py",
+      "sha256_lf": "71d99160e4113565d1e9a9b55f35f70aae034f68e97c339fde5895da81b044ba"
+    },
+    {
+      "path": "Tools/Integration/WeaponThumbContactV4/blender_thumb_fit.py",
+      "sha256_lf": "264085234d9e73c39479223b810b7ef70db356fa2be6547ab829ad0ab0e7401c"
+    },
+    {
+      "path": "Tools/Integration/WeaponThumbContactV4/blender_thumb_probe.py",
+      "sha256_lf": "75a0bcd6069d66d0ba423d1b61f5d4301e40fa9ee18bbdbc742d0510e154d02b"
+    },
+    {
+      "path": "Tools/Integration/WeaponThumbContactV4/blender_thumb_surface_fit.py",
+      "sha256_lf": "2c2de15cc9713d39bf231fdd384287f693ab38c2b13b199c7949b60019c232c5"
+    },
+    {
+      "path": "Tools/Integration/WeaponThumbGunSeatV14/blender_thumb_fresh.py",
+      "sha256_lf": "822130f145766097d336888ef3b43d4ab3a6f239a49b5dea265a54d372c2fd36"
+    },
+    {
+      "path": "Tools/Integration/WeaponThumbGunSeatV14/blender_thumb_probe.py",
+      "sha256_lf": "2b25a4dd7596b4ba27b5e79faae90362a6221a6c6ee9f1608d4cf1ac17601f22"
+    },
+    {
+      "path": "Tools/Integration/WeaponThumbGunSeatV14/blender_thumb_seat.py",
+      "sha256_lf": "6cb350ec342ffa76daab65ecb884f1e6c9c10f31654e7036d16d64ca9f712ff6"
+    },
+    {
+      "path": "Tools/Integration/WeaponThumbGunSeatV14/compose_thumb_review.py",
+      "sha256_lf": "7f46f46f052480477e15e5a8c847b7995c3451eb5dc4766199e013cc4537d794"
+    },
+    {
+      "path": "Tools/Integration/WeaponThumbGunSeatV14/verify_thumb_result.py",
+      "sha256_lf": "de0bb992c57ac0c1e45e839623722931029c0a5926612b97e565d19676865b25"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerAlignmentV1/blender_trigger_fit.py",
+      "sha256_lf": "9642ec90f9b13c79a3201da60a34529a19915ef1bb1ef0c6b98eacc37859e8bb"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerAlignmentV1/blender_trigger_topology.py",
+      "sha256_lf": "6cc67467bb487120ce74bcf8fc61e6721bb4a0c794ed014bd634f504beeeaa8c"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerAlignmentV1/review_trial.py",
+      "sha256_lf": "2666e6687de569bfc908c6c5ce9c570834bd910d5f0bbe8758974a818d35a6f2"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerAlignmentV2/blender_contact_common.py",
+      "sha256_lf": "a41aa36a9dae9f5de079f18e9b0e06eaa720f05ab2106886e5a627f68047c393"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerAlignmentV2/blender_fresh_check.py",
+      "sha256_lf": "ddc8860c06a27049efd12852f50984f68829b2d6577fdbf9055bd0667fe6457f"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerAlignmentV2/blender_index_pose.py",
+      "sha256_lf": "e9d510632ae35f53bdd7f7d9328a9b657eb2a7b4dba119246b214bd5faf3c7d5"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerAlignmentV2/blender_pivot_fit.py",
+      "sha256_lf": "810f8bcb9b586a4ceb1048dc5fcc113aca512871ea87cdb65dc8ea0c1e3773b2"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerAlignmentV2/review_contact.py",
+      "sha256_lf": "31c57e3fa6efb9365c6e0ca0861816f0daacd16bc86f20c0c92b4a90a68ccf8b"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV12/blender_pivot_fresh_check.py",
+      "sha256_lf": "558a03693d59ee95d404985cdc600d1ca3262cdd093a19bf41edc5825efbd1df"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV12/blender_pivot_probe.py",
+      "sha256_lf": "fbbcf7d8e4eb505c9e6a8a32a76771cdc4fa07b736eeeabe700a87b4907b3449"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV12/blender_pivot_trial.py",
+      "sha256_lf": "412ff3282e191ade9a03fc92781d93c87ea751200e295f9abb2ce0c27bcb71f5"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV12/compose_pivot_review.py",
+      "sha256_lf": "5671f4f1e6b3f06ed11867a9edc651777116778df3e8c137f53aa79ec784a783"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV12/pivot_common.py",
+      "sha256_lf": "af99024efabfcd64c86e5cfc4a4a46d3eff36d3a5150d48ce466c1a72fbd371d"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV12/verify_pivot_result.py",
+      "sha256_lf": "062d5ae74ce2f32b6f9cdc72a66ba3bbc60e48a6e22dd7682022c707ca6a510e"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV13/blender_pivot_fresh_20deg.py",
+      "sha256_lf": "1e9c874b3c2ee76042b90a772bccaab6f3fc8a6850d6176a262d2c2e54ffed2e"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV13/blender_pivot_trial_20deg.py",
+      "sha256_lf": "26da99a031a40b92e2eff753b99b94fd745dc4146ece8b68b0517555a0b05374"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV13/compose_pivot_20deg.py",
+      "sha256_lf": "c974517e454e3ab3bbdcd0928a3c91aba836a418e3e15881526b7071afe2eade"
+    },
+    {
+      "path": "Tools/Integration/WeaponTriggerPivotV13/verify_pivot_20deg.py",
+      "sha256_lf": "61dd2f04d92a8f30f3cb64eaf4a6bd14aae7ca1f6369dce8dc2cce5a7cac2e05"
+    },
+    {
+      "path": "Tools/Integration/WeaponWholeWristV11/blender_palm_probe.py",
+      "sha256_lf": "b0ae46e71fc2d6b8489f7da0e47ae1f7da798c23c8f9cb75986043269bc08a4a"
+    },
+    {
+      "path": "Tools/Integration/WeaponWholeWristV11/blender_wrist_approach.py",
+      "sha256_lf": "4b8b68bec56e30bcc0ec28d9a436487e0e5284ebbe344fc07a23a966b16747ab"
+    },
+    {
+      "path": "Tools/Integration/WeaponWholeWristV11/blender_wrist_fresh_check.py",
+      "sha256_lf": "edcf346443e836ce327cffe5f6391207430d12665fb0b54b25ffcf168b3d2b1f"
+    },
+    {
+      "path": "Tools/Integration/WeaponWholeWristV11/blender_wrist_probe.py",
+      "sha256_lf": "ebd0d47f6590c7032ea14ec449dd35523a1ba4cfd66c7eb754016e459999fed9"
+    },
+    {
+      "path": "Tools/Integration/WeaponWholeWristV11/compose_wrist_review.py",
+      "sha256_lf": "4f98ba79f354b40af8b06d4f5def7ec7f2e4e12af9b8230652f74c2a36721db6"
+    },
+    {
+      "path": "Tools/Integration/WeaponWholeWristV11/wrist_common.py",
+      "sha256_lf": "0498b511593a63b33828a53619d51a73912164fa73b02a7b4cf5cb34bb633890"
+    },
+    {
+      "path": "Tools/Integration/analyze_paris_startup_csv.py",
+      "sha256_lf": "cc05614c7d38e6bdaf9d214c1896a4ac97c78405192632bac7f754771b27278a"
+    },
+    {
+      "path": "Tools/Integration/audit_player_action_candidates.py",
+      "sha256_lf": "a1baf8cc04b2295a55b2bc6f86a1299c8d6651b14259695ab556a7cfdd59e181"
+    },
+    {
+      "path": "Tools/Integration/blender_continuous_arms_roundtrip_v3.py",
+      "sha256_lf": "b805d41cada0eecd170bd8ffc4339acf52bb8d40e43048ec6db6945a0ed5b27c"
+    },
+    {
+      "path": "Tools/Integration/blender_continuous_arms_v3.py",
+      "sha256_lf": "edae5640335041d08505ac4a09f2bb1f689007451ceed5f012e45fcb5d409b6b"
+    },
+    {
+      "path": "Tools/Integration/build_paris_windows.ps1",
+      "sha256_lf": "35b6b8e491ab896b222af21431ef07435eb81298ff3aace97b27076ce9fbd8e5"
+    },
+    {
+      "path": "Tools/Integration/finalize_german_rifle_ue.py",
+      "sha256_lf": "13b095deeb352c67d4b4922e455af5b1410a03c9ce941834f0f38a52b893f0b9"
+    },
+    {
+      "path": "Tools/Integration/finalize_weapon_animation_reuse.py",
+      "sha256_lf": "f15aded56156e235c44fd1249f14eb0be8cdf260765005e4e08e6400e87fe7da"
+    },
+    {
+      "path": "Tools/Integration/german_rifle_ue_common.py",
+      "sha256_lf": "dcd69cd8af58fb3de8d69c1c756e47715aad0b630f1c805b1c1651d0676d2b09"
+    },
+    {
+      "path": "Tools/Integration/initialize_playtest_storage.ps1",
+      "sha256_lf": "566f351c9e0c96904e7450faf02230ca7ec86b6a0ffe04c206e0e73cf33be1f9"
+    },
+    {
+      "path": "Tools/Integration/inventory_local_drafts.py",
+      "sha256_lf": "d195a83cfd03ca864cee4df84d7731b3e5bca5a47c08dc4e0d12165336f34cb8"
+    },
+    {
+      "path": "Tools/Integration/probe_continuous_arms_native_game.ps1",
+      "sha256_lf": "bd08bd96cccbe80a8321527da96f1560e8d585c126d3d152dbe361e873dc3c62"
+    },
+    {
+      "path": "Tools/Integration/probe_paris_package_startup.ps1",
+      "sha256_lf": "4ebaec5f24ee7a2562efa21540d3577a2b968532848b10b3ab5076c6bb3247c5"
+    },
+    {
+      "path": "Tools/Integration/publish_native_playtest.py",
+      "sha256_lf": "0b4bac6b63573da247fd8d2590a72ada0a35b8d4d5779336efeb3c2e0ed96839"
+    },
+    {
+      "path": "Tools/Integration/record_player_aim_trials.py",
+      "sha256_lf": "2c7e11e2ab3d5a76e4ed80c47748d0a5f11ec9613241dd60af67ee404bfcab36"
+    },
+    {
+      "path": "Tools/Integration/relocate_runtime_storage.ps1",
+      "sha256_lf": "eb009ff35b11b0540e29429f6d8b58d133f034f0e9d27ec7121f74de1b42b20e"
+    },
+    {
+      "path": "Tools/Integration/remove_verified_download_probes.ps1",
+      "sha256_lf": "060dbbf8a49c81a7dd3b87a54251187aabacd21df1817d0b2f27197eeb0c661d"
+    },
+    {
+      "path": "Tools/Integration/restore_native_playtest.py",
+      "sha256_lf": "ddd598e5371e10070f9ac292d4786c604bfd394dacacc0ab786f8a0643eafe2b"
+    },
+    {
+      "path": "Tools/Integration/review_continuous_arms_dynamic.py",
+      "sha256_lf": "8c688f0887d49ad00f3c50993da280c079eae3a4851a936a6fec8b1fa35241f0"
+    },
+    {
+      "path": "Tools/Integration/review_directional_evidence.py",
+      "sha256_lf": "5eef6fae85452948225779fee630c9985028da3f686ac84d1b92b01ce2eeb650"
+    },
+    {
+      "path": "Tools/Integration/review_movement_evidence.py",
+      "sha256_lf": "e85775e5146fed6dcb7d04712c3f918cfabef6cb77ce5a25bb3b4c6a508477be"
+    },
+    {
+      "path": "Tools/Integration/review_reload_views.py",
+      "sha256_lf": "9703d4abdbcb18247a73d430038e2f3d2998b4123f432cf3721f8c70766dea61"
+    },
+    {
+      "path": "Tools/Integration/run_continuous_arms_dynamic.ps1",
+      "sha256_lf": "bf3abfbe6a266416e4b4a6ee072d05e9ab83614937fb124a77092ac1ac0f73ca"
+    },
+    {
+      "path": "Tools/Integration/run_continuous_arms_muzzle.ps1",
+      "sha256_lf": "3df061da7c3c37416fa94e54f9c560f4e702f7bbc7765aa61da84dcfd988eccf"
+    },
+    {
+      "path": "Tools/Integration/run_continuous_arms_native.ps1",
+      "sha256_lf": "11bdd28a7d00d67f883b49a9a5c0786073e8142e473a9774f53fea6e55fee8f7"
+    },
+    {
+      "path": "Tools/Integration/run_continuous_arms_preview.ps1",
+      "sha256_lf": "ed96eb6ec89bb18ccb677634fef087de8da336211ae0b11b82e4dc08672049d3"
+    },
+    {
+      "path": "Tools/Integration/run_continuous_arms_static_v3.ps1",
+      "sha256_lf": "e6b1fc4f9813b9822c80ac410bf1e28058b1cb6b1436c15c966f1884116d6858"
+    },
+    {
+      "path": "Tools/Integration/run_directional_cases.ps1",
+      "sha256_lf": "4ded57ff7f8462b7cbe67d2889f461662cd996d8dc961f1961b18d4a952495e2"
+    },
+    {
+      "path": "Tools/Integration/run_first_person_composition_v2.ps1",
+      "sha256_lf": "660133120c30e202dab15f8aed267cae1e4f5bff1ad05971b9b00d65f3b0eba5"
+    },
+    {
+      "path": "Tools/Integration/run_german_rifle_ue.ps1",
+      "sha256_lf": "75f7d3e8196875c6c0c40909701c070ca4694e2b6e2ef544fdf401dc134ff722"
+    },
+    {
+      "path": "Tools/Integration/run_paris_aim_preview.ps1",
+      "sha256_lf": "9eb999eba30b0b5001180076d0f2e5749941bf2bec390feb96f2a016d8369259"
+    },
+    {
+      "path": "Tools/Integration/run_paris_native_preview.ps1",
+      "sha256_lf": "af9bbdf5a5370460ba82ec05978ba82c1a58c60d0429c07124082537d758890d"
+    },
+    {
+      "path": "Tools/Integration/run_paris_navigation_foundation.ps1",
+      "sha256_lf": "5952dc8ca24f91c6de59a97f5bef3f59fdc9e15100e4742aaacd144051a538f9"
+    },
+    {
+      "path": "Tools/Integration/run_paris_review.ps1",
+      "sha256_lf": "a601607268fceace59f5ab92234676839cb47fb79cf9ae32eb7d2005d4d7057d"
+    },
+    {
+      "path": "Tools/Integration/run_player_actions.ps1",
+      "sha256_lf": "38cf5963f9d586bb82bf4aceb600d78862f7ad809551b9b2014a238dcccf7a09"
+    },
+    {
+      "path": "Tools/Integration/run_player_actions_preview.ps1",
+      "sha256_lf": "847b0dc92647ef68e4167eadbb5bad152e2e6ee708e38ba1333817c22fde4e14"
+    },
+    {
+      "path": "Tools/Integration/run_reload_approved_v4.ps1",
+      "sha256_lf": "44dee50c01933388e96bfa6025c6d5d4c17113198cbf9f718f2ff7957b0b5395"
+    },
+    {
+      "path": "Tools/Integration/run_reload_asset_human_preview.ps1",
+      "sha256_lf": "8a7354ed1dcbe4302e18ac75edbf9310471f18979d3ffc69fec73e099d56fe81"
+    },
+    {
+      "path": "Tools/Integration/run_reload_binding_human_review.ps1",
+      "sha256_lf": "e90e446c43b69880f0e9228ec1d44e012636cd664a31a1d25cdef9a233bd3dcb"
+    },
+    {
+      "path": "Tools/Integration/run_reload_game_binding_v3.ps1",
+      "sha256_lf": "37f088a6277dd1be8cb714539fc2ecdd469f86abec1d8cdcccc5209816f7b31d"
+    },
+    {
+      "path": "Tools/Integration/run_weapon_animation_reuse.ps1",
+      "sha256_lf": "51d1d380e1da2508f26af25d5783b0d26611f286381ba5ee42eb97ed7871fbc3"
+    },
+    {
+      "path": "Tools/Integration/set_german_rifle_draft_permissions.ps1",
+      "sha256_lf": "6b9d2dbbb3b420e03eafe6fb9981a52c6f8bf3f55b9d9ae256bc2539c985f70d"
+    },
+    {
+      "path": "Tools/Integration/set_weapon_animation_draft_permissions.ps1",
+      "sha256_lf": "77e0c9fead9cc80c45d303e118990fac000622cf9ef98be5053add71f01c9b54"
+    },
+    {
+      "path": "Tools/Integration/snapshot_reload_drafts.py",
+      "sha256_lf": "03f7cf389761675b44e9690396177dadb3e710816b85a20b333ed7058ded172f"
+    },
+    {
+      "path": "Tools/Integration/test_restore_native_playtest.py",
+      "sha256_lf": "b7b939c21a914182648a6fd320fa05aaba0bc612c6a99fffb28aadd120846d4a"
+    },
+    {
+      "path": "Tools/Integration/ue_active_project_probe.py",
+      "sha256_lf": "ffd020583844a886f40f353b9bf473efdb105a2f3d885f0e97347b0ff274664f"
+    },
+    {
+      "path": "Tools/Integration/ue_character_face_review.py",
+      "sha256_lf": "8007e207a83a53af8c205a5ac63d243c994ff9791546095f2564a47b1e174179"
+    },
+    {
+      "path": "Tools/Integration/ue_character_movement_author.py",
+      "sha256_lf": "3489c54e886027ec52941f68703b72a83657253b24aea454b16258b4fd75ccb8"
+    },
+    {
+      "path": "Tools/Integration/ue_character_movement_probe.py",
+      "sha256_lf": "b689bffb886273290b8021a714a33e25ae42dbcc58e6b569e4f78278fb2cf3d9"
+    },
+    {
+      "path": "Tools/Integration/ue_character_movement_reopen.py",
+      "sha256_lf": "b50f495ce568b24fa7ae60e0d3372a32d92aeebba2444cf767e06579d8c80991"
+    },
+    {
+      "path": "Tools/Integration/ue_character_presentation.py",
+      "sha256_lf": "7816790c78e2247a4b5af9ba405ddc6ce7b7fe25dd9af3405db452794a79edef"
+    },
+    {
+      "path": "Tools/Integration/ue_character_preview_reopen.py",
+      "sha256_lf": "7d34867b8e4328763e52829f4e2457cf2ffb4547721a426aefb0ab7fe15d8b22"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_dynamic.py",
+      "sha256_lf": "2a7aadfe538a0f69c00c422cb7e2b2cf741a3f79e75cb4ec59030b6481570581"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_human_preview.py",
+      "sha256_lf": "e10a363666b2720cc286a920347f7da8bb6b20c2e158b304ee8ec74384777c4d"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_import_v3.py",
+      "sha256_lf": "a88a1201b9670f11371a04462d8f160b9f172f4a29a1bd05d578b9e29a7d2d45"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_material_v3.py",
+      "sha256_lf": "3410a7ff3c2c7265dcb97ee02a0381a38d0e98c33bdcf7ca0c8daabb1438fd36"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_native_author.py",
+      "sha256_lf": "324599961c5b3db81440f6d88a57a70db79b284aaed6292fa9a3306550d5563f"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_native_combat.py",
+      "sha256_lf": "fd37316e7b626426b8441a2428884137ca06f92133e6d6d4ea35a7c646583291"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_native_probe.py",
+      "sha256_lf": "fc36251db1a3c2363fa1178a6bbd91637616852321849dfe5d7fddbe349c67f3"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_native_runtime.py",
+      "sha256_lf": "48b8a14d5c92d3e6be0bc5cecc91de0b7bd23730de6ec9aa80aaa7b0f38932c1"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_native_select.py",
+      "sha256_lf": "fe276ae6a161b9f50b2f8f4863fe901c97d9064d6621949e7ceb80e1804df86a"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_runtime_trial.py",
+      "sha256_lf": "bbcea588c48f4a8e0ee14c257d892acf0009f7cc7d6afa083f17261df2b453b8"
+    },
+    {
+      "path": "Tools/Integration/ue_continuous_arms_static_v3.py",
+      "sha256_lf": "c661b7dc46aea7eefc214f7120fa94d5f1b762201b86eb1f58c230d82fb07d7e"
+    },
+    {
+      "path": "Tools/Integration/ue_directional_author.py",
+      "sha256_lf": "cb8bce75d9ca5a92c29651eb96ec161209a20805fb7ff9326160bcb69b315f88"
+    },
+    {
+      "path": "Tools/Integration/ue_directional_lifecycle_reopen.py",
+      "sha256_lf": "4401e316638d26f98a5b80c0618a436ea8220f08c2f297b11ec4de814ef161a2"
+    },
+    {
+      "path": "Tools/Integration/ue_directional_probe.py",
+      "sha256_lf": "eaa604d0b8ebc6e3d005950d28a51ec00381bd995947481c95708e3cfc3472b0"
+    },
+    {
+      "path": "Tools/Integration/ue_failed_case_dependency_audit.py",
+      "sha256_lf": "af5e573a8fb1eacccea585139445dae20f92e94ca57d59b1005120d0e5d98d85"
+    },
+    {
+      "path": "Tools/Integration/ue_first_person_composition_v2.py",
+      "sha256_lf": "aa56470cf352488f2125e20541cf6547d5f9363f2d6fb654103fd6b5ad1e8152"
+    },
+    {
+      "path": "Tools/Integration/ue_fullbody_view_probe.py",
+      "sha256_lf": "806309d31cac58b239ea62c8c0baade3da5de415598734c37ecc97e05f8a1c34"
+    },
+    {
+      "path": "Tools/Integration/ue_german_rifle_author.py",
+      "sha256_lf": "4bd141cda1f64d66fe98de5d09a338aa10f395403ecec2c4ed25c63d433ee854"
+    },
+    {
+      "path": "Tools/Integration/ue_german_rifle_combat.py",
+      "sha256_lf": "9351090379ceead4c2a2fc0b4e50923f68d7c6b797b386faa0c2fddf881a5698"
+    },
+    {
+      "path": "Tools/Integration/ue_german_rifle_import.py",
+      "sha256_lf": "007039ad50fd2954904543e7d8096cca3c966fffbf63dae63e4842c1ff24dd25"
+    },
+    {
+      "path": "Tools/Integration/ue_german_rifle_preview.py",
+      "sha256_lf": "49394baada279d7adca659dd65622f56b7872964f0425e6247d2fd26ce02ec20"
+    },
+    {
+      "path": "Tools/Integration/ue_german_rifle_review.py",
+      "sha256_lf": "5eb42b7b72f77237ef29a0d2700f43c05e0e5dd9a906079396e2e7f1d2a9be30"
+    },
+    {
+      "path": "Tools/Integration/ue_german_rifle_stage.py",
+      "sha256_lf": "2feaaa860bb76ae0e26458bc2724b82cd9d4f0dc25f8cbaa9676e4db319066b1"
+    },
+    {
+      "path": "Tools/Integration/ue_lifecycle_author.py",
+      "sha256_lf": "e4a74cef4e4e891ef9b51a377479a92266e094a9654c3a476f5b635d4e3558bb"
+    },
+    {
+      "path": "Tools/Integration/ue_lifecycle_probe.py",
+      "sha256_lf": "2a6823a7da93d8be5270fc2db263818949fe5adbede98fa9fd4287dbc2d62b35"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_city_capture.py",
+      "sha256_lf": "681eeda2b2a9f6fb5566d19ea5c14628d1eab22e5c3a547d8d1446133cd4dbf4"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_city_input.py",
+      "sha256_lf": "c9ba49b22dcf0079f4c3ec118e743a75c52de7271f9279686b348a2029c5d783"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_city_pie.py",
+      "sha256_lf": "84ace5205c59779327f227e4e017ae1d847b874cdc0460e0c1efd9c430d73915"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_city_reopen.py",
+      "sha256_lf": "a3043545787d5da28a271fc8ee0c2a492dbfd405920cfbd4816056d83e61453c"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_city_review.py",
+      "sha256_lf": "87c0601096c89bdf7fb62450f8732bb6de63cdbdea5ea68c33ffe5f0961a81d0"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_city_setup.py",
+      "sha256_lf": "1689e0d7116206c00823cd2f52c61f99f91922e42931e0b3585806bb6564395a"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_city_survey.py",
+      "sha256_lf": "1760427fa5bd5719d6679bc90bd400d4cefc9f82c63112f26dbb8c1ee4fc11ac"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_combat_api_probe.py",
+      "sha256_lf": "32db05b11f2ddcd909be00bb4f15d015a4f52d93786d9f72625305bdc080521b"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_combat_author.py",
+      "sha256_lf": "804e4dacdba34ef5839f2fab03411ff0e82b6a3fe6a5d825f2629d50b694c113"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_combat_pie.py",
+      "sha256_lf": "ec1d0b9f3394a5e4c9aca6ad241c7d19d774941f72a1a11342989b1cbd294368"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_enum_probe.py",
+      "sha256_lf": "d76caa7ee6aa5c2f0f78ff5aebd8e4cfa5bcf7d67a5485d9f199530423398c64"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_graph_api_probe.py",
+      "sha256_lf": "c0e59d01e78030c2070b33ca2d8f07687e51493f3cc44b62539e84ff4366fec0"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_graph_helpers.py",
+      "sha256_lf": "cdb17d7f97fd8d33341afb7939289a24e09984173d80097f97e2be16fa7fddec"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_hud_input_author.py",
+      "sha256_lf": "b0d09032083bb29d98f7b8b29f88e5034d837f014bb677dccb190d7a0b56a02f"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_navigation_api_probe.py",
+      "sha256_lf": "7101606f9ecd22970fde4b013bda1130a45dcba0de542c6ff41e41ee3b462ab6"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_navigation_coverage_probe.py",
+      "sha256_lf": "17ac4689cadf9c04957037ef2fc3b9e756d2557f54ef722a80f3e2fb6edeecbf"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_navigation_foundation.py",
+      "sha256_lf": "f326e3a007422d0c8ea4a8df28a167dd3918cca07dc1a14db3a941fe5d0d3db9"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_package_audit.py",
+      "sha256_lf": "97e88a4e3003e63518f2daa81680da9c7fd835047534abe5b3d67e367de035d7"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_package_entry_fix.py",
+      "sha256_lf": "763d05f5f8d3b0a378180398cd27a07c928f9c10a1bc42b0adc255a33ec66479"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_shot_endpoint_fix.py",
+      "sha256_lf": "2f6f4f429d84a3810d4fe97094bafcf0623ba88814ff2b6164f76184e4bc4d42"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_shot_scalar_fix.py",
+      "sha256_lf": "6f93d873cf9ee56f5b7d3f356c4d666ef55557a07867f6b1d048ade3df460def"
+    },
+    {
+      "path": "Tools/Integration/ue_paris_shot_trace_probe.py",
+      "sha256_lf": "fb50b7bdf6e6ec0966eb0f8d65a8c0084b65fea30d35ad3675c326206d74afd5"
+    },
+    {
+      "path": "Tools/Integration/ue_player_actions_audit.py",
+      "sha256_lf": "d616347105532eae18de9839d9b99353623e3fbbbff9bc1dacf350314be9043e"
+    },
+    {
+      "path": "Tools/Integration/ue_player_actions_author.py",
+      "sha256_lf": "5f91b1cedcdfd7fc9858b3511338ea031f649b003b96d85cf9ba7d991a69cc1e"
+    },
+    {
+      "path": "Tools/Integration/ue_player_actions_combat.py",
+      "sha256_lf": "837b7283c9c221a50432e3095adf14e87b9d7dde040866d95af2d0d52ea857dd"
+    },
+    {
+      "path": "Tools/Integration/ue_player_actions_owner_author.py",
+      "sha256_lf": "3513953917d51d04521d95cc2c474db57e3799a0ddee84b5bac3e2779097abec"
+    },
+    {
+      "path": "Tools/Integration/ue_player_actions_preview.py",
+      "sha256_lf": "93ea571830ff779a61a2593278577549160b9911ce34d02b83cad2c14d617e47"
+    },
+    {
+      "path": "Tools/Integration/ue_player_actions_stage.py",
+      "sha256_lf": "a3564af31202daa5282aa203e09f76d57fc70760e3ed30013784ac06fdffc71b"
+    },
+    {
+      "path": "Tools/Integration/ue_player_actions_test.py",
+      "sha256_lf": "cebf8382d8bdd59523c54c7626e6e8bcd99f5811686816f55aaad4a12920e4ce"
+    },
+    {
+      "path": "Tools/Integration/ue_player_aim_audit.py",
+      "sha256_lf": "632bd10de5efdbd20d83cf2ace4f753cb91ed7896062d143c2055828f72f1dcf"
+    },
+    {
+      "path": "Tools/Integration/ue_player_aim_author.py",
+      "sha256_lf": "bdecfd09ff2852b42abdde31b36504dd59c103221daedbcbc83d040f95dcaa9e"
+    },
+    {
+      "path": "Tools/Integration/ue_player_aim_curve_audit.py",
+      "sha256_lf": "30bf39bdd72ba345fa095982e199e91a164c01c030ebad6f267bb39d32e7b6ea"
+    },
+    {
+      "path": "Tools/Integration/ue_player_aim_human_preview.py",
+      "sha256_lf": "95b00bf1e429c620c1aa368711ef8fdc15c9f7acf6ffc2b5d3fd9bb4b6f11f1e"
+    },
+    {
+      "path": "Tools/Integration/ue_player_aim_live.py",
+      "sha256_lf": "cfa597f938c87d7d1bb219fc19cd479c8af72a355de5da9938b3db3197ff7c9e"
+    },
+    {
+      "path": "Tools/Integration/ue_player_aim_runtime_preview.py",
+      "sha256_lf": "d2ab72efbf806507f0abb841edde99706b9467c78c5365ebe4b1d03a0d775765"
+    },
+    {
+      "path": "Tools/Integration/ue_player_aim_test_control.py",
+      "sha256_lf": "937b651b6ad68e949b95d5dab8ca172830d0e195d731a620b29099eb7b25860d"
+    },
+    {
+      "path": "Tools/Integration/ue_player_aim_tune.py",
+      "sha256_lf": "aec4b204cca561c65b9ee4a359748d219118ecbcb2862b9d31b5f94a2cab4373"
+    },
+    {
+      "path": "Tools/Integration/ue_player_rifle_aim_author.py",
+      "sha256_lf": "e0609832037dcab39aaee252182a9fa6feb0f23c153443ab5a572355855b4aba"
+    },
+    {
+      "path": "Tools/Integration/ue_player_rigid_aim_author.py",
+      "sha256_lf": "d1571341791b0e4e8de2f9403a2ea82a3af6afdcbe5d236ec615a531bae81f61"
+    },
+    {
+      "path": "Tools/Integration/ue_playtest_release_audit.py",
+      "sha256_lf": "c72c7514f5584c29dd97b41c6c47173b02b2bbfd3bc885bef2b5921e4a72faaf"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_approved_v4_author.py",
+      "sha256_lf": "0418271ca9fe465a0794586a6264cef67805f64ef921f750ef5d1fec4c2c7910"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_approved_v4_visual.py",
+      "sha256_lf": "5d346a9fcc6f17e2a3df171213137236f0d9c059023cb63aee724d81c7d3e640"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_asset_human_preview.py",
+      "sha256_lf": "405b3d0a8e62b7ba8110e06fd0f0be5016bb4c63c42fb358d3efd0182d671d50"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_binding_human_review.py",
+      "sha256_lf": "92b2bb877a0408ef2b66abe2ee004f771dde6d882626d984ba7a805d853b120b"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_contact_fit_v3.py",
+      "sha256_lf": "e90620efadfb48927e52718254eae94154d6d43c6b90054da6b07e76620c4ae1"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_contact_probe_v3.py",
+      "sha256_lf": "0c8f600a93a64f69b75fa3ad4792c838a3f9a09bda8936df82a71e66d13fee64"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_contact_review_v3.py",
+      "sha256_lf": "e43e006582f80d9776e88b03f7132d2190470fd2c0cc2876788bc9a0e121eb6d"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_game_binding_v3.py",
+      "sha256_lf": "bc894d5deda7e839f79484d3aecdc8e05959b301d0323a4e81013b3b5340e03e"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_gun_preview_attach.py",
+      "sha256_lf": "357c40d1b1170d36fc078eece6fe6f9bf7f3dd516d6546c63481645e7378203c"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_gun_preview_probe.py",
+      "sha256_lf": "900b6751f443eefed8dc73af44a940ba825f92b781f08f7fcfa90060006c6955"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_pose_review.py",
+      "sha256_lf": "cb7badf96d0a165b1b5f46ad3a4dd2b36d33b1ba35d6ed0c34ac76297edf3c44"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_sleeve_binding_probe.py",
+      "sha256_lf": "5935fec48fb3cdc3a9f501d2ebd9186681f7a23220fda539f3c6e266e0341fb3"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_sleeve_diagnose.py",
+      "sha256_lf": "23f97df54a17f03ffa1517da61f94f03e89d6794f8a3214d395e2b5960accf8b"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_sleeve_edge_audit.py",
+      "sha256_lf": "0414fe187c7b07fdbf4ce22ed842800528f7ef6c978536eda60fe085c4c12c9a"
+    },
+    {
+      "path": "Tools/Integration/ue_reload_sleeve_skin_probe.py",
+      "sha256_lf": "db7c1c7f7a812bb14dfd4b6439f7c6b5368eb992d168f42f9dce3bac6d3b3ab3"
+    },
+    {
+      "path": "Tools/Integration/ue_retarget_diagnose.py",
+      "sha256_lf": "b9e75a7f71a92ee10877fd322324e1df7bc0a8f049b33ded222822ad787c72f6"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_action_attachment_author.py",
+      "sha256_lf": "f65f822ad65273ff945faff6cd7e6042ee5a6e5ba5049a04d6d943868eb2afa7"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_action_attachment_city.py",
+      "sha256_lf": "6b73eec862107be2c090484edb8286b314f6d91d982a9fc6ff01128bb9faa031"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_action_attachment_live.py",
+      "sha256_lf": "5f81e6830b88251d5401a7240e65ed0af43625c02ee7dd51b59dd8de060676d5"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_action_attachment_probe.py",
+      "sha256_lf": "7f5179c5f721da24b1e8264b65b2835aa6453377bc4b81c4dbad9c611e10c409"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_action_bindings_repair.py",
+      "sha256_lf": "4ee05b82bfb39b6e2483af700402c8778c7cfdd466fd226c3cd5392d4003992f"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_crosshair_probe.py",
+      "sha256_lf": "289ffcf737b13c672257f753cd9e16116ff56262ef83e89fdf1378780a0819ac"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_grip_anim_layer.py",
+      "sha256_lf": "e04b09ac7eb483e020847af9be50a0c156676a588bcd6e130edeb54be33ff30f"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_grip_city_author.py",
+      "sha256_lf": "86de41ff9f815df0cb8a44bb3bbef59c9adcd015aa688786a57664f73a4051c0"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_grip_repair.py",
+      "sha256_lf": "c6dfdec14bb508ff45cbc6a83264a6940f881b2096db000ba0608360f7c9947b"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_transform_only_author.py",
+      "sha256_lf": "f4404778eb94c46b94e7755b7d7a741be717cd53b0e2cbbbe9d00df51a05e25a"
+    },
+    {
+      "path": "Tools/Integration/ue_rifle_transform_only_probe.py",
+      "sha256_lf": "13323e49434616ebd3eda4b82af8834020367001fee57ef880789e42f67e3dec"
+    },
+    {
+      "path": "Tools/Integration/ue_simplified_reload.py",
+      "sha256_lf": "4b57e324a212000b355295aadc54d9f6494cf8d0862ff0f7c01612a7d38520e2"
+    },
+    {
+      "path": "Tools/Integration/ue_stride_author.py",
+      "sha256_lf": "18389dfe8b3b61c3180b97579109d5cdfefc270581729d5dee89ee7f9e295ca8"
+    },
+    {
+      "path": "Tools/Integration/ue_translation_compare.py",
+      "sha256_lf": "26a1c764ef72c40d341d46fc7c771497d0c824395b9d62f97edbbda1e921f2f9"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_audit.py",
+      "sha256_lf": "93ffbce50b25cf12dfcd4ddc77585c9b818a79c1a5b928ab454906c4a42a04f8"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_author.py",
+      "sha256_lf": "588f481abc0ce9037b6790739f026fec04611d5d92e25e242dcf45eb76dd7d03"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_probe.py",
+      "sha256_lf": "18c1cca39701dc94b44be29331da56b320a6f709735525ec7269ec45f406d4d5"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_retarget.py",
+      "sha256_lf": "799070aa7761f4348176755f5e8a8e7eb6828f13414491e9e21736b7e1da9018"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_review.py",
+      "sha256_lf": "c89d8d71398703b9107659c598c92df0a45f4ce76e1d1f06e0dd50450496ac68"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_stage.py",
+      "sha256_lf": "3b04fc9e89542e2400e2086bcc1346cccb8c8b3b6b7699be11a6cba822be7cf0"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_animation_test.py",
+      "sha256_lf": "6465e3b21884e63a8750f6123ee106a3541b6f18b443a4842ec1bc4f19caf92c"
+    },
+    {
+      "path": "Tools/Integration/ue_weapon_capability_audit.py",
+      "sha256_lf": "003d368b0c4a44a2ee77dfd9f8fb6c4f7dd1626d1c9c938bddc810603bd50d52"
+    },
+    {
+      "path": "Tools/Integration/validate_german_rifle_review.py",
+      "sha256_lf": "d4ea2e99ab925d3950d61c95436646a2bd10427de89ecaa1b598e8f9cf6be6e3"
+    },
+    {
+      "path": "Tools/Integration/verify_reload_workspace.py",
+      "sha256_lf": "47501c1726ae9021b48313369b7324ea9197d774394653887819904d3b36c2a9"
+    },
+    {
+      "path": "Tools/Integration/verify_runtime_storage.py",
+      "sha256_lf": "22b9f71088d183dcfc0172ed552d33cee3b00c5d88a87a8345a3d16cffd7cb42"
+    },
+    {
+      "path": "Tools/Integration/verify_team_source.py",
+      "sha256_lf": "e68244acd6b43274744b9b942af084235f7460cb5e3dc773b0500e3c1cc4326e"
+    },
+    {
+      "path": "Tools/Integration/weapon_animation_reuse_common.py",
+      "sha256_lf": "66ef218bf571a21dca30c86f3da1d6f57268342674891801b78eaea7b055a2a5"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Config/DefaultEditor.ini",
+      "sha256_lf": "93e2a86f768d743f483c7d5746dda10dffa7d12dea3ed2abf9d5a3362e807d36"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Config/DefaultEngine.ini",
+      "sha256_lf": "528eb6f0f0dd634fe14ef2ad17e687e8ef0740e03cf7e6d073576877cd5ccbd3"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Config/DefaultGame.ini",
+      "sha256_lf": "5f1d1b82907dcbcc7a1bde9fcd5d399545e4a24a49039bc40caecca2b47841c1"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Config/DefaultInput.ini",
+      "sha256_lf": "3a88da46de904a6477c4a3dcaa32cc7f2101e55c857156117695471f7c65ebcf"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisBridgeMissionV1/Config/FilterPlugin.ini",
+      "sha256_lf": "266ea37f9ab51887ab2eada839386009e2ec8e43f750646959e922152e2e01f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisBridgeMissionV1/ParisBridgeMissionV1.uplugin",
+      "sha256_lf": "388d5400e0eb1a33cbb5f14e357335af47d7094205da3e88a9ee5f0cb40e356e"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/ParisBridgeMissionV1.Build.cs",
+      "sha256_lf": "6efe6d3914453618e57b9168efa89b7ad7bb2731d0221c2af61498e311616cab"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMission.cpp",
+      "sha256_lf": "443b9aef8af126ed5a1580edf6482ba939baddfd5017022f47d261f62e43e29f"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMissionV1.cpp",
+      "sha256_lf": "de028874422e8be349f2814a62fe63dcf1f03eb0a188bf84d961cbee29e5c8b8"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Public/ParisBridgeMission.h",
+      "sha256_lf": "25241e625b3d3cd0363ee37d8e8192c438df9ffbbee130f8648e2ddeb6d03cdf"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Config/FilterPlugin.ini",
+      "sha256_lf": "266ea37f9ab51887ab2eada839386009e2ec8e43f750646959e922152e2e01f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/ParisEditorBridge.uplugin",
+      "sha256_lf": "6eb94c41bda24c77688809e9071d26926c74d4211da1a476caf27a9ea99695fd"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/ParisEditorBridge.Build.cs",
+      "sha256_lf": "ac062f44006b3e652b83d54222c179e698c2d172061981eea6dfb10fd82eb769"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Private/ParisBlueprintAuthoring.cpp",
+      "sha256_lf": "1fdeb78d4a30f1f198d282d11c312b247206d0782f3afea8acc6f95e2482eedf"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Private/ParisReloadDraft.inl",
+      "sha256_lf": "db2771cca5629e9df9c1d947012ed4a84e6878a4936601faab37dc1840bcc0aa"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Private/ParisWidgetAuthoring.cpp",
+      "sha256_lf": "fbac9f384a080c193c60aec1710ca0224f0af81cb0d981d9dda692160bbe88ae"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisEditorBridge/Source/ParisEditorBridge/Public/ParisBlueprintAuthoring.h",
+      "sha256_lf": "68ff43fdb52880ece98d4d7891a074927d605c5bba4a5abccc74ca5265fa30c7"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisFormalSurveyV1/Config/FilterPlugin.ini",
+      "sha256_lf": "266ea37f9ab51887ab2eada839386009e2ec8e43f750646959e922152e2e01f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisFormalSurveyV1/ParisFormalSurveyV1.uplugin",
+      "sha256_lf": "b218244b650b7e8f381633c1a77d9f54eb262b61bb69747335183b88c024444b"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisFormalSurveyV1/Source/ParisFormalSurveyV1/ParisFormalSurveyV1.Build.cs",
+      "sha256_lf": "3dd09297be78c23239440828091933292bdd4ffdd101b552c60c549222a2a569"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisFormalSurveyV1/Source/ParisFormalSurveyV1/Private/ParisFormalSurveyLibrary.cpp",
+      "sha256_lf": "6af5b3b4010a6994d0334e03d0ef2afc08bedd2f35d2bf17a7c04485547a975d"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisFormalSurveyV1/Source/ParisFormalSurveyV1/Public/ParisFormalSurveyLibrary.h",
+      "sha256_lf": "30636d7576183ff5eb35543954407e11005112e7343b5f842ecc8fdf612fc731"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGridSurveyV1/Config/FilterPlugin.ini",
+      "sha256_lf": "266ea37f9ab51887ab2eada839386009e2ec8e43f750646959e922152e2e01f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGridSurveyV1/ParisGridSurveyV1.uplugin",
+      "sha256_lf": "313c8aca8c144ddc7dd458178a87301a85f85f1342776e090d9dfaaafa50fe66"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGridSurveyV1/Source/ParisGridSurveyV1/ParisGridSurveyV1.Build.cs",
+      "sha256_lf": "67fb902556ce22dafbb360cc6055c938481e71ce52b241b3c25449a60f39d138"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGridSurveyV1/Source/ParisGridSurveyV1/Private/ParisGridSurveyLibrary.cpp",
+      "sha256_lf": "c789bcc4b0b42e3d952dba806624f8488238798939fd11dcdd7e0c66c9eac2fd"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGridSurveyV1/Source/ParisGridSurveyV1/Public/ParisGridSurveyLibrary.h",
+      "sha256_lf": "8ea0aba4eee4ca5716bfae1df575b29313040bc1708124d37d465e4ad6af6d61"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Config/FilterPlugin.ini",
+      "sha256_lf": "266ea37f9ab51887ab2eada839386009e2ec8e43f750646959e922152e2e01f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/ParisGripBindingV18.uplugin",
+      "sha256_lf": "7ec51f177c038a54b624f979b239a082d60fbe3ceab2cf85526e4c8f5f594dc5"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/README.md",
+      "sha256_lf": "139db2d4bb604c0427ea7692e699c3c61890e0fed2872ecddc58846945a47551"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/ParisGripBindingV18.Build.cs",
+      "sha256_lf": "9f6c94ff4b6959cdeaaa5cf91ea96c92ca474c473c7819c25c404f715047d937"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisFPUpperBodyV19Actor.cpp",
+      "sha256_lf": "47d7ef9eb402dd1740999b853cc6d9145b60ded1cb7266d81efd9b19b84d90a7"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisFirstPersonApprovedActor.cpp",
+      "sha256_lf": "76b8b145238557f00a0862aee626c3db29680040776672ceeca7165fcdc598bd"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGripBindingV18.cpp",
+      "sha256_lf": "859be4005e69a9b44e0ca7a072239d3bf2e3ac4d100faf0c4a709823db820b82"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGripV18Actor.cpp",
+      "sha256_lf": "bbfceff033bd057f1c1a08468e9ab101e40d45f7d52100dbdd1f03720c4efe5b"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisExistingRecoil.h",
+      "sha256_lf": "060750b6da8591020451058ca3085e4997a6a47afb57daa64e49ed6ed44f9036"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisFPUpperBodyV19Actor.h",
+      "sha256_lf": "67de0a63946edd99337c28d3c9aa6ab0bb483a979e4f05e81fd181f587dd2f06"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisFirstPersonApprovedActor.h",
+      "sha256_lf": "bcc7146e2a8b94cd5b341d1c237d02c4aca8aac8640ce25da024690fb37498b8"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisGripV18Actor.h",
+      "sha256_lf": "e7587f0755957c8dc959138b25b138da04d5e1c771a29dbbbd7bbbe79775d1dd"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMapSurveyV1/Config/FilterPlugin.ini",
+      "sha256_lf": "266ea37f9ab51887ab2eada839386009e2ec8e43f750646959e922152e2e01f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMapSurveyV1/ParisMapSurveyV1.uplugin",
+      "sha256_lf": "463c7523c900cddbcc699d920c57e9c25bf826a0f5748b5c4a4f820c60d58e9c"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMapSurveyV1/Source/ParisMapSurveyV1/ParisMapSurveyV1.Build.cs",
+      "sha256_lf": "de5b1c4b058d3a10e7a312e6ac0b89f01ebf7dd21b00cedac3d49791eafe8c2d"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMapSurveyV1/Source/ParisMapSurveyV1/Private/ParisMapSurveyLibrary.cpp",
+      "sha256_lf": "470a4aec02f36c06407ab627a3960fd7e3b7363d48947e80c3fc6ff78e1fe1a7"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMapSurveyV1/Source/ParisMapSurveyV1/Public/ParisMapSurveyLibrary.h",
+      "sha256_lf": "19d23cfbe01c66ceb085cd9a36c5106e38ab53e767ee59de446935c5d54145f3"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMuzzleFlashV1/Config/FilterPlugin.ini",
+      "sha256_lf": "fc7f995fa3ebf4ad93810203503e0cf564f3a63c1baad593d011ab58c2fff481"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMuzzleFlashV1/ParisMuzzleFlashV1.uplugin",
+      "sha256_lf": "f1b2193e08477e0f7330e5151a2225c0384d6835c2d8625531b1d9851094e4f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/ParisMuzzleFlashV1.Build.cs",
+      "sha256_lf": "071b96c3e071fe08616ef622bfb22a6a55da262a4232d63486633b0fa01637b6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "sha256_lf": "3d511b607636a1bee9a56222d4e700c462ae8ae858eee7c10b726a2f7b6c3c1c"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Public/ParisMuzzleFlashV1.h",
+      "sha256_lf": "a6d97e8c3efef276b227bf66ec53bc33c65fc1d406d71805e516225c9fab0888"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Config/FilterPlugin.ini",
+      "sha256_lf": "266ea37f9ab51887ab2eada839386009e2ec8e43f750646959e922152e2e01f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/ParisNPCGripV15.uplugin",
+      "sha256_lf": "955ba4f4c721dbf4810c447c6e10a3b18badaef033caf424f1614603eac3ba23"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/README.md",
+      "sha256_lf": "024b99d3fd2a2bc705fc27c063cc5ce80dea43905381b46f35d8e964deb1c1b7"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/ParisNPCGripV15.Build.cs",
+      "sha256_lf": "a62e91aa689cd38aadb86a26d9e57df45a615f6506282961d9df0c2e23b66185"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisAlliedGripPolicy.cpp",
+      "sha256_lf": "b51744d6ca6a1b9e75135cca24b5ed8504e007de0f3fbe3e526a48962262de76"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisGermanGripPolicy.cpp",
+      "sha256_lf": "193914d42c6311ddd750bb7fa6351d600669a1f2c96ec507f34deef4d17424cc"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "sha256_lf": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisAlliedGripPolicy.h",
+      "sha256_lf": "5807c125592bcdcbe8a2dc1cee79f24f1f374ed04e4158abfdd1650f3f31e43f"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisExistingRecoil.h",
+      "sha256_lf": "060750b6da8591020451058ca3085e4997a6a47afb57daa64e49ed6ed44f9036"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisGermanGripPolicy.h",
+      "sha256_lf": "0c259f4ebaa5486313dad11516ad2d778e8adde93ddccf824332875f9aaf5426"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisNPCGripV15.h",
+      "sha256_lf": "06483faeda668948b666f4d19b8f5b575e0ec76f7e27bcccaaf1827d08d74e1a"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/ParisNPCGripV15Editor.Build.cs",
+      "sha256_lf": "a8ddee528e40f38ff83ee7d6837d9e01932a640d4a80a260d1ccc9387a8d3bf9"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Private/ParisNPCGripV15Editor.cpp",
+      "sha256_lf": "9887efd4e664250afb35f39ccf539b97209696c96a2a58020bf227b57f17ae50"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Public/ParisNPCGripV15Editor.h",
+      "sha256_lf": "b0565183679bdee27f0d6dfe0e094da41865ecb39df0b0d927de2e723850d677"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNavDiagnosticsV1/Config/FilterPlugin.ini",
+      "sha256_lf": "266ea37f9ab51887ab2eada839386009e2ec8e43f750646959e922152e2e01f6"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNavDiagnosticsV1/ParisNavDiagnosticsV1.uplugin",
+      "sha256_lf": "6592b7e08ad0129069b828fc0f4bb6a1bf7cc4711ad9c664f22343f5b5d14543"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNavDiagnosticsV1/Source/ParisNavDiagnosticsV1/ParisNavDiagnosticsV1.Build.cs",
+      "sha256_lf": "a880cb317e62173c9767f55110decf43ff1dd70ec60ebb42f7b273cd01046c9e"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNavDiagnosticsV1/Source/ParisNavDiagnosticsV1/Private/ParisNavDiagnosticsLibrary.cpp",
+      "sha256_lf": "e387fc4e458aa990b7fba7ae8eb38398afa4b1a43107a1f832cab6ed1837366b"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/Plugins/ParisNavDiagnosticsV1/Source/ParisNavDiagnosticsV1/Public/ParisNavDiagnosticsLibrary.h",
+      "sha256_lf": "c3ae48fa7d855081c7e1c3dacac3e2ff45a7bfed119e8730cde35fa4194c1024"
+    },
+    {
+      "path": "Unreal/ParisStreetCombat/WW2FranceLiberation.uproject",
+      "sha256_lf": "449b0c4ffb8de28112d9de7ca39c368750e0e13f53072aba748e01bc7120a3ae"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ apply refuses existing different files unless --backup-conflicts is explicit.
 """
 import argparse
 import hashlib
+import importlib.util
 import json
 import os
 import shutil
@@ -58,6 +59,15 @@ def entries():
         manifest = read(p)
         if manifest['asset_version'] != release['asset_version'] or manifest['asset_id'] != aid:
             raise RuntimeError('Manifest identity differs')
+        if manifest.get('source_contract'):
+            contract = manifest['source_contract']
+            if sha(safe_path(contract['path'])) != contract['sha256']:
+                raise RuntimeError('Update Git: selected source contract differs')
+            spec = importlib.util.spec_from_file_location('team_source_check', ROOT / 'Tools/Integration/verify_team_source.py')
+            module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(module)
+            if module.verify_source()['asset_version'] != manifest['asset_version']:
+                raise RuntimeError('Source/asset versions differ')
         selected.append({k: release[k] for k in ('asset_id', 'asset_version', 'sha256')})
         for e in manifest['files']:
             if e['path'] in seen:

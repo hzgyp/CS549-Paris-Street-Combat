@@ -1,5 +1,17 @@
 # Asset sharing records
 
+## Purchased muzzle-flash package
+
+On 8 October 2026, for the requested unified teammate release, Yupu Guo explicitly
+confirms that MsvFx_MuzzleFlash_Pack permits the project's three members to share
+original and modified files privately. This is the owner's team-sharing
+attestation, not an independent receipt or full-license review. Permitted
+recipients: Yupu Guo, Yuqi Pu and Jingdi Wu for this CS549 project through private
+SFTP. Publish only the selected 25-package effect dependency closure and the
+team-authored saved profile, preserving the unchanged purchased intake.
+Public commercial asset bytes, unrelated recipients and external build rights
+are not authorized by this record.
+
 ## German rifle model (MW2-derived)
 
 On4October2026 Yupu Guo accepts GermanRifle_FineWood_V15 modeling and requests

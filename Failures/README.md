@@ -10,18 +10,6 @@ New fixture mechanisms keep the same physical/resource/save thresholds and origi
 Walkable white does not establish a usable rendered spawn: old S sits within a visible residence proxy.
 Preserve physical proofs; exclude this staging and visually admit the separate measured near-bank proposal.
 
-7 October枪口特效准备：[AN010 已购特效引用与独立插件编译](AN010-20261007-purchased-muzzle-vfx/FAILURE_ANALYSIS.md)。
-包内序列化名称不等于硬依赖；首轮过严扫描停止，第二轮记录两个未分类名称，
-原生注册/加载/编译仍必测。独立插件UHT缺Category失败保留，不同v2补元数据后
-编译通过，但不是特效运行或主工程启用证明。68收货文件和当前703项受保护。
-原生漏复制已有编号mesh、NullRHI就绪失败、真实渲染编译中提前断言均保留；
-不同v4最终四系统valid/ready通过。默认01运行8秒仍不结束，独立发射失败且
-早期4黑图/后期1火焰已检查。后续01脉冲complete但三图全黑，清理Object参数
-错误保留；不同入口排除01只测未运行02–04，修正清理成功/原生complete通过，
-九图仍全黑，视觉复核失败。四套默认脉冲停止，不扫时长/不warmup/不强制完成。
-只读默认SpawnRate5/秒是可能原因而非完整诊断；运行实例参数适配需用户决定。
-原件及703保护不变，正式工程未启用。
-
 7 October standard UE navigation control: [ML020](ML020-20261007-saved-nav-coverage/ANALYSIS.md).
 Saved navigation admission differs from unsaved expanded physical traversal; preserve all raw negatives/scopes.
 
@@ -94,6 +82,18 @@ failed; static finite completion is not dynamic-vehicle or whole-map acceptance.
 Vertex-average center differed from detailed surface by about50cm. Owned4528
 normal exit0/log0/703 exact;7,311 historical records are not a corrected full survey.
 Use an exact-poly grounded sample and a separate standing calibration before a new schedule.
+
+7 October枪口特效准备：[AN010 已购特效引用与独立插件编译](AN010-20261007-purchased-muzzle-vfx/FAILURE_ANALYSIS.md)。
+包内序列化名称不等于硬依赖；首轮过严扫描停止，第二轮记录两个未分类名称，
+原生注册/加载/编译仍必测。独立插件UHT缺Category失败保留，不同v2补元数据后
+编译通过，但不是特效运行或主工程启用证明。68收货文件和当前703项受保护。
+原生漏复制已有编号mesh、NullRHI就绪失败、真实渲染编译中提前断言均保留；
+不同v4最终四系统valid/ready通过。默认01运行8秒仍不结束，独立发射失败且
+早期4黑图/后期1火焰已检查。后续01脉冲complete但三图全黑，清理Object参数
+错误保留；不同入口排除01只测未运行02–04，修正清理成功/原生complete通过，
+九图仍全黑，视觉复核失败。四套默认脉冲停止，不扫时长/不warmup/不强制完成。
+只读默认SpawnRate5/秒是可能原因而非完整诊断；运行实例参数适配需用户决定。
+原件及703保护不变，正式工程未启用。
 
 7 October pure-map native isolation: [ML005](ML005-20261007-pure-map-native-isolation/FAILURE_ANALYSIS.md).
 Native FP bootstrap escaped Character/Blueprint/GripPolicy filters; broad log errors

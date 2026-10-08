@@ -1,5 +1,27 @@
 # Paris Street Combat - new-session handoff
 
+**Unified teammate source/native release — 8 October:**
+User requests current source/assets synchronized; teammate runtime verification
+delegated to teammates. Read TEAM_SYNC_IMPLEMENTATION/RESULT_20261008 and
+TEAM_PLAYTEST, with synchronized Chinese reviews. Catalog now selects private
+paris-native-playtest-20261008-g1-npc-vfx-v1:359files/655952112bytes,
+69uploaded25154798bytes/290reused, all359objects+manifest authenticated pinned
+SFTP size/SHA readback;CRUD/rootACL pass. Both current formal Paris and G1 map,
+native NPC combat/recoil/muzzle and original approved models/grips/actions are
+included.15,580-package read-only UE closure has0hard missing/same5vendor soft
+gaps/exit0/no logged errors; no native resave. Source contract covers758files,
+normal CRLF checkout supported. Explicit TeamSyncV1/AUTHORIZED_CATALOG_20261008
+advances ONLY Catalog guard; preserve historical snapshots, map/DLL authorizations
+and failure evidence. Current user separately confirms private three-member
+sharing of MsvFx_MuzzleFlash_Pack; RIGHTS records this attestation.
+Matching pending NPC source/docs and unified restore/launch guides are included
+in this publication. Default checked launcher opens G1; -Entry Formal retains
+formal map; -DisablePython and no ParisEditorBridge. No new gameplay acceptance,
+source-model fitting, cache/save transfer or external connectivity retest.
+Second-machine restoration/runtime remains assigned to teammates, not passed.
+Old source-only/unpublished-Catalog checkpoints below are historical where this
+release supersedes them. Verify remote main before claiming Git push success.
+
 **G1 local functional version / bounded checks PASS — 8 October:**
 User requests documentation first, then development of C crossing/G1 capture
 and working save/load. Read MissionLoopV1/G1_MIDTERM_IMPLEMENTATION_20261008,
@@ -45,29 +67,6 @@ selected Catalog is unchanged, so this is a source checkpoint rather than a
 new teammate-restorable asset release. Verify remote main before reporting push.
 No unassisted complete human
 playthrough/FPS/stress/Shipping/video/PDF/second-machine/course acceptance.
-
-**Latest MuzzleFlashV1 local formal integration COMPLETE — 8 October17:56 UTC:**
-User-approved quarter-size purchased rifle muzzle flash is installed locally.
-Read paired MuzzleFlashV1/MUZZLE_FLASH_FORMAL_RESULT_20261008 and asset usage.
-Independent formal_transactions_v1_20261008 owned51244 exits0/strict0/no timeout,
-end-phase81.187s/84final checks pass; saved native DA autoload/private Configure0/
-no EnablePlugins override.20 original PC_RequestFire commits/three6started-2true
-completed-4cancelled/live0/missed0/timedout0, original Ally2two actually live
-effects, native outside-world weak2→0 and new export-frame barrier pass. All39
-new unedited originals individually viewed, clear FP06/Ally20/German32, separate
-visual review/audit PASS; no old images borrowed. Prior Transientv7/SaveFresh2/
-Fresh2 each pass their respective gates.29 exact new installed files, one enable
-row/proof/ledger/narrow common.py guard-reader hook.703current rows advance only
-descriptor; other702/map/recoil,68originals/25deps/4buildSourceConfig exact.
-Existing Content parent junction supplies both exact child bindings; copy-stage
-failure/frozen source/backup retained, no recopy/new child junction/delete. Do not
-rewrite install proof's historical fresh_formal_runtime_passed:false; later
-Formal audit proves completion. Final35offline+4sharedguard tests pass. Owned
-engine closed/final actual native-launcher-build inventory empty; same-thread
-heartbeat PAUSED after completion, no further automatic engine work. No approved
-character/grip/recoil/AI/gameplay/formal-map edit or Git/SFTP/Catalog publication.
-Destructive-equipment grip safety, ordinary manual/no-Python startup, whole-city/
-near-wall visibility, FPS/Shipping/teammate/MVP/course remain unpassed.
 
 **User-authorized map and mission source publication scope — 8 October:**
 This increment carries the Paris survey/native-navigation tools and Editor-only
@@ -184,6 +183,260 @@ Full previous1m failure footprint remains16fine cells black/15city nodes exclude
 Inspect actual ownership before another UE entry; no further native task runs in this lane.
 No role movement, formal layout, map/nav save, model/fingers/weapons/AI edit or publication.
 New private Evidence/FineMapGridV1 is separate from every coarse/bridge failure identity.
+
+**Latest MuzzleFlashV1 local formal integration COMPLETE — 8 October17:56 UTC:**
+User-approved quarter-size purchased rifle muzzle flash is installed locally.
+Read paired MuzzleFlashV1/MUZZLE_FLASH_FORMAL_RESULT_20261008 and asset usage.
+Independent formal_transactions_v1_20261008 owned51244 exits0/strict0/no timeout,
+end-phase81.187s/84final checks pass; saved native DA autoload/private Configure0/
+no EnablePlugins override.20 original PC_RequestFire commits/three6started-2true
+completed-4cancelled/live0/missed0/timedout0, original Ally2two actually live
+effects, native outside-world weak2→0 and new export-frame barrier pass. All39
+new unedited originals individually viewed, clear FP06/Ally20/German32, separate
+visual review/audit PASS; no old images borrowed. Prior Transientv7/SaveFresh2/
+Fresh2 each pass their respective gates.29 exact new installed files, one enable
+row/proof/ledger/narrow common.py guard-reader hook.703current rows advance only
+descriptor; other702/map/recoil,68originals/25deps/4buildSourceConfig exact.
+Existing Content parent junction supplies both exact child bindings; copy-stage
+failure/frozen source/backup retained, no recopy/new child junction/delete. Do not
+rewrite install proof's historical fresh_formal_runtime_passed:false; later
+Formal audit proves completion. Final35offline+4sharedguard tests pass. Owned
+engine closed/final actual native-launcher-build inventory empty; same-thread
+heartbeat PAUSED after completion, no further automatic engine work. No approved
+character/grip/recoil/AI/gameplay/formal-map edit or Git/SFTP/Catalog publication.
+Destructive-equipment grip safety, ordinary manual/no-Python startup, whole-city/
+near-wall visibility, FPS/Shipping/teammate/MVP/course remain unpassed.
+
+**Historical MuzzleFlashV1 formal-integration chronology (superseded) — 8 October:**
+User approves the two smaller originals and requests formal local synchronization.
+Read paired MUZZLE_FLASH_FORMAL_20261008 and latest checkpoint/AN010. Separate
+size_approval_v1 authenticates old receipts without rewriting pending flags.
+transactions_v1 stops before shots at unavailable internal Python subsystem API;
+smoke1/2 retain dead-wrapper observer failures. Different native_formal_v10b strict
+build and api_smoke_v3 pass public getter/owner-aware capture/native weak-ref
+teardown,27580 exit0/strict0/no timeout. Smoke has ZERO shots/effects, not firing
+acceptance. Runtime pulse/transaction rules remain v7; only diagnostics added.
+703guards/68originals/25private copies exact,24offline checks pass. Formal profile,
+assets/binaries/enable row NOT installed; local copy/proof tools and one-path guard
+helper prepared but unapplied. Next unoccupied transactions_v2 requires actual
+slot inventory; preserve G1 author/ready owners/no second engine. Then original
+3-role real transactions/39 reviewed originals, save-only/native Fresh, narrow
+exact local installation and Formal fresh regression. No character/grip/recoil/
+AI/ammo/damage/nav/formal-map edit or Git/SFTP/Catalog publication.
+Later transactions_v2 also stops before firing:01 stays compiling/invalid/not-ready
+through15s PIE gate,22456 exit0/strict0/no timeout/703/68/25 exact. Different v3
+checks explicit compile/final readiness in Entry, unregisters callback before city
+load, same bounds/gates. Next unoccupied identity transactions_v3;30offline tests
+pass. Preserve actual G1 engine/launcher; no competing engine or formal write.
+User subsequently selects “后台等待，空闲后继续”. Existing same-thread heartbeat
+automation is ACTIVE, superseding only the old monitoring pause. Owned waiting
+launcher34112 was stopped before native launch/identity occupation, wrapper48888
+exited; no foreign process was stopped. Last foreign functional_v2 engine16912/
+launcher40408 has since closed; inspect actual ownership before each new entry.
+Formal assets remain NOT installed. Finish or genuinely required user decision
+ends this follow-up; unchanged busy state requires no repeated report.
+The slot then became free and transactions_v3_20261008 ran, but now FAILED:3roles
+each6started/2completed/4cancelled, two accepted-grip strict errors after NPC gun
+destruction; extra post-export Allied commit stale.41276 exit0/no timeout/log2,
+703/68/25 exact. Actual inspected originals show flame in all3 roles, not all39
+reviewed/native admitted. Preserve v3/no rerun/no formal enable. Read new paired
+formal-plan addendum/AN010. Different v11 source availability + v4 hidden/restored
+display fixture avoid destroying accepted equipment; destructive negative remains.
+Post-export distinct world-frame barrier precedes fresh final commits, unchanged
+stale/lifetime/time gates. New private intake_formal_v4 has25exact. Strict v11
+build and30offline checks now PASS. transactions_v4 owned19092 exits0/strict0/
+no timeout,20 real commits: each representative6started/2completed/4cancelled/
+live0/missed0/timedout0 plus original Ally2started/2live. Native weak-probe2valid
+before world end→0 afterward; fresh-frame barrier/703/68/25 exact. All39 originals
+actually viewed; Allied14–16/German27 clear flame but FP01 only tiny orange rim,
+weapon strongly saturated. Separate visual review rejects FP/whole admission;
+raw native success immutable. No profile/save/install/enable. Read paired latest
+MUZZLE_FLASH_FORMAL_RESULT and formal-plan addenda/AN010. v5 is now OCCUPIED/
+FAILED:18048exit0/strict0/no timeout, Player/Ally6/2/4/live0/missed0/timedout0,
+German second original commit sequence2/ammo0/16 rejected stale/missed1 before
+PNG export.39originals retained;13FP images actually viewed,03 clear compact
+flame without added FP light; other26 not yet reviewed. No continuous/nonempty
+cleanup or whole visual admission;703/68/25 exact/no save/install. New different
+v12 diagnostic pre-actor native dispatcher calls only original PC_RequestFire,
+weak world/target refs/unregister-before-dispatch, actual time/frame/deltas. No
+combat-state/effect write; runtime observer/stale0.25/pulse/profile/camera/light/
+cadence/caps unchanged. Plan's early/stop gates require strict new v12 build,
+intake_formal_v5 exact25/703/68/offline, then only unoccupied transactions_v6.
+Strictv12build exits0/32offlinepass/intake5exact25/24,770,390bytes/703/68exact.
+transactions_v6 own17052 now exits0/strict0/no timeout,20realcommits in191.203s;
+3roles6/2/4/live0/missed0/timedout0 plus original Ally2live2.32native batches/
+35requests/3original cooldown pairs[1,0], export-frame barrier/native weak2→0 pass.
+All39 v6 unedited originals actually viewed; clear Player03/Ally14/German27–29.
+Independent visual review/runtime audit PASS,703/68/25 exact, no old image reuse.
+New save_profile_v1_20261008 SaveFresh own48156 exits0/strict0/no timeout,
+Previous=v6/private DA save/readback exact, not transaction proof.
+fresh_profile_v1_20261008 own38980 exits0/strict0/no timeout, autoload Configure0,
+143.734s/20commits/three6-2-4/native2→0 PASS. All39 new originals actually viewed,
+Allied14–15/German27–28 clear but FP01 only tiny highlights; separate review
+rejects FP/whole admission. No audit admission/install. Never replay Fresh1 or
+borrow v6 FP03. Read paired-plan Native deferred observation correction/AN010:
+different v13 diagnostic only, one normal deferred render per native post-actor
+frame after first actual live pulse,12unique targets/role/39total. No runtime/
+pulse/age guard/profile/camera/light/cadence/cap change or manual simulation.
+New intake6exact25/24,770,390bytes/703/68/build source exact; strict
+native_formal_v13 build exits0/current35offlinepass. New transactions_v7 own41348
+exits0/strict0/no timeout/finalprogress194.453s,20commits/three6-2-4/live0/missed0/
+timedout0/original Ally2live2/native weak2→0. Each role12 native ordered deferred
+frames and unregister pass. All39new originals actually viewed, FP04–05/Ally17/
+German29–30 clear; independent visual review/audit PASS, no old images borrowed.
+SaveFresh2 own31244 exits0/strict0, Previous=v7/candidate6 DA save/readback exact.
+Fresh2 own27716 exits0/strict0/no timeout,143.172s/autoload Configure0/20commits/
+three6-2-4/native weak2→0. All39 new originals actually viewed: FP04/Ally17/
+German30 clear; visual/audit PASS. Local install_v1 copies29exact then fails
+child-alias existence; frozen failure/source/backup retained, no rerun. Existing
+formal Content parent junction already supplies both exact single-home child
+bindings. Paired-plan bounded continuation verifies them without recopy/delete/
+new child junction. Descriptor enable row/proof/ledger/narrow shared guard reader
+installed; exactly1/703 row advances, other702/map/recoil/68/25/29 exact.35offline
+and4 shared formal-guard tests PASS. New formal_transactions_v1 own51244 RUNNING,
+formal saved autoload/no private Configure/no EnablePlugins override;20commits/
+39new-image actual review/audit pending. No deterministic/ordinary-input claim.
+Inventory actual ownership before every entry; don't duplicate this launcher.
+Never replay v4/v5 or borrow their images. Actual inventory before each entry,
+no competing engine/build/foreign termination/message.
+
+**Historical MuzzleFlashV1 smaller flame / human size review pending — 8 October:**
+User requests “缩小一点”. Read paired MUZZLE_FLASH_SCALE_RESULT_20261008 and
+weapon-binding scale addendum. One mount_scale_v3_20261008 entry changes only
+effect-instance scale1→0.25; actual original rifles/centres/named axes/rate20/
+0.10s request/8s cap/camera/lights unchanged. Two activations,actual scale0.25,
+origin0cm/forward4.9651e-16,true complete1.275578/1.276489s before owned destroy;
+32952 exit0/strict0/no timeout. All26 originals inspected: main flame visibly
+compact/contained (M105/German17–19); spark edge clipping/highlight saturation
+retained. No exact pixel ratio/callback-age/zero-overlap/world-length proof.
+Separate review hashes raw receipt/images; human approval/scale admission/formal
+candidate remain false.703guards/68originals/25copies exact,21offline/17sources
+parse; native/integration-launcher inventory empty. STOP for human size review;
+no automatic new scale/city test/formal install/Git/SFTP/Catalog. Original assets/
+rig/grip/recoil/AI/ammo/damage/nav/formal map unchanged; heartbeat remains PAUSED.
+
+**Historical MuzzleFlashV1 measured rifle result / actual scale review pending — 8 October:**
+Read paired MUZZLE_FLASH_WEAPON_BINDING_RESULT_20261008. v1 direction failure
+8772 exit0/strict0 retained; installed MakeRotator argument order explains wrong
+axis. Different named-axis v2 confirms pitch90/yaw0 old constructor, then two
+actual rifle pulses pass measured origins/outward+Y/true completion1.387128/
+1.249486s;30848 exit0/strict0/no timeout. All26 originals inspected. Unit scale
+is NOT admitted: large flame covers barrel segment/peak tail clipped; separate
+visual review preserves native success unchanged.0.10s timer requested, callback
+not directly observed/first inactive only at completion; no early-stop claim.
+v7 strict build passes/18offline/15tools parse/703guards68originals25copies exact.
+Actual native/integration-launcher inventory empty, all owned entries closed.
+Await compact-versus-current size choice, recommend ONE new approximately1/4
+instance scale comparison with same shape/rate/window/cap and full-tail camera.
+No city shot/lifecycle/FP visibility test or formal install; no original modules/
+rig/grip/recoil/AI/map/Git/SFTP/Catalog changes. Heartbeat remains PAUSED.
+
+**Historical MuzzleFlashV1 user appearance approval / measured binding continues — 8 October:**
+User says “这个没有问题，继续”, accepting the isolated flame appearance only.
+Follow paired MUZZLE_FLASH_WEAPON_BINDING_20261008 and latest checkpoint. Keep
+old pending-human native/visual receipts immutable. v5 typed-pointer compile
+failure retained; v6 strict build succeeds. rifle_geometry_v1 exits0/strict0,
+703guards/68originals exact/no PIE/save: both actual rifles have32-vertex terminal
+bore/rim planes and no sockets. Measured centres differ from legacy actor muzzle
+points; no ballistic edits. Separate mount_render_v1 is one pulse per measured
+rifle in private Entry PIE; inspect actual result/process before another entry.
+Source-review v7 requires independent build/candidate before city tests: missing
+components are cancellation+error, not completion; explicit profiles may await
+Niagara readiness after init. No formal enable/profile/assets installed, no
+accepted grip/recoil/AI/map changes, Git/SFTP/Catalog publication or deletion.
+Heartbeat remains PAUSED during this direct continuation.
+
+**Historical MuzzleFlashV1 RELEASED / human visual review pending — 8 October:**
+User authorizes ONE bounded verification then manual review. Read paired
+MuzzleFlashV1/MUZZLE_FLASH_RATE_PULSE_20261008 and RESULT plus AN010/checkpoint.
+New rate_pulse_v1_20261008: one rifle01 instance/one activation, runtime-only
+exposed SpawnRate20 typed readback valid; original rate5/lifetime~0.10/scale2
+unchanged. Native non-looping ordinary Deactivate timer keeps0.10s request,
+observed expired by0.106902s; true complete/active=false1.2523477003s, cleanup
+afterward. All12 original1600x900 images inspected:3black/5clear flame/4small
+sparks. Request ages not exact render timing;12-frame budget ends0.202839s,
+later completion is native state, not a late image. Separate visual review
+preserves raw result/hashes, human_approved=false/candidate_admitted=false.
+Rate and timer/capture observer both changed, no exclusive causal claim.
+Owned46400 normal exit0/strict0/no timeout; actual engine/launcher inventory
+empty;703guards/68originals/25private packages exact,15offline tests/11tools
+parse. STOP for user's review, heartbeat PAUSED. No retune/retry/real rifle or
+city transaction entry/formal enable/map or asset save/adoption/Git/SFTP/Catalog.
+Formal runtime adapter remains disabled/unmodified. Historical paragraph below
+does not authorize continuing beyond this one user-requested test.
+
+**Historical MuzzleFlashV1 parameter decision checkpoint — 7 October:**
+User requests purchased firing flames and chooses to wait for the other window's
+map batch. Map36488/fixed_surface_v12 closes normally at17:35:36Z. Actual UE/map
+launcher inventory is empty before this lane's finite native entries. Read
+MuzzleFlashV1/MUZZLE_FLASH_IMPLEMENTATION_20261007.md and synchronized Chinese
+review plus AN010. Exact68 purchased packages/78,239,739bytes and current703
+guards verified; private v3 candidate has four rifle systems/25 present packages.
+Native v1 missing hard mesh was an omitted existing original; native v2 closes
+all25 hard/soft dependency records and loads four valid CPU Niagara systems but
+FAILS readiness under NullRHI. Installed NiagaraSystem.cpp requires rendering.
+Real-renderer v3 prematurely asserts valid while compiling; negative receipt
+owned12472 exit0/strict0 retained. Different v4 records compilation transitions
+and passes all four final valid/ready systems/25 complete deps;owned39760 exit0/
+strict0/current703/68exact. Default effect_render_v1 FAILS rifle01 natural finite
+completion at8.007209game-seconds;owned53956 exit0/strict0/703/68exact. Five
+originals inspected: four early black, one directed bright flame at1.044092s;
+02/03/04 not instantiated. No finite discharge/first-pixel/axis/profile admission.
+Independent disabled Build_native_v3/v4 add safe completion/bounds and typed
+asset-owned float-default diagnostics, compile exit0. Fourteen preparation tests
+pass, not event/lifecycle acceptance. Map fixed_static_vehicle_v20 owned51328
+closes normally19:15:33Z/exit0/log0; actual inventory empty before both pulses.
+effect_pulse_v1 FAILS:01 ordinary Deactivate0.161489s/complete0.218597s but all
+three originals black; missing cleanup Object argument prevents02–04. Owned2432
+exit0/strict0/no timeout/703/68exact. Different remaining_pulse_v1 excludes01,
+tests previously uninstantiated02–04 and cleans only after actual complete;
+owned22864 exit0/strict0/no timeout/703/68exact. Completion0.282263/0.125803/
+0.121194s succeeds but ALL nine originals black; separate visual reviews FAIL.
+Raw native receipts unchanged. Exposed SpawnRate5/s/Lifetime~0.10s is a plausible
+short-window cause, not full graph/first-particle proof. All original-default
+pulses stopped; no duration sweep/warmup/parameter edit/retry. Disabled runtime
+adapter NOT revised/admitted. All own engines closed/native slot RELEASED.
+Read MUZZLE_FLASH_CHECKPOINT_20261007.md/Chinese review: no next command until
+user decides whether to permit bounded runtime-instance-only exposed-rate
+adaptation while preserving purchased originals,0.10s window and8s completion.
+No selected map/asset/profile/enable row/existing DLL/Catalog/Git changes or
+rendered fire acceptance yet. Check current ownership before every entry.
+Same-chat heartbeat `automation` stops pending this genuinely required user
+decision. No more default-pulse retries or periodic busy-status messages.
+
+**Local visible recoil COMPLETE — 7 October, fresh original-project regression passed:**
+User asks to repair invisible firing recoil in the character lane. Read RecoilV1/
+RECOIL_IMPLEMENTATION_20261007.md and RECOIL_VISUAL_ADMISSION_20261007.md (Chinese
+reviews synchronized), plus AN009. Independent v3 source, three-role original
+one-shot/cooldown and five-shot/reload/death/reset checks pass;9 lit unpaused
+originals inspected, no new obvious arm rupture/gun separation. Earlier rail-
+occluded/dark views retained, not admitted as complete visual proof. Existing
+Rifle_ShootOnce hand motion only, no camera shake/source clip or grip refinement.
+Three display DLLs now locally replaced, exact backups retained in RecoilV1/
+local_install_v3_20261007. Explicit AUTHORIZED_LOCAL_BINARIES_20261007.json
+authenticates their receipt; NPCInteractionV1/common.py applies ONLY this three-
+path allowlist after the immutable678+B+9ff map epoch.703 rows remain,700 other
+rows/module manifests/map/source rigs/weights/materials/actions/AI/Catalog exact.
+Other lanes must adopt this LOCAL binary increment before new writers; do not
+restore historical DLL hashes or map/Catalog. Not published or Git-committed.
+Fresh original-project installed_runtime_v3 passes three-role one-shot/cooldown
+checks,18/21/20 active samples, gun excursion5.672/5.506/6.069cm; max interval
+0.070308s is observation cadence, not FPS. Owned51084 exits0/strict0/current703
+exact.38 offline tests pass. Read RECOIL_RESULT_20261007.md / Chinese review and
+private selected_local_v3_20261007 current703 snapshot. This closes visible
+recoil only, not full contact/near-wall/clear-shot/all-NPC/FPS/Shipping acceptance.
+Check actual engine ownership again, never terminate a foreign/user editor.
+
+**Recoil source-only publication request — 7 October:**
+Yupu requests commit/push of this window only. Include recoil display source,
+RecoilV1 tools/metadata/reviews and AN009, plus only this lane's shared-document
+and guard-wrapper changes. Pending NPC AI/map epoch and navigation work belongs
+to the other window and is excluded, as are DefaultEditor.ini and private bytes.
+The recoil ledger wrapper is independent of the base epoch implementation;
+an incompatible or absent prerequisite fails closed, never silently rebases.
+Local703 evidence depends on the other lane's current local baseline/private
+receipts; this source checkpoint is not a standalone restored playtest release.
+Verify remote main before reporting publication success; Catalog/SFTP unchanged.
 
 **River bridge C local crossing CONFIRMED / first grid omitted connection — 7 October:**
 Read MissionLoopV1/BRIDGE_CONNECTIVITY_PLAN, BRIDGE_OVERLAY_ADMISSION,
@@ -355,39 +608,47 @@ No mission/native/map/config edits, engine entry, acceptance or publication
 occurred. Next package is current-map survey, then an unsaved startup/lifecycle
 proof after the latest B checkpoint and native ownership are checked.
 
-**Local visible recoil COMPLETE — 7 October, fresh original-project regression passed:**
-User asks to repair invisible firing recoil in the character lane. Read RecoilV1/
-RECOIL_IMPLEMENTATION_20261007.md and RECOIL_VISUAL_ADMISSION_20261007.md (Chinese
-reviews synchronized), plus AN009. Independent v3 source, three-role original
-one-shot/cooldown and five-shot/reload/death/reset checks pass;9 lit unpaused
-originals inspected, no new obvious arm rupture/gun separation. Earlier rail-
-occluded/dark views retained, not admitted as complete visual proof. Existing
-Rifle_ShootOnce hand motion only, no camera shake/source clip or grip refinement.
-Three display DLLs now locally replaced, exact backups retained in RecoilV1/
-local_install_v3_20261007. Explicit AUTHORIZED_LOCAL_BINARIES_20261007.json
-authenticates their receipt; NPCInteractionV1/common.py applies ONLY this three-
-path allowlist after the immutable678+B+9ff map epoch.703 rows remain,700 other
-rows/module manifests/map/source rigs/weights/materials/actions/AI/Catalog exact.
-Other lanes must adopt this LOCAL binary increment before new writers; do not
-restore historical DLL hashes or map/Catalog. Not published or Git-committed.
-Fresh original-project installed_runtime_v3 passes three-role one-shot/cooldown
-checks,18/21/20 active samples, gun excursion5.672/5.506/6.069cm; max interval
-0.070308s is observation cadence, not FPS. Owned51084 exits0/strict0/current703
-exact.38 offline tests pass. Read RECOIL_RESULT_20261007.md / Chinese review and
-private selected_local_v3_20261007 current703 snapshot. This closes visible
-recoil only, not full contact/near-wall/clear-shot/all-NPC/FPS/Shipping acceptance.
-Check actual engine ownership again, never terminate a foreign/user editor.
+**Lane B RELEASED — bounded functional acceptance,7 October:**
+Read `Docs/Development/NPCInteractionV1/NPC_ACCEPTANCE_CLOSURE_RESULT_20261007.md`
+and its synchronized Chinese review/plan plus NI003. SIX fresh formal-brain
+scenarios pass strict log errors0/owned exit0/703 exact: actual patrol/search/
+unreachable wait, two-Allied reservations/death/obstacle recovery, real cumulative
+and player-radius cutoffs/regroup under0.25s frames, autonomous FF OFF/ON.20
+offline tests pass;92 B native packages all registered/unknown0. Final private
+acceptance_closure_final_20261007_v1 has703-row snapshot and six-receipt audit.
+No native/map/grip/config/Catalog/publication/Git change in this acceptance turn;
+current9ff formal map/703 ledger still govern. All B-owned UE exited normally.
+Actual global UE0 at09:39:57 EDT is a DATED snapshot, not permission to ignore
+later ownership: the other window starts MissionConnectivity traversal after it.
+Check actual processes and its newer checkpoint before any native entry.
+Retain NI003's57cm intermittent arrival/western-body-route failures; a later
+finite pass is not a proven native/spawn repair or whole-city reliability. Three
+unpaused walking images are limited/cropped diagnostics, not full motion/contact.
+Full visual/recoil/near-wall/mission/FPS/Shipping/teammate/course gates remain;
+this closes bounded core-functional supplements, not unconditional NPC/MVP sign-off.
 
-**Recoil source-only publication request — 7 October:**
-Yupu requests commit/push of this window only. Include recoil display source,
-RecoilV1 tools/metadata/reviews and AN009, plus only this lane's shared-document
-and guard-wrapper changes. Pending NPC AI/map epoch and navigation work belongs
-to the other window and is excluded, as are DefaultEditor.ini and private bytes.
-The recoil ledger wrapper is independent of the base epoch implementation;
-an incompatible or absent prerequisite fails closed, never silently rebases.
-Local703 evidence depends on the other lane's current local baseline/private
-receipts; this source checkpoint is not a standalone restored playtest release.
-Verify remote main before reporting publication success; Catalog/SFTP unchanged.
+**Lane B RELEASED — local formal map NPC AI,7 October:**
+Yupu explicitly permits formal map AI integration and fresh play regression.
+Read `Docs/Development/NPCInteractionV1/NPC_FORMAL_COMBAT_RESULT_20261007.md`
+and its implementation plan plus NI002/NI001. Five new FormalCombatV1 packages
+enable two Allied/three German sensing and native Stop/Turn/Fire/Reload after
+one-time selected-equipment bootstrap. Source rigs/meshes/clips/approved grips/
+FP unchanged; existing NPC faction/role/transform/ammo and Allied guns preserved.
+Map has one coordinator/FF OFF. Fresh saved-map finite combat passes, ordinary
+-game with ACTUAL -DisablePython passes,21-shot three-shooter OFF/ON original
+transaction regression passes.14 offline tests pass; all owned UE closed/slot
+released. Full motion/recoil/mission/balance/FPS/Shipping/teammate/course gates
+remain. Existing layout starts combat quickly and can kill an inactive player.
+
+LOCAL UNSYNCHRONIZED increment: map9ff18c1339ee1de61add8a15acebd56512617ed69547de668b7d59ee1772d65b,
+2,720,990bytes. Current703 guards use immutable A678 +25 added B packages and
+explicit `AUTHORIZED_FORMAL_MAP_20261007.json` two-alias/ONE-map exception.
+A snapshot/Catalog/SFTP release unchanged; do not restore its older70df map over
+this authorized local work. Other writers explicitly adopt this ledger. No new
+SFTP publication or commit/push; DefaultEditor.ini presets untouched. Older
+unselected/no-formal-map claims below are dated history in this narrow scope.
+Old -DisablePlugins Python intent did not stop its interpreter: NI002 preserves
+that finding; new7October -DisablePython log proof governs the narrow claim.
 
 **Matching Git revision — user-requested publication,6 October:**
 This revision includes the accumulated generic FP/Allied/German native source,

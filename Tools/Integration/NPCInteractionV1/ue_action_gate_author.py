@@ -10,6 +10,7 @@ from common import DEST, ROOT, STORE, digest, guard_rows, guards_match, package_
 from ue_graph import lib, pins, pin, wire, value, call, pure, get, run, math, branch, put, bbget, bbput, function, invoke, distance, cast
 
 VERSION = os.environ.get("CS549_NPC_BEHAVIOR_VERSION", "V1")
+COMBAT_READY = int(VERSION[1:]) >= 5
 P = {k: DEST + "/" + n + VERSION for k, n in (("controller", "BP_PCNPCActionGate"), ("tree", "BT_PC_NPCActionGate"),
     ("service", "BTS_PC_NPCActionGate"), ("allied", "BP_PCAlliedActionGate"), ("german", "BP_PCGermanActionGate"))}
 OUT = STORE / "Evidence/NPCInteractionV1" / os.environ["CS549_NPC_IDENTITY"]
@@ -97,7 +98,16 @@ try:
     invoke(ev, flow, "/Script/AIModule.AIController.RunBehaviorTree", BTAsset=tree.get_path_name())
     g, flow, args = function(bp, "PC_ConfigureNPCEquipment", (("NumericVerified", "bool"), ("HumanAccepted", "bool")))
     flow = put(g, flow, "EquipmentNumericVerified", args[0])
-    put(g, flow, "EquipmentHumanAccepted", args[1])
+    flow = put(g, flow, "EquipmentHumanAccepted", args[1])
+    if int(VERSION[1:]) >= 6:
+        # Formal Allied future-spawn policy preserves the old appearance class,
+        # whose live instance can still collide. This new NPC-only adapter fixes
+        # effective runtime collision, not its source package, pose or material.
+        equipment_base = unreal.EditorAssetLibrary.load_blueprint_class("/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2")
+        flow, configured_pawn = cast(g, flow, own(g), equipment_base)
+        configured_weapon = get(g, "WeaponAppearance", equipment_base.get_path_name(), configured_pawn)
+        flow, _ = branch(g, flow, pure(g, "/Script/Engine.KismetSystemLibrary.IsValid", Object=configured_weapon))
+        invoke(g, flow, "/Script/Engine.Actor.SetActorEnableCollision", self=configured_weapon, bNewActorEnableCollision=False)
     compile(bp)
     base = unreal.EditorAssetLibrary.load_blueprint_class("/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2")
     basepath = base.get_path_name()
@@ -147,8 +157,9 @@ try:
         flow = put(g, flow, "ActiveTerminalResult", "Running")
         return reply(g, flow, "Started", "NativeRequestAdmitted")
 
-    stop = put(g, stop, "SquadEnabled", False)
-    stop = put(g, stop, "PolicyEnabled", False)
+    if not COMBAT_READY:
+        stop = put(g, stop, "SquadEnabled", False)
+        stop = put(g, stop, "PolicyEnabled", False)
     stop = invoke(g, stop, "PC_PolicyHold")
     stop = bbput(g, stop, "RequestID", "Int", 0)
     stop = put(g, stop, "StopOrigin", local(g))
@@ -162,6 +173,21 @@ try:
     reply(g, human, "Rejected", "EquipmentNeedsHumanReview")
     valid, busy = branch(g, valid, math(g, "EqualEqual_NameName", A=get(g, "ActionState", basepath, pawn), B="Ready"))
     reply(g, busy, "Rejected", "OriginalActionBusy")
+    if COMBAT_READY:
+        turn, valid = branch(g, valid, math(g, "EqualEqual_NameName", A=action, B="Turn"))
+        turn, missing = branch(g, turn, bbget(g, "HasVisibleTarget", "Bool"))
+        reply(g, missing, "Rejected", "TargetNotVisible")
+        rotation = math(g, "FindLookAtRotation", Start=local(g), Target=bbget(g, "LastSeenPosition", "Vector"))
+        parts = call(g, "/Script/Engine.KismetMathLibrary.BreakRotator", InRot=rotation)
+        yaw = math(g, "MakeRotator", Pitch=0, Yaw=pin(parts, "Yaw", True), Roll=0)
+        turn = invoke(g, turn, "/Script/Engine.Controller.SetControlRotation", NewRotation=yaw)
+        turn = invoke(g, turn, "/Script/Engine.Actor.K2_SetActorRotation", self=pawn, NewRotation=yaw, bTeleportPhysics=False)
+        turn = admitted(g, turn, "Turn")
+        forward = pure(g, "/Script/Engine.Actor.GetActorForwardVector", self=pawn)
+        direction = math(g, "Normal", A=math(g, "Subtract_VectorVector", A=bbget(g, "LastSeenPosition", "Vector"), B=local(g)))
+        good, bad = branch(g, turn, math(g, "GreaterEqual_DoubleDouble", A=math(g, "Dot_VectorVector", A=forward, B=direction), B=.966))
+        terminal(g, good, "Completed", "BodyFacingObserved")
+        terminal(g, bad, "Failed", "BodyFacingFailed")
     reload, fire = branch(g, valid, math(g, "EqualEqual_NameName", A=action, B="Reload"))
     reload = put(g, reload, "ActionInitialReloadCommit", get(g, "ReloadCommitCount", basepath, pawn))
     reload = external(g, reload, reload_parent_cls, pawn, "PC_RequestReload")
@@ -174,6 +200,15 @@ try:
     reply(g, unsupported, "Rejected", "UnsupportedAction")
     fire, invisible = branch(g, fire, bbget(g, "HasVisibleTarget", "Bool"))
     reply(g, invisible, "Rejected", "TargetNotVisible")
+    if COMBAT_READY:
+        fire = reply(g, fire, "Rejected", "InvalidTarget")
+        fire, target = cast(g, fire, bbget(g, "TargetActor", "Object"), base)
+        fire, friendly = branch(g, fire, math(g, "NotEqual_IntInt", A=get(g, "TeamId", basepath, pawn), B=get(g, "TeamId", basepath, target)))
+        reply(g, friendly, "Rejected", "FriendlyTarget")
+        fire, dead_target = branch(g, fire, math(g, "Greater_DoubleDouble", A=get(g, "Health", basepath, target), B=0))
+        reply(g, dead_target, "Rejected", "DeadTarget")
+        fire, invisible = branch(g, fire, pure(g, "/Script/Engine.Controller.LineOfSightTo", Other=target, bAlternateChecks=False))
+        reply(g, invisible, "Rejected", "TargetNotCurrentlyVisible")
     velocity = pure(g, "/Script/Engine.Actor.GetVelocity", self=pawn)
     fire, moving = branch(g, fire, math(g, "LessEqual_DoubleDouble", A=math(g, "VSizeSquared", A=velocity), B=1))
     reply(g, moving, "Rejected", "BodyNotStopped")
@@ -186,6 +221,13 @@ try:
     reply(g, unturned, "Rejected", "BodyNotFacingTarget")
     trace = call(g, "/Script/Engine.KismetSystemLibrary.LineTraceSingle", Start=muzzle, End=point,
                  TraceChannel="TraceTypeQuery1", bTraceComplex=False, bIgnoreSelf=True)
+    if COMBAT_READY:
+        # bIgnoreSelf on a Controller ignores the Controller, not its Pawn.
+        array_types = [n for n in g.list_available_nodes([pin(trace, "ActorsToIgnore")]) if n.split("|")[-1].replace(" ", "").lower() == "makearray"]
+        assert array_types, "Missing typed Make Array node"
+        ignored = g.create_node_from_name(array_types[0], unreal.Vector2D(), [pin(trace, "ActorsToIgnore")])
+        wire(pin(ignored, "Array", True), pin(trace, "ActorsToIgnore"))
+        value(pin(ignored, "[0]"), pawn)
     fire = run(g, fire, trace)
     hit = call(g, "/Script/Engine.GameplayStatics.BreakHitResult", Hit=pin(trace, "OutHit", True))
     clear, blocked = branch(g, fire, math(g, "EqualEqual_ObjectObject", A=pin(hit, "HitActor", True), B=bbget(g, "TargetActor", "Object")))
@@ -213,14 +255,30 @@ try:
     current, stale = branch(g, flow, math(g, "EqualEqual_IntInt", A=get(g, "ActiveGeneration"), B=get(g, "RestoreGeneration", basepath, pawn)))
     terminal(g, stale, "Cancelled", "LifecycleGenerationChanged")
     current, stale_task = branch(g, current, math(g, "EqualEqual_IntInt", A=get(g, "ActiveTaskID"), B=bbget(g, "TaskID", "Int")))
-    terminal(g, stale_task, "Cancelled", "TaskSuperseded")
+    if int(VERSION[1:]) >= 7:
+        cancel_reload, cancel_other = branch(g, stale_task, math(g, "EqualEqual_NameName", A=get(g, "PendingNPCAction"), B="Reload"))
+        cancel_reload = external(g, cancel_reload, reload_parent_cls, pawn, "PC_EndReload", ExpectedActionID=get(g, "PendingOriginalActionID"), ExpectedGeneration=get(g, "ActiveGeneration"))
+        terminal(g, cancel_reload, "Cancelled", "TaskSuperseded")
+        terminal(g, cancel_other, "Cancelled", "TaskSuperseded")
+    else:
+        terminal(g, stale_task, "Cancelled", "TaskSuperseded")
     stop, reload = branch(g, current, math(g, "EqualEqual_NameName", A=get(g, "PendingNPCAction"), B="Stop"))
     elapsed = math(g, "Subtract_DoubleDouble", A=pure(g, "/Script/Engine.GameplayStatics.GetTimeSeconds"), B=get(g, "StopAcceptedGameTime"))
     stop, _ = branch(g, stop, math(g, "GreaterEqual_DoubleDouble", A=elapsed, B=.5))
     stable, drift = branch(g, stop, math(g, "LessEqual_DoubleDouble", A=distance(g, local(g), get(g, "StopOrigin")), B=1))
     terminal(g, stable, "Completed", "BodyStopObserved")
     terminal(g, drift, "Failed", "BodyStopDrift")
-    valid, superseded = branch(g, reload, math(g, "EqualEqual_IntInt", A=get(g, "ActionID", basepath, pawn), B=get(g, "PendingOriginalActionID")))
+    same_action = math(g, "EqualEqual_IntInt", A=get(g, "ActionID", basepath, pawn), B=get(g, "PendingOriginalActionID"))
+    if int(VERSION[1:]) >= 7:
+        # The original PC_EndReload invalidates stale animation callbacks by
+        # incrementing ActionID once on ordinary Ready completion. Retained
+        # ReloadActionID/ReloadGeneration identify WHICH transaction ended.
+        ended = math(g, "BooleanAND", A=math(g, "EqualEqual_NameName", A=get(g, "ActionState", basepath, pawn), B="Ready"),
+            B=math(g, "EqualEqual_IntInt", A=get(g, "ActionID", basepath, pawn), B=math(g, "Add_IntInt", A=get(g, "PendingOriginalActionID"), B=1)))
+        tokens = math(g, "BooleanAND", A=math(g, "EqualEqual_IntInt", A=get(g, "ReloadActionID", basepath, pawn), B=get(g, "PendingOriginalActionID")),
+            B=math(g, "EqualEqual_IntInt", A=get(g, "ReloadGeneration", basepath, pawn), B=get(g, "ActiveGeneration")))
+        same_action = math(g, "BooleanAND", A=tokens, B=math(g, "BooleanOR", A=same_action, B=ended))
+    valid, superseded = branch(g, reload, same_action)
     terminal(g, superseded, "Cancelled", "OriginalActionSuperseded")
     ready, _ = branch(g, valid, math(g, "EqualEqual_NameName", A=get(g, "ActionState", basepath, pawn), B="Ready"))
     conserved = math(g, "EqualEqual_IntInt", A=math(g, "Add_IntInt", A=get(g, "LoadedAmmo", basepath, pawn), B=get(g, "ReserveAmmo", basepath, pawn)), B=get(g, "ActionAmmoTotal"))
@@ -257,6 +315,7 @@ try:
         unreal.get_default_object(unreal.EditorAssetLibrary.load_blueprint_class(P[key])).set_editor_property("ai_controller_class", cls)
         save(child, P[key])
     report["status"] = "pass_native_action_gate_requires_runtime_and_human_equipment"
+    report["combat_ready_admission"] = COMBAT_READY
 except Exception:
     report["status"] = "failed_native_action_gate_author_preserve"
     report["errors"].append(traceback.format_exc())

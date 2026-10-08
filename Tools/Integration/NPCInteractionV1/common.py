@@ -157,6 +157,25 @@ def guard_rows():
         spec.loader.exec_module(module)
         rows = module.apply_muzzle_descriptor_ledger(
             rows, json.loads(muzzle_ledger.read_text()), ROOT, digest)
+    # The unified teammate release advances Catalog metadata only. Native map,
+    # models and historical immutable guard snapshots retain their own ledgers.
+    catalog_ledger = ROOT / 'Docs/Development/TeamSyncV1/AUTHORIZED_CATALOG_20261008.json'
+    if catalog_ledger.exists():
+        ledger = json.loads(catalog_ledger.read_text())
+        assert ledger['authorization'] == '2026-10-08 user requests current source and assets synchronized for teammates; teammate runtime verification delegated'
+        assert ledger['original']['path'] == ledger['current']['path'] == 'Assets/Sync/CATALOG.json'
+        manifest = ROOT / 'Assets/Sync/manifests/paris-gameplay-native-playtest.json'
+        assert digest(manifest) == ledger['manifest_sha256'], 'Published native manifest drift'
+        catalog = json.loads((ROOT / ledger['current']['path']).read_text())
+        selection = next(e for e in catalog['active_manifests'] if e['asset_id'] == 'paris-gameplay-native-playtest')
+        assert selection['asset_version'] == ledger['release'] and selection['sha256'] == ledger['manifest_sha256']
+        matched = False
+        for i, row in enumerate(rows):
+            if row['path'] == ledger['original']['path']:
+                assert all(row[k] == ledger['original'][k] for k in ('path', 'size_bytes', 'sha256')), 'Catalog source epoch differs'
+                rows[i] = dict(ledger['current'])
+                matched = True
+        assert matched, 'Catalog missing from protected epoch'
     return rows
 
 

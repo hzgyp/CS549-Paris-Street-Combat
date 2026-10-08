@@ -1,5 +1,22 @@
 # NPC Interaction V1 implementation
 
+## Current formal integration, 7 October 2026
+
+User permits local formal-map adoption and play regression. Follow the separate
+[formal integration plan](NPC_FORMAL_COMBAT_IMPLEMENTATION_20261007.md) and
+[actual results](NPC_FORMAL_COMBAT_RESULT_20261007.md): NI001/GP010/AN008/NI002
+review, native bootstrap early gate and scoped stopping conditions. No new grip,
+mission, SFTP/Git publication scope. Current703 guards use the explicit map ledger.
+
+## Previous continuation, 6 October 2026
+
+Yupu resumes combat development after both factions' formal visual selection.
+Follow [the bounded combat V2 plan](NPC_COMBAT_V2_IMPLEMENTATION_20261006.md).
+It adopts the current678-row GermanFormalV14 epoch, not older555/611 hashes.
+Earlier pending-grip restrictions below are historical for those exact selected
+assets. No fitting, formal map/Catalog change, publication or Git write follows.
+Fresh results, including failed attempts, will be recorded separately.
+
 ## Current bounded continuation, 5 October 2026
 
 The user authorizes this window's shared friendly-fire integration and direct

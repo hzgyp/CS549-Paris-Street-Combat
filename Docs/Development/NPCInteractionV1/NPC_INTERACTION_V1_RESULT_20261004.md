@@ -1,5 +1,30 @@
 # NPC Interaction V1 — Lane B checkpoint
 
+## Current bounded functional acceptance — 7 October 2026
+
+See [acceptance closure](NPC_ACCEPTANCE_CLOSURE_RESULT_20261007.md): SIX fresh
+formal-brain scenarios/strict errors0/exits0/703 exact pass; actual patrol/search,
+two-Allied ownership/obstacle recovery and both real chase boundaries under0.25s
+frames, autonomous FF OFF/ON.20 offline tests pass. No native/map/grip changes or
+publication. Intermittent57cm arrival/western-route reliability, full motion/contact,
+FPS/Shipping/mission/second-machine/course gates remain open; not unconditional
+B00–B05 or MVP sign-off. Actual saved Germans remain guards, not mission patrols.
+
+## Current formal integration — 7 October 2026
+
+See [formal map result](NPC_FORMAL_COMBAT_RESULT_20261007.md): user-authorized
+local five-NPC AI selection, fresh saved-map play and actual Python-disabled
+ordinary game pass;21-shot FF matrix pass. Current703 rows include an explicit
+single-map mutation ledger. Not SFTP/Git publication or full MVP acceptance.
+
+## Previous continuation — 6 October 2026
+
+See [native combat V2 results](NPC_COMBAT_V2_RESULT_20261006.md). Current
+authority is678 base rows plus20 new B rows,698 total; earlier555/611 hashes
+and wait-for-grip status below are dated history for the now-selected gear.
+The fresh direct/autonomous/FF proofs are bounded, not full motion/mission/FPS
+or formal AI adoption. Old receipts/packages remain retained.
+
 ## Latest verified progress — 5 October 2026
 
 The user authorizes in-scope repair and supersedes earlier self-imposed pauses

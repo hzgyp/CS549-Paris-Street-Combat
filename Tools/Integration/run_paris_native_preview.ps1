@@ -1,4 +1,5 @@
-param([string]$EngineEditor='C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor.exe',[switch]$CheckOnly)
+param([string]$EngineEditor='C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor.exe',
+ [ValidateSet('G1','Formal')][string]$Entry='G1',[switch]$LoadSave,[switch]$CheckOnly)
 $ErrorActionPreference='Stop'
 $taskRoot=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
 if(Get-Process UnrealEditor* -ErrorAction SilentlyContinue){throw 'Existing user-owned Unreal session: close it before another launch.'}
@@ -8,6 +9,19 @@ if(@($taskRelease).Count -ne 1){throw 'Missing selected playtest release; update
 $taskManifestPath=Join-Path $taskRoot $taskRelease.path
 if((Get-FileHash -LiteralPath $taskManifestPath -Algorithm SHA256).Hash.ToLower() -ne $taskRelease.sha256){throw 'Catalog/manifest mismatch'}
 $taskManifest=Get-Content -LiteralPath $taskManifestPath -Raw|ConvertFrom-Json
+if($taskManifest.source_contract){
+    $taskContractPath=Join-Path $taskRoot $taskManifest.source_contract.path
+    if((Get-FileHash -LiteralPath $taskContractPath -Algorithm SHA256).Hash.ToLower() -ne $taskManifest.source_contract.sha256){throw 'Update Git: source contract differs'}
+    $taskContract=Get-Content -LiteralPath $taskContractPath -Raw|ConvertFrom-Json
+    if($taskContract.asset_version -ne $taskManifest.asset_version){throw 'Source/asset versions differ'}
+    foreach($taskSource in $taskContract.files){
+        $taskSourceText=[IO.File]::ReadAllBytes((Join-Path $taskRoot $taskSource.path))
+        $taskCanonical=[Text.Encoding]::UTF8.GetBytes([Text.Encoding]::UTF8.GetString($taskSourceText).Replace("`r`n","`n"))
+        $taskHasher=[Security.Cryptography.SHA256]::Create()
+        try{$taskDigest=[BitConverter]::ToString($taskHasher.ComputeHash($taskCanonical)).Replace('-','').ToLower()}finally{$taskHasher.Dispose()}
+        if($taskDigest -ne $taskSource.sha256_lf){throw "Source differs from team release: $($taskSource.path)"}
+    }
+}
 foreach($taskFile in $taskManifest.files){
     $taskFilePath=Join-Path $taskRoot $taskFile.path
     if((Get-Item -LiteralPath $taskFilePath).Length -ne $taskFile.size_bytes -or (Get-FileHash -LiteralPath $taskFilePath -Algorithm SHA256).Hash.ToLower() -ne $taskFile.sha256){throw "Unsynchronized native file: $($taskFile.path)"}
@@ -39,13 +53,26 @@ if($taskManifest.allied_npc_selection -or $taskManifest.german_npc_selection){
     $taskEngineModule=Get-Content -LiteralPath (Join-Path (Split-Path $EngineEditor) 'UnrealEditor.modules') -Raw|ConvertFrom-Json
     if($taskModule.BuildId -ne $taskEngineModule.BuildId){throw 'NPC native module does not match installed editor build'}
 }
-if($CheckOnly){Write-Output 'Selected gameplay hashes, city sizes and UE5.8.2 checked; no game launched';return}
+foreach($taskPluginName in @('ParisGripBindingV18','ParisNPCGripV15','ParisBridgeMissionV1','ParisMuzzleFlashV1')){
+    $taskModulesPath=Join-Path $taskRoot ('Unreal/ParisStreetCombat/Plugins/'+$taskPluginName+'/Binaries/Win64/UnrealEditor.modules')
+    $taskModules=Get-Content -LiteralPath $taskModulesPath -Raw|ConvertFrom-Json
+    $taskEngineModules=Get-Content -LiteralPath (Join-Path (Split-Path $EngineEditor) 'UnrealEditor.modules') -Raw|ConvertFrom-Json
+    if($taskModules.BuildId -ne $taskEngineModules.BuildId){throw "Module/editor build mismatch: $taskPluginName"}
+}
+$taskMap=if($Entry -eq 'G1'){$taskManifest.entries.g1}else{$taskManifest.entries.formal}
+if(-not $taskMap){throw 'Update Git/assets: selected map entry unavailable'}
+if($LoadSave){
+    if($Entry -ne 'G1'){throw 'LoadSave is only supported for G1'}
+    $taskMap+='?ParisLoad'
+}
+if($CheckOnly){Write-Output "Selected source/native hashes, city sizes and UE5.8.2 checked: $Entry; no game launched";return}
 $taskLog=Join-Path $taskRoot ('tmp/continuous-arms-native/human-native-'+(Get-Date -Format 'yyyyMMdd-HHmmss')+'.log')
 New-Item -ItemType Directory -Path (Split-Path $taskLog) -Force|Out-Null
 $taskArgs=@(('"'+(Join-Path $taskRoot 'Unreal/ParisStreetCombat/WW2FranceLiberation.uproject')+'"'),
- '/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1','-game','-DisablePlugins=ParisEditorBridge,PythonScriptPlugin',
+ $taskMap,'-game','-DisablePlugins=ParisEditorBridge','-DisablePython',
  '-NoP4','-NoSplash','-windowed','-ResX=1280','-ResY=720',('-abslog="'+$taskLog+'"'))
+if($Entry -eq 'G1'){$taskArgs+='-EnablePlugins=ParisBridgeMissionV1'}
 # Visible user review only when this launcher is requested; no auto quit/test/Python callback.
 $taskProcess=Start-Process -FilePath $EngineEditor -ArgumentList $taskArgs -WindowStyle Normal -PassThru
 @{pid=$taskProcess.Id;log=$taskLog;user_owned=$true;python_disabled=$true;game_mode=$true}|ConvertTo-Json
-Write-Output 'WASD / mouse / left click / R. Alt+F4 closes this game window; no map save.'
+Write-Output 'WASD / mouse / left click / R. G1: Enter start, F5 save, F9 load, Ctrl+R restart. Alt+F4 closes.'

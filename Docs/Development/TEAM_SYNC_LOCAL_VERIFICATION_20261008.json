@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-08T15:23:10-04:00",
+  "asset_version": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+  "native_manifest_sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
+  "native_files": 359,
+  "native_size_bytes": 655952112,
+  "local_city_and_native_verified_files": 16209,
+  "source_contract_verified_files": 758,
+  "source_verifier_checks": [
+    "Exact source accepted",
+    "Normal CRLF Git checkout accepted",
+    "Modified source rejected",
+    "Escaping contract path rejected"
+  ],
+  "current_protected_records": 703,
+  "protected_mismatches": [],
+  "npc_offline_tests_passed": 20,
+  "modified_launcher_parser_checks": "passed",
+  "windows_powershell_5_precheck": {
+    "G1": "passed; no game launched",
+    "Formal": "passed; no game launched"
+  },
+  "read_only_ue_dependency_audit": {
+    "exit_code": 0,
+    "logged_errors": 0,
+    "package_files": 15580,
+    "missing_hard_packages": 0,
+    "unchanged_supplier_soft_gaps": 5,
+    "native_saves": 0
+  },
+  "authenticated_final_sftp_objects_verified": 359,
+  "authenticated_release_manifest_verified": true,
+  "root_acl_unchanged": true,
+  "shared_account_crud": "passed; exact probes removed",
+  "new_gameplay_test_performed": false,
+  "second_machine_restore_or_runtime": "not performed; assigned to teammates",
+  "external_connectivity": "not retested",
+  "scope": "Publication availability and local source/assets/prechecks only"
+}

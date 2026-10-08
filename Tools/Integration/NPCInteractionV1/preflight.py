@@ -39,6 +39,7 @@ required = ["PC_RequestFire", "PC_RequestReload", "PC_ApplyDamage", "PC_ResetLif
 report = {
     "status": "pass_offline_contract_guard" if not mismatches else "blocked_native_guard_conflict",
     "protected_count": len(rows),
+    "protected_hashes": rows,
     "mismatches": mismatches,
     "actual_contract": {
         "base": "/Game/ParisCombat/Blueprints/CityGameplayV1/BP_PCParisCombatantV2",
@@ -56,9 +57,10 @@ report = {
     },
     "scope": "offline read-only; not Behavior Tree, movement, perception, combat or city acceptance",
     "shared_ff_authorization_ledger_present": (ROOT / "Docs/Development/NPCInteractionV1/AUTHORIZED_SHARED_MUTATIONS_20261005.json").exists(),
+    "authorized_local_formal_map_ledger_present": (ROOT / "Docs/Development/NPCInteractionV1/AUTHORIZED_FORMAL_MAP_20261007.json").exists(),
 }
 (out / "source.py").write_bytes(Path(__file__).read_bytes())
 (out / "result.json").write_text(json.dumps(report, indent=2) + "\n")
-print(json.dumps(report, indent=2))
+print(json.dumps({key: value for key, value in report.items() if key != "protected_hashes"}, indent=2))
 if mismatches:
     raise SystemExit(2)

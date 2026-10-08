@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)][ValidatePattern('^[A-Za-z0-9_]+$')][string]$Identity,
-    [ValidateSet('capability','author','test','b1_author','b1_test','b1_stop_test','b1_sight_author','b1_sight_test','b1_sight_author_v2','b1_sight_test_v2','b1_sight_author_v3','b1_sight_test_v3','b1_sight_author_v4','b1_sight_test_v4','sight_causal','sight_verified','behavior_author','behavior_config_author','behavior_test','search_author','search_test','squad_author','squad_test','friendly_fire_author','friendly_fire_exec_repair','combat_regression','action_gate_author','action_gate_test')][string]$Mode='capability',
+    [ValidateSet('capability','author','test','b1_author','b1_test','b1_sight_author','b1_sight_test','b1_stop_test','b1_sight_author_v2','b1_sight_test_v2','b1_sight_author_v3','b1_sight_test_v3','b1_sight_author_v4','b1_sight_test_v4','sight_causal','sight_verified','behavior_author','behavior_config_author','behavior_test','search_author','search_test','squad_author','squad_test','friendly_fire_author','friendly_fire_exec_repair','combat_regression','selected_combat_regression','action_gate_author','action_gate_test','action_combat_test','autonomous_author','autonomous_test')][string]$Mode='capability',
     [ValidatePattern('^[A-Za-z0-9_]+$')][string]$AuthorIdentity='',
     [ValidatePattern('^V[0-9]+$')][string]$BehaviorVersion='V1'
 )
@@ -23,6 +23,7 @@ if($LASTEXITCODE -ne 0){throw 'Offline guard/contract preflight failed'}
 $taskExpectedGuards=(Get-Content -LiteralPath (Join-Path $taskOut 'result.json') -Raw | ConvertFrom-Json).protected_count
 $env:CS549_NPC_IDENTITY=$Identity
 $env:CS549_NPC_BEHAVIOR_VERSION=$BehaviorVersion
+$env:CS549_NPC_MODE=$Mode
 $taskScript=Join-Path $PSScriptRoot $(if($Mode -eq 'capability'){'ue_bt_capability_probe.py'}elseif($Mode -eq 'author'){'ue_b0_author.py'}elseif($Mode -eq 'test'){'ue_b0_test.py'}elseif($Mode -eq 'b1_author'){'ue_b1_author.py'}elseif($Mode -eq 'b1_test'){'ue_b1_test.py'}elseif($Mode -eq 'b1_stop_test'){'ue_b1_stop_test.py'}elseif($Mode -eq 'b1_sight_author'){'ue_b1_sight_author.py'}elseif($Mode -eq 'b1_sight_test'){'ue_b1_sight_test.py'}elseif($Mode -eq 'b1_sight_author_v2'){'ue_b1_sight_author_v2.py'}elseif($Mode -eq 'b1_sight_test_v2'){'ue_b1_sight_test_v2.py'}elseif($Mode -eq 'b1_sight_author_v3'){'ue_b1_sight_author_v3.py'}elseif($Mode -eq 'b1_sight_test_v3'){'ue_b1_sight_test_v3.py'}elseif($Mode -eq 'b1_sight_author_v4'){'ue_b1_sight_author_v4.py'}else{'ue_b1_sight_test_v4.py'})
 if($Mode -eq 'sight_causal'){$taskScript=Join-Path $PSScriptRoot 'ue_sight_causal_probe.py'}
 if($Mode -eq 'sight_verified'){$taskScript=Join-Path $PSScriptRoot 'ue_sight_verified_test.py'}
@@ -34,9 +35,12 @@ if($Mode -eq 'squad_author'){$taskScript=Join-Path $PSScriptRoot 'ue_squad_autho
 if($Mode -eq 'squad_test'){$taskScript=Join-Path $PSScriptRoot 'ue_squad_test.py'}
 if($Mode -eq 'friendly_fire_author'){$taskScript=Join-Path $PSScriptRoot 'ue_friendly_fire_author.py'}
 if($Mode -eq 'friendly_fire_exec_repair'){$taskScript=Join-Path $PSScriptRoot 'ue_ff_exec_repair.py'}
-if($Mode -eq 'combat_regression'){$taskScript=Join-Path $PSScriptRoot 'ue_combat_regression.py'}
+if($Mode -in @('combat_regression','selected_combat_regression')){$taskScript=Join-Path $PSScriptRoot 'ue_combat_regression.py'}
 if($Mode -eq 'action_gate_author'){$taskScript=Join-Path $PSScriptRoot 'ue_action_gate_author.py'}
 if($Mode -eq 'action_gate_test'){$taskScript=Join-Path $PSScriptRoot 'ue_action_gate_test.py'}
+if($Mode -eq 'action_combat_test'){$taskScript=Join-Path $PSScriptRoot 'ue_action_combat_test.py'}
+if($Mode -eq 'autonomous_author'){$taskScript=Join-Path $PSScriptRoot 'ue_autonomous_combat_author.py'}
+if($Mode -eq 'autonomous_test'){$taskScript=Join-Path $PSScriptRoot 'ue_autonomous_combat_test.py'}
 if($Mode -eq 'behavior_test'){$taskScript=Join-Path $PSScriptRoot 'ue_behavior_test.py'}
 $taskMap=if($Mode -in @('test','b1_test','b1_stop_test','b1_sight_test','b1_sight_test_v2','b1_sight_test_v3','b1_sight_test_v4')){'/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1'}else{'/Engine/Maps/Entry'}
 # Each runtime entry explicitly loads the city once; avoid duplicate startup load.
@@ -55,9 +59,9 @@ $taskArgs=@(
     ('-ExecCmds="py '+($taskScript -replace '\\','/')+'"'),('-abslog="'+$taskLog+'"')
 )
 # Graph-only authors need no rendered material view. Runtime tests retain real RHI.
-$taskGraphOnly=$Mode -in @('behavior_author','behavior_config_author','search_author','squad_author','friendly_fire_author','friendly_fire_exec_repair','action_gate_author')
+$taskGraphOnly=$Mode -in @('behavior_author','behavior_config_author','search_author','squad_author','friendly_fire_author','friendly_fire_exec_repair','action_gate_author','autonomous_author')
 if($taskGraphOnly){$taskArgs+='-NullRHI'}
-$taskBridgeDisabled=$Mode -in @('combat_regression','action_gate_test')
+$taskBridgeDisabled=$Mode -in @('combat_regression','selected_combat_regression','action_gate_test','action_combat_test','autonomous_test')
 if($taskBridgeDisabled){$taskArgs+='-DisablePlugins=ParisEditorBridge'}
 @{mode=$Mode;graph_only_null_rhi=$taskGraphOnly;editor_authoring_bridge_disabled=$taskBridgeDisabled;runtime_visual_acceptance=$false;script=$taskScript}|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $taskOut 'launch_scope.json')
 Copy-Item -LiteralPath $taskScript -Destination (Join-Path $taskOut 'native_source.py')
@@ -82,9 +86,12 @@ if($Mode -eq 'squad_author'){$taskResult=Join-Path $taskOut 'squad_author.json'}
 if($Mode -eq 'squad_test'){$taskResult=Join-Path $taskOut 'squad_runtime.json'}
 if($Mode -eq 'friendly_fire_author'){$taskResult=Join-Path $taskOut 'friendly_fire_author.json'}
 if($Mode -eq 'friendly_fire_exec_repair'){$taskResult=Join-Path $taskOut 'friendly_fire_author.json'}
-if($Mode -eq 'combat_regression'){$taskResult=Join-Path $taskOut 'combat_regression.json'}
+if($Mode -in @('combat_regression','selected_combat_regression')){$taskResult=Join-Path $taskOut 'combat_regression.json'}
 if($Mode -eq 'action_gate_author'){$taskResult=Join-Path $taskOut 'action_gate_author.json'}
 if($Mode -eq 'action_gate_test'){$taskResult=Join-Path $taskOut 'action_gate_runtime.json'}
+if($Mode -eq 'action_combat_test'){$taskResult=Join-Path $taskOut 'action_combat_runtime.json'}
+if($Mode -eq 'autonomous_author'){$taskResult=Join-Path $taskOut 'autonomous_combat_author.json'}
+if($Mode -eq 'autonomous_test'){$taskResult=Join-Path $taskOut 'autonomous_combat_runtime.json'}
 if($Mode -eq 'behavior_test'){$taskResult=Join-Path $taskOut 'behavior_runtime.json'}
 if(-not (Test-Path -LiteralPath $taskResult)){throw "No native $Mode result; process exit is not acceptance"}
 $result=Get-Content -LiteralPath $taskResult -Raw|ConvertFrom-Json

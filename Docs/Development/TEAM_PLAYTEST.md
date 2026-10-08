@@ -1,71 +1,116 @@
-# Restore and play the current Paris test version
+# Restore and verify the unified Paris/G1 version
 
-This guide is for the three entitled CS549 team members. Git supplies source/configuration/version records; private SFTP supplies city, character, animation, gameplay and approved Win64 editor module bytes. Use the Catalog-selected `paris-native-playtest-20261006-german-grip-v11` release, not the owner's mutable workspace or an older packaged build. The synchronized Chinese guide is `TEAM_PLAYTEST_ZH.md`. This Git revision carries the matching generic source/configuration/Catalog; pull the matching remote revision before selecting this asset release. Source publication does not establish teammate runtime acceptance.
+8 October 2026. For the three entitled CS549 members only. Git supplies source,
+configuration and version records; private SFTP supplies native asset/module bytes.
+Use **paris-native-playtest-20261008-g1-npc-vfx-v1** with this matching Git revision.
+[Chinese guide](TEAM_PLAYTEST_ZH.md). Teammates perform second-computer restoration
+and gameplay verification; that gate is pending, not a publisher claim.
 
-## What this version contains
+## Included version
 
-The existing Paris city, six soldiers, basic movement/collision, shooting and original guarded reload, HUD, navigation foundation, human-approved V20 native first-person display, V16 grip for BOTH standard Allied NPCs, and V11 grip WITH FineWoodV15 rifles for all THREE standard Germans. Saved native policies also cover later compatible same-faction spawns; no Python preparation or gameplay bridge. NPC AI drafts remain separate/unselected; follow/patrol/faction decisions are not in this baseline. Sleeves and small German grip imperfections are deferred; dedicated M1 clip, full-return/lifecycle/near-wall, effects and stress FPS remain incomplete. See FIRST_PERSON_FORMAL_V21_RESULT_20261005.md, [Allied adoption](ALLIED_NPC_FORMAL_V18_RESULT_20261006.md) and [German adoption](GERMAN_NPC_FORMAL_V14_RESULT_20261006.md). This is not a complete mission/MVP or a standalone EXE.
+The existing city, six original soldiers, accepted FP V20/Allied V16/German V11
+grips and FineWoodV15 rifle, original firing/reload/damage logic, native NPC
+follow/regroup/combat, visible recoil and selected muzzle flash. The current formal
+Paris map and G1 bridgehead mission map are both selected. G1 includes start,
+crossing, clearing/occupation, victory/loss, safe two-slot save/load and restart.
+Models, fingers, source actions and locations are unchanged by publication.
+Runtime needs neither Python preparation nor ParisEditorBridge. This is an
+editor-backed test, not a new standalone EXE/Shipping build or complete MVP.
 
-## Prepare the checkout and engine
+## Prepare source and local storage
 
-Use Windows, UE **5.8.2** (CL 56702186), Python 3.10+ for synchronization, and the Windows OpenSSH client. Keep the UE-bundled ACLPlugin, Niagara, MeshModelingToolsetExp and InterchangeAssets content installed; no paid third-party plugin or runtime bridge build is required. Obtain the SFTP endpoint/account and trusted SSH host fingerprint privately from Yupu. Do not send passwords/private keys in chat or commit them.
+Use Windows, **UE5.8.2 CL56702186**, Python3.10+ and Windows OpenSSH. Keep bundled
+ACLPlugin/Niagara/MeshModelingToolsetExp/InterchangeAssets content installed. Obtain
+the SFTP host/account and trusted fingerprint privately from Yupu; never copy his
+private key or put secrets in arguments, Git or chat. Same engine version matters:
+the selected Win64 DLL/modules target this editor build, not arbitrary UE5.8.
 
-For a current clean clone, use `git pull --ff-only`. If your checkout contains old pre-cleanup asset-bearing history, follow `Assets/TEAM_SYNC_WORKFLOW.md` Section 8 and make a fresh clone instead. Preserve uncommitted source and ignored asset edits before synchronization; do not use hard reset/clean. Run the following commands from your checkout, not Yupu's absolute disk path.
+Preserve local source AND ignored asset edits and close UE/Blender before restore.
+For a current clean clone use `git pull --ff-only`; never hard-reset/clean or merge
+an old pre-cleanup asset-bearing clone. For that old clone, follow
+Assets/TEAM_SYNC_WORKFLOW.md Section8 and make a fresh checkout. Run from your own
+repository root; do not copy Yupu's absolute paths or Windows junctions.
 
 ```powershell
-git rev-parse --short HEAD
-# Set Owner to your own NetID, e.g. yp549 or jw2046.
+git rev-parse HEAD
+# Use your NetID: yp549 or jw2046.
 powershell -NoProfile -ExecutionPolicy Bypass -File Tools/Integration/initialize_playtest_storage.ps1 -Owner yp549
 python Tools/Integration/restore_native_playtest.py plan
 ```
 
-The initializer creates a single local writable asset home under `Assets/LocalShared/SFTP/workspaces/<Owner>/paris-gameplay-v1/Content` and a project Content junction only when Content is absent. It preserves an existing in-checkout junction and refuses an existing physical Content directory rather than moving/deleting it. Coordinate such a migration separately. Do not copy the server computer's absolute junctions to another PC.
+Initialization creates a local single writable Content home/junction only when
+Content is absent. Existing in-repository junctions are retained. Existing physical
+Content is refused rather than silently moved, merged or deleted.
 
-## Download and verify
+## Download, apply and verify
 
-The selected playtest includes294 files, including private FP/Allied/German grip
-DataAssets/graph and DLL/modules under both `Plugins/ParisGripBindingV18/Binaries/Win64`
-and `Plugins/ParisNPCGripV15/Binaries/Win64`. Do not substitute a module built
-against another engine build. Generic plugin source and explicit project
-enablement come from Git. German rifle mesh/material dependencies are included;
-the optional Blender-source release is not needed for playing. Shipping builds
-are not supplied.
+Restore exactly two Catalog manifests: france-liberation-content and
+paris-gameplay-native-playtest. City first download is approximately26.47GiB;
+subsequent transfers fetch missing/changed files only. The native manifest supplies
+models/materials/actions, current AI Blueprints, both maps, G1 controller, selected
+effect/profile and all four matching runtime plugin DLL/modules. Blender originals,
+experimental evidence, PDBs, caches and Yupu's saves are not needed to play.
 
-Only two active manifests are needed for this playtest: `france-liberation-content` and `paris-gameplay-native-playtest`. The new manifest includes the required character/action/material/skeleton closure at the correct game paths; do not download every historical/source/lab baseline as a prerequisite. The first city download is approximately 26.47 GiB, plus the selected native dependencies. Subsequent synchronization transfers only missing/different files; SFTP is not gameplay streaming or binary block-delta transfer.
-
-First connect interactively and compare the displayed SSH fingerprint against Yupu's privately supplied value before trusting the host. Substitute your private endpoint and account:
+First connect interactively and compare the fingerprint with the trusted private
+value. Replace placeholders with privately supplied values:
 
 ```powershell
 sftp -P 22222 YOUR_ACCOUNT@YOUR_PRIVATE_HOST
-# After fingerprint verification and login, enter: bye
+# Verify fingerprint, then: bye
 python Tools/Integration/restore_native_playtest.py download --host YOUR_PRIVATE_HOST --user YOUR_ACCOUNT
 python Tools/Integration/restore_native_playtest.py apply
-```
-
-Password mode runs in your own interactive terminal and lets OpenSSH prompt; no password is written to arguments/files. If your environment cannot prompt in piped SFTP, or you use automation, configure your own approved SSH public key and add `--identity C:/path/to/your/private_key`. `--known-hosts` can select an existing pinned host file. Never copy Yupu's private key. Failed transfers stay under ignored `tmp/native-playtest-restore/`; the all-file SHA check prevents applying partial/incorrect downloads. The generated `download.sftp` and `plan.json` contain exact mappings, not secrets.
-
-Close Unreal/Blender before these operations. Existing different files make `apply` stop. Review and preserve your edits; if replacing them is intended, run `apply --backup-conflicts` to retain verified backups under ignored `tmp/native-playtest-restore/backups-.../`. Successful apply verifies all selected bytes and removes only its verified disposable transfer objects; it never deletes conflict backups, unknown Content or retired packages. Re-run `verify` whenever your restored state is uncertain:
-
-```powershell
 python Tools/Integration/restore_native_playtest.py verify
 ```
 
-All members have shared-account CRUD on published SFTP child directories, but do not edit/delete published objects or releases. Team immutability and one binary owner are procedural rules, not filesystem object-lock protection. Continue using task/day-end synchronization before publishing your own changed binary versions.
+Passwords are entered at the local OpenSSH prompt. If piped password prompting is
+unavailable, use your own authorized key with `--identity C:/path/to/your/key`;
+`--known-hosts` selects your pinned-host file. Never disable host-key checking.
+All required downloads stage and pass size/SHA-256 before active placement.
+Existing different files stop apply. After reviewing/preserving your work,
+`apply --backup-conflicts` explicitly replaces only selected paths while retaining
+verified backups under tmp/native-playtest-restore/backups-*. No mirror deletion.
+Verification also checks the matched source contract, allowing normal Git CRLF/LF
+conversion only. A mismatch means wrong/locally edited source or assets, not a
+reason to bypass verification. Save the ignored verified.json result for feedback.
 
-## Launch and test
+## Launch and test on your computer
 
 ```powershell
+# Default: G1 bridgehead mission. CheckOnly opens no game.
+powershell -NoProfile -ExecutionPolicy Bypass -File Tools/Integration/run_paris_native_preview.ps1 -CheckOnly
 powershell -NoProfile -ExecutionPolicy Bypass -File Tools/Integration/run_paris_native_preview.ps1
-# For a different installation, append:
-# -EngineEditor 'E:/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor.exe'
+# Separate original formal map:
+powershell -NoProfile -ExecutionPolicy Bypass -File Tools/Integration/run_paris_native_preview.ps1 -Entry Formal
 ```
 
-The launcher checks selected gameplay hashes, city availability/sizes and the exact installed UE version; it opens the saved `/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1` with `-game`, Python and ParisEditorBridge disabled. It does not run one-time authors, test harnesses or save a map. `-CheckOnly` performs startup prerequisites without opening a game window. Full city SHA verification belongs to the restoration step, not every launch.
+For another UE installation location, add `-EngineEditor 'E:/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor.exe'`.
+The launcher verifies selected source/native hashes, city sizes, UE version and
+module BuildIds before ordinary -game with -DisablePython and no editor bridge.
+No author/test scripts, map saves or automatic termination run. Close each visible
+game yourself before launching another. First shader/texture preparation is not a
+warmed FPS measurement. This is local single-player testing, not SFTP multiplayer.
 
-Click the game window. WASD moves; mouse looks; left click fires; R reloads; Alt+F4 closes. Allow initial texture/shader preparation; startup stutter is not a warmed FPS measurement. This is an independent local single-player playtest, not a multiplayer session over SFTP.
+WASD/mouse/left click/R retain original controls. G1: wait for Ready, Enter starts,
+F5 requests save, F9 loads, Ctrl+R fully restarts; plain R still reloads. Follow HUD
+safe-save eligibility/rejection messages. `-LoadSave` opens G1 with your own latest
+valid local slot. Save files remain machine-local and are not copied from Yupu.
 
-Report the Git SHA, release version, UE version, restore result, startup/log path and observations for movement/holding/fire/reload. Record black/missing materials or visible deformation with a screenshot and reproduction steps. Logs are in `tmp/continuous-arms-native/human-native-*.log`; share privately, not as public commercial screenshots or raw logs. Test at least one magazine/reload, forward/back/strafe movement, camera up/down and close-wall shooting. Do not mark teammate restoration/runtime acceptance complete until an actual teammate reports it.
+Teammates should verify readable initial view and all original characters/grips,
+player+Allied bridge traversal, mutual encounter/fire/damage, G1 progression,
+visible recoil/flash, one magazine and reload, non-default safe save, close/reopen
+load, victory/loss and restart. Report actual failures; do not infer success from
+hashes or reproduce private scripted fixtures to claim ordinary playthrough.
 
-## Known supplier references
+Return Git SHA, native asset version, UE version, restore verification output,
+CheckOnly result and actual test findings/steps. Share screenshots/logs privately;
+logs are in tmp/continuous-arms-native/human-native-*.log. Do not publish commercial
+screenshots/raw logs. Until actual feedback arrives, second-machine restore/run,
+whole mission, stress FPS, Shipping and course acceptance remain pending.
 
-Read-only audit found zero missing hard dependencies and five pre-existing dangling supplier soft references (material customizer, car animation alias, rope tint texture and road debug-library alias). Their exact paths/referencers are recorded in the release manifest. They are not repaired or hidden by this publication, and no claim of a pristine vendor pack is made. Unknown new errors still require investigation.
+## Known supplier and gameplay limits
+
+The read-only closure has no missing hard package and retains the same five
+supplier soft-reference gaps recorded in the manifest. Do not fabricate fixes or
+ignore new errors. Dedicated M1/contact/full-motion, destructive-equipment safety,
+near-wall/whole-city visual reliability and measured performance remain bounded by
+their dated results. Publication adds no new gameplay or visual acceptance.

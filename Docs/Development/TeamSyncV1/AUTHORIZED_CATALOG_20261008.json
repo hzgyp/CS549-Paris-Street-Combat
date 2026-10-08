@@ -1,0 +1,17 @@
+{
+  "authorization": "2026-10-08 user requests current source and assets synchronized for teammates; teammate runtime verification delegated",
+  "release": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+  "original": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 12949,
+    "sha256": "d9052a9e3d2e7f0a292b618275638528bbbfd69f8f20bb6f08e8127fe6cf20af"
+  },
+  "current": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 12969,
+    "sha256": "44655b8cc43fbe58d69b5b54c75330610d119957c453bc35892553cc1f420d42"
+  },
+  "manifest_sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
+  "only_catalog_guard_advances": true,
+  "previous_guard_snapshots_unchanged": true
+}

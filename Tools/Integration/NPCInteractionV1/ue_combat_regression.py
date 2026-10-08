@@ -14,6 +14,7 @@ from ue_equipment_fixture import allied_config, stage_allied
 OUT = STORE / "Evidence/NPCInteractionV1" / os.environ["CS549_NPC_IDENTITY"]
 RESULT = OUT / "combat_regression.json"
 VERSION = os.environ["CS549_NPC_BEHAVIOR_VERSION"]
+SELECTED = os.environ.get("CS549_NPC_MODE") == "selected_combat_regression"
 rows = guard_rows()
 report = {"identity": os.environ["CS549_NPC_IDENTITY"], "cases": [], "errors": [], "map_saved": False,
           "scope": "player/Allied/German original native shot FF transaction regression; no grip/AI visual approval"}
@@ -23,6 +24,7 @@ actors = unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
 phase, started, phase_time = "setup", time.monotonic(), 0
 callback = None
 player = allies = germans = policy = wall = None
+policy_class = None
 origin = direction = perpendicular = yaw = None
 index = 0
 fixture = None
@@ -75,6 +77,10 @@ def prepare(role, enabled):
     global fixture, reload_started_game_time
     roster = [player] + allies + germans
     for i, a in enumerate(roster):
+        if SELECTED and i:
+            controller = unreal.AIHelperLibrary.get_ai_controller(a)
+            controller.call_method("PC_EnableCombat", args=(False,))
+            controller.call_method("PC_PolicyHold")
         a.call_method("PC_ResetLifecycle")
         a.set_actor_location(origin + direction * (2000 + i * 250) + perpendicular * 1000, False, False)
     if role == "player":
@@ -146,7 +152,7 @@ def next_case():
 
 
 def tick(delta):
-    global phase, phase_time, player, allies, germans, policy, wall, origin, direction, perpendicular, yaw, index, reload_started_game_time
+    global phase, phase_time, player, allies, germans, policy, policy_class, wall, origin, direction, perpendicular, yaw, index, reload_started_game_time
     try:
         elapsed = time.monotonic() - started
         assert elapsed < 190, "Combat regression timeout"
@@ -156,14 +162,16 @@ def tick(delta):
             assert guards_match(rows)
             assert unreal.load_class(None, "/Script/ParisEditorBridge.ParisBlueprintAuthoring") is None
             report["editor_authoring_bridge_disabled"] = True
-            imported = json.loads((STORE / "Evidence/GermanRifleUEV1/import_v3/result.json").read_text())
-            authored = json.loads((STORE / "Evidence/GermanRifleUEV1/author_v2/result.json").read_text())
-            for r in imported["native_files"] + authored["native_files"]:
-                assert (ROOT / r["path"]).stat().st_size == r["size_bytes"] and digest(ROOT / r["path"]) == r["sha256"]
+            if not SELECTED:
+                imported = json.loads((STORE / "Evidence/GermanRifleUEV1/import_v3/result.json").read_text())
+                authored = json.loads((STORE / "Evidence/GermanRifleUEV1/author_v2/result.json").read_text())
+                for r in imported["native_files"] + authored["native_files"]:
+                    assert (ROOT / r["path"]).stat().st_size == r["size_bytes"] and digest(ROOT / r["path"]) == r["sha256"]
             phase = "loading"
             assert levels.load_level("/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1")
             anchors = {a.get_actor_label(): a for a in actors.get_all_level_actors()}
-            allied_equipment = allied_config(anchors["PC_City_Ally1"])
+            if not SELECTED:
+                allied_equipment = allied_config(anchors["PC_City_Ally1"])
             origin, destination = [anchors[n].get_actor_location() for n in ("PC_City_Ally1", "PC_City_Ally2")]
             lane = destination - origin
             direction = unreal.Vector(lane.x, lane.y, 0) / sqrt(lane.x**2 + lane.y**2)
@@ -173,16 +181,26 @@ def tick(delta):
                 if a.get_actor_label().startswith(("PC_City_Ally", "PC_City_Enemy")):
                     actors.destroy_actor(a)
             for team, count, prefix in ((0, 2, "BP_PCAlliedSquad"), (1, 3, "BP_PCGermanSquad")):
+                if SELECTED:
+                    prefix = "BP_PCAlliedCombat" if team == 0 else "BP_PCGermanCombat"
                 cls = unreal.EditorAssetLibrary.load_blueprint_class(DEST + "/" + prefix + VERSION)
                 for i in range(count):
                     npc = actors.spawn_actor_from_class(cls, origin + perpendicular * (1000 + team * 800 + i * 180), yaw)
                     npc.set_actor_label("NPCI_Combat_" + str(team) + "_" + str(i))
-                    if team == 1:
-                        stage_gun(npc, authored)
-                    else:
-                        report.setdefault("allied_fixture_equipment", []).append(stage_allied(npc, allied_equipment))
-            a = actors.spawn_actor_from_class(unreal.EditorAssetLibrary.load_blueprint_class(DEST + "/BP_PCFriendlyFirePolicyV1"), origin, unreal.Rotator())
-            a.set_actor_label("NPCI_FriendlyFirePolicy")
+                    if not SELECTED:
+                        if team == 1:
+                            stage_gun(npc, authored)
+                        else:
+                            report.setdefault("allied_fixture_equipment", []).append(stage_allied(npc, allied_equipment))
+            # The formal map now has the one native global policy. Reuse it;
+            # do not silently create a second competing policy for regression.
+            policy_class = unreal.EditorAssetLibrary.load_blueprint_class(DEST + "/BP_PCFriendlyFirePolicyV1")
+            existing = [a for a in actors.get_all_level_actors() if a.get_class() == policy_class]
+            assert len(existing) <= 1, "Duplicate native friendly-fire policies"
+            report["reused_saved_ff_policy"] = bool(existing)
+            if not existing:
+                a = actors.spawn_actor_from_class(policy_class, origin, unreal.Rotator())
+                a.set_actor_label("NPCI_FriendlyFirePolicy")
             obstacle = actors.spawn_actor_from_class(unreal.StaticMeshActor, origin + perpendicular * 3000, yaw)
             obstacle.set_actor_label("NPCI_TransactionWall")
             obstacle.static_mesh_component.set_mobility(unreal.ComponentMobility.MOVABLE)
@@ -200,7 +218,22 @@ def tick(delta):
             player = unreal.GameplayStatics.get_player_pawn(world, 0)
             allies = [roster["NPCI_Combat_0_" + str(i)] for i in range(2)]
             germans = [roster["NPCI_Combat_1_" + str(i)] for i in range(3)]
-            policies = [a for a in unreal.GameplayStatics.get_all_actors_of_class(world, unreal.Actor) if a.get_actor_label() == "NPCI_FriendlyFirePolicy"]
+            if SELECTED:
+                for a in allies + germans:
+                    adapters = [x for x in unreal.GameplayStatics.get_all_actors_of_class(world, unreal.ParisNPCGripActor)
+                                if prop(x, "Target") == a]
+                    assert len(adapters) == 1 and prop(adapters[0], "Initialized") and not str(prop(adapters[0], "BindingError"))
+                    config = prop(adapters[0], "BindingConfig").get_path_name()
+                    assert config.endswith("DA_PC_AlliedGripV16.DA_PC_AlliedGripV16" if prop(a, "TeamId") == 0
+                                           else "DA_PC_GermanGripV11.DA_PC_GermanGripV11"), config
+                    assert prop(a, "WeaponAppearance") and a.mesh.get_post_process_instance()
+                    c = unreal.AIHelperLibrary.get_ai_controller(a)
+                    c.call_method("PC_ConfigureNPCEquipment", args=(True, True))
+                    assert not prop(a, "WeaponAppearance").get_actor_enable_collision()
+                    report.setdefault("selected_equipment", []).append({"team": prop(a, "TeamId"), "config": config,
+                        "gun": prop(a, "WeaponAppearance").get_class().get_path_name()})
+                report["historical_manual_staging"] = False
+            policies = unreal.GameplayStatics.get_all_actors_of_class(world, policy_class)
             assert len(policies) == 1
             policy = policies[0]
             wall = next(a for a in unreal.GameplayStatics.get_all_actors_of_class(world, unreal.StaticMeshActor)
