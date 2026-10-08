@@ -1,0 +1,413 @@
+{
+  "schema": "paris_failure_reference_manifest_v1",
+  "date": "2026-10-08",
+  "private_bytes_retained_in_place": true,
+  "no_failed_receipt_relabelled": true,
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v1_20261008/closure.json",
+      "size_bytes": 431,
+      "sha256": "75aae31068401835516117e75ea326e1aaae17bef8f3f2b8b8001b4871fe773b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v1_20261008/launcher_source.ps1",
+      "size_bytes": 2736,
+      "sha256": "1191132420b3b0a6342e64bcdfba5311e575754f6b1b74139cf3955b75466b20"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v1_20261008/native_source.py",
+      "size_bytes": 6901,
+      "sha256": "2468f8bbe9200cfc9fc61fa8558890710e74d3e33d7bb71702f3d56058aa684b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v1_20261008/result.json",
+      "size_bytes": 291,
+      "sha256": "d78964939d9d2bc5947587270b235446a5613a5f0f55fc340db3894ecbc3eda6"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v2_20261008/closure.json",
+      "size_bytes": 400,
+      "sha256": "97c80d01796f85a2af5728a3f9e490fb3d8e5c0f0567cde58ccf5570b2f41ed7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v2_20261008/launcher_source.ps1",
+      "size_bytes": 2736,
+      "sha256": "1191132420b3b0a6342e64bcdfba5311e575754f6b1b74139cf3955b75466b20"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v2_20261008/native_source.py",
+      "size_bytes": 7196,
+      "sha256": "8a3ce1c336a35de4dbd70657d227d9798d04df7de3a2dc2f7d453c2a65c5146c"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v2_20261008/result.json",
+      "size_bytes": 1172,
+      "sha256": "c506a5d9f649b0fa89f1b72e5f2f3bb69b26a1f155edc218d4d38aaee9af969d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v3_20261008/launcher_source.ps1",
+      "size_bytes": 2736,
+      "sha256": "1191132420b3b0a6342e64bcdfba5311e575754f6b1b74139cf3955b75466b20"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v3_20261008/native_source.py",
+      "size_bytes": 7518,
+      "sha256": "5776b969c823d96fd91c87ca0c4c5dc42f2d89472b5b0ce03ff1d4654b9c206a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v3_20261008/result.json",
+      "size_bytes": 15881,
+      "sha256": "0db523f0eb03af789e3813741eb81efdae5630ab54d7b8e40e24c3def68f25e9"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/author_v3_20261008/saved_navmesh.json",
+      "size_bytes": 1016273,
+      "sha256": "8c033782a6711072162b95903a57fb8eaa7eda9d6c305d900f06627472b4fe17"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/encounter_config_v1_20261008/rejection.json",
+      "size_bytes": 694,
+      "sha256": "2987916aa2df55047845d9cb84a5a3ab28724a3784d6d307e71e13d0b10c59e0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v1_20261008/closure.json",
+      "size_bytes": 144,
+      "sha256": "4041c1c54dcfa498c90b05765f92c862565c70f686545deafd1d978e3ea10e3a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v1_20261008/launcher_source.ps1",
+      "size_bytes": 3118,
+      "sha256": "95bf45bc459bc3049633d53f1e02cfc4e7c2991a8de16065248c88864fb76630"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v1_20261008/native_source.py",
+      "size_bytes": 16901,
+      "sha256": "55b32dea3ae5de99d92524a1a027b4fa1151edaae1cb2ad1d07888c6e917784e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v1_20261008/ready.png",
+      "size_bytes": 674657,
+      "sha256": "92185ac594b40de3c691c02c0d2c7f461b8cb113cfbd32c1cc5a195ad676674f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v1_20261008/result.json",
+      "size_bytes": 164915,
+      "sha256": "fa6af7fde3877f51872d37851ded2ce92af060bd72b9f2fe9ba82e9ba554b23a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v2_20261008/audit.json",
+      "size_bytes": 483,
+      "sha256": "ddebcd04bacacddd8d4bc092d308c67bb3457f6a3a19c7b4ad4d44d81e7c2587"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v2_20261008/expected_save.json",
+      "size_bytes": 2857,
+      "sha256": "ab9a265e7b7b6a9834e095501d16f0b92a8afe154c105cae1e86f4f2ff0824f9"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v2_20261008/launcher_source.ps1",
+      "size_bytes": 3207,
+      "sha256": "906422431a065d3e57db070f2be280dead616c6d9d57ab1c827fcb3135d63303"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v2_20261008/native_source.py",
+      "size_bytes": 20569,
+      "sha256": "35ea7e6f54de63e650f738570983d60cb50bcd46f48892953fcc0932f0211568"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v2_20261008/ready.png",
+      "size_bytes": 675170,
+      "sha256": "1a7b19ea69e89189c6825ec94fdbc7d136ae96d6b076fd08e6bc9d963b6a7216"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v2_20261008/result.json",
+      "size_bytes": 218556,
+      "sha256": "4cf930275a69d7ea9d48c5a24b53d52259797c4d3b770ecce369007ac73f443a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v3_20261008/audit.json",
+      "size_bytes": 524,
+      "sha256": "6fccce8b7fbf6517c59cc9722d5819ccf1dfd2aa0e720d142d65a2e7e4ffeaab"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v3_20261008/launcher_source.ps1",
+      "size_bytes": 4473,
+      "sha256": "b26dedea6ef4ce742dcfb061a9895055436eae1e4b486c840fe7d25790d66429"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v3_20261008/native_source.py",
+      "size_bytes": 31162,
+      "sha256": "043771c44b17d0cf2a12b45ab52cd405ab6b1acf5185a633abce3fcf20f140bc"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v3_20261008/ready.png",
+      "size_bytes": 1836035,
+      "sha256": "3570c5623ececaf4f5a772835b673a177b3e32756a8ff2f9692aeb8c6f727808"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v3_20261008/result.json",
+      "size_bytes": 685769,
+      "sha256": "51597abad95602ba9b829bfee9284932ef5de9f46276d399bbe9a738dcc95b78"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/functional_v3_20261008/runtime_manifest.json",
+      "size_bytes": 1527,
+      "sha256": "7aaa8629b758874a198924d6e60baabe0c55ec8769d8c6d905feac7cc687e60d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/plain_v1_20261008/audit.json",
+      "size_bytes": 547,
+      "sha256": "6471be6a20bcf08f48a3fd58f070ac5c4e44f52163fa2b2867970fa00dbdb9c2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/plain_v1_20261008/audit_python_log_v2.json",
+      "size_bytes": 982,
+      "sha256": "135f6292743b6aacbfd2a4e661914e65ebd7992056eaae1414645e4fc7cf706c"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/plain_v1_20261008/audit_python_log_v2_source.py",
+      "size_bytes": 3298,
+      "sha256": "17fe54ec2ead6cdf1790f11084a23b7f69a28f8bb3e0730e9b0ca5bdf3bdae2b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/plain_v1_20261008/launcher_source.ps1",
+      "size_bytes": 4473,
+      "sha256": "2e3dde047f2fd88a6a64979ad9c9d95f84071268aad8e6187caef0b0ee59d1ce"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/plain_v1_20261008/runtime_manifest.json",
+      "size_bytes": 1527,
+      "sha256": "7aaa8629b758874a198924d6e60baabe0c55ec8769d8c6d905feac7cc687e60d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/ready_v1_20261008/launcher_source.ps1",
+      "size_bytes": 2736,
+      "sha256": "1191132420b3b0a6342e64bcdfba5311e575754f6b1b74139cf3955b75466b20"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/ready_v1_20261008/native_source.py",
+      "size_bytes": 13371,
+      "sha256": "12e79d80e88f15153fe29aec09c3fe7666b92f2e9c555bcf2328f6ae75841f3b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/ready_v1_20261008/ready.png",
+      "size_bytes": 1518510,
+      "sha256": "7dcbc2a5fed331243190be8f32e80e18e5b613fd124c8e9502fb6be4172ef2bd"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/ready_v1_20261008/result.json",
+      "size_bytes": 189857,
+      "sha256": "9b73ea68c977b7ff7d6e33b5e1be9ae8a2e09b44716beb30711446b6367155fd"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v1_20261008/audit.json",
+      "size_bytes": 479,
+      "sha256": "14b63c96e6e91221925138314ab64cab767de2c502ef607d24aaf277a35486b0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v1_20261008/launcher_source.ps1",
+      "size_bytes": 3207,
+      "sha256": "906422431a065d3e57db070f2be280dead616c6d9d57ab1c827fcb3135d63303"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v1_20261008/native_source.py",
+      "size_bytes": 23304,
+      "sha256": "f25bdf469a420683214f4ef446d705717b9060cdf812e840197fcddd7f43e1ab"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v1_20261008/result.json",
+      "size_bytes": 3874,
+      "sha256": "348eee8f7caeaa365b74cbe11a67d08c57f825b4c187e7c8528d417b3da23f16"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v2_20261008/audit.json",
+      "size_bytes": 479,
+      "sha256": "9d2ab8d5856388794d895ec560519fa2830c586af3b307fa3c57a3cba166c698"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v2_20261008/launcher_source.ps1",
+      "size_bytes": 3207,
+      "sha256": "906422431a065d3e57db070f2be280dead616c6d9d57ab1c827fcb3135d63303"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v2_20261008/native_source.py",
+      "size_bytes": 23980,
+      "sha256": "3af83ca85d2b6290697b773b24f4b1a6a6d67c592842523121a6109e169fee5b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v2_20261008/ready.png",
+      "size_bytes": 678664,
+      "sha256": "4a6acbacbb0fc9185b67c4e7c63e19bb47be8e72d3b7d68377b3b7dd992d3b08"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v2_20261008/result.json",
+      "size_bytes": 1342044,
+      "sha256": "1e135c98a998ad6ca1255aa11506d9159b544445d982e4f193ed6441bdd1b331"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/G1MissionV1/travel_v2_20261008/travel_leg_0.png",
+      "size_bytes": 1756635,
+      "sha256": "f1010049bbc266ca5daa9ce42d9148ce524bb656f90cc4a7bd24b49bdbc4e8ff"
+    },
+    {
+      "path": "tmp/g1-build-v1-20261008.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tmp/g1-build-v10-20261008.log",
+      "size_bytes": 4837,
+      "sha256": "c60d653f170340be5c00414ae1726ea3d9fe66feb11002d062769a263fffc154"
+    },
+    {
+      "path": "tmp/g1-build-v2-20261008.log",
+      "size_bytes": 12745,
+      "sha256": "bfc9eb0e75cab80cf8afc75f4d6877ec78e3c31e392b22e9e7036ee31edc0fff"
+    },
+    {
+      "path": "tmp/g1-build-v3-20261008.log",
+      "size_bytes": 1379,
+      "sha256": "2a8f03389572e2c0828c1ca876e458c392e89324159194685ba32e49d30d34b4"
+    },
+    {
+      "path": "tmp/g1-build-v4-20261008.log",
+      "size_bytes": 4713,
+      "sha256": "a4924097053d5d169261bce51be6365278eceee84aa46c343d7242c5e435b7bd"
+    },
+    {
+      "path": "tmp/g1-build-v5-20261008.log",
+      "size_bytes": 4826,
+      "sha256": "802de65e0bbc70cc8f69b19607f45fc4fcc4bd042463d7ee2909e4e8b30e15f7"
+    },
+    {
+      "path": "tmp/g1-build-v6-20261008.log",
+      "size_bytes": 4827,
+      "sha256": "2daad878758bd21190cf04e61dea3c9ba755256cfa0d66946c0c7fb5dae98771"
+    },
+    {
+      "path": "tmp/g1-build-v7-20261008.log",
+      "size_bytes": 4827,
+      "sha256": "847560c261cd73e21f9046e15571ecbd839fed7d7b2559806e1991072796d095"
+    },
+    {
+      "path": "tmp/g1-build-v8-20261008.log",
+      "size_bytes": 4828,
+      "sha256": "7a8908e47501e0bf241d2d2153343c0f4d8096a42b3daca7a2a2642b67d0845d"
+    },
+    {
+      "path": "tmp/g1-build-v9-20261008.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tmp/g1-build-v9b-20261008.log",
+      "size_bytes": 4714,
+      "sha256": "963dda07ad97a8ab29040a7e44fc8dc339e21026b539c3e8da597105d5375f65"
+    },
+    {
+      "path": "tmp/g1-isolated-build-v1-20261008.log",
+      "size_bytes": 9597,
+      "sha256": "55352e3f45e4d5f6625d997cd6a507196afd56f0e8a364a7866913421a814da3"
+    },
+    {
+      "path": "tmp/g1-mission-v1/author_v1_20261008.log",
+      "size_bytes": 273284,
+      "sha256": "4c13a7313a59fc18777dbc9d640f9bc3a5ed0651941fcd171c002aa67ae45b96"
+    },
+    {
+      "path": "tmp/g1-mission-v1/author_v1_20261008.log.exit.json",
+      "size_bytes": 120,
+      "sha256": "6d69a9d5fe9e96fbaf8a69604b297349699226bb701c96896d5a0e99ed742021"
+    },
+    {
+      "path": "tmp/g1-mission-v1/author_v2_20261008.log",
+      "size_bytes": 270786,
+      "sha256": "3b2de01e3aacfe8c9bd42ee21553517dabd955eafa983aaf3d564d2b6287b846"
+    },
+    {
+      "path": "tmp/g1-mission-v1/author_v2_20261008.log.exit.json",
+      "size_bytes": 120,
+      "sha256": "ee7a4018688f316feea654993ac653daf6819aefbe48b391a5f099af03df2898"
+    },
+    {
+      "path": "tmp/g1-mission-v1/author_v3_20261008.log",
+      "size_bytes": 268344,
+      "sha256": "091fdf77e514a0a947b2427903bc7b73437ebaef451cfb9714cc77312cc2c089"
+    },
+    {
+      "path": "tmp/g1-mission-v1/author_v3_20261008.log.exit.json",
+      "size_bytes": 120,
+      "sha256": "ac046ecb46c5af18805116de67e4b020d9e6d4ffa969d04430a8c882b4420f37"
+    },
+    {
+      "path": "tmp/g1-mission-v1/functional_v1_20261008.log",
+      "size_bytes": 598929,
+      "sha256": "e3e5cd4bfd833ccab8f3fdb01ef706d5c01f44b9ea0f5373fc46ef7424ed2fb9"
+    },
+    {
+      "path": "tmp/g1-mission-v1/functional_v1_20261008.log.exit.json",
+      "size_bytes": 128,
+      "sha256": "71e4fc058b896d62de2c827f9250f81a284eadc54c2b8ddca37730960906daeb"
+    },
+    {
+      "path": "tmp/g1-mission-v1/functional_v2_20261008.log",
+      "size_bytes": 298009,
+      "sha256": "8380172977d5c1b3804b8aea4484dc17db1cf6872355c8ac2b9f510366ac5a52"
+    },
+    {
+      "path": "tmp/g1-mission-v1/functional_v2_20261008.log.exit.json",
+      "size_bytes": 127,
+      "sha256": "86d5fe0eb1fdb905ada6f8f19e7db641d8af0ef02198d1d4c43d1c9ceaacee42"
+    },
+    {
+      "path": "tmp/g1-mission-v1/functional_v3_20261008.log",
+      "size_bytes": 295162,
+      "sha256": "7e4d64b738b38ef2927d03ac629e454c98f8774241922b95f6cbb8de0da7d5bb"
+    },
+    {
+      "path": "tmp/g1-mission-v1/functional_v3_20261008.log.exit.json",
+      "size_bytes": 127,
+      "sha256": "e0091647fb3e3848b02d0b64491c0b3ec194fffd2e54275d9b2284356e8f583a"
+    },
+    {
+      "path": "tmp/g1-mission-v1/plain_v1_20261008.log",
+      "size_bytes": 280179,
+      "sha256": "1a29cb97cc086b4ac4d59ad82e962efb3006a15bfeca3ac6d94436ec565becb8"
+    },
+    {
+      "path": "tmp/g1-mission-v1/plain_v1_20261008.log.exit.json",
+      "size_bytes": 118,
+      "sha256": "fb059d422aa66f36a7000a679f10fe0ad56fe1b94677709329fac74f80ac0bc2"
+    },
+    {
+      "path": "tmp/g1-mission-v1/ready_v1_20261008.log",
+      "size_bytes": 298384,
+      "sha256": "5835575afffff4d0455d389d487117a7fcb01d35c5d4729192a8fbc6f20930e2"
+    },
+    {
+      "path": "tmp/g1-mission-v1/ready_v1_20261008.log.exit.json",
+      "size_bytes": 117,
+      "sha256": "5db6d9c0ff9d6802d4bdb0ebbe3b16a9df5eecc8317ed6ea6131516347b84fa2"
+    },
+    {
+      "path": "tmp/g1-mission-v1/travel_v1_20261008.log",
+      "size_bytes": 288923,
+      "sha256": "f5bec43b2adb88f5e5d641b4100d876a8914615c30252526ccc742932cd0aa9c"
+    },
+    {
+      "path": "tmp/g1-mission-v1/travel_v1_20261008.log.exit.json",
+      "size_bytes": 119,
+      "sha256": "ce39a1736a74a70e7140fb13c95fd10ae6b1183b3a0e527765570d8446655dcc"
+    },
+    {
+      "path": "tmp/g1-mission-v1/travel_v2_20261008.log",
+      "size_bytes": 293020,
+      "sha256": "606e0ab030562d799b51c240b0432f1ae244350235eeefea65df5ef814bd5505"
+    },
+    {
+      "path": "tmp/g1-mission-v1/travel_v2_20261008.log.exit.json",
+      "size_bytes": 119,
+      "sha256": "8df39418b3e3f5a2703cfc3892553c15f85a0afededd2e8d51c1aa9e84db47e3"
+    }
+  ]
+}

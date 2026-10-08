@@ -1,5 +1,15 @@
 # 失败案例索引 / Failure case index
 
+8 October G1 mission authoring: [MI001](MI001-20261008-g1-mission-authoring/FAILURE_ANALYSIS.md).
+Compiler/world/save/callback/rotation/reporting failures and actual lateral squad crossing failure are retained.
+Near-bank FunctionalV3 correctly denies a hostile-LOS save; its good serial1 remains protected.
+PlainV1's failed log-wording audit is retained; a separate installed-source-supported read-only revision passes.
+New fixture mechanisms keep the same physical/resource/save thresholds and original703.
+
+8 October G1 spawn appearance: [ML022](ML022-20261008-g1-initial-visual-site/FAILURE_ANALYSIS.md).
+Walkable white does not establish a usable rendered spawn: old S sits within a visible residence proxy.
+Preserve physical proofs; exclude this staging and visually admit the separate measured near-bank proposal.
+
 7 October枪口特效准备：[AN010 已购特效引用与独立插件编译](AN010-20261007-purchased-muzzle-vfx/FAILURE_ANALYSIS.md)。
 包内序列化名称不等于硬依赖；首轮过严扫描停止，第二轮记录两个未分类名称，
 原生注册/加载/编译仍必测。独立插件UHT缺Category失败保留，不同v2补元数据后

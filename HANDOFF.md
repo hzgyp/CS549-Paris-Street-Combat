@@ -1,5 +1,51 @@
 # Paris Street Combat - new-session handoff
 
+**G1 local functional version / bounded checks PASS — 8 October:**
+User requests documentation first, then development of C crossing/G1 capture
+and working save/load. Read MissionLoopV1/G1_MIDTERM_IMPLEMENTATION_20261008,
+G1_BRIDGE_TRANSIT_PLAN, G1_NEARBANK_STAGING_PLAN and dated RESULT, all withZH;
+also MI001/ML022. Native runtimeV10 compiled/installed, own saved map/controller.
+Original formal map/703/model/fingers/actions/weapons/Catalog remain protected.
+The old S is physically traversable but visually inside a residence proxy;
+exclude as spawn (ML022), no lighting/FP repair. Adopt reviewed near-bank exact
+25cm white starts player1912.5,-20662.5 /Ally11762.5,-21112.5 /
+Ally21487.5,-20837.5cm yaw0. Private staging_author_v2 is latest owned-map
+admission: map1504660bytes SHA7f5410b7...04e759bb/controller55753bytes
+SHA9c9ffd8a...092a5dd;310tiles/1656polygons unchanged. Fingerprint
+G1V2_20261008_nearbank703_roster6_v1; production save prefixParisG1V2.
+Native shared centreline/file policy replaces failed lateral bridge formation;
+retains original reservation/MoveTo/RVO/speed/capsules/55cm/25sec. TravelV4 from
+current saved map passes both Allies31.15/49.93cm, bothX>=5600/Failed=false.
+Navigation fixture isolates defenders; independent encounter is separate.
+FunctionalV3 correctly denies active hostile-LOS save, preservingserial1.
+Documented isolated FunctionalV4 passesserial2:75HP/1+16ammo/1shot and
+Ally2/German1dead. Fresh LoadV2 passes exact restore/fallback/bad checksum,
+schema/identity/created-ammo/old-config rejection without partial mutation.
+LifecycleV1 passes missing-actor Error/full fresh restart/unsafe reload save
+rejection/load during reload/no late ammo. OutcomesV2 passes order/early kills,
+ally casualty/death priority/restart/Won save (explicit unit fixtures).
+EncounterV2 independently passes actual Allies9/Germans5 shots/two-sided damage:
+3Germansdead/Ally2dead/Ally1at30HP/player100HP0shots. Single sample, not balance.
+PlainV1 native Ready/-game/-DisablePython/bridge absent/exit0/strict0 passes
+separate read-only audit_python_log_v2 against installed engine's actual disabled
+wording; original wrong-string audit stays failed, no native rerun. Nine selected
+audits authenticated by private closure_v1_20261008/result.json, all703/owned
+files/runtime manifest/old controls exact. All G1-owned engines closed normally;
+inspect actual other/user process ownership before native work. V4 fixture's
+one-time old-approach placement is not spawn/travel acceptance. Old failures and
+V2 controls retained, MI001/ML022 MANIFEST.json authenticate private references.
+Private updated2D map staging_layout_v2_20261008 marks oldS exclusion/newS/C/T1/G1
+and actual route. Human visible entry Tools/Integration/G1MissionV1/play.ps1:
+Enter/F5/F9/Ctrl+R; plainR original reload. Never auto-kill user/other-lane UE.
+8 October subsequent user request authorizes this G1 source commit/push. This
+revision carries G1 runtime/tools/bilingual plans/results/failure hash references
+and only G1 shared-document additions. Other-lane NPC/MuzzleFlash work remains
+separate. New native mission packages/screenshots/DLLs stay private; current
+selected Catalog is unchanged, so this is a source checkpoint rather than a
+new teammate-restorable asset release. Verify remote main before reporting push.
+No unassisted complete human
+playthrough/FPS/stress/Shipping/video/PDF/second-machine/course acceptance.
+
 **Latest MuzzleFlashV1 local formal integration COMPLETE — 8 October17:56 UTC:**
 User-approved quarter-size purchased rifle muzzle flash is installed locally.
 Read paired MuzzleFlashV1/MUZZLE_FLASH_FORMAL_RESULT_20261008 and asset usage.
