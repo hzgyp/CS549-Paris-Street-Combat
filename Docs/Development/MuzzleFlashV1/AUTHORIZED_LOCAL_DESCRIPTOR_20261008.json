@@ -1,0 +1,10 @@
+{
+  "authorization": "2026-10-08 user approves smaller muzzle images and requests formal local asset integration",
+  "proof": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MuzzleFlashV1/install_local_v1_20261008/result.json",
+  "proof_sha256": "677b4e7780208fc2edb90005e2191e2b26b2eae242287cdcdb61eaa67cb1f85e",
+  "row": {
+    "path": "Unreal/ParisStreetCombat/WW2FranceLiberation.uproject",
+    "size_bytes": 537,
+    "sha256": "b1951e88fe82b365e116eafbdfe0a3498adf4c77c065d2ee8ea2c3afe76e8824"
+  }
+}

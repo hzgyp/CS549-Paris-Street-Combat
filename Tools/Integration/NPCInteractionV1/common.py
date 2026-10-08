@@ -1,4 +1,5 @@
 import hashlib
+import importlib.util
 import json
 from pathlib import Path
 
@@ -147,6 +148,15 @@ def guard_rows():
     recoil_ledger = ROOT / "Docs/Development/RecoilV1/AUTHORIZED_LOCAL_BINARIES_20261007.json"
     if recoil_ledger.exists():
         rows = apply_recoil_binary_ledger(rows, json.loads(recoil_ledger.read_text()))
+    muzzle_ledger = ROOT / "Docs/Development/MuzzleFlashV1/AUTHORIZED_LOCAL_DESCRIPTOR_20261008.json"
+    if muzzle_ledger.exists():
+        spec = importlib.util.spec_from_file_location(
+            "paris_muzzle_guard_contract",
+            ROOT / "Tools/Integration/MuzzleFlashV1/guard_contract.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        rows = module.apply_muzzle_descriptor_ledger(
+            rows, json.loads(muzzle_ledger.read_text()), ROOT, digest)
     return rows
 
 

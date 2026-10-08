@@ -1,5 +1,28 @@
 # Paris Street Combat - new-session handoff
 
+**Latest MuzzleFlashV1 local formal integration COMPLETE — 8 October17:56 UTC:**
+User-approved quarter-size purchased rifle muzzle flash is installed locally.
+Read paired MuzzleFlashV1/MUZZLE_FLASH_FORMAL_RESULT_20261008 and asset usage.
+Independent formal_transactions_v1_20261008 owned51244 exits0/strict0/no timeout,
+end-phase81.187s/84final checks pass; saved native DA autoload/private Configure0/
+no EnablePlugins override.20 original PC_RequestFire commits/three6started-2true
+completed-4cancelled/live0/missed0/timedout0, original Ally2two actually live
+effects, native outside-world weak2→0 and new export-frame barrier pass. All39
+new unedited originals individually viewed, clear FP06/Ally20/German32, separate
+visual review/audit PASS; no old images borrowed. Prior Transientv7/SaveFresh2/
+Fresh2 each pass their respective gates.29 exact new installed files, one enable
+row/proof/ledger/narrow common.py guard-reader hook.703current rows advance only
+descriptor; other702/map/recoil,68originals/25deps/4buildSourceConfig exact.
+Existing Content parent junction supplies both exact child bindings; copy-stage
+failure/frozen source/backup retained, no recopy/new child junction/delete. Do not
+rewrite install proof's historical fresh_formal_runtime_passed:false; later
+Formal audit proves completion. Final35offline+4sharedguard tests pass. Owned
+engine closed/final actual native-launcher-build inventory empty; same-thread
+heartbeat PAUSED after completion, no further automatic engine work. No approved
+character/grip/recoil/AI/gameplay/formal-map edit or Git/SFTP/Catalog publication.
+Destructive-equipment grip safety, ordinary manual/no-Python startup, whole-city/
+near-wall visibility, FPS/Shipping/teammate/MVP/course remain unpassed.
+
 **User-authorized map and mission source publication scope — 8 October:**
 This increment carries the Paris survey/native-navigation tools and Editor-only
 helper source, mission design, reviewed2D candidate coordinates/hash metadata,

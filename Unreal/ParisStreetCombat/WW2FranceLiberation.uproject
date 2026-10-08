@@ -22,6 +22,10 @@
     {
       "Name": "ParisNPCGripV15",
       "Enabled": true
+    },
+    {
+      "Name": "ParisMuzzleFlashV1",
+      "Enabled": true
     }
   ]
 }
