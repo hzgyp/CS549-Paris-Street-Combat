@@ -1,5 +1,105 @@
 # 失败案例索引 / Failure case index
 
+9 October storage-only cleanup: raw failure source/log/images and published
+history retained; superseded build Archives/staging now recover through the
+private cleanup manifest/ZIP and two retained final Archives. Read the
+[actual cleanup/recovery result](../Docs/Development/INTERMEDIATE_STORAGE_CLEANUP_RESULT_20261009_ZH.md)
+before assuming an old tmp Archive path still exists. Recovery does not authorize
+rerunning a stopped experiment; failure receipts are unchanged.
+
+9 October user rejects V10 HUD visual design: [MI013](MI013-20261009-hud-visual-design/FAILURE_ANALYSIS.md)
+([中文](MI013-20261009-hud-visual-design/FAILURE_ANALYSIS_ZH.md)).
+Functional input/save passes remain scoped; do not present them as visual approval.
+Implement the approved concept's typography/layout/icons/circular map; do not
+recolour the same oversized panels. Preserve V10 core/user saves, verify actual
+two-resolution UI and unchanged legitimate checkpoint consent separately.
+First implementation hud_v1 itself stops on viewed missing-all-text despite
+exit0/strict0: installed Canvas requires nonnull UFont. Distinct transient runtime
+UFont adapter must show actual glyphs/face-load, not merely font-file existence.
+Final hud_v3 ordinary1080/720 and legitimate checkpoint consent/save/fresh-load
+pass locally with actual images reviewed; [actual result](../Docs/Development/G1_HUD_CONCEPT_RESULT_20261009_ZH.md).
+Separate private trial delivered; failed V1 and rejected V10 evidence/old saves
+retained. Implemented UI still awaits user trial; no new whole-MVP acceptance.
+
+8 October human packaged integration feedback: [MI012](MI012-20261008-packaged-human-integration/FAILURE_ANALYSIS.md)
+([中文](MI012-20261008-packaged-human-integration/FAILURE_ANALYSIS_ZH.md)).
+V13 core proof omitted the unselected action player and designed HUD/minimap;
+checkpoint interaction and possible stationary-start crowding need new gates.
+Preserve the valid core/user folder. New private revision plan authenticates the
+retained4October V6 bytes rather than restoring the stale3October inventory.
+9 October finite negatives also retained under private Evidence/Failures/MI012:
+bridge rubble blocks the original prone footprint; two admitted local footprints
+do not provide a120cm clear crawl corridor. Camera alignment alone also misses
+muzzle-to-target world occlusion (18 original rounds spent/World blocked).
+Use measured footprints/real obstruction checks and the original ballistic
+queries; never waive terrain/damage/death gates or overwrite the old records.
+Final private candidate_v10 actions_v5/checkpoint_v5 and ordinary small-window
+Ready pass their declared local gates; [actual result](../Docs/Development/G1_PLAYTEST_REVISION_RESULT_20261009_ZH.md).
+The future-floor guard prevents the documented prone backward trap without
+relaxing support thresholds. Old9.80077cm assertion and V9 GPUstartup failure
+remain negatives, not rewritten passes. Final clean startup does not explain
+the device-hung cause; human/full-contact/performance/course gates remain open.
+
+8 October final closeout: valid V13 review ZIP and two-page progress report are
+prepared separately; [actual result / human test guide](../Docs/Development/MVP_G1_CLOSEOUT_RESULT_20261008_ZH.md).
+MI007 separate stress entry and all four failed recording routes are archived.
+No valid video,60FPS,human/second-machine/natural-encounter or whole-MVP pass.
+Later stop records supersede earlier suggestions to try the next capture backend;
+do not automatically reopen any of those stopped capture routes.
+
+8 October external window recording content: [MI011](MI011-20261008-window-recording-content/FAILURE_ANALYSIS.md).
+Owned HWND/nonblank1080p still yields wallpaper, not game/HUD. Visual admission
+fails; stop recorder, no desktop fallback or valid movie claim. All four capture
+routes stopped; prepare valid V13 review package/report independently.
+
+8 October capture-variant GPU startup: [MI010](MI010-20261008-capture-variant-gpu-startup/FAILURE_ANALYSIS.md).
+Device hung/PageFault before Ready/any captured frame; cause unproved, not VRAM
+exhaustion evidence. Stop variant; separately check original V13 ordinary readiness.
+Do not rerun stopped recorders or expose identifying crash XML publicly.
+
+8 October direct viewport readback: [MI009](MI009-20261008-premature-viewport-readback/FAILURE_ANALYSIS.md).
+Post-actor-tick read hits null RHI texture;16blank frames fail early admission.
+Dimensions/nonempty buffers are not visuals. Stop it and use the independently
+source-supported SHOWUI request/completion path under a new capture-only plan.
+
+8 October hidden-window recording: [MI008](MI008-20261008-hidden-window-frame-capture/FAILURE_ANALYSIS.md).
+FFrameGrabber callback supplies only50intermittent PNGs; owned recording stopped,
+not an acceptable movie/benchmark. A separate actual-viewport readback plan
+preserves mission source and independently rechecks capture admission.
+
+8 October packaged performance limit: [MI007](MI007-20261008-packaged-performance-limit/FAILURE_ANALYSIS.md).
+Native G1 agent/arrival candidate passes three functional rounds; complete RT-off
+captures52.00/51.57/51.21FPS miss60. Separate initial six-person entry53.40FPS
+stops the predeclared6/12/18schedule at6; higher levels and sustained capacity
+unmeasured. Preserve functional passes, raw hitches and the render-thread limit.
+
+8 October navigation preflight coordinate contract: [MI006](MI006-20261008-navigation-preflight-frame/FAILURE_ANALYSIS.md).
+RT-on native candidate passes three rounds; RT-off same binary fails first
+original squad gate with stale DesiredPosition/PathExhausted. Stop performance
+proof; fixed queries actually confirm six centre-start failures/six feet-start
+complete paths. Distinct V13 corrects that frame plus measured far-bank settling
+and passes3original gates/saves/loads+2restarts; raw earlier failures remain.
+
+8 October packaged squad transit: [MI005](MI005-20261008-packaged-squad-transit/FAILURE_ANALYSIS.md).
+Player passes with a trial exclusion; both Allies fail original55cm/25s regroup.
+SquadFailed=false is not physical arrival; stop proof and diagnose actual NPC motion.
+Laterv7 records an explicit scripted stop, not native Blocked. Distinctv8 leaves
+the player's native movement request finishing and passes three original squad
+gates; retain old failures and do not claim every stop cause is identified.
+
+8 October integrated route observation: [MI004](MI004-20261008-integrated-route-observation/FAILURE_ANALYSIS.md).
+Complete query does not prove physical arrival; player stalls during combined
+fire/reload/travel. Later actual capsule witness identifies the physical blocker;
+the underlying navigation/collision mismatch reason remains unproved.
+
+8 October closeout observer startup: [MI003](MI003-20261008-closeout-observer-startup/FAILURE_ANALYSIS.md).
+Compiled Game observer is absent from the cooked content-only descriptor; no
+scripted mission started. New isolated enabled-plugin startup hook has an early marker gate.
+
+8 October G1 cook scope: [MI002](MI002-20261008-g1-cook-scope/FAILURE_ANALYSIS.md).
+Broad cook of the development directory includes retired invalid V3 drafts; keep
+failure, select the current entry dependency closure without changing native assets.
+
 8 October G1 mission authoring: [MI001](MI001-20261008-g1-mission-authoring/FAILURE_ANALYSIS.md).
 Compiler/world/save/callback/rotation/reporting failures and actual lateral squad crossing failure are retained.
 Near-bank FunctionalV3 correctly denies a hostile-LOS save; its good serial1 remains protected.

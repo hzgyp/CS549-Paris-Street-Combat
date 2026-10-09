@@ -4,7 +4,12 @@
 # Catalog SHA-256 pins the exact verified SFTP manifest bytes on all platforms.
 Assets/Sync/manifests/*.json -text whitespace=cr-at-eol
 Assets/Sync/TEAM_SOURCE_CONTRACT_*.json -text whitespace=cr-at-eol
+Assets/Sync/CATALOG.json -text whitespace=cr-at-eol
+Docs/Development/G1PlaytestPublicationV1/*.json -text whitespace=cr-at-eol
 .githooks/* text eol=lf
 # Failure evidence is byte-preserved, not reformatted on checkout.
-Failures/** -text
+Failures/** -text whitespace=cr-at-eol
 Failures/**/Changes/*.patch whitespace=-blank-at-eol
+# Exact text snapshot matching the privately packaged HUD executable.
+Unreal/Variants/G1HUDPlaytest20261009/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1HUDPlaytest20261009/SOURCE_MANIFEST.json -text whitespace=cr-at-eol

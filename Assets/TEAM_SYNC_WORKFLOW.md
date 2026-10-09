@@ -1,5 +1,16 @@
 # Team synchronization: GitHub + SFTP
 
+**Packaged HUD playtest, 9 October:** a separate Catalog-selected
+`paris-g1-packaged-playtest` is now available at
+`/releases/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip`.
+Extract all and run PLAY_G1_REVISION.cmd; runtime/controls/limits are included.
+All ZIP bytes/named entry/manifest/guides were authenticated read back; root ACL
+unchanged and shared CRUD pass. Its exact source snapshot is separately labeled
+in Git under Unreal/Variants/G1HUDPlaytest20261009. This does not replace the
+canonical source/native restoration pair below. Only the three private team
+recipients; no public asset bytes or new teammate/MVP/course acceptance. See
+[publication result](../Docs/Development/G1_PLAYTEST_PUBLICATION_RESULT_20261009.md).
+
 **Unified release, 8 October:** current source and assets are selected together
 as `paris-native-playtest-20261008-g1-npc-vfx-v1`. Follow
 [TEAM_PLAYTEST.md](../Docs/Development/TEAM_PLAYTEST.md) /

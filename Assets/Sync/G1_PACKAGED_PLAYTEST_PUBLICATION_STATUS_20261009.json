@@ -1,0 +1,29 @@
+{
+  "status": "verified_private_packaged_playtest_selected",
+  "release": "paris-g1-playtest-20261009-hud-v3",
+  "manifest_sha256": "05d493106c50d32121b24685429ff1807447f0a4473834d218b68b389af1f305",
+  "zip": {
+    "path": "tmp/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip",
+    "size_bytes": 8474979819,
+    "sha256": "5c8184c58f7a79ca30a669f99f017df79a04377acc027354607c6bb98452f968",
+    "storage": "sftp",
+    "remote_path": "/objects/sha256/5c/5c8184c58f7a79ca30a669f99f017df79a04377acc027354607c6bb98452f968"
+  },
+  "members": 54,
+  "protected": {
+    "canonical_source_files": 758,
+    "protected_files": 703
+  },
+  "root_acl_unchanged": true,
+  "shared_crud": "pass",
+  "authenticated_zip_readback": "pass",
+  "authenticated_manifest_readback": "pass",
+  "remote_manifest": "/releases/paris-g1-playtest-20261009-hud-v3/paris-g1-packaged-playtest.json",
+  "external_connectivity": "not retested",
+  "teammate_machine": "not performed",
+  "verified_at": "2026-10-09T11:23:06.184031-04:00",
+  "download_path": "/releases/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip",
+  "named_download": "Authenticated SFTP hard-link creation passes; full named ZIP and guides authenticated download/SHA256 readback pass; no duplicate archive bytes",
+  "git_source_scope": "Matching exact 40-file labeled source variant, accumulated closeout/HUD tools/results/failures and completed storage-cleanup records; canonical source/native baseline preserved",
+  "git_remote_identity": "Verified separately after pushing; recorded in private delivery receipt and final user handoff"
+}

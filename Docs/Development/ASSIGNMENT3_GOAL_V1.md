@@ -1,5 +1,10 @@
 # Assignment 3 MVP 开发目标 第一版
 
+2026年10月8日更新：用户确认Assignment2，Assignment3截止2026年10月13日。
+本次期中范围为C桥／G1攻占与可用安全存读档（现为Must），市中心后续阶段延期。
+导师证据未单独提供。后续G1／收尾结果和验收清单取代下文最初未验证的状态／待办
+快照；课程信息确认不代表完整MVP或提交就绪通过。
+
 2026 年 9 月 30 日，巴黎街头战斗项目。本文是供组内回顾的中文版本，与[英文对照](ASSIGNMENT3_GOAL_V1_EN.md)同步。依据是[Assignment 3 原始要求](../Assignment%203_%20MVP%20Development.docx)和[当前 Assignment 2 MVP](../Proposal/CS549_Assignment2_Proposal.md)。以下均为计划，尚未宣称玩法、兼容性、性能或交付验证通过；具体检查见[验收清单](ASSIGNMENT3_ACCEPTANCE.md)。
 
 ## 总目标

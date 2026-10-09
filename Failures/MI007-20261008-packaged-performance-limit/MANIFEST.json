@@ -1,0 +1,42 @@
+{
+  "archives": [
+    {
+      "identity": "stress_6_v1",
+      "old_path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\mvp-closeout-20261008\\stress_6_v1",
+      "archive_path": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\MVPCloseoutV1\\failures\\stress_6_v1",
+      "receipts": [
+        {
+          "path": "launch.json",
+          "size_bytes": 1370,
+          "sha256": "34cc8f053a6cc6458ce7ab11871c83c451664df144d939c7c437299307d4cb6b"
+        },
+        {
+          "path": "game.log",
+          "size_bytes": 131943,
+          "sha256": "7cf4146c1991b8ad918a56103488b32291b8dd98c4427d1d39c5f383935a8877"
+        },
+        {
+          "path": "result.json",
+          "size_bytes": 455331,
+          "sha256": "636a935c05910b1b360d693d50488d5eb6c2bb715473dbf090339508d086a53a"
+        },
+        {
+          "path": "performance_summary.json",
+          "size_bytes": 2589,
+          "sha256": "d37f4a5de77842c9fa7b2e33ea859a6f7122c9cdfe6f8560130860011a1d2c9c"
+        },
+        {
+          "path": "read_only_audit.json",
+          "size_bytes": 1196,
+          "sha256": "cb9f287d9e80a708a7a888a9eb49460bd20f912b42da2580e3b53e3ed803e37b"
+        },
+        {
+          "path": "finite_stress_result.json",
+          "size_bytes": 1342,
+          "sha256": "3b776accc464f7b54b651382fdfa03531bf6f405239b50f6edec46ca67407a4e"
+        }
+      ],
+      "scope": "Whole directory retained by same-volume rename; selected receipt/source hashes checked, NOT a whole-bundle byte audit"
+    }
+  ]
+}

@@ -1,5 +1,21 @@
 # Published SFTP asset baselines
 
+## Packaged G1 HUD playtest, 9 October
+
+Catalog selects independent `paris-g1-packaged-playtest` version
+`paris-g1-playtest-20261009-hud-v3`. Download
+`/releases/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip`, extract all
+and run `PLAY_G1_REVISION.cmd`; use the bundled x64 runtime installer if needed.
+8,474,979,819bytes/54members; complete ZIP/member/authenticated object/named entry/
+manifest/guide readback and shared CRUD pass, root ACL unchanged. Only the three
+authorized team members may privately use these cooked commercial assets.
+See [actual result](../../Docs/Development/G1_PLAYTEST_PUBLICATION_RESULT_20261009.md)
+and [Chinese review](../../Docs/Development/G1_PLAYTEST_PUBLICATION_RESULT_20261009_ZH.md).
+Corresponding40-file source is an explicit Git variant; canonical native/editor
+release remains `paris-native-playtest-20261008-g1-npc-vfx-v1`. Existing native
+restore tool still selects city + native, not this independently packaged ZIP.
+No new runtime or second-machine/course acceptance; old snapshots below are dated.
+
 ## Accepted German rifle model, 4 October
 
 `german-rifle-model-20261004-v1` is Catalog-selected:16files/200,288,247bytes,

@@ -1,0 +1,113 @@
+{
+  "archives": [
+    {
+      "identity": "candidate_rt_off_v1",
+      "old_path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\mvp-closeout-20261008\\candidate_rt_off_v1",
+      "archive_path": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\MVPCloseoutV1\\failures\\candidate_rt_off_v1",
+      "receipts": [
+        {
+          "path": "launch.json",
+          "size_bytes": 1374,
+          "sha256": "bb376f712f63ce2dbb0292bdc940f45d790b4c3dca4ec0f3cb8fd2377678ae40"
+        },
+        {
+          "path": "result.json",
+          "size_bytes": 482646,
+          "sha256": "49515f8b93abcaea854d9c2f4267aad58780a678b526b1b1f2982bd4a3ce6b0c"
+        },
+        {
+          "path": "performance_summary.json",
+          "size_bytes": 2548,
+          "sha256": "7c2edaca0d77019c854c2503f7c377260fd6060b6f223863413bd612a28656e9"
+        }
+      ],
+      "scope": "Whole directory retained by same-volume rename; selected receipt/source hashes checked, NOT a whole-bundle byte audit"
+    },
+    {
+      "identity": "instrument_v10",
+      "old_path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\mvp-closeout-20261008\\instrument_v10",
+      "archive_path": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\MVPCloseoutV1\\failures\\instrument_v10",
+      "receipts": [
+        {
+          "path": "instrument.json",
+          "size_bytes": 594,
+          "sha256": "6423d7fbeec45cc09c7a1b78cca3a6fce24488ec6286e4dc42e71c615b1d710d"
+        },
+        {
+          "path": "prepare.json",
+          "size_bytes": 201850,
+          "sha256": "3cc3a6fa2ccc62ca62968ad823331eb5f8912310fcdd7eabc562c2874c0c6515"
+        },
+        {
+          "path": "native_candidate.json",
+          "size_bytes": 883,
+          "sha256": "7d05015348a99c2c0cf246e3340639f63a0269422ff1e32d8d070da3799a877a"
+        },
+        {
+          "path": "instrument_build.log",
+          "size_bytes": 5294,
+          "sha256": "e198d067e6a0c116b6f4278fe2196d43df26735dc82e2f1136568ed668b50b6e"
+        },
+        {
+          "path": "Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMissionV1.cpp",
+          "size_bytes": 38392,
+          "sha256": "9b9632896e329e336afbc3384f0e348d0fa13de661a9bf5d4165dfddb15f4d51"
+        },
+        {
+          "path": "Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMission.cpp",
+          "size_bytes": 40119,
+          "sha256": "62b3277551ce6410fe7d8bf4cc8c057f0b65555eb12a4f6a0dbdd8aa91a217e4"
+        },
+        {
+          "path": "Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Public/ParisBridgeMission.h",
+          "size_bytes": 5677,
+          "sha256": "24aa52a049ca829757a84c4a388a323d262f316576d061cd7832c0b498f2c510"
+        }
+      ],
+      "scope": "Whole directory retained by same-volume rename; selected receipt/source hashes checked, NOT a whole-bundle byte audit"
+    },
+    {
+      "identity": "instrument_v12",
+      "old_path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\mvp-closeout-20261008\\instrument_v12",
+      "archive_path": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\MVPCloseoutV1\\failures\\instrument_v12",
+      "receipts": [
+        {
+          "path": "instrument.json",
+          "size_bytes": 594,
+          "sha256": "8d55211d858f111f1eacc8c6b9453af22a77d6c59cbe322887ba6f66dd339fe7"
+        },
+        {
+          "path": "prepare.json",
+          "size_bytes": 201850,
+          "sha256": "2fd328e5bcf581cb6445e69bda82c9033e9c9663798e2e83260610fcbe15494f"
+        },
+        {
+          "path": "native_candidate.json",
+          "size_bytes": 883,
+          "sha256": "7d05015348a99c2c0cf246e3340639f63a0269422ff1e32d8d070da3799a877a"
+        },
+        {
+          "path": "instrument_build.log",
+          "size_bytes": 5479,
+          "sha256": "4436b5847e08e5b4b455dfc38bc47a616c9c1b822bca5661084d15065ed12aa2"
+        },
+        {
+          "path": "Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMissionV1.cpp",
+          "size_bytes": 38398,
+          "sha256": "8bcfbbda2c8cd020d91f91c6047f946cffc76f4c3e0ae9768d4068f3fa8edf06"
+        },
+        {
+          "path": "Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMission.cpp",
+          "size_bytes": 45490,
+          "sha256": "0e38ea2fdcaf0258c6565a39e509697f8d52eadf032176e2ac1a2aa6ba265dca"
+        },
+        {
+          "path": "Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Public/ParisBridgeMission.h",
+          "size_bytes": 6133,
+          "sha256": "bf106a3daa98897ff98db030b65a37967e3f9d579e2cfcc880b16dfa410c53f9"
+        }
+      ],
+      "scope": "Whole directory retained by same-volume rename; selected receipt/source hashes checked, NOT a whole-bundle byte audit"
+    }
+  ]
+}

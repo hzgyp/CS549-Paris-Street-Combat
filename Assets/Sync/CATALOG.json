@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-08T15:20:24.975643-04:00",
+  "updated_at": "2026-10-09T11:28:39.053890-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -101,6 +101,15 @@
       "file_count": 16,
       "size_bytes": 200288247,
       "release_manifest": "/releases/german-rifle-model-20261004-v1/german-rifle-model.json"
+    },
+    {
+      "asset_id": "paris-g1-packaged-playtest",
+      "asset_version": "paris-g1-playtest-20261009-hud-v3",
+      "path": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
+      "sha256": "05d493106c50d32121b24685429ff1807447f0a4473834d218b68b389af1f305",
+      "file_count": 1,
+      "size_bytes": 8474979819,
+      "release_manifest": "/releases/paris-g1-playtest-20261009-hud-v3/paris-g1-packaged-playtest.json"
     }
   ],
   "superseded_provenance_only": [

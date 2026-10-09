@@ -8,10 +8,18 @@
   },
   "current": {
     "path": "Assets/Sync/CATALOG.json",
-    "size_bytes": 12969,
-    "sha256": "44655b8cc43fbe58d69b5b54c75330610d119957c453bc35892553cc1f420d42"
+    "size_bytes": 13413,
+    "sha256": "590e25671e95f72a3e77b60866a0a8de6c14f92cb5fbd55438c2a3a3270b3eba"
   },
   "manifest_sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
   "only_catalog_guard_advances": true,
-  "previous_guard_snapshots_unchanged": true
+  "previous_guard_snapshots_unchanged": true,
+  "previous_catalog_selection_20261008": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 12969,
+    "sha256": "44655b8cc43fbe58d69b5b54c75330610d119957c453bc35892553cc1f420d42"
+  },
+  "current_authorization": "2026-10-09 user requests Git commit/push and private SFTP playable package sharing",
+  "current_update_proof": "Docs/Development/G1PlaytestPublicationV1/AUTHORIZED_CATALOG_20261009.json",
+  "current_update_proof_sha256": "2f034f37718e4783e7cb38dacf7c081ee849139a87c38df002c0e853ac2a5ce3"
 }

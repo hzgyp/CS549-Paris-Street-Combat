@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0-private-candidate",
+  "FriendlyName": "Paris Purchased Muzzle Flash",
+  "Description": "Presentation-only committed-shot observer using separately verified purchased Niagara and rifle profiles.",
+  "Category": "Effects",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Plugins": [{"Name": "Niagara", "Enabled": true}],
+  "Modules": [{"Name": "ParisMuzzleFlashV1", "Type": "Runtime", "LoadingPhase": "Default"}]
+}

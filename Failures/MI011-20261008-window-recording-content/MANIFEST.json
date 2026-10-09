@@ -1,0 +1,27 @@
+{
+  "archives": [
+    {
+      "identity": "external_demo_v1",
+      "old_path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\mvp-closeout-20261008\\external_demo_v1",
+      "archive_path": "D:\\0.Rutgers\\CS549\\Project-New\\Assets\\LocalShared\\SFTP\\workspaces\\yg745\\paris-gameplay-v1\\Evidence\\MVPCloseoutV1\\failures\\external_demo_v1",
+      "receipts": [
+        {
+          "path": "launch.json",
+          "size_bytes": 1552,
+          "sha256": "0a4c18cd2f34e5188465c8c53d73253b1eb12780ba82301fda2847a058474219"
+        },
+        {
+          "path": "game.log",
+          "size_bytes": 138633,
+          "sha256": "af73e48d3dd96fe8e52727a7e635f9debd6e2aa70c4dc51d71c2668c98b726c2"
+        },
+        {
+          "path": "capture_failure.json",
+          "size_bytes": 249,
+          "sha256": "39e5d615a5df5a2f198c76bc41b5cf60e8e0a0d4acdb56b72617fdc6a738d1de"
+        }
+      ],
+      "scope": "Whole directory retained by same-volume rename; selected receipt/source hashes checked, NOT a whole-bundle byte audit"
+    }
+  ]
+}

@@ -1,5 +1,333 @@
 # Paris Street Combat - new-session handoff
 
+**Latest private playable publication — 9 October 2026:**
+User authorizes Git commit/push and SFTP sharing. Read
+[verified result](Docs/Development/G1_PLAYTEST_PUBLICATION_RESULT_20261009.md) /
+[Chinese review](Docs/Development/G1_PLAYTEST_PUBLICATION_RESULT_20261009_ZH.md).
+Catalog independently selects `paris-g1-playtest-20261009-hud-v3` packaged ZIP,
+54members/8,474,979,819bytes, executable49722142… unchanged. Authenticated full
+object/named-ZIP/manifest/readme readbacks and shared CRUD pass; root ACL unchanged.
+Download `/releases/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip`;
+extract all/run PLAY_G1_REVISION.cmd. Exact40-file source snapshot and accumulated
+matching tools/docs/failures are included in this Git revision under explicit
+`Unreal/Variants/G1HUDPlaytest20261009`; formal source758/native359 stay at their
+previous selected release. Catalog guard alone explicitly advances to590e2567…;
+703 rows pass after authorization, original/8October epoch retained in ledger.
+No new build/launch/recook/model/grip/AI adoption; human/second-machine/external
+routing/performance/video/course gates remain. This supersedes earlier no-ZIP/
+no-publication snapshots only for this authorized distribution. After pushing,
+remote main identity is independently checked and recorded in private receipt.
+
+**Latest storage cleanup COMPLETE — 9 October,10:37+EDT:**
+User explicitly authorizes packing/removing unused intermediate files. Read
+[actual result](Docs/Development/INTERMEDIATE_STORAGE_CLEANUP_RESULT_20261009.md),
+[Chinese review](Docs/Development/INTERMEDIATE_STORAGE_CLEANUP_RESULT_20261009_ZH.md)
+and paired plan before another cleanup. Removed26 exact private targets:15 older
+Archives,2 staging copies,9 rebuildable Build caches;1,446 rows/158.674GiB logical.
+Private Evidence/StorageCleanup20261009/run_v1 ZIP2.261GiB/256 entries all SHA256
+readback;53 retained reference files fully rehashed after deletion; source758/
+guards703/private authoring40 exact,208 recorded user-trial files unchanged.
+Actual net D: free increase156.414GiB; remaining311.379GiB. Execute exit0 and
+final_verification.json pass. Both final hud_v3/instrument_v13 Archives, all three
+user trials/saves, source/FrozenSource/cooked inputs, original assets, published
+history and raw failure evidence remain. No Content junction followed/deleted.
+
+Old listed Archive paths are NOW ABSENT, recoverable through plan.json + retained
+final Archives + unique ZIP. Use restore_intermediate_archive.ps1 with bundled
+PowerShell7 for exact declared target restoration; no overwrite or stopped proof
+rerun. Keep the two retained final Archives as recovery dependencies, or first
+migrate/authenticate references. Build caches regenerate; next compile may be
+slower. Historical no-deletion/Archive-retained snapshots below are superseded
+only for these user-authorized generated/redundant targets. Formal asset/Catalog/
+source publication unaffected; Git HEAD b8a3a6a1...58165/no commit/push. Fresh
+inventory finds no UE/game/build process; none launched/stopped. Inspect later
+actual processes rather than assuming future previews may be terminated.
+
+**Latest approved HUD implementation — 9 October:**
+User rejects panel-based V10 UI and explicitly adopts generated ivory/brass
+concept. Read [actual result](Docs/Development/G1_HUD_CONCEPT_RESULT_20261009.md),
+[Chinese review](Docs/Development/G1_HUD_CONCEPT_RESULT_20261009_ZH.md), paired
+implementation plan and MI013 before another change. Private hud_v3 game
+49722142...d1c42b implements Cinzel serif, floating ivory/brass objective,
+circular authenticated G1 map, six-segment health/squad icons, loaded/reserve/
+capacity ticks, compact save question/keycaps and thin gold180cm ground circle.
+The generated scene/weapon/hands/sample numbers are not runtime assets.
+
+Observer-disabled hud_plain_v3/1920x1080 and hud_small_v3/1280x720 actual images
+pass text/layout/map review; hud_checkpoint_v3/137.272s passes nine real hostile
+hits/three deaths, no premature unlock, question/no autosave, decline/reentry,
+moving-E denial, safeSerial1, fresh-world load and full restart. Actual prompt/
+saved/loaded images viewed. All three exit0/strict0/canonical758/703 exact. Prior
+V10 action results remain attributed to V10, not rerun for this rendering change.
+Final local checks do not establish human/second-machine/FPS/full-contact/course
+acceptance. Earlier V9 GPU startup cause remains unverified.
+
+Delivered separate tmp/Playtest-G1-HUD-20261009/PLAY_G1_REVISION.cmd;47 Archive
+files hash/size copied, then recorded launcher-only DisableAllScreenMessages.
+Private Evidence/G1HUDConceptV1/delivery_v1 retains40-file SourcePatch and16 raw
+final qualification files. Same V5 schema/prefix/config/UserDir as V10 supports
+compatibility; actual user old saves were not opened/overwritten. Both earlier
+trial folders and saves remain intact. Cinzel/font license/provenance are the
+only three added sidecars. Only one private cpp changes;38 other source files
+and descriptor/cooked dependencies/nonrender policies exact. Formal758/703/359
+protected; no input/model/grip/AI/reflected/native/Catalog/publication/commit/push.
+
+Preserve stopped hud_v1 missing-all-text failure: compile/exit0/strict0 is not a
+visual pass. Canvas requires nonnull UFont; V2's strongly held transient runtime
+UFont/actual glyph and face-load checks correct that mechanism. V3 changes only
+Circle/Soldier primitives after V2 image review. FrozenSource retains V10/V1/V2.
+No stopped recorder retry or further grip work. Inspect actual processes before
+later entries; never terminate user-owned previews. Delivery inventory found no
+Unreal/game processes; that is dated evidence, not authorization for later ones.
+
+**Latest user playtest revision — 9 October,01:20EDT:**
+Read [actual result](Docs/Development/G1_PLAYTEST_REVISION_RESULT_20261009.md),
+[Chinese review](Docs/Development/G1_PLAYTEST_REVISION_RESULT_20261009_ZH.md),
+paired implementation plan and MI012 before another change. Private candidate_v10
+game f79f76a3...8db0: actions_v5 passes real walk/run/slow/jump/crouch/prone,
+forward36.808cm/refusal drift0/backward/release and original ammo transactions;
+checkpoint_v5 passes three legitimate deaths/question/decline/reentry/moving-E
+denial/safeSerial1/freshload/fullrestart. Actual question/saved/loaded images
+reviewed. Eight stationary seconds: nearest Ally459.619cm/max Ally displacement0.
+Observer-disabled plain_small_v10 Ready/1280x720 image also passes. All final
+entries exit0/strict0; actual process inventory after ordinary entry finds no
+Unreal/game processes. This is dated, not authorization to stop later user games.
+
+Delivered separate tmp/Playtest-G1-20261009/PLAY_G1_REVISION.cmd;44 Archive files
+copy-verified plus recorded launcher-only DisableAllScreenMessages override.
+Private Evidence/G1PlaytestRevisionV1/delivery_v1 preserves40-file SourcePatch
+and delivery receipt; FinalQualification authenticates20 final raw files.
+Canonical758source/703guards/359selected native exact;
+old tmp/Playtest-G1-20261008 and saves preserved. Enter/Shift/Alt/Space/Ctrl/Z/
+W-S/R/F9/F6; three dead guards unlock green circle, entering asks, E explicitly
+saves while standing/still/safe, Escape declines. V5 save prefix/UserDir isolated.
+Upper-right map is G1 ground sector only; health/ammo designed HUD retained.
+
+Original flat-ground/whole-body prone and standing-only firing/reload restrictions
+remain. Low-posture eye height, dedicated sprint/jump lowering, full visual/contact,
+human/second-machine/natural two-sided encounter/60FPS/video/course gates OPEN.
+V9 checkpoint_v4 GPUstartup device-hung/PageFault BEFORE Ready archived privately;
+cause unverified. Clean final entries do not prove that cause repaired. No stopped
+recorder/backend rerun or automatic grip/asset refinement; stop if GPU recurs.
+No formal native/Catalog adoption, source publication or commit/push this revision.
+Future writes must inspect actual processes and explicitly adopt current guards;
+private final source lives in the wrapper, not canonical source/Catalog.
+
+**User playtest extraction - 8 October,23:34EDT:**
+User asks to extract the packaged candidate for their own trial. Fully extracted
+the frozen760dbf44...ecf9d01ZIP into ignored private tmp/Playtest-G1-20261008;
+all41 extracted cooked-file SHA256/size checks pass. Local EXTRACTION_RECEIPT.json
+records exact location/status. Entry is PLAY_G1_CANDIDATE.cmd in that directory.
+Explorer was requested to select that entry; no game was launched by the agent.
+This is preparation for user-controlled play, not a human/second-machine pass.
+Do not delete/overwrite this directory or stop a later user-owned game. No new
+engine/process inventory was performed; the20:21 closed inventory below is old.
+
+**Latest verified closeout handoff - 8 October,20:24EDT:**
+User confirms Assignment2 and Assignment3 deadline13October2026; no separate
+mentor confirmation. Read [actual result / manual test guide](Docs/Development/MVP_G1_CLOSEOUT_RESULT_20261008.md)
+and [Chinese review](Docs/Development/MVP_G1_CLOSEOUT_RESULT_20261008_ZH.md), plus
+MI006-MI011 before planning. This checkpoint supersedes all older running/capture
+snapshots below.20:21:31EDT actual process inventory finds ZERO Unreal/game/FFmpeg
+processes; no process killed by that inventory. All owned entries closed/native
+writer slot RELEASED. Do not assume a future user engine can be terminated.
+
+Valid private instrument_v13/candidate_agent_v1: THREE original two-Allied55cm/
+25s/bodyX5600 gates, captures/Won saves/fresh loads; TWO full restarts; THREE newer-
+old-config/correct-MD5 rejections/good fallbacks/live-state parity.289.365s/exit0/
+strict0/actual1920x1080; native single-poly and one-plan replacement in all6worlds;
+observer excludesZERO. Regroup12.295/11.615/11.876s. Source candidate corrects ONE
+preflight PathStart to native agent feet and measured far-bank settling; other
+BT node classes/BB topology, models/fingers/rig/actions/weapon transactions and
+original physical/resource/arrival gates preserved. Canonical source/native/
+Catalog unchanged; current candidate UNSELECTED/uncommitted/private. Full AI byte
+identity is not claimed for this intentional native planning correction.
+
+Complete untrimmed High1080p/100%/pool1536/RT-off CSVs52.00/51.57/51.21FPS FAIL60.
+Separate six-STARTING-person stress53.40FPS stops declared6/12/18schedule at6;
+12/18/sustained-active capacity/matched navigation comparison UNMEASURED. Closed
+stress_6_v1 now archived in MI007 with MANIFEST; selected receipt copies retained
+in private delivery. Original deaths remain, not a safe-six capacity. Scripted
+player eliminates guards early; both Allied and German shots0. Natural two-sided
+encounter in combined package still unproved. Ordinary observer-disabled
+agent_plain_v1 AND plain_recovery_v1 Ready/images/strict0/exit0 audited.
+
+ALL FOUR automatic recording routes STOPPED and archived: MI008 intermittently
+50frames; MI009 nullRHI/16blank; MI010 GPUstartup device-hung/PageFault BEFORE
+Ready/0frames,causeunproved; MI011 ownedHWND capture wallpaper/no gameHUD. Later
+negative records supersede earlier suggested capture followups. NO valid MP4.
+No recorder retry, stale-ParisCapture flags, backend sweep or desktop fallback.
+Private crashXML includes identifying data; retain privately. V13 ordinary
+recovery works, but that does not identify V15 crash cause. Valid V13 build stays
+outside failed-build archives. Archive manifests authenticate selected receipts,
+not every byte of whole moved folders; raw paths remain historical.
+
+Private Evidence/MVPCloseoutV1/delivery_v1 prepared8,475,354,576-byte ZIP:
+Paris_Street_Combat_G1_Private_Candidate_Win64.zip SHA256
+760dbf44028acae9486c3ff9f5883715d5cf17a1c6fe338f65f20c8caecf9d01.
+All41 cooked files8,456,136,819bytes SHA-readback exact. V13 Game exeSHA
+965bf17c967d313e67e717fbd24080ab5b6093237dcf927355d387a3c111c4e3.
+ZIP includes launcher/EN+ZH instructions/cooked manifest/exact tested SourcePatch
+(NOContent)/CloseoutTools/VisualC++x64 installer. Selected Evidence receipts and
+delivery_receipt are BESIDE ZIP, not embedded. Main source remainsb8a3a6a; wrapper
+patch does not appear on main. Restore entitled Content for a source rebuild;
+teammate fresh rebuild/runtime remains their open verification gate. No public
+commercial bytes or finished-product reviewer access claimed.
+
+Two-page progress_v1/output/pdf/Paris_Street_Combat_Assignment3_Progress.pdf now
+updated to V13 facts, rendered and BOTH pages visually inspected. PDFmarker ran
+exactlyONCE previously; do NOT repeat. Build/video reviewer links remain open.
+Final read-only final_audit_v1.json PASSES at20:23:49EDT:758source/703guards and
+both manifests16209files/29,077,903,470bytes exact; frozen wholeZIP exact,43source-
+patch entries and11retained receipts verified; PDF2pages/one source hyperlink,
+14Python tools parse.271.625s. This is integrity, not whole-MVP acceptance.
+Private closed_processes_v1.json records the closed-process inventory.
+
+No canonical native save/adoption/source-contract edit/Git stage/commit/push or
+publication this closeout. Do NOT mark whole MVP/course ready. Next: bounded
+render-thread optimization after measured cause/early gate, human combined
+encounter/action/collision/save lifecycle, teammate-machine verification, actual
+2-3min annotated video/stress demonstration, matching source/build selection and
+reviewer access. Manual test/recording guide is written, not executed or sent to
+teammates. Do not make more model/hand polish a dependency.
+
+**Latest verified closeout checkpoint - 8 October,20:00EDT:**
+User confirms Assignment2 and Assignment3 deadline13October2026. No separate
+mentor confirmation. Read MI006/MI007/MI008 and MVP_G1_AGENT_COORDINATE_FIX plus
+MVP_VIEWPORT_READBACK_CAPTURE EN/ZH. queries_v1 proves6centre-start failures and
+6feet-start complete paths at fixed recorded coordinates. V12 compile failure
+archived; V13 explicitly typed loops only. Private instrument_v13 corrects ONE
+G1 native plan preflight start to GetNavAgentLocation in a runtime BT duplicate,
+and latches the existing far-bank lane at original250cm inter-member spacing.
+Other BT classes/BB topology, models/fingers/rig/actions/guns and original physical/
+resource/55cm/25s/bodyX5600 gates unchanged. Canonical758/359/703/Catalog EXACT.
+
+candidate_agent_v1 now PASSES3original two-Allied gates/captures/Won-saves/fresh
+loads,2full restarts,3newer-old-config/correct-MD5 rejection/goodfallback/live-state
+checks.289.365s/exit0/strict0/actual1080p, native constraints+plans each6worlds;
+regroup12.295/11.615/11.876s. Complete untrimmed RT-off High1080p/100%/pool1536
+CSVs52.00/51.57/51.21FPS. TargetFAIL. Separate stress_6_v1 original gate/load
+pass89.663s;1631frames30.546s/53.40FPS stops declared6/12/18schedule at6.12/18
+notrun; six STARTING actors with original deaths, not sustained capacity or matched
+independent/coordinated comparison. agent_plain_v1 V13 observer-disabled native
+Ready/image/strict0/exit0 audited. MainV13exe965bf17c...111c4e3.
+
+demo_capture_v1 hidden FFrameGrabber returns only50PNG in intermittent bursts;
+exact owned14800 stopped exit-1; run/source/frame evidence moved to MI008 private
+archive with MANIFEST selected hashes. No movie or performance pass. V14 changes
+ONLY opt-in capture to actual GetViewportScreenShot readback; V13/V14 mission CPP+
+header SHA exact. V14compile0; new demo_capture_v2 PID13000 is CURRENTLY RUNNING
+private offscreen recording. Inspect actual process/receipts before another writer;
+do not terminate user engines. No capture success assumed. Need V14 plain startup,
+media admission/review/encoding, local delivery ZIP/source patch/hash readback,
+updated2page PDF, final guards and tester handoff. PDFmarker already ran once.
+No canonical native save/adoption/source-contract edit/Git commit/push/publication.
+No human/second-machine/natural combined encounter/60FPS/course-ready pass.
+
+**Latest closeout negative/diagnostic - 8 October,19:35EDT:**
+candidate_cohort_v1/instrument_v9 completes3squad/capture/Won-save/fresh-load
+cycles and2restarts,289.471s/exit0/strict0/actual1080p. Native policy validates
+once ineach6worlds; observer excludesZEROpolygons; nearbank centreline verified.
+Native RT-on3CSVs37.72/35.59/37.17FPS, targetFAIL. Ordinarycandidate_plain_v1
+startup/image/strict/normalexit also audited. However samebinary RT-off trial
+candidate_rt_off_v1 FAILS FIRST25s squad gate. Read new MI006 EN/ZH before work.
+Ally1body2533.660,-20872.277,253.261;PathExhausted/Retry2/SquadFailedtrue,
+DesiredPositionstale4011.161,-20750.837,206.233 whilepolicyHeldGoal5833.884,
+-20739.338,205.727. NativeMoveTo14aborted328/world40.703;no subsequentrequest.
+Ally2within32.782cm butbodyX5576.600<original5600; no threshold compensation.
+Performance trial stopped; incompleteCSV has NO validFPS result (prefix52.64
+is explicitly diagnostic/incomplete). Failed run and instrument_v10 compile
+C4800int-to-bool source/log (runtimequeries0) moved into privatefailures with
+MI006/MANIFEST.json selectedhashes. instrument_v11 explicit!=0 fixes only those
+diagnostic bool fields; compileexit0. Native mission/header EXACT v9 candidate.
+queries_v1/instrument_v11 is currently entering READY-ONLY12 fixed semantic
+centre/agent-start and body/projected-feet-goal query comparisons at recorded
+failed coordinates, originalNPCcontext; NO movement/mission/save. Inspect result
+before any correctiveAIplan. UEFindPathSynchronously preserves suppliedcentrestart;
+context doesnot substitutefeet. Causal relation still UNPROVED untilqueriesread.
+All canonical758/359/703/Catalog/models/fingers/actions/guns/AI remainunchanged.
+No RT-off FPS/whole-MVP/stress/video/human/revieweraccess/teammate/publication pass.
+
+Futureobserverhelpers already authored but NOT runtime-tested: isolated old-V2
+configuration rejection with correctMD5/newer slot/goodfallback, one-or-three
+round selector, recorded-only regroup camera glance. See MVP_DEMO_STRESS_CHECKPOINT
+EN/ZH. New instrument_v11 has these opt-in helpers, inactive inqueries/ordinary
+game. Do not infer theypassed. PDFprogress_v1 exists/2pages inspected but final
+snapshot stale; PDFmarker already ran once. NoGitcommit/push. Need preserve this
+negative over the older19:22 candidate-pass snapshot; no formal adoption yet.
+
+**Later closeout checkpoint - 8 October,19:22EDT (supersedes the18:59 snapshot below):**
+Read MVP_G1_SQUAD_FIXTURE_DIAGNOSTIC and MVP_G1_NATIVE_ROUTE_CANDIDATE_20261008,
+bothEN/ZH; also bounded MVP_RENDER_THREAD_TRIAL and MI005. v7 cause-only round0
+passes, round1 fails25s, Ally2error3551.617cm/Idle/Ready. Result328 is explicit
+UserAbort|MovementStop|ForcedScript, NOT native Blocked. Four-second observer
+missedregroup; do not assert its early-stop coverage. A moving/walkable sweep hit
+is not an NPC obstruction proof. v8 fixes only fixture's premature player
+StopMovement inside55cm, leaving original SimpleMove natural completion; it also
+reads blackboard/request state. cohort_nativefinish_v1 now passes THREE original
+two-Allied55cm/25s gates, THREE captures/Won saves/fresh loads and TWO verified
+full restarts;287.543s,exit0/strict0/actual1080p. Source/AI unchanged/transient
+one-poly trial only. Three valid complete CSVs36.59/37.42/37.60FPS, targetFAIL.
+Do not claim all possible scripted-stop causes or natural human play resolved.
+
+Private instrument_v9 applies a bounded two-file owned native mission candidate
+in a NEW wrapper: exact witnessed single-poly exclusion now native during
+preparation (one original blocker/five exact verts), actual nearbank initial-feet
+centreline removes retiredS prefix, checkpoint suffixBridgeConstraintV1Nearbank/
+defaultParisG1V3 separates old slots. Canonical758source/359native/703/selected
+Catalog remain EXACT; no formal/vendor/map/model/grip/action/weapon/AI writes.
+candidate_plain_v1 ordinary OBSERVER-DISABLED startup passes native constraint
+beforeReady,actual1920x1080,image inspected,exit0/strict0. candidate_cohort_v1
+currently running its three fresh original-gate cycles; inspect actual process
+and receipts before any writer. Do NOT terminate user/other engines. New candidate
+is UNSELECTED/unpublished; observer candidate mode never excludes polygons.
+After that passes, one documented -noraytracing matched trial may run; preserve
+High/100%/1080p/pool1536, no recording/background hash load in FPS captures.
+
+Private two-page English progress PDF at LocalShared/.../Evidence/MVPCloseoutV1/
+progress_v1/output/pdf generated/rendered and both pages inspected; current draft
+still reports the earlier partial state and must be updated to final dated results.
+The PDF skill marker has run exactly once; don't repeat. Source main remotely
+verifiedb8a3a6a; new closeout tools/docs uncommitted. No video/stress/human/teammate/
+reviewer-access/course-ready pass. No commit/push/public binary distribution.
+
+**MVP closeout IN PROGRESS - 8 October,18:59EDT:**
+User approves planned G1-only closeout; Assignment2 confirmed by user and
+Assignment3 deadline13October2026. Mentor not separately confirmed. Read
+MVP_CLOSEOUT_IMPLEMENTATION_20261008 and MVP_G1_NAV_COLLISION_CORRECTION,
+bothEN/ZH, plus MI002/MI003/MI004/MI005 BEFORE continuing. Baseline mainb8a3a6a,
+758source/359native/current703 guards unchanged; no formal map/model/grip/
+action/weapon/AI/Catalog changes or publication in this closeout so far.
+New source/docs are uncommitted. All variants below are PRIVATE/UNSELECTED.
+Isolated package_v2 WindowsDevelopment G1 cook/stage/archive passes0errors;
+plain_startup_v1 actual1920x1080 nativeReady/strict0/normalexit0/image inspected.
+Original800MiB pool image over budget44.871MiB; declared next High profile uses
+1536MiB onRTX3080-10GiB,100%,VSync0/noFPS cap, assets unchanged.
+MI002 broad cook includes retired invalidV3; MI003 Game observer not loaded by
+content-only cooked descriptor; fixed only in opt-in wrapper G1 module startup.
+MI004 integrated_v2 stalls at bridge inCrossing; diagnose_v1 confirms capsule
+blocked by StaticMeshActor_1600 (SM_Debris_06b). Nav flags/dimensions match;
+reason for navigation/collision mismatch not established. One witnessed polygon
+excluded only in memory in navrepair_v1/instrument_v5: three scripted PLAYER
+cross/capture/saveWon/freshLoad/fullRestart resource cycles pass, normalexit0.
+No teleport/damage/resource writes/NPC isolation/pose driver. Allies remain
+behind atWon; this does NOT pass squad or two-sided combat/human/fullMVP gates.
+Three full player-route CSVs actual36.84/36.05/36.08FPS, means27.14/27.74/27.71ms,
+High1080p.60FPS target FAILS; no hitch trimming. Original invalid profiler run
+has NOFPS result; CSV native Begin/End now verified.
+MI005 cohort_v1/instrument_v6 adds original two-Allied55cm/25s far-bank wait and
+FAILS: Ally1error110.488cm, Ally2error3408.397cm, both stationary/alive with
+SquadFailed=false. Stop cohort proof/single-poly route as complete repair; NO
+more exclusions/timing/formation/capsule/AI compensation from guesses.
+Next instrument_v7/squad_diagnose_v1 is cause-only original NPC path/request
+finish/capsule/sweep/nav-collision observation, first4s stationary Ready/error
+>100cm stop, not another unchanged proof. Inspect actual process/build receipts
+before entry; do not kill user processes. Raw tmp/mvp-closeout-20261008 private
+variants; prior failures in LocalShared/.../Evidence/MVPCloseoutV1/failures.
+Tools/Integration/MVPCloseoutV1 has bounded inspect/CSV helpers. No stress/video/
+PDF/current-human/second-machine/reviewer access/course-ready pass; teammates
+own second-machine verification. Don't adopt/publish the transient trial repair.
+
 **Unified teammate source/native release — 8 October:**
 User requests current source/assets synchronized; teammate runtime verification
 delegated to teammates. Read TEAM_SYNC_IMPLEMENTATION/RESULT_20261008 and

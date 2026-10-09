@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0-approved-v20",
+  "FriendlyName": "Paris Grip Binding V18",
+  "Description": "Native first-person display binding. Persistent approved selection references private SFTP pose data and existing assets.",
+  "Category": "Animation",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [{"Name": "ParisGripBindingV18", "Type": "Runtime", "LoadingPhase": "Default"}]
+}

@@ -1,0 +1,21 @@
+{
+  "authorization": "2026-10-09 user requests Git commit/push and private SFTP playable package sharing",
+  "original": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 12969,
+    "sha256": "44655b8cc43fbe58d69b5b54c75330610d119957c453bc35892553cc1f420d42"
+  },
+  "current": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 13413,
+    "sha256": "590e25671e95f72a3e77b60866a0a8de6c14f92cb5fbd55438c2a3a3270b3eba"
+  },
+  "release": "paris-g1-playtest-20261009-hud-v3",
+  "packaged_manifest_sha256": "05d493106c50d32121b24685429ff1807447f0a4473834d218b68b389af1f305",
+  "preserved_native_asset_version": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+  "preserved_native_manifest_sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
+  "native_selections_unchanged": true,
+  "only_catalog_guard_advances": true,
+  "authenticated_zip_readback": "pass",
+  "authenticated_manifest_readback": "pass"
+}

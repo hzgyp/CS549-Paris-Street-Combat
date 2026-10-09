@@ -1,5 +1,12 @@
 # Assignment 3 MVP Development Goal Version 1
 
+Dated update,8October2026: the user confirms Assignment2 and the Assignment3
+deadline13October2026. Current selected midterm scope is bridgeC/G1 capture with
+working safe-save/load (now Must); city-centre stages are deferred. Mentor evidence
+was not separately supplied. Later G1/closeout results and the acceptance checklist
+supersede the original untested readiness/task snapshots below; no whole-MVP or
+course-ready pass follows from the confirmation.
+
 Prepared 30 September 2026 for Paris Street Combat. This is the team's first implementation target, derived from [Assignment 3 MVP Implementation and Demo](../Assignment%203_%20MVP%20Development.docx) and the [current Assignment 2 MVP](../Proposal/CS549_Assignment2_Proposal.md). Work is planned; no gameplay, compatibility, performance or delivery result is claimed. The [acceptance checklist](ASSIGNMENT3_ACCEPTANCE.md) records what must be demonstrated.
 
 ## Goal
