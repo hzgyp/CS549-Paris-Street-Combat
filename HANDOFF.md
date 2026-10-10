@@ -1,5 +1,197 @@
 # Paris Street Combat - new-session handoff
 
+**Private publication/cleanup COMPLETE —9 October2026,22:13 EDT:** reviewed audio
+V2 release `paris-g1-playtest-20261009-audio-v2` is verified/selected. Named SFTP ZIP
+`/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip`,
+SHA7a8c225a…26d7d,8,476,572,643bytes/92members;33 cue objects separately selected.
+Ten local old outputs and old SFTP HUD ZIP alias/object removed. Net D free gain
+26,065,977,344bytes/24.28GiB after new packages and619,973,223byte recovery ZIP.
+Recovery map613files/41unique objects, actual launcher restore and previous
+hud_v1 full recovery-only verification pass. Current88 trial/42 authoring,
+source758/native359/protected703 and two user saves exact. See paired
+G1_AUDIO_BASELINE_PUBLICATION_RESULT_20261009 and G1AudioPublicationV2 proof/maps.
+Old remote manifest retained; download guides redirect to the new version.
+Shell object-read permission failure and pending-readback stop retained; use
+authenticated SFTP, no weakened ACL or failed-attempt deletion. Matching Git
+revision is finalized by the requested commit/push; final remote SHA stays in
+the private receipt/user handoff rather than a self-referential committed file.
+
+**Latest user selection — reviewed audio V2,9 October2026:** Yupu manually retested
+the just-launched53ab36d9…950aec executable and selects it for development. Current
+source is exact42 `Unreal/Variants/G1FootContactAudio20261009/Project`; authoring
+`tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project`. Current local entry
+`tmp/Playtest-G1-Foley-V2-20261009/PLAY_G1_REVISION.cmd`. Read the current selectors
+and paired G1_AUDIO_BASELINE_PUBLICATION_20261009/result for publication and cleanup.
+Older pending-audio/no-publication/protected-old-package snapshots below are dated
+history. The user authorizes new private SFTP resource/package publication and
+matching Git commit/push. Old trials/Archives/ZIP bytes may be retired under the
+exact inventory; consult G1AudioPublicationV2/RECOVERY_MAP_20261009.json. Keep
+source/logs/images/raw videos/saves/failure data, current Project and its Content
+junction, compact unique-byte archive and prior V13 recovery ZIP. Models/fingers/
+actions/gun/ammo/HUD/save/dead restore/native359/source758 remain protected.
+Manual acoustic review now passes by user report;9 numeric blend contacts remain
+unassessed, natural-turn/FPS/stress/Editor/second-machine/course gates separate.
+No new recording in this task; correct the turn before a future demo. The German
+exact licensed live-fire source gap remains explicit.
+
+**Latest foot/jump/recorded-M1 review candidate — 9 October2026:**
+User says recorded Foley is much improved except player step timing and jumping;
+other issues minor, and explicitly authorizes replacing the synthetic shot.
+Read CURRENT_AUDIO_REVIEW, paired G1_FOOT_CONTACT_AUDIO_V2_RESULT_20261009 and MI016.
+Normal entry `tmp/Playtest-G1-Foley-V2-20261009/PLAY_G1_REVISION.cmd`,88files,
+Game53ab36d9…950aec; exact42 `Unreal/Variants/G1FootContactAudio20261009/Project`,
+manifest2ff88f0e…4b468b. New authoring/evidence candidate_v2 under
+`tmp/g1-foot-contact-audio-v2-20261009` must remain, as must rejected candidate_v1.
+Only ParisGameplayAV.cpp changes: evaluated player feet/lift latch, upward takeoff
+and landing, actual CC0 M1 report for player/Allies. Original German firing cue
+remains: exact free reusable K98 live fire not established, no wrong-gun relabel.
+Models/fingers/animations/camera/gun/ammo/HUD/save/dead restore/reload preserved.
+Final actions PID9660/legacy PID41456 exit0,6169 foot samples/29player events;
+20stable contacts meet old bounds/9blend transitions UNASSESSED. Isolated actual
+M1/jump/land/insertion matches>.99993; conserved2/16->8/10 and stopped quiet3s
+old-V5 corpses pass. Native mix18.09s is not the~80s gameplay soundtrack.
+Normal independent UserDir G1PlaytestFoleyV220261009/V5 prefix; no solo/audit/
+observer/background override. Parent42/31audio/47Archive/source/native/HUD/history
+must remain exact. MI016 retains double contact, overlapping matcher, module/
+dependency and absolute/overfiltered/short-window diagnosis failures; do not
+present transition scoping as full contact approval. Human timing/timbre remains
+pending; no new recording/OBS/Git/SFTP. Correct natural turning after manual
+revised sound approval before another demonstration. Inspect actual processes
+before any later entry; user takeover always wins over historical closed state.
+
+**Recorded-Foley review candidate READY / manual hearing pending — 9 October2026:**
+Read [selector](Docs/Development/CURRENT_AUDIO_REVIEW.json),
+[result](Docs/Development/G1_AUDIO_REALISM_RESULT_20261009.md) / [中文](Docs/Development/G1_AUDIO_REALISM_RESULT_20261009_ZH.md), paired plan and MI015.
+Normal entry `tmp/Playtest-G1-Foley-20261009/PLAY_G1_REVISION.cmd`,91files,
+Game0921d755…cdfba5; exact42-source manifest4552fa36…f81977 under
+`Unreal/Variants/G1RecordedFoley20261009/Project`. Authoring/evidence
+`tmp/g1-recorded-foley-20261009/candidate_v1/Project` and parent evidence root
+must remain. One nonreflected audio helper differs from AVv3; all31 WAVs have
+source/trim/CC0 provenance, six walk/run/slow variants, M1/K98 mechanisms and
+phased reload. Approved fire identity/event/gain/space, models/fingers/HUD/gun/
+ammo/save/terminal-death implementation protected. Independent normal UserDir
+G1PlaytestFoley20261009, unchangedV5 prefix; normal launcher has no observer/audit/
+background override. Existing finite actions and old-journal terminal3s checks
+exit0; actual M1 timings0/.585/2.059/2.814s and template playback match>.99993.
+These are functional audio checks, not listening/contact/FPS/course acceptance.
+K98/crawl/body/active-interruption/manual gates remain. A later accepted shot
+after legacy3s gate is retained, input origin unclassified, not restored death.
+Delivery launcher-link drift was frozen/restored exactly;47-row old closure
+rechecked and both candidate scripts detached. No source/native/game/save drift;
+do not relabel that failed transfer as never changing a protected script.
+Old46.47->46.53s camera snap documented only; observer unchanged. No new video/
+OBS work, no commit/push/SFTP; recording stays HOLD until explicit manual sound
+approval, then natural turning must be corrected before another demonstration.
+
+
+**Latest human audio review / RECORDING HOLD — 9 October2026:**
+User accepts only the gunshot, rejects footstep/reload realism and reports an
+abrupt opening about-face in draft02. Read paired
+[sound plan](Docs/Development/G1_AUDIO_REALISM_REVISION_20261009.md) / [中文](Docs/Development/G1_AUDIO_REALISM_REVISION_20261009_ZH.md)
+and MI015. Sound revision is active; turn is documented only. Preserve approved
+fire bytes/event/mix treatment, AV42/parent40/models/fingers/gun/resources/save/
+terminal-death repairs and all previous captures. Do not record or re-export
+until the user explicitly passes manual sound review. Older local playback/media
+passes below remain scoped; they do not establish realistic sound/natural turning.
+
+
+**Latest saved-death/audio repair and English audiovisual draft02 COMPLETE —
+9 October2026:** read [actual result](Docs/Development/G1_DEATH_AUDIO_VIDEO_RESULT_20261009.md)
+/ [中文](Docs/Development/G1_DEATH_AUDIO_VIDEO_RESULT_20261009_ZH.md), bounded plan,
+[local repair selector](Docs/Development/CURRENT_LOCAL_REPAIR.json) and MI014.
+Game49da3a2c…28ad9c: `tmp/Playtest-G1-AV-20261009/PLAY_G1_REVISION.cmd`.
+Exact42-file `Unreal/Variants/G1PresentationAV20261009/Project` extends the selected
+40 HUDv3; only3 existing cpp/build files+2 nonreflected helpers. Carry repairs
+forward; preserve parent40, previousauthoring40, source758/native359/current703.
+Writable `tmp/g1-av-revision-20261009/candidate_v1/Project` holds finalcandidate_v3;
+its older folder name is not obsolete. Game-only compilation, no recook/Editor/
+native save/reflected schema/default/config/save format change. Models/fingers/
+gun/resource/consent/journal behavior retained. Restore seeks Rifle_Death_3 end
+3.933333s/stops/evaluates;3 guards remain terminal through3s, normal new deaths
+play and exact oldV5 journal load passes. Basic original walk/run/slow/crawl/fire/
+reload/landing/death equipment-impact SFX now play from actual game events.
+Normal trial retains default background muting and writes new isolated normal
+UserDir G1PlaytestAV20261009; old G1PlaytestV5 files remain exact.
+
+New video `Assets/LocalShared/Deliverables/Assignment3/DemoDraft02_20261009/Paris_G1_MVP_Draft_02.mp4`,
+128.966667s/3869frames/1080p30, English-only captions and actual OBS game audio,
+SHA286e8c89…42f4268; full AV decode/errors0, encodewarnings0, final frames reviewed
+and delivery independently hashed. Automated input/cuts/1x disclosed, continuous
+87.3667s G1 mission/consent/save/load, explicit9s stress backlog card. OBS32.2.2
+exact-window WGC/game-only loopback; originalUntitled/Untitled restored, recording
+off/OBS idle; successful owned games exit0 and no game/editor remains. Preserve
+old draft01/trial plus new trial/source/video, `tmp/g1-av-revision-20261009` and
+`tmp/g1-demo-draft02-20261009` raw/receipts/source/isolatedsaves/failedexport/first
+GPUstartupfailure. One pre-Ready frame2 MMU fault/exit3 remains unexplained;
+distinct fresh entry passes. Compile/silentmix/oldrange/matcher/export negatives
+are retained, not relabelled. No stopped capture route resumed. Protected exact
+checks pass; no Git commit/push/SFTP/video-host publication this turn. Current
+FPS/stress/natural battle/full motion/teammate/hosted link/report/mentor/course
+gates remain. Earlier silent bilingual draft01 is historical review evidence,
+superseded only as latest video by this English/audio draft.
+
+**Latest real gameplay video draft COMPLETE — 9 October 2026:**
+Read [actual recording/edit result](Docs/Development/G1_DEMO_DRAFT_RESULT_20261009.md)
+/ [中文](Docs/Development/G1_DEMO_DRAFT_RESULT_20261009_ZH.md) and its bounded plan.
+Local review MP4 at
+`Assets/LocalShared/Deliverables/Assignment3/DemoDraft20261009/Paris_G1_MVP_Draft_01.mp4`:
+129.7s/1080p/30fps, bilingual captions, silent,3891 frames/full decode clean,
+SHA256b90d9843…154222a. Real selected hud_v3 OBS32.2.2 WGC footage; automated
+native input and cuts disclosed. Continuous88.1s mission excerpt includes genuine
+shots/3guard deaths, unlocked consent circle/E save/F9 fresh-world load; separate
+movement/collision excerpts and explicit stress backlog card. Preserve the whole
+local deliverable directory **and** `tmp/g1-demo-draft-20261009` raw/provenance/
+isolated-userdirs/receipts/scripts/first-export evidence during cleanup.
+
+Four stopped capture routes MI008–MI011 remain stopped; this successful WGC
+route does not relabel them. Project-only OBS profile/scene retained; original
+Untitled/Untitled restored, recording stopped, OBS open/idle. Owned checkpoint/
+action games normal exit0, probe normal Alt-F4 with no measured exit code; latest
+process check finds no game/editor. Canonical758/703/selected40/game49722142…
+and user save/config/log inventories exact. Models/fingers/gun/save rules unchanged;
+no build/recook/game-source change/Git commit/push/external upload. Draft complete
+does not pass all VIDEO-01: real NPC stress/readable metrics/fuller AI interaction,
+60FPS/human/teammate/report/video-host/reviewer-access gates remain open. No game
+FPS inferred from media cadence; no YouTube/Vimeo link yet. Earlier "no valid
+video" snapshots below are historical, superseded only for this local draft.
+
+**Latest selected development baseline and obsolete-package cleanup COMPLETE —
+9 October 2026,15:16:52 EDT:** the user selects the current hud_v3 for subsequent
+development and permits deletion of unused older packaged versions. Read
+[current baseline](Docs/Development/CURRENT_DEVELOPMENT_BASELINE.md) /
+[中文](Docs/Development/CURRENT_DEVELOPMENT_BASELINE_ZH.md), its JSON selector,
+[actual result](Docs/Development/HUD_BASELINE_RETIRE_PACKAGES_RESULT_20261009.md) /
+[中文结果](Docs/Development/HUD_BASELINE_RETIRE_PACKAGES_RESULT_20261009_ZH.md)
+and paired plan. Feature source starts from exact40-file
+`Unreal/Variants/G1HUDPlaytest20261009/Project` or matching active private
+`tmp/g1-playtest-revision-20261008/candidate_v3/Project`; preserve that authoring
+folder despite its older name. Native359/canonical758 remain dependency anchors,
+not the starting gameplay/HUD source. Original models/fingers/gun/save logic stay.
+Playable remains `tmp/Playtest-G1-HUD-20261009/PLAY_G1_REVISION.cmd`,49722142…d1c42b.
+Only Game compilation is verified; build selected source before editor work.
+UI-baseline approval does not satisfy broader motion/camera/FPS/second-machine/
+video/course gates. Git source publication79421db8…fa0119 remains; these new
+selection/cleanup documents and archive tools are uncommitted, with no new push.
+
+Removed11 exact generated directories/527files: two obsolete non-HUD trials,
+instrument_v13 Archive,2October package_v3 Archive/canonical Saved StagedBuilds,
+six failed instrument Archives. Actual net D: free increase85.759GiB; remaining
+381.333GiB. New unique recovery ZIP0.773GiB. All11 absent/execute exit0/source758/
+guards703/current40/source-executable exact; latest trial50 and HUD Archive47
+inventories/metadata unchanged. Source/log/images/receipts/user saves/original
+assets and published SFTP history retained. No engine launched/terminated.
+
+Original StorageCleanup20261009 plan/result are immutable. Its seven retained
+instrument_v13 references now use authenticated existing private V13 ZIP members
+via `Docs/Development/PackageRetirementV1/RECOVERY_OVERRIDE_20261009.json`.
+Actual `restore_intermediate_archive.ps1 -VerifyRecoveryOnly` passes all declared
+bytes for old instrument_v11, including all seven remaps, without creating it.
+Keep this V13 ZIP, old/new unique recovery ZIPs and current HUD Archive until
+another explicitly authenticated remap. Private PackageRetirement20261009/run_v1
+holds recovery maps/actual receipts. Recovery does not authorize stopped reruns.
+Earlier preserve-both-final-Archives/all-three-trials snapshots below are
+superseded only for these later authorized obsolete generated outputs.
+
 **Latest private playable publication — 9 October 2026:**
 User authorizes Git commit/push and SFTP sharing. Read
 [verified result](Docs/Development/G1_PLAYTEST_PUBLICATION_RESULT_20261009.md) /

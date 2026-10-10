@@ -1,0 +1,1109 @@
+{
+  "status": "foot_contact_audio_v2_candidate_manual_review_pending",
+  "parent_provenance": {
+    "status": "recorded_foley_candidate_manual_review_pending",
+    "license": "CC0-1.0 for downloaded references",
+    "sources": [
+      {
+        "name": "m1_reload",
+        "author": "MPierluissi",
+        "page": "https://freesound.org/people/MPierluissi/sounds/460855/",
+        "license": "CC0-1.0",
+        "status": "acquired_public_hq_preview_not_original_wav",
+        "media": "https://cdn.freesound.org/previews/460/460855_4986614-hq.mp3",
+        "local": "m1_reload.mp3",
+        "size_bytes": 47782,
+        "sha256": "86426a40bd581ccf06023dcd9ad17de778892906dad372a378e36e2aed445097",
+        "primary_html_sha256": "7e72f0d1464c819b8ebb3318e1ea1d8e40f907b479f6431302a38dae3787b101"
+      },
+      {
+        "name": "m1_back",
+        "author": "MPierluissi",
+        "page": "https://freesound.org/people/MPierluissi/sounds/460857/",
+        "license": "CC0-1.0",
+        "status": "acquired_public_hq_preview_not_original_wav",
+        "media": "https://cdn.freesound.org/previews/460/460857_4986614-hq.mp3",
+        "local": "m1_back.mp3",
+        "size_bytes": 121733,
+        "sha256": "ee15e4f10550e3194efeffc380aa1ddb5e894d7903980b17a9befe2957dbb378",
+        "primary_html_sha256": "7c768a53e79c4d4a13fb15ecf3197fdc59dfee1ec72070690a4884664bd49c1f"
+      },
+      {
+        "name": "m1_forward",
+        "author": "MPierluissi",
+        "page": "https://freesound.org/people/MPierluissi/sounds/460856/",
+        "license": "CC0-1.0",
+        "status": "acquired_public_hq_preview_not_original_wav",
+        "media": "https://cdn.freesound.org/previews/460/460856_4986614-hq.mp3",
+        "local": "m1_forward.mp3",
+        "size_bytes": 30112,
+        "sha256": "4422a39b3ca38750ad6e451455fef7b16bbb6e77382f500aeb0b6f1cf1135b13",
+        "primary_html_sha256": "2404c0bb4489a1980adccd5cf2882c616fc884b83c830a0f4e973d28d4c751ef"
+      },
+      {
+        "name": "boots_stone",
+        "author": "Fission9",
+        "page": "https://freesound.org/people/Fission9/sounds/521590/",
+        "license": "CC0-1.0",
+        "status": "acquired_public_hq_preview_not_original_wav",
+        "media": "https://cdn.freesound.org/previews/521/521590_9395330-hq.mp3",
+        "local": "boots_stone.mp3",
+        "size_bytes": 60528,
+        "sha256": "62a89ab50b329495d917a553846795f967c76391aaed5a28419781adcd41efdf",
+        "primary_html_sha256": "13b2605d21d87dd5ee678283352b2b5f88f8620a7ee970aa36c60e713ebaf83b"
+      },
+      {
+        "name": "boots_rock_walk_run",
+        "author": "Vrymaa",
+        "page": "https://freesound.org/people/Vrymaa/sounds/770084/",
+        "license": "CC0-1.0",
+        "status": "acquired_public_hq_preview_not_original_wav",
+        "media": "https://cdn.freesound.org/previews/770/770084_13973196-hq.mp3",
+        "local": "boots_rock_walk_run.mp3",
+        "size_bytes": 844128,
+        "sha256": "d27d19f487f923c81b668ca2cde416d5a6125d535b0a672b23074b4f0de87dca",
+        "primary_html_sha256": "1b3c188f6fef878fa3bddc48da288585deafce2e342daf3be3b221a3abd69ffc"
+      },
+      {
+        "name": "body_dirt",
+        "author": "leonelmail",
+        "page": "https://freesound.org/people/leonelmail/sounds/504626/",
+        "license": "CC0-1.0",
+        "status": "acquired_public_hq_preview_not_original_wav",
+        "media": "https://cdn.freesound.org/previews/504/504626_4437257-hq.mp3",
+        "local": "body_dirt.mp3",
+        "size_bytes": 41172,
+        "sha256": "336a44d95279173764073a9b2d4d7e12f4167cfb0c1ad5c58e316895e129c6bb",
+        "primary_html_sha256": "f55c803921d81499935d16a72dc2afcfafb4dd940bf21ace855dede2047ac032"
+      },
+      {
+        "name": "coat",
+        "author": "Federico_Casazza",
+        "page": "https://freesound.org/people/Federico_Casazza/sounds/538930/",
+        "license": "CC0-1.0",
+        "status": "acquired_public_hq_preview_not_original_wav",
+        "media": "https://cdn.freesound.org/previews/538/538930_2549389-hq.mp3",
+        "local": "coat.mp3",
+        "size_bytes": 309761,
+        "sha256": "4debb6fe59bc0693e2ba0a9bf5bf198923f02fce18916b5f9d5bc8c7ba69ef1b",
+        "primary_html_sha256": "5005965249bc694e42cb90b9bc23f7f5b2cea0862900a716684d95cd1349ca0a"
+      },
+      {
+        "name": "kar98",
+        "author": "AugustSandberg",
+        "page": "https://freesound.org/people/AugustSandberg/sounds/508747/",
+        "license": "CC0-1.0",
+        "status": "acquired_public_hq_preview_not_original_wav",
+        "media": "https://cdn.freesound.org/previews/508/508747_1934171-hq.mp3",
+        "local": "kar98.mp3",
+        "size_bytes": 631872,
+        "sha256": "ac695311f800a63c255d456c2cd052dffbb6c0016e8ea061f183c10602298af9",
+        "primary_html_sha256": "c50614b8e85cfaffa3a1e7b2fbcdd5bbd249e207979ad88e30c91078dfabee24"
+      }
+    ],
+    "edits": [
+      {
+        "source": "boots_stone",
+        "source_start": 0.078,
+        "source_end": 0.42,
+        "linear_gain": 0.7762345989404027,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_walk_a.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 0.078,
+        "source_end": 0.42,
+        "linear_gain": 0.5544532849574305,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_slow_a.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 0.66,
+        "source_end": 1.05,
+        "linear_gain": 0.7507222770358671,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_walk_b.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 0.66,
+        "source_end": 1.05,
+        "linear_gain": 0.5362301978827622,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_slow_b.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 1.24,
+        "source_end": 1.62,
+        "linear_gain": 0.7401702989306904,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_walk_c.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 1.24,
+        "source_end": 1.62,
+        "linear_gain": 0.5286930706647789,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_slow_c.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 1.78,
+        "source_end": 2.17,
+        "linear_gain": 0.7132902805607003,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_walk_d.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 1.78,
+        "source_end": 2.17,
+        "linear_gain": 0.5094930575433574,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_slow_d.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 2.37,
+        "source_end": 2.8,
+        "linear_gain": 0.7344342142000684,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_walk_e.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 2.37,
+        "source_end": 2.8,
+        "linear_gain": 0.5245958672857631,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_slow_e.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 2.99,
+        "source_end": 3.43,
+        "linear_gain": 0.751002930788407,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_walk_f.wav"
+      },
+      {
+        "source": "boots_stone",
+        "source_start": 2.99,
+        "source_end": 3.43,
+        "linear_gain": 0.5364306648488621,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_slow_f.wav"
+      },
+      {
+        "source": "boots_rock_walk_run",
+        "source_start": 23.91,
+        "source_end": 24.2,
+        "linear_gain": 1.9326115332799847,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_run_a.wav"
+      },
+      {
+        "source": "boots_rock_walk_run",
+        "source_start": 24.33,
+        "source_end": 24.62,
+        "linear_gain": 2.6403574326303323,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_run_b.wav"
+      },
+      {
+        "source": "boots_rock_walk_run",
+        "source_start": 24.72,
+        "source_end": 25.01,
+        "linear_gain": 3.9227172755541204,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_run_c.wav"
+      },
+      {
+        "source": "boots_rock_walk_run",
+        "source_start": 25.12,
+        "source_end": 25.43,
+        "linear_gain": 2.764507326597708,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_run_d.wav"
+      },
+      {
+        "source": "boots_rock_walk_run",
+        "source_start": 25.52,
+        "source_end": 25.82,
+        "linear_gain": 3.5979924897250477,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_run_e.wav"
+      },
+      {
+        "source": "boots_rock_walk_run",
+        "source_start": 26.35,
+        "source_end": 26.64,
+        "linear_gain": 2.201929993397163,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "step_run_f.wav"
+      },
+      {
+        "source": "coat",
+        "source_start": 0.72,
+        "source_end": 1.08,
+        "linear_gain": 0.8268824823596513,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "crawl_a.wav"
+      },
+      {
+        "source": "coat",
+        "source_start": 2.48,
+        "source_end": 2.84,
+        "linear_gain": 1.2177786801052282,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "crawl_b.wav"
+      },
+      {
+        "source": "coat",
+        "source_start": 3.95,
+        "source_end": 4.31,
+        "linear_gain": 1.500297108518673,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "crawl_c.wav"
+      },
+      {
+        "source": "coat",
+        "source_start": 1.22,
+        "source_end": 1.62,
+        "linear_gain": 0.7919827970541219,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "reload_handling.wav"
+      },
+      {
+        "source": "m1_back",
+        "source_start": 0.135,
+        "source_end": 0.52,
+        "linear_gain": 0.34060293966416133,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "reload_m1_open.wav"
+      },
+      {
+        "source": "m1_reload",
+        "source_start": 1.49,
+        "source_end": 1.79,
+        "linear_gain": 0.9560738606038249,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "reload_m1_load.wav"
+      },
+      {
+        "source": "m1_forward",
+        "source_start": 0.205,
+        "source_end": 0.465,
+        "linear_gain": 0.3998162541324399,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "reload_m1_close.wav"
+      },
+      {
+        "source": "kar98",
+        "source_start": 1.285,
+        "source_end": 1.665,
+        "linear_gain": 0.6002302314765139,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "reload_k98_open.wav"
+      },
+      {
+        "source": "kar98",
+        "source_start": 5.14,
+        "source_end": 5.73,
+        "linear_gain": 2.2771354105661556,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "reload_k98_load.wav"
+      },
+      {
+        "source": "kar98",
+        "source_start": 3.035,
+        "source_end": 3.69,
+        "linear_gain": 0.7877413010502556,
+        "leading_silence": 0,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "reload_k98_close.wav"
+      },
+      {
+        "source": "body_dirt",
+        "source_start": 0.35,
+        "source_end": 1.53,
+        "linear_gain": 0.522133525950654,
+        "leading_silence": 0.65,
+        "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes",
+        "output": "death.wav"
+      },
+      {
+        "output": "land.wav",
+        "layers": [
+          {
+            "source": "boots_stone",
+            "source_start": 0.078,
+            "source_end": 0.42,
+            "linear_gain": 0.5544532849574305,
+            "leading_silence": 0,
+            "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes"
+          },
+          {
+            "source": "boots_stone",
+            "source_start": 0.66,
+            "source_end": 1.05,
+            "linear_gain": 0.5362301978827622,
+            "leading_silence": 0,
+            "processing": "Mono48k decode, DC removal, <=4x gain, 1ms onset/12ms end fades; no pitch/time changes"
+          }
+        ],
+        "second_offset": 0.034,
+        "origin": "Adapted two boot contacts for landing; not a dedicated jump landing recording"
+      }
+    ],
+    "files": [
+      {
+        "path": "crawl_a.wav",
+        "size_bytes": 34604,
+        "sha256": "7ede065e509e97b30db57a4a3522e571cce4348ed936839cc4c046fdf2578171",
+        "seconds": 0.36,
+        "peak": 0.199981689453125,
+        "rms": 0.04238693989829889,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "crawl_b.wav",
+        "size_bytes": 34604,
+        "sha256": "757df9ecf950522710c6ceb7ec4a4068e9cc20a40b8c21a9ee0971418e34ef5a",
+        "seconds": 0.36,
+        "peak": 0.199981689453125,
+        "rms": 0.035732698157994645,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "crawl_c.wav",
+        "size_bytes": 34604,
+        "sha256": "c1361bf49428caf910199e1d508f284ee7ddf85a1d8f78980c207c2e2eb6376b",
+        "seconds": 0.36,
+        "peak": 0.199981689453125,
+        "rms": 0.05088912709095064,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "death.wav",
+        "size_bytes": 175724,
+        "sha256": "497d5ff83263a80e49fa5cbb4c73d421fbbd904cd4cdc9398e233c0aa762d7c2",
+        "seconds": 1.83,
+        "peak": 0.47998046875,
+        "rms": 0.02880308399493216,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "fire.wav",
+        "size_bytes": 81644,
+        "sha256": "3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1",
+        "seconds": 0.85,
+        "peak": 0.77996826171875,
+        "rms": 0.05531985805598138,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "land.wav",
+        "size_bytes": 40748,
+        "sha256": "553795d67eba886ac0846ba7df0e0a39f199ce8b9d812ad13a5a9224d688e815",
+        "seconds": 0.424,
+        "peak": 0.29998779296875,
+        "rms": 0.02534518606770819,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "reload_handling.wav",
+        "size_bytes": 38444,
+        "sha256": "2c4c2defb138fc6fd5435677d422c5652e17297915409c5f390d37ce8f612e58",
+        "seconds": 0.4,
+        "peak": 0.160003662109375,
+        "rms": 0.024089307695663406,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "reload_k98_close.wav",
+        "size_bytes": 62924,
+        "sha256": "ab6d762dacc914eb128f39663a5da26b849f785fff7470d1715a249cf06a331a",
+        "seconds": 0.655,
+        "peak": 0.379974365234375,
+        "rms": 0.016465929133036936,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "reload_k98_load.wav",
+        "size_bytes": 56684,
+        "sha256": "e511409633d2daa6074cb10904c545d03ba6e29acf984069dfceb7fc54555cf1",
+        "seconds": 0.59,
+        "peak": 0.29998779296875,
+        "rms": 0.009635173419261657,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "reload_k98_open.wav",
+        "size_bytes": 36524,
+        "sha256": "6dc8b03af2a665b9d3c4bbe45029333aff3a50a592ee2e1029ea726fb36842a8",
+        "seconds": 0.38,
+        "peak": 0.339996337890625,
+        "rms": 0.022037517636030023,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "reload_m1_close.wav",
+        "size_bytes": 25004,
+        "sha256": "03aabb0a7f2855f3fafe942dde68a848c673f1dfda6795c99301cc13db4bf822",
+        "seconds": 0.26,
+        "peak": 0.379974365234375,
+        "rms": 0.02538067011619569,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "reload_m1_load.wav",
+        "size_bytes": 28844,
+        "sha256": "540e7fb49cf4bbeebebe607186395a189e9013170b7438f1f929df737d34e7d4",
+        "seconds": 0.3,
+        "peak": 0.339996337890625,
+        "rms": 0.007834880399278814,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "reload_m1_open.wav",
+        "size_bytes": 37004,
+        "sha256": "e6987cab929d17d3df923f22079106b2bbad4000b895ddf0015c182bb0578faa",
+        "seconds": 0.385,
+        "peak": 0.339996337890625,
+        "rms": 0.026524582680364076,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_run_a.wav",
+        "size_bytes": 27884,
+        "sha256": "bce333dac3c901db50cc03dc594d5c40aa52a1f281598d613748c1c4e55c083f",
+        "seconds": 0.29,
+        "peak": 0.5,
+        "rms": 0.056177326222493294,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_run_b.wav",
+        "size_bytes": 27884,
+        "sha256": "659a75af0a7405583c3a681c2281ad345a0d55bdb7790b95e5c390e4ba6ca5f0",
+        "seconds": 0.29,
+        "peak": 0.5,
+        "rms": 0.062305507585080334,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_run_c.wav",
+        "size_bytes": 27884,
+        "sha256": "aa800c12586cea900d81f4b8eecbea8aa629d28da943f41c81ef4a9579e4d22f",
+        "seconds": 0.29,
+        "peak": 0.5,
+        "rms": 0.07556754006554621,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_run_d.wav",
+        "size_bytes": 29804,
+        "sha256": "260c0d9d0b4e11dd9640d190e416526c898188025348fae27b9366f1f4c5606a",
+        "seconds": 0.31,
+        "peak": 0.5,
+        "rms": 0.07656364683425057,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_run_e.wav",
+        "size_bytes": 28844,
+        "sha256": "91e24ae2bef502edf37043d0dc47a5d470ba37af3425004e01edcc4b2b6073c6",
+        "seconds": 0.3,
+        "peak": 0.5,
+        "rms": 0.0680809927647214,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_run_f.wav",
+        "size_bytes": 27884,
+        "sha256": "61949a6358520ceaa4956e2be1369111c1651342dc009b86246c8fc2dfccb30e",
+        "seconds": 0.29,
+        "peak": 0.5,
+        "rms": 0.04810925590849401,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_slow_a.wav",
+        "size_bytes": 32876,
+        "sha256": "37d8ddf69a88dec475fed3f669fe6170175981205c1300ec6ae2f3b19a9b9684",
+        "seconds": 0.342,
+        "peak": 0.29998779296875,
+        "rms": 0.021985661675754286,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_slow_b.wav",
+        "size_bytes": 37484,
+        "sha256": "deb5fa741ba7686029a91b4e1b7ace0fd2ef846eaecbf62c20a131cb5824108e",
+        "seconds": 0.39,
+        "peak": 0.29998779296875,
+        "rms": 0.016502544728556456,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_slow_c.wav",
+        "size_bytes": 36524,
+        "sha256": "4646bd8263da6927a87007c3fdb1c9168517a4a2e15083309a0308f79c296f53",
+        "seconds": 0.38,
+        "peak": 0.29998779296875,
+        "rms": 0.019238574172033868,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_slow_d.wav",
+        "size_bytes": 37484,
+        "sha256": "ff6b4fd90610ec3d2b4655f27b2da59c285f96469d677e01481192af0dfaff12",
+        "seconds": 0.39,
+        "peak": 0.29998779296875,
+        "rms": 0.015314140397825297,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_slow_e.wav",
+        "size_bytes": 41324,
+        "sha256": "b61d5747cfada3873578985b8cf12f5aad2b7441f9b2cef9312aeaa4629db738",
+        "seconds": 0.43,
+        "peak": 0.29998779296875,
+        "rms": 0.012720346404840403,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_slow_f.wav",
+        "size_bytes": 42284,
+        "sha256": "55ebe8364a981026cc3e71d244562e7cc0a0453ca2e266418d72b930f70dd859",
+        "seconds": 0.44,
+        "peak": 0.29998779296875,
+        "rms": 0.014115192305594092,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_walk_a.wav",
+        "size_bytes": 32876,
+        "sha256": "8cc772b566cced04f82fc4f002f3dcb3a5e23840a49cee388b6375769d74fd0f",
+        "seconds": 0.342,
+        "peak": 0.41998291015625,
+        "rms": 0.03078013386545705,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_walk_b.wav",
+        "size_bytes": 37484,
+        "sha256": "9ed7f4f9fbe4c40a3251ccfbcb0276164520b0652aa3ccc3ce05f25494142bb4",
+        "seconds": 0.39,
+        "peak": 0.41998291015625,
+        "rms": 0.023103393908078133,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_walk_c.wav",
+        "size_bytes": 36524,
+        "sha256": "498067edbd3ca891a66ae70aa577944b0db067f48eaab80e7c0b112cdb3b50bc",
+        "seconds": 0.38,
+        "peak": 0.41998291015625,
+        "rms": 0.02693401810295795,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_walk_d.wav",
+        "size_bytes": 37484,
+        "sha256": "1693af6626b40d29f7aa5877f6a5632f7fa23162848ab58ee2ad742130cb898f",
+        "seconds": 0.39,
+        "peak": 0.41998291015625,
+        "rms": 0.02143964867976614,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_walk_e.wav",
+        "size_bytes": 41324,
+        "sha256": "e234adae0e2908b6de3e1767718bde3253e786aec304570a75b3e4ce3c157dfa",
+        "seconds": 0.43,
+        "peak": 0.41998291015625,
+        "rms": 0.01780848753994976,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      },
+      {
+        "path": "step_walk_f.wav",
+        "size_bytes": 42284,
+        "sha256": "190cb037135a75055cee8afab3a41028fe4392a296b66f067b683d4115fecbbf",
+        "seconds": 0.44,
+        "peak": 0.41998291015625,
+        "rms": 0.019761231393951733,
+        "clipped_samples": 0,
+        "header_44_bytes": true
+      }
+    ],
+    "approved_fire_sha256": "3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1",
+    "recording_hold": true,
+    "limitations": [
+      "Published lossy HQ MP3 references, decoded to PCM; not original WAV fidelity",
+      "Hard-ground Foley only, no material-specific map",
+      "Generic existing reload gesture retained; stage contact review remains human gate",
+      "No model auditory input; do not claim listening acceptance from metrics"
+    ]
+  },
+  "sources": [
+    {
+      "author": "MPierluissi",
+      "page": "https://freesound.org/people/MPierluissi/sounds/460851/",
+      "license": "CC0-1.0",
+      "media": "https://cdn.freesound.org/previews/460/460851_4986614-hq.mp3",
+      "local": "m1_live_fire.mp3",
+      "sha256": "c20d06db703e6622123879742e22c2e52858df6b3b7648afe43bf6a59dc6f83f",
+      "html_sha256": "7bbe74cf73155c934946ef2ae3e5fdb0a87570aee95493e01d642e4c2a34f103",
+      "decoded_sha256": "4d372df680343da488bc36bc125ea2f6de9fdf866f1b04b35176f908b6118f74",
+      "source_type": "Live-fire M1 Garand indoor field recording; official lossy HQ preview, not original lossless WAV",
+      "seconds": 5.0530625,
+      "peak": 0.999969482421875,
+      "clusters": [
+        {
+          "start": 0.2,
+          "end": 0.31,
+          "peak_time": 0.225
+        },
+        {
+          "start": 0.9450000000000001,
+          "end": 1.055,
+          "peak_time": 0.965
+        },
+        {
+          "start": 1.57,
+          "end": 1.675,
+          "peak_time": 1.59
+        },
+        {
+          "start": 2.1750000000000003,
+          "end": 2.2800000000000002,
+          "peak_time": 2.195
+        },
+        {
+          "start": 2.7800000000000002,
+          "end": 2.89,
+          "peak_time": 2.805
+        },
+        {
+          "start": 3.39,
+          "end": 3.5,
+          "peak_time": 3.415
+        },
+        {
+          "start": 3.975,
+          "end": 4.085,
+          "peak_time": 4.0
+        },
+        {
+          "start": 4.59,
+          "end": 4.69,
+          "peak_time": 4.61
+        }
+      ],
+      "k98": "No exact freely reusable live-fire source established; keep existing German cue, explicit gap"
+    }
+  ],
+  "edits": [
+    {
+      "source": "tmp\\g1-foot-contact-audio-v2-20261009\\intake\\m1_live_fire.wav",
+      "start": 0.195,
+      "end": 0.78,
+      "linear_gain": 0.6000313910580185,
+      "processing": "Mono48k PCM, DC removal, bounded gain, 1ms/12ms fades; no pitch/time change",
+      "output": "fire_m1.wav",
+      "page": "https://freesound.org/people/MPierluissi/sounds/460851/",
+      "license": "CC0-1.0",
+      "description": "First of eight live shots; no empty-clip ping added; indoor room tail retained"
+    },
+    {
+      "output": "jump.wav",
+      "layers": [
+        {
+          "source": "tmp\\g1-recorded-foley-20261009\\decoded\\boots_stone.wav",
+          "start": 0.205,
+          "end": 0.42,
+          "linear_gain": 4.0,
+          "processing": "Mono48k PCM, DC removal, bounded gain, 1ms/12ms fades; no pitch/time change"
+        },
+        {
+          "source": "tmp\\g1-recorded-foley-20261009\\decoded\\coat.wav",
+          "start": 0.72,
+          "end": 1.05,
+          "linear_gain": 0.5781325778578671,
+          "processing": "Mono48k PCM, DC removal, bounded gain, 1ms/12ms fades; no pitch/time change"
+        }
+      ],
+      "description": "Recorded boot release/scuff and cloth adaptation for takeoff, not a dedicated military jump capture"
+    }
+  ],
+  "files": [
+    {
+      "path": "crawl_a.wav",
+      "size_bytes": 34604,
+      "sha256": "7ede065e509e97b30db57a4a3522e571cce4348ed936839cc4c046fdf2578171",
+      "seconds": 0.36,
+      "peak": 0.199981689453125,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "crawl_b.wav",
+      "size_bytes": 34604,
+      "sha256": "757df9ecf950522710c6ceb7ec4a4068e9cc20a40b8c21a9ee0971418e34ef5a",
+      "seconds": 0.36,
+      "peak": 0.199981689453125,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "crawl_c.wav",
+      "size_bytes": 34604,
+      "sha256": "c1361bf49428caf910199e1d508f284ee7ddf85a1d8f78980c207c2e2eb6376b",
+      "seconds": 0.36,
+      "peak": 0.199981689453125,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "death.wav",
+      "size_bytes": 175724,
+      "sha256": "497d5ff83263a80e49fa5cbb4c73d421fbbd904cd4cdc9398e233c0aa762d7c2",
+      "seconds": 1.83,
+      "peak": 0.47998046875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "fire.wav",
+      "size_bytes": 81644,
+      "sha256": "3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1",
+      "seconds": 0.85,
+      "peak": 0.77996826171875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "fire_m1.wav",
+      "size_bytes": 56204,
+      "sha256": "f52a11a9e852b141a77e6d22e2851d9d314b3d34cccc6232465bb5f3b6a2f0c9",
+      "seconds": 0.585,
+      "peak": 0.5999755859375,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "jump.wav",
+      "size_bytes": 31724,
+      "sha256": "391f1fdb491d4a3b7929e3c5b187c5272bb1d45d14bd41b774b179d69abbd258",
+      "seconds": 0.33,
+      "peak": 0.140594482421875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "land.wav",
+      "size_bytes": 40748,
+      "sha256": "553795d67eba886ac0846ba7df0e0a39f199ce8b9d812ad13a5a9224d688e815",
+      "seconds": 0.424,
+      "peak": 0.29998779296875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "reload_handling.wav",
+      "size_bytes": 38444,
+      "sha256": "2c4c2defb138fc6fd5435677d422c5652e17297915409c5f390d37ce8f612e58",
+      "seconds": 0.4,
+      "peak": 0.160003662109375,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "reload_k98_close.wav",
+      "size_bytes": 62924,
+      "sha256": "ab6d762dacc914eb128f39663a5da26b849f785fff7470d1715a249cf06a331a",
+      "seconds": 0.655,
+      "peak": 0.379974365234375,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "reload_k98_load.wav",
+      "size_bytes": 56684,
+      "sha256": "e511409633d2daa6074cb10904c545d03ba6e29acf984069dfceb7fc54555cf1",
+      "seconds": 0.59,
+      "peak": 0.29998779296875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "reload_k98_open.wav",
+      "size_bytes": 36524,
+      "sha256": "6dc8b03af2a665b9d3c4bbe45029333aff3a50a592ee2e1029ea726fb36842a8",
+      "seconds": 0.38,
+      "peak": 0.339996337890625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "reload_m1_close.wav",
+      "size_bytes": 25004,
+      "sha256": "03aabb0a7f2855f3fafe942dde68a848c673f1dfda6795c99301cc13db4bf822",
+      "seconds": 0.26,
+      "peak": 0.379974365234375,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "reload_m1_load.wav",
+      "size_bytes": 28844,
+      "sha256": "540e7fb49cf4bbeebebe607186395a189e9013170b7438f1f929df737d34e7d4",
+      "seconds": 0.3,
+      "peak": 0.339996337890625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "reload_m1_open.wav",
+      "size_bytes": 37004,
+      "sha256": "e6987cab929d17d3df923f22079106b2bbad4000b895ddf0015c182bb0578faa",
+      "seconds": 0.385,
+      "peak": 0.339996337890625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_run_a.wav",
+      "size_bytes": 27884,
+      "sha256": "bce333dac3c901db50cc03dc594d5c40aa52a1f281598d613748c1c4e55c083f",
+      "seconds": 0.29,
+      "peak": 0.5,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_run_b.wav",
+      "size_bytes": 27884,
+      "sha256": "659a75af0a7405583c3a681c2281ad345a0d55bdb7790b95e5c390e4ba6ca5f0",
+      "seconds": 0.29,
+      "peak": 0.5,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_run_c.wav",
+      "size_bytes": 27884,
+      "sha256": "aa800c12586cea900d81f4b8eecbea8aa629d28da943f41c81ef4a9579e4d22f",
+      "seconds": 0.29,
+      "peak": 0.5,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_run_d.wav",
+      "size_bytes": 29804,
+      "sha256": "260c0d9d0b4e11dd9640d190e416526c898188025348fae27b9366f1f4c5606a",
+      "seconds": 0.31,
+      "peak": 0.5,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_run_e.wav",
+      "size_bytes": 28844,
+      "sha256": "91e24ae2bef502edf37043d0dc47a5d470ba37af3425004e01edcc4b2b6073c6",
+      "seconds": 0.3,
+      "peak": 0.5,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_run_f.wav",
+      "size_bytes": 27884,
+      "sha256": "61949a6358520ceaa4956e2be1369111c1651342dc009b86246c8fc2dfccb30e",
+      "seconds": 0.29,
+      "peak": 0.5,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_slow_a.wav",
+      "size_bytes": 32876,
+      "sha256": "37d8ddf69a88dec475fed3f669fe6170175981205c1300ec6ae2f3b19a9b9684",
+      "seconds": 0.342,
+      "peak": 0.29998779296875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_slow_b.wav",
+      "size_bytes": 37484,
+      "sha256": "deb5fa741ba7686029a91b4e1b7ace0fd2ef846eaecbf62c20a131cb5824108e",
+      "seconds": 0.39,
+      "peak": 0.29998779296875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_slow_c.wav",
+      "size_bytes": 36524,
+      "sha256": "4646bd8263da6927a87007c3fdb1c9168517a4a2e15083309a0308f79c296f53",
+      "seconds": 0.38,
+      "peak": 0.29998779296875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_slow_d.wav",
+      "size_bytes": 37484,
+      "sha256": "ff6b4fd90610ec3d2b4655f27b2da59c285f96469d677e01481192af0dfaff12",
+      "seconds": 0.39,
+      "peak": 0.29998779296875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_slow_e.wav",
+      "size_bytes": 41324,
+      "sha256": "b61d5747cfada3873578985b8cf12f5aad2b7441f9b2cef9312aeaa4629db738",
+      "seconds": 0.43,
+      "peak": 0.29998779296875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_slow_f.wav",
+      "size_bytes": 42284,
+      "sha256": "55ebe8364a981026cc3e71d244562e7cc0a0453ca2e266418d72b930f70dd859",
+      "seconds": 0.44,
+      "peak": 0.29998779296875,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_walk_a.wav",
+      "size_bytes": 32876,
+      "sha256": "8cc772b566cced04f82fc4f002f3dcb3a5e23840a49cee388b6375769d74fd0f",
+      "seconds": 0.342,
+      "peak": 0.41998291015625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_walk_b.wav",
+      "size_bytes": 37484,
+      "sha256": "9ed7f4f9fbe4c40a3251ccfbcb0276164520b0652aa3ccc3ce05f25494142bb4",
+      "seconds": 0.39,
+      "peak": 0.41998291015625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_walk_c.wav",
+      "size_bytes": 36524,
+      "sha256": "498067edbd3ca891a66ae70aa577944b0db067f48eaab80e7c0b112cdb3b50bc",
+      "seconds": 0.38,
+      "peak": 0.41998291015625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_walk_d.wav",
+      "size_bytes": 37484,
+      "sha256": "1693af6626b40d29f7aa5877f6a5632f7fa23162848ab58ee2ad742130cb898f",
+      "seconds": 0.39,
+      "peak": 0.41998291015625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_walk_e.wav",
+      "size_bytes": 41324,
+      "sha256": "e234adae0e2908b6de3e1767718bde3253e786aec304570a75b3e4ce3c157dfa",
+      "seconds": 0.43,
+      "peak": 0.41998291015625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    },
+    {
+      "path": "step_walk_f.wav",
+      "size_bytes": 42284,
+      "sha256": "190cb037135a75055cee8afab3a41028fe4392a296b66f067b683d4115fecbbf",
+      "seconds": 0.44,
+      "peak": 0.41998291015625,
+      "clipped_samples": 0,
+      "header_44_bytes": true
+    }
+  ],
+  "shot_policy": "Original successful ShotSequence gating/attenuation retained; Team1 original fire, player/Allied recorded fire_m1",
+  "recording_hold": true,
+  "limitations": [
+    "Indoor lossy source, not outdoor lossless capture",
+    "Exact K98 live-fire source unavailable; original German report retained",
+    "Jump combines boot scuff and cloth, not a dedicated jump source",
+    "Human acoustics/contact acceptance pending"
+  ]
+}

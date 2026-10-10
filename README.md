@@ -1,10 +1,67 @@
 # Paris Street Combat
 
+**Current development basis — manually reviewed audio V2,9 October2026:** Yupu
+passes manual retest and selects Game53ab36d9…950aec. Start source work from exact42
+`Unreal/Variants/G1FootContactAudio20261009/Project` and the current selectors:
+[baseline](Docs/Development/CURRENT_DEVELOPMENT_BASELINE.md),
+[publication plan](Docs/Development/G1_AUDIO_BASELINE_PUBLICATION_20261009.md).
+Local entry: `tmp/Playtest-G1-Foley-V2-20261009/PLAY_G1_REVISION.cmd`.
+The matching private package/audio release and actual cleanup/push status are in
+the dated publication result. Older entries below are historical. Source, models,
+finger poses, weapon/resources/save logic and failure evidence remain; obsolete
+playable packages are retired through exact recovery mappings. Natural turn/video,
+performance, Editor and second-machine/course gates are separate.
+
 A CS549 single-player FPS project using an existing Paris/European city environment. The proposed academic pillars are **Animation, Collision Detection, Pathfinding and Navigation, and NPC AI / Behavior Trees**. The encounter is fictionalized within the August 1944 liberation of Paris; the Normandy landing is background context only.
 
 **Team:** Yupu Guo (yg745, leader), Yuqi Pu (yp549), Jingdi Wu (jw2046).
 
 ## Current baseline
+
+**Latest foot/jump/recorded-M1 review candidate,9October:**
+`tmp/Playtest-G1-Foley-V2-20261009/PLAY_G1_REVISION.cmd`,Game53ab36d9…950aec,
+88files/33cues/exact42 source. Read CURRENT_AUDIO_REVIEW and paired
+[result](Docs/Development/G1_FOOT_CONTACT_AUDIO_V2_RESULT_20261009.md) /
+[中文](Docs/Development/G1_FOOT_CONTACT_AUDIO_V2_RESULT_20261009_ZH.md), MI016.
+Player evaluated-foot latch, takeoff/landing and actual M1 shot are implemented;
+20stable contacts checked/9transitions UNASSESSED, actual isolated playback,
+original ammo/quiet legacy corpses pass. Models/fingers/HUD/gun/save preserved.
+German original report remains an exact-K98 source gap. Manual hearing pending,
+recording HOLD; older identities below are preserved history, no new publication.
+
+**Latest recorded-Foley review candidate,9October:**
+`tmp/Playtest-G1-Foley-20261009/PLAY_G1_REVISION.cmd` replaces rejected synthetic
+steps/reload with credited recorded Foley; gunshot and models/fingers/HUD/gun/save
+rules remain. Exact42 source changes only the audio helper; Game compilation,
+actual playback/conserved reload and old-journal stopped-corpse checks pass.
+Read [review selector](Docs/Development/CURRENT_AUDIO_REVIEW.json) and
+[result](Docs/Development/G1_AUDIO_REALISM_RESULT_20261009.md) / [中文](Docs/Development/G1_AUDIO_REALISM_RESULT_20261009_ZH.md).
+Manual acoustic/contact acceptance is pending; recording is held. The old opening
+camera snap is logged only under MI015; no new video/publication. Keep old and
+new source/trials/captures plus `tmp/g1-recorded-foley-20261009` evidence.
+
+**Latest local repair and English/audio video,9October:**
+`tmp/Playtest-G1-AV-20261009/PLAY_G1_REVISION.cmd` restores saved guards directly
+to the original stopped death pose and adds basic original gameplay SFX. Its
+exact42-file source extends the selected HUDv3; carry this repair forward using
+[the local child selector](Docs/Development/CURRENT_LOCAL_REPAIR.json) and
+[actual result](Docs/Development/G1_DEATH_AUDIO_VIDEO_RESULT_20261009.md) /
+[中文](Docs/Development/G1_DEATH_AUDIO_VIDEO_RESULT_20261009_ZH.md).
+New draft02 is128.966667s/1080p30/English-only text/actual captured game audio,
+under `Assets/LocalShared/Deliverables/Assignment3/DemoDraft02_20261009`.
+Old trial/source/video/user saves remain protected. New source/game/video are
+local/unpublished; stress/FPS/full motion/teammate/course gates stay open.
+
+**Selected development baseline, 9 October:** Yupu chooses the latest HUD playtest
+for all subsequent gameplay/UI development. Follow
+[the current baseline](Docs/Development/CURRENT_DEVELOPMENT_BASELINE.md) /
+[中文说明](Docs/Development/CURRENT_DEVELOPMENT_BASELINE_ZH.md) and its JSON selector.
+Playable entry is `tmp/Playtest-G1-HUD-20261009/PLAY_G1_REVISION.cmd`; source starts
+from the exact40-file `Unreal/Variants/G1HUDPlaytest20261009/Project` snapshot or
+matching active private Project. Original models/finger poses/weapon logic remain.
+Older generated packages are retired through the documented recovery-aware plan.
+Native restoration anchors remain protected; cached Editor binaries and broader
+MVP/course gates are not accepted by this runtime/source selection.
 
 **Approved first-person selection, 5 October:** the saved map now uses the
 human-approved V20 grip/holding display with persistent native auto-binding.

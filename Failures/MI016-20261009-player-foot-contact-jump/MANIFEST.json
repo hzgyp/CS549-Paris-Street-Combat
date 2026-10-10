@@ -1,0 +1,12 @@
+{
+  "private_root": "tmp/g1-foot-contact-audio-v2-20261009",
+  "freeze_sha256": "34a3cd66953175aa3fbd16b779e32b05b844af3d5e95ac81d5cb8dfd38c031f4",
+  "rejected_implementation": {
+    "path": "rejected_distance_helper.cpp",
+    "size_bytes": 15962,
+    "sha256": "6abb283bf15c67340223821322ef3d9a35c7d64c96a298d633332daa136a9787"
+  },
+  "parent_game_sha256": "0921d7557df84b3198eeb11f6cd99315f7f23476d9f51384dfa270e3aecdfba5",
+  "parent_source_manifest_sha256": "4552fa36a0d796d385f8b7503f375cfd49ddaf144f194a8f9fcaf060a4f81977",
+  "recording_hold": true
+}

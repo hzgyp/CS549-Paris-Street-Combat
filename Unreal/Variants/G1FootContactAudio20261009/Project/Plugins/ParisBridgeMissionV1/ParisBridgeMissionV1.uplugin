@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Paris G1 bridgehead mission",
+  "Description": "Finite G1 mission and validated local save journal. Original combat and presentation remain dependencies.",
+  "Category": "Gameplay",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Modules": [{"Name": "ParisBridgeMissionV1", "Type": "Runtime", "LoadingPhase": "Default"}]
+}

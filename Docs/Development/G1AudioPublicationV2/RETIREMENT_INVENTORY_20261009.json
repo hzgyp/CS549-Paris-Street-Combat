@@ -1,0 +1,77 @@
+{
+  "targets": [
+    {
+      "path": "tmp/Playtest-G1-HUD-20261009",
+      "files": 50,
+      "size_bytes": 8456388048,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/Playtest-G1-AV-20261009",
+      "files": 61,
+      "size_bytes": 8456848206,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/Playtest-G1-Foley-20261009",
+      "files": 91,
+      "size_bytes": 8460684696,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/hud_v3/Archive",
+      "files": 47,
+      "size_bytes": 8456363188,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/g1-av-revision-20261009/candidate_v2/Archive",
+      "files": 60,
+      "size_bytes": 8456845159,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/g1-av-revision-20261009/candidate_v3/Archive",
+      "files": 60,
+      "size_bytes": 8456846695,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/g1-recorded-foley-20261009/candidate_v1/Archive",
+      "files": 80,
+      "size_bytes": 8457743730,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v1/Archive",
+      "files": 82,
+      "size_bytes": 8457851351,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Archive",
+      "files": 82,
+      "size_bytes": 8457852375,
+      "kind": "directory"
+    },
+    {
+      "path": "tmp/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip",
+      "size_bytes": 8474979819,
+      "sha256": "5c8184c58f7a79ca30a669f99f017df79a04377acc027354607c6bb98452f968",
+      "kind": "file",
+      "mtime_ns": 1791558950070932100
+    }
+  ],
+  "remote_remove": [
+    "/releases/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip",
+    "/objects/sha256/5c/5c8184c58f7a79ca30a669f99f017df79a04377acc027354607c6bb98452f968"
+  ],
+  "plan_sha256": "240a3db15053d2c296205a64bee393fd74703803218ed91fd7449f2a0b82aa7f",
+  "recovery_map_sha256": "fc523597ebe6aa5749670e9d7f4d01b95ef5f8da73a3c19c0ce337f865fb823c",
+  "recovery_zip": {
+    "path": "tmp/g1-audio-publication-20261009/retired_unique_files.zip",
+    "size_bytes": 619973223,
+    "sha256": "63744e87822aeead2d08f8969a91602fc820df9c6efdc3d11d9fd160b67319af"
+  },
+  "retained_legacy_recovery_zip": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MVPCloseoutV1/delivery_v1/Paris_Street_Combat_G1_Private_Candidate_Win64.zip"
+}

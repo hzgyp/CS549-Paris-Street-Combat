@@ -1,0 +1,10 @@
+{
+  "FileVersion":3,"Version":1,"VersionName":"1.0-candidate",
+  "FriendlyName":"Paris NPC Grip V15","Category":"Animation",
+  "Description":"Native existing-pose rotation adapter; private per-pair UE assets.",
+  "EnabledByDefault":false,"CanContainContent":false,
+  "Modules":[
+    {"Name":"ParisNPCGripV15","Type":"Runtime","LoadingPhase":"Default"},
+    {"Name":"ParisNPCGripV15Editor","Type":"UncookedOnly","LoadingPhase":"Default"}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "import_collision_failure": {
+    "path": "freeze_intake_v1_import_failed.py",
+    "size_bytes": 4596,
+    "sha256": "9f8b200b8b402a6b5950a09ebc5c91d6a3e488c48a79154ca2a8919caea71345"
+  },
+  "import_failure_scope": "Guard intake failed before freeze or protected data mutation; corrected by explicitly named importlib guard module",
+  "checks": "tmp/g1-foot-contact-audio-v2-20261009/checks_solo/verification.json",
+  "rejected_contact_figure": "tmp/g1-foot-contact-audio-v2-20261009/checks/actions/foot_contact_plot.png",
+  "retained_overlap_verifier": {
+    "path": "verify_v1_overlap_failed.py",
+    "size_bytes": 6659,
+    "sha256": "258e0c2ea2b735cfa5b95def2f24c49d274a16d74d7792f994705a402de6312b"
+  },
+  "missing_plot_dependency": {
+    "path": "plot_v1_missing_dependency_failed.py",
+    "size_bytes": 2033,
+    "sha256": "22e241eb3a4327e92cc0fc06be67464fbf73bb4ff6897c2c1141499133e67c16"
+  },
+  "retained_absolute_minimum_verifier": {
+    "path": "verify_v2_absolute_minimum_failed.py",
+    "size_bytes": 6669,
+    "sha256": "ef98adbdd8d1ba39e880a75f33ed6ba90786b0f242f03cdf28de8b7c7ed93a20"
+  },
+  "retained_overfiltered_descent_verifier": {
+    "path": "verify_v3_overfiltered_descent_failed.py",
+    "size_bytes": 6868,
+    "sha256": "d2c4fcc11891ee686b751b1b79477ca2e95548c846cd2ac2b8aef68b35086528"
+  },
+  "retained_short_window_verifier": {
+    "path": "verify_v4_short_regime_window_failed.py",
+    "size_bytes": 6927,
+    "sha256": "b756858b583d82ce52033888f7bab1a704a423ea1a942c0bf8e8b21263fd865b"
+  },
+  "final_figure": "tmp/g1-foot-contact-audio-v2-20261009/checks_solo/actions/foot_contact_plot.png",
+  "recording_hold": true
+}

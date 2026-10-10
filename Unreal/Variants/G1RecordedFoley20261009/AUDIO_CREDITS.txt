@@ -1,0 +1,43 @@
+Recorded Foley candidate, 9 October2026. Manual acoustic review pending.
+
+m1_reload by MPierluissi
+https://freesound.org/people/MPierluissi/sounds/460855/
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Official publicly published HQ MP3 reference; not the original uncompressed WAV.
+
+m1_back by MPierluissi
+https://freesound.org/people/MPierluissi/sounds/460857/
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Official publicly published HQ MP3 reference; not the original uncompressed WAV.
+
+m1_forward by MPierluissi
+https://freesound.org/people/MPierluissi/sounds/460856/
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Official publicly published HQ MP3 reference; not the original uncompressed WAV.
+
+boots_stone by Fission9
+https://freesound.org/people/Fission9/sounds/521590/
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Official publicly published HQ MP3 reference; not the original uncompressed WAV.
+
+boots_rock_walk_run by Vrymaa
+https://freesound.org/people/Vrymaa/sounds/770084/
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Official publicly published HQ MP3 reference; not the original uncompressed WAV.
+
+body_dirt by leonelmail
+https://freesound.org/people/leonelmail/sounds/504626/
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Official publicly published HQ MP3 reference; not the original uncompressed WAV.
+
+coat by Federico_Casazza
+https://freesound.org/people/Federico_Casazza/sounds/538930/
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Official publicly published HQ MP3 reference; not the original uncompressed WAV.
+
+kar98 by AugustSandberg
+https://freesound.org/people/AugustSandberg/sounds/508747/
+CC0-1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Official publicly published HQ MP3 reference; not the original uncompressed WAV.
+
+Approved fire.wav retained byte-identically from AVv3 original synthesis. All other cues use adapted recordings. No human death voice. Landing is a two-contact boot adaptation; crawl uses coat rustle. No claim of an exact WWII uniform or sole recording.

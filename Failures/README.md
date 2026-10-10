@@ -1,5 +1,81 @@
 # 失败案例索引 / Failure case index
 
+9 October later manual review: Yupu retested Game53ab36d9…950aec and selects audio
+V2. MI015/MI016 revised listening is now accepted by that user report, without
+erasing original failures or passing9 unassessed numeric transition checks.
+Publication and obsolete-package removal are explicitly authorized; see paired
+G1_AUDIO_BASELINE_PUBLICATION_20261009 and actual result. Old playable/Archive
+paths can be retired while their exact source/log/image/raw/save evidence and
+unique bytes remain. Use G1AudioPublicationV2/RECOVERY_MAP_20261009.json before
+following a removed path. Do not delete recovery dependencies or equate manual
+sound acceptance with natural turning, performance or course completion.
+
+Latest human Foley feedback: much improved, player step mismatch and missing jump;
+real report replacement now explicitly authorized. Read [MI016](MI016-20261009-player-foot-contact-jump/FAILURE_ANALYSIS.md)
+/ [中文](MI016-20261009-player-foot-contact-jump/FAILURE_ANALYSIS_ZH.md), current audio
+selector and paired foot-contact V2 result. New53ab36d9/42source/33cue candidate
+uses evaluated feet/lift latch, takeoff/landing and recorded M1; German original
+fire remains an explicit exact-K98 source gap.20stable contacts checked/9blend
+contacts UNASSESSED, isolated native audio/original ammo/quiet terminal restore
+pass locally. Preserve initial duplicate-step graph, overlap/absolute-minimum/
+overfiltered/short-window verifiers and import/plot negatives. No further recording
+before manual sound approval and separate natural-turn correction.
+
+Recorded Foley review candidate now exists: read
+[result](../Docs/Development/G1_AUDIO_REALISM_RESULT_20261009.md) / [中文](../Docs/Development/G1_AUDIO_REALISM_RESULT_20261009_ZH.md),
+CURRENT_AUDIO_REVIEW and MI015. New31 recorded/adapted cues and single-helper Game
+pass scoped actual playback/resources/old-journal restore. Acoustic/contact approval
+is still pending; no new screen recording. MI015 also retains source-parser,
+generation-verifier and mutable-launcher-link delivery negatives; original parent
+launcher recovered exactly,47-row closure rechecked. Keep both sound/source/trial
+identities and old raw/video; never use waveform correlation as a realism pass.
+
+9 October human review supersedes prior acoustic assumptions:
+[MI015](MI015-20261009-audio-realism-turn/FAILURE_ANALYSIS.md) / [中文](MI015-20261009-audio-realism-turn/FAILURE_ANALYSIS_ZH.md).
+Only gunshot is accepted; synthesized steps/reload are rejected as unrealistic,
+and automated opening heading snaps are logged. Preserve approved fire, old AVv3
+and raw footage; use recorded licensed Foley and separate listening acceptance.
+New screen recording/demo export is HOLD until the user's manual review passes.
+Read the paired sound plan before implementation. Playback/RMS is not realism.
+
+Latest9October local repair/draft02 is complete; read
+[actual result](../Docs/Development/G1_DEATH_AUDIO_VIDEO_RESULT_20261009.md) /
+[中文](../Docs/Development/G1_DEATH_AUDIO_VIDEO_RESULT_20261009_ZH.md) and MI014.
+Saved corpse/actual game audio/English captured draft pass their scoped gates.
+MI014 retains compile, silent mixes, range culling, pre-Ready GPU crash, broad
+rapid-shot matcher negative and failed AAC export. Its MANIFEST references
+private bytes; preserve both tmp/g1-av-revision-20261009 and
+tmp/g1-demo-draft02-20261009 plus new trial/source/delivery and all old baselines.
+Occasional startup GPU cause/stress/FPS/teammate/course gates remain open.
+
+9 October draft01 review: [MI014](MI014-20261009-checkpoint-death-audio/FAILURE_ANALYSIS.md)
+/ [中文](MI014-20261009-checkpoint-death-audio/FAILURE_ANALYSIS_ZH.md) records
+restored dead flags with replayed death animation, unwired game cues and an
+explicitly silent recording launcher/OBS. Terminal pose and actual output audio
+need separate acceptance; draft01/source/raw are retained. Follow the bounded
+G1_DEATH_AUDIO_VIDEO_REVISION_20261009 plan before the English-only rerecording.
+
+9 October later recording: a new **specific-window OBS WGC** route produces a
+129.7s real hud_v3 annotated draft. Read the
+[actual result](../Docs/Development/G1_DEMO_DRAFT_RESULT_20261009.md) /
+[中文](../Docs/Development/G1_DEMO_DRAFT_RESULT_20261009_ZH.md) and bounded plan.
+MI008–MI011 remain stopped, with original evidence unchanged; no rerun of their
+hidden-backbuffer/RHI/GDI routes. The later success only supersedes "no local
+valid video" snapshots. Raw MKVs/OBS provenance/first-export warning are retained
+privately; keep tmp/g1-demo-draft-20261009 and the local deliverable directory
+during cleanup. No stress-limit/60FPS/full-motion/human/course acceptance follows.
+
+9 October later user selection: hud_v3 is now the development starting point;
+read [current baseline](../Docs/Development/CURRENT_DEVELOPMENT_BASELINE_ZH.md).
+The pending implemented-UI review below is superseded by this explicit selection,
+not by whole-motion/performance/course acceptance. Eleven obsolete generated
+trial/Archive/staging directories were retired after recovery verification;
+source, logs, images, failure analyses and original receipts remain. Read the
+[actual result and recovery remap](../Docs/Development/HUD_BASELINE_RETIRE_PACKAGES_RESULT_20261009_ZH.md)
+before following an old Archive path. Seven old V13 references now use verified
+members of its retained private ZIP; the immutable previous plan/result are
+unchanged. Keep recovery dependencies; no stopped experiment is reopened.
+
 9 October storage-only cleanup: raw failure source/log/images and published
 history retained; superseded build Archives/staging now recover through the
 private cleanup manifest/ZIP and two retained final Archives. Read the

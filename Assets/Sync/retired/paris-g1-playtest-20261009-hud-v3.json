@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "asset_id": "paris-g1-packaged-playtest",
+  "asset_version": "paris-g1-playtest-20261009-hud-v3",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-09T11:22:53.374015-04:00",
+  "engine": "Unreal Engine 5.8.2 CL56702186 Windows x64 Development",
+  "source": "Existing tested hud_v3 frozen playable package; no rebuild or native adoption",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "scope": "Private packaged human playtest; full MVP/course and teammate acceptance incomplete",
+  "entry": "Extract all; run PLAY_G1_REVISION.cmd; bundled vc_redist.x64.exe if runtime missing",
+  "runtime_python_required": false,
+  "runtime_editor_bridge_required": false,
+  "dependencies": [],
+  "dependencies_note": "Cooked runtime closure bundled; editable rebuild additionally requires entitled native assets",
+  "source_variant": "Unreal/Variants/G1HUDPlaytest20261009",
+  "source_manifest_sha256": "e6f4fd678ca0c9e1bdca038513749cb598a2cb10996dc69a5eecd1fc3f7c0544",
+  "game_sha256": "497221422d7754d562b4e6d11fd8cc50c9223e40b329b26c8c14391a98d1c42b",
+  "verification": {
+    "zip_members": "Every member SHA256/size checked via full ZIP readback",
+    "sftp": "Final immutable ZIP and manifest downloaded through pinned-host authenticated SFTP and SHA256/size checked before selection",
+    "external_connectivity": "not retested",
+    "teammate_machine": "not performed",
+    "runtime": "Previously recorded hud_v3 ordinary 1080p/720p and finite legitimate checkpoint passes; no new launch"
+  },
+  "archive_members": [
+    {
+      "path": "PLAY_G1_REVISION.cmd",
+      "size_bytes": 588,
+      "sha256": "f366d01ada23ce287260c0d56c3675955167cc0dd8a24138af3b5a6eb3ff62cc"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2101,
+      "sha256": "ca9883770d6afc4785f809713da68b2118a9f250ddb5aff2e0d821edee2fe65c"
+    },
+    {
+      "path": "README_ZH.md",
+      "size_bytes": 1810,
+      "sha256": "c3f1eb4e70f8e386ab5e3ec6c51e62cbe5ed56c7d2922b92eca9f46b35677733"
+    },
+    {
+      "path": "REVISION_RECEIPT.json",
+      "size_bytes": 20922,
+      "sha256": "36a8d5722fee9d32387f39cb5990849bdfac91ba2c02d7c3c7f357a82265f8f0"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size_bytes": 2232688,
+      "sha256": "36795e47d9724ee68349efbbe64aba94db108b9cad1e3dfe8bc510f359136f53"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+      "size_bytes": 2547080,
+      "sha256": "5c6b07bf263dd8b85cb146b59468a22eb1fbd8635d4a6c56a8e41b67ce5eca2b"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size_bytes": 5799016,
+      "sha256": "82d7a3e50710d660927db2f318cbed471049c962b7c05de12c2b2b3e40a35af9"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size_bytes": 59832,
+      "sha256": "f23df1213c4bf23b5c666bafa7ec18743847a2e18192ae8e0d096a2fb7c28bf9"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size_bytes": 1724856,
+      "sha256": "a56d43a98e197f5e73a1dadf5c1dc7a07ad40327b199faa4ff1247abd6eccd5b"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size_bytes": 48568,
+      "sha256": "d64e67ca918716be8b6056a6f7a1f6256e910754425db8369d952943264b40eb"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_api_dump.dll",
+      "size_bytes": 8161680,
+      "sha256": "8c5af98e2d899d4aec744c63a8bc99b90124d8fc3bdc120d4c178e1df3a3e5e8"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_api_dump.json",
+      "size_bytes": 13848,
+      "sha256": "9e55221c225dce4b5448bac7dadb7e39fd216f51354dde02e58f950f4a0dd80b"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_crash_diagnostic.dll",
+      "size_bytes": 2890128,
+      "sha256": "7972fa60e084dc7da6c8a69ac1645b112f5e98a078fc27a7d3df469f2da4f811"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_crash_diagnostic.json",
+      "size_bytes": 23055,
+      "sha256": "578bde354874789671dee1a96468c965619c9f3ba16cfa65f850e81a80674087"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_gfxreconstruct.dll",
+      "size_bytes": 8166288,
+      "sha256": "dd72d28450db1b52bd6c5dc12228741b680940c5fb5eb6b6a0e26f0ee5c3fc3e"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_gfxreconstruct.json",
+      "size_bytes": 28099,
+      "sha256": "71d4e243a2af74874f4f61378bdfe3753cb01ce5eb9b98400d83612bf882a815"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_profiles.dll",
+      "size_bytes": 1485200,
+      "sha256": "93227f57ddca0084e1655a65d2cc915d65b5191f6c645a17c0b36cfa2f714b38"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_profiles.json",
+      "size_bytes": 66696,
+      "sha256": "6095c28691757e083a8c1bef3c69ca76a8b5017e21acaf55d1bc7e82221a0fbe"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_shader_object.dll",
+      "size_bytes": 415632,
+      "sha256": "eebd555aab6df20b21520564d0eb2341ad0e9cdde6148ee1c71ef76805c5e7df"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_shader_object.json",
+      "size_bytes": 4455,
+      "sha256": "18ecafc9a65e1b7af8cd0e36dc936026cdb3aed333c4ea5a7c17d6d9465cfaf4"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_synchronization2.dll",
+      "size_bytes": 397200,
+      "sha256": "341b6b5eedbf4b7aeb4439af85b23974b820b1413dfaf6356911476df44ed559"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_synchronization2.json",
+      "size_bytes": 1910,
+      "sha256": "a1e980a24be9a16a826b00c27d61b85ee0e2e17226dc9c4e8eec031879e5f26a"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_validation.dll",
+      "size_bytes": 19509136,
+      "sha256": "ea37bfda6749684d88a1944ae7103a87d9b38468579f397c3c82ede1ceaa40d6"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_validation.json",
+      "size_bytes": 95917,
+      "sha256": "5c464b84457776d92a674de506f7b7a489294583a7d7609f78fcc52bc4406d09"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64/WinPixEventRuntime.dll",
+      "size_bytes": 69056,
+      "sha256": "ba40d206c6113ac1a35993a06390c93e55602713a902d7ba7b2f2f0ed13e3d3f"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size_bytes": 858152,
+      "sha256": "0ca010abcabe52493fdb744d79c4c8132ae6756046b68aa7c88bdc03ec1effcd"
+    },
+    {
+      "path": "Windows/Engine/Config/StagedBuild_WW2FranceLiberation.ini",
+      "size_bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    {
+      "path": "Windows/Engine/Content/Renderer/TessellationTable.bin",
+      "size_bytes": 259568,
+      "sha256": "edc4f3b628a139c5e185bbaeca661c95c1f427368d3b92892c5cff36c56dd941"
+    },
+    {
+      "path": "Windows/Engine/Content/Slate/Cursor/invisible.cur",
+      "size_bytes": 326,
+      "sha256": "fef3980fa567e9c45d5d8dcaa432a2c1a3f3bb17fe67d7ab198164f56c142aa1"
+    },
+    {
+      "path": "Windows/Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+      "size_bytes": 17339384,
+      "sha256": "5df3d744b5cc4421181e9e2c97cadff4e9b1b2b25e80202160e80fc94ff948f2"
+    },
+    {
+      "path": "Windows/Manifest_NonUFSFiles_Win64.txt",
+      "size_bytes": 2983,
+      "sha256": "51210c10be95b07019d672caac4afe9f79d441cfa5e3f1da48333248540d2174"
+    },
+    {
+      "path": "Windows/Manifest_UFSFiles_Win64.txt",
+      "size_bytes": 762958,
+      "sha256": "8f4e363aa321c4cacec3672e7fde4adea168de86d0ec251589724c3bc16a0089"
+    },
+    {
+      "path": "Windows/NOTICES.txt",
+      "size_bytes": 111,
+      "sha256": "ba49ae5586f817b36a2772269f71f899cb1f54b5f2720fad951319edd5e140b8"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation.exe",
+      "size_bytes": 171520,
+      "sha256": "eebfb6fe53ba754e6da98a4c296aa27b267e64d4d39f4b2d4c5a87f72fce32fa"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+      "size_bytes": 4831768,
+      "sha256": "c41711499e13244fd07ca28a9b32ece29e4454ecc38fb50681f74254b333a9b3"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+      "size_bytes": 4943344,
+      "sha256": "e36f1ee4371798892529762368907d19b997493ad6f30aa8acbfd0132881804f"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/DML/x64/DirectML.dll",
+      "size_bytes": 18538488,
+      "sha256": "f97b69379ecbdbab7e1dcd2b6170e7f285d367c86ee6718bc401c4d7cef1275c"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/WW2FranceLiberation.exe",
+      "size_bytes": 332827648,
+      "sha256": "497221422d7754d562b4e6d11fd8cc50c9223e40b329b26c8c14391a98d1c42b"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/tbb12.dll",
+      "size_bytes": 342456,
+      "sha256": "de15a5f93bfd334d4fe32343a81d76f9de0824af8e31b2189637d12545af2673"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/tbbmalloc.dll",
+      "size_bytes": 117176,
+      "sha256": "74edc04a8f5bc2593a5a555b675c1251d6d90e693ee6a67cfa11dd3b2d17a856"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.pak",
+      "size_bytes": 11556678,
+      "sha256": "2db561444d1b7fc22149833191a5c09db583d24c565834ffb0e74d09663815ea"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.ucas",
+      "size_bytes": 8003306080,
+      "sha256": "be2f3f2f773fe99b95d991c7a9076aecac0e0876981b6f8d6e519d00ecd6c8e2"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.utoc",
+      "size_bytes": 3396836,
+      "sha256": "14242d3221135635802ed4741706e360475da46785092556117d5517ab9140ff"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/global.ucas",
+      "size_bytes": 3214304,
+      "sha256": "9bf06a5370b0317e7a9a36f3cf51dd58863bccea7349e286c26b6d2f057c3dea"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/global.utoc",
+      "size_bytes": 794,
+      "sha256": "1819f56f03ecb47ddd295c78809173116d3cba3fa08835d64a9e35231f534c8a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Cinzel-OFL.txt",
+      "size_bytes": 4383,
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Cinzel-provenance.json",
+      "size_bytes": 468,
+      "sha256": "cef02e56384e0cfa84f835114c55c3b913ed6216cd6afe764be188df1d5fe883"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Cinzel.ttf",
+      "size_bytes": 125468,
+      "sha256": "f4d83d34d1f6c741193e4acf4b3dff9531e5a67b6aa65228d00a7db72a4e0f34"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/g1_minimap.png",
+      "size_bytes": 20961,
+      "sha256": "834ddb7514ccce462c88c0b0c9bac11852e6f856117c9dfe256e27c38df0414a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/map_identity.json",
+      "size_bytes": 430,
+      "sha256": "91c6a238d0947675f7b14be9cc44b9dd4c53164d8da36f974f457e2466a22d0d"
+    },
+    {
+      "path": "DISTRIBUTION_README.md",
+      "size_bytes": 798,
+      "sha256": "5f7a4059592d3c3dd00389de2db815ed4e9a06fa8fdb2a49eca0726bb0b79ab9"
+    },
+    {
+      "path": "DISTRIBUTION_README_ZH.md",
+      "size_bytes": 668,
+      "sha256": "cdf9bedeefd22c4c7ea71e5807ada4ede07242d5a7b51555a00aff648b7f0610"
+    },
+    {
+      "path": "SOURCE_VARIANT.json",
+      "size_bytes": 8993,
+      "sha256": "e6f4fd678ca0c9e1bdca038513749cb598a2cb10996dc69a5eecd1fc3f7c0544"
+    },
+    {
+      "path": "vc_redist.x64.exe",
+      "size_bytes": 18569648,
+      "sha256": "c458c6841310561ef6fadef893092ed02d840da205ad0ae9843fb0d2579b3378"
+    }
+  ],
+  "files": [
+    {
+      "path": "tmp/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip",
+      "size_bytes": 8474979819,
+      "sha256": "5c8184c58f7a79ca30a669f99f017df79a04377acc027354607c6bb98452f968",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/5c/5c8184c58f7a79ca30a669f99f017df79a04377acc027354607c6bb98452f968"
+    }
+  ],
+  "file_count": 1,
+  "size_bytes": 8474979819
+}

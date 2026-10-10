@@ -1,0 +1,20 @@
+{
+  "authorization": "2026-10-09 user manually approves audio V2 baseline and authorizes Git/SFTP publication and obsolete package removal",
+  "original": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 13413,
+    "sha256": "590e25671e95f72a3e77b60866a0a8de6c14f92cb5fbd55438c2a3a3270b3eba"
+  },
+  "current": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 14570,
+    "sha256": "882f487c07e9ef15fadb56d0c769509bc4f837239d03c2e503ef906a67b618cf"
+  },
+  "release": "paris-g1-playtest-20261009-audio-v2",
+  "preserved_native_asset_version": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+  "preserved_native_manifest_sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
+  "native_selections_unchanged": true,
+  "previous_proof": "Docs/Development/G1PlaytestPublicationV1/AUTHORIZED_CATALOG_20261009.json",
+  "previous_proof_sha256": "2f034f37718e4783e7cb38dacf7c081ee849139a87c38df002c0e853ac2a5ce3",
+  "authenticated_readback": true
+}

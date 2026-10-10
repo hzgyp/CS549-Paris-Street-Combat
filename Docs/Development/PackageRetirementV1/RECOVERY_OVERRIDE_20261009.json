@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "authorization": "2026-10-09 user selects HUD development baseline and permits obsolete package deletion",
+  "original_plan_sha256": "3143590ae826169e5f3e82be563ae66a62be462f0f1f82276bcfec6cdff876a3",
+  "files": [
+    {
+      "path": "tmp/mvp-closeout-20261008/instrument_v13/Archive/Windows/WW2FranceLiberation/Content/Paks/global.ucas",
+      "size_bytes": 3213872,
+      "mtime_ticks": 639270941756714586,
+      "sha256": "79f975bdfe68deba89b03cb972bf8abacc52960ffd4da325ec965980762fffa3",
+      "archive_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MVPCloseoutV1/delivery_v1/Paris_Street_Combat_G1_Private_Candidate_Win64.zip",
+      "entry": "Windows/WW2FranceLiberation/Content/Paks/global.ucas",
+      "archive_sha256": "760dbf44028acae9486c3ff9f5883715d5cf17a1c6fe338f65f20c8caecf9d01"
+    },
+    {
+      "path": "tmp/mvp-closeout-20261008/instrument_v13/Archive/Windows/Manifest_NonUFSFiles_Win64.txt",
+      "size_bytes": 2983,
+      "mtime_ticks": 639270941764094235,
+      "sha256": "c48139c5d8d4b6b145f5e321ef5fe8425aec1f74f8924acf4653d904a5f86ce6",
+      "archive_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MVPCloseoutV1/delivery_v1/Paris_Street_Combat_G1_Private_Candidate_Win64.zip",
+      "entry": "Windows/Manifest_NonUFSFiles_Win64.txt",
+      "archive_sha256": "760dbf44028acae9486c3ff9f5883715d5cf17a1c6fe338f65f20c8caecf9d01"
+    },
+    {
+      "path": "tmp/mvp-closeout-20261008/instrument_v13/Archive/Windows/Manifest_UFSFiles_Win64.txt",
+      "size_bytes": 762467,
+      "mtime_ticks": 639270941765894639,
+      "sha256": "cddc3183cabc7e0f4120cf58a0687b7342774066a212859b6097e70007b0c03f",
+      "archive_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MVPCloseoutV1/delivery_v1/Paris_Street_Combat_G1_Private_Candidate_Win64.zip",
+      "entry": "Windows/Manifest_UFSFiles_Win64.txt",
+      "archive_sha256": "760dbf44028acae9486c3ff9f5883715d5cf17a1c6fe338f65f20c8caecf9d01"
+    },
+    {
+      "path": "tmp/mvp-closeout-20261008/instrument_v13/Archive/Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.ucas",
+      "size_bytes": 8003231504,
+      "mtime_ticks": 639270941756604580,
+      "sha256": "478ce11fc122f180b92ce867f81f5868657b9c3c012bb0ad7e12f8596249e76a",
+      "archive_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MVPCloseoutV1/delivery_v1/Paris_Street_Combat_G1_Private_Candidate_Win64.zip",
+      "entry": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.ucas",
+      "archive_sha256": "760dbf44028acae9486c3ff9f5883715d5cf17a1c6fe338f65f20c8caecf9d01"
+    },
+    {
+      "path": "tmp/mvp-closeout-20261008/instrument_v13/Archive/Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.pak",
+      "size_bytes": 11559385,
+      "mtime_ticks": 639270940927278304,
+      "sha256": "2d5d17e883624f27366b910d0c4225907a56a49ff23238bd1ca04e72ac445a7b",
+      "archive_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MVPCloseoutV1/delivery_v1/Paris_Street_Combat_G1_Private_Candidate_Win64.zip",
+      "entry": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.pak",
+      "archive_sha256": "760dbf44028acae9486c3ff9f5883715d5cf17a1c6fe338f65f20c8caecf9d01"
+    },
+    {
+      "path": "tmp/mvp-closeout-20261008/instrument_v13/Archive/Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.utoc",
+      "size_bytes": 3396042,
+      "mtime_ticks": 639270941756894500,
+      "sha256": "69cea4e62c6152f220153b9088e476620093fdea050dde874c11feda266add08",
+      "archive_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MVPCloseoutV1/delivery_v1/Paris_Street_Combat_G1_Private_Candidate_Win64.zip",
+      "entry": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.utoc",
+      "archive_sha256": "760dbf44028acae9486c3ff9f5883715d5cf17a1c6fe338f65f20c8caecf9d01"
+    },
+    {
+      "path": "tmp/mvp-closeout-20261008/instrument_v13/Archive/Windows/WW2FranceLiberation/Content/Paks/global.utoc",
+      "size_bytes": 794,
+      "mtime_ticks": 639270941756774622,
+      "sha256": "af3abe0f94dfbb70bb0c272fa913fbf5a31600c3f57925f3a7e8beaf508e6792",
+      "archive_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Evidence/MVPCloseoutV1/delivery_v1/Paris_Street_Combat_G1_Private_Candidate_Win64.zip",
+      "entry": "Windows/WW2FranceLiberation/Content/Paks/global.utoc",
+      "archive_sha256": "760dbf44028acae9486c3ff9f5883715d5cf17a1c6fe338f65f20c8caecf9d01"
+    }
+  ],
+  "scope": "Only seven instrument_v13 retained-file references advance to verified existing ZIP members; original plan/result unchanged"
+}

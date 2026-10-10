@@ -1,5 +1,9 @@
 # Restore and verify the unified Paris/G1 version
 
+Later9October selection: start with [the current-build guide](TEAM_CURRENT_BUILD_20261009.md)
+for the reviewed playable and exact42 source. This guide continues to govern
+unchanged native359; its old Editor/native anchor is not the newer Game audio source.
+
 8 October 2026. For the three entitled CS549 members only. Git supplies source,
 configuration and version records; private SFTP supplies native asset/module bytes.
 Use **paris-native-playtest-20261008-g1-npc-vfx-v1** with this matching Git revision.

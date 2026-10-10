@@ -1,5 +1,19 @@
 # G1 HUD playtest source variant
 
+Later9October selection supersedes this development-start designation: Yupu
+manually passes audio V2 and selects exact42 G1FootContactAudio20261009/Project.
+This exact40 snapshot remains a historical visual/source anchor; its old local
+and SFTP playable ZIP can be retired under the new publication/recovery record.
+Follow CURRENT_DEVELOPMENT_BASELINE for new work.
+
+**Current selection, 9 October:** the user now chooses this exact source and
+its local HUD Game build as the subsequent development baseline. Read
+../../../Docs/Development/CURRENT_DEVELOPMENT_BASELINE.md and its JSON selector.
+The Project snapshot remains immutable; future edits use the matching authoring
+workspace or a new recorded copy. The source manifest's candidate wording is
+historical publication metadata, not a later rejection or competing selection.
+Build/verify Editor from this source before using old cached Editor DLLs.
+
 9 October 2026. Exact forty-file source/configuration snapshot corresponding to
 the privately shared hud_v3 executable. SOURCE_MANIFEST.json pins original bytes;
 Project contains only team source/configuration, no purchased Content or binaries.

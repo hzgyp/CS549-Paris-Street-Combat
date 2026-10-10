@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09T11:28:39.053890-04:00",
+  "updated_at": "2026-10-09T21:52:28.259704-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -104,12 +104,21 @@
     },
     {
       "asset_id": "paris-g1-packaged-playtest",
-      "asset_version": "paris-g1-playtest-20261009-hud-v3",
+      "asset_version": "paris-g1-playtest-20261009-audio-v2",
       "path": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
-      "sha256": "05d493106c50d32121b24685429ff1807447f0a4473834d218b68b389af1f305",
+      "sha256": "4538b734224f6f7480c05006949825896411c251f4b0532d7dddbf9b77cc9064",
       "file_count": 1,
-      "size_bytes": 8474979819,
-      "release_manifest": "/releases/paris-g1-playtest-20261009-hud-v3/paris-g1-packaged-playtest.json"
+      "size_bytes": 8476572643,
+      "release_manifest": "/releases/paris-g1-playtest-20261009-audio-v2/paris-g1-packaged-playtest.json"
+    },
+    {
+      "asset_id": "paris-g1-recorded-audio",
+      "asset_version": "paris-g1-playtest-20261009-audio-v2",
+      "path": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "sha256": "ce2926cc0c940087e388d99c0e720ddab090278fc9108633a1e5af42df14ff00",
+      "file_count": 33,
+      "size_bytes": 1401420,
+      "release_manifest": "/releases/paris-g1-playtest-20261009-audio-v2/paris-g1-recorded-audio.json"
     }
   ],
   "superseded_provenance_only": [
@@ -255,5 +264,18 @@
     "source_files_deleted": false,
     "teammate_restore": "not tested",
     "runtime": "not tested"
-  }
+  },
+  "retired_packaged_releases": [
+    {
+      "asset_id": "paris-g1-packaged-playtest",
+      "asset_version": "paris-g1-playtest-20261009-hud-v3",
+      "path": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
+      "sha256": "05d493106c50d32121b24685429ff1807447f0a4473834d218b68b389af1f305",
+      "file_count": 1,
+      "size_bytes": 8474979819,
+      "release_manifest": "/releases/paris-g1-playtest-20261009-hud-v3/paris-g1-packaged-playtest.json",
+      "retired_manifest": "Assets/Sync/retired/paris-g1-playtest-20261009-hud-v3.json",
+      "reason": "User selects manually reviewed audio V2 and authorizes deletion of obsolete packaged download bytes; see retirement receipt"
+    }
+  ]
 }

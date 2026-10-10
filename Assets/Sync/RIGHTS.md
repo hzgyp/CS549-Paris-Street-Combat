@@ -1,5 +1,16 @@
 # Asset sharing records
 
+## Reviewed audio V2,9 October2026
+
+Yupu selects the manually retested build and authorizes private packaged/resource
+publication to the same three entitled members. The33 cues and limitations are
+pinned by Unreal/Variants/G1FootContactAudio20261009/AUDIO_MANIFEST.json and
+AUDIO_CREDITS.txt. Recorded inputs use documented CC0 public HQ previews;
+derivatives are not lossless masters or Paris field recordings. German firing
+retains the team-authored synthetic cue with an explicit real-source gap.
+Commercial cooked Content uses the prior attested three-member rights; no
+commercial asset bytes or connection secrets enter public Git.
+
 ## Purchased muzzle-flash package
 
 On 8 October 2026, for the requested unified teammate release, Yupu Guo explicitly

@@ -1,8 +1,24 @@
 # Assignment 3 MVP Acceptance Checklist
 
-Prepared 30 September 2026 against [goal version 1](ASSIGNMENT3_GOAL_V1.md), [Assignment 2 MVP](../Proposal/CS549_Assignment2_Proposal.md), and [Assignment 3 source requirements](../Assignment%203_%20MVP%20Development.docx); updated8October2026. This is an internal implementation record, not the submitted1-2page progress report. A row markedNot run means its complete acceptance gate is open; later bounded passes/failures are recorded below and do not erase remaining conditions.
+Latest9October user retest: reviewed audio V2/Game53ab36d9 passes manual listening
+and is selected for continued development. Private package/audio publication and
+obsolete-package removal follow the paired G1_AUDIO_BASELINE_PUBLICATION plan/result.
+Prior audio-review-pending statements below are historical. Nine numeric blend
+contacts stay UNASSESSED; natural-turn/video, performance/stress/Editor/second-machine
+and course gates are separate. This publication creates no new demonstration.
+
+Prepared 30 September 2026 against [goal version 1](ASSIGNMENT3_GOAL_V1.md), [Assignment 2 MVP](../Proposal/CS549_Assignment2_Proposal.md), and [Assignment 3 source requirements](../Assignment%203_%20MVP%20Development.docx); updated9October2026. This is an internal implementation record, not the submitted1-2page progress report. A row markedNot run means its complete acceptance gate is open; later bounded passes/failures are recorded below and do not erase remaining conditions.
 
 Current user scope is bridgeC/G1 guard capture with working save/load; city-centre stages are deferred. SAVE-01 is now Must for this selected midterm scope. User confirms Assignment2 and a13October2026 Assignment3 deadline; mentor confirmation was not separately supplied.
+
+Later9October audio review: recorded Foley is much improved except player step
+cadence/jump; real gunshot replacement is explicitly requested. New53ab36d9
+foot-contact V2 review has stable20contacts checked/9transitions UNASSESSED,
+actual M1/takeoff/landing playback and original ammo/quiet terminal restore.
+Read CURRENT_AUDIO_REVIEW/paired result/MI016. This Game is not in old draft02;
+manual timing/acoustics remains pending, exact K98 live-fire source remains a gap,
+and natural turning must be corrected before another demo. VIDEO-01 and whole
+performance/course gates are not passed by this sound revision.
 
 ## Recording results
 
@@ -34,13 +50,38 @@ For each ID record date/tester, Git revision, asset manifest versions, engine/pl
 | STRESS-01 | Demonstrate limits | Predeclare finite workload upper bound. Increase finite active NPC load across reset runs at the same bottleneck; compare movement modes, display frame times/stalls and an observed limiting condition. State maximum tested and failure/stop reason, without claiming an unmeasured safe limit. | Partial - separate six-starting-person entry53.40FPS stops declared6/12/18schedule at6; higher/sustained load and matched comparison not run; MI007 |
 | BUILD-01 | Playable desktop entry | Test packaged Windows executable outside editor and a second-machine launch/restore; include version, dependencies, controls and strict run instructions. Verify upload/download and reviewer access; check bundled asset distribution permission separately from source-sharing permission. Course permits compiled executable or strict run instructions. | Private V13 ordinary startup/image/exit0 and 8.48GB review ZIP prepared; all41 cooked files SHA-readback exact; human/second-machine/reviewer access not run |
 | AIUSE-01 | Applicable AI integration | Record actual offline tool tasks, useful output, time/debugging tradeoffs and rejected work. Validate any claimed AI-created runtime asset in build. No runtime LLM/API is claimed; concept art and stopped pilot are identified correctly. | Pass for documented offline utility/failure tradeoffs in two-page progress report; no runtime LLM or new AI character claim |
-| VIDEO-01 | 2-3 minute explained real-time demo | Verify duration, running-software capture, voiceover/text explanation, all four pillars/core integration and stress limit with readable metrics. Match the frozen build; publish authorized YouTube/Vimeo link and test reviewer access. | Fail for four attempted capture routes MI008-MI011; all stopped/archived, no valid MP4; manual storyboard and actual reviewer link pending |
+| VIDEO-01 | 2-3 minute explained real-time demo | Verify duration, running-software capture, voiceover/text explanation, all four pillars/core integration and stress limit with readable metrics. Match the frozen build; publish authorized YouTube/Vimeo link and test reviewer access. | Draft02 retains128.966667s/1080p30/English/actual-audio decode checks, Game49da3a2c…/42source and disclosed automated input/cuts. Later human review rejects steps/reload realism and opening snapped turn; MI015 records it. Recorded-Foley Game0921d755… is a separate manual-review candidate, not shown in the old video. New recording HOLD until manual sound approval and subsequent turn correction. Stress/current FPS/fuller AI/reviewer-host gates remain open; MI008-MI011 stay stopped. See G1_AUDIO_REALISM_RESULT_20261009.md |
 | REPORT-01 | 1-2 page PDF | Cover Plan vs. Reality with actual features/cuts, AI Utility, Roadmap to Final, playable build/run entry, video link and source link. Render/inspect final PDF and verify links; no invented results or unsupported approval claims. | Updated private2page progress PDF rendered/both pages inspected; exact local candidate/FPS/limits recorded, final build/video/reviewer links open |
 | SOURCE-01 | Public GitHub with README | Prepare permitted source, build steps, tested versions, controls, asset restoration/rights and credits. Check no commercial bytes/secrets/private email/team-only SFTP credentials. Verify authorized public URL or documented instructor exception; private development repository alone does not satisfy literal public-access wording. | Publicmainb8a3a6a remotely verified8October; currentcloseout candidate/tools/docs remain uncommitted/unpublished |
 | ADMIN-01 | Prerequisite and deadline | Verify Assignment2 completed/approved, remaining mentor evidence and official deadline. | Blocked for mentor evidence only; user confirms Assignment2 and13October2026 deadline |
 | RELEASE-01 | Matching reproducible handoff | Align frozen build, Git revision, asset versions, report/video and evidence. Publish verified changed SFTP bytes before matching manifests when authorized; preserve baselines and local unfinished work. Verify all final reviewer links. | Not run |
 
 ## Current evidence and release decision
+
+- **9October human sound review / recording hold:** only the draft02 gunshot is
+  accepted. Synthetic boot/reload sounds are rejected as unrealistic; opening
+  automated about-face is confirmed in old frames and logged under MI015.
+  Recorded Foley correction is underway; no acoustic/natural-turn acceptance.
+  Do not record or re-export until the user manually approves the sound revision.
+  Existing media decode and functional resource/dead-restore checks remain scoped.
+  [Bounded sound plan](G1_AUDIO_REALISM_REVISION_20261009.md) / [中文](G1_AUDIO_REALISM_REVISION_20261009_ZH.md).
+
+- **9October English/audio revision:** saved guards restore directly to stopped
+  original terminal death poses through3s; normal new deaths still play and exact
+  oldV5 journal compatibility passes. Actual UE/OBS output confirms original basic
+  SFX and no repeated restored death sound. New128.966667s English actual-audio
+  draft02 passes media/visual/delivery checks; no FPS/stress/course claim. Canonical
+  assets/oldtrial/saves protected. One pre-Ready GPU fault retained; fresh entry
+  normal exit0. Local repaired42source/game remain uncommitted/unpublished.
+  [Actual result](G1_DEATH_AUDIO_VIDEO_RESULT_20261009.md) / [中文](G1_DEATH_AUDIO_VIDEO_RESULT_20261009_ZH.md).
+
+- **9October annotated-video draft:** actual selected hud_v3 game-window recording
+  yields129.7s/3891frames/1080p30/silent bilingual draft, with movement/collision
+  clips and continuous G1 combat/consent/save/load excerpt. Media full decode and
+  source758/guards703/selected40/game/user files exact. OBS WGC is a separately
+  admitted route; MI008–MI011 failures remain unchanged. Real stress metrics,
+  fuller AI, current-build performance and hosted reviewer link still pending.
+  [Actual result](G1_DEMO_DRAFT_RESULT_20261009.md) / [中文](G1_DEMO_DRAFT_RESULT_20261009_ZH.md).
 
 - **8October latest closeout:** private instrument_v13/candidate_agent_v1 passes three original two-Allied55cm/25s/far-bank gates, captures/Won saves/fresh loads, two full restarts and three newer-old-config/correct-MD5 rejection/good-fallback cases. Native single-poly/one-plan checks pass in six worlds; ordinary observer-disabled startup/recovery images inspected. Canonical758/359/703/Catalog are protected. Three complete High1080p/100% RT-off CSVs52.00/51.57/51.21FPS fail60; separate six-starting-person53.40FPS stops declared6/12/18stress, not sustained capacity. Scripted player eliminates guards early (NPC shots0); natural combined two-sided encounter remains unproved. Private8.48GB ZIP/SourcePatch/instructions prepared with41cooked-file SHA readbacks, two-page progress report updated/rendered/inspected. Four capture routes fail and are archived; no valid demo. No canonical selection/Git commit/push/publication or human/second-machine/reviewer-access/course-ready pass. See [actual result and teammate/manual-video guide](MVP_G1_CLOSEOUT_RESULT_20261008.md), [Chinese review](MVP_G1_CLOSEOUT_RESULT_20261008_ZH.md), MI006/MI007 and MI008-MI011. Matching current source remains an uncommitted private patch, not main.
 

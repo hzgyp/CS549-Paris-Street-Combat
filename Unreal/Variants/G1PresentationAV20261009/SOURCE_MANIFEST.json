@@ -1,0 +1,216 @@
+{
+  "format": "paris-source-snapshot-v1",
+  "scope": "Selected HUDv3 forty-file source plus method-only AV extension; no native/reflected/default/save-schema change",
+  "files": [
+    {
+      "path": "Config/DefaultEditor.ini",
+      "size_bytes": 58482,
+      "sha256": "25920e87560682479062a06afef5e0046d23789e72200634d852becbe1db407b"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "size_bytes": 644,
+      "sha256": "2e9c7d9dac58223eb49168867b5ccaaa025d3acaa935969bde0c6dbadd45842d"
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "size_bytes": 10015,
+      "sha256": "3a88da46de904a6477c4a3dcaa32cc7f2101e55c857156117695471f7c65ebcf"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/ParisBridgeMissionV1.uplugin",
+      "size_bytes": 418,
+      "sha256": "388d5400e0eb1a33cbb5f14e357335af47d7094205da3e88a9ee5f0cb40e356e"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/ParisBridgeMissionV1.Build.cs",
+      "size_bytes": 524,
+      "sha256": "1938737c39602dfb443eac9d8d44c6975368f2522888b5b92e0375e799cd7719"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMission.cpp",
+      "size_bytes": 70293,
+      "sha256": "74212871ed6256670ad35a0547aa470076468b5a52831c3cbed9094d0a9cae3e"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMissionV1.cpp",
+      "size_bytes": 24086,
+      "sha256": "003875a828bae14fb842123a7d7152fc0e646d6f70ff34552abd7ef71915657a"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGameplayAV.cpp",
+      "size_bytes": 13274,
+      "sha256": "3083af0fb2c3d1244795497f7e66092712052a17b101768821e13c3008223a04"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Public/ParisBridgeMission.h",
+      "size_bytes": 7317,
+      "sha256": "4519e40acb9dd34970a816080bc8bbe4043df91887f29a3fab466a7d87938a79"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Public/ParisGameplayAV.h",
+      "size_bytes": 477,
+      "sha256": "fb13416adc4413fd3ad8854e5d89d24166dedaa702083d04185484bcf456e0b8"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/ParisGripBindingV18.uplugin",
+      "size_bytes": 442,
+      "sha256": "7ec51f177c038a54b624f979b239a082d60fbe3ceab2cf85526e4c8f5f594dc5"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/ParisGripBindingV18.Build.cs",
+      "size_bytes": 389,
+      "sha256": "9f6c94ff4b6959cdeaaa5cf91ea96c92ca474c473c7819c25c404f715047d937"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisFirstPersonApprovedActor.cpp",
+      "size_bytes": 6137,
+      "sha256": "76b8b145238557f00a0862aee626c3db29680040776672ceeca7165fcdc598bd"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisFPUpperBodyV19Actor.cpp",
+      "size_bytes": 4320,
+      "sha256": "47d7ef9eb402dd1740999b853cc6d9145b60ded1cb7266d81efd9b19b84d90a7"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGripBindingV18.cpp",
+      "size_bytes": 93,
+      "sha256": "859be4005e69a9b44e0ca7a072239d3bf2e3ac4d100faf0c4a709823db820b82"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGripV18Actor.cpp",
+      "size_bytes": 11189,
+      "sha256": "bbfceff033bd057f1c1a08468e9ab101e40d45f7d52100dbdd1f03720c4efe5b"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisExistingRecoil.h",
+      "size_bytes": 5889,
+      "sha256": "060750b6da8591020451058ca3085e4997a6a47afb57daa64e49ed6ed44f9036"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisFirstPersonApprovedActor.h",
+      "size_bytes": 2036,
+      "sha256": "bcc7146e2a8b94cd5b341d1c237d02c4aca8aac8640ce25da024690fb37498b8"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisFPUpperBodyV19Actor.h",
+      "size_bytes": 1573,
+      "sha256": "67de0a63946edd99337c28d3c9aa6ab0bb483a979e4f05e81fd181f587dd2f06"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisGripV18Actor.h",
+      "size_bytes": 3238,
+      "sha256": "e7587f0755957c8dc959138b25b138da04d5e1c771a29dbbbd7bbbe79775d1dd"
+    },
+    {
+      "path": "Plugins/ParisMuzzleFlashV1/ParisMuzzleFlashV1.uplugin",
+      "size_bytes": 487,
+      "sha256": "f1b2193e08477e0f7330e5151a2225c0384d6835c2d8625531b1d9851094e4f6"
+    },
+    {
+      "path": "Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/ParisMuzzleFlashV1.Build.cs",
+      "size_bytes": 507,
+      "sha256": "071b96c3e071fe08616ef622bfb22a6a55da262a4232d63486633b0fa01637b6"
+    },
+    {
+      "path": "Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27218,
+      "sha256": "3d511b607636a1bee9a56222d4e700c462ae8ae858eee7c10b726a2f7b6c3c1c"
+    },
+    {
+      "path": "Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Public/ParisMuzzleFlashV1.h",
+      "size_bytes": 9681,
+      "sha256": "a6d97e8c3efef276b227bf66ec53bc33c65fc1d406d71805e516225c9fab0888"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/ParisNPCGripV15.uplugin",
+      "size_bytes": 443,
+      "sha256": "955ba4f4c721dbf4810c447c6e10a3b18badaef033caf424f1614603eac3ba23"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/ParisNPCGripV15.Build.cs",
+      "size_bytes": 369,
+      "sha256": "a62e91aa689cd38aadb86a26d9e57df45a615f6506282961d9df0c2e23b66185"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisAlliedGripPolicy.cpp",
+      "size_bytes": 5506,
+      "sha256": "b51744d6ca6a1b9e75135cca24b5ed8504e007de0f3fbe3e526a48962262de76"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisGermanGripPolicy.cpp",
+      "size_bytes": 5536,
+      "sha256": "193914d42c6311ddd750bb7fa6351d600669a1f2c96ec507f34deef4d17424cc"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisAlliedGripPolicy.h",
+      "size_bytes": 1513,
+      "sha256": "5807c125592bcdcbe8a2dc1cee79f24f1f374ed04e4158abfdd1650f3f31e43f"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisExistingRecoil.h",
+      "size_bytes": 5889,
+      "sha256": "060750b6da8591020451058ca3085e4997a6a47afb57daa64e49ed6ed44f9036"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisGermanGripPolicy.h",
+      "size_bytes": 1514,
+      "sha256": "0c259f4ebaa5486313dad11516ad2d778e8adde93ddccf824332875f9aaf5426"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisNPCGripV15.h",
+      "size_bytes": 4935,
+      "sha256": "06483faeda668948b666f4d19b8f5b575e0ec76f7e27bcccaaf1827d08d74e1a"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/ParisNPCGripV15Editor.Build.cs",
+      "size_bytes": 462,
+      "sha256": "a8ddee528e40f38ff83ee7d6837d9e01932a640d4a80a260d1ccc9387a8d3bf9"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Private/ParisNPCGripV15Editor.cpp",
+      "size_bytes": 3482,
+      "sha256": "9887efd4e664250afb35f39ccf539b97209696c96a2a58020bf227b57f17ae50"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Public/ParisNPCGripV15Editor.h",
+      "size_bytes": 1043,
+      "sha256": "b0565183679bdee27f0d6dfe0e094da41865ecb39df0b0d927de2e723850d677"
+    },
+    {
+      "path": "Source/WW2FranceLiberation/WW2FranceLiberation.Build.cs",
+      "size_bytes": 261,
+      "sha256": "e30186b231d7c0f500dfc8526c8dc48e79cc194e696afd597d479ea9e55b4472"
+    },
+    {
+      "path": "Source/WW2FranceLiberation/WW2FranceLiberation.cpp",
+      "size_bytes": 158,
+      "sha256": "38d2dcb032be84d2e5dd4c20630cc503aeae8e532c6886f39d8ab6685e4ddea1"
+    },
+    {
+      "path": "Source/WW2FranceLiberation.Target.cs",
+      "size_bytes": 352,
+      "sha256": "1cc7e5134975b268c98992df591af2b6e2118d6cfb72ea6f762d7fd57facb203"
+    },
+    {
+      "path": "Source/WW2FranceLiberationEditor.Target.cs",
+      "size_bytes": 349,
+      "sha256": "dfd5f9042dedaad2f78a6d28bb4083e4ac13f96b070865d444fae94e3ce1f20e"
+    },
+    {
+      "path": "WW2FranceLiberation.uproject",
+      "size_bytes": 764,
+      "sha256": "8aa912e0a55354502d631db460dd3beac2864eed128d894c14eb26f33e949bbc"
+    }
+  ]
+}

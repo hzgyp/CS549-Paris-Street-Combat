@@ -1,0 +1,40 @@
+{
+  "status": "reviewed_audio_v2_selected_published_old_packages_retired",
+  "finished": "2026-10-09T22:13:31.192454-04:00",
+  "release": "paris-g1-playtest-20261009-audio-v2",
+  "download": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+  "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+  "zip": {
+    "path": "tmp/g1-audio-publication-20261009/Paris-G1-Audio-V2-20261009.zip",
+    "size_bytes": 8476572643,
+    "sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+    "storage": "sftp",
+    "remote_path": "/objects/sha256/7a/7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d"
+  },
+  "audio_files": 33,
+  "local_targets_removed": 10,
+  "logical_local_removed_bytes": 84592403267,
+  "remote_removed_physical_bytes": 8474979819,
+  "compact_recovery_bytes": 619973223,
+  "free_before_bytes": 375573159936,
+  "free_after_bytes": 401639137280,
+  "actual_net_free_increase_bytes": 26065977344,
+  "protected": {
+    "source758": true,
+    "native359": true,
+    "protected703": true,
+    "selected42": true,
+    "authoring42": true
+  },
+  "current_trial88_exact": true,
+  "user_saves_unchanged": 2,
+  "manual_review": "Passed by user; active development baseline",
+  "natural_turn_video": "Pending, no new recording",
+  "second_machine": "Not tested",
+  "git": "Matching commit/push requested; exact final HEAD is recorded outside its own Git tree",
+  "recovery_interface_checks": {
+    "exact_single_file_restore": "PASS: old HUD launcher restored into separate private smoke path and SHA256/size matched",
+    "previous_cleanup_restore": "PASS: restore_intermediate_archive.ps1 hud_v1 Archive VerifyRecoveryOnly; every byte checked, no output target created",
+    "no_engine_launched": true
+  }
+}

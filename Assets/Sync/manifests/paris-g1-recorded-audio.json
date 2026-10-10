@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "asset_version": "paris-g1-playtest-20261009-audio-v2",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-09T21:48:51.863606-04:00",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+  "source_variant": "Unreal/Variants/G1FootContactAudio20261009",
+  "source_manifest_sha256": "2ff88f0e74040b46e8b7c26750602c56556857a06b45db96c28f297f534b468b",
+  "verification": {
+    "method": "Pinned-host authenticated SFTP final-object download and full SHA256/size comparison",
+    "manual_review": "Yupu selects exact audio V2 after manual retest",
+    "second_machine": "Not performed; assigned to teammates",
+    "editor_recook": "Not performed",
+    "fps_stress": "Not established"
+  },
+  "asset_id": "paris-g1-recorded-audio",
+  "source": "Recorded CC0 Foley and M1 source derivatives; original synthesized German report retained explicitly",
+  "dependencies": [],
+  "provenance": "Unreal/Variants/G1FootContactAudio20261009/AUDIO_MANIFEST.json",
+  "credits": "Unreal/Variants/G1FootContactAudio20261009/AUDIO_CREDITS.txt",
+  "scope": "33 exact runtime audio cues for selected42-file source; copy to <Project>/Audio before Game build",
+  "files": [
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/crawl_a.wav",
+      "size_bytes": 34604,
+      "sha256": "7ede065e509e97b30db57a4a3522e571cce4348ed936839cc4c046fdf2578171",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/7e/7ede065e509e97b30db57a4a3522e571cce4348ed936839cc4c046fdf2578171"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/crawl_b.wav",
+      "size_bytes": 34604,
+      "sha256": "757df9ecf950522710c6ceb7ec4a4068e9cc20a40b8c21a9ee0971418e34ef5a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/75/757df9ecf950522710c6ceb7ec4a4068e9cc20a40b8c21a9ee0971418e34ef5a"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/crawl_c.wav",
+      "size_bytes": 34604,
+      "sha256": "c1361bf49428caf910199e1d508f284ee7ddf85a1d8f78980c207c2e2eb6376b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c1/c1361bf49428caf910199e1d508f284ee7ddf85a1d8f78980c207c2e2eb6376b"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/death.wav",
+      "size_bytes": 175724,
+      "sha256": "497d5ff83263a80e49fa5cbb4c73d421fbbd904cd4cdc9398e233c0aa762d7c2",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/49/497d5ff83263a80e49fa5cbb4c73d421fbbd904cd4cdc9398e233c0aa762d7c2"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/fire.wav",
+      "size_bytes": 81644,
+      "sha256": "3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3d/3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/fire_m1.wav",
+      "size_bytes": 56204,
+      "sha256": "f52a11a9e852b141a77e6d22e2851d9d314b3d34cccc6232465bb5f3b6a2f0c9",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f5/f52a11a9e852b141a77e6d22e2851d9d314b3d34cccc6232465bb5f3b6a2f0c9"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/jump.wav",
+      "size_bytes": 31724,
+      "sha256": "391f1fdb491d4a3b7929e3c5b187c5272bb1d45d14bd41b774b179d69abbd258",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/39/391f1fdb491d4a3b7929e3c5b187c5272bb1d45d14bd41b774b179d69abbd258"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/land.wav",
+      "size_bytes": 40748,
+      "sha256": "553795d67eba886ac0846ba7df0e0a39f199ce8b9d812ad13a5a9224d688e815",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/55/553795d67eba886ac0846ba7df0e0a39f199ce8b9d812ad13a5a9224d688e815"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/reload_handling.wav",
+      "size_bytes": 38444,
+      "sha256": "2c4c2defb138fc6fd5435677d422c5652e17297915409c5f390d37ce8f612e58",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2c/2c4c2defb138fc6fd5435677d422c5652e17297915409c5f390d37ce8f612e58"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/reload_k98_close.wav",
+      "size_bytes": 62924,
+      "sha256": "ab6d762dacc914eb128f39663a5da26b849f785fff7470d1715a249cf06a331a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ab/ab6d762dacc914eb128f39663a5da26b849f785fff7470d1715a249cf06a331a"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/reload_k98_load.wav",
+      "size_bytes": 56684,
+      "sha256": "e511409633d2daa6074cb10904c545d03ba6e29acf984069dfceb7fc54555cf1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e5/e511409633d2daa6074cb10904c545d03ba6e29acf984069dfceb7fc54555cf1"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/reload_k98_open.wav",
+      "size_bytes": 36524,
+      "sha256": "6dc8b03af2a665b9d3c4bbe45029333aff3a50a592ee2e1029ea726fb36842a8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/6d/6dc8b03af2a665b9d3c4bbe45029333aff3a50a592ee2e1029ea726fb36842a8"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/reload_m1_close.wav",
+      "size_bytes": 25004,
+      "sha256": "03aabb0a7f2855f3fafe942dde68a848c673f1dfda6795c99301cc13db4bf822",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/03/03aabb0a7f2855f3fafe942dde68a848c673f1dfda6795c99301cc13db4bf822"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/reload_m1_load.wav",
+      "size_bytes": 28844,
+      "sha256": "540e7fb49cf4bbeebebe607186395a189e9013170b7438f1f929df737d34e7d4",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/54/540e7fb49cf4bbeebebe607186395a189e9013170b7438f1f929df737d34e7d4"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/reload_m1_open.wav",
+      "size_bytes": 37004,
+      "sha256": "e6987cab929d17d3df923f22079106b2bbad4000b895ddf0015c182bb0578faa",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e6/e6987cab929d17d3df923f22079106b2bbad4000b895ddf0015c182bb0578faa"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_run_a.wav",
+      "size_bytes": 27884,
+      "sha256": "bce333dac3c901db50cc03dc594d5c40aa52a1f281598d613748c1c4e55c083f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/bc/bce333dac3c901db50cc03dc594d5c40aa52a1f281598d613748c1c4e55c083f"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_run_b.wav",
+      "size_bytes": 27884,
+      "sha256": "659a75af0a7405583c3a681c2281ad345a0d55bdb7790b95e5c390e4ba6ca5f0",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/65/659a75af0a7405583c3a681c2281ad345a0d55bdb7790b95e5c390e4ba6ca5f0"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_run_c.wav",
+      "size_bytes": 27884,
+      "sha256": "aa800c12586cea900d81f4b8eecbea8aa629d28da943f41c81ef4a9579e4d22f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/aa/aa800c12586cea900d81f4b8eecbea8aa629d28da943f41c81ef4a9579e4d22f"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_run_d.wav",
+      "size_bytes": 29804,
+      "sha256": "260c0d9d0b4e11dd9640d190e416526c898188025348fae27b9366f1f4c5606a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/26/260c0d9d0b4e11dd9640d190e416526c898188025348fae27b9366f1f4c5606a"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_run_e.wav",
+      "size_bytes": 28844,
+      "sha256": "91e24ae2bef502edf37043d0dc47a5d470ba37af3425004e01edcc4b2b6073c6",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/91/91e24ae2bef502edf37043d0dc47a5d470ba37af3425004e01edcc4b2b6073c6"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_run_f.wav",
+      "size_bytes": 27884,
+      "sha256": "61949a6358520ceaa4956e2be1369111c1651342dc009b86246c8fc2dfccb30e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/61/61949a6358520ceaa4956e2be1369111c1651342dc009b86246c8fc2dfccb30e"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_slow_a.wav",
+      "size_bytes": 32876,
+      "sha256": "37d8ddf69a88dec475fed3f669fe6170175981205c1300ec6ae2f3b19a9b9684",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/37/37d8ddf69a88dec475fed3f669fe6170175981205c1300ec6ae2f3b19a9b9684"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_slow_b.wav",
+      "size_bytes": 37484,
+      "sha256": "deb5fa741ba7686029a91b4e1b7ace0fd2ef846eaecbf62c20a131cb5824108e",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/de/deb5fa741ba7686029a91b4e1b7ace0fd2ef846eaecbf62c20a131cb5824108e"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_slow_c.wav",
+      "size_bytes": 36524,
+      "sha256": "4646bd8263da6927a87007c3fdb1c9168517a4a2e15083309a0308f79c296f53",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/46/4646bd8263da6927a87007c3fdb1c9168517a4a2e15083309a0308f79c296f53"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_slow_d.wav",
+      "size_bytes": 37484,
+      "sha256": "ff6b4fd90610ec3d2b4655f27b2da59c285f96469d677e01481192af0dfaff12",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ff/ff6b4fd90610ec3d2b4655f27b2da59c285f96469d677e01481192af0dfaff12"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_slow_e.wav",
+      "size_bytes": 41324,
+      "sha256": "b61d5747cfada3873578985b8cf12f5aad2b7441f9b2cef9312aeaa4629db738",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b6/b61d5747cfada3873578985b8cf12f5aad2b7441f9b2cef9312aeaa4629db738"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_slow_f.wav",
+      "size_bytes": 42284,
+      "sha256": "55ebe8364a981026cc3e71d244562e7cc0a0453ca2e266418d72b930f70dd859",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/55/55ebe8364a981026cc3e71d244562e7cc0a0453ca2e266418d72b930f70dd859"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_walk_a.wav",
+      "size_bytes": 32876,
+      "sha256": "8cc772b566cced04f82fc4f002f3dcb3a5e23840a49cee388b6375769d74fd0f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/8c/8cc772b566cced04f82fc4f002f3dcb3a5e23840a49cee388b6375769d74fd0f"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_walk_b.wav",
+      "size_bytes": 37484,
+      "sha256": "9ed7f4f9fbe4c40a3251ccfbcb0276164520b0652aa3ccc3ce05f25494142bb4",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/9e/9ed7f4f9fbe4c40a3251ccfbcb0276164520b0652aa3ccc3ce05f25494142bb4"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_walk_c.wav",
+      "size_bytes": 36524,
+      "sha256": "498067edbd3ca891a66ae70aa577944b0db067f48eaab80e7c0b112cdb3b50bc",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/49/498067edbd3ca891a66ae70aa577944b0db067f48eaab80e7c0b112cdb3b50bc"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_walk_d.wav",
+      "size_bytes": 37484,
+      "sha256": "1693af6626b40d29f7aa5877f6a5632f7fa23162848ab58ee2ad742130cb898f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/16/1693af6626b40d29f7aa5877f6a5632f7fa23162848ab58ee2ad742130cb898f"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_walk_e.wav",
+      "size_bytes": 41324,
+      "sha256": "e234adae0e2908b6de3e1767718bde3253e786aec304570a75b3e4ce3c157dfa",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e2/e234adae0e2908b6de3e1767718bde3253e786aec304570a75b3e4ce3c157dfa"
+    },
+    {
+      "path": "Unreal/Variants/G1FootContactAudio20261009/RuntimeAudio/step_walk_f.wav",
+      "size_bytes": 42284,
+      "sha256": "190cb037135a75055cee8afab3a41028fe4392a296b66f067b683d4115fecbbf",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/19/190cb037135a75055cee8afab3a41028fe4392a296b66f067b683d4115fecbbf"
+    }
+  ],
+  "file_count": 33,
+  "size_bytes": 1401420
+}

@@ -1,0 +1,115 @@
+{
+  "recording_hold": true,
+  "unchanged_history": [
+    {
+      "path": "Assets/LocalShared/Deliverables/Assignment3/DemoDraft02_20261009/Paris_G1_MVP_Draft_02.mp4",
+      "size_bytes": 123856376,
+      "sha256": "286e8c89544b09ee58618e75a6bcd55a9125c91a6e03d0bf5e5f200d742f4268"
+    },
+    {
+      "path": "tmp/g1-demo-draft02-20261009/raw/2026-10-09 19-50-56.mkv",
+      "size_bytes": 103256869,
+      "sha256": "118f5d9076e8bec4ec071a69be0cea0c43cafeb979c5ae33c18400dd17e196d4"
+    },
+    {
+      "path": "tmp/g1-demo-draft02-20261009/raw/2026-10-09 19-58-27.mkv",
+      "size_bytes": 197374667,
+      "sha256": "fcb6e4e6228f34a668665886175c3ee2eec2b544d8e6200d76ff79d7567409f6"
+    }
+  ],
+  "turn_witness": {
+    "raw": {
+      "path": "tmp/g1-demo-draft02-20261009/raw/2026-10-09 19-50-56.mkv",
+      "size_bytes": 103256869,
+      "sha256": "118f5d9076e8bec4ec071a69be0cea0c43cafeb979c5ae33c18400dd17e196d4"
+    },
+    "frames": [
+      {
+        "path": "turn_46.40.png",
+        "size_bytes": 3520572,
+        "sha256": "11cfe40b0bf65bf4687e7b2559159ea6676ecd5174eadb052c34dde69a1825f8"
+      },
+      {
+        "path": "turn_46.47.png",
+        "size_bytes": 3525450,
+        "sha256": "bf360c403e6cc1f2bea7dd8541a58596ee0728512321bcf7ec41e332da56f63e"
+      },
+      {
+        "path": "turn_46.53.png",
+        "size_bytes": 3125868,
+        "sha256": "64481d7fc05cc5af53a030466c85bed9399e24c7d9abc0f66fc929d6e02d610f"
+      },
+      {
+        "path": "turn_46.60.png",
+        "size_bytes": 2999992,
+        "sha256": "31e7d792d37680fd27d588f713781f2451220ca64e38758fbebdb4abd9eee0c6"
+      },
+      {
+        "path": "turn_46.67.png",
+        "size_bytes": 3085531,
+        "sha256": "1308981182f088439d971ebd317b7db29b35a91348e1aa3ac1fc7a085946247c"
+      },
+      {
+        "path": "turn_46.73.png",
+        "size_bytes": 3152083,
+        "sha256": "d32be24aec92cd7a1a22f152e1eda6e55176d9d4d90c5702ae589b04e9a59bc3"
+      }
+    ],
+    "step_prone_move_source_time": 46.459,
+    "source": "Unreal/Variants/G1PresentationAV20261009/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMissionV1.cpp",
+    "code_lines": [
+      70,
+      205,
+      210
+    ],
+    "scope": "Existing raw inspection only; user-facing turn correction deferred, observer unchanged"
+  },
+  "private_failure_files": [
+    {
+      "path": "delivery_launcher_failure/0_failed_launcher.cmd",
+      "size_bytes": 574,
+      "sha256": "6fb2e1821f28e84919af132e64018fffecf9e27d29d5e12a1b926145ae00f8f2"
+    },
+    {
+      "path": "delivery_launcher_failure/1_failed_launcher.cmd",
+      "size_bytes": 574,
+      "sha256": "6fb2e1821f28e84919af132e64018fffecf9e27d29d5e12a1b926145ae00f8f2"
+    },
+    {
+      "path": "delivery_launcher_failure/2_failed_launcher.cmd",
+      "size_bytes": 574,
+      "sha256": "6fb2e1821f28e84919af132e64018fffecf9e27d29d5e12a1b926145ae00f8f2"
+    },
+    {
+      "path": "delivery_launcher_failure/build_link_policy_v1_failed.ps1",
+      "size_bytes": 2835,
+      "sha256": "7f748fe817167322dc7f7936bf7c232e801558fce0012baf33c2fc062c9f0ee0"
+    },
+    {
+      "path": "delivery_launcher_failure/deliver_v1_failed.py",
+      "size_bytes": 7513,
+      "sha256": "89a9f1847b70075c961d0e1a045732ad4b2f8310c464765b1a7c8296c13a404e"
+    },
+    {
+      "path": "delivery_launcher_failure/original_verified_launcher.cmd",
+      "size_bytes": 561,
+      "sha256": "147371d3bd82262c6791ed105d620423f32344e2601786ab11afa0817cc1d1db"
+    },
+    {
+      "path": "delivery_launcher_failure/recovery.json",
+      "size_bytes": 2117,
+      "sha256": "3c74108390ad0c00423705105f823752f0bdcd13b53f1ee57b80dd4e3e7635d0"
+    }
+  ],
+  "failure_verifier": {
+    "path": "checks/verify_generation_order_v1_FAILED.py",
+    "size_bytes": 5035,
+    "sha256": "7d485944cf304c585f1039c1e67a258c5d22638f86e8aa4af11dcf0ab842ddf6"
+  },
+  "intake_negative": {
+    "path": "intake/intake_parser_v1_failed.json",
+    "size_bytes": 1335,
+    "sha256": "9c08c0025272753c449298b77c169ef407377479427b46d455e7c4757e7c4950"
+  },
+  "exact_recovery": "tmp/g1-recorded-foley-20261009/delivery_launcher_failure/recovery.json"
+}

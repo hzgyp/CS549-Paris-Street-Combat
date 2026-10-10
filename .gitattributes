@@ -6,6 +6,8 @@ Assets/Sync/manifests/*.json -text whitespace=cr-at-eol
 Assets/Sync/TEAM_SOURCE_CONTRACT_*.json -text whitespace=cr-at-eol
 Assets/Sync/CATALOG.json -text whitespace=cr-at-eol
 Docs/Development/G1PlaytestPublicationV1/*.json -text whitespace=cr-at-eol
+Docs/Development/PackageRetirementV1/*.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json -text whitespace=cr-at-eol
 .githooks/* text eol=lf
 # Failure evidence is byte-preserved, not reformatted on checkout.
 Failures/** -text whitespace=cr-at-eol
@@ -13,3 +15,18 @@ Failures/**/Changes/*.patch whitespace=-blank-at-eol
 # Exact text snapshot matching the privately packaged HUD executable.
 Unreal/Variants/G1HUDPlaytest20261009/Project/** -text whitespace=cr-at-eol,-blank-at-eof
 Unreal/Variants/G1HUDPlaytest20261009/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1PresentationAV20261009/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1RecordedFoley20261009/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1FootContactAudio20261009/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1PresentationAV20261009/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1RecordedFoley20261009/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1FootContactAudio20261009/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Assets/Sync/retired/*.json -text whitespace=cr-at-eol
+Docs/Development/G1AudioPublicationV2/*.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_AUDIO_REVIEW.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_LOCAL_REPAIR.json -text whitespace=cr-at-eol
+# Retained diagnostic scripts/evidence keep their dated bytes on checkout.
+Tools/Integration/G1PresentationAVV1/** -text whitespace=cr-at-eol,-blank-at-eof
+Tools/Integration/G1RecordedFoleyV1/** -text whitespace=cr-at-eol,-blank-at-eof
+Tools/Integration/G1FootContactAudioV2/** -text whitespace=cr-at-eol,-blank-at-eof
+Failures/MI014-20261009-checkpoint-death-audio/FAILURE_ANALYSIS_ZH.md whitespace=cr-at-eol,-blank-at-eof

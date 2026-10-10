@@ -1,0 +1,135 @@
+{
+  "private_root": "tmp/g1-recorded-foley-20261009",
+  "receipt_sha256": "7662c86f7db2d2e77f6b6c88f9e4abb1bb2e11448b5f85ad3a769c38f892973d",
+  "retained_copies": [
+    {
+      "path": "Audio/crawl.wav",
+      "size_bytes": 36524,
+      "sha256": "a80274fc793d8c36837aa5e0c51bb3528cb138f65721b9fc629f680a823ef87a"
+    },
+    {
+      "path": "Audio/death.wav",
+      "size_bytes": 69164,
+      "sha256": "c948fd86377a152d3c02a9a7918b1cac8fbd08575834354a51497f7dd5055e09"
+    },
+    {
+      "path": "Audio/fire.wav",
+      "size_bytes": 81644,
+      "sha256": "3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1"
+    },
+    {
+      "path": "Audio/land.wav",
+      "size_bytes": 29804,
+      "sha256": "197112f117991b6b559b7a0087cd056ba0f86a6031546891c10c93d707cf89f2"
+    },
+    {
+      "path": "Audio/PROVENANCE.json",
+      "size_bytes": 3619,
+      "sha256": "d5683622a4a54d915c592f8efd9ff93a27e1a7fe92e81fe0b04962c42085cb48"
+    },
+    {
+      "path": "Audio/reload.wav",
+      "size_bytes": 40364,
+      "sha256": "e55dd569b37abf448a1976a124ae7f3187f84e523852dbbb96da50e0fb593e5c"
+    },
+    {
+      "path": "Audio/reload_end.wav",
+      "size_bytes": 30764,
+      "sha256": "56f410dc577ede2cf519db2a7ed91f3144b115704354af6afc0a1af456c669e6"
+    },
+    {
+      "path": "Audio/step_run_a.wav",
+      "size_bytes": 25964,
+      "sha256": "d0a211dd821806d42654aaf7b1a88ec51cccafc60b4f5eced443a84195b3af07"
+    },
+    {
+      "path": "Audio/step_run_b.wav",
+      "size_bytes": 25964,
+      "sha256": "0c52330ac948370cc2e816034c63db87749823fbe0c9af9095a97a29899c86e8"
+    },
+    {
+      "path": "Audio/step_slow_a.wav",
+      "size_bytes": 25964,
+      "sha256": "5b2ca14acd5b7bfc1705bfc3aaeffa2af0c1e16ff0ca73b358c2d48fd2afbedb"
+    },
+    {
+      "path": "Audio/step_slow_b.wav",
+      "size_bytes": 25964,
+      "sha256": "fbe96bf3a908d631086951e14ef6ad19612e7347401097abe23b1d26c3446a71"
+    },
+    {
+      "path": "Audio/step_walk_a.wav",
+      "size_bytes": 25964,
+      "sha256": "8c4a513efecf34c8b149838a91b1dbc6d01b57b35df019572edffbf8e6885143"
+    },
+    {
+      "path": "Audio/step_walk_b.wav",
+      "size_bytes": 25964,
+      "sha256": "4235ec2e573a0e0181d05dce363cb748929dfb5cd5af70cfed7eeeacfc3331dc"
+    },
+    {
+      "path": "observer.cpp",
+      "size_bytes": 24086,
+      "sha256": "003875a828bae14fb842123a7d7152fc0e646d6f70ff34552abd7ef71915657a"
+    },
+    {
+      "path": "runtime_audio.cpp",
+      "size_bytes": 13274,
+      "sha256": "3083af0fb2c3d1244795497f7e66092712052a17b101768821e13c3008223a04"
+    },
+    {
+      "path": "Tools/admit_compile_fix.py",
+      "size_bytes": 1760,
+      "sha256": "63b9651f16eda4a057f2bd5fddeb40573f4b4275d9771566d708f83b63e5f339"
+    },
+    {
+      "path": "Tools/admit_runtime_fix.py",
+      "size_bytes": 4391,
+      "sha256": "4237cd80080ae237c67ae4d5a589aeb3c1c36d404d0f64db5e70425f2e0a521d"
+    },
+    {
+      "path": "Tools/build.ps1",
+      "size_bytes": 3348,
+      "sha256": "7be46b9dae27e7c9c5ca4f47a657ec4aaeae851d5948a815cdd2baaef592e2c3"
+    },
+    {
+      "path": "Tools/generate_cues.py",
+      "size_bytes": 3577,
+      "sha256": "1d2574839538efe84f2e84251f2000e8d877033833e1a73713a4a81a2c6099c8"
+    },
+    {
+      "path": "Tools/launch.ps1",
+      "size_bytes": 3607,
+      "sha256": "007bfe70e6c1b673fe6f664fd89c2879b040b90179ff13b6bd70a7ab0714b5bb"
+    },
+    {
+      "path": "Tools/ParisGameplayAV.cpp",
+      "size_bytes": 13274,
+      "sha256": "3083af0fb2c3d1244795497f7e66092712052a17b101768821e13c3008223a04"
+    },
+    {
+      "path": "Tools/ParisGameplayAV.h",
+      "size_bytes": 477,
+      "sha256": "fb13416adc4413fd3ad8854e5d89d24166dedaa702083d04185484bcf456e0b8"
+    },
+    {
+      "path": "Tools/prepare.py",
+      "size_bytes": 7914,
+      "sha256": "69130080810450c236545b8c2440c17790af65fb6bbc9cf2606cc3283497abf5"
+    }
+  ],
+  "references": [
+    {
+      "path": "Assets/LocalShared/Deliverables/Assignment3/DemoDraft02_20261009/Paris_G1_MVP_Draft_02.mp4",
+      "size_bytes": 123856376,
+      "sha256": "286e8c89544b09ee58618e75a6bcd55a9125c91a6e03d0bf5e5f200d742f4268"
+    },
+    {
+      "path": "tmp/g1-demo-draft02-20261009/probe/game.log",
+      "size_bytes": 132138,
+      "sha256": "968fdb527fc3cc6e56d112ac9f8694647e26fd5be8eef4ee01f96350b4807421"
+    }
+  ],
+  "approved_fire_sha256": "3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1",
+  "recording_hold": true
+}

@@ -1,0 +1,42 @@
+{
+  "status": "retained_negative_identities_after_distinct_local_repair",
+  "case": "MI014",
+  "references": [
+    {
+      "path": "tmp/g1-demo-draft02-20261009/checkpoint_gpu_fail_1/game.log",
+      "size_bytes": 167109,
+      "sha256": "8eb94e45d8671b060e85212a4e5b94b0b8a9971b8dd4730c7876c883917f3d73"
+    },
+    {
+      "path": "tmp/g1-demo-draft02-20261009/raw/2026-10-09 19-56-44.mkv",
+      "size_bytes": 913928,
+      "sha256": "236e5bdf36d5f03d8d19191f36002c7f46a662b5d43791f8e7d2401132011531"
+    },
+    {
+      "path": "tmp/g1-demo-draft02-20261009/export_v1/Paris_G1_MVP_Draft_02.mp4",
+      "size_bytes": 123904684,
+      "sha256": "7ece425651c9406798f6fec1f9b0ebfd8b6ef2efcbf6e2d520a7b6b25f2a212e"
+    },
+    {
+      "path": "tmp/g1-demo-draft02-20261009/export_v1/render.log",
+      "size_bytes": 96,
+      "sha256": "3c5f729880716acf4b4826f29be87bf08b945cd5d21d3d406e03f80ff94865d9"
+    },
+    {
+      "path": "tmp/g1-demo-draft02-20261009/checkpoint_review/inspect_checkpoint_v1_failed.py",
+      "size_bytes": 3915,
+      "sha256": "74c5bcda2b133e5c141453a349781a37990443f484c58050632a4f86bbbfffac"
+    },
+    {
+      "path": "tmp/g1-demo-draft02-20261009/checkpoint_review/verification.json",
+      "size_bytes": 2618,
+      "sha256": "a0c8461b3fb82cf662c39abf7fe19927240c686dd1dacfdbfe7ab44a34795109"
+    }
+  ],
+  "protected_roots": [
+    "tmp/g1-av-revision-20261009",
+    "tmp/g1-demo-draft02-20261009"
+  ],
+  "original_failures": "V1 FrozenSource/compile, V2/V3 blocked silent mixes and old range, startup GPU, broad matching diagnostic, export_v1",
+  "scope": "Reference metadata only; private raw/code/build/crash data retained locally; no commercial asset or private crash XML copied to Git"
+}
