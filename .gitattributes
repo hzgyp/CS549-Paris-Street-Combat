@@ -1,6 +1,8 @@
 # Asset bytes were migrated from Git/LFS to private SFTP on 30 September 2026.
 # Only explicitly registered small team Blueprint code may be tracked as binary source.
 *.uasset -diff -merge -text
+# Documentation images are ordinary Git blobs, never text-normalized or LFS.
+Docs/Images/** -text -diff -merge
 # Catalog SHA-256 pins the exact verified SFTP manifest bytes on all platforms.
 Assets/Sync/manifests/*.json -text whitespace=cr-at-eol
 Assets/Sync/TEAM_SOURCE_CONTRACT_*.json -text whitespace=cr-at-eol

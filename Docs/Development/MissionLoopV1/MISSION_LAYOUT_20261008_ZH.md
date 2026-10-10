@@ -2,6 +2,14 @@
 
 2026年10月8日。在保留的25厘米扩展静态测绘底图上标注候选位置。[英文原文](MISSION_LAYOUT_20261008.md)。遵循[标注流程](MISSION_LAYOUT_ANNOTATION_PLAN_20261008_ZH.md)及[选定任务设计](BRIDGE_TO_CENTRE_MISSION_DESIGN_20261007_ZH.md)。
 
+## 布局配图
+
+![过桥至市区的任务规划总览](../../Images/MissionLoopV1/PARIS_MISSION_LAYOUT_20261008.png)
+
+[过桥与市区布局放大图](../../Images/MissionLoopV1/PARIS_MISSION_LAYOUT_DETAILS_20261008.png)
+
+10月10日存储更新：这两张审核后的文档配图随正文进入 Git，保留10月8日完整路线草案及当时的起点／人员布置。当前 G1 MVP 截止桥头，后续市区阶段属于路线图，不是已实现范围。私有原图和测量回执保持不变；以下仍为原日期的草案说明。
+
 | 编号 | 位置 | X米 | Y米 | 测绘脚底Z米 |
 | --- | --- | ---: | ---: | ---: |
 | S | 盟军集结／玩家 | -31.625 | -259.375 | 1.10117 |

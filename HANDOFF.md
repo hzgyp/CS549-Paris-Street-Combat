@@ -1,5 +1,32 @@
 # Paris Street Combat - new-session handoff
 
+**Scoped document-image publication authorization, 10 October 2026:** user
+requests commit/push of this window's 21 reviewed image/document/policy/guard
+files only. Four 25 cm figures are included, with linked EN/ZH documents and
+exact byte approvals; 1 m planning is retired. Other-window Failures/README,
+MI019, team-feedback plan/tools/source changes must remain uncommitted here.
+This supersedes the earlier no-commit scope only for this document-image
+publication. Verify staged paths, hooks, exact commit inventory and remote main;
+actual commit/remote identity is reported after completion in the user handoff.
+
+**Planning precision correction, 10 October 2026:** user discards the 1 m
+edition; only the audited 25 cm planning maps are current. Two unannotated
+4032-by-4032 masks (saved versus expanded scope) now accompany the fine-grid
+documents in the Git-eligible image set, alongside the two mission annotations.
+No coarse image was copied there; old private measurements/failures remain
+historical, not planning inputs. No navigation/game change or commit/push.
+
+**Document-image Git rule, 10 October 2026:** the user requires illustrations
+closely associated with project documents to accompany the text in Git. Reviewed
+figures live under Docs/Images with relative links and exact path/byte approvals
+in Assets/Sync/GIT_DOCUMENT_IMAGE_ALLOWLIST.json; other asset/private raster
+bytes retain SFTP/local storage. The two original mission-layout figures are
+now prepared as Git-eligible document copies, with synchronized EN/ZH links;
+the historical full-route draft is not current implemented scope. Raw private
+evidence, model/native/audio selectors and concurrent team-feedback work remain
+untouched. See DOCUMENT_IMAGE_GIT_IMPLEMENTATION_20261010.md and the updated
+team manual. This change is not a commit/push or new gameplay acceptance.
+
 **Latest report/download bundle and Git authorization, 10 October 2026:** user
 requests the accepted two-page Assignment3 PDF inside the existing download-script
 directory, ZIP that directory, then commit/push matching source/docs. This replaces

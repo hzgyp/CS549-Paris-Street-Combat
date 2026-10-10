@@ -29,13 +29,36 @@ Decision date: 27 September 2026; explicit existing Git/LFS asset migration auth
 
 | Material | Authoritative storage | Rule |
 |---|---|---|
-| Code, scripts, configuration, Markdown/document sources and SVG/Mermaid diagrams | GitHub | Commit normally; inspect staged content before publishing. PDF/DOCX/PPTX and raster outputs are SFTP bytes, not source exceptions. |
-| Models, textures, animations, audio, archives, environment packages, research source bytes, document binaries and raster illustrations | Private SFTP after their acceptance/sharing gate | New original deliveries and pending adaptations physically start in ignored LocalWorking, not SFTP. Store accepted, permitted original/changed bytes outside Git regardless of size; Git records paths/hashes/versions/rights. Unresolved-rights material stays local-only with source links. |
+| Code, scripts, configuration, Markdown/document sources, SVG/Mermaid diagrams and reviewed document illustrations | GitHub | Commit related text and figures together. Raster figures require the exact-path document-image allowlist and byte/public review below. PDF/DOCX/PPTX remain SFTP bytes. |
+| Models, textures, animations, audio, archives, environment packages, research source bytes, document binaries and other asset/evidence images | Private SFTP after their acceptance/sharing gate | New original deliveries and pending adaptations physically start in ignored LocalWorking, not SFTP. Store accepted, permitted original/changed bytes outside Git regardless of size; Git records paths/hashes/versions/rights. Unresolved-rights material stays local-only with source links. |
 | Asset version catalog, SHA-256, sizes, restore paths, dependencies and ownership | GitHub: `Assets/Sync/manifests/<asset-id>.json` | One manifest per logical asset/dependency group; the selected Git commit determines exact versions. |
 | Existing Git/LFS assets | Private SFTP after verified migration | The 30 September request authorizes removing their tracked bytes and rewriting asset history in this repository. Preserve private backups and local originals. No new asset bytes or LFS pointers enter public source. |
 | Caches, editor autosaves, credentials, private keys, temporary transfers | Local, ignored | Not part of a shared source release. Back up valuable unfinished work separately. |
 
-Routing convention: model/source-asset bundles and PDF/DOCX/PPTX/raster outputs use SFTP even when small. Markdown, code, SVG/Mermaid, configuration, catalogs, sources and hashes remain in Git. Small team-authored Unreal Blueprint logic is code, not a blanket model exception: register its exact path/owner/kind in `Sync/GIT_CODE_ALLOWLIST.json` before staging, with a 10 MiB source-code cap. Do not whitelist purchased assets, meshes, animations or archives. Existing retained gunplay binaries are migrated together as a reference dependency group. Binary code still needs one named editor.
+Routing convention: model/source-asset bundles, PDF/DOCX/PPTX and non-document asset images use SFTP even when small. Markdown, code, diagrams, reviewed document illustrations, configuration, catalogs, sources and hashes remain in Git. Small team-authored Unreal Blueprint logic is code, not a blanket model exception: register its exact path/owner/kind in `Sync/GIT_CODE_ALLOWLIST.json` before staging, with a 10 MiB source-code cap. Do not whitelist purchased assets, meshes, animations or archives. Existing retained gunplay binaries are migrated together as a reference dependency group. Binary code still needs one named editor.
+
+**10 October 2026 document-image clarification:** figures needed to understand a
+project document belong with that document in Git, including raster diagrams and
+reviewed public-safe screenshots. Place them under `Docs/Images/<topic>/` and use
+relative Markdown links that work after a source-only clone. Check public-sharing
+rights and remove private correspondence, credentials and sensitive UI content;
+an asset's private team-sharing permission is not public screenshot permission.
+Never classify a texture atlas, raw purchased model preview/source bundle or an
+unlicensed historical image as a document illustration to bypass asset rules.
+
+Register each exact image path in `Sync/GIT_DOCUMENT_IMAGE_ALLOWLIST.json`, its
+linked Markdown documents, provenance/public review, and approved byte size and
+SHA-256. PNG/JPG/JPEG/WebP/GIF are supported, at most 5 MiB per image; resize a
+large display figure and keep the raw evidence private. Add the corresponding
+exact negative `.gitignore` rule; do not globally unignore images or force-add an
+ignored private path. Retain earlier approved byte versions when revising a
+figure, so the outgoing history stays verifiable. Commit text, figure, allowlist
+and ignore update together, subject to the user's commit/push authorization.
+The storage guard checks actual raster signatures, approved hashes/size and
+document links, using staged approval at commit time. Raw evidence originals
+and SFTP receipts stay preserved; their small reviewed document copies are not
+additional production-asset working trees. This update does not admit PDFs,
+videos, private email evidence, vendor bytes or every existing screenshot.
 
 **Latest 1 October 2026 intake clarification:** new originals physically start in `Assets/LocalWorking/Intake/<batch>/`. Bounded extraction, processing and validation use `Assets/LocalWorking/Validation/<owner-or-batch>/` when needed, preserving delivered originals unchanged. Pending new assets do not go under the SFTP tree, even as private workspaces, and their intake path is not a junction into SFTP. After the defined asset validation and sharing-rights gates pass, migrate retained originals and usable outputs/dependencies into appropriate `Assets/LocalShared/SFTP/` locations; verify their sizes/SHA-256 and final SFTP bytes before cleaning only redundant LocalWorking material. Keep a checked junction only when a tool/editor still needs that path, not by default. See Section 6. This supersedes the earlier blanket physical-SFTP-home rule for initial intake.
 

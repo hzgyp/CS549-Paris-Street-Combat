@@ -1,5 +1,23 @@
 # Paris 25 cm grid result
 
+## Unannotated planning maps
+
+10 October storage/precision selection: only the 25 cm edition is used for
+current planning; the 1 m edition is retired. These document copies preserve
+the original audited masks exactly, at 4032 by 4032 pixels, 25 cm per pixel,
+X/Y bounds -50400 to +50400 cm, columns +X and rows -Y. L0 is the lowest local
+surface order, not an authenticated building floor. White means an admitted
+candidate centre; black includes unadmitted/unknown space, not proven universal
+physical blockage. The two scopes are intentionally distinct.
+
+![Unannotated 25 cm expanded survey L0 walk mask](../../Images/MissionLoopV1/PARIS_GRID_25CM_EXPANDED_L0_20261007.png)
+
+[Unannotated 25 cm saved navigation L0 walk mask](../../Images/MissionLoopV1/PARIS_GRID_25CM_SAVED_L0_20261007.png)
+
+The expanded picture is a planning survey, not proof that production navigation
+covers every white cell. Private originals/audits remain unchanged; image storage
+does not add runtime, squad or final-site acceptance. The original result follows.
+
 7 October2026. The planning grid now uses25 cm centers instead of1 m, freshly sampled natively: sixteen times the areal density over the same world frame. The expanded fine survey connects the two C-bank test positions in one component; the saved-navigation fine filter still separates them. Models, fingers, weapon logic, AI, formal map/navigation and final layout remain unchanged.
 
 Read the implementation plan and ML006/ML008/ML012–ML017. Retain every coarse artifact, movement failure and bridge negative. The two new preparation failures have indexed analyses and authenticated private archives. This result is synchronized with the Chinese review.

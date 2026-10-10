@@ -24,7 +24,8 @@
 /Assets/LocalShared/
 /Assets/LocalWorking/
 
-# Public source release: assets, rendered/document binaries and raw research archives use SFTP.
+# Public source: assets/document binaries/raw research stay external; only reviewed
+# document-image paths below are raster exceptions.
 /HistoricalReference/NormandyContext/archive/
 /HistoricalReference/NormandyContext/images/
 /Reference/Gunplay/UnrealContent/
@@ -40,6 +41,11 @@
 *.jpeg
 *.webp
 *.gif
+# Reviewed documentation illustrations only; keep all asset/private trees ignored.
+!/Docs/Images/MissionLoopV1/PARIS_MISSION_LAYOUT_20261008.png
+!/Docs/Images/MissionLoopV1/PARIS_MISSION_LAYOUT_DETAILS_20261008.png
+!/Docs/Images/MissionLoopV1/PARIS_GRID_25CM_EXPANDED_L0_20261007.png
+!/Docs/Images/MissionLoopV1/PARIS_GRID_25CM_SAVED_L0_20261007.png
 *.blend
 *.fbx
 *.obj

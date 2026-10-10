@@ -2,6 +2,18 @@
 
 8 October 2026. Candidate layout on the preserved 25 cm expanded static survey. [Chinese review](MISSION_LAYOUT_20261008_ZH.md). Follow [the annotation plan](MISSION_LAYOUT_ANNOTATION_PLAN_20261008.md) and [selected mission](BRIDGE_TO_CENTRE_MISSION_DESIGN_20261007.md).
 
+## Layout illustrations
+
+![Bridge to city mission planning overview](../../Images/MissionLoopV1/PARIS_MISSION_LAYOUT_20261008.png)
+
+[Enlarged bridge and city layout](../../Images/MissionLoopV1/PARIS_MISSION_LAYOUT_DETAILS_20261008.png)
+
+10 October storage update: these reviewed document illustrations now accompany
+the text in Git. They preserve the original 8 October full-route draft, including
+its historical start/roster proposals. The current G1 MVP ends at the bridgehead;
+later city stages are roadmap, not implemented scope. Private originals and
+measurement receipts remain unchanged. The dated draft description follows.
+
 | ID | Position | X m | Y m | Survey feet Z m |
 | --- | --- | ---: | ---: | ---: |
 | S | Assembly / player | -31.625 | -259.375 | 1.10117 |

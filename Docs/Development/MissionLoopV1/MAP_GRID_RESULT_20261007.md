@@ -1,5 +1,11 @@
 # Paris black/white planning grid — measured result
 
+**Retired for current planning, 10 October 2026:** the user discards this 1 m
+edition because coarse sampling can misidentify space. Use only the
+[25 cm planning maps](FINE_GRID_RESULT_20261007.md). No 1 m figure is admitted to
+the current Git document-image set. The dated measurements and private failure
+evidence below remain historical, not authority to select new gameplay sites.
+
 7 October 2026. The finite geometric survey, binary planning masks and offline coordinate tool are produced. Formal-role mapping records7 passed legs,1 negative and10 unmeasured; it is not a successful18-leg acceptance. Browser UI review is blocked by its file-protocol security policy. Script/data checks pass; interactive manual review remains open. No final spawn, objective, encounter site or playable boundary is selected.
 
 Read the implementation, roundtrip and runtime-quarantine plans and ML001/ML003/ML006–ML014 before extending this work. Selected output is private `Evidence/MapGridV1/full_v1_20261007/derived_v3` and `artifact_v3`. Earlier derived/artifact versions are historical. All original models, skeletons, finger poses, weapons, actions, native grip/recoil/AI logic, map navigation and Catalog remain protected. All703 protected rows and both previous survey helper binaries are exact. No formal map save or Git publication.

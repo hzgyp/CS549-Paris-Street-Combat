@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "policy": "Reviewed illustrations closely associated with project documents belong in Git. Only exact Docs/Images paths are eligible; each image is limited to 5 MiB and approved byte versions. Production asset images, private correspondence, credentials and unlicensed source images remain excluded. Retain earlier approved hashes when revising a figure so publication history remains verifiable.",
+  "files": [
+    {
+      "path": "Docs/Images/MissionLoopV1/PARIS_MISSION_LAYOUT_20261008.png",
+      "kind": "project_document_illustration",
+      "documents": ["Docs/Development/MissionLoopV1/MISSION_LAYOUT_20261008.md", "Docs/Development/MissionLoopV1/MISSION_LAYOUT_20261008_ZH.md"],
+      "provenance": "Existing project-authored conservative navigation-mask and mission annotations, Evidence/MissionLayoutV1/layout_v2_20261008. No vendor models/textures or private correspondence embedded; original private evidence preserved.",
+      "public_review": "approved",
+      "reviewed_by": "Codex under Yupu Guo's 10 October 2026 document-image Git instruction",
+      "approved_versions": [{"size_bytes": 300350, "sha256": "3e1ef5f6c79478de77aec9fd1a547985345900be79d24554024f99522d8f91c9"}]
+    },
+    {
+      "path": "Docs/Images/MissionLoopV1/PARIS_MISSION_LAYOUT_DETAILS_20261008.png",
+      "kind": "project_document_illustration",
+      "documents": ["Docs/Development/MissionLoopV1/MISSION_LAYOUT_20261008.md", "Docs/Development/MissionLoopV1/MISSION_LAYOUT_20261008_ZH.md"],
+      "provenance": "Existing project-authored detail figure from Evidence/MissionLayoutV1/layout_v2_20261008; same planning-only mask/annotations as the overview, no production asset bytes or secrets. Original private evidence preserved.",
+      "public_review": "approved",
+      "reviewed_by": "Codex under Yupu Guo's 10 October 2026 document-image Git instruction",
+      "approved_versions": [{"size_bytes": 167156, "sha256": "d06c7dbb2c179c0543087d0d05ad7ca65e6b22a2465712c2360c8e6e2928d5b4"}]
+    },
+    {
+      "path": "Docs/Images/MissionLoopV1/PARIS_GRID_25CM_EXPANDED_L0_20261007.png",
+      "kind": "project_document_illustration",
+      "documents": ["Docs/Development/MissionLoopV1/FINE_GRID_RESULT_20261007.md", "Docs/Development/MissionLoopV1/FINE_GRID_RESULT_20261007_ZH.md"],
+      "provenance": "Project-authored unannotated 25 cm lowest-surface walk mask, FineMapGridV1/expanded_v2_20261007/derived/full_walk_L0.png; SHA-256 matches artifact/audit_masks.json. Expanded disposable survey, not saved production navigation or complete runtime acceptance. No model/texture or secret bytes. Raw evidence retained privately.",
+      "public_review": "approved",
+      "reviewed_by": "Codex under Yupu Guo's 10 October instruction to include confirmed unannotated maps and retain only 25 cm for planning",
+      "approved_versions": [{"size_bytes": 58158, "sha256": "985c64f17bb594b4821fb221d614e58bcf3d297815f07cf6ff09069bb2e74431"}]
+    },
+    {
+      "path": "Docs/Images/MissionLoopV1/PARIS_GRID_25CM_SAVED_L0_20261007.png",
+      "kind": "project_document_illustration",
+      "documents": ["Docs/Development/MissionLoopV1/FINE_GRID_RESULT_20261007.md", "Docs/Development/MissionLoopV1/FINE_GRID_RESULT_20261007_ZH.md"],
+      "provenance": "Project-authored unannotated 25 cm lowest-surface walk mask, FineMapGridV1/expanded_v2_20261007/derived/saved_walk_L0.png; SHA-256 matches artifact/audit_masks.json and explicitly reused city_v1 saved-scope source. Not interchangeable with expanded scope. No model/texture or secret bytes; raw evidence retained privately.",
+      "public_review": "approved",
+      "reviewed_by": "Codex under Yupu Guo's 10 October instruction to include confirmed unannotated maps and retain only 25 cm for planning",
+      "approved_versions": [{"size_bytes": 48768, "sha256": "d6e81077b4983bcc36e3f01079779f22c2d53ce4a75cd49001ab893aeb25b00a"}]
+    }
+  ]
+}
