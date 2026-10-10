@@ -1,5 +1,25 @@
 # Asset sharing records
 
+## Course reviewer compiled-game delivery,10 October2026
+
+Yupu explicitly confirms that the selected compiled Windows game may be supplied
+privately to the course mentor/instructor and teaching assistants for assessment.
+He selects local SFTP and the existing teammates' account and key, without
+creating a new user. His latest instruction adds the selected two-page report to
+the existing download-script directory and explicitly requests a ZIP of that
+directory. This supersedes the earlier directory-only preference; only directly
+useful download files and the report are included. Private course-platform
+delivery will be handled by the owner.
+
+This extends recipient permission for the selected compiled audioV2 game only;
+it does not authorize public commercial/source-asset distribution. The existing
+shared account technically has broader team-resource access and CRUD permission;
+that limitation is stated in the delivery guide. No new account, key, server ACL,
+or public credential publication is authorized or performed by this record.
+Store the connection directory, current report/download ZIP and historical ZIP
+only in ignored private local storage. No private key,
+endpoint, password or access ZIP bytes enter public Git/YouTube.
+
 ## Reviewed audio V2,9 October2026
 
 Yupu selects the manually retested build and authorizes private packaged/resource

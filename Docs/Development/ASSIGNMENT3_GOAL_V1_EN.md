@@ -1,5 +1,29 @@
 # Assignment 3 MVP Development Goal Version 1
 
+Later10October selection: the user confirms the four pillars satisfy the current
+MVP, approves the revised combined outline and requests the formal PDF, then
+selects the restored two-page version. It integrates pillars/test results,
+AI utility/asset adaptation and four roadmap items. Rejection/pending-discussion
+notes below are earlier snapshots; preserve RP001 history. See
+ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md for current report/download/private ZIP.
+Course-platform upload and independent reviewer download remain pending.
+
+Latest10October: the day's report is rejected. The AI/modeling addendum
+supplements the original four pillars; a future report must integrate both.
+First record new gameplay with live UE performance on screen, then jointly
+discuss the report. RP001 retains failed drafts/reason; game and teammate
+playable acceptance are preserved.
+
+10 October2026 scope/status addendum: the user confirms a teammate's second PC
+runs the shared game and is playable; packaged second-machine validation passes
+by human attestation. Keep current1player/2Allies/3Germans for performance and
+dynamic bottleneck tests; do not execute the earlier population-expansion plan.
+The report must include AI utility and near-ten-working-day model-adaptation
+cost (team estimate), hand/weapon fit, missing German firearm/new-model
+difficulties, purchased detailed assets and the stopped AI character route.
+Do not name the procurement channel or claim low FPS proves hardware causality.
+This addendum does not rewrite the submitted Assignment2 commitments below.
+
 Dated update,8October2026: the user confirms Assignment2 and the Assignment3
 deadline13October2026. Current selected midterm scope is bridgeC/G1 capture with
 working safe-save/load (now Must); city-centre stages are deferred. Mentor evidence

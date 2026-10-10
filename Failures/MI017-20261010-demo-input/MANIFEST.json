@@ -1,0 +1,162 @@
+{
+  "case": "MI017",
+  "status": "retained_negative_identities_after_distinct_bounded_helper_repair",
+  "references": [
+    {
+      "path": "tmp/g1-demo-draft03-20261009/actions_probe_v1/game.log",
+      "size_bytes": 114361,
+      "sha256": "cea8d7ee553204abf8b0d5a9eba3a6aa3d3635d84b7d92709e2cf908fe2cfc30"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/actions_probe_v1/launch.json",
+      "size_bytes": 1471,
+      "sha256": "2566585cf23c34d8d11f4e65a21a3d1b309ff42123fe3bd756469a8de1c693c0"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/actions_probe_v1/preflight_stop.json",
+      "size_bytes": 1556,
+      "sha256": "930d65c895f4314ebacdd7d1ef8b0a7e31de984735048f840dea6f848e437b18"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/raw/2026-10-10 08-12-59.mkv",
+      "size_bytes": 62331477,
+      "sha256": "39e75d71010489c8d84d271d4157e8ad6c897e5b8339f927a3a560390cdedaac"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/raw/2026-10-10 08-19-18.mkv",
+      "size_bytes": 235523014,
+      "sha256": "2a03ca44f068c14838ed059edcba90c3dfe6461b323274eb58026bbf937a8836"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/raw/2026-10-10 08-29-55.mkv",
+      "size_bytes": 266554948,
+      "sha256": "a2ad94254003e7a41faba4bce1446e5feccc7c002f8bae93c17a7db8565b4b5a"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v1/build.json",
+      "size_bytes": 343,
+      "sha256": "b179210257906fd83624cd163c34fa5918d7d716df840bffbd83d4da7aa9df89"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v2/build.json",
+      "size_bytes": 343,
+      "sha256": "8c072d3b319e8139b0abc22b946455c03041aa03315bf2056bfea7c61d41bfe9"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v2_prepare.json",
+      "size_bytes": 38080,
+      "sha256": "817913a0685f01fbaa79192acff63e443a5397761854fc611237262c49fee064"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v3/build.json",
+      "size_bytes": 343,
+      "sha256": "966e9768f2e4883a5a5c235eb193c98fe0681f35afa4783f39a0082a31b7f1c2"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v3_prepare.json",
+      "size_bytes": 38349,
+      "sha256": "ee3d57fb6acef685f9414757d2fd709b17f7cca6ddbb7e63d6822ee1d6f943b8"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v4/build.json",
+      "size_bytes": 343,
+      "sha256": "c6299ae5438c902f89b90b96b2deaf53e62d087f2e0c906a759d94d4750110aa"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v4_prepare.json",
+      "size_bytes": 38610,
+      "sha256": "0b901f5810e768141e241ab232615e188ee72612d67c6e0ceda4ec4d4e52edee"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v5/build.json",
+      "size_bytes": 343,
+      "sha256": "834f2b2ded73dcdbc5221364fca41f256d0fe038fb4e2e6de8b320d9ad32b70a"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v5_prepare.json",
+      "size_bytes": 38779,
+      "sha256": "012ff778c71ca4949bc24f3d5e7cc277a808aa0bb7279092b38a3475e563b72f"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v6/build.json",
+      "size_bytes": 343,
+      "sha256": "d4105211fe3b7be4b3dd1c48cea68b305b5430f1e07e6e4e46d7f7331dc1f627"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/recording_v6_prepare.json",
+      "size_bytes": 38927,
+      "sha256": "fc7d7a37582338bd0c07ac588d39b0e500747aecf6189a624e91cd102626bbe8"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/runtime_remap_v5.json",
+      "size_bytes": 756,
+      "sha256": "01b80bd02d4e1974235ea3b6e381a2eb072f796daf8d481eed4cc946352867c5"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/runtime_remap_v6.json",
+      "size_bytes": 826,
+      "sha256": "18549c42a37b61bfecb9ff7abba83e45f259f8466895506895dc3e1ac592da30"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_fresh_v3/game.log",
+      "size_bytes": 119211,
+      "sha256": "cac7b9d8e3ba41c3b95dd7dc7e188efb1c0db9c9ad85ce80308c11c73f8ea673"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_fresh_v3/launch.json",
+      "size_bytes": 1470,
+      "sha256": "073d9eabaa8fa050ae39a52e8f5f535f336e499f8ae80ef779cadbc4886196d7"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_fresh_v3/result.json",
+      "size_bytes": 1014521,
+      "sha256": "ea29bf3f0d80a64ecddd01a64a7b6c563474e9e678ee2adbb7cf1f13c1f585ee"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_v3/game.log",
+      "size_bytes": 178586,
+      "sha256": "47d4e68c8fad71f67d81a006aed94bc36359207e1b766c8abdab3f38714c2015"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_v3/launch.json",
+      "size_bytes": 1446,
+      "sha256": "4cee6661ecec03382074d5ad8cda263af1ba868c1e215cf88b282642c848df1c"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_v4/game.log",
+      "size_bytes": 120163,
+      "sha256": "57bbea3405efcd4c61676404e2efd2582ba7ae7ce8330b2a8daf5e5d9b922ed4"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_v4/launch.json",
+      "size_bytes": 1445,
+      "sha256": "bb06ab8f3ddfef0e77079b92cf8b1208cbb36ed94097a4e7561904ae6af1c7b9"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_v4/result.json",
+      "size_bytes": 4346835,
+      "sha256": "c8d892d4ba2cc6785484cf83d89c1cb5b63acac341ddf0ad923d916dd340e81d"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_v5/game.log",
+      "size_bytes": 122609,
+      "sha256": "25164efd9a93187e5175edf9be3b641c4a81837836aec310e4a3f1e6cbd9c023"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_v5/launch.json",
+      "size_bytes": 1504,
+      "sha256": "d406abcc42b10a0cd60b23ee867e8fcfaee8e03772ec2dd9d5ba050598562a1d"
+    },
+    {
+      "path": "tmp/g1-demo-draft03-20261009/victory_v5/result.json",
+      "size_bytes": 6114416,
+      "sha256": "24333fabf9878dd123d7e7f6243b02d36893371ab4f68218f89fbb60d98c6b2f"
+    }
+  ],
+  "protected_roots": [
+    "tmp/g1-demo-draft03-20261009"
+  ],
+  "historical_source": "Retain recording_v2/v3/v4/v5 compiled_source_snapshot, prior binaries, crash evidence and raw. Current recording_v2 authoring and recording_v4 execution path are V6; use runtime_remap_v6.",
+  "failed_video_use": "Excluded from final delivery",
+  "gpu_cause": "Unresolved"
+}

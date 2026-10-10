@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10 America/New_York",
+  "scope": "Update Assignment 3 progress/AI utility and human second-machine status; measure the unchanged selected audio-V2 initial scene at the existing population. No NPC addition, gameplay edit, upload or publication.",
+  "user_attestation": "A teammate's second computer runs the game and it is playable; accepted as a human-reported second-machine pass, not a remotely observed hash audit.",
+  "cases_read": ["AGENTS rejected detailed character-production route (38 iterations)", "GP001 Kar98k generation/adaptation limits", "FP001 first-person presentation rejection", "MI007 packaged performance limit", "MI017 recording input and GPU startup failures"],
+  "changed_mechanism": "Give AI utility and model-adaptation cost their own report section; use purchased detailed assets and bounded adaptation. Replace future 6/12/18 expansion with tests of the existing one-player/two-Allied/three-German configuration. Preserve old results as dated evidence.",
+  "early_acceptance": "Verify exact 42-file selected source and selected Game SHA, no engine active, isolated UserDir. Verify user-confirmed second-machine status is recorded without inventing machine specs. Report AI benefits, near-ten-working-day cost and specific model gaps without procurement-channel details.",
+  "performance_protocol": {
+    "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+    "runs": 3,
+    "native_csv_frames_per_run": 12000,
+    "protocol_amendment_before_baseline1": "The retained original run1 is a 6000-frame short probe, exit0, capture about61s and only about31s after warmup. It is excluded under the >=60s rule. Declare 12000 frames for three fresh baseline1/2/3 identities; change no rendering, gameplay or population settings. Never erase the short run.",
+    "warmup_seconds": 30,
+    "analysis": "Discard only the predeclared first 30 seconds of native frame-time accumulation; analyze every remaining frame. Require at least 60 seconds after warmup; preserve full CSV/startup logs.",
+    "settings": "1920x1080 High (ten sg levels 2), 100% screen, RT off, VSync off, uncapped, texture pool1536MiB, normal audio, Windows Development, RenderOffscreen. OBS remains idle.",
+    "population": "Existing initial 1 player + 2 Allies + 3 Germans. No NPC spawn override, no state injection and no recording-input helper.",
+    "workload_limit": "Stationary initial mission, not a dynamic bridge/combat stress pass or sustained all-active AI capacity. Fixed-population dynamic bottleneck testing remains a separate requirement."
+  },
+  "stopping_condition": "Stop on selected source/Game drift, active user engine, security permission prompt, crash, incomplete CSV or insufficient post-warmup interval. Preserve failures and do not silently alter settings, population or game source. Do not attribute a miss solely to hardware without isolation evidence.",
+  "report_outputs": ["output/pdf/Paris_Street_Combat_Assignment3_Progress_20261010_EN.pdf", "output/pdf/Paris_Street_Combat_Assignment3_Progress_20261010_ZH.pdf"]
+}

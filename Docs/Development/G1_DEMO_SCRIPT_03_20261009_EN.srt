@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:03,000
+Paris Street Combat
+G1 Bridgehead MVP
+
+2
+00:00:03,000 --> 00:00:06,000
+Automated input with AI narration.
+One player, two Allies, three German guards.
+
+3
+00:00:06,000 --> 00:00:11,000
+Animation: walking and grounded footsteps.
+
+4
+00:00:11,000 --> 00:00:16,000
+Sprint movement and footstep timing.
+
+5
+00:00:16,000 --> 00:00:20,000
+Slow walk uses a separate movement pace.
+
+6
+00:00:20,000 --> 00:00:24,000
+Jump and landing with in-game audio.
+
+7
+00:00:24,000 --> 00:00:28,000
+Crouch transition and movement.
+
+8
+00:00:28,000 --> 00:00:34,000
+Prone, crawl and stand on clear level ground.
+
+9
+00:00:34,000 --> 00:00:38,000
+Collision: solid geometry blocks movement.
+
+10
+00:00:38,000 --> 00:00:44,000
+Reload animation, mechanical audio
+and ammo state work together.
+
+11
+00:00:44,000 --> 00:00:51,000
+Navigation: cross the river using the bridge.
+
+12
+00:00:55,000 --> 00:01:03,000
+Allied movement and regrouping
+use Unreal navigation.
+
+13
+00:01:03,000 --> 00:01:11,000
+The minimap shows the squad and current goal.
+
+14
+00:01:11,000 --> 00:01:19,000
+NPC AI: guard reactions and combat behavior.
+
+15
+00:01:22,000 --> 00:01:30,000
+Shots, damage and HUD updates
+share the gameplay state.
+
+16
+00:01:37,000 --> 00:01:45,000
+Secure G1 by eliminating its three guards.
+
+17
+00:01:45,000 --> 00:01:50,000
+The checkpoint circle unlocks after G1 is secured.
+
+18
+00:01:50,000 --> 00:01:56,000
+Entering the circle asks for consent.
+It does not automatically save.
+
+19
+00:01:58,000 --> 00:02:03,000
+Press E at a safe standing boundary to save.
+Health and ammo are preserved.
+
+20
+00:02:03,000 --> 00:02:08,000
+One shot after saving changes the ammo count.
+
+21
+00:02:08,000 --> 00:02:12,000
+F9 loads the saved checkpoint.
+The actual loading interval is retained.
+
+22
+00:02:12,000 --> 00:02:16,000
+Saved ammo, health and mission state return.
+
+23
+00:02:16,000 --> 00:02:21,000
+Saved enemies restore in terminal death poses.
+Death animations and sounds do not replay.
+
+24
+00:02:21,000 --> 00:02:24,000
+Separate run: defeat and restart.
+A fresh mission begins with living guards.
+
+25
+00:02:24,000 --> 00:02:32,000
+Enemy hits reduce the player's health.
+
+26
+00:02:32,000 --> 00:02:36,000
+The player is killed.
+The mission enters MISSION LOST.
+
+27
+00:02:36,000 --> 00:02:39,000
+Press F6 to restart the mission.
+
+28
+00:02:39,000 --> 00:02:43,000
+A fresh mission restores the initial roster,
+player health and starting ammo.
+
+29
+00:02:43,000 --> 00:02:47,000
+Current-build workload measurement is pending.
+This script contains no new benchmark results.
+
+30
+00:02:47,000 --> 00:02:51,000
+The initial roster has six characters.
+Higher NPC loads have not been verified here.
+
+31
+00:02:51,000 --> 00:02:55,000
+Recorded video frame rate is not game FPS.
+Measured stress evidence is still required.
+
+32
+00:02:55,000 --> 00:02:58,000
+Next: performance, broader encounters
+and second-machine verification.

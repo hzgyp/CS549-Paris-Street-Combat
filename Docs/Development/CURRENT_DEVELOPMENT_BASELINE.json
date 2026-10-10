@@ -23,17 +23,22 @@
   "save_prefix": "ParisG1PlaytestV5",
   "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1PlaytestFoleyV220261009",
   "human_manual_review": "Passed; selected by Yupu Guo",
+  "second_machine_review": {
+    "status": "pass_human_attestation",
+    "date": "2026-10-10",
+    "reported_by": "Yupu Guo",
+    "scope": "A teammate's second computer runs the shared game and is playable",
+    "limitations": "No remotely observed file-hash audit, machine specs or source/Editor rebuild supplied; reviewer download access remains separate"
+  },
   "latest_audio_review_candidate": "Docs/Development/CURRENT_AUDIO_REVIEW.json",
   "latest_local_repair": "Docs/Development/CURRENT_LOCAL_REPAIR.json",
   "remaining_gates": [
     "full motion/contact",
     "low-posture camera and sprint/jump lowering",
-    "second machine",
     "performance",
     "natural opposing combat",
-    "video",
+    "private course-platform delivery and independent reviewer download",
     "course acceptance",
-    "natural-turn recording correction",
     "exact reusable German live-fire source"
   ],
   "future_rule": "Start all future changes from this exact42 snapshot or matching authoring Project; read failures first, preserve native/model/finger/gun/ammo/HUD/save/dead-restore logic. Build selected source before Editor entry.",
@@ -77,5 +82,106 @@
       "repair_extension_rule": "Read the local child/result before new feature work; carry42-file corpse/audio repair forward, preserve this selected40 parent and previous published identities.",
       "latest_audio_human_feedback": "Recorded Foley improved; player cadence/jump and recorded M1 report revised in current local review candidate. Stable20 contacts checked,9transitions UNASSESSED; manual review/recording HOLD, parent model/HUD selection preserved."
     }
+  },
+  "approved_demo_video": {
+    "status": "pass_human_review",
+    "date": "2026-10-10",
+    "recorded_at": "2026-10-10T14:27:30.881604+00:00",
+    "authorization": "User: 视频没问题，就保留这个一个完整视频，其他录制的可以删除",
+    "sha256": "8048195262f6dd45cc583985b1297227065bb9b4b2454d16763037564d073be0",
+    "scope": "Final video04 approved; later explicit user request authorizes YouTube publication. Does not approve rejected report or course submission",
+    "path": "Assets/LocalShared/Deliverables/Assignment3/DemoDraft04_20261010/Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+    "duration_seconds": 158.23333333333332,
+    "public_url": "https://youtu.be/SktbFHNYP54",
+    "publication": {
+      "status": "user_published_link_verified_watch_page_and_studio",
+      "verified_at": "2026-10-10T15:23:40.787156+00:00",
+      "url": "https://youtu.be/SktbFHNYP54",
+      "watch_url": "https://www.youtube.com/watch?v=SktbFHNYP54",
+      "video_id": "SktbFHNYP54",
+      "title": "Paris Street Combat | CS549 Assignment 3 | MVP Demo",
+      "channel": "yupu Guo",
+      "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+      "visibility": "Public",
+      "hd": "Auto (1080p HD) on watch player; High Definition complete in Studio",
+      "watch_page_duration": "2:38",
+      "studio_duration_display": "2:39 (rounding differs from watch player)",
+      "studio_source_filename": "Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+      "ai_use_disclosed": true,
+      "description_checked": "Team names, four pillars, squad/combat, save/load, death/restart, live counters, English captions/AI narration, normal speed/input assistance/separate cuts and licensed assets recorded",
+      "visible_samples": [
+        "Opening with live performance panel/minimap",
+        "Health 0 / PLAYER LOST / F6 actual restart interval",
+        "Fresh Ready with 100 health / 2+16 ammo / 2 Allies / 3 guards"
+      ],
+      "caption_note": "YouTube English auto-generated CC duplicates embedded English subtitles when enabled; viewer can turn CC off",
+      "source_identity_scope": "Studio filename, duration and sampled frames consistent with approved video04; no remote source-file checksum obtained",
+      "review_scope": "Read-only signed-in watch/Studio check; no whole-video new acoustic review or independent anonymous session",
+      "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md"
+    },
+    "previous_publications": [
+      {
+        "status": "published_verified_watch_page",
+        "verified_at": "2026-10-10T14:43:11Z",
+        "channel": "yupu Guo",
+        "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+        "visibility": "Unlisted",
+        "hd": "1080p HD available on watch page",
+        "upload_checks": "No issues found at publication; later claims remain possible",
+        "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+        "scope": "Published exact approved video04; no new game build or reviewer package delivery"
+      }
+    ]
+  },
+  "course_delivery": {
+    "status": "local_private_report_download_bundle_verified",
+    "date": "2026-10-10",
+    "authorization": "User selects local SFTP; permits instructor/TA private compiled-game review; uses existing team account/key without new user; latest request adds the accepted two-page report to the download-script directory, ZIPs that directory and authorizes matching source/docs Git commit/push; owner uploads to private course platform",
+    "existing_team_identity_reused": true,
+    "new_user_or_key": false,
+    "server_or_permission_change": false,
+    "account_scope": "Existing team shared account retains broader resource access and CRUD; not read-only or single-package isolation",
+    "game_bytes": 8476572643,
+    "game_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+    "validation": "Earlier full-game authenticated SFTP streaming read matches SHA256; current five-file helper real small README resume/hash/Unicode-spaces transfer passes, wrong host key rejects, temporary files cleaned, original key/guards exact",
+    "network_scope": "Same-machine authenticated loopback and public-forwarded endpoint; not independent external-machine validation",
+    "pending": "Owner private course-platform delivery and independent reviewer download",
+    "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+    "video_url": "https://youtu.be/SktbFHNYP54",
+    "historical_access_zip": {
+      "role": "Retired access ZIP; historical private evidence only",
+      "path": "tmp/g1-course-links-publication-20261010/access-directory-before-slimming/CS549-G1-SFTP-Access-20261010.zip",
+      "bytes": 6964,
+      "sha256": "e8d9bafcb2f4c8054b0ad5cacc693af6b616cb393a71fb2226e149b91b3c2921",
+      "previous_delivery_path": "Assets/LocalShared/Deliverables/Assignment3/CS549-G1-SFTP-Access-20261010.zip"
+    },
+    "access_directory": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010",
+    "access_files": [
+      "CONNECTION.json",
+      "DOWNLOAD_GAME.cmd",
+      "DOWNLOAD_GAME.ps1",
+      "Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+      "README.md",
+      "cs549_sftp_ed25519"
+    ],
+    "access_total_bytes": 90694,
+    "compressed_delivery": true,
+    "delivery_zip": {
+      "path": "Assets/LocalShared/Deliverables/Assignment3/CS549-Assignment3-20261010.zip",
+      "size_bytes": 82038,
+      "sha256": "1171bcb68dc21cd4beb668e7b19ed8ba074ac69691ae77fdd6830c6e7cbc9ca9",
+      "file_count": 6,
+      "verification": "Full member size/SHA readback, CRC, embedded PDF two pages; 50 protected hashes unchanged; seven private paths ignored by Git"
+    },
+    "report": {
+      "status": "selected_previous_two_page_report_by_user",
+      "path": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+      "original_path": "output/pdf/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+      "sha256": "6379243d8e003906362972533927f9f503971513836fb0556f191d4679cd8f6f",
+      "size_bytes": 81345,
+      "pages": 2,
+      "content_changed_for_bundling": false
+    },
+    "bundle_record": "Docs/Development/ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md"
   }
 }
