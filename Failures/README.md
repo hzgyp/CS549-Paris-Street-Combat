@@ -1,5 +1,42 @@
 # 失败案例索引 / Failure case index
 
+10 October delivery-directory cleanup: old draft/support materials and rejected
+reports are moved into a verified private compressed evidence archive;118 original
+files removed only after member size/SHA readback. Current video and five-file
+SFTP access directory stay exact; accepted two-page PDF copied into delivery.
+Old path references recover through
+[cleanup result](../Docs/Development/ASSIGNMENT3_DELIVERY_CLEANUP_20261010.md) and
+[RP001 recovery notice](RP001-20261010-assignment3-report-focus/RECOVERY_20261010.md).
+Failure analyses/raw manifests unchanged. This is storage cleanup, not new tests,
+report content edits, source publication or course submission.
+
+10 October video approval/retirement: user accepts final video04 and permits other
+game recordings to be deleted.24old video files are retired; historical hashes,
+source/logs/screenshots and failure analyses remain. Raw video preservation claims
+below are superseded only for the exact inventory in tmp/g1-video-retirement-20261010.
+See [cleanup result](../Docs/Development/G1_VIDEO_RETIREMENT_RESULT_20261010_ZH.md)
+and relevant cases' VIDEO_RETIREMENT_20261010.md. Approved final MP4 remains;
+report rejection is unchanged. No remote/publication action.
+
+10 October report rejection: [RP001](RP001-20261010-assignment3-report-focus/FAILURE_ANALYSIS.md).
+AI/model-production experience was requested as a supplement to the four
+pillars, not a change of report focus. The two PDFs are failed review drafts;
+preserve them privately. First record live on-screen performance in video04,
+then discuss the combined report. Rendering/layout QA is not content approval.
+
+Live-performance recording: [MI018](MI018-20261010-native-stat-placement/FAILURE_ANALYSIS.md)
+retains the native-stat/minimap overlap probe and the bounded opt-in read-only
+UE panel. Never bake old measurements into video or label thread ms as CPU use%.
+
+10 October recording fixture: [MI017](MI017-20261010-demo-input/FAILURE_ANALYSIS.md)
+/ [中文](MI017-20261010-demo-input/FAILURE_ANALYSIS_ZH.md) retains pre-Ready
+D3D12 startup fault, missing R input in the independent victory branch and
+overnight telemetry overhead, V4 physical-route/activation failure, and V5 held-key
+ledger mismatch after the original Won key flush. V6's bounded helper-only fix
+passes explicit save/load; separate V5 defeat supplies genuine enemy fire/death/F6.
+Selected audioV2 source/game/assets stay unchanged; failed takes are excluded.
+Read the bounded recording03 correction and its dated result before use.
+
 9 October later manual review: Yupu retested Game53ab36d9…950aec and selects audio
 V2. MI015/MI016 revised listening is now accepted by that user report, without
 erasing original failures or passing9 unassessed numeric transition checks.

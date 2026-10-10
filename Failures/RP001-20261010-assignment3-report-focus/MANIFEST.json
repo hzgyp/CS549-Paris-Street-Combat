@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "size_bytes": 7524,
+      "sha256": "b63f4c9511f8f0507ab03ff9cce7c508dcbfaab9f584f89fc19a86f4ee8f58bd",
+      "archive_path": "Assets\\LocalShared\\Deliverables\\Assignment3\\FailedReports\\20261010-pillar-supplement\\Paris_Street_Combat_Assignment3_Progress_20261010_EN.pdf",
+      "old_path": "output\\pdf\\Paris_Street_Combat_Assignment3_Progress_20261010_EN.pdf"
+    },
+    {
+      "size_bytes": 289218,
+      "sha256": "d1094fbea7fe949b8d8a2e502c8d08515e359b00a9af309c9b060ae9f62d00c0",
+      "archive_path": "Assets\\LocalShared\\Deliverables\\Assignment3\\FailedReports\\20261010-pillar-supplement\\Paris_Street_Combat_Assignment3_Progress_20261010_ZH.pdf",
+      "old_path": "output\\pdf\\Paris_Street_Combat_Assignment3_Progress_20261010_ZH.pdf"
+    }
+  ],
+  "reason": "AI/modeling was a supplement; draft shifted focus away from four pillars",
+  "status": "user_rejected",
+  "date": "2026-10-10"
+}

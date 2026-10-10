@@ -1,5 +1,390 @@
 # Paris Street Combat - new-session handoff
 
+**Latest report/download bundle and Git authorization, 10 October 2026:** user
+requests the accepted two-page Assignment3 PDF inside the existing download-script
+directory, ZIP that directory, then commit/push matching source/docs. This replaces
+the earlier directory-only preference. SFTPAccess_20261010 now has six files:
+unchanged CONNECTION.json, two download scripts and existing team private key,
+updated README, plus Paris_Street_Combat_Assignment3_20261010_EN.pdf. Report SHA
+6379243d remains exact; no report content edit. New local private
+Assets/LocalShared/Deliverables/Assignment3/CS549-Assignment3-20261010.zip is
+82,038bytes/SHA1171bcb68dc21cd4beb668e7b19ed8ba074ac69691ae77fdd6830c6e7cbc9ca9,
+six members, CRC/full member hashes/two PDF pages checked;50 protected files exact.
+The original output/pdf copy and sole approved video remain. No account/key/ACL,
+game/source/asset change or repeat8GB transfer. All six files/ZIP remain Git ignored;
+only non-secret source/docs/tools publish. Course upload/independent reviewer
+download remain pending. See ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md; exact Git
+commit/remote HEAD goes in the private bundle publication receipt after push.
+
+**Latest Assignment3 delivery cleanup, 10 October 2026:** user asks to inspect and
+delete unused materials in the screenshot directory. Current delivery now has
+only DemoDraft04_20261010 (one approved MP4), SFTPAccess_20261010 (original five
+files) and Paris_Street_Combat_Assignment3_20261010_EN.pdf (identical two-page copy).
+118 production/history/evidence files removed from delivery after full verified
+compression into Assets/LocalShared/Archives/Assignment3_20261010/production-evidence.zip,
+45,020,939bytes; original125,301,308bytes retired, net about80.20MB saved including
+the new81,345-byte PDF copy. Archive/manifest/journal/results remain private.
+All50 guards (video/access/PDF/Game/42source) exact; seven delivery files and
+RP001 original PDF recovery independently checked. Old QA/subtitle/voice/failed
+report/old-draft paths are historical: use the private member mapping, not stale
+producer scripts. See ASSIGNMENT3_DELIVERY_CLEANUP_20261010 and RP001 recovery.
+No video/PDF content, game/model/action/resource/save, access credentials/server,
+Git push or course upload changed. Prior report selection remains unchanged.
+
+**Latest user report selection, 10 October 2026:** user stops the SFTP expansion
+because it creates three pages and accepts the previous two-page report. The
+prior report text is restored exactly (extracted-text equality checked); keep
+filename Paris_Street_Combat_Assignment3_20261010_EN.pdf without Final and omit
+the earlier optional closing record index. Both restored pages inspected and
+PDF checks pass. Expanded three-page draft/source are retained privately under
+tmp/pdfs/assignment3-final-20261010/sftp-expanded-rejected. No further report
+content changes requested. Private access directory/README remains unchanged;
+course submission and SFTP channel acceptance remain separate.
+
+**Latest formal report production, 10 October 2026:** user approves the revised
+combined outline and requests the final PDF. New two-page English report:
+output/pdf/Paris_Street_Combat_Assignment3_20261010_EN.pdf,81,345bytes,
+SHA6379243d8e003906362972533927f9f503971513836fb0556f191d4679cd8f6f.
+Later user edit removes Final from the filename and questions the last evidence
+index. Original Assignment 3 does not require a development milestone timeline;
+optional end-of-report record index removed, tests/evidence preserved in the
+project. Body test dates still identify the actual measurements and build scope.
+Both rendered pages inspected; text, links, measurements, font embeds and bounds
+pass. New generator Tools/Reports/Assignment3Final20261010/build_pdf.py;
+verification/evidence in tmp/pdfs/assignment3-final-20261010. Four completed MVP
+pillars lead the report; AI chronology and exact four roadmap items follow the
+approved outline. Ready offscreen rendering, separate helper measurements and
+recording overhead/loading limitations are qualified. Current video/public source
+and private-directory download instructions included without credentials.
+RP001 old PDFs remain rejected historical drafts; this is a new formal report
+from the approved outline, not new human approval of the PDF itself. No game,
+asset, video, access-account, Git push or course-platform submission. Private
+course upload/reviewer download and SFTP-versus-Drive/itch.io channel acceptance
+remain separate. See ASSIGNMENT3_REPORT_FINAL_20261010.md.
+
+**Latest report-outline correction, 10 October 2026:** user confirms all four
+pillars satisfy the current MVP and were tested with retained records; report
+must not infer missing tests from a short video or stale checklist snapshots.
+Use test records plus human review, with their actual build/scope. AI narrative:
+GPT detailed-model trial failed this project's production needs, then purchased
+assets, then time-consuming hand/weapon/action fit, missing German rifle and
+effects/audio integration; approximately10working days is a team estimate.
+Roadmap now explicitly includes reload sleeve screen occlusion, HUD polish,
+richer gameplay and future many-NPC behavior plus scaling/stress tests. Future
+large-population work is separate from current fixed-roster video; no new NPCs
+or gameplay changes run this turn. See ASSIGNMENT3_REPORT_OUTLINE_REVIEW_20261010_ZH.
+Outline only; final PDF not generated and rejected RP001 report not rehabilitated.
+
+**Latest access-directory selection, 10 October 2026:** user explicitly requests
+directory only, no compression, and only directly useful files. Current delivery:
+Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010 (5 files):
+DOWNLOAD_GAME.cmd, DOWNLOAD_GAME.ps1, CONNECTION.json, cs549_sftp_ed25519,
+README.md. Original team key exact; no new account/key or server changes. The
+client public .pub is unnecessary for download and removed from delivery;
+trusted server public key is merged into CONNECTION.json, with strict host-key
+verification still active. SSH config/known_hosts exist only in a runtime temp
+directory and are cleaned. Redundant SHA file/Chinese README merged. Actual
+small-file resume/Unicode-spaces/hash checks pass; wrong server key is rejected.
+Earlier full 8GB SFTP verification still applies to the unchanged game, not a
+new full transfer by this revised client. Old10-file snapshots/access ZIP are
+private historical evidence, not current delivery; no new archive was created.
+Video https://youtu.be/SktbFHNYP54 remains current. Private course delivery/reviewer
+download pending; report REJECTED/RP001 unchanged. See
+G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md; no Git commit/push.
+
+**Latest user video link, 10 October 2026:** current submission/demo URL is
+https://youtu.be/SktbFHNYP54 . Read-only watch/Studio check confirms yupu Guo,
+Public, title Paris Street Combat | CS549 Assignment 3 | MVP Demo, watch2:38,
+1080p HD available/HD processing complete and approved video04 source filename.
+Opening live counters/minimap, player health0/Lost/F6 waiting and Fresh Ready
+sampled on screen; English embedded subtitles remain. Automatic YouTube CC can
+duplicate those subtitles; turn CC off when viewing. This is not a new source
+checksum or whole-video acoustic audit. Previous zdnksqCxtzk is historical, not
+the current submission link, and was not deleted. Current local SFTP access ZIP
+keeps the same filename and now embeds this URL (6,964 bytes/10files);
+only its CONNECTION.json/README video link changes, all key/config/downloader and
+game bytes exact. Report remains REJECTED/RP001; no game or server changes.
+See G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md. No Git commit/push.
+
+**Later 10 October 2026 SFTP delivery:** user selects local SFTP, confirms private
+compiled-game review rights for instructor/TA and explicitly requests the existing
+team account/key with no new user. Local private access ZIP is ready at
+Assets/LocalShared/Deliverables/Assignment3/CS549-G1-SFTP-Access-20261010.zip
+(6,964 bytes/10 files). No account/key generation or server/permission change.
+It retains the team's broader resource access/CRUD; it is not read-only or
+single-package isolation. The fixed-host-key SFTP check reads the entire unchanged
+8,476,572,643-byte game and matches SHA7a8c225a; final ordinary Windows PowerShell
+5.1 client resume/Unicode/wrong-file checks and existing real ZIP hash branch pass.
+This is same-machine public-forwarded validation, not an independent external
+reviewer download. Owner uploads the small credential ZIP to private course
+attachments; that upload and reviewer download remain pending. Hosting PC must
+stay online; public IPv4 can change. Endpoint/key bytes remain ignored/private.
+YouTube https://youtu.be/zdnksqCxtzk remains published/verified. Report remains
+REJECTED/RP001. Earlier site/rights/new-reviewer-user pending snapshots are
+superseded. See G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md; no gameplay change
+or Git commit/push.
+
+**YouTube publication —10 October2026,10:43EDT:** user's explicit upload request
+completed for the sole approved video04: https://youtu.be/zdnksqCxtzk . Channel
+yupu Guo/UC5Q8fqD53TJ2WTcw4LMdR1A,Unlisted,English captions and disclosed AI voice.
+Studio reports Video published/no issues; watch page plays2:38 and offers1080p HD.
+Exact sourceMP4SHA80481952/152,158,232bytes unchanged. Chrome extension chooser
+initially lacks file permission; ordinary Windows picker succeeds without any
+permission change. Any pending extension-enable question is superseded.
+Current92-member normal executableZIPSHA7a8c225a/8,476,572,643bytes remains
+unchanged; innerGame53ab rehashed and launcher verified. itch.io official butler
+supports30GB uncompressed versus2GB web uploads; this package's uncompressed
+8,476,555,645bytes fits. User's exact intended site and external compiled-build
+rights confirmation are still pending. Existing SFTP release is teammate access,
+not a newly issued reviewer link/key. No new credentials/package upload/Git push.
+See G1_COURSE_LINKS_PUBLICATION_20261010_ZH and private evidence
+tmp/g1-course-links-publication-20261010. Report remains REJECTED/RP001; prior
+public-video-pending statements below are historical.
+
+**Final video approval/cleanup —10 October2026:** user says video04 has no issues
+and permits deletion of other recordings. Keep only final158.233s MP4SHA80481952
+in DemoDraft04_20261010. Human video/listening gate passes.24old game video files,
+including raw successful/failed takes and duplicates, deleted under frozen inventory;
+actual disk increase3,253,354,496bytes.2069nonvideo files unchanged during deletion,
+45formal-source/normal-user guards and normalGame53ab exact. Keep logs/images/
+subtitles/voice/source/failure documents; old video paths/hashes are historical and
+raw footage is no longer available for re-editing. See G1_VIDEO_RETIREMENT plan/result
+and tmp/g1-video-retirement-20261010 manifests/journal. Relevant failure/old-draft
+folders have retirement notices. No remote/Git/video-host action. Report remains
+REJECTED/RP001; discuss combined four-pillar-plus-AI report next. Earlier video
+approval-pending/raw-retained statements below are superseded within this inventory.
+
+**Recording04 complete —10 October2026,10:14EDT:** local review MP4 at
+Assets/LocalShared/Deliverables/Assignment3/DemoDraft04_20261010/Paris_G1_MVP_Draft_04_Live_Performance.mp4
+is158.233333s/1080p30,English captions/A-Michael voice/actual game sound. Live
+FPS/frame/CPU-GPU/RAM/VRAM counters are drawn in UE before OBS capture, beside
+the intact minimap; no historical numbers added in editing. Existing population,
+all1x,ordinary input disclosed. Save/F9/terminal corpses and genuine enemy damage/
+Lost/F6/newReady included; actual load blocking,timing spikes and brief post-load
+streaming warning retained. Three fresh takes admitted; final strict decode and
+all14critical frames reviewed. Human video/listening approval remains pending.
+See paired G1_DEMO_RECORDING_04_RESULT_20261010 and local RECEIPT/TIMELINE/QA.
+DiagnosticGameaa11d14d/exact46source/V6input byte-exact,Game-only build; no Editor,
+asset save,recook or normal gameplay change.178source/cooked and45formal/user
+guards exact. NormalaudioV2Game53ab unchanged. Stable03recording_v4/Archive path
+restored toV6a601; runtime_remap records the temporary aa11 recording mapping.
+All owned games exit0; OBS42432idle/originalUntitledprofile/scenes/Scene2 restored.
+No Git push/SFTP sync/public video upload. Report remains REJECTED/RP001; next
+discuss four pillars plus AI/modeling experience together before rewriting.
+
+**Latest user direction —10 October2026:** the day's Assignment3 report is
+REJECTED. AI/modeling experience was meant to supplement the four-pillar account,
+not replace its emphasis. See Failures/RP001-20261010-assignment3-report-focus.
+Preserve the failed PDFs in the private archive recorded by its MANIFEST.json.
+Do not rerun the rejected report generator. Recording04 now completes locally with
+live native UE FPS/frame/thread/GPU/memory statistics, English subtitles and
+A/Michael narration, including genuine death/Lost/F6 restart. No old measured
+numbers in video captions, no added NPCs. Then discuss the integrated report.
+Plan: Docs/Development/G1_DEMO_RECORDING_04_20261010_ZH.md.
+Earlier report/layout status below is historical; teammate play remains passed.
+
+**Assignment3 report/status update —10 October2026:** user confirms the teammate's
+second computer runs the shared game and is playable: packaged second-machine
+launch/play passes by human attestation. Do not request that validation again or
+invent a remote hash audit/source-Editor rebuild. Current selector metadata and
+paired goal/acceptance documents record it. Earlier second-machine-pending text,
+including the dated Chinese translation appendix and video ending, is historical.
+
+Latest two-page English course review and two-page Chinese review:
+output/pdf/Paris_Street_Combat_Assignment3_Progress_20261010_EN.pdf and its _ZH.pdf.
+All four final150dpi pages inspected; black headings/readable tables/no overlap.
+AI Utility records team lack of modeling expertise, valuable Codex/ImageGen
+assistance, purchased detailed assets, nearly10working days total adaptation
+(user estimate), hand/weapon fit, German firearm gap/new-model difficulties and
+the stopped38-iteration character route. No procurement channel is named.
+Original Assignment2 submission and Assignment3 requirements remain unchanged.
+
+User retires NPC expansion for this MVP test: keep1player/2Allies/3Germans.
+Exact normal audioV2 Game53ab36d9 and42-source guards pass three initial Ready
+render baselines:101.04/101.16/102.14FPS after declared30s warmup,91.13–92.95s
+each. Ready gates brains OFF, so these are not active gameplay stress runs.
+One separate admitted V6 input-helper Gamea6015c94 workload passes original
+physical bridge/combat/E-save/changed-ammo/F9/terminal restore with no added NPC.
+Approximate native-log-aligned Crossing→Won60.26s:94.08FPS,p95 12.20ms,max16.94ms;
+whole warmed139.81s:88.04FPS,max8467.14ms retains actual F9 blocking.
+Input/20Hz telemetry overhead and approximate timing are disclosed; not three
+normalGame active runs or sustained six-live capacity. Old MI00751.21–52.00FPS
+remains dated evidence. Hardware causality was not isolated.
+
+Protocol/tools: Tools/Integration/Assignment3Review20261010/PLAN.json and
+DYNAMIC_PROTOCOL.json; evidence tmp/assignment3-review-20261010, full native CSVs/
+logs/SUMMARY.json/REPORT_RECEIPT.json. Initial6000-frame run1 is a retained short
+probe,32.73s after warmup,excluded; predeclared amendment uses fresh12000-frame
+baseline1–3 and one15000-frame dynamic entry. All five owned entries exit0.
+Final45 source/user-file guards and normal Game exact in
+tmp/g1-demo-draft03-20261009/protection_assignment3_review_20261010.json.
+No engine remains; OBS42432 left open/idle. Source models/hands/guns/HUD/save logic
+unchanged; no new Game build, recook, asset publication, commit/push or upload.
+Remote main remains656db9b14b20df026fdc56092dc30c2ed44b854b,checked10October.
+Human final video approval, current metrics in the video, public video and
+reviewer download access remain open; this is a report review, not submission.
+
+**Chinese assignment review —10 October2026:** requested full Chinese translations
+are in `Docs/Review/Assignment2_3_Chinese_20261010`: Assignment3_Requirements_ZH.docx
+(2pages) and Assignment2_Submitted_Proposal_ZH_and_Progress.docx (5pages; original
+proposal translation/Chinese flowchart on1–3, dated progress appendix on4–5).
+Source is actual local Assignment3 course DOCX and matching Assignment2 DOCX/MD/
+two-page PDF, not the superseded combined Chinese proposal. Original files exact.
+Word read-only PDF export substitutes for unavailable bundled LibreOffice, then
+canonical renderer/managed Poppler; all7 final pages visually inspected. Preserve
+`tmp/assignment-cn-review-20261010` provenance/layout QA. This is a review translation,
+not the required final1–2page progress report or course submission. Current core
+G1 implementation/video evidence and remaining current-build performance/stress,
+second-machine/reviewer links/final report are distinguished in the appendix.
+No gameplay/source selection/commit/push/upload action in this translation task.
+
+**Recording03 complete —10 October2026,08:51EDT:** the local review MP4 is
+`Assets/LocalShared/Deliverables/Assignment3/DemoDraft03_20261009/Paris_G1_MVP_Draft_03.mp4`:
+161.433s,1920x1080/30,H264/AAC,159,488,458bytes,SHA256
+`c0044c69776d153f4db34535fdc0942207ef9b5153d2d418e6aca029b1a122ca`.
+English burned captions/editable SRT,A/Michael AI voice and actual process sound
+are mixed. Actual1x actions, bridge/squad,3guards,explicit E save,changed ammo/F9
+and genuine enemy damage/Lost/F6/new Ready are included. First damage through
+fresh Ready is continuous; real F9/F6 blocking intervals remain visible. Raw
+early/+3s restore frames show terminal corpses; transient environment streaming
+is retained. Full AV decode exits0,14 final caption frames reviewed,peak0.7191;
+human listening/video approval remains pending. Read paired
+`G1_DEMO_RECORDING_03_RESULT_20261010` and MI017 before further work.
+
+Admitted source takes: actions_probe_v3/PID54708,defeat_v5/PID35876 and
+victory_v6/PID25812, all normal exit0. V6 changes only helper held-key release
+after original Won flush. Its exact44 source is frozen; old-named
+recording_v2/Project is still V6 authoring, stable recording_v4/Archive is current
+Gamea6015c94…799472 per runtime_remap_v6. Earlier source/binaries/failed takes
+remain retained and excluded. No engine remains; OBS42432 idle and restored to
+Untitled profile/Untitled scenes. Selected normal42/source/Game53ab/user3 exact
+in protection_final_20261010; user3 are config/log files, not save journals.
+Private victory journal exists; fresh defeat did not retest preservation of an
+existing journal across F6. Normal assets/fingers/weapons/save logic unchanged.
+Current-build stress/performance/second-machine,video-host upload and course
+acceptance remain open. No commit,push,SFTP or public-video upload this turn.
+This complete MP4 supersedes the partial41.83s actions preview for user delivery.
+
+**Recording03 latest —10 October2026,08:37EDT:** defeat_v5/PID35876 exits0.
+Raw08:33:02 MKV07aa8ce…a3740 is admitted for actual damage/Lost/F6/new Ready
+frames, numeric audio and native checks (German shots2/1, player0,100->65->30->0,
+Lost4.003s). Actual blocking reload retains the old rendered Lost frame; keep
+the whole8.336s interval, no fabricated loading card. V5 victory stops at Won
+feet6745.826/-20278.959 outside180cm circle, because original GateBrains(false)
+flushes PlayerInput while helper Held still marks W. Preserve failed raw08:29:55
+and exact44 compiled_source_snapshot. Independent V6 changes only that key ledger
+release at actual Won; same route/combat. Gamea6015c94fd91fb73732d4ea18316ba80754d6de0e5d369a16e7e5725c9799472
+compiled exit0; runtime_remap_v6.json retains V5 bytes before stable recording_v4
+execution-path remap. Current authoring recording_v2/Project is V6. New owned
+PID25812/victory_v6, launch session23012, starts08:37:27; GO initially absent,
+OBS idle. Confirm Ready/full correct WGC game, start OBS then activate/review
+actual game before GO. Stop on failed consent/restore or another stall; no
+range/navigation/AI/game-state tweaks. protection_before_v6 exact45+normalGame.
+Full2–3min English/A final remains pending; the41.83s actions MP4 is partial.
+
+**Recording03 latest entry —10 October2026,08:30EDT:** independent V5 Game
+7393f87567a05d029c94c5911ca5c17082db26abe2b33be88dbdfd7ef9751e29 is built;
+runtime_remap_v5.json records reuse of recording_v4/Archive after retaining
+old b125 Game and exact44 source. Current authoring recording_v2/Project is V5.
+Owned PID52336, case victory_v5, reaches Ready; actual game/OBS full client was
+reviewed with no security dialog. OBS42432 records; GO issued08:30:02 after
+successful game activation. RecordAudio enables genuine process audio while
+monitoring; normal playable53ab and selected42 remain protected. V4 actual
+reload passed but physical movement stalled4039/-20767; its long-range kill,
+failed raw/result and activation error are rejected evidence, not mission proof.
+Read paired implementation and MI017. V5 limits engagement to1800cm, continuous
+aim before muzzle checks,15cm corners and actual route telemetry. Another stall
+stops this route; no automatic jump/tolerance sweep or formal gameplay change.
+Mandatory victory/save/restore and genuine defeat/F6 footage remain pending.
+actions_preview_v1/Paris_G1_Actions_Preview.mp4 is a41.83s partial actual action
+excerpt with English/A voice, not the requested complete2–3min demo. At closeout
+stop OBS and restore Untitled/Untitled; close only the owned game normally.
+No commit, SFTP or video-host upload requested this turn.
+
+**Recording03 actual progress —10 October2026:** user manually cancelled the
+security dialog. actions_probe_v3/PID54708 exits0; actual08:08:54 MKV is admitted
+for scoped frames/audio/native input (maximum sampled turn30.763deg/s, jump/land,
+crouch/stand,2/16->8/10->7/10). Raw749MB result includes overnight Ready telemetry;
+keep it, use derived input_window. Normal selected Game53ab/current42/assets/saves
+remain protected.8Michael stems are generated and normalized separately, not
+aligned/mixed into a final demo yet.
+
+victory_v3/PID25868 exits3 before Ready/GO/OBS with unresolved D3D12 page fault.
+One documented separate fresh entry victory_fresh_v3/PID24928 reaches Ready,
+then strict reload gate fails because the recording victory branch omitted R.
+Raw08:12:59 and failed result/log are retained, not final footage. This game exits0.
+Read paired G1_DEMO_RECORDING_03 and Failures/MI017 before further recording.
+v3 exact44 compiled source is frozen under recording_v3/compiled_source_snapshot.
+Recording_v4 corrects only victory reload_start/R. Authoring still uses old-named
+recording_v2/Project; v4 prepare freezes current44. Game compile succeeds;
+build91795 is completing exact normal closure hashes/hardlinks before launch.
+No engine remains open, OBS42432 idle in Paris profile/scenes. Restore original
+Untitled/Untitled at closeout. Full mission/save/load/genuine defeat/F6/2–3min
+English/A-voice video are still pending. No commit/upload/SFTP request this turn.
+
+Historical pending-security snapshot below is superseded by actual status above.
+
+**Recording03 prepared; waiting on Windows Security —9 October2026,23:53EDT:**
+User selects A/Michael English AI narration and authorizes actual script03 capture
+including mandatory genuine enemy damage/player death/MISSION LOST/F6/fresh Ready.
+User explicitly approves a separate normal native input assistant because sky
+cannot hold keys. Paired G1_DEMO_RECORDING_03 documents scope/gates.8short Michael
+stems are in tmp/g1-demo-draft03-20261009/narration_v1; not mixed or aligned yet.
+Corrected recording_v3 Gamefb93cda3b8d8dc54cd9f405de894577e74736341af986d0b409643db69e1921e
+is compiled from selected audioV2 plus opt-in helper/module wiring only. Current
+authoring is recording_v2/Project but it now contains v3; exact44 rows in
+recording_v3_prepare.json. Prior v1/v2 binaries/sources/compile logs retained;
+v1 owned pre-input PID55960 stopped exit−1 for preflight correction, not a crash.
+v2 compiled source snapshot retained before jump-hold correction. Prepare namespace
+shadowing failure repaired by verified metadata only, failed script preserved.
+
+Current owned Game PID54708/window2755316, case actions_probe_v3, launch shell
+session73741, has actual Ready/native/audio initialized; GO absent. A Windows
+Security network-permission dialog blocks it. Existing async question asks the
+user to Cancel manually. Computer-use guidance prohibits acting on security or
+privacy requests. Do not issue GO/record/input while blocked, or claim footage.
+OBS PID42432 remains idle with project profile/scene ParisG1Demo20261009; raw path
+tmp/g1-demo-draft03-20261009/raw. Original Untitled/Untitled must be restored after
+capture. No new raw MKV/MP4 exists yet. Normal selected Game53ab36d9/current42/assets/
+user saves unchanged. Tools/Integration/G1DemoInputV1 launch defaults recording_v3.
+After user clears dialog: refresh app state/foreground game, verify WGC full-client
+framing (fit source if necessary), start OBS via sky, foreground game, create case
+GO file only then. Admit real continuous-turn/actions/audio probe before victory
+and separate defeat capture. Full helper states/actions/reload/route/combat/save/
+load/death/restart have NOT been run or accepted. Preserve death chain from first
+damage through F6/Ready, actual≥3s restored corpses, English captions/A stems/
+captured game audio; stress stays explicitly pending. No Git/SFTP/video-host push.
+
+
+**AI voice auditions ready —9 October2026:** user requests voice choices and adds
+AI narration alongside English captions. Four same-text local Kokoro stock-voice
+MP3s in Assets/LocalShared/Deliverables/Assignment3/VoiceAudition20261009/selected_v3:
+A Michael US male18.496s/B George UK male17.578667s/C Emma UK female15.061333s/
+D Heart US female16.704s. Final measured−20.99to−21.00LUFS/full decode0/peaks below0dB;
+human choice pending. Paired G1_DEMO_VOICE_AUDITION records model/license/runtime,
+first JSON-trailing-summary failure and measured loudness correction; prior PCM,
+logs/source and selected_v2 retained. Script03/SRT now disclose a separate AI
+narration track, preserving original game-audio demonstration windows. Game
+53ab36d9…950aec exact; no game/OBS/video recording/upload/publication. Do not call
+these auditions gameplay audio or a passed acoustic/course gate. Next: user
+selects A/B/C/D, then concise narration against actual recorded shot boundaries.
+
+**Recording script03 revised after user review —9 October2026:** the user accepts
+the other arrangements and requires genuine player death/mission failure/F6
+restart footage. Paired G1_DEMO_SCRIPT_03_20261009 and its English SRT now plan2:58
+of accepted audioV2/manual mouse-keyboard gameplay, continuous final kill/consent/
+save/load and at least3s restored-corpse observation, plus a mandatory separate
+fresh-run enemy damage/death/MISSION LOST/F6/fresh Ready chain. Won guards are
+dead/brains gated, so do not try to stage defeat in the restored Won world.
+Only pre-hit travel may be explicitly cut; defeat through restart stays continuous.
+No ParisUXTest
+director; MI015's old SetControlRotation observer is unchanged, and natural turn
+video acceptance is still unperformed. Current-build FPS/incremental NPC stress
+remains a labelled pending segment, not historical V13 numbers reused as V2.
+No game/OBS/source change, recording, export, upload or commit/push in this task.
+Review the script, then rehearse/admit a real AV/continuous-turn probe before
+full capture. Existing user saves/raws/current42 source and selected Game retained.
+
 **Private publication/cleanup COMPLETE —9 October2026,22:13 EDT:** reviewed audio
 V2 release `paris-g1-playtest-20261009-audio-v2` is verified/selected. Named SFTP ZIP
 `/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip`,

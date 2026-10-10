@@ -1,0 +1,16 @@
+{
+  "declared_before_entry": "2026-10-10 America/New_York",
+  "scope": "One bounded fixed-initial-population bridge/combat/save/load workload using the already accepted V6 ordinary-input recording helper. No new source build, NPC addition, teleport or gameplay-state writes.",
+  "cases_read": ["MI007 old route performance miss", "MI017 failed input routes/ledger and pre-Ready GPU startup", "Existing recording03 V6 victory result"],
+  "changed_mechanism": "Ready gates NPC brains off, so the three exact normal-Game stationary captures are render baselines only. Add an explicitly separate current-gameplay helper workload; never present helper measurements as exact normal executable measurements.",
+  "game_sha256": "a6015c94fd91fb73732d4ea18316ba80754d6de0e5d369a16e7e5725c9799472",
+  "selected_normal_game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+  "helper_identity": "recording_v6 build at stable recording_v4/Archive; same88 cooked closure and accepted gameplay, plus ordinary input and20Hz telemetry overhead",
+  "early_acceptance": "No user engine, both Game identities exact, fresh isolated UserDir and initially absent GO. Ready required before GO. No OBS recording. Keep selected42 source and normal user files protected.",
+  "population": "1 player, 2 original Allied NPCs, 3 original German guards; genuine original deaths reduce live count",
+  "settings": "1080p High/100%/RT-off/VSync-off/uncapped/pool1536MiB; normal audio; RenderOffscreen Windows Development",
+  "capture": "15000 native frames, or retained failure if insufficient/incomplete. Predeclared warmup30seconds; report entire subsequent capture including terminal/restore periods. Report active mission phase separately where native event timing can be aligned, with alignment limitations disclosed.",
+  "GO": "After actual Ready plus30seconds. Existing helper presses original Enter, physically travels/shoots/reloads and saves/loads through normal input.",
+  "stopping_condition": "One entry only. Stop on source/Game drift, active user engine, security prompt, pre-Ready crash, helper fail/Error/unplanned Lost or incomplete CSV. Preserve raw outcomes. No automatic route/weapon/health/model fitting retries. Startup/route failure is not blamed on hardware without evidence.",
+  "acceptance_limit": "A single helper workload is not three matched normal-Game active runs, all-six-live capacity or a full stress/video/course acceptance. The selected normal Game and assets are unchanged."
+}

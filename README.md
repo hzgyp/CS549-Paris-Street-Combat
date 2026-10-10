@@ -1,5 +1,18 @@
 # Paris Street Combat
 
+**Assignment 3 delivery, 10 October 2026:** the user confirms the current MVP's
+four pillars and teammate playable test. The accepted two-page report combines
+the G1 gameplay/test results, AI utility and asset-adaptation experience, and the
+agreed remaining work. [Approved demo](https://youtu.be/SktbFHNYP54) includes
+English captions/AI narration, actual death/restart and live UE performance.
+Follow the [current-build guide](Docs/Development/TEAM_CURRENT_BUILD_20261009.md)
+for the selected42-file source/private playable release. The private course
+attachment contains the report plus existing SFTP download scripts/configuration
+and team key; [bundle record](Docs/Development/ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md)
+documents verification. Report/credentials/game/media bytes are outside public
+Git. Course upload, independent reviewer download and instructor acceptance
+remain pending. Earlier status entries below are dated historical snapshots.
+
 **Current development basis — manually reviewed audio V2,9 October2026:** Yupu
 passes manual retest and selects Game53ab36d9…950aec. Start source work from exact42
 `Unreal/Variants/G1FootContactAudio20261009/Project` and the current selectors:
