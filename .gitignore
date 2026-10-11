@@ -34,6 +34,8 @@
 /Reference/Gunplay/SourceAssets/**/*.obj
 /Reference/Gunplay/BrowserPrototype/public/og.png
 *.pdf
+# Reviewed course report only; exact bytes in GIT_COURSE_DOCUMENT_ALLOWLIST.json.
+!/Docs/Assignments/Assignment3/Paris_Street_Combat_Assignment3_20261010_EN.pdf
 *.docx
 *.pptx
 *.png

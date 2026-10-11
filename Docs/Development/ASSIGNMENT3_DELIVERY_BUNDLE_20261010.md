@@ -1,5 +1,11 @@
 # Assignment 3 报告与下载目录打包
 
+2026-10-11 存储修正：用户要求最终报告随 Git 分享给组员。
+[同一份两页 PDF](../Assignments/Assignment3/Paris_Street_Combat_Assignment3_20261010_EN.pdf)
+原样纳入公开文档目录；下文的「PDF 仅私有」为历史记录，已被本次要求取代。
+含连接配置和密钥的 ZIP/下载目录仍仅私有；内容和字节不变。见
+[本次发布说明](ASSIGNMENT3_PDF_GIT_PUBLICATION_20261011.md)。
+
 2026-10-10。用户明确要求把当前 Paris Street Combat Assignment3 报告放入之前的
 下载脚本目录，然后打包，最后 Git commit/push。本条取代此前“仅目录、不压缩”
 的交付偏好；仍使用现有组员账号/密钥，课程平台私密附件由用户上传。

@@ -1,5 +1,12 @@
 # Assignment 3 final report production
 
+Latest storage correction, 11 October: user requests the accepted final report
+in Git for team viewing. The unchanged [two-page final PDF](../Assignments/Assignment3/Paris_Street_Combat_Assignment3_20261010_EN.pdf)
+is now at `Docs/Assignments/Assignment3/`; see
+[publication plan](ASSIGNMENT3_PDF_GIT_PUBLICATION_20261011.md).
+This supersedes earlier private-only PDF routing, not report content, private
+access-package rules, old performance scope or course-submission status.
+
 Later delivery request,10October: user requests the selected two-page PDF inside
 the existing download directory, ZIP, then matching Git commit/push. Report bytes
 stay exact; see ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md. This replaces only earlier

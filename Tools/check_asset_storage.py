@@ -15,6 +15,8 @@ RAW_PREFIX = "HistoricalReference/NormandyContext/archive/"
 DOCUMENT_IMAGE_LIST = "Assets/Sync/GIT_DOCUMENT_IMAGE_ALLOWLIST.json"
 DOCUMENT_IMAGE_LIMIT = 5 * 1024 * 1024
 DOCUMENT_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
+COURSE_DOCUMENT_LIST = "Assets/Sync/GIT_COURSE_DOCUMENT_ALLOWLIST.json"
+COURSE_DOCUMENT_LIMIT = 5 * 1024 * 1024
 
 
 def git(*args: str) -> bytes:
@@ -101,34 +103,48 @@ def code_allowlist() -> set[str]:
 
 
 def document_image_allowlist(staged: bool = False) -> dict[str, dict]:
+    return reviewed_document_allowlist(
+        staged, DOCUMENT_IMAGE_LIST, "Docs/Images/", DOCUMENT_IMAGE_SUFFIXES,
+        "project_document_illustration", DOCUMENT_IMAGE_LIMIT, "document image")
+
+
+def course_document_allowlist(staged: bool = False) -> dict[str, dict]:
+    return reviewed_document_allowlist(
+        staged, COURSE_DOCUMENT_LIST, "Docs/Assignments/", {".pdf"},
+        "project_course_report", COURSE_DOCUMENT_LIMIT, "course document")
+
+
+def reviewed_document_allowlist(staged: bool, list_path: str, prefix: str,
+                               suffixes: set[str], kind: str, limit: int,
+                               label: str) -> dict[str, dict]:
     # Use the staged policy at commit time, never an unstaged approval.
     if staged:
-        if not git("ls-files", "--", DOCUMENT_IMAGE_LIST).strip():
+        if not git("ls-files", "--", list_path).strip():
             return {}
-        data = json.loads(git("show", ":" + DOCUMENT_IMAGE_LIST))
+        data = json.loads(git("show", ":" + list_path))
     else:
-        path = ROOT / DOCUMENT_IMAGE_LIST
+        path = ROOT / list_path
         if not path.exists():
             return {}
         data = json.loads(path.read_text(encoding="utf-8-sig"))
     if data.get("schema_version") != 1:
-        raise ValueError("Invalid document image allowlist schema")
+        raise ValueError(f"Invalid {label} allowlist schema")
     result = {}
     for entry in data["files"]:
         path = entry["path"]
         safe_path(ROOT, path)
-        if (not path.startswith("Docs/Images/")
-                or PurePosixPath(path).suffix.lower() not in DOCUMENT_IMAGE_SUFFIXES
-                or path in result or entry.get("kind") != "project_document_illustration"
+        if (not path.startswith(prefix)
+                or PurePosixPath(path).suffix.lower() not in suffixes
+                or path in result or entry.get("kind") != kind
                 or entry.get("public_review") != "approved"
                 or not entry.get("provenance") or not entry.get("reviewed_by")
                 or not entry.get("documents") or not entry.get("approved_versions")):
-            raise ValueError(f"Invalid document image exception: {path}")
+            raise ValueError(f"Invalid {label} exception: {path}")
         for version in entry["approved_versions"]:
             if (not isinstance(version["size_bytes"], int)
-                    or not 0 < version["size_bytes"] <= DOCUMENT_IMAGE_LIMIT
+                    or not 0 < version["size_bytes"] <= limit
                     or not re.fullmatch(r"[0-9a-f]{64}", version["sha256"])):
-                raise ValueError(f"Invalid document image byte approval: {path}")
+                raise ValueError(f"Invalid {label} byte approval: {path}")
         for doc in entry["documents"]:
             target = safe_path(ROOT, doc)
             if not doc.startswith("Docs/") or not doc.endswith(".md"):
@@ -137,7 +153,7 @@ def document_image_allowlist(staged: bool = False) -> dict[str, dict]:
                        else target.read_text(encoding="utf-8-sig"))
             relative = posixpath.relpath(path, posixpath.dirname(doc))
             if "](" + relative + ")" not in content:
-                raise ValueError(f"Document does not link approved image: {doc}: {path}")
+                raise ValueError(f"Document does not link approved {label}: {doc}: {path}")
         result[path] = entry
     return result
 
@@ -159,9 +175,28 @@ def verify_document_image(path: str, blob: bytes, entry: dict) -> None:
         raise ValueError(f"Unapproved document image bytes: {path}")
 
 
+def verify_course_document(path: str, blob: bytes, entry: dict) -> None:
+    # Full content/privacy review precedes registering these exact bytes.
+    if (PurePosixPath(path).suffix.lower() != ".pdf"
+            or not blob.startswith(b"%PDF-") or not blob.rstrip().endswith(b"%%EOF")
+            or not 0 < len(blob) <= COURSE_DOCUMENT_LIMIT):
+        raise ValueError(f"Invalid or oversized course PDF: {path}")
+    digest = hashlib.sha256(blob).hexdigest()
+    if not any(v["size_bytes"] == len(blob) and v["sha256"] == digest
+               for v in entry["approved_versions"]):
+        raise ValueError(f"Unapproved course PDF bytes: {path}")
+
+
 def check_git(history: bool, staged: bool, publish_refs: list[str] | None = None) -> None:
     allowed = code_allowlist()
     images = document_image_allowlist(staged)
+    course_documents = course_document_allowlist(staged)
+    documents = images | course_documents
+
+    def verify_document(path: str, blob: bytes) -> None:
+        verifier = verify_course_document if path in course_documents else verify_document_image
+        verifier(path, blob, documents[path])
+
     current = [p.decode("utf-8") for p in git("ls-files", "-z").split(b"\0") if p]
     paths = set(current)
     historical_images = set()
@@ -170,7 +205,7 @@ def check_git(history: bool, staged: bool, publish_refs: list[str] | None = None
             if " " in line:
                 oid, path = line.split(" ", 1)
                 paths.add(path)
-                if path in images:
+                if path in documents:
                     historical_images.add((oid, path))
     for revision in publish_refs or []:
         if not re.fullmatch(r"[0-9a-f]{40,64}", revision):
@@ -181,15 +216,15 @@ def check_git(history: bool, staged: bool, publish_refs: list[str] | None = None
             if " " in line:
                 oid, path = line.split(" ", 1)
                 paths.add(path)
-                if path in images:
+                if path in documents:
                     historical_images.add((oid, path))
-    rejected = sorted(p for p in paths if (ASSET_SUFFIX.search(p) and p not in allowed and p not in images) or p.startswith(RAW_PREFIX))
+    rejected = sorted(p for p in paths if (ASSET_SUFFIX.search(p) and p not in allowed and p not in documents) or p.startswith(RAW_PREFIX))
     if rejected:
         raise ValueError("Asset bytes/raw archives must stay outside Git:\n" + "\n".join(rejected))
-    for path in set(current) & images.keys():
-        verify_document_image(path, git("show", ":" + path), images[path])
+    for path in set(current) & documents.keys():
+        verify_document(path, git("show", ":" + path))
     for oid, path in historical_images:
-        verify_document_image(path, git("cat-file", "blob", oid), images[path])
+        verify_document(path, git("cat-file", "blob", oid))
     if staged:
         catalog = json.loads(git("show", ":Assets/Sync/CATALOG.json"))
         for release in catalog["active_manifests"]:
@@ -199,8 +234,8 @@ def check_git(history: bool, staged: bool, publish_refs: list[str] | None = None
         changed = [p.decode("utf-8") for p in git("diff", "--cached", "--name-only", "--diff-filter=ACMR", "-z").split(b"\0") if p]
         for p in changed:
             blob = git("show", ":" + p)
-            if p in images:
-                verify_document_image(p, blob, images[p])
+            if p in documents:
+                verify_document(p, blob)
             elif p in allowed:
                 if len(blob) > 10 * 1024 * 1024:
                     raise ValueError(f"Approved Blueprint code exceeds 10 MiB: {p}")

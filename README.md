@@ -119,6 +119,7 @@ Continuing in a new chat/window? Read [HANDOFF.md](HANDOFF.md) first for the com
 | [Technical design](Docs/Design/TECHNICAL_DESIGN.md) | System boundaries, shot/action contracts, evidence plan |
 | [Assignment 3 goal version 1](Docs/Development/ASSIGNMENT3_GOAL_V1.md) | Current running-MVP scope, work order, course deliverables and open prerequisites |
 | [Assignment 3 acceptance](Docs/Development/ASSIGNMENT3_ACCEPTANCE.md) | Repeatable gameplay, performance, stress and delivery checks with evidence status |
+| [Assignment 3 final report (PDF)](Docs/Assignments/Assignment3/Paris_Street_Combat_Assignment3_20261010_EN.pdf) | User-approved two-page course report, included in Git for team viewing; [source and delivery notes](Docs/Assignments/Assignment3/README.md) |
 | [Asset inventory and restoration](Assets/README.md) | Existing city, reuse candidates, and missing dependencies |
 | [GitHub + SFTP team workflow](Assets/TEAM_SYNC_WORKFLOW.md) | Mandatory start/end synchronization, large-asset versions, ownership and recovery |
 | [Paris history](HistoricalReference/Paris1944/CONTEXT.md) | Timeline, unit constraints, and source links |
@@ -126,6 +127,14 @@ Continuing in a new chat/window? Read [HANDOFF.md](HANDOFF.md) first for the com
 | [Full index](INDEX.md) | Directory and file navigation |
 
 ## Environment and source repository
+
+**11 October course-document correction:** the final Assignment 3 PDF is a
+team-authored course document, not a production asset. Its reviewed copy now
+belongs in Git under `Docs/Assignments/Assignment3/`, with
+[exact approved bytes](Assets/Sync/GIT_COURSE_DOCUMENT_ALLOWLIST.json). This
+supersedes blanket PDF/SFTP statements below for individually reviewed course
+reports only. Private access packages/keys, vendor documents and game assets
+remain external. See [storage rules](Assets/TEAM_SYNC_WORKFLOW.md#1-storage-rules).
 
 Local workspace: `D:\0.Rutgers\CS549\Project-New`.
 

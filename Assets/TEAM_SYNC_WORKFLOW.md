@@ -29,13 +29,28 @@ Decision date: 27 September 2026; explicit existing Git/LFS asset migration auth
 
 | Material | Authoritative storage | Rule |
 |---|---|---|
-| Code, scripts, configuration, Markdown/document sources, SVG/Mermaid diagrams and reviewed document illustrations | GitHub | Commit related text and figures together. Raster figures require the exact-path document-image allowlist and byte/public review below. PDF/DOCX/PPTX remain SFTP bytes. |
-| Models, textures, animations, audio, archives, environment packages, research source bytes, document binaries and other asset/evidence images | Private SFTP after their acceptance/sharing gate | New original deliveries and pending adaptations physically start in ignored LocalWorking, not SFTP. Store accepted, permitted original/changed bytes outside Git regardless of size; Git records paths/hashes/versions/rights. Unresolved-rights material stays local-only with source links. |
+| Code, scripts, configuration, Markdown/document sources, SVG/Mermaid diagrams, reviewed document illustrations and reviewed team-authored course PDFs | GitHub | Commit related documents and figures together. Raster figures and course PDFs require their respective exact-path allowlist and byte/public review below. Other PDF/DOCX/PPTX remain external. |
+| Models, textures, animations, audio, archives, environment packages, research source bytes, unreviewed/vendor/private document binaries and other asset/evidence images | Private SFTP after their acceptance/sharing gate | New original deliveries and pending adaptations physically start in ignored LocalWorking, not SFTP. Store accepted, permitted original/changed bytes outside Git regardless of size; Git records paths/hashes/versions/rights. Unresolved-rights material stays local-only with source links. |
 | Asset version catalog, SHA-256, sizes, restore paths, dependencies and ownership | GitHub: `Assets/Sync/manifests/<asset-id>.json` | One manifest per logical asset/dependency group; the selected Git commit determines exact versions. |
 | Existing Git/LFS assets | Private SFTP after verified migration | The 30 September request authorizes removing their tracked bytes and rewriting asset history in this repository. Preserve private backups and local originals. No new asset bytes or LFS pointers enter public source. |
 | Caches, editor autosaves, credentials, private keys, temporary transfers | Local, ignored | Not part of a shared source release. Back up valuable unfinished work separately. |
 
 Routing convention: model/source-asset bundles, PDF/DOCX/PPTX and non-document asset images use SFTP even when small. Markdown, code, diagrams, reviewed document illustrations, configuration, catalogs, sources and hashes remain in Git. Small team-authored Unreal Blueprint logic is code, not a blanket model exception: register its exact path/owner/kind in `Sync/GIT_CODE_ALLOWLIST.json` before staging, with a 10 MiB source-code cap. Do not whitelist purchased assets, meshes, animations or archives. Existing retained gunplay binaries are migrated together as a reference dependency group. Binary code still needs one named editor.
+
+**11 October 2026 course-document correction:** the final Assignment 3 report is
+a small team-authored course document, not a model asset; it now accompanies the
+source in Git at `Docs/Assignments/Assignment3/`. This overrides the blanket PDF
+routing above for individually reviewed, public-safe team course reports only.
+Register the exact path, linked Markdown, provenance/public review and approved
+size/SHA-256 versions in `Sync/GIT_COURSE_DOCUMENT_ALLOWLIST.json`; each PDF is at
+most 5 MiB. Add an exact negative ignore rule and byte-preserving attributes.
+Review complete text, metadata, links and embedded attachments before approving
+bytes. Preserve earlier approved versions and commit related sources/docs and
+approval together when publication is authorized. The guard reads staged
+approval, checks PDF signatures/size/hash and rejects unchecked replacements.
+Never add private course access ZIPs, SFTP keys/configuration, emails, vendor
+manuals, model bundles or arbitrary PDF/DOCX/PPTX files. Existing private
+deliverables remain intact; Git publication does not establish course submission.
 
 **10 October 2026 document-image clarification:** figures needed to understand a
 project document belong with that document in Git, including raster diagrams and
@@ -57,8 +72,9 @@ and ignore update together, subject to the user's commit/push authorization.
 The storage guard checks actual raster signatures, approved hashes/size and
 document links, using staged approval at commit time. Raw evidence originals
 and SFTP receipts stay preserved; their small reviewed document copies are not
-additional production-asset working trees. This update does not admit PDFs,
-videos, private email evidence, vendor bytes or every existing screenshot.
+additional production-asset working trees. The image exception does not admit
+PDFs (use the separate course-document rule above), videos, private email
+evidence, vendor bytes or every existing screenshot.
 
 **Latest 1 October 2026 intake clarification:** new originals physically start in `Assets/LocalWorking/Intake/<batch>/`. Bounded extraction, processing and validation use `Assets/LocalWorking/Validation/<owner-or-batch>/` when needed, preserving delivered originals unchanged. Pending new assets do not go under the SFTP tree, even as private workspaces, and their intake path is not a junction into SFTP. After the defined asset validation and sharing-rights gates pass, migrate retained originals and usable outputs/dependencies into appropriate `Assets/LocalShared/SFTP/` locations; verify their sizes/SHA-256 and final SFTP bytes before cleaning only redundant LocalWorking material. Keep a checked junction only when a tool/editor still needs that path, not by default. See Section 6. This supersedes the earlier blanket physical-SFTP-home rule for initial intake.
 
