@@ -29,7 +29,7 @@ class CourseDocumentStorageTests(unittest.TestCase):
             if args == ("show", ":" + guard.COURSE_DOCUMENT_LIST):
                 return payload
             if args == ("show", ":Docs/test.md"):
-                return b"[Report](Assignments/Assignment3/test.pdf)"
+                return ("[Report](" + guard.posixpath.relpath(entry["path"], "Docs") + ")").encode()
             raise AssertionError(args)
 
         return patch.object(guard, "git", fake_git)
@@ -63,6 +63,16 @@ class CourseDocumentStorageTests(unittest.TestCase):
             with self.staged_policy(path=path):
                 with self.assertRaisesRegex(ValueError, "Invalid course document exception"):
                     guard.course_document_allowlist(staged=True)
+
+    def test_existing_proposal_path_supported_when_explicitly_approved(self):
+        path = "Docs/Proposal/CS549_Assignment1_Proposal.pdf"
+        with self.staged_policy(path=path):
+            self.assertIn(path, guard.course_document_allowlist(staged=True))
+
+    def test_vendor_document_kind_is_not_course_approval(self):
+        with self.staged_policy(path="Docs/Proposal/vendor.pdf", kind="vendor_document"):
+            with self.assertRaisesRegex(ValueError, "Invalid course document exception"):
+                guard.course_document_allowlist(staged=True)
 
     def test_missing_public_review_rejected(self):
         with self.staged_policy(public_review="pending"):
@@ -109,9 +119,14 @@ class CourseDocumentStorageTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "Unapproved"):
                 guard.check_git(False, False, [revision])
 
-    def test_real_report_matches_approval(self):
+    def test_real_reports_match_approvals(self):
         documents = guard.course_document_allowlist()
-        self.assertEqual(len(documents), 1)
+        expected = {
+            "Docs/Proposal/CS549_Assignment1_Proposal.pdf",
+            "Docs/Proposal/CS549_Assignment2_Proposal.pdf",
+            "Docs/Assignments/Assignment3/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+        }
+        self.assertTrue(expected.issubset(documents))
         for path, entry in documents.items():
             guard.verify_course_document(path, (guard.ROOT / path).read_bytes(), entry)
 

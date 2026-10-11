@@ -1,5 +1,15 @@
 # Current assignment proposals
 
+**11 October 2026 Git sharing:** the final Assignment 1 and 2 PDFs linked below
+are now tracked at their existing paths, unchanged. Together with
+[Assignment 3](../Assignments/Assignment3/README.md), group members can view all
+three reports directly in GitHub without SFTP restoration. See
+[publication checks](../Development/ASSIGNMENT12_PDF_GIT_PUBLICATION_20261011.md).
+The old combined PDFs, editable DOCX files, raw visual sources and private email
+evidence remain external; this publication does not update proposal content or
+claim course submission. Later implementation is governed by current development
+records, not these dated proposals.
+
 **28 September 2026 submission check:** Proposal 2 now states the actual UE5.8 project association with compatibility testing pending. Its midterm checkpoint-restoration check is conditional on implementation, consistent with the Should priority. Word, Markdown and the two-page PDF are synchronized; both PDF pages were visually checked after Word export. The user's email screenshot includes Danrui Li's approval of the Paris/four-pillar request, but does not name the assigned mentor. See the latest [submission status](../Submission/STATUS.md); older pending-concept-approval statements below are superseded by this evidence. The private screenshot is not tracked in Git.
 
 Updated on 23 September 2026 for staged squad objectives across a connected part of the existing France Liberation city. Six soldiers are the initial MVP configuration; later population growth is configurable and subject to playtesting and profiling.

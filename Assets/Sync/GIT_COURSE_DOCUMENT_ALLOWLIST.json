@@ -3,6 +3,40 @@
   "policy": "Exact-path, public-reviewed, team-authored course PDFs only; maximum 5 MiB each. No asset, vendor-document, private-email, attachment, archive or credential exception. Retain prior approved hashes for outgoing-history verification. Publication requires user authorization.",
   "files": [
     {
+      "path": "Docs/Proposal/CS549_Assignment1_Proposal.pdf",
+      "kind": "project_course_report",
+      "documents": [
+        "Docs/Proposal/README.md",
+        "Docs/Development/ASSIGNMENT12_PDF_GIT_PUBLICATION_20261011.md"
+      ],
+      "provenance": "Unchanged current Paris Assignment 1 final proposal, matching the existing Proposal README and source. Complete two-page text, metadata/XMP, URI annotations, embedded-file list and rendered pages reviewed. Own generated ImageGen concept and code-authored mission flowchart are embedded with provenance; supplier JPEG originals are not embedded or published. No private correspondence, credentials, SFTP endpoint, embedded attachments or executable actions. Public team names/NetIDs and official reference links only.",
+      "public_review": "approved",
+      "reviewed_by": "Codex under Yupu Guo's explicit 11 October 2026 request to publish the final Assignment 1 and 2 PDFs for team viewing",
+      "approved_versions": [
+        {
+          "size_bytes": 651899,
+          "sha256": "5d426fb9f6247765d63ba833a2b5a5da7f65fceb26c84c413093ee0a0e97c22a"
+        }
+      ]
+    },
+    {
+      "path": "Docs/Proposal/CS549_Assignment2_Proposal.pdf",
+      "kind": "project_course_report",
+      "documents": [
+        "Docs/Proposal/README.md",
+        "Docs/Development/ASSIGNMENT12_PDF_GIT_PUBLICATION_20261011.md"
+      ],
+      "provenance": "Unchanged 28 September 2026 final Paris Assignment 2 proposal, including the recorded UE5.8 compatibility and conditional checkpoint corrections. Complete two-page text, metadata/XMP, URI annotations, embedded-file list and rendered pages reviewed. Own generated ImageGen concept and code-authored flowchart are embedded with provenance; no original supplier JPEG, private approval email, credentials, SFTP endpoint, embedded attachments or executable actions. Public team names/NetIDs and official reference links only.",
+      "public_review": "approved",
+      "reviewed_by": "Codex under Yupu Guo's explicit 11 October 2026 request to publish the final Assignment 1 and 2 PDFs for team viewing",
+      "approved_versions": [
+        {
+          "size_bytes": 347301,
+          "sha256": "c6a89f1eff2bfef4d150421e90436492fc83e0231f2285aa9ac0b53b23919d69"
+        }
+      ]
+    },
+    {
       "path": "Docs/Assignments/Assignment3/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
       "kind": "project_course_report",
       "documents": [

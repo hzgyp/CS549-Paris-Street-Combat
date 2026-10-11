@@ -5,6 +5,9 @@
 Docs/Images/** -text -diff -merge
 # User-approved final course report: preserve exact PDF bytes, no LFS.
 Docs/Assignments/Assignment3/Paris_Street_Combat_Assignment3_20261010_EN.pdf -text -diff -merge
+# Existing final Assignment 1/2 proposals retain their exact PDF bytes.
+Docs/Proposal/CS549_Assignment1_Proposal.pdf -text -diff -merge
+Docs/Proposal/CS549_Assignment2_Proposal.pdf -text -diff -merge
 # Catalog SHA-256 pins the exact verified SFTP manifest bytes on all platforms.
 Assets/Sync/manifests/*.json -text whitespace=cr-at-eol
 Assets/Sync/TEAM_SOURCE_CONTRACT_*.json -text whitespace=cr-at-eol

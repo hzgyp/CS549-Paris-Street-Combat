@@ -37,9 +37,10 @@ Decision date: 27 September 2026; explicit existing Git/LFS asset migration auth
 
 Routing convention: model/source-asset bundles, PDF/DOCX/PPTX and non-document asset images use SFTP even when small. Markdown, code, diagrams, reviewed document illustrations, configuration, catalogs, sources and hashes remain in Git. Small team-authored Unreal Blueprint logic is code, not a blanket model exception: register its exact path/owner/kind in `Sync/GIT_CODE_ALLOWLIST.json` before staging, with a 10 MiB source-code cap. Do not whitelist purchased assets, meshes, animations or archives. Existing retained gunplay binaries are migrated together as a reference dependency group. Binary code still needs one named editor.
 
-**11 October 2026 course-document correction:** the final Assignment 3 report is
-a small team-authored course document, not a model asset; it now accompanies the
-source in Git at `Docs/Assignments/Assignment3/`. This overrides the blanket PDF
+**11 October 2026 course-document correction:** final Assignment 1/2 proposals
+at `Docs/Proposal/` and the Assignment 3 report at `Docs/Assignments/Assignment3/`
+are small team-authored course documents, not model assets, and accompany the
+source in Git without duplicating existing report files. This overrides the blanket PDF
 routing above for individually reviewed, public-safe team course reports only.
 Register the exact path, linked Markdown, provenance/public review and approved
 size/SHA-256 versions in `Sync/GIT_COURSE_DOCUMENT_ALLOWLIST.json`; each PDF is at

@@ -110,11 +110,11 @@ def document_image_allowlist(staged: bool = False) -> dict[str, dict]:
 
 def course_document_allowlist(staged: bool = False) -> dict[str, dict]:
     return reviewed_document_allowlist(
-        staged, COURSE_DOCUMENT_LIST, "Docs/Assignments/", {".pdf"},
+        staged, COURSE_DOCUMENT_LIST, ("Docs/Assignments/", "Docs/Proposal/"), {".pdf"},
         "project_course_report", COURSE_DOCUMENT_LIMIT, "course document")
 
 
-def reviewed_document_allowlist(staged: bool, list_path: str, prefix: str,
+def reviewed_document_allowlist(staged: bool, list_path: str, prefix: str | tuple[str, ...],
                                suffixes: set[str], kind: str, limit: int,
                                label: str) -> dict[str, dict]:
     # Use the staged policy at commit time, never an unstaged approval.
