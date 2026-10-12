@@ -1,0 +1,42 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "",
+  "Description": "",
+  "Plugins": [
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
+    },
+    {
+      "Name": "ChaosVehiclesPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "ParisGripBindingV18",
+      "Enabled": true
+    },
+    {
+      "Name": "ParisNPCGripV15",
+      "Enabled": true
+    },
+    {
+      "Name": "ParisMuzzleFlashV1",
+      "Enabled": true
+    },
+    {
+      "Name": "ParisBridgeMissionV1",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "WW2FranceLiberation",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

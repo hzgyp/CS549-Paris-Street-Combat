@@ -8,8 +8,8 @@
   },
   "current": {
     "path": "Assets/Sync/CATALOG.json",
-    "size_bytes": 14570,
-    "sha256": "882f487c07e9ef15fadb56d0c769509bc4f837239d03c2e503ef906a67b618cf"
+    "size_bytes": 16324,
+    "sha256": "edbb72917fa9aab83f4e6231977ee943c2560980141e15ef1b3c0c90518555ae"
   },
   "manifest_sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
   "only_catalog_guard_advances": true,
@@ -19,12 +19,17 @@
     "size_bytes": 12969,
     "sha256": "44655b8cc43fbe58d69b5b54c75330610d119957c453bc35892553cc1f420d42"
   },
-  "current_authorization": "2026-10-09 user manually approves audio V2 baseline and authorizes Git/SFTP publication and obsolete package removal",
-  "current_update_proof": "Docs/Development/G1AudioPublicationV2/AUTHORIZED_CATALOG_20261009.json",
-  "current_update_proof_sha256": "b580885bf99f116a301b9c8e1f7cb3f3e842bd57ab42c86ffb20ae09089d69cd",
+  "current_authorization": "User requests Git commit/push and private latest package sync plus old-package cleanup, explicitly retaining course reviewer package",
+  "current_update_proof": "Docs/Development/G1GameplayPublication20261011/AUTHORIZED_CATALOG_20261011.json",
+  "current_update_proof_sha256": "31a77cc1e7697a25670da273fe08adf5c826dcfb628af5ce4259ced3d81c6bb0",
   "previous_audio_publication_catalog": {
     "path": "Assets/Sync/CATALOG.json",
     "size_bytes": 13413,
     "sha256": "590e25671e95f72a3e77b60866a0a8de6c14f92cb5fbd55438c2a3a3270b3eba"
+  },
+  "previous_gameplay_publication_catalog": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 14570,
+    "sha256": "882f487c07e9ef15fadb56d0c769509bc4f837239d03c2e503ef906a67b618cf"
   }
 }

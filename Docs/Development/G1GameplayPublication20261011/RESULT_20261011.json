@@ -1,0 +1,44 @@
+{
+  "status": "verified_private76_published_course_package_retained_git_pending",
+  "finished": "2026-10-11T20:18:36.252584-04:00",
+  "release": "paris-g1-playtest-20261011-gameplay-v1",
+  "download": "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip",
+  "zip": {
+    "path": "tmp/g1-gameplay-publication-20261011/Paris-G1-Gameplay-20261011.zip",
+    "size_bytes": 8499470074,
+    "sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+    "storage": "sftp",
+    "remote_path": "/objects/sha256/42/42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349"
+  },
+  "source_files": 76,
+  "source_manifest_sha256": "9ac0620c0794c2cc64c0b701d50e7dba4a82941bee7d147be1f72cd604d9312d",
+  "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
+  "archive_members": 104,
+  "runtime_resource_files": 57,
+  "teacher_download": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+  "teacher_zip_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+  "teacher_access_unchanged": true,
+  "remote_obsolete_bytes_removed": 0,
+  "remote_retention": {
+    "status": "pass_current_and_teacher_preserved_no_unused_old_zip_remaining",
+    "packaged_zips": [
+      {
+        "path": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+        "size_bytes": 8476572643
+      },
+      {
+        "path": "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip",
+        "size_bytes": 8499470074
+      }
+    ],
+    "teacher_bytes_full_authenticated_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+    "teacher_download_unchanged": true,
+    "teacher_access_unchanged": true,
+    "obsolete_zip_bytes_removed": 0,
+    "reason": "Old HUD ZIP already retired; the only earlier remaining playable ZIP is the explicitly protected teacher package",
+    "no_native_objects_or_workspaces_pruned": true,
+    "root_acl_unchanged": true
+  },
+  "root_acl_unchanged": true,
+  "native_selections_unchanged": true
+}

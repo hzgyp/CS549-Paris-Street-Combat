@@ -1,3 +1,7 @@
+## Reviewed complete gameplay private release,11October2026
+
+The owner manually accepts source76 gameplay logic with minor sleeve occlusion and explicitly requests matching Git/source and private SFTP playable publication. Existing commercial-source team entitlement remains limited to Yupu Guo, Yuqi Pu and Jingdi Wu. New team-authored mine/smoke and permitted adapted MkII, recorded CC0 audio and licensed Cinzel/OFL/Roboto/Apache2 runtime bytes accompany this private build. No public asset bytes or new teacher distribution of this76 revision are inferred. The exact old compiled audioV2 instructor/TA delivery is explicitly retained, with its existing permission and unchanged access attachment.
+
 # Asset sharing records
 
 ## Course reviewer compiled-game delivery,10 October2026

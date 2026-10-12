@@ -37,3 +37,50 @@ Tools/Integration/G1PresentationAVV1/** -text whitespace=cr-at-eol,-blank-at-eof
 Tools/Integration/G1RecordedFoleyV1/** -text whitespace=cr-at-eol,-blank-at-eof
 Tools/Integration/G1FootContactAudioV2/** -text whitespace=cr-at-eol,-blank-at-eof
 Failures/MI014-20261009-checkpoint-death-audio/FAILURE_ANALYSIS_ZH.md whitespace=cr-at-eol,-blank-at-eof
+# Exact10October source/retirement identities survive future Git checkouts.
+Unreal/Variants/G1TeamFeedback20261010/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1TeamFeedback20261010/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1TeamFeedbackP1_20261010/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1TeamFeedbackP1_20261010/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1TeamCompletion20261010/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1TeamCompletion20261010/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1CheckpointDialog20261010/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1CheckpointDialog20261010/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1EnemyClearCheckpoint20261010/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1EnemyClearCheckpoint20261010/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Docs/Development/G1CheckpointBaselineAdoption20261010/*.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_CHECKPOINT_REVIEW.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_INTERACTION_REVIEW.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_TEAM_FEEDBACK_P1_REVIEW.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_TEAM_FEEDBACK_REVIEW.json -text whitespace=cr-at-eol
+Unreal/Variants/G1FieldManualUI20261011/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1FieldManualUI20261011/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_UI_REVIEW.json -text whitespace=cr-at-eol
+
+Unreal/Variants/G1PlayerDeath20261011/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1PlayerDeath20261011/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_PLAYER_DEATH_REVIEW.json -text whitespace=cr-at-eol
+
+# Exact gameplay snapshots and publication receipts, including reviewed76.
+Unreal/Variants/G1TacticalEquipment20261010/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1PressureMine20261011/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1CombatUI20261011/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1GrenadeModels20261011/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1EquipmentWheel20261011/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1GrenadeEquip20261011/Project/** -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1TacticalEquipment20261010/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1PressureMine20261011/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1CombatUI20261011/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1GrenadeModels20261011/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1EquipmentWheel20261011/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Unreal/Variants/G1GrenadeEquip20261011/SOURCE_MANIFEST.json -text whitespace=cr-at-eol
+Docs/Development/G1GameplayBaselineAdoption20261011/*.json -text whitespace=cr-at-eol
+Docs/Development/G1GameplayPublication20261011/*.json -text whitespace=cr-at-eol
+Assets/Registry/**/*.json -text whitespace=cr-at-eol
+Assets/Registry/*.json -text whitespace=cr-at-eol
+# Generated asset directory keeps its terminal Markdown separator.
+Assets/Registry/ASSET_DIRECTORY.md whitespace=cr-at-eol,-blank-at-eof
+# Asset-index fingerprints pin these new selector bytes on every checkout.
+Docs/Development/CURRENT_EQUIPMENT_INPUT_REVIEW.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_EQUIPMENT_REVIEW.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_GRENADE_MODEL_REVIEW.json -text whitespace=cr-at-eol

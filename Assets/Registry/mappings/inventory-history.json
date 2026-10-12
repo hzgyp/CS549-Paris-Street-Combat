@@ -1,0 +1,4874 @@
+{
+  "revisions": [
+    {
+      "id": "frag-grenade-equipment-v16-20261011",
+      "asset_id": "frag-grenade",
+      "title": "equipment-v16-20261011",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "候选版基础几何组合，尚无独立精细模型。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
+      "metrics": {},
+      "media_ids": [
+        "inv-frag-grenade-0"
+      ]
+    },
+    {
+      "id": "smoke-grenade-equipment-v16-20261011",
+      "asset_id": "smoke-grenade",
+      "title": "equipment-v16-20261011",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "候选版基础几何罐体。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
+      "metrics": {},
+      "media_ids": [
+        "inv-smoke-grenade-0"
+      ]
+    },
+    {
+      "id": "smoke-effect-equipment-v16-20261011",
+      "asset_id": "smoke-effect",
+      "title": "equipment-v16-20261011",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "复用城市烟雾素材，构建临时粒子材质。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
+      "metrics": {},
+      "media_ids": []
+    },
+    {
+      "id": "ammo-box-equipment-v16-20261011",
+      "asset_id": "ammo-box",
+      "title": "equipment-v16-20261011",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "城市 SM_AmmoBox_01a；候选版有限补给。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
+      "metrics": {},
+      "media_ids": []
+    },
+    {
+      "id": "explosion-audio-equipment-v16-20261011",
+      "asset_id": "explosion-audio",
+      "title": "equipment-v16-20261011",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "CC0 qubodup 162363 适配音效。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
+      "metrics": {},
+      "media_ids": []
+    },
+    {
+      "id": "german-soldier-original-intake-20261001",
+      "asset_id": "german-soldier",
+      "title": "original-intake-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "原始交付库存；加载结论见历史记录。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "files": 104,
+        "bytes": 294224744,
+        "classes": {
+          "AnimSequence": 7,
+          "MapBuildDataRegistry": 2,
+          "MaterialInstanceConstant": 18,
+          "Material": 6,
+          "MaterialFunction": 1,
+          "SkeletalMesh": 5,
+          "PhysicsAsset": 2,
+          "ObjectRedirector": 1,
+          "Skeleton": 1,
+          "StaticMesh": 1,
+          "Texture2D": 56,
+          "TextureCube": 1,
+          "World": 2
+        }
+      },
+      "media_ids": [
+        "german-preview"
+      ]
+    },
+    {
+      "id": "allied-soldier-original-intake-20261001",
+      "asset_id": "allied-soldier",
+      "title": "original-intake-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "原始交付库存；加载结论见历史记录。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "files": 186,
+        "bytes": 478639266,
+        "classes": {
+          "AnimSequence": 5,
+          "MapBuildDataRegistry": 2,
+          "MaterialInstanceConstant": 20,
+          "Material": 8,
+          "MaterialFunction": 1,
+          "SkeletalMesh": 6,
+          "PhysicsAsset": 1,
+          "Skeleton": 2,
+          "StaticMesh": 2,
+          "Texture2D": 83,
+          "TextureCube": 1,
+          "World": 2
+        }
+      },
+      "media_ids": [
+        "allied-preview"
+      ]
+    },
+    {
+      "id": "rifle-animation-original-intake-20261001",
+      "asset_id": "rifle-animation",
+      "title": "original-intake-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "原始交付库存；加载结论见历史记录。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "files": 300,
+        "bytes": 473464019,
+        "classes": {
+          "AnimSequence": 277,
+          "BlendSpace": 1,
+          "AimOffsetBlendSpace": 1,
+          "Material": 1,
+          "MaterialInstanceConstant": 1,
+          "MaterialFunction": 4,
+          "Texture2D": 9,
+          "SkeletalMesh": 1,
+          "PhysicsAsset": 1,
+          "Skeleton": 1,
+          "World": 1
+        }
+      },
+      "media_ids": []
+    },
+    {
+      "id": "d059-rifle-pro-original-intake-20261001",
+      "asset_id": "d059-rifle-pro",
+      "title": "original-intake-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "原始交付库存；加载结论见历史记录。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "files": 1563,
+        "bytes": 1944249213,
+        "classes": {
+          "AnimSequence": 761,
+          "ObjectRedirector": 1,
+          "Texture2D": 12,
+          "Material": 2,
+          "MaterialInstanceConstant": 1,
+          "MaterialFunction": 4,
+          "StaticMesh": 1,
+          "SkeletalMesh": 1,
+          "PhysicsAsset": 1,
+          "Skeleton": 1,
+          "World": 1
+        }
+      },
+      "media_ids": []
+    },
+    {
+      "id": "shooter-starter-original-intake-20261001",
+      "asset_id": "shooter-starter",
+      "title": "original-intake-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "原始交付库存；加载结论见历史记录。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "files": 607,
+        "bytes": 3154499065,
+        "classes": {
+          "Blueprint": 5,
+          "AnimSequence": 14,
+          "MaterialFunction": 2,
+          "Material": 3,
+          "Texture2D": 128,
+          "MapBuildDataRegistry": 1,
+          "MaterialInstanceConstant": 86,
+          "SkeletalMesh": 9,
+          "PhysicsAsset": 7,
+          "Skeleton": 6,
+          "StaticMesh": 27,
+          "TextureRenderTarget2D": 1,
+          "World": 1
+        }
+      },
+      "media_ids": []
+    },
+    {
+      "id": "rifle-animation-duplicate-delivery-20261004",
+      "asset_id": "rifle-animation",
+      "title": "duplicate-delivery-20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "重复交付：298 个原生文件及 SourceFiles.zip 与原件相同。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {},
+      "media_ids": []
+    },
+    {
+      "id": "anim-2handed-hammer-set-original-delivery-20261001",
+      "asset_id": "anim-2handed-hammer-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "2Handed Hammer Set.7z",
+        "sha256": "781bdcf2cf5f13eac7248ef9a3df68caae0e1d17e7b29dd5ae8180fab31da02c",
+        "bytes": 31413170,
+        "members": 132
+      },
+      "media_ids": [
+        "inv-anim-2handed-hammer-set-0"
+      ]
+    },
+    {
+      "id": "anim-41-animations-for-monsters-original-delivery-20261001",
+      "asset_id": "anim-41-animations-for-monsters",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "41 Animations For Monsters.7z",
+        "sha256": "5a67a35302104b27fca64f1091dcacc20552a966773992dacb0d7ff6c0d5a1b7",
+        "bytes": 20103778,
+        "members": 68
+      },
+      "media_ids": [
+        "inv-anim-41-animations-for-monsters-0"
+      ]
+    },
+    {
+      "id": "anim-adaptive-starts-and-stops-original-delivery-20261001",
+      "asset_id": "anim-adaptive-starts-and-stops",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Adaptive Starts and Stops.7z",
+        "sha256": "435c00a55cffb2d35fdfbea004c30f3fc0ac5a9e0fc9b70a8cee1aff34fe17e7",
+        "bytes": 33800273,
+        "members": 51
+      },
+      "media_ids": [
+        "inv-anim-adaptive-starts-and-stops-0"
+      ]
+    },
+    {
+      "id": "anim-advance-cover-animations-original-delivery-20261001",
+      "asset_id": "anim-advance-cover-animations",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Advance Cover Animations.7z",
+        "sha256": "331cecfce5b767ad15bb3e7caf27e2dc61344d26b7b765f89f3a3d9afb747b54",
+        "bytes": 25915378,
+        "members": 79
+      },
+      "media_ids": [
+        "inv-anim-advance-cover-animations-0"
+      ]
+    },
+    {
+      "id": "anim-adventure-game-animset-original-delivery-20261001",
+      "asset_id": "anim-adventure-game-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Adventure Game Animset.7z",
+        "sha256": "5d69900ee5a67411ad7316e3698d5e59359cc27122d18fcb2200585ac647666b",
+        "bytes": 395447445,
+        "members": 1056
+      },
+      "media_ids": [
+        "inv-anim-adventure-game-animset-0"
+      ]
+    },
+    {
+      "id": "anim-amplify-animation-pack-original-delivery-20261001",
+      "asset_id": "anim-amplify-animation-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Amplify Animation Pack.7z",
+        "sha256": "096cc7550660047a753ddedf138f8edb727f2f607a1930d3d7c4d05073e3b7f3",
+        "bytes": 172669666,
+        "members": 790
+      },
+      "media_ids": [
+        "inv-anim-amplify-animation-pack-0"
+      ]
+    },
+    {
+      "id": "anim-animated-modern-civilian-hands-pack-original-delivery-20261001",
+      "asset_id": "anim-animated-modern-civilian-hands-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Animated Modern Civilian Hands Pack.7z",
+        "sha256": "b4abccbdc1b1aaf5e67845d896dc5762cc2e6554122dc471c0953837f8693396",
+        "bytes": 264664882,
+        "members": 114
+      },
+      "media_ids": [
+        "inv-anim-animated-modern-civilian-hands-pack-0"
+      ]
+    },
+    {
+      "id": "anim-archer-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-archer-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Archer Animset Pro.7z",
+        "sha256": "19d31e44cb920a0489d5d6cd87ba186672761eefd5b9e52edb663045d2c4f442",
+        "bytes": 734825909,
+        "members": 716
+      },
+      "media_ids": [
+        "inv-anim-archer-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-basic-female-movements-original-delivery-20261001",
+      "asset_id": "anim-basic-female-movements",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Basic female movements.7z",
+        "sha256": "297987f24e8583326cb5966098900164bab9ebfe7bca837786e860c2d3316376",
+        "bytes": 22242770,
+        "members": 133
+      },
+      "media_ids": [
+        "inv-anim-basic-female-movements-0"
+      ]
+    },
+    {
+      "id": "anim-capoeira-anim-set-original-delivery-20261001",
+      "asset_id": "anim-capoeira-anim-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Capoeira Anim Set.7z",
+        "sha256": "d85d2435d9f744cc4739317d63b505e531e3422c4495388533cd7b88d02649dc",
+        "bytes": 49930994,
+        "members": 73
+      },
+      "media_ids": [
+        "inv-anim-capoeira-anim-set-0"
+      ]
+    },
+    {
+      "id": "anim-casual-animation-pack-original-delivery-20261001",
+      "asset_id": "anim-casual-animation-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Casual Animation Pack.7z",
+        "sha256": "40cdad59ba16adb189e4d37659bc7845cbe78c61e9b4f6be626b49ab0e2dc817",
+        "bytes": 13537713,
+        "members": 46
+      },
+      "media_ids": [
+        "inv-anim-casual-animation-pack-0"
+      ]
+    },
+    {
+      "id": "anim-chainsaw-attacks-original-delivery-20261001",
+      "asset_id": "anim-chainsaw-attacks",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Chainsaw Attacks.7z",
+        "sha256": "84aec15d3b579e30e8590c7d9b2a82cd1a3f5b12f359cdb01b84b21b05c44737",
+        "bytes": 15197601,
+        "members": 68
+      },
+      "media_ids": [
+        "inv-anim-chainsaw-attacks-0"
+      ]
+    },
+    {
+      "id": "anim-character-conversation-original-delivery-20261001",
+      "asset_id": "anim-character-conversation",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Character Conversation.7z",
+        "sha256": "4094b4d6ee82c72338c7b953e469b2cb63c5fb20bdcaca889cf3a245584a4975",
+        "bytes": 217291026,
+        "members": 93
+      },
+      "media_ids": [
+        "inv-anim-character-conversation-0"
+      ]
+    },
+    {
+      "id": "anim-character-interaction-add-on-vol-01-original-delivery-20261001",
+      "asset_id": "anim-character-interaction-add-on-vol-01",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Character Interaction Add On Vol 01.7z",
+        "sha256": "cb94349c3d9c1d4682e989d7d4ceac7b0aa50950183bca846a12aef9c3bb0c3a",
+        "bytes": 107100690,
+        "members": 170
+      },
+      "media_ids": [
+        "inv-anim-character-interaction-add-on-vol-01-0"
+      ]
+    },
+    {
+      "id": "anim-city-animation-of-people-pack-1-original-delivery-20261001",
+      "asset_id": "anim-city-animation-of-people-pack-1",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "City Animation of People Pack 1.7z",
+        "sha256": "4c1ce939691e3bcbb0f692c41622de24598a8dfb298de2d0c1637e1a5d00f55e",
+        "bytes": 30940129,
+        "members": 44
+      },
+      "media_ids": [
+        "inv-anim-city-animation-of-people-pack-1-0"
+      ]
+    },
+    {
+      "id": "anim-city-people-original-delivery-20261001",
+      "asset_id": "anim-city-people",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "CITY PEOPLE.7z",
+        "sha256": "8055778126256d8558f677aa8b2de935bb93141c845e22b3419969f618011b3c",
+        "bytes": 437195155,
+        "members": 354
+      },
+      "media_ids": [
+        "inv-anim-city-people-0"
+      ]
+    },
+    {
+      "id": "anim-clazy-runner-action-pack-original-delivery-20261001",
+      "asset_id": "anim-clazy-runner-action-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "CLazy Runner Action Pack.7z",
+        "sha256": "1233a1643c2be70f654537340eb67a85967cbbc4773577112b105756859fc680",
+        "bytes": 56138914,
+        "members": 301
+      },
+      "media_ids": [
+        "inv-anim-clazy-runner-action-pack-0"
+      ]
+    },
+    {
+      "id": "anim-close-combat-animset-original-delivery-20261001",
+      "asset_id": "anim-close-combat-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Close Combat Animset.7z",
+        "sha256": "d721c2e4c0c3c2b54930b22d59d68e21597b0ae088f299d78d3f4cdc25cb53f8",
+        "bytes": 32524418,
+        "members": 123
+      },
+      "media_ids": [
+        "inv-anim-close-combat-animset-0"
+      ]
+    },
+    {
+      "id": "anim-combat-knife-animation-kit-original-delivery-20261001",
+      "asset_id": "anim-combat-knife-animation-kit",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Combat Knife Animation Kit.7z",
+        "sha256": "a8d0db9b31df84e6554327ea831e89aeac748974706e3ea5d8f749083d7e335c",
+        "bytes": 89384338,
+        "members": 67
+      },
+      "media_ids": [
+        "inv-anim-combat-knife-animation-kit-0"
+      ]
+    },
+    {
+      "id": "anim-conversion-animset-twinsword-twinblades-original-delivery-20261001",
+      "asset_id": "anim-conversion-animset-twinsword-twinblades",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Conversion Animset ( TwinSword & TwinBlades).7z",
+        "sha256": "86cb216f6f19242e5581b3ef3244644c256d55462783360084b7a109478813f4",
+        "bytes": 18962833,
+        "members": 38
+      },
+      "media_ids": [
+        "inv-anim-conversion-animset-twinsword-twinblades-0"
+      ]
+    },
+    {
+      "id": "anim-cover-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-cover-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Cover Animset Pro.7z",
+        "sha256": "dd0a2299b32adf4e9f827afd4cd40775566ed14d7070dd20258ed597e013f67d",
+        "bytes": 247984098,
+        "members": 188
+      },
+      "media_ids": [
+        "inv-anim-cover-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-cover-system-tool-original-delivery-20261001",
+      "asset_id": "anim-cover-system-tool",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Cover System Tool.7z",
+        "sha256": "3dc665d8451f64ec231215dcf837527f456eae7a60475fad8dc99e9e92fcb291",
+        "bytes": 838097653,
+        "members": 548
+      },
+      "media_ids": [
+        "inv-anim-cover-system-tool-0"
+      ]
+    },
+    {
+      "id": "anim-crafting-animations-original-delivery-20261001",
+      "asset_id": "anim-crafting-animations",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Crafting Animations.7z",
+        "sha256": "786e5cdc046c07cc360eda655b72ef799faadc1d1a138d5d2438ef18b6969147",
+        "bytes": 20916801,
+        "members": 65
+      },
+      "media_ids": [
+        "inv-anim-crafting-animations-0"
+      ]
+    },
+    {
+      "id": "anim-cruel-sword-finisher-set-original-delivery-20261001",
+      "asset_id": "anim-cruel-sword-finisher-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Cruel Sword Finisher Set.7z",
+        "sha256": "79062a1040fadb165eedc6b945c2f136bd6e12eedebfe35b5319ca65200896ae",
+        "bytes": 51535634,
+        "members": 84
+      },
+      "media_ids": [
+        "inv-anim-cruel-sword-finisher-set-0"
+      ]
+    },
+    {
+      "id": "anim-dialog-animations-original-delivery-20261001",
+      "asset_id": "anim-dialog-animations",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Dialog Animations.7z",
+        "sha256": "31117bab4211d0730bb688f127714e97aae92119ea33cde4d2ff6159e3c91d4b",
+        "bytes": 24803313,
+        "members": 48
+      },
+      "media_ids": [
+        "inv-anim-dialog-animations-0"
+      ]
+    },
+    {
+      "id": "anim-dynamic-archer-set-original-delivery-20261001",
+      "asset_id": "anim-dynamic-archer-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Dynamic Archer Set.7z",
+        "sha256": "5dcb623ecb6a12e1cb018177b056910f7a976f47a5639550f554f81e606ce0bc",
+        "bytes": 17990450,
+        "members": 55
+      },
+      "media_ids": [
+        "inv-anim-dynamic-archer-set-0"
+      ]
+    },
+    {
+      "id": "anim-dynamic-locomotion-blueprints-original-delivery-20261001",
+      "asset_id": "anim-dynamic-locomotion-blueprints",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Dynamic Locomotion + Blueprints.7z",
+        "sha256": "4573d3e74c3d2b0d3bdec2414c24af52db72b1adeed239a2dc8db1cea3d52ac7",
+        "bytes": 30680690,
+        "members": 85
+      },
+      "media_ids": [
+        "inv-anim-dynamic-locomotion-blueprints-0"
+      ]
+    },
+    {
+      "id": "anim-dynamic-sword-animset-original-delivery-20261001",
+      "asset_id": "anim-dynamic-sword-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Dynamic Sword Animset.7z",
+        "sha256": "0227b37f3eb24894132572c3b6467f78f80d01f2e5bf21aab6be9d558e4b7147",
+        "bytes": 47886242,
+        "members": 225
+      },
+      "media_ids": [
+        "inv-anim-dynamic-sword-animset-0"
+      ]
+    },
+    {
+      "id": "anim-evil-magician-animations-original-delivery-20261001",
+      "asset_id": "anim-evil-magician-animations",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Evil Magician Animations.7z",
+        "sha256": "354cda59b34a58e2b4499340947e856dcf1fd8978b0f7bfe42b60deef8fcc1fb",
+        "bytes": 14790913,
+        "members": 31
+      },
+      "media_ids": [
+        "inv-anim-evil-magician-animations-0"
+      ]
+    },
+    {
+      "id": "anim-farming-and-mining-pack-original-delivery-20261001",
+      "asset_id": "anim-farming-and-mining-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Farming And Mining Pack.7z",
+        "sha256": "a2e33aa38b55e704d25a982185e7181eebdebeff7ed062ad573c9960ad612d06",
+        "bytes": 232792002,
+        "members": 169
+      },
+      "media_ids": [
+        "inv-anim-farming-and-mining-pack-0"
+      ]
+    },
+    {
+      "id": "anim-fast-prototyping-animation-set-original-delivery-20261001",
+      "asset_id": "anim-fast-prototyping-animation-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Fast prototyping animation set.7z",
+        "sha256": "11843fcbd1b6e8847c8baec32c25a95054ab2721c8923f29520f50872d369447",
+        "bytes": 16041810,
+        "members": 60
+      },
+      "media_ids": [
+        "inv-anim-fast-prototyping-animation-set-0"
+      ]
+    },
+    {
+      "id": "anim-fighter-3-pistol-original-delivery-20261001",
+      "asset_id": "anim-fighter-3-pistol",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Fighter 3 Pistol.7z",
+        "sha256": "2c3528f8782fcdb417c15b483fc5192d2e99ef32f06cd156821b6e3b29121bf8",
+        "bytes": 29401570,
+        "members": 150
+      },
+      "media_ids": [
+        "inv-anim-fighter-3-pistol-0"
+      ]
+    },
+    {
+      "id": "anim-fighting-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-fighting-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Fighting Animset Pro.7z",
+        "sha256": "0a4cd094d4ef1a88b1308bdad40b76d4aeaf2d49d5ef705197035b96cbe2d187",
+        "bytes": 698035045,
+        "members": 491
+      },
+      "media_ids": [
+        "inv-anim-fighting-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-first-person-baseball-bat-original-delivery-20261001",
+      "asset_id": "anim-first-person-baseball-bat",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "First Person baseball bat.7z",
+        "sha256": "8484a5f07fc655991f8557f419180e7f9b18640c6590993bbf49e3bc19717a8d",
+        "bytes": 14797681,
+        "members": 69
+      },
+      "media_ids": [
+        "inv-anim-first-person-baseball-bat-0"
+      ]
+    },
+    {
+      "id": "anim-first-person-crowbar-original-delivery-20261001",
+      "asset_id": "anim-first-person-crowbar",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "First Person Crowbar.7z",
+        "sha256": "1057495e9bccb7cb6ae84ef58807ce5afd3d379f6b8f294bceb951b6e4d6ff56",
+        "bytes": 16318561,
+        "members": 72
+      },
+      "media_ids": [
+        "inv-anim-first-person-crowbar-0"
+      ]
+    },
+    {
+      "id": "anim-flying-mage-set-volume-2-original-delivery-20261001",
+      "asset_id": "anim-flying-mage-set-volume-2",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Flying Mage Set Volume 2.7z",
+        "sha256": "69fc237ffdc425bc73542b877ce4ae35d3e02d3e348d2803c47e21aa09c772b3",
+        "bytes": 114732674,
+        "members": 87
+      },
+      "media_ids": [
+        "inv-anim-flying-mage-set-volume-2-0"
+      ]
+    },
+    {
+      "id": "anim-fpp-melee-animset-original-delivery-20261001",
+      "asset_id": "anim-fpp-melee-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "FPP Melee Animset.7z",
+        "sha256": "71c0bd0597d7f7bc8c82082141e64f1ea7c791a0c7fa1c145a6477886b58a101",
+        "bytes": 521291539,
+        "members": 398
+      },
+      "media_ids": [
+        "inv-anim-fpp-melee-animset-0"
+      ]
+    },
+    {
+      "id": "anim-frank-action-rpg-sword-1-original-delivery-20261001",
+      "asset_id": "anim-frank-action-rpg-sword-1",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank Action RPG Sword 1.7z",
+        "sha256": "786e1430eb0fe251666a3c186a992a3bd0b8359b21bea7b9d110034e3e135c09",
+        "bytes": 25936034,
+        "members": 141
+      },
+      "media_ids": [
+        "inv-anim-frank-action-rpg-sword-1-0"
+      ]
+    },
+    {
+      "id": "anim-frank-assassin-ninja-original-delivery-20261001",
+      "asset_id": "anim-frank-assassin-ninja",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank Assassin (Ninja).7z",
+        "sha256": "9077109ba807213b170817b94fb4f3f2bf7cb112dfa69329f16f4a20e4debeaa",
+        "bytes": 53632274,
+        "members": 285
+      },
+      "media_ids": [
+        "inv-anim-frank-assassin-ninja-0"
+      ]
+    },
+    {
+      "id": "anim-frank-climax-s-katana-original-delivery-20261001",
+      "asset_id": "anim-frank-climax-s-katana",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank climax's Katana.7z",
+        "sha256": "417073e7b42f6d718bdbc1b51c2175bc30b2e2eb025b53bab9a04769463aa15d",
+        "bytes": 62771106,
+        "members": 317
+      },
+      "media_ids": [
+        "inv-anim-frank-climax-s-katana-0"
+      ]
+    },
+    {
+      "id": "anim-frank-damages-original-delivery-20261001",
+      "asset_id": "anim-frank-damages",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank Damages.7z",
+        "sha256": "b6b002a5478f951a2bb0a7c9c82ecc5d472c3fa5f28bb6fd5283186a5280e8d9",
+        "bytes": 38557506,
+        "members": 250
+      },
+      "media_ids": [
+        "inv-anim-frank-damages-0"
+      ]
+    },
+    {
+      "id": "anim-frank-rpg-2-handed-combo-original-delivery-20261001",
+      "asset_id": "anim-frank-rpg-2-handed-combo",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank RPG 2 Handed Combo.7z",
+        "sha256": "3a1151e9496bf6b23b59f5c40efdbd4f9c8f96a93d3dabba2ece8937ef807f8c",
+        "bytes": 49835122,
+        "members": 195
+      },
+      "media_ids": [
+        "inv-anim-frank-rpg-2-handed-combo-0"
+      ]
+    },
+    {
+      "id": "anim-frank-rpg-archer-combo-set-original-delivery-20261001",
+      "asset_id": "anim-frank-rpg-archer-combo-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank RPG Archer Combo Set.7z",
+        "sha256": "af7c988a98e4460ceaaf4eb6f0da21ab838a5a75afa7a18c3da58f151988126e",
+        "bytes": 75136930,
+        "members": 270
+      },
+      "media_ids": [
+        "inv-anim-frank-rpg-archer-combo-set-0"
+      ]
+    },
+    {
+      "id": "anim-frank-rpg-dual-original-delivery-20261001",
+      "asset_id": "anim-frank-rpg-dual",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank RPG Dual.7z",
+        "sha256": "5cfabee776f1f97a60053d8704674501ecfc3e090efe3b4e7c93941332a2a0f8",
+        "bytes": 98430114,
+        "members": 340
+      },
+      "media_ids": [
+        "inv-anim-frank-rpg-dual-0"
+      ]
+    },
+    {
+      "id": "anim-frank-rpg-fighter-original-delivery-20261001",
+      "asset_id": "anim-frank-rpg-fighter",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank RPG Fighter.7z",
+        "sha256": "61842bfffccdb11ead9e9f80a3860bd167604c2cdef291a698b1c9732aa2680f",
+        "bytes": 1022821635,
+        "members": 302
+      },
+      "media_ids": [
+        "inv-anim-frank-rpg-fighter-0"
+      ]
+    },
+    {
+      "id": "anim-frank-rpg-gunslinger-original-delivery-20261001",
+      "asset_id": "anim-frank-rpg-gunslinger",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank RPG Gunslinger.7z",
+        "sha256": "15ddeca6235c44522223f0ac2304a740abca6ddb2e0b6df07f95e5a4bc93951f",
+        "bytes": 84212722,
+        "members": 171
+      },
+      "media_ids": [
+        "inv-anim-frank-rpg-gunslinger-0"
+      ]
+    },
+    {
+      "id": "anim-frank-rpg-mage-original-delivery-20261001",
+      "asset_id": "anim-frank-rpg-mage",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank RPG Mage.7z",
+        "sha256": "39a6501ecd27b18c67404d4f867d7f0c3c783eaa6a2bb694ac92a148caf2d852",
+        "bytes": 491564227,
+        "members": 255
+      },
+      "media_ids": [
+        "inv-anim-frank-rpg-mage-0"
+      ]
+    },
+    {
+      "id": "anim-frank-rpg-spear-original-delivery-20261001",
+      "asset_id": "anim-frank-rpg-spear",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank RPG Spear.7z",
+        "sha256": "c307b76e3a63606ecd4f86ebdc5ae16d57c200745d544fec1f95e0fc39df8cdc",
+        "bytes": 20782114,
+        "members": 102
+      },
+      "media_ids": [
+        "inv-anim-frank-rpg-spear-0"
+      ]
+    },
+    {
+      "id": "anim-frank-rpg-warrior-male-original-delivery-20261001",
+      "asset_id": "anim-frank-rpg-warrior-male",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank RPG Warrior Male.7z",
+        "sha256": "2f5e2d7015151a778771d5c64423715ecec95fd6f4927e45f7672c45f30a1364",
+        "bytes": 542295299,
+        "members": 425
+      },
+      "media_ids": [
+        "inv-anim-frank-rpg-warrior-male-0"
+      ]
+    },
+    {
+      "id": "anim-frank-slash-pack-original-delivery-20261001",
+      "asset_id": "anim-frank-slash-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Frank Slash Pack.7z",
+        "sha256": "7ab306a54f5f6f1a09a7021933b62ca1964a29eaaba0d38896612b422d94a013",
+        "bytes": 445336885,
+        "members": 2032
+      },
+      "media_ids": [
+        "inv-anim-frank-slash-pack-0"
+      ]
+    },
+    {
+      "id": "anim-full-mount-attacks-original-delivery-20261001",
+      "asset_id": "anim-full-mount-attacks",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Full Mount Attacks.7z",
+        "sha256": "ef8b63afa58b4b16f179566c590a60fd5a8539232e0d77e0f1497a1bd4fa624b",
+        "bytes": 18520002,
+        "members": 66
+      },
+      "media_ids": [
+        "inv-anim-full-mount-attacks-0"
+      ]
+    },
+    {
+      "id": "anim-general-purpose-animations-pack-original-delivery-20261001",
+      "asset_id": "anim-general-purpose-animations-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "General Purpose Animations Pack.7z",
+        "sha256": "6345a3da24c8dbcea19e7a425863821bf491f1bfd3acab183a4fbadf3abd8306",
+        "bytes": 27038802,
+        "members": 191
+      },
+      "media_ids": [
+        "inv-anim-general-purpose-animations-pack-0"
+      ]
+    },
+    {
+      "id": "anim-ghostsamurai-bundle-original-delivery-20261001",
+      "asset_id": "anim-ghostsamurai-bundle",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "GhostSamurai_Bundle.7z",
+        "sha256": "44be0181ef48599706edaacdecb20b78d64b695c414ca65b4d71325f0535391c",
+        "bytes": 563809429,
+        "members": 2515
+      },
+      "media_ids": [
+        "inv-anim-ghostsamurai-bundle-0"
+      ]
+    },
+    {
+      "id": "anim-giant-monster-animset-original-delivery-20261001",
+      "asset_id": "anim-giant-monster-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Giant Monster Animset.7z",
+        "sha256": "382894b135afa238a071f335286c5f5a01fc32a826fb206cd25cac7d4572b969",
+        "bytes": 269751747,
+        "members": 253
+      },
+      "media_ids": [
+        "inv-anim-giant-monster-animset-0"
+      ]
+    },
+    {
+      "id": "anim-grapple-component-original-delivery-20261001",
+      "asset_id": "anim-grapple-component",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Grapple Component.7z",
+        "sha256": "8402a651bd76239c19fa46252202d6d9a44b143211777771d26d8a0d1fb9d205",
+        "bytes": 69950866,
+        "members": 301
+      },
+      "media_ids": [
+        "inv-anim-grapple-component-0"
+      ]
+    },
+    {
+      "id": "anim-greatsword-animset-original-delivery-20261001",
+      "asset_id": "anim-greatsword-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "GreatSword Animset.7z",
+        "sha256": "6a122c25bc1043ee51f252a4d68e4e0f7a47cb58ac565e9ca4d7df6a0219f2a8",
+        "bytes": 155858690,
+        "members": 330
+      },
+      "media_ids": [
+        "inv-anim-greatsword-animset-0"
+      ]
+    },
+    {
+      "id": "anim-grim-reaper-set-original-delivery-20261001",
+      "asset_id": "anim-grim-reaper-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Grim reaper Set.7z",
+        "sha256": "f45cc554dace0f966f59f4dc50ed6d21851add3bf502749f9822b12290045655",
+        "bytes": 66238354,
+        "members": 156
+      },
+      "media_ids": [
+        "inv-anim-grim-reaper-set-0"
+      ]
+    },
+    {
+      "id": "anim-hammer-animation-set-original-delivery-20261001",
+      "asset_id": "anim-hammer-animation-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Hammer Animation Set.7z",
+        "sha256": "736db976a69adfd4e95a6e50977cce31994f55f1473a9ad276eb58a351cb5992",
+        "bytes": 38889298,
+        "members": 123
+      },
+      "media_ids": [
+        "inv-anim-hammer-animation-set-0"
+      ]
+    },
+    {
+      "id": "anim-have-a-sit-animation-pack-original-delivery-20261001",
+      "asset_id": "anim-have-a-sit-animation-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Have A Sit Animation Pack.7z",
+        "sha256": "303733a0503267d0baa9c6f1e0056b3072acaf123a440b07f54575cdcd13ee63",
+        "bytes": 59904642,
+        "members": 405
+      },
+      "media_ids": [
+        "inv-anim-have-a-sit-animation-pack-0"
+      ]
+    },
+    {
+      "id": "anim-hostage-set-original-delivery-20261001",
+      "asset_id": "anim-hostage-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Hostage Set.7z",
+        "sha256": "db89a75e282a33a6bb0e48f8755da7dc6bc50a590713c5996426512ae3fc7129",
+        "bytes": 19107682,
+        "members": 98
+      },
+      "media_ids": [
+        "inv-anim-hostage-set-0"
+      ]
+    },
+    {
+      "id": "anim-house-anim-pack-original-delivery-20261001",
+      "asset_id": "anim-house-anim-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "House Anim Pack.7z",
+        "sha256": "9a426e241f728be48220002c068c107e09e421a0081442abca044c573c2af3b4",
+        "bytes": 13194081,
+        "members": 50
+      },
+      "media_ids": [
+        "inv-anim-house-anim-pack-0"
+      ]
+    },
+    {
+      "id": "anim-insane-aircombo-set-original-delivery-20261001",
+      "asset_id": "anim-insane-aircombo-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Insane Aircombo Set.7z",
+        "sha256": "444250bdf3d757c9266870833c27c8082a190ae8e506574ab734254d68863363",
+        "bytes": 71449266,
+        "members": 179
+      },
+      "media_ids": [
+        "inv-anim-insane-aircombo-set-0"
+      ]
+    },
+    {
+      "id": "anim-insane-gun-sword-animset-original-delivery-20261001",
+      "asset_id": "anim-insane-gun-sword-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Insane Gun Sword Animset.7z",
+        "sha256": "8c9f72f8a2c06dd90f2fcb834572325c858884069b6950eb39f871c096c3126d",
+        "bytes": 63926898,
+        "members": 182
+      },
+      "media_ids": [
+        "inv-anim-insane-gun-sword-animset-0"
+      ]
+    },
+    {
+      "id": "anim-insane-gunner-set-original-delivery-20261001",
+      "asset_id": "anim-insane-gunner-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Insane Gunner Set.7z",
+        "sha256": "0fdbdd586491d596de0e05cf075765555417bea2d05f0e06b3240a3b143268de",
+        "bytes": 76756338,
+        "members": 263
+      },
+      "media_ids": [
+        "inv-anim-insane-gunner-set-0"
+      ]
+    },
+    {
+      "id": "anim-japanese-sword-action-original-delivery-20261001",
+      "asset_id": "anim-japanese-sword-action",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Japanese sword action.7z",
+        "sha256": "e94d9f89e9363d4a5ebacb089c1ae4ba56555b66368cfe50a20627cfb65a4d5a",
+        "bytes": 95209092,
+        "members": 561
+      },
+      "media_ids": [
+        "inv-anim-japanese-sword-action-0"
+      ]
+    },
+    {
+      "id": "anim-ladders-and-ledges-animset-original-delivery-20261001",
+      "asset_id": "anim-ladders-and-ledges-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Ladders and Ledges Animset.7z",
+        "sha256": "b4d3a372999d161e1829686cf24161c5573bd42e1e054e6e3b0c1241c77d4e7e",
+        "bytes": 43290338,
+        "members": 163
+      },
+      "media_ids": [
+        "inv-anim-ladders-and-ledges-animset-0"
+      ]
+    },
+    {
+      "id": "anim-launcher-animations-original-delivery-20261001",
+      "asset_id": "anim-launcher-animations",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Launcher Animations.7z",
+        "sha256": "aa2f39df856394b852aec416432e2e741ea831fb1801a0437391d06a1a346118",
+        "bytes": 99446178,
+        "members": 96
+      },
+      "media_ids": [
+        "inv-anim-launcher-animations-0"
+      ]
+    },
+    {
+      "id": "anim-longsword-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-longsword-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Longsword Animset Pro.7z",
+        "sha256": "1c2dd63cf59561035306fd1c1645550ae936590906283633c094cf52801627ea",
+        "bytes": 436901267,
+        "members": 321
+      },
+      "media_ids": [
+        "inv-anim-longsword-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-loot-anim-set-original-delivery-20261001",
+      "asset_id": "anim-loot-anim-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Loot Anim Set.7z",
+        "sha256": "ce5494108b2712befe916f423290683f609b9cfa638399155a4050a6927d2450",
+        "bytes": 16963234,
+        "members": 89
+      },
+      "media_ids": [
+        "inv-anim-loot-anim-set-0"
+      ]
+    },
+    {
+      "id": "anim-mage-animset-original-delivery-20261001",
+      "asset_id": "anim-mage-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Mage Animset.7z",
+        "sha256": "38c7198f6d505528f1d5426c6bcc9e62d4577e9f5e985befed615ce576ade1d9",
+        "bytes": 169261090,
+        "members": 394
+      },
+      "media_ids": [
+        "inv-anim-mage-animset-0"
+      ]
+    },
+    {
+      "id": "anim-magical-knight-set-original-delivery-20261001",
+      "asset_id": "anim-magical-knight-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Magical Knight Set.7z",
+        "sha256": "490ac9a75f54b8501b663fe507fa913524a42e1c6cd026f30addc2600b218ade",
+        "bytes": 94489314,
+        "members": 222
+      },
+      "media_ids": [
+        "inv-anim-magical-knight-set-0"
+      ]
+    },
+    {
+      "id": "anim-martial-arts-fight-game-original-delivery-20261001",
+      "asset_id": "anim-martial-arts-fight-game",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Martial Arts Fight Game.7z",
+        "sha256": "6403c04c6b658e470550605c4a589d940ffa26c2b08e2aaa52d00bc06ce80163",
+        "bytes": 40013522,
+        "members": 216
+      },
+      "media_ids": [
+        "inv-anim-martial-arts-fight-game-0"
+      ]
+    },
+    {
+      "id": "anim-mega-taunt-animation-pack-original-delivery-20261001",
+      "asset_id": "anim-mega-taunt-animation-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Mega Taunt Animation Pack.7z",
+        "sha256": "aebed5fa45da738319db474c660306d0497c0cf07f0740f1bc18aff21edc5413",
+        "bytes": 30472674,
+        "members": 120
+      },
+      "media_ids": [
+        "inv-anim-mega-taunt-animation-pack-0"
+      ]
+    },
+    {
+      "id": "anim-melee-weapon-stealth-finishers-original-delivery-20261001",
+      "asset_id": "anim-melee-weapon-stealth-finishers",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Melee Weapon Stealth Finishers.7z",
+        "sha256": "990d30993cc1c70577de1f888e6dfb9fb9c1ca380fcc84813b4a807f45df8bf8",
+        "bytes": 15091185,
+        "members": 61
+      },
+      "media_ids": [
+        "inv-anim-melee-weapon-stealth-finishers-0"
+      ]
+    },
+    {
+      "id": "anim-mobility-pro-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-mobility-pro-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Mobility Pro  MoCap Pack.7z",
+        "sha256": "4ce097add7e020dd340dcddd8df40e15d0d2dc3ca7a56e85e8cfeb356fa2d683",
+        "bytes": 1126819189,
+        "members": 945
+      },
+      "media_ids": [
+        "inv-anim-mobility-pro-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "anim-mocap-101-animations-original-delivery-20261001",
+      "asset_id": "anim-mocap-101-animations",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "MOCAP 101 ANIMATIONS.7z",
+        "sha256": "c6b314594277bd0b89aaeb10fca9f63c6893ef014fa78311b866c29db705385d",
+        "bytes": 110041906,
+        "members": 353
+      },
+      "media_ids": [
+        "inv-anim-mocap-101-animations-0"
+      ]
+    },
+    {
+      "id": "anim-mocap-cycle-animation-pack-01-original-delivery-20261001",
+      "asset_id": "anim-mocap-cycle-animation-pack-01",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "MoCap Cycle Animation Pack 01.7z",
+        "sha256": "20409c20fbaec1383af483b1da60c36f4e3db87aed60a3d914db6eb8472a49fe",
+        "bytes": 16679265,
+        "members": 30
+      },
+      "media_ids": [
+        "inv-anim-mocap-cycle-animation-pack-01-0"
+      ]
+    },
+    {
+      "id": "anim-modern-crossbow-animation-kit-426-original-delivery-20261001",
+      "asset_id": "anim-modern-crossbow-animation-kit-426",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Modern Crossbow Animation Kit 426.7z",
+        "sha256": "432bb2162c1b2e7169d07354824b16a041139a15f5f4752a8ec07517405bf5df",
+        "bytes": 126590258,
+        "members": 314
+      },
+      "media_ids": [
+        "inv-anim-modern-crossbow-animation-kit-426-0"
+      ]
+    },
+    {
+      "id": "anim-movement-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-movement-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Movement Animset Pro.7z",
+        "sha256": "db0eacd8632e0d0f28a8fbb1f6acc8057f4c7aef65041fedf2001b2fdfb59ce9",
+        "bytes": 102416162,
+        "members": 393
+      },
+      "media_ids": [
+        "inv-anim-movement-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-ninja-pro-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-ninja-pro-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Ninja Pro - MoCap Pack.7z",
+        "sha256": "55963ed3b615feca140ee840f4c6ab40b6f7aca5581ea271d428acec6bd70340",
+        "bytes": 388778739,
+        "members": 388
+      },
+      "media_ids": [
+        "inv-anim-ninja-pro-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "anim-office-desk-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-office-desk-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Office Desk - MoCap Pack.7z",
+        "sha256": "6c427042d7aacd406c06c4989f2d5c521c8056122afdfd52b0d5c81e72089dd3",
+        "bytes": 81743650,
+        "members": 120
+      },
+      "media_ids": [
+        "inv-anim-office-desk-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "anim-open-and-close-animation-pack-original-delivery-20261001",
+      "asset_id": "anim-open-and-close-animation-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Open And Close Animation Pack.7z",
+        "sha256": "ad1581d3ea2aa10e32f939165f4d05f9c85570fa09b691f39bc5ca26df5c1a2f",
+        "bytes": 33018386,
+        "members": 168
+      },
+      "media_ids": [
+        "inv-anim-open-and-close-animation-pack-0"
+      ]
+    },
+    {
+      "id": "anim-open-world-animset-original-delivery-20261001",
+      "asset_id": "anim-open-world-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Open World Animset.7z",
+        "sha256": "299ac73915b2bebfbe0b792e61f896928f272318be550f439bcf029efaaa7d46",
+        "bytes": 358773845,
+        "members": 534
+      },
+      "media_ids": [
+        "inv-anim-open-world-animset-0"
+      ]
+    },
+    {
+      "id": "anim-oriental-spear-anim-set-original-delivery-20261001",
+      "asset_id": "anim-oriental-spear-anim-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Oriental Spear Anim Set.7z",
+        "sha256": "94dcdee0f1a2c40ad4f15d907185d330cae9ceaca3853db02e14af9298b664b8",
+        "bytes": 24561410,
+        "members": 97
+      },
+      "media_ids": [
+        "inv-anim-oriental-spear-anim-set-0"
+      ]
+    },
+    {
+      "id": "anim-paladin-anim-set-original-delivery-20261001",
+      "asset_id": "anim-paladin-anim-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Paladin Anim Set.7z",
+        "sha256": "509f8c838835f45e5a65236d55312711861ea6c16d215b80617e18134f4e0918",
+        "bytes": 60935938,
+        "members": 193
+      },
+      "media_ids": [
+        "inv-anim-paladin-anim-set-0"
+      ]
+    },
+    {
+      "id": "anim-pedestrian-walks-original-delivery-20261001",
+      "asset_id": "anim-pedestrian-walks",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Pedestrian Walks.7z",
+        "sha256": "1df7f0f1c0f0290b14c34cfa1e29d423d263a90ff26d403c6bd4167ea2ad863e",
+        "bytes": 261684306,
+        "members": 143
+      },
+      "media_ids": [
+        "inv-anim-pedestrian-walks-0"
+      ]
+    },
+    {
+      "id": "anim-pedestrians-original-delivery-20261001",
+      "asset_id": "anim-pedestrians",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Pedestrians.7z",
+        "sha256": "787d2d4f58bf304d4755f6a5fe14a7d93b50d60ec5db75bdebb6348960ff281d",
+        "bytes": 46849906,
+        "members": 237
+      },
+      "media_ids": [
+        "inv-anim-pedestrians-0"
+      ]
+    },
+    {
+      "id": "anim-pistol-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-pistol-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Pistol Animset Pro.7z",
+        "sha256": "4d3362361de69ea44f23f49177b5b5136e9202faf8545b47d57a0dc923002096",
+        "bytes": 342826211,
+        "members": 238
+      },
+      "media_ids": [
+        "inv-anim-pistol-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-pistol-pro-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-pistol-pro-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Pistol Pro - MoCap Pack.7z",
+        "sha256": "05ec6b6b1caeed3423fe392c58677ed7f9585debc27f4453844c9251d3afcfd4",
+        "bytes": 479823251,
+        "members": 472
+      },
+      "media_ids": [
+        "inv-anim-pistol-pro-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "anim-pool-dives-animation-set-original-delivery-20261001",
+      "asset_id": "anim-pool-dives-animation-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Pool Dives Animation Set.7z",
+        "sha256": "801a0142ee5d786fd1541b11d6afaeb3d88a9b80f1c9573ebdac6c0d9dd94c58",
+        "bytes": 20094097,
+        "members": 39
+      },
+      "media_ids": [
+        "inv-anim-pool-dives-animation-set-0"
+      ]
+    },
+    {
+      "id": "anim-protector-original-delivery-20261001",
+      "asset_id": "anim-protector",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Protector.7z",
+        "sha256": "ef89f44a2adb043c3c5d9a82c058913f5c3dada840d03e3c68e7cb23fedb866e",
+        "bytes": 222662724,
+        "members": 463
+      },
+      "media_ids": [
+        "inv-anim-protector-0"
+      ]
+    },
+    {
+      "id": "anim-punch-animation-pack-original-delivery-20261001",
+      "asset_id": "anim-punch-animation-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Punch! Animation Pack.7z",
+        "sha256": "dcf5477d9cbeff60df57a6436fbe6771576c71ac962af2cddcda82e578a83dcb",
+        "bytes": 20033745,
+        "members": 64
+      },
+      "media_ids": [
+        "inv-anim-punch-animation-pack-0"
+      ]
+    },
+    {
+      "id": "anim-rapier-anim-set-original-delivery-20261001",
+      "asset_id": "anim-rapier-anim-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Rapier Anim Set.7z",
+        "sha256": "018e8de4da15ccaec9a1a203e8ec590e64b96ae43f3862e810e1908382356f55",
+        "bytes": 62555986,
+        "members": 167
+      },
+      "media_ids": [
+        "inv-anim-rapier-anim-set-0"
+      ]
+    },
+    {
+      "id": "anim-realistic-female-player-anims-original-delivery-20261001",
+      "asset_id": "anim-realistic-female-player-anims",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Realistic Female Player Anims.7z",
+        "sha256": "cb9bcd71c0d42a01dd6cab8c75a80436437819d7ae5be3cfe916d98d564bf1af",
+        "bytes": 37725922,
+        "members": 340
+      },
+      "media_ids": [
+        "inv-anim-realistic-female-player-anims-0"
+      ]
+    },
+    {
+      "id": "anim-resource-gathering-animation-original-delivery-20261001",
+      "asset_id": "anim-resource-gathering-animation",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Resource Gathering Animation.7z",
+        "sha256": "5e39641ec07bc784606affda0c872020d38d2cdcd85ca7c4fc96010765ecf349",
+        "bytes": 28636434,
+        "members": 59
+      },
+      "media_ids": [
+        "inv-anim-resource-gathering-animation-0"
+      ]
+    },
+    {
+      "id": "anim-rifle-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Rifle Animset Pro.7z",
+        "sha256": "dd4a44f47b885ea17df8913de5f293d84d8f92b50f436b66766f1795d3884b3e",
+        "bytes": 473476163,
+        "members": 300
+      },
+      "media_ids": [
+        "inv-anim-rifle-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-rifle-basic-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-rifle-basic-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Rifle Basic MoCap Pack.7z",
+        "sha256": "1991fcfe34dddef664b3fbf482fefde10f2123261c80c0ad2b9931831e80c3bd",
+        "bytes": 1950898773,
+        "members": 1676
+      },
+      "media_ids": [
+        "inv-anim-rifle-basic-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "anim-rifle-pro-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-rifle-pro-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Rifle Pro - MoCap Pack.7z",
+        "sha256": "1312cd33af96bd181a3a42166862dc2996a2aff997bfe26be2bedf373ea9690f",
+        "bytes": 1943792117,
+        "members": 1564
+      },
+      "media_ids": [
+        "inv-anim-rifle-pro-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "anim-rolls-and-dodges-animation-original-delivery-20261001",
+      "asset_id": "anim-rolls-and-dodges-animation",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Rolls and Dodges Animation.7z",
+        "sha256": "12cda5ac2fa704809f4d1c7b259080b43a8a69d5d58ca8dd24c271e71057dd68",
+        "bytes": 19388945,
+        "members": 56
+      },
+      "media_ids": [
+        "inv-anim-rolls-and-dodges-animation-0"
+      ]
+    },
+    {
+      "id": "anim-rope-swing-climb-original-delivery-20261001",
+      "asset_id": "anim-rope-swing-climb",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Rope Swing Climb.7z",
+        "sha256": "099f3a63adccd418fd3e37464bf94c099ca7ac625d10c08941e537133e5122db",
+        "bytes": 812586261,
+        "members": 543
+      },
+      "media_ids": [
+        "inv-anim-rope-swing-climb-0"
+      ]
+    },
+    {
+      "id": "anim-scared-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-scared-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Scared! - MoCap Pack.7z",
+        "sha256": "87eb83b0993377f284c9e09aab4111e6be8b85683959abadc213c93977610e38",
+        "bytes": 382021379,
+        "members": 271
+      },
+      "media_ids": [
+        "inv-anim-scared-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "anim-side-on-fighter-animation-pack-original-delivery-20261001",
+      "asset_id": "anim-side-on-fighter-animation-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Side on Fighter - Animation Pack.7z",
+        "sha256": "6cc9ead2b6699d445eede2056d6bb9ee03e4308d70d0b711097af46c60fc4f80",
+        "bytes": 19745522,
+        "members": 94
+      },
+      "media_ids": [
+        "inv-anim-side-on-fighter-animation-pack-0"
+      ]
+    },
+    {
+      "id": "anim-skydive-and-parachute-kit-original-delivery-20261001",
+      "asset_id": "anim-skydive-and-parachute-kit",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Skydive and Parachute Kit.7z",
+        "sha256": "2809e370220c3c9dae0dfe8070c89b0e31d616a4822a8c319d8785736e029657",
+        "bytes": 87626866,
+        "members": 77
+      },
+      "media_ids": [
+        "inv-anim-skydive-and-parachute-kit-0"
+      ]
+    },
+    {
+      "id": "anim-stealth-finishers-knife-and-hand-original-delivery-20261001",
+      "asset_id": "anim-stealth-finishers-knife-and-hand",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Stealth Finishers knife and hand.7z",
+        "sha256": "01a0a15d1bbdcee0ab86807addfdac0244f1529b851e98268ccc7713eb51b191",
+        "bytes": 30444914,
+        "members": 139
+      },
+      "media_ids": [
+        "inv-anim-stealth-finishers-knife-and-hand-0"
+      ]
+    },
+    {
+      "id": "anim-stylish-action-combat-animation-pack-original-delivery-20261001",
+      "asset_id": "anim-stylish-action-combat-animation-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Stylish Action Combat Animation Pack.7z",
+        "sha256": "4325c3d2f9eae03f2ed123e6dc25a567f52ac28b90c9ed4702f938432c349fa9",
+        "bytes": 40739266,
+        "members": 159
+      },
+      "media_ids": [
+        "inv-anim-stylish-action-combat-animation-pack-0"
+      ]
+    },
+    {
+      "id": "anim-superhero-flight-animations-426-original-delivery-20261001",
+      "asset_id": "anim-superhero-flight-animations-426",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Superhero Flight Animations 426.7z",
+        "sha256": "496a0484dcf740b12859eefebae21e280996b5e7e3c8b25592d98dc751c16c58",
+        "bytes": 225699586,
+        "members": 358
+      },
+      "media_ids": [
+        "inv-anim-superhero-flight-animations-426-0"
+      ]
+    },
+    {
+      "id": "anim-supporter-motions-original-delivery-20261001",
+      "asset_id": "anim-supporter-motions",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Supporter Motions.7z",
+        "sha256": "6c3f734e66c105c3c43752d8699720c216edfd2ad5883e303a13a675892649d3",
+        "bytes": 18978673,
+        "members": 57
+      },
+      "media_ids": [
+        "inv-anim-supporter-motions-0"
+      ]
+    },
+    {
+      "id": "anim-swimming-animation-set-422-original-delivery-20261001",
+      "asset_id": "anim-swimming-animation-set-422",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Swimming Animation Set 422.7z",
+        "sha256": "26bb0e7e635e1fd6769cbd6359bfca148c94317ecbaff476fe6f85335fff8302",
+        "bytes": 35265490,
+        "members": 60
+      },
+      "media_ids": [
+        "inv-anim-swimming-animation-set-422-0"
+      ]
+    },
+    {
+      "id": "anim-sword-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-sword-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Sword Animset Pro.7z",
+        "sha256": "9c60ec8dfab1814ea69e50627e045e2c9836184bd4e17046560fb26a6f3710da",
+        "bytes": 626939459,
+        "members": 391
+      },
+      "media_ids": [
+        "inv-anim-sword-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-sword-shield-animset-pro-original-delivery-20261001",
+      "asset_id": "anim-sword-shield-animset-pro",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Sword Shield Animset Pro.7z",
+        "sha256": "44125bfcea87c3dafc0eb8efc9c0c4cfcfbfac787efc19bb2345f9d641b29e79",
+        "bytes": 445537843,
+        "members": 311
+      },
+      "media_ids": [
+        "inv-anim-sword-shield-animset-pro-0"
+      ]
+    },
+    {
+      "id": "anim-t-pose-zombie-2-original-delivery-20261001",
+      "asset_id": "anim-t-pose-zombie-2",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "T Pose Zombie 2.7z",
+        "sha256": "0921526555f2512e93091d8cf00e6589b47d247bb3db07f763c513bfcba75c00",
+        "bytes": 125874482,
+        "members": 89
+      },
+      "media_ids": [
+        "inv-anim-t-pose-zombie-2-0"
+      ]
+    },
+    {
+      "id": "anim-the-mega-taunt-multi-pack-original-delivery-20261001",
+      "asset_id": "anim-the-mega-taunt-multi-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "The Mega Taunt Multi Pack.7z",
+        "sha256": "6158206b0441d8901c94a1f04f0f87dcaf022b37229c7d1e6eb1638031b7269e",
+        "bytes": 127554770,
+        "members": 1230
+      },
+      "media_ids": [
+        "inv-anim-the-mega-taunt-multi-pack-0"
+      ]
+    },
+    {
+      "id": "anim-twinblades-animset-base-original-delivery-20261001",
+      "asset_id": "anim-twinblades-animset-base",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Twinblades Animset Base.7z",
+        "sha256": "aec948558aea1ba3a86ae588fde8028c1453edb73dc95ce51fcca73c3d78f5fa",
+        "bytes": 22892530,
+        "members": 76
+      },
+      "media_ids": [
+        "inv-anim-twinblades-animset-base-0"
+      ]
+    },
+    {
+      "id": "anim-twinblades-animset-expansion-original-delivery-20261001",
+      "asset_id": "anim-twinblades-animset-expansion",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Twinblades Animset Expansion.7z",
+        "sha256": "8af00dc802961c13d40838b8d939febba6a614a929b61c6659fe8b7ba1d29994",
+        "bytes": 90444930,
+        "members": 228
+      },
+      "media_ids": [
+        "inv-anim-twinblades-animset-expansion-0"
+      ]
+    },
+    {
+      "id": "anim-twindaggers-animset-original-delivery-20261001",
+      "asset_id": "anim-twindaggers-animset",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "TwinDaggers Animset.7z",
+        "sha256": "b4e9117faa63fb3a183afa23fa9170ff1a802fee9bb56b84faed84665906c53f",
+        "bytes": 110187026,
+        "members": 356
+      },
+      "media_ids": [
+        "inv-anim-twindaggers-animset-0"
+      ]
+    },
+    {
+      "id": "anim-twinsword-animset-base-original-delivery-20261001",
+      "asset_id": "anim-twinsword-animset-base",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "TwinSword Animset Base.7z",
+        "sha256": "f163fb94764b3d26508aaf27f076347de6d880d9842f852376235ab38f6d010c",
+        "bytes": 19342482,
+        "members": 84
+      },
+      "media_ids": [
+        "inv-anim-twinsword-animset-base-0"
+      ]
+    },
+    {
+      "id": "anim-twinsword-animset-expansion-original-delivery-20261001",
+      "asset_id": "anim-twinsword-animset-expansion",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "TwinSword Animset Expansion.7z",
+        "sha256": "88eb8c7d5d475a2842c8182b716b431248af5dc0d6d8f73cb8c7896ea06929a2",
+        "bytes": 61375714,
+        "members": 291
+      },
+      "media_ids": [
+        "inv-anim-twinsword-animset-expansion-0"
+      ]
+    },
+    {
+      "id": "anim-two-handed-sword-original-delivery-20261001",
+      "asset_id": "anim-two-handed-sword",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Two Handed Sword.7z",
+        "sha256": "3892e6974ce4d96bf6de80df2802d1d8822b494e0d3f1d98045a92b095f736f4",
+        "bytes": 181906882,
+        "members": 407
+      },
+      "media_ids": [
+        "inv-anim-two-handed-sword-0"
+      ]
+    },
+    {
+      "id": "anim-twosword-animation-set-original-delivery-20261001",
+      "asset_id": "anim-twosword-animation-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "TwoSword Animation Set.7z",
+        "sha256": "6eb667d8962bd79ecc2685c02c8902f74dbe67db38380d89f9e1dbcce6585029",
+        "bytes": 19601874,
+        "members": 106
+      },
+      "media_ids": [
+        "inv-anim-twosword-animation-set-0"
+      ]
+    },
+    {
+      "id": "anim-vampire-boss-set-original-delivery-20261001",
+      "asset_id": "anim-vampire-boss-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Vampire Boss Set.7z",
+        "sha256": "d6b664c5da203e1784b0aff6f4c73e5ceed129e82384de339c954d58d2fa2032",
+        "bytes": 17427506,
+        "members": 83
+      },
+      "media_ids": [
+        "inv-anim-vampire-boss-set-0"
+      ]
+    },
+    {
+      "id": "anim-wall-running-pack-425-original-delivery-20261001",
+      "asset_id": "anim-wall-running-pack-425",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Wall Running Pack 425.7z",
+        "sha256": "79b904c32e84e7284e0b9ff15c730bd3b6de2f6c0832b87be4d5ea948cb973dd",
+        "bytes": 23176178,
+        "members": 50
+      },
+      "media_ids": [
+        "inv-anim-wall-running-pack-425-0"
+      ]
+    },
+    {
+      "id": "anim-werewolf-animation-set-original-delivery-20261001",
+      "asset_id": "anim-werewolf-animation-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Werewolf Animation Set.7z",
+        "sha256": "0e69971f741942f69258161ad63ef34ba602c56eedd94ea4261e2ad209ba2f48",
+        "bytes": 36228194,
+        "members": 166
+      },
+      "media_ids": [
+        "inv-anim-werewolf-animation-set-0"
+      ]
+    },
+    {
+      "id": "anim-witch-animation-set-original-delivery-20261001",
+      "asset_id": "anim-witch-animation-set",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Witch Animation Set.7z",
+        "sha256": "72cd1d4193c987d5fb9984b239e54c597391d2c82951d86be50e4d8f0e51b83c",
+        "bytes": 58934482,
+        "members": 124
+      },
+      "media_ids": [
+        "inv-anim-witch-animation-set-0"
+      ]
+    },
+    {
+      "id": "anim-zombie-pro-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-zombie-pro-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Zombie Pro - MoCap Pack.7z",
+        "sha256": "6c3a6485c660ebc4f804e6514c5884f9b6f23f48d3264fac3821569ed014d372",
+        "bytes": 706977669,
+        "members": 640
+      },
+      "media_ids": [
+        "inv-anim-zombie-pro-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "anim-zombie-starter-mocap-pack-original-delivery-20261001",
+      "asset_id": "anim-zombie-starter-mocap-pack",
+      "title": "original-delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已核对本机原始压缩包；成员来自历史目录读取，未解压。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "filename": "Zombie Starter MoCap Pack.7z",
+        "sha256": "507c20b4b45375a218836821d59479b962c73cb43ce85070ffc4b4bd3fcea95d",
+        "bytes": 136364514,
+        "members": 105
+      },
+      "media_ids": [
+        "inv-anim-zombie-starter-mocap-pack-0"
+      ]
+    },
+    {
+      "id": "ue4-animation-collection-delivery-20261001",
+      "asset_id": "ue4-animation-collection",
+      "title": "delivery-20261001",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "125 个压缩包及 125 张供应图。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "archives": 125,
+        "previews": 125
+      },
+      "media_ids": [
+        "inv-ue4-animation-collection-0"
+      ]
+    },
+    {
+      "id": "mw2-50-gs-original-delivery-20261003",
+      "asset_id": "mw2-50-gs",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": ".50 GS",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 18,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-50-gs-0"
+      ]
+    },
+    {
+      "id": "mw2-556-icarus-original-delivery-20261003",
+      "asset_id": "mw2-556-icarus",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "556 Icarus",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 22,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-556-icarus-0"
+      ]
+    },
+    {
+      "id": "mw2-bas-p-original-delivery-20261003",
+      "asset_id": "mw2-bas-p",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "BAS-P",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 24,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-bas-p-0"
+      ]
+    },
+    {
+      "id": "mw2-basilisk-original-delivery-20261003",
+      "asset_id": "mw2-basilisk",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Basilisk ",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 18,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-basilisk-0"
+      ]
+    },
+    {
+      "id": "mw2-bryson-800-original-delivery-20261003",
+      "asset_id": "mw2-bryson-800",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Bryson 800",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 17,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-bryson-800-0"
+      ]
+    },
+    {
+      "id": "mw2-bryson-890-original-delivery-20261003",
+      "asset_id": "mw2-bryson-890",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Bryson 890",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 21,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-bryson-890-0"
+      ]
+    },
+    {
+      "id": "mw2-chimera-original-delivery-20261003",
+      "asset_id": "mw2-chimera",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Chimera",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 18,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-chimera-0"
+      ]
+    },
+    {
+      "id": "mw2-ebr-14-original-delivery-20261003",
+      "asset_id": "mw2-ebr-14",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "EBR-14",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 18,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-ebr-14-0"
+      ]
+    },
+    {
+      "id": "mw2-expedite-12-original-delivery-20261003",
+      "asset_id": "mw2-expedite-12",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Expedite 12",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 20,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-expedite-12-0"
+      ]
+    },
+    {
+      "id": "mw2-fennec-45-original-delivery-20261003",
+      "asset_id": "mw2-fennec-45",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Fennec 45",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 18,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-fennec-45-0"
+      ]
+    },
+    {
+      "id": "mw2-fss-hurricane-original-delivery-20261003",
+      "asset_id": "mw2-fss-hurricane",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "FSS Hurricane",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 18,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-fss-hurricane-0"
+      ]
+    },
+    {
+      "id": "mw2-ftac-recon-original-delivery-20261003",
+      "asset_id": "mw2-ftac-recon",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "FTac Recon",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 16,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-ftac-recon-0"
+      ]
+    },
+    {
+      "id": "mw2-hcr-56-original-delivery-20261003",
+      "asset_id": "mw2-hcr-56",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "HCR 56",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 21,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-hcr-56-0"
+      ]
+    },
+    {
+      "id": "mw2-jokr-original-delivery-20261003",
+      "asset_id": "mw2-jokr",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "JOKR",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 21,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-jokr-0"
+      ]
+    },
+    {
+      "id": "mw2-kastov-545-original-delivery-20261003",
+      "asset_id": "mw2-kastov-545",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Kastov 545",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 17,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-kastov-545-0"
+      ]
+    },
+    {
+      "id": "mw2-kastov-762-original-delivery-20261003",
+      "asset_id": "mw2-kastov-762",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Kastov 762",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 15,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-kastov-762-0"
+      ]
+    },
+    {
+      "id": "mw2-kastov-74u-original-delivery-20261003",
+      "asset_id": "mw2-kastov-74u",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Kastov-74u",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 17,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-kastov-74u-0"
+      ]
+    },
+    {
+      "id": "mw2-la-b-330-original-delivery-20261003",
+      "asset_id": "mw2-la-b-330",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "LA-B 330",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 21,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-la-b-330-0"
+      ]
+    },
+    {
+      "id": "mw2-lachmann-sub-original-delivery-20261003",
+      "asset_id": "mw2-lachmann-sub",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Lachmann Sub",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 23,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-lachmann-sub-0"
+      ]
+    },
+    {
+      "id": "mw2-lachmann-556-original-delivery-20261003",
+      "asset_id": "mw2-lachmann-556",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Lachmann-556",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 19,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-lachmann-556-0"
+      ]
+    },
+    {
+      "id": "mw2-lachmann-762-original-delivery-20261003",
+      "asset_id": "mw2-lachmann-762",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Lachmann-762",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 24,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-lachmann-762-0"
+      ]
+    },
+    {
+      "id": "mw2-lms-original-delivery-20261003",
+      "asset_id": "mw2-lms",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "LMS ",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 27,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-lms-0"
+      ]
+    },
+    {
+      "id": "mw2-lockwood-300-original-delivery-20261003",
+      "asset_id": "mw2-lockwood-300",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Lockwood 300",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 21,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-lockwood-300-0"
+      ]
+    },
+    {
+      "id": "mw2-lockwood-mk2-original-delivery-20261003",
+      "asset_id": "mw2-lockwood-mk2",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Lockwood MK2",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 23,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-lockwood-mk2-0"
+      ]
+    },
+    {
+      "id": "mw2-m13b-original-delivery-20261003",
+      "asset_id": "mw2-m13b",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "M13B",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 23,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-m13b-0"
+      ]
+    },
+    {
+      "id": "mw2-m16-original-delivery-20261003",
+      "asset_id": "mw2-m16",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "M16",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 18,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-m16-0"
+      ]
+    },
+    {
+      "id": "mw2-m4a1-original-delivery-20261003",
+      "asset_id": "mw2-m4a1",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "m4a1",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 17,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-m4a1-0"
+      ]
+    },
+    {
+      "id": "mw2-mcpr-300-original-delivery-20261003",
+      "asset_id": "mw2-mcpr-300",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "MCPR-300",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 24,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-mcpr-300-0"
+      ]
+    },
+    {
+      "id": "mw2-minibak-original-delivery-20261003",
+      "asset_id": "mw2-minibak",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Minibak ",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 16,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-minibak-0"
+      ]
+    },
+    {
+      "id": "mw2-mp7-original-delivery-20261003",
+      "asset_id": "mw2-mp7",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "MP7",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 20,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-mp7-0"
+      ]
+    },
+    {
+      "id": "mw2-mx9-original-delivery-20261003",
+      "asset_id": "mw2-mx9",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "MX9",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 20,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-mx9-0"
+      ]
+    },
+    {
+      "id": "mw2-p890-original-delivery-20261003",
+      "asset_id": "mw2-p890",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "P890",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 16,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-p890-0"
+      ]
+    },
+    {
+      "id": "mw2-pdsw-528-original-delivery-20261003",
+      "asset_id": "mw2-pdsw-528",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "PDSW 528",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 24,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-pdsw-528-0"
+      ]
+    },
+    {
+      "id": "mw2-pila-original-delivery-20261003",
+      "asset_id": "mw2-pila",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "PILA",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 17,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-pila-0"
+      ]
+    },
+    {
+      "id": "mw2-raal-mg-original-delivery-20261003",
+      "asset_id": "mw2-raal-mg",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "RAAL MG",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 27,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-raal-mg-0"
+      ]
+    },
+    {
+      "id": "mw2-rapp-h-original-delivery-20261003",
+      "asset_id": "mw2-rapp-h",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "RAPP H",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 23,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-rapp-h-0"
+      ]
+    },
+    {
+      "id": "mw2-rev-g-80-original-delivery-20261003",
+      "asset_id": "mw2-rev-g-80",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "REV G-80",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 24,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-rev-g-80-0"
+      ]
+    },
+    {
+      "id": "mw2-rpg7-original-delivery-20261003",
+      "asset_id": "mw2-rpg7",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "RPG7",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 5,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-rpg7-0"
+      ]
+    },
+    {
+      "id": "mw2-rpk-original-delivery-20261003",
+      "asset_id": "mw2-rpk",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "RPK",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 18,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-rpk-0"
+      ]
+    },
+    {
+      "id": "mw2-sa-b-50-original-delivery-20261003",
+      "asset_id": "mw2-sa-b-50",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "SA-B 50",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 19,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-sa-b-50-0"
+      ]
+    },
+    {
+      "id": "mw2-sakin-mg38-original-delivery-20261003",
+      "asset_id": "mw2-sakin-mg38",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "sakin mg38",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 26,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-sakin-mg38-0"
+      ]
+    },
+    {
+      "id": "mw2-signal-50-original-delivery-20261003",
+      "asset_id": "mw2-signal-50",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Signal 50",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 20,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-signal-50-0"
+      ]
+    },
+    {
+      "id": "mw2-so-14-original-delivery-20261003",
+      "asset_id": "mw2-so-14",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "SO-14",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 16,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-so-14-0"
+      ]
+    },
+    {
+      "id": "mw2-sp-r-208-original-delivery-20261003",
+      "asset_id": "mw2-sp-r-208",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "SP-R 208",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 22,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-sp-r-208-0"
+      ]
+    },
+    {
+      "id": "mw2-spx-80-original-delivery-20261003",
+      "asset_id": "mw2-spx-80",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "SPX-80",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 19,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-spx-80-0"
+      ]
+    },
+    {
+      "id": "mw2-stb-556-original-delivery-20261003",
+      "asset_id": "mw2-stb-556",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "STB 556",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 28,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-stb-556-0"
+      ]
+    },
+    {
+      "id": "mw2-strela-p-original-delivery-20261003",
+      "asset_id": "mw2-strela-p",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Strela P",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 10,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-strela-p-0"
+      ]
+    },
+    {
+      "id": "mw2-taq-56-original-delivery-20261003",
+      "asset_id": "mw2-taq-56",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "TAQ-56",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 24,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-taq-56-0"
+      ]
+    },
+    {
+      "id": "mw2-taq-m-original-delivery-20261003",
+      "asset_id": "mw2-taq-m",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "TAQ-M",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 19,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-taq-m-0"
+      ]
+    },
+    {
+      "id": "mw2-taq-v-original-delivery-20261003",
+      "asset_id": "mw2-taq-v",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "TAQ-V",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 22,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-taq-v-0"
+      ]
+    },
+    {
+      "id": "mw2-vaznev-9k-original-delivery-20261003",
+      "asset_id": "mw2-vaznev-9k",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Vaznev-9K",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 16,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-vaznev-9k-0"
+      ]
+    },
+    {
+      "id": "mw2-victus-xmr-original-delivery-20261003",
+      "asset_id": "mw2-victus-xmr",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "Victus XMR",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 22,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-victus-xmr-0"
+      ]
+    },
+    {
+      "id": "mw2-x12-original-delivery-20261003",
+      "asset_id": "mw2-x12",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "来源集合身份；无现成动作。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "collection": "X12",
+        "source_sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "objects": 16,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-x12-0"
+      ]
+    },
+    {
+      "id": "mw2-library-original-delivery-20261003",
+      "asset_id": "mw2-library",
+      "title": "original-delivery-20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "原始 Blender 武器库，只读生成预览。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "sha256": "9e5e1a18b1608f2359e9087834cf553621759e22d67ca343ec5182159f4b3a11",
+        "bytes": 2364179404,
+        "collections": 53,
+        "actions": 0
+      },
+      "media_ids": [
+        "inv-mw2-library-0"
+      ]
+    },
+    {
+      "id": "muzzle-flash-original-delivery-20261004",
+      "asset_id": "muzzle-flash",
+      "title": "original-delivery-20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "原始 MsvFx 交付。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "metrics": {
+        "files": 68
+      },
+      "media_ids": []
+    },
+    {
+      "id": "muzzle-flash-native-integration-20261008",
+      "asset_id": "muzzle-flash",
+      "title": "native-integration-20261008",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "选择 Rifle 01 特效和 25 项来源依赖。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/MuzzleFlashV1/MUZZLE_FLASH_ASSET_USAGE_ZH.md",
+      "metrics": {},
+      "media_ids": []
+    },
+    {
+      "id": "cue-crawl-a-audio-v2-20261009",
+      "asset_id": "cue-crawl-a",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "7ede065e509e97b30db57a4a3522e571cce4348ed936839cc4c046fdf2578171",
+        "bytes": 34604
+      },
+      "media_ids": [
+        "audio-cue-crawl-a-0"
+      ]
+    },
+    {
+      "id": "cue-crawl-b-audio-v2-20261009",
+      "asset_id": "cue-crawl-b",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "757df9ecf950522710c6ceb7ec4a4068e9cc20a40b8c21a9ee0971418e34ef5a",
+        "bytes": 34604
+      },
+      "media_ids": [
+        "audio-cue-crawl-b-0"
+      ]
+    },
+    {
+      "id": "cue-crawl-c-audio-v2-20261009",
+      "asset_id": "cue-crawl-c",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "c1361bf49428caf910199e1d508f284ee7ddf85a1d8f78980c207c2e2eb6376b",
+        "bytes": 34604
+      },
+      "media_ids": [
+        "audio-cue-crawl-c-0"
+      ]
+    },
+    {
+      "id": "cue-death-audio-v2-20261009",
+      "asset_id": "cue-death",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "497d5ff83263a80e49fa5cbb4c73d421fbbd904cd4cdc9398e233c0aa762d7c2",
+        "bytes": 175724
+      },
+      "media_ids": [
+        "audio-cue-death-0"
+      ]
+    },
+    {
+      "id": "cue-fire-audio-v2-20261009",
+      "asset_id": "cue-fire",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1",
+        "bytes": 81644
+      },
+      "media_ids": [
+        "audio-cue-fire-0"
+      ]
+    },
+    {
+      "id": "cue-fire-m1-audio-v2-20261009",
+      "asset_id": "cue-fire-m1",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "f52a11a9e852b141a77e6d22e2851d9d314b3d34cccc6232465bb5f3b6a2f0c9",
+        "bytes": 56204
+      },
+      "media_ids": [
+        "audio-cue-fire-m1-0"
+      ]
+    },
+    {
+      "id": "cue-jump-audio-v2-20261009",
+      "asset_id": "cue-jump",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "391f1fdb491d4a3b7929e3c5b187c5272bb1d45d14bd41b774b179d69abbd258",
+        "bytes": 31724
+      },
+      "media_ids": [
+        "audio-cue-jump-0"
+      ]
+    },
+    {
+      "id": "cue-land-audio-v2-20261009",
+      "asset_id": "cue-land",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "553795d67eba886ac0846ba7df0e0a39f199ce8b9d812ad13a5a9224d688e815",
+        "bytes": 40748
+      },
+      "media_ids": [
+        "audio-cue-land-0"
+      ]
+    },
+    {
+      "id": "cue-reload-handling-audio-v2-20261009",
+      "asset_id": "cue-reload-handling",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "2c4c2defb138fc6fd5435677d422c5652e17297915409c5f390d37ce8f612e58",
+        "bytes": 38444
+      },
+      "media_ids": [
+        "audio-cue-reload-handling-0"
+      ]
+    },
+    {
+      "id": "cue-reload-k98-close-audio-v2-20261009",
+      "asset_id": "cue-reload-k98-close",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "ab6d762dacc914eb128f39663a5da26b849f785fff7470d1715a249cf06a331a",
+        "bytes": 62924
+      },
+      "media_ids": [
+        "audio-cue-reload-k98-close-0"
+      ]
+    },
+    {
+      "id": "cue-reload-k98-load-audio-v2-20261009",
+      "asset_id": "cue-reload-k98-load",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "e511409633d2daa6074cb10904c545d03ba6e29acf984069dfceb7fc54555cf1",
+        "bytes": 56684
+      },
+      "media_ids": [
+        "audio-cue-reload-k98-load-0"
+      ]
+    },
+    {
+      "id": "cue-reload-k98-open-audio-v2-20261009",
+      "asset_id": "cue-reload-k98-open",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "6dc8b03af2a665b9d3c4bbe45029333aff3a50a592ee2e1029ea726fb36842a8",
+        "bytes": 36524
+      },
+      "media_ids": [
+        "audio-cue-reload-k98-open-0"
+      ]
+    },
+    {
+      "id": "cue-reload-m1-close-audio-v2-20261009",
+      "asset_id": "cue-reload-m1-close",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "03aabb0a7f2855f3fafe942dde68a848c673f1dfda6795c99301cc13db4bf822",
+        "bytes": 25004
+      },
+      "media_ids": [
+        "audio-cue-reload-m1-close-0"
+      ]
+    },
+    {
+      "id": "cue-reload-m1-load-audio-v2-20261009",
+      "asset_id": "cue-reload-m1-load",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "540e7fb49cf4bbeebebe607186395a189e9013170b7438f1f929df737d34e7d4",
+        "bytes": 28844
+      },
+      "media_ids": [
+        "audio-cue-reload-m1-load-0"
+      ]
+    },
+    {
+      "id": "cue-reload-m1-open-audio-v2-20261009",
+      "asset_id": "cue-reload-m1-open",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "e6987cab929d17d3df923f22079106b2bbad4000b895ddf0015c182bb0578faa",
+        "bytes": 37004
+      },
+      "media_ids": [
+        "audio-cue-reload-m1-open-0"
+      ]
+    },
+    {
+      "id": "cue-step-run-a-audio-v2-20261009",
+      "asset_id": "cue-step-run-a",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "bce333dac3c901db50cc03dc594d5c40aa52a1f281598d613748c1c4e55c083f",
+        "bytes": 27884
+      },
+      "media_ids": [
+        "audio-cue-step-run-a-0"
+      ]
+    },
+    {
+      "id": "cue-step-run-b-audio-v2-20261009",
+      "asset_id": "cue-step-run-b",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "659a75af0a7405583c3a681c2281ad345a0d55bdb7790b95e5c390e4ba6ca5f0",
+        "bytes": 27884
+      },
+      "media_ids": [
+        "audio-cue-step-run-b-0"
+      ]
+    },
+    {
+      "id": "cue-step-run-c-audio-v2-20261009",
+      "asset_id": "cue-step-run-c",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "aa800c12586cea900d81f4b8eecbea8aa629d28da943f41c81ef4a9579e4d22f",
+        "bytes": 27884
+      },
+      "media_ids": [
+        "audio-cue-step-run-c-0"
+      ]
+    },
+    {
+      "id": "cue-step-run-d-audio-v2-20261009",
+      "asset_id": "cue-step-run-d",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "260c0d9d0b4e11dd9640d190e416526c898188025348fae27b9366f1f4c5606a",
+        "bytes": 29804
+      },
+      "media_ids": [
+        "audio-cue-step-run-d-0"
+      ]
+    },
+    {
+      "id": "cue-step-run-e-audio-v2-20261009",
+      "asset_id": "cue-step-run-e",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "91e24ae2bef502edf37043d0dc47a5d470ba37af3425004e01edcc4b2b6073c6",
+        "bytes": 28844
+      },
+      "media_ids": [
+        "audio-cue-step-run-e-0"
+      ]
+    },
+    {
+      "id": "cue-step-run-f-audio-v2-20261009",
+      "asset_id": "cue-step-run-f",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "61949a6358520ceaa4956e2be1369111c1651342dc009b86246c8fc2dfccb30e",
+        "bytes": 27884
+      },
+      "media_ids": [
+        "audio-cue-step-run-f-0"
+      ]
+    },
+    {
+      "id": "cue-step-slow-a-audio-v2-20261009",
+      "asset_id": "cue-step-slow-a",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "37d8ddf69a88dec475fed3f669fe6170175981205c1300ec6ae2f3b19a9b9684",
+        "bytes": 32876
+      },
+      "media_ids": [
+        "audio-cue-step-slow-a-0"
+      ]
+    },
+    {
+      "id": "cue-step-slow-b-audio-v2-20261009",
+      "asset_id": "cue-step-slow-b",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "deb5fa741ba7686029a91b4e1b7ace0fd2ef846eaecbf62c20a131cb5824108e",
+        "bytes": 37484
+      },
+      "media_ids": [
+        "audio-cue-step-slow-b-0"
+      ]
+    },
+    {
+      "id": "cue-step-slow-c-audio-v2-20261009",
+      "asset_id": "cue-step-slow-c",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "4646bd8263da6927a87007c3fdb1c9168517a4a2e15083309a0308f79c296f53",
+        "bytes": 36524
+      },
+      "media_ids": [
+        "audio-cue-step-slow-c-0"
+      ]
+    },
+    {
+      "id": "cue-step-slow-d-audio-v2-20261009",
+      "asset_id": "cue-step-slow-d",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "ff6b4fd90610ec3d2b4655f27b2da59c285f96469d677e01481192af0dfaff12",
+        "bytes": 37484
+      },
+      "media_ids": [
+        "audio-cue-step-slow-d-0"
+      ]
+    },
+    {
+      "id": "cue-step-slow-e-audio-v2-20261009",
+      "asset_id": "cue-step-slow-e",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "b61d5747cfada3873578985b8cf12f5aad2b7441f9b2cef9312aeaa4629db738",
+        "bytes": 41324
+      },
+      "media_ids": [
+        "audio-cue-step-slow-e-0"
+      ]
+    },
+    {
+      "id": "cue-step-slow-f-audio-v2-20261009",
+      "asset_id": "cue-step-slow-f",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "55ebe8364a981026cc3e71d244562e7cc0a0453ca2e266418d72b930f70dd859",
+        "bytes": 42284
+      },
+      "media_ids": [
+        "audio-cue-step-slow-f-0"
+      ]
+    },
+    {
+      "id": "cue-step-walk-a-audio-v2-20261009",
+      "asset_id": "cue-step-walk-a",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "8cc772b566cced04f82fc4f002f3dcb3a5e23840a49cee388b6375769d74fd0f",
+        "bytes": 32876
+      },
+      "media_ids": [
+        "audio-cue-step-walk-a-0"
+      ]
+    },
+    {
+      "id": "cue-step-walk-b-audio-v2-20261009",
+      "asset_id": "cue-step-walk-b",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "9ed7f4f9fbe4c40a3251ccfbcb0276164520b0652aa3ccc3ce05f25494142bb4",
+        "bytes": 37484
+      },
+      "media_ids": [
+        "audio-cue-step-walk-b-0"
+      ]
+    },
+    {
+      "id": "cue-step-walk-c-audio-v2-20261009",
+      "asset_id": "cue-step-walk-c",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "498067edbd3ca891a66ae70aa577944b0db067f48eaab80e7c0b112cdb3b50bc",
+        "bytes": 36524
+      },
+      "media_ids": [
+        "audio-cue-step-walk-c-0"
+      ]
+    },
+    {
+      "id": "cue-step-walk-d-audio-v2-20261009",
+      "asset_id": "cue-step-walk-d",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "1693af6626b40d29f7aa5877f6a5632f7fa23162848ab58ee2ad742130cb898f",
+        "bytes": 37484
+      },
+      "media_ids": [
+        "audio-cue-step-walk-d-0"
+      ]
+    },
+    {
+      "id": "cue-step-walk-e-audio-v2-20261009",
+      "asset_id": "cue-step-walk-e",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "e234adae0e2908b6de3e1767718bde3253e786aec304570a75b3e4ce3c157dfa",
+        "bytes": 41324
+      },
+      "media_ids": [
+        "audio-cue-step-walk-e-0"
+      ]
+    },
+    {
+      "id": "cue-step-walk-f-audio-v2-20261009",
+      "asset_id": "cue-step-walk-f",
+      "title": "audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "已发布音频清单中的确定文件版本。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "metrics": {
+        "sha256": "190cb037135a75055cee8afab3a41028fe4392a296b66f067b683d4115fecbbf",
+        "bytes": 42284
+      },
+      "media_ids": [
+        "audio-cue-step-walk-f-0"
+      ]
+    },
+    {
+      "id": "german-rifle-allied-reference-20261003",
+      "asset_id": "german-rifle",
+      "title": "ALLIED_REFERENCE_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "d8ad702c101a591a239e28aacdd5c35c95f173464fc3f6565aaad0301bbfd57f",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-fine-texture-v15-20261004",
+      "asset_id": "german-rifle",
+      "title": "FINE_TEXTURE_V15_20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "3c50034de51a8868361f5f6100db3e2dcc7992433d21398eab54703316157e41",
+        "models": [
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/comparison_v1/allied_m1_inspection.blend",
+            "bytes": 17321864,
+            "sha256": "528970098aa90113db32969aa85eeb647af4a21a052ee3f6d50f251ee1629c00"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/comparison_v1/german_v15_inspection.blend",
+            "bytes": 81285535,
+            "sha256": "f07a078f88fd5c006ade3a1dfdd45b8cc4e2a3e925e41897aa121093c19f35b5"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/finish_v1/GermanRifle_FineWood_V15.blend",
+            "bytes": 110979481,
+            "sha256": "b6c9afcd4de1675d533158bef5698e8b05e47e6226880964b241d606292f26b8"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/finish_v1/GermanRifle_FineWood_V15.glb",
+            "bytes": 81346308,
+            "sha256": "77f7fd8cdde8c6b0b030b7b0ed4646f6bce8b03ad47f4ecb1826b51e502b378f"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/preview_v1/GermanRifle_FineWood_V15.blend",
+            "bytes": 110967417,
+            "sha256": "8669db3522d39403ba1112af95ce52dcab896c3e2355f50d4a442cfaf1575283"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/preview_v1/GermanRifle_FineWood_V15.glb",
+            "bytes": 81346308,
+            "sha256": "62624aebb928bb9faeead4505adf2217e9809f1c90ded88cc6fd5d0c22c25c57"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/repeat_v1/GermanRifle_FineWood_V15.blend",
+            "bytes": 110949321,
+            "sha256": "622db14460a6d78611964c9e67d3ed4dee43d9b8f1b56de0db0093b7d3a41b51"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/repeat_v1/GermanRifle_FineWood_V15.glb",
+            "bytes": 81346308,
+            "sha256": "b40429ed65346d591f174d8d82a04cb6e9287e96580638e1b96ca0d1bb24c482"
+          }
+        ]
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-finish-20261003",
+      "asset_id": "german-rifle",
+      "title": "FINISH_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "1345177ee6dc317ff93a9e6eff8ac4e6014436ee95f188a06f10293f6b672d84",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-joint-20261003",
+      "asset_id": "german-rifle",
+      "title": "JOINT_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "0c3aca7ffe13edfce714ed05bdc366b2993bcf9bfbff9b87c93e11dd7ba3b95f",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-m1-texture-v12-20261004",
+      "asset_id": "german-rifle",
+      "title": "M1_TEXTURE_V12_20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "f2188ad9bcf9e9546ae9dcf234aec9dd8e2baab87fec78c2392f89fa85919097",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-manual-20261003",
+      "asset_id": "german-rifle",
+      "title": "MANUAL_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "2350dbf34043d84aa5d0d0f3a76a739e1a1073f02909a33fda06e0bdf0bec43b",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-part-split-20261003",
+      "asset_id": "german-rifle",
+      "title": "PART_SPLIT_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "c7a8a70ca6170265938332565fa95bdb5cf31c02cb08ba2c14ae38ef123880dc",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-pilot-20261003",
+      "asset_id": "german-rifle",
+      "title": "PILOT_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "bd5c8ac072878bb90a500bcf3669e9e66de7d9a241a487a4ce3cfdefcc417309",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-refinement-20261003",
+      "asset_id": "german-rifle",
+      "title": "REFINEMENT_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "9f78ad35e0ac72bd315feb5b2c526b7cbf767ac9ade65e123928860e6eb081ad",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-spr-draft-20261004",
+      "asset_id": "german-rifle",
+      "title": "SPR_DRAFT_20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "c87ff002bd53c2b27656bca81f34ec7187d2c00a25effb261bc66e73a57a4769",
+        "models": [
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/GermanRifle_SPR_V10.blend",
+            "bytes": 13558627,
+            "sha256": "8f39109ff6139ae492fe74b2ef44270171b85410dfb2390675f592e3499bb40f"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/GermanRifle_SPR_V10.glb",
+            "bytes": 12265864,
+            "sha256": "6a5463a0d20b206c4389329bfd7a8c5a309b9f8d53d8abfd3c8979406f324510"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/GermanRifle_SPR_V10.blend",
+            "bytes": 12842973,
+            "sha256": "59778c10a50b5ae62229ba0308e87a046a2e1ddbdd962538028cd86b1dc47841"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/GermanRifle_SPR_V10.glb",
+            "bytes": 11550212,
+            "sha256": "121128e7480447ffee49ab8aeff4d8c17547896370e350432953386eab776626"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/GermanRifle_SPR_V10.blend",
+            "bytes": 13077144,
+            "sha256": "5895c9631dedcab873c63670055bf90330a2b467d654ea734acfa68de72849a6"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/GermanRifle_SPR_V10.glb",
+            "bytes": 11621376,
+            "sha256": "795967ab635064139c69a4e46ffacfce222b992e275a7ffec5043cb974642323"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/GermanRifle_SPR_V10.blend",
+            "bytes": 13522666,
+            "sha256": "4e5bbd19860524eabdc90ccfd438449e9d4b0e7038a443a219cfd2de6c181a1f"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/GermanRifle_SPR_V10.glb",
+            "bytes": 12264868,
+            "sha256": "8c5a7da367e94d20cbea6652cbd312d1fe2f6ee2899ff4b01e59729b02106ad0"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/GermanRifle_SPR_V10.blend",
+            "bytes": 13040424,
+            "sha256": "1343d5ad4b78bc8efa69cea567aed8db8dcf66c9d47e58da91537ae5231cdbbb"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/GermanRifle_SPR_V10.glb",
+            "bytes": 11621376,
+            "sha256": "a8cbdba702b109fbb0189da6ed306bb2ae4cc5793d80c1979d17bbc0d4ae5c36"
+          }
+        ]
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-surface-20261003",
+      "asset_id": "german-rifle",
+      "title": "SURFACE_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "3ba791a66fd7855b899bfa180a7f30a4b163fcb9be8e256a5836022fa25c27a6",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-topology-20261003",
+      "asset_id": "german-rifle",
+      "title": "TOPOLOGY_20261003",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "b44c153a9a148328b6173b0a4899ac425a54d43627f77530d76d67befdc53a23",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-ue-draft-20261004",
+      "asset_id": "german-rifle",
+      "title": "UE_DRAFT_20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "8fb33dfd94b6557ef9cc455000601ab33c0074a65f13355b534eac887cff5faa",
+        "models": []
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-weathering-draft-20261004",
+      "asset_id": "german-rifle",
+      "title": "WEATHERING_DRAFT_20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "efe0fff0508ad1cf468aaedf292b57219215ad5461fd74f2fac96d0ab8488e6a",
+        "models": [
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.blend",
+            "bytes": 23109377,
+            "sha256": "7f9283212611c8753efc3b3c0a8ae2bb69a60e8c011856478589e0214e444b42"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.glb",
+            "bytes": 21605816,
+            "sha256": "f979fb6a5ad4a725553d73804c3f3efd7a793e55c16129164223bd69ccb55a8d"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/GermanRifle_SPR_Weathered_V11.blend",
+            "bytes": 23014320,
+            "sha256": "7a94610073aa0e104284bf01ee0d7d423983a8beffd3549b5f569f414babe480"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/GermanRifle_SPR_Weathered_V11.glb",
+            "bytes": 21510756,
+            "sha256": "eb244b72f935682ab649813b0f50b77fdfeee069c16a8b046b8ca1cb633e6491"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/GermanRifle_SPR_Weathered_V11.blend",
+            "bytes": 23109377,
+            "sha256": "2c1c917ed08b8c6ccfc96d46a2a23edf76f71f329c014131c4bd7c4465622fab"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/GermanRifle_SPR_Weathered_V11.glb",
+            "bytes": 21605816,
+            "sha256": "74bca68ecc6618e2a364e374560a890c9b6c1e1ad4d02c7d0613419de152a4e7"
+          }
+        ]
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-wood-finish-v14-20261004",
+      "asset_id": "german-rifle",
+      "title": "WOOD_FINISH_V14_20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "37c5cd4aa680dfd24c949098fb1e64af2eb0a8a9b8258b45928528ba7d216cec",
+        "models": [
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/allied_m1_inspection.blend",
+            "bytes": 17321862,
+            "sha256": "9bdcf71918a19157712ec80957c2ed72bef1be45a85d356fe42a815a72eeb678"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/german_v14_inspection.blend",
+            "bytes": 65620751,
+            "sha256": "63458691382185719a4045c0bdb530a0e685428bbc4309b5630382f6bbe7d908"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/GermanRifle_DarkWood_V14.blend",
+            "bytes": 93200590,
+            "sha256": "5372fa3f4d85a7ee6c15bd476daa6b6fe42efdc22bf0a5d22743e312d2a53917"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/GermanRifle_DarkWood_V14.glb",
+            "bytes": 65642620,
+            "sha256": "9ca471321bd2b684d324cd094eb50d2e3ae0b0adaf174f3ea19dd8b30b0d3c80"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/GermanRifle_DarkWood_V14.blend",
+            "bytes": 93076593,
+            "sha256": "774396db60454ce4d9e286875d2a3891faf08ee6704101337716fb9e014825a6"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/GermanRifle_DarkWood_V14.glb",
+            "bytes": 65530408,
+            "sha256": "d3f1713d1d256ae079c482c65fa1a82fab010114ff7b8b800f07bdc1162bdd8b"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/GermanRifle_DarkWood_V14.blend",
+            "bytes": 93170430,
+            "sha256": "a2ee8d07d89cfdce102f43691076317323fdf8ed505d80e5c61f73ef0f2998de"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/GermanRifle_DarkWood_V14.glb",
+            "bytes": 65642620,
+            "sha256": "5421f0b1897fb5c07ec2856ba8be37e098643efc9ae7db08f3d4185968e44068"
+          }
+        ]
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "german-rifle-wood-wear-v13-20261004",
+      "asset_id": "german-rifle",
+      "title": "WOOD_WEAR_V13_20261004",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "历史模型库存；后续人工采用以 V14 整合记录为准。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Assets/Registry/mappings/rifle-inventory-sources.json",
+      "metrics": {
+        "inventory_sha256": "9a251fb2fe94183452261e5ffc2b5d77c57ec19777362a47169119962ca73846",
+        "models": [
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/allied_m1_inspection.blend",
+            "bytes": 17321861,
+            "sha256": "13b0ba5362a44fca790193f034c8fe256c2b912b92fec39d80cf14a632a75beb"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/german_v13_inspection.blend",
+            "bytes": 67478593,
+            "sha256": "48082709bef7381752bc6887fc2ccd44c51f1e014dcbab4597177d264333442f"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/GermanRifle_CoordinatedWear_V13.blend",
+            "bytes": 77142615,
+            "sha256": "8da3679bafbd4bbe8c906aed661ec017847e1e68c4b70f02815758fad2da0c7f"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/GermanRifle_CoordinatedWear_V13.glb",
+            "bytes": 67460068,
+            "sha256": "a84ed4390d45f37ad453a6a0867a074849ae8387b7737defcc88f2b50d8374d6"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/GermanRifle_CoordinatedWear_V13.blend",
+            "bytes": 77183277,
+            "sha256": "bb730a98cfe70241fb1a6af069d2366bdce69536db813aa9bbcd5634afb0f46e"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/GermanRifle_CoordinatedWear_V13.glb",
+            "bytes": 67500732,
+            "sha256": "76c557b3334c8b9a7ee178b33783376642b5c8a176a37e662ab7203714c00a81"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/GermanRifle_CoordinatedWear_V13.blend",
+            "bytes": 49583720,
+            "sha256": "d5cdb15de922991099132387a8661875aed669fcee0cd3085bb7fe8f1f5ec640"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/GermanRifle_CoordinatedWear_V13.blend",
+            "bytes": 77122957,
+            "sha256": "484e1258f232aaa4f9c5db73e658c92108288a1b931b05a87fe882c7acfd85cf"
+          },
+          {
+            "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/GermanRifle_CoordinatedWear_V13.glb",
+            "bytes": 67500732,
+            "sha256": "bb9b3cd0b09f7e43c7280a43f9954ea6024500abddbd9d3a510f913de258241b"
+          }
+        ]
+      },
+      "media_ids": [
+        "rifle-preview"
+      ]
+    },
+    {
+      "id": "allied-soldier-formal-v18-grip-v16-20261006",
+      "asset_id": "allied-soldier",
+      "title": "formal-v18-grip-v16-20261006",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "V18 原生整合沿用人工认可的 V16 握姿。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/ALLIED_NPC_FORMAL_V18_RESULT_20261006.md",
+      "metrics": {},
+      "media_ids": [
+        "allied-preview"
+      ]
+    },
+    {
+      "id": "first-person-formal-v21-appearance-v20-20261005",
+      "asset_id": "first-person",
+      "title": "formal-v21-appearance-v20-20261005",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "V21 原生整合保留认可的 V20 展示。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/FIRST_PERSON_FORMAL_V21_RESULT_20261005.md",
+      "metrics": {},
+      "media_ids": [
+        "fp-preview"
+      ]
+    },
+    {
+      "id": "recorded-audio-recorded-foley-v1-20261009",
+      "asset_id": "recorded-audio",
+      "title": "recorded-foley-v1-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "31 条历史音效；后续 V2 修正脚步触地和跳跃。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/G1_AUDIO_REALISM_RESULT_20261009.md",
+      "metrics": {},
+      "media_ids": [
+        "audio-m1"
+      ]
+    },
+    {
+      "id": "recorded-audio-foot-contact-audio-v2-20261009",
+      "asset_id": "recorded-audio",
+      "title": "foot-contact-audio-v2-20261009",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "33 条运行音效；实录 M1，德军仍使用合成枪声。",
+      "scope": "来源登记；未新增运行验收。",
+      "document": "Docs/Development/G1_FOOT_CONTACT_AUDIO_V2_RESULT_20261009.md",
+      "metrics": {},
+      "media_ids": [
+        "audio-m1"
+      ]
+    },
+    {
+      "id": "frag-grenade-model-v1-20261011",
+      "asset_id": "frag-grenade",
+      "title": "Mk II 手雷模型 v1",
+      "kind": "inventory_revision",
+      "result": "local_verified_manual_review_pending",
+      "summary": "占位模型替换；原手指/枪械/保存保护通过。",
+      "scope": "资产索引优先，独立GLB与实际UE渲染，13个最终Game实跑；原Hold视图下沿遮挡保留。",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_MODELS_RESULT_20261011_ZH.md",
+      "metrics": {
+        "triangles": 2733,
+        "texture_size": 1024,
+        "model_glb_sha256": "afabba30064554eee257648388681999c376a57ea6bd988a9a64f12b0e159b6e",
+        "dimensions_cm": [
+          7.528,
+          6.514,
+          11.885
+        ]
+      },
+      "media_ids": [
+        "frag-grenade-model-v1-browser-front",
+        "frag-grenade-model-v1-browser-side"
+      ],
+      "model_identity": "afabba30064554eee257648388681999c376a57ea6bd988a9a64f12b0e159b6e",
+      "parent_ids": [
+        "frag-grenade-equipment-v16-20261011"
+      ]
+    },
+    {
+      "id": "smoke-grenade-model-v1-20261011",
+      "asset_id": "smoke-grenade",
+      "title": "AN-M8 烟雾弹模型 v1",
+      "kind": "inventory_revision",
+      "result": "local_verified_manual_review_pending",
+      "summary": "占位模型替换；原手指/枪械/保存保护通过。",
+      "scope": "资产索引优先，独立GLB与实际UE渲染，13个最终Game实跑；原Hold视图下沿遮挡保留。",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_MODELS_RESULT_20261011_ZH.md",
+      "metrics": {
+        "triangles": 7562,
+        "texture_size": 1024,
+        "model_glb_sha256": "8ba88a47a95c683398c5f470973a952971cf75123fdb17e7dc8ec6e5b604c1e7",
+        "dimensions_cm": [
+          6.57,
+          6.426,
+          14.835
+        ]
+      },
+      "media_ids": [
+        "smoke-grenade-model-v1-browser-front",
+        "smoke-grenade-model-v1-browser-side"
+      ],
+      "model_identity": "8ba88a47a95c683398c5f470973a952971cf75123fdb17e7dc8ec6e5b604c1e7",
+      "parent_ids": [
+        "smoke-grenade-equipment-v16-20261011"
+      ]
+    },
+    {
+      "id": "frag-grenade-wheel-integration-v4-20261011",
+      "asset_id": "frag-grenade",
+      "title": "滚轮装备整合 v4 (2026-10-11)",
+      "kind": "integration_revision",
+      "result": "local_verified_manual_review_pending",
+      "parent_ids": [
+        "frag-grenade-model-v1-20261011"
+      ],
+      "model_identity": "afabba30064554eee257648388681999c376a57ea6bd988a9a64f12b0e159b6e",
+      "summary": "模型 v1 字节沿用；滚轮选择、左键准备/松开投掷，当前统一候选待人工复验。",
+      "scope": "读取已有14项最终Game记录；本次只核对文件与平台预览，没有重新运行游戏验收。",
+      "document": "Docs/Development/MissionLoopV1/EQUIPMENT_WHEEL_INPUT_RESULT_20261011_ZH.md",
+      "metrics": {
+        "model_glb_sha256": "afabba30064554eee257648388681999c376a57ea6bd988a9a64f12b0e159b6e",
+        "game_sha256": "332756d091f64678de7b124e4e216571211bead31c42e6226edc686a14b15695",
+        "source_manifest_sha256": "ed5fa89398381deb823deae4d907abaeade31ee60ecdfcef082809fff3fe2e68"
+      },
+      "media_ids": [
+        "frag-grenade-model-v1-browser-front",
+        "frag-grenade-model-v1-browser-side"
+      ]
+    },
+    {
+      "id": "smoke-grenade-wheel-integration-v4-20261011",
+      "asset_id": "smoke-grenade",
+      "title": "滚轮装备整合 v4 (2026-10-11)",
+      "kind": "integration_revision",
+      "result": "local_verified_manual_review_pending",
+      "parent_ids": [
+        "smoke-grenade-model-v1-20261011"
+      ],
+      "model_identity": "8ba88a47a95c683398c5f470973a952971cf75123fdb17e7dc8ec6e5b604c1e7",
+      "summary": "模型 v1 字节沿用；滚轮选择、左键准备/松开投掷，当前统一候选待人工复验。",
+      "scope": "读取已有14项最终Game记录；本次只核对文件与平台预览，没有重新运行游戏验收。",
+      "document": "Docs/Development/MissionLoopV1/EQUIPMENT_WHEEL_INPUT_RESULT_20261011_ZH.md",
+      "metrics": {
+        "model_glb_sha256": "8ba88a47a95c683398c5f470973a952971cf75123fdb17e7dc8ec6e5b604c1e7",
+        "game_sha256": "332756d091f64678de7b124e4e216571211bead31c42e6226edc686a14b15695",
+        "source_manifest_sha256": "ed5fa89398381deb823deae4d907abaeade31ee60ecdfcef082809fff3fe2e68"
+      },
+      "media_ids": [
+        "smoke-grenade-model-v1-browser-front",
+        "smoke-grenade-model-v1-browser-side"
+      ]
+    }
+  ]
+}

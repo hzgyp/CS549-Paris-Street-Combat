@@ -1,4 +1,100 @@
+11October manual complete-gameplay adoption: reviewed76 grenade-equip is now formal, with residual sleeve occlusion explicitly retained. Old normal/runtime/binary/cache outputs retired through the [result](../Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md) and [exact recovery map](../Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json). Source/raw/results/images retained; older per-case demands to preserve loose Game directories now resolve through this map, not deletion of failure evidence. Tool/metadata corrections: [MI048](MI048-20261011-adoption-metadata-live-logs/ANALYSIS.md).
+
+11 October grenade palm occlusion: [MI047](MI047-20261011-grenade-palm-occlusion/ANALYSIS.md) keeps paired actual hand-visible/hidden frames proving the frag renders but is covered by the hand. Use exterior radius and the native pose's palm plane; no enlarged model, hidden hand or claim of full contact from projection.
+
+11 October grenade view anchor: [MI046](MI046-20261011-grenade-view-anchor/ANALYSIS.md) preserves the old-rifle-hand anchor's 47.338% in-screen frag projection despite a valid grenade pose. Derive the grenade-only frame from actual exterior size/FOV and capture real frames before judging; keep the original camera, rifle and crop gate.
+
+11 October human equipment rejection: [MI045](MI045-20261011-grenade-equip-human-rejection/ANALYSIS.md) records rifle-ready pose after grenade selection, invisible frag and selectable empty slots. Use a real compatible grenade-ready source, verify both exteriors in actual frames and skip exhausted types; old input passes do not override human rejection.
+
+11 October empty equipment hint: [MI044](MI044-20261011-wheel-empty-hint/ANALYSIS.md) retains the v3 rifle-selected HUD with a stale empty-smoke notice despite passing inputs. Clear notices on actual slot changes and suppress empty-slot draw props; original resources, models, fingers and save remain.
+
+11 October equipment wheel input: [MI043](MI043-20261011-wheel-input-witness/ANALYSIS.md) preserves v1's premature rifle counter capture and same-frame screenshot/primary mismatch. Read actual processed input on the following frame and defer primary until the requested image completes; keep the original rifle, resource gates and failed evidence.
+
+11 October field-manual UI: [MI037](MI037-20261011-field-manual-font-metrics/ANALYSIS.md) preserves v1's actual settings/footer overflow despite passing interaction checks. Convert point fonts to the reference pixel layout and require fresh 1080p/720p frames; positive glyph dimensions alone do not establish fit.
+
+11 October checkpoint fixture: [MI031](MI031-20261011-preclear-save-fixture/ANALYSIS.md) stops an unreachable pre-clear Waiting assumption. InsideCheckpoint already requires complete enemy clearance; retain failed v3, return to verified mine_v2 and never relax that gate to pass a fixture.
+
+11 October mine exterior: [MI030](MI030-20261011-mine-render-winding/ANALYSIS.md) preserves the black/dark runtime exterior despite Blender/GLB/PBR success. Correct the UE triangle-normal conversion and require actual images; render-buffer pass does not establish appearance. Also close stale checkpoint dialogs on actual post-clear death.
+
+11 October manual equipment review: [MI029](MI029-20261011-post-clear-trap-death/ANALYSIS.md) records actual Trap2 damage killing the player 2.26 seconds after Won. Armed hazards still run, but the original Won early return skips player death handling. Preserve the real session; do not infer the trigger actor or visible warning from the current log, or add trap removal to the enemy-clear checkpoint gate.
+
+11 October startup profile: [MI028](MI028-20261011-startup-render-profile/ANALYSIS.md) preserves pre-Ready DEVICE_HUNG and default quality3 in the first render, despite later requested quality2. Apply the same selected values through early DPCVars; keep D3D12 and original failures, without claiming a hardware/GPU root cause.
+
+11 October equipment smoke/evade: [MI027](MI027-20261011-smoke-atlas-hazard-owner/ANALYSIS.md) retains the invisible-smoke image, MoveTo-without-movement failure and v12 compile prerequisites. Require matching cooked atlas inputs and actual finite movement.
+
+10October manual checkpoint approval and local retirement: latest enemy-clear v3 is the formal52-file baseline. Superseded playable/build caches are removed under the [adoption result](../Docs/Development/G1_CHECKPOINT_BASELINE_ADOPTION_RESULT_20261010_ZH.md); source/failed identities/logs/images/journals retained, exact runnable bytes use the new compact recovery map. This supersedes older generated-output preservation claims only for the exact inventory, without changing raw failure/results.
+
 # 失败案例索引 / Failure case index
+
+11 October prone-death fixture: [MI041](MI041-20261011-prone-death-fixture/ANALYSIS.md) preserves a denied prone input at the rubble-edge initial position. Use a measured compatible test site and actual Z admission without weakening the original posture/collision rule.
+
+11 October blast appearance: [MI040](MI040-20261011-blast-flash-material/ANALYSIS.md) stops an emitted/loaded but insufficiently visible warm flash. Read actual material contracts and require fresh early UE pixels before adoption.
+
+11 October death-camera images: [MI039](MI039-20261011-death-camera-framing/ANALYSIS.md) preserves a numeric mine pass with a smeared camera transition, cropped head and overlapping terminal footer. The next identity must pass actual framing/fire/menu pictures.
+
+11 October death rendering: [MI038](MI038-20261011-death-render-compile/ANALYSIS.md) retains the distribution-helper declaration order and FString generation probe compile failures. Preserve the original source and fix only explicit prerequisites in a new identity before runtime checks.
+
+11 October combat UI: [MI032](MI032-20261011-combat-ui-api/ANALYSIS.md) retains protected-controller-member/TObjectPtr compile failures. Use a derived non-reflected setter and explicit pawn pointer; no gameplay pass is inferred from compilation.
+
+11 October UI evidence: [MI033](MI033-20261011-ui-screenshot-timing/ANALYSIS.md) preserves next-page screenshots caused by immediate input after an asynchronous screenshot request. Wait for the capture before changing pages and inspect actual pixels, rather than accepting filenames/JSON alone.
+
+11 October contextual UI: [MI034](MI034-20261011-ui-stale-save-hint/ANALYSIS.md) stops a save tutorial lingering after a real successful save. Clear guidance when its action becomes unavailable, and verify disappearance after actual HUD frames without changing save admission or persistence.
+
+11 October fixture invocation: [MI035](MI035-20261011-ui-restore-fixture-alias/ANALYSIS.md) separates the old-v16 seed identity from actual restore_equipment mode. Unknown mode is a failed command fixture, not evidence of save incompatibility or a pass.
+
+11 October Ready UI fixture: [MI036](MI036-20261011-ui-ready-selection-fixture/ANALYSIS.md) retains exit0 without RESULT when Enter executes an old Exit selection. Click the actual Begin button; never assume selection zero or treat normal process exit as test completion.
+
+10 October equipment runtime checks: [MI026](MI026-20261010-equipment-runtime-fixtures/ANALYSIS.md)
+distinguishes insufficient smoke rendering, camera-cache/AI isolation mistakes,
+the negative-fixture TArray alias assertion and an unexplained pre-Ready GPU hang.
+Use actual physical queries and real dense smoke; preserve each failed receipt.
+
+10 October equipment site admission: [MI025](MI025-20261010-equipment-site-admission/ANALYSIS.md)
+retains the failed first site group and insufficiently specific receipt, plus the
+Editor include/type failure. Measure real floor/capsule/full paths with explicit
+type prerequisites; do not relax geometry or treat 2D candidate sites as accepted.
+
+10 October equipment presentation: [MI024](MI024-20261010-equipment-presentation-admission/ANALYSIS.md)
+records mission Ready arriving before formal first-person display initialization.
+The first throw check's transaction pass does not admit its old-display pictures.
+Wait for the existing formal display in the additive equipment entry; preserve
+its setup timing, models, fingers, weapon and mission/save admission rules.
+
+10 October manually cleared checkpoint: [MI023](MI023-20261010-cleared-checkpoint-phase/FAILURE_ANALYSIS.md)
+records three registered Germans dead while phase remains Crossing, blocking the
+save before any disk write. Latest user instruction replaces the objective gate
+with enemy clearance only; retain older squad/transit evidence as history, and
+protect journal validation/checksum/readback. See the new enemy-clear implementation.
+
+10 October checkpoint dialog: [MI022](MI022-20261010-checkpoint-dialog/FAILURE_ANALYSIS.md)
+retains a HUD local-variable shadowing compile failure. Use a distinct candidate
+with a renamed local; original durable-save checks, cooked reflection and assets
+remain protected. Read the checkpoint-dialog implementation before continuing.
+
+10 October full-space completion: [MI021](MI021-20261010-full-space-completion/FAILURE_ANALYSIS.md)
+records a missing overlap-struct definition in the read-only survey build; no
+native survey or actor movement occurred. The next source includes its explicit
+Engine header without changing admission criteria. Read the completion plan;
+do not retry MI020's stopped placement/anchor adjustments or loosen collisions.
+
+10 October loadout/movement/HUD follow-up: [MI020](MI020-20261010-team-feedback-p1/FAILURE_ANALYSIS.md)
+preserves two diagnostic-only compile failures and a fixed 25cm white-cell
+placement rejected by the formal capsule. No actors moved in that failed group.
+The next candidate retains accepted positions; do not retry the stopped placement
+or weaken occupancy gates. The original Stride_v1 already calibrates walking;
+avoid double-scaling its interpolated 220cm/s sample and protect single-node
+action timing. Independent prone entry passed but forward travel stopped after
+1.569cm, so positive crawl remains unpassed. The v8 route observer missed Allies
+frozen on the bridge by player victory; v9 waits for original squad completion
+and actually verifies both living Allies across before Won. Native inputs,
+visuals and manual acceptance are separate gates.
+
+10 October menu/checkpoint interaction: [MI019](MI019-20261010-menu-checkpoint-interaction/FAILURE_ANALYSIS.md)
+retains a diagnostic-only UE file API compile failure, narrowed readonly-journal
+fixture, and v3 cooked-schema startup failure. v4 restores exact parent reflection
+declarations with a runtime-only feedback counter. Production save/resources, native assets and normal
+user files stay protected. Consult the team-feedback implementation/result
+before using the new child; compile success is not manual feedback reproduction.
 
 10 October delivery-directory cleanup: old draft/support materials and rejected
 reports are moved into a verified private compressed evidence archive;118 original
@@ -401,6 +497,8 @@ or a speculative native/spawn repair; PC_EnableCombat's source gates are qualifi
 - 离线原生归档保持原 package 内部身份。它不是 package 改名、Catalog 选择或自动恢复权限；恢复必须先检查原路径是否已被新工作占用，再单独计划。
 
 ## Required pre-development review
+
+11 October grenade props: [MI042](MI042-20261011-grenade-model-build/ANALYSIS.md) records factory-empty World absence, an extra generated namespace brace, and a rejected rubble-edge photo fixture. Preserve failed source/log/images; use the complete function boundary and a measured native-admitted photo site. These failures do not authorize changing fingers, assets, navigation or save rules.
 
 German NPC trigger-pivot V2 human rejection,6 October:
 [37.6degree result](../Docs/Development/GERMAN_NPC_TRIGGER_PIVOT_V2_RESULT_20261006.md).

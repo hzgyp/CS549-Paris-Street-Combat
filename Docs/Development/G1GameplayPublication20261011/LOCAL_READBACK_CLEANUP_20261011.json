@@ -1,0 +1,8 @@
+{
+  "status": "verified_task_readback_copies_removed",
+  "removed_files": 59,
+  "removed_logical_bytes": 17023050200,
+  "current_package_retained": true,
+  "teacher_package_retained": true,
+  "obsolete_remote_package_bytes_removed": 0
+}

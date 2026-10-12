@@ -1,0 +1,334 @@
+{
+  "records": [
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_ALLIED_REFERENCE_INVENTORY_20261003.json",
+      "sha256": "d8ad702c101a591a239e28aacdd5c35c95f173464fc3f6565aaad0301bbfd57f",
+      "date": "2026-10-03",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_FINE_TEXTURE_V15_INVENTORY_20261004.json",
+      "sha256": "3c50034de51a8868361f5f6100db3e2dcc7992433d21398eab54703316157e41",
+      "date": "2026-10-04",
+      "candidate": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/finish_v1/GermanRifle_FineWood_V15.glb",
+      "models": [
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/comparison_v1/allied_m1_inspection.blend",
+          "bytes": 17321864,
+          "sha256": "528970098aa90113db32969aa85eeb647af4a21a052ee3f6d50f251ee1629c00"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/comparison_v1/german_v15_inspection.blend",
+          "bytes": 81285535,
+          "sha256": "f07a078f88fd5c006ade3a1dfdd45b8cc4e2a3e925e41897aa121093c19f35b5"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/finish_v1/GermanRifle_FineWood_V15.blend",
+          "bytes": 110979481,
+          "sha256": "b6c9afcd4de1675d533158bef5698e8b05e47e6226880964b241d606292f26b8"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/finish_v1/GermanRifle_FineWood_V15.glb",
+          "bytes": 81346308,
+          "sha256": "77f7fd8cdde8c6b0b030b7b0ed4646f6bce8b03ad47f4ecb1826b51e502b378f"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/preview_v1/GermanRifle_FineWood_V15.blend",
+          "bytes": 110967417,
+          "sha256": "8669db3522d39403ba1112af95ce52dcab896c3e2355f50d4a442cfaf1575283"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/preview_v1/GermanRifle_FineWood_V15.glb",
+          "bytes": 81346308,
+          "sha256": "62624aebb928bb9faeead4505adf2217e9809f1c90ded88cc6fd5d0c22c25c57"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/repeat_v1/GermanRifle_FineWood_V15.blend",
+          "bytes": 110949321,
+          "sha256": "622db14460a6d78611964c9e67d3ed4dee43d9b8f1b56de0db0093b7d3a41b51"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-fine-texture-v15/repeat_v1/GermanRifle_FineWood_V15.glb",
+          "bytes": 81346308,
+          "sha256": "b40429ed65346d591f174d8d82a04cb6e9287e96580638e1b96ca0d1bb24c482"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_FINISH_INVENTORY_20261003.json",
+      "sha256": "1345177ee6dc317ff93a9e6eff8ac4e6014436ee95f188a06f10293f6b672d84",
+      "date": "2026-10-03",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_JOINT_INVENTORY_20261003.json",
+      "sha256": "0c3aca7ffe13edfce714ed05bdc366b2993bcf9bfbff9b87c93e11dd7ba3b95f",
+      "date": "2026-10-03",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_M1_TEXTURE_V12_INVENTORY_20261004.json",
+      "sha256": "f2188ad9bcf9e9546ae9dcf234aec9dd8e2baab87fec78c2392f89fa85919097",
+      "date": "2026-10-04",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_MANUAL_INVENTORY_20261003.json",
+      "sha256": "2350dbf34043d84aa5d0d0f3a76a739e1a1073f02909a33fda06e0bdf0bec43b",
+      "date": "2026-10-03",
+      "candidate": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-manual-v9/front_finish_v1/Kar98k_ManualFront_V9.glb",
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_PART_SPLIT_INVENTORY_20261003.json",
+      "sha256": "c7a8a70ca6170265938332565fa95bdb5cf31c02cb08ba2c14ae38ef123880dc",
+      "date": "2026-10-03",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_PILOT_INVENTORY_20261003.json",
+      "sha256": "bd5c8ac072878bb90a500bcf3669e9e66de7d9a241a487a4ce3cfdefcc417309",
+      "date": "2026-10-03",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_REFINEMENT_INVENTORY_20261003.json",
+      "sha256": "9f78ad35e0ac72bd315feb5b2c526b7cbf767ac9ade65e123928860e6eb081ad",
+      "date": "2026-10-03",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_SPR_DRAFT_INVENTORY_20261004.json",
+      "sha256": "c87ff002bd53c2b27656bca81f34ec7187d2c00a25effb261bc66e73a57a4769",
+      "date": "2026-10-04",
+      "candidate": {
+        "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/GermanRifle_SPR_V10.glb",
+        "bytes": 11621376,
+        "sha256": "795967ab635064139c69a4e46ffacfce222b992e275a7ffec5043cb974642323"
+      },
+      "models": [
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/GermanRifle_SPR_V10.blend",
+          "bytes": 13558627,
+          "sha256": "8f39109ff6139ae492fe74b2ef44270171b85410dfb2390675f592e3499bb40f"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v1/GermanRifle_SPR_V10.glb",
+          "bytes": 12265864,
+          "sha256": "6a5463a0d20b206c4389329bfd7a8c5a309b9f8d53d8abfd3c8979406f324510"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/GermanRifle_SPR_V10.blend",
+          "bytes": 12842973,
+          "sha256": "59778c10a50b5ae62229ba0308e87a046a2e1ddbdd962538028cd86b1dc47841"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v2/GermanRifle_SPR_V10.glb",
+          "bytes": 11550212,
+          "sha256": "121128e7480447ffee49ab8aeff4d8c17547896370e350432953386eab776626"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/GermanRifle_SPR_V10.blend",
+          "bytes": 13077144,
+          "sha256": "5895c9631dedcab873c63670055bf90330a2b467d654ea734acfa68de72849a6"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/finish_v3/GermanRifle_SPR_V10.glb",
+          "bytes": 11621376,
+          "sha256": "795967ab635064139c69a4e46ffacfce222b992e275a7ffec5043cb974642323"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/GermanRifle_SPR_V10.blend",
+          "bytes": 13522666,
+          "sha256": "4e5bbd19860524eabdc90ccfd438449e9d4b0e7038a443a219cfd2de6c181a1f"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/gray_v1/GermanRifle_SPR_V10.glb",
+          "bytes": 12264868,
+          "sha256": "8c5a7da367e94d20cbea6652cbd312d1fe2f6ee2899ff4b01e59729b02106ad0"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/GermanRifle_SPR_V10.blend",
+          "bytes": 13040424,
+          "sha256": "1343d5ad4b78bc8efa69cea567aed8db8dcf66c9d47e58da91537ae5231cdbbb"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-v10/repeat_v1/GermanRifle_SPR_V10.glb",
+          "bytes": 11621376,
+          "sha256": "a8cbdba702b109fbb0189da6ed306bb2ae4cc5793d80c1979d17bbc0d4ae5c36"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_SURFACE_INVENTORY_20261003.json",
+      "sha256": "3ba791a66fd7855b899bfa180a7f30a4b163fcb9be8e256a5836022fa25c27a6",
+      "date": "2026-10-03",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_TOPOLOGY_INVENTORY_20261003.json",
+      "sha256": "b44c153a9a148328b6173b0a4899ac425a54d43627f77530d76d67befdc53a23",
+      "date": "2026-10-03",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_UE_DRAFT_INVENTORY_20261004.json",
+      "sha256": "8fb33dfd94b6557ef9cc455000601ab33c0074a65f13355b534eac887cff5faa",
+      "date": "2026-10-04",
+      "candidate": null,
+      "models": []
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_WEATHERING_DRAFT_INVENTORY_20261004.json",
+      "sha256": "efe0fff0508ad1cf468aaedf292b57219215ad5461fd74f2fac96d0ab8488e6a",
+      "date": "2026-10-04",
+      "candidate": {
+        "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.glb",
+        "bytes": 21605816,
+        "sha256": "f979fb6a5ad4a725553d73804c3f3efd7a793e55c16129164223bd69ccb55a8d"
+      },
+      "models": [
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.blend",
+          "bytes": 23109377,
+          "sha256": "7f9283212611c8753efc3b3c0a8ae2bb69a60e8c011856478589e0214e444b42"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/finish_v1/GermanRifle_SPR_Weathered_V11.glb",
+          "bytes": 21605816,
+          "sha256": "f979fb6a5ad4a725553d73804c3f3efd7a793e55c16129164223bd69ccb55a8d"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/GermanRifle_SPR_Weathered_V11.blend",
+          "bytes": 23014320,
+          "sha256": "7a94610073aa0e104284bf01ee0d7d423983a8beffd3549b5f569f414babe480"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/preview_v1/GermanRifle_SPR_Weathered_V11.glb",
+          "bytes": 21510756,
+          "sha256": "eb244b72f935682ab649813b0f50b77fdfeee069c16a8b046b8ca1cb633e6491"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/GermanRifle_SPR_Weathered_V11.blend",
+          "bytes": 23109377,
+          "sha256": "2c1c917ed08b8c6ccfc96d46a2a23edf76f71f329c014131c4bd7c4465622fab"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-spr-weather-v11/repeat_v1/GermanRifle_SPR_Weathered_V11.glb",
+          "bytes": 21605816,
+          "sha256": "74bca68ecc6618e2a364e374560a890c9b6c1e1ad4d02c7d0613419de152a4e7"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_WOOD_FINISH_V14_INVENTORY_20261004.json",
+      "sha256": "37c5cd4aa680dfd24c949098fb1e64af2eb0a8a9b8258b45928528ba7d216cec",
+      "date": "2026-10-04",
+      "candidate": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/GermanRifle_DarkWood_V14.glb",
+      "models": [
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/allied_m1_inspection.blend",
+          "bytes": 17321862,
+          "sha256": "9bdcf71918a19157712ec80957c2ed72bef1be45a85d356fe42a815a72eeb678"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/comparison_v1/german_v14_inspection.blend",
+          "bytes": 65620751,
+          "sha256": "63458691382185719a4045c0bdb530a0e685428bbc4309b5630382f6bbe7d908"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/GermanRifle_DarkWood_V14.blend",
+          "bytes": 93200590,
+          "sha256": "5372fa3f4d85a7ee6c15bd476daa6b6fe42efdc22bf0a5d22743e312d2a53917"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/finish_v1/GermanRifle_DarkWood_V14.glb",
+          "bytes": 65642620,
+          "sha256": "9ca471321bd2b684d324cd094eb50d2e3ae0b0adaf174f3ea19dd8b30b0d3c80"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/GermanRifle_DarkWood_V14.blend",
+          "bytes": 93076593,
+          "sha256": "774396db60454ce4d9e286875d2a3891faf08ee6704101337716fb9e014825a6"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/preview_v1/GermanRifle_DarkWood_V14.glb",
+          "bytes": 65530408,
+          "sha256": "d3f1713d1d256ae079c482c65fa1a82fab010114ff7b8b800f07bdc1162bdd8b"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/GermanRifle_DarkWood_V14.blend",
+          "bytes": 93170430,
+          "sha256": "a2ee8d07d89cfdce102f43691076317323fdf8ed505d80e5c61f73ef0f2998de"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-finish-v14/repeat_v1/GermanRifle_DarkWood_V14.glb",
+          "bytes": 65642620,
+          "sha256": "5421f0b1897fb5c07ec2856ba8be37e098643efc9ae7db08f3d4185968e44068"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Integration/GERMAN_RIFLE_WOOD_WEAR_V13_INVENTORY_20261004.json",
+      "sha256": "9a251fb2fe94183452261e5ffc2b5d77c57ec19777362a47169119962ca73846",
+      "date": "2026-10-04",
+      "candidate": null,
+      "models": [
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/allied_m1_inspection.blend",
+          "bytes": 17321861,
+          "sha256": "13b0ba5362a44fca790193f034c8fe256c2b912b92fec39d80cf14a632a75beb"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/comparison_v1/german_v13_inspection.blend",
+          "bytes": 67478593,
+          "sha256": "48082709bef7381752bc6887fc2ccd44c51f1e014dcbab4597177d264333442f"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/GermanRifle_CoordinatedWear_V13.blend",
+          "bytes": 77142615,
+          "sha256": "8da3679bafbd4bbe8c906aed661ec017847e1e68c4b70f02815758fad2da0c7f"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v1/GermanRifle_CoordinatedWear_V13.glb",
+          "bytes": 67460068,
+          "sha256": "a84ed4390d45f37ad453a6a0867a074849ae8387b7737defcc88f2b50d8374d6"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/GermanRifle_CoordinatedWear_V13.blend",
+          "bytes": 77183277,
+          "sha256": "bb730a98cfe70241fb1a6af069d2366bdce69536db813aa9bbcd5634afb0f46e"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/finish_v2/GermanRifle_CoordinatedWear_V13.glb",
+          "bytes": 67500732,
+          "sha256": "76c557b3334c8b9a7ee178b33783376642b5c8a176a37e662ab7203714c00a81"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/proof_v1/GermanRifle_CoordinatedWear_V13.blend",
+          "bytes": 49583720,
+          "sha256": "d5cdb15de922991099132387a8661875aed669fcee0cd3085bb7fe8f1f5ec640"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/GermanRifle_CoordinatedWear_V13.blend",
+          "bytes": 77122957,
+          "sha256": "484e1258f232aaa4f9c5db73e658c92108288a1b931b05a87fe882c7acfd85cf"
+        },
+        {
+          "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261004-wood-wear-v13/repeat_v1/GermanRifle_CoordinatedWear_V13.glb",
+          "bytes": 67500732,
+          "sha256": "bb9b3cd0b09f7e43c7280a43f9954ea6024500abddbd9d3a510f913de258241b"
+        }
+      ]
+    }
+  ]
+}

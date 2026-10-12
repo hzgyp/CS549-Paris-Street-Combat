@@ -1,0 +1,39 @@
+{
+  "status": "manually_reviewed76_adopted_local_retirement_verified",
+  "finished": "2026-10-11T19:44:43.890773-04:00",
+  "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
+  "source_files": 76,
+  "source_manifest_sha256": "9ac0620c0794c2cc64c0b701d50e7dba4a82941bee7d147be1f72cd604d9312d",
+  "normal_files": 100,
+  "checks": 15,
+  "user_logic_accepted": true,
+  "remaining_visual_issue": "Minor clothing/sleeve occlusion",
+  "targets_removed": 244,
+  "obsolete_playables_removed": 7,
+  "logical_removed_bytes": 392735802562,
+  "recovery_bytes": 7782416094,
+  "actual_net_free_increase_bytes": 41192599552,
+  "native_files": 1754,
+  "protected_files": 12147,
+  "user_files_unchanged": 56,
+  "cache_metadata_files": 524,
+  "live_editor_logs_preserved": 2,
+  "engines": [
+    {
+      "ProcessId": 51148,
+      "ParentProcessId": 10276,
+      "Name": "UnrealEditor.exe",
+      "CommandLine": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"D:\\0.Rutgers\\CS549\\Project-New\\tmp\\g1-tactical-equipment-20261010\\candidate_full_v8\\Project\\WW2FranceLiberation.uproject\" /Engine/Maps/Entry -NoSplash -NoLoadStartupPackages -DisablePython -noraytracing -UDPMESSAGING_TRANSPORT_ENABLE=false -abslog=\"D:\\0.Rutgers\\CS549\\Project-New\\tmp\\g1-tactical-equipment-20261010\\editor-candidate_full_v8.log\" -ExecCmds=\"t.MaxFPS 15\""
+    },
+    {
+      "ProcessId": 50836,
+      "ParentProcessId": 3752,
+      "Name": "UnrealEditor.exe",
+      "CommandLine": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"D:\\0.Rutgers\\CS549\\Project-New\\tmp\\g1-tactical-equipment-20261010\\candidate_full_v16\\Project\\WW2FranceLiberation.uproject\" /Engine/Maps/Entry -DDC=InstalledNoZenLocalFallback -NoSplash -NoLoadStartupPackages -DisablePython -noraytracing -UDPMESSAGING_TRANSPORT_ENABLE=false -abslog=\"D:\\0.Rutgers\\CS549\\Project-New\\tmp\\g1-tactical-equipment-20261010\\editor-candidate_full_v16-fallback.log\" -ExecCmds=\"t.MaxFPS 15\""
+    }
+  ],
+  "game_and_source_bytes_unchanged": true,
+  "no_user_process_terminated": true,
+  "no_git_or_remote_publication": true,
+  "previous_formal52_retained_for_recovery": true
+}

@@ -51,6 +51,21 @@ function EntryHash($entry){
     try{return [Convert]::ToHexString($hasher.ComputeHash($stream)).ToLowerInvariant()}
     finally{$stream.Dispose();$hasher.Dispose()}
 }
+#10October local formal-baseline retirement: preserve original plans/maps and
+#resolve their now-retired audioV2 references through the exact newer mapping.
+function RestoreCheckpointReferencedFile($taskReference,$taskExpected,$taskDestination){
+    $taskMapPath=Join-Path $taskRoot 'Docs/Development/G1CheckpointBaselineAdoption20261010/RECOVERY_MAP_20261010.json'
+    $taskAuthority=Get-Content -LiteralPath (Join-Path $taskRoot 'Docs/Development/G1CheckpointBaselineAdoption20261010/RETIREMENT_INVENTORY_20261010.json') -Raw|ConvertFrom-Json
+    if((Get-FileHash -LiteralPath $taskMapPath).Hash.ToLowerInvariant() -ne $taskAuthority.recovery_map_sha256){throw 'Checkpoint retirement map changed'}
+    $taskMap=Get-Content -LiteralPath $taskMapPath -Raw|ConvertFrom-Json
+    $taskMatch=@($taskMap.files|Where-Object {$_.path -eq $taskReference})
+    if($taskMatch.Count -ne 1 -or $taskMatch[0].sha256 -ne $taskExpected.sha256 -or $taskMatch[0].size_bytes -ne $taskExpected.size_bytes){throw 'Checkpoint recovery changes original bytes'}
+    $taskPython=Join-Path $env:USERPROFILE '.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe'
+    $taskRestoreArgs=@((Join-Path $taskRoot 'Tools/Integration/G1CheckpointBaselineAdoption20261010/restore_file.py'),$taskReference)
+    if(-not $VerifyRecoveryOnly){$taskRestoreArgs+=@('--output',$taskDestination)}
+    & $taskPython @taskRestoreArgs
+    if($LASTEXITCODE -ne 0){throw 'Checkpoint reference recovery failed'}
+}
 try{
     foreach($r in @($plan.files|Where-Object target -eq $Target)){
         $p=Safe $r.path
@@ -75,8 +90,10 @@ try{
                 if($item.sha256 -ne $r.sha256 -or $item.size_bytes -ne $r.size_bytes){throw 'Audio recovery changes original bytes'}
                 if($item.recovery.kind -eq 'retained_file'){
                     $source=Safe $item.recovery.path
-                    if((Get-Item -LiteralPath $source).Length -ne $r.size_bytes -or (Get-FileHash -LiteralPath $source).Hash.ToLowerInvariant() -ne $r.sha256){throw 'Retained audio baseline bytes mismatch'}
-                    if(-not $VerifyRecoveryOnly){Copy-Item -LiteralPath $source -Destination $p}
+                    if(Test-Path -LiteralPath $source){
+                        if((Get-Item -LiteralPath $source).Length -ne $r.size_bytes -or (Get-FileHash -LiteralPath $source).Hash.ToLowerInvariant() -ne $r.sha256){throw 'Retained audio baseline bytes mismatch'}
+                        if(-not $VerifyRecoveryOnly){Copy-Item -LiteralPath $source -Destination $p}
+                    }else{RestoreCheckpointReferencedFile $item.recovery.path $r $r.path}
                 }elseif($item.recovery.kind -eq 'zip_entry'){
                     if(-not $extraArchives.ContainsKey($item.recovery.archive_path)){
                         $archivePath=Safe $item.recovery.archive_path
@@ -90,8 +107,10 @@ try{
                 }else{throw 'Unknown audio recovery kind'}
             }else{
                 $source=Safe $r.retained_path
-                if((Get-FileHash -LiteralPath $source).Hash.ToLowerInvariant() -ne $r.sha256){throw 'Retained source mismatch'}
-                if(-not $VerifyRecoveryOnly){Copy-Item -LiteralPath $source -Destination $p}
+                if(Test-Path -LiteralPath $source){
+                    if((Get-FileHash -LiteralPath $source).Hash.ToLowerInvariant() -ne $r.sha256){throw 'Retained source mismatch'}
+                    if(-not $VerifyRecoveryOnly){Copy-Item -LiteralPath $source -Destination $p}
+                }else{RestoreCheckpointReferencedFile $r.retained_path $r $r.path}
             }
         }elseif($r.recovery -eq 'zip_entry'){
             $e=$zip.GetEntry($r.entry);if(-not $e){throw 'ZIP entry missing'}

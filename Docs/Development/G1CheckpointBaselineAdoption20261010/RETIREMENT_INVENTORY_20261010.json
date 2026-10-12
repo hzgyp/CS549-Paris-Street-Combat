@@ -1,0 +1,1754 @@
+{
+  "date": "2026-10-10",
+  "authorization": "User manual review passed; adopt latest baseline and delete superseded local versions",
+  "private_inventory": "tmp/g1-checkpoint-baseline-adoption-20261010/retirement.json",
+  "inventory_sha256": "6faa7ceec25ba29b36fd131937084163a4e41aa36275ac0f5edd740de43823fd",
+  "recovery_map_sha256": "c61729f268722ffd9982555f2a168e86d3b4fa2a404c1f44778be079c449ed2b",
+  "targets": [
+    {
+      "path": "tmp/Playtest-G1-Checkpoint-candidate_v2-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 91,
+      "size_bytes": 8458117572
+    },
+    {
+      "path": "tmp/Playtest-G1-Checkpoint-candidate_v3-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 94,
+      "size_bytes": 8458120586
+    },
+    {
+      "path": "tmp/Playtest-G1-Completion-candidate_v2-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458074094
+    },
+    {
+      "path": "tmp/Playtest-G1-Completion-candidate_v4-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458086382
+    },
+    {
+      "path": "tmp/Playtest-G1-Completion-candidate_v5-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458086382
+    },
+    {
+      "path": "tmp/Playtest-G1-Completion-candidate_v6-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458096110
+    },
+    {
+      "path": "tmp/Playtest-G1-Completion-candidate_v7-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458098158
+    },
+    {
+      "path": "tmp/Playtest-G1-Completion-candidate_v8-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458098158
+    },
+    {
+      "path": "tmp/Playtest-G1-Completion-candidate_v9-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 91,
+      "size_bytes": 8458099652
+    },
+    {
+      "path": "tmp/Playtest-G1-EnemyClear-candidate_v2-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 92,
+      "size_bytes": 8458133875
+    },
+    {
+      "path": "tmp/Playtest-G1-Foley-V2-20261009",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 88,
+      "size_bytes": 8457982834
+    },
+    {
+      "path": "tmp/Playtest-G1-Interaction-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 90,
+      "size_bytes": 8458010132
+    },
+    {
+      "path": "tmp/Playtest-G1-Interaction-V4-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458009902
+    },
+    {
+      "path": "tmp/Playtest-G1-TeamP1-candidate_v2-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458047431
+    },
+    {
+      "path": "tmp/Playtest-G1-TeamP1-candidate_v3-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458047431
+    },
+    {
+      "path": "tmp/Playtest-G1-TeamP1-candidate_v6-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458052039
+    },
+    {
+      "path": "tmp/Playtest-G1-TeamP1-candidate_v7-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458052551
+    },
+    {
+      "path": "tmp/Playtest-G1-TeamP1-candidate_v8-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458053063
+    },
+    {
+      "path": "tmp/Playtest-G1-TeamP1-candidate_v9-20261010",
+      "kind": "directory",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 89,
+      "size_bytes": 8458054122
+    },
+    {
+      "path": "tmp/g1-audio-publication-20261009/Paris-G1-Audio-V2-20261009.zip",
+      "kind": "file",
+      "role": "old_formal_zip_remote_retained",
+      "exact_recovery": false,
+      "sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+      "file_count": 1,
+      "size_bytes": 8476572643
+    },
+    {
+      "path": "tmp/g1-av-revision-20261009/candidate_v1/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739307843
+    },
+    {
+      "path": "tmp/g1-av-revision-20261009/candidate_v1/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 73,
+      "size_bytes": 2617942403
+    },
+    {
+      "path": "tmp/g1-av-revision-20261009/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 24,
+      "size_bytes": 16185517
+    },
+    {
+      "path": "tmp/g1-av-revision-20261009/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4792008
+    },
+    {
+      "path": "tmp/g1-av-revision-20261009/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590547
+    },
+    {
+      "path": "tmp/g1-av-revision-20261009/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324113
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v1/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 9,
+      "size_bytes": 362056519
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v1/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618610064
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 47,
+      "size_bytes": 25226802
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793526
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6591053
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325343
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v2/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740286793
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v2/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618637469
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 48,
+      "size_bytes": 31458411
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793526
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6591053
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325343
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v3/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740296009
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v3/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618664704
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 48,
+      "size_bytes": 31463337
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793526
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6591053
+    },
+    {
+      "path": "tmp/g1-checkpoint-dialog-20261010/candidate_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325341
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v1/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 9,
+      "size_bytes": 362075465
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v1/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618695383
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 46,
+      "size_bytes": 29142416
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4794717
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6591480
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6326462
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v2/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740384078
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v2/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618723508
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 48,
+      "size_bytes": 32032049
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4794717
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6591480
+    },
+    {
+      "path": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6326462
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v1/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739366221
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v1/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 71,
+      "size_bytes": 2617830640
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 24,
+      "size_bytes": 16256531
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4794446
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6591401
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6326207
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739367245
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 71,
+      "size_bytes": 2617830640
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 24,
+      "size_bytes": 16257973
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4794446
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6591401
+    },
+    {
+      "path": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6326207
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 745113063
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/DerivedDataCache",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 5,
+      "size_bytes": 1627828
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 7,
+      "size_bytes": 169394788
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Plugins/ParisBridgeMissionV1/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 3,
+      "size_bytes": 67998326
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 47,
+      "size_bytes": 23520361
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Plugins/ParisGripBindingV18/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 3,
+      "size_bytes": 63365748
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 71,
+      "size_bytes": 10425960
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Plugins/ParisMuzzleFlashV1/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 3,
+      "size_bytes": 67710066
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 39,
+      "size_bytes": 15126324
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Plugins/ParisNPCGripV15/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 5,
+      "size_bytes": 126881458
+    },
+    {
+      "path": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 86,
+      "size_bytes": 16796054
+    },
+    {
+      "path": "tmp/g1-recorded-foley-20261009/candidate_v1/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739336518
+    },
+    {
+      "path": "tmp/g1-recorded-foley-20261009/candidate_v1/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 71,
+      "size_bytes": 2617826320
+    },
+    {
+      "path": "tmp/g1-recorded-foley-20261009/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 24,
+      "size_bytes": 16218946
+    },
+    {
+      "path": "tmp/g1-recorded-foley-20261009/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4792889
+    },
+    {
+      "path": "tmp/g1-recorded-foley-20261009/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590796
+    },
+    {
+      "path": "tmp/g1-recorded-foley-20261009/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324750
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v1/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 9,
+      "size_bytes": 362012488
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v1/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618366562
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 43,
+      "size_bytes": 25623167
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324929
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v2/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740089159
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v2/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618392837
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 44,
+      "size_bytes": 28814998
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324929
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v3/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 9,
+      "size_bytes": 362032455
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v3/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618418977
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 43,
+      "size_bytes": 25606706
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324927
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v4/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740142407
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v4/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618445119
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v4/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 44,
+      "size_bytes": 28975563
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v4/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v4/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v4/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324929
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v5/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740134215
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v5/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618471261
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v5/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 44,
+      "size_bytes": 28981808
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v5/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v5/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v5/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324929
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v6/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740225863
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v6/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618500251
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v6/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 48,
+      "size_bytes": 31344557
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v6/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v6/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v6/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324929
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v7/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740236103
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v7/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618527514
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v7/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 48,
+      "size_bytes": 31348972
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v7/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v7/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v7/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324929
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v8/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740236103
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v8/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618554563
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v8/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 48,
+      "size_bytes": 31349166
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v8/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v8/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v8/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324929
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v9/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740244295
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v9/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618581612
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v9/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 48,
+      "size_bytes": 31349222
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v9/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793088
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v9/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590899
+    },
+    {
+      "path": "tmp/g1-team-completion-20261010/candidate_v9/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324929
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v1/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 9,
+      "size_bytes": 361941325
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v1/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618035381
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 31,
+      "size_bytes": 17953909
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4792586
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590701
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324543
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v2/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739582789
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v2/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618058541
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 20181546
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4792586
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590701
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324543
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v3/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739582277
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v3/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618081897
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 20182349
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4792586
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590701
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324543
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v4/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739574085
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v4/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618105253
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v4/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 20180865
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v4/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4792586
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v4/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590701
+    },
+    {
+      "path": "tmp/g1-team-feedback-20261010/candidate_v4/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6324543
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v1/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 9,
+      "size_bytes": 361967941
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v1/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618135888
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 39,
+      "size_bytes": 22755230
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793323
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v2/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739865928
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v2/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618161857
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 40,
+      "size_bytes": 25148026
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793323
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v3/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739874120
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v3/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618187162
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 40,
+      "size_bytes": 25147143
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793323
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v4/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739901768
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v4/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618212467
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v4/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 40,
+      "size_bytes": 25246209
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v4/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793323
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v4/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v4/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v5/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 9,
+      "size_bytes": 362008904
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v5/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618237772
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v5/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 39,
+      "size_bytes": 22738755
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v5/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793323
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v5/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v5/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v6/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739903304
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v6/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618263077
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v6/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 40,
+      "size_bytes": 25260728
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v6/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793323
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v6/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v6/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v7/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739895624
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v7/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618288382
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v7/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 40,
+      "size_bytes": 25263335
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v7/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793322
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v7/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v7/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v8/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739904328
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v8/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618313687
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v8/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 40,
+      "size_bytes": 25263336
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v8/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793323
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v8/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v8/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v9/Project/Binaries",
+      "kind": "directory",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 739913544
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v9/Project/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 84,
+      "size_bytes": 2618338992
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v9/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 40,
+      "size_bytes": 25582355
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v9/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4793323
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v9/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6590974
+    },
+    {
+      "path": "tmp/g1-team-feedback-p1-20261010/candidate_v9/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "kind": "directory",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6325156
+    }
+  ],
+  "logical_removed_bytes": 273274569850,
+  "recovery_zip": {
+    "path": "tmp/g1-checkpoint-baseline-adoption-20261010/retired_unique_files.zip",
+    "size_bytes": 6240044479,
+    "sha256": "601a95812d40d93e142af4f0682562cd25edba45eeeca5cc585e1ac9291768d2"
+  },
+  "no_remote_mutation": true,
+  "no_git_publication": true
+}

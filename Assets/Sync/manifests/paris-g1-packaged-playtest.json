@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "asset_version": "paris-g1-playtest-20261009-audio-v2",
+  "asset_version": "paris-g1-playtest-20261011-gameplay-v1",
   "owner": "Yupu Guo",
-  "published_at": "2026-10-09T21:48:51.863606-04:00",
+  "published_at": "2026-10-11T20:14:59.611251-04:00",
   "license_record": "Assets/Sync/RIGHTS.md",
   "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
   "recipients": [
@@ -10,59 +10,33 @@
     "Yuqi Pu",
     "Jingdi Wu"
   ],
-  "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
-  "source_variant": "Unreal/Variants/G1FootContactAudio20261009",
-  "source_manifest_sha256": "2ff88f0e74040b46e8b7c26750602c56556857a06b45db96c28f297f534b468b",
+  "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
+  "source_variant": "Unreal/Variants/G1GrenadeEquip20261011",
+  "source_manifest_sha256": "9ac0620c0794c2cc64c0b701d50e7dba4a82941bee7d147be1f72cd604d9312d",
   "verification": {
-    "method": "Pinned-host authenticated SFTP final-object download and full SHA256/size comparison",
-    "manual_review": "Yupu selects exact audio V2 after manual retest",
-    "second_machine": "Not performed; assigned to teammates",
-    "editor_recook": "Not performed",
-    "fps_stress": "Not established"
+    "method": "Pinned-host authenticated SFTP final byte readback SHA256/size",
+    "manual_review": "User logic acceptance with residual sleeve occlusion",
+    "second_machine": "Not retested for76",
+    "editor_recook": "Not performed"
   },
   "asset_id": "paris-g1-packaged-playtest",
-  "source": "Exact manually retested normal audio-V2 trial, unchanged native cooked closure",
-  "engine": "Unreal Engine5.8.2 CL56702186 Windows x64 Development",
+  "engine": "Unreal Engine5.8.2 Windows x64 Development",
+  "source": "Unchanged reviewed100-file normal trial plus release guides and Microsoft runtime",
+  "scope": "Current three-member private formal gameplay; course audioV2 retained separately",
   "dependencies": [],
   "runtime_python_required": false,
   "runtime_editor_bridge_required": false,
-  "scope": "Private playable baseline; not course completion",
-  "entry": "Extract all and run PLAY_G1_REVISION.cmd",
+  "entry": "Extract all; PLAY_GRENADE_EQUIP.cmd",
   "archive_members": [
     {
-      "path": "Listen/01_M1_real_shot.wav",
-      "size_bytes": 56204,
-      "sha256": "f52a11a9e852b141a77e6d22e2851d9d314b3d34cccc6232465bb5f3b6a2f0c9"
+      "path": "PLAY_GRENADE_EQUIP.cmd",
+      "size_bytes": 920,
+      "sha256": "c81348587665d873cff2eed0604ee0989c2e4edb620eb768e4f1714da69ab5fa"
     },
     {
-      "path": "Listen/02_jump_takeoff.wav",
-      "size_bytes": 31724,
-      "sha256": "391f1fdb491d4a3b7929e3c5b187c5272bb1d45d14bd41b774b179d69abbd258"
-    },
-    {
-      "path": "Listen/03_jump_landing.wav",
-      "size_bytes": 40748,
-      "sha256": "553795d67eba886ac0846ba7df0e0a39f199ce8b9d812ad13a5a9224d688e815"
-    },
-    {
-      "path": "Listen/MANIFEST.json",
-      "size_bytes": 578,
-      "sha256": "53c4ba08d707c349772431f0a28618a27788a0c55d89bfaebc5915ab713a60bc"
-    },
-    {
-      "path": "Listen/README.txt",
-      "size_bytes": 141,
-      "sha256": "71d9b04dc14de7903b50987d1bc6c6c38da42a66185ab2c19208ccabc05e1747"
-    },
-    {
-      "path": "PLAY_G1_REVISION.cmd",
-      "size_bytes": 576,
-      "sha256": "01d91f83e748a6d949108d14a1dd4210302784fed2354a53b8ade6dbc5a64e47"
-    },
-    {
-      "path": "README_试听说明.txt",
-      "size_bytes": 1049,
-      "sha256": "d04e2ed9a048cbe82609a59ee6bb912d8c582f3eab4b283649e34dba12603ebb"
+      "path": "README_ZH.md",
+      "size_bytes": 1354,
+      "sha256": "b1ff1d565dd69510cc52761b30c1bb5eccbd39c12461900911acd5c3b4b66585"
     },
     {
       "path": "Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
@@ -233,6 +207,11 @@
       "path": "Windows/WW2FranceLiberation/Audio/death.wav",
       "size_bytes": 175724,
       "sha256": "497d5ff83263a80e49fa5cbb4c73d421fbbd904cd4cdc9398e233c0aa762d7c2"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/equipment_explosion.wav",
+      "size_bytes": 57754,
+      "sha256": "92fc18b0d0b78b479700e5c0dced4de7df6300fee39a34000b83d43f028b0464"
     },
     {
       "path": "Windows/WW2FranceLiberation/Audio/fire.wav",
@@ -411,8 +390,8 @@
     },
     {
       "path": "Windows/WW2FranceLiberation/Binaries/Win64/WW2FranceLiberation.exe",
-      "size_bytes": 332873728,
-      "sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec"
+      "size_bytes": 333381632,
+      "sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
     },
     {
       "path": "Windows/WW2FranceLiberation/Content/Paks/global.ucas",
@@ -440,6 +419,66 @@
       "sha256": "14242d3221135635802ed4741706e360475da46785092556117d5517ab9140ff"
     },
     {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_albedo.png",
+      "size_bytes": 1675918,
+      "sha256": "2eda34c82dc826a6be64d408fd6a6135a028b88724ede250721853522ac246ed"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_geometry.json",
+      "size_bytes": 1723576,
+      "sha256": "4f836c22ec91e0d1e5b4c096ea870556466a1a3a54b5c4513639a5c81511acb1"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_normal.png",
+      "size_bytes": 1717000,
+      "sha256": "9249335b5e2a7529b2655d5f05c9b663afc1ed649c93a2d3d0e344b2fa02470d"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_orm.png",
+      "size_bytes": 1794723,
+      "sha256": "dcccf3a515c0a6b3e755249a6e235de6b84f764aab1f2e52fc001cc437bef8c7"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_albedo.png",
+      "size_bytes": 594581,
+      "sha256": "d6840ae07d79e63df29a6af833e1d44310bede474b0e398f9f157bc8ef1fda1b"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_geometry.json",
+      "size_bytes": 4886498,
+      "sha256": "86b3583147efdc454e9e58f92eb25fbbbf8904e9d2cea6423a11da4e8e8699a2"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_normal.png",
+      "size_bytes": 641222,
+      "sha256": "f8e4744406712ca434cf2b7b91cf6a19e8976cd54a5d780361408dd62999510c"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_orm.png",
+      "size_bytes": 455586,
+      "sha256": "a073c1ee026af840a942fb9bbc15aea981fefe33ba23d76dec8b9bd085a0952a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Mine/mine_albedo.png",
+      "size_bytes": 631924,
+      "sha256": "4b7a4a046b189431c1e1b9e95d3771bb7a17bbf9320a526613c701c15906cd97"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Mine/mine_geometry.json",
+      "size_bytes": 7110340,
+      "sha256": "4b0a115c81b8fdefc545d7270b4eeb813b5c9fc9cbd48484cd6168db5cb86752"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Mine/mine_normal.png",
+      "size_bytes": 416569,
+      "sha256": "80ee452083e395b5d00a80c1658c04f64ee1139b0120cef9d2d5d0fa9055c7bb"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Mine/mine_orm.png",
+      "size_bytes": 477387,
+      "sha256": "a03b8cc0a875b0b13adca4e39e760fe8b7e1b4f351106c3caa442d9a2650caa6"
+    },
+    {
       "path": "Windows/WW2FranceLiberation/UI/Cinzel-OFL.txt",
       "size_bytes": 4383,
       "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
@@ -465,24 +504,44 @@
       "sha256": "91c6a238d0947675f7b14be9cc44b9dd4c53164d8da36f974f457e2466a22d0d"
     },
     {
+      "path": "Windows/WW2FranceLiberation/UI/Roboto-Apache2.txt",
+      "size_bytes": 11329,
+      "sha256": "813aec82b71fe6fc927f1f9f5c08c5a098785b0a89e3a2e76697aa4662e5f666"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Roboto-BoldCondensed.ttf",
+      "size_bytes": 161308,
+      "sha256": "2c9245c0246a9c745793c7eaa9cc1fc964a12570009031ea0223115bec6e9426"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Roboto-provenance.json",
+      "size_bytes": 916,
+      "sha256": "64206d3967182e7758ae8cb179ea2057cb2b8e9c28575b35a1b38358c426075c"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Roboto-Regular.ttf",
+      "size_bytes": 158604,
+      "sha256": "16466ef65064e6f3885a6d2806b8949ac1ac38b524dd0cf8fc96565eb4cc28e8"
+    },
+    {
       "path": "Windows/WW2FranceLiberation.exe",
       "size_bytes": 171520,
       "sha256": "eebfb6fe53ba754e6da98a4c296aa27b267e64d4d39f4b2d4c5a87f72fce32fa"
     },
     {
-      "path": "README.md",
-      "size_bytes": 1410,
-      "sha256": "dd6b7deb5cee429f0f5c11b8c398ac63d71e2f49b6da8236e2781e68b24516ba"
+      "path": "FORMAL_README_ZH.md",
+      "size_bytes": 1107,
+      "sha256": "9f25857f1c57d1c5240fe198fb1be65a892c607a13a7aa15d00dbeaa03ffdf38"
     },
     {
-      "path": "README_ZH.md",
-      "size_bytes": 1132,
-      "sha256": "f87113eab528944467c42bee0a5bc7355ec03af93066e4ef417c4e510d96e477"
+      "path": "README.md",
+      "size_bytes": 1403,
+      "sha256": "a5943c2de61cce787b09eb81a849cff7290a88b05528cf25e82570c6d7bf14d6"
     },
     {
       "path": "SOURCE_VARIANT.json",
-      "size_bytes": 621,
-      "sha256": "a751d0837e2730132deeb224a6ab100ca8253620090a38bfb9f6c2d4ac43d2be"
+      "size_bytes": 743,
+      "sha256": "208fa989bbe3908d18b5438eae82017611b07f706ba8e2bcd5508cbf6da84b93"
     },
     {
       "path": "vc_redist.x64.exe",
@@ -492,13 +551,13 @@
   ],
   "files": [
     {
-      "path": "tmp/g1-audio-publication-20261009/Paris-G1-Audio-V2-20261009.zip",
-      "size_bytes": 8476572643,
-      "sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+      "path": "tmp/g1-gameplay-publication-20261011/Paris-G1-Gameplay-20261011.zip",
+      "size_bytes": 8499470074,
+      "sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
       "storage": "sftp",
-      "remote_path": "/objects/sha256/7a/7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d"
+      "remote_path": "/objects/sha256/42/42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349"
     }
   ],
   "file_count": 1,
-  "size_bytes": 8476572643
+  "size_bytes": 8499470074
 }

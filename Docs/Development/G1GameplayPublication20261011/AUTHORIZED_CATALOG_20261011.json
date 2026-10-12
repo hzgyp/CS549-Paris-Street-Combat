@@ -1,0 +1,43 @@
+{
+  "authorization": "User requests Git commit/push and private latest package sync plus old-package cleanup, explicitly retaining course reviewer package",
+  "before": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 14570,
+    "sha256": "882f487c07e9ef15fadb56d0c769509bc4f837239d03c2e503ef906a67b618cf"
+  },
+  "after": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 16324,
+    "sha256": "edbb72917fa9aab83f4e6231977ee943c2560980141e15ef1b3c0c90518555ae"
+  },
+  "new_package": {
+    "path": "tmp/g1-gameplay-publication-20261011/Paris-G1-Gameplay-20261011.zip",
+    "size_bytes": 8499470074,
+    "sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+    "storage": "sftp",
+    "remote_path": "/objects/sha256/42/42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349"
+  },
+  "teacher_retained": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+  "manifests": [
+    {
+      "asset_id": "paris-g1-packaged-playtest",
+      "path": "paris-g1-packaged-playtest.json",
+      "sha256": "fbfa10b1af92c71fae6df20342fe5ae6d5c3a4212f636b0c329fa984dbf102eb",
+      "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-packaged-playtest.json"
+    },
+    {
+      "asset_id": "paris-g1-gameplay-runtime-resources",
+      "path": "paris-g1-gameplay-runtime-resources.json",
+      "sha256": "6dca83746c3c6eddbc16734ffdc33bf6e6e237e3e93f52a036562a0f764558ec",
+      "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-gameplay-runtime-resources.json"
+    },
+    {
+      "asset_id": "paris-g1-course-review-package",
+      "path": "paris-g1-course-review-package.json",
+      "sha256": "a70f876e418f5b1f6703f9eac0916a90c683fecd4093f70253f9be4631a2aed7",
+      "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-course-review-package.json"
+    }
+  ],
+  "only_package_and_runtime_roles_advance": true,
+  "native_manifests_unchanged": true
+}

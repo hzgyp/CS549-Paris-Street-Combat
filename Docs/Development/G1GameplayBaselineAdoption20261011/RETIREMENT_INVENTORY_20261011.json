@@ -1,0 +1,1724 @@
+{
+  "authorization": "User manual review: logic accepted with remaining sleeve occlusion; adopt and retire obsolete local versions",
+  "private_inventory": "tmp/g1-gameplay-baseline-adoption-20261011/retirement.json",
+  "inventory_sha256": "08172013ec8c252d5873ec3f8ceb27839795202f418b2c247bee77ba7b41c19c",
+  "recovery_map_sha256": "044f960d3ef1ec9fb83d797dd9b9340e3bf7e6c96c7e7fddf57e1825b74575ef",
+  "recovery_zip": {
+    "path": "tmp/g1-gameplay-baseline-adoption-20261011/retired_unique_files.zip",
+    "size_bytes": 7782416094,
+    "sha256": "8d8799305ab8d3c4d4319cb9addf4e6ff20c879706c9cfb57c3c684797c19922"
+  },
+  "targets": [
+    {
+      "path": "tmp/Playtest-G1-CombatUI-20261011",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 88,
+      "size_bytes": 8466961917
+    },
+    {
+      "path": "tmp/Playtest-G1-DeathPresentation-20261011",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 92,
+      "size_bytes": 8467352391
+    },
+    {
+      "path": "tmp/Playtest-G1-EquipmentWheel-20261011",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 100,
+      "size_bytes": 8480866286
+    },
+    {
+      "path": "tmp/Playtest-G1-FieldManualUI-20261011",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 92,
+      "size_bytes": 8467314688
+    },
+    {
+      "path": "tmp/Playtest-G1-GrenadeModels-20261011",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 100,
+      "size_bytes": 8480852260
+    },
+    {
+      "path": "tmp/Playtest-G1-PressureMine-20261011",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 88,
+      "size_bytes": 8466882350
+    },
+    {
+      "path": "tmp/Playtest-G1-TacticalEquipment-20261010",
+      "role": "obsolete_playable",
+      "exact_recovery": true,
+      "file_count": 84,
+      "size_bytes": 8458214123
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v1/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 13,
+      "size_bytes": 370600949
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v1/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v2/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 751255534
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v2/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v2/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 90,
+      "size_bytes": 8467346425
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v3/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 751256046
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v3/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v3/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 90,
+      "size_bytes": 8467346937
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v4/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 751273966
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v4/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v4/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v4/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v4/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v4/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v4/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 90,
+      "size_bytes": 8467348473
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v5/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 751314414
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v5/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v5/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v5/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v5/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v5/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v5/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 90,
+      "size_bytes": 8467347961
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 751292398
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 187,
+      "size_bytes": 5847509945
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 70,
+      "size_bytes": 48436584
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4795183
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6591674
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6326856
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 90,
+      "size_bytes": 8467350521
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_build_v1/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480863689
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_build_v2/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480864201
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_build_v3/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480864201
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_build_v4/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480864201
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_v1/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 751398904
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_v1/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 73,
+      "size_bytes": 2618073518
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 70,
+      "size_bytes": 48592639
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4797529
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6592568
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6328914
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v1/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750950901
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v1/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v1/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 90,
+      "size_bytes": 8467312121
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v2/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750951413
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v2/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_field_manual_v2/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 90,
+      "size_bytes": 8467312633
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v3/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 741002575
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v3/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v3/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 94,
+      "size_bytes": 8458197230
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v4/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740995407
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v4/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v4/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v4/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v4/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v4/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v4/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 94,
+      "size_bytes": 8458198254
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v5/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 741003599
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v5/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v5/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v5/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v5/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v5/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_frag_v5/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 94,
+      "size_bytes": 8458198254
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v10/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 749588462
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v10/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 2,
+      "size_bytes": 476
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v10/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v10/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v10/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v10/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v10/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 95,
+      "size_bytes": 8458329224
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v11/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 749939182
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v11/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 2,
+      "size_bytes": 476
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v11/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v11/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v11/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v11/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v11/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 95,
+      "size_bytes": 8458335880
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v12/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 13,
+      "size_bytes": 370457070
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v12/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 2,
+      "size_bytes": 476
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v12/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v12/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v12/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v12/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v13/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750004718
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v13/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 2,
+      "size_bytes": 476
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v13/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v13/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v13/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v13/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v13/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 95,
+      "size_bytes": 8458344072
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v14/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750040558
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v14/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 2,
+      "size_bytes": 476
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v14/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v14/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v14/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v14/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v14/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 95,
+      "size_bytes": 8458347144
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v15/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750049262
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v15/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 2,
+      "size_bytes": 476
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v15/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v15/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v15/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v15/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v15/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 95,
+      "size_bytes": 8458347656
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v6/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 741348175
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v6/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v6/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v6/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v6/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v6/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v6/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 95,
+      "size_bytes": 8458313864
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 12,
+      "size_bytes": 748624719
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Plugins/ParisBridgeMissionV1/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Plugins/ParisGripBindingV18/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 2,
+      "size_bytes": 63365632
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Plugins/ParisMuzzleFlashV1/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 2,
+      "size_bytes": 67709952
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Plugins/ParisNPCGripV15/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 4,
+      "size_bytes": 126889472
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v7/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v9/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 13,
+      "size_bytes": 370441709
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v9/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 2,
+      "size_bytes": 476
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v9/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v9/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v9/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_full_v9/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_equip_build_v1/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480871881
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_equip_build_v2/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480872393
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_equip_build_v3/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480874441
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v1/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 751344119
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v1/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 73,
+      "size_bytes": 2618007141
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 70,
+      "size_bytes": 48525122
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 32,
+      "size_bytes": 4797266
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 16,
+      "size_bytes": 6592457
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 28,
+      "size_bytes": 6328687
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v2/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480849353
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v3/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480849353
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v5/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 98,
+      "size_bytes": 8480850377
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_inventory_v2/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 10,
+      "size_bytes": 740493140
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_inventory_v2/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_inventory_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_inventory_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_inventory_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_inventory_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_inventory_v2/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 94,
+      "size_bytes": 8458146542
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v1/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750288877
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v1/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v1/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 99,
+      "size_bytes": 8467010500
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750293997
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 99,
+      "size_bytes": 8467015620
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v3/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750295021
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v3/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_mine_v3/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 99,
+      "size_bytes": 8467016644
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_trap_picture_v1/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750069749
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_trap_picture_v1/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 7,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_trap_picture_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_trap_picture_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_trap_picture_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_trap_picture_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_trap_picture_v1/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 95,
+      "size_bytes": 8458351752
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v1/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 13,
+      "size_bytes": 370500589
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v1/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v2/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750828523
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v2/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v2/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v2/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v2/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v2/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v2/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 86,
+      "size_bytes": 8466955900
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v3/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750889963
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v3/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v3/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v3/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v3/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v3/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v3/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 86,
+      "size_bytes": 8466959996
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v4/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750881771
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v4/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v4/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v4/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v4/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v4/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v4/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 86,
+      "size_bytes": 8466959996
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v5/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 14,
+      "size_bytes": 750889451
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v5/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 11,
+      "size_bytes": 169028807
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v5/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v5/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v5/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v5/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_ui_v5/Runtime",
+      "role": "superseded_runtime",
+      "exact_recovery": true,
+      "file_count": 86,
+      "size_bytes": 8466959484
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_v1/Project/Binaries",
+      "role": "superseded_binary",
+      "exact_recovery": true,
+      "file_count": 9,
+      "size_bytes": 362090830
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_v1/Project/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_v1/Project/Plugins/ParisBridgeMissionV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_v1/Project/Plugins/ParisGripBindingV18/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_v1/Project/Plugins/ParisMuzzleFlashV1/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    },
+    {
+      "path": "tmp/g1-tactical-equipment-20261010/candidate_v1/Project/Plugins/ParisNPCGripV15/Intermediate",
+      "role": "rebuildable_cache",
+      "exact_recovery": false,
+      "file_count": 0,
+      "size_bytes": 0
+    }
+  ],
+  "logical_removed_bytes": 392735802562,
+  "initial_inventory_sha256": "0a5909766b6a57019d7df6eb3020e463cbfd2aad75009f1f0f2dc0ea60096fea",
+  "live_log_revision": "Two exact active Editor log snapshots plus unchanged original prefixes; all other guards/targets/recovery unchanged"
+}

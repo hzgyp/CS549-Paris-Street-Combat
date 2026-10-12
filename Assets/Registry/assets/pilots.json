@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "german-soldier",
+      "name": "德军士兵",
+      "name_en": "German Soldier WWII",
+      "category": "人物",
+      "origin": "adapted",
+      "lifecycle": "retained",
+      "owner": "Yupu / Paris team",
+      "bundles": [
+        "german-soldier-original",
+        "character-ue582-integration-baseline"
+      ],
+      "description": "保留原人物、骨架与动作，采用德军自身V11握姿。",
+      "human_review": "人工已采用，接触细节仍有限制",
+      "limitations": [
+        "完整动作与接触不能由Ready静态图代替。"
+      ],
+      "documents": [
+        "Docs/Development/GERMAN_NPC_ASSET_USAGE.md"
+      ],
+      "order": 0,
+      "aliases": [
+        "德军士兵",
+        "German Soldier WWII",
+        "german-soldier"
+      ],
+      "validation": "见分项证据",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+    },
+    {
+      "id": "allied-soldier",
+      "name": "盟军伞兵",
+      "name_en": "US Paratrooper",
+      "category": "人物",
+      "origin": "adapted",
+      "lifecycle": "retained",
+      "owner": "Yupu / Paris team",
+      "bundles": [
+        "us-paratrooper-original",
+        "character-ue582-integration-baseline"
+      ],
+      "description": "原始伞兵与M1组合，V16握姿由原生策略绑定。",
+      "human_review": "V16外观已人工采用",
+      "limitations": [
+        "不将玩家或德军握姿偏移直接复用给盟军。"
+      ],
+      "documents": [
+        "Docs/Development/ALLIED_NPC_ASSET_USAGE.md"
+      ],
+      "order": 1,
+      "aliases": [
+        "盟军伞兵",
+        "US Paratrooper",
+        "allied-soldier"
+      ],
+      "validation": "见分项证据",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+    },
+    {
+      "id": "first-person",
+      "name": "第一人称手臂与步枪",
+      "name_en": "First Person Arms & Rifle",
+      "category": "武器",
+      "origin": "adapted",
+      "lifecycle": "retained",
+      "owner": "Yupu / Paris team",
+      "bundles": [
+        "paris-gameplay-native-playtest"
+      ],
+      "description": "V20认可展示与原生绑定，保持手指、动作和原武器事务。",
+      "human_review": "V20展示已人工采用",
+      "limitations": [
+        "ADS、衣袖和弹夹机件仍有资产适配缺口。"
+      ],
+      "documents": [
+        "Docs/Development/FIRST_PERSON_FORMAL_V21_RESULT_20261005.md"
+      ],
+      "order": 2,
+      "aliases": [
+        "第一人称手臂与步枪",
+        "First Person Arms & Rifle",
+        "first-person"
+      ],
+      "validation": "见分项证据",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+    },
+    {
+      "id": "pressure-mine",
+      "name": "盘形压力地雷",
+      "name_en": "Pressure Mine",
+      "category": "道具",
+      "origin": "team_created",
+      "lifecycle": "candidate",
+      "owner": "Yupu / Paris team",
+      "bundles": [],
+      "description": "自建二战风格游戏道具，28厘米盘体与烘焙PBR。",
+      "human_review": "外观记录通过，人工正式选定待定",
+      "limitations": [
+        "虚构外观道具；不声称真实历史型号。"
+      ],
+      "documents": [
+        "Docs/Development/MissionLoopV1/PRESSURE_MINE_RESULT_20261011_ZH.md"
+      ],
+      "order": 3,
+      "aliases": [
+        "盘形压力地雷",
+        "Pressure Mine",
+        "pressure-mine"
+      ],
+      "validation": "见分项证据",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+    },
+    {
+      "id": "german-rifle",
+      "name": "德军步枪 FineWood",
+      "name_en": "German Rifle FineWood V15",
+      "category": "武器",
+      "origin": "adapted",
+      "lifecycle": "retained",
+      "owner": "Yupu / Paris team",
+      "bundles": [
+        "german-rifle-model"
+      ],
+      "description": "V15木质与金属外观；模型修订和原生整合分别记录。",
+      "human_review": "静态模型已认可",
+      "limitations": [
+        "静态模型认可不等于完整可动枪械套件通过。"
+      ],
+      "documents": [
+        "Docs/Development/GERMAN_NPC_ASSET_USAGE.md"
+      ],
+      "order": 4,
+      "aliases": [
+        "德军步枪 FineWood",
+        "German Rifle FineWood V15",
+        "german-rifle"
+      ],
+      "validation": "见分项证据",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+    },
+    {
+      "id": "recorded-audio",
+      "name": "战斗与动作音效",
+      "name_en": "Recorded Foley & Gunfire",
+      "category": "音频",
+      "origin": "adapted",
+      "lifecycle": "retained",
+      "owner": "Yupu / Paris team",
+      "bundles": [
+        "paris-g1-recorded-audio"
+      ],
+      "description": "33条运行时音效；脚步、跳跃、换弹与录制M1枪声。",
+      "human_review": "audio V2已人工采用",
+      "limitations": [
+        "德军枪声仍为原合成声；不能标作真实K98录音。"
+      ],
+      "documents": [
+        "Docs/Development/CURRENT_AUDIO_REVIEW.json"
+      ],
+      "order": 5,
+      "aliases": [
+        "战斗与动作音效",
+        "Recorded Foley & Gunfire",
+        "recorded-audio"
+      ],
+      "validation": "见分项证据",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+    },
+    {
+      "id": "paris-city",
+      "name": "巴黎二战地图 · France Liberation",
+      "name_en": "France Liberation · Paris WWII map",
+      "category": "地图",
+      "origin": "purchased",
+      "lifecycle": "retained",
+      "owner": "Yupu / Paris team",
+      "bundles": [
+        "france-liberation-content"
+      ],
+      "description": "完整巴黎城市环境包；15,850文件、69个关卡/场景层，当前游戏使用其G1派生地图。",
+      "human_review": "当前游戏地图来源",
+      "limitations": [
+        "地图原件只读；预览不代表全图碰撞、导航或性能验收。"
+      ],
+      "documents": [
+        "Assets/TEAM_SYNC_WORKFLOW.md",
+        "Docs/Development/AssetWorkbenchV1/CITY_MAP_ASSET_USAGE_20261011_ZH.md",
+        "Assets/Sync/RIGHTS.md"
+      ],
+      "order": 6,
+      "aliases": [
+        "巴黎城市环境",
+        "France Liberation City",
+        "paris-city",
+        "地图",
+        "巴黎地图",
+        "巴黎二战地图",
+        "法国解放",
+        "France Liberation",
+        "WW2City",
+        "LV_Paris_WW2",
+        "LV_ParisG1_Midterm_V1",
+        "Meshingun Studio"
+      ],
+      "validation": "原件清单与当前游戏默认地图已登记",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权",
+      "map_details": {
+        "supplier": "Meshingun Studio",
+        "delivery_version": "d20260630 (UE5.6+)",
+        "content_version": "git-assets-20260930-210133",
+        "file_count": 15850,
+        "size_bytes": 28421951358,
+        "level_count": 69,
+        "vendor_map": "/Game/WW2City/Maps/LV_Paris_WW2",
+        "game_map": "/Game/ParisCombat/Maps/LV_ParisG1_Midterm_V1",
+        "levels": [
+          {
+            "name": "LV_Paris_WW2.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_Paris_WW2.umap",
+            "role": "城市主关卡",
+            "size_bytes": 797475,
+            "sha256": "8e6a6a09ff036f2d96cf49a64c1d7a3af33faaa424e401f8daa02d898b2e27a3"
+          },
+          {
+            "name": "LV_Lighting_Day.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_Lighting_Day.umap",
+            "role": "白昼灯光",
+            "size_bytes": 346228,
+            "sha256": "ecd13843e60dbb773a714b9993b630196ecb49d4e1b30de874d8c5e7d4133369"
+          },
+          {
+            "name": "LV_Lighting_Midnight.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_Lighting_Midnight.umap",
+            "role": "午夜灯光",
+            "size_bytes": 372129,
+            "sha256": "36bd7eaa59355198c161f73dcbdcaa10591757de052e8c516d4c9c97d138e0a9"
+          },
+          {
+            "name": "LV_Lighting_WarFog.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_Lighting_WarFog.umap",
+            "role": "战争雾灯光",
+            "size_bytes": 371402,
+            "sha256": "4f534ac8241746206ca8575c530d94f408d09f7ac73fa1c82b23912f5c11a5d5"
+          },
+          {
+            "name": "LV_NewsetDressing.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_NewsetDressing.umap",
+            "role": "新增场景陈设",
+            "size_bytes": 15195726,
+            "sha256": "95b29e47785edc42dd0afd9389e2160fc1cb73535b6a2ac8558d55042d061955"
+          },
+          {
+            "name": "LV_Overview.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/Overview/LV_Overview.umap",
+            "role": "资源概览关卡",
+            "size_bytes": 7233785,
+            "sha256": "8096efeb4cd33a39107b0aef082044656d2d1592d61f4bd781d34f1ce4e994b1"
+          },
+          {
+            "name": "LV_Powerline.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_Powerline.umap",
+            "role": "电线网络",
+            "size_bytes": 35711533,
+            "sha256": "4241ddbfc0139c9eedba5cf4ca91c1bf533f3c7ccd6f7e354f5e071a3ddb84db"
+          },
+          {
+            "name": "LV_Proxy.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_Proxy.umap",
+            "role": "代理场景",
+            "size_bytes": 2867981,
+            "sha256": "e69810440abe60e9ad0813d3291783c79e996f4904fcdbfd74b1d08df88be9ee"
+          },
+          {
+            "name": "LV_SetDressing.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_SetDressing.umap",
+            "role": "场景陈设",
+            "size_bytes": 8770,
+            "sha256": "f5fcc7c980016c7307b303e58f49a1120d65ed7cbc81f7f30cfebac7bd8ad575"
+          },
+          {
+            "name": "LV_SplineRoads.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_SplineRoads.umap",
+            "role": "样条道路",
+            "size_bytes": 2164233,
+            "sha256": "51a2e79439fb61195f4841de25e81b48ce0ae57a89f97ab071a2211d5346d001"
+          },
+          {
+            "name": "LV_StructureAsset.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_StructureAsset.umap",
+            "role": "建筑与结构",
+            "size_bytes": 19020631,
+            "sha256": "b273ddc3e67446f6668ddaf5e93b039aa304d901f31da64f36f4653c78885726"
+          },
+          {
+            "name": "LV_VFX.umap",
+            "path": "Unreal/ParisStreetCombat/Content/WW2City/Maps/LV_VFX.umap",
+            "role": "场景特效",
+            "size_bytes": 254256,
+            "sha256": "e00ac6e09c2b8b4c248f53fbcd4467d55b1d6de72a5149c39836a82beab7aa19"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rifle-animation",
+      "name": "步枪动作库",
+      "name_en": "Rifle Animset Pro",
+      "category": "动作",
+      "origin": "purchased",
+      "lifecycle": "retained",
+      "owner": "Yupu / Paris team",
+      "bundles": [
+        "rifle-animset-pro-original",
+        "rifle-pro-mocap-ue582-selected"
+      ],
+      "description": "成熟动作来源；按目标骨架和武器分别验证适配。",
+      "human_review": "现有交付与选择记录",
+      "limitations": [
+        "10月4日RifleAnimsetPro重复交付不是新增动作。"
+      ],
+      "documents": [
+        "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md"
+      ],
+      "order": 7,
+      "aliases": [
+        "步枪动作库",
+        "Rifle Animset Pro",
+        "rifle-animation"
+      ],
+      "validation": "见分项证据",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+    }
+  ]
+}

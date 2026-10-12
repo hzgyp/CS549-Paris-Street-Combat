@@ -1,0 +1,20 @@
+{
+  "status": "prepublication_normalization_issue_corrected",
+  "observed_before_commit": {
+    "staged_selector_fingerprint_mismatches": [
+      "Docs/Development/CURRENT_EQUIPMENT_INPUT_REVIEW.json",
+      "Docs/Development/CURRENT_EQUIPMENT_REVIEW.json",
+      "Docs/Development/CURRENT_GRENADE_MODEL_REVIEW.json"
+    ],
+    "cause": "Git text normalization changed CRLF selector JSON to LF; the asset index pins the original exact bytes.",
+    "doc_format_findings": "Three new human-authored documents and the generated asset directory have terminal empty Markdown lines."
+  },
+  "correction": {
+    "selector_policy": "Exact three paths marked -text and explicitly re-added with git add --renormalize because ordinary git add retained the previously normalized index entries; original selector files and index fingerprints unchanged.",
+    "documents": "Trim terminal empty lines in the three new manual documents; retain generated directory formatting with an exact-path whitespace style.",
+    "source_game_models_save_changed": false,
+    "guard_bypassed": false,
+    "published_before_correction": false
+  },
+  "acceptance": "All staged index fingerprints and 13 exact source snapshot manifests must match; diff --check and normal pre-commit/pre-push hooks must pass."
+}

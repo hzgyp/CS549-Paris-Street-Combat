@@ -144,3 +144,34 @@ Thumbs.db
 # registration and a narrowly scoped negative ignore rule; never force-add assets.
 *.uasset
 *.umap
+
+# Reviewed pressure-mine document illustration, exact bytes in the allowlist.
+!/Docs/Images/MissionLoopV1/PRESSURE_MINE_UE_DETAIL_20261011.png
+!/Docs/Images/MissionLoopV1/G1_GAMEPLAY_SITES_20261011.png
+
+!/Docs/Images/MissionLoopV1/COMBAT_UI_MISSION_20261011.png
+
+!/Docs/Images/MissionLoopV1/COMBAT_UI_SQUAD_20261011.png
+
+!/Docs/Images/MissionLoopV1/COMBAT_UI_HELP_20261011.png
+
+!/Docs/Images/MissionLoopV1/COMBAT_UI_HUD_20261011.png
+
+!/Docs/Images/MissionLoopV1/COMBAT_UI_POST_SAVE_20261011.png
+!/Docs/Images/MissionLoopV1/FIELD_MANUAL_CONCEPT_20261011.png
+!/Docs/Images/MissionLoopV1/FIELD_MANUAL_HELP_20261011.png
+!/Docs/Images/MissionLoopV1/FIELD_MANUAL_MISSION_20261011.png
+!/Docs/Images/MissionLoopV1/FIELD_MANUAL_SQUAD_20261011.png
+!/Docs/Images/MissionLoopV1/FIELD_MANUAL_SETTINGS_20261011.png
+!/Docs/Images/MissionLoopV1/FIELD_MANUAL_POST_SAVE_20261011.png
+
+# Exact reviewed death-sequence document figures.
+!/Docs/Images/MissionLoopV1/PLAYER_DEATH_BLAST_20261011.png
+!/Docs/Images/MissionLoopV1/PLAYER_DEATH_COLLAPSE_20261011.png
+!/Docs/Images/MissionLoopV1/PLAYER_DEATH_MENU_20261011.png
+
+# Reviewed grenade model document illustration (exact path only).
+!Docs/Images/MissionLoopV1/GRENADE_MODELS_UE_20261011.png
+
+# Formal76 private runtime restoration bytes: licensed models/fonts/audio.
+/Unreal/Variants/G1GrenadeEquip20261011/RuntimeResources/

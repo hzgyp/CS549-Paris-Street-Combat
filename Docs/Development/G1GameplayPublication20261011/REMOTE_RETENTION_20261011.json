@@ -1,0 +1,20 @@
+{
+  "status": "pass_current_and_teacher_preserved_no_unused_old_zip_remaining",
+  "packaged_zips": [
+    {
+      "path": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+      "size_bytes": 8476572643
+    },
+    {
+      "path": "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip",
+      "size_bytes": 8499470074
+    }
+  ],
+  "teacher_bytes_full_authenticated_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+  "teacher_download_unchanged": true,
+  "teacher_access_unchanged": true,
+  "obsolete_zip_bytes_removed": 0,
+  "reason": "Old HUD ZIP already retired; the only earlier remaining playable ZIP is the explicitly protected teacher package",
+  "no_native_objects_or_workspaces_pruned": true,
+  "root_acl_unchanged": true
+}

@@ -1,4 +1,222 @@
+## 2026-10-11：正式76私有发布与老师包保留
+
+最新SFTP：/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip。精确76和RuntimeResources清单见TEAM_CURRENT_BUILD_20261011_ZH及G1_GAMEPLAY_PUBLICATION实施／结果。老师旧audioV2 ZIP／哈希对象／原manifest／访问附件未变，独立course-review角色保持。旧HUD已先前删除；没有其它旧试玩ZIP可安全清理。原生／模型／枪械／存档／用户文件保持，UE继续开启。Git提交推送为本轮授权步骤，实际远端HEAD单独记录，不能按本文提前推断成功。
+
+## 2026-10-11：完整玩法正式采用及本机清理（最新）
+
+Latest manual complete-gameplay adoption/local retirement,11October2026: user manually verifies grenade-equip finalv4 logic, reports residual clothing/sleeve occlusion, selects it as formal baseline and authorizes old transitional local versions deleted. Read CURRENT_DEVELOPMENT_BASELINE and G1_GAMEPLAY_BASELINE_ADOPTION implementation/result plus the exact retirement/recovery map. Formal source76 Unreal/Variants/G1GrenadeEquip20261011/Project, Game b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d; authoring candidate_grenade_equip_v1/Project contains final build_v4. Stable PLAY_CURRENT_G1.cmd points to unchanged tmp/Playtest-G1-GrenadeEquip-20261011/PLAY_GRENADE_EQUIP.cmd, UserDir G1GrenadeEquip20261011/prefixParisGrenadeEquipV2 retained. Original models/rifle finger constants/gun/save/native1754 and user files exact. Enemy elimination alone unlocks circle/E checkpoint; actual original validation retained. Sleeve issue remains backlog, not full visual/contact/motion/large-NPC/Editor/second-machine/course acceptance. Seven obsolete normal trials and frozen old Runtime/Archive/Binaries/caches retired with exact binary recovery and small cache metadata; keep all source/raw/failure/cooked inputs/current authoring/current final receipt, both running full_v8/full_v16 Editor projects and one old formal52 normal package for recovery dependencies. Existing Editors stay open; no process terminated. This supersedes dated pending-review/formal52/keep-generated-output claims ONLY for this selected revision and exact inventory. No Git/SFTP/video/course publication in this adoption task.
+
+
+## 2026-10-11：巴黎地图资产展示补齐
+
+paris-city保留ID/15850成员，改名“巴黎二战地图 · France Liberation”、新增地图分类/别名/大小/69个关卡目录与供应/游戏派生图路径。交付d20260630、Content精确manifest、G1原生版本及当前固定Config默认图分别记录。229资产/50161成员不重复新增。封面为当前UI选择器固定检查目录中真实G1局部实景，原HUD/PNG字节保留，25厘米规划图为补充；不是全图总览或新运行验收。平台刷新自动同步资料索引，两次成功。7相关后端/4浏览器/构建与双语图片检查通过。服务53064未重启，原共享链接有效。完整城市新截图v1超600秒、v2因运河单网格14.5GiB估算/仅约1GiB空闲内存停止，原报告/代码/日志/缓存保留，71地图及Catalog精确；只结束自有命令行进程，用户Editor未动。未接入全图3D，未改基线/原件或Git/SFTP。详见AssetWorkbenchV1/CITY_MAP实施/使用/结果文档。
+
+## 2026-10-11：资产平台公网转发
+
+Latest local grenade-equip revision,11 October2026: user rejects source75's rifle pose/empty slots/invisible frag (MI045). Read CURRENT_EQUIPMENT_INPUT_REVIEW and GRENADE_EQUIP_REVISION implementation/result plus MI046/047. Source76 Unreal/Variants/G1GrenadeEquip20261011/Project, Game b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d; 15 same-final-Game checks exit0, actual hand-visible ready/hold frames reviewed, real depleted inventory skips empty types and all empty wheel leaves rifle/input unchanged. Existing cooked grenade Loop drives temporary FP source; original rifle finger constants/branch, body/camera, models/native1754/gun/save/AI/navigation and parent75/user/Catalog/assets preserved. Original seven throw gameplay functions exact. Authoring candidate_grenade_equip_v1/Project contains final build_v4; v1/v2 failures and v3 render-isolation evidence retained. Normal100 tmp/Playtest-G1-GrenadeEquip-20261011/PLAY_GRENADE_EQUIP.cmd uses fresh UserDir/prefix, no hidden hands/probes/auto input. Detailed continuous contact/locomotion and human review remain; current-roster performance is not large-NPC stress. Formal52/root launcher unchanged, Editors remain open; no adoption/Git/SFTP/cleanup/video.
+
+用户确认外部8766转发本机8766。私有config.local.json新增external_url，服务继续0.0.0.0:8766，公网Host及外部端口精确登记。给组员的完整授权链接在私有Assets/LocalWorking/AssetWorkbench/runtime/public-share-link.txt；不要写凭证到Git，重启后用新链接，公网IP变化需更新配置重启。Windows已确认并读回原单程序/单端口/Private,Domain规则的RemoteAddress Any，默认脚本仍LocalSubnet。48后端及3项浏览器检查通过；本机公网地址回环/凭证交换/3D加载通过，另一网络实际连通未验收。详见AssetWorkbenchV1/PUBLIC_FORWARDING实施/结果。保留局域网入口，不改游戏/UE会话/资产原件或发布资源。
+
+## 2026-10-11：资产平台网络共享（局域网结果，后续公网更新见上）
+
+用户要求监听0.0.0.0，已运行`0.0.0.0:8766`；主地址`http://192.168.1.75:8766`。原启动器读取私有config.local.json复用共享模式。给授权成员的完整访问链接在私有`Assets/LocalWorking/AssetWorkbench/runtime/share-link.txt`首行，含凭证，重启后重生成；不要把它复制到Git文档。Host仅允许本机地址/名称，Origin与当前请求同源，保留会话及CSRF。Windows已确认并读回单端口/实际Python/LocalSubnet/Private,Domain防火墙规则。44后端/2浏览器检查通过，未宣称第二台机器或公网路由验收；见NETWORK_SHARING_RESULT_20261011_ZH。
+
+## 11 October 2026: grenade model unified trial (latest local candidate)
+
+Latest local equipment-wheel input candidate,11 October2026: user requests wheel rifle/frag/smoke and held primary prepare/release throw. Read CURRENT_EQUIPMENT_INPUT_REVIEW and paired EQUIPMENT_WHEEL_INPUT implementation/result. Source75 Unreal/Variants/G1EquipmentWheel20261011/Project, Game 332756d091f64678de7b124e4e216571211bead31c42e6226edc686a14b15695; 14 final actual Game checks exit0, native1754/models/fingers/gun/save/parent74/user/Catalog/runtime assets exact. Authoring tmp/g1-tactical-equipment-20261010/candidate_equipment_wheel_v1/Project contains final build_v4; immutable v1/v2 witness failures MI043 and v3 stale hint MI044 retained. Normal100 tmp/Playtest-G1-EquipmentWheel-20261011/PLAY_EQUIPMENT_WHEEL.cmd uses new UserDir/prefix, no probes/AI/input overrides. Selection/press state transient; original enemy-clear circle/E and actual save validators remain. Manual review pending; original low Hold/grasp limitations and human focus test remain. Formal52/root launcher unchanged; no adoption/Git/SFTP/cleanup. Existing Editors remain open per user standing authorization.
+
+Read CURRENT_GRENADE_MODEL_REVIEW and CURRENT_UI_REVIEW. Asset-index-first, existing MkII equipment extraction + bounded new gray/yellow1943 AN-M8 exterior replace placeholders. Final74 source `Unreal/Variants/G1GrenadeModels20261011/Project`, Game `a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59`. Normal100-file tmp/Playtest-G1-GrenadeModels-20261011/PLAY_GRENADE_MODELS.cmd, independent UserDir/prefix.13 final-Game runs+1754-native/parent/user/Catalog protection pass; finger/weapon/save and original gameplay functions exact. Existing Editors stay open. Active authoring is candidate_grenade_models_v1/Project containing finalv5; do not delete by historical name. All failed snapshots/results retained under MI042. Original Hold low-edge occlusion persists; no new contact/full-motion/manual/large-NPC acceptance. Source/modelGLB/packedBlend/texture inputs and diagnostics private; one approved exact document-render crop. No formal adoption/Git/SFTP/cleanup; formal52 and parent73 preserved. See paired GRENADE_MODELS_IMPLEMENTATION/RESULT_20261011_ZH and tmp/g1-grenade-models-20261011/DELIVERY_20261011.json.
+
+## 2026-10-11：资产资料查询入口
+
+用户要求其他项目窗口查资产资料先看[资产索引](Assets/ASSET_INDEX.md)。该页链接229条完整资产目录、来源/版本/manifest、50,151条成员及本机25,219条原生动作检索。使用`Tools/AssetWorkbench/asset_index.py`查询；新增或变更登记后使用平台“刷新索引”，数据库与JSON/Markdown资料索引自动同步，无需单独执行命令；失败保留旧有效结果。先按资产ID定向查记录，索引无结果再搜索；最新选择器仍为正式/候选状态依据。资产平台本机8766，启动与预览入口见索引。本次不更改游戏基线或发布资源。
+
+## 2026-10-11：玩家死亡表现与tmp统一试玩（待人工复验）
+
+当前候选读取CURRENT_PLAYER_DEATH_REVIEW.json/md与CURRENT_UI_REVIEW.json/md，再读MissionLoopV1/PLAYER_DEATH_PRESENTATION实施／结果及MI038–041。所有试玩包／cmd留tmp；三个本轮根试玩包装脚本已精确迁移，不重建。
+Source: `Unreal/Variants/G1PlayerDeath20261011/Project` (73 files); manifest SHA256 `1023d2a2a5bd6d239e4fc17481dc3b670910f709d4a191c6048df1c8c2a6f26a`. Game SHA256 `290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21`. Authoring: `tmp/g1-tactical-equipment-20261010/candidate_death_v6/Project`. Normal trial: `tmp/Playtest-G1-DeathPresentation-20261011/PLAY_COMBAT_UI.cmd`. Independent UserDir `G1DeathPresentation20261011` / prefix `ParisDeathPresentationV1`; no old-save migration.
+5项死亡+19项既有回归全部最终Game实跑通过，真实火光／整身倒地／末态菜单和1080p／720p UI已复看。原Lost立即，原3.933333秒倒地结束后短停再出YOU DIED；早期动作受限，重开清理镜头，旧NPC停尸不重播。原模型／手指／枪械／存档／1754native及旧用户档精确。
+普通入口无探针／自动操作；Editors50836／51148继续开启。正式52与发布课程包不变，待人工复验，不自动采用／提交／发布／录像／清理。v1–v5失败源与raw均保留；v6组合渲染修正通过，不冒称单参数唯一根因。
+
+## 2026-10-11：战地手册 UI 优化统一试玩（历史父69，待人工复验）
+
+用户选定生成的战地手册风格，实际实现从candidate_ui_v5继续，正式enemy-clear52不变。
+先读CURRENT_UI_REVIEW.json/md、MissionLoopV1/FIELD_MANUAL_UI_IMPLEMENTATION/RESULT_20261011_ZH及MI037。
+根PLAY_COMBAT_UI.cmd、PLAY_FIELD_MANUAL_UI.cmd、PLAY_TACTICAL_EQUIPMENT.cmd进入tmp/Playtest-G1-FieldManualUI-20261011。
+精确69源Unreal/Variants/G1FieldManualUI20261011/Project，manifest1d7e1fa292e463c2f501be44d346c85f2a3569f93a2d5bc3394bd433a47f9887，Game b40590bdec9c27d4a2c2f321ae32c0eca12936923f36d003872df2dabc113d11；authoring tmp/g1-tactical-equipment-20261010/candidate_field_manual_v2/Project。
+四页采用Cinzel/Roboto、文字页签/下划线、细分隔、小图标、固定两行和右侧按键；任务/人物状态读取实际值，原Esc暂停/Tab小队/默认取消确认及保存成功后引导消失保持。
+19项最终Game实跑通过，1080p/720p十页及六张保存/确认/情境原图已复看；1754native/父67与正常包/正式52/Catalog/原用户档/模型手指枪械存档装备AI导航逻辑精确。
+独立UserDir G1FieldManualUI20261011/prefixParisFieldManualUIV1，正常入口无探针/自动输入，旧档不迁移覆盖。
+MI037保留v1功能通过但字体溢出的失败；v2依Slate96DPI/72点修正。既存地雷UV handled ensure与原编译警告仍记录。
+现有Editors50836/51148继续开启，本轮无新Editor/PIE/cook验收；六人短cap60不等于大量NPC/长期/第二机。
+等待实际人工视觉/玩法复验，无自动正式采用、Git/SFTP/录像/清理；效果稿与实际文档图精确allowlist，raw/字体/资产保持私有。
+
+## 2026-10-11：作战UI与装备统一试玩（历史父67）
+
+用户授权先实施文档再开发帮助/任务/人物小队/情境提示；从地雷63继续，保留模型/手指/枪械/存档，正式52仍选定。
+先读CURRENT_UI_REVIEW.json/md、MissionLoopV1/COMBAT_UI_IMPLEMENTATION/RESULT_20261011_ZH及MI032–036。
+根PLAY_COMBAT_UI.cmd与PLAY_TACTICAL_EQUIPMENT.cmd进入tmp/Playtest-G1-CombatUI-20261011；精确67源Unreal/Variants/G1CombatUI20261011/Project，manifest a69ad1f0ebeb3d7939aaf14e4b51cc585acec7bfbe005288a2043e4791bd0c8f，Game 95132229e0281acea0535e00ab2b54f22df749bba1ed4d976b00496da9325db9，authoring candidate_ui_v5。
+Esc真暂停、Tab战斗中小队直达；四页/五类帮助/实际任务与血量动作弹药距离/有限GQ按键图示/首次引导/会话HUD设置。F6/F9及新菜单危险操作默认取消确认，原Ready/Lost按钮与保存modal优先。
+暂停冻结原角色AI、世界时间、活引信与烟寿命，返回继续不补资源；鼠标返回不误射，松键恢复。保存引导按可用性立即消失，保留全灭单独解锁和圈内E原双槽读回。
+19项同一最终Game实跑含UI与原菜单/枪械/装备/负向载荷/清場/真存档/跨进程/复制V5和v16/危险致死读档重开；1080p/720p实图复看、成功后干净HUD再检。
+1754native/正式52/父63正常包/原用户档/Catalog/旧反射和受保护算法精确。独立UserDir G1CombatUI20261011/prefixParisCombatUIV1，无旧档迁移，正常入口无探针自动输入。
+MI032 API编译、MI033异步截图、MI034保存引导残留、MI035误把用例名当模式均保留原件；此历史父67对应candidate_ui_v5，原地雷63仍是它的父身份。
+Editors50836/51148保持开启；没有新UI Editor/PIE/cook/完整动作/大量NPC/第二机/长期通过。既存地雷UV handled ensure保留说明，短六人cap60范围见结果。
+人工复验待定，无自动正式选定、Git/SFTP/录制/清理。文档实图已精确登记allowlist，raw/资产/用户档继续保护。
+
+## 2026-10-11：地雷修订统一试玩（未选正式）
+
+用户拒绝格纹圆筒，要求人踩即爆、看到后近距离拆除。先读CURRENT_EQUIPMENT_REVIEW.json/md、MissionLoopV1/PRESSURE_MINE_IMPLEMENTATION/RESULT_20261011_ZH、MI029–MI031。
+根PLAY_TACTICAL_EQUIPMENT.cmd现指向tmp/Playtest-G1-PressureMine-20261011，独立UserDir G1PressureMine20261011/prefixParisPressureMineV1。
+精确63源Unreal/Variants/G1PressureMine20261011/Project，manifest f1269aa7…ec2c5，Game afc2839d…19394e；authoring tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Project。
+独立自有28cm盘形道具、10809三角形/1024PBR，Blender/freshGLB与UE普通/近景已复看；原资产/native/cooked不写。世界位置与稳定Trap1/2 ID保留。
+双方落地胶囊脚底接触触发一次；两米瞄准/有效视线/hold E2秒，松开取消，实际位置与距离提示不穿墙/烟。
+三个登记敌军全灭仍单独解锁，完成后地雷/已释放手榴弹致死会Lost，关闭旧成功窗口，原F9/F6可用；地雷不成为保存任务门槛。
+23项同一最终Game实跑含新机制/原菜单/弹药雷达/GQ/箱/导航/遮挡/真实保存/新进程/旧v16与V5复制兼容；Spent+盟军死亡恢复三秒后停尸，不返还物资/重置引信。
+保护1754native/正式52/原Game/Catalog/用户4与旧反射/七段算法；901样本当前六人短测平均59.97FPS(cap60)/P95 18.34ms，不是无上限/大量NPC/第二机或长期通过。
+MI029是真人工死亡；mine_v1黑材质失败留MI030；mine_v3的清场前Waiting预设不可达，保留MI031与STOPPED，不再跑或放宽原gate。当前工具检查源已恢复精确v2。
+Editor50836(v16 Engine Entry)、51148(原Zen等待)继续开启；没有mine Editor/PIE/cook通过，若需新Editor先匹配构建与独立mine/audio入口。不得用旧Editor DLL假称新玩法通过。
+原装备v16/正式enemy-clear和所有失败/用户档保留，无自动正式选定、commit/push、SFTP、录像或清理。
+
+## 2026-10-11：战术装备统一试玩候选（历史v16，未选正式）
+
+用户要求四种机制一起完成后人工试玩，并重申UE启动后保持开着、不逐次询问。
+先读CURRENT_EQUIPMENT_REVIEW.json/md、MissionLoopV1实施/TACTICAL_EQUIPMENT_RESULT_20261011_ZH与MI024–MI028。
+根PLAY_TACTICAL_EQUIPMENT.cmd，普通独立UserDir G1TacticalEquipment20261010/prefixParisEquipmentV1；
+61文件Unreal/Variants/G1TacticalEquipment20261010/Project，manifest6ac8958c…88188，Gameab48a534…59f1a，authoring候选v16。
+G/Q按住准备松开投掷，提交前Esc取消；瞄准陷阱按住E两秒拆除；瞄准有限箱按E补给。
+敌军清场圈内E保存、F9/F6原事务保留，活引信/烟寿命/库存/陷阱/箱状态同载荷校验，旧V5复制兼容。
+十项未改范围明确承接v15_early，五项烟幕/新保存/跨进程/旧档/性能v16_early实跑；135粒子与浓烟图复看。
+当前六人原AI/1080p画质2/诊断cap60短测890样本均值59.96FPS，不是完整自然交火、大量NPC或长期稳定性。
+1754native/正式52/原Game/Catalog/用户4文件和旧反射保护；模型/手指/枪械/原资源校验保留。
+主Editor50836匹配v16、Engine Entry初始化，保持开着；51148原Zen等待仍保留，查editor-sessions实际PID。
+无PIE/native保存/recook，本轮AV Editor音频入口仍待独立适配。旧GPU异常原件保留，早期DPCVars应用同等级配置，不冒称根治。
+正式enemy-clear v3不变；未人工选定/commit/push/SFTP/cleanup。新会话继续候选时用精确61源，勿误从正式52丢掉新装备。
+
+## 2026-10-10：战斗装备与补给玩法方向
+
+用户纠正前一稿只扩展路线和人数的玩法，明确要求手榴弹、烟雾弹、陷阱和弹药补给点，
+参考使命召唤等 FPS。当前设计见
+`Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_GAMEPLAY_DESIGN_20261010_ZH.md`。
+建议先在独立 G1 候选验证四种工具、NPC反应与资源/动态状态保存，再扩展进城市区。
+连续小队路线继续有效；旧人数和“以后再做补给”安排属于前稿，不是当前实施顺序。
+用户已选择首轮只做地图上的敌方陷阱：预设有限装置，玩家可观察、绕行或拆除；
+不做玩家布设、玩家陷阱库存或NPC动态布雷。具体规则/数量/资产/点位待评审实测。
+现有投掷动画、烟雾与弹药箱只是只读检索定位，未通过正式第一人称兼容或新机制验收。
+本轮仅研究和设计，未启动UE或改正式模型、手指、枪械、游戏和用户存档。
+
+## 2026-10-10：下一阶段连续小队玩法
+
+用户确定后续玩法方向为“连续小队任务：过桥后推进市中心”。设计草案见
+`Docs/Development/MissionLoopV1/CONTINUOUS_SQUAD_GAMEPLAY_DESIGN_20261010_ZH.md`。
+建议保留当前 G1，先接进城路口 M2，再扩展市中心 M3；具体人数、点位和补给待评审与实测。
+G1 需要从整局 Won 改为阶段完成，避免冻结后续 AI；清场完成与圈内主动保存规则保留。
+当前六人固定存档不能直接用于扩展名册，实施需独立配置／存档与兼容方案。
+本轮仅设计，未修改正式源、资产、游戏或存档，未启动 UE。
+
+## 2026-10-10：UE 使用长期授权
+
+用户明确授权：以后开发需要 UE 引擎时直接启动、复用并操作，工作需要期间可保持开启，
+不再逐次询问确认。此规则取代下文历史记录中的禁止自动进入 Editor／逐次确认要求。
+缓存与当前选定源码不一致时，先直接构建匹配的 Editor；保护用户正在操作的会话与未保存内容，
+共享 Content 链接不允许并发写入。模型、手指、枪械基线及发布规则继续有效。
+本次仅记录长期授权，没有启动引擎或增加 Editor 验收记录。
+
+## 2026-10-10：人工通过并合入正式基线
+
+用户已测试最新 enemy-clear v3，无问题，明确选为后续正式基线并授权清理本机过渡版本。
+以 `Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json` 的52文件/Game身份为准；
+根目录 `PLAY_CURRENT_G1.cmd` 启动同一正常入口，用户存档未迁移。
+旧试玩/旧编译缓存已按精确清单清理；历史源/原记录和去重恢复包保留。
+见 G1_CHECKPOINT_BASELINE_ADOPTION_20261010_ZH 及其 RESULT、恢复映射。
+下面旧条目的“人工待复验/audioV2仍正式/保留旧包”等状态均为有日期的历史，
+仅在本轮精确退休范围内被新授权取代。模型/手指/枪械、原生资产和用户存档保护。
+本机正式选择未自动发布；既有课程SFTP/视频仍是旧audioV2，没有新Editor/性能/第二机验收。
+
+## 2026-10-10：checkpoint 清场判定修复（最新用户规则）
+
+所有 checkpoint 的任务门槛只看登记敌军完全消灭；G1 不再依赖远岸点、占领阶段、
+小队到达、姿态或停步。详见 CURRENT_CHECKPOINT_REVIEW 与清场修复实施/结果。
+正常入口 `tmp/Playtest-G1-EnemyClear-candidate_v3-20261010/PLAY_G1_REVISION.cmd`，独立用户目录，原事务/资源/模型保留。
+有限隔离原生门槛、实际写盘失败重试、F9/F6/新旧 V5 恢复通过，人工试玩待复验。
+旧小队结果仍是历史证据，清场成功不能当作新的全小队过桥通过。
+正式 selected JSON 保留 audio V2；无自动发布/删除/进入旧 Editor。
+
+## 2026-10-10：保存窗口复检候选
+
+用户认可统一v9的整体修改和德军角落布局，保存交互另行修正。最新本地入口见
+`Docs/Development/CURRENT_CHECKPOINT_REVIEW.json/.md` 及配套实施/结果；原保存事务与资产保持。
+本机菜单/等待/超时/真实磁盘失败重试/成功窗口/隐藏询问/重复E/F9/F6/新进程恢复
+检查通过，人工键鼠复验待完成。正式selected JSON不变；不自动发布、清理或进入旧Editor。
+
+## 2026-10-10：组员反馈统一候选收尾（未正式选定）
+
+用户要求按文档实施，完成后一次性人工检查。最新统一候选是
+`tmp/Playtest-G1-Completion-candidate_v9-20261010/PLAY_G1_REVISION.cmd`，Game `8e4088d757811446dd923898fd8215194afbccc75f30ee102a19bb5ff77324b4`；52文件快照
+`Unreal/Variants/G1TeamCompletion20261010/Project`，manifest `22bae077bbbcd5809ff9c278e95f5b38284b57463a1b3e1db293208fe3ca1170`，authoring
+`tmp/g1-team-completion-20261010/candidate_v9/Project`。
+先读`Docs/Development/CURRENT_TEAM_FEEDBACK_REVIEW.json/.md`、completion实施/结果、
+P2兼容性与MI021，再读下方历史。P0/P1、四个测量点+原A2已整合，本机真实清场/
+两活盟军过桥/E/F9/F6/旧V5跨进程和速度动作通过；1754native/全部父源/Game/
+原存档与反射/原资源保存AI导航区段保护通过。菜单/弹药v6明确承接，其他v9原生运行。
+
+ADS/M1弹夹机件/剩余衣袖仍是资产适配缺口；正向200cm匍匐未通过，控制点道路
+支撑normal0.141258合法拒绝，原阈值和碰撞保持。实体输入、HUD/脚步音频观感、
+自然交战/终态菜单/第二台电脑待本轮人工复验。失败identity保留，禁止循环旧锚点/
+扩大豁免/恢复AN003/AN005或详细人物路线。选定audio V2仍不变，不自动发布或清理。
+所有诊断引擎已退出；后续启动/写入前仍检查实际进程，保护用户接管的预览。
+本候选只构建Game；要进入Editor，先从当前52文件源快照重新构建Editor，不能使用旧缓存DLL。
+
 # Paris Street Combat - new-session handoff
+
+**Latest team-feedback P1 candidate, 10 October 2026:** user approves walk2.2 /
+run4.5m/s and continuation from the documented P0 repair. Read
+CURRENT_TEAM_FEEDBACK_P1_REVIEW.json/md, G1_TEAM_FEEDBACK_P1_IMPLEMENTATION and
+RESULT_20261010_ZH plus P2_COMPATIBILITY and MI020. UNSELECTED v9 review entry:
+tmp/Playtest-G1-TeamP1-candidate_v9-20261010/PLAY_G1_REVISION.cmd;
+Gameac46edeb / manifest0d7a94d4,48-file G1TeamFeedbackP1_20261010 source,
+matching candidate_v9 authoring. Fresh8+10 preserves18 total; player-centered
+25m north-up radar/unknown edge, ally directions/distances and green crosshair.
+Run cadence compensates only above300; calibrated220 walk remains rate1.
+Fresh Won waits for original squad transit completion: v8 player-only victory
+froze both living Allies on bridge, independently FAILED despite old observer
+status. v9 route_v2 actually verifies both across/original completion before Won,
+3 guards/E/F9 terminal corpses/F6,791 samples/126 both-across. Old V5 readonly
+save-failure retry and fresh six-actor restore run v9, all exit0. Unchanged v8
+menu/ammo/actions evidence explicitly carried after exact production comparison;
+not relabelled v9 reruns.1,754 native rows/both parents/Games/Catalog/normal saves/
+six protected algorithms/reflection exact; ordinary launcher has no observer.
+Independent G1TeamP1v920261010 UserDir. Five-NPC dispersion blocked before any
+move; retain original placements. Independent prone forward only1.569cm then
+original collision stop: positive crawl NOT passed, no further anchor retries/
+collision loosening. ADS/en-bloc visuals/sleeve problem remain, compatible assets
+not adopted. Manual physical input/cadence/HUD/Lost-Error-Exit/second-machine
+review pending. Audio V2 selection/P0 candidate/published package/video/PDF
+unchanged; no Editor save/recook/cleanup/new Git/SFTP publication this turn.
+
+**Latest team-feedback P0 repair, 10 October 2026:** user requests an implementation
+document before editing, prioritizing menu selection and E checkpoint failures.
+Plan/result: G1_TEAM_FEEDBACK_IMPLEMENTATION_20261010_ZH and
+G1_TEAM_FEEDBACK_RESULT_20261010_ZH. CURRENT_INTERACTION_REVIEW.json/md selects
+an UNSELECTED human-review candidate, not a replacement for audio V2. Local
+ordinary entry tmp/Playtest-G1-Interaction-V4-20261010/PLAY_G1_REVISION.cmd;
+Game040a6fa1...,45-file Unreal/Variants/G1TeamFeedback20261010/Project,
+manifest2132c665..., matching candidate_v4 authoring Project. Mouse/keyboard
+menu and explicit retryable E implemented; original models/fingers/gun/resources/
+journal/dead-restore/audio/nav/AI preserved. 1080p and720p menu checks, old V5
+load/readonly disk-failure retry/new-process six-actor restore, and a fresh native
+route clearing three Germans/saving/loading/restarting all pass, exit0.865 route
+samples conserve18 player rounds.1,754 native rows/42parent files/original Game/
+Catalog/3normal user files exact;39 parent source files unchanged and four
+protected algorithm blocks exact. Independent G1Interaction20261010 UserDir,
+no helper flags in normal launcher. Read MI019: diagnostic API compile failure
+and v3 reflected-field/cooked layout startup failure retained; v4 runtime-only
+counter restores exact parent UPROPERTY/UFUNCTION schema, no recook. Old failed
+runtime DO_NOT_USE. Private receipts in tmp/g1-team-feedback-20261010. Physical
+input/Lost-Error-Exit/extra E action-NPC negatives/second-machine manual review
+remain; teammate exact tested EXE unknown. No Editor build/entry, new SFTP/video/
+course PDF or Git commit/push for this P0 repair. Six other feedback items remain
+planned separately; avoid restarting modeling or changing accepted weapon logic.
 
 **Scoped document-image publication authorization, 10 October 2026:** user
 requests commit/push of this window's 21 reviewed image/document/policy/guard

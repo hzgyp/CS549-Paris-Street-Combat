@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "date": "2026-10-10",
+  "review_id": "g1-enemy-clear-checkpoint-candidate_v3-20261010",
+  "status": "historical_parent_integrated_into_selected76",
+  "selection": "Formal current local development baseline",
+  "authorization": "User: all checkpoint save objective gates depend only on complete enemy elimination",
+  "rule": "Original registered German1/2/3 all dead: G1 complete and checkpoint unlocked. No far-bank/occupation/squad/posture/movement/safe-seconds gate. Circle entry and explicit confirmation retained.",
+  "plan": "G1_ENEMY_CLEAR_CHECKPOINT_IMPLEMENTATION_20261010_ZH.md",
+  "result": "G1_ENEMY_CLEAR_CHECKPOINT_RESULT_20261010_ZH.md",
+  "source_snapshot": "Unreal/Variants/G1EnemyClearCheckpoint20261010/Project",
+  "source_files": 52,
+  "source_manifest": "Unreal/Variants/G1EnemyClearCheckpoint20261010/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "66d8c6e3fc005090ebe44e31f6a8dabd0fdbe1871ffed613cb3769f5b334508a",
+  "active_authoring_project": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v3/Project/WW2FranceLiberation.uproject",
+  "playable_directory": "tmp/Playtest-G1-EnemyClear-candidate_v3-20261010",
+  "playable_entry": "tmp/Playtest-G1-EnemyClear-candidate_v3-20261010/PLAY_G1_REVISION.cmd",
+  "game_sha256": "b40409b08830cc0e1d306ceab0575d7e61db382f50853426bbda58d08f385079",
+  "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1EnemyClearv320261010",
+  "save_prefix": "ParisG1PlaytestV5",
+  "verified_runs": {
+    "menu_v1": {
+      "status": "pass_menu_input",
+      "checks": 37,
+      "result_sha256": "9838c61e49a6b7a6651d7a0756014fae86e862b0795bb8b34a5d1e905d5a4d8a"
+    },
+    "clearance_v2": {
+      "status": "pass_enemy_clear_checkpoint",
+      "checks": 26,
+      "result_sha256": "8bd8617fda1d5b5a159725b73492fbce1e731f7ffc5654c5ba4654c3cc197c6a"
+    },
+    "restore_v2": {
+      "status": "pass_fresh_process_restore",
+      "checks": 31,
+      "result_sha256": "7bc9f375b86499b6a7a105bbd31860c0c1edfe2c748a5a82fa589c5ceaaa0ed2"
+    },
+    "legacy_v1": {
+      "status": "pass_fresh_process_restore",
+      "checks": 31,
+      "result_sha256": "1f6ce155840fd6ebe8e00ac712699c20cd3a8b1b8e395c397e7b060aeb190fb4"
+    }
+  },
+  "private_verification": "tmp/g1-enemy-clear-checkpoint-20261010/verification.json",
+  "previous_checkpoint_candidate": {
+    "schema_version": 1,
+    "date": "2026-10-10",
+    "review_id": "g1-checkpoint-dialog-candidate_v3-20261010",
+    "status": "pass_checkpoint_dialog_native_checks_pending_manual_review",
+    "selection": "Local UI child for manual review; selected audio V2 unchanged",
+    "parent_review": "CURRENT_TEAM_FEEDBACK_REVIEW.json",
+    "plan": "G1_CHECKPOINT_DIALOG_IMPLEMENTATION_20261010_ZH.md",
+    "result": "G1_CHECKPOINT_DIALOG_RESULT_20261010_ZH.md",
+    "source_snapshot": "Unreal/Variants/G1CheckpointDialog20261010/Project",
+    "source_files": 52,
+    "source_manifest": "Unreal/Variants/G1CheckpointDialog20261010/SOURCE_MANIFEST.json",
+    "source_manifest_sha256": "243d55b46bb794fe7db2f798905509fe229b58884b1b3d181287b2e414077655",
+    "active_authoring_project": "tmp/g1-checkpoint-dialog-20261010/candidate_v3/Project/WW2FranceLiberation.uproject",
+    "playable_directory": "tmp/Playtest-G1-Checkpoint-candidate_v3-20261010",
+    "playable_entry": "tmp/Playtest-G1-Checkpoint-candidate_v3-20261010/PLAY_G1_REVISION.cmd",
+    "game_sha256": "6d4127cdcfd4601265c6109b286d2a4743fdb5bdf65398d82678332a6b194c31",
+    "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1Checkpointv320261010",
+    "save_prefix": "ParisG1PlaytestV5",
+    "verified_runs": {
+      "menu_v2": {
+        "status": "pass_menu_input",
+        "checks": 37,
+        "result_sha256": "f4c2b21c6be95bb2f9ecc19dcc38ab4446b88becbbf9aa2b04d59d27433fb5eb"
+      },
+      "checkpoint_v2": {
+        "status": "pass_checkpoint_interaction",
+        "checks": 56,
+        "result_sha256": "3c6c1294e8e0ca0d937bdddb0da15351bd74a8bdea1a6b48aa6a251c5f0c6522"
+      },
+      "restore_v2": {
+        "status": "pass_fresh_process_restore",
+        "checks": 31,
+        "result_sha256": "07b0ee29c85b537846bb4ca12d58d77fa6fdf12fbcf745137436d209fdb28028"
+      }
+    },
+    "private_verification": "tmp/g1-checkpoint-dialog-20261010/verification.json",
+    "manual_feedback": "User accepts overall unified v9 presentation and hidden German corner placement; save UX still needed correction",
+    "publication": "No baseline adoption, commit/push, cleanup, SFTP/video/PDF changes",
+    "checkpoint_review_entry": "tmp/Playtest-G1-Checkpoint-candidate_v3-20261010/PLAY_CHECKPOINT_REVIEW.cmd",
+    "checkpoint_review_scope": "Actual verified serial3 journal after old-V5 load and two explicit saves, not a fresh combat run",
+    "startup_limitation": "restore_v1 exit3, DXGI_ERROR_DEVICE_HUNG; root cause unresolved; one distinct unchanged-settings recovery entry does not prove stability"
+  },
+  "publication": "Local baseline adoption and exact local retirement complete; no new Git/SFTP/video/PDF changes",
+  "human_review_at": "2026-10-10T21:07:13.627684-04:00",
+  "human_review_authorization": "User: 已测试，没有问题，把这一版合并到正式基线中，其他过渡版本删除，过时正式版本不保留太多",
+  "retirement_map": "Docs/Development/G1CheckpointBaselineAdoption20261010/RECOVERY_MAP_20261010.json",
+  "historical_status": "manually_reviewed_selected_active_baseline",
+  "integrated_into": "g1-complete-gameplay-grenade-equip-20261011",
+  "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+  "retired_playable_recovery_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json"
+}

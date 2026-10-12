@@ -1,0 +1,5 @@
+# MI038: death-render helper compilation prerequisites
+
+11 October2026. candidate_death_v1 has not entered runtime. Build exits6: the blast inl calls existing smoke distribution helpers before their definitions, and the opt-in death probe incorrectly declares the existing FString RunGeneration as int32. Preserve Project, compiled-source-game, build-game.json/log and passing protection at tmp/g1-tactical-equipment-20261010/candidate_death_v1. No asset, damage, save or model failure follows from this compile result.
+
+The distinct candidate_death_v2 declares the exact existing distribution signatures before use and retains FString generation comparisons in the probe. Do not change the mission field/reflected layout or acceptance threshold. Original first source is immutable; new build must pass before actual mine/fire/collapse input and image checks. Keep Editors open and the root trial wrappers relocated. Source comparison strips only one newly added duplicate particle-system include, not the parent's existing include; this verifier normalization issue does not permit another gameplay delta.

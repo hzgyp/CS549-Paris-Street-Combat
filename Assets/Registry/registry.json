@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "catalog": "Assets/Sync/CATALOG.json",
+  "assets": "Assets/Registry/assets/pilots.json",
+  "inventory": "Assets/Registry/assets/inventory.json",
+  "inventory_history": "Assets/Registry/mappings/inventory-history.json",
+  "history": "Assets/Registry/mappings/history.json",
+  "templates": "Assets/Registry/templates/requirements.json",
+  "documents": [
+    "Assets/ASSET_REGISTER.csv",
+    "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+    "Assets/TEAM_SYNC_WORKFLOW.md",
+    "Docs/Development/GERMAN_NPC_ASSET_USAGE.md",
+    "Docs/Development/ALLIED_NPC_ASSET_USAGE.md",
+    "Docs/Development/FIRST_PERSON_FORMAL_V21_RESULT_20261005.md",
+    "Docs/Development/MissionLoopV1/PRESSURE_MINE_RESULT_20261011_ZH.md",
+    "Failures/MI030-20261011-mine-render-winding/ANALYSIS.md",
+    "Failures/MI035-20261011-ui-restore-fixture-alias/ANALYSIS.md",
+    "Failures/MI036-20261011-ui-ready-selection-fixture/ANALYSIS.md",
+    "Docs/Development/GERMAN_NPC_ALLIED_GRIP_V13_RESULT_20261006.md",
+    "Docs/Development/GERMAN_NPC_FORMAL_V14_RESULT_20261006.md"
+  ],
+  "selectors": [
+    {
+      "id": "formal",
+      "channel": "formal",
+      "title": "本地正式开发版",
+      "path": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+      "assets": [
+        "german-soldier",
+        "allied-soldier",
+        "first-person",
+        "recorded-audio",
+        "german-rifle",
+        "paris-city",
+        "pressure-mine",
+        "frag-grenade",
+        "smoke-grenade"
+      ]
+    },
+    {
+      "id": "ui-review",
+      "channel": "formal",
+      "title": "当前统一玩法（已正式采用）",
+      "path": "Docs/Development/CURRENT_UI_REVIEW.json",
+      "assets": [
+        "german-soldier",
+        "allied-soldier",
+        "first-person",
+        "recorded-audio",
+        "german-rifle",
+        "paris-city",
+        "pressure-mine",
+        "frag-grenade",
+        "smoke-grenade"
+      ],
+      "optional": true
+    },
+    {
+      "id": "equipment-review",
+      "channel": "candidate",
+      "title": "装备专项评审候选",
+      "path": "Docs/Development/CURRENT_EQUIPMENT_REVIEW.json",
+      "assets": [
+        "german-soldier",
+        "allied-soldier",
+        "first-person",
+        "recorded-audio",
+        "german-rifle",
+        "paris-city",
+        "pressure-mine"
+      ],
+      "optional": true
+    },
+    {
+      "id": "grenade-model-review",
+      "channel": "candidate",
+      "title": "手雷/烟雾弹模型统一评审候选",
+      "path": "Docs/Development/CURRENT_GRENADE_MODEL_REVIEW.json",
+      "assets": [
+        "frag-grenade",
+        "smoke-grenade",
+        "allied-soldier",
+        "first-person"
+      ],
+      "optional": true
+    },
+    {
+      "id": "equipment-input-review",
+      "channel": "candidate",
+      "title": "滚轮装备／左键投掷统一评审候选",
+      "path": "Docs/Development/CURRENT_EQUIPMENT_INPUT_REVIEW.json",
+      "assets": [
+        "frag-grenade",
+        "smoke-grenade",
+        "first-person",
+        "pressure-mine",
+        "allied-soldier",
+        "german-soldier",
+        "german-rifle",
+        "recorded-audio",
+        "paris-city"
+      ],
+      "optional": true
+    }
+  ]
+}

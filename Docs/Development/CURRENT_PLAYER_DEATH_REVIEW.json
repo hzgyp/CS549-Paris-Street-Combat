@@ -1,0 +1,204 @@
+{
+  "status": "historical_parent_integrated_into_selected76",
+  "revision": "candidate_death_v6",
+  "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21",
+  "source_snapshot": "Unreal/Variants/G1PlayerDeath20261011/Project",
+  "source_manifest": "Unreal/Variants/G1PlayerDeath20261011/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "1023d2a2a5bd6d239e4fc17481dc3b670910f709d4a191c6048df1c8c2a6f26a",
+  "source_files": 73,
+  "active_authoring_project": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/Project",
+  "playable_directory": "tmp/Playtest-G1-DeathPresentation-20261011",
+  "playable_entry": "tmp/Playtest-G1-DeathPresentation-20261011/PLAY_COMBAT_UI.cmd",
+  "user_dir": "G1DeathPresentation20261011",
+  "save_prefix": "ParisDeathPresentationV1",
+  "parent_record": "tmp/g1-player-death-20261011/freeze.json",
+  "implementation": "Docs/Development/MissionLoopV1/PLAYER_DEATH_PRESENTATION_IMPLEMENTATION_20261011_ZH.md",
+  "result": "Docs/Development/MissionLoopV1/PLAYER_DEATH_PRESENTATION_RESULT_20261011_ZH.md",
+  "checks": [
+    {
+      "mode": "death_mine",
+      "result": "tmp/g1-player-death-20261011/checks/mine_v6/RESULT.json",
+      "result_sha256": "f60a3010da1b69e1918fffd51429cf0a454a33d65a269e8544062bb9e10d4f4b",
+      "status": "pass_player_death_mine",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "death_frag",
+      "result": "tmp/g1-player-death-20261011/checks/frag_v6/RESULT.json",
+      "result_sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+      "status": "pass_player_death_frag",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "death_damage",
+      "result": "tmp/g1-player-death-20261011/checks/damage_v6/RESULT.json",
+      "result_sha256": "9ccc05445c1753525734772cee4b3a3c91fb00fa2d4763174a15eb4129bd2f2d",
+      "status": "pass_player_death_damage",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "death_crouch",
+      "result": "tmp/g1-player-death-20261011/checks/crouch_v6/RESULT.json",
+      "result_sha256": "22b95efa0318f6667d3fe17af5dc2142726cadb17190504104abbab4c38d499b",
+      "status": "pass_player_death_crouch",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "death_prone",
+      "result": "tmp/g1-player-death-20261011/checks/prone_v6/RESULT.json",
+      "result_sha256": "506b61f885b6a494fac74c3838170868a1dc8015a8eb509246eb000e06b5bdc0",
+      "status": "pass_player_death_prone",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "ui_pause",
+      "result": "tmp/g1-combat-ui-20261011/checks/ui_pause_death_v6/RESULT.json",
+      "result_sha256": "0e5ff8dc1ee13618c0283548cba24e5db0f1869f85c862f90c653c8237cbe44a",
+      "status": "pass_ui_pause",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "ui_equipment_pause",
+      "result": "tmp/g1-combat-ui-20261011/checks/ui_equipment_pause_death_v6/RESULT.json",
+      "result_sha256": "2607bf3ae683804287b8cb5c70aaa67283694f09f5dc4a57982d0d3d5a1f2f75",
+      "status": "pass_ui_equipment_pause",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "ui_pages",
+      "result": "tmp/g1-combat-ui-20261011/checks/ui_pages_death_v6/RESULT.json",
+      "result_sha256": "72d3d9a76d183ba8854193faad1122c1c1d31a3351de680a84834c68db72b30f",
+      "status": "pass_ui_pages",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "ui_confirm",
+      "result": "tmp/g1-combat-ui-20261011/checks/ui_confirm_death_v6/RESULT.json",
+      "result_sha256": "2acd2412a83e8ad83648e6bdeb09e78d970f069a49917c20582c3c16837ed3e0",
+      "status": "pass_ui_confirm",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "ui_pages_small",
+      "result": "tmp/g1-combat-ui-20261011/checks/ui_pages_small_death_v6/RESULT.json",
+      "result_sha256": "c9eb2e060756afa504c0d5713854e7f889a4132f34ad82ef3f442e6a6647d669",
+      "status": "pass_ui_pages_small",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "menu",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/menu_ui_death_v6/RESULT.json",
+      "result_sha256": "ba41dd120607c7e1c06c006e132705d0154cda0de4a64665c61c517427b9aedc",
+      "status": "pass_menu_input",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "enemy_clear",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/enemy_clear_ui_death_v6/RESULT.json",
+      "result_sha256": "94940fc179b71800af7b3573691abf3158d3f4b84275cab058223879d66f0bac",
+      "status": "pass_enemy_clear_checkpoint",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "p1",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/p1_ui_death_v6/RESULT.json",
+      "result_sha256": "c4ba548cbfb801a7e45459326fdd555624d57f7665996533689ef787969f4637",
+      "status": "pass_p1_ammo_radar_inventory",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "throw",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/throw_ui_death_v6/RESULT.json",
+      "result_sha256": "b0ae0d06f85d4ada3dd7cbe04269b43ad0fcbc7f34e8f908adeca84ca332c03c",
+      "status": "pass_native_throw",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "smoke",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/smoke_ui_death_v6/RESULT.json",
+      "result_sha256": "6715f9ebbdb845ff9b5d6a5bf9354107a2bfb3c0b7c7db9c2d5c3db22751836c",
+      "status": "pass_native_smoke",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "interactions",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/interactions_ui_death_v6/RESULT.json",
+      "result_sha256": "7b4213097ba114ea9e25958fa3c5d3125acb23cbb63a8037203ee9b56734e986",
+      "status": "pass_native_interactions",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "mine_range",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_range_ui_death_v6/RESULT.json",
+      "result_sha256": "dd97eedf4fd5fb9a7000f024c562a5b32832b49439d80d1036d3e5e333b12743",
+      "status": "pass_native_mine_range",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "mine_post_clear",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_post_clear_ui_death_v6/RESULT.json",
+      "result_sha256": "f38d48ead2d0fe8ae1801d74b9bcdde03daed432204db6011e6263253bd92c55",
+      "status": "pass_native_mine_post_clear",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "mine_post_clear_frag",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_post_clear_frag_ui_death_v6/RESULT.json",
+      "result_sha256": "b615e49936cfdde3558bcbf3b4c46ba4e86059dbe8d0cf9c7df1ac94b45f6a33",
+      "status": "pass_native_mine_post_clear_frag",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "save_equipment",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/save_equipment_ui_death_v6/RESULT.json",
+      "result_sha256": "75ed73bf0102b39a2555381efb4772b367feb014a9832f25fcb4917ce1ad3a47",
+      "status": "pass_native_save_equipment",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "restore_equipment",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_equipment_ui_death_v6/RESULT.json",
+      "result_sha256": "55dd7a094e052478af90c1ffcdef5a40b49586cc49b724a7ad85e5dde06db87a",
+      "status": "pass_native_restore_equipment",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "restore_legacy",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_legacy_ui_death_v6/RESULT.json",
+      "result_sha256": "a5efb1b84b8650d00b3abeedfa4fcb90be62babdc0c344144e74dea0f0a7c351",
+      "status": "pass_native_restore_legacy",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "restore_v16_equipment",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_v16_equipment_ui_death_v6/RESULT.json",
+      "result_sha256": "93a28048392f02aa53fa3b1f855fea44d638d134a3f615a870bceee2edf4d9e8",
+      "status": "pass_native_restore_equipment",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    },
+    {
+      "mode": "performance",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/performance_ui_death_v6/RESULT.json",
+      "result_sha256": "8eb24e5da9ff44058b90cee2e222f22b85c9c258413e36c3c33e944dc572acfa",
+      "status": "pass_native_performance",
+      "game_sha256": "290b51b5648c73261e119edbef8d0f7fbb2e9088de4126262afc8cb92988ea21"
+    }
+  ],
+  "protection": "tmp/g1-tactical-equipment-20261010/candidate_death_v6/death-protection.json",
+  "visual_review": "tmp/g1-player-death-20261011/VISUAL_REVIEW.json",
+  "stopped_candidates": [
+    "candidate_death_v1 compile/MI038",
+    "candidate_death_v2 mine numeric pass but framing/terminal text rejected/MI039",
+    "candidate_death_v3 fire shader usage failed/MI040; prone admission fixture failed/MI041",
+    "candidate_death_v4 mine numeric pass but fire still indistinct/MI040",
+    "candidate_death_v5 short authored Niagara flame invisible/MI040"
+  ],
+  "editors": "Existing Editors remain open; no new Editor/PIE/cook acceptance",
+  "manual_review": "pending_actual_visual_playtest",
+  "publication": "none",
+  "trial_storage": "all candidate packages and launchers under tmp; no root trial wrappers",
+  "historical_status": "unselected_player_death_and_field_manual_unified_candidate",
+  "integrated_into": "g1-complete-gameplay-grenade-equip-20261011",
+  "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+  "retired_playable_recovery_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json"
+}

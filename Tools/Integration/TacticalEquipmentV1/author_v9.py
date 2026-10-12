@@ -1,0 +1,35 @@
+from prepare import OUT,read,write,sha
+from pathlib import Path
+import shutil
+here=Path(__file__).parent
+survey=read(OUT/'checks/survey_v8/SITE_SURVEY.json')['sites']
+assert all(next(r for r in survey if r['xy'].startswith('X='+x+' Y='+y))['pass'] for x,y in [('6637.500','-20137.500'),('7637.500','-20487.500'),('1812.500','-21162.500'),('6062.500','-20462.500')])
+p=here/'ParisEquipmentWorld.inl';s=p.read_bytes();s=s.replace(b'FVector(6487.5,-20837.5,0)',b'FVector(6637.5,-20137.5,0)').replace(b'FVector(1612.5,-21012.5,0)',b'FVector(1812.5,-21162.5,0)');s=s.replace(b'if(!Dead(C))AI->GetBrainComponent()->ResumeLogic',b'if(!Dead(C)&&AParisBridgeMission::Find(W)->AllowsPlay())AI->GetBrainComponent()->ResumeLogic');p.write_bytes(s)
+p=here/'ParisEquipmentSave.cpp';s=p.read_bytes().replace(b'G1Equipment_20261010_frag2_smoke2_sup16x2_trap2_v1',b'G1Equipment_20261010_frag2_smoke2_sup16x2_trap2_sites_v2');p.write_bytes(s)
+p=here/'ParisEquipmentChecks.inl';s=p.read_bytes()
+s=s.replace(b'TWeakObjectPtr<ACharacter> TestEnemy,TestAlly;',b'TWeakObjectPtr<ACharacter> TestEnemy,TestAlly;\r\nTWeakObjectPtr<AActor> TestShield;\r\nFVector TestBlastAt,TestEvadeOrigin;')
+needle=b'        if(CheckMode==TEXT("frag_blast"))'
+extra=r'''        if(CheckMode==TEXT("hazard")){TestAlly=Tagged(W,TEXT("G1_Ally1"));TestEvadeOrigin=TestAlly->GetActorLocation();PC->SetControlRotation(FRotator(20,0,0));Tap(PC,EKeys::G);CheckStep=90;return;}
+        if(CheckMode==TEXT("ally_trap")){TestAlly=Tagged(W,TEXT("G1_Ally1"));FixtureFeet(W,TestAlly.Get(),S.Traps[1].Position);CheckStep=95;return;}
+        if(CheckMode==TEXT("blast_occlusion")){TestEnemy=Tagged(W,TEXT("G1_German1"));FVector Feet=FVector::ZeroVector;bool Found=false;for(double Yaw:{0.,90.,180.,270.,45.,135.,225.,315.}){if(Site(W,P->GetActorLocation()+FVector(450,0,0).RotateAngleAxis(Yaw,FVector::UpVector),Feet)&&ClearRay(W,P->GetActorLocation()+FVector(0,0,30),Feet+FVector(0,0,100))){Found=true;break;}}if(!Expect(W,Found,TEXT("cover_fixture_actual_floor_capsule_path")))return;FixtureFeet(W,TestEnemy.Get(),Feet);TestBlastAt=P->GetActorLocation()+FVector(0,0,30);TestShield=W->SpawnActor<AActor>();auto* C=NewObject<UStaticMeshComponent>(TestShield.Get());TestShield->AddInstanceComponent(C);TestShield->SetRootComponent(C);C->SetStaticMesh(Shape(TEXT("Cube")));C->SetCollisionProfileName(TEXT("BlockAll"));C->SetCanEverAffectNavigation(false);C->SetRelativeScale3D(FVector(.2,4,4));C->RegisterComponent();TestShield->SetActorLocation((TestBlastAt+TestEnemy->GetActorLocation())*.5);TestShield->SetActorRotation((TestEnemy->GetActorLocation()-TestBlastAt).Rotation());Event(W,TEXT("fixture"),TEXT("transient blocking cover, existing NPC relocation; no native map writes"));CheckStep=100;CheckClock=0;return;}
+'''.replace('\n','\r\n').encode();assert s.count(needle)==1;s=s.replace(needle,extra+needle)
+needle=b'\n    if(CheckMode==TEXT("frag_blast")){'
+extra=r'''    if(CheckMode==TEXT("hazard")){
+        if(CheckStep==90&&!S.Balls.IsEmpty()){auto& B=S.Balls.Last();B.Position=TestAlly->GetActorLocation()+TestAlly->GetActorForwardVector()*130;B.Position.Z-=50;B.Velocity=FVector::ZeroVector;Event(W,TEXT("fixture"),TEXT("normally committed frag placed in ally visible lane for finite native evade"));CheckStep=91;CheckClock=0;}
+        else if(CheckStep==91&&CheckClock>1.2){bool Found=false;for(const auto& E:S.Evades)if(E.Pawn==TestAlly)Found=true;if(!Expect(W,Found&&FVector::Dist2D(TestAlly->GetActorLocation(),TestEvadeOrigin)>50,TEXT("observed_frag_native_move_without_teleport")))return;CheckStep=92;CheckClock=0;}
+        else if(CheckStep==92&&CheckClock>3.5){if(!Expect(W,S.Balls.IsEmpty()&&S.Evades.IsEmpty()&&!Dead(TestAlly.Get())&&!Cast<AAIController>(TestAlly->GetController())->GetBrainComponent()->IsPaused(),TEXT("finite_hazard_resumes_original_brain")))return;FinishCheck(W,true,TEXT("Existing ally observes frag, native path movement and finite original brain resume"));}return;
+    }
+    if(CheckMode==TEXT("ally_trap")){if(CheckStep==95&&CheckClock>.6){if(!Expect(W,S.Traps[1].State==TEXT("Spent")&&Num(TestAlly.Get(),TEXT("Health"))<100&&M->LivingDefenders==3,TEXT("ally_contact_damage_trap_not_enemy_roster")))return;FinishCheck(W,true,TEXT("Existing ally triggers map trap via original damage endpoint; enemy roster unchanged"));}return;}
+    if(CheckMode==TEXT("blast_occlusion")){
+        if(CheckStep==100&&CheckClock>.2){TestHealth=Num(TestEnemy.Get(),TEXT("Health"));Blast(W,TestBlastAt,TEXT("fixture_cover"));if(!Expect(W,Num(TestEnemy.Get(),TEXT("Health"))==TestHealth&&Dead(P),TEXT("blocking_geometry_stops_blast_original_self_damage_remains")))return;TestShield->Destroy();CheckStep=101;CheckClock=0;}
+        else if(CheckStep==101&&CheckClock>.2){Blast(W,TestBlastAt,TEXT("fixture_no_cover"));if(!Expect(W,Num(TestEnemy.Get(),TEXT("Health"))<TestHealth,TEXT("same_target_and_blast_damage_after_cover_removed")))return;FinishCheck(W,true,TEXT("Actual UE blocking cover suppresses all damage samples; same source/target damaged after removal"));}return;
+    }
+'''.replace('\n','\r\n').encode();assert s.count(needle)==1;s=s.replace(needle,b'\r\n'+extra+needle)
+# Strict negatives operate on clones of the saved payload, never its real journal.
+needle=b'Picture(TEXT("save_success.png"));CheckStep=42;'
+extra=r'''for(const FString Key:{TEXT("inventory"),TEXT("config"),TEXT("fuse"),TEXT("duplicate"),TEXT("trap"),TEXT("legacy_extra_ammo")}){auto N=ReadJson(Saved);auto E=N->GetObjectField(TEXT("equipment"));if(Key==TEXT("inventory"))E->SetNumberField(TEXT("frag"),2);else if(Key==TEXT("config"))E->SetStringField(TEXT("config"),TEXT("wrong"));else if(Key==TEXT("fuse"))E->GetArrayField(TEXT("balls"))[0]->AsObject()->SetNumberField(TEXT("fuse"),3.5);else if(Key==TEXT("duplicate")){auto A=E->GetArrayField(TEXT("balls"));A.Add(A[0]);E->SetArrayField(TEXT("balls"),A);}else if(Key==TEXT("trap"))E->GetArrayField(TEXT("traps"))[0]->AsObject()->SetStringField(TEXT("id"),TEXT("Trap99"));else N->RemoveField(TEXT("equipment"));if(!Expect(W,!M->ValidateEquipmentReviewPayload(JsonText(N),Error),TEXT("strict_negative_")+Key))return;}Picture(TEXT("save_success.png"));CheckStep=42;'''.encode();assert s.count(needle)==1;s=s.replace(needle,extra)
+p.write_bytes(s)
+base=OUT/'candidate_full_v10/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private';assert not (OUT/'candidate_full_v10/build-game.json').exists()
+for name in ['ParisTacticalEquipment.h','ParisTacticalEquipment.cpp','ParisEquipmentState.h','ParisEquipmentSave.cpp','ParisEquipmentSightBridge.h','ParisEquipmentWorld.inl','ParisEquipmentAudio.inl','ParisEquipmentChecks.inl']:shutil.copyfile(here/name,base/name)
+write(OUT/'candidate_full_v10/site-selection.json',dict(evidence_sha256=sha(OUT/'checks/survey_v8/SITE_SURVEY.json'),sites=[dict(id='Trap1',xy=[6637.5,-20137.5]),dict(id='Trap2',xy=[7637.5,-20487.5]),dict(id='Supply1',xy=[1812.5,-21162.5]),dict(id='Supply2',xy=[6062.5,-20462.5])],no_collision_or_navigation_change=True))
+print('v9 selected only measured sites; extended finite native cover/ally/hazard/strict-save checks')

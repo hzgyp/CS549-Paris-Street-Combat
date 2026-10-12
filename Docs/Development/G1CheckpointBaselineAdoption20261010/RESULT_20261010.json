@@ -1,0 +1,30 @@
+{
+  "status": "manually_reviewed_baseline_adopted_local_retirement_verified",
+  "finished": "2026-10-10T21:07:13.627684-04:00",
+  "game_sha256": "b40409b08830cc0e1d306ceab0575d7e61db382f50853426bbda58d08f385079",
+  "source_manifest_sha256": "66d8c6e3fc005090ebe44e31f6a8dabd0fdbe1871ffed613cb3769f5b334508a",
+  "source_files": 52,
+  "current_entry": "PLAY_CURRENT_G1.cmd",
+  "local_targets_removed": 217,
+  "obsolete_playables_removed": 19,
+  "logical_removed_bytes": 273274569850,
+  "recovery_bytes": 6240044479,
+  "actual_net_free_increase_bytes": 104206417920,
+  "native_guards": 1754,
+  "user_files_unchanged": 24,
+  "no_engine_started": true,
+  "no_user_process_terminated": true,
+  "no_game_or_source_bytes_changed": true,
+  "no_remote_mutation": true,
+  "no_git_commit_or_push": true,
+  "existing_course_release_retained": true,
+  "recovery_interface_checks": {
+    "status": "pass_static_recovery_interfaces",
+    "date": "2026-10-10T21:07:12.0583359-04:00",
+    "old_audio_launcher_exact_restore": "PASS: new helper restored a real retired launcher to unoccupied smoke destination, size/SHA verified",
+    "historical_audio_reference": "PASS: old HUD common DLL resolved through retired audioV2 path into current retained bytes",
+    "historical_whole_archive": "PASS: restore_intermediate_archive.ps1 hud_v1 Archive VerifyRecoveryOnly verified every recorded byte and created no target",
+    "engine_started": false,
+    "source": "Actual successful CLI exit0 results after local retirement"
+  }
+}

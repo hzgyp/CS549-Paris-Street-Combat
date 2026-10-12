@@ -1,0 +1,3 @@
+# Reviewed formal complete-gameplay76 baseline
+
+11October2026: user manually verifies logic and adopts this exact source. Minor sleeve occlusion remains backlog. SOURCE_MANIFEST and Project bytes unchanged. Read CURRENT_DEVELOPMENT_BASELINE and G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH. Authoring candidate_grenade_equip_v1/Project contains final build_v4. Original models/rifle finger constants/gun and enemy-clear checkpoint validation remain. Current normal launcher stays in tmp. Old generated outputs use the new recovery map; historical source/raw and native assets remain. Local adoption does not publish a new SFTP/Git/course release or prove matching Editor/second-machine acceptance.

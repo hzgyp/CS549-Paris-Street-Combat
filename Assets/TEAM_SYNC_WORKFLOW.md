@@ -1,3 +1,5 @@
+**Latest formal gameplay release,11October2026:** [current source/playable guide](../Docs/Development/TEAM_CURRENT_BUILD_20261011_ZH.md) selects exact76 and its private runtime resources. The latest ZIP is /releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip. The previously supplied audioV2 course-review ZIP and credentials/report attachment remain unchanged and active under a separate course role. Earlier dated handoffs below are historical native/recovery anchors.
+
 # Team synchronization: GitHub + SFTP
 
 **Packaged HUD playtest, 9 October:** a separate Catalog-selected

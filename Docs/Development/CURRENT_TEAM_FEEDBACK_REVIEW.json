@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-10",
+  "review_id": "g1-team-feedback-completion-v9-20261010",
+  "status": "superseded_local_runnable_retired",
+  "selection": "Historical parent; use CURRENT_DEVELOPMENT_BASELINE.json",
+  "parent_review": "CURRENT_TEAM_FEEDBACK_P1_REVIEW.json",
+  "selected_baseline": "CURRENT_DEVELOPMENT_BASELINE.json",
+  "plan": "G1_TEAM_FEEDBACK_COMPLETION_IMPLEMENTATION_20261010_ZH.md",
+  "result": "G1_TEAM_FEEDBACK_COMPLETION_RESULT_20261010_ZH.md",
+  "compatibility": "G1_TEAM_FEEDBACK_P2_COMPATIBILITY_20261010_ZH.md",
+  "source_snapshot": "Unreal/Variants/G1TeamCompletion20261010/Project",
+  "source_files": 52,
+  "source_manifest": "Unreal/Variants/G1TeamCompletion20261010/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "22bae077bbbcd5809ff9c278e95f5b38284b57463a1b3e1db293208fe3ca1170",
+  "active_authoring_project": "tmp/g1-team-completion-20261010/candidate_v9/Project/WW2FranceLiberation.uproject",
+  "playable_directory": "tmp/Playtest-G1-Completion-candidate_v9-20261010",
+  "playable_entry": "tmp/Playtest-G1-Completion-candidate_v9-20261010/PLAY_G1_REVISION.cmd",
+  "game_sha256": "8e4088d757811446dd923898fd8215194afbccc75f30ee102a19bb5ff77324b4",
+  "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1Completionv920261010",
+  "save_prefix": "ParisG1PlaytestV5",
+  "speed_preset_m_s": {
+    "walk": 2.2,
+    "run": 4.5,
+    "slow": 0.65
+  },
+  "fresh_ammo": {
+    "loaded": 8,
+    "reserve": 10,
+    "total": 18
+  },
+  "verified_runs": {
+    "menu_v1": {
+      "status": "pass_menu_input",
+      "game_sha256": "6fd5db04f96399a3b7282cea93dc122176d7efad77838ab7891cbb8b37eab0cf",
+      "result_sha256": "8f0fc6ded0433089c1c803913c9695f0f6f470d970aa3a0115c41f2643825498",
+      "scope": "v6 production exact; carried receipt, not v9 rerun",
+      "checks": 25
+    },
+    "ammo_v1": {
+      "status": "pass_p1_ammo_radar_inventory",
+      "game_sha256": "6fd5db04f96399a3b7282cea93dc122176d7efad77838ab7891cbb8b37eab0cf",
+      "result_sha256": "526c5d0d35eceecbf263b2689e0c282df3c2f803068776458ea9b541e01ccb08",
+      "scope": "v6 production exact; carried receipt, not v9 rerun",
+      "checks": 22
+    },
+    "actions_v1": {
+      "status": "pass_speed_jump_crouch_terrain_refusal",
+      "game_sha256": "8e4088d757811446dd923898fd8215194afbccc75f30ee102a19bb5ff77324b4",
+      "result_sha256": "70c51792e9149fb9cb8ef8c8ca506666a998e8efbe557472686211dcc6a8d890",
+      "scope": "current v9 Game native run",
+      "checks": 25
+    },
+    "route_v4": {
+      "status": "pass_checkpoint_numeric_visual_review_separate",
+      "game_sha256": "8e4088d757811446dd923898fd8215194afbccc75f30ee102a19bb5ff77324b4",
+      "result_sha256": "e5924706d93f3255d2478d912c7106c6a319cb3c08e460d19f415057876f305b",
+      "scope": "current v9 Game native run",
+      "checks": 47
+    },
+    "checkpoint_v1": {
+      "status": "pass_checkpoint_interaction",
+      "game_sha256": "8e4088d757811446dd923898fd8215194afbccc75f30ee102a19bb5ff77324b4",
+      "result_sha256": "ef5f1f7a189684dc1ebd2070751fc0313d1676c66f87a70737283d6efd8be94d",
+      "scope": "current v9 Game native run",
+      "checks": 28
+    },
+    "restore_v1": {
+      "status": "pass_fresh_process_restore",
+      "game_sha256": "8e4088d757811446dd923898fd8215194afbccc75f30ee102a19bb5ff77324b4",
+      "result_sha256": "f0d65fd316d0f3362b088027735d2e083bb85e3f7bbfb1df84a3c7b5f4ee5a97",
+      "scope": "current v9 Game native run",
+      "checks": 19
+    }
+  },
+  "actual_speed": {
+    "walk": {
+      "target_cm_s": 220,
+      "steady_samples": 9,
+      "steady_peak_cm_s": 220
+    },
+    "run": {
+      "target_cm_s": 450,
+      "steady_samples": 9,
+      "steady_peak_cm_s": 450
+    },
+    "slow": {
+      "target_cm_s": 65,
+      "steady_samples": 19,
+      "steady_peak_cm_s": 65
+    }
+  },
+  "actual_initial_actor_locations": {
+    "Player": [
+      1912.5,
+      -20662.5,
+      209.9952923006667
+    ],
+    "Ally1": [
+      1512.5,
+      -21462.5,
+      192.86085110182273
+    ],
+    "Ally2": [
+      1487.5,
+      -20837.5,
+      193.06798400878907
+    ],
+    "German1": [
+      6612.5,
+      -20662.5,
+      205.64167404174805
+    ],
+    "German2": [
+      7387.5,
+      -19937.5,
+      362.5616752396197
+    ],
+    "German3": [
+      7738.631406143345,
+      -21337.36695221843,
+      263.3488756177685
+    ]
+  },
+  "won_allies_actual_locations": {
+    "Ally1": [
+      5842.3963801319105,
+      -20835.638820433614,
+      216.83789983458917
+    ],
+    "Ally2": [
+      5701.1238471491715,
+      -20966.642118292602,
+      295.17030231405505
+    ]
+  },
+  "private_verification": "tmp/g1-team-completion-20261010/verification.json",
+  "native_guards": 1754,
+  "failures": "Failures/MI021-20261010-full-space-completion/FAILURE_ANALYSIS.md",
+  "remaining": [
+    "ADS and M1 en-bloc/mechanism/remaining reload sleeve visuals not implemented; compatible assets/adaptation decision required",
+    "Positive 200cm prone crawl not accepted; original road support edge refused, thresholds/world collision preserved",
+    "Physical mouse/keyboard, HUD, foot/audio cadence, Lost/Error/Exit and second-machine follow-up"
+  ],
+  "test_scope": "Opt-in simulated UE inputs and actual native navigation/physical movement/visible original weapon fire. Covering route is explicit, not natural tactical encounter or human acceptance.",
+  "publication": "No baseline adoption, Git/SFTP/video/PDF publication or cleanup in this round",
+  "historical_status": "pass_fixed_layout_and_p0_p1_native_checks_pending_manual_review",
+  "superseded_by": "g1-enemy-clear-checkpoint-candidate_v3-20261010",
+  "retirement_map": "Docs/Development/G1CheckpointBaselineAdoption20261010/RECOVERY_MAP_20261010.json"
+}

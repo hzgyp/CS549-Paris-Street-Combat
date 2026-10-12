@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-09T21:52:28.259704-04:00",
+  "updated_at": "2026-10-11T20:18:35.404728-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -103,15 +103,6 @@
       "release_manifest": "/releases/german-rifle-model-20261004-v1/german-rifle-model.json"
     },
     {
-      "asset_id": "paris-g1-packaged-playtest",
-      "asset_version": "paris-g1-playtest-20261009-audio-v2",
-      "path": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
-      "sha256": "4538b734224f6f7480c05006949825896411c251f4b0532d7dddbf9b77cc9064",
-      "file_count": 1,
-      "size_bytes": 8476572643,
-      "release_manifest": "/releases/paris-g1-playtest-20261009-audio-v2/paris-g1-packaged-playtest.json"
-    },
-    {
       "asset_id": "paris-g1-recorded-audio",
       "asset_version": "paris-g1-playtest-20261009-audio-v2",
       "path": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
@@ -119,6 +110,33 @@
       "file_count": 33,
       "size_bytes": 1401420,
       "release_manifest": "/releases/paris-g1-playtest-20261009-audio-v2/paris-g1-recorded-audio.json"
+    },
+    {
+      "asset_id": "paris-g1-packaged-playtest",
+      "asset_version": "paris-g1-playtest-20261011-gameplay-v1",
+      "path": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
+      "sha256": "fbfa10b1af92c71fae6df20342fe5ae6d5c3a4212f636b0c329fa984dbf102eb",
+      "file_count": 1,
+      "size_bytes": 8499470074,
+      "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-packaged-playtest.json"
+    },
+    {
+      "asset_id": "paris-g1-gameplay-runtime-resources",
+      "asset_version": "paris-g1-playtest-20261011-gameplay-v1",
+      "path": "Assets/Sync/manifests/paris-g1-gameplay-runtime-resources.json",
+      "sha256": "6dca83746c3c6eddbc16734ffdc33bf6e6e237e3e93f52a036562a0f764558ec",
+      "file_count": 57,
+      "size_bytes": 24110052,
+      "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-gameplay-runtime-resources.json"
+    },
+    {
+      "asset_id": "paris-g1-course-review-package",
+      "asset_version": "paris-g1-playtest-20261009-audio-v2",
+      "path": "Assets/Sync/manifests/paris-g1-course-review-package.json",
+      "sha256": "a70f876e418f5b1f6703f9eac0916a90c683fecd4093f70253f9be4631a2aed7",
+      "file_count": 1,
+      "size_bytes": 8476572643,
+      "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-course-review-package.json"
     }
   ],
   "superseded_provenance_only": [
@@ -276,6 +294,20 @@
       "release_manifest": "/releases/paris-g1-playtest-20261009-hud-v3/paris-g1-packaged-playtest.json",
       "retired_manifest": "Assets/Sync/retired/paris-g1-playtest-20261009-hud-v3.json",
       "reason": "User selects manually reviewed audio V2 and authorizes deletion of obsolete packaged download bytes; see retirement receipt"
+    }
+  ],
+  "retained_course_releases": [
+    {
+      "asset_id": "paris-g1-packaged-playtest",
+      "asset_version": "paris-g1-playtest-20261009-audio-v2",
+      "path": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
+      "sha256": "4538b734224f6f7480c05006949825896411c251f4b0532d7dddbf9b77cc9064",
+      "file_count": 1,
+      "size_bytes": 8476572643,
+      "release_manifest": "/releases/paris-g1-playtest-20261009-audio-v2/paris-g1-packaged-playtest.json",
+      "retained_manifest": "Assets/Sync/retired/paris-g1-playtest-20261009-audio-v2.json",
+      "download": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+      "reason": "Explicitly protected teacher assessment; bytes/download unchanged; now active as course-review logical role"
     }
   ]
 }

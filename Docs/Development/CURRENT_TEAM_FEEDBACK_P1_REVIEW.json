@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-10",
+  "review_id": "g1-team-feedback-p1-v9-20261010",
+  "status": "superseded_local_runnable_retired",
+  "selection": "Historical parent; use CURRENT_DEVELOPMENT_BASELINE.json",
+  "parent_review": "CURRENT_INTERACTION_REVIEW.json",
+  "parent_review_id": "g1-team-feedback-p0-v4-20261010",
+  "selected_baseline": "CURRENT_DEVELOPMENT_BASELINE.json",
+  "plan": "G1_TEAM_FEEDBACK_P1_IMPLEMENTATION_20261010_ZH.md",
+  "result": "G1_TEAM_FEEDBACK_P1_RESULT_20261010_ZH.md",
+  "compatibility": "G1_TEAM_FEEDBACK_P2_COMPATIBILITY_20261010_ZH.md",
+  "source_snapshot": "Unreal/Variants/G1TeamFeedbackP1_20261010/Project",
+  "source_files": 48,
+  "source_manifest": "Unreal/Variants/G1TeamFeedbackP1_20261010/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "0d7a94d4c9e644efd38a60d1a1827a182415b63cb01aab0194917a2b03c711ed",
+  "active_authoring_project": "tmp/g1-team-feedback-p1-20261010/candidate_v9/Project/WW2FranceLiberation.uproject",
+  "playable_directory": "tmp/Playtest-G1-TeamP1-candidate_v9-20261010",
+  "playable_entry": "tmp/Playtest-G1-TeamP1-candidate_v9-20261010/PLAY_G1_REVISION.cmd",
+  "game_sha256": "ac46edeb014a189c24847dfcecbba1d06a118c2367f3d10c6b8ad646d5deeda6",
+  "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1TeamP1v920261010",
+  "save_prefix": "ParisG1PlaytestV5",
+  "speed_preset": {
+    "walk_m_s": 2.2,
+    "run_m_s": 4.5,
+    "slow_m_s": 0.65
+  },
+  "fresh_ammo": {
+    "loaded": 8,
+    "reserve": 10,
+    "total": 18
+  },
+  "test_scope": "Finite opt-in simulated UE inputs/native movement, not physical-device/human or teammate acceptance",
+  "verified_runs": {
+    "ammo_v4": {
+      "status": "pass_p1_ammo_radar_inventory",
+      "result_sha256": "2bdeb9026bd89e489ca3dcca72739cb48b9e3a7aa0c0fca8158cc5724c5044df",
+      "checks": 22,
+      "game_sha256": "895c917d95cda154b3247b1b626dc8da3252d66795059dc96cc447ba380c7ff9",
+      "scope": "v8 unchanged menu/ammo/movement production code; carried evidence, not a v9 rerun"
+    },
+    "menu_v2": {
+      "status": "pass_menu_input",
+      "result_sha256": "71f46a73b4563e8652de91183bcdf646eac28439752f96c04d9baee2d0a634b7",
+      "checks": 25,
+      "game_sha256": "895c917d95cda154b3247b1b626dc8da3252d66795059dc96cc447ba380c7ff9",
+      "scope": "v8 unchanged menu/ammo/movement production code; carried evidence, not a v9 rerun"
+    },
+    "menu_720p_v2": {
+      "status": "pass_menu_input",
+      "result_sha256": "ad1337a38e35e2cf37821f471b30bb8ed9663f8d2b9bbd2411aaf7fe9117542c",
+      "checks": 25,
+      "game_sha256": "895c917d95cda154b3247b1b626dc8da3252d66795059dc96cc447ba380c7ff9",
+      "scope": "v8 unchanged menu/ammo/movement production code; carried evidence, not a v9 rerun"
+    },
+    "actions_v2": {
+      "status": "pass_speed_jump_crouch_terrain_refusal",
+      "result_sha256": "d233518fbb50ec24232f38a85f36f4c977f835c07c80bf8cedc9e1438cdd9cbf",
+      "checks": 25,
+      "game_sha256": "895c917d95cda154b3247b1b626dc8da3252d66795059dc96cc447ba380c7ff9",
+      "scope": "v8 unchanged menu/ammo/movement production code; carried evidence, not a v9 rerun"
+    },
+    "route_v2": {
+      "status": "pass_checkpoint_numeric_visual_review_separate",
+      "result_sha256": "b2a797e7b04264a3f9eb33fd9a4102eddc502416c5034a1b5e66b9b1a690dd5d",
+      "checks": 41,
+      "game_sha256": "ac46edeb014a189c24847dfcecbba1d06a118c2367f3d10c6b8ad646d5deeda6",
+      "scope": "current v9 native run"
+    },
+    "checkpoint_v2": {
+      "status": "pass_checkpoint_interaction",
+      "result_sha256": "67eaae6246750c76fbc9e8bf4d9c4711e3449371a1c148f0c1846c7bb21fb7d9",
+      "checks": 28,
+      "game_sha256": "ac46edeb014a189c24847dfcecbba1d06a118c2367f3d10c6b8ad646d5deeda6",
+      "scope": "current v9 native run"
+    },
+    "restore_v2": {
+      "status": "pass_fresh_process_restore",
+      "result_sha256": "ec45a74441d9e9c30a9ff0bb45ee9bf592cda52e50c65182f11ebd0dceef0fed",
+      "checks": 19,
+      "game_sha256": "ac46edeb014a189c24847dfcecbba1d06a118c2367f3d10c6b8ad646d5deeda6",
+      "scope": "current v9 native run"
+    }
+  },
+  "private_verification": "tmp/g1-team-feedback-p1-20261010/verification.json",
+  "native_guards": 1754,
+  "remaining": [
+    "Physical mouse/keyboard, foot sliding/audio cadence and HUD manual review",
+    "Prone positive forward-crawl fixture failed; keep original collision and separate swept-space study",
+    "Five-NPC dispersion proposal rejected by capsule; original placements retained",
+    "ADS and M1 en-bloc reload/remaining sleeve visuals not implemented; compatible licensed assets/actions required",
+    "Lost/Error/Exit menu and second-machine follow-up"
+  ],
+  "failures": "Failures/MI020-20261010-team-feedback-p1/FAILURE_ANALYSIS.md",
+  "build_scope": "Development Win64 Game only; no Editor entry/save or recook",
+  "publication": "No Git commit/push, SFTP, video/report publication or cleanup this turn",
+  "historical_status": "p1_feature_checks_pass_with_unresolved_prone_fixture_pending_manual_review",
+  "superseded_by": "g1-enemy-clear-checkpoint-candidate_v3-20261010",
+  "retirement_map": "Docs/Development/G1CheckpointBaselineAdoption20261010/RECOVERY_MAP_20261010.json"
+}

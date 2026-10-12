@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "superseded_local_runnable_retired",
+  "review_id": "g1-team-feedback-p0-v4-20261010",
+  "date": "2026-10-10",
+  "parent_selection": "CURRENT_DEVELOPMENT_BASELINE.json",
+  "parent_baseline_id": "g1-foot-contact-audio-v2-20261009",
+  "scope": "Menu selection and explicit retryable E checkpoint interaction; models/fingers/gun/resources/journal/audio/navigation/AI retained",
+  "plan": "G1_TEAM_FEEDBACK_IMPLEMENTATION_20261010_ZH.md",
+  "result": "G1_TEAM_FEEDBACK_RESULT_20261010_ZH.md",
+  "source_snapshot": "Unreal/Variants/G1TeamFeedback20261010/Project",
+  "source_files": 45,
+  "source_manifest": "Unreal/Variants/G1TeamFeedback20261010/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "2132c6657433b284160421d04e7a2f3fb639bca0af8221f1869b8be3f68972d6",
+  "active_authoring_project": "tmp/g1-team-feedback-20261010/candidate_v4/Project/WW2FranceLiberation.uproject",
+  "playable_directory": "tmp/Playtest-G1-Interaction-V4-20261010",
+  "playable_entry": "tmp/Playtest-G1-Interaction-V4-20261010/PLAY_G1_REVISION.cmd",
+  "game_sha256": "040a6fa1bbf33d94fa6e14ba6e2510cff240fa8fbdddcd9ed83420c29a3f2e68",
+  "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1Interaction20261010",
+  "save_prefix": "ParisG1PlaytestV5",
+  "test_scope": "UE simulated native inputs; not physical OS input or human/second-machine review",
+  "verified_runs": {
+    "menu_v2": {
+      "status": "pass_menu_input",
+      "result_sha256": "a599f9fe2e931dffec5ebc59d1c4fdd76caa95fe5811758c6fc52a1a1a1220b1",
+      "checks": 25
+    },
+    "menu_720p_v1": {
+      "status": "pass_menu_input",
+      "result_sha256": "237a05c4b611eb33dc7c6737adc6ba74e3f14e62f5a3453a49c78e9d3d93a6df",
+      "checks": 25
+    },
+    "checkpoint_v1": {
+      "status": "pass_checkpoint_interaction",
+      "result_sha256": "2ce7b1634297aae4df10aedefeef0aa43f69ac5dd554348cc8a39c2da2a3c367",
+      "checks": 28
+    },
+    "restore_v1": {
+      "status": "pass_fresh_process_restore",
+      "result_sha256": "d5dd95579a1b4dfd82c6ea816303f49b7eac268d5bf31160b58aba357e7d5382",
+      "checks": 19
+    },
+    "route_v1": {
+      "status": "pass_checkpoint_numeric_visual_review_separate",
+      "result_sha256": "00cdd735b1721853d087315d846d136e975afa4e148a541484bf81aa848aae57"
+    }
+  },
+  "private_verification": "tmp/g1-team-feedback-20261010/verification.json",
+  "failures": "Failures/MI019-20261010-menu-checkpoint-interaction/FAILURE_ANALYSIS.md",
+  "build_scope": "Development Win64 Game; no Editor build/entry or recook",
+  "remaining_manual_checks": [
+    "physical mouse/keyboard on owner machine",
+    "Lost/Error menu and Exit",
+    "E during jump/reload and living-NPC transactions",
+    "second-machine reproduction"
+  ],
+  "selection": "Historical parent; use CURRENT_DEVELOPMENT_BASELINE.json",
+  "publication": "No new Git commit/push/SFTP/video/report requested or performed",
+  "historical_status": "native_game_verified_pending_human_review",
+  "superseded_by": "g1-enemy-clear-checkpoint-candidate_v3-20261010",
+  "retirement_map": "Docs/Development/G1CheckpointBaselineAdoption20261010/RECOVERY_MAP_20261010.json"
+}

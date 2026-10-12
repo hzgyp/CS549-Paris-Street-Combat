@@ -22,7 +22,19 @@ def main():
     target=safe(args.output or args.path)
     if not args.verify_only:assert not target.exists(),'Preserve occupied restore destination'
     if rec['kind']=='retained_file':
-        source=safe(rec['path']);verify(source,item)
+        source=safe(rec['path'])
+        if not source.exists():
+            # 10 October explicit retirement: follow the verified newer mapping.
+            # Do not change original historical maps or their authorized hashes.
+            import sys
+            import importlib.util
+            sys.path.insert(0,str(ROOT/'Tools/Integration/G1CheckpointBaselineAdoption20261010'))
+            spec=importlib.util.spec_from_file_location('checkpoint_retirement_restore',ROOT/'Tools/Integration/G1CheckpointBaselineAdoption20261010/restore_file.py')
+            helper=importlib.util.module_from_spec(spec);spec.loader.exec_module(helper)
+            helper.recover_retired(rec['path'],item,None if args.verify_only else args.output or args.path)
+            print('Exact retired file recovered through10October mapping: '+args.path)
+            return
+        verify(source,item)
         if not args.verify_only:
             target.parent.mkdir(parents=True,exist_ok=True)
             with source.open('rb') as src,target.open('xb') as dst:shutil.copyfileobj(src,dst)

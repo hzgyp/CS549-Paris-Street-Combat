@@ -1,0 +1,189 @@
+{
+  "status": "historical_parent_integrated_into_selected76",
+  "revision": "candidate_mine_v2",
+  "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e",
+  "source_snapshot": "Unreal/Variants/G1PressureMine20261011/Project",
+  "source_manifest": "Unreal/Variants/G1PressureMine20261011/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "f1269aa77a4de08368bff692cee36ece4cfa1131ae1b136db8d550edeafec2c5",
+  "source_files": 63,
+  "active_authoring_project": "tmp/g1-tactical-equipment-20261010/candidate_mine_v2/Project",
+  "playable_directory": "tmp/Playtest-G1-PressureMine-20261011",
+  "playable_entry": "PLAY_TACTICAL_EQUIPMENT.cmd",
+  "user_dir": "G1PressureMine20261011",
+  "save_prefix": "ParisPressureMineV1",
+  "model_review": "Assets/LocalWorking/Experiments/PressureMine/20261011-v1/ASSET_REVIEW.json",
+  "checks": [
+    {
+      "mode": "mine_visual",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_visual_v2/RESULT.json",
+      "result_sha256": "e823c31d303e55aa812def5a778437eda2bf663997c93869b012c956396ffc2d",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "mine_contact",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_contact_v2/RESULT.json",
+      "result_sha256": "8cac583c401405c03a85ae2ee244ea2d6e51c221e437b59052d743d68427c4ff",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "mine_range",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_range_v2/RESULT.json",
+      "result_sha256": "abc0680d6b0f0f7e6a4af307bbc4d72139251ea37aaca39af20bb8832c43ee05",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "mine_ally",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_ally_v2/RESULT.json",
+      "result_sha256": "21787a4c837671281dfb3c46864df2127510c3a2b5bbc242f0c72c9c58c0e9fc",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "mine_german",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_german_v2/RESULT.json",
+      "result_sha256": "75c0d7eebc241070fee2dc2117b30c6086a4aca36763dac0a4aa0f3e53399191",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "mine_post_clear",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_post_clear_v2/RESULT.json",
+      "result_sha256": "74da822f52bb73ad3d0270570135b4ea896d4ca1696644da8e97c71ee6766790",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "mine_post_clear_frag",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_post_clear_frag_v2/RESULT.json",
+      "result_sha256": "08910c9770540cbcb9aa96cad5da0c04c89c3fb78321068a1ec79625d30b1fa2",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "mine_spent_save",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_spent_save_v2/RESULT.json",
+      "result_sha256": "fae1517c776d60bf9d27e0677f1c11dba2a0e1e98fdca7f387c11a57f35af5b5",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "mine_spent_restore",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/mine_spent_restore_v2/RESULT.json",
+      "result_sha256": "a6353d654a1a5edb1a9e55ebc038f166d1b72a59b4e2fe3150b8df2455dca026",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "throw",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/throw_mine_v2/RESULT.json",
+      "result_sha256": "603c7ec47ad65b1a98a950f6c06f5efcb1e748ff40c1fbd5de89e6ab50b6bc74",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "smoke",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/smoke_mine_v2/RESULT.json",
+      "result_sha256": "89e6684d574d308f4f3f814675881d4c2510f5c4ad963e874075fe394bafa8a6",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "interactions",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/interactions_mine_v2/RESULT.json",
+      "result_sha256": "ebea935198b6daa3c7080e9de6a1515ab0e126d4cff13af979b1330afa0b7205",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "sites",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/sites_mine_v2/RESULT.json",
+      "result_sha256": "9ccc1b16f5e426f71d56565877382f1de510f9cf74347da740222f8157356974",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "menu",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/menu_mine_v2/RESULT.json",
+      "result_sha256": "b3691d7efb927ae0e665ff82b8e6f2365202715dfe80b0aab13bf8d7b7979a4f",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "enemy_clear",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/enemy_clear_mine_v2/RESULT.json",
+      "result_sha256": "8411901b610365350f46889609582c270b1c85c8e55a98ed8754fbfe67b3066e",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "p1",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/p1_mine_v2/RESULT.json",
+      "result_sha256": "24dd65151d283f84a2917c322678a0b24f73aebc5b0d858caa756376e6c6f258",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "save_equipment",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/save_equipment_mine_v2/RESULT.json",
+      "result_sha256": "2fba2b470308d4404a4e47ca279f93f12b205f4c64392e9d2c887061520c5bf2",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "restore_equipment",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_equipment_mine_v2/RESULT.json",
+      "result_sha256": "293675a54b1833a1ad97611150a414884e4132d056874360f0be0b3d31bba26d",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "restore_legacy",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_legacy_mine_v2/RESULT.json",
+      "result_sha256": "6350db694462c72b672f5ada8a90e50ea4bdf651a27433eb9505adecff5d8aa7",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "restore_v16_equipment",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_v16_equipment_mine_v2/RESULT.json",
+      "result_sha256": "d6899364795e24bfdba7206604fa9e3e3d86bbe0082c207c573ac77cad6d6b09",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "performance",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/performance_mine_v2/RESULT.json",
+      "result_sha256": "2efb04836cdcd37b903d381f8d3cafead0b37e8f24f7b502b52dbd6045f2578d",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "hazard",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/hazard_mine_v2/RESULT.json",
+      "result_sha256": "038d26bbd95c2c12f73e284c74a6ca3d7c6477371595eda06110c4e9458caaed",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    },
+    {
+      "mode": "blast_occlusion",
+      "inherited_unchanged_scope": false,
+      "result": "tmp/g1-tactical-equipment-20261010/checks/blast_occlusion_mine_v2/RESULT.json",
+      "result_sha256": "1ce3aa03c35bb9dc0bfcf7d55f5eaf55812016169176c96828fc87b9d7a50054",
+      "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e"
+    }
+  ],
+  "stopped_candidates": [
+    "candidate_mine_v1: dark exterior / MI030",
+    "candidate_mine_v3: invalid pre-clear Waiting fixture / MI031"
+  ],
+  "editors": "Existing owned Editors retained; no mine Editor/PIE/cook acceptance claimed",
+  "manual_review": "pending",
+  "publication": "none",
+  "historical_status": "unselected_pressure_mine_unified_playtest_candidate",
+  "integrated_into": "g1-complete-gameplay-grenade-equip-20261011",
+  "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+  "retired_playable_recovery_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json"
+}

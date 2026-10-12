@@ -1,0 +1,168 @@
+{
+  "status": "historical_parent_integrated_into_selected76",
+  "revision": "candidate_grenade_models_v5",
+  "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59",
+  "source_snapshot": "Unreal/Variants/G1GrenadeModels20261011/Project",
+  "source_manifest": "Unreal/Variants/G1GrenadeModels20261011/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "39e6d0085c1b44c4a138e26ef0759fe2e75fb66ad939cb18f7a995dea59b7640",
+  "source_files": 74,
+  "active_authoring_project": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v1/Project",
+  "authoring_name_note": "candidate_grenade_models_v1 Project contains final v5; v1–v5 immutable compiled snapshots/receipts remain separate",
+  "playable_directory": "tmp/Playtest-G1-GrenadeModels-20261011",
+  "playable_entry": "tmp/Playtest-G1-GrenadeModels-20261011/PLAY_GRENADE_MODELS.cmd",
+  "user_dir": "G1GrenadeModels20261011",
+  "save_prefix": "ParisGrenadeModelsV1",
+  "parent_record": "tmp/g1-grenade-models-20261011/freeze.json",
+  "parent_source": "Unreal/Variants/G1PlayerDeath20261011/Project",
+  "implementation": "Docs/Development/MissionLoopV1/GRENADE_MODELS_IMPLEMENTATION_20261011_ZH.md",
+  "result": "Docs/Development/MissionLoopV1/GRENADE_MODELS_RESULT_20261011_ZH.md",
+  "checks": [
+    {
+      "mode": "models",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/models_gmv5/RESULT.json",
+      "status": "pass_native_models",
+      "sha256": "6f1918dfbf8ee88fea09654afb7afdd4eee3a8214dc31e248b1a127bd1618783",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "throw",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/throw_gmv5/RESULT.json",
+      "status": "pass_native_throw",
+      "sha256": "c74b2fd3a8619628bdd06f910724c6b83d6dc349393e26d13af37f4a8fce7f86",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "smoke",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/smoke_gmv5/RESULT.json",
+      "status": "pass_native_smoke",
+      "sha256": "6e052f20aae447fce462269ad3199d931d0c775c2dc1199dba99a56aa657019c",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "p1",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/p1_gmv5/RESULT.json",
+      "status": "pass_p1_ammo_radar_inventory",
+      "sha256": "8edd8245530d61f72f0afdd21befa648741663f0fd62dc6c70a50b3f043c5b6b",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "enemy_clear",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/enemy_clear_gmv5/RESULT.json",
+      "status": "pass_enemy_clear_checkpoint",
+      "sha256": "4fc984d63f730b516371c09d7e75c8c93ac7ee2792d6f53d64903824f3daed4c",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "interactions",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/interactions_gmv5/RESULT.json",
+      "status": "pass_native_interactions",
+      "sha256": "2f946d7374d42858d933f69f40f0028d4568f1bebc47a66c7869f9d8144277ef",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "save_equipment",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/save_equipment_gmv5/RESULT.json",
+      "status": "pass_native_save_equipment",
+      "sha256": "eac5d8cf1109e50c1bfe1a03c6f0f998c6f20857c1652167be830872921baad2",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "restore_equipment",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_equipment_gmv5/RESULT.json",
+      "status": "pass_native_restore_equipment",
+      "sha256": "79bfbffa47459dc603a90dc57eafb152a9593cc4b058e3ea114f454d4d5f15c0",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "restore_legacy",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_legacy_gmv5/RESULT.json",
+      "status": "pass_native_restore_legacy",
+      "sha256": "956a60b0767d9a26454ae7600bbaf9e23035839766170797ba7c4f0d1aac8cbd",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "restore_v16_equipment",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_v16_equipment_gmv5/RESULT.json",
+      "status": "pass_native_restore_equipment",
+      "sha256": "a680506b7c1ab59c2597318790b377d55a73ae91d721ffeba6fd5c2ad0973958",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "performance",
+      "result": "tmp/g1-tactical-equipment-20261010/checks/performance_gmv5/RESULT.json",
+      "status": "pass_native_performance",
+      "sha256": "df983c982a05bb146607de05dd62bb6109e26ca3ebfcb196f0f7b141780a5a94",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "equipment_pause",
+      "result": "tmp/g1-combat-ui-20261011/checks/ui_equipment_pause_gmv5/RESULT.json",
+      "status": "pass_ui_equipment_pause",
+      "sha256": "2607bf3ae683804287b8cb5c70aaa67283694f09f5dc4a57982d0d3d5a1f2f75",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    },
+    {
+      "mode": "death_frag",
+      "result": "tmp/g1-player-death-20261011/checks/frag_gmv5/RESULT.json",
+      "status": "pass_player_death_frag",
+      "sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+      "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59"
+    }
+  ],
+  "protection": "tmp/g1-tactical-equipment-20261010/candidate_grenade_models_v5/protection.json",
+  "visual_review": "tmp/g1-grenade-models-20261011/VISUAL_REVIEW.json",
+  "assets": [
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_geometry.json",
+      "size_bytes": 1723576,
+      "sha256": "4f836c22ec91e0d1e5b4c096ea870556466a1a3a54b5c4513639a5c81511acb1"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_albedo.png",
+      "size_bytes": 1675918,
+      "sha256": "2eda34c82dc826a6be64d408fd6a6135a028b88724ede250721853522ac246ed"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_orm.png",
+      "size_bytes": 1794723,
+      "sha256": "dcccf3a515c0a6b3e755249a6e235de6b84f764aab1f2e52fc001cc437bef8c7"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_normal.png",
+      "size_bytes": 1717000,
+      "sha256": "9249335b5e2a7529b2655d5f05c9b663afc1ed649c93a2d3d0e344b2fa02470d"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_geometry.json",
+      "size_bytes": 4886498,
+      "sha256": "86b3583147efdc454e9e58f92eb25fbbbf8904e9d2cea6423a11da4e8e8699a2"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_albedo.png",
+      "size_bytes": 594581,
+      "sha256": "d6840ae07d79e63df29a6af833e1d44310bede474b0e398f9f157bc8ef1fda1b"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_orm.png",
+      "size_bytes": 455586,
+      "sha256": "a073c1ee026af840a942fb9bbc15aea981fefe33ba23d76dec8b9bd085a0952a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_normal.png",
+      "size_bytes": 641222,
+      "sha256": "f8e4744406712ca434cf2b7b91cf6a19e8976cd54a5d780361408dd62999510c"
+    }
+  ],
+  "manual_review": "pending",
+  "limitations": [
+    "Original hold pose remains at lower screen edge; no new continuous grasp/contact or whole animation acceptance.",
+    "Ground close image uses independent photo fixture camera; normal entry has none.",
+    "Performance run covers current roster, not expanded NPC stress."
+  ],
+  "publication": "none; no Git/SFTP/adoption",
+  "editors": "Existing UE Editors remain open",
+  "historical_status": "unselected_unified_grenade_models_candidate",
+  "integrated_into": "g1-complete-gameplay-grenade-equip-20261011",
+  "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+  "retired_playable_recovery_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json"
+}

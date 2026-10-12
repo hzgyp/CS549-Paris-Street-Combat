@@ -1,0 +1,28 @@
+{
+  "status": "pass_source_game_native_teacher_and_catalog_protected",
+  "checked_at": "2026-10-11T20:20:55.754957-04:00",
+  "source_files": 76,
+  "trial_files": 100,
+  "protected_native_files": 1754,
+  "protected_course_access_files": 7,
+  "source_manifest_sha256": "9ac0620c0794c2cc64c0b701d50e7dba4a82941bee7d147be1f72cd604d9312d",
+  "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
+  "unchanged_prior_manifest_roles": 12,
+  "active_manifest_roles": 15,
+  "catalog": {
+    "path": "Assets/Sync/CATALOG.json",
+    "size_bytes": 16324,
+    "sha256": "edbb72917fa9aab83f4e6231977ee943c2560980141e15ef1b3c0c90518555ae"
+  },
+  "teacher_access_unchanged": true,
+  "root_acl_unchanged": true,
+  "cleanup": {
+    "status": "verified_task_readback_copies_removed",
+    "removed_files": 59,
+    "removed_logical_bytes": 17023050200,
+    "current_package_retained": true,
+    "teacher_package_retained": true,
+    "obsolete_remote_package_bytes_removed": 0
+  },
+  "no_game_editor_entry": true
+}

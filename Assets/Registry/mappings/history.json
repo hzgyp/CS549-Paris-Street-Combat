@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "revisions": [
+    {
+      "id": "mine-ue-v1",
+      "asset_id": "pressure-mine",
+      "title": "UE整合 v1 · 外观失败",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Failures/MI030-20261011-mine-render-winding/ANALYSIS.md",
+      "summary": "程序构网格和PBR加载通过，但实际UE外观近黑、标记不可读；保留失败。",
+      "scope": "2026-10-11实际UE外观，非自然交战",
+      "result": "fail",
+      "media_ids": [
+        "mine-failed"
+      ],
+      "model_review": "Assets/LocalWorking/Experiments/PressureMine/20261011-v1/ASSET_REVIEW.json",
+      "result_path": "tmp/g1-tactical-equipment-20261010/checks/mine_visual_v1/VISUAL_REVIEW.json"
+    },
+    {
+      "id": "mine-ue-v2",
+      "asset_id": "pressure-mine",
+      "title": "UE整合 v2 · 朝向纠正",
+      "kind": "integration_revision",
+      "parent_ids": [
+        "mine-ue-v1"
+      ],
+      "document": "Docs/Development/MissionLoopV1/PRESSURE_MINE_RESULT_20261011_ZH.md",
+      "summary": "撤销多余三角顶点交换；同一Blender源、GLB与烘焙贴图，UE实际图复看通过。",
+      "scope": "隔离夹具的UE普通／细节视距；人工正式选定待定",
+      "result": "pass",
+      "media_ids": [
+        "mine-ue"
+      ],
+      "model_review": "Assets/LocalWorking/Experiments/PressureMine/20261011-v1/ASSET_REVIEW.json",
+      "result_path": "tmp/g1-tactical-equipment-20261010/checks/mine_visual_v2/RESULT.json"
+    },
+    {
+      "id": "german-v13-rejected",
+      "asset_id": "german-soldier",
+      "title": "整套盟军握姿迁移 V13",
+      "kind": "integration_revision",
+      "document": "Docs/Development/GERMAN_NPC_ALLIED_GRIP_V13_RESULT_20261006.md",
+      "summary": "用户否决整套盟军握姿复用；该路线停用，不能因骨架能映射就判定外观通过。",
+      "scope": "2026-10-06人工外观否决",
+      "result": "fail",
+      "media_ids": []
+    },
+    {
+      "id": "german-v14-selected",
+      "asset_id": "german-soldier",
+      "title": "正式 V14 · 采用原精修 V11",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/GERMAN_NPC_FORMAL_V14_RESULT_20261006.md",
+      "summary": "回到德军自身V11与FineWood V15。人工采用与食指／接触限制同时保留。",
+      "scope": "V14正式取舍；非零穿模或完整动作验收。前项关系表示取舍顺序，不表示复用V13姿态。",
+      "result": "accepted_with_limits",
+      "media_ids": [],
+      "decision_predecessor": "german-v13-rejected"
+    },
+    {
+      "id": "animation-repeat",
+      "asset_id": "rifle-animation",
+      "title": "10月4日重复动作交付",
+      "kind": "delivery_evidence",
+      "document": "Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md",
+      "summary": "原清单记录298个原生文件及SourceFiles.zip逐项SHA与已有RifleAnimsetPro一致，无新增动作。",
+      "scope": "原清单的重复字节检查；本次没有重新购买／删除／全量核验",
+      "result": "recorded",
+      "media_ids": []
+    },
+    {
+      "id": "paris-city-delivery-d20260630",
+      "asset_id": "paris-city",
+      "title": "France Liberation 原始交付 d20260630",
+      "kind": "delivery_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/AssetWorkbenchV1/CITY_MAP_ASSET_USAGE_20261011_ZH.md",
+      "summary": "原始供应城市及外部Actor、建筑预制关卡、材质与贴图；保留交付版本来源。",
+      "scope": "版本名来自原始交付路径；不宣称本次对原始全包重验",
+      "result": "recorded",
+      "media_ids": [],
+      "metrics": {
+        "delivery_version": "d20260630",
+        "source_manifest_sha256": "31d5304d32dc2007b1fdeedc7ec528c254826a23a722c10918ce27c48001895d"
+      }
+    },
+    {
+      "id": "paris-city-g1-native-20261008",
+      "asset_id": "paris-city",
+      "title": "G1 原生派生地图",
+      "kind": "integration_revision",
+      "parent_ids": [
+        "7912846000b9014497cd91d5"
+      ],
+      "document": "Docs/Development/AssetWorkbenchV1/CITY_MAP_ASSET_USAGE_20261011_ZH.md",
+      "summary": "游戏使用G1派生关卡；供应城市原件与游戏关卡分别登记。",
+      "scope": "地图与美术范围，不新增游戏运行验收",
+      "result": "recorded",
+      "media_ids": [
+        "paris-map-game-bridge",
+        "paris-map-game-street"
+      ],
+      "metrics": {
+        "native_version": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+        "native_manifest_sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
+        "native_maps": [
+          {
+            "package": "/Game/ParisCombat/Maps/LV_ParisG1_Midterm_V1",
+            "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Maps/LV_ParisG1_Midterm_V1.umap",
+            "size_bytes": 1504660,
+            "sha256": "7f5410b71475db328c3cef2d265e8bc0a8b2f41a12b63e1fa6decb9904e759bb",
+            "storage": "sftp",
+            "remote_path": "/objects/sha256/7f/7f5410b71475db328c3cef2d265e8bc0a8b2f41a12b63e1fa6decb9904e759bb"
+          },
+          {
+            "package": "/Game/ParisCombat/Maps/LV_ParisStreetCombat_V1",
+            "path": "Unreal/ParisStreetCombat/Content/ParisCombat/Maps/LV_ParisStreetCombat_V1.umap",
+            "size_bytes": 2720990,
+            "sha256": "9ff18c1339ee1de61add8a15acebd56512617ed69547de668b7d59ee1772d65b",
+            "storage": "sftp",
+            "remote_path": "/objects/sha256/9f/9ff18c1339ee1de61add8a15acebd56512617ed69547de668b7d59ee1772d65b"
+          }
+        ]
+      }
+    }
+  ]
+}

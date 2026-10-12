@@ -1,31 +1,19 @@
-# 当前开发基础
+## 2026-10-11：最新正式76版已同步SFTP
 
-2026年10月9日。Yupu人工复验最新音效V2通过，明确选作后续开发基础。以同名JSON
-选择器为准；HUD40、AV42及旧Foley42源码保留作历史锚点，旧可运行包可以退休。
+最新组员包 `/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip`；精确76源／运行资源／SHA及恢复步骤见[最新同步指南](TEAM_CURRENT_BUILD_20261011_ZH.md)。原老师audioV2下载及课程附件保留，以下旧日期文字为历史。衣袖遮挡待修；新的76版外机验证由组员进行。
 
-试玩入口`tmp/Playtest-G1-Foley-V2-20261009/PLAY_G1_REVISION.cmd`。后续源码从精确
-42文件`Unreal/Variants/G1FootContactAudio20261009/Project`或一致的制作工程
-`tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project`开始。源码清单哈希
-2ff88f0e74040b46e8b7c26750602c56556857a06b45db96c28f297f534b468b；程序哈希
-53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec。保留Content
-junction和烹饪输入，不因旧目录名称删制作工程。进入编辑器前必须从选定源码构建，
-原编辑器缓存DLL不能代表当前Game版本。
+# 当前正式开发基线
 
-SFTP版本`paris-g1-playtest-20261009-audio-v2`，下载
-`/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip`。
-完整解压后启动，92成员含原88文件试玩、双语操作、源码身份及微软运行库。独立
-33音效清单在Assets/Sync/manifests/paris-g1-recorded-audio.json；重建先恢复其
-RuntimeAudio精确路径，再复制WAV至可写wrapper的Audio目录。城市/人物/枪械原生
-清单与source758/native359保持原样作依赖恢复和保护锚点。Git源码不含商业Content，
-发布不证明编辑器重新烹饪成功。
+2026-10-11，用户人工验证完整玩法统一版，确认逻辑无问题，要求正式采用；仍有衣服／衣袖遮挡小问题，保留为待修项。
 
-选定版本包含玩家落脚阶段音效、起跳/落地、M1实录枪声、已改善的换弹录音和直接
-恢复死亡终态；保留原HUD、模型、手指、动作、枪械/资源/存档逻辑。人工音效复验
-通过，数值验证仍为20稳定落脚通过、9混合过渡未评估。德军实录来源、物理接触、
-自然转身、性能/压力、组员电脑、视频和课程验收仍单独处理。
+正常入口 `tmp/Playtest-G1-GrenadeEquip-20261011/PLAY_GRENADE_EQUIP.cmd`；已有稳定入口 `PLAY_CURRENT_G1.cmd` 指向同一程序。包继续留在专用tmp目录。存档继续使用 `%LOCALAPPDATA%/ParisStreetCombat/G1GrenadeEquip20261011`，前缀 `ParisGrenadeEquipV2`；未移动、覆盖或合并旧用户存档。
 
-旧本机/SFTP试玩包按G1_AUDIO_BASELINE_PUBLICATION_20261009双语计划/结果及冻结
-清单清理。旧路径请查G1AudioPublicationV2/RECOVERY_MAP_20261009.json，用当前
-字节和小型唯一文件ZIP恢复。保留旧V13恢复ZIP、源码/日志/图像/原始视频/存档/
-失败证据及资产原件。人工通过结束音效复查暂停；后续演示仍需先修正自然转身，
-本次发布没有新增录屏。
+当前精确76文件源 `Unreal/Variants/G1GrenadeEquip20261011/Project`，制作工程 `tmp/g1-tactical-equipment-20261010/candidate_grenade_equip_v1/Project/WW2FranceLiberation.uproject`（历史v1目录含final build_v4）。Game SHA256 `b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d`；manifest `9ac0620c0794c2cc64c0b701d50e7dba4a82941bee7d147be1f72cd604d9312d`。源码和已验证可执行字节均不变。本次没有重新构建／进入Editor；现有两个Editor保持开启，不能把旧Editor DLL当76版。
+
+承接手雷／烟雾、长按准备松手投出／取消、可用库存轮换、地图地雷爆炸与附近拆除、有限弹药补给、战地手册UI、人物小队信息及死亡倒地后重开。两种投掷物全耗尽时保持步枪；原步枪手指常量／持枪分支、人物模型、枪械／资源、原全灭敌军圈内E保存校验保持。原步行2.2／跑步4.5米每秒、8+10初始子弹保留。
+
+已有15项最终Game检查及实际就绪／长按图通过，最新人工逻辑通过。当前人数短性能记录与隔离夹具不等于新增大量NPC、全程精细接触、第二机或课程验收。衣袖遮挡及其余表现／玩法／NPC压力工作留在待办。
+
+七份旧普通试玩、旧Runtime／Archive／Binaries和闲置构建缓存按[实施](G1_GAMEPLAY_BASELINE_ADOPTION_20261011_ZH.md)及[结果](G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md)清理；原源码、失败／日志／图／检测、Saved/Cooked、资产及用户档保留。唯一旧二进制见[恢复映射](G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json)，缓存有小型元数据备份、需要重新编译。上一正式52普通包保留一份支持既有恢复引用，不再保留七份过渡试玩。运行中full_v8／full_v16作者目录未动。
+
+正式选择只在本机完成。本轮未commit／push或SFTP同步，原课程包／视频／外机记录仍属于更早的audioV2发布，不能视为最新76交付。早前状态属于有日期的历史，以JSON选择器为准。
