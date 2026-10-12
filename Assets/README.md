@@ -1,5 +1,7 @@
 # Asset inventory and restoration
 
+**Start here / 先查索引：** [统一资产索引](ASSET_INDEX.md) · [完整资产目录](Registry/ASSET_DIRECTORY.md)。其他项目窗口查找原件、动作、预览、版本或使用记录时，先按索引定位资产ID，再打开相应来源；索引未覆盖时再定向搜索。当前采用情况以最新选择器为准。
+
 **4 October delivery receipt/audit:** both physical, Git-ignored folders now
 contain user files. [Catalog Section11](XIAN_YU_ASSET_CATALOG_20261003_ZH.md)
 records new VFX68files/78,239,739bytes and a confirmed RifleAnimsetPro repeat:
