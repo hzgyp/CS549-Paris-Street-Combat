@@ -23,7 +23,8 @@
       "kind": "project_document_illustration",
       "documents": [
         "Docs/Development/MissionLoopV1/MISSION_LAYOUT_20261008.md",
-        "Docs/Development/MissionLoopV1/MISSION_LAYOUT_20261008_ZH.md"
+        "Docs/Development/MissionLoopV1/MISSION_LAYOUT_20261008_ZH.md",
+        "Docs/Development/MAP_EXPLORATION_GAMEPLAY_HANDOFF_20261012_ZH.md"
       ],
       "provenance": "Existing project-authored conservative navigation-mask and mission annotations, Evidence/MissionLayoutV1/layout_v2_20261008. No vendor models/textures or private correspondence embedded; original private evidence preserved.",
       "public_review": "approved",
@@ -57,7 +58,8 @@
       "kind": "project_document_illustration",
       "documents": [
         "Docs/Development/MissionLoopV1/FINE_GRID_RESULT_20261007.md",
-        "Docs/Development/MissionLoopV1/FINE_GRID_RESULT_20261007_ZH.md"
+        "Docs/Development/MissionLoopV1/FINE_GRID_RESULT_20261007_ZH.md",
+        "Docs/Development/MAP_EXPLORATION_GAMEPLAY_HANDOFF_20261012_ZH.md"
       ],
       "provenance": "Project-authored unannotated 25 cm lowest-surface walk mask, FineMapGridV1/expanded_v2_20261007/derived/full_walk_L0.png; SHA-256 matches artifact/audit_masks.json. Expanded disposable survey, not saved production navigation or complete runtime acceptance. No model/texture or secret bytes. Raw evidence retained privately.",
       "public_review": "approved",

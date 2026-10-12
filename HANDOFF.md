@@ -1,3 +1,9 @@
+## 2026-10-12：地图探索与玩法设计新窗口交接
+
+后续Git授权已改为按功能同步完成的资产工作台与本交接，见[发布记录](Docs/Development/GIT_FUNCTIONAL_PUBLICATION_20261012_ZH.md)。正在另一个窗口开发的POSTBRIDGE探索方案和MapExplorationV1工具仍留本地，不能用此同步记录冒称实走或玩法通过。
+
+专注地图探索、连续小队任务与战术玩法的接手入口：[巴黎地图探索与玩法设计新窗口交接](Docs/Development/MAP_EXPLORATION_GAMEPLAY_HANDOFF_20261012_ZH.md)。当前正式76版逻辑人工通过，源码已于10月11日提交推送78b23cd、试玩同步SFTP；老师audioV2评阅包继续保留。新窗口先读该文和当前选择器，使用25厘米测绘并区分导航范围、候选与实走、叠置表面与真实楼层；先形成带图设计及有界测试方案，不重做已有装备，不混入另一窗口资产平台工作。
+
 ## 2026-10-11：正式76私有发布与老师包保留
 
 最新SFTP：/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip。精确76和RuntimeResources清单见TEAM_CURRENT_BUILD_20261011_ZH及G1_GAMEPLAY_PUBLICATION实施／结果。老师旧audioV2 ZIP／哈希对象／原manifest／访问附件未变，独立course-review角色保持。旧HUD已先前删除；没有其它旧试玩ZIP可安全清理。原生／模型／枪械／存档／用户文件保持，UE继续开启。Git提交推送为本轮授权步骤，实际远端HEAD单独记录，不能按本文提前推断成功。
