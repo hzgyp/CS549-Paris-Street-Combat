@@ -24,7 +24,7 @@
     {
       "id": "formal",
       "channel": "formal",
-      "title": "本地正式开发版",
+      "title": "教学阶段正式版1.0",
       "path": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
       "assets": [
         "german-soldier",

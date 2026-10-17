@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "asset_id": "paris-grenade-grips",
+  "asset_version": "grenade-grips-20261017-v1",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-17T09:02:12.052146-04:00",
+  "engine": "Unreal Engine 5.8.2",
+  "blender": "5.2.2",
+  "source": "Human-accepted ThumbPolish native asset and exact matching source adapter",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "scope": "Formal frag/smoke holding appearance asset acceptance; no wholesale Game/formal86 adoption or coursework delivery",
+  "human_acceptance": {
+    "date": "2026-10-17",
+    "quote": "这版握持手雷，烟雾弹验收通过。",
+    "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+    "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046"
+  },
+  "native_package": "/Game/ParisCombat/Characters/ThumbPolish20261017/SK_PC_ThumbPolish",
+  "native_restore": "Content/ParisCombat/Characters/ThumbPolish20261017",
+  "dependencies": [
+    {
+      "asset_id": "us-paratrooper-original",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/us-paratrooper-original.json",
+      "sha256": "6d9d1a3cf4619bca80205c60958ea29fb3d0689b6759e7b585036549027846a4",
+      "release_manifest": "/releases/character-20261001-v1/us-paratrooper-original.json"
+    },
+    {
+      "asset_id": "rifle-pro-mocap-ue582-selected",
+      "asset_version": "rifle-motion-20261002-v1",
+      "path": "Assets/Sync/manifests/rifle-pro-mocap-ue582-selected.json",
+      "sha256": "55a0fe8112e23355ebdfa69e6eb2c9dd50dbac9a2d27211918e68dc67c179126",
+      "release_manifest": "/releases/rifle-motion-20261002-v1/rifle-pro-mocap-ue582-selected.json"
+    },
+    {
+      "asset_id": "paris-gameplay-native-playtest",
+      "asset_version": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+      "path": "Assets/Sync/manifests/paris-gameplay-native-playtest.json",
+      "sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
+      "release_manifest": "/releases/paris-native-playtest-20261008-g1-npc-vfx-v1/paris-gameplay-native-playtest.json"
+    }
+  ],
+  "source_snapshot": "Unreal/Variants/G1ThumbPolish20261017/Project",
+  "source_manifest": "Unreal/Variants/G1ThumbPolish20261017/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+  "source_archive": "Evidence/MATCHING_SOURCE_125.zip",
+  "source_files": 125,
+  "activation": "Use exact matching plugin source, select ThumbPolish FP mesh, mutually exclusive ThumbWeb_Frag/Smoke; zero for rifle/release; preserve original native skeleton/textures/other actions.",
+  "verification": {
+    "native": "NATIVE_AUTHOR_RESULT_v4: fresh two persistent morphs, original basis/weights/UV/topology/rest audit exact",
+    "runtime": "Five scoped final-Game checks and human grip acceptance",
+    "remote": "Final immutable object and manifest authenticated download/SHA-256/size required before selection",
+    "second_machine": "not performed",
+    "fine_contact": "No expanded quantitative full-contact acceptance; historical smoke palm residue remains"
+  },
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Content/ParisCombat/Characters/ThumbPolish20261017/M_Skin_Master_Thumb.uasset",
+      "size_bytes": 14756,
+      "sha256": "2dd57a7266b8033b2e18a7b7a30524365f21a2b9977476b8c2063108233cceab",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2d/2dd57a7266b8033b2e18a7b7a30524365f21a2b9977476b8c2063108233cceab"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Content/ParisCombat/Characters/ThumbPolish20261017/M_USParatrooper_master_Thumb.uasset",
+      "size_bytes": 26616,
+      "sha256": "ebef4b89fef7614f83efe5301badcb400215934e65cd6edef0d16ccc19d21d07",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/eb/ebef4b89fef7614f83efe5301badcb400215934e65cd6edef0d16ccc19d21d07"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Content/ParisCombat/Characters/ThumbPolish20261017/M_USParatrooperJacket_Thumb.uasset",
+      "size_bytes": 10736,
+      "sha256": "a690efa014c6b6affc12013cdf7018322cbdabc6e80a39f372f760c178f3eb1a",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a6/a690efa014c6b6affc12013cdf7018322cbdabc6e80a39f372f760c178f3eb1a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Content/ParisCombat/Characters/ThumbPolish20261017/MI_USParatrooper_feceA_Thumb.uasset",
+      "size_bytes": 6247,
+      "sha256": "e22f7aa0a242a453876570762f611d847fd7d04958412c686496c6a21637c4a6",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e2/e22f7aa0a242a453876570762f611d847fd7d04958412c686496c6a21637c4a6"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Content/ParisCombat/Characters/ThumbPolish20261017/SK_PC_ThumbPolish.uasset",
+      "size_bytes": 1516399,
+      "sha256": "d8bed804795c2ae274a0c42b029855c83f4fc7934c8d0dfc01c6e46877eeb6c8",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d8/d8bed804795c2ae274a0c42b029855c83f4fc7934c8d0dfc01c6e46877eeb6c8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Evidence/ACCEPTED_RUNTIME_GRIPS.jpg",
+      "size_bytes": 188417,
+      "sha256": "a2865795ac45678be279a9e2f65d1a7cbccb87ffa934c48f3a8c9381040531f7",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a2/a2865795ac45678be279a9e2f65d1a7cbccb87ffa934c48f3a8c9381040531f7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Evidence/CORRECTIVE_TARGETS.json",
+      "size_bytes": 374659,
+      "sha256": "face0f03eb1118582797f04d09e3b43ff7b52b7ef59812a3e5f93a9bdd67bcbb",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/fa/face0f03eb1118582797f04d09e3b43ff7b52b7ef59812a3e5f93a9bdd67bcbb"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Evidence/MATCHING_SOURCE_125.zip",
+      "size_bytes": 380493,
+      "sha256": "c2596e5606a440c3247e874e8aaa0ed79907a73ef63146b5563ce1522675e15b",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c2/c2596e5606a440c3247e874e8aaa0ed79907a73ef63146b5563ce1522675e15b"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Evidence/ThumbWebPolish.blend",
+      "size_bytes": 641179,
+      "sha256": "838a26a255a78072f503c671334947a379405927449348cdec0c66f3c1998bb2",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/83/838a26a255a78072f503c671334947a379405927449348cdec0c66f3c1998bb2"
+    }
+  ],
+  "file_count": 9,
+  "size_bytes": 3159502
+}

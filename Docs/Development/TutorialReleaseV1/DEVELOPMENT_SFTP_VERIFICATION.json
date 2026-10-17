@@ -1,0 +1,22 @@
+{
+  "status": "authenticated_final_objects_alias_manifests_verified",
+  "release": "paris-tutorial-20261017-v1",
+  "download": "/releases/paris-tutorial-20261017-v1/Paris-Tutorial-1.0-20261017.zip",
+  "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+  "source_manifest_sha256": "faa136ed3bbafa07e93253b3c6faefab6eb4380cc06e657ee9d3c67baa0a9c91",
+  "objects": 128,
+  "root_acl_unchanged": true,
+  "old_remote_releases_untouched": true,
+  "coursework_delivery": false,
+  "archive": {
+    "size_bytes": 8266799598,
+    "sha256": "f145c2e06bdc2aeeafc48397575552f91c661dacf3702135fec57c0d2957ab55"
+  },
+  "verification": "Pinned-host authenticated SFTP; full final object/named alias and manifest readback SHA256/size",
+  "counts": {
+    "public_source": 144,
+    "complete_private_source": 145,
+    "runtime_resources": 79,
+    "native_overlay": 48
+  }
+}

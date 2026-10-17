@@ -1,0 +1,3 @@
+# Current formal tutorial1.0
+
+17 October2026. CURRENT_DEVELOPMENT_BASELINE.json and CURRENT_TUTORIAL_RELEASE.json select the unchanged human-reviewed source145/Game3bb90f64. PLAY_CURRENT_G1.cmd routes the formal tutorial. Read Docs/Development/MissionLoopV1/TUTORIAL_V1_RELEASE_RESULT_20261017.md and Assets/Sync/TUTORIAL_SOURCE_CONTRACT_20261017.json. Previous formal86 remains preserved. Continue from CURRENT_TUTORIAL_SOURCE_PENDING.json; reconcile action/gameplay edits and build only on explicit human request. This supersedes only older formal/current-tutorial routing below. Other lane records are preserved as inherited, not newly accepted. Development Git/SFTP only; coursework delivery remains human-only.

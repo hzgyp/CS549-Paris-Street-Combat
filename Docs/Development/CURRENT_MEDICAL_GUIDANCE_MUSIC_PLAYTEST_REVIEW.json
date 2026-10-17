@@ -1,0 +1,94 @@
+{
+  "status": "human_medical_guidance_music_accepted_formal_tutorial_v1",
+  "date": "2026-10-17",
+  "source_project": "Unreal/Variants/G1MedicalGuidanceMusic20261017/Project",
+  "source_manifest": "Unreal/Variants/G1MedicalGuidanceMusic20261017/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "faa136ed3bbafa07e93253b3c6faefab6eb4380cc06e657ee9d3c67baa0a9c91",
+  "source_files": 145,
+  "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+  "selected_build": "game_v8",
+  "playable_directory": "tmp/Playtest-G1-Medical-Guidance-Music-20261017",
+  "playable_entry": "tmp/Playtest-G1-Medical-Guidance-Music-20261017/PLAY_MEDICAL_GUIDANCE_MUSIC.cmd",
+  "user_dir": "G1MedicalGuidanceMusic20261017",
+  "save_prefix": "ParisCheckpointHistoryV1",
+  "actual_save_copies": 8,
+  "package_file_count": 132,
+  "package_size_bytes": 8669218526,
+  "parent_selector": "Docs/Development/CURRENT_TUTORIAL_AUDIO_PLAYTEST_REVIEW.json",
+  "checks": [
+    {
+      "result": "tmp/g1-medical-guidance-music-playtest-20261017/checks/audio_1080_game_v8_r2/RESULT.json",
+      "result_sha256": "bd70e5f61e37ac8b853575079bbf52214729d217c4c320d091eadf147a06bab2",
+      "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+      "mode": "audio_1080_game_v8_r2",
+      "scope": "Finite opt-in independent UserDirs; actual inputs, declared AI holds/placements/original damage and speech fixture. No human natural-combat/full-map/stress/Editor-PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-medical-guidance-music-playtest-20261017/checks/audio_persist_game_v8/RESULT.json",
+      "result_sha256": "e089285b3a31b218603af85ba49d0fd09c55caf8d2abf31794a1c65d31972df3",
+      "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+      "mode": "audio_persist_game_v8",
+      "scope": "Finite opt-in independent UserDirs; actual inputs, declared AI holds/placements/original damage and speech fixture. No human natural-combat/full-map/stress/Editor-PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-medical-guidance-music-playtest-20261017/checks/medical_1080_zh_game_v8/RESULT.json",
+      "result_sha256": "858a88ea2dfc157a5e348daa3d19dd54e4b6837941dd2788149517de8f4e2710",
+      "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+      "mode": "medical_1080_zh_game_v8",
+      "scope": "Finite opt-in independent UserDirs; actual inputs, declared AI holds/placements/original damage and speech fixture. No human natural-combat/full-map/stress/Editor-PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-medical-guidance-music-playtest-20261017/checks/medical_720_en_game_v8/RESULT.json",
+      "result_sha256": "881994a17ff8e6161026f274d782ff9f0afbf03abc0152f036c54a3c91123ca7",
+      "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+      "mode": "medical_720_en_game_v8",
+      "scope": "Finite opt-in independent UserDirs; actual inputs, declared AI holds/placements/original damage and speech fixture. No human natural-combat/full-map/stress/Editor-PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-medical-guidance-music-playtest-20261017/checks/medical_1080_en_game_v8/RESULT.json",
+      "result_sha256": "534d825613754fb97a328a7ae5b2e6845e6ba0768e7eb8f814e1ae22cccca61c",
+      "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+      "mode": "medical_1080_en_game_v8",
+      "scope": "Finite opt-in independent UserDirs; actual inputs, declared AI holds/placements/original damage and speech fixture. No human natural-combat/full-map/stress/Editor-PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-medical-guidance-music-playtest-20261017/checks/medical_720_zh_game_v8/RESULT.json",
+      "result_sha256": "67b999b2c2b3065255b2fb23af33cc85b0ae908f80302d948000f953c86384ba",
+      "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+      "mode": "medical_720_zh_game_v8",
+      "scope": "Finite opt-in independent UserDirs; actual inputs, declared AI holds/placements/original damage and speech fixture. No human natural-combat/full-map/stress/Editor-PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-medical-guidance-music-playtest-20261017/checks/teaching_game_v8/RESULT.json",
+      "result_sha256": "aba414248f0cb914cc730a5b89171316d1e11aa9329ad72d8e04fc23c2ceebe2",
+      "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+      "mode": "teaching_game_v8",
+      "scope": "Finite opt-in independent UserDirs; actual inputs, declared AI holds/placements/original damage and speech fixture. No human natural-combat/full-map/stress/Editor-PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-medical-guidance-music-playtest-20261017/checks/earned_cp1_game_v8/RESULT.json",
+      "result_sha256": "891cd97693440900fb4371c9a6e0c75069c3b7b5436b80f48c572aec5ede9369",
+      "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+      "mode": "earned_cp1_game_v8",
+      "scope": "Finite opt-in independent UserDirs; actual inputs, declared AI holds/placements/original damage and speech fixture. No human natural-combat/full-map/stress/Editor-PIE/second-machine acceptance."
+    }
+  ],
+  "native_manifest": "tmp/g1-medical-playtest-20261017/NATIVE_MANIFEST.json",
+  "audio_contract": "tmp/g1-medical-audio-feedback-20261017/PACKAGING_CONTRACT.json",
+  "formal_adoption": false,
+  "publication": false,
+  "human_review": "pending",
+  "result": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_RESULT_20261017.md",
+  "result_zh": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_RESULT_20261017_ZH.md",
+  "playable_entry_sha256": "dc5669b2140fd99bb94c4da2e284f406ec6504de3d21f9e2039efb913f302355",
+  "normal_startup": "tmp/g1-medical-guidance-music-playtest-20261017/normal_smoke_guidance/launch.json",
+  "schema_version": 1,
+  "revision": 12,
+  "source_snapshot": "Unreal/Variants/G1MedicalGuidanceMusic20261017/Project",
+  "implementation": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_IMPLEMENTATION_20261017.md",
+  "check_manifest": "tmp/g1-medical-guidance-music-playtest-20261017/CHECKS.json",
+  "preservation": "tmp/g1-medical-guidance-music-playtest-20261017/PROTECTION.json",
+  "source_reconciliation": "tmp/g1-medical-guidance-music-playtest-20261017/ACTION_RECONCILIATION.json",
+  "human_manual_review": "Medical guidance and music explicitly accepted17October2026",
+  "formal_baseline": "Docs/Development/CURRENT_TUTORIAL_RELEASE.json"
+}

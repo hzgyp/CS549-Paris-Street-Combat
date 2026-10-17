@@ -1,0 +1,731 @@
+{
+  "status": "frozen_requested_audio_playtest_source",
+  "parent_manifest_sha256": "5e854dbb42b8f79d5d03db4d53592690f3f5b22e19ee7a11ed1841ad52abd242",
+  "files": [
+    {
+      "path": "Config/DefaultEditor.ini",
+      "size_bytes": 58482,
+      "sha256": "25920e87560682479062a06afef5e0046d23789e72200634d852becbe1db407b"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "size_bytes": 1034,
+      "sha256": "8c2a4aaec1e78bae9ee326195f63e13ca61e1da8d206a7ac0e520fa8912934ae"
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "size_bytes": 10015,
+      "sha256": "3a88da46de904a6477c4a3dcaa32cc7f2101e55c857156117695471f7c65ebcf"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/ParisBridgeMissionV1.uplugin",
+      "size_bytes": 495,
+      "sha256": "d0a1e5e999d81f12782925620e2e778ec5b71405129e1ca4c53f2307e8146c84"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/ParisBridgeMissionV1.Build.cs",
+      "size_bytes": 613,
+      "sha256": "9eb88f949c1f6f162a1279d963f35a441fd16cb7adcf1c01292325c8e00885b1"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisAudioCheck.cpp",
+      "size_bytes": 9182,
+      "sha256": "ee6cf6fe165ffc73435440e8a6a19aaaafbe35b93c2de38e3ec4dd93902909bf"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisAudioPreferences.cpp",
+      "size_bytes": 4163,
+      "sha256": "2f4472ab3eaf954fff13aa556e390293619724655bbb8e1fe30accbbefed4628"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisAudioPreferences.h",
+      "size_bytes": 437,
+      "sha256": "d385da07b00d7883203f2ac924fba5079c0b1599992c2b72f53911b61c58bf21"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisAudioSettingsMenu.inl",
+      "size_bytes": 5765,
+      "sha256": "fce1cd5dad75b2ad142ae4d6d09ae18ceb217e8137e3e676dbe5ff025a0b4ea1"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMission.cpp",
+      "size_bytes": 96400,
+      "sha256": "ada2ab175daa0372408d49a16c7a8b548715ed9878a5c4ff722571667633e781"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisBridgeMissionV1.cpp",
+      "size_bytes": 30117,
+      "sha256": "f09df8930670e5ae177da45223de180f7b44d24f847f0a030c08ea0700f5601c"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCheckpointHistory.cpp",
+      "size_bytes": 14894,
+      "sha256": "b3ca73d0cfe45b2ad55f81f5142826307a913810d7d0656d16682f7a9d50339a"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCheckpointHistory.h",
+      "size_bytes": 1047,
+      "sha256": "caefb71476a9a47064c44099fa4e1538f61746f473fed319b3b0892effa34dbd"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCheckpointRing.inl",
+      "size_bytes": 2194,
+      "sha256": "d1de1e53e68349a52f60cc26f8bb4065dbe1d41515108db7a657559e3bda62c6"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCombatUI.cpp",
+      "size_bytes": 20841,
+      "sha256": "339c4eff48910bbbb458b66d2bc4632b1e3affed3760e2b54f314dabec03d0b2"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCombatUI.h",
+      "size_bytes": 816,
+      "sha256": "41b0666e75223c9d8e491a5278c19cba8142561f569d54a89635f1316bf57ecf"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCombatUIProbe.cpp",
+      "size_bytes": 14156,
+      "sha256": "e12a58f0cb7a974d680cd86e47d2f6665e36a0678f1f988bc8e8d5fd7c7b5dd3"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCombatUIProbe.h",
+      "size_bytes": 81,
+      "sha256": "0e43f3fb507bb0a89cb3d4bd03cb405df6cd6ba3a251eedd2bee6c70e1acfabd"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCompletionProbe.cpp",
+      "size_bytes": 16603,
+      "sha256": "00e51411128b8fa3fc9e4fe662a0a025b287b41a4f4cba2985ba7420fbee3a82"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCompletionProbe.h",
+      "size_bytes": 173,
+      "sha256": "866f9cb8b555536efffd24ec80babe2245e913ceb7eff09b8e484b6f19d96b6f"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCrouchTransition.cpp",
+      "size_bytes": 17336,
+      "sha256": "fe347e96cb100649801958bf450d33271fc0e0898977b9170094a576f151dbc0"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCrouchTransition.h",
+      "size_bytes": 382,
+      "sha256": "f6196b8d99c0c4d8c5d06f96f627824a42f6bb90bfc6a67fc9cdbbbd6ea89cd3"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisCrouchTransitionPolicy.h",
+      "size_bytes": 853,
+      "sha256": "f256db2e599b058d335b28c95aea249db20fbc7b91faed2fecfd543d6ea98260"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1664,
+      "sha256": "6637ebd1a53f75f55a8ce59d7c70342f6a17f2f15f18a3684a7bbb35b5ee30bb"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentChecks.inl",
+      "size_bytes": 27078,
+      "sha256": "b979f29f7af537d2f57d742387bfbb64c83c49bf91c429c9a99af909932c360d"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentPanel.inl",
+      "size_bytes": 2747,
+      "sha256": "be4d73364c845c13013f18fbeab8fcb1d2460a0011736136197a1f987a7f00ee"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSave.cpp",
+      "size_bytes": 10220,
+      "sha256": "172466a5494b0c458f837f6aa927dd08db3d693129a9435e08585fffd791809f"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSightBridge.h",
+      "size_bytes": 452,
+      "sha256": "f2c4c4c0fb0b88c24ad502e3be2099b4f1ea9063dff3d8fa2403860d8d3d6426"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 4466,
+      "sha256": "ccca7e1ebf9641110107738b278d33f357af01b5b74b77e3548069be2801966e"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentState.h",
+      "size_bytes": 3857,
+      "sha256": "6dcf72f47b46fe83d5f95864637667fea19676e6ea19b9f7b39491ea8bcd67a3"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWheelChecks.inl",
+      "size_bytes": 9170,
+      "sha256": "3f8700799a8a95ecff1ea0f7867a1742f60396628b6833f3805fdbc52e6b1410"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 15730,
+      "sha256": "df90e300a38a0e10e044fa0f0a4a5a967c3c100d391c5a90d6a596508e9830c8"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisExplosionVisual.inl",
+      "size_bytes": 5924,
+      "sha256": "5ba0634bf36893c76344a97d0384aba48764a368fc467966f82441222463c53c"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisFieldManualMenu.inl",
+      "size_bytes": 12276,
+      "sha256": "d024aaf3b4fa7bef59f68967621ceecdab6e5a9a7538fac78a12edc6ced2709c"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisFieldManualPaint.inl",
+      "size_bytes": 7188,
+      "sha256": "bce74d4c797df8b1830332f01a5cbf106833f1e43868a233eb001292f2c32314"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisFlowChecks.cpp",
+      "size_bytes": 17564,
+      "sha256": "c127e12750c12b9324c1e2d8b35970b3ac8723ea89d733fd45b5fad1c0d7c0c0"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisFreshLayout.cpp",
+      "size_bytes": 6097,
+      "sha256": "d6bd12c1b1ffd80c672bae146919a08866bb0e57e2b5ee0a716bbf24585f3a8a"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisFreshLayout.h",
+      "size_bytes": 216,
+      "sha256": "a21c66066b8ac44202437731b5671f55e0e45ce2003d43e68cdf9269805c8e60"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGameplayAV.cpp",
+      "size_bytes": 19850,
+      "sha256": "d975781be3c9caf9af324acc62051b9b39094256b54eda7d0df4d280e9143f63"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeEquipPose.inl",
+      "size_bytes": 5827,
+      "sha256": "b92a8237467adc75dd6d025612622c1b76628c0923a1621051efe08ec05f3b30"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeHandChecks.inl",
+      "size_bytes": 12681,
+      "sha256": "91d66c124f579836679aa79deeff4fe5ea5fbeeadf1fd5c23aa7a48684d52404"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 7178,
+      "sha256": "00d05ce360b35998c950dcd7a7c22dfb68c45b4c65643f9785c83c9b94281ca8"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadePoseChecks.inl",
+      "size_bytes": 8689,
+      "sha256": "9fb50edae851b7296aeb274aec32c08fa86d29a5efb412a9dc4c405c66a89632"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeStow.inl",
+      "size_bytes": 4716,
+      "sha256": "06e16cfba595499d986594f38de44eb9bfb5d33f7edf702790a166d9687f8dc9"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisHistoryChecks.cpp",
+      "size_bytes": 15283,
+      "sha256": "c83180e1e9d237cf54a15498e851d8bbf08a3d5a522168dd29556f588fd6a120"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisHistoryMenu.inl",
+      "size_bytes": 4641,
+      "sha256": "af6dbbbe3611876655ccdc4e5a4d74dfc48bdf5b339a72032a2f497db49d3d3b"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisInteractionProbe.cpp",
+      "size_bytes": 28923,
+      "sha256": "0b48f728fcf6cb3df608eb4675e76fa0a6678402e4898ef168901f92347a3f8a"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisLanguage.cpp",
+      "size_bytes": 3802,
+      "sha256": "49f82e6c53624896d9f15367e9ffc0c13b434ea6cb53105d9c68250f647b1eff"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisLanguage.h",
+      "size_bytes": 232,
+      "sha256": "195578d87921e94ca60326395426fbd4586c7c06ccc17e7b55a1dcb8ece94aa7"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisLanguageProbe.cpp",
+      "size_bytes": 4939,
+      "sha256": "414b87feab22c6e71404f9674c865e9c4b0ad562485e3ddeb516f7ef31b89b32"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMedicalAction.cpp",
+      "size_bytes": 9805,
+      "sha256": "d786b1de453ab5e0dec743d67b15a55e3fa08ab398198287658faf0d6b8d0b7c"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMedicalAction.h",
+      "size_bytes": 579,
+      "sha256": "c57c7d27fdbb64f46116b2c5c4dd4b55b9e9f8c371596e266fa0b1a748e1db25"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMedicalCheck.inl",
+      "size_bytes": 21364,
+      "sha256": "0b82ddecd927350c83ea3088cb5e245ddfde076a3b343398a026b052795c585b"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMedicalGuidance.inl",
+      "size_bytes": 3936,
+      "sha256": "9b0887629417c706bcc6eda229a9c458602d1bf9c7cf952de74b8404a7cf3a95"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMedicalKits.cpp",
+      "size_bytes": 17020,
+      "sha256": "21f9b25bdc36490121d6663fd731ab436ea499f5764717b08d827d0eb6798dd2"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMedicalKits.h",
+      "size_bytes": 911,
+      "sha256": "7f86fa43b2f6d0a345c2f53d93b89fa1850f0be62ccb66402ee67da4046ab524"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMedicalPolicy.h",
+      "size_bytes": 1800,
+      "sha256": "b3a873d6d7de47b41abab0b949274a95196288b7b15624548b7893d7f02ed33f"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMedicalSave.inl",
+      "size_bytes": 6402,
+      "sha256": "473cc18a3e78c2b8bb36980bfe567c5a5a950f1c744aad9281052ae02b4cec33"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMissionInteraction.cpp",
+      "size_bytes": 11545,
+      "sha256": "da1fd8cc25f9672a9440e1178bcc4aff50d478b075fa992d9a1c31989ffb898a"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisMissionInteraction.h",
+      "size_bytes": 1336,
+      "sha256": "b9163a88c34482f8ee3a8fb2a210d8c24ce9402b9f3db2423a0bbbc367bf81c4"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisObserverBindingsAudit.inl",
+      "size_bytes": 27855,
+      "sha256": "0da9c50d92c0cef938a11498f1f3f8409b2d84dfd5dfe0196de314f69e85aa06"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisObserverGrenadeAudit.inl",
+      "size_bytes": 10728,
+      "sha256": "c65c9ad549c660a94a5d6871458a3a0dd2d543c0bd690076e9fbd89e75963a66"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisObserverTutorialAudit.cpp",
+      "size_bytes": 3571,
+      "sha256": "14726c874ce28954e33b529a0e0d8436ac06a75122e994f1e1aabbdd7c9c74e4"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisP1Probe.cpp",
+      "size_bytes": 10969,
+      "sha256": "f4647ef8059f107f927cb70ff62b82ceb9f4ced9c90f4a74b0ef6db627a16cb6"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisPlayerDamageFeedback.cpp",
+      "size_bytes": 9785,
+      "sha256": "307456edce6d1cc78f10615c3a4078e2db6774ce98716348f01274a32b8380eb"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisPlayerDamageFeedback.h",
+      "size_bytes": 411,
+      "sha256": "10917275fd8a910611f0501c7a89c042c3c5c98d3b390649667e25d550322f73"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisPlayerDamageProbe.inl",
+      "size_bytes": 17038,
+      "sha256": "f2dc53a7eeab41531826e7ad3c722b82f14b83d454cdfe9bb249adc20b765b5a"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisPlayerDeath.cpp",
+      "size_bytes": 8860,
+      "sha256": "3c505598f7d5af03469ae6ea159fb8896e6a8401fabee03b2fb3b322c0cdfd6c"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisPlayerDeath.h",
+      "size_bytes": 293,
+      "sha256": "66771497f7f5e5ccd68f55f4eafe9872a039b875b1c9c267413d090ac88950f9"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisPlayerDeathProbe.inl",
+      "size_bytes": 7661,
+      "sha256": "63906c424a4b0291e64c47bfe45a0651b6cfd25581183fe0c80b15ca3d4c5cc1"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisPressureMineChecks.inl",
+      "size_bytes": 11877,
+      "sha256": "bba281d68891ef6e7ca1052689368c976631e0904bd7380ad69eec0f91896bb8"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisPressureMineMesh.inl",
+      "size_bytes": 6165,
+      "sha256": "67bcfdb11e7bc15e19030cc2c0e6b1b57cac26ee3f7697adb3049e89228b899f"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneNativeCurves.inl",
+      "size_bytes": 63505,
+      "sha256": "93c44a399ce948f397c3de7501ee2de1850d86a973e2841a5cb51bba67246e9d"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneStrafeCheck.inl",
+      "size_bytes": 4475,
+      "sha256": "ad52863ef202e9cfbf31398f5206004bb7858ab87e54748fe8b6600684fa4231"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneTransition.cpp",
+      "size_bytes": 19084,
+      "sha256": "65cd30305ce1e9c48656531254efacb7481c97e3eef3814e996d15fb8d0399ae"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneTransition.h",
+      "size_bytes": 386,
+      "sha256": "9a2d7c0402d4c9d482f38d02b5b90422e19ad80321281b38e5ae6996230c36af"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneTransitionProbe.inl",
+      "size_bytes": 24264,
+      "sha256": "265badfd2b4da446f106417db8ee3d5b49ec520f5eae960177cd453a24277a42"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneTurnCheck.inl",
+      "size_bytes": 7021,
+      "sha256": "e1097e4db472c951b98b336a8204048f03edbda9202ac1f4ae841eced43b983e"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisSleeveChecks.inl",
+      "size_bytes": 11334,
+      "sha256": "ab4a88cf0652e775de98dfd6870fd79033396b71fbe344a33e1ade9aaa4ec432"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisSmokeCanister.inl",
+      "size_bytes": 3311,
+      "sha256": "2988516a6275162ca25936fdf1c8cc291791c69985a35736dd0d2eb21a5b9731"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisSmokePoseSave.inl",
+      "size_bytes": 3212,
+      "sha256": "e357a714d2767fb1069fa269e51c266c12540b8cc6fe7396d1f27543352844d9"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisSmokePresentationPolicy.h",
+      "size_bytes": 1592,
+      "sha256": "2b966a7bcf04cee43eaf3aaff963dc57da5cf77933c4568e476e30700f51c4ec"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 34536,
+      "sha256": "c830f39b3e53dbba4f3cde6a0f81a84b10afde3be83d6e3745b7fcda9021afca"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.h",
+      "size_bytes": 662,
+      "sha256": "5399a940f2f7c47c396e35c959b279ddd7bf668f8d71df28c7b7492f1e222c83"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTeamP1.cpp",
+      "size_bytes": 6847,
+      "sha256": "80f6cf4f074ebac7605680fbb5c02d7cacb7b6fce23501c2641a22ceeecb001f"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTeamP1.h",
+      "size_bytes": 708,
+      "sha256": "c0f09f07a0930fcb592a36c259e0d79336915899c06f86055a55ed70dcc8cf62"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.cpp",
+      "size_bytes": 24337,
+      "sha256": "2d23fb0af0aff31e0f1ac4473e9e0ead3b96199ee7ccac6b6ae51628549c5eec"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.h",
+      "size_bytes": 641,
+      "sha256": "149baece2c9c886d134af0870e55ae011902203cf3d02bd19e4eef39d5963c3c"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversalCurve.inl",
+      "size_bytes": 3915,
+      "sha256": "b5c34309062b1172918b57b88d8218dcec0f91725c29efda919670f796d66346"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversalProbe.cpp",
+      "size_bytes": 28092,
+      "sha256": "6beea1256b2cf3af301e52f85abafc020b2579d8b2ab0e9b5dab48191c4798db"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversalProbe.h",
+      "size_bytes": 80,
+      "sha256": "f40faf6ec492990dcfa2353cecf5d85754ba51c5497b5937aa4e4923c6ca149a"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorial.cpp",
+      "size_bytes": 13433,
+      "sha256": "d4ab2ae887daccb9f31ff19a755e915ed069e47f26d838a2058742bbb0a18fad"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorial.h",
+      "size_bytes": 2955,
+      "sha256": "3ee0b426be8cd15d5378aa8d190bc14a2d67c0850a3d01343c0c01577cf3c20c"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorialHUD.inl",
+      "size_bytes": 4813,
+      "sha256": "584d97d8c4d35638bfe3c94a3af4b838c2028d2c27133ec73f64b565e6fa589a"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorialMusicPolicy.h",
+      "size_bytes": 620,
+      "sha256": "15c53fb9d64feba8eb192d54ed2d2924c8f99eae5ff21cdf5d4bb28776cfb535"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorialProbe.inl",
+      "size_bytes": 19701,
+      "sha256": "8f4a24709bf4bf056bfcc52150d86778d3a9f2d86f45eeabb027f711bdced493"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorialRuntime.cpp",
+      "size_bytes": 26750,
+      "sha256": "f156b2ccb61a341bbd63f243eb1b7af538202a1e36a216ebfa0574bb643fcae2"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorialSave.inl",
+      "size_bytes": 11936,
+      "sha256": "8e12a8bc206a25976dcdb96af6ee02d764cc9125bbee895dea697ed0744f6de2"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorialSoundscape.cpp",
+      "size_bytes": 14142,
+      "sha256": "ae3173f87d97b0a3316b5b5b36c999a7440397dcab3562bfde34107a140db729"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorialSoundscape.h",
+      "size_bytes": 730,
+      "sha256": "457a9beea6e16bd4c83daf88bd8f6fb3d91df335d72a4860b94f9f68df97a064"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTutorialStartupProbe.inl",
+      "size_bytes": 6914,
+      "sha256": "c053c9ee4d403072fce05875e3d9ed48b8052a0d9e239d01dc5a00b2ea71c340"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Public/ParisBridgeMission.h",
+      "size_bytes": 9514,
+      "sha256": "32393ebcd5caee2de0b6d9cc496ff7323d12494994e46e3cedb2638477c6f1a6"
+    },
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Public/ParisGameplayAV.h",
+      "size_bytes": 477,
+      "sha256": "fb13416adc4413fd3ad8854e5d89d24166dedaa702083d04185484bcf456e0b8"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/ParisGripBindingV18.uplugin",
+      "size_bytes": 442,
+      "sha256": "7ec51f177c038a54b624f979b239a082d60fbe3ceab2cf85526e4c8f5f594dc5"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/ParisGripBindingV18.Build.cs",
+      "size_bytes": 389,
+      "sha256": "9f6c94ff4b6959cdeaaa5cf91ea96c92ca474c473c7819c25c404f715047d937"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisActionBindings.cpp",
+      "size_bytes": 1224,
+      "sha256": "6676c46b83e5b5a61fb5ecc1511446dabfa6d27d91cd319eba2882a660e8e526"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisFirstPersonApprovedActor.cpp",
+      "size_bytes": 6860,
+      "sha256": "555afa97f5850fc659ba765194dbf044422391b32bae51d86a4d037ec3ea5c1e"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisFPUpperBodyV19Actor.cpp",
+      "size_bytes": 17857,
+      "sha256": "038f0072eab0da181398ae07b6fe407ea382fe66f1913edbbe4db5e45c85a879"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGrenadeWorkspace.inl",
+      "size_bytes": 1586,
+      "sha256": "f84cb36d9946e65902479cea616f2d77e1f6d3ab64bb248a877e87b150448a65"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGripBindingV18.cpp",
+      "size_bytes": 93,
+      "sha256": "859be4005e69a9b44e0ca7a072239d3bf2e3ac4d100faf0c4a709823db820b82"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisGripV18Actor.cpp",
+      "size_bytes": 13239,
+      "sha256": "a1920454172702ab39a03f9dd92f6e49e5c3c0e094056cd4c04811f693ce32c3"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisReloadWorkspace.inl",
+      "size_bytes": 2448,
+      "sha256": "ef671f57b6c3672d7d18a7349414d64c2a6e8e69d21125b35d8d0c49a366eb4d"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisUnifiedPresentation.cpp",
+      "size_bytes": 12072,
+      "sha256": "4cb946dd0cd72698ba1d2e3f6664cf0cd5f9e8590784892339bfff3798c5eeec"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisActionBindings.h",
+      "size_bytes": 1349,
+      "sha256": "33afa39465328ea0e5fbd11bc873c1f8d3365f71213590028295a9a457ce36fe"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisExistingRecoil.h",
+      "size_bytes": 5889,
+      "sha256": "060750b6da8591020451058ca3085e4997a6a47afb57daa64e49ed6ed44f9036"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisFirstPersonApprovedActor.h",
+      "size_bytes": 2757,
+      "sha256": "a04705f6dd915ce20ad39fc621f97778826937634aeec72f4115605efb54d7de"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisFPUpperBodyV19Actor.h",
+      "size_bytes": 4045,
+      "sha256": "7f0b78abae9f78840d17c0ae0508cb6f38ac4bef44360dcd9b3a5308637fe55d"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisFragGripContact.h",
+      "size_bytes": 6744,
+      "sha256": "fd520dc6c377a67f789eaf9d162041fb884849054bd2be5a2a9bb23ac9eb248b"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisGripV18Actor.h",
+      "size_bytes": 3497,
+      "sha256": "15752477711ce7bc2f7657d3966575826d3c1d6af2014c865f8ad7718333abc7"
+    },
+    {
+      "path": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Public/ParisSmokeGripContact.h",
+      "size_bytes": 6214,
+      "sha256": "22cdec6ebdd5ce2db8657e3a9e0612656f1a89dcabc18a8f83c4e7841a8f57f7"
+    },
+    {
+      "path": "Plugins/ParisMuzzleFlashV1/ParisMuzzleFlashV1.uplugin",
+      "size_bytes": 644,
+      "sha256": "5f4a5ff4455a7bfa9053566948ce846c5e6e7243ddc42a75a27361a9811643ba"
+    },
+    {
+      "path": "Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/ParisMuzzleFlashV1.Build.cs",
+      "size_bytes": 542,
+      "sha256": "41c385a729be575f375bf777762f9fd71cb84f02731ab313e8224cfd769be031"
+    },
+    {
+      "path": "Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27464,
+      "sha256": "05107f5733ea8a9043815d3e55f101424330679b391765708ca6837a196e5419"
+    },
+    {
+      "path": "Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Public/ParisMuzzleFlashV1.h",
+      "size_bytes": 9681,
+      "sha256": "a6d97e8c3efef276b227bf66ec53bc33c65fc1d406d71805e516225c9fab0888"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/ParisNPCGripV15.uplugin",
+      "size_bytes": 443,
+      "sha256": "955ba4f4c721dbf4810c447c6e10a3b18badaef033caf424f1614603eac3ba23"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/ParisNPCGripV15.Build.cs",
+      "size_bytes": 369,
+      "sha256": "a62e91aa689cd38aadb86a26d9e57df45a615f6506282961d9df0c2e23b66185"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisAlliedGripPolicy.cpp",
+      "size_bytes": 5506,
+      "sha256": "b51744d6ca6a1b9e75135cca24b5ed8504e007de0f3fbe3e526a48962262de76"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisGermanGripPolicy.cpp",
+      "size_bytes": 5536,
+      "sha256": "193914d42c6311ddd750bb7fa6351d600669a1f2c96ec507f34deef4d17424cc"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisAlliedGripPolicy.h",
+      "size_bytes": 1513,
+      "sha256": "5807c125592bcdcbe8a2dc1cee79f24f1f374ed04e4158abfdd1650f3f31e43f"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisExistingRecoil.h",
+      "size_bytes": 5889,
+      "sha256": "060750b6da8591020451058ca3085e4997a6a47afb57daa64e49ed6ed44f9036"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisGermanGripPolicy.h",
+      "size_bytes": 1514,
+      "sha256": "0c259f4ebaa5486313dad11516ad2d778e8adde93ddccf824332875f9aaf5426"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Public/ParisNPCGripV15.h",
+      "size_bytes": 4935,
+      "sha256": "06483faeda668948b666f4d19b8f5b575e0ec76f7e27bcccaaf1827d08d74e1a"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/ParisNPCGripV15Editor.Build.cs",
+      "size_bytes": 516,
+      "sha256": "22a8188e3e842f481fa8d924df12080739d8628bd1ec9d5a82c3a81f5ad9ef88"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Private/ParisMedicalAssetLibrary.cpp",
+      "size_bytes": 5086,
+      "sha256": "35c02432e7a721a9982735b3fd13d8c2c7e2abb630d4ee90e4733893d38a4a0d"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Private/ParisNPCGripV15Editor.cpp",
+      "size_bytes": 3482,
+      "sha256": "9887efd4e664250afb35f39ccf539b97209696c96a2a58020bf227b57f17ae50"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Private/ParisThumbFactory.cpp",
+      "size_bytes": 4585,
+      "sha256": "d585e6f4e6c7c66695c4ae2d8cfd1f38e126c2068be03436be35ec4b4c09cd3e"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Public/ParisMedicalAssetLibrary.h",
+      "size_bytes": 823,
+      "sha256": "cfed30a3da96395a28627a518b6d5e8e531be3b79033ece7f6221bdbacbe2de4"
+    },
+    {
+      "path": "Plugins/ParisNPCGripV15/Source/ParisNPCGripV15Editor/Public/ParisNPCGripV15Editor.h",
+      "size_bytes": 1365,
+      "sha256": "ffb1878d9773e24540dce0ba9d4b299e03950e65c4bd7961dfe4d18de1c22421"
+    },
+    {
+      "path": "Source/WW2FranceLiberation/WW2FranceLiberation.Build.cs",
+      "size_bytes": 261,
+      "sha256": "e30186b231d7c0f500dfc8526c8dc48e79cc194e696afd597d479ea9e55b4472"
+    },
+    {
+      "path": "Source/WW2FranceLiberation/WW2FranceLiberation.cpp",
+      "size_bytes": 158,
+      "sha256": "38d2dcb032be84d2e5dd4c20630cc503aeae8e532c6886f39d8ab6685e4ddea1"
+    },
+    {
+      "path": "Source/WW2FranceLiberation.Target.cs",
+      "size_bytes": 352,
+      "sha256": "1cc7e5134975b268c98992df591af2b6e2118d6cfb72ea6f762d7fd57facb203"
+    },
+    {
+      "path": "Source/WW2FranceLiberationEditor.Target.cs",
+      "size_bytes": 349,
+      "sha256": "dfd5f9042dedaad2f78a6d28bb4083e4ac13f96b070865d444fae94e3ce1f20e"
+    },
+    {
+      "path": "WW2FranceLiberation.uproject",
+      "size_bytes": 764,
+      "sha256": "8aa912e0a55354502d631db460dd3beac2864eed128d894c14eb26f33e949bbc"
+    }
+  ]
+}

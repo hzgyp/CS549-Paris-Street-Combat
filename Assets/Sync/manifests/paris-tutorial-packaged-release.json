@@ -1,0 +1,716 @@
+{
+  "schema_version": 1,
+  "asset_version": "paris-tutorial-20261017-v1",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-17T19:46:48.223889-04:00",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+  "source_variant": "Unreal/Variants/G1MedicalGuidanceMusic20261017",
+  "source_manifest_sha256": "faa136ed3bbafa07e93253b3c6faefab6eb4380cc06e657ee9d3c67baa0a9c91",
+  "verification": {
+    "method": "Pinned-host authenticated SFTP full final object and named archive readback SHA256/size",
+    "human_review": "Medical teaching and contextual music explicitly accepted; tutorial formal adoption requested",
+    "second_machine": "Pending",
+    "coursework_delivery": false
+  },
+  "asset_id": "paris-tutorial-packaged-release",
+  "scope": "Private tutorial1.0 development collaboration; no course submission or old remote replacement",
+  "dependencies": [],
+  "files": [
+    {
+      "path": "tmp/tutorial-release-v1-20261017/Paris-Tutorial-1.0-20261017.zip",
+      "size_bytes": 8266799598,
+      "sha256": "f145c2e06bdc2aeeafc48397575552f91c661dacf3702135fec57c0d2957ab55",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f1/f145c2e06bdc2aeeafc48397575552f91c661dacf3702135fec57c0d2957ab55"
+    }
+  ],
+  "file_count": 1,
+  "size_bytes": 8266799598,
+  "entry": "Extract all; PLAY_TUTORIAL.cmd",
+  "archive_members": [
+    {
+      "path": "PLAY_MEDICAL_GUIDANCE_MUSIC.cmd",
+      "size_bytes": 761,
+      "sha256": "dc5669b2140fd99bb94c4da2e284f406ec6504de3d21f9e2039efb913f302355"
+    },
+    {
+      "path": "PLAY_TUTORIAL.cmd",
+      "size_bytes": 761,
+      "sha256": "dc5669b2140fd99bb94c4da2e284f406ec6504de3d21f9e2039efb913f302355"
+    },
+    {
+      "path": "README_EN.md",
+      "size_bytes": 689,
+      "sha256": "396b57104bfa040df8b20b57cf8c4d91f787ffb18f114796c540b94623292f3e"
+    },
+    {
+      "path": "README_ZH.md",
+      "size_bytes": 543,
+      "sha256": "3cd10bc48384a25e259f5f505cca8b2181276ac7cc54d9bffd1be7e6f5e6f008"
+    },
+    {
+      "path": "VERSION.json",
+      "size_bytes": 554,
+      "sha256": "9dcabd1b82c00820284a1ec0c20568945d7f9d06c19b62a2db883d2f669bdd04"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size_bytes": 2232688,
+      "sha256": "36795e47d9724ee68349efbbe64aba94db108b9cad1e3dfe8bc510f359136f53"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+      "size_bytes": 2547080,
+      "sha256": "5c6b07bf263dd8b85cb146b59468a22eb1fbd8635d4a6c56a8e41b67ce5eca2b"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size_bytes": 5799016,
+      "sha256": "82d7a3e50710d660927db2f318cbed471049c962b7c05de12c2b2b3e40a35af9"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size_bytes": 59832,
+      "sha256": "f23df1213c4bf23b5c666bafa7ec18743847a2e18192ae8e0d096a2fb7c28bf9"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size_bytes": 1724856,
+      "sha256": "a56d43a98e197f5e73a1dadf5c1dc7a07ad40327b199faa4ff1247abd6eccd5b"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size_bytes": 48568,
+      "sha256": "d64e67ca918716be8b6056a6f7a1f6256e910754425db8369d952943264b40eb"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_api_dump.dll",
+      "size_bytes": 8161680,
+      "sha256": "8c5af98e2d899d4aec744c63a8bc99b90124d8fc3bdc120d4c178e1df3a3e5e8"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_api_dump.json",
+      "size_bytes": 13848,
+      "sha256": "9e55221c225dce4b5448bac7dadb7e39fd216f51354dde02e58f950f4a0dd80b"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_crash_diagnostic.dll",
+      "size_bytes": 2890128,
+      "sha256": "7972fa60e084dc7da6c8a69ac1645b112f5e98a078fc27a7d3df469f2da4f811"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_crash_diagnostic.json",
+      "size_bytes": 23055,
+      "sha256": "578bde354874789671dee1a96468c965619c9f3ba16cfa65f850e81a80674087"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_gfxreconstruct.dll",
+      "size_bytes": 8166288,
+      "sha256": "dd72d28450db1b52bd6c5dc12228741b680940c5fb5eb6b6a0e26f0ee5c3fc3e"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_gfxreconstruct.json",
+      "size_bytes": 28099,
+      "sha256": "71d4e243a2af74874f4f61378bdfe3753cb01ce5eb9b98400d83612bf882a815"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_profiles.dll",
+      "size_bytes": 1485200,
+      "sha256": "93227f57ddca0084e1655a65d2cc915d65b5191f6c645a17c0b36cfa2f714b38"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_profiles.json",
+      "size_bytes": 66696,
+      "sha256": "6095c28691757e083a8c1bef3c69ca76a8b5017e21acaf55d1bc7e82221a0fbe"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_shader_object.dll",
+      "size_bytes": 415632,
+      "sha256": "eebd555aab6df20b21520564d0eb2341ad0e9cdde6148ee1c71ef76805c5e7df"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_shader_object.json",
+      "size_bytes": 4455,
+      "sha256": "18ecafc9a65e1b7af8cd0e36dc936026cdb3aed333c4ea5a7c17d6d9465cfaf4"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_synchronization2.dll",
+      "size_bytes": 397200,
+      "sha256": "341b6b5eedbf4b7aeb4439af85b23974b820b1413dfaf6356911476df44ed559"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_synchronization2.json",
+      "size_bytes": 1910,
+      "sha256": "a1e980a24be9a16a826b00c27d61b85ee0e2e17226dc9c4e8eec031879e5f26a"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_validation.dll",
+      "size_bytes": 19509136,
+      "sha256": "ea37bfda6749684d88a1944ae7103a87d9b38468579f397c3c82ede1ceaa40d6"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Vulkan/Win64/VkLayer_khronos_validation.json",
+      "size_bytes": 95917,
+      "sha256": "5c464b84457776d92a674de506f7b7a489294583a7d7609f78fcc52bc4406d09"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64/WinPixEventRuntime.dll",
+      "size_bytes": 69056,
+      "sha256": "ba40d206c6113ac1a35993a06390c93e55602713a902d7ba7b2f2f0ed13e3d3f"
+    },
+    {
+      "path": "Windows/Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size_bytes": 858152,
+      "sha256": "0ca010abcabe52493fdb744d79c4c8132ae6756046b68aa7c88bdc03ec1effcd"
+    },
+    {
+      "path": "Windows/Engine/Config/StagedBuild_WW2FranceLiberation.ini",
+      "size_bytes": 3,
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+    },
+    {
+      "path": "Windows/Engine/Content/Renderer/TessellationTable.bin",
+      "size_bytes": 259568,
+      "sha256": "edc4f3b628a139c5e185bbaeca661c95c1f427368d3b92892c5cff36c56dd941"
+    },
+    {
+      "path": "Windows/Engine/Content/Slate/Cursor/invisible.cur",
+      "size_bytes": 326,
+      "sha256": "fef3980fa567e9c45d5d8dcaa432a2c1a3f3bb17fe67d7ab198164f56c142aa1"
+    },
+    {
+      "path": "Windows/Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+      "size_bytes": 17339384,
+      "sha256": "5df3d744b5cc4421181e9e2c97cadff4e9b1b2b25e80202160e80fc94ff948f2"
+    },
+    {
+      "path": "Windows/Manifest_NonUFSFiles_Win64.txt",
+      "size_bytes": 2983,
+      "sha256": "51210c10be95b07019d672caac4afe9f79d441cfa5e3f1da48333248540d2174"
+    },
+    {
+      "path": "Windows/Manifest_UFSFiles_Win64.txt",
+      "size_bytes": 762958,
+      "sha256": "8f4e363aa321c4cacec3672e7fde4adea168de86d0ec251589724c3bc16a0089"
+    },
+    {
+      "path": "Windows/NOTICES.txt",
+      "size_bytes": 111,
+      "sha256": "ba49ae5586f817b36a2772269f71f899cb1f54b5f2720fad951319edd5e140b8"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/crawl_a.wav",
+      "size_bytes": 34604,
+      "sha256": "7ede065e509e97b30db57a4a3522e571cce4348ed936839cc4c046fdf2578171"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/crawl_b.wav",
+      "size_bytes": 34604,
+      "sha256": "757df9ecf950522710c6ceb7ec4a4068e9cc20a40b8c21a9ee0971418e34ef5a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/crawl_c.wav",
+      "size_bytes": 34604,
+      "sha256": "c1361bf49428caf910199e1d508f284ee7ddf85a1d8f78980c207c2e2eb6376b"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/CREDITS.txt",
+      "size_bytes": 2548,
+      "sha256": "4efaa4925c38a76e27fad751eaf74358a46483aa92f8e7a20e4639ea1f3f83e9"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/death.wav",
+      "size_bytes": 175724,
+      "sha256": "497d5ff83263a80e49fa5cbb4c73d421fbbd904cd4cdc9398e233c0aa762d7c2"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/equipment_explosion.wav",
+      "size_bytes": 57754,
+      "sha256": "92fc18b0d0b78b479700e5c0dced4de7df6300fee39a34000b83d43f028b0464"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/fire.wav",
+      "size_bytes": 81644,
+      "sha256": "3db2ca73ab698072a715ed1009cb5a8d7d94156262dc1a402a888def4706d0b1"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/fire_m1.wav",
+      "size_bytes": 56204,
+      "sha256": "f52a11a9e852b141a77e6d22e2851d9d314b3d34cccc6232465bb5f3b6a2f0c9"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/jump.wav",
+      "size_bytes": 31724,
+      "sha256": "391f1fdb491d4a3b7929e3c5b187c5272bb1d45d14bd41b774b179d69abbd258"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/land.wav",
+      "size_bytes": 40748,
+      "sha256": "553795d67eba886ac0846ba7df0e0a39f199ce8b9d812ad13a5a9224d688e815"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/player_hurt.wav",
+      "size_bytes": 26924,
+      "sha256": "619db78b6a516e13a43c36819383d2587a50aedcfa67e2e3a1abad04675cb2cc"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/player_hurt_CREDITS.txt",
+      "size_bytes": 421,
+      "sha256": "7b79a023e11ae71052db56455d0aff78e6a9484fa1ac68ef170298b43b51f6d5"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/player_hurt_PROVENANCE.json",
+      "size_bytes": 2208,
+      "sha256": "476730bbd6a2bee873d407f26eb7ffbb6ad28c42012337afff89f082909b73d3"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/PROVENANCE.json",
+      "size_bytes": 39139,
+      "sha256": "9128dd7f63f5ade5d1961b40abe15f322128cde512776c3c8c98c65aca437ba6"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/reload_handling.wav",
+      "size_bytes": 38444,
+      "sha256": "2c4c2defb138fc6fd5435677d422c5652e17297915409c5f390d37ce8f612e58"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/reload_k98_close.wav",
+      "size_bytes": 62924,
+      "sha256": "ab6d762dacc914eb128f39663a5da26b849f785fff7470d1715a249cf06a331a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/reload_k98_load.wav",
+      "size_bytes": 56684,
+      "sha256": "e511409633d2daa6074cb10904c545d03ba6e29acf984069dfceb7fc54555cf1"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/reload_k98_open.wav",
+      "size_bytes": 36524,
+      "sha256": "6dc8b03af2a665b9d3c4bbe45029333aff3a50a592ee2e1029ea726fb36842a8"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/reload_m1_close.wav",
+      "size_bytes": 25004,
+      "sha256": "03aabb0a7f2855f3fafe942dde68a848c673f1dfda6795c99301cc13db4bf822"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/reload_m1_load.wav",
+      "size_bytes": 28844,
+      "sha256": "540e7fb49cf4bbeebebe607186395a189e9013170b7438f1f929df737d34e7d4"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/reload_m1_open.wav",
+      "size_bytes": 37004,
+      "sha256": "e6987cab929d17d3df923f22079106b2bbad4000b895ddf0015c182bb0578faa"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_run_a.wav",
+      "size_bytes": 27884,
+      "sha256": "bce333dac3c901db50cc03dc594d5c40aa52a1f281598d613748c1c4e55c083f"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_run_b.wav",
+      "size_bytes": 27884,
+      "sha256": "659a75af0a7405583c3a681c2281ad345a0d55bdb7790b95e5c390e4ba6ca5f0"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_run_c.wav",
+      "size_bytes": 27884,
+      "sha256": "aa800c12586cea900d81f4b8eecbea8aa629d28da943f41c81ef4a9579e4d22f"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_run_d.wav",
+      "size_bytes": 29804,
+      "sha256": "260c0d9d0b4e11dd9640d190e416526c898188025348fae27b9366f1f4c5606a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_run_e.wav",
+      "size_bytes": 28844,
+      "sha256": "91e24ae2bef502edf37043d0dc47a5d470ba37af3425004e01edcc4b2b6073c6"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_run_f.wav",
+      "size_bytes": 27884,
+      "sha256": "61949a6358520ceaa4956e2be1369111c1651342dc009b86246c8fc2dfccb30e"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_slow_a.wav",
+      "size_bytes": 32876,
+      "sha256": "37d8ddf69a88dec475fed3f669fe6170175981205c1300ec6ae2f3b19a9b9684"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_slow_b.wav",
+      "size_bytes": 37484,
+      "sha256": "deb5fa741ba7686029a91b4e1b7ace0fd2ef846eaecbf62c20a131cb5824108e"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_slow_c.wav",
+      "size_bytes": 36524,
+      "sha256": "4646bd8263da6927a87007c3fdb1c9168517a4a2e15083309a0308f79c296f53"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_slow_d.wav",
+      "size_bytes": 37484,
+      "sha256": "ff6b4fd90610ec3d2b4655f27b2da59c285f96469d677e01481192af0dfaff12"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_slow_e.wav",
+      "size_bytes": 41324,
+      "sha256": "b61d5747cfada3873578985b8cf12f5aad2b7441f9b2cef9312aeaa4629db738"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_slow_f.wav",
+      "size_bytes": 42284,
+      "sha256": "55ebe8364a981026cc3e71d244562e7cc0a0453ca2e266418d72b930f70dd859"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_walk_a.wav",
+      "size_bytes": 32876,
+      "sha256": "8cc772b566cced04f82fc4f002f3dcb3a5e23840a49cee388b6375769d74fd0f"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_walk_b.wav",
+      "size_bytes": 37484,
+      "sha256": "9ed7f4f9fbe4c40a3251ccfbcb0276164520b0652aa3ccc3ce05f25494142bb4"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_walk_c.wav",
+      "size_bytes": 36524,
+      "sha256": "498067edbd3ca891a66ae70aa577944b0db067f48eaab80e7c0b112cdb3b50bc"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_walk_d.wav",
+      "size_bytes": 37484,
+      "sha256": "1693af6626b40d29f7aa5877f6a5632f7fa23162848ab58ee2ad742130cb898f"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_walk_e.wav",
+      "size_bytes": 41324,
+      "sha256": "e234adae0e2908b6de3e1767718bde3253e786aec304570a75b3e4ce3c157dfa"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/step_walk_f.wav",
+      "size_bytes": 42284,
+      "sha256": "190cb037135a75055cee8afab3a41028fe4392a296b66f067b683d4115fecbbf"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/ally1_greeting.wav",
+      "size_bytes": 66058,
+      "sha256": "b998426c439988e216947057918817a2a5946cd009e80050b12ed35b9f0b9e1a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/ally1_joined.wav",
+      "size_bytes": 62532,
+      "sha256": "1ca0a166dfba36079aa985c5ab0b5296d2e134d2fc4c08259473ee5370fd1f9d"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/ally2_greeting.wav",
+      "size_bytes": 54312,
+      "sha256": "be32be5364bf2bf7410415c11686880e598ae40fbf53e1da4335cb3227d90600"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/ally2_joined.wav",
+      "size_bytes": 49380,
+      "sha256": "e61932fc65f5799a4530a500ca8d5c1dc42837697a08037fb604b96ba0ddb61c"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/background_music.wav",
+      "size_bytes": 25710908,
+      "sha256": "65aac662173057ea68b24edc99fb9c1d55dc9c79a67e1bb714e5e0d68fae364e"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/checkpoint_ok.wav",
+      "size_bytes": 27870,
+      "sha256": "613e5a2b539ed54ac77d2f2cf9f12345181565107f3634ab153206824d531cd3"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/CREDITS.txt",
+      "size_bytes": 1334,
+      "sha256": "d4c7cd045a6de700f917194d0705bea1a4f8d69b2d2b20e2fbb12690eb800c73"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/distant_report.wav",
+      "size_bytes": 69644,
+      "sha256": "d12c39c28814e73b283c7ca60d4e055693a791d5372d906d5eaf8c900b38eca9"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/menu_back.wav",
+      "size_bytes": 5898,
+      "sha256": "3a724d4c07e65b57c50c8528ddb631073fc3316105b504707082840891ea7e0b"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/menu_confirm.wav",
+      "size_bytes": 9368,
+      "sha256": "3d96167bc91fd89f320713a37347c95049a472bdc067038df8a4b370d15a86a8"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/menu_navigate.wav",
+      "size_bytes": 3922,
+      "sha256": "6f76022bd560dbdb97cd3d9a3611d42b733612ed6cf5b4c92915237d4a65b90b"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/river_water.wav",
+      "size_bytes": 3552044,
+      "sha256": "0e08f339f2c5b7191f401a2fe68ac345272d275d806a50b1f31b16428db80e4a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/street_wind.wav",
+      "size_bytes": 819112,
+      "sha256": "31d8039fd10c17ebb714135a558565c6cbe0680882e7c9a3c1db08cdb37e2afe"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Audio/Tutorial/tutorial_complete.wav",
+      "size_bytes": 51790,
+      "sha256": "028201d216d3e4bb1c475695e91aff09c4a939b0832f40d64f3aeb347f854338"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+      "size_bytes": 4831768,
+      "sha256": "c41711499e13244fd07ca28a9b32ece29e4454ecc38fb50681f74254b333a9b3"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+      "size_bytes": 4943344,
+      "sha256": "e36f1ee4371798892529762368907d19b997493ad6f30aa8acbfd0132881804f"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/DML/x64/DirectML.dll",
+      "size_bytes": 18538488,
+      "sha256": "f97b69379ecbdbab7e1dcd2b6170e7f285d367c86ee6718bc401c4d7cef1275c"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/tbb12.dll",
+      "size_bytes": 342456,
+      "sha256": "de15a5f93bfd334d4fe32343a81d76f9de0824af8e31b2189637d12545af2673"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/tbbmalloc.dll",
+      "size_bytes": 117176,
+      "sha256": "74edc04a8f5bc2593a5a555b675c1251d6d90e693ee6a67cfa11dd3b2d17a856"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Binaries/Win64/WW2FranceLiberation.exe",
+      "size_bytes": 334352384,
+      "sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/global.ucas",
+      "size_bytes": 3214304,
+      "sha256": "9bf06a5370b0317e7a9a36f3cf51dd58863bccea7349e286c26b6d2f057c3dea"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/global.utoc",
+      "size_bytes": 794,
+      "sha256": "1819f56f03ecb47ddd295c78809173116d3cba3fa08835d64a9e35231f534c8a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisMedical20261017_P.pak",
+      "size_bytes": 37878150,
+      "sha256": "296cad00c69177544fe2aa568e7fd97ac663d0c9046016a3c39dd808b5ff81d2"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisMedical20261017_P.ucas",
+      "size_bytes": 113355568,
+      "sha256": "2e7c62ce3b886f940879ebda02525ccbe7317fd464f93b517c984455dc27b549"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisMedical20261017_P.utoc",
+      "size_bytes": 28923,
+      "sha256": "763db71411311d47dc7d5e2b97c7e3d0193f0b8ed162d2e1372e6c1ae7d21f89"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisProneTransitionCandidate_P.pak",
+      "size_bytes": 114347,
+      "sha256": "a5641f9ec8137aacb2e5e00c05c2bd50fd1523f9229dcf20c92b40f0cbfdc3c3"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisProneTransitionCandidate_P.ucas",
+      "size_bytes": 166320,
+      "sha256": "2b7130a94cb24dcafc235fe6c391e9d487be20191a2479c92d8915fc40cc9964"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisProneTransitionCandidate_P.utoc",
+      "size_bytes": 619,
+      "sha256": "1f14df5dc7eef89a09f6df427d1aa04f86f56ffe91f27b40e0fd2203a12a56d9"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisThumbPolish20261017_P.pak",
+      "size_bytes": 306541,
+      "sha256": "c108617503850d31e0f58b03c065f319500f85ec11944849e5d9d1f42baec0fb"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisThumbPolish20261017_P.ucas",
+      "size_bytes": 636768,
+      "sha256": "f7bcd571d42805718a3c99ffa03a92e4a5a9c446ad5fd88256c46eea79439f4b"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisThumbPolish20261017_P.utoc",
+      "size_bytes": 948,
+      "sha256": "9d0c20319ec87d5f22504f48473dfc1920b37ec17cf12c13d0c1b40f51b22bce"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisTraversalCandidate_P.pak",
+      "size_bytes": 131954,
+      "sha256": "160d263a7e862457865e7ec5056cc94fc4659c6363ad4a07c12b78b3701a6594"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisTraversalCandidate_P.ucas",
+      "size_bytes": 131456,
+      "sha256": "bb0b8b2cb1f1c7b6cc9ce6e91638d2acc40b2927f6a08d91c9a859ac590c5760"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/ParisTraversalCandidate_P.utoc",
+      "size_bytes": 544,
+      "sha256": "2f434644a7109ccf32c44bd1297df4b6588aad59bcfc8b119dc1d36b6257cc1d"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.pak",
+      "size_bytes": 11556678,
+      "sha256": "2db561444d1b7fc22149833191a5c09db583d24c565834ffb0e74d09663815ea"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.ucas",
+      "size_bytes": 8003306080,
+      "sha256": "be2f3f2f773fe99b95d991c7a9076aecac0e0876981b6f8d6e519d00ecd6c8e2"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Content/Paks/WW2FranceLiberation-Windows.utoc",
+      "size_bytes": 3396836,
+      "sha256": "14242d3221135635802ed4741706e360475da46785092556117d5517ab9140ff"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_albedo.png",
+      "size_bytes": 1675918,
+      "sha256": "2eda34c82dc826a6be64d408fd6a6135a028b88724ede250721853522ac246ed"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_geometry.json",
+      "size_bytes": 1723576,
+      "sha256": "4f836c22ec91e0d1e5b4c096ea870556466a1a3a54b5c4513639a5c81511acb1"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_normal.png",
+      "size_bytes": 1717000,
+      "sha256": "9249335b5e2a7529b2655d5f05c9b663afc1ed649c93a2d3d0e344b2fa02470d"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_orm.png",
+      "size_bytes": 1794723,
+      "sha256": "dcccf3a515c0a6b3e755249a6e235de6b84f764aab1f2e52fc001cc437bef8c7"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_albedo.png",
+      "size_bytes": 594581,
+      "sha256": "d6840ae07d79e63df29a6af833e1d44310bede474b0e398f9f157bc8ef1fda1b"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_geometry.json",
+      "size_bytes": 4886498,
+      "sha256": "86b3583147efdc454e9e58f92eb25fbbbf8904e9d2cea6423a11da4e8e8699a2"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_normal.png",
+      "size_bytes": 641222,
+      "sha256": "f8e4744406712ca434cf2b7b91cf6a19e8976cd54a5d780361408dd62999510c"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_orm.png",
+      "size_bytes": 455586,
+      "sha256": "a073c1ee026af840a942fb9bbc15aea981fefe33ba23d76dec8b9bd085a0952a"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Mine/mine_albedo.png",
+      "size_bytes": 631924,
+      "sha256": "4b7a4a046b189431c1e1b9e95d3771bb7a17bbf9320a526613c701c15906cd97"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Mine/mine_geometry.json",
+      "size_bytes": 7110340,
+      "sha256": "4b0a115c81b8fdefc545d7270b4eeb813b5c9fc9cbd48484cd6168db5cb86752"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Mine/mine_normal.png",
+      "size_bytes": 416569,
+      "sha256": "80ee452083e395b5d00a80c1658c04f64ee1139b0120cef9d2d5d0fa9055c7bb"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/Equipment/Mine/mine_orm.png",
+      "size_bytes": 477387,
+      "sha256": "a03b8cc0a875b0b13adca4e39e760fe8b7e1b4f351106c3caa442d9a2650caa6"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Cinzel-OFL.txt",
+      "size_bytes": 4383,
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Cinzel-provenance.json",
+      "size_bytes": 468,
+      "sha256": "cef02e56384e0cfa84f835114c55c3b913ed6216cd6afe764be188df1d5fe883"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Cinzel.ttf",
+      "size_bytes": 125468,
+      "sha256": "f4d83d34d1f6c741193e4acf4b3dff9531e5a67b6aa65228d00a7db72a4e0f34"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/DroidSans.tps",
+      "size_bytes": 272,
+      "sha256": "ac42e4a0d6275747ea99822f4907fcafbc57224075ec234e58ff452e45d04dc9"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/DroidSansFallback.ttf",
+      "size_bytes": 3939852,
+      "sha256": "05d71b179ef97b82cf1bb91cef290c600a510f77f39b4964359e3ef88378c79d"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/g1_minimap.png",
+      "size_bytes": 135787,
+      "sha256": "9e88479494f02473f0634f780e166bf3b43a898d9a2e3284cb9ec9a1c65ad525"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/map_identity.json",
+      "size_bytes": 1548,
+      "sha256": "23e3f40236399df797ce0c040408b5d146a7b4bb3c30fff0a0ff5ef0d9c2233c"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Roboto-Apache2.txt",
+      "size_bytes": 11329,
+      "sha256": "813aec82b71fe6fc927f1f9f5c08c5a098785b0a89e3a2e76697aa4662e5f666"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Roboto-BoldCondensed.ttf",
+      "size_bytes": 161308,
+      "sha256": "2c9245c0246a9c745793c7eaa9cc1fc964a12570009031ea0223115bec6e9426"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Roboto-provenance.json",
+      "size_bytes": 916,
+      "sha256": "64206d3967182e7758ae8cb179ea2057cb2b8e9c28575b35a1b38358c426075c"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/Roboto-Regular.ttf",
+      "size_bytes": 158604,
+      "sha256": "16466ef65064e6f3885a6d2806b8949ac1ac38b524dd0cf8fc96565eb4cc28e8"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation/UI/zh-Hans.json",
+      "size_bytes": 49519,
+      "sha256": "836170587327ea89d91fa8cd428b50aadb53283a51a86153a6706950a981a1cd"
+    },
+    {
+      "path": "Windows/WW2FranceLiberation.exe",
+      "size_bytes": 171520,
+      "sha256": "eebfb6fe53ba754e6da98a4c296aa27b267e64d4d39f4b2d4c5a87f72fce32fa"
+    }
+  ],
+  "runtime_python_required": false,
+  "runtime_editor_bridge_required": false
+}

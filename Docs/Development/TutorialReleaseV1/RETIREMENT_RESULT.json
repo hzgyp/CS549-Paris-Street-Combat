@@ -1,0 +1,17 @@
+{
+  "status": "pass_exact_retirement_and_protection",
+  "targets": 7,
+  "logical_removed_bytes": 60684505675,
+  "free_before": 484541202432,
+  "free_after": 486651650048,
+  "observed_free_delta": 2110447616,
+  "measurement_scope": "Whole-volume concurrent activity and hardlinks; not logical bytes freed.",
+  "original_user_files": 353,
+  "original_saves": 95,
+  "guards": 1809,
+  "recovery_archive": {
+    "path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\tutorial-release-v1-20261017\\INTERMEDIATE_UNIQUE_RECOVERY.zip",
+    "size_bytes": 679994468,
+    "sha256": "51768b25078b6764ade4cb7f8e20f854625446aeeb746e63491840476b518466"
+  }
+}

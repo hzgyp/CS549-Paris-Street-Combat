@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "asset_id": "paris-crouch-transitions",
+  "asset_version": "crouch-transitions-20261017-v1",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-17T09:34:57.999828-04:00",
+  "engine": "Unreal Engine 5.8.2",
+  "source": "Existing licensed InPlace animations with human-accepted project source integration",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "scope": "Human-accepted Ctrl descent/rise integration and actual InPlace pair; whole-Game/formal86 routing remains independent.",
+  "human_acceptance": {
+    "status": "human_accepted",
+    "date": "2026-10-17",
+    "quote": "蹲下起身这个看过了，过程没问题，直接验收即可",
+    "scope": "Visible Ctrl descent/rise process and observed transition continuity in current125-source trial",
+    "selector": "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+    "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+    "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046"
+  },
+  "dependencies": [
+    {
+      "asset_id": "character-ue582-integration-baseline",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/character-ue582-integration-baseline.json",
+      "sha256": "9a0908301ca2b61ba2010fb46240975d7d413f8461354e8c58efee19db30405c",
+      "file_count": 721,
+      "size_bytes": 1288786002,
+      "release_manifest": "/releases/character-20261001-v1/character-ue582-integration-baseline.json"
+    },
+    {
+      "asset_id": "paris-gameplay-native-playtest",
+      "asset_version": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+      "path": "Assets/Sync/manifests/paris-gameplay-native-playtest.json",
+      "sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
+      "file_count": 359,
+      "size_bytes": 655952112,
+      "release_manifest": "/releases/paris-native-playtest-20261008-g1-npc-vfx-v1/paris-gameplay-native-playtest.json"
+    },
+    {
+      "asset_id": "paris-grenade-grips",
+      "asset_version": "grenade-grips-20261017-v1",
+      "path": "Assets/Sync/manifests/paris-grenade-grips.json",
+      "sha256": "038e41e2169b33c11302b3c03fb7fdbd0dca2b1ec5ce8bec18d0ea2c571d6471",
+      "file_count": 9,
+      "size_bytes": 3159502,
+      "release_manifest": "/releases/grenade-grips-20261017-v1/paris-grenade-grips.json"
+    }
+  ],
+  "source_archive": {
+    "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Evidence/MATCHING_SOURCE_125.zip",
+    "size_bytes": 380493,
+    "sha256": "c2596e5606a440c3247e874e8aaa0ed79907a73ef63146b5563ce1522675e15b",
+    "storage": "sftp",
+    "remote_path": "/objects/sha256/c2/c2596e5606a440c3247e874e8aaa0ed79907a73ef63146b5563ce1522675e15b"
+  },
+  "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+  "source_files": 125,
+  "native_sequences": [
+    {
+      "object_path": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Idle.Rifle_Crouch2Idle",
+      "restore_path": "Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Idle.uasset",
+      "runtime_native_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Idle.uasset",
+      "owner_asset": "character-ue582-integration-baseline",
+      "file": {
+        "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Crouch2Idle.uasset",
+        "storage": "sftp",
+        "size_bytes": 291935,
+        "sha256": "fa628144445cee185262f35cd8aa5b7ec7a5036f74550121f767812652648b32",
+        "remote_path": "/objects/sha256/fa/fa628144445cee185262f35cd8aa5b7ec7a5036f74550121f767812652648b32"
+      }
+    },
+    {
+      "object_path": "/Game/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Crouch.Rifle_Idle2Crouch",
+      "restore_path": "Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Crouch.uasset",
+      "runtime_native_path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Crouch.uasset",
+      "owner_asset": "character-ue582-integration-baseline",
+      "file": {
+        "path": "Assets/LocalShared/SFTP/workspaces/yg745/character-ue582-v1/Content/RifleAnimsetPro/Animations/InPlace/Rifle_Idle2Crouch.uasset",
+        "storage": "sftp",
+        "size_bytes": 277379,
+        "sha256": "2f7e469da6c403ee28198ae63c38b91dcec3ccc3a1df81427d6d65c0b976f90a",
+        "remote_path": "/objects/sha256/2f/2f7e469da6c403ee28198ae63c38b91dcec3ccc3a1df81427d6d65c0b976f90a"
+      }
+    }
+  ],
+  "contract": "Evidence/CROUCH_TRANSITION_CONTRACT.json",
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/crouch-transitions-20261017-v1/Evidence/CROUCH_TRANSITION_CONTRACT.json",
+      "size_bytes": 6654,
+      "sha256": "137251326e0c0aa9fcb103a24ba7543b58fd6fdfdd04ce5b8ffc5ca0e45e18c9",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/13/137251326e0c0aa9fcb103a24ba7543b58fd6fdfdd04ce5b8ffc5ca0e45e18c9"
+    }
+  ],
+  "file_count": 1,
+  "size_bytes": 6654
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "asset_id": "paris-medical-pouch",
+  "asset_version": "medical-pouch-20261017-v1",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-17T12:07:54.852911-04:00",
+  "blender": "5.2.2 LTS",
+  "source": "Original procedural pouch with human-accepted v2 surface stains; no third-party model or photo pixels",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "team_authored_private_three_member_development",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "scope": "Human-accepted standalone medical pouch model/material appearance; no gameplay/native/runtime/whole-Game adoption",
+  "human_acceptance": {
+    "date": "2026-10-17",
+    "quote": "ok，人工复核确认，合并到正式资产",
+    "scope": "Complete medical pouch shape/material/stain appearance shown in the immediately preceding v2 preview; standalone model only",
+    "selected_stage": "MedkitSurfaceStains20261017/v2",
+    "glb_sha256": "542aede9b691561d20a5bcdb06d3d812b0ffb1427d91eb48563bddbe7f5a05f5",
+    "blend_sha256": "8072ba662c226a2575a6494fe2087b2faf10d31e465ee5be6fb82a80ee29cb6d"
+  },
+  "dependencies": [],
+  "metrics": {
+    "mesh_count": 32,
+    "triangles": 23536,
+    "dimensions_m": [
+      0.22378840297460556,
+      0.10624726861715317,
+      0.15700000524520874
+    ]
+  },
+  "verification": {
+    "export": "Fresh actual GLB 13 gates and seven retained renders",
+    "human": "Accepted complete shown appearance 17 October 2026",
+    "remote": "Final authenticated object and manifest SHA256/size readback required before selection",
+    "runtime": "Not integrated/tested in UE",
+    "second_machine": "Not performed"
+  },
+  "files": [
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Evidence/authored_metrics.json",
+      "size_bytes": 3833,
+      "sha256": "b8aa912cac67946082a54308b68eee5d1fea80116486d2980ab38c60cde5789f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b8/b8aa912cac67946082a54308b68eee5d1fea80116486d2980ab38c60cde5789f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Evidence/DETAIL.jpg",
+      "size_bytes": 150594,
+      "sha256": "acacd6d07ed0976fc7dad891b10e9351b4977b81c28ee265a70843852ac4a139",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ac/acacd6d07ed0976fc7dad891b10e9351b4977b81c28ee265a70843852ac4a139"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Evidence/HERO.jpg",
+      "size_bytes": 84998,
+      "sha256": "b30303ddbc5b9e9a079b9476eb46fd1479f8d0038c94a62eef2aaadcd06e7223",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b3/b30303ddbc5b9e9a079b9476eb46fd1479f8d0038c94a62eef2aaadcd06e7223"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Evidence/REVIEW.jpg",
+      "size_bytes": 106555,
+      "sha256": "e37dd213c60920b415f880026b9571363e836bb5a0e9fdbfd0723d406db6bceb",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e3/e37dd213c60920b415f880026b9571363e836bb5a0e9fdbfd0723d406db6bceb"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Evidence/VALIDATION.json",
+      "size_bytes": 1527,
+      "sha256": "97389c3536d0b81e3d3a9a770cab6f0d9f14ba1a9eebee9aba587413e03dc142",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/97/97389c3536d0b81e3d3a9a770cab6f0d9f14ba1a9eebee9aba587413e03dc142"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Evidence/VISUAL_REVIEW.json",
+      "size_bytes": 858,
+      "sha256": "fb46765597504766fc46c8992f249f579b0a9796ffe4421c437adaf5c8a5156c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/fb/fb46765597504766fc46c8992f249f579b0a9796ffe4421c437adaf5c8a5156c"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Model/MedicalPouch_Stained.blend",
+      "size_bytes": 22514901,
+      "sha256": "8072ba662c226a2575a6494fe2087b2faf10d31e465ee5be6fb82a80ee29cb6d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/80/8072ba662c226a2575a6494fe2087b2faf10d31e465ee5be6fb82a80ee29cb6d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Model/MedicalPouch_Stained.glb",
+      "size_bytes": 22461164,
+      "sha256": "542aede9b691561d20a5bcdb06d3d812b0ffb1427d91eb48563bddbe7f5a05f5",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/54/542aede9b691561d20a5bcdb06d3d812b0ffb1427d91eb48563bddbe7f5a05f5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Model/textures/Canvas_Dense_Normal.png",
+      "size_bytes": 5190545,
+      "sha256": "ca89aaaedf54acfa0da203470f2d73d824fc596e416bd217c473d86267784bc6",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ca/ca89aaaedf54acfa0da203470f2d73d824fc596e416bd217c473d86267784bc6"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Model/textures/MedicalPouch_Stained_BaseColor.png",
+      "size_bytes": 11828683,
+      "sha256": "144613125a3f28317c5aa7178e416810b95aa8be05beb0d64971b5c81fc58ae1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/14/144613125a3f28317c5aa7178e416810b95aa8be05beb0d64971b5c81fc58ae1"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Model/textures/MedicalPouch_Textile_ORM.png",
+      "size_bytes": 1915467,
+      "sha256": "206309af8a10a69d2a2853f351707b96cc301d521dbf23ee66e2787560912188",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/20/206309af8a10a69d2a2853f351707b96cc301d521dbf23ee66e2787560912188"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Model/textures/Webbing_Warp_Normal.png",
+      "size_bytes": 2593070,
+      "sha256": "804fb8c1852ac7b73de69c2b4485f8ee7172959460d2d6d9fb8bcddfbacca49d",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/80/804fb8c1852ac7b73de69c2b4485f8ee7172959460d2d6d9fb8bcddfbacca49d"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/README.md",
+      "size_bytes": 1904,
+      "sha256": "c58802d696fd6541254eddbc87f4263c47b92041ccccff51d8db6ed0a34a871f",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c5/c58802d696fd6541254eddbc87f4263c47b92041ccccff51d8db6ed0a34a871f"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/RESTORATION_CONTRACT.json",
+      "size_bytes": 2971,
+      "sha256": "4bd90a4aee805b26d23dc89298959e0ea2561afc7d380e6b6fd4a5ec64f3ab4c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4b/4bd90a4aee805b26d23dc89298959e0ea2561afc7d380e6b6fd4a5ec64f3ab4c"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Source/add_stains.py",
+      "size_bytes": 8044,
+      "sha256": "a1addad35f72cb2f4c63ea1c03d901edf3fca7844dc5112ff7805d53756e9c01",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a1/a1addad35f72cb2f4c63ea1c03d901edf3fca7844dc5112ff7805d53756e9c01"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Source/Inputs/MedicalPouch_Textile_v3.glb",
+      "size_bytes": 22377572,
+      "sha256": "3f7d64127bde8e106d352655327bddc3d12246591230ae4db2257aa7d947dc22",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3f/3f7d64127bde8e106d352655327bddc3d12246591230ae4db2257aa7d947dc22"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Source/StainRecipe.blend",
+      "size_bytes": 34334135,
+      "sha256": "d89c071e6fb480531ae7c9802b5491a9aa9a0b5d5588da34c37fd7e34481adb1",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d8/d89c071e6fb480531ae7c9802b5491a9aa9a0b5d5588da34c37fd7e34481adb1"
+    }
+  ],
+  "file_count": 17,
+  "size_bytes": 123576821
+}

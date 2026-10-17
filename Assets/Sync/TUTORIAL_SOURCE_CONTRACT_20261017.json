@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "asset_version": "paris-tutorial-20261017-v1",
+  "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+  "source_snapshot": "Unreal/Variants/G1MedicalGuidanceMusic20261017/Project",
+  "source_manifest": "Unreal/Variants/G1MedicalGuidanceMusic20261017/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "faa136ed3bbafa07e93253b3c6faefab6eb4380cc06e657ee9d3c67baa0a9c91",
+  "source_files": 145,
+  "public_source_files": 144,
+  "external_source_files": [
+    {
+      "path": "Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneNativeCurves.inl",
+      "sha256": "93c44a399ce948f397c3de7501ee2de1850d86a973e2841a5cb51bba67246e9d",
+      "size_bytes": 63505,
+      "manifest": "Assets/Sync/manifests/paris-tutorial-runtime-resources.json",
+      "reason": "Licensed native animation curve data stays private"
+    }
+  ],
+  "runtime_manifest": "Assets/Sync/manifests/paris-tutorial-runtime-resources.json",
+  "native_overlay_manifest": "Assets/Sync/manifests/paris-tutorial-native-overlay.json",
+  "package_manifest": "Assets/Sync/manifests/paris-tutorial-packaged-release.json",
+  "development_only": true,
+  "second_machine": "pending",
+  "no_matching_editor_acceptance": true
+}

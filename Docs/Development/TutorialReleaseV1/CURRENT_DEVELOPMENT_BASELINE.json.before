@@ -1,0 +1,1488 @@
+{
+  "schema_version": 3,
+  "status": "selected_active_development_baseline",
+  "authorization": "用户：已确认没问题，合并到正式资产，替换当前投掷动作，做完同步到资产管理平台，删除中间测试相关打包，释放空间",
+  "selected_at": "2026-10-14T09:04:24.249446-04:00",
+  "baseline_id": "g1-grenade-pose-v8-human-reviewed-20261014",
+  "playable_directory": "tmp/Playtest-G1-GrenadePose-20261013-V8",
+  "playable_entry": "tmp/Playtest-G1-GrenadePose-20261013-V8/PLAY_GRENADE_TRAVERSAL.cmd",
+  "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+  "source_snapshot": "Unreal/Variants/G1GrenadePose20261013V8/Project",
+  "source_manifest": "Unreal/Variants/G1GrenadePose20261013V8/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "019d1d8b0407f2f85f89b67488bcc817e455a43486b0ff5838b2e4b581b9f902",
+  "active_authoring_project": "tmp/g1-grenade-pose-20261013/candidate_v1/Project/WW2FranceLiberation.uproject",
+  "active_source_files": 86,
+  "audio_manifest": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+  "audio_files": 33,
+  "matching_source_revision": "Unchanged human-reviewed86 source/Game; runtime left grenade binding now formal.",
+  "native_asset_anchor": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+  "canonical_source_contract_role": "758-file asset/native integration anchor; not the current starting gameplay/HUD source",
+  "protected": "Original models/rigs/weights/materials/finger poses/accepted gun logic/native source and user checkpoints retained",
+  "save_prefix": "ParisGrenadePoseV8",
+  "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1GrenadePose20261013V8",
+  "human_manual_review": "User confirms no problems and adopts this exact grenade/traversal build14October2026",
+  "latest_audio_review_candidate": "Docs/Development/CURRENT_AUDIO_REVIEW.json",
+  "latest_local_repair": "Docs/Development/CURRENT_LOCAL_REPAIR.json",
+  "remaining_gates": [
+    "Quantitative fine finger/surface contact and whole garment/all locomotion",
+    "All-map natural combat/enlarged NPC stress/second machine",
+    "Reverse crate face/arbitrary obstacle traversal",
+    "Matching86 Editor build before engine entry; PIE/recook not newly accepted",
+    "Coursework uploads remain human-only"
+  ],
+  "future_rule": "Start from exact86 G1GrenadePose20261013V8 source or tmp/g1-grenade-pose-20261013/candidate_v1/Project finalbuild_v8. Preserve original native assets/weights/UV/rifle finger constants/gun/save/enemy-clear rules. Grenade runtime binding uses left hand, coherent anatomical FP frame and relative wrist; equipped FP prepare/cancel use nativeLoop, actual bodyStart/Cancel clocks unchanged. Do not use copied older Editor binaries without a matching86 build. Preserve old source/raw/failed/cooked/user/recovery identities; retired packaged bytes use14October map.",
+  "retirement_map": "Docs/Development/G1GrenadeBaselineAdoption20261014/RECOVERY_MAP_20261014.json",
+  "previous_selected_baseline": {
+    "role": "Reviewed sleeve78 source/runtime retained as prior baseline; current local formal Game is86.",
+    "selector": {
+      "schema_version": 3,
+      "status": "selected_active_development_baseline",
+      "authorization": "用户：这一版没有问题，同步到正式基线，然后删除过度版本",
+      "selected_at": "2026-10-13T08:41:24.605688-04:00",
+      "baseline_id": "g1-sleeve-workspace-20261012-reviewed-20261013",
+      "playable_directory": "tmp/Playtest-G1-Sleeve-20261012",
+      "playable_entry": "tmp/Playtest-G1-Sleeve-20261012/PLAY_SLEEVE_FIX.cmd",
+      "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+      "source_snapshot": "Unreal/Variants/G1SleeveWorkspace20261012/Project",
+      "source_manifest": "Unreal/Variants/G1SleeveWorkspace20261012/SOURCE_MANIFEST.json",
+      "source_manifest_sha256": "aee85c67c53b3e6d2b90131de8974c2f47733c2cbf6a1ed2057c9f5caf74a79e",
+      "active_authoring_project": "tmp/g1-sleeve-20261012/candidate_v1/Project/WW2FranceLiberation.uproject",
+      "active_source_files": 78,
+      "audio_manifest": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+      "audio_files": 33,
+      "matching_source_revision": "Unchanged reviewed78 source and Game; no Git commit/push in adoption task",
+      "native_asset_anchor": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+      "canonical_source_contract_role": "758-file asset/native integration anchor; not the current starting gameplay/HUD source",
+      "protected": "Original models/rigs/weights/materials/finger poses/accepted gun logic/native source and user checkpoints retained",
+      "save_prefix": "ParisSleeveV1",
+      "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1Sleeve20261012",
+      "human_manual_review": "User explicitly reports this version has no problems and adopts it13October2026",
+      "latest_audio_review_candidate": "Docs/Development/CURRENT_AUDIO_REVIEW.json",
+      "latest_local_repair": "Docs/Development/CURRENT_LOCAL_REPAIR.json",
+      "remaining_gates": [
+        "Quantitative full garment deformation/fine hand-weapon contact/all locomotion; inherited ADS/en-bloc polish",
+        "Further gameplay/HUD/NPC refinement and enlarged-roster stress",
+        "Exact reusable German live-fire source",
+        "Matched78 Editor compiled/Engine Entry observed; PIE/recook and second-machine not newly accepted",
+        "New runtime development publication requires separate authorization; all coursework uploads are human-only"
+      ],
+      "future_rule": "Start from exact78 G1SleeveWorkspace20261012 or tmp/g1-sleeve-20261012/candidate_v1/Project (final build_v12). Preserve original models/weights/UV/rifle finger constants/gun/resources/save/body/camera/AI/navigation and enemy-clear-only checkpoint rules. Keep matching Editor open. Consult SL001 and13October recovery map; older raw receipts retain dated identities.",
+      "retirement_map": "Docs/Development/G1SleeveBaselineAdoption20261013/RECOVERY_MAP_20261013.json",
+      "previous_selected_baseline": {
+        "role": "Superseded76 source/raw retained; obsolete local runnable bytes recover through13October map",
+        "selector": {
+          "schema_version": 3,
+          "status": "selected_active_development_baseline",
+          "authorization": "用户：已人工验证，还有衣服遮挡小问题，但逻辑没啥问题，把正式版同步到这一版，其他过渡版本可以删除",
+          "selected_at": "2026-10-11T19:44:43.890773-04:00",
+          "baseline_id": "g1-complete-gameplay-grenade-equip-20261011",
+          "playable_directory": "tmp/Playtest-G1-GrenadeEquip-20261011",
+          "playable_entry": "tmp/Playtest-G1-GrenadeEquip-20261011/PLAY_GRENADE_EQUIP.cmd",
+          "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
+          "source_snapshot": "Unreal/Variants/G1GrenadeEquip20261011/Project",
+          "source_manifest": "Unreal/Variants/G1GrenadeEquip20261011/SOURCE_MANIFEST.json",
+          "source_manifest_sha256": "9ac0620c0794c2cc64c0b701d50e7dba4a82941bee7d147be1f72cd604d9312d",
+          "active_authoring_project": "tmp/g1-tactical-equipment-20261010/candidate_grenade_equip_v1/Project/WW2FranceLiberation.uproject",
+          "active_source_files": 76,
+          "audio_manifest": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+          "audio_files": 33,
+          "sftp_release": "paris-g1-playtest-20261011-gameplay-v1",
+          "sftp_download": "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip",
+          "matching_source_revision": "Exact reviewed76 local source; no Git commit or push in adoption task",
+          "native_asset_anchor": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+          "canonical_source_contract_role": "758-file asset/native integration anchor; not the current starting gameplay/HUD source",
+          "protected": "Original models/rigs/weights/materials/finger poses/accepted gun logic/native source and user checkpoints retained",
+          "save_prefix": "ParisGrenadeEquipV2",
+          "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1GrenadeEquip20261011",
+          "human_manual_review": "Logic accepted by explicit user manual verification11October2026; residual sleeve occlusion reported",
+          "second_machine_review": {
+            "status": "pass_human_attestation",
+            "date": "2026-10-10",
+            "reported_by": "Yupu Guo",
+            "scope": "A teammate's second computer runs the shared game and is playable",
+            "limitations": "No remotely observed file-hash audit, machine specs or source/Editor rebuild supplied; reviewer download access remains separate"
+          },
+          "latest_audio_review_candidate": "Docs/Development/CURRENT_AUDIO_REVIEW.json",
+          "latest_local_repair": "Docs/Development/CURRENT_LOCAL_REPAIR.json",
+          "remaining_gates": [
+            "User-reported sleeve/clothing occlusion",
+            "Fine contact/full-motion and remaining ADS/en-bloc presentation polish",
+            "Further HUD and mission/gameplay refinement",
+            "Additional NPC behavior and enlarged-population stress",
+            "Exact reusable German live-fire source",
+            "Matching76 Editor/recook and second-machine validation",
+            "Fresh private delivery and course acceptance for this76 revision"
+          ],
+          "future_rule": "Start from exact76 G1GrenadeEquip20261011 or matching candidate_grenade_equip_v1/Project (contains final build_v4). Preserve models, rifle finger constants/branch, gun/resources, enemy-clear-only checkpoint and original save validators. Use existing licensed actions/assets. Build matching Editor before entry; existing Editors stay open. Consult failure records and current recovery map; old raw receipts retain dated status.",
+          "retirement_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json",
+          "previous_selected_baseline": {
+            "role": "One previous formal52 normal package retained for older recovery dependencies; historical source/checks kept",
+            "selector": {
+              "schema_version": 3,
+              "status": "selected_active_development_baseline",
+              "authorization": "User: 已测试，没有问题，把这一版合并到正式基线中，其他过渡版本删除，过时正式版本不保留太多",
+              "selected_at": "2026-10-10T21:07:13.627684-04:00",
+              "baseline_id": "g1-enemy-clear-checkpoint-candidate_v3-20261010",
+              "playable_directory": "tmp/Playtest-G1-EnemyClear-candidate_v3-20261010",
+              "playable_entry": "tmp/Playtest-G1-EnemyClear-candidate_v3-20261010/PLAY_G1_REVISION.cmd",
+              "game_sha256": "b40409b08830cc0e1d306ceab0575d7e61db382f50853426bbda58d08f385079",
+              "source_snapshot": "Unreal/Variants/G1EnemyClearCheckpoint20261010/Project",
+              "source_manifest": "Unreal/Variants/G1EnemyClearCheckpoint20261010/SOURCE_MANIFEST.json",
+              "source_manifest_sha256": "66d8c6e3fc005090ebe44e31f6a8dabd0fdbe1871ffed613cb3769f5b334508a",
+              "active_authoring_project": "tmp/g1-enemy-clear-checkpoint-20261010/candidate_v3/Project/WW2FranceLiberation.uproject",
+              "active_source_files": 52,
+              "audio_manifest": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+              "audio_files": 33,
+              "sftp_release": null,
+              "sftp_download": null,
+              "matching_source_revision": "Current local52 snapshot; uncommitted repair/adoption changes retained",
+              "native_asset_anchor": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+              "canonical_source_contract_role": "758-file asset/native integration anchor; not the current starting gameplay/HUD source",
+              "protected": "Original models/rigs/weights/materials/finger poses/accepted gun logic/native source and user checkpoints retained",
+              "save_prefix": "ParisG1PlaytestV5",
+              "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1EnemyClearv320261010",
+              "human_manual_review": "Passed by explicit user retest; adopted locally10October2026",
+              "second_machine_review": {
+                "status": "pass_human_attestation",
+                "date": "2026-10-10",
+                "reported_by": "Yupu Guo",
+                "scope": "A teammate's second computer runs the shared game and is playable",
+                "limitations": "No remotely observed file-hash audit, machine specs or source/Editor rebuild supplied; reviewer download access remains separate"
+              },
+              "latest_audio_review_candidate": "Docs/Development/CURRENT_AUDIO_REVIEW.json",
+              "latest_local_repair": "Docs/Development/CURRENT_LOCAL_REPAIR.json",
+              "remaining_gates": [
+                "Remaining sleeve/ADS/en-bloc asset polish",
+                "HUD refinement",
+                "Richer gameplay and added NPC behavior/stress",
+                "Exact reusable German live-fire source",
+                "Editor build/recook and second-machine validation of this52-file revision",
+                "Private course delivery, independent reviewer download and course acceptance"
+              ],
+              "future_rule": "Start from the exact52 snapshot or matching active authoring Project. Preserve models/fingers/actions/gun/resources/audio/native navigation and original validated journal. Enemy-clear-only objective gate. Build matching Editor before Editor entry. Historical package paths recover through the current retirement map.",
+              "retirement_map": "Docs/Development/G1CheckpointBaselineAdoption20261010/RECOVERY_MAP_20261010.json",
+              "previous_selected_baseline": {
+                "role": "Historical audioV2 source/review/publication and earlier anchors; local runnable retired",
+                "selector": {
+                  "schema_version": 2,
+                  "status": "selected_active_development_baseline",
+                  "authorization": "User: manual retest passed; use this version, delete obsolete packages, commit/push and synchronize SFTP",
+                  "selected_at": "2026-10-09T21:52:31.888669-04:00",
+                  "baseline_id": "g1-foot-contact-audio-v2-20261009",
+                  "playable_directory": "tmp/Playtest-G1-Foley-V2-20261009",
+                  "playable_entry": "tmp/Playtest-G1-Foley-V2-20261009/PLAY_G1_REVISION.cmd",
+                  "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+                  "source_snapshot": "Unreal/Variants/G1FootContactAudio20261009/Project",
+                  "source_manifest": "Unreal/Variants/G1FootContactAudio20261009/SOURCE_MANIFEST.json",
+                  "source_manifest_sha256": "2ff88f0e74040b46e8b7c26750602c56556857a06b45db96c28f297f534b468b",
+                  "active_authoring_project": "tmp/g1-foot-contact-audio-v2-20261009/candidate_v2/Project/WW2FranceLiberation.uproject",
+                  "active_source_files": 42,
+                  "audio_manifest": "Assets/Sync/manifests/paris-g1-recorded-audio.json",
+                  "audio_files": 33,
+                  "sftp_release": "paris-g1-playtest-20261009-audio-v2",
+                  "sftp_download": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+                  "matching_source_revision": "Git revision containing this selector; exact pushed HEAD recorded in publication handoff/private receipt",
+                  "native_asset_anchor": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+                  "canonical_source_contract_role": "758-file asset/native integration anchor; not the current starting gameplay/HUD source",
+                  "protected": "Original models/rigs/weights/materials/finger poses/accepted gun logic/native source and user checkpoints retained",
+                  "save_prefix": "ParisG1PlaytestV5",
+                  "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1PlaytestFoleyV220261009",
+                  "human_manual_review": "Passed; selected by Yupu Guo",
+                  "second_machine_review": {
+                    "status": "pass_human_attestation",
+                    "date": "2026-10-10",
+                    "reported_by": "Yupu Guo",
+                    "scope": "A teammate's second computer runs the shared game and is playable",
+                    "limitations": "No remotely observed file-hash audit, machine specs or source/Editor rebuild supplied; reviewer download access remains separate"
+                  },
+                  "latest_audio_review_candidate": "Docs/Development/CURRENT_AUDIO_REVIEW.json",
+                  "latest_local_repair": "Docs/Development/CURRENT_LOCAL_REPAIR.json",
+                  "remaining_gates": [
+                    "full motion/contact",
+                    "low-posture camera and sprint/jump lowering",
+                    "performance",
+                    "natural opposing combat",
+                    "private course-platform delivery and independent reviewer download",
+                    "course acceptance",
+                    "exact reusable German live-fire source"
+                  ],
+                  "future_rule": "Start all future changes from this exact42 snapshot or matching authoring Project; read failures first, preserve native/model/finger/gun/ammo/HUD/save/dead-restore logic. Build selected source before Editor entry.",
+                  "retirement_map": "Docs/Development/G1AudioPublicationV2/RECOVERY_MAP_20261009.json",
+                  "previous_selected_baseline": {
+                    "role": "Historical40-file visual/source anchor; old runnable packages retired by later user authorization",
+                    "selector": {
+                      "schema_version": 1,
+                      "status": "selected_active_development_baseline",
+                      "authorization": "2026-10-09 user selects this latest local HUD version as the basis for subsequent development",
+                      "selected_at": "2026-10-09T15:09:51.444289-04:00",
+                      "baseline_id": "g1-hud-v3-20261009",
+                      "playable_directory": "tmp/Playtest-G1-HUD-20261009",
+                      "playable_entry": "tmp/Playtest-G1-HUD-20261009/PLAY_G1_REVISION.cmd",
+                      "game_sha256": "497221422d7754d562b4e6d11fd8cc50c9223e40b329b26c8c14391a98d1c42b",
+                      "source_snapshot": "Unreal/Variants/G1HUDPlaytest20261009/Project",
+                      "source_manifest": "Unreal/Variants/G1HUDPlaytest20261009/SOURCE_MANIFEST.json",
+                      "source_manifest_sha256": "e6f4fd678ca0c9e1bdca038513749cb598a2cb10996dc69a5eecd1fc3f7c0544",
+                      "active_authoring_project": "tmp/g1-playtest-revision-20261008/candidate_v3/Project/WW2FranceLiberation.uproject",
+                      "active_source_files": 40,
+                      "sftp_release": "paris-g1-playtest-20261009-hud-v3",
+                      "sftp_download": "/releases/paris-g1-playtest-20261009-hud-v3/Paris-G1-HUD-20261009.zip",
+                      "matching_published_source_commit": "79421db822c344a693a682f1af6bc3e40cfa0119",
+                      "native_asset_anchor": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+                      "canonical_source_contract_role": "758-file asset/native integration anchor; not the current starting gameplay/HUD source",
+                      "protected": "Original models/rigs/weights/materials/finger poses/accepted gun logic/native source and user checkpoints retained",
+                      "save_prefix": "ParisG1PlaytestV5",
+                      "save_directory": "%LOCALAPPDATA%/ParisStreetCombat/G1PlaytestV5",
+                      "remaining_gates": [
+                        "full motion/contact",
+                        "low-posture camera and sprint/jump lowering",
+                        "second machine",
+                        "performance",
+                        "natural opposing combat",
+                        "video",
+                        "course acceptance"
+                      ],
+                      "future_rule": "Read this selector and failure cases before implementation. Branch from its exact source snapshot or matching active authoring Project. Do not restart from older V13/V10 gameplay/HUD code.",
+                      "latest_local_repair": "Docs/Development/CURRENT_LOCAL_REPAIR.json",
+                      "latest_audio_review_candidate": "Docs/Development/CURRENT_AUDIO_REVIEW.json",
+                      "repair_extension_rule": "Read the local child/result before new feature work; carry42-file corpse/audio repair forward, preserve this selected40 parent and previous published identities.",
+                      "latest_audio_human_feedback": "Recorded Foley improved; player cadence/jump and recorded M1 report revised in current local review candidate. Stable20 contacts checked,9transitions UNASSESSED; manual review/recording HOLD, parent model/HUD selection preserved."
+                    }
+                  },
+                  "approved_demo_video": {
+                    "status": "pass_human_review",
+                    "date": "2026-10-10",
+                    "recorded_at": "2026-10-10T14:27:30.881604+00:00",
+                    "authorization": "User: 视频没问题，就保留这个一个完整视频，其他录制的可以删除",
+                    "sha256": "8048195262f6dd45cc583985b1297227065bb9b4b2454d16763037564d073be0",
+                    "scope": "Final video04 approved; later explicit user request authorizes YouTube publication. Does not approve rejected report or course submission",
+                    "path": "Assets/LocalShared/Deliverables/Assignment3/DemoDraft04_20261010/Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+                    "duration_seconds": 158.23333333333332,
+                    "public_url": "https://youtu.be/SktbFHNYP54",
+                    "publication": {
+                      "status": "user_published_link_verified_watch_page_and_studio",
+                      "verified_at": "2026-10-10T15:23:40.787156+00:00",
+                      "url": "https://youtu.be/SktbFHNYP54",
+                      "watch_url": "https://www.youtube.com/watch?v=SktbFHNYP54",
+                      "video_id": "SktbFHNYP54",
+                      "title": "Paris Street Combat | CS549 Assignment 3 | MVP Demo",
+                      "channel": "yupu Guo",
+                      "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+                      "visibility": "Public",
+                      "hd": "Auto (1080p HD) on watch player; High Definition complete in Studio",
+                      "watch_page_duration": "2:38",
+                      "studio_duration_display": "2:39 (rounding differs from watch player)",
+                      "studio_source_filename": "Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+                      "ai_use_disclosed": true,
+                      "description_checked": "Team names, four pillars, squad/combat, save/load, death/restart, live counters, English captions/AI narration, normal speed/input assistance/separate cuts and licensed assets recorded",
+                      "visible_samples": [
+                        "Opening with live performance panel/minimap",
+                        "Health 0 / PLAYER LOST / F6 actual restart interval",
+                        "Fresh Ready with 100 health / 2+16 ammo / 2 Allies / 3 guards"
+                      ],
+                      "caption_note": "YouTube English auto-generated CC duplicates embedded English subtitles when enabled; viewer can turn CC off",
+                      "source_identity_scope": "Studio filename, duration and sampled frames consistent with approved video04; no remote source-file checksum obtained",
+                      "review_scope": "Read-only signed-in watch/Studio check; no whole-video new acoustic review or independent anonymous session",
+                      "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md"
+                    },
+                    "previous_publications": [
+                      {
+                        "status": "published_verified_watch_page",
+                        "verified_at": "2026-10-10T14:43:11Z",
+                        "channel": "yupu Guo",
+                        "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+                        "visibility": "Unlisted",
+                        "hd": "1080p HD available on watch page",
+                        "upload_checks": "No issues found at publication; later claims remain possible",
+                        "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+                        "scope": "Published exact approved video04; no new game build or reviewer package delivery"
+                      }
+                    ]
+                  },
+                  "course_delivery": {
+                    "status": "local_private_report_download_bundle_verified",
+                    "date": "2026-10-10",
+                    "authorization": "User selects local SFTP; permits instructor/TA private compiled-game review; uses existing team account/key without new user; latest request adds the accepted two-page report to the download-script directory, ZIPs that directory and authorizes matching source/docs Git commit/push; owner uploads to private course platform",
+                    "existing_team_identity_reused": true,
+                    "new_user_or_key": false,
+                    "server_or_permission_change": false,
+                    "account_scope": "Existing team shared account retains broader resource access and CRUD; not read-only or single-package isolation",
+                    "game_bytes": 8476572643,
+                    "game_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+                    "validation": "Earlier full-game authenticated SFTP streaming read matches SHA256; current five-file helper real small README resume/hash/Unicode-spaces transfer passes, wrong host key rejects, temporary files cleaned, original key/guards exact",
+                    "network_scope": "Same-machine authenticated loopback and public-forwarded endpoint; not independent external-machine validation",
+                    "pending": "Owner private course-platform delivery and independent reviewer download",
+                    "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+                    "video_url": "https://youtu.be/SktbFHNYP54",
+                    "historical_access_zip": {
+                      "role": "Retired access ZIP; historical private evidence only",
+                      "path": "tmp/g1-course-links-publication-20261010/access-directory-before-slimming/CS549-G1-SFTP-Access-20261010.zip",
+                      "bytes": 6964,
+                      "sha256": "e8d9bafcb2f4c8054b0ad5cacc693af6b616cb393a71fb2226e149b91b3c2921",
+                      "previous_delivery_path": "Assets/LocalShared/Deliverables/Assignment3/CS549-G1-SFTP-Access-20261010.zip"
+                    },
+                    "access_directory": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010",
+                    "access_files": [
+                      "CONNECTION.json",
+                      "DOWNLOAD_GAME.cmd",
+                      "DOWNLOAD_GAME.ps1",
+                      "Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+                      "README.md",
+                      "cs549_sftp_ed25519"
+                    ],
+                    "access_total_bytes": 90694,
+                    "compressed_delivery": true,
+                    "delivery_zip": {
+                      "path": "Assets/LocalShared/Deliverables/Assignment3/CS549-Assignment3-20261010.zip",
+                      "size_bytes": 82038,
+                      "sha256": "1171bcb68dc21cd4beb668e7b19ed8ba074ac69691ae77fdd6830c6e7cbc9ca9",
+                      "file_count": 6,
+                      "verification": "Full member size/SHA readback, CRC, embedded PDF two pages; 50 protected hashes unchanged; seven private paths ignored by Git"
+                    },
+                    "report": {
+                      "status": "selected_previous_two_page_report_by_user",
+                      "path": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+                      "original_path": "output/pdf/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+                      "sha256": "6379243d8e003906362972533927f9f503971513836fb0556f191d4679cd8f6f",
+                      "size_bytes": 81345,
+                      "pages": 2,
+                      "content_changed_for_bundling": false
+                    },
+                    "bundle_record": "Docs/Development/ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md"
+                  }
+                }
+              },
+              "approved_demo_video": {
+                "status": "pass_human_review",
+                "date": "2026-10-10",
+                "recorded_at": "2026-10-10T14:27:30.881604+00:00",
+                "authorization": "User: 视频没问题，就保留这个一个完整视频，其他录制的可以删除",
+                "sha256": "8048195262f6dd45cc583985b1297227065bb9b4b2454d16763037564d073be0",
+                "scope": "Final video04 approved; later explicit user request authorizes YouTube publication. Does not approve rejected report or course submission",
+                "path": "Assets/LocalShared/Deliverables/Assignment3/DemoDraft04_20261010/Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+                "duration_seconds": 158.23333333333332,
+                "public_url": "https://youtu.be/SktbFHNYP54",
+                "publication": {
+                  "status": "user_published_link_verified_watch_page_and_studio",
+                  "verified_at": "2026-10-10T15:23:40.787156+00:00",
+                  "url": "https://youtu.be/SktbFHNYP54",
+                  "watch_url": "https://www.youtube.com/watch?v=SktbFHNYP54",
+                  "video_id": "SktbFHNYP54",
+                  "title": "Paris Street Combat | CS549 Assignment 3 | MVP Demo",
+                  "channel": "yupu Guo",
+                  "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+                  "visibility": "Public",
+                  "hd": "Auto (1080p HD) on watch player; High Definition complete in Studio",
+                  "watch_page_duration": "2:38",
+                  "studio_duration_display": "2:39 (rounding differs from watch player)",
+                  "studio_source_filename": "Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+                  "ai_use_disclosed": true,
+                  "description_checked": "Team names, four pillars, squad/combat, save/load, death/restart, live counters, English captions/AI narration, normal speed/input assistance/separate cuts and licensed assets recorded",
+                  "visible_samples": [
+                    "Opening with live performance panel/minimap",
+                    "Health 0 / PLAYER LOST / F6 actual restart interval",
+                    "Fresh Ready with 100 health / 2+16 ammo / 2 Allies / 3 guards"
+                  ],
+                  "caption_note": "YouTube English auto-generated CC duplicates embedded English subtitles when enabled; viewer can turn CC off",
+                  "source_identity_scope": "Studio filename, duration and sampled frames consistent with approved video04; no remote source-file checksum obtained",
+                  "review_scope": "Read-only signed-in watch/Studio check; no whole-video new acoustic review or independent anonymous session",
+                  "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md"
+                },
+                "previous_publications": [
+                  {
+                    "status": "published_verified_watch_page",
+                    "verified_at": "2026-10-10T14:43:11Z",
+                    "channel": "yupu Guo",
+                    "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+                    "visibility": "Unlisted",
+                    "hd": "1080p HD available on watch page",
+                    "upload_checks": "No issues found at publication; later claims remain possible",
+                    "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+                    "scope": "Published exact approved video04; no new game build or reviewer package delivery"
+                  }
+                ]
+              },
+              "course_delivery": {
+                "status": "local_private_report_download_bundle_verified",
+                "date": "2026-10-10",
+                "authorization": "User selects local SFTP; permits instructor/TA private compiled-game review; uses existing team account/key without new user; latest request adds the accepted two-page report to the download-script directory, ZIPs that directory and authorizes matching source/docs Git commit/push; owner uploads to private course platform",
+                "existing_team_identity_reused": true,
+                "new_user_or_key": false,
+                "server_or_permission_change": false,
+                "account_scope": "Existing team shared account retains broader resource access and CRUD; not read-only or single-package isolation",
+                "game_bytes": 8476572643,
+                "game_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+                "validation": "Earlier full-game authenticated SFTP streaming read matches SHA256; current five-file helper real small README resume/hash/Unicode-spaces transfer passes, wrong host key rejects, temporary files cleaned, original key/guards exact",
+                "network_scope": "Same-machine authenticated loopback and public-forwarded endpoint; not independent external-machine validation",
+                "pending": "Owner private course-platform delivery and independent reviewer download",
+                "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+                "video_url": "https://youtu.be/SktbFHNYP54",
+                "historical_access_zip": {
+                  "role": "Retired access ZIP; historical private evidence only",
+                  "path": "tmp/g1-course-links-publication-20261010/access-directory-before-slimming/CS549-G1-SFTP-Access-20261010.zip",
+                  "bytes": 6964,
+                  "sha256": "e8d9bafcb2f4c8054b0ad5cacc693af6b616cb393a71fb2226e149b91b3c2921",
+                  "previous_delivery_path": "Assets/LocalShared/Deliverables/Assignment3/CS549-G1-SFTP-Access-20261010.zip"
+                },
+                "access_directory": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010",
+                "access_files": [
+                  "CONNECTION.json",
+                  "DOWNLOAD_GAME.cmd",
+                  "DOWNLOAD_GAME.ps1",
+                  "Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+                  "README.md",
+                  "cs549_sftp_ed25519"
+                ],
+                "access_total_bytes": 90694,
+                "compressed_delivery": true,
+                "delivery_zip": {
+                  "path": "Assets/LocalShared/Deliverables/Assignment3/CS549-Assignment3-20261010.zip",
+                  "size_bytes": 82038,
+                  "sha256": "1171bcb68dc21cd4beb668e7b19ed8ba074ac69691ae77fdd6830c6e7cbc9ca9",
+                  "file_count": 6,
+                  "verification": "Full member size/SHA readback, CRC, embedded PDF two pages; 50 protected hashes unchanged; seven private paths ignored by Git"
+                },
+                "report": {
+                  "status": "selected_previous_two_page_report_by_user",
+                  "path": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+                  "original_path": "output/pdf/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+                  "sha256": "6379243d8e003906362972533927f9f503971513836fb0556f191d4679cd8f6f",
+                  "size_bytes": 81345,
+                  "pages": 2,
+                  "content_changed_for_bundling": false
+                },
+                "bundle_record": "Docs/Development/ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md"
+              },
+              "stable_local_entry": "PLAY_CURRENT_G1.cmd",
+              "human_review_scope": "User reports no problems with latest trial; no new quantified FPS/contact or external-machine evidence supplied",
+              "checkpoint_rule": "Original registered German1/2/3 all dead: G1 complete and checkpoint unlocked. No far-bank/occupation/squad/posture/movement/safe-seconds gate. Circle entry and explicit confirmation retained.",
+              "speed_preset_m_s": {
+                "walk": 2.2,
+                "run": 4.5,
+                "slow": 0.65
+              },
+              "fresh_ammo": {
+                "loaded": 8,
+                "reserve": 10,
+                "total": 18
+              },
+              "verified_runs": {
+                "menu_v1": {
+                  "status": "pass_menu_input",
+                  "checks": 37,
+                  "result_sha256": "9838c61e49a6b7a6651d7a0756014fae86e862b0795bb8b34a5d1e905d5a4d8a"
+                },
+                "clearance_v2": {
+                  "status": "pass_enemy_clear_checkpoint",
+                  "checks": 26,
+                  "result_sha256": "8bd8617fda1d5b5a159725b73492fbce1e731f7ffc5654c5ba4654c3cc197c6a"
+                },
+                "restore_v2": {
+                  "status": "pass_fresh_process_restore",
+                  "checks": 31,
+                  "result_sha256": "7bc9f375b86499b6a7a105bbd31860c0c1edfe2c748a5a82fa589c5ceaaa0ed2"
+                },
+                "legacy_v1": {
+                  "status": "pass_fresh_process_restore",
+                  "checks": 31,
+                  "result_sha256": "1f6ce155840fd6ebe8e00ac712699c20cd3a8b1b8e395c397e7b060aeb190fb4"
+                }
+              },
+              "publication_status": "Local baseline adopted; no new Git/SFTP publication in this task",
+              "delivery_revision_scope": {
+                "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+                "source_files": 42,
+                "note": "Existing SFTP course download, approved demo and second-machine attestation belong to the earlier audioV2 revision, not the new52-file baseline"
+              }
+            }
+          },
+          "approved_demo_video": {
+            "status": "pass_human_review",
+            "date": "2026-10-10",
+            "recorded_at": "2026-10-10T14:27:30.881604+00:00",
+            "authorization": "User: 视频没问题，就保留这个一个完整视频，其他录制的可以删除",
+            "sha256": "8048195262f6dd45cc583985b1297227065bb9b4b2454d16763037564d073be0",
+            "scope": "Final video04 approved; later explicit user request authorizes YouTube publication. Does not approve rejected report or course submission",
+            "path": "Assets/LocalShared/Deliverables/Assignment3/DemoDraft04_20261010/Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+            "duration_seconds": 158.23333333333332,
+            "public_url": "https://youtu.be/SktbFHNYP54",
+            "publication": {
+              "status": "user_published_link_verified_watch_page_and_studio",
+              "verified_at": "2026-10-10T15:23:40.787156+00:00",
+              "url": "https://youtu.be/SktbFHNYP54",
+              "watch_url": "https://www.youtube.com/watch?v=SktbFHNYP54",
+              "video_id": "SktbFHNYP54",
+              "title": "Paris Street Combat | CS549 Assignment 3 | MVP Demo",
+              "channel": "yupu Guo",
+              "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+              "visibility": "Public",
+              "hd": "Auto (1080p HD) on watch player; High Definition complete in Studio",
+              "watch_page_duration": "2:38",
+              "studio_duration_display": "2:39 (rounding differs from watch player)",
+              "studio_source_filename": "Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+              "ai_use_disclosed": true,
+              "description_checked": "Team names, four pillars, squad/combat, save/load, death/restart, live counters, English captions/AI narration, normal speed/input assistance/separate cuts and licensed assets recorded",
+              "visible_samples": [
+                "Opening with live performance panel/minimap",
+                "Health 0 / PLAYER LOST / F6 actual restart interval",
+                "Fresh Ready with 100 health / 2+16 ammo / 2 Allies / 3 guards"
+              ],
+              "caption_note": "YouTube English auto-generated CC duplicates embedded English subtitles when enabled; viewer can turn CC off",
+              "source_identity_scope": "Studio filename, duration and sampled frames consistent with approved video04; no remote source-file checksum obtained",
+              "review_scope": "Read-only signed-in watch/Studio check; no whole-video new acoustic review or independent anonymous session",
+              "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md"
+            },
+            "previous_publications": [
+              {
+                "status": "published_verified_watch_page",
+                "verified_at": "2026-10-10T14:43:11Z",
+                "channel": "yupu Guo",
+                "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+                "visibility": "Unlisted",
+                "hd": "1080p HD available on watch page",
+                "upload_checks": "No issues found at publication; later claims remain possible",
+                "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+                "scope": "Published exact approved video04; no new game build or reviewer package delivery"
+              }
+            ]
+          },
+          "course_delivery": {
+            "status": "local_private_report_download_bundle_verified",
+            "date": "2026-10-10",
+            "authorization": "User selects local SFTP; permits instructor/TA private compiled-game review; uses existing team account/key without new user; latest request adds the accepted two-page report to the download-script directory, ZIPs that directory and authorizes matching source/docs Git commit/push; owner uploads to private course platform",
+            "existing_team_identity_reused": true,
+            "new_user_or_key": false,
+            "server_or_permission_change": false,
+            "account_scope": "Existing team shared account retains broader resource access and CRUD; not read-only or single-package isolation",
+            "game_bytes": 8476572643,
+            "game_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+            "validation": "Earlier full-game authenticated SFTP streaming read matches SHA256; current five-file helper real small README resume/hash/Unicode-spaces transfer passes, wrong host key rejects, temporary files cleaned, original key/guards exact",
+            "network_scope": "Same-machine authenticated loopback and public-forwarded endpoint; not independent external-machine validation",
+            "pending": "Owner private course-platform delivery and independent reviewer download",
+            "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+            "video_url": "https://youtu.be/SktbFHNYP54",
+            "historical_access_zip": {
+              "role": "Retired access ZIP; historical private evidence only",
+              "path": "tmp/g1-course-links-publication-20261010/access-directory-before-slimming/CS549-G1-SFTP-Access-20261010.zip",
+              "bytes": 6964,
+              "sha256": "e8d9bafcb2f4c8054b0ad5cacc693af6b616cb393a71fb2226e149b91b3c2921",
+              "previous_delivery_path": "Assets/LocalShared/Deliverables/Assignment3/CS549-G1-SFTP-Access-20261010.zip"
+            },
+            "access_directory": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010",
+            "access_files": [
+              "CONNECTION.json",
+              "DOWNLOAD_GAME.cmd",
+              "DOWNLOAD_GAME.ps1",
+              "Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+              "README.md",
+              "cs549_sftp_ed25519"
+            ],
+            "access_total_bytes": 90694,
+            "compressed_delivery": true,
+            "delivery_zip": {
+              "path": "Assets/LocalShared/Deliverables/Assignment3/CS549-Assignment3-20261010.zip",
+              "size_bytes": 82038,
+              "sha256": "1171bcb68dc21cd4beb668e7b19ed8ba074ac69691ae77fdd6830c6e7cbc9ca9",
+              "file_count": 6,
+              "verification": "Full member size/SHA readback, CRC, embedded PDF two pages; 50 protected hashes unchanged; seven private paths ignored by Git"
+            },
+            "report": {
+              "status": "selected_previous_two_page_report_by_user",
+              "path": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+              "original_path": "output/pdf/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+              "sha256": "6379243d8e003906362972533927f9f503971513836fb0556f191d4679cd8f6f",
+              "size_bytes": 81345,
+              "pages": 2,
+              "content_changed_for_bundling": false
+            },
+            "bundle_record": "Docs/Development/ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md"
+          },
+          "stable_local_entry": "PLAY_CURRENT_G1.cmd",
+          "human_review_scope": "Logic manually accepted; sleeve visual issue remains. No new quantified contact/FPS/large-NPC/Editor/second-machine/course acceptance.",
+          "checkpoint_rule": "Original registered German1/2/3 all dead: G1 complete and checkpoint unlocked. No far-bank/occupation/squad/posture/movement/safe-seconds gate. Circle entry and explicit confirmation retained.",
+          "speed_preset_m_s": {
+            "walk": 2.2,
+            "run": 4.5,
+            "slow": 0.65
+          },
+          "fresh_ammo": {
+            "loaded": 8,
+            "reserve": 10,
+            "total": 18
+          },
+          "verified_runs": {
+            "wheel": {
+              "status": "pass_native_wheel",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/wheel_equipv4/RESULT.json",
+              "result_sha256": "f7b6127dcffc110057c6bee3818b6eaf978ae26e3d42c540f3bc5cfa609ee0da",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "throw": {
+              "status": "pass_native_throw",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/throw_equipv4/RESULT.json",
+              "result_sha256": "31d2d3076a07133236b2df800eb2229dfc73361bb7e1b790f77710bd6ad9b30d",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "smoke": {
+              "status": "pass_native_smoke",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/smoke_equipv4/RESULT.json",
+              "result_sha256": "bfbb192c1327e0fc157a07f8c09c2aa38e5bbff9f8a4853e2f6a1778dd6a4ba7",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "p1": {
+              "status": "pass_p1_ammo_radar_inventory",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/p1_equipv4/RESULT.json",
+              "result_sha256": "e2025c25ab370d69eaeca856dcb45b6bbac4cf7dab988143a5cfb7653a8c927f",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "enemy_clear": {
+              "status": "pass_enemy_clear_checkpoint",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/enemy_clear_equipv4/RESULT.json",
+              "result_sha256": "f11e3ff3ff406d015937b012110325c825fc6d6d843392fd68e6ee1cb707a5ac",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "interactions": {
+              "status": "pass_native_interactions",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/interactions_equipv4/RESULT.json",
+              "result_sha256": "09b38f65904a5b88ac482c8e053c6baef2b9d6d55c77bcd927a79e10e0151fe9",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "save_equipment": {
+              "status": "pass_native_save_equipment",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/save_equipment_equipv4/RESULT.json",
+              "result_sha256": "2e1476853b6100781b8e900af4f24547651ce96f6fc6990f098a5b6e532b5a88",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "restore_equipment": {
+              "status": "pass_native_restore_equipment",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/restore_equipment_equipv4/RESULT.json",
+              "result_sha256": "cc6a3e1433fe107da0c56d21ab2ce1e9a3f228ef5115fd47fc3d81b0e915509b",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "restore_legacy": {
+              "status": "pass_native_restore_legacy",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/restore_legacy_equipv4/RESULT.json",
+              "result_sha256": "1dac05375637670ca41c2fc789877f42eee130d6b39f1ac95bd4f08c997f7e97",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "performance": {
+              "status": "pass_native_performance",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/performance_equipv4/RESULT.json",
+              "result_sha256": "82059b6d982b7e38724ad8c45e9857fb98ff3035c3c52a6ceb0334dc4cbf6195",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "ui_equipment_pause": {
+              "status": "pass_ui_equipment_pause",
+              "result": "tmp/g1-combat-ui-20261011/checks/ui_equipment_pause_equipv4/RESULT.json",
+              "result_sha256": "79ddf42438815b52b0a7f692205c61106588d6777d6d9f728003b859a4b2984d",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "ui_pages": {
+              "status": "pass_ui_pages",
+              "result": "tmp/g1-combat-ui-20261011/checks/ui_pages_equipv4/RESULT.json",
+              "result_sha256": "72d3d9a76d183ba8854193faad1122c1c1d31a3351de680a84834c68db72b30f",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "ui_pause": {
+              "status": "pass_ui_pause",
+              "result": "tmp/g1-combat-ui-20261011/checks/ui_pause_equipv4/RESULT.json",
+              "result_sha256": "0e5ff8dc1ee13618c0283548cba24e5db0f1869f85c862f90c653c8237cbe44a",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "ui_confirm": {
+              "status": "pass_ui_confirm",
+              "result": "tmp/g1-combat-ui-20261011/checks/ui_confirm_equipv4/RESULT.json",
+              "result_sha256": "2acd2412a83e8ad83648e6bdeb09e78d970f069a49917c20582c3c16837ed3e0",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            "death_frag": {
+              "status": "pass_player_death_frag",
+              "result": "tmp/g1-player-death-20261011/checks/frag_equipv4/RESULT.json",
+              "result_sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            }
+          },
+          "publication_status": "Latest private SFTP bytes verified; matching Git commit/push pending",
+          "delivery_revision_scope": {
+            "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+            "source_files": 42,
+            "note": "Existing SFTP course download, approved demo and second-machine attestation belong to the earlier audioV2 revision, not the new52-file baseline"
+          },
+          "selected_review": "Docs/Development/CURRENT_EQUIPMENT_INPUT_REVIEW.json",
+          "accepted_features": [
+            "Frag/smoke wheel selection, hold/release/cancel, available-only inventory cycle",
+            "Visible original frag/smoke exteriors and compatible native throw pose",
+            "Ground-contact mine explosion and nearby held-E disarm",
+            "Finite ammunition supplies",
+            "Field-manual help/mission/player-squad and real pause",
+            "All-player third-person collapse before restart menu",
+            "Enemy-clear-only checkpoint unlock, circle/explicit E and original durable validation"
+          ],
+          "checks": [
+            {
+              "mode": "wheel",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/wheel_equipv4/RESULT.json",
+              "status": "pass_native_wheel",
+              "sha256": "f7b6127dcffc110057c6bee3818b6eaf978ae26e3d42c540f3bc5cfa609ee0da",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "throw",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/throw_equipv4/RESULT.json",
+              "status": "pass_native_throw",
+              "sha256": "31d2d3076a07133236b2df800eb2229dfc73361bb7e1b790f77710bd6ad9b30d",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "smoke",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/smoke_equipv4/RESULT.json",
+              "status": "pass_native_smoke",
+              "sha256": "bfbb192c1327e0fc157a07f8c09c2aa38e5bbff9f8a4853e2f6a1778dd6a4ba7",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "p1",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/p1_equipv4/RESULT.json",
+              "status": "pass_p1_ammo_radar_inventory",
+              "sha256": "e2025c25ab370d69eaeca856dcb45b6bbac4cf7dab988143a5cfb7653a8c927f",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "enemy_clear",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/enemy_clear_equipv4/RESULT.json",
+              "status": "pass_enemy_clear_checkpoint",
+              "sha256": "f11e3ff3ff406d015937b012110325c825fc6d6d843392fd68e6ee1cb707a5ac",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "interactions",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/interactions_equipv4/RESULT.json",
+              "status": "pass_native_interactions",
+              "sha256": "09b38f65904a5b88ac482c8e053c6baef2b9d6d55c77bcd927a79e10e0151fe9",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "save_equipment",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/save_equipment_equipv4/RESULT.json",
+              "status": "pass_native_save_equipment",
+              "sha256": "2e1476853b6100781b8e900af4f24547651ce96f6fc6990f098a5b6e532b5a88",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "restore_equipment",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/restore_equipment_equipv4/RESULT.json",
+              "status": "pass_native_restore_equipment",
+              "sha256": "cc6a3e1433fe107da0c56d21ab2ce1e9a3f228ef5115fd47fc3d81b0e915509b",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "restore_legacy",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/restore_legacy_equipv4/RESULT.json",
+              "status": "pass_native_restore_legacy",
+              "sha256": "1dac05375637670ca41c2fc789877f42eee130d6b39f1ac95bd4f08c997f7e97",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "performance",
+              "result": "tmp/g1-tactical-equipment-20261010/checks/performance_equipv4/RESULT.json",
+              "status": "pass_native_performance",
+              "sha256": "82059b6d982b7e38724ad8c45e9857fb98ff3035c3c52a6ceb0334dc4cbf6195",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "ui_equipment_pause",
+              "result": "tmp/g1-combat-ui-20261011/checks/ui_equipment_pause_equipv4/RESULT.json",
+              "status": "pass_ui_equipment_pause",
+              "sha256": "79ddf42438815b52b0a7f692205c61106588d6777d6d9f728003b859a4b2984d",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "ui_pages",
+              "result": "tmp/g1-combat-ui-20261011/checks/ui_pages_equipv4/RESULT.json",
+              "status": "pass_ui_pages",
+              "sha256": "72d3d9a76d183ba8854193faad1122c1c1d31a3351de680a84834c68db72b30f",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "ui_pause",
+              "result": "tmp/g1-combat-ui-20261011/checks/ui_pause_equipv4/RESULT.json",
+              "status": "pass_ui_pause",
+              "sha256": "0e5ff8dc1ee13618c0283548cba24e5db0f1869f85c862f90c653c8237cbe44a",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "ui_confirm",
+              "result": "tmp/g1-combat-ui-20261011/checks/ui_confirm_equipv4/RESULT.json",
+              "status": "pass_ui_confirm",
+              "sha256": "2acd2412a83e8ad83648e6bdeb09e78d970f069a49917c20582c3c16837ed3e0",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            },
+            {
+              "mode": "death_frag",
+              "result": "tmp/g1-player-death-20261011/checks/frag_equipv4/RESULT.json",
+              "status": "pass_player_death_frag",
+              "sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+              "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+            }
+          ],
+          "sftp_manifest": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
+          "sftp_zip_sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+          "runtime_resource_manifest": "Assets/Sync/manifests/paris-g1-gameplay-runtime-resources.json",
+          "course_package_retained": {
+            "download": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+            "manifest": "Assets/Sync/manifests/paris-g1-course-review-package.json",
+            "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec"
+          }
+        }
+      },
+      "approved_demo_video": {
+        "status": "pass_human_review",
+        "date": "2026-10-10",
+        "recorded_at": "2026-10-10T14:27:30.881604+00:00",
+        "authorization": "User: 视频没问题，就保留这个一个完整视频，其他录制的可以删除",
+        "sha256": "8048195262f6dd45cc583985b1297227065bb9b4b2454d16763037564d073be0",
+        "scope": "Final video04 approved; later explicit user request authorizes YouTube publication. Does not approve rejected report or course submission",
+        "path": "Assets/LocalShared/Deliverables/Assignment3/DemoDraft04_20261010/Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+        "duration_seconds": 158.23333333333332,
+        "public_url": "https://youtu.be/SktbFHNYP54",
+        "publication": {
+          "status": "user_published_link_verified_watch_page_and_studio",
+          "verified_at": "2026-10-10T15:23:40.787156+00:00",
+          "url": "https://youtu.be/SktbFHNYP54",
+          "watch_url": "https://www.youtube.com/watch?v=SktbFHNYP54",
+          "video_id": "SktbFHNYP54",
+          "title": "Paris Street Combat | CS549 Assignment 3 | MVP Demo",
+          "channel": "yupu Guo",
+          "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+          "visibility": "Public",
+          "hd": "Auto (1080p HD) on watch player; High Definition complete in Studio",
+          "watch_page_duration": "2:38",
+          "studio_duration_display": "2:39 (rounding differs from watch player)",
+          "studio_source_filename": "Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+          "ai_use_disclosed": true,
+          "description_checked": "Team names, four pillars, squad/combat, save/load, death/restart, live counters, English captions/AI narration, normal speed/input assistance/separate cuts and licensed assets recorded",
+          "visible_samples": [
+            "Opening with live performance panel/minimap",
+            "Health 0 / PLAYER LOST / F6 actual restart interval",
+            "Fresh Ready with 100 health / 2+16 ammo / 2 Allies / 3 guards"
+          ],
+          "caption_note": "YouTube English auto-generated CC duplicates embedded English subtitles when enabled; viewer can turn CC off",
+          "source_identity_scope": "Studio filename, duration and sampled frames consistent with approved video04; no remote source-file checksum obtained",
+          "review_scope": "Read-only signed-in watch/Studio check; no whole-video new acoustic review or independent anonymous session",
+          "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md"
+        },
+        "previous_publications": [
+          {
+            "status": "published_verified_watch_page",
+            "verified_at": "2026-10-10T14:43:11Z",
+            "channel": "yupu Guo",
+            "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+            "visibility": "Unlisted",
+            "hd": "1080p HD available on watch page",
+            "upload_checks": "No issues found at publication; later claims remain possible",
+            "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+            "scope": "Published exact approved video04; no new game build or reviewer package delivery"
+          }
+        ]
+      },
+      "course_delivery": {
+        "status": "local_private_report_download_bundle_verified",
+        "date": "2026-10-10",
+        "authorization": "User selects local SFTP; permits instructor/TA private compiled-game review; uses existing team account/key without new user; latest request adds the accepted two-page report to the download-script directory, ZIPs that directory and authorizes matching source/docs Git commit/push; owner uploads to private course platform",
+        "existing_team_identity_reused": true,
+        "new_user_or_key": false,
+        "server_or_permission_change": false,
+        "account_scope": "Existing team shared account retains broader resource access and CRUD; not read-only or single-package isolation",
+        "game_bytes": 8476572643,
+        "game_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+        "validation": "Earlier full-game authenticated SFTP streaming read matches SHA256; current five-file helper real small README resume/hash/Unicode-spaces transfer passes, wrong host key rejects, temporary files cleaned, original key/guards exact",
+        "network_scope": "Same-machine authenticated loopback and public-forwarded endpoint; not independent external-machine validation",
+        "pending": "Owner private course-platform delivery and independent reviewer download",
+        "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+        "video_url": "https://youtu.be/SktbFHNYP54",
+        "historical_access_zip": {
+          "role": "Retired access ZIP; historical private evidence only",
+          "path": "tmp/g1-course-links-publication-20261010/access-directory-before-slimming/CS549-G1-SFTP-Access-20261010.zip",
+          "bytes": 6964,
+          "sha256": "e8d9bafcb2f4c8054b0ad5cacc693af6b616cb393a71fb2226e149b91b3c2921",
+          "previous_delivery_path": "Assets/LocalShared/Deliverables/Assignment3/CS549-G1-SFTP-Access-20261010.zip"
+        },
+        "access_directory": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010",
+        "access_files": [
+          "CONNECTION.json",
+          "DOWNLOAD_GAME.cmd",
+          "DOWNLOAD_GAME.ps1",
+          "Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+          "README.md",
+          "cs549_sftp_ed25519"
+        ],
+        "access_total_bytes": 90694,
+        "compressed_delivery": true,
+        "delivery_zip": {
+          "path": "Assets/LocalShared/Deliverables/Assignment3/CS549-Assignment3-20261010.zip",
+          "size_bytes": 82038,
+          "sha256": "1171bcb68dc21cd4beb668e7b19ed8ba074ac69691ae77fdd6830c6e7cbc9ca9",
+          "file_count": 6,
+          "verification": "Full member size/SHA readback, CRC, embedded PDF two pages; 50 protected hashes unchanged; seven private paths ignored by Git"
+        },
+        "report": {
+          "status": "selected_previous_two_page_report_by_user",
+          "path": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+          "original_path": "output/pdf/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+          "sha256": "6379243d8e003906362972533927f9f503971513836fb0556f191d4679cd8f6f",
+          "size_bytes": 81345,
+          "pages": 2,
+          "content_changed_for_bundling": false
+        },
+        "bundle_record": "Docs/Development/ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md"
+      },
+      "stable_local_entry": "PLAY_CURRENT_G1.cmd",
+      "human_review_scope": "Reviewed sleeve/gameplay candidate accepted; prior quantitative full garment/contact/locomotion/stress/PIE/second-machine limits remain",
+      "checkpoint_rule": "Original registered German1/2/3 all dead: G1 complete and checkpoint unlocked. No far-bank/occupation/squad/posture/movement/safe-seconds gate. Circle entry and explicit confirmation retained.",
+      "speed_preset_m_s": {
+        "walk": 2.2,
+        "run": 4.5,
+        "slow": 0.65
+      },
+      "fresh_ammo": {
+        "loaded": 8,
+        "reserve": 10,
+        "total": 18
+      },
+      "verified_runs": {
+        "sleeve_motion": {
+          "status": "pass_native_sleeve_motion",
+          "result": "tmp/g1-sleeve-20261012/checks/motion_v12/RESULT.json",
+          "result_sha256": "a662d15f9814d183d1edae5d32d082dfe3568c5eaa59469f0ac1d4ced5b4024a",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        },
+        "sleeve": {
+          "status": "pass_native_sleeve",
+          "result": "tmp/g1-sleeve-20261012/checks/visual_v12/RESULT.json",
+          "result_sha256": "546911a8c7befa9b888a31847741cb6e88a9c8fbc7f69754c4b7108b88f47743",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        },
+        "wheel": {
+          "status": "pass_native_wheel",
+          "result": "tmp/g1-sleeve-20261012/checks/wheel_v12/RESULT.json",
+          "result_sha256": "fe2e5263cdea45a5b947e527b3f1bdc7dbae8724742fbb7c42916108da342bed",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        },
+        "p1": {
+          "status": "pass_p1_ammo_radar_inventory",
+          "result": "tmp/g1-sleeve-20261012/checks/p1_v12/RESULT.json",
+          "result_sha256": "355ea2a7add8588ff7af296486ad82770f5f8e06e58a156cec731c2ecd328a6c",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        },
+        "enemy_clear": {
+          "status": "pass_enemy_clear_checkpoint",
+          "result": "tmp/g1-sleeve-20261012/checks/enemy_clear_v12/RESULT.json",
+          "result_sha256": "d5d723b25534f24cae593581aa43a689c5ebeaf9397a02c2e979c2ecce4fe046",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        },
+        "save_equipment": {
+          "status": "pass_native_save_equipment",
+          "result": "tmp/g1-sleeve-20261012/checks/save_v12/RESULT.json",
+          "result_sha256": "7528700152a8a019ddda9ba22f71b7b43d240f08313d56abe61e8c6da4f2853b",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        },
+        "restore_equipment": {
+          "status": "pass_native_restore_equipment",
+          "result": "tmp/g1-sleeve-20261012/checks/restore_v12/RESULT.json",
+          "result_sha256": "b9d86a9133409f7908eaa2519ce30903ff79e7bcdd2e8766db0a2a3645aeacf2",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        },
+        "ui_equipment_pause": {
+          "status": "pass_ui_equipment_pause",
+          "result": "tmp/g1-sleeve-20261012/checks/pause_v12/RESULT.json",
+          "result_sha256": "79ddf42438815b52b0a7f692205c61106588d6777d6d9f728003b859a4b2984d",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        },
+        "death_frag": {
+          "status": "pass_player_death_frag",
+          "result": "tmp/g1-sleeve-20261012/checks/death_v12/RESULT.json",
+          "result_sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5"
+        }
+      },
+      "publication_status": "Local78 adopted; prior published76 and independent teacher audioV2 remain unchanged. No Git/SFTP/course upload in this task",
+      "delivery_revision_scope": {
+        "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+        "source_files": 42,
+        "note": "Existing SFTP course download, approved demo and second-machine attestation belong to the earlier audioV2 revision, not the new52-file baseline"
+      },
+      "selected_review": "Docs/Development/CURRENT_SLEEVE_REVIEW.json",
+      "accepted_features": [
+        "Frag/smoke wheel selection, hold/release/cancel, available-only inventory cycle",
+        "Visible original frag/smoke exteriors and compatible native throw pose",
+        "Ground-contact mine explosion and nearby held-E disarm",
+        "Finite ammunition supplies",
+        "Field-manual help/mission/player-squad and real pause",
+        "All-player third-person collapse before restart menu",
+        "Enemy-clear-only checkpoint unlock, circle/explicit E and original durable validation",
+        "Human-approved first-person sleeve occlusion workspace repair"
+      ],
+      "checks": [
+        {
+          "mode": "sleeve_motion",
+          "status": "pass_native_sleeve_motion",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/motion_v12/RESULT.json",
+          "result_sha256": "a662d15f9814d183d1edae5d32d082dfe3568c5eaa59469f0ac1d4ced5b4024a",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "a662d15f9814d183d1edae5d32d082dfe3568c5eaa59469f0ac1d4ced5b4024a"
+        },
+        {
+          "mode": "sleeve",
+          "status": "pass_native_sleeve",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/visual_v12/RESULT.json",
+          "result_sha256": "546911a8c7befa9b888a31847741cb6e88a9c8fbc7f69754c4b7108b88f47743",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "546911a8c7befa9b888a31847741cb6e88a9c8fbc7f69754c4b7108b88f47743"
+        },
+        {
+          "mode": "wheel",
+          "status": "pass_native_wheel",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/wheel_v12/RESULT.json",
+          "result_sha256": "fe2e5263cdea45a5b947e527b3f1bdc7dbae8724742fbb7c42916108da342bed",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "fe2e5263cdea45a5b947e527b3f1bdc7dbae8724742fbb7c42916108da342bed"
+        },
+        {
+          "mode": "p1",
+          "status": "pass_p1_ammo_radar_inventory",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/p1_v12/RESULT.json",
+          "result_sha256": "355ea2a7add8588ff7af296486ad82770f5f8e06e58a156cec731c2ecd328a6c",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "355ea2a7add8588ff7af296486ad82770f5f8e06e58a156cec731c2ecd328a6c"
+        },
+        {
+          "mode": "enemy_clear",
+          "status": "pass_enemy_clear_checkpoint",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/enemy_clear_v12/RESULT.json",
+          "result_sha256": "d5d723b25534f24cae593581aa43a689c5ebeaf9397a02c2e979c2ecce4fe046",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "d5d723b25534f24cae593581aa43a689c5ebeaf9397a02c2e979c2ecce4fe046"
+        },
+        {
+          "mode": "save_equipment",
+          "status": "pass_native_save_equipment",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/save_v12/RESULT.json",
+          "result_sha256": "7528700152a8a019ddda9ba22f71b7b43d240f08313d56abe61e8c6da4f2853b",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "7528700152a8a019ddda9ba22f71b7b43d240f08313d56abe61e8c6da4f2853b"
+        },
+        {
+          "mode": "restore_equipment",
+          "status": "pass_native_restore_equipment",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/restore_v12/RESULT.json",
+          "result_sha256": "b9d86a9133409f7908eaa2519ce30903ff79e7bcdd2e8766db0a2a3645aeacf2",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "b9d86a9133409f7908eaa2519ce30903ff79e7bcdd2e8766db0a2a3645aeacf2"
+        },
+        {
+          "mode": "ui_equipment_pause",
+          "status": "pass_ui_equipment_pause",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/pause_v12/RESULT.json",
+          "result_sha256": "79ddf42438815b52b0a7f692205c61106588d6777d6d9f728003b859a4b2984d",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "79ddf42438815b52b0a7f692205c61106588d6777d6d9f728003b859a4b2984d"
+        },
+        {
+          "mode": "death_frag",
+          "status": "pass_player_death_frag",
+          "exit_code": 0,
+          "result": "tmp/g1-sleeve-20261012/checks/death_v12/RESULT.json",
+          "result_sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+          "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+          "sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92"
+        }
+      ],
+      "course_package_retained": {
+        "download": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+        "manifest": "Assets/Sync/manifests/paris-g1-course-review-package.json",
+        "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec"
+      },
+      "historical_second_machine_review": {
+        "status": "pass_human_attestation",
+        "date": "2026-10-10",
+        "reported_by": "Yupu Guo",
+        "scope": "A teammate's second computer runs the shared game and is playable",
+        "limitations": "No remotely observed file-hash audit, machine specs or source/Editor rebuild supplied; reviewer download access remains separate"
+      },
+      "user_dir": "G1Sleeve20261012",
+      "last_published_runtime": {
+        "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
+        "source_snapshot": "Unreal/Variants/G1GrenadeEquip20261011/Project",
+        "status": "historical published76 retained; not the newly selected local78",
+        "sftp_release": "paris-g1-playtest-20261011-gameplay-v1",
+        "sftp_download": "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip",
+        "sftp_manifest": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
+        "sftp_zip_sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+        "runtime_resource_manifest": "Assets/Sync/manifests/paris-g1-gameplay-runtime-resources.json"
+      },
+      "second_machine_review": {
+        "status": "unassessed_for_this78_revision",
+        "historical_scope": "Older attestation belongs to prior delivered gameplay revision"
+      },
+      "editor_build": "tmp/g1-sleeve-20261012/editor_build_v2/build-editor.json",
+      "editor_session": "tmp/g1-sleeve-20261012/editor_entry_v2/SESSION.json"
+    }
+  },
+  "approved_demo_video": {
+    "status": "pass_human_review",
+    "date": "2026-10-10",
+    "recorded_at": "2026-10-10T14:27:30.881604+00:00",
+    "authorization": "User: 视频没问题，就保留这个一个完整视频，其他录制的可以删除",
+    "sha256": "8048195262f6dd45cc583985b1297227065bb9b4b2454d16763037564d073be0",
+    "scope": "Final video04 approved; later explicit user request authorizes YouTube publication. Does not approve rejected report or course submission",
+    "path": "Assets/LocalShared/Deliverables/Assignment3/DemoDraft04_20261010/Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+    "duration_seconds": 158.23333333333332,
+    "public_url": "https://youtu.be/SktbFHNYP54",
+    "publication": {
+      "status": "user_published_link_verified_watch_page_and_studio",
+      "verified_at": "2026-10-10T15:23:40.787156+00:00",
+      "url": "https://youtu.be/SktbFHNYP54",
+      "watch_url": "https://www.youtube.com/watch?v=SktbFHNYP54",
+      "video_id": "SktbFHNYP54",
+      "title": "Paris Street Combat | CS549 Assignment 3 | MVP Demo",
+      "channel": "yupu Guo",
+      "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+      "visibility": "Public",
+      "hd": "Auto (1080p HD) on watch player; High Definition complete in Studio",
+      "watch_page_duration": "2:38",
+      "studio_duration_display": "2:39 (rounding differs from watch player)",
+      "studio_source_filename": "Paris_G1_MVP_Draft_04_Live_Performance.mp4",
+      "ai_use_disclosed": true,
+      "description_checked": "Team names, four pillars, squad/combat, save/load, death/restart, live counters, English captions/AI narration, normal speed/input assistance/separate cuts and licensed assets recorded",
+      "visible_samples": [
+        "Opening with live performance panel/minimap",
+        "Health 0 / PLAYER LOST / F6 actual restart interval",
+        "Fresh Ready with 100 health / 2+16 ammo / 2 Allies / 3 guards"
+      ],
+      "caption_note": "YouTube English auto-generated CC duplicates embedded English subtitles when enabled; viewer can turn CC off",
+      "source_identity_scope": "Studio filename, duration and sampled frames consistent with approved video04; no remote source-file checksum obtained",
+      "review_scope": "Read-only signed-in watch/Studio check; no whole-video new acoustic review or independent anonymous session",
+      "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md"
+    },
+    "previous_publications": [
+      {
+        "status": "published_verified_watch_page",
+        "verified_at": "2026-10-10T14:43:11Z",
+        "channel": "yupu Guo",
+        "channel_id": "UC5Q8fqD53TJ2WTcw4LMdR1A",
+        "visibility": "Unlisted",
+        "hd": "1080p HD available on watch page",
+        "upload_checks": "No issues found at publication; later claims remain possible",
+        "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+        "scope": "Published exact approved video04; no new game build or reviewer package delivery"
+      }
+    ]
+  },
+  "course_delivery": {
+    "status": "local_private_report_download_bundle_verified",
+    "date": "2026-10-10",
+    "authorization": "User selects local SFTP; permits instructor/TA private compiled-game review; uses existing team account/key without new user; latest request adds the accepted two-page report to the download-script directory, ZIPs that directory and authorizes matching source/docs Git commit/push; owner uploads to private course platform",
+    "existing_team_identity_reused": true,
+    "new_user_or_key": false,
+    "server_or_permission_change": false,
+    "account_scope": "Existing team shared account retains broader resource access and CRUD; not read-only or single-package isolation",
+    "game_bytes": 8476572643,
+    "game_sha256": "7a8c225ad66ea673e20d0259324c3b5fef25be25bb66fcdddb5344533bd26d7d",
+    "validation": "Earlier full-game authenticated SFTP streaming read matches SHA256; current five-file helper real small README resume/hash/Unicode-spaces transfer passes, wrong host key rejects, temporary files cleaned, original key/guards exact",
+    "network_scope": "Same-machine authenticated loopback and public-forwarded endpoint; not independent external-machine validation",
+    "pending": "Owner private course-platform delivery and independent reviewer download",
+    "record": "Docs/Development/G1_COURSE_LINKS_PUBLICATION_20261010_ZH.md",
+    "video_url": "https://youtu.be/SktbFHNYP54",
+    "historical_access_zip": {
+      "role": "Retired access ZIP; historical private evidence only",
+      "path": "tmp/g1-course-links-publication-20261010/access-directory-before-slimming/CS549-G1-SFTP-Access-20261010.zip",
+      "bytes": 6964,
+      "sha256": "e8d9bafcb2f4c8054b0ad5cacc693af6b616cb393a71fb2226e149b91b3c2921",
+      "previous_delivery_path": "Assets/LocalShared/Deliverables/Assignment3/CS549-G1-SFTP-Access-20261010.zip"
+    },
+    "access_directory": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010",
+    "access_files": [
+      "CONNECTION.json",
+      "DOWNLOAD_GAME.cmd",
+      "DOWNLOAD_GAME.ps1",
+      "Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+      "README.md",
+      "cs549_sftp_ed25519"
+    ],
+    "access_total_bytes": 90694,
+    "compressed_delivery": true,
+    "delivery_zip": {
+      "path": "Assets/LocalShared/Deliverables/Assignment3/CS549-Assignment3-20261010.zip",
+      "size_bytes": 82038,
+      "sha256": "1171bcb68dc21cd4beb668e7b19ed8ba074ac69691ae77fdd6830c6e7cbc9ca9",
+      "file_count": 6,
+      "verification": "Full member size/SHA readback, CRC, embedded PDF two pages; 50 protected hashes unchanged; seven private paths ignored by Git"
+    },
+    "report": {
+      "status": "selected_previous_two_page_report_by_user",
+      "path": "Assets/LocalShared/Deliverables/Assignment3/SFTPAccess_20261010/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+      "original_path": "output/pdf/Paris_Street_Combat_Assignment3_20261010_EN.pdf",
+      "sha256": "6379243d8e003906362972533927f9f503971513836fb0556f191d4679cd8f6f",
+      "size_bytes": 81345,
+      "pages": 2,
+      "content_changed_for_bundling": false
+    },
+    "bundle_record": "Docs/Development/ASSIGNMENT3_DELIVERY_BUNDLE_20261010.md"
+  },
+  "stable_local_entry": "PLAY_CURRENT_G1.cmd",
+  "human_review_scope": "Exact v8 candidate accepted by user; quantitative fine grasp/garment/all-motion/natural combat/stress/PIE/second-machine remain bounded.",
+  "checkpoint_rule": "Original registered German1/2/3 all dead: G1 complete and checkpoint unlocked. No far-bank/occupation/squad/posture/movement/safe-seconds gate. Circle entry and explicit confirmation retained.",
+  "speed_preset_m_s": {
+    "walk": 2.2,
+    "run": 4.5,
+    "slow": 0.65
+  },
+  "fresh_ammo": {
+    "loaded": 8,
+    "reserve": 10,
+    "total": 18
+  },
+  "verified_runs": {
+    "pose_v8": {
+      "identity": "pose_v8",
+      "status": "pass_native_pose",
+      "result": "tmp/g1-grenade-pose-20261013/checks/pose_v8/RESULT.json",
+      "result_sha256": "f3455173cebb00d556a81c683bed89d9554164b084a11b214f9041911386a787",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "pose_live_v8": {
+      "identity": "pose_live_v8",
+      "status": "pass_native_pose_live",
+      "result": "tmp/g1-grenade-pose-20261013/checks/pose_live_v8/RESULT.json",
+      "result_sha256": "428066b78fc95fc3e921423b4bd7cba62a45a99daaf79df6a4552bc241305e32",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "hands_v8": {
+      "identity": "hands_v8",
+      "status": "pass_native_grenade_hands",
+      "result": "tmp/g1-grenade-pose-20261013/checks/hands_v8/RESULT.json",
+      "result_sha256": "45e428b39d60607a36f062a5f6dfff4dab78e567524be60da5d72b680101f507",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "hands_live_v8": {
+      "identity": "hands_live_v8",
+      "status": "pass_native_grenade_hands",
+      "result": "tmp/g1-grenade-pose-20261013/checks/hands_live_v8/RESULT.json",
+      "result_sha256": "2373aff2d2964cd8fe25b042f22e52b91477f73cafe8270f15064dd4437461c5",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "wheel_v8": {
+      "identity": "wheel_v8",
+      "status": "pass_native_wheel",
+      "result": "tmp/g1-grenade-pose-20261013/checks/wheel_v8/RESULT.json",
+      "result_sha256": "64421df1ab57f7bab6962469a826d7edf8bb789178a931cae0250d6899f18f81",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "input_v8": {
+      "identity": "input_v8",
+      "status": "pass_native_traversal_input",
+      "result": "tmp/g1-grenade-pose-20261013/checks/input_v8/RESULT.json",
+      "result_sha256": "117825fa1d7dc7247286b54f819556c98761d91d7f3f15742075c75c1eeb94ec",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "safety_v8": {
+      "identity": "safety_v8",
+      "status": "pass_native_traversal_safety",
+      "result": "tmp/g1-grenade-pose-20261013/checks/safety_v8/RESULT.json",
+      "result_sha256": "4bbfcfe4afdff7530752782a91374fd0ff360058437ede45bdacb7a6818921ff",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "p1_v8": {
+      "identity": "p1_v8",
+      "status": "pass_p1_ammo_radar_inventory",
+      "result": "tmp/g1-grenade-pose-20261013/checks/p1_v8/RESULT.json",
+      "result_sha256": "b15498b50afade6fdb6620d9e10626747f59c44784f26b07423da4f13e593ef7",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "death_v8": {
+      "identity": "death_v8",
+      "status": "pass_player_death_frag",
+      "result": "tmp/g1-grenade-pose-20261013/checks/death_v8/RESULT.json",
+      "result_sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "save_v8": {
+      "identity": "save_v8",
+      "status": "pass_native_save_equipment",
+      "result": "tmp/g1-grenade-pose-20261013/checks/save_v8/RESULT.json",
+      "result_sha256": "b0dce632d6fdc0cac802eabead704eaf0fb5d6c029ce48a87ef1f9153041fc0a",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    "restore_v8": {
+      "identity": "restore_v8",
+      "status": "pass_native_restore_equipment",
+      "result": "tmp/g1-grenade-pose-20261013/checks/restore_v8/RESULT.json",
+      "result_sha256": "2a7e1f7a93ba8d94cd53b978b4493abaf86683b2cb08dfe98c33df2bee3e4d08",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    }
+  },
+  "publication_status": "Local86 adopted; existing remote76/teacher audioV2 remain their historical identities. No Git/SFTP/course publication.",
+  "delivery_revision_scope": {
+    "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec",
+    "source_files": 42,
+    "note": "Existing SFTP course download, approved demo and second-machine attestation belong to the earlier audioV2 revision, not the new52-file baseline"
+  },
+  "selected_review": "Docs/Development/CURRENT_GRENADE_HAND_REVIEW.json",
+  "accepted_features": [
+    "Frag/smoke wheel selection, hold/release/cancel, available-only inventory cycle",
+    "Visible original frag/smoke exteriors and compatible native throw pose",
+    "Ground-contact mine explosion and nearby held-E disarm",
+    "Finite ammunition supplies",
+    "Field-manual help/mission/player-squad and real pause",
+    "All-player third-person collapse before restart menu",
+    "Enemy-clear-only checkpoint unlock, circle/explicit E and original durable validation",
+    "Human-approved first-person sleeve occlusion workspace repair",
+    "Human-approved coherent grenade initial pose, native relative wrist and equipment transitions",
+    "Consistent left-hand frag/smoke held prop and release origin",
+    "Inherited tested traversal-input repair and original Jump fallback"
+  ],
+  "checks": [
+    {
+      "identity": "pose_v8",
+      "status": "pass_native_pose",
+      "result": "tmp/g1-grenade-pose-20261013/checks/pose_v8/RESULT.json",
+      "result_sha256": "f3455173cebb00d556a81c683bed89d9554164b084a11b214f9041911386a787",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "pose_live_v8",
+      "status": "pass_native_pose_live",
+      "result": "tmp/g1-grenade-pose-20261013/checks/pose_live_v8/RESULT.json",
+      "result_sha256": "428066b78fc95fc3e921423b4bd7cba62a45a99daaf79df6a4552bc241305e32",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "hands_v8",
+      "status": "pass_native_grenade_hands",
+      "result": "tmp/g1-grenade-pose-20261013/checks/hands_v8/RESULT.json",
+      "result_sha256": "45e428b39d60607a36f062a5f6dfff4dab78e567524be60da5d72b680101f507",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "hands_live_v8",
+      "status": "pass_native_grenade_hands",
+      "result": "tmp/g1-grenade-pose-20261013/checks/hands_live_v8/RESULT.json",
+      "result_sha256": "2373aff2d2964cd8fe25b042f22e52b91477f73cafe8270f15064dd4437461c5",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "wheel_v8",
+      "status": "pass_native_wheel",
+      "result": "tmp/g1-grenade-pose-20261013/checks/wheel_v8/RESULT.json",
+      "result_sha256": "64421df1ab57f7bab6962469a826d7edf8bb789178a931cae0250d6899f18f81",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "input_v8",
+      "status": "pass_native_traversal_input",
+      "result": "tmp/g1-grenade-pose-20261013/checks/input_v8/RESULT.json",
+      "result_sha256": "117825fa1d7dc7247286b54f819556c98761d91d7f3f15742075c75c1eeb94ec",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "safety_v8",
+      "status": "pass_native_traversal_safety",
+      "result": "tmp/g1-grenade-pose-20261013/checks/safety_v8/RESULT.json",
+      "result_sha256": "4bbfcfe4afdff7530752782a91374fd0ff360058437ede45bdacb7a6818921ff",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "p1_v8",
+      "status": "pass_p1_ammo_radar_inventory",
+      "result": "tmp/g1-grenade-pose-20261013/checks/p1_v8/RESULT.json",
+      "result_sha256": "b15498b50afade6fdb6620d9e10626747f59c44784f26b07423da4f13e593ef7",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "death_v8",
+      "status": "pass_player_death_frag",
+      "result": "tmp/g1-grenade-pose-20261013/checks/death_v8/RESULT.json",
+      "result_sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "save_v8",
+      "status": "pass_native_save_equipment",
+      "result": "tmp/g1-grenade-pose-20261013/checks/save_v8/RESULT.json",
+      "result_sha256": "b0dce632d6fdc0cac802eabead704eaf0fb5d6c029ce48a87ef1f9153041fc0a",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "restore_v8",
+      "status": "pass_native_restore_equipment",
+      "result": "tmp/g1-grenade-pose-20261013/checks/restore_v8/RESULT.json",
+      "result_sha256": "2a7e1f7a93ba8d94cd53b978b4493abaf86683b2cb08dfe98c33df2bee3e4d08",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    }
+  ],
+  "course_package_retained": {
+    "download": "/releases/paris-g1-playtest-20261009-audio-v2/Paris-G1-Audio-V2-20261009.zip",
+    "manifest": "Assets/Sync/manifests/paris-g1-course-review-package.json",
+    "game_sha256": "53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec"
+  },
+  "historical_second_machine_review": {
+    "status": "pass_human_attestation",
+    "date": "2026-10-10",
+    "reported_by": "Yupu Guo",
+    "scope": "A teammate's second computer runs the shared game and is playable",
+    "limitations": "No remotely observed file-hash audit, machine specs or source/Editor rebuild supplied; reviewer download access remains separate"
+  },
+  "user_dir": "G1GrenadePose20261013V8",
+  "last_published_runtime": {
+    "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
+    "source_snapshot": "Unreal/Variants/G1GrenadeEquip20261011/Project",
+    "status": "historical published76 retained; not the newly selected local78",
+    "sftp_release": "paris-g1-playtest-20261011-gameplay-v1",
+    "sftp_download": "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip",
+    "sftp_manifest": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
+    "sftp_zip_sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+    "runtime_resource_manifest": "Assets/Sync/manifests/paris-g1-gameplay-runtime-resources.json"
+  },
+  "second_machine_review": {
+    "status": "unassessed_for_this86_revision"
+  },
+  "revision": "build_v8",
+  "historical_editor_review": {
+    "source_files": 78,
+    "editor_build": "tmp/g1-sleeve-20261012/editor_build_v2/build-editor.json",
+    "editor_session": "tmp/g1-sleeve-20261012/editor_entry_v2/SESSION.json"
+  },
+  "editor": {
+    "status": "matching86_editor_build_required_before_entry",
+    "no_new_editor_or_pie_acceptance": true
+  }
+}

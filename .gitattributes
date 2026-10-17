@@ -84,3 +84,20 @@ Assets/Registry/ASSET_DIRECTORY.md whitespace=cr-at-eol,-blank-at-eof
 Docs/Development/CURRENT_EQUIPMENT_INPUT_REVIEW.json -text whitespace=cr-at-eol
 Docs/Development/CURRENT_EQUIPMENT_REVIEW.json -text whitespace=cr-at-eol
 Docs/Development/CURRENT_GRENADE_MODEL_REVIEW.json -text whitespace=cr-at-eol
+
+# Byte-exact tutorial1.0 source and verification metadata.
+Unreal/Variants/G1MedicalGuidanceMusic20261017/** -text whitespace=cr-at-eol,-blank-at-eof
+Assets/Sync/TUTORIAL_SOURCE_CONTRACT_20261017.json -text
+Docs/Development/TutorialReleaseV1/** -text
+Docs/Development/CURRENT_TUTORIAL_RELEASE.json -text
+Docs/Development/CURRENT_TUTORIAL_SOURCE_PENDING.json -text
+Docs/Development/CURRENT_MEDICAL_GUIDANCE_MUSIC_PLAYTEST_REVIEW.json -text
+
+# Preserve frozen tutorial metadata and archived public instructions.
+Assets/Sync/TUTORIAL_SOURCE_CONTRACT_20261017.json -text whitespace=cr-at-eol
+Docs/Development/TutorialReleaseV1/** -text whitespace=cr-at-eol
+Docs/Development/CURRENT_TUTORIAL_RELEASE.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_TUTORIAL_SOURCE_PENDING.json -text whitespace=cr-at-eol
+Docs/Development/CURRENT_MEDICAL_GUIDANCE_MUSIC_PLAYTEST_REVIEW.json -text whitespace=cr-at-eol
+Docs/Development/InstructionHistory/AGENTS_PUBLIC_PRE_TUTORIAL_V1_20261017.txt -text whitespace=cr-at-eol,-blank-at-eof
+Unreal/Variants/G1MedicalGuidanceMusic20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneTransitionProbe.inl whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol

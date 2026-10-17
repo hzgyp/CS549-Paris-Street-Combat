@@ -1,0 +1,223 @@
+{
+  "status": "formal_tutorial_v1_human_adopted",
+  "date": "2026-10-17",
+  "scope": "Latest combined tutorial with prominent bilingual medical guidance and contextual score; matching-Game scoped checks pass, human new in-game review pending.",
+  "source_project": "Unreal/Variants/G1MedicalGuidanceMusic20261017/Project",
+  "source_manifest": "Unreal/Variants/G1MedicalGuidanceMusic20261017/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "faa136ed3bbafa07e93253b3c6faefab6eb4380cc06e657ee9d3c67baa0a9c91",
+  "base_playable_selector": "Docs/Development/CURRENT_TUTORIAL_AUDIO_PLAYTEST_REVIEW.json",
+  "base_game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+  "inherited_localization": "tmp/g1-medical-audio-feedback-20261017/RuntimeUI/zh-Hans.json",
+  "implementation_result": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_RESULT_20261017.md",
+  "static_receipt": "tmp/g1-medical-guidance-music-playtest-20261017/SOURCE_DIFF_REVIEW.json",
+  "build_requested": true,
+  "runtime_verified": true,
+  "next_requested_build": "Use this latest combined source; preserve unfinished changes, reconcile both chats and build only when explicitly requested.",
+  "previous_pending_receipt": "tmp/g1-tutorial-soundscape-20261017/SOURCE_ONLY_RESULT.json",
+  "previous_implementation_result": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_RESULT_20261017.md",
+  "previous_pending_selector": "tmp/g1-medical-guidance-music-playtest-20261017/PENDING_BEFORE.json",
+  "source_files": 145,
+  "previous_built_game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+  "localization_sha256": "836170587327ea89d91fa8cd428b50aadb53283a51a86153a6706950a981a1cd",
+  "parent_source_project": "tmp/g1-medical-audio-feedback-20261017/candidate_v1/Project",
+  "parent_source_manifest_sha256": "5e854dbb42b8f79d5d03db4d53592690f3f5b22e19ee7a11ed1841ad52abd242",
+  "pending_other_chat": "Fresh action handoff: no unhanded delta,32 files exact; independent offline NPC candidates excluded.",
+  "source_reconciliation": "tmp/g1-medical-guidance-music-playtest-20261017/ACTION_RECONCILIATION.json",
+  "accepted_frag_review": "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
+  "required_native_sequences": "tmp/g1-crouch-transition-20261016/REQUIRED_NATIVE_SEQUENCES.json",
+  "included_source_revisions": [
+    {
+      "scope": "accepted smoke-thumb/shared tutorial parent",
+      "manifest_sha256": "e21f0ebd9f92cd2329aff393d442783dd18e23ad23ad44b7088e4a1a44584e3a"
+    },
+    {
+      "scope": "human-approved offline frag pose",
+      "manifest_sha256": "e991ea9379c4d4f1caabb2266532228e441d3eed8fc132cdaac67bbecf38dcec"
+    },
+    {
+      "scope": "tutorial HUD simplification and Chinese dictionary",
+      "manifest_sha256": "5fb16920860e12fa33c96aa8d936a01f6161cfa654b13fddee700f5238c26823"
+    },
+    {
+      "scope": "combined Ctrl/frag/HUD v1; explicit native-type include fixed in v2",
+      "manifest_sha256": "2771ba5e69c7605858dc9ffa3d7081b8e2d4e14fbc0af99ba5c35aa8b489bd0b"
+    },
+    {
+      "scope": "combined Ctrl/frag/HUD124 v2 parent",
+      "manifest_sha256": "2754324fcce4146954a07f17c25133874da1fa4773fea99836828e090bf22729"
+    },
+    {
+      "scope": "latest combined tutorial/FP-release parent",
+      "manifest_sha256": "5b6f2a21308bfc773b8f237e943c5fa710889573d2a2f22b7ab0b6bdf83beb1b"
+    },
+    {
+      "scope": "natural thumb helpers plus native polished corrective driver",
+      "manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046"
+    },
+    {
+      "scope": "source-only smoke settling/outlet/outward fade, no new Game",
+      "manifest_sha256": "ac2636c7aaecb6522a29bfa60ceabdb4060313d34b1666e3090b289d97442e6d"
+    },
+    {
+      "scope": "finite tutorial medicine, single training supply, independent FP/V medical action; source only",
+      "manifest_sha256": "3d6f2c1619b544cb48bbf644c3e11ad327934773600d79c982398f9e28cffd93"
+    },
+    {
+      "scope": "Requested integrated medical tutorial native/render/input/save review; final human acceptance pending",
+      "manifest_sha256": "3062e099ffba973ae72c14ea41e2fe1666c529228abaa4724959f5f3958d2075"
+    },
+    {
+      "scope": "Source-only named practice target and scene/edge guidance; runtime/render pending",
+      "manifest_sha256": "cd6c93b4dcd097f807d2ae70cf0a7d1ccc5153b91abb75d4a5e587e83e550793"
+    },
+    {
+      "scope": "Human withdrew marker approach; plain unrestricted shooting/throwing copy, no new spatial system",
+      "manifest_sha256": "a5f6541e1f694d0663f16a126c5d32d99f73d91b042f8f62812d9634918b7e53"
+    },
+    {
+      "scope": "Source-only complete tutorial copy/condition audit; concise shared hints, actual wait/interaction context, accepted gameplay unchanged",
+      "manifest_sha256": "8913058a0c06b55bae508feac1cb2268e0a5f5976d5fe56ed0792b53f405e8d5"
+    },
+    {
+      "scope": "Source-only ambience and two licensed Allied voices; English recordings with dynamic English/Simplified Chinese subtitles, no gameplay/save/native changes",
+      "manifest_sha256": "5d6c624fb4c15c1a138f95585e819f7aebc9c268725dfaa17d2f0fb1306c7910"
+    },
+    {
+      "scope": "Source-only Esc feedback, authored CC0 score, complete routed audio preferences and English/Simplified Chinese settings",
+      "manifest_sha256": "31994518f9829eafef4ab3d4b94e5fc7a875949c85b0426b861e7672e0b0f8b2"
+    },
+    {
+      "scope": "Requested combined audio tutorial matching build/runtime; AU001 signed queue/disk readback and bounded menu presentation/opt-in diagnostics",
+      "manifest_sha256": "341e91b9bba31747b3e605af94edddc7687032fd97d39c1849e771b5a49f934c"
+    },
+    {
+      "scope": "Unbuilt prominent medicine teaching and contextual score; existing gameplay/actions/saves exact",
+      "manifest_sha256": "5e854dbb42b8f79d5d03db4d53592690f3f5b22e19ee7a11ed1841ad52abd242"
+    }
+  ],
+  "source_revision": 12,
+  "native_manifest": "tmp/g1-medical-playtest-20261017/NATIVE_MANIFEST.json",
+  "historical_offline_frag_review": "tmp/g1-frag-grip-contact-20261016/HUMAN_OFFLINE_ACCEPTANCE.json",
+  "current_accepted_grip_selector": "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
+  "grip_asset_manifest": "Assets/Sync/manifests/paris-grenade-grips.json",
+  "feature_human_acceptance": {
+    "crouch_transition": {
+      "status": "human_accepted",
+      "date": "2026-10-17",
+      "quote": "蹲下起身这个看过了，过程没问题，直接验收即可",
+      "scope": "Visible Ctrl descent/rise process and observed transition continuity in current125-source trial",
+      "selector": "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+      "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+      "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046"
+    },
+    "medical_tutorial": {
+      "status": "human_accepted",
+      "date": "2026-10-17",
+      "source": "Human message in 地图探索与玩法设计",
+      "quote": "医疗包建模，回血动作，掉落拾取，均通过人工验收。",
+      "accepted_scopes": [
+        "medical_pouch_model",
+        "healing_bandage_action",
+        "drop_pickup"
+      ],
+      "source_manifest_sha256": "3062e099ffba973ae72c14ea41e2fe1666c529228abaa4724959f5f3958d2075",
+      "game_sha256": "fb84f1e5be059247f77901a20ecbf724a630bc2b3a587050d6cc6a7e50666ba2",
+      "playable_entry": "tmp/Playtest-G1-Medical-Tutorial-20261017/PLAY_MEDICAL_TUTORIAL.cmd",
+      "result": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_HUMAN_ACCEPTANCE_RESULT_20261017.md",
+      "result_zh": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_HUMAN_ACCEPTANCE_RESULT_20261017_ZH.md",
+      "scope_limit": "These three features only; single-ammunition-box and complete tutorial acceptance are not inferred."
+    }
+  },
+  "crouch_transition_asset": {
+    "asset_id": "paris-crouch-transitions",
+    "asset_version": "crouch-transitions-20261017-v1",
+    "selector": "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+    "contract": "Assets/Sync/CROUCH_TRANSITION_SOURCE_CONTRACT_20261017.json",
+    "manifest": "Assets/Sync/manifests/paris-crouch-transitions.json",
+    "manifest_sha256": "7e0bc884e6afeab410bb828206bf43bd0ecb7685f713f5befe37cf0e65b109b9",
+    "formal_asset_adoption": true,
+    "sftp_verified": true,
+    "whole_game_formal_adoption": false
+  },
+  "inherited_built_evidence": {
+    "selection": "tmp/g1-smoke-effect-repair-20261017/PENDING_BEFORE.json",
+    "selection_sha256": "dfced1f45c2c4855eb84b20dbe0c80cc1efbea9d855bcafbb9ba48e550b2eb37",
+    "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+    "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+    "runtime_scope": "matching_Game_scoped_checks_selected_actual_frames_and_private_startup"
+  },
+  "smoke_effect_runtime_acceptance": "Inherited smoke128 source retained; medical/tutorial checks do not establish exhaustive smoke physics or active-smoke save acceptance.",
+  "medical_model_selector": "Docs/Development/CURRENT_MEDICAL_POUCH_ASSET.json",
+  "medical_model_dependency": "tmp/g1-medical-kits-20261017/MODEL_DEPENDENCY.json",
+  "medical_action_dependency": "tmp/g1-medical-action-20261017/NATIVE_DEPENDENCY_CONTRACT.json",
+  "medical_action_handoff": "tmp/g1-medical-action-20261017/HANDOFF.json",
+  "medical_runtime_acceptance": "Human accepted medical pouch model, healing/bandage action and drop/pickup on selected Game_v17. Prior native/E/H/FP/V/crouch/prone/rollback checks retained; remaining tutorial/exhaustive contact/full-map/stress/PIE/second-machine scope not inferred.",
+  "runtime_scope": "Source/static/offline checks only for new medical panel and context mix; inherited actual medical/actions acceptance remains on its original Game.",
+  "playtest_result": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_RESULT_20261017.md",
+  "parent_static_receipt": "tmp/g1-medical-kits-20261017/SOURCE_ONLY_RESULT.json",
+  "inherited_source_reconciliation": "tmp/g1-medical-playtest-20261017/RECONCILIATION.json",
+  "tutorial_soundscape_audio": {
+    "runtime_directory": "tmp/g1-tutorial-audio-settings-20261017/RuntimeAudio/Tutorial",
+    "audio_manifest": "tmp/g1-tutorial-audio-settings-20261017/AUDIO_MANIFEST.json",
+    "audio_manifest_sha256": "6677df5b8e36106484f378c8a8993d56afd10a20908dc79dd1489d1fa05273ed",
+    "provenance": "tmp/g1-tutorial-audio-settings-20261017/PROVENANCE.json",
+    "packaging_contract": "tmp/g1-medical-audio-feedback-20261017/PACKAGING_CONTRACT.json",
+    "spoken_language": "en",
+    "subtitle_languages": [
+      "en",
+      "zh-Hans"
+    ],
+    "prepared_cues": 13,
+    "runtime_accepted": true,
+    "prior_nine_asset_listening_accepted": true,
+    "prior_nine_human_report": "这些声音都没问题",
+    "new_four_asset_listening_accepted": true,
+    "in_game_result": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_RESULT_20261017.md",
+    "runtime_scope": "Eight bounded matching-Game checks and diagnostics-disabled startup; new mix human review pending",
+    "human_in_game_review": "Medical guidance/music accepted17October2026; prior individual cue acceptance retained",
+    "parent_runtime_accepted": true
+  },
+  "audio_preferences": {
+    "channels": [
+      "master",
+      "music",
+      "ambience",
+      "effects",
+      "voice"
+    ],
+    "defaults": [
+      1.0,
+      0.4,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "per_user_ini_section": "ParisAudioPreferences",
+    "checkpoint_independent": true,
+    "source_only": false,
+    "runtime_verified": true,
+    "runtime_scope": "Matching final Game native controls/mute/physical INI and fresh-process persistence; chosen current settings copied exactly."
+  },
+  "inherited_playtest_selector": "Docs/Development/CURRENT_TUTORIAL_AUDIO_PLAYTEST_REVIEW.json",
+  "medical_guidance_music_feedback": {
+    "implementation": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_IMPLEMENTATION_20261017.md",
+    "result": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_RESULT_20261017.md",
+    "result_zh": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_RESULT_20261017_ZH.md",
+    "source_only": false,
+    "build_requested": true,
+    "current_playable_changed": true,
+    "first_teaching_state": "derived from original medical held/used/source state; no saved gate",
+    "new_bilingual_labels": 21,
+    "parent_human_feedback": "医疗包的教程提示不明显；背景配乐太低，开场选择应更大、更有紧张感。",
+    "runtime_verified": true,
+    "runtime_result": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_RESULT_20261017.md",
+    "human_in_game_review": "accepted17October2026",
+    "human_acceptance_scope": "Medical teaching guidance and contextual background music",
+    "formal_adoption": "Docs/Development/CURRENT_TUTORIAL_RELEASE.json"
+  },
+  "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+  "playtest_selector": "Docs/Development/CURRENT_MEDICAL_GUIDANCE_MUSIC_PLAYTEST_REVIEW.json",
+  "formal_baseline": "Docs/Development/CURRENT_TUTORIAL_RELEASE.json",
+  "formal_game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+  "formal_adopted_at": "2026-10-17T19:49:32.686313-04:00"
+}

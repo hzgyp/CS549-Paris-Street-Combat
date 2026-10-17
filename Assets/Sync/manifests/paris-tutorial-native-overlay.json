@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "asset_version": "paris-tutorial-20261017-v1",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-17T19:46:48.223889-04:00",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+  "source_variant": "Unreal/Variants/G1MedicalGuidanceMusic20261017",
+  "source_manifest_sha256": "faa136ed3bbafa07e93253b3c6faefab6eb4380cc06e657ee9d3c67baa0a9c91",
+  "verification": {
+    "method": "Pinned-host authenticated SFTP full final object and named archive readback SHA256/size",
+    "human_review": "Medical teaching and contextual music explicitly accepted; tutorial formal adoption requested",
+    "second_machine": "Pending",
+    "coursework_delivery": false
+  },
+  "asset_id": "paris-tutorial-native-overlay",
+  "scope": "Private tutorial1.0 development collaboration; no course submission or old remote replacement",
+  "dependencies": [
+    "france-liberation-content",
+    "paris-gameplay-native-playtest",
+    "paris-grenade-grips",
+    "paris-crouch-transitions",
+    "paris-medical-pouch"
+  ],
+  "files": [
+    {
+      "path": "Assets/LocalWorking/Validation/ThumbPolishPlaytest20261017/Content/ParisCombat/Characters/ThumbPolish20261017/M_Skin_Master_Thumb.uasset",
+      "size_bytes": 14756,
+      "sha256": "2dd57a7266b8033b2e18a7b7a30524365f21a2b9977476b8c2063108233cceab",
+      "restore_path": "Content/ParisCombat/Characters/ThumbPolish20261017/M_Skin_Master_Thumb.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2d/2dd57a7266b8033b2e18a7b7a30524365f21a2b9977476b8c2063108233cceab"
+    },
+    {
+      "path": "Assets/LocalWorking/Validation/ThumbPolishPlaytest20261017/Content/ParisCombat/Characters/ThumbPolish20261017/M_USParatrooper_master_Thumb.uasset",
+      "size_bytes": 26616,
+      "sha256": "ebef4b89fef7614f83efe5301badcb400215934e65cd6edef0d16ccc19d21d07",
+      "restore_path": "Content/ParisCombat/Characters/ThumbPolish20261017/M_USParatrooper_master_Thumb.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/eb/ebef4b89fef7614f83efe5301badcb400215934e65cd6edef0d16ccc19d21d07"
+    },
+    {
+      "path": "Assets/LocalWorking/Validation/ThumbPolishPlaytest20261017/Content/ParisCombat/Characters/ThumbPolish20261017/M_USParatrooperJacket_Thumb.uasset",
+      "size_bytes": 10736,
+      "sha256": "a690efa014c6b6affc12013cdf7018322cbdabc6e80a39f372f760c178f3eb1a",
+      "restore_path": "Content/ParisCombat/Characters/ThumbPolish20261017/M_USParatrooperJacket_Thumb.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/a6/a690efa014c6b6affc12013cdf7018322cbdabc6e80a39f372f760c178f3eb1a"
+    },
+    {
+      "path": "Assets/LocalWorking/Validation/ThumbPolishPlaytest20261017/Content/ParisCombat/Characters/ThumbPolish20261017/MI_USParatrooper_feceA_Thumb.uasset",
+      "size_bytes": 6247,
+      "sha256": "e22f7aa0a242a453876570762f611d847fd7d04958412c686496c6a21637c4a6",
+      "restore_path": "Content/ParisCombat/Characters/ThumbPolish20261017/MI_USParatrooper_feceA_Thumb.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/e2/e22f7aa0a242a453876570762f611d847fd7d04958412c686496c6a21637c4a6"
+    },
+    {
+      "path": "Assets/LocalWorking/Validation/ThumbPolishPlaytest20261017/Content/ParisCombat/Characters/ThumbPolish20261017/SK_PC_ThumbPolish.uasset",
+      "size_bytes": 1516399,
+      "sha256": "d8bed804795c2ae274a0c42b029855c83f4fc7934c8d0dfc01c6e46877eeb6c8",
+      "restore_path": "Content/ParisCombat/Characters/ThumbPolish20261017/SK_PC_ThumbPolish.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/d8/d8bed804795c2ae274a0c42b029855c83f4fc7934c8d0dfc01c6e46877eeb6c8"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animations/Medical20261017/AS_PC_HealBandages.uasset",
+      "size_bytes": 997106,
+      "sha256": "b759ecb313f7f0771221a3522e6547ca59e9211917cc6623af34de72e4e24ffe",
+      "restore_path": "Content/ParisCombat/Animations/Medical20261017/AS_PC_HealBandages.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/b7/b759ecb313f7f0771221a3522e6547ca59e9211917cc6623af34de72e4e24ffe"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Animations/Medical20261017/SKEL_PC_Medical.uasset",
+      "size_bytes": 22731,
+      "sha256": "09eda5e27f7824506cacd4fac56da4ad79da0d70e9174d045cb0f46702ea374a",
+      "restore_path": "Content/ParisCombat/Animations/Medical20261017/SKEL_PC_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/09/09eda5e27f7824506cacd4fac56da4ad79da0d70e9174d045cb0f46702ea374a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Canvas_Khaki.uasset",
+      "size_bytes": 74043,
+      "sha256": "68810da8cb6ba8768c848ceb2a6785926479fa3d836129d4328e06b682ecac17",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Canvas_Khaki.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/68/68810da8cb6ba8768c848ceb2a6785926479fa3d836129d4328e06b682ecac17"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Closure_Hole_Shadow.uasset",
+      "size_bytes": 71077,
+      "sha256": "be902f420d60cc82125356d24cea63f2b104720d939e27bde5a168e00526a5ce",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Closure_Hole_Shadow.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/be/be902f420d60cc82125356d24cea63f2b104720d939e27bde5a168e00526a5ce"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Cotton_Stitch.uasset",
+      "size_bytes": 70971,
+      "sha256": "35459368ad956253b45ee9ba04f583b1ccc569d0e98fc520a18c58eb1515cb09",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Cotton_Stitch.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/35/35459368ad956253b45ee9ba04f583b1ccc569d0e98fc520a18c58eb1515cb09"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Faded_Medical_Field.uasset",
+      "size_bytes": 71077,
+      "sha256": "4b7602dd0f39e74dcf8a6d3b9b640e18567d093573fc6116bca5913d283bc162",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Faded_Medical_Field.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/4b/4b7602dd0f39e74dcf8a6d3b9b640e18567d093573fc6116bca5913d283bc162"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Oxidised_Brass.uasset",
+      "size_bytes": 71002,
+      "sha256": "feeae208bf4047140489b168a277e8bbc68934260a3c442b251129afd3828d89",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Oxidised_Brass.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/fe/feeae208bf4047140489b168a277e8bbc68934260a3c442b251129afd3828d89"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Webbing_Olive.uasset",
+      "size_bytes": 74054,
+      "sha256": "95b77b8d6311284040a250700a7386f859064f59d937d7af8c7c1e0c06c0d310",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Webbing_Olive.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/95/95b77b8d6311284040a250700a7386f859064f59d937d7af8c7c1e0c06c0d310"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Worn_Binding.uasset",
+      "size_bytes": 71000,
+      "sha256": "3cc708eb21cdee7d8486804ae237d4f8c6bbade6a941f2cafc565980da5b2dfa",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Materials/Worn_Binding.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/3c/3cc708eb21cdee7d8486804ae237d4f8c6bbade6a941f2cafc565980da5b2dfa"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/Canvas_Dense_Normal.uasset",
+      "size_bytes": 3826170,
+      "sha256": "6dc1aa36ba9bdf9197350e9eb751d7a6840ac5bcbe68a25856ddb520f0f63206",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/Canvas_Dense_Normal.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/6d/6dc1aa36ba9bdf9197350e9eb751d7a6840ac5bcbe68a25856ddb520f0f63206"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor.uasset",
+      "size_bytes": 9785257,
+      "sha256": "21c50a85cbfb628d2573050217948faae9d3bc3f33c9a1d30439e570f91081c9",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/21/21c50a85cbfb628d2573050217948faae9d3bc3f33c9a1d30439e570f91081c9"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor1.uasset",
+      "size_bytes": 9785269,
+      "sha256": "75fee632c8d40c26986d088986f3d15fae6899faccbcc0f5c0e7ff980c29f21e",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor1.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/75/75fee632c8d40c26986d088986f3d15fae6899faccbcc0f5c0e7ff980c29f21e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor2.uasset",
+      "size_bytes": 9785269,
+      "sha256": "f4082f41612469c4307ad44b70e6d7d47f881c98c9549ac9595102db6a8ac000",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor2.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f4/f4082f41612469c4307ad44b70e6d7d47f881c98c9549ac9595102db6a8ac000"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor3.uasset",
+      "size_bytes": 9785269,
+      "sha256": "6007f5a0d0b1e4e6e44647bbb43ae55bf61eb317830c8f564ec0c12e2bdd55af",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor3.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/60/6007f5a0d0b1e4e6e44647bbb43ae55bf61eb317830c8f564ec0c12e2bdd55af"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor4.uasset",
+      "size_bytes": 9785276,
+      "sha256": "f0e7e7285a0d8997a915e8deaf5b3254063d63b75dddd0f32c5aff540d05846e",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor4.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f0/f0e7e7285a0d8997a915e8deaf5b3254063d63b75dddd0f32c5aff540d05846e"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor5.uasset",
+      "size_bytes": 9785276,
+      "sha256": "00b593dc9b6c67d505b7c83c59b9949a49b29a2197add0c5acab29efb4a6a535",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor5.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/00/00b593dc9b6c67d505b7c83c59b9949a49b29a2197add0c5acab29efb4a6a535"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor6.uasset",
+      "size_bytes": 9785276,
+      "sha256": "510b240b87fdbe486a1b89ff8a228835a94aea493780f8fd8824ae02b16899c2",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Stained_BaseColor6.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/51/510b240b87fdbe486a1b89ff8a228835a94aea493780f8fd8824ae02b16899c2"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM.uasset",
+      "size_bytes": 1426794,
+      "sha256": "f749d4d9f680472d6876182e5dca9a2f005740d202b53008c43b33372e07c8f7",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f7/f749d4d9f680472d6876182e5dca9a2f005740d202b53008c43b33372e07c8f7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM1.uasset",
+      "size_bytes": 1426806,
+      "sha256": "fa6ee2ee4942cf4fdd864fbd8c2ea74941e8911600df7404ac0afcbf9b10107a",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM1.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/fa/fa6ee2ee4942cf4fdd864fbd8c2ea74941e8911600df7404ac0afcbf9b10107a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM2.uasset",
+      "size_bytes": 1426806,
+      "sha256": "ab2e811b7789ffdbe1402608f100ce94da1b8de09fcfc9448a17b90b5f639b25",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM2.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/ab/ab2e811b7789ffdbe1402608f100ce94da1b8de09fcfc9448a17b90b5f639b25"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM3.uasset",
+      "size_bytes": 1426806,
+      "sha256": "1959f024b1f190e34d95d5df9491f1769ab1ff41dd7efdd37f900982f9c7ad78",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM3.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/19/1959f024b1f190e34d95d5df9491f1769ab1ff41dd7efdd37f900982f9c7ad78"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM4.uasset",
+      "size_bytes": 1426813,
+      "sha256": "be29268cc81c1204712ff7507288a6cf2be3654170e78f609f734265a3ef4452",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM4.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/be/be29268cc81c1204712ff7507288a6cf2be3654170e78f609f734265a3ef4452"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM5.uasset",
+      "size_bytes": 1426813,
+      "sha256": "89a4f8247de6927fafd39d4811102994cb9c5a902a998edea279fb746bbeafa6",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM5.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/89/89a4f8247de6927fafd39d4811102994cb9c5a902a998edea279fb746bbeafa6"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM6.uasset",
+      "size_bytes": 1426813,
+      "sha256": "bba25bc02d832a7a4a652e7d531eadf5ef1df645b8be96d3ba6289d1f3e025af",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/MedicalPouch_Textile_ORM6.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/bb/bba25bc02d832a7a4a652e7d531eadf5ef1df645b8be96d3ba6289d1f3e025af"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/Webbing_Warp_Normal.uasset",
+      "size_bytes": 1862215,
+      "sha256": "7206c91064aae1312703b73fe0f8303a51d582948ad4c315e65830f2d40f21ed",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/MedicalPouch_Stained/Textures/Webbing_Warp_Normal.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/72/7206c91064aae1312703b73fe0f8303a51d582948ad4c315e65830f2d40f21ed"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_BaseColor_Medical.uasset",
+      "size_bytes": 15037,
+      "sha256": "3843a2978f22ea57d380ba7d6802df0b61f3c496f4400b64a2153b1633e7600a",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_BaseColor_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/38/3843a2978f22ea57d380ba7d6802df0b61f3c496f4400b64a2153b1633e7600a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Default_Body_Medical.uasset",
+      "size_bytes": 161135,
+      "sha256": "c07cba8ad7b0c47cf8b67b6b603a83a0f559ceec79de4cbeecc094b59482363a",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Default_Body_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c0/c07cba8ad7b0c47cf8b67b6b603a83a0f559ceec79de4cbeecc094b59482363a"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Emissive_Medical.uasset",
+      "size_bytes": 10698,
+      "sha256": "42ed769c369127ad7e11e178e7f157e420f6997cf294926b28392d536f339707",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Emissive_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/42/42ed769c369127ad7e11e178e7f157e420f6997cf294926b28392d536f339707"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_IOR_Medical.uasset",
+      "size_bytes": 8428,
+      "sha256": "2378d1f6403e99525153d3de102494bd1378730d8838a75d826649071bf8c8c4",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_IOR_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/23/2378d1f6403e99525153d3de102494bd1378730d8838a75d826649071bf8c8c4"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_IridescenceNoLUT_Medical.uasset",
+      "size_bytes": 25768,
+      "sha256": "2f5e0848543275e4d07a7f90a7a70e2a826d38e460670e2ec6ed0d9f49f6ce66",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_IridescenceNoLUT_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/2f/2f5e0848543275e4d07a7f90a7a70e2a826d38e460670e2ec6ed0d9f49f6ce66"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Iridescence_Medical.uasset",
+      "size_bytes": 25033,
+      "sha256": "703878fbcec5fc9da036dea4b62642ba66016c883d1f06d0b970853f592e0f37",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Iridescence_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/70/703878fbcec5fc9da036dea4b62642ba66016c883d1f06d0b970853f592e0f37"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_MetallicRoughness_Medical.uasset",
+      "size_bytes": 11571,
+      "sha256": "35d4a4545ab2e5a8146d184d5821d8d452136ebcd481dcc63722f21bbf08d9e5",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_MetallicRoughness_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/35/35d4a4545ab2e5a8146d184d5821d8d452136ebcd481dcc63722f21bbf08d9e5"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Normals_Medical.uasset",
+      "size_bytes": 13540,
+      "sha256": "92abb440004c25be0b8060a00ae5b7fc13118c1bdbba2b2453d0f0614837bb32",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Normals_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/92/92abb440004c25be0b8060a00ae5b7fc13118c1bdbba2b2453d0f0614837bb32"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Occlusion_Medical.uasset",
+      "size_bytes": 10892,
+      "sha256": "c3251d2cab819641e5521f3346679706594819e019bd15d66a85ae63c9377dae",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Occlusion_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c3/c3251d2cab819641e5521f3346679706594819e019bd15d66a85ae63c9377dae"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_RotateNormals_TS_Medical.uasset",
+      "size_bytes": 14154,
+      "sha256": "801b26ad70de5b5c77b1a6d11ef1b17515d0090d92e5efad1420d425bf168ac7",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_RotateNormals_TS_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/80/801b26ad70de5b5c77b1a6d11ef1b17515d0090d92e5efad1420d425bf168ac7"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_RotateV2_Medical.uasset",
+      "size_bytes": 13242,
+      "sha256": "8094cc78b724ea13a80aea1e917ef9bc2f1b8b0fb9a0ae6db8157f58534b6553",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_RotateV2_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/80/8094cc78b724ea13a80aea1e917ef9bc2f1b8b0fb9a0ae6db8157f58534b6553"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_ScaleNormal_Medical.uasset",
+      "size_bytes": 8141,
+      "sha256": "f827bd3c5bb4fa6d255c4186c76a9801ac20875a7c0e1483ecb0ca0805fdeef0",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_ScaleNormal_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f8/f827bd3c5bb4fa6d255c4186c76a9801ac20875a7c0e1483ecb0ca0805fdeef0"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_SpecularAnisotropy_Medical.uasset",
+      "size_bytes": 18967,
+      "sha256": "f61982556f7b60ee57e9c8fc8cad9cbf2312546ce5d852cc671022a13c7255d9",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_SpecularAnisotropy_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/f6/f61982556f7b60ee57e9c8fc8cad9cbf2312546ce5d852cc671022a13c7255d9"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Specular_Medical.uasset",
+      "size_bytes": 9667,
+      "sha256": "73d1fd21b92f97defb77f48327c6942886a6975093064d4aeb9280f2c2271b67",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_Specular_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/73/73d1fd21b92f97defb77f48327c6942886a6975093064d4aeb9280f2c2271b67"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_TransformUVs_Medical.uasset",
+      "size_bytes": 36822,
+      "sha256": "455f09d187b0abb313ba279f5256e84405bf34a40a405e5c66b297de169d3097",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MF_TransformUVs_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/45/455f09d187b0abb313ba279f5256e84405bf34a40a405e5c66b297de169d3097"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MI_Default_Opaque_DS_Medical.uasset",
+      "size_bytes": 5334,
+      "sha256": "c6423cb0d5e2f40a663b1defccdf32f61463d0db5b95ce394b5756fa96ec9473",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/MI_Default_Opaque_DS_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c6/c6423cb0d5e2f40a663b1defccdf32f61463d0db5b95ce394b5756fa96ec9473"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/M_Default_Medical.uasset",
+      "size_bytes": 87703,
+      "sha256": "6691660c75f9bb475a277d7f36b3d31b4fed12cb0f8714ef7df02af314ec5ee1",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/RuntimeMaterialsV2/M_Default_Medical.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/66/6691660c75f9bb475a277d7f36b3d31b4fed12cb0f8714ef7df02af314ec5ee1"
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/workspaces/yg745/paris-gameplay-v1/Content/ParisCombat/Props/MedicalPouch20261017V2/SM_MedicalPouch.uasset",
+      "size_bytes": 836297,
+      "sha256": "c327624c61d97df2b31d819e2696b07876e54246c6218f05e6c60a832acb14a8",
+      "restore_path": "Content/ParisCombat/Props/MedicalPouch20261017V2/SM_MedicalPouch.uasset",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/c3/c327624c61d97df2b31d819e2696b07876e54246c6218f05e6c60a832acb14a8"
+    }
+  ],
+  "file_count": 48,
+  "size_bytes": 88583172,
+  "restoration": "Overlay restore_path after restoring Catalog-selected city/native dependencies. Matching145 Editor rebuild/dependency audit and second-machine verification remain required."
+}

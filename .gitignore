@@ -175,3 +175,7 @@ Thumbs.db
 
 # Formal76 private runtime restoration bytes: licensed models/fonts/audio.
 /Unreal/Variants/G1GrenadeEquip20261011/RuntimeResources/
+
+# Generated formal tutorial packages and licensed animation samples stay outside Git.
+/Releases/
+/Unreal/Variants/G1MedicalGuidanceMusic20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneNativeCurves.inl

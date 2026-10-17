@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-17",
+  "timezone": "America/New_York",
+  "human_request": "我试完了，医疗包教学提示和配乐都没问题，这两项人工验收通过。然后把中途没用的构建该删删，然后发布教学阶段的正式版本",
+  "human_publication_choice": "本地正式版，并同步开发协作仓库／SFTP",
+  "accepted_features": [
+    "medical guidance",
+    "contextual background music"
+  ],
+  "formal_tutorial_adoption_authorized": true,
+  "development_git_sftp_authorized": true,
+  "coursework_delivery_authorized": false,
+  "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
+  "source_manifest_sha256": "faa136ed3bbafa07e93253b3c6faefab6eb4380cc06e657ee9d3c67baa0a9c91",
+  "limits": [
+    "No additional map/NPC/full-map/stress/Editor-PIE/second-machine acceptance inferred"
+  ]
+}

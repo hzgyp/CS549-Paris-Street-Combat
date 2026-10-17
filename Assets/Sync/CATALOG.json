@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-11T20:18:35.404728-04:00",
+  "updated_at": "2026-10-17T19:49:29.466510-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -137,6 +137,60 @@
       "file_count": 1,
       "size_bytes": 8476572643,
       "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-course-review-package.json"
+    },
+    {
+      "asset_id": "paris-grenade-grips",
+      "asset_version": "grenade-grips-20261017-v1",
+      "path": "Assets/Sync/manifests/paris-grenade-grips.json",
+      "sha256": "038e41e2169b33c11302b3c03fb7fdbd0dca2b1ec5ce8bec18d0ea2c571d6471",
+      "file_count": 9,
+      "size_bytes": 3159502,
+      "release_manifest": "/releases/grenade-grips-20261017-v1/paris-grenade-grips.json"
+    },
+    {
+      "asset_id": "paris-crouch-transitions",
+      "asset_version": "crouch-transitions-20261017-v1",
+      "path": "Assets/Sync/manifests/paris-crouch-transitions.json",
+      "sha256": "7e0bc884e6afeab410bb828206bf43bd0ecb7685f713f5befe37cf0e65b109b9",
+      "file_count": 1,
+      "size_bytes": 6654,
+      "release_manifest": "/releases/crouch-transitions-20261017-v1/paris-crouch-transitions.json"
+    },
+    {
+      "asset_id": "paris-medical-pouch",
+      "asset_version": "medical-pouch-20261017-v1",
+      "path": "Assets/Sync/manifests/paris-medical-pouch.json",
+      "sha256": "4dc2a04a40480781378d9433770a22df2236bc82da2e46e26b5700cd3227dd7f",
+      "file_count": 17,
+      "size_bytes": 123576821,
+      "release_manifest": "/releases/medical-pouch-20261017-v1/paris-medical-pouch.json"
+    },
+    {
+      "asset_id": "paris-tutorial-packaged-release",
+      "asset_version": "paris-tutorial-20261017-v1",
+      "path": "Assets/Sync/manifests/paris-tutorial-packaged-release.json",
+      "sha256": "a173574d08de58a3747a776f05b0f7bda0cccc62c2d010b7491742d6d788dfcc",
+      "file_count": 1,
+      "size_bytes": 8266799598,
+      "release_manifest": "/releases/paris-tutorial-20261017-v1/paris-tutorial-packaged-release.json"
+    },
+    {
+      "asset_id": "paris-tutorial-runtime-resources",
+      "asset_version": "paris-tutorial-20261017-v1",
+      "path": "Assets/Sync/manifests/paris-tutorial-runtime-resources.json",
+      "sha256": "1c013d862c194c3a297de10481a461f41e5a5cc85e02b552a47d177d7163ca0e",
+      "file_count": 79,
+      "size_bytes": 59224296,
+      "release_manifest": "/releases/paris-tutorial-20261017-v1/paris-tutorial-runtime-resources.json"
+    },
+    {
+      "asset_id": "paris-tutorial-native-overlay",
+      "asset_version": "paris-tutorial-20261017-v1",
+      "path": "Assets/Sync/manifests/paris-tutorial-native-overlay.json",
+      "sha256": "d10abef09e630d3895f7473636dce6eda894110d0d5fb2cda778732ca70fa016",
+      "file_count": 48,
+      "size_bytes": 88583172,
+      "release_manifest": "/releases/paris-tutorial-20261017-v1/paris-tutorial-native-overlay.json"
     }
   ],
   "superseded_provenance_only": [
