@@ -1,3 +1,6 @@
+<!-- tutorial-current-teammate-package-20261017 -->
+Current teammate playtest: `/releases/paris-tutorial-20261017-v1/Paris-Tutorial-1.0-20261017.zip` (8,266,799,598 bytes). Extract all and run `PLAY_TUTORIAL.cmd`. [Bilingual download instructions](../Docs/Development/TutorialSftpRetirementV1/DOWNLOAD_README_ZH.md). Superseded11October development ZIP is retired; teacher AudioV2 and native/source resources remain preserved.
+
 **Latest formal gameplay release,11October2026:** [current source/playable guide](../Docs/Development/TEAM_CURRENT_BUILD_20261011_ZH.md) selects exact76 and its private runtime resources. The latest ZIP is /releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip. The previously supplied audioV2 course-review ZIP and credentials/report attachment remain unchanged and active under a separate course role. Earlier dated handoffs below are historical native/recovery anchors.
 
 # Team synchronization: GitHub + SFTP

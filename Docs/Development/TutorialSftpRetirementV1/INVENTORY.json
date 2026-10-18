@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "exact_old_development_zip_ready",
+  "authorization": "Human requests obsolete SFTP package cleanup and development Git push17October2026",
+  "retired_asset_id": "paris-g1-packaged-playtest",
+  "retired_version": "paris-g1-playtest-20261011-gameplay-v1",
+  "targets": [
+    {
+      "path": "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip",
+      "sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+      "size_bytes": 8499470074
+    },
+    {
+      "path": "/objects/sha256/42/42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+      "sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+      "size_bytes": 8499470074
+    }
+  ],
+  "recovery": {
+    "path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\sftp-package-retirement-20261017\\recovery\\Paris-G1-Gameplay-20261011.zip",
+    "sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+    "size_bytes": 8499470074
+  },
+  "protected": [
+    "Current tutorial1.0",
+    "AudioV2 instructor package",
+    "all native/runtime objects and old manifests",
+    "all actual human saves/settings"
+  ],
+  "active_consumers_before": [
+    "paris-g1-packaged-playtest"
+  ],
+  "hud_previous_absence_not_new_deletion": true,
+  "coursework_delivery": false
+}

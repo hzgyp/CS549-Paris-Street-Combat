@@ -101,3 +101,7 @@ Docs/Development/CURRENT_TUTORIAL_SOURCE_PENDING.json -text whitespace=cr-at-eol
 Docs/Development/CURRENT_MEDICAL_GUIDANCE_MUSIC_PLAYTEST_REVIEW.json -text whitespace=cr-at-eol
 Docs/Development/InstructionHistory/AGENTS_PUBLIC_PRE_TUTORIAL_V1_20261017.txt -text whitespace=cr-at-eol,-blank-at-eof
 Unreal/Variants/G1MedicalGuidanceMusic20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisProneTransitionProbe.inl whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol
+
+# Dated SFTP retirement evidence and teammate handoff keep exact bytes.
+Docs/Development/TutorialSftpRetirementV1/** -text whitespace=cr-at-eol
+Docs/Development/MissionLoopV1/TUTORIAL_SFTP_RETIREMENT_*.md -text whitespace=cr-at-eol

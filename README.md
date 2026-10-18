@@ -1,3 +1,6 @@
+<!-- tutorial-current-teammate-package-20261017 -->
+Current teammate playtest: `/releases/paris-tutorial-20261017-v1/Paris-Tutorial-1.0-20261017.zip` (8,266,799,598 bytes). Extract all and run `PLAY_TUTORIAL.cmd`. [Bilingual download instructions](Docs/Development/TutorialSftpRetirementV1/DOWNLOAD_README_ZH.md). Superseded11October development ZIP is retired; teacher AudioV2 and native/source resources remain preserved.
+
 <!-- tutorial-v1-development-release-20261017 -->
 Current formal tutorial1.0: [release guide](Docs/Development/MissionLoopV1/TUTORIAL_V1_RELEASE_RESULT_20261017.md), [selector](Docs/Development/CURRENT_TUTORIAL_RELEASE.json). Source145/Game3bb90f64; human-accepted medical guidance/music. This source clone requires private external resources; no coursework delivery.
 

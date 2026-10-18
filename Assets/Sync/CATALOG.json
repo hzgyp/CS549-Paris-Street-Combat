@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T19:49:29.466510-04:00",
+  "updated_at": "2026-10-17T20:28:02.082961-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -110,15 +110,6 @@
       "file_count": 33,
       "size_bytes": 1401420,
       "release_manifest": "/releases/paris-g1-playtest-20261009-audio-v2/paris-g1-recorded-audio.json"
-    },
-    {
-      "asset_id": "paris-g1-packaged-playtest",
-      "asset_version": "paris-g1-playtest-20261011-gameplay-v1",
-      "path": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
-      "sha256": "fbfa10b1af92c71fae6df20342fe5ae6d5c3a4212f636b0c329fa984dbf102eb",
-      "file_count": 1,
-      "size_bytes": 8499470074,
-      "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-packaged-playtest.json"
     },
     {
       "asset_id": "paris-g1-gameplay-runtime-resources",

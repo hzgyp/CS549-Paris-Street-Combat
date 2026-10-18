@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "superseded_development_archive_retired",
+  "retired_version": "paris-g1-playtest-20261011-gameplay-v1",
+  "retired_asset_id": "paris-g1-packaged-playtest",
+  "removed_remote_paths": [
+    "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip",
+    "/objects/sha256/42/42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349"
+  ],
+  "removed_named_files": 2,
+  "unique_archive_bytes": 8499470074,
+  "current_release": "paris-tutorial-20261017-v1",
+  "current_download": "/releases/paris-tutorial-20261017-v1/Paris-Tutorial-1.0-20261017.zip",
+  "current_archive_sha256": "f145c2e06bdc2aeeafc48397575552f91c661dacf3702135fec57c0d2957ab55",
+  "current_archive_bytes": 8266799598,
+  "recovery": {
+    "path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\sftp-package-retirement-20261017\\recovery\\Paris-G1-Gameplay-20261011.zip",
+    "size_bytes": 8499470074,
+    "sha256": "42c20e46d3cda0511be0351e1733d6fd8bb469e700ebf7d5b3cf8a33f1c06349",
+    "identity": [
+      5366665688280329081,
+      844424930598901,
+      1791763805076561200
+    ]
+  },
+  "original_manifest": {
+    "asset_id": "paris-g1-packaged-playtest",
+    "asset_version": "paris-g1-playtest-20261011-gameplay-v1",
+    "path": "Assets/Sync/manifests/paris-g1-packaged-playtest.json",
+    "sha256": "fbfa10b1af92c71fae6df20342fe5ae6d5c3a4212f636b0c329fa984dbf102eb",
+    "file_count": 1,
+    "size_bytes": 8499470074,
+    "release_manifest": "/releases/paris-g1-playtest-20261011-gameplay-v1/paris-g1-packaged-playtest.json"
+  },
+  "source_native_course_metadata_preserved": true,
+  "already_absent_hud_not_counted": true,
+  "coursework_delivery": false
+}
