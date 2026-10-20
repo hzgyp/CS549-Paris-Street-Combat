@@ -39,9 +39,17 @@ class Importer:
         self.file_identities = {}
         self.research_paths = set()
         self.view_paths = set()
+        self.issue_identities = {}
 
     def issue(self, code, message, subject='', severity='warning'):
-        self.entities['issues'].append(dict(id=identity(code,subject,message), code=code, message=message, subject_id=subject, severity=severity))
+        key = identity(code,subject,message)
+        if key in self.issue_identities:
+            if severity == 'error':
+                self.issue_identities[key]['severity'] = 'error'
+            return
+        item = dict(id=key, code=code, message=message, subject_id=subject, severity=severity)
+        self.issue_identities[key] = item
+        self.entities['issues'].append(item)
 
     def read(self, path, expected=None, optional=False):
         if self.cancelled():

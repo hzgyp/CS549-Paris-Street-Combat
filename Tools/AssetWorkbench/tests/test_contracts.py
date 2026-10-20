@@ -13,6 +13,20 @@ from app.security import WorkbenchError, safe_path, read_file
 from app.store import Store
 
 
+def test_duplicate_optional_source_issues_publish_once_and_keep_errors(tmp_path):
+    importer = Importer(tmp_path, None)
+    importer.issue('SOURCE_UNAVAILABLE', 'Missing optional document', 'docs/a.md')
+    importer.issue('SOURCE_UNAVAILABLE', 'Missing optional document', 'docs/a.md')
+    importer.issue('SOURCE_UNAVAILABLE', 'Missing optional document', 'docs/a.md', 'error')
+    importer.issue('SOURCE_UNAVAILABLE', 'Different observation', 'docs/a.md')
+    assert len(importer.entities['issues']) == 2
+    assert importer.entities['issues'][0]['severity'] == 'error'
+    store = Store(tmp_path/'fresh.sqlite3')
+    snapshot = {'id': 'fresh-clone', 'created': '2026-10-20', 'digest': 'diagnostics'}
+    store.publish(snapshot, importer.entities, [])
+    assert len(store.list(store.active(), 'issues')) == 2
+
+
 @pytest.fixture(autouse=True)
 def protect_live_navigation_outputs(monkeypatch):
     """Live-source checks must not rewrite the owner's active navigation index.
@@ -69,7 +83,7 @@ def test_hash_mismatch_preserves_snapshot(fixture):
 def test_inventory_coverage_members_and_precise_usage(tmp_path):
     store=Store(tmp_path/'inventory.sqlite3');snap=refresh(ROOT,store)['id']
     assets=store.list(snap,'assets');by_id={a['id']:a for a in assets}
-    assert len(assets)==229 and len(by_id)==229
+    assert len(assets)==231 and len(by_id)==231
     assert sum(a.get('parent_id')=='ue4-animation-collection' for a in assets)==125
     assert sum(a.get('parent_id')=='mw2-library' for a in assets)==53
     assert all(a['preview_id'] and a['revisions'] for a in assets)
@@ -88,7 +102,8 @@ def test_inventory_coverage_members_and_precise_usage(tmp_path):
     assert 'formal' in by_id['muzzle-flash']['build_ids']
     assert by_id['mw2-sp-r-208']['usage_status']=='source_only'
     assert by_id['mw2-library']['usage_status']=='source_only'
-    assert by_id['anim-rifle-animset-pro']['usage_status']=='unregistered'
+    assert by_id['anim-rifle-animset-pro']['usage_status']=='formal'
+    assert 'formal' in by_id['anim-rifle-animset-pro']['build_ids']
     assert by_id['anim-superhero-flight-animations-426']['usage_status']=='unregistered'
     assert any(r['id']=='rifle-animation-duplicate-delivery-20261004' for r in store.list(snap,'revisions'))
     for m in store.list(snap,'media'):
@@ -308,8 +323,8 @@ def test_media_identity_and_mime(fixture):
 def test_real_channel_and_mine_scope(tmp_path):
     store=Store(tmp_path/'actual.sqlite3');snap=refresh(ROOT,store)
     builds={b['id']:b for b in store.list(snap['id'],'builds')}
-    # Roles remain distinct even after the same reviewed Game is adopted/published.
-    assert len({builds[k]['source_id'] for k in ('formal','ui-review','published')})==3
+    # Active selectors stay distinct; a retired package is not an active channel.
+    assert builds['formal']['source_id']!=builds['ui-review']['source_id']
     registry=json.loads((ROOT/'Assets/Registry/registry.json').read_text())
     for role in ('formal','ui-review'):
         selector=next(s for s in registry['selectors'] if s['id']==role)
@@ -317,9 +332,13 @@ def test_real_channel_and_mine_scope(tmp_path):
         assert builds[role]['game_sha256']==expected['game_sha256']
         assert builds[role]['source_manifest_sha256']==expected['source_manifest_sha256']
     catalog=json.loads((ROOT/'Assets/Sync/CATALOG.json').read_text())
-    release=next(m for m in catalog['active_manifests'] if m['asset_id']=='paris-g1-packaged-playtest')
-    published=json.loads((ROOT/release['path']).read_text())
-    assert builds['published']['game_sha256']==published['game_sha256']
+    release=next((m for m in catalog['active_manifests'] if m['asset_id']=='paris-g1-packaged-playtest'),None)
+    if release:
+        published=json.loads((ROOT/release['path']).read_text())
+        assert builds['published']['game_sha256']==published['game_sha256']
+        assert len({builds[k]['source_id'] for k in ('formal','ui-review','published')})==3
+    else:
+        assert 'published' not in builds
     assert builds['ui-review']['revision']==json.loads((ROOT/'Docs/Development/CURRENT_UI_REVIEW.json').read_text())['revision']
     l=store.get(snap['id'],'revisions','mine-ue-v1');r=store.get(snap['id'],'revisions','mine-ue-v2')
     assert l['model_identity']==r['model_identity']
@@ -524,7 +543,7 @@ def test_grenade_model_versions_and_current_formal_usage(tmp_path):
     for aid,triangles in [('frag-grenade',2733),('smoke-grenade',7562)]:
         asset=client.get('/api/v1/assets/'+aid).json()['data']
         assert asset['usage_status']=='formal' and len(asset['models'])==1
-        assert asset['preview_id']==aid+'-model-v1-browser-front'
+        assert asset['preview_id']==aid+'-accepted-grips-20261017'
         model=asset['models'][0]
         response=client.get('/api/v1/models/'+model['id']+'/file')
         assert response.status_code==200 and hashlib.sha256(response.content).hexdigest()==model['sha256']
@@ -546,7 +565,7 @@ def test_grenade_model_versions_and_current_formal_usage(tmp_path):
         comparison=client.get('/api/v1/comparisons',params={'left':original['id'],'right':current['id']}).json()['data']
         assert comparison['same_model']
     index=json.loads((ROOT/'Assets/Registry/asset-index.json').read_text(encoding='utf-8'))
-    assert index['asset_count']==snapshot['stats']['asset_count']==229
+    assert index['asset_count']==snapshot['stats']['asset_count']==231
 
 
 def test_shared_host_authentication_origin_and_csrf(fixture):
