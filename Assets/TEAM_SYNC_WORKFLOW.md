@@ -1,3 +1,6 @@
+<!-- selected-development-restore-20261020 -->
+Current development restoration: [English guide](../Docs/Development/SELECTED_DEVELOPMENT_RESTORE_20261020.md) / [组员恢复说明](../Docs/Development/SELECTED_DEVELOPMENT_RESTORE_20261020_ZH.md). The selected Catalog now includes the complete seventeen-file NPC raster bundle and metadata-only context for first-time platform indexing. The safe restoration tool supports independent tutorial145 source and the existing tutorial1.0 Game without building or copying personal saves. Older dated entries below are historical restore anchors; current tutorial routing is governed by the selectors above them.
+
 <!-- tutorial-current-teammate-package-20261017 -->
 Current teammate playtest: `/releases/paris-tutorial-20261017-v1/Paris-Tutorial-1.0-20261017.zip` (8,266,799,598 bytes). Extract all and run `PLAY_TUTORIAL.cmd`. [Bilingual download instructions](../Docs/Development/TutorialSftpRetirementV1/DOWNLOAD_README_ZH.md). Superseded11October development ZIP is retired; teacher AudioV2 and native/source resources remain preserved.
 

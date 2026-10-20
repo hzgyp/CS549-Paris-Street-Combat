@@ -1,0 +1,915 @@
+{
+  "schema_version": 1,
+  "asset_id": "paris-workbench-restore-context",
+  "asset_version": "paris-workbench-context-20261020-v1",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-20T09:14:15.721229-04:00",
+  "source": "Exact historical source manifest/usage excerpts and team-authored design context required by the selected Git registry; discovered through clean-checkout index refresh without weakening guards",
+  "license_record": "Assets/Sync/RIGHTS.md",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "tmp/sftp-restore-storage-20261020/WORKBENCH_CONTEXT.zip",
+      "size_bytes": 2805246,
+      "sha256": "11d015cdb3484ef02871cbdfcde6be4275d4774855a3c4f9d32d28a86023889c",
+      "storage": "sftp",
+      "remote_path": "/objects/sha256/11/11d015cdb3484ef02871cbdfcde6be4275d4774855a3c4f9d32d28a86023889c"
+    }
+  ],
+  "file_count": 1,
+  "size_bytes": 2805246,
+  "archive_members": [
+    {
+      "path": "Assets/LocalWorking/AssetWorkbench/private-records/animation-packs.json",
+      "size_bytes": 12859596,
+      "sha256": "3bc03db43a124458a3f2d50e8c704853e11b72f4b7fe62d0b4a54d1e83ac5c44"
+    },
+    {
+      "path": "Assets/LocalWorking/AssetWorkbench/private-records/media.json",
+      "size_bytes": 1788737,
+      "sha256": "eab23c95b438c193a8b5a06c9b6f59fe4b9825ee5f0ea9876177753965b323f5"
+    },
+    {
+      "path": "Assets/LocalWorking/AssetWorkbench/private-records/models.json",
+      "size_bytes": 139181,
+      "sha256": "7448232c6815f0ce15e5ca5971c3e0ba313b0fd0882f5a2dbef5b8036a7da061"
+    },
+    {
+      "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+      "size_bytes": 4210,
+      "sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+    },
+    {
+      "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+      "size_bytes": 3452,
+      "sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/AB_BRIDGE_MANUAL_RESULT_20261013.md",
+      "size_bytes": 2080,
+      "sha256": "88bd2ce24878f8f7eaddb943c9e26764ba365b61467dc40a147233a2a01d0c32"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/AB_BRIDGE_MANUAL_RESULT_20261013_ZH.md",
+      "size_bytes": 1960,
+      "sha256": "d24a4017aaadc870ead6a8478441dcb28711bcc7fe83b5399d35b3422ac57412"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/AB_BRIDGE_PHYSICAL_RESULT_20261013.md",
+      "size_bytes": 6044,
+      "sha256": "3de9c4db87d6d42f4c2774b7bfdac9d39e0a8238a5429ca18eab185fca4e02a7"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/AB_BRIDGE_PHYSICAL_RESULT_20261013_ZH.md",
+      "size_bytes": 5694,
+      "sha256": "50003993f94d36838d040753b5c761125bc85242e5354e4332ca60b243d71932"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013.md",
+      "size_bytes": 3787,
+      "sha256": "168ed71dea42a5c0e336a67a091da8a8413ee01ae26382db6a443650798e2c12"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013_ZH.md",
+      "size_bytes": 3703,
+      "sha256": "d0992f6119beb3664e3b51943be63d5539b133fdc4c01ba172119719838e122c"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013.md",
+      "size_bytes": 2952,
+      "sha256": "be4e2486d8647787eda91c8685490999597b9d2a3c3f0feb9550e6b1ed8a767f"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013_ZH.md",
+      "size_bytes": 3241,
+      "sha256": "c96e5e70203510fc196f70dd028a57c1a76c27b718e2aa6c06de3805bed60b7f"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013.md",
+      "size_bytes": 16239,
+      "sha256": "a57a0181bde22eb271dbcbea1c71b7db9a3de5860a07e5863ccefaba049f63e2"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013_ZH.md",
+      "size_bytes": 15215,
+      "sha256": "84ca1ff5725764b4a77c2239d4276f215ed737d7ccbfcb10f43918d0657244fa"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013.md",
+      "size_bytes": 3256,
+      "sha256": "21e09d46f8b7777fd7431363b7d48320a6c3796facac7cba6f58f30f26f75eba"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013_ZH.md",
+      "size_bytes": 2941,
+      "sha256": "926a8518aec4c044e2068f1a4692420168244ed6760c16102b24d149ceba4af3"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013.md",
+      "size_bytes": 2759,
+      "sha256": "c0780a157a6114b83979e230c290d6790c455c4df4f0265b3b992b30a604de64"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013_ZH.md",
+      "size_bytes": 2699,
+      "sha256": "f5df562f71c4c4cb88c03085606be7c0b14e3d9bc0c3846c86a6dd447e24658c"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013.md",
+      "size_bytes": 2559,
+      "sha256": "3f5e0c21f0219dada897e044724c962151cf4c9fd4cdf4a389e440fb039ad4df"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013_ZH.md",
+      "size_bytes": 2006,
+      "sha256": "c1d140ca8d7d6c29c15c1ae72fde8614f43f6e73a83bb60f232b0fc33efaba61"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013.md",
+      "size_bytes": 3198,
+      "sha256": "9eb7124d8d6885f901448cd6261febd98687febde5a47e1d1aa13b7b03e140d7"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013_ZH.md",
+      "size_bytes": 2928,
+      "sha256": "aace972ea3199efd5b9fab63be4feb3b1a17c5cc495538d97be742b434317488"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013.md",
+      "size_bytes": 2319,
+      "sha256": "25a513e69ac4ca812fd36ec154234e3570238e3bcf2daafb0cf1014cdc7a5ac3"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013_ZH.md",
+      "size_bytes": 2346,
+      "sha256": "d14f77e765b4f3a2a500b9245e6549ef1812d3ca9f1ada772d27c113a76da953"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013.md",
+      "size_bytes": 1626,
+      "sha256": "2298025512ba25192637ed77ffee263bb1dd4e774f9bd4d11cd88d6c17ed1a14"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013_ZH.md",
+      "size_bytes": 1405,
+      "sha256": "8681c8b094791adaf930520d3c55efe7034e2cbc5918471f640504381d35dd2b"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013.md",
+      "size_bytes": 10267,
+      "sha256": "a3c8ae185c86c0194b0226f21278d8246f261628d042ad564bcdea6a1e140fd3"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013_ZH.md",
+      "size_bytes": 8391,
+      "sha256": "0069205562d6983226eb82144ac0b85a16b0d681214127998a6c07fdac06f705"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013.md",
+      "size_bytes": 2580,
+      "sha256": "e56e63724fbad1da02e7b5d4471703d89e270b59f3bdc30faeb7627c89795593"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013_ZH.md",
+      "size_bytes": 2857,
+      "sha256": "bd3a7f409bc8b70e6fac2e523435412a0557bd21e1c258f0bcb2cf6880c8fdb6"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013.md",
+      "size_bytes": 3643,
+      "sha256": "131ceda04c63fc4278f02cdcf174e82161b1281b04c42061230610dafc124622"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013_ZH.md",
+      "size_bytes": 4194,
+      "sha256": "89742340549e77f5ffd42062ef89fbe891a0da17ba8ebc3972e0a2dec692e1bb"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013.md",
+      "size_bytes": 9780,
+      "sha256": "9ccf7cdc0935cd0a566196fdcf80b6f8a183124594da57b3562cf81058647016"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013_ZH.md",
+      "size_bytes": 8817,
+      "sha256": "7d91d598389f3d0df8e2de3ba86e43f4b69f4c71c60d4653694fe26998f24514"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014.md",
+      "size_bytes": 2861,
+      "sha256": "0749d8cedf42766eda5183f3136b4b066d6c3733185497105181041cb6e29357"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014_ZH.md",
+      "size_bytes": 2277,
+      "sha256": "0ed5b5c722f3cb87b853598a7f2fae817c29df4acd90bebd506e473ae6920840"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014.md",
+      "size_bytes": 11922,
+      "sha256": "19c68962a03dc531b221e21df9976340024529473c7823aa73ac64d28412b48f"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014_ZH.md",
+      "size_bytes": 12218,
+      "sha256": "e27ebe9a0d9cde9fc4e80ae1b60f160b2d3cb15b943330b4cc4c749adb5f3984"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_IMPLEMENTATION_20261017.md",
+      "size_bytes": 7872,
+      "sha256": "6a8c1f54fc2fd6f91d5de698005e21ecc1035fade8a6b16a2d781b5b9cd673f8"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_RESULT_20261017.md",
+      "size_bytes": 4934,
+      "sha256": "1724e6af891e4a73c601d59aedca7c5a171c9133d8e05a9e5383995e147df6dd"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_RESULT_20261017_ZH.md",
+      "size_bytes": 2206,
+      "sha256": "cfd84a2169ea738801ba81dac7d86bf43fd6a2afb3a2ad480e89e1bd0c6c268f"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_IMPLEMENTATION_20261017.md",
+      "size_bytes": 7629,
+      "sha256": "84f246369ca812e035345c924a41dab1312f6bc04e5834f116450dfe7205c9e8"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_RESULT_20261017.md",
+      "size_bytes": 6854,
+      "sha256": "53df209fc2243ce3afc1a9f0461efbd526b0f3be124ee0e74eb0c600c08109a5"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_RESULT_20261017_ZH.md",
+      "size_bytes": 4976,
+      "sha256": "cbc2d6dbc83b529bb5895b0bff9dd14eadc38ac29e3985caa1e6f320efbd60a2"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_RULES_20261017.md",
+      "size_bytes": 4186,
+      "sha256": "df9125763701f30c2664069738aac1f3fbc3f5998023e87a1325a2a7dabcd49d"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_RULES_20261017_ZH.md",
+      "size_bytes": 3142,
+      "sha256": "00129eac065cfac8d63308d6f99350f205152c338e24ee1d220dddaf54090fe5"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_HUMAN_ACCEPTANCE_RESULT_20261017.md",
+      "size_bytes": 2510,
+      "sha256": "9415500599c1c922bb3a5f7805036990e58915786c5e2ed1b164d7169c3af8b2"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_HUMAN_ACCEPTANCE_RESULT_20261017_ZH.md",
+      "size_bytes": 2169,
+      "sha256": "d480084543b2969bfdab06bd38d0b2eec6c4556d05902fc19d381ec5569b34e3"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_PLAYTEST_RESULT_20261017.md",
+      "size_bytes": 5414,
+      "sha256": "f5f7c77d6e6011012f0a5b9b352530bff2c2c406a1f93555b1e810bc27fafae4"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_PLAYTEST_RESULT_20261017_ZH.md",
+      "size_bytes": 2338,
+      "sha256": "dfa7d20d821cebfbcf2ce5fb41242c989d6fed1cdfdfacbf783a18560691f1b1"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDKIT_MODEL_IMPLEMENTATION_20261017.md",
+      "size_bytes": 5952,
+      "sha256": "518f082d49b92e95ef74b0c0c50d4d6da1a35e661d119cb1040f05d8103d7e02"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDKIT_REAL_REFERENCE_AUDIT_20261017.md",
+      "size_bytes": 5652,
+      "sha256": "cf8449d286380e54820c63eeba54539c7c984e18f180316c5d2e77f07fe75241"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/PARIS_TUTORIAL_POSTBRIDGE_DESIGN_20261012.md",
+      "size_bytes": 14147,
+      "sha256": "ebc57bea98ff83b084435f4c93d69ff6aa6337c47249dcead923faadd5b712a6"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/PARIS_TUTORIAL_POSTBRIDGE_DESIGN_20261012_ZH.md",
+      "size_bytes": 13257,
+      "sha256": "7065a9a6f7c664771f61cd17baa8e139cc3dbeed776a795befdff480c457ba40"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/PLAYER_HEALTH_RECOVERY_DESIGN_20261016.md",
+      "size_bytes": 9997,
+      "sha256": "b056ffc0c6d5a08ebbc069723d7ff16c32272772824261b35fb63047f02c525a"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_RESULT_20261017.md",
+      "size_bytes": 4423,
+      "sha256": "519e6779966e92fb6e133327464c0de54431e86481cc53e2e62aad12e14bd5ca"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_RESULT_20261017_ZH.md",
+      "size_bytes": 2218,
+      "sha256": "f05c1975e60142d103681f5541cdb45d419361757334d7abf2e93204f25068f0"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_SETTINGS_IMPLEMENTATION_20261017.md",
+      "size_bytes": 7326,
+      "sha256": "3ced41a4340414aeedcb5061c95956cd0beb0364ce7e0ec5c326b5e4c4a97b1d"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_SETTINGS_RESULT_20261017.md",
+      "size_bytes": 8816,
+      "sha256": "969021d7353c15f1b4906fcff3696ad567f8ca6d41b1a2a1f1cbabba7dd9d97e"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_SETTINGS_RIGHTS_20261017.md",
+      "size_bytes": 3320,
+      "sha256": "19eecaab5e742016881c634d06b2a4f218a1b4369192aa06a3bb74812a9b83d7"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015.md",
+      "size_bytes": 3670,
+      "sha256": "50e291343fc9b7d82a9c4d82ac56e68bbb6ceced46f0962b0805cf1c46085486"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015_ZH.md",
+      "size_bytes": 2153,
+      "sha256": "34057c200e869ec7b2e45becfaad91eac35d7c9c83b9048af4e101d78eaccff0"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+      "size_bytes": 3682,
+      "sha256": "3e394d3d3e606434dee44f363a720b0520a08e8c3c4c496afb3ab117ab28d33a"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+      "size_bytes": 2800,
+      "sha256": "db0c361f451d9301ce1a5e99f4fdaaab5c538c02181b63f5b6f08fddc6bb33ae"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015.md",
+      "size_bytes": 5244,
+      "sha256": "0a34c309d7bbcd00b9a59b4146637788cc9dba8db6972adb56070d6d74acd4bc"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015_ZH.md",
+      "size_bytes": 2480,
+      "sha256": "e1502fc93e9fa27e25bff7dd79a2c90d29de16bbc562689e0ff1b136088441cd"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+      "size_bytes": 7221,
+      "sha256": "c39bb7d5edbd0310096d4a373bf29403ae52ded095a39008fa3916e6868923c0"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+      "size_bytes": 5982,
+      "sha256": "2dadbdbf2d94f24323aa489e9145c9a63946edd63dd13632b26359aecefdfb95"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015.md",
+      "size_bytes": 2364,
+      "sha256": "0eed980bbbffbdf5bbb16325b2f0f650a8da962bcf8fc41b5ebd8b7eab1c0904"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015_ZH.md",
+      "size_bytes": 1870,
+      "sha256": "ad265161c012bb30dcae2a6b90fdcf7c882f4ee72e7ecca024ef845a3be80708"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+      "size_bytes": 2552,
+      "sha256": "e2cabc886a61bc3584e0e2febf0d9d581fa5340501935e18eb1c63347064e060"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+      "size_bytes": 2620,
+      "sha256": "5d24488c0c6b4a10a3bb3edf79c062f47098b177f22f8c8e7188285c49aa6cd2"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_SOUNDSCAPE_IMPLEMENTATION_20261017.md",
+      "size_bytes": 5527,
+      "sha256": "39201975471ddc7f2064b4ff249247d1f7363fa8e7fb3a58e08fc4c698e89fcc"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_SOUNDSCAPE_RESULT_20261017.md",
+      "size_bytes": 8441,
+      "sha256": "b8e135f403b1858b0285c52f9157dc7928ce7f1f62fda0105f52839ef7947913"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_SOUNDSCAPE_RIGHTS_20261017.md",
+      "size_bytes": 4355,
+      "sha256": "425780776a71ffcd20f125eb88a8fc639cfe4ee63407e6d4d24b4c487de96dc0"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015.md",
+      "size_bytes": 4336,
+      "sha256": "b7de082c31f9133d31257fee2162d1c649fd03b4df84d35214602dc180d762b5"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015_ZH.md",
+      "size_bytes": 2631,
+      "sha256": "d31ae2ce47ccd58364fbb52c41ee874e0ea9a00ac4944efa5ee05f2d40d6fca0"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+      "size_bytes": 5027,
+      "sha256": "2232c00f2d909904eba788c6aa0d8707658a072c32786cc6cfcd395c1c4e9318"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+      "size_bytes": 4070,
+      "sha256": "57d595eea48d7243e7e8c1615a7dfca843086dd2b6fb61b7d18fb4c13073c12b"
+    },
+    {
+      "path": "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012.md",
+      "size_bytes": 8383,
+      "sha256": "c6c2d3c33f5bc7e6f6f363198cf48c6f402029f5710350c2b29d52606a6b6015"
+    },
+    {
+      "path": "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012_ZH.md",
+      "size_bytes": 6562,
+      "sha256": "e395a15396013b3ddc0b09b0a94da7e09842f07d335d9b39f3c14ab5ec7d0a53"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/AMMUNITION_BOX.md",
+      "size_bytes": 1880,
+      "sha256": "4097b034756019546437c55d147adf5c0246d11ef6655018dc752d06e06fccec"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/FRAG_GRENADE.md",
+      "size_bytes": 1691,
+      "sha256": "bd54f67c1fc05c472ee6e3e0cf6ae184844b1feb0fefbced15428f773ad3a0df"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/SMOKE_GRENADE.md",
+      "size_bytes": 1828,
+      "sha256": "b54e0ae5b6c2a3a2552b5f7b4be094629c7d88e6278b41210b2787ba280a7283"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/UNIFORMS_AND_IDENTITY.md",
+      "size_bytes": 1895,
+      "sha256": "d2a447ca206285e17f081a17d7fefb3f25f71af31f5cd3cdd4e926dc51c3959f"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/WEAPONS_AND_PRESENTATION.md",
+      "size_bytes": 1845,
+      "sha256": "7765f0228d60bd142f9ef22946bc0c6d6c263125e526069aca099eba8dd06d44"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/catalog/SOURCES.csv",
+      "size_bytes": 1272,
+      "sha256": "d1499f3211521ba34766d08bb8a8ea148901f8a11a80ef485feaf10ce5ac8a6d"
+    },
+    {
+      "path": "Tools/Integration/ThumbWebDiagnosticV1/render_native.py",
+      "size_bytes": 6096,
+      "sha256": "dcc87af808d26eed7f19a7e0e8a21f689d3db78fd0bc95236bda63dfabc5b39b"
+    },
+    {
+      "path": "Tools/Integration/ThumbWebPolishV1/render_native.py",
+      "size_bytes": 7328,
+      "sha256": "bd070e0dece2e5ccefc3f7e34aa69ad4d5a4e40930616f15668177646c30dc90"
+    },
+    {
+      "path": "Tools/Modeling/Medkit20261017/create_medkit.py",
+      "size_bytes": 19882,
+      "sha256": "73b35f05cc2e61116b81c57832795aa99db32cee09ae4d4901d3d47f62fa2f68"
+    },
+    {
+      "path": "Tools/Modeling/Medkit20261017/validate_medkit.py",
+      "size_bytes": 5361,
+      "sha256": "cfed79987846c5b864185d4b323e2482d63e6092541b64cf359d1fe9dae4959a"
+    },
+    {
+      "path": "Tools/Modeling/MedkitSurfaceStains20261017/validate_stains.py",
+      "size_bytes": 8920,
+      "sha256": "a78cbcb0668a69077f9f569855c0be0c3b986541f1948802b4c1b7a5c08db665"
+    },
+    {
+      "path": "Tools/Modeling/MedkitTextile20261017/validate_textiles.py",
+      "size_bytes": 8457,
+      "sha256": "fa94c89330b14376094696410cfbde21f6682def21e7aba4ae943e5dd0c42c3f"
+    },
+    {
+      "path": "Tools/Modeling/MedkitWeathering20261017/validate_weathering.py",
+      "size_bytes": 8119,
+      "sha256": "0beb0f576170c30a4d0f2aede00bc5e185b717bcebfb13d90dfebe718816249b"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1664,
+      "sha256": "6637ebd1a53f75f55a8ce59d7c70342f6a17f2f15f18a3684a7bbb35b5ee30bb"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 4466,
+      "sha256": "ccca7e1ebf9641110107738b278d33f357af01b5b74b77e3548069be2801966e"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 15730,
+      "sha256": "df90e300a38a0e10e044fa0f0a4a5a967c3c100d391c5a90d6a596508e9830c8"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 7178,
+      "sha256": "00d05ce360b35998c950dcd7a7c22dfb68c45b4c65643f9785c83c9b94281ca8"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 34536,
+      "sha256": "c830f39b3e53dbba4f3cde6a0f81a84b10afde3be83d6e3745b7fcda9021afca"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.cpp",
+      "size_bytes": 24337,
+      "sha256": "2d23fb0af0aff31e0f1ac4473e9e0ead3b96199ee7ccac6b6ae51628549c5eec"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27464,
+      "sha256": "05107f5733ea8a9043815d3e55f101424330679b391765708ca6837a196e5419"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/Project/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/Variants/G1AudioTutorial20261017/SOURCE_MANIFEST.json",
+      "size_bytes": 32667,
+      "sha256": "341e91b9bba31747b3e605af94edddc7687032fd97d39c1849e771b5a49f934c"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1590,
+      "sha256": "b4b595e929f5bda9a864ebcb482128643ea94fe104ac3199c46a7171307cffa1"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 3842,
+      "sha256": "7cf701727ca3ed3be1dfa27c988540d7c205733d2aaf81523c6c87021bd54f94"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 12969,
+      "sha256": "7ac80103188de469805c56160ab2b7f5ded52d8b1e325416db04271840a34e93"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 5357,
+      "sha256": "f7d374ad7241739e946cc62cab84fbef9ba3e8a6c6d8e486564ea8a80130ffb9"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 32617,
+      "sha256": "1c34bcb11c904d1e9950e6fd8ac120cbd9fc9b5b88809f96c689dbd57614ba45"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.cpp",
+      "size_bytes": 23129,
+      "sha256": "cff1010fc59e34db54d0b1097cf2899f53e952acd4606e6da1b9b52b204250a4"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27218,
+      "sha256": "3d511b607636a1bee9a56222d4e700c462ae8ae858eee7c10b726a2f7b6c3c1c"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/Project/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/Variants/G1GrenadePose20261013V8/SOURCE_MANIFEST.json",
+      "size_bytes": 19394,
+      "sha256": "019d1d8b0407f2f85f89b67488bcc817e455a43486b0ff5838b2e4b581b9f902"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1590,
+      "sha256": "b4b595e929f5bda9a864ebcb482128643ea94fe104ac3199c46a7171307cffa1"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 4466,
+      "sha256": "ccca7e1ebf9641110107738b278d33f357af01b5b74b77e3548069be2801966e"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 15730,
+      "sha256": "df90e300a38a0e10e044fa0f0a4a5a967c3c100d391c5a90d6a596508e9830c8"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 7178,
+      "sha256": "00d05ce360b35998c950dcd7a7c22dfb68c45b4c65643f9785c83c9b94281ca8"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 34500,
+      "sha256": "51185f3aef62a0f72556049c1a49497c6a7966f12d78bdaac24166413c6e4905"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.cpp",
+      "size_bytes": 24337,
+      "sha256": "2d23fb0af0aff31e0f1ac4473e9e0ead3b96199ee7ccac6b6ae51628549c5eec"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27464,
+      "sha256": "05107f5733ea8a9043815d3e55f101424330679b391765708ca6837a196e5419"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/Project/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/Variants/G1MedicalTutorial20261017/SOURCE_MANIFEST.json",
+      "size_bytes": 31257,
+      "sha256": "3062e099ffba973ae72c14ea41e2fe1666c529228abaa4724959f5f3958d2075"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1590,
+      "sha256": "b4b595e929f5bda9a864ebcb482128643ea94fe104ac3199c46a7171307cffa1"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 3842,
+      "sha256": "7cf701727ca3ed3be1dfa27c988540d7c205733d2aaf81523c6c87021bd54f94"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 12969,
+      "sha256": "7ac80103188de469805c56160ab2b7f5ded52d8b1e325416db04271840a34e93"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 5357,
+      "sha256": "f7d374ad7241739e946cc62cab84fbef9ba3e8a6c6d8e486564ea8a80130ffb9"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 32617,
+      "sha256": "1c34bcb11c904d1e9950e6fd8ac120cbd9fc9b5b88809f96c689dbd57614ba45"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.cpp",
+      "size_bytes": 23129,
+      "sha256": "cff1010fc59e34db54d0b1097cf2899f53e952acd4606e6da1b9b52b204250a4"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27218,
+      "sha256": "3d511b607636a1bee9a56222d4e700c462ae8ae858eee7c10b726a2f7b6c3c1c"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/Variants/G1PlayerDamageFeedback20261014/SOURCE_MANIFEST.json",
+      "size_bytes": 20117,
+      "sha256": "94ebc3e09b158d9dbfcaf1b50cbc162d3192405ffa605c2e653c4405130078cd"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1590,
+      "sha256": "b4b595e929f5bda9a864ebcb482128643ea94fe104ac3199c46a7171307cffa1"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 3842,
+      "sha256": "7cf701727ca3ed3be1dfa27c988540d7c205733d2aaf81523c6c87021bd54f94"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 12969,
+      "sha256": "7ac80103188de469805c56160ab2b7f5ded52d8b1e325416db04271840a34e93"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 5357,
+      "sha256": "f7d374ad7241739e946cc62cab84fbef9ba3e8a6c6d8e486564ea8a80130ffb9"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 32617,
+      "sha256": "1c34bcb11c904d1e9950e6fd8ac120cbd9fc9b5b88809f96c689dbd57614ba45"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.cpp",
+      "size_bytes": 24233,
+      "sha256": "2cf492267e986b7e6e91ac0e25e66671cbfa0b5a13af93b185617586dfef48dc"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27218,
+      "sha256": "3d511b607636a1bee9a56222d4e700c462ae8ae858eee7c10b726a2f7b6c3c1c"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/Project/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/Variants/G1ProneObserver20261014/SOURCE_MANIFEST.json",
+      "size_bytes": 21068,
+      "sha256": "7b8f9e79c6440d4ba82094ef3e0a9bd6631d15c4f64a1cde6f751b101f286053"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/Project/Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1590,
+      "sha256": "b4b595e929f5bda9a864ebcb482128643ea94fe104ac3199c46a7171307cffa1"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 3842,
+      "sha256": "7cf701727ca3ed3be1dfa27c988540d7c205733d2aaf81523c6c87021bd54f94"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 12969,
+      "sha256": "7ac80103188de469805c56160ab2b7f5ded52d8b1e325416db04271840a34e93"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 5357,
+      "sha256": "f7d374ad7241739e946cc62cab84fbef9ba3e8a6c6d8e486564ea8a80130ffb9"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 31460,
+      "sha256": "d0293575b2d7dced3f74f5c7e904f94cc65d613bbc894885013e0b547fb3da95"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/Project/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27218,
+      "sha256": "3d511b607636a1bee9a56222d4e700c462ae8ae858eee7c10b726a2f7b6c3c1c"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/Project/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/Variants/G1SleeveWorkspace20261012/SOURCE_MANIFEST.json",
+      "size_bytes": 17452,
+      "sha256": "aee85c67c53b3e6d2b90131de8974c2f47733c2cbf6a1ed2057c9f5caf74a79e"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1590,
+      "sha256": "b4b595e929f5bda9a864ebcb482128643ea94fe104ac3199c46a7171307cffa1"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 3842,
+      "sha256": "7cf701727ca3ed3be1dfa27c988540d7c205733d2aaf81523c6c87021bd54f94"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 14082,
+      "sha256": "9a35aa72452637c4069461072ddbfcb3153cfa41f95306b1509fc0ede7026ead"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 5357,
+      "sha256": "f7d374ad7241739e946cc62cab84fbef9ba3e8a6c6d8e486564ea8a80130ffb9"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 33252,
+      "sha256": "bb8c1a3a95d252b99cb21f938de65f3fc930856d31872504400c99e9a5a9622d"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.cpp",
+      "size_bytes": 24337,
+      "sha256": "2d23fb0af0aff31e0f1ac4473e9e0ead3b96199ee7ccac6b6ae51628549c5eec"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27464,
+      "sha256": "05107f5733ea8a9043815d3e55f101424330679b391765708ca6837a196e5419"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/Project/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/Variants/G1ThumbPolish20261017/SOURCE_MANIFEST.json",
+      "size_bytes": 28330,
+      "sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Config/DefaultEngine.ini",
+      "size_bytes": 3283,
+      "sha256": "f329466a1c842dcc09bfa9c81a8579e5785b8334c9a6147886590eefb3156483"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentAudio.inl",
+      "size_bytes": 1590,
+      "sha256": "b4b595e929f5bda9a864ebcb482128643ea94fe104ac3199c46a7171307cffa1"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentSmoke.inl",
+      "size_bytes": 3842,
+      "sha256": "7cf701727ca3ed3be1dfa27c988540d7c205733d2aaf81523c6c87021bd54f94"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisEquipmentWorld.inl",
+      "size_bytes": 14082,
+      "sha256": "9a35aa72452637c4069461072ddbfcb3153cfa41f95306b1509fc0ede7026ead"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisGrenadeMesh.inl",
+      "size_bytes": 5357,
+      "sha256": "f7d374ad7241739e946cc62cab84fbef9ba3e8a6c6d8e486564ea8a80130ffb9"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTacticalEquipment.cpp",
+      "size_bytes": 33009,
+      "sha256": "c5a6cfe1075c09fe94b4b85e0726f00595314af470e776a95e7683b78d0fe0c5"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Plugins/ParisBridgeMissionV1/Source/ParisBridgeMissionV1/Private/ParisTraversal.cpp",
+      "size_bytes": 24256,
+      "sha256": "f83f7c273d72b2e49fcf79a6703987da1ec4a341c0e6673743bac021e58955e3"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Plugins/ParisMuzzleFlashV1/Source/ParisMuzzleFlashV1/Private/ParisMuzzleFlashV1.cpp",
+      "size_bytes": 27464,
+      "sha256": "05107f5733ea8a9043815d3e55f101424330679b391765708ca6837a196e5419"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/Project/Plugins/ParisNPCGripV15/Source/ParisNPCGripV15/Private/ParisNPCGripV15.cpp",
+      "size_bytes": 15581,
+      "sha256": "6710fc9a3371ddd2ab2571abf44eafd1924cb6305c7bc3627bd84dff750370f2"
+    },
+    {
+      "path": "Unreal/Variants/G1TutorialCopy20261015/SOURCE_MANIFEST.json",
+      "size_bytes": 26178,
+      "sha256": "3e94da0205d8bca50b4ba459bc55b836f912c728c941b8cc82e6e5102064f11d"
+    },
+    {
+      "path": "tmp/g1-medical-guidance-music-playtest-20261017/VISUAL_REVIEW.json",
+      "size_bytes": 8656,
+      "sha256": "7ef9efcc290f790c1c5fdc82e659078297596ddac6a266287be5ac90bf6739db"
+    },
+    {
+      "path": "tmp/g1-thumb-polish-playtest-20261017/VISUAL_REVIEW.json",
+      "size_bytes": 8482,
+      "sha256": "a72ebaa416dba943370d69e90524475f25e3dbbb4e73e90f61a212db766ca191"
+    }
+  ],
+  "verification": {
+    "method": "Pinned-host authenticated SFTP full final object and release-manifest SHA256/size readback,20October2026",
+    "coursework_delivery": false,
+    "second_machine": "pending"
+  },
+  "scope": "Read-only selected registry context, not a source145 replacement or old Game/Editor runtime. No user database/session/key/media/native-cover cache, unresolved research images or other commercial intake."
+}

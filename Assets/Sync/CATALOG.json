@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T20:28:02.082961-04:00",
+  "updated_at": "2026-10-20T09:15:24.190398-04:00",
   "policy": "Only these active manifests select private SFTP bytes; Git stores source/config/docs/hash metadata.",
   "active_manifests": [
     {
@@ -182,6 +182,24 @@
       "file_count": 48,
       "size_bytes": 88583172,
       "release_manifest": "/releases/paris-tutorial-20261017-v1/paris-tutorial-native-overlay.json"
+    },
+    {
+      "asset_id": "paris-npc-survey-rasters",
+      "asset_version": "paris-npc-survey-20261020-v2",
+      "path": "Assets/Sync/manifests/paris-npc-survey-rasters.json",
+      "sha256": "634ada766167f9d9521d1ec9a93d86f300ef840d05c560e5e0b353870b3839fa",
+      "file_count": 17,
+      "size_bytes": 373420,
+      "release_manifest": "/releases/paris-npc-survey-20261020-v2/paris-npc-survey-rasters.json"
+    },
+    {
+      "asset_id": "paris-workbench-restore-context",
+      "asset_version": "paris-workbench-context-20261020-v1",
+      "path": "Assets/Sync/manifests/paris-workbench-restore-context.json",
+      "sha256": "747b4c35b25cb500b4ec5a80f0bb129e046096e595cc90f3b2b2ce7a443db53f",
+      "file_count": 1,
+      "size_bytes": 2805246,
+      "release_manifest": "/releases/paris-workbench-context-20261020-v1/paris-workbench-restore-context.json"
     }
   ],
   "superseded_provenance_only": [

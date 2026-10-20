@@ -32,7 +32,7 @@
     },
     {
       "path": "Assets/Sync/CATALOG.json",
-      "sha256": "4b4aeb3458c9e3ad82a88688a7a1a30c8d70b95ece2e791f3c9a204c622a7fbf"
+      "sha256": "f13ba43d5cce9b6b4ec56e1e39486d107ad63edcb2c36646099b42d2cde7b919"
     },
     {
       "path": "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
@@ -64,7 +64,7 @@
     },
     {
       "path": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
-      "sha256": "86e05a92832a3d4920e0c055d7525637a9e188c9608268e0d4973026cf4ece05"
+      "sha256": "bc2c29e3aed08c8f21a0b51b79093e1dfcfa813f8b8a6ab021a10f3670cbcd76"
     },
     {
       "path": "Docs/Development/CURRENT_EQUIPMENT_INPUT_REVIEW.json",
@@ -108,7 +108,7 @@
     },
     {
       "path": "Docs/Development/CURRENT_NPC_AI_INTERACTIVE.json",
-      "sha256": "443812819e544f375db5162af383a490ba83e9720f3531aa8d01b17b77c25f27"
+      "sha256": "ba23b827366504d06ff8a673a15812546bfa6b8c50cccb4026d206b8725bc359"
     },
     {
       "path": "Docs/Development/CURRENT_NPC_AI_MAP_SKETCH.json",
@@ -184,7 +184,7 @@
     },
     {
       "path": "Docs/Development/CURRENT_TUTORIAL_RELEASE.json",
-      "sha256": "86e05a92832a3d4920e0c055d7525637a9e188c9608268e0d4973026cf4ece05"
+      "sha256": "bc2c29e3aed08c8f21a0b51b79093e1dfcfa813f8b8a6ab021a10f3670cbcd76"
     },
     {
       "path": "Docs/Development/CURRENT_TUTORIAL_REVIEW.json",
@@ -212,7 +212,7 @@
     },
     {
       "path": "Docs/Development/GERMAN_NPC_FORMAL_V14_RESULT_20261006.md",
-      "sha256": "d9fda04d916629ea3d95cf52be89e2b83c02957a5f30899ca8899675edaa036b"
+      "sha256": "70a788eb682a45d9538d1688491be4b498e9a46856d757d75420a4cdea211257"
     },
     {
       "path": "Docs/Development/AssetWorkbenchV1/CITY_MAP_ASSET_USAGE_20261011_ZH.md",
@@ -228,7 +228,7 @@
     },
     {
       "path": "Docs/Development/ALLIED_NPC_FORMAL_V18_RESULT_20261006.md",
-      "sha256": "dab96afa6e0959e41ecbaf546af9e2abbc403620541a796444facdd9b8b03d7f"
+      "sha256": "23df784e13ebd1cfd988671a79383a6db17fb6e645072e5ef8b2f174f48117a7"
     },
     {
       "path": "Tools/Modeling/Medkit20261017/create_medkit.py",
@@ -280,7 +280,7 @@
     },
     {
       "path": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_GAMEPLAY_DESIGN_20261010_ZH.md",
-      "sha256": "59b7574ba42794cf9e2a1a931f1ab9da82eb0c1d86c4ced104a7a542b241db97"
+      "sha256": "8b3161abe739a731968e7ee11a83982097ea73d05162376becc31c438e98dec4"
     },
     {
       "path": "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012_ZH.md",
@@ -520,7 +520,7 @@
     },
     {
       "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_IMPLEMENTATION_20261017.md",
-      "sha256": "dd55c2ec76a5f39424b6485fd3d847b02c06e5b988c9ec820e30295b89a11de5"
+      "sha256": "25c9496cbe8b718544136290c834d28b4f0a47bdbbbb2c8dcd35df1033ed31d0"
     },
     {
       "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_RESULT_20261017.md",
@@ -532,11 +532,11 @@
     },
     {
       "path": "Docs/Development/MissionLoopV1/TUTORIAL_V1_RELEASE_RESULT_20261017.md",
-      "sha256": "1debdbb825ab6d18717e3b11961a38855a23fcaa784a1a5b31231b7a7f9bd0a5"
+      "sha256": "d5c3e16d734f10dc7177515b7eeecfabe47313e8bd9ab02a7a9ec7de99870e2c"
     },
     {
       "path": "Docs/Development/MissionLoopV1/TUTORIAL_V1_RELEASE_RESULT_20261017_ZH.md",
-      "sha256": "bf995ab5f573a7f86ce73e4e16d017116fcb1852c2ec262bb4ce3a1dfb199644"
+      "sha256": "957d665dd9d9fd6d62a573548a9f979aedab69575798255570cc002023be4658"
     },
     {
       "path": "Docs/Development/MissionLoopV1/TUTORIAL_V1_RELEASE_IMPLEMENTATION_20261017.md",
@@ -728,55 +728,55 @@
     },
     {
       "path": "HistoricalReference/Paris1944/CONTEXT.md",
-      "sha256": "b31366e911e1711c1df39210c4690146731989578623fd134d05aed0e4a9047f"
+      "sha256": "ed10381164a4a95a13c8a342f168f6632c58ea35a35c0ae9b6b2bac680f9687c"
     },
     {
       "path": "HistoricalReference/Paris1944/RESEARCH_GAPS.md",
-      "sha256": "c5959c7a446a3e7e790db915c58774d7bba59c86c4f53598484a9c441ebebd56"
+      "sha256": "eadabb3fec718fd88319be987dc82be66e8903c8fa88d97062e8d1c3521b2fd6"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleFineTexture_v15/reference_notes.md",
-      "sha256": "97573a8d2b13d4b152783bc495fb2b73ca90c6c91b23a5729cfaa3c95d2cd7ee"
+      "sha256": "91ffca59fef1619a15c943bcf57d6820982878925fbb49267287d0941dbd6fb5"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleFinishV7/reference_notes.md",
-      "sha256": "b46a1104eebc27699f19a1c2de322552ccca53e5fcfb256dadb125a8fae61a71"
+      "sha256": "888ee18fc2e732021f82970d85dd9d5d12bc3f56b56787358259005d91fb47bf"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleManualV9/reference_notes.md",
-      "sha256": "2f76127e9418a1aeec3ac71ae3a3b1bdee5df01c5d47d018bfede8c6c58a028f"
+      "sha256": "7f1907e3b648d4949eeaa814d2fd9d0f3cc09aab077bf33c2beb72e0fd062c4f"
     },
     {
       "path": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
-      "sha256": "0e9791986210b437a749a57419d512e166a75fcf1f4d4bee8e848b2887daf643"
+      "sha256": "2e268465dcc421a7638bcfe16b535d17ddf64fce88d8358be2a9eb562a88de85"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleSPR_v10/reference_notes.md",
-      "sha256": "0fbd37d5db0ffa540dc9dcabbdb433c2cc3dfe3e3b0f1d3f4b8c5c848010b755"
+      "sha256": "875b0f9e150878182892a10e13344dfae19abf9865ed3338cdf3e75606900388"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleSPR_v11/reference_notes.md",
-      "sha256": "f05eaa1d34f948950168e99588262a47fa7c1919a4181214f336e9ff37a679b7"
+      "sha256": "78adb6bed173739662f28986e7733289d2717bd818452e74a649aa683604e87f"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleSurfaceJointV6/reference_notes.md",
-      "sha256": "fbffced68e0ffa4b8167581c20eab70f4751bceed2013fc30f515fe217ef0112"
+      "sha256": "fbef56221c03b8d529bfc909384c233e3220436a2f0036f22c46cf82c470f51f"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleTopologyV8/reference_notes.md",
-      "sha256": "cbc4151bf393ebdccdf587279610893669532d6f7027b500d8a7b52ea7b450ec"
+      "sha256": "cea5b2a38bd651bee8c38d5deee3f0136b95845e46a040b6b17d8043c43c162f"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/reference_notes.md",
-      "sha256": "719c80fce6aeb371641646e957da83af5c62ee7c4a019d6ed6fa6357479fd92d"
+      "sha256": "6124803a1276d3a61b7870f18542d38dd9adcc590ff966c7228c3e1c82826c1c"
     },
     {
       "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/reference_notes.md",
-      "sha256": "3d371b0c562c34747d352ca5ab64c44a310add6c4a23988f326bc6e0ea3c4723"
+      "sha256": "3772b197175ffb8597b1947b85ab12eabb43b4654a9e4aecffcea99cc75838d9"
     },
     {
       "path": "Tools/AssetCreation/PressureMineV1/reference_notes.md",
-      "sha256": "caa56bb7cb59288b2d57bdb3f406bedf357d3fc745999f68304bd20300d4742e"
+      "sha256": "fba621e81a53c6e3d73e9513e90a7a7f559ffcb8c0e38d616949d0ea326beb3e"
     },
     {
       "path": "Docs/Development/MissionLoopV1/MEDKIT_REAL_REFERENCE_AUDIT_20261017.md",
@@ -808,7 +808,7 @@
     },
     {
       "path": "HistoricalReference/NormandyContext/SOURCES.md",
-      "sha256": "3833a14e226692d907f4ff363a2746445653a14e88129a804a8b10f1aacfdbfa"
+      "sha256": "8aad8293dfd54a89e9367c4bc87a23cbbee08c463d2f40f69ca271b278ec09bd"
     },
     {
       "path": "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg",

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "asset_id": "paris-npc-survey-rasters",
+  "asset_version": "paris-npc-survey-20261020-v2",
+  "owner": "Yupu Guo",
+  "published_at": "2026-10-20T09:05:45.864560-04:00",
+  "source": "Exact independently audited derived Paris survey masks used by the selected 18 October abstract 2D NPC simulation",
+  "license_record": "Assets/Sync/RIGHTS.md#france-liberation-environment",
+  "sharing_status": "owner_attested_private_three_member_original_and_derivative_sharing",
+  "recipients": [
+    "Yupu Guo",
+    "Yuqi Pu",
+    "Jingdi Wu"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/FIGURE_AUDIT.json",
+      "storage": "sftp",
+      "size_bytes": 174199,
+      "sha256": "01a62558d578303418c358521124ffc1aed535b3eca839b7ca1732cae3899f9f",
+      "remote_path": "/objects/sha256/01/01a62558d578303418c358521124ffc1aed535b3eca839b7ca1732cae3899f9f"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/saved/L0_candidate_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 5187,
+      "sha256": "534c7f428b27126671743bb2a4a074cdd3614c40a5baca7f0f2876dcd33628a2",
+      "remote_path": "/objects/sha256/53/534c7f428b27126671743bb2a4a074cdd3614c40a5baca7f0f2876dcd33628a2"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/saved/L0_status_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 15742,
+      "sha256": "84bc9590bd226adce396d2dd7126afc8185b783e339c9a6eaafa5b4bc1b5a345",
+      "remote_path": "/objects/sha256/84/84bc9590bd226adce396d2dd7126afc8185b783e339c9a6eaafa5b4bc1b5a345"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/saved/L1_candidate_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 2395,
+      "sha256": "07e8eb9382c467344cc28d255385c0fbbb2d283ace4aab466b7149ef83932514",
+      "remote_path": "/objects/sha256/07/07e8eb9382c467344cc28d255385c0fbbb2d283ace4aab466b7149ef83932514"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/saved/L1_status_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 7717,
+      "sha256": "74729f5d746107ed6a6fa0b8551e0ac6c9ebe5a39be8fb4af6b81868b4709a83",
+      "remote_path": "/objects/sha256/74/74729f5d746107ed6a6fa0b8551e0ac6c9ebe5a39be8fb4af6b81868b4709a83"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/saved/L2_candidate_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 590,
+      "sha256": "7ebbc91f0b202ca29b27f2de6400d75437ac5d4d99a77f0344582c2f05e06347",
+      "remote_path": "/objects/sha256/7e/7ebbc91f0b202ca29b27f2de6400d75437ac5d4d99a77f0344582c2f05e06347"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/saved/L2_status_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 4767,
+      "sha256": "fd54e8b36e0e026e3210817f3c07bbc25d43c9bb6fc7db27cb7601d1ae644793",
+      "remote_path": "/objects/sha256/fd/fd54e8b36e0e026e3210817f3c07bbc25d43c9bb6fc7db27cb7601d1ae644793"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L0_candidate_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 27434,
+      "sha256": "fca9b4fe1c45be0229f02a3b3b381c319cbdd6aade79b06aaa31e23460f4d02e",
+      "remote_path": "/objects/sha256/fc/fca9b4fe1c45be0229f02a3b3b381c319cbdd6aade79b06aaa31e23460f4d02e"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L0_status_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 63349,
+      "sha256": "ac67d42d4350142fc1a2cece3c9206bf4eff18e9f701a7bbc8d13bfa693a4fdb",
+      "remote_path": "/objects/sha256/ac/ac67d42d4350142fc1a2cece3c9206bf4eff18e9f701a7bbc8d13bfa693a4fdb"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L1_candidate_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 14526,
+      "sha256": "120769c4424a807c99adb2b7c6909cd61925de46c4dc8de78a4aec9799429698",
+      "remote_path": "/objects/sha256/12/120769c4424a807c99adb2b7c6909cd61925de46c4dc8de78a4aec9799429698"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L1_status_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 29147,
+      "sha256": "a16c00360dbb5fff6a2ba6611e0056fe09044ba892e3aba06b94830c51de8813",
+      "remote_path": "/objects/sha256/a1/a16c00360dbb5fff6a2ba6611e0056fe09044ba892e3aba06b94830c51de8813"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L2_candidate_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 4909,
+      "sha256": "40cd1fc57dd637d0c2d7f3ca878a3a66683e904c6f991d2681f886c35d15e168",
+      "remote_path": "/objects/sha256/40/40cd1fc57dd637d0c2d7f3ca878a3a66683e904c6f991d2681f886c35d15e168"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L2_status_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 11993,
+      "sha256": "aa9d4345b426723ec9815ab380da6acd4a8c898f6c59208a2077c00886894638",
+      "remote_path": "/objects/sha256/aa/aa9d4345b426723ec9815ab380da6acd4a8c898f6c59208a2077c00886894638"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L3_candidate_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 984,
+      "sha256": "d7d87284db29a194eb944eb525f3752b351843bbd243e3ba2991f051d09d7fed",
+      "remote_path": "/objects/sha256/d7/d7d87284db29a194eb944eb525f3752b351843bbd243e3ba2991f051d09d7fed"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L3_status_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 5744,
+      "sha256": "962c03cd08d8282cf16419fbb7223456a2413371ed4b13f9d4e03b8ffcb8d0d9",
+      "remote_path": "/objects/sha256/96/962c03cd08d8282cf16419fbb7223456a2413371ed4b13f9d4e03b8ffcb8d0d9"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L4_candidate_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 293,
+      "sha256": "f10acc73105899b68a11d6e5ed369ef0158e68c723ca433d03d9ae9aa56c5799",
+      "remote_path": "/objects/sha256/f1/f10acc73105899b68a11d6e5ed369ef0158e68c723ca433d03d9ae9aa56c5799"
+    },
+    {
+      "path": "tmp/map-survey-overnight-20261013/collections/complete_v3/figures_v1/bounded_expanded/L4_status_25cm.png",
+      "storage": "sftp",
+      "size_bytes": 4444,
+      "sha256": "5476f84c86b7cde89e944b312582aa32cc53a6abba9692fe5a09af6705cde12a",
+      "remote_path": "/objects/sha256/54/5476f84c86b7cde89e944b312582aa32cc53a6abba9692fe5a09af6705cde12a"
+    }
+  ],
+  "file_count": 17,
+  "size_bytes": 373420,
+  "verification": {
+    "method": "Pinned-host authenticated SFTP full final object and release-manifest SHA256/size readback,20October2026",
+    "second_machine": "pending",
+    "coursework_delivery": false
+  },
+  "scope": "Eight saved/bounded_expanded candidate masks, eight status images used by the existing API, and their unmodified original audit. Unknown remains blocked. Not full-map/UE travel/navmesh acceptance; no new survey."
+}

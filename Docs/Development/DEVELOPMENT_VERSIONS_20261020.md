@@ -1,5 +1,7 @@
 # Selected development versions — 20 October 2026
 
+External resources: [selected restoration guide](SELECTED_DEVELOPMENT_RESTORE_20261020.md) / [中文](SELECTED_DEVELOPMENT_RESTORE_20261020_ZH.md). This later reconciliation supplies the exact private NPC rasters and first-start registry context; use its authenticated verification result rather than the earlier publication-only availability limitation below. Tutorial1.0/source145 remains selected.
+
 This inventory accompanies explicitly authorized development Git collaboration. It does not submit coursework, publish new binary assets, build a Game, promote a candidate or expand any human acceptance scope.
 
 | Function | Selected version and authority | Current boundary |
