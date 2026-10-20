@@ -1,0 +1,147 @@
+{
+  "status": "local_paris_raster_cover_maneuver_verified_human_design_review_pending",
+  "date": "2026-10-18",
+  "entry_type": "native_asset_workbench_route",
+  "entry": "http://127.0.0.1:8766/npc-simulation",
+  "sidebar": "NPC交互 / NPC interactions",
+  "source": "Tools/AssetWorkbench/app/npc_engine.py",
+  "tactics": "Tools/AssetWorkbench/app/npc_tactics.py",
+  "frontend": "Tools/AssetWorkbench/frontend/src/NpcSimulation.tsx",
+  "implementation": "Docs/Development/NPCAIMapMainV1/COVER_MANEUVER_IMPLEMENTATION_20261018.md",
+  "result": "Docs/Development/NPCAIMapMainV1/COVER_MANEUVER_RESULT_20261018.md",
+  "result_zh": "Docs/Development/NPCAIMapMainV1/COVER_MANEUVER_RESULT_20261018_ZH.md",
+  "source_handoff": "tmp/npc-ai-cover-bounds-20261018/work_v1/SOURCE_HANDOFF.json",
+  "source_handoff_sha256": "495c1c18ea221abf458374991328e29f4e4f1a6ec90ebc2897508400e6d45489",
+  "parent_source_handoff": "tmp/npc-ai-squad-20261018/work_v1/SOURCE_HANDOFF.json",
+  "parent_source_handoff_sha256": "15469ba9633ae691c4c7802e28218ae907328207d4186666ab28cfdd64b34b12",
+  "backend_tests": 124,
+  "client_checks": 43,
+  "installed_browser_checks": 66,
+  "trace_frames": 104,
+  "selected_browser_run": "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-maneuver",
+  "selected_previews": [
+    "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-maneuver/corner-evidence-preview.jpg",
+    "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-maneuver/swapped-cover-preview.jpg",
+    "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-maneuver/flank-roles-preview.jpg",
+    "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-maneuver/divided-search-preview.jpg",
+    "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-maneuver/compact-preview.jpg"
+  ],
+  "normal_service_pid": 44588,
+  "human_manually_started_service": true,
+  "launch_rejected_by_policy": true,
+  "restart_authorized": true,
+  "human_saved_browser_storage_untouched": true,
+  "preservation_evidence": "tmp/npc-ai-cover-bounds-20261018/work_v1/PRESERVATION_AFTER_START.json",
+  "geometry": "audited_Paris_bounded_expanded_L0_abstract_2D_navigation_and_sight",
+  "map_scene": {
+    "scope": "bounded_expanded",
+    "layer": 0,
+    "world_bounds_local_m": [
+      0,
+      0,
+      180,
+      240
+    ],
+    "cell_m": 0.25,
+    "sha256": "fca9b4fe1c45be0229f02a3b3b381c319cbdd6aade79b06aaa31e23460f4d02e",
+    "black_policy": "blocked_including_unknown_abstract_2D_only",
+    "path_node_budget": 12000
+  },
+  "behavior_tree": {
+    "source": "Tools/AssetWorkbench/app/npc_behavior_tree.py",
+    "frontend": "Tools/AssetWorkbench/frontend/src/NpcBehaviorTree.tsx",
+    "schema": "paris.npc.behavior-tree.v1",
+    "executable": true,
+    "history_traces": true,
+    "decision_interval_seconds": 0.5,
+    "UE_asset_created": false
+  },
+  "map_gestures": {
+    "background_left_hold_drag": true,
+    "hold_ms": 240,
+    "pan_threshold_css_px": 5,
+    "live_and_review_pan": true,
+    "short_click_walk_place": true,
+    "actor_drag_place": true,
+    "cancel_and_capture_loss_clear": true
+  },
+  "presentation": {
+    "physics_samples_seconds": 0.1,
+    "transport_batch_seconds": 0.5,
+    "recorded_samples_only": true,
+    "paint_interval_median_ms": 8.300000011920929,
+    "paint_interval_p95_ms": 8.600000023841858,
+    "draw_p95_ms": 0.800000011920929,
+    "continuous_paint_poses": 324,
+    "continuous_pose_checks": 3882,
+    "performance_evidence": "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-max-performance.json",
+    "controls_evidence": "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-controls.json"
+  },
+  "tactical_squads": {
+    "allied_roles": [
+      "follow",
+      "cover_wings",
+      "scout_plus_wing"
+    ],
+    "independent_living_allies": true,
+    "own_sight_required_for_NPC_fire": true,
+    "hit_and_casualty_reports_through_occlusion": true,
+    "frozen_report_not_hidden_target_lock": true,
+    "distinct_investigation_sectors": true,
+    "bounded_search_without_hit_timer_reset": true,
+    "health_ammo_cooldown_death": true,
+    "preset": "squad",
+    "default_search_seconds": 12,
+    "default_tactical_coordination": 1,
+    "basic_role_comparison": true,
+    "actual_obstacle_hide_peek_geometry": true,
+    "actual_arrival_alternating_bounds": true,
+    "own_observer_required_for_live_flanks": true,
+    "opposite_complete_flank_approaches": true,
+    "lost_contact_divided_search_sectors": true,
+    "finite_flank_deadline_seconds": [
+      8,
+      18
+    ],
+    "geometry_path_and_wait_gates_linked_to_map_tree": true
+  },
+  "parameter_schema_source": "Tools/AssetWorkbench/app/npc_parameters.py",
+  "linked_workspace": {
+    "map_tree_side_by_side": true,
+    "shared_parameters": true,
+    "history_synchronized": true,
+    "report_shot_goal_and_gate_evidence": true,
+    "desktop_verified": [
+      [
+        1480,
+        1050
+      ],
+      [
+        1280,
+        800
+      ],
+      [
+        900,
+        900
+      ]
+    ]
+  },
+  "sight_browser_evidence": "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-sight/SIGHT_BROWSER_RESULT.json",
+  "search_browser_evidence": "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-search/SEARCH_BROWSER_RESULT.json",
+  "retained_search_result": "Docs/Development/NPCAIMapMainV1/SEARCH_RESULT_20261018.md",
+  "retained_search_source_handoff": "tmp/npc-ai-search-20261018/work_v1/SOURCE_HANDOFF.json",
+  "algorithm_authority": "Docs/Development/CURRENT_NPC_AI_CANDIDATE.json",
+  "human_design_acceptance": "pending",
+  "measured_Paris_navigation_or_LOS": false,
+  "UE_connected": false,
+  "UE_source_native_build_or_save_written": false,
+  "map_survey_resumed": false,
+  "coursework_uploaded": false,
+  "Git_SFTP_published": false,
+  "maneuvers": "Tools/AssetWorkbench/app/npc_maneuvers.py",
+  "failures": "Docs/Development/NPCAIMapMainV1/COVER_MANEUVER_FAILURES_20261018.md",
+  "service_already_externally_stopped_before_task_probe": true,
+  "normal_process_terminated_by_this_task": false,
+  "old_round_continuity": "unavailable: normal service already stopped before first probe",
+  "maneuver_browser_evidence": "tmp/npc-ai-cover-bounds-20261018/work_v1/installed-maneuver/MANEUVER_BROWSER_RESULT.json"
+}

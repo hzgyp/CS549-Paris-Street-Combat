@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>巴黎 · 二维交互设计板</title>
+<style>
+:root{color-scheme:dark;--bg:#10171e;--panel:#1b2631;--fg:#eaf0f4;--muted:#abc0d0;--line:#3b5062;--ally:#5ed5ff;--enemy:#ffae79;--player:#c5ef7b;--sketch:#d7a5ff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1550px;margin:auto;padding:22px}h1{font-size:25px;margin:0}h2{font-size:17px;margin:16px 0 8px}p{margin:6px 0 12px;color:var(--muted)}.tag{font-size:13px;color:var(--player);background:var(--panel);padding:3px 9px;display:inline-block;margin:8px 8px 0 0}.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin:18px 0}label{display:grid;gap:4px;min-width:0}select,input,textarea,button{font:inherit;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:7px;max-width:100%;min-width:0}button{cursor:pointer}select{width:100%}textarea{width:100%;resize:vertical}.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px}.grid>*{min-width:0}.map-panel{border:1px solid var(--line);border-radius:10px;overflow:hidden}canvas{display:block;width:100%;height:min(70vh,760px);min-height:450px;background:#19232e;touch-action:none}.mapfooter{padding:10px 14px;background:var(--panel);font-size:13px}.legend{display:flex;gap:14px;flex-wrap:wrap}.bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0}.seek{flex:1;min-width:160px}input[type=range]{width:100%;padding:0;accent-color:var(--ally)}.notice{border-left:3px solid var(--sketch);background:var(--panel);padding:10px 12px;font-size:13px;color:var(--muted)}.details{display:grid;grid-template-columns:100px 1fr;gap:6px;font-size:14px}.details dd{margin:0;overflow-wrap:anywhere}.details dt{color:var(--muted)}.state{font-size:22px;color:var(--ally)}.small{font-size:13px;color:var(--muted)}.events{padding-left:20px;max-height:170px;overflow:auto;font-size:13px}.events li{margin:5px 0}.hidden{display:none!important}.row{display:grid;grid-template-columns:1fr 1fr;gap:8px}table{border-collapse:collapse;width:100%;font-size:12px}td,th{padding:5px 4px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--muted)}.footer{margin-top:20px;border-top:1px solid var(--line);padding-top:12px;font-size:13px;color:var(--muted)}a{color:var(--ally)}input[type=checkbox]{accent-color:var(--ally)}.toggle{display:flex;align-items:center;gap:6px}.action{background:#244659}.subtools{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}#coordinate{font-variant-numeric:tabular-nums}.error{color:#ffae79}#loading{color:var(--player)}@media(max-width:950px){.grid{grid-template-columns:1fr}canvas{height:62vh;min-height:380px}main{padding:14px}.toolbar>label{max-width:100%;flex:1 1 140px}.details{grid-template-columns:110px 1fr}}
+</style></head><body><main>
+<h1>巴黎 · 二维交互设计板</h1>
+<p>先把“谁看见谁、怎么响应、两名队友怎样配合”表达清楚，再逐步接入真实场景。</p>
+<span class="tag">实测黑白底图 · 25 cm / 像素</span><span class="tag">● P 玩家　● A 盟军　▲ G 德军</span>
+<div class="toolbar">
+<label>工作模式<select id="mode"><option value="replay">交互回放投影</option><option value="layout">自由摆位与意图</option></select></label>
+<label>地图范围<select id="scope"><option value="bounded_expanded">临时扩展测绘</option><option value="saved">已保存导航测绘</option></select></label>
+<label>表面序号<select id="layer"></select></label>
+<label>底图显示<select id="display"><option value="candidate">原黑白候选图</option><option value="status">测绘状态图</option></select></label>
+<button id="whole">全图</button><button id="focus" class="action">聚焦交互</button>
+</div>
+<div class="grid"><section>
+<div class="map-panel"><canvas id="map" width="1100" height="760" aria-label="Paris surveyed map with editable 2D interaction sketch"></canvas><div class="mapfooter"><div class="legend"><span style="color:var(--player)">● 玩家</span><span style="color:var(--ally)">● 盟军</span><span style="color:var(--enemy)">▲ 德军</span><span style="color:var(--sketch)">虚线框/遮挡 = 交互草图</span></div><div id="coordinate">准备底图…</div></div></div>
+<p class="small" id="help">拖动空白平移，滚轮缩放；拖动紫色十字可摆放整个交互。旋转和位置只改变设计投影。</p>
+<div id="replayControls"><div class="bar"><label class="seek">交互场景<select id="scenario"></select></label><button id="play">播放</button><button id="reset">起点</button><label>速度<select id="speed"><option>0.5</option><option selected>1</option><option>2</option><option>4</option></select></label></div><div class="bar"><span id="time">0.0 s</span><label class="seek"><input id="seek" aria-label="回放时间" type="range" min="0" step="1" value="0"></label></div><label class="toggle"><input id="truth" type="checkbox" checked>显示双方真实位置（回放观察用）</label></div>
+<div id="layoutControls" class="hidden"><div class="subtools"><button id="targetTool">标记选中成员的意图终点</button><button id="clearTarget">清除终点</button><button id="layoutReset">恢复初始摆位</button><button id="export">生成草图 JSON</button></div><p class="small">拖动成员调整位置；终点箭头只表达想要的路线，不执行寻路。摆位修改单独保留，不改已有算法回放。</p><textarea id="draft" class="hidden" rows="6" aria-label="本地设计草图JSON" readonly></textarea></div>
+<h2>各成员所在测绘点</h2><table><thead><tr><th>成员</th><th>世界 XY / 米</th><th>本范围/表面状态</th></tr></thead><tbody id="units"></tbody></table>
+</section><aside>
+<div class="notice" id="boundary">底图来自巴黎实测；当前交互是设计投影，路径与视线仍来自原有限示意场景。更换摆放位置不会重算地图路径。</div>
+<h2>摆放位置</h2><label>参考点<select id="anchor"></select></label><div class="row"><label>中心 X / 米<input id="originX" type="number" step="0.25"></label><label>中心 Y / 米<input id="originY" type="number" step="0.25"></label></div><label>旋转 / 度<input id="rotation" type="range" min="-180" max="180" step="5" value="0"></label><span id="rotationText" class="small">0° · 1示意米 = 1世界米</span>
+<h2>观察成员</h2><label><select id="agent" aria-label="观察成员"></select></label><div id="state" class="state"></div><dl id="details" class="details"></dl>
+<div id="notesPanel" class="hidden"><label>想要的响应<textarea id="note" rows="4" placeholder="例如：看见玩家后警戒；丢失视线只搜索最后看见的位置。"></textarea></label></div>
+<div id="timelinePanel"><h2>状态变化</h2><ol id="events" class="events"></ol></div>
+<h2>读图</h2><p class="small">白：已通过原胶囊条件的城市支撑点中心。黑：包含测量拒绝、非城市支撑、未知；切到“测绘状态图”分别查看。</p><p class="small">状态图：灰蓝＝未知，红＝测量拒绝，棕＝非城市支撑，白＝城市候选。表面 L0–L4 是查询序号，不能直接当作楼层。</p>
+<div id="mapCounts" class="small"></div><div id="loading"></div>
+</aside></div>
+<div class="footer">地图：/Game/ParisCombat/Maps/LV_ParisG1_Midterm_V1；固定范围 X −4..176 m，Y −236..4 m。原始720×960地图完整保留；saved 与 bounded_expanded 独立切换。候选点不证明连通、掩体、视线或实际双人通行。<a href="../../npc-ai-v2-20261017/run_v6/replay.html">打开原有限算法回放</a></div>
+</main><script src="data.js"></script><script src="board.js"></script></body></html>

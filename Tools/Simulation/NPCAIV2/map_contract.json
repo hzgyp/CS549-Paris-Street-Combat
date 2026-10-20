@@ -1,0 +1,11 @@
+{
+  "schema":"paris.npc-ai.survey-input.v1",
+  "status":"interface_only_no_production_route_or_cover_selected",
+  "offline_geometry":"hypothetical_2D_metres; does_not_import_or_relabel_Paris_raw_survey",
+  "read_only_inputs":["tmp/map-survey-continuation-20261013/PROGRESS.json","tmp/map-survey-overnight-20261013/BATCH_QUEUE.json","tmp/map-survey-overnight-20261013/RUN_RESERVATION.json","tmp/map-survey-overnight-20261013/collections/complete_v3/analysis_v1/ANALYSIS.json"],
+  "scope_rules":["Keep saved and bounded_expanded separate","Unknown/failed/unmeasured stay explicit","Static reciprocal links are not physical squad travel","Do not resume paused or expired map queues"],
+  "required_fields":{"identity":["map_package","map_sha256","source_manifest_sha256","survey_identity","scope","raw_receipt_path","raw_receipt_sha256","owner"],"agent":["faction_rig_id","capsule_radius_cm","capsule_half_height_cm","step_cm","slope_degrees","nav_agent_settings","nav_data_hash"],"geometry":["node_id","edge_id","coordinate_frame","feet_xyz_cm","support_surface","height_layer","ground_normal","movement_policy","sight_policy","hearing_policy","measured_or_unknown"],"cover":["cover_id","surface_normal","standing_or_crouched_coverage","peek_xyz_cm","muzzle_clearance","firing_lane","reachable_scope","rights_provenance"],"navigation":["complete_partial_unknown","directed_route_polyline_cm","path_length_cm","capsule_sweep_receipts","bottleneck_width_cm","queue_capacity","fallback_wait_points"],"physical_gate":["actor_id","direction","controller_and_move_owner","request_generation","actual_start_goal_feet_cm","actual_arrival_error_cm","travel_seconds","stall_seconds","attempts","player_route_pass","each_faction_pass","two_allies_simultaneous_pass","raw_trace_and_image_paths"]},
+  "retained_human_bridge_facts":{"A":"no connecting landing; not a selected cross-bank route","B":"human player reports truck-side bypass; exact NPC/two-ally/both-direction route remains unverified","source":"Docs/Development/MissionLoopV1/AB_BRIDGE_HUMAN_REVIEW_AND_TRAVERSAL_DESIGN_20261013.md"},
+  "admission":"Only matching scope/hash/agent complete paths with swept clearance AND actual directed character/squad travel can select production routes; cover needs physical/LOS/action verification too.",
+  "engine_and_map_work_authorized_now":false
+}

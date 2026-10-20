@@ -1,0 +1,19 @@
+# Executable behavior trees and map drag gestures
+
+17 October 2026. Authorized local web scope: background mouse press/hold dragging and a real, inspectable behavior-tree graph for the Allied/German simulation, beyond a feature list. Continue from CURRENT_NPC_AI_INTERACTIVE's smooth-display selection and token-free local entry. No UE, native/Game build, asset registration, survey continuation, external publication or coursework delivery.
+
+Read the current result/source, original oracle, actual world decision/movement code, bounded NI003 actual-arrival failure and relevant behavior/history paragraphs. Preserve original oracle/config and physics/sensing/decision schedules. Tree task success must not claim physical arrival before Arrived; failed routes remain explicit, with existing finite retry/budget handling. Germans receive only actual observations/frozen memory, never hidden player coordinates.
+
+## Work and early gates
+
+1. Preserve exact NPC source/CSS/README/selector/handoff and the installed web bundle under `tmp/npc-ai-behavior-tree-20261017/work_v1`. Use the latest files, not a historical overwrite.
+2. Background left press/drag pans with pointer capture; holding without dragging enters pan mode. A short unmoved click retains walking/placing. Actor dragging retains placement. Cancel/lost capture/unmount clears timers and gestures. Pan remains available during review and does not issue movement commands.
+3. Implement bounded reactive Selector/Sequence/Condition/Action and ForceSuccess nodes. Shared static definitions also drive the graph. Tick each NPC's tree in the existing decision schedule: Allied budget wait, assigned Support/Overwatch, observed-contact regroup and separated following; German observed alert/engage, grace, fixed-memory search, return/guard plus actual bounded navigation. Reuse the original German policy oracle and shared Allied assignment algorithm. Record each evaluated node/result/detail and tick-time blackboard; skipped branches stay skipped.
+4. Verify equivalent legacy world outcomes before UI expansion, including hidden-player counterfactual, failed paths, support reservations, physical arrival and finite search. Trace snapshots are immutable historical records. Expose definitions through the scoped native descriptor and traces in actual frames, preserving owner/CSRF/CAS/idempotency.
+5. Add an integrated tree diagram with edges, evaluated/active/failed/skipped nodes, per-NPC selection, node inspection, local blackboard and review-time traces. Distinguish decision time from current sensor/state time. Tree success and MoveTo success have separate meanings. Memoize the graph to preserve continuous map performance during pan/RAF.
+6. Run world/API/auth/tree, client playback and TypeScript checks; build a staged web bundle. Verify on an owned metadata-copy server, then replace only the inspected idle local owner. Check hold/drag/click/actor placement/cancel/review gestures, real branch changes through follow/support/search/return, node inspection, historical traces, plain reload, library navigation and continuous paint cadence.
+7. Preserve the latest database/Catalog/index/access identity, pin exact sources/evidence and update only current NPC routing/result and relevant README paragraphs after passing checks.
+
+## Storage, stop and rollback
+
+Source remains under Tools/AssetWorkbench; bounded private traces/original captures/previews/preimages remain in the new tmp directory. Preserve old oracle/replay/map/smooth results. Stop on altered legacy rules, false arrival, hidden-target leakage, gesture mutation during pan/cancel/review, stale commands, unbounded tree execution or owner/index ambiguity. Restore only exact changed-file patches after checking concurrent edits and restart only the verified idle service; no blanket checkout, index/Catalog rollback or asset deletion. Human design/map/UE acceptance remains separate.

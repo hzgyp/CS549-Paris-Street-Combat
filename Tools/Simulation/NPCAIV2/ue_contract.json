@@ -1,0 +1,27 @@
+{
+  "schema":"paris.npc-ai.adapter.v2",
+  "status":"independent_offline_candidate_not_integrated",
+  "baseline_selector":"Docs/Development/CURRENT_TUTORIAL_SOURCE_PENDING.json",
+  "baseline_revision_at_authoring":10,
+  "baseline_manifest_sha256":"341e91b9bba31747b3e605af94edddc7687032fd97d39c1849e771b5a49f934c",
+  "blueprint_namespace_proposed":"/Game/ParisCombat/AI/NPCAIV2",
+  "new_Cpp_required":false,
+  "units":{"simulation":"metres_seconds","UE":"centimetres_seconds","position_scale":100,"start_frame":"GetNavAgentLocation","goal_frame":"projected_native_agent_feet"},
+  "input_observation":{"fields":["actor_id","position","at","sense","uncertainty","source","generation"],"senses":["sight","hearing","report"],"constraints":["No hidden Actor transform after LOS loss","Hearing event has no visible-target or shot permission","Timestamped reports expire independently","Filter live opposite faction before sight scoring","Smoke uses retained selected occlusion bridge/policy"]},
+  "private_blackboard":{"TargetActor":"Object, only valid current/remembered registry ID","HasVisibleTarget":"Bool, fresh perception; action rechecks live LOS","LastSeenPosition":"Vector, only observation updates","LastSeenTime":"Float","HeardPosition":"Vector, event only","HeardTime":"Float","MemoryUncertainty":"Float","AIState":"Name","SearchDeadline":"Float, fixed per episode","SearchPointIndex":"Int, bounded","DesiredPosition":"Vector feet","TaskID":"Int monotonic","RequestID":"Int monotonic","RestoreGeneration":"Int","MoveOwner":"Name","WaitingReason":"Name","ReservationID":"Name","Role":"Name","MoveEpisodeAttempts":"Int bounded"},
+  "shared_state_allowed":["reservation owner/position/generation/task","finite bottleneck queue/capacity","immutable timestamped squad reports","mission registry alive/dead IDs"],
+  "shared_state_prohibited":["live hidden target transform","one mutable target/memory for both allies","per-frame damage/ammo/health authority","automatic actor replacement or hidden engaged despawn"],
+  "proposed_blueprint_modules":[
+    {"name":"BP_PCNPCControllerV2","oracle":"policy.Mind.receive/enemy_intent","boundary":"AI Perception callbacks and per-NPC Blackboard; shared BT definition"},
+    {"name":"BT_PC_NPCV2","oracle":"priority order in implementation document","boundary":"Dead/Frozen, legal action/hazard, visible combat, finite memory/search, faction role"},
+    {"name":"BTS_PC_TacticalDecision","oracle":"policy.cover_score/joint_assignment","boundary":"bounded candidates, explicit hard gates, periodic/event reevaluation and score hysteresis"},
+    {"name":"BP_PC_SquadCoordinatorV2","oracle":"joint_assignment + simulation reservation/gate contract","boundary":"distinct reachable destinations; retain after arrival; release on failure/death/restore"},
+    {"name":"BP_PC_MoveArbiterV2","oracle":"simulate.Move.request/completed","boundary":"one writer between BT, bridge, tutorial and finite hazard owners; stale callback rejection and physical progress"}
+  ],
+  "action_bridge":{"reuse":"selected NPCInteractionV1 original action adapter","requests":["Stop","Turn","Fire","Reload"],"token":["task_id","request_id","restore_generation"],"guards":["mission/tutorial combat gate","selected per-faction weapon binding","alive/legal stance","original cooldown/ammo transaction","fresh live LOS, smoke and friendly/world lane","Ready+one original ActionID advancement on normal reload terminal"],"simulation_actions_are_intent_only":true},
+  "existing_rule_preservation":{"ally_player_acceptance_cm":1000,"ally_operational_distance_cm":900,"ally_operational_chase_travel_cm":850,"simulator_defaults_are_not_auto_adopted":true,"checkpoint":"restore complete saved snapshot; invalidate transient perception/moves/reservations; no ordinary continuation healing/refill/revival"},
+  "query_adapter":{"production":"UE NavMesh/MoveTo complete path for actual agent","offline":"synthetic 4-neighbor bounded BFS","EQS":"optional candidate generator/test provider after surveyed cover gate","local_avoidance":"one method, proposed Detour Crowd after runtime gate; do not stack RVO"},
+  "conformance":{"input":"scenarios.json + policy.json; sequential full events/ticks","expected":"UE_ORACLE_TRACE_VECTORS.json + full NDJSON","comparison":"observations, private memory, intent transitions, hard gates, score contributions, pair/reservation, tokens and retry ceilings","tolerance":"simulate distances are exact fixture expectation; declare float tolerance and actual UE geometry differences separately","not_claimed":"No UE port, native Blueprint compile or runtime conformance has occurred"},
+  "required_merge_gates":["re-read latest combined source","coordinate single writer and reconcile all pending lanes","preserve medical/grips/V/Ctrl/prone/tutorial/audio/earned saves","verify native dependency identity","explicit later build request","matching engine/Game tests and human review"],
+  "later_data_gaps":["authored patrol routes","real cover surface/peek/stance data","height layers/nav clearance","hearing emitter and attenuation integration","fairness tuning and actual turn/search animation","full-map bottleneck coordination","real UE timing/performance and second-machine results"]
+}

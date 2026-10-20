@@ -24,6 +24,7 @@ from .store import Store
 from .models import validate_glb, MAX_MODEL_BYTES
 from .animations import AnimationLibrary
 from .network import external_origin
+from .npc_simulation import install_npc_simulation
 
 Image.MAX_IMAGE_PIXELS = 100_000_000
 ROOT = Path(__file__).resolve().parents[3]
@@ -64,6 +65,7 @@ def create_app(root: Path = ROOT, state_dir: Path | None = None, token: str | No
     app.state.idempotency = {}
     animations=AnimationLibrary(root,state_dir)
     app.state.animations=animations
+    install_npc_simulation(app, root, local_only=not shared)
     authorities={f'{h.lower()}:{port}' for h in (allowed_hosts or ['127.0.0.1','localhost'])}
     loopback_authorities={f'127.0.0.1:{port}',f'localhost:{port}'}
     if public_origin:

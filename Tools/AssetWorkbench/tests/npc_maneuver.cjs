@@ -1,0 +1,17 @@
+const assert=require('assert/strict');
+const {maneuverAt,maneuverReason}=require('../frontend/src/npcManeuver.ts');
+const {nodeMapEvidence}=require('../frontend/src/npcNodeMap.ts');
+let checks=0;
+const m={at:4,active:true,role:'WaitCover',phase:2,holder:'A1',mover:'A2',holder_ready:false,threat_basis:'authored_forward_watch',ready_gates:{actual_watch_sight:false},cover:{hide:[3,4],peek:[4,4],threat:[9,4],blocker:{point:[6,4]},hide_blocked:true,peek_clear:true,connector_clear:true,path_status:'Complete',query_at:2},last_swap:{at:3,arrived_actor:'A1',error:.3}};
+const f={at:4,actors:{A2:{position:[1,2]}},moves:{A2:{path:[]}},scores:{A2:[]},minds:{A2:{}},behavior_trees:{A2:{at:4,blackboard:{maneuver:m},nodes:{bound:{status:'Running',detail:{}},'bound.ready':{status:'Failure',detail:m},'bound.move':{status:'Skipped',detail:{}}}}}};
+const definition={root:'bound',nodes:[{id:'bound',kind:'Sequence',label:['掩护','Bound'],children:['bound.ready','bound.move']},{id:'bound.ready',kind:'Condition',op:'bound_ready',label:['就绪','Ready'],children:[]},{id:'bound.move',kind:'Action',op:'tactical_plan',label:['推进','Move'],children:[]}]};
+for(const n of definition.nodes)n.description=['说明','Description'];
+assert.equal(maneuverAt(f,'A2',3.9),undefined);checks++;
+assert.equal(maneuverAt(f,'A2'),m);assert.equal(maneuverAt(f,'G1'),undefined);checks++;
+const future=structuredClone(f);future.behavior_trees.A2.at=5;assert.equal(maneuverAt(future,'A2'),undefined);checks++;
+assert.match(maneuverReason(m),/实际位置没有有效射界/);assert.match(maneuverReason(m),/并非发现敌人/);checks++;
+const e=nodeMapEvidence(f,definition,'A2','bound.ready');assert.deepEqual(e.marks.find(x=>x.id==='cover-hide').point,[3,4]);assert.deepEqual(e.marks.find(x=>x.id==='cover-blocker').point,[6,4]);assert.match(e.facts.join(),/0.30/);checks++;
+assert.deepEqual(nodeMapEvidence(f,definition,'A2','bound.move').marks,[]);checks++;
+const old=structuredClone(f);f.behavior_trees.A2.blackboard.maneuver.role='Advance';assert.equal(maneuverAt(old,'A2').role,'WaitCover');checks++;
+assert.match(maneuverReason({at:9,leg:{expires:8}}),/时间已用完/);checks++;
+console.log(JSON.stringify({status:'passed',checks}));

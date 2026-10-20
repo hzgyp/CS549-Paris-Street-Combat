@@ -1,0 +1,4 @@
+export const fireReason=(reason:string,english=false)=>{
+ const labels:Record<string,[string,string]>={clear_own_sight_and_fire_lane:['视线与射界通过','Own sight and fire lane clear'],simulation_paused:['暂停中，NPC不自动射击','Paused: NPC auto-fire withheld'],alert_or_noncombat_state:['警戒或非交战状态','Alert or noncombat state'],no_live_hostile_in_own_sight:['没有自己看见的存活敌人','No living hostile in own sight'],own_sight_lost:['自己的实时视线已丢失','Own current sight lost'],weapon_range:['超出20米武器射程','Outside 20 m weapon range'],wall_occlusion:['墙体遮挡','Wall occlusion'],body_blocks_fire:['人物挡住射界，避免误伤','Body blocks fire; withhold to avoid friendly fire'],ammunition_empty:['弹药耗尽','Ammunition empty'],weapon_cooldown:['射击冷却中','Weapon cooling down'],shooter_dead:['射手已阵亡','Shooter is a casualty']};
+ return labels[reason]?.[english?1:0]||reason;
+};

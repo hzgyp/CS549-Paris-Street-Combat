@@ -1,0 +1,15 @@
+{
+  "geometry_scope": "hypothetical_2D_metres_not_Paris_survey",
+  "scenarios": [
+    {"id":"occlusion_reacquire","duration":22,"walls":[[11,3,1,15]],"agents":[{"id":"G1","team":"german","position":[5,10],"heading":0}],"player":[8,10],"events":[{"at":3,"type":"player_position","position":[26,18]},{"at":14,"type":"player_position","position":[8,10]}]},
+    {"id":"search_expiry","duration":22,"walls":[[11,3,1,15]],"agents":[{"id":"G1","team":"german","position":[5,10],"heading":0}],"player":[8,10],"events":[{"at":3,"type":"player_position","position":[26,18]}]},
+    {"id":"hearing_only","duration":16,"walls":[[9,3,1,15]],"agents":[{"id":"G1","team":"german","position":[6,10],"heading":0}],"player":[12,10],"events":[{"at":1,"type":"noise","position":[10.5,10],"actor_id":"P","uncertainty":2},{"at":3,"type":"player_position","position":[26,19]},{"at":3,"type":"noise","position":[10.5,10],"actor_id":"P","uncertainty":2},{"at":5,"type":"noise","position":[10.5,10],"actor_id":"P","uncertainty":2}]},
+    {"id":"target_invalid","duration":12,"walls":[],"agents":[{"id":"G1","team":"german","position":[5,10],"heading":0}],"player":[8,10],"events":[{"at":4,"type":"death","actor_id":"P"}]},
+    {"id":"unreachable","duration":18,"walls":[[10,0,1,22]],"agents":[{"id":"A1","team":"allied","position":[4,8],"heading":0},{"id":"A2","team":"allied","position":[4,13],"heading":0}],"player":[16,10],"events":[]},
+    {"id":"stuck","duration":18,"walls":[],"agents":[{"id":"A1","team":"allied","position":[4,8],"heading":0,"immobile_until":30},{"id":"A2","team":"allied","position":[4,13],"heading":0}],"player":[12,10],"events":[]},
+    {"id":"squad_cover","duration":20,"walls":[[12,8,2,3]],"covers":[[10,9],[10,12],[13,13],[15,7],[8,7],[8,14]],"agents":[{"id":"A1","team":"allied","position":[6,7],"heading":0},{"id":"A2","team":"allied","position":[6,14],"heading":0},{"id":"G1","team":"german","position":[18,8],"heading":3.14159},{"id":"G2","team":"german","position":[19,13],"heading":3.14159},{"id":"G3","team":"german","position":[21,17],"heading":3.14159}],"player":[10,10],"events":[{"at":10,"type":"death","actor_id":"G1"}]},
+    {"id":"bottleneck","duration":24,"walls":[[10,0,1,9],[10,11,1,11]],"gate":[9,8.5,3,3],"agents":[{"id":"A1","team":"allied","position":[5,9],"heading":0},{"id":"A2","team":"allied","position":[5,11],"heading":0}],"player":[17,10],"events":[]},
+    {"id":"threshold_jitter","duration":12,"walls":[],"agents":[{"id":"G1","team":"german","position":[5,10],"heading":0}],"player":[18.8,10],"jitter":true,"events":[]},
+    {"id":"private_memory","duration":16,"walls":[[12,0,1,22]],"agents":[{"id":"G1","team":"german","position":[6,8],"heading":0},{"id":"G2","team":"german","position":[20,14],"heading":0}],"player":[9,8],"events":[{"at":4,"type":"player_position","position":[24,14]},{"at":7,"type":"player_position","position":[28,20]}]}
+  ]
+}

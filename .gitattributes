@@ -121,3 +121,9 @@ Tools/Simulation/** -text whitespace=cr-at-eol
 
 # Generated version headings preserve their original registered display names.
 Assets/Registry/VERSION_DIRECTORY.md whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+
+# Preserve the selected NPC implementation records and source handoff hashes.
+Docs/Development/NPCAI*/** -text whitespace=cr-at-eol
+
+# This exact verified test preimage has a retained blank final line.
+Tools/AssetWorkbench/tests/test_npc_sight.py whitespace=cr-at-eol,-blank-at-eof
