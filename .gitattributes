@@ -127,3 +127,6 @@ Docs/Development/NPCAI*/** -text whitespace=cr-at-eol
 
 # This exact verified test preimage has a retained blank final line.
 Tools/AssetWorkbench/tests/test_npc_sight.py whitespace=cr-at-eol,-blank-at-eof
+
+# Preserve this selected source-handoff member including its blank final line.
+Tools/AssetWorkbench/frontend/src/viewPairs.ts whitespace=cr-at-eol,-blank-at-eof

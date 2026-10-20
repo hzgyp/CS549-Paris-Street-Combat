@@ -17,3 +17,4 @@ export function buildViewPairs(left:Data,right:Data):ViewPair[]{
  for(const p of known){const l=left.image_views?.[p.left||''],r=right.image_views?.[p.right||''];p.cameraMatch=Boolean(l?.camera_group&&l.camera_group===r?.camera_group)}
  return known.sort((a,b)=>Number(Boolean(b.left&&b.right))-Number(Boolean(a.left&&a.right))||rank(a)-rank(b)||a.id.localeCompare(b.id)).concat(unknown);
 }
+
