@@ -31,13 +31,13 @@ test('grenade 3D source models render, orbit, zoom and reset',async({page})=>{
  }
  expect(errors).toEqual([]);
 });
-test('grenade versions, current candidate use and refreshed reference index',async({page,context})=>{
+test('grenade versions, current formal use and refreshed reference index',async({page,context})=>{
  for(const id of ['frag-grenade','smoke-grenade']){
   const a=(await(await context.request.get('/api/v1/assets/'+id)).json()).data;
-  expect(a.usage_status).toBe('candidate');expect(a.models).toHaveLength(1);
+  expect(a.usage_status).toBe('formal');expect(a.models).toHaveLength(1);
   expect(a.preview_id).toBe(id+'-model-v1-browser-front');
   expect(a.usage.some((u:any)=>u.build_id==='equipment-input-review')).toBeTruthy();
-  expect(a.usage.some((u:any)=>u.build_id==='formal')).toBeFalsy();
+  expect(a.usage.some((u:any)=>u.build_id==='formal')).toBeTruthy();
   const revisions=(await(await context.request.get('/api/v1/assets/'+id+'/revisions')).json()).data;
   const model=revisions.find((r:any)=>r.id===id+'-model-v1-20261011');
   const input=revisions.find((r:any)=>r.id===id+'-wheel-integration-v4-20261011');
@@ -45,7 +45,7 @@ test('grenade versions, current candidate use and refreshed reference index',asy
   expect(model.model_identity).toBe(a.models[0].sha256);
   await page.goto('/assets/'+id);await expect(page.getByTestId('model-viewport')).toHaveAttribute('data-status','ready');
   await page.getByRole('button',{name:'版本与取舍',exact:true}).click();await expect(page.locator('.timeline')).toContainText('滚轮装备整合 v4');
-  await page.getByRole('button',{name:'游戏使用',exact:true}).click();await expect(page.locator('.usage-row').filter({hasText:'candidate_equipment_wheel_build_v4'}).first()).toBeVisible();
+  await page.getByRole('button',{name:'游戏使用',exact:true}).click();await expect(page.locator('.usage-row[data-build-id="formal"]').first()).toBeVisible();
   await page.getByRole('button',{name:'图片与音频',exact:true}).click();
   await expect(page.locator('.media-caption')).toContainText('模型 v1');
   await page.locator('.detail-media img').scrollIntoViewIfNeeded();await page.locator('.detail-media img').evaluate((i:HTMLImageElement)=>i.decode());

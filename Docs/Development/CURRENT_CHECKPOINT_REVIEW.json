@@ -2,7 +2,7 @@
   "schema_version": 2,
   "date": "2026-10-10",
   "review_id": "g1-enemy-clear-checkpoint-candidate_v3-20261010",
-  "status": "historical_parent_integrated_into_selected76",
+  "status": "historical_parent_integrated_into_selected78",
   "selection": "Formal current local development baseline",
   "authorization": "User: all checkpoint save objective gates depend only on complete enemy elimination",
   "rule": "Original registered German1/2/3 all dead: G1 complete and checkpoint unlocked. No far-bank/occupation/squad/posture/movement/safe-seconds gate. Circle entry and explicit confirmation retained.",
@@ -89,7 +89,9 @@
   "human_review_authorization": "User: 已测试，没有问题，把这一版合并到正式基线中，其他过渡版本删除，过时正式版本不保留太多",
   "retirement_map": "Docs/Development/G1CheckpointBaselineAdoption20261010/RECOVERY_MAP_20261010.json",
   "historical_status": "manually_reviewed_selected_active_baseline",
-  "integrated_into": "g1-complete-gameplay-grenade-equip-20261011",
+  "integrated_into": "g1-sleeve-workspace-20261012-reviewed-20261013",
   "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
-  "retired_playable_recovery_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json"
+  "retired_playable_recovery_map": "Docs/Development/G1SleeveBaselineAdoption20261013/RECOVERY_MAP_20261013.json",
+  "integrated_into_selected_baseline": "g1-grenade-pose-v8-human-reviewed-20261014",
+  "integration_scope": "Original reviewed feature retained in current86; original feature receipts keep their dated identity."
 }

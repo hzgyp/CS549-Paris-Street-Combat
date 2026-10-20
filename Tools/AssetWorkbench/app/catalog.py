@@ -34,9 +34,11 @@ def result_state(data, expected_mode=None):
 class Importer:
     def __init__(self, root: Path, store, cancelled=lambda: False):
         self.root, self.store, self.cancelled = root.resolve(), store, cancelled
-        self.sources, self.entities, self.files = {}, {k: [] for k in ['assets','revisions','builds','bundles','evidence','sources','media','templates','issues','usage','recovery','models']}, []
+        self.sources, self.entities, self.files = {}, {k: [] for k in ['assets','revisions','builds','bundles','evidence','sources','media','templates','issues','usage','recovery','models','gameplay']}, []
         self.code_paths = {}
         self.file_identities = {}
+        self.research_paths = set()
+        self.view_paths = set()
 
     def issue(self, code, message, subject='', severity='warning'):
         self.entities['issues'].append(dict(id=identity(code,subject,message), code=code, message=message, subject_id=subject, severity=severity))
@@ -46,7 +48,7 @@ class Importer:
             raise WorkbenchError('CANCELLED', '任务已取消')
         relative_path(path)
         permitted = (
-            path in self.code_paths
+            path in self.code_paths or path in self.research_paths or path in self.view_paths
             or
             (path.startswith(('Assets/Registry/', 'Assets/Sync/', 'Docs/Development/', 'Failures/')) and Path(path).suffix in ('.json', '.md'))
             or path in ('Assets/ASSET_REGISTER.csv','Assets/XIAN_YU_ASSET_CATALOG_20261003_ZH.md','Assets/TEAM_SYNC_WORKFLOW.md',
@@ -108,15 +110,25 @@ class Importer:
             raise WorkbenchError('SOURCE_SCHEMA_UNSUPPORTED', '不支持的构建选择器')
         source = self.doc(d['source_manifest'], d.get('source_manifest_sha256'))
         source_id = identity(d['source_manifest'], self.sources[d['source_manifest']]['sha256'])
-        self.file_rows(source_id, source['files'], d['source_snapshot'].rstrip('/')+'/')
+        snapshot=d.get('source_snapshot') or d.get('source_project')
+        if not isinstance(snapshot,str) or not snapshot:
+            raise WorkbenchError('SOURCE_SCHEMA_UNSUPPORTED','构建选择器缺少源码目录')
+        relative_path(snapshot)
+        self.file_rows(source_id, source['files'], snapshot.rstrip('/')+'/')
         for f in source['files']:
             if Path(f['path']).suffix in ('.cpp','.h','.inl','.json','.ini'):
-                self.code_paths[d['source_snapshot'].rstrip('/')+'/'+f['path']]=f['sha256']
-        build = dict(id=item['id'], channel=item['channel'], title=item['title'], revision=d.get('revision', d.get('baseline_id')), game_sha256=d['game_sha256'], source_manifest_sha256=d.get('source_manifest_sha256'), source_files=len(source['files']), source_id=identity(item['path']), manifest_source_id=identity(d['source_manifest']), source_bundle=source_id, status=d['status'], entry=d.get('playable_entry'), native_anchor=d.get('native_asset_anchor'), human_review=d.get('human_manual_review','待人工选定'), assets=item['assets'], scope='选择器记录；不代表本次重新运行游戏', source_snapshot=d['source_snapshot'])
+                self.code_paths[snapshot.rstrip('/')+'/'+f['path']]=f['sha256']
+        build = dict(id=item['id'], channel=item['channel'], title=item['title'], revision=d.get('revision', d.get('baseline_id',d.get('selected_build'))), game_sha256=d['game_sha256'], source_manifest_sha256=d.get('source_manifest_sha256'), source_files=len(source['files']), source_id=identity(item['path']), manifest_source_id=identity(d['source_manifest']), source_bundle=source_id, status=d['status'], entry=d.get('playable_entry'), native_anchor=d.get('native_asset_anchor'), human_review=d.get('human_manual_review',d.get('human_review','待人工选定')), assets=item['assets'], scope='选择器记录；不代表本次重新运行游戏', source_snapshot=snapshot)
         self.entities['builds'].append(build)
         for asset in item['assets']:
             self.entities['usage'].append(dict(id=identity(build['id'],asset), build_id=build['id'], asset_id=asset, basis='documented_binding', source_id=identity(item['path']), completeness='curated_family_mapping', label='文档／选择器关联，未执行新运行扫描'))
-        for check in d.get('checks', []):
+        checks=d.get('checks',[])
+        if isinstance(checks,str):
+            build['checks_record']=relative_path(checks)
+            checks=[]  # A record path is not a list of individually verified results.
+        if not isinstance(checks,list):
+            raise WorkbenchError('SOURCE_SCHEMA_UNSUPPORTED','构建检查格式不支持')
+        for check in checks:
             p = check.get('result')
             if not p:
                 continue
@@ -248,12 +260,29 @@ class Importer:
         # Curated historical integration records retain their documented scope.
         histories=self.doc(registry['history'])
         if registry.get('inventory_history'):histories['revisions'].extend(self.doc(registry['inventory_history'])['revisions'])
+        if registry.get('version_reviews'):
+            from .version_reviews import merge
+            try:
+                histories['revisions']=merge(histories['revisions'],self.doc(registry['version_reviews']))
+                self.view_paths = {view['source'] for row in histories['revisions'] for view in row.get('image_views', {}).values()}
+            except ValueError as exc:
+                raise WorkbenchError('SOURCE_SCHEMA_UNSUPPORTED',str(exc)) from exc
         for h in histories['revisions']:
+            if h.get('review') and any(m not in media_map for m in h.get('media_ids',[])):
+                raise WorkbenchError('SOURCE_SCHEMA_UNSUPPORTED','版本证据引用了未登记图片')
             h=dict(h); p=h.pop('document'); document=self.read(p,optional=True)
+            for view in h.get('image_views', {}).values():
+                self.read(view['source'])
+                view['source_id']=identity(view['source'])
+            if h.get('adoption'):
+                authority=h['adoption']['authority']
+                self.read(authority)
+                h['adoption']['source_id']=identity(authority)
             h['recorded_result']=h['result']
             if document is None:
                 h['result']='unassessed'
             h.update(source_id=identity(p),media_ids=[m for m in h.get('media_ids',[]) if m in media_map],identity_strength=h.get('identity_strength','documented'),parent_ids=h.get('parent_ids',[]))
+            h['screenshots']=[{k:media_map[m][k] for k in ('id','path','label','sha256','size_bytes') if k in media_map[m]} for m in h['media_ids']]
             if h.get('model_review'):
                 model=self.doc(h['model_review'],optional=True)
                 if model:
@@ -274,17 +303,31 @@ class Importer:
         self.issue('LOCAL_ONLY','本机只读模式；远端可用性来自带日期记录，未发起SFTP连接。','publication','info')
         for a in self.entities['assets']:
             if not a['media_ids']:self.issue('PREVIEW_UNAVAILABLE','尚无登记且允许展示的本机预览',a['id'])
+        if registry.get('gameplay'):
+            from .gameplay import collect
+            collect(self,registry['gameplay'])
+        if registry.get('research'):
+            from .research import collect
+            collect(self,registry['research'])
+        if registry.get('library_scope'):
+            from .library_scope import collect
+            collect(self,registry['library_scope'])
+        if registry.get('homepage'):
+            from .homepage import collect
+            collect(self,registry['homepage'])
         for path, source in self.sources.items():
             if sha(read_file(self.root,path))!=source['sha256']:
                 raise WorkbenchError('SOURCE_CHANGED_DURING_SCAN','刷新期间来源变化，保留上次有效索引')
-            excerpt=source['raw'].decode('utf-8-sig',errors='replace')[:80000]
+            excerpt=source['raw'].decode('utf-8-sig',errors='replace')[:80000] if Path(path).suffix.lower() not in ('.png','.jpg','.jpeg','.webp') else '图片原件；请使用登记预览。 / Image original; use the registered preview.'
             # No private metadata/config source is offered as a general browser.
             self.entities['sources'].append(dict(id=source['id'],path=path,sha256=source['sha256'],size_bytes=len(source['raw']),excerpt=excerpt if not path.startswith('Assets/LocalWorking/AssetWorkbench/') else '本机私有媒体登记，原内容不通过接口公开。'))
         digest=sha(json.dumps(sorted((p,x['sha256']) for p,x in self.sources.items())).encode())
         try: git_head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=self.root,stderr=subprocess.DEVNULL,text=True).strip()
         except (OSError,subprocess.CalledProcessError):git_head=None
         stats=dict(asset_count=len(self.entities['assets']),bundle_count=len(self.entities['bundles']),file_count=len(self.files),unique_blobs=len({(f['sha256'],f['size_bytes']) for f in self.files}),expected_unique_bytes=sum(size for _,size in {(f['sha256'],f['size_bytes']) for f in self.files}),evidence_count=len(self.entities['evidence']),source_count=len(self.sources),issue_count=len(self.entities['issues']))
-        snapshot=dict(id=uuid.uuid4().hex,created=now(),digest=digest,git_head=git_head,adapter_version='1.0.0',stats=stats,elapsed_ms=round((time.perf_counter()-started)*1000),source_fingerprints={p:x['sha256'] for p,x in self.sources.items()})
+        stats['gameplay_count']=len(self.entities['gameplay'])
+        stats['research_count']=len(self.entities.get('research',[]))
+        snapshot=dict(id=uuid.uuid4().hex,created=now(),digest=digest,git_head=git_head,adapter_version='1.1.0',stats=stats,elapsed_ms=round((time.perf_counter()-started)*1000),source_fingerprints={p:x['sha256'] for p,x in self.sources.items()})
         from asset_index import build, publish
         try:
             navigation=build(self.root)
@@ -293,6 +336,10 @@ class Importer:
                     raise WorkbenchError('SOURCE_CHANGED_DURING_SCAN','刷新期间来源变化，保留上次有效索引')
             if {a['id'] for a in navigation['assets']}!={a['id'] for a in self.entities['assets']}:
                 raise WorkbenchError('SOURCE_CHANGED_DURING_SCAN','刷新期间资产登记变化，保留上次有效索引')
+            def research_identity(rows):
+                return {(r['id'],r['source_sha256'],r.get('image_sha256'),json.dumps([r.get('asset_links',[]),r.get('gameplay_links',[])],sort_keys=True)) for r in rows}
+            if research_identity(navigation.get('research',[]))!=research_identity(self.entities.get('research',[])):
+                raise WorkbenchError('SOURCE_CHANGED_DURING_SCAN','刷新期间历史资料变化，保留上次有效索引')
             with publish(self.root,navigation,self.cancelled) as report:
                 snapshot['navigation_index']=report
                 self.store.publish(snapshot,self.entities,self.files,self.cancelled)

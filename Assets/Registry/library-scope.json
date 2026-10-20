@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-17",
+  "purpose": "Current asset-library membership; source manifests, immutable storage, originals and prior snapshots are preserved.",
+  "retired_legacy_ids": [
+    "A05",
+    "A08"
+  ],
+  "retired_files": [
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/BrowserPrototype/public/og.png",
+      "sha256": "14b99083b8412bf0c9e1fe8b7157ff317adbf899a6998d78f30fff07e9d718fc",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/ATT_Battlefield.uasset",
+      "sha256": "28a0ced2b9d20b938094cf26a7fa4eef0cbd2bdd886d5690b5e079fe9d00a72b",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleHUD01.uasset",
+      "sha256": "f29a799f5594fb5bb4693d89aa3aeec4e84a5fce637593400cc197602ce70e7e",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleImpact01.uasset",
+      "sha256": "e1a51ce4096d81f2b36c08a1a852a42d128e8c975ed26cdafad83cae25800a34",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleMode01.uasset",
+      "sha256": "63ab4b302047a3036871607dc2a715a7d862758dc751244e662441f0f452facf",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattlePlayer01.uasset",
+      "sha256": "8800bd10fd64f98d2292e32cb7c87a21b6d12b5d887f523e25a24218cdfa27f2",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_BattleTracer01.uasset",
+      "sha256": "ea77ecf95ce10504ac3adeea0dd35bdc04a7b9cd0064c9cf1a08294289477e12",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/BP_MGEmplacement01.uasset",
+      "sha256": "fe8f3e11b323b5fba458f74f5b242e90ebdaedd0e452f66da1ecd1e396b3bbcf",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Dust.uasset",
+      "sha256": "2c4c4c72a15e5aff50e0f3aae5587408ca3e09a0c050c36509ddffd2ea17b380",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Flash.uasset",
+      "sha256": "ff7d3a85a9d01395273fef044ade4dd7256cded6125098a974c820d2834975df",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/M_Tracer.uasset",
+      "sha256": "320e74ac85eeeded06d09ce3943424cdc7d109ee40cff49877a8ceefa7e31514",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/S_DirtImpact.uasset",
+      "sha256": "31e954b96c288601bf3f9309bccbe065e984df0e3950d16064b5643268c1ef55",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Battlefield01/S_MGBurstShot.uasset",
+      "sha256": "0c00b7eab4b48497e7bc93cc4f35eb69a039fea03f80149bc797b66c29a5c7dd",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Blueprints/Player/BP_NormandyPlayerCharacter.uasset",
+      "sha256": "ec7adfca236b4cfd17b0b249f0adc02f3c2f7708dde39ef86b7b569297ab8f4f",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Blueprints/Player/BP_WeaponComponent.uasset",
+      "sha256": "093d42ccf4c54bd53766df76fa640f95098649ddfed3e4c17b792e20a5b08f8a",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Meshes/RifleHero01/SM_Rifle_Steel_Hero01.uasset",
+      "sha256": "815ff9bc30df3348656cf2bc4b4c6de827a75576a8e044c5101ae2388c165085",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Meshes/RifleHero01/SM_Rifle_Wood_Hero01.uasset",
+      "sha256": "66079985ebbf83c14b8f3d5b16df068770fec2db6bad3f0f314b9da092e753aa",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Meshes/Weapons/SM_Rifle_SteelStudy.uasset",
+      "sha256": "6e12d873d792b732c1170ac2d57227b38da8a69d5f60b02c87d369bb683ce1f3",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "gunplay-reference-assets",
+      "path": "Reference/Gunplay/UnrealContent/Normandy/Meshes/Weapons/SM_Rifle_WoodStudy.uasset",
+      "sha256": "18bfdd3ceab0adf30c0030899022602836c9285d1df8f486913dc52fcd882446",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/archive/fm23_95_75mm_1942.pdf",
+      "sha256": "ec5d1f3d96d544f110407a30758aa0a2a058123a2044474c4bc9d28fa6291cfb",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/aircraft/b26_invasion_stripes.jpg",
+      "sha256": "02f5aa716e99861bceed21ed9fe68b2b392e58ab40bb355e23c593d4c9dd7a6a",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/aircraft/fw190a_captured_shape_only.jpg",
+      "sha256": "e95b4687c520a70227fbc1e09d84ab2f202db3f16e48647ff914ea3ed6d7529c",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/beach/easy_red_bluffs.jpg",
+      "sha256": "1a6b47517d1f41b87a27072f96e655dcc4ec8f5f0ac0a7f6248d9292f71c94e8",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/beach/nara_into_jaws_of_death.jpg",
+      "sha256": "ea8ce01b4ba0f0b3a9b066d698854d332b967384445ddf617cbe0f7f9d4ffe41",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/beach/omaha_landing_visibility.jpg",
+      "sha256": "7870bb433c4a865b138aca081654ae8e58549c8e0f78d7cfdac0825d4e3e4267",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/beach/omaha_sector_map.jpg",
+      "sha256": "d1501b57cc195bcf46a9662655b4c8b612feecfc16ac5b86d773c47fc68775ef",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/beach/shingle_embankment.jpg",
+      "sha256": "34422b94a0a83a8f942a5ed2788cd7f8fba0315d36080814db23a89423c72dde",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/beach/tidal_flat_19440519.jpg",
+      "sha256": "0a69d9d7610c2beb98c58faea6ed0bf3d3716f74e251b8400138738be074a23f",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/beach/vierville_flanking_pillbox.jpg",
+      "sha256": "65da152ade016691759da8a41f78e8d6bb30354f263297a611faebd8bc6a5903",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/vehicles/german_panther_tiger_reference.png",
+      "sha256": "82ede910b5f49c81091f064236dd9d090ea0497c904ac3eb83e2c2ad67620a25",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/vehicles/sherman_omaha_19440606.jpg",
+      "sha256": "cc34a6799a92f444c3431cb205c22ac42522bba5a636c7e8b2af4f3e5dc0dd1b",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/weapons/captured_76mm_emplacement.jpg",
+      "sha256": "850d08389f5b1841d8fda1a6428d527671a9f4e738a5c5ca5f7a43671df184cc",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    },
+    {
+      "bundle": "historical-reference-assets",
+      "path": "HistoricalReference/NormandyContext/images/weapons/us_75mm_m48_external.png",
+      "sha256": "72a3e9a142244b2a5d6bdbe097e6ad2bb73904e0be762d95509442bb06c2a905",
+      "reason": "Retired Normandy scenario/background; current Paris references and generic rifle studies retained."
+    }
+  ]
+}

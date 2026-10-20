@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "release": {
+    "build_id": "formal",
+    "gameplay_id": "g1-tutorial",
+    "title": {
+      "zh": "教学正式版 1.0",
+      "en": "Tutorial 1.0"
+    },
+    "cover_id": "home-tutorial-v1-runtime",
+    "summary": {
+      "zh": "教学流程、医疗补给与场景配乐。",
+      "en": "Tutorial flow, medical supplies and contextual music."
+    }
+  },
+  "modules": [
+    {
+      "id": "actions",
+      "title": {
+        "zh": "动作资产",
+        "en": "Actions"
+      },
+      "description": {
+        "zh": "握持姿势、下蹲与起身。",
+        "en": "Holding poses, crouch and rise."
+      },
+      "category": "动画",
+      "cards": [
+        {
+          "id": "grenade-holding",
+          "asset_id": "first-person",
+          "title": {
+            "zh": "手雷 / 烟雾弹握姿",
+            "en": "Grenade / smoke holding"
+          },
+          "description": {
+            "zh": "已验收握持版本；保留修改前后对照。",
+            "en": "Accepted holding revision with before/after evidence."
+          },
+          "cover_id": "first-person-accepted-grips-20261017",
+          "image_label": {
+            "zh": "实际动作截图",
+            "en": "Runtime action captures"
+          },
+          "image_fit": "contain",
+          "revision_id": "first-person-thumb-polish-accepted-20261017"
+        },
+        {
+          "id": "ctrl-transition",
+          "asset_id": "first-person",
+          "title": {
+            "zh": "Ctrl 下蹲与起身",
+            "en": "Ctrl crouch and rise"
+          },
+          "description": {
+            "zh": "动作过渡与验收记录。",
+            "en": "Transition evidence and review records."
+          },
+          "cover_id": "version-e5739a745f152416588d0c",
+          "image_label": {
+            "zh": "实际动作截图",
+            "en": "Runtime action capture"
+          },
+          "image_fit": "contain",
+          "revision_id": "first-person-ctrl-crouch-accepted-20261017"
+        }
+      ]
+    },
+    {
+      "id": "characters",
+      "title": {
+        "zh": "角色模型",
+        "en": "Characters"
+      },
+      "description": {
+        "zh": "盟军与德军角色。",
+        "en": "Allied and German characters."
+      },
+      "category": "人物",
+      "cards": [
+        {
+          "id": "allied",
+          "asset_id": "allied-soldier",
+          "title": {
+            "zh": "盟军士兵",
+            "en": "Allied soldier"
+          },
+          "description": {
+            "zh": "当前角色版本与握持绑定。",
+            "en": "Selected character revision and weapon binding."
+          },
+          "cover_id": "allied-preview",
+          "image_label": {
+            "zh": "原生角色预览",
+            "en": "Native character preview"
+          },
+          "image_fit": "contain",
+          "revision_id": "allied-soldier-formal-v18-grip-v16-20261006"
+        },
+        {
+          "id": "german",
+          "asset_id": "german-soldier",
+          "title": {
+            "zh": "德军士兵",
+            "en": "German soldier"
+          },
+          "description": {
+            "zh": "V14；沿用已选定的精修模型。",
+            "en": "V14 using the selected refined character."
+          },
+          "cover_id": "german-preview",
+          "image_label": {
+            "zh": "原生角色预览",
+            "en": "Native character preview"
+          },
+          "image_fit": "contain",
+          "revision_id": "german-v14-selected"
+        }
+      ]
+    },
+    {
+      "id": "scenes",
+      "title": {
+        "zh": "场景与地图",
+        "en": "Scenes and maps"
+      },
+      "description": {
+        "zh": "巴黎街区与当前 G1 地图。",
+        "en": "Paris streets and the selected G1 map."
+      },
+      "category": "地图",
+      "cards": [
+        {
+          "id": "paris",
+          "asset_id": "paris-city",
+          "title": {
+            "zh": "巴黎街区 · G1",
+            "en": "Paris streets · G1"
+          },
+          "description": {
+            "zh": "场景预览、资源目录与当前使用关系。",
+            "en": "Scene previews, contents and current game usage."
+          },
+          "cover_id": "paris-map-game-street",
+          "image_label": {
+            "zh": "实际场景截图",
+            "en": "Runtime scene capture"
+          },
+          "image_fit": "cover",
+          "revision_id": "paris-city-g1-native-20261008"
+        }
+      ]
+    },
+    {
+      "id": "props",
+      "title": {
+        "zh": "装备与道具模型",
+        "en": "Equipment and props"
+      },
+      "description": {
+        "zh": "查看模型、3D 预览与使用记录。",
+        "en": "Models, 3D previews and usage records."
+      },
+      "category": "道具",
+      "cards": [
+        {
+          "id": "medical",
+          "asset_id": "medical-pouch",
+          "title": {
+            "zh": "医疗包",
+            "en": "Medical pouch"
+          },
+          "description": {
+            "zh": "污渍版；模型已人工验收。",
+            "en": "Stained revision; model appearance human approved."
+          },
+          "cover_id": "medical-pouch-accepted-20261017",
+          "image_label": {
+            "zh": "模型预览",
+            "en": "Model preview"
+          },
+          "image_fit": "contain",
+          "revision_id": "medical-pouch-human-accepted-20261017"
+        },
+        {
+          "id": "frag-model",
+          "asset_id": "frag-grenade",
+          "title": {
+            "zh": "手雷模型",
+            "en": "Frag grenade"
+          },
+          "description": {
+            "zh": "查看模型与当前游戏使用。",
+            "en": "Model and current game usage."
+          },
+          "cover_id": "frag-grenade-model-v1-browser-front",
+          "image_label": {
+            "zh": "模型预览",
+            "en": "Model preview"
+          },
+          "image_fit": "contain"
+        },
+        {
+          "id": "smoke-model",
+          "asset_id": "smoke-grenade",
+          "title": {
+            "zh": "烟雾弹模型",
+            "en": "Smoke grenade"
+          },
+          "description": {
+            "zh": "查看模型与当前游戏使用。",
+            "en": "Model and current game usage."
+          },
+          "cover_id": "smoke-grenade-model-v1-browser-front",
+          "image_label": {
+            "zh": "模型预览",
+            "en": "Model preview"
+          },
+          "image_fit": "contain"
+        },
+        {
+          "id": "ammo",
+          "asset_id": "ammo-box",
+          "title": {
+            "zh": "弹药箱",
+            "en": "Ammunition box"
+          },
+          "description": {
+            "zh": "补给物件；保留实际游戏截图。",
+            "en": "Supply prop with an actual game capture."
+          },
+          "cover_id": "inv-ammo-box-0",
+          "image_label": {
+            "zh": "实际物件截图",
+            "en": "Runtime prop capture"
+          },
+          "image_fit": "contain"
+        },
+        {
+          "id": "mine",
+          "asset_id": "pressure-mine",
+          "title": {
+            "zh": "压力地雷",
+            "en": "Pressure mine"
+          },
+          "description": {
+            "zh": "模型、验证与使用范围。",
+            "en": "Model, validation and usage scope."
+          },
+          "cover_id": "mine-studio",
+          "image_label": {
+            "zh": "模型预览",
+            "en": "Model preview"
+          },
+          "image_fit": "contain"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "associations": "Assets/Registry/research/associations.json",
+  "registers": [
+    {
+      "path": "HistoricalReference/Paris1944/SOURCES.csv",
+      "adapter": "paris_sources",
+      "scope": "paris"
+    },
+    {
+      "path": "HistoricalReference/Paris1944/IMAGE_REFERENCES.csv",
+      "adapter": "paris_images",
+      "scope": "paris"
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/catalog/SOURCES.csv",
+      "adapter": "sources",
+      "scope": "equipment",
+      "include_keys": [
+        "S02",
+        "S03",
+        "S19",
+        "S20",
+        "S22",
+        "S24",
+        "S25"
+      ]
+    },
+    {
+      "path": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+      "adapter": "images",
+      "scope": "equipment",
+      "include_keys": [
+        "images/uniforms/us_field_jackets.png",
+        "images/uniforms/us_helmet_and_specialist_clothing.png",
+        "images/ranks/us_wwii_rank_chart.png",
+        "images/uniforms/us_web_equipment.png",
+        "images/uniforms/us_equipment_temporal_check.png",
+        "images/weapons/us_rifle_comparison.png",
+        "images/weapons/us_garand_carbine.png",
+        "images/weapons/us_carbine_variants.png",
+        "images/uniforms/heer_field_uniform.png",
+        "images/uniforms/heer_officer_and_specialists.png",
+        "images/ranks/heer_officer_nco_ranks.png",
+        "images/ranks/heer_enlisted_ranks.png",
+        "images/ranks/heer_branch_colors.png",
+        "images/weapons/german_submachine_guns.png",
+        "images/weapons/german_rifle_reference.png",
+        "images/weapons/mg34_mg42.png",
+        "images/weapons/german_81mm_mortar.png",
+        "images/uniforms/british_1944_recognition.jpg",
+        "images/ranks/us_officer_rank_chart_1943.jpg",
+        "images/ranks/british_officer_rank_chart_1943.jpg"
+      ]
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/catalog/SOURCES.csv",
+      "adapter": "sources",
+      "scope": "equipment"
+    }
+  ],
+  "notes": [
+    {
+      "directory": "HistoricalReference/Paris1944",
+      "scope": "paris"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFineTexture_v15/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleFinishV7/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleManualV9/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v10/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSPR_v11/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleSurfaceJointV6/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleTopologyV8/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodFinish_v14/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/GermanRifleWoodWear_v13/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Tools/AssetCreation/PressureMineV1/reference_notes.md",
+      "scope": "equipment"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDKIT_REAL_REFERENCE_AUDIT_20261017.md",
+      "scope": "equipment",
+      "date": "2026-10-17 research notes"
+    },
+    {
+      "path": "Docs/Development/MissionLoopV1/MEDKIT_MODEL_IMPLEMENTATION_20261017.md",
+      "scope": "equipment",
+      "section_heading": "References and observations",
+      "title": "Medical kit — construction references",
+      "date": "2026-10-17 research notes"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/UNIFORMS_AND_IDENTITY.md",
+      "scope": "equipment",
+      "date": "2026-10-17 research notes"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/WEAPONS_AND_PRESENTATION.md",
+      "scope": "equipment",
+      "date": "2026-10-17 research notes"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/FRAG_GRENADE.md",
+      "scope": "equipment",
+      "date": "2026-10-17 research notes"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/SMOKE_GRENADE.md",
+      "scope": "equipment",
+      "date": "2026-10-17 research notes"
+    },
+    {
+      "path": "HistoricalReference/Equipment1944/AMMUNITION_BOX.md",
+      "scope": "equipment",
+      "date": "2026-10-17 research notes"
+    }
+  ],
+  "images": [
+    {
+      "register": "HistoricalReference/NormandyContext/SOURCES.md",
+      "path": "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg",
+      "scope": "equipment",
+      "title": "U.S. Type II service shoes — detail",
+      "institution": "Paris Musées / Musée de la Libération de Paris",
+      "date": "1941–45 object; modern collection image",
+      "rights": "CC0; credit Paris Musées",
+      "display_basis": "CC0",
+      "url": "https://www.parismuseescollections.paris.fr/en/node/942801",
+      "sha256": "02a200be46d757867c7ef3df04be00ccf4be87b7bd30a6be5666648e68d155c8",
+      "limitation": "物件结构参考，不证明某场战斗的实际装备。 / Artifact construction reference; not equipment evidence for a particular battle."
+    },
+    {
+      "register": "HistoricalReference/NormandyContext/SOURCES.md",
+      "path": "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_2.jpg",
+      "scope": "equipment",
+      "title": "U.S. Type II service shoes — soles",
+      "institution": "Paris Musées / Musée de la Libération de Paris",
+      "date": "1941–45 object; modern collection image",
+      "rights": "CC0; credit Paris Musées",
+      "display_basis": "CC0",
+      "url": "https://www.parismuseescollections.paris.fr/en/node/942801",
+      "sha256": "add45df5f296f0bc4e9274ff749a5b0dbc534195639d94cc0986972c8dbe2708",
+      "limitation": "物件结构参考，不证明某场战斗的实际装备。 / Artifact construction reference; not equipment evidence for a particular battle."
+    },
+    {
+      "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736089.jpg",
+      "scope": "equipment",
+      "title": "Kar98k 2019.1.1 — 1736089",
+      "institution": "Paris Musées / Musée de la Libération de Paris",
+      "date": "1943 object; collection photograph",
+      "rights": "CC0; credit Paris Musées / Musée de la Libération de Paris",
+      "display_basis": "CC0",
+      "url": "https://parismuseescollections.paris.fr/en/node/860143",
+      "sha256": "5d235dd301cbe0408b170dabcb0f9a43ce1b07ffc3b7de66ad5374e42cc97971",
+      "limitation": "馆藏实物：缺通条、准星护罩，帆布背带为更换件；照片不是校准工程图。 / Museum specimen: missing cleaning rod and sight hood, replaced sling; photographs are not calibrated engineering drawings."
+    },
+    {
+      "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736128.jpg",
+      "scope": "equipment",
+      "title": "Kar98k 2019.1.1 — 1736128",
+      "institution": "Paris Musées / Musée de la Libération de Paris",
+      "date": "1943 object; collection photograph",
+      "rights": "CC0; credit Paris Musées / Musée de la Libération de Paris",
+      "display_basis": "CC0",
+      "url": "https://parismuseescollections.paris.fr/en/node/860143",
+      "sha256": "8ef8f41724aa7fb8738738216f986cbaafc69cf1c1ec07d2895d6af72871a54a",
+      "limitation": "馆藏实物：缺通条、准星护罩，帆布背带为更换件；照片不是校准工程图。 / Museum specimen: missing cleaning rod and sight hood, replaced sling; photographs are not calibrated engineering drawings."
+    },
+    {
+      "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736206.jpg",
+      "scope": "equipment",
+      "title": "Kar98k 2019.1.1 — 1736206",
+      "institution": "Paris Musées / Musée de la Libération de Paris",
+      "date": "1943 object; collection photograph",
+      "rights": "CC0; credit Paris Musées / Musée de la Libération de Paris",
+      "display_basis": "CC0",
+      "url": "https://parismuseescollections.paris.fr/en/node/860143",
+      "sha256": "f8bdeea653b9973ccd3d5dae373a8ca4b4188ce2e54c6172d54c9f85c084e677",
+      "limitation": "馆藏实物：缺通条、准星护罩，帆布背带为更换件；照片不是校准工程图。 / Museum specimen: missing cleaning rod and sight hood, replaced sling; photographs are not calibrated engineering drawings."
+    },
+    {
+      "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+      "path": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736212.jpg",
+      "scope": "equipment",
+      "title": "Kar98k 2019.1.1 — 1736212",
+      "institution": "Paris Musées / Musée de la Libération de Paris",
+      "date": "1943 object; collection photograph",
+      "rights": "CC0; credit Paris Musées / Musée de la Libération de Paris",
+      "display_basis": "CC0",
+      "url": "https://parismuseescollections.paris.fr/en/node/860143",
+      "sha256": "265bb0339d5acebccbfbebae022e85a346d7faa0ffc3a9bfe78b63e29da09220",
+      "limitation": "馆藏实物：缺通条、准星护罩，帆布背带为更换件；照片不是校准工程图。 / Museum specimen: missing cleaning rod and sight hood, replaced sling; photographs are not calibrated engineering drawings."
+    },
+    {
+      "register": "HistoricalReference/Equipment1944/FRAG_GRENADE.md",
+      "path": "HistoricalReference/Equipment1944/images/mk-ii-exterior.png",
+      "scope": "equipment",
+      "title": "Mk II — 1942 manual exterior / Mk II 手雷原图",
+      "institution": "U.S. War Department",
+      "date": "3 July 1942",
+      "rights": "US War Department official work; public domain in the United States",
+      "display_basis": "US_GOVERNMENT_PUBLIC_DOMAIN",
+      "url": "https://stephentaylorhistorian.com/wp-content/uploads/2020/09/tm-9-1900-ammunition-general-1942.pdf#page=38",
+      "sha256": "772a9c26ba87ef63ccc4aa5623b9d5822626f713f25d929a94398012b7fa1700",
+      "limitation": "壳体、外部轮廓和早期手册标色对照；1942 年插图不证明巴黎战斗配发或当前模型颜色。 / Exterior, casing silhouette and early manual markings; the 1942 plate does not establish Paris issue or the current model finish."
+    },
+    {
+      "register": "HistoricalReference/Equipment1944/SMOKE_GRENADE.md",
+      "path": "HistoricalReference/Equipment1944/images/an-m8-1943.png",
+      "scope": "equipment",
+      "title": "AN-M8 — 1943 manual exterior / AN-M8 烟雾弹原图",
+      "institution": "U.S. War Department",
+      "date": "8 December 1943",
+      "rights": "US War Department official work; public domain in the United States",
+      "display_basis": "US_GOVERNMENT_PUBLIC_DOMAIN",
+      "url": "https://www.bulletpicker.com/pdf/TM-9-1981-1943.pdf#page=52",
+      "sha256": "64829ea6ea221a72fc9de54fe6140f1127d806baeb38edaeffb71315cef86862",
+      "limitation": "AN-M8 外形、灰色外壳与黄色标记对照；当前模型为风格化参考，不证明单位配发。 / AN-M8 exterior, gray finish and yellow markings; the current model is an interpretation, not proof of unit issue."
+    },
+    {
+      "register": "HistoricalReference/Equipment1944/AMMUNITION_BOX.md",
+      "path": "HistoricalReference/Equipment1944/images/ammo-boxes-1942.png",
+      "scope": "equipment",
+      "title": "Small-arms packing boxes — 1942 / 轻武器弹药木箱原图",
+      "institution": "U.S. War Department",
+      "date": "3 July 1942",
+      "rights": "US War Department official work; public domain in the United States",
+      "display_basis": "US_GOVERNMENT_PUBLIC_DOMAIN",
+      "url": "https://stephentaylorhistorian.com/wp-content/uploads/2020/09/tm-9-1900-ammunition-general-1942.pdf#page=35",
+      "sha256": "72dcdae999bc6138e6ec0726194e1e7dcd8afe55b2eb5c655db5c320e12912fc",
+      "limitation": "木箱结构、携行部位与标记参考；巴黎城市包弹药箱具体箱型和历史装载物未确认。 / Wooden packing-box construction, carrying features and markings; the Paris vendor mesh pattern and historical contents remain unverified."
+    }
+  ],
+  "allowed_scopes": [
+    "paris",
+    "equipment"
+  ]
+}

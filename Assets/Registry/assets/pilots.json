@@ -14,7 +14,7 @@
         "character-ue582-integration-baseline"
       ],
       "description": "保留原人物、骨架与动作，采用德军自身V11握姿。",
-      "human_review": "人工已采用，接触细节仍有限制",
+      "human_review": "当前正式版采用；原验证范围保留。",
       "limitations": [
         "完整动作与接触不能由Ready静态图代替。"
       ],
@@ -40,15 +40,28 @@
       "owner": "Yupu / Paris team",
       "bundles": [
         "us-paratrooper-original",
-        "character-ue582-integration-baseline"
+        "character-ue582-integration-baseline",
+        "paris-crouch-transitions"
       ],
       "description": "原始伞兵与M1组合，V16握姿由原生策略绑定。",
-      "human_review": "V16外观已人工采用",
+      "human_review": "当前正式版采用；原验证范围保留。",
       "limitations": [
         "不将玩家或德军握姿偏移直接复用给盟军。"
       ],
       "documents": [
-        "Docs/Development/ALLIED_NPC_ASSET_USAGE.md"
+        "Docs/Development/ALLIED_NPC_ASSET_USAGE.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013_ZH.md",
+        "Docs/Development/CURRENT_TRAVERSAL_REVIEW.json",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_IMPLEMENTATION_20261013.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_IMPLEMENTATION_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ASSET_ADOPTION_RESULT_20261017.md",
+        "Assets/Sync/CROUCH_TRANSITION_SOURCE_CONTRACT_20261017.json"
       ],
       "order": 1,
       "aliases": [
@@ -57,7 +70,18 @@
         "allied-soldier"
       ],
       "validation": "见分项证据",
-      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权",
+      "crouch_transition": {
+        "asset_id": "paris-crouch-transitions",
+        "asset_version": "crouch-transitions-20261017-v1",
+        "selector": "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+        "contract": "Assets/Sync/CROUCH_TRANSITION_SOURCE_CONTRACT_20261017.json",
+        "manifest": "Assets/Sync/manifests/paris-crouch-transitions.json",
+        "manifest_sha256": "7e0bc884e6afeab410bb828206bf43bd0ecb7685f713f5befe37cf0e65b109b9",
+        "formal_asset_adoption": true,
+        "sftp_verified": true,
+        "whole_game_formal_adoption": false
+      }
     },
     {
       "id": "first-person",
@@ -68,15 +92,45 @@
       "lifecycle": "retained",
       "owner": "Yupu / Paris team",
       "bundles": [
-        "paris-gameplay-native-playtest"
+        "paris-gameplay-native-playtest",
+        "paris-grenade-grips",
+        "paris-crouch-transitions"
       ],
-      "description": "V20认可展示与原生绑定，保持手指、动作和原武器事务。",
-      "human_review": "V20展示已人工采用",
+      "description": "已验收手雷/烟雾弹拇指修形及匹配源适配；步枪姿势与原动作保持。",
+      "human_review": "17 October 2026：当前 ThumbPolish 试玩中的手雷、烟雾弹握姿人工验收通过；正式握姿资产已同步 SFTP。其他功能按各自验收记录。",
       "limitations": [
-        "ADS、衣袖和弹夹机件仍有资产适配缺口。"
+        "ADS、衣袖和弹夹机件仍有资产适配缺口。",
+        "13 October manually adopted sleeve workspace; whole garment/contact/locomotion quantitative limits remain."
       ],
       "documents": [
-        "Docs/Development/FIRST_PERSON_FORMAL_V21_RESULT_20261005.md"
+        "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
+        "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_RESULT_20261017.md",
+        "Docs/Development/FIRST_PERSON_FORMAL_V21_RESULT_20261005.md",
+        "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012.md",
+        "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012_ZH.md",
+        "Docs/Development/SLEEVE_OCCLUSION_IMPLEMENTATION_20261012.md",
+        "Docs/Development/CURRENT_SLEEVE_REVIEW.json",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013_ZH.md",
+        "Docs/Development/CURRENT_TRAVERSAL_REVIEW.json",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_IMPLEMENTATION_20261013.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_IMPLEMENTATION_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/G1_GRENADE_BASELINE_ADOPTION_20261014_ZH.md",
+        "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+        "Docs/Development/G1_GRENADE_BASELINE_ADOPTION_RESULT_20261014_ZH.md",
+        "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ASSET_ADOPTION_RESULT_20261017.md",
+        "Assets/Sync/CROUCH_TRANSITION_SOURCE_CONTRACT_20261017.json"
       ],
       "order": 2,
       "aliases": [
@@ -84,8 +138,19 @@
         "First Person Arms & Rifle",
         "first-person"
       ],
-      "validation": "见分项证据",
-      "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+      "validation": "当前握姿以 CURRENT_ACCEPTED_GRENADE_GRIPS.json 及其 native/source SHA 为准；旧86与离线姿势为历史。原骨架/权重/UV/步枪握姿不变；完整精细接触和第二机器范围保留。",
+      "rights_scope": "按来源记录限定；本机预览不构成公开授权",
+      "crouch_transition": {
+        "asset_id": "paris-crouch-transitions",
+        "asset_version": "crouch-transitions-20261017-v1",
+        "selector": "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+        "contract": "Assets/Sync/CROUCH_TRANSITION_SOURCE_CONTRACT_20261017.json",
+        "manifest": "Assets/Sync/manifests/paris-crouch-transitions.json",
+        "manifest_sha256": "7e0bc884e6afeab410bb828206bf43bd0ecb7685f713f5befe37cf0e65b109b9",
+        "formal_asset_adoption": true,
+        "sftp_verified": true,
+        "whole_game_formal_adoption": false
+      }
     },
     {
       "id": "pressure-mine",
@@ -93,11 +158,11 @@
       "name_en": "Pressure Mine",
       "category": "道具",
       "origin": "team_created",
-      "lifecycle": "candidate",
+      "lifecycle": "retained",
       "owner": "Yupu / Paris team",
       "bundles": [],
       "description": "自建二战风格游戏道具，28厘米盘体与烘焙PBR。",
-      "human_review": "外观记录通过，人工正式选定待定",
+      "human_review": "当前正式版采用；原验证范围保留。",
       "limitations": [
         "虚构外观道具；不声称真实历史型号。"
       ],
@@ -125,7 +190,7 @@
         "german-rifle-model"
       ],
       "description": "V15木质与金属外观；模型修订和原生整合分别记录。",
-      "human_review": "静态模型已认可",
+      "human_review": "当前正式版采用；原验证范围保留。",
       "limitations": [
         "静态模型认可不等于完整可动枪械套件通过。"
       ],
@@ -153,7 +218,7 @@
         "paris-g1-recorded-audio"
       ],
       "description": "33条运行时音效；脚步、跳跃、换弹与录制M1枪声。",
-      "human_review": "audio V2已人工采用",
+      "human_review": "当前正式版采用；原验证范围保留。",
       "limitations": [
         "德军枪声仍为原合成声；不能标作真实K98录音。"
       ],
@@ -181,14 +246,23 @@
         "france-liberation-content"
       ],
       "description": "完整巴黎城市环境包；15,850文件、69个关卡/场景层，当前游戏使用其G1派生地图。",
-      "human_review": "当前游戏地图来源",
+      "human_review": "当前正式版采用；原验证范围保留。",
       "limitations": [
         "地图原件只读；预览不代表全图碰撞、导航或性能验收。"
       ],
       "documents": [
         "Assets/TEAM_SYNC_WORKFLOW.md",
         "Docs/Development/AssetWorkbenchV1/CITY_MAP_ASSET_USAGE_20261011_ZH.md",
-        "Assets/Sync/RIGHTS.md"
+        "Assets/Sync/RIGHTS.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013_ZH.md",
+        "Docs/Development/CURRENT_TRAVERSAL_REVIEW.json",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_IMPLEMENTATION_20261013.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_IMPLEMENTATION_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md"
       ],
       "order": 6,
       "aliases": [
@@ -332,6 +406,73 @@
       ],
       "validation": "见分项证据",
       "rights_scope": "按来源记录限定；本机预览不构成公开授权"
+    },
+    {
+      "id": "cue-player-hurt",
+      "name": "玩家受击拟音",
+      "name_en": "Player Hurt Foley",
+      "category": "音频",
+      "origin": "adapted",
+      "lifecycle": "candidate",
+      "owner": "Yupu / Paris team",
+      "bundles": [],
+      "parent_id": "recorded-audio",
+      "description": "0.28秒身体/衣料受击拟音；89整版已获用户试玩认可，93过渡候选继承，尚未正式采用。",
+      "human_review": "14October用户整版试玩认可89；未单独记录音效听觉评分。",
+      "limitations": [
+        "适配CC0录音，不是人声痛哼",
+        "正常焦点设置沿用正式86，失焦音量只在诊断录音启用"
+      ],
+      "documents": [
+        "Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_RESULT_20261014_ZH.md",
+        "Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_IMPLEMENTATION_20261014_ZH.md",
+        "Docs/Development/PlayerDamageFeedback20261014/HURT_AUDIO_MANIFEST.json",
+        "Docs/Development/MissionLoopV1/PRONE_TRANSITION_RESULT_20261014_ZH.md",
+        "Docs/Development/MissionLoopV1/PRONE_TRANSITION_IMPLEMENTATION_20261014_ZH.md"
+      ],
+      "aliases": [
+        "受伤",
+        "受击",
+        "hurt",
+        "player-hurt"
+      ],
+      "validation": "原18次同89Game与实际混音证据保留；原音频字节由新93继承并验证。",
+      "rights_scope": "Existing CC0 source/provenance retained; local candidate only"
+    },
+    {
+      "id": "medical-pouch",
+      "name": "医疗包",
+      "name_en": "Medical Pouch",
+      "category": "道具",
+      "origin": "team_created",
+      "lifecycle": "retained",
+      "owner": "Yupu / Paris team",
+      "bundles": [
+        "paris-medical-pouch"
+      ],
+      "description": "已人工验收的卡其帆布医疗包；双织带扣具、医疗标记及不规则表面污渍。",
+      "human_review": "17 October 2026：人工复核确认完整模型和材质外观，已正式入库。",
+      "validation": "精确选定 GLB 的13项导出检查通过；外观人工验收。游戏接入另行处理。",
+      "limitations": [
+        "二战风格游戏道具；未确定具体历史制式与巴黎配发归属。",
+        "尚未接入 UE、治疗玩法、LOD 或性能测试。"
+      ],
+      "rights_scope": "原创程序化模型与纹理；仅现有三人开发团队私有共享，参考照片不在发布包内。",
+      "usage_hint": "source_only",
+      "documents": [
+        "Docs/Development/CURRENT_MEDICAL_POUCH_ASSET.json",
+        "Docs/Development/MissionLoopV1/MEDKIT_ASSET_ADOPTION_RESULT_20261017.md",
+        "Docs/Development/MissionLoopV1/MEDKIT_ASSET_ADOPTION_IMPLEMENTATION_20261017.md",
+        "Assets/Sync/manifests/paris-medical-pouch.json"
+      ],
+      "order": 8,
+      "aliases": [
+        "医疗包",
+        "医药包",
+        "Medical Pouch",
+        "medkit",
+        "medical-pouch"
+      ]
     }
   ]
 }

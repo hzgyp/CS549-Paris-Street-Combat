@@ -1,0 +1,829 @@
+{
+  "schema_version": 1,
+  "status": "local_tutorial_copy_context_scoped_verified_human_pending",
+  "revision": "build_v2",
+  "game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2",
+  "source_snapshot": "Unreal/Variants/G1TutorialCopy20261015/Project",
+  "source_manifest": "Unreal/Variants/G1TutorialCopy20261015/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "3e94da0205d8bca50b4ba459bc55b836f912c728c941b8cc82e6e5102064f11d",
+  "source_files": 115,
+  "active_authoring_project": "tmp/g1-tutorial-copy-20261015/candidate_v1/Project/WW2FranceLiberation.uproject",
+  "playable_directory": "tmp/Playtest-G1-Tutorial-Copy-20261015",
+  "playable_entry": "tmp/Playtest-G1-Tutorial-Copy-20261015/PLAY_TUTORIAL_COPY.cmd",
+  "launcher_sha256": "913ac9617fe880e5e0d0f8a65bfa10b3b2bb2429dbddce3d8339fc6970dcea03",
+  "user_dir": "G1TutorialCopy20261015",
+  "save_prefix": "ParisCheckpointHistoryV1",
+  "default_language": "zh-Hans",
+  "checks": [
+    {
+      "identity": "copy_training_build_v2",
+      "status": "pass_copy_training_actual_CP0_save",
+      "result": "tmp/g1-tutorial-copy-20261015/checks/copy_training_build_v2/RESULT.json",
+      "result_sha256": "80f3e7e03b9ebc6fbb43c93a96e7755c0b3f8b0268ad3aaad2adc6fa8c105726",
+      "game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2"
+    },
+    {
+      "identity": "copy_cp0_1080_build_v2",
+      "status": "pass_copy_CP0_briefing_help_equipment",
+      "result": "tmp/g1-tutorial-copy-20261015/checks/copy_cp0_1080_build_v2/RESULT.json",
+      "result_sha256": "172e0a613a59c1f7a8af152a1dd68ee8e66214ad556ea9612a9dc1770f30943d",
+      "game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2"
+    },
+    {
+      "identity": "copy_cp0_720_build_v2",
+      "status": "pass_copy_CP0_briefing_help_equipment",
+      "result": "tmp/g1-tutorial-copy-20261015/checks/copy_cp0_720_build_v2/RESULT.json",
+      "result_sha256": "e7375f5e9d9ff5513b15a9590a819566c1337e54dd91adf135d37d8f8259815d",
+      "game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2"
+    },
+    {
+      "identity": "snapshot_build_v2",
+      "status": "pass_flow_snapshot",
+      "result": "tmp/g1-tutorial-copy-20261015/checks/snapshot_build_v2/RESULT.json",
+      "result_sha256": "92bca36a543f410825966c938be57ff672e5df5f0846ef04cf6d3343a5bbdae7",
+      "game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2"
+    },
+    {
+      "identity": "cp1_restore_build_v2",
+      "status": "pass_flow_cp1_restore",
+      "result": "tmp/g1-tutorial-copy-20261015/checks/cp1_restore_build_v2/RESULT.json",
+      "result_sha256": "d7d788374b53d02e8d3465d4232998541ae653c0f18aab594812784a34d8ba96",
+      "game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2"
+    },
+    {
+      "identity": "startup_build_v2",
+      "status": "pass_first_load_spawn_and_goal",
+      "result": "tmp/g1-tutorial-copy-20261015/checks/startup_build_v2/RESULT.json",
+      "result_sha256": "a838dbda7b6f9f79351713fcddccf808c5d11f6a906c8541fb7d0bf6cb341b81",
+      "game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2"
+    }
+  ],
+  "parent": {
+    "schema_version": 1,
+    "status": "local_tutorial_startup_latest_V_damage_prone_scoped_verified_human_pending",
+    "revision": "build_v3",
+    "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b",
+    "source_snapshot": "Unreal/Variants/G1TutorialStartup20261015/Project",
+    "source_manifest": "Unreal/Variants/G1TutorialStartup20261015/SOURCE_MANIFEST.json",
+    "source_manifest_sha256": "6c7b14cc425fccf192021e4fa321a1690aa9918da1e5450d660fc292c9a41daf",
+    "source_files": 115,
+    "active_authoring_project": "tmp/g1-tutorial-startup-20261015/candidate_v1/Project/WW2FranceLiberation.uproject",
+    "playable_directory": "tmp/Playtest-G1-Tutorial-Startup-20261015",
+    "playable_entry": "tmp/Playtest-G1-Tutorial-Startup-20261015/PLAY_TUTORIAL_STARTUP.cmd",
+    "launcher_sha256": "92bf0ef7cabe1ccc1892bf042d858273b52bea4e9cfac3f134a255f73cd6d312",
+    "user_dir": "G1TutorialStartup20261015",
+    "save_prefix": "ParisCheckpointHistoryV1",
+    "default_language": "zh-Hans",
+    "checks": [
+      {
+        "identity": "startup_fresh_build_v3",
+        "status": "pass_first_load_spawn_and_goal",
+        "result": "tmp/g1-tutorial-startup-20261015/checks/startup_fresh_build_v3/RESULT.json",
+        "result_sha256": "640e7da7b1d33aaba2be9b31a5f0ba88044347f3b4bacbc876f11759228225d8",
+        "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b"
+      },
+      {
+        "identity": "startup_restart_build_v3",
+        "status": "pass_startup_and_f6_restart",
+        "result": "tmp/g1-tutorial-startup-20261015/checks/startup_restart_build_v3/RESULT.json",
+        "result_sha256": "51be354787e8f41f3c6d1b68c6a0cfb3ca98f325c9f1c0222fbaee83ee41a592",
+        "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b"
+      },
+      {
+        "identity": "tutorial_prone_build_v3",
+        "status": "pass_tutorial_cp0_native_inputs",
+        "result": "tmp/g1-tutorial-startup-20261015/checks/tutorial_prone_build_v3/RESULT.json",
+        "result_sha256": "1dd553b898c7eb5d0f6e1f7cfbc2059790faea67fd9e5f26c41994ec4735516a",
+        "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b"
+      },
+      {
+        "identity": "human_snapshot_build_v3",
+        "status": "pass_flow_snapshot",
+        "result": "tmp/g1-tutorial-startup-20261015/checks/human_snapshot_build_v3/RESULT.json",
+        "result_sha256": "418854e50a0b414a44ecba56dc5f4e552f554c151c96fb2936c8813cd9fbc87d",
+        "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b"
+      },
+      {
+        "identity": "human_cp1_build_v3",
+        "status": "pass_flow_cp1_restore",
+        "result": "tmp/g1-tutorial-startup-20261015/checks/human_cp1_build_v3/RESULT.json",
+        "result_sha256": "dfcf34a8cbdecad2fed90287c04b2a7206b0d636abf090879e613d06ba5561f7",
+        "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b"
+      },
+      {
+        "identity": "v_bindings_build_v3",
+        "status": "pass_binding_audit_capture",
+        "result": "tmp/g1-tutorial-startup-20261015/checks/v_bindings_build_v3/RESULT.json",
+        "result_sha256": "4b4e0f4a9a63a1e25705bca83ee2ffb8c1740725d6e8e99026b7ea3fe185cbdd",
+        "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b"
+      },
+      {
+        "identity": "damage_build_v3",
+        "status": "pass_player_damage_timeline",
+        "result": "tmp/g1-tutorial-startup-20261015/checks/damage_build_v3/RESULT.json",
+        "result_sha256": "75d9f0bb19332cedce7cc7e2528db301c967d3433cec0c997c531e007b784fcf",
+        "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b"
+      }
+    ],
+    "parent": {
+      "schema_version": 1,
+      "status": "local_tutorial_latest_V_damage_prone_scoped_verified_human_pending",
+      "revision": "build_v3",
+      "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+      "source_snapshot": "Unreal/Variants/G1TutorialDamageProne20261015/Project",
+      "source_manifest": "Unreal/Variants/G1TutorialDamageProne20261015/SOURCE_MANIFEST.json",
+      "source_manifest_sha256": "be160a2ded76dedc90e7537adef7f63dfd9eb2577c76a47eed84c661b4424f7d",
+      "source_files": 114,
+      "active_authoring_project": "tmp/g1-tutorial-damage-prone-20261015/candidate_v1/Project/WW2FranceLiberation.uproject",
+      "playable_directory": "tmp/Playtest-G1-Tutorial-DamageProne-20261015",
+      "playable_entry": "tmp/Playtest-G1-Tutorial-DamageProne-20261015/PLAY_TUTORIAL_DAMAGE_PRONE.cmd",
+      "launcher_sha256": "fe8c2d5b8cd80fd60a541983666e9bced83744f3fcb2dcd7393e3f6912d554bb",
+      "user_dir": "G1TutorialDamageProne20261015",
+      "save_prefix": "ParisCheckpointHistoryV1",
+      "default_language": "zh-Hans",
+      "checks": [
+        {
+          "identity": "tutorial_prone_v3",
+          "status": "pass_tutorial_cp0_native_inputs",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/tutorial_prone_v3/RESULT.json",
+          "result_sha256": "f13ece1f110864d4d029ff9e99290816b2e79a282a7b8ce971ece8e192f2b3eb",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 24
+        },
+        {
+          "identity": "damage_tutorial_v3",
+          "status": "pass_player_damage_timeline",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/damage_tutorial_v3/RESULT.json",
+          "result_sha256": "75d9f0bb19332cedce7cc7e2528db301c967d3433cec0c997c531e007b784fcf",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 14
+        },
+        {
+          "identity": "prone_observer_v3",
+          "status": "pass_native_prone_observer_toggle",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/prone_observer_v3/RESULT.json",
+          "result_sha256": "0037936f9e2467d5eeb5c56aae681a927da46d347e537b875f338f017894544e",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 20
+        },
+        {
+          "identity": "prone_fp_v3",
+          "status": "pass_native_prone_visual_fp",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/prone_fp_v3/RESULT.json",
+          "result_sha256": "95ac1fb68f54f1709aef90e25aab13f31c92a534d8a7f518069caaaad7cab12e",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 15
+        },
+        {
+          "identity": "prone_safety_v3",
+          "status": "pass_native_prone_safety",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/prone_safety_v3/RESULT.json",
+          "result_sha256": "fbca9321b5bcb06a44f479ceec21c7f449bcee16b6e1b0977f958b34cddd71f0",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 10
+        },
+        {
+          "identity": "prone_lifecycle_v3",
+          "status": "pass_native_prone_lifecycle",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/prone_lifecycle_v3/RESULT.json",
+          "result_sha256": "4c8beeb248b5f3fffd78d63b43bc9c422736620c7091944130816a0e0d02826d",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 6
+        },
+        {
+          "identity": "v_bindings_v3",
+          "status": "pass_binding_audit_capture",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/v_bindings_v3/RESULT.json",
+          "result_sha256": "e07931e9c7dc616e4230bce36ec7f477db792c07659afc883e23033a69717beb",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 15
+        },
+        {
+          "identity": "v_reload_swap_v3",
+          "status": "pass_binding_audit_capture",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/v_reload_swap_v3/RESULT.json",
+          "result_sha256": "ac90698da834e1dd1646b1cef76b64f9130f5a66b2dd4ab0b8439422f6803712",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 14
+        },
+        {
+          "identity": "human_snapshot_v3",
+          "status": "pass_flow_snapshot",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/human_snapshot_v3/RESULT.json",
+          "result_sha256": "abe3ef69baf14a8eeec23b0735d1bf5eb99898795ffa326217b01c990bf6fc31",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 19
+        },
+        {
+          "identity": "human_cp1_v3",
+          "status": "pass_flow_cp1_restore",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/human_cp1_v3/RESULT.json",
+          "result_sha256": "875de69f6d833ed7b92461751021bbcedf37496c7284e2b1e2f66c1d1aa7f313",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 4
+        },
+        {
+          "identity": "grenade_hands_v3",
+          "status": "pass_native_grenade_hands",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/grenade_hands_v3/RESULT.json",
+          "result_sha256": "72bbf1131387056cd5c3fd5d5ccc72efc79ecce848ee1e29eb2cd3bf90c4df27",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 28
+        },
+        {
+          "identity": "traversal_v3",
+          "status": "pass_native_traversal_input",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/traversal_v3/RESULT.json",
+          "result_sha256": "5f8693b94e4fdc6e91d85f6aaa818f1c402693439afa075b0fceaf23a075b803",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 61
+        },
+        {
+          "identity": "damage_paths_v3",
+          "status": "pass_player_damage_paths",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/damage_paths_v3/RESULT.json",
+          "result_sha256": "1caf2582ffa34e6ba0ae677af02137a6996efcf2a4e2b05e0bbefabcba41cefe",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 6
+        },
+        {
+          "identity": "low_save_v3",
+          "status": "pass_player_damage_save_low",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/low_save_v3/RESULT.json",
+          "result_sha256": "dafa7c479e894a87e196875496a9f6684c3a05d71e3a515c2afbc21e6004a9ad",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 2
+        },
+        {
+          "identity": "low_restore_v3",
+          "status": "pass_player_damage_restore_low",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/low_restore_v3/RESULT.json",
+          "result_sha256": "c68e39eff4ceed5b6ca30740a6f7a335b26f727b652fcfdc4ee440e4778778b2",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 1
+        },
+        {
+          "identity": "prone_load_v3",
+          "status": "pass_native_prone_load",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/prone_load_v3/RESULT.json",
+          "result_sha256": "002567e64556b4f869b72143082532eb117d274e1d8910ad82e2bd5753c505bc",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 3
+        },
+        {
+          "identity": "language_v3",
+          "status": "pass_language_native_ui",
+          "result": "tmp/g1-tutorial-damage-prone-20261015/checks/language_v3/RESULT.json",
+          "result_sha256": "5189b09719d0f8b7a9e235e17304a1929fd4f9f6e8476b675ace9045fd6edd44",
+          "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+          "assertions": 8
+        }
+      ],
+      "protection": "tmp/g1-tutorial-damage-prone-20261015/build_v3/PROTECTION.json",
+      "visual_audio_review": "tmp/g1-tutorial-damage-prone-20261015/VISUAL_AUDIO_REVIEW.json",
+      "human_seed": "tmp/g1-tutorial-damage-prone-20261015/HUMAN_SEED.json",
+      "manual_review": "pending",
+      "formal_adoption": false,
+      "publication": false,
+      "parents": {
+        "latest_V_tutorial": {
+          "revision": "build_v8",
+          "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+          "source_snapshot": "Unreal/Variants/G1UnifiedBodyRepair20261015/Project",
+          "source_manifest": "Unreal/Variants/G1UnifiedBodyRepair20261015/SOURCE_MANIFEST.json",
+          "source_manifest_sha256": "c43e21fe9171cb1f1d0814230d09fe59029162b9e4bc8b8de3b5d0273cdbdaed",
+          "source_files": 107,
+          "active_authoring_project": "tmp/g1-unified-body-repair-20261015/candidate_v1/Project/WW2FranceLiberation.uproject",
+          "playable_directory": "tmp/Playtest-G1-Tutorial-LatestV-20261015",
+          "playable_entry": "tmp/Playtest-G1-Tutorial-LatestV-20261015/PLAY_TUTORIAL_LATEST_V.cmd",
+          "launcher_sha256": "9fd2bcaa21ddd829775506459d0a7997d235eddfae192737cc6e937d0affe4ae",
+          "user_dir": "G1TutorialLatestV20261015",
+          "save_prefix": "ParisCheckpointHistoryV1",
+          "default_language": "zh-Hans",
+          "total_bytes": 8485739900,
+          "checks": [
+            {
+              "identity": "cp1_human",
+              "status": "pass_flow_cp1_restore",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-tutorial-latest-v-20261015/checks/cp1_human/RESULT.json",
+              "result_sha256": "4814fa06b3a41c51ced2b5059367f42873f928d7d6f80411fa8fd76699265308",
+              "launch": "tmp/g1-tutorial-latest-v-20261015/checks/cp1_human/launch.json",
+              "assertions": 4,
+              "evidence_origin": "New focused run for this integration"
+            },
+            {
+              "identity": "cp0_human",
+              "status": "pass_flow_restore_only",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-tutorial-latest-v-20261015/checks/cp0_human/RESULT.json",
+              "result_sha256": "5e47b005cfb72cec6bebeec5a427c3b2ab517df975c9d37ea1f8076fc6efc56b",
+              "launch": "tmp/g1-tutorial-latest-v-20261015/checks/cp0_human/launch.json",
+              "assertions": 7,
+              "evidence_origin": "New focused run for this integration"
+            },
+            {
+              "identity": "v_movement",
+              "status": "pass_binding_audit_capture",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-tutorial-latest-v-20261015/checks/v_movement/RESULT.json",
+              "result_sha256": "39b1b139c15baed13d7dddc828f62270862d6ccc010c60ca77ae611ca8bf221a",
+              "launch": "tmp/g1-tutorial-latest-v-20261015/checks/v_movement/launch.json",
+              "assertions": 15,
+              "evidence_origin": "New focused run for this integration"
+            }
+          ],
+          "formal_adoption": false,
+          "publication": false,
+          "schema_version": 1,
+          "status": "latest_V_Chinese_tutorial_scoped_verified_human_review_pending",
+          "manual_review": "pending",
+          "human_manual_review": "Latest integrated entry pending; predecessor107 rejection preserved",
+          "parent": {
+            "status": "human_rejected_missing_arms_floating_rifle",
+            "source_snapshot": "Unreal/Variants/G1UnifiedPerspective20261014/Project",
+            "game_sha256": "adbdf80c1c93737d811d3e036cac238e6259a9a6fecc8a92b1097841356325f3"
+          },
+          "result": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+          "result_zh": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+          "implementation": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015.md",
+          "implementation_zh": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015_ZH.md",
+          "protection": "tmp/g1-unified-body-repair-20261015/build_v8/PROTECTION.json",
+          "visual_review": "tmp/g1-tutorial-latest-v-20261015/VISUAL_REVIEW.json",
+          "human_rejection_record": "tmp/g1-unified-body-repair-20261015/human_rejection/REJECTION.json",
+          "failure": "Failures/UP002-20261015-missing-arms/ANALYSIS.md",
+          "source_binding_entry": "Plugins/ParisGripBindingV18/Source/ParisGripBindingV18/Private/ParisActionBindings.cpp",
+          "language_switch": "Esc Settings Language; persisted in independent UserDir",
+          "repair_scope": [
+            "Live native rifle body Ready/locomotion/aim frame retained; camera-specific FP holding arm transplant removed",
+            "Both superseded player-owned rifle actors hidden only during observer and original flags restored on exit/death/world teardown",
+            "Existing common action/visible rifle/body/grip/recoil entry retained; original FP workspace and grenade files exact"
+          ],
+          "limitations": [
+            "V remains an observer using the original FP shot/aim reference; no complete TPS crosshair/trace implementation",
+            "Human review pending; original native high-ready pose retained; no fine grasp/garment/all-map/stress/Editor/PIE/second-machine acceptance",
+            "Only opt-in checks use AI hold, temporary flat site, diagnostic front/side cameras, direct death or earned CP0 copy; normal launcher has none",
+            "New matching Editor has not been built; do not enter cached predecessor Editor"
+          ],
+          "inherited_checks": [
+            {
+              "identity": "move_v8",
+              "status": "pass_binding_audit_capture",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-unified-body-repair-20261015/checks/move_v8/RESULT.json",
+              "result_sha256": "2607c9707ad167735de35926b3bc0b76757f46b5a25c9a1be476b731344b5b9c",
+              "assertions": 15,
+              "evidence_origin": "Existing unchanged-Game upstream result; not rerun here"
+            },
+            {
+              "identity": "fp_v8",
+              "status": "pass_binding_audit_capture",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-unified-body-repair-20261015/checks/fp_v8/RESULT.json",
+              "result_sha256": "9d50d95072ad7dcb5956feb83482d758c4e7381f8faee6de433b17606e519ec7",
+              "assertions": 12,
+              "evidence_origin": "Existing unchanged-Game upstream result; not rerun here"
+            },
+            {
+              "identity": "swap_v8",
+              "status": "pass_binding_audit_capture",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-unified-body-repair-20261015/checks/swap_v8/RESULT.json",
+              "result_sha256": "98776da66d9b90686f4b0c32536ab218bb7f3327c56bfc3dbf97ff2c9006f01c",
+              "assertions": 14,
+              "evidence_origin": "Existing unchanged-Game upstream result; not rerun here"
+            },
+            {
+              "identity": "hands_live_v8",
+              "status": "pass_native_grenade_hands",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-unified-body-repair-20261015/checks/hands_live_v8/RESULT.json",
+              "result_sha256": "47316bd0015b282800933964fce6030f637fd135fe4bed10a3cbdf47fc35b880",
+              "assertions": 34,
+              "evidence_origin": "Existing unchanged-Game upstream result; not rerun here"
+            },
+            {
+              "identity": "full_v8",
+              "status": "pass_tutorial_cp0_native_inputs",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-unified-body-repair-20261015/checks/full_v8/RESULT.json",
+              "result_sha256": "384c0b22bfd84f3d9deb08c23024eed51b7112f2b6349d5b64a00327b708ca0f",
+              "assertions": 24,
+              "evidence_origin": "Existing unchanged-Game upstream result; not rerun here"
+            },
+            {
+              "identity": "lifecycle_v8",
+              "status": "pass_binding_audit_capture",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-unified-body-repair-20261015/checks/lifecycle_v8/RESULT.json",
+              "result_sha256": "a7bed6354ffd8cbb99e277dbd7a50f4b57b534f2087da0f91a470a05acd946c9",
+              "assertions": 21,
+              "evidence_origin": "Existing unchanged-Game upstream result; not rerun here"
+            },
+            {
+              "identity": "restore_v8",
+              "status": "pass_flow_restore_only",
+              "exit_code": 0,
+              "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+              "result": "tmp/g1-unified-body-repair-20261015/checks/restore_v8/RESULT.json",
+              "result_sha256": "d9407dbdf21fd6d1ffa0084535ea99ff4bf1854d129fe6c93f95235985771e4a",
+              "assertions": 7,
+              "evidence_origin": "Existing unchanged-Game upstream result; not rerun here"
+            }
+          ],
+          "human_seed": "tmp/g1-tutorial-latest-v-20261015/HUMAN_REVIEW_SEED.json",
+          "upstream_implementation": "Docs/Development/MissionLoopV1/UNIFIED_BODY_REPAIR_20261015.md",
+          "upstream_result": "Docs/Development/MissionLoopV1/UNIFIED_BODY_REPAIR_RESULT_20261015.md",
+          "upstream_visual_review": "tmp/g1-unified-body-repair-20261015/VISUAL_REVIEW.json",
+          "startup_check": "tmp/g1-tutorial-latest-v-20261015/normal_smoke_v8/launch.json",
+          "core_preservation": "tmp/g1-tutorial-latest-v-20261015/CORE_PRESERVATION.json"
+        },
+        "damage": {
+          "schema_version": 1,
+          "status": "manually_reviewed_player_damage_feedback_continuation_parent",
+          "revision": "build_v4",
+          "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+          "source_snapshot": "Unreal/Variants/G1PlayerDamageFeedback20261014/Project",
+          "source_manifest": "Unreal/Variants/G1PlayerDamageFeedback20261014/SOURCE_MANIFEST.json",
+          "source_manifest_sha256": "94ebc3e09b158d9dbfcaf1b50cbc162d3192405ffa605c2e653c4405130078cd",
+          "source_files": 89,
+          "active_authoring_project": "tmp/g1-player-damage-feedback-20261014/candidate_v1/Project/WW2FranceLiberation.uproject",
+          "playable_directory": "tmp/Playtest-G1-PlayerDamageFeedback-20261014",
+          "playable_entry": "tmp/Playtest-G1-PlayerDamageFeedback-20261014/PLAY_DAMAGE_FEEDBACK.cmd",
+          "user_dir": "G1PlayerDamageFeedback20261014",
+          "save_prefix": "ParisPlayerDamageFeedbackV1",
+          "parent_source": "Unreal/Variants/G1GrenadePose20261013V8/Project",
+          "parent_game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+          "manual_review": "pass",
+          "implementation": "Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_IMPLEMENTATION_20261014_ZH.md",
+          "result": "Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_RESULT_20261014_ZH.md",
+          "checks": [
+            {
+              "mode": "paths",
+              "status": "pass_player_damage_paths",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/paths_v4/RESULT.json",
+              "sha256": "0698b7867d1b44425441b82849fd4b30457cba61b69beab5b6eca1d37da125f4",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 6
+            },
+            {
+              "mode": "timeline30",
+              "status": "pass_player_damage_timeline",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/timeline30_v4/RESULT.json",
+              "sha256": "badb2f56d8289f3fe6de7f7341d48ecbfbbedfd9b9224429c7334c2547de947b",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 14
+            },
+            {
+              "mode": "timeline60",
+              "status": "pass_player_damage_timeline",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/timeline60_v4/RESULT.json",
+              "sha256": "8ab32856e1fdcc8ca7f9f8d1801c0b6a14a948c833d7fda087b5bdc0d0063018",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 14
+            },
+            {
+              "mode": "timeline720",
+              "status": "pass_player_damage_timeline",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/timeline720_v4/RESULT.json",
+              "sha256": "fc26ab3b202df5017450555cc1b35ee679670c4f426acb069f89bc594470fc96",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 14
+            },
+            {
+              "mode": "save_low",
+              "status": "pass_player_damage_save_low",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/save_low_v4/RESULT.json",
+              "sha256": "f82c515ba02027f9cc9aab22a9062dbadef16ca34e06fb658f3872ab93baf6b9",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 2
+            },
+            {
+              "mode": "restore_low",
+              "status": "pass_player_damage_restore_low",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/restore_low_v4/RESULT.json",
+              "sha256": "e58a7b8e7b261abc5e1837d0acc162a93877c80718341c174de99e99996b4120",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 1
+            },
+            {
+              "mode": "pose_live",
+              "status": "pass_native_pose_live",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/pose_live_v4/RESULT.json",
+              "sha256": "78f1bacd63a3d55a8402e67978e24bec8e4a933e99a5d450ac67ec91bdae6ec0",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 0
+            },
+            {
+              "mode": "hands",
+              "status": "pass_native_grenade_hands",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/hands_v4/RESULT.json",
+              "sha256": "45e428b39d60607a36f062a5f6dfff4dab78e567524be60da5d72b680101f507",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 0
+            },
+            {
+              "mode": "wheel",
+              "status": "pass_native_wheel",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/wheel_v4/RESULT.json",
+              "sha256": "4a2df218330cc29324465f67fcf9738ea6f70799dc0ec5036a16e02c5981584d",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 0
+            },
+            {
+              "mode": "input",
+              "status": "pass_native_traversal_input",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/input_v4/RESULT.json",
+              "sha256": "d020834d211c382736ede3e55cd5e7d80b9c48b9febc33b3e8f16acb78519e4d",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 0
+            },
+            {
+              "mode": "safety",
+              "status": "pass_native_traversal_safety",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/safety_v4/RESULT.json",
+              "sha256": "843e417fa21069637d57635854a72db199a76e676f9e6b075bb43a5596dda318",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 0
+            },
+            {
+              "mode": "p1",
+              "status": "pass_p1_ammo_radar_inventory",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/p1_v4/RESULT.json",
+              "sha256": "7a20bcc59add5d3bd1c1a1290d9976538843075c336521377b6ca8b94653d0aa",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 22
+            },
+            {
+              "mode": "death",
+              "status": "pass_player_death_frag",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/death_v4/RESULT.json",
+              "sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 6
+            },
+            {
+              "mode": "equipment_pause",
+              "status": "pass_ui_equipment_pause",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/equipment_pause_v4/RESULT.json",
+              "sha256": "79ddf42438815b52b0a7f692205c61106588d6777d6d9f728003b859a4b2984d",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 7
+            },
+            {
+              "mode": "save",
+              "status": "pass_native_save_equipment",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/save_v4/RESULT.json",
+              "sha256": "019f01243a2b93ec7505b3351ea5f259122387064df20078e002d0518d06b175",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 0
+            },
+            {
+              "mode": "restore",
+              "status": "pass_native_restore_equipment",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/restore_v4/RESULT.json",
+              "sha256": "3270b2032bcae8b45ac6f18e9f5964f466f698a74a55bcaaf4306a57c43678a6",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 0
+            },
+            {
+              "mode": "timeline_audio",
+              "status": "pass_player_damage_timeline",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/timeline_audio_v4/RESULT.json",
+              "sha256": "daf9cca3d2d6d5f7b633a37e8dcd7ac27434cbc6ae945e6d95e89eaaa989bc0a",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 14
+            },
+            {
+              "mode": "paths_audio",
+              "status": "pass_player_damage_paths",
+              "result": "tmp/g1-player-damage-feedback-20261014/checks/paths_audio_v4/RESULT.json",
+              "sha256": "d43ac024afb6e991519119cc9be68fcf4b9d4af6527c50ef4750caa05f14f39e",
+              "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+              "checks": 6
+            }
+          ],
+          "protection": "tmp/g1-player-damage-feedback-20261014/build_v4/PROTECTION.json",
+          "visual_audio_review": "tmp/g1-player-damage-feedback-20261014/VISUAL_AUDIO_REVIEW.json",
+          "audio_manifest": "Unreal/Variants/G1PlayerDamageFeedback20261014/HURT_AUDIO_MANIFEST.json",
+          "hurt_audio_sha256": "619db78b6a516e13a43c36819383d2587a50aedcfa67e2e3a1abad04675cb2cc",
+          "limitations": [
+            "Human audiovisual acceptance pending",
+            "Current English formal86 HUD; unified Chinese/tutorial candidate remains separate",
+            "Declared diagnostic positioning/AI hold/airborne450cm fuse and200HP mine fixtures are not natural-combat or normal100HP nonfatal mine claims",
+            "No direction/camera shake/body hit animation/PIE/all-map/stress/second-machine acceptance"
+          ],
+          "publication": "Local independent trial only; no formal adoption/Git/SFTP/course upload",
+          "matching_editor": "Copied older Editor binaries not accepted; build matching89 Editor before entry",
+          "human_manual_review": "14 October user: 我看了一下没啥问题; next issue is Z posture transition",
+          "human_review_at": "2026-10-14T16:33:58.633232-04:00",
+          "formal_adoption": false
+        },
+        "prone": {
+          "schema_version": 1,
+          "status": "local_observer_Z_scoped_verified_human_case_retest_pending",
+          "revision": "build_v6",
+          "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+          "source_snapshot": "Unreal/Variants/G1ProneObserver20261014/Project",
+          "source_manifest": "Unreal/Variants/G1ProneObserver20261014/SOURCE_MANIFEST.json",
+          "source_manifest_sha256": "7b8f9e79c6440d4ba82094ef3e0a9bd6631d15c4f64a1cde6f751b101f286053",
+          "source_files": 93,
+          "active_authoring_project": "tmp/g1-prone-observer-20261014/candidate_v1/Project/WW2FranceLiberation.uproject",
+          "playable_directory": "tmp/Playtest-G1-ProneObserver-20261014",
+          "playable_entry": "tmp/Playtest-G1-ProneObserver-20261014/PLAY_PRONE_OBSERVER.cmd",
+          "user_dir": "G1ProneObserver20261014",
+          "save_prefix": "ParisProneObserverV1",
+          "parent_source": "Unreal/Variants/G1ProneTransition20261014/Project",
+          "parent_game_sha256": "52576ee48d1e555fb3f438fe0268155bfff367110092b8adffffac939649c809",
+          "parent_human_review": "Native motion looks fine; stationary V then Z refusal reported. Exact human position unknown.",
+          "manual_review": "pending_observer_retest",
+          "formal_adoption": false,
+          "implementation": "Docs/Development/MissionLoopV1/PRONE_OBSERVER_IMPLEMENTATION_20261014_ZH.md",
+          "result": "Docs/Development/MissionLoopV1/PRONE_OBSERVER_RESULT_20261014_ZH.md",
+          "checks": [
+            {
+              "mode": "observer_equivalence",
+              "status": "pass_native_prone_observer_equivalence",
+              "result": "tmp/g1-prone-observer-20261014/checks/observer_equivalence_v6/RESULT.json",
+              "sha256": "66b40654987a6d11659148ca35528e72aac571bbe1571a34a411f81a67326d11",
+              "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+              "checks": 23
+            },
+            {
+              "mode": "observer_live",
+              "status": "pass_native_prone_observer",
+              "result": "tmp/g1-prone-observer-20261014/checks/observer_live_v6/RESULT.json",
+              "sha256": "e7ccffc659830338565a10809a6d8fe9344aec08a9ed124c7c928f79205d201a",
+              "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+              "checks": 17
+            },
+            {
+              "mode": "observer_toggle",
+              "status": "pass_native_prone_observer_toggle",
+              "result": "tmp/g1-prone-observer-20261014/checks/observer_toggle_v6/RESULT.json",
+              "sha256": "e7a8264bbdd1ca950a2921de4a34dd739aedd27a41b2113eaa5e6d73953e756d",
+              "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+              "checks": 20
+            },
+            {
+              "mode": "observer_safety",
+              "status": "pass_native_prone_observer_safety",
+              "result": "tmp/g1-prone-observer-20261014/checks/observer_safety_v6/RESULT.json",
+              "sha256": "9f360e7793800badfb8afe96cb22affb471cb4e4dfbd94c4fcff4c129aca500d",
+              "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+              "checks": 10
+            },
+            {
+              "mode": "observer_lifecycle",
+              "status": "pass_native_prone_observer_lifecycle",
+              "result": "tmp/g1-prone-observer-20261014/checks/observer_lifecycle_v6/RESULT.json",
+              "sha256": "82485257b946af2b1666f91b854daaa37777c40f97b96ef9902a9038f182b99a",
+              "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+              "checks": 6
+            },
+            {
+              "mode": "first_person",
+              "status": "pass_native_prone_visual_fp",
+              "result": "tmp/g1-prone-observer-20261014/checks/first_person_v6/RESULT.json",
+              "sha256": "1b7fbf4accdd03513b055b18dd87849cdfb4fad2f2cdcb80251b31be0d392a3b",
+              "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+              "checks": 15
+            },
+            {
+              "mode": "traversal_input",
+              "status": "pass_native_traversal_input",
+              "result": "tmp/g1-prone-observer-20261014/checks/traversal_input_v6/RESULT.json",
+              "sha256": "8498dbe44f7d304f16c4d4969517438279bf8a3cfb14c72dff0d33c0d66e5463",
+              "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+              "checks": 61
+            },
+            {
+              "mode": "traversal_visual",
+              "status": "pass_native_traversal_visual",
+              "result": "tmp/g1-prone-observer-20261014/checks/traversal_visual_v6/RESULT.json",
+              "sha256": "00e8d6409762db2487f4e08a3352c07c733a42d2476fa825f75a0165928bb416",
+              "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+              "checks": 9
+            }
+          ],
+          "protection": "tmp/g1-prone-observer-20261014/build_v6/PROTECTION.json",
+          "visual_review": "tmp/g1-prone-observer-20261014/VISUAL_REVIEW.json",
+          "native_package": "Docs/Development/ProneTransition20261014/NATIVE_PACKAGE.json",
+          "matching_editor": "tmp/g1-prone-observer-20261014/editor_build_final/build-editor.json",
+          "repair_scope": [
+            "Original Z native gate and all thresholds retained; no blanket observer-key block found.",
+            "Obstacle/support-specific refusal feedback and actual collision/feet/yaw logs.",
+            "Ordinary V camera sphere clearance with alternate clear sides, readable framing.",
+            "Successful Z clears only its own still-current old rejection hint."
+          ],
+          "human_report": {
+            "stationary_V_then_Z": true,
+            "original_log_preserved": "tmp/g1-prone-observer-20261014/human_original_game.log",
+            "exact_human_location_reproduced": false,
+            "controlled_comparison": "Same feet/yaw FP and TP both reject original spawn rubble; both admit level site. Ordinary V+Z, all native entry/exit/crouch and mid-action view toggles pass."
+          },
+          "limitations": [
+            "Exact original human coordinates/facing not recorded; original event cause cannot be pinned to the controlled rubble object. Human stationary V+Z retest pending.",
+            "Rifle required; original space/support/headroom protections retained.",
+            "Camera alternatives bounded; fully enclosed areas can still constrain framing.",
+            "No whole-map/fine contact/PIE/stress/second-machine/course acceptance; formal86 and tutorial Chinese lane unchanged."
+          ],
+          "publication": "Local independent trial and local metadata only; no adoption, cleanup, Git, SFTP or coursework upload",
+          "observer_combat_binding_audit": {
+            "status": "code_and_tutorial_runtime_confirmed_split_presentation_bindings_not_repaired",
+            "document": "Docs/Development/MissionLoopV1/OBSERVER_ACTION_BINDING_AUDIT_20261014_ZH.md",
+            "runtime_document": "Docs/Development/MissionLoopV1/OBSERVER_TUTORIAL_RUNTIME_AUDIT_20261014_ZH.md",
+            "human_report_version": "unified_tutorial_zh102",
+            "tutorial_game_sha256": "34be2b1d6d732f035b62eadd408a3f351650dde3884c7ecad5e59a4d67ef8d10",
+            "diagnostic_game_sha256": "1b37f0ce54b0c46020335df4ebf755df18755bb1344876d51f4110234204ec81",
+            "new_TP_capture": "completed_scoped_on_tutorial102",
+            "scoped_runtime_runs": 3,
+            "transaction_assertions": 21,
+            "selected_images": 63,
+            "production_code_changed": false,
+            "production_repair_implemented": false,
+            "full_TPS_acceptance": false,
+            "scope": "Exact tutorial102 production bindings plus opt-in104 diagnostics. FP/ordinary V/reload toggles; native transactions verified; presentation defects remain."
+          }
+        }
+      },
+      "implementation": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015.md",
+      "implementation_zh": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015_ZH.md",
+      "result": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+      "result_zh": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+      "total_bytes": 8486212779,
+      "startup_check": "tmp/g1-tutorial-damage-prone-20261015/normal_smoke_v3/launch.json",
+      "limitations": [
+        "Human final combined review pending; normal trial has only actual earned save copies, no diagnostic overrides",
+        "V keeps the original FP shot/aim reference; no full TPS/crosshair/trace implementation",
+        "Native transitions require selected rifle and supported/clear space; phase temporarily locks move/look/actions until complete",
+        "Original model/garment/fine grasp/contact/full-map/stress/Editor/PIE/second-machine limits retained; no matching new Editor acceptance"
+      ],
+      "repair_scope": [
+        "Existing reviewed health presentation and exact approved hurt cue integrated",
+        "Existing native stand/prone/crouch transition clips, endpoint camera and lifecycle integrated",
+        "Latest V body/grip/recoil/camera/legacy rifle suppression and tutorial snapshot/resource code retained",
+        "Stand lesson waits completed Ready before Fire; new labels supplied in Simplified Chinese"
+      ]
+    },
+    "protection": "tmp/g1-tutorial-startup-20261015/build_v3/PROTECTION.json",
+    "visual_review": "tmp/g1-tutorial-startup-20261015/VISUAL_REVIEW.json",
+    "human_seed": "tmp/g1-tutorial-startup-20261015/HUMAN_SEED.json",
+    "manual_review": "pending",
+    "formal_adoption": false,
+    "publication": false,
+    "implementation": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015.md",
+    "implementation_zh": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015_ZH.md",
+    "result": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+    "result_zh": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+    "total_bytes": 8486226895,
+    "startup_check": "tmp/g1-tutorial-startup-20261015/normal_smoke_v3/launch.json",
+    "limitations": [
+      "Human final combined review pending",
+      "V retains original FP shot/aim reference; not full TPS",
+      "Existing fine-contact/full-map/stress/Editor/PIE/second-machine limits retained"
+    ],
+    "repair_scope": [
+      "Fresh action player spawned at admitted new tutorial location before BeginPlay",
+      "Fresh preparation covered until native navigation/layout readiness",
+      "Before/Look/Stand show no misleading navigation marker; Walk uses the existing fixed distant target",
+      "Original snapshot format/authority and selected latest V/damage/native prone core retained"
+    ]
+  },
+  "protection": "tmp/g1-tutorial-copy-20261015/build_v2/PROTECTION.json",
+  "visual_review": "tmp/g1-tutorial-copy-20261015/VISUAL_REVIEW.json",
+  "human_seed": "tmp/g1-tutorial-copy-20261015/HUMAN_SEED.json",
+  "manual_review": "pending",
+  "formal_adoption": false,
+  "publication": false,
+  "implementation": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015.md",
+  "implementation_zh": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015_ZH.md",
+  "result": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+  "result_zh": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+  "localization": {
+    "source_catalog": "Unreal/Variants/G1TutorialCopy20261015/RuntimeUI/zh-Hans.json",
+    "catalog_sha256": "bea220b8ce77ca5617db4f91ff6ae0bdf35f077bbee2d30d38b102341345f641",
+    "runtime_catalog": "Windows/WW2FranceLiberation/UI/zh-Hans.json"
+  },
+  "total_bytes": 8486236880,
+  "startup_check": "tmp/g1-tutorial-copy-20261015/normal_smoke_v2/launch.json",
+  "repair_scope": [
+    "Natural Chinese grenade terminology",
+    "CP0 success/briefing/help reflect actual teaching state",
+    "Unsaved Enter choice explicit; saved CP0 points toward bridge C",
+    "Original save/weapon/resource/native action/startup authority retained"
+  ],
+  "limitations": [
+    "Final human review pending",
+    "Existing V original FP aim reference and Editor/PIE/full-map/stress/second-machine/fine-contact limitations retained"
+  ]
+}

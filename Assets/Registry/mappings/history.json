@@ -124,6 +124,676 @@
           }
         ]
       }
+    },
+    {
+      "id": "fp-sleeve-fitted-v3-failed",
+      "asset_id": "first-person",
+      "title": "袖子拟合衍生v3 · 实际遮挡失败",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Failures/SL001-20261012-sleeve-workspace/ANALYSIS.md",
+      "summary": "新进程导出导入通过，实际肩帽仍挡瞄准中心。两新native／模型／cook保留，不装入最终普通包。",
+      "scope": "12 October scoped actual Game images; original1754 preserved",
+      "result": "fail",
+      "media_ids": [],
+      "result_path": "tmp/g1-sleeve-20261012/checks/fitted_iostore_v1/RESULT.json"
+    },
+    {
+      "id": "fp-sleeve-workspace-v12",
+      "asset_id": "first-person",
+      "title": "第一人称袖子工作范围v12 · 13October人工正式采用",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012_ZH.md",
+      "summary": "原78／Game及模型指姿不改，用户确认无问题并正式采用；原定量形变／接触／全移动限制保留。",
+      "scope": "13 October人工采用；既有9项Game/17张图/1545帧范围保留，不新增全动作验收。",
+      "result": "accepted_with_limits",
+      "media_ids": [
+        "fp-sleeve-reload-v12",
+        "fp-sleeve-smoke-v12"
+      ],
+      "result_path": "Docs/Development/CURRENT_SLEEVE_REVIEW.json",
+      "metrics": {
+        "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+        "source_files": 78,
+        "native_frames": 1545,
+        "max_length_drift_cm": 2.1939439953655437e-06,
+        "formal_adoption": true
+      },
+      "human_review_date": "2026-10-13"
+    },
+    {
+      "id": "g1-complete-tutorial-20261013-v8",
+      "asset_id": "paris-city",
+      "title": "完整教程 v8 · 后移出生与盟军",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013_ZH.md",
+      "summary": "新固定布局、实际动作教学、三类补给、拆雷、招募及CP0/CP1；同Game诊断通过，待人工。",
+      "scope": "10次最终Game诊断；正常交火、全城和人工采用未认证",
+      "result": "pass",
+      "media_ids": [
+        "tutorial-relocated-layout",
+        "tutorial-complete-flow",
+        "tutorial-actual-recruit-1080",
+        "tutorial-actual-complete-1080"
+      ],
+      "result_path": "tmp/g1-tutorial-20261013/checks/full_v8/RESULT.json",
+      "game_sha256": "f10e9c8dcd2bb2c4f41d75cefcaefcc60aaeea8d625449ca32aaec7b84d104a1",
+      "source_manifest_sha256": "ed735845515b7dcb514a0fe05cf427068c25127f062e639bb7f986231cfb7320"
+    },
+    {
+      "id": "g1-crawl-human-feedback-v8",
+      "asset_id": "paris-city",
+      "title": "v8匍匐教学人工卡点",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Failures/TU002-20261013-prone-tutorial-guidance/ANALYSIS.md",
+      "summary": "原动作W/S-only与教程WASD／起点指引冲突；旧诊断趴下强改朝向不能证明普通操控。",
+      "scope": "教学操控与指引，原生动作不是新增或资产失败；人工体验仍待复核",
+      "result": "fail",
+      "game_sha256": "f10e9c8dcd2bb2c4f41d75cefcaefcc60aaeea8d625449ca32aaec7b84d104a1",
+      "media_ids": []
+    },
+    {
+      "id": "g1-crawl-guidance-v9",
+      "asset_id": "paris-city",
+      "title": "v9匍匐教学指引修正",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013_ZH.md",
+      "summary": "未趴下时先定位／对准箭头，Z后W/S；3次最终Game实际运行通过，待人工重试。",
+      "scope": "教学操控与指引，原生动作不是新增或资产失败；人工体验仍待复核",
+      "result": "pass",
+      "game_sha256": "7bc3fd68067eab4a864f78fdeeea21c7faa72446092de055cafeef890702a3c2",
+      "media_ids": [
+        "tutorial-crawl-setup-1080",
+        "tutorial-crawl-setup-720"
+      ]
+    },
+    {
+      "id": "g1-prone-strafe-v12",
+      "asset_id": "first-person",
+      "title": "v12四向匍匐输入",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013_ZH.md",
+      "summary": "A/D与斜向实际控制、侧墙／支撑保护；原循环复用，未选新动画，待人工。",
+      "scope": "4次最终Game检查与实际图；非全地形、自然交火或新横爬动作验收",
+      "result": "pass",
+      "game_sha256": "5fe928776e9a9607a98cac33575486b71a6b4021531e89737b8bf50a4d0610b8",
+      "media_ids": [
+        "prone-strafe-left-v12",
+        "prone-strafe-right-v12",
+        "prone-strafe-wall-v12"
+      ]
+    },
+    {
+      "id": "g1-prone-human-feedback-v12",
+      "asset_id": "first-person",
+      "title": "v12匍匐鼠标与教学人工拒绝",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Failures/TU004-20261013-prone-look-and-completion/ANALYSIS.md",
+      "summary": "原鼠标禁用，起点外练习不计数；旧方向夹具通过不代表自然教程体验。",
+      "scope": "Human feedback retained; current actual checks scoped, full natural motion/combat review pending",
+      "result": "fail",
+      "game_sha256": "5fe928776e9a9607a98cac33575486b71a6b4021531e89737b8bf50a4d0610b8",
+      "media_ids": []
+    },
+    {
+      "id": "g1-prone-look-v17",
+      "asset_id": "first-person",
+      "title": "匍匐鼠标与教学完成修正",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013_ZH.md",
+      "summary": "原生鼠标真实转向／俯仰，旋转墙边保护；四向计数及自动切入起身／射击，待人工。",
+      "scope": "Human feedback retained; current actual checks scoped, full natural motion/combat review pending",
+      "result": "pass",
+      "game_sha256": "63275254271c5d58a4d1f6bf9eb8d43a175e25b25f7f9bd7498d354fbb1f3ce3",
+      "media_ids": [
+        "prone-look-v17-right",
+        "prone-look-v17-left",
+        "prone-look-v17-wall",
+        "prone-look-v17-checklist",
+        "prone-look-v17-complete"
+      ]
+    },
+    {
+      "id": "checkpoint-history-v2",
+      "asset_id": "first-person",
+      "title": "多检查点选择／删除管理",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013_ZH.md",
+      "summary": "独立CP0/CP1、当前重试点、旧点删除、最新保护和故障恢复；人工待复核。",
+      "scope": "Same-final-Game diagnostic checks and private actual UI; no formal adoption/publication/coursework delivery",
+      "result": "pass",
+      "game_sha256": "7b9555f0a28d75527ac554143d2fc1125da9b8b99cd9462b35af3ef610f00ac8",
+      "media_ids": [
+        "checkpoint-history-v2-list",
+        "checkpoint-history-v2-delete",
+        "checkpoint-history-v2-load",
+        "checkpoint-history-v2-active-delete",
+        "checkpoint-history-v2-final",
+        "checkpoint-history-v2-720",
+        "checkpoint-history-v2-stale"
+      ]
+    },
+    {
+      "id": "g1-tutorial-human-flow-rejection-89",
+      "asset_id": "first-person",
+      "title": "89版教学流程人工拒绝",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Failures/CH002-20261013-tutorial-human-flow/ANALYSIS.md",
+      "summary": "原死亡菜单读CP0后Enter门槛与错误CP1标记造成无敌人／雷／可保存点体验。",
+      "scope": "Human rejection retained; final diagnostic runs scoped, new human review pending. No formal adoption/remote/course publication.",
+      "result": "fail",
+      "game_sha256": "7b9555f0a28d75527ac554143d2fc1125da9b8b99cd9462b35af3ef610f00ac8",
+      "media_ids": []
+    },
+    {
+      "id": "tutorial-flow-v4",
+      "asset_id": "first-person",
+      "title": "教学流程／CP1地面圈／移动间距修正",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013_ZH.md",
+      "summary": "原人物实际踩雷死亡菜单读档、自然离圈启用、真实E CP1写盘；14／18米完整教学。",
+      "scope": "Human rejection retained; final diagnostic runs scoped, new human review pending. No formal adoption/remote/course publication.",
+      "result": "pass",
+      "game_sha256": "401998e82724eb3e211b7a0bd22e14ad32d8df43bb8c68979d7efbb1f7249a54",
+      "media_ids": [
+        "tutorial-flow-v4-restored",
+        "tutorial-flow-v4-locked",
+        "tutorial-flow-v4-ring",
+        "tutorial-flow-v4-saved",
+        "tutorial-flow-v4-live",
+        "tutorial-flow-v4-720",
+        "tutorial-flow-v4-recruit",
+        "tutorial-flow-v4-layout"
+      ]
+    },
+    {
+      "id": "tutorial-flow-v4-human-pass-20261014",
+      "asset_id": "first-person",
+      "title": "教学91四项修正人工通过",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/CURRENT_TUTORIAL_FLOW_REVIEW.json",
+      "summary": "用户明确已测试通过，仅原教学91。",
+      "scope": "Local scoped integration; no new formal adoption/cleanup/Git/SFTP/course upload",
+      "result": "pass",
+      "game_sha256": "401998e82724eb3e211b7a0bd22e14ad32d8df43bb8c68979d7efbb1f7249a54",
+      "media_ids": []
+    },
+    {
+      "id": "tutorial-unified-zh-v5",
+      "asset_id": "first-person",
+      "title": "正式动作86＋教学91＋简体中文统一候选",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014_ZH.md",
+      "summary": "19项同最终Game通过；两份父版本人工已通过，统一版仍待人工。",
+      "scope": "Local scoped integration; no new formal adoption/cleanup/Git/SFTP/course upload",
+      "result": "pass",
+      "game_sha256": "34be2b1d6d732f035b62eadd408a3f351650dde3884c7ecad5e59a4d67ef8d10",
+      "media_ids": [
+        "tutorial-unified-zh-v5-0",
+        "tutorial-unified-zh-v5-1",
+        "tutorial-unified-zh-v5-2",
+        "tutorial-unified-zh-v5-3",
+        "tutorial-unified-zh-v5-4",
+        "tutorial-unified-zh-v5-5",
+        "tutorial-unified-zh-v5-6",
+        "tutorial-unified-zh-v5-7",
+        "tutorial-unified-zh-v5-8",
+        "tutorial-unified-zh-v5-9",
+        "tutorial-unified-zh-v5-10",
+        "tutorial-unified-zh-v5-11",
+        "tutorial-unified-zh-v5-12",
+        "tutorial-unified-zh-v5-13",
+        "tutorial-unified-zh-v5-14"
+      ]
+    },
+    {
+      "id": "cue-player-hurt-v1-20261014",
+      "asset_id": "cue-player-hurt",
+      "title": "玩家受伤反馈89/build_v4",
+      "kind": "local_candidate",
+      "result": "scoped_verified_human_pending",
+      "summary": "原89受伤反馈技术证据保留，14October用户认可整版；新93继承原音频，未正式采用。",
+      "scope": "Local independent89 candidate only; formal86 unchanged",
+      "document": "Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_RESULT_20261014_ZH.md",
+      "metrics": {
+        "game_sha256": "d056aeb5b610f638c53461abeeccdafed2860ec9e0133745d47a1fcb72bbc6ff",
+        "audio_sha256": "619db78b6a516e13a43c36819383d2587a50aedcfa67e2e3a1abad04675cb2cc",
+        "same_game_runs": 18,
+        "human_review": "overall89_pass_20261014",
+        "formal_adoption": false
+      },
+      "media_ids": [
+        "damage-hurt-audio-v1"
+      ]
+    },
+    {
+      "id": "prone-transition-v1-20261014",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "Z匍匐过渡93/build_v8",
+      "kind": "local_candidate",
+      "result": "scoped_verified_human_pending",
+      "summary": "原生Idle2Prone/Prone2Idle/Crouch2Prone与镜头/原胶囊衔接，17次同Game通过，65张实际帧复看；人工待审。",
+      "scope": "Local93 child of human-reviewed89; formal86 unchanged",
+      "document": "Docs/Development/MissionLoopV1/PRONE_TRANSITION_RESULT_20261014_ZH.md",
+      "metrics": {
+        "game_sha256": "52576ee48d1e555fb3f438fe0268155bfff367110092b8adffffac939649c809",
+        "same_game_runs": 17,
+        "actual_frames": 65,
+        "source_files": 93,
+        "human_review": "pending",
+        "formal_adoption": false,
+        "human_motion_feedback": "Looks fine; stationary V then Z refusal subsequently reported, exact case unlocalized; see observer follow-up."
+      },
+      "media_ids": [
+        "prone-enter-native-v1",
+        "prone-exit-native-v1"
+      ]
+    },
+    {
+      "id": "prone-observer-v1-20261014",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "普通V/Z观察复查93/build_v6",
+      "kind": "local_candidate",
+      "result": "scoped_verified_exact_human_case_pending",
+      "summary": "原地V→Z同点对照、6段原生姿态和切V通过；优化避墙镜头、拒绝原因和旧提示。原人工坐标缺失，精确原因待复测，原native地形保护保留。",
+      "scope": "Independent child93; parent93 native motion positive human feedback, observer case unresolved at exact original position. Formal86 unchanged.",
+      "document": "Docs/Development/MissionLoopV1/PRONE_OBSERVER_RESULT_20261014_ZH.md",
+      "metrics": {
+        "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+        "same_game_runs": 8,
+        "actual_frames": 53,
+        "source_files": 93,
+        "human_review": "pending_stationary_observer_retest",
+        "formal_adoption": false
+      },
+      "media_ids": [
+        "prone-observer-enter-v1",
+        "prone-observer-exit-v1"
+      ]
+    },
+    {
+      "id": "observer-combat-bindings-audit-20261014",
+      "asset_id": "first-person",
+      "title": "V与FP战斗绑定审计 · 教学102实测确认缺口，未修复",
+      "kind": "local_code_and_runtime_audit",
+      "result": "confirmed_split_presentation_bindings_not_repaired",
+      "document": "Docs/Development/MissionLoopV1/OBSERVER_TUTORIAL_RUNTIME_AUDIT_20261014_ZH.md",
+      "summary": "教学102三组21项原事务成功/63张图；同换弹clip但旧枪跟隐藏显示手骨，FP后坐力在V隐藏，装备旧枪显隐和旧镜头问题已确认。原投掷身体动画、左手挂点与库存执行正常。",
+      "scope": "Scoped exact tutorial102 runtime capture completed. No production repair or full TPS acceptance; prior93 failures retained.",
+      "metrics": {
+        "observer_game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+        "tutorial_game_sha256": "34be2b1d6d732f035b62eadd408a3f351650dde3884c7ecad5e59a4d67ef8d10",
+        "production_code_changed": false,
+        "full_new_runtime_acceptance": false,
+        "diagnostic_game_sha256": "1b37f0ce54b0c46020335df4ebf755df18755bb1344876d51f4110234204ec81",
+        "scoped_runtime_runs": 3,
+        "transaction_assertions": 21,
+        "selected_images": 63,
+        "scoped_capture_complete": true,
+        "full_TPS_acceptance": false,
+        "protected_user_files": 185
+      },
+      "source_audit_document": "Docs/Development/MissionLoopV1/OBSERVER_ACTION_BINDING_AUDIT_20261014_ZH.md"
+    },
+    {
+      "id": "unified-perspective-20261014",
+      "asset_id": "first-person",
+      "title": "统一教学107 · 双视角共用动作绑定与V表现修复",
+      "kind": "local_candidate",
+      "result": "human_rejected_missing_arms_floating_rifle",
+      "document": "Docs/Development/MissionLoopV1/UNIFIED_PERSPECTIVE_RESULT_20261014.md",
+      "document_zh": "Docs/Development/MissionLoopV1/UNIFIED_PERSPECTIVE_RESULT_20261014_ZH.md",
+      "summary": "共享原身体动作/事务、同一持枪求解和原生后坐力；V枪手/枪口/装备显隐/近墙镜头修复，FP与手雷回归通过。",
+      "scope": "11 same final Game checks,165 inspected images; observer composition retained, no full TPS/contact/stress/Editor acceptance",
+      "metrics": {
+        "game_sha256": "adbdf80c1c93737d811d3e036cac238e6259a9a6fecc8a92b1097841356325f3",
+        "source_files": 107,
+        "actual_final_game_runs": 11,
+        "images_reviewed": 165,
+        "parent102_native_user_formal_exact": true,
+        "manual_review": "rejected",
+        "formal_adopted": false
+      },
+      "human_rejection": {
+        "status": "human_rejected_missing_arms_floating_rifle",
+        "game_sha256": "adbdf80c1c93737d811d3e036cac238e6259a9a6fecc8a92b1097841356325f3",
+        "evidence": "tmp/g1-unified-body-repair-20261015/human_rejection/missing_arms_floating_rifle.png",
+        "evidence_sha256": "4ce7c5de1c4c902d2e74eff5384f4df8e22f2f80532fb202bb00563cbdc44b41",
+        "date": "2026-10-15",
+        "observed": "Ordinary V tutorial walking stage: both arms absent, floating rifle; previous visual acceptance is invalid. Socket/transaction tests remain scoped historical receipts.",
+        "formal_adoption": false
+      }
+    },
+    {
+      "id": "unified-body-repair-20261015",
+      "asset_id": "first-person",
+      "title": "V身体姿势与重复步枪修正",
+      "kind": "local_candidate",
+      "result": "scoped_verified_human_review_pending",
+      "document": "Docs/Development/MissionLoopV1/UNIFIED_BODY_REPAIR_RESULT_20261015.md",
+      "document_zh": "Docs/Development/MissionLoopV1/UNIFIED_BODY_REPAIR_RESULT_20261015_ZH.md",
+      "summary": "纠正人工否决107：保持整套实时原身体姿势，观察期间隐藏两种旧枪并恢复标记，第一视角和手雷文件保持。",
+      "metrics": {
+        "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+        "source_files": 107,
+        "same_game_functional_runs": 7,
+        "images_reviewed": 124,
+        "manual_review": "pending",
+        "formal_adopted": false
+      },
+      "scope": "Local native live-body/duplicate-rifle repair; seven scoped same-Game runs and124 images; human pending, V original FP aim reference, no full-map/PIE/stress/second-machine/formal adoption."
+    },
+    {
+      "id": "tutorial-latest-v-20261015",
+      "asset_id": "first-person",
+      "title": "最新V身体修复接入中文教程",
+      "kind": "integration_revision",
+      "parent_ids": [
+        "unified-body-repair-20261015"
+      ],
+      "document": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+      "document_zh": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+      "summary": "精确复用最新107，新增CP0/CP1及普通V验证；原人工存档逐字节保留，独立副本用于试玩。",
+      "scope": "Local metadata only; no production code/rebuild/formal adoption/cleanup/Git/SFTP/course upload",
+      "result": "scoped_verified_human_review_pending",
+      "game_sha256": "a34b2b59d1da3555d349a864df4f961c1384a0fe11dd747eade0f67008414b83",
+      "media_ids": [
+        "tutorial-latest-v-20261015-0",
+        "tutorial-latest-v-20261015-1",
+        "tutorial-latest-v-20261015-2",
+        "tutorial-latest-v-20261015-3",
+        "tutorial-latest-v-20261015-4"
+      ],
+      "metrics": {
+        "new_functional_runs": 3,
+        "new_startup_runs": 1,
+        "inherited_functional_runs": 7,
+        "new_reviewed_images": 5,
+        "human_seed_files": 6
+      }
+    },
+    {
+      "id": "tutorial-damage-prone-20261015",
+      "asset_id": "first-person",
+      "title": "中文教学整合受伤反馈与原生匍匐过渡",
+      "kind": "integration_revision",
+      "parent_ids": [
+        "tutorial-latest-v-20261015",
+        "prone-observer-v1-20261014"
+      ],
+      "document": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+      "document_zh": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+      "summary": "最新V身体/单枪修复保持；受伤与原生站卧接入教学；6个现有真实存档保留并独立复制。",
+      "scope": "Local source/runtime and metadata only; no formal adoption/cleanup/Git/SFTP/course upload",
+      "result": "scoped_verified_human_review_pending",
+      "game_sha256": "0072d287770eea2592224af465292177ddc24066b8f7d7b6fd7ddb78420c292b",
+      "media_ids": [
+        "tutorial-damage-prone-20261015-0",
+        "tutorial-damage-prone-20261015-1",
+        "tutorial-damage-prone-20261015-2",
+        "tutorial-damage-prone-20261015-3",
+        "tutorial-damage-prone-20261015-4",
+        "tutorial-damage-prone-20261015-5"
+      ],
+      "metrics": {
+        "new_functional_runs": 17,
+        "new_startup_runs": 1,
+        "human_seed_files": 6,
+        "source_files": 114
+      }
+    },
+    {
+      "id": "tutorial-startup-20261015",
+      "asset_id": "first-person",
+      "title": "教学首次加载与引导初始化修复",
+      "kind": "integration_revision",
+      "parent_ids": [
+        "tutorial-damage-prone-20261015"
+      ],
+      "document": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+      "document_zh": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+      "summary": "新游戏在BeginPlay前从新位置生成，准备界面覆盖导航初始化，观察步骤不再出现误导圈；动作与存档保留。",
+      "scope": "Local source/runtime and metadata only; no formal adoption/cleanup/Git/SFTP/course upload",
+      "result": "scoped_verified_human_review_pending",
+      "game_sha256": "020455c1be5cbb20c20808fb16349a64214255104b9b8319c034cf1bcb8c064b",
+      "media_ids": [
+        "tutorial-startup-20261015-0",
+        "tutorial-startup-20261015-1",
+        "tutorial-startup-20261015-2",
+        "tutorial-startup-20261015-3"
+      ],
+      "metrics": {
+        "new_functional_runs": 7,
+        "new_startup_runs": 1,
+        "human_seed_files": 6,
+        "source_files": 115
+      }
+    },
+    {
+      "id": "tutorial-copy-20261015",
+      "asset_id": "first-person",
+      "title": "教学术语与存档提示修正",
+      "kind": "integration_revision",
+      "parent_ids": [
+        "tutorial-startup-20261015"
+      ],
+      "document": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+      "document_zh": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+      "summary": "手雷称呼自然化；CP0保存、菜单及后续目标与真实教学状态一致；存档、动作与首次加载修复保留。",
+      "scope": "Local source/runtime and metadata only; no formal adoption/cleanup/Git/SFTP/course upload",
+      "result": "scoped_verified_human_review_pending",
+      "game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2",
+      "media_ids": [
+        "tutorial-copy-20261015-0",
+        "tutorial-copy-20261015-1",
+        "tutorial-copy-20261015-2",
+        "tutorial-copy-20261015-3"
+      ],
+      "metrics": {
+        "new_functional_runs": 6,
+        "new_startup_runs": 1,
+        "human_seed_files": 6,
+        "source_files": 115
+      }
+    },
+    {
+      "id": "first-person-thumb-polish-accepted-20261017",
+      "asset_id": "first-person",
+      "title": "手雷/烟雾弹握姿 · 17 October人工验收并正式入库",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_RESULT_20261017.md",
+      "summary": "Native ThumbPolish + exact125-source adapter accepted in final Game; authenticated SFTP final bytes verified.",
+      "scope": "Frag/smoke holding appearance and matching native/source adapter only. Formal86 and other feature acceptance remain independently routed.",
+      "result": "accepted_with_limits",
+      "media_ids": [
+        "first-person-accepted-grips-20261017"
+      ],
+      "metrics": {
+        "formal_asset_adoption": true,
+        "whole_game_formal_adoption": false,
+        "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+        "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+        "native_mesh_sha256": "d8bed804795c2ae274a0c42b029855c83f4fc7934c8d0dfc01c6e46877eeb6c8",
+        "sftp_verified_files": 9
+      }
+    },
+    {
+      "id": "first-person-thumb-opposition-rejected-20261016",
+      "asset_id": "first-person",
+      "title": "旧拇指对握候选 · 人工反馈仍明显不自然（撤选）",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/THUMB_REAL_GRIP_REFERENCE_RESULT_20261016.md",
+      "summary": "Source candidate cf4a7eb... and its old comparison previews are historical unaccepted attempts, never the current accepted native grip.",
+      "scope": "Historical rejection and current-selection withdrawal; source/raw evidence retained.",
+      "result": "human_rejected",
+      "media_ids": [],
+      "metrics": {
+        "formal_asset_adoption": false,
+        "current_selection": false
+      }
+    },
+    {
+      "id": "frag-grenade-thumb-polish-accepted-20261017",
+      "asset_id": "frag-grenade",
+      "title": "手雷/烟雾弹握姿 · 17 October人工验收并正式入库",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_RESULT_20261017.md",
+      "summary": "Native ThumbPolish + exact125-source adapter accepted in final Game; authenticated SFTP final bytes verified.",
+      "scope": "Frag/smoke holding appearance and matching native/source adapter only. Formal86 and other feature acceptance remain independently routed.",
+      "result": "accepted_with_limits",
+      "media_ids": [
+        "frag-grenade-accepted-grips-20261017"
+      ],
+      "metrics": {
+        "formal_asset_adoption": true,
+        "whole_game_formal_adoption": false,
+        "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+        "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+        "native_mesh_sha256": "d8bed804795c2ae274a0c42b029855c83f4fc7934c8d0dfc01c6e46877eeb6c8",
+        "sftp_verified_files": 9
+      }
+    },
+    {
+      "id": "frag-grenade-thumb-opposition-rejected-20261016",
+      "asset_id": "frag-grenade",
+      "title": "旧拇指对握候选 · 人工反馈仍明显不自然（撤选）",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/THUMB_REAL_GRIP_REFERENCE_RESULT_20261016.md",
+      "summary": "Source candidate cf4a7eb... and its old comparison previews are historical unaccepted attempts, never the current accepted native grip.",
+      "scope": "Historical rejection and current-selection withdrawal; source/raw evidence retained.",
+      "result": "human_rejected",
+      "media_ids": [],
+      "metrics": {
+        "formal_asset_adoption": false,
+        "current_selection": false
+      }
+    },
+    {
+      "id": "smoke-grenade-thumb-polish-accepted-20261017",
+      "asset_id": "smoke-grenade",
+      "title": "手雷/烟雾弹握姿 · 17 October人工验收并正式入库",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_RESULT_20261017.md",
+      "summary": "Native ThumbPolish + exact125-source adapter accepted in final Game; authenticated SFTP final bytes verified.",
+      "scope": "Frag/smoke holding appearance and matching native/source adapter only. Formal86 and other feature acceptance remain independently routed.",
+      "result": "accepted_with_limits",
+      "media_ids": [
+        "smoke-grenade-accepted-grips-20261017"
+      ],
+      "metrics": {
+        "formal_asset_adoption": true,
+        "whole_game_formal_adoption": false,
+        "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+        "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+        "native_mesh_sha256": "d8bed804795c2ae274a0c42b029855c83f4fc7934c8d0dfc01c6e46877eeb6c8",
+        "sftp_verified_files": 9
+      }
+    },
+    {
+      "id": "smoke-grenade-thumb-opposition-rejected-20261016",
+      "asset_id": "smoke-grenade",
+      "title": "旧拇指对握候选 · 人工反馈仍明显不自然（撤选）",
+      "kind": "integration_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/THUMB_REAL_GRIP_REFERENCE_RESULT_20261016.md",
+      "summary": "Source candidate cf4a7eb... and its old comparison previews are historical unaccepted attempts, never the current accepted native grip.",
+      "scope": "Historical rejection and current-selection withdrawal; source/raw evidence retained.",
+      "result": "human_rejected",
+      "media_ids": [],
+      "metrics": {
+        "formal_asset_adoption": false,
+        "current_selection": false
+      }
+    },
+    {
+      "id": "first-person-ctrl-crouch-accepted-20261017",
+      "asset_id": "first-person",
+      "title": "Ctrl 蹲下与起身过渡 · 人工验收通过",
+      "kind": "integration_revision",
+      "result": "accepted_with_limits",
+      "document": "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ACCEPTANCE_20261017.md",
+      "summary": "User has viewed the current Ctrl descent/rise process and explicitly accepts it.",
+      "scope": "Visible Ctrl descent/rise process and observed transition continuity in current125-source trial",
+      "parent_ids": [],
+      "media_ids": [],
+      "metrics": {
+        "human_accepted": true,
+        "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+        "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+        "new_build": false,
+        "formal_asset_adoption": true,
+        "sftp_verified": true,
+        "asset_version": "crouch-transitions-20261017-v1",
+        "whole_game_formal_adoption": false
+      },
+      "asset_adoption_result": "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ASSET_ADOPTION_RESULT_20261017.md"
+    },
+    {
+      "id": "allied-soldier-ctrl-crouch-accepted-20261017",
+      "asset_id": "allied-soldier",
+      "title": "Ctrl 蹲下与起身过渡 · 人工验收通过",
+      "kind": "integration_revision",
+      "result": "accepted_with_limits",
+      "document": "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ACCEPTANCE_20261017.md",
+      "summary": "User has viewed the current Ctrl descent/rise process and explicitly accepts it.",
+      "scope": "Visible Ctrl descent/rise process and observed transition continuity in current125-source trial",
+      "parent_ids": [],
+      "media_ids": [],
+      "metrics": {
+        "human_accepted": true,
+        "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+        "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+        "new_build": false,
+        "formal_asset_adoption": true,
+        "sftp_verified": true,
+        "asset_version": "crouch-transitions-20261017-v1",
+        "whole_game_formal_adoption": false
+      },
+      "asset_adoption_result": "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ASSET_ADOPTION_RESULT_20261017.md"
+    },
+    {
+      "id": "medical-pouch-human-accepted-20261017",
+      "asset_id": "medical-pouch",
+      "title": "医疗包污渍版 · 人工验收并正式入库",
+      "kind": "model_revision",
+      "parent_ids": [],
+      "document": "Docs/Development/MissionLoopV1/MEDKIT_ASSET_ADOPTION_RESULT_20261017.md",
+      "summary": "Exact selected stain-v2 pouch, editable model, texture/rebuild dependency closure and current review views. Final SFTP objects and release manifest verified.",
+      "scope": "Complete medical pouch shape/material/stain appearance shown in the immediately preceding v2 preview; standalone model only",
+      "result": "accepted_with_limits",
+      "media_ids": [
+        "medical-pouch-accepted-20261017"
+      ],
+      "metrics": {
+        "mesh_count": 32,
+        "triangles": 23536,
+        "dimensions_m": [
+          0.22378840297460556,
+          0.10624726861715317,
+          0.15700000524520874
+        ],
+        "formal_asset_adoption": true,
+        "sftp_verified": true,
+        "gameplay_integrated": false,
+        "glb_sha256": "542aede9b691561d20a5bcdb06d3d812b0ffb1427d91eb48563bddbe7f5a05f5"
+      }
     }
   ]
 }

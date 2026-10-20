@@ -1,5 +1,5 @@
 {
-  "status": "historical_parent_integrated_into_selected76",
+  "status": "historical_parent_integrated_into_selected78",
   "revision": "candidate_mine_v2",
   "game_sha256": "afc2839d0980a21745510d6f606f0048ff5b85ca872305a036e6011cf619394e",
   "source_snapshot": "Unreal/Variants/G1PressureMine20261011/Project",
@@ -183,7 +183,9 @@
   "manual_review": "pending",
   "publication": "none",
   "historical_status": "unselected_pressure_mine_unified_playtest_candidate",
-  "integrated_into": "g1-complete-gameplay-grenade-equip-20261011",
+  "integrated_into": "g1-sleeve-workspace-20261012-reviewed-20261013",
   "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
-  "retired_playable_recovery_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json"
+  "retired_playable_recovery_map": "Docs/Development/G1SleeveBaselineAdoption20261013/RECOVERY_MAP_20261013.json",
+  "integrated_into_selected_baseline": "g1-grenade-pose-v8-human-reviewed-20261014",
+  "integration_scope": "Original reviewed feature retained in current86; original feature receipts keep their dated identity."
 }

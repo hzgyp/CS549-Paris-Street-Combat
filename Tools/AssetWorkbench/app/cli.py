@@ -18,6 +18,7 @@ def main():
     parser.add_argument('--port',type=int,default=8765)
     parser.add_argument('--host',choices=['127.0.0.1','0.0.0.0'])
     parser.add_argument('--open-browser',action='store_true')
+    parser.add_argument('--reuse-access-link',action='store_true',help='Retain the private access link for an owned service upgrade')
     args=parser.parse_args()
     state=ROOT/'Assets/LocalWorking/AssetWorkbench'
     if args.command=='index':
@@ -34,7 +35,13 @@ def main():
     sock=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     if os.name=='nt':sock.setsockopt(socket.SOL_SOCKET,socket.SO_EXCLUSIVEADDRUSE,1)
     sock.bind((bind_address,args.port));sock.listen(128)
-    app=create_app(port=args.port,allowed_hosts=allowed_hosts,shared=bind_address=='0.0.0.0',external_url=public_origin)
+    access_token=None
+    if args.reuse_access_link:
+        old=json.loads((state/'runtime/session.json').read_text(encoding='utf-8'))
+        if old.get('port')!=args.port or old.get('host')!=bind_address or not isinstance(old.get('token'),str) or not 32<=len(old['token'])<=200:
+            parser.error('Private access-link handoff does not match this service')
+        access_token=old['token']
+    app=create_app(port=args.port,allowed_hosts=allowed_hosts,shared=bind_address=='0.0.0.0',external_url=public_origin,token=access_token)
     try:app.state.store.active()
     except Exception:refresh(ROOT,app.state.store)
     (state/'runtime').mkdir(parents=True,exist_ok=True)

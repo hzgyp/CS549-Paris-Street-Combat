@@ -1,0 +1,45 @@
+{
+  "status": "retired_from_current_entry_not_deleted_evidence",
+  "scope": "Exact preceding text of three entry documents; not a new current selector",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "before": {
+        "path": "D:\\0.Rutgers\\CS549\\Project-New\\AGENTS.md",
+        "size_bytes": 16236,
+        "sha256": "58daab0ac0a71eec33927bb0921d887c48731899f5e5bc23d645ea67ec116035"
+      },
+      "archive": {
+        "path": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\InstructionHistory\\ContextReferenceCleanup20261017\\AGENTS_BEFORE.md",
+        "size_bytes": 16236,
+        "sha256": "58daab0ac0a71eec33927bb0921d887c48731899f5e5bc23d645ea67ec116035"
+      }
+    },
+    {
+      "path": "HANDOFF_CURRENT.md",
+      "before": {
+        "path": "D:\\0.Rutgers\\CS549\\Project-New\\HANDOFF_CURRENT.md",
+        "size_bytes": 29303,
+        "sha256": "7062cbcbaf0b89ae4eddccf93969ddf1a47ec75226d8793320c12b95ac4f2da8"
+      },
+      "archive": {
+        "path": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\InstructionHistory\\ContextReferenceCleanup20261017\\HANDOFF_CURRENT_BEFORE.md",
+        "size_bytes": 29303,
+        "sha256": "7062cbcbaf0b89ae4eddccf93969ddf1a47ec75226d8793320c12b95ac4f2da8"
+      }
+    },
+    {
+      "path": "Docs/Development/ACTION_LIGHT_CONTINUATION_20261015.md",
+      "before": {
+        "path": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\ACTION_LIGHT_CONTINUATION_20261015.md",
+        "size_bytes": 16295,
+        "sha256": "f45a0e9f106928ae8d2064ac61f02c5f4cb6cbff2b4e52a99840c80cd4e2b5fd"
+      },
+      "archive": {
+        "path": "D:\\0.Rutgers\\CS549\\Project-New\\Docs\\Development\\InstructionHistory\\ContextReferenceCleanup20261017\\ACTION_LIGHT_CONTINUATION_20261015_BEFORE.md",
+        "size_bytes": 16295,
+        "sha256": "f45a0e9f106928ae8d2064ac61f02c5f4cb6cbff2b4e52a99840c80cd4e2b5fd"
+      }
+    }
+  ]
+}

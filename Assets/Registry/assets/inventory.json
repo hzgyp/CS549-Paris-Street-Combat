@@ -143,16 +143,20 @@
       "name_en": "Fragmentation grenade",
       "category": "道具",
       "origin": "purchased_adapted",
-      "lifecycle": "candidate",
+      "lifecycle": "retained",
       "owner": "Yupu / Paris team",
-      "bundles": [],
-      "description": "Mk II 手雷；从现有盟军装备提取，保留几何与PBR。当前装备切换候选使用模型 v1。",
-      "human_review": "本次模型候选待人工复验",
+      "bundles": [
+        "paris-grenade-grips"
+      ],
+      "description": "Mk II 手雷模型保持；当前握姿使用17 October人工通过的ThumbPolish原生修形与源适配。",
+      "human_review": "17 October 2026：当前 ThumbPolish 试玩中的手雷、烟雾弹握姿人工验收通过；正式握姿资产已同步 SFTP。其他功能按各自验收记录。",
       "limitations": [
         "原Hold动作位于屏幕下沿，下半部有继承遮挡；未改手指/角色动作。",
         "静态模型预览不替代实际游戏接触/全动作验收。"
       ],
       "documents": [
+        "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
+        "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_RESULT_20261017.md",
         "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
         "Docs/Development/MissionLoopV1/GRENADE_MODELS_IMPLEMENTATION_20261011_ZH.md",
         "Docs/Development/MissionLoopV1/GRENADE_MODELS_RESULT_20261011_ZH.md",
@@ -160,7 +164,19 @@
         "Docs/Development/MissionLoopV1/GRENADE_EQUIP_REVISION_IMPLEMENTATION_20261011_ZH.md",
         "Docs/Development/MissionLoopV1/GRENADE_EQUIP_REVISION_RESULT_20261011_ZH.md",
         "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_20261011_ZH.md",
-        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md"
+        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/G1_GRENADE_BASELINE_ADOPTION_20261014_ZH.md",
+        "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+        "Docs/Development/G1_GRENADE_BASELINE_ADOPTION_RESULT_20261014_ZH.md"
       ],
       "order": 13,
       "aliases": [
@@ -170,7 +186,7 @@
         "MKII",
         "WWII grenade"
       ],
-      "validation": "源GLB与当前候选运行文件已核对；人工复验待定",
+      "validation": "当前握姿以 CURRENT_ACCEPTED_GRENADE_GRIPS.json 及其 native/source SHA 为准；旧86与离线姿势为历史。原骨架/权重/UV/步枪握姿不变；完整精细接触和第二机器范围保留。",
       "rights_scope": "手雷继承伞兵商业源的私下项目共享许可；衍生模型/贴图留私有。烟雾外壳团队原创，史料图未作为贴图或分发。",
       "parent_id": null,
       "related_ids": [
@@ -183,16 +199,20 @@
       "name_en": "Smoke grenade",
       "category": "道具",
       "origin": "team_created",
-      "lifecycle": "candidate",
+      "lifecycle": "retained",
       "owner": "Yupu / Paris team",
-      "bundles": [],
-      "description": "AN-M8 风格烟雾弹；自建灰罐黄标外壳与PBR。当前装备切换候选使用模型 v1。",
-      "human_review": "本次模型候选待人工复验",
+      "bundles": [
+        "paris-grenade-grips"
+      ],
+      "description": "AN-M8圆柱形烟雾弹模型保持；当前握姿使用17 October人工通过的ThumbPolish原生修形与源适配。",
+      "human_review": "17 October 2026：当前 ThumbPolish 试玩中的手雷、烟雾弹握姿人工验收通过；正式握姿资产已同步 SFTP。其他功能按各自验收记录。",
       "limitations": [
         "原Hold动作位于屏幕下沿，下半部有继承遮挡；未改手指/角色动作。",
         "静态模型预览不替代实际游戏接触/全动作验收。"
       ],
       "documents": [
+        "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
+        "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_RESULT_20261017.md",
         "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
         "Docs/Development/MissionLoopV1/GRENADE_MODELS_IMPLEMENTATION_20261011_ZH.md",
         "Docs/Development/MissionLoopV1/GRENADE_MODELS_RESULT_20261011_ZH.md",
@@ -200,7 +220,19 @@
         "Docs/Development/MissionLoopV1/GRENADE_EQUIP_REVISION_IMPLEMENTATION_20261011_ZH.md",
         "Docs/Development/MissionLoopV1/GRENADE_EQUIP_REVISION_RESULT_20261011_ZH.md",
         "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_20261011_ZH.md",
-        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md"
+        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/G1_GRENADE_BASELINE_ADOPTION_20261014_ZH.md",
+        "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+        "Docs/Development/G1_GRENADE_BASELINE_ADOPTION_RESULT_20261014_ZH.md"
       ],
       "order": 14,
       "aliases": [
@@ -210,7 +242,7 @@
         "M8",
         "WWII smoke grenade"
       ],
-      "validation": "源GLB与当前候选运行文件已核对；人工复验待定",
+      "validation": "当前握姿以 CURRENT_ACCEPTED_GRENADE_GRIPS.json 及其 native/source SHA 为准；旧86与离线姿势为历史。原骨架/权重/UV/步枪握姿不变；完整精细接触和第二机器范围保留。",
       "rights_scope": "手雷继承伞兵商业源的私下项目共享许可；衍生模型/贴图留私有。烟雾外壳团队原创，史料图未作为贴图或分发。",
       "parent_id": null
     },
@@ -231,7 +263,11 @@
       "documents": [
         "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
         "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_20261011_ZH.md",
-        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md"
+        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md"
       ],
       "order": 15,
       "aliases": [
@@ -259,7 +295,11 @@
       "documents": [
         "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_RESULT_20261011_ZH.md",
         "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_20261011_ZH.md",
-        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md"
+        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md"
       ],
       "order": 16,
       "aliases": [
@@ -2785,7 +2825,28 @@
         "Docs/Development/MissionLoopV1/GRENADE_EQUIP_REVISION_IMPLEMENTATION_20261011_ZH.md",
         "Docs/Development/MissionLoopV1/GRENADE_EQUIP_REVISION_RESULT_20261011_ZH.md",
         "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_20261011_ZH.md",
-        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md"
+        "Docs/Development/G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md",
+        "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012.md",
+        "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012_ZH.md",
+        "Docs/Development/SLEEVE_OCCLUSION_IMPLEMENTATION_20261012.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_20261013_ZH.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+        "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013_ZH.md",
+        "Docs/Development/CURRENT_TRAVERSAL_REVIEW.json",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_IMPLEMENTATION_20261013.md",
+        "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_IMPLEMENTATION_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013.md",
+        "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+        "Docs/Development/G1_GRENADE_BASELINE_ADOPTION_20261014_ZH.md",
+        "Docs/Development/G1_GRENADE_BASELINE_ADOPTION_RESULT_20261014_ZH.md"
       ],
       "order": 113,
       "aliases": [
@@ -5888,6 +5949,18 @@
       "filename": "DefaultEngine.ini",
       "needle": "GameDefaultMap=/Game/ParisCombat/Maps/",
       "label": "当前游戏默认地图"
+    },
+    {
+      "asset_id": "anim-rifle-animset-pro",
+      "filename": "ParisTraversal.cpp",
+      "needle": "Rifle_Vault_1m",
+      "label": "Independent source83 vault candidate; human review pending"
+    },
+    {
+      "asset_id": "paris-city",
+      "filename": "ParisTraversal.cpp",
+      "needle": "SM_Crate_01a",
+      "label": "Explicit scaled practice crate in source83 candidate; no original mesh/map edit"
     }
   ],
   "members": {
@@ -261511,28 +261584,28 @@
       },
       {
         "name": "frag_geometry.json",
-        "path": "tmp/Playtest-G1-EquipmentWheel-20261011/Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_geometry.json",
+        "path": "tmp/Playtest-G1-Sleeve-20261012/Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_geometry.json",
         "kind": "RuntimeGeometry",
         "duration": null,
         "frames": null
       },
       {
         "name": "frag_albedo.png",
-        "path": "tmp/Playtest-G1-EquipmentWheel-20261011/Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_albedo.png",
+        "path": "tmp/Playtest-G1-Sleeve-20261012/Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_albedo.png",
         "kind": "Texture2DPNG",
         "duration": null,
         "frames": null
       },
       {
         "name": "frag_orm.png",
-        "path": "tmp/Playtest-G1-EquipmentWheel-20261011/Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_orm.png",
+        "path": "tmp/Playtest-G1-Sleeve-20261012/Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_orm.png",
         "kind": "Texture2DPNG",
         "duration": null,
         "frames": null
       },
       {
         "name": "frag_normal.png",
-        "path": "tmp/Playtest-G1-EquipmentWheel-20261011/Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_normal.png",
+        "path": "tmp/Playtest-G1-Sleeve-20261012/Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_normal.png",
         "kind": "Texture2DPNG",
         "duration": null,
         "frames": null
@@ -261548,28 +261621,28 @@
       },
       {
         "name": "smoke_geometry.json",
-        "path": "tmp/Playtest-G1-EquipmentWheel-20261011/Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_geometry.json",
+        "path": "tmp/Playtest-G1-Sleeve-20261012/Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_geometry.json",
         "kind": "RuntimeGeometry",
         "duration": null,
         "frames": null
       },
       {
         "name": "smoke_albedo.png",
-        "path": "tmp/Playtest-G1-EquipmentWheel-20261011/Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_albedo.png",
+        "path": "tmp/Playtest-G1-Sleeve-20261012/Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_albedo.png",
         "kind": "Texture2DPNG",
         "duration": null,
         "frames": null
       },
       {
         "name": "smoke_orm.png",
-        "path": "tmp/Playtest-G1-EquipmentWheel-20261011/Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_orm.png",
+        "path": "tmp/Playtest-G1-Sleeve-20261012/Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_orm.png",
         "kind": "Texture2DPNG",
         "duration": null,
         "frames": null
       },
       {
         "name": "smoke_normal.png",
-        "path": "tmp/Playtest-G1-EquipmentWheel-20261011/Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_normal.png",
+        "path": "tmp/Playtest-G1-Sleeve-20261012/Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_normal.png",
         "kind": "Texture2DPNG",
         "duration": null,
         "frames": null

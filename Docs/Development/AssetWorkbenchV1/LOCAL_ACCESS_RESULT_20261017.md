@@ -1,0 +1,9 @@
+# Token-free local page entry installed
+
+17 October 2026. Direct local Asset Workbench URLs, including `http://127.0.0.1:8766/npc-simulation`, now open without a bootstrap token. GET session creates a new browser cookie when missing/expired and reuses a valid session on reload. Existing local bootstrap links also work without token comparison. Shared mode and non-loopback authorities retain token verification. Host, Origin, CSRF and per-browser NPC-world ownership remain enforced.
+
+The verified idle loopback service PID19936 was replaced by PID51768 (venv parent54148) with `run.ps1 -Port 8766 -BindAddress 127.0.0.1 -NoBrowser -KeepAccessLink`. No human browser was controlled. Installed headless QA used fresh contexts with no injected credentials, verified actual NPC stepping, reload continuity, asset-library navigation and separate ownership.
+
+Validation: **44 backend checks** (7 direct-access cases, retained31 NPC world/API/raster cases and6 existing shared/public network cases); **8 installed browser checks**. Both passed. Active snapshot remains `42b0ad7f707740fe80217649862e5b44`; the database, Catalog and published JSON index are byte-identical to the immediate pre-install preflight. No frontend edit/build, index refresh, asset registration, UE/native/game/save work or external publication.
+
+Implementation: [local-access scope and rollback](LOCAL_ACCESS_IMPLEMENTATION_20261017.md). Exact private evidence and source hashes: `tmp/asset-workbench-local-access-20261017/work_v1/INSTALL_VERIFICATION.json`, `backend-tests.xml`, `browser-installed.json`, `INSTALL_PREFLIGHT.json`, `PREIMAGES.json`. Source changes are limited to backend session handling, focused tests/browser QA and documentation. Original NPC map behavior/result and human design-review limits remain unchanged. Shared/public behavior was checked with isolated HTTP clients; this task establishes no new external-network or second-machine acceptance.

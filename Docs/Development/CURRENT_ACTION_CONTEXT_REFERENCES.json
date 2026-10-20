@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-17",
+  "status": "small_accepted_references_only_verify_live_selectors",
+  "source_selector": "Docs/Development/CURRENT_TUTORIAL_SOURCE_PENDING.json",
+  "acceptance_selectors": [
+    "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
+    "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+    "Docs/Development/CURRENT_MEDICAL_POUCH_ASSET.json"
+  ],
+  "optional_previews": [
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Evidence/HERO.jpg",
+      "size_bytes": 84998,
+      "sha256": "b30303ddbc5b9e9a079b9476eb46fd1479f8d0038c94a62eef2aaadcd06e7223",
+      "human_accepted": true
+    },
+    {
+      "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Evidence/ACCEPTED_RUNTIME_GRIPS.jpg",
+      "size_bytes": 188417,
+      "sha256": "a2865795ac45678be279a9e2f65d1a7cbccb87ffa934c48f3a8c9381040531f7",
+      "human_accepted": true
+    }
+  ],
+  "image_loading_policy": "No automatic image attachment from paths; current revision and task need first. Keep originals/failed media on disk, no base64 output or repeated old PNG batches.",
+  "history_index": "Docs/Development/InstructionHistory/ContextReferenceCleanup20261017/INDEX.json",
+  "audit_result": "Docs/Development/CONTEXT_REFERENCE_CLEANUP_RESULT_20261017.md",
+  "recorded_chat_attachment_status": {
+    "status": "old_inline_images_remain_not_cleared",
+    "image_occurrences": 3,
+    "data_url_chars": 15435142,
+    "measured_compaction_timestamp": "2026-10-17T19:13:18.386Z",
+    "actual_next_request_bytes_unknown": true,
+    "audit": "tmp/context-reference-cleanup-20261017/CHAT_AUDIT.json"
+  }
+}

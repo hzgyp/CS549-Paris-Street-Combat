@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "groups": [
+    {
+      "id": "paris-context",
+      "references": [
+        {
+          "register": "HistoricalReference/Paris1944/SOURCES.csv",
+          "key": "P01"
+        },
+        {
+          "register": "HistoricalReference/Paris1944/SOURCES.csv",
+          "key": "P02"
+        },
+        {
+          "register": "HistoricalReference/Paris1944/SOURCES.csv",
+          "key": "P05"
+        },
+        {
+          "register": "HistoricalReference/Paris1944/SOURCES.csv",
+          "key": "P06"
+        },
+        {
+          "register": "HistoricalReference/Paris1944/IMAGE_REFERENCES.csv",
+          "key": "PI01"
+        },
+        {
+          "register": "HistoricalReference/Paris1944/IMAGE_REFERENCES.csv",
+          "key": "PI02"
+        },
+        {
+          "register": "HistoricalReference/Paris1944/CONTEXT.md",
+          "key": "document"
+        }
+      ],
+      "asset_ids": [
+        "paris-city"
+      ],
+      "gameplay_ids": [
+        "g1-current",
+        "g1-tutorial",
+        "m2-junction",
+        "m3-crossstreet",
+        "postbridge-routes",
+        "bridge-ab"
+      ],
+      "relation": "context",
+      "note": {
+        "zh": "用于巴黎解放的时间、街垒和城市环境对照。关卡路线与购买地图不是史实地形复原；庆祝照片不是战斗过程证据。",
+        "en": "Paris liberation chronology, barricades and urban context. Game routes and the purchased map are not a historical reconstruction; celebration photographs do not document combat."
+      }
+    },
+    {
+      "id": "paris-open-questions",
+      "references": [
+        {
+          "register": "HistoricalReference/Paris1944/RESEARCH_GAPS.md",
+          "key": "document"
+        }
+      ],
+      "asset_ids": [
+        "paris-city",
+        "allied-soldier",
+        "german-soldier"
+      ],
+      "gameplay_ids": [
+        "g1-current",
+        "allied-recruitment"
+      ],
+      "relation": "identity_check",
+      "note": {
+        "zh": "记录巴黎参战单位、装备与场景的证据缺口，不能据此认定现有角色所属部队。",
+        "en": "Open evidence gaps for Paris units, equipment and locations; these do not identify the existing character models as specific units."
+      }
+    },
+    {
+      "id": "paris-us-unit-check",
+      "references": [
+        {
+          "register": "HistoricalReference/Paris1944/SOURCES.csv",
+          "key": "P03"
+        },
+        {
+          "register": "HistoricalReference/Paris1944/SOURCES.csv",
+          "key": "P04"
+        }
+      ],
+      "asset_ids": [
+        "allied-soldier"
+      ],
+      "gameplay_ids": [
+        "g1-current",
+        "allied-recruitment"
+      ],
+      "relation": "identity_check",
+      "note": {
+        "zh": "第4步兵师的巴黎资料用于核对历史背景；不能把购买的伞兵模型直接认定为该师士兵。",
+        "en": "4th Infantry Division records support a Paris context check; the purchased paratrooper model is not thereby identified as a member of that division."
+      }
+    },
+    {
+      "id": "us-clothing",
+      "references": [
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/uniforms/us_field_jackets.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/uniforms/us_helmet_and_specialist_clothing.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/ranks/us_wwii_rank_chart.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/uniforms/us_web_equipment.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/uniforms/us_equipment_temporal_check.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/ranks/us_officer_rank_chart_1943.jpg"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/SOURCES.csv",
+          "key": "S02"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/SOURCES.csv",
+          "key": "S24"
+        }
+      ],
+      "asset_ids": [
+        "allied-soldier",
+        "first-person"
+      ],
+      "gameplay_ids": [],
+      "relation": "visual",
+      "note": {
+        "zh": "对照美军服装、头盔、携行具与军衔。资料包含跨年份装备，不等于当前伞兵的完整装束；不修改已认可模型。",
+        "en": "Compare US clothing, helmets, web equipment and ranks. The survey spans multiple years and does not establish the paratrooper model’s complete outfit; accepted models remain unchanged."
+      }
+    },
+    {
+      "id": "service-shoes",
+      "references": [
+        {
+          "register": "HistoricalReference/NormandyContext/SOURCES.md",
+          "key": "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_1.jpg"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/SOURCES.md",
+          "key": "HistoricalReference/NormandyContext/images/uniforms/service_shoes_type_ii/view_2.jpg"
+        },
+        {
+          "register": "HistoricalReference/Equipment1944/catalog/SOURCES.csv",
+          "key": "E03"
+        }
+      ],
+      "asset_ids": [
+        "allied-soldier"
+      ],
+      "gameplay_ids": [],
+      "relation": "comparison",
+      "note": {
+        "zh": "博物馆实物用于军鞋外观比较；不能据此认定具体单位的配发情况。",
+        "en": "Museum objects support footwear comparison, not proof of issue to a particular unit."
+      }
+    },
+    {
+      "id": "german-clothing",
+      "references": [
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/uniforms/heer_field_uniform.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/uniforms/heer_officer_and_specialists.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/ranks/heer_officer_nco_ranks.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/ranks/heer_enlisted_ranks.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/ranks/heer_branch_colors.png"
+        }
+      ],
+      "asset_ids": [
+        "german-soldier"
+      ],
+      "gameplay_ids": [],
+      "relation": "identity_check",
+      "note": {
+        "zh": "核对陆军制服、军衔与兵种标识。1945年盟军识别手册不能直接证明1944年巴黎某单位的着装。",
+        "en": "Check Heer uniforms, ranks and branch distinctions. A 1945 Allied recognition handbook does not prove the outfit of a particular Paris unit in 1944."
+      }
+    },
+    {
+      "id": "uniform-notes",
+      "references": [
+        {
+          "register": "HistoricalReference/Equipment1944/UNIFORMS_AND_IDENTITY.md",
+          "key": "document"
+        }
+      ],
+      "asset_ids": [
+        "allied-soldier",
+        "german-soldier",
+        "first-person"
+      ],
+      "gameplay_ids": [],
+      "relation": "comparison",
+      "note": {
+        "zh": "复用制服与军衔辨别文字；原诺曼底单位和制作建议不作为巴黎角色的采用依据。",
+        "en": "Reuse uniform and rank distinctions only; original Normandy unit assignments and production recommendations do not authorize Paris character adoption."
+      }
+    },
+    {
+      "id": "german-handbook",
+      "references": [
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/SOURCES.csv",
+          "key": "S03"
+        }
+      ],
+      "asset_ids": [
+        "german-soldier",
+        "german-rifle"
+      ],
+      "gameplay_ids": [
+        "rifle-resources"
+      ],
+      "relation": "comparison",
+      "note": {
+        "zh": "晚战期识别手册用于德军装备类别核对；不是巴黎守军的装备清单，也不证明游戏装弹操作准确。",
+        "en": "Late-war recognition reference for German equipment categories, not a Paris garrison inventory or validation of the game reload."
+      }
+    },
+    {
+      "id": "us-rifle",
+      "references": [
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/weapons/us_rifle_comparison.png"
+        },
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/weapons/us_garand_carbine.png"
+        }
+      ],
+      "asset_ids": [
+        "first-person"
+      ],
+      "gameplay_ids": [
+        "rifle-resources"
+      ],
+      "relation": "comparison",
+      "note": {
+        "zh": "核对美制步枪与卡宾枪的外形及供弹区别，不据图片改变现有枪械与弹药规则。",
+        "en": "Compare US rifle/carbine silhouettes and feed systems; these images do not change the existing weapon or ammunition rules."
+      }
+    },
+    {
+      "id": "weapon-notes",
+      "references": [
+        {
+          "register": "HistoricalReference/Equipment1944/WEAPONS_AND_PRESENTATION.md",
+          "key": "document"
+        }
+      ],
+      "asset_ids": [
+        "first-person",
+        "german-rifle"
+      ],
+      "gameplay_ids": [
+        "rifle-resources"
+      ],
+      "relation": "adaptation",
+      "note": {
+        "zh": "记录枪型、弹药与画面动作的一致性检查。旧诺曼底候选武器与制作规格不作为当前玩法要求。",
+        "en": "Checks consistency among weapon family, ammunition and animation. Legacy Normandy weapon candidates and production specifications are not current gameplay requirements."
+      }
+    },
+    {
+      "id": "german-rifle-plate",
+      "references": [
+        {
+          "register": "HistoricalReference/NormandyContext/catalog/IMAGE_CATALOG.csv",
+          "key": "images/weapons/german_rifle_reference.png"
+        }
+      ],
+      "asset_ids": [
+        "german-rifle"
+      ],
+      "gameplay_ids": [
+        "rifle-resources"
+      ],
+      "relation": "visual",
+      "note": {
+        "zh": "对照Kar98k枪族外形；具体子型、装束与动作准确性仍需各自证据。",
+        "en": "Compare Kar98k-family appearance; exact variant, loadout and animation accuracy require separate evidence."
+      }
+    },
+    {
+      "id": "rifle-equipment-notes",
+      "references": [
+        {
+          "register": "Tools/AssetCreation/GermanRifleFineTexture_v15/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRifleFinishV7/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRifleManualV9/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRifleSPR_v10/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRifleSPR_v11/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRifleSurfaceJointV6/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRifleTopologyV8/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRifleWoodFinish_v14/reference_notes.md",
+          "key": "document"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRifleWoodWear_v13/reference_notes.md",
+          "key": "document"
+        }
+      ],
+      "asset_ids": [
+        "german-rifle"
+      ],
+      "gameplay_ids": [
+        "rifle-resources"
+      ],
+      "relation": "visual",
+      "note": {
+        "zh": "保留各轮建模查证与外观取舍，按原文区分候选和结论；资料关联不重新采用旧模型。",
+        "en": "Retain modelling research and visual decisions from each iteration; candidate/result status follows the original notes. Association does not readopt an older model."
+      }
+    },
+    {
+      "id": "rifle-museum-photos",
+      "references": [
+        {
+          "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+          "key": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736089.jpg"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+          "key": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736128.jpg"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+          "key": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736206.jpg"
+        },
+        {
+          "register": "Tools/AssetCreation/GermanRiflePilot/reference_notes.md",
+          "key": "Assets/LocalWorking/Experiments/GermanRiflePilot/20261003-v1/references/originals/image_mauser_fusil_allemand_2019.1.1_1736212.jpg"
+        }
+      ],
+      "asset_ids": [
+        "german-rifle"
+      ],
+      "gameplay_ids": [
+        "rifle-resources"
+      ],
+      "relation": "visual",
+      "note": {
+        "zh": "博物馆1943年实物的外观参考；缺通条和护罩，后配英国Sten枪带，不能当作德军原配装束或标定尺寸。",
+        "en": "Appearance reference for a museum’s 1943 object: missing rod/hood and a replacement British Sten sling. It does not establish German issued loadout or calibrated dimensions."
+      }
+    },
+    {
+      "id": "pressure-mine",
+      "references": [
+        {
+          "register": "Tools/AssetCreation/PressureMineV1/reference_notes.md",
+          "key": "document"
+        }
+      ],
+      "asset_ids": [
+        "pressure-mine"
+      ],
+      "gameplay_ids": [
+        "enemy-mine"
+      ],
+      "relation": "adaptation",
+      "note": {
+        "zh": "二战盘形反坦克地雷的外观参考；当前人员触发是游戏抽象，不据此声称实物触发机制准确。",
+        "en": "WWII disc-shaped anti-tank-mine appearance reference. The game’s personnel trigger is an abstraction, not a claim about the real device’s trigger mechanism."
+      }
+    },
+    {
+      "id": "medical-design",
+      "references": [
+        {
+          "register": "Docs/Development/MissionLoopV1/MEDKIT_REAL_REFERENCE_AUDIT_20261017.md",
+          "key": "document"
+        },
+        {
+          "register": "Docs/Development/MissionLoopV1/MEDKIT_MODEL_IMPLEMENTATION_20261017.md",
+          "key": "document"
+        }
+      ],
+      "asset_ids": [],
+      "gameplay_ids": [
+        "medical-kits"
+      ],
+      "relation": "comparison",
+      "note": {
+        "zh": "用于有限医疗包的外观选择与来源复核。博物馆标签对应关系和商家断代仍有限制；模型未采用，玩法未实现。",
+        "en": "Appearance selection and provenance review for finite medical kits. Museum-label attribution and dealer dating remain qualified; the candidate model is not adopted and gameplay is unimplemented."
+      }
+    },
+    {
+      "id": "frag-grenade-history",
+      "references": [
+        {
+          "register": "HistoricalReference/Equipment1944/FRAG_GRENADE.md",
+          "key": "document"
+        },
+        {
+          "register": "HistoricalReference/Equipment1944/FRAG_GRENADE.md",
+          "key": "HistoricalReference/Equipment1944/images/mk-ii-exterior.png"
+        },
+        {
+          "register": "HistoricalReference/Equipment1944/catalog/SOURCES.csv",
+          "key": "E01"
+        }
+      ],
+      "asset_ids": [
+        "frag-grenade"
+      ],
+      "gameplay_ids": [
+        "frag-throw"
+      ],
+      "relation": "visual",
+      "note": {
+        "zh": "壳体、外部轮廓和早期手册标色对照；1942 年插图不证明巴黎战斗配发或当前模型颜色。",
+        "en": "Exterior, casing silhouette and early manual markings; the 1942 plate does not establish Paris issue or the current model finish."
+      }
+    },
+    {
+      "id": "smoke-grenade-history",
+      "references": [
+        {
+          "register": "HistoricalReference/Equipment1944/SMOKE_GRENADE.md",
+          "key": "document"
+        },
+        {
+          "register": "HistoricalReference/Equipment1944/SMOKE_GRENADE.md",
+          "key": "HistoricalReference/Equipment1944/images/an-m8-1943.png"
+        },
+        {
+          "register": "HistoricalReference/Equipment1944/catalog/SOURCES.csv",
+          "key": "E02"
+        }
+      ],
+      "asset_ids": [
+        "smoke-grenade"
+      ],
+      "gameplay_ids": [
+        "smoke-cover"
+      ],
+      "relation": "visual",
+      "note": {
+        "zh": "AN-M8 外形、灰色外壳与黄色标记对照；当前模型为风格化参考，不证明单位配发。",
+        "en": "AN-M8 exterior, gray finish and yellow markings; the current model is an interpretation, not proof of unit issue."
+      }
+    },
+    {
+      "id": "ammo-box-history",
+      "references": [
+        {
+          "register": "HistoricalReference/Equipment1944/AMMUNITION_BOX.md",
+          "key": "document"
+        },
+        {
+          "register": "HistoricalReference/Equipment1944/AMMUNITION_BOX.md",
+          "key": "HistoricalReference/Equipment1944/images/ammo-boxes-1942.png"
+        },
+        {
+          "register": "HistoricalReference/Equipment1944/catalog/SOURCES.csv",
+          "key": "E01"
+        }
+      ],
+      "asset_ids": [
+        "ammo-box"
+      ],
+      "gameplay_ids": [
+        "finite-supply"
+      ],
+      "relation": "visual",
+      "note": {
+        "zh": "木箱结构、携行部位与标记参考；巴黎城市包弹药箱具体箱型和历史装载物未确认。",
+        "en": "Wooden packing-box construction, carrying features and markings; the Paris vendor mesh pattern and historical contents remain unverified."
+      }
+    }
+  ]
+}

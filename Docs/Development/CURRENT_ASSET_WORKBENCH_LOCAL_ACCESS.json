@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-17",
+  "status": "installed_local_token_free_verified",
+  "scope": "local-only loopback page entry; shared/network token verification retained",
+  "entry": "http://127.0.0.1:8766/npc-simulation",
+  "result": "Docs/Development/AssetWorkbenchV1/LOCAL_ACCESS_RESULT_20261017.md",
+  "implementation": "Docs/Development/AssetWorkbenchV1/LOCAL_ACCESS_IMPLEMENTATION_20261017.md",
+  "evidence": "tmp/asset-workbench-local-access-20261017/work_v1/INSTALL_VERIFICATION.json",
+  "backend_tests": 44,
+  "installed_browser_checks": 8,
+  "preserved_snapshot_id": "42b0ad7f707740fe80217649862e5b44",
+  "limits": "No frontend or UE/game build, asset/index refresh, network deployment or publication. Existing NPC human design review remains pending."
+}

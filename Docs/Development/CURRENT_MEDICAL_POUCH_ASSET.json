@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "asset_id": "medical-pouch",
+  "asset_bundle": "paris-medical-pouch",
+  "asset_version": "medical-pouch-20261017-v1",
+  "status": "formal_model_human_accepted_sftp_verified",
+  "human_accepted": true,
+  "human_acceptance": {
+    "date": "2026-10-17",
+    "quote": "ok，人工复核确认，合并到正式资产",
+    "scope": "Complete medical pouch shape/material/stain appearance shown in the immediately preceding v2 preview; standalone model only",
+    "selected_stage": "MedkitSurfaceStains20261017/v2",
+    "glb_sha256": "542aede9b691561d20a5bcdb06d3d812b0ffb1427d91eb48563bddbe7f5a05f5",
+    "blend_sha256": "8072ba662c226a2575a6494fe2087b2faf10d31e465ee5be6fb82a80ee29cb6d"
+  },
+  "manifest": "Assets/Sync/manifests/paris-medical-pouch.json",
+  "manifest_sha256": "4dc2a04a40480781378d9433770a22df2236bc82da2e46e26b5700cd3227dd7f",
+  "release_manifest": "/releases/medical-pouch-20261017-v1/paris-medical-pouch.json",
+  "model": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Model/MedicalPouch_Stained.glb",
+  "editable_model": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Model/MedicalPouch_Stained.blend",
+  "current_preview": "Assets/LocalShared/SFTP/baselines/medical-pouch-20261017-v1/Evidence/HERO.jpg",
+  "result": "Docs/Development/MissionLoopV1/MEDKIT_ASSET_ADOPTION_RESULT_20261017.md",
+  "model_only": true,
+  "gameplay_integrated": false,
+  "prior_candidates": "Historical unselected; retained",
+  "metrics": {
+    "mesh_count": 32,
+    "triangles": 23536,
+    "dimensions_m": [
+      0.22378840297460556,
+      0.10624726861715317,
+      0.15700000524520874
+    ]
+  }
+}

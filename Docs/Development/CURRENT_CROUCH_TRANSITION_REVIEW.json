@@ -1,0 +1,57 @@
+{
+  "source_snapshot": "Unreal/Variants/G1ThumbPolish20261017/Project",
+  "source_project": "Unreal/Variants/G1ThumbPolish20261017/Project",
+  "source_manifest": "Unreal/Variants/G1ThumbPolish20261017/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+  "source_files": 125,
+  "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+  "playable_directory": "tmp/Playtest-G1-Thumb-Polish-20261017",
+  "playable_entry": "tmp/Playtest-G1-Thumb-Polish-20261017/PLAY_THUMB_POLISH.cmd",
+  "user_dir": "G1ThumbPolish20261017",
+  "save_prefix": "ParisCheckpointHistoryV1",
+  "status": "formal_ctrl_transition_assets_human_accepted_sftp_verified",
+  "date": "2026-10-17",
+  "revision": "ThumbPolish125-Ctrl",
+  "human_accepted": true,
+  "human_manual_review": "蹲下起身这个看过了，过程没问题，直接验收即可",
+  "acceptance": {
+    "status": "human_accepted",
+    "date": "2026-10-17",
+    "quote": "蹲下起身这个看过了，过程没问题，直接验收即可",
+    "scope": "Visible Ctrl descent/rise process and observed transition continuity in current125-source trial",
+    "selector": "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+    "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+    "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046"
+  },
+  "checks": [
+    {
+      "identity": "ctrl_prone_lifecycle",
+      "exit_code": 0,
+      "status": "pass_binding_audit_capture",
+      "checks": 21,
+      "result": "tmp/g1-thumb-polish-playtest-20261017/checks/ctrl_prone_lifecycle/RESULT.json",
+      "mode": "binding_lifecycle",
+      "result_sha256": "68724be960267624da6b154e0b4071fbb9e82eebd03860abcf2ccc236c3dd105",
+      "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+      "scope": "Candidate shared FP/V production bindings active; scoped regression and visual review required. Tutorial102 parent, real Tutorial/ProneStrafe/CheckpointHistory flags, original4/8 ammo and1/1 grenades. StartTraining invoked normally; lesson completion is not claimed. Declared AI hold/flat relocation; ordinary V camera, original actual input/resources; no resource injection."
+    }
+  ],
+  "formal_adoption": false,
+  "acceptance_record": "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ACCEPTANCE_20261017.md",
+  "scope": "Visible Ctrl descent/rise process and observed transition continuity in current125-source trial",
+  "native_sequences": "tmp/g1-crouch-transition-20261016/REQUIRED_NATIVE_SEQUENCES.json",
+  "new_engine_run": false,
+  "new_build": false,
+  "asset": {
+    "asset_id": "paris-crouch-transitions",
+    "asset_version": "crouch-transitions-20261017-v1",
+    "selector": "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+    "contract": "Assets/Sync/CROUCH_TRANSITION_SOURCE_CONTRACT_20261017.json",
+    "manifest": "Assets/Sync/manifests/paris-crouch-transitions.json",
+    "manifest_sha256": "7e0bc884e6afeab410bb828206bf43bd0ecb7685f713f5befe37cf0e65b109b9",
+    "formal_asset_adoption": true,
+    "sftp_verified": true,
+    "whole_game_formal_adoption": false
+  },
+  "adoption_result": "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ASSET_ADOPTION_RESULT_20261017.md"
+}

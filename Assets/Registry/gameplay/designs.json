@@ -1,0 +1,3795 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "g1-current",
+      "kind": "mission",
+      "title": {
+        "zh": "G1 桥头战斗",
+        "en": "G1 bridgehead combat"
+      },
+      "summary": {
+        "zh": "当前可玩阶段：过桥、清除三名登记守军、主动保存。",
+        "en": "Current playable stage: cross the bridge, clear three registered guards and save explicitly."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city",
+        "allied-soldier",
+        "german-soldier",
+        "first-person"
+      ],
+      "related_ids": [
+        "checkpoint",
+        "g1-tutorial",
+        "m2-junction"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "当前78正式采用",
+            "en": "Current 78 baseline adoption · Chinese source"
+          },
+          "registered_sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+        },
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+          "title": {
+            "zh": "当前78正式采用 · English",
+            "en": "Current 78 baseline adoption"
+          },
+          "registered_sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+        },
+        {
+          "path": "Docs/Development/G1_ENEMY_CLEAR_CHECKPOINT_RESULT_20261010_ZH.md",
+          "title": {
+            "zh": "清场存档规则",
+            "en": "Enemy-clear checkpoint rule · Chinese source"
+          },
+          "registered_sha256": "07bc42fe54be2951c494f430a69e7f130d19c9ae93e4994b87f8d4a68aede36d"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "所属登记敌军全灭即完成任务；小队到齐、特定路线和教程动作不加锁。",
+          "en": "Eliminating the registered enemy group completes the objective; squad arrival, a specific route and tutorial actions do not add gates."
+        },
+        {
+          "zh": "保留原两名盟军及三名守军布局；新阶段未实现。",
+          "en": "The original two-Allied/three-guard layout is retained; additional stages are not implemented."
+        }
+      ],
+      "steps": [],
+      "open_items": [],
+      "media_ids": [],
+      "implementation": {
+        "state": "formal",
+        "note": {
+          "zh": "当前正式版已采用；原验证范围保留。",
+          "en": "Adopted in the current baseline; original validation scope retained."
+        },
+        "build_id": "formal"
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "读取既有结果；本次未重跑游戏。",
+          "en": "Existing results only; the game was not rerun here."
+        }
+      }
+    },
+    {
+      "id": "rifle-resources",
+      "kind": "mechanic",
+      "title": {
+        "zh": "步枪射击与装弹",
+        "en": "Rifle firing and reload"
+      },
+      "summary": {
+        "zh": "原枪械事务与有限弹药守恒。",
+        "en": "Original weapon transactions and finite ammunition conservation."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "first-person",
+        "german-rifle",
+        "rifle-animation",
+        "recorded-audio"
+      ],
+      "related_ids": [],
+      "documents": [
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "当前78正式采用",
+            "en": "Current 78 baseline adoption · Chinese source"
+          },
+          "registered_sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+        },
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+          "title": {
+            "zh": "当前78正式采用 · English",
+            "en": "Current 78 baseline adoption"
+          },
+          "registered_sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_GAMEPLAY_DESIGN_20261010_ZH.md",
+          "title": {
+            "zh": "装备玩法设计",
+            "en": "Equipment gameplay design · Chinese source"
+          },
+          "registered_sha256": "59b7574ba42794cf9e2a1a931f1ab9da82eb0c1d86c4ced104a7a542b241db97"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "实际射击消耗装填弹药；空枪不能产生有效射击。",
+          "en": "Actual firing consumes loaded rounds; an empty weapon cannot fire effectively."
+        },
+        {
+          "zh": "装弹从备用弹药转入枪内，原动作提交一次；不复制或补满库存。",
+          "en": "Reload transfers reserve rounds into the weapon and commits once through the original action; no duplication or refill."
+        }
+      ],
+      "steps": [],
+      "open_items": [],
+      "media_ids": [],
+      "implementation": {
+        "state": "formal",
+        "note": {
+          "zh": "当前正式版已采用；原验证范围保留。",
+          "en": "Adopted in the current baseline; original validation scope retained."
+        },
+        "build_id": "formal"
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "读取既有结果；本次未重跑游戏。",
+          "en": "Existing results only; the game was not rerun here."
+        }
+      }
+    },
+    {
+      "id": "frag-throw",
+      "kind": "mechanic",
+      "title": {
+        "zh": "手榴弹投掷",
+        "en": "Fragmentation grenade"
+      },
+      "summary": {
+        "zh": "滚轮选择，按住左键准备，松开投掷。",
+        "en": "Select with the wheel, hold the left button to prepare and release to throw."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "frag-grenade",
+        "rifle-animation",
+        "explosion-audio"
+      ],
+      "related_ids": [
+        "smoke-cover",
+        "m2-junction"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "当前78正式采用",
+            "en": "Current 78 baseline adoption · Chinese source"
+          },
+          "registered_sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+        },
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+          "title": {
+            "zh": "当前78正式采用 · English",
+            "en": "Current 78 baseline adoption"
+          },
+          "registered_sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_GAMEPLAY_DESIGN_20261010_ZH.md",
+          "title": {
+            "zh": "装备玩法设计",
+            "en": "Equipment gameplay design · Chinese source"
+          },
+          "registered_sha256": "59b7574ba42794cf9e2a1a931f1ab9da82eb0c1d86c4ced104a7a542b241db97"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "滚轮跳过空库存；全部投掷物用尽时仍保留步枪。",
+          "en": "The wheel skips exhausted types; the rifle remains available when all throwables are exhausted."
+        },
+        {
+          "zh": "准备阶段可取消且不消耗；释放后仅提交一次，有限引信与遮挡伤害沿用。",
+          "en": "Preparation can be cancelled without spending inventory; release commits once with the existing finite fuse and occluded damage."
+        }
+      ],
+      "steps": [],
+      "open_items": [],
+      "media_ids": [],
+      "implementation": {
+        "state": "formal",
+        "note": {
+          "zh": "当前正式版已采用；原验证范围保留。",
+          "en": "Adopted in the current baseline; original validation scope retained."
+        },
+        "build_id": "formal"
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "读取既有结果；本次未重跑游戏。",
+          "en": "Existing results only; the game was not rerun here."
+        }
+      }
+    },
+    {
+      "id": "smoke-cover",
+      "kind": "mechanic",
+      "title": {
+        "zh": "烟幕掩护",
+        "en": "Smoke cover"
+      },
+      "summary": {
+        "zh": "烟幕影响发现和实时追踪，子弹仍可穿过。",
+        "en": "Smoke affects detection and live tracking; bullets can still pass through."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "smoke-grenade",
+        "smoke-effect",
+        "rifle-animation"
+      ],
+      "related_ids": [
+        "frag-throw",
+        "m2-junction"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "当前78正式采用",
+            "en": "Current 78 baseline adoption · Chinese source"
+          },
+          "registered_sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+        },
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+          "title": {
+            "zh": "当前78正式采用 · English",
+            "en": "Current 78 baseline adoption"
+          },
+          "registered_sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_GAMEPLAY_DESIGN_20261010_ZH.md",
+          "title": {
+            "zh": "装备玩法设计",
+            "en": "Equipment gameplay design · Chinese source"
+          },
+          "registered_sha256": "59b7574ba42794cf9e2a1a931f1ab9da82eb0c1d86c4ced104a7a542b241db97"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "同一烟幕过滤两阵营实时视线；离开后可重新发现，不能提供无敌。",
+          "en": "The same smoke filters both factions' live sight; detection can resume after leaving, without invulnerability."
+        },
+        {
+          "zh": "烟幕有有限生命期；存读档不重置时间或返还库存。",
+          "en": "Smoke has a finite lifetime; restore does not reset its timer or return inventory."
+        }
+      ],
+      "steps": [],
+      "open_items": [],
+      "media_ids": [],
+      "implementation": {
+        "state": "formal",
+        "note": {
+          "zh": "当前正式版已采用；原验证范围保留。",
+          "en": "Adopted in the current baseline; original validation scope retained."
+        },
+        "build_id": "formal"
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "读取既有结果；本次未重跑游戏。",
+          "en": "Existing results only; the game was not rerun here."
+        }
+      }
+    },
+    {
+      "id": "enemy-mine",
+      "kind": "mechanic",
+      "title": {
+        "zh": "预设敌方地雷",
+        "en": "Preplaced enemy mines"
+      },
+      "summary": {
+        "zh": "观察、绕行或近距离拆除；首版没有玩家布雷。",
+        "en": "Observe, bypass or disarm nearby; the first version has no player mine deployment."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "pressure-mine",
+        "explosion-audio",
+        "paris-city"
+      ],
+      "related_ids": [
+        "checkpoint",
+        "finite-supply"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "当前78正式采用",
+            "en": "Current 78 baseline adoption · Chinese source"
+          },
+          "registered_sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+        },
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+          "title": {
+            "zh": "当前78正式采用 · English",
+            "en": "Current 78 baseline adoption"
+          },
+          "registered_sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_GAMEPLAY_DESIGN_20261010_ZH.md",
+          "title": {
+            "zh": "装备玩法设计",
+            "en": "Equipment gameplay design · Chinese source"
+          },
+          "registered_sha256": "59b7574ba42794cf9e2a1a931f1ab9da82eb0c1d86c4ced104a7a542b241db97"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "落地胶囊脚底接触只触发一次，双方均会受影响。",
+          "en": "Grounded capsule-foot contact triggers once and affects either faction."
+        },
+        {
+          "zh": "可见并瞄准，水平2米内按住E两秒；遮挡、松键或移开取消。",
+          "en": "Observe and aim within two horizontal metres, then hold E for two seconds; occlusion, release or moving away cancels."
+        },
+        {
+          "zh": "已触发/已拆除状态恢复，不重复伤害；未拆雷不能阻止清场保存。",
+          "en": "Spent/disarmed states restore without repeated damage; an armed mine does not block enemy-clear saving."
+        }
+      ],
+      "steps": [],
+      "open_items": [],
+      "media_ids": [],
+      "implementation": {
+        "state": "formal",
+        "note": {
+          "zh": "当前正式版已采用；原验证范围保留。",
+          "en": "Adopted in the current baseline; original validation scope retained."
+        },
+        "build_id": "formal"
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "读取既有结果；本次未重跑游戏。",
+          "en": "Existing results only; the game was not rerun here."
+        }
+      }
+    },
+    {
+      "id": "finite-supply",
+      "kind": "mechanic",
+      "title": {
+        "zh": "有限弹药补给",
+        "en": "Finite ammunition supply"
+      },
+      "summary": {
+        "zh": "实物箱向备用弹药转移有限库存。",
+        "en": "Physical supply boxes transfer finite stock into reserve ammunition."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "ammo-box",
+        "paris-city"
+      ],
+      "related_ids": [
+        "g1-tutorial",
+        "m2-junction"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "当前78正式采用",
+            "en": "Current 78 baseline adoption · Chinese source"
+          },
+          "registered_sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+        },
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+          "title": {
+            "zh": "当前78正式采用 · English",
+            "en": "Current 78 baseline adoption"
+          },
+          "registered_sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_GAMEPLAY_DESIGN_20261010_ZH.md",
+          "title": {
+            "zh": "装备玩法设计",
+            "en": "Equipment gameplay design · Chinese source"
+          },
+          "registered_sha256": "59b7574ba42794cf9e2a1a931f1ab9da82eb0c1d86c4ced104a7a542b241db97"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "领取受箱内库存和玩家容量约束，不直接填充枪内弹药。",
+          "en": "Grants are bounded by box stock and player capacity; they do not directly load the weapon."
+        },
+        {
+          "zh": "同次库存扣减与领取提交；连续按E或读档不重复领取。",
+          "en": "Stock reduction and the grant commit together; repeated E or restore cannot duplicate grants."
+        }
+      ],
+      "steps": [],
+      "open_items": [],
+      "media_ids": [],
+      "implementation": {
+        "state": "formal",
+        "note": {
+          "zh": "当前正式版已采用；原验证范围保留。",
+          "en": "Adopted in the current baseline; original validation scope retained."
+        },
+        "build_id": "formal"
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "读取既有结果；本次未重跑游戏。",
+          "en": "Existing results only; the game was not rerun here."
+        }
+      }
+    },
+    {
+      "id": "checkpoint",
+      "kind": "mechanic",
+      "title": {
+        "zh": "清场与主动存档",
+        "en": "Enemy clearance and explicit saving"
+      },
+      "summary": {
+        "zh": "敌军全灭后，进入圈内按E并明确确认。",
+        "en": "After enemy clearance, enter the circle, press E and explicitly confirm."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city",
+        "first-person"
+      ],
+      "related_ids": [
+        "enemy-mine",
+        "finite-supply"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "当前78正式采用",
+            "en": "Current 78 baseline adoption · Chinese source"
+          },
+          "registered_sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+        },
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+          "title": {
+            "zh": "当前78正式采用 · English",
+            "en": "Current 78 baseline adoption"
+          },
+          "registered_sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+        },
+        {
+          "path": "Docs/Development/G1_ENEMY_CLEAR_CHECKPOINT_RESULT_20261010_ZH.md",
+          "title": {
+            "zh": "清场存档规则",
+            "en": "Enemy-clear checkpoint rule · Chinese source"
+          },
+          "registered_sha256": "07bc42fe54be2951c494f430a69e7f130d19c9ae93e4994b87f8d4a68aede36d"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TACTICAL_EQUIPMENT_GAMEPLAY_DESIGN_20261010_ZH.md",
+          "title": {
+            "zh": "装备玩法设计",
+            "en": "Equipment gameplay design · Chinese source"
+          },
+          "registered_sha256": "59b7574ba42794cf9e2a1a931f1ab9da82eb0c1d86c4ced104a7a542b241db97"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "只有所属登记敌组全灭决定任务门槛；保留圈内交互与实际写盘校验。",
+          "en": "Only elimination of the registered enemy group gates the objective; circle interaction and actual write validation remain."
+        },
+        {
+          "zh": "保存动态装备、设施库存及状态；校验schema、资源、checksum、写盘和回读。",
+          "en": "Save dynamic equipment, facility stock and state; validate schema, resources, checksum, write and readback."
+        },
+        {
+          "zh": "取消或写盘失败不能显示已保存；读档不补给或重播已死NPC。",
+          "en": "Cancellation or write failure cannot display a save success; restore does not refill resources or replay dead NPCs."
+        }
+      ],
+      "steps": [],
+      "open_items": [],
+      "media_ids": [],
+      "implementation": {
+        "state": "formal",
+        "note": {
+          "zh": "当前正式版已采用；原验证范围保留。",
+          "en": "Adopted in the current baseline; original validation scope retained."
+        },
+        "build_id": "formal"
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "读取既有结果；本次未重跑游戏。",
+          "en": "Existing results only; the game was not rerun here."
+        }
+      }
+    },
+    {
+      "id": "sleeve-workspace",
+      "kind": "presentation",
+      "title": {
+        "zh": "第一人称袖子与装备显示",
+        "en": "First-person sleeve and equipment display"
+      },
+      "summary": {
+        "zh": "78版调整显示工作范围，沿用原模型、骨长与手指。",
+        "en": "Version 78 adjusts the display workspace while retaining the original mesh, bone lengths and fingers."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "first-person",
+        "frag-grenade",
+        "smoke-grenade"
+      ],
+      "related_ids": [],
+      "documents": [
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "当前78正式采用",
+            "en": "Current 78 baseline adoption · Chinese source"
+          },
+          "registered_sha256": "3e1b8390f512392fa7d55b21cb2bacb499b02ae1254086e0697aa814a14bd3bf"
+        },
+        {
+          "path": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013.md",
+          "title": {
+            "zh": "当前78正式采用 · English",
+            "en": "Current 78 baseline adoption"
+          },
+          "registered_sha256": "ff4dec04002529274c994047a56cb868a6a9a0d4ac74d2ea987af41f9b33f00e"
+        },
+        {
+          "path": "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012_ZH.md",
+          "title": {
+            "zh": "袖子显示验证",
+            "en": "Sleeve display validation · Chinese source"
+          },
+          "registered_sha256": "e395a15396013b3ddc0b09b0a94da7e09842f07d335d9b39f3c14ab5ec7d0a53"
+        },
+        {
+          "path": "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012.md",
+          "title": {
+            "zh": "袖子显示验证 · English",
+            "en": "Sleeve display validation"
+          },
+          "registered_sha256": "c6c2d3c33f5bc7e6f6f363198cf48c6f402029f5710350c2b29d52606a6b6015"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "原模型、权重和UV不替换；失败拟合衍生不进入普通包。",
+          "en": "Original meshes, weights and UVs are retained; the failed fitted derivative is excluded from the normal build."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "近肩衣料应变及细致接触、全部运动仍有范围限制。",
+          "en": "Proximal garment strain, fine contact and complete locomotion remain outside the passed scope."
+        }
+      ],
+      "media_ids": [
+        "fp-sleeve-reload-v12",
+        "fp-sleeve-smoke-v12"
+      ],
+      "implementation": {
+        "state": "formal",
+        "note": {
+          "zh": "当前正式版已采用；原验证范围保留。",
+          "en": "Adopted in the current baseline; original validation scope retained."
+        },
+        "build_id": "formal"
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "读取既有结果；本次未重跑游戏。",
+          "en": "Existing results only; the game was not rerun here."
+        }
+      }
+    },
+    {
+      "id": "g1-tutorial",
+      "kind": "mission",
+      "title": {
+        "zh": "G1 完整新手教程",
+        "en": "Complete G1 beginner tutorial"
+      },
+      "summary": {
+        "en": "Formal tutorial1.0 with human-accepted medicine teaching and music; current saves/actions retained.",
+        "zh": "教学正式版1.0；医疗提示与配乐人工通过，保留当前动作与存档。"
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city",
+        "first-person",
+        "allied-soldier",
+        "german-soldier",
+        "ammo-box",
+        "pressure-mine",
+        "frag-grenade",
+        "smoke-grenade"
+      ],
+      "related_ids": [
+        "g1-current",
+        "checkpoint",
+        "m2-junction",
+        "allied-recruitment",
+        "tutorial-checkpoint",
+        "prone-movement"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013.md",
+          "title": {
+            "zh": "完整教学设计 · English",
+            "en": "Complete design · English"
+          },
+          "registered_sha256": "a57a0181bde22eb271dbcbea1c71b7db9a3de5860a07e5863ccefaba049f63e2"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013_ZH.md",
+          "title": {
+            "zh": "完整教学设计 · 中文",
+            "en": "Complete design · Chinese review"
+          },
+          "registered_sha256": "84ca1ff5725764b4a77c2239d4276f215ed737d7ccbfcb10f43918d0657244fa"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013.md",
+          "title": {
+            "zh": "教程开发 · English",
+            "en": "Tutorial development · English"
+          },
+          "registered_sha256": "a3c8ae185c86c0194b0226f21278d8246f261628d042ad564bcdea6a1e140fd3"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013_ZH.md",
+          "title": {
+            "zh": "教程开发 · 中文",
+            "en": "Tutorial development · Chinese review"
+          },
+          "registered_sha256": "0069205562d6983226eb82144ac0b85a16b0d681214127998a6c07fdac06f705"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013.md",
+          "title": {
+            "zh": "教程实际结果 · English",
+            "en": "Actual tutorial result · English"
+          },
+          "registered_sha256": "9ccf7cdc0935cd0a566196fdcf80b6f8a183124594da57b3562cf81058647016"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "教程实际结果 · 中文",
+            "en": "Actual tutorial result · Chinese review"
+          },
+          "registered_sha256": "7d91d598389f3d0df8e2de3ba86e43f4b69f4c71c60d4653694fe26998f24514"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013.md",
+          "registered_sha256": "2298025512ba25192637ed77ffee263bb1dd4e774f9bd4d11cd88d6c17ed1a14",
+          "title": {
+            "zh": "匍匐教学修正开发 · English",
+            "en": "Crawl guidance revision development · English"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013_ZH.md",
+          "registered_sha256": "8681c8b094791adaf930520d3c55efe7034e2cbc5918471f640504381d35dd2b",
+          "title": {
+            "zh": "匍匐教学修正开发 · 中文",
+            "en": "Crawl guidance revision development · Chinese review"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013.md",
+          "registered_sha256": "25a513e69ac4ca812fd36ec154234e3570238e3bcf2daafb0cf1014cdc7a5ac3",
+          "title": {
+            "zh": "匍匐教学修正结果 · English",
+            "en": "Crawl guidance revision results · English"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013_ZH.md",
+          "registered_sha256": "d14f77e765b4f3a2a500b9245e6549ef1812d3ca9f1ada772d27c113a76da953",
+          "title": {
+            "zh": "匍匐教学修正结果 · 中文",
+            "en": "Crawl guidance revision results · Chinese review"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "WASD匍匐开发 · English",
+            "en": "Four-direction prone implementation · English"
+          },
+          "registered_sha256": "3f5e0c21f0219dada897e044724c962151cf4c9fd4cdf4a389e440fb039ad4df"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "WASD匍匐开发 · 中文",
+            "en": "Four-direction prone implementation · Chinese review"
+          },
+          "registered_sha256": "c1d140ca8d7d6c29c15c1ae72fde8614f43f6e73a83bb60f232b0fc33efaba61"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013.md",
+          "title": {
+            "zh": "WASD匍匐结果 · English",
+            "en": "Four-direction prone results · English"
+          },
+          "registered_sha256": "9eb7124d8d6885f901448cd6261febd98687febde5a47e1d1aa13b7b03e140d7"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "WASD匍匐结果 · 中文",
+            "en": "Four-direction prone results · Chinese review"
+          },
+          "registered_sha256": "aace972ea3199efd5b9fab63be4feb3b1a17c5cc495538d97be742b434317488"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "匍匐鼠标／教学开发 · English",
+            "en": "Prone mouse/lesson implementation · English"
+          },
+          "registered_sha256": "21e09d46f8b7777fd7431363b7d48320a6c3796facac7cba6f58f30f26f75eba"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "匍匐鼠标／教学开发 · 中文",
+            "en": "Prone mouse/lesson implementation · Chinese"
+          },
+          "registered_sha256": "926a8518aec4c044e2068f1a4692420168244ed6760c16102b24d149ceba4af3"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013.md",
+          "title": {
+            "zh": "匍匐鼠标／教学结果 · English",
+            "en": "Prone mouse/lesson result · English"
+          },
+          "registered_sha256": "c0780a157a6114b83979e230c290d6790c455c4df4f0265b3b992b30a604de64"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "匍匐鼠标／教学结果 · 中文",
+            "en": "Prone mouse/lesson result · Chinese"
+          },
+          "registered_sha256": "f5df562f71c4c4cb88c03085606be7c0b14e3d9bc0c3846c86a6dd447e24658c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "多检查点开发 · English",
+            "en": "Checkpoint history implementation · English"
+          },
+          "registered_sha256": "168ed71dea42a5c0e336a67a091da8a8413ee01ae26382db6a443650798e2c12"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点开发 · 中文",
+            "en": "Checkpoint history implementation · Chinese"
+          },
+          "registered_sha256": "d0992f6119beb3664e3b51943be63d5539b133fdc4c01ba172119719838e122c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013.md",
+          "title": {
+            "zh": "多检查点结果 · English",
+            "en": "Checkpoint history result · English"
+          },
+          "registered_sha256": "be4e2486d8647787eda91c8685490999597b9d2a3c3f0feb9550e6b1ed8a767f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点结果 · 中文",
+            "en": "Checkpoint history result · Chinese"
+          },
+          "registered_sha256": "c96e5e70203510fc196f70dd028a57c1a76c27b718e2aa6c06de3805bed60b7f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "教学流程修正开发 · English",
+            "en": "Human tutorial flow implementation · English"
+          },
+          "registered_sha256": "e56e63724fbad1da02e7b5d4471703d89e270b59f3bdc30faeb7627c89795593"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正开发 · 中文",
+            "en": "Human tutorial flow implementation · Chinese"
+          },
+          "registered_sha256": "bd3a7f409bc8b70e6fac2e523435412a0557bd21e1c258f0bcb2cf6880c8fdb6"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013.md",
+          "title": {
+            "zh": "教学流程修正结果 · English",
+            "en": "Human tutorial flow result · English"
+          },
+          "registered_sha256": "131ceda04c63fc4278f02cdcf174e82161b1281b04c42061230610dafc124622"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正结果 · 中文",
+            "en": "Human tutorial flow result · Chinese"
+          },
+          "registered_sha256": "89742340549e77f5ffd42062ef89fbe891a0da17ba8ebc3972e0a2dec692e1bb"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0749d8cedf42766eda5183f3136b4b066d6c3733185497105181041cb6e29357"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0ed5b5c722f3cb87b853598a7f2fae817c29df4acd90bebd506e473ae6920840"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "19c68962a03dc531b221e21df9976340024529473c7823aa73ac64d28412b48f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "e27ebe9a0d9cde9fc4e80ae1b60f160b2d3cb15b943330b4cc4c749adb5f3984"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015.md",
+          "registered_sha256": "0eed980bbbffbdf5bbb16325b2f0f650a8da962bcf8fc41b5ebd8b7eab1c0904",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "ad265161c012bb30dcae2a6b90fdcf7c882f4ee72e7ecca024ef845a3be80708",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+          "registered_sha256": "e2cabc886a61bc3584e0e2febf0d9d581fa5340501935e18eb1c63347064e060",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+          "registered_sha256": "5d24488c0c6b4a10a3bb3edf79c062f47098b177f22f8c8e7188285c49aa6cd2",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015.md",
+          "registered_sha256": "0a34c309d7bbcd00b9a59b4146637788cc9dba8db6972adb56070d6d74acd4bc",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "e1502fc93e9fa27e25bff7dd79a2c90d29de16bbc562689e0ff1b136088441cd",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+          "registered_sha256": "c39bb7d5edbd0310096d4a373bf29403ae52ded095a39008fa3916e6868923c0",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+          "registered_sha256": "2dadbdbf2d94f24323aa489e9145c9a63946edd63dd13632b26359aecefdfb95",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "b7de082c31f9133d31257fee2162d1c649fd03b4df84d35214602dc180d762b5",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "d31ae2ce47ccd58364fbb52c41ee874e0ea9a00ac4944efa5ee05f2d40d6fca0",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+          "registered_sha256": "2232c00f2d909904eba788c6aa0d8707658a072c32786cc6cfcd395c1c4e9318",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+          "registered_sha256": "57d595eea48d7243e7e8c1615a7dfca843086dd2b6fb61b7d18fb4c13073c12b",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "50e291343fc9b7d82a9c4d82ac56e68bbb6ceced46f0962b0805cf1c46085486",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "34057c200e869ec7b2e45becfaad91eac35d7c9c83b9048af4e101d78eaccff0",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+          "registered_sha256": "3e394d3d3e606434dee44f363a720b0520a08e8c3c4c496afb3ab117ab28d33a",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+          "registered_sha256": "db0c361f451d9301ce1a5e99f4fdaaab5c538c02181b63f5b6f08fddc6bb33ae",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_SOUNDSCAPE_IMPLEMENTATION_20261017.md",
+          "title": {
+            "zh": "环境音与盟军语音实施方案（仅源码）",
+            "en": "Ambience and Allied dialogue implementation (source only)"
+          },
+          "registered_sha256": "39201975471ddc7f2064b4ff249247d1f7363fa8e7fb3a58e08fc4c698e89fcc"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_SOUNDSCAPE_RIGHTS_20261017.md",
+          "title": {
+            "zh": "声音素材来源、许可与双语台词",
+            "en": "Audio provenance, licenses and bilingual dialogue"
+          },
+          "registered_sha256": "425780776a71ffcd20f125eb88a8fc639cfe4ee63407e6d4d24b4c487de96dc0"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_SOUNDSCAPE_RESULT_20261017.md",
+          "title": {
+            "zh": "环境音与双语盟军字幕源码结果（未构建）",
+            "en": "Ambience and bilingual Allied subtitles source result (unbuilt)"
+          },
+          "registered_sha256": "b8e135f403b1858b0285c52f9157dc7928ce7f1f62fda0105f52839ef7947913"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_SETTINGS_IMPLEMENTATION_20261017.md",
+          "title": {
+            "zh": "菜单音、配乐与声音设置实施方案（仅源码）",
+            "en": "Menu audio, score and audio preferences implementation (source only)"
+          },
+          "registered_sha256": "3ced41a4340414aeedcb5061c95956cd0beb0364ce7e0ec5c326b5e4c4a97b1d"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_SETTINGS_RIGHTS_20261017.md",
+          "title": {
+            "zh": "菜单提示音与背景配乐来源和许可",
+            "en": "Menu feedback and score provenance and rights"
+          },
+          "registered_sha256": "19eecaab5e742016881c634d06b2a4f218a1b4369192aa06a3bb74812a9b83d7"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_SETTINGS_RESULT_20261017.md",
+          "title": {
+            "zh": "双语声音设置与菜单音源码结果（未构建）",
+            "en": "Bilingual audio settings and menu feedback source result (unbuilt)"
+          },
+          "registered_sha256": "969021d7353c15f1b4906fcff3696ad567f8ca6d41b1a2a1f1cbabba7dd9d97e"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_RESULT_20261017.md",
+          "registered_sha256": "519e6779966e92fb6e133327464c0de54431e86481cc53e2e62aad12e14bd5ca",
+          "title": {
+            "zh": "Tutorial audio playtest result",
+            "en": "Tutorial audio playtest result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_RESULT_20261017_ZH.md",
+          "registered_sha256": "f05c1975e60142d103681f5541cdb45d419361757334d7abf2e93204f25068f0",
+          "title": {
+            "zh": "教学声音试玩结果",
+            "en": "教学声音试玩结果"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_IMPLEMENTATION_20261017.md",
+          "registered_sha256": "6a8c1f54fc2fd6f91d5de698005e21ecc1035fade8a6b16a2d781b5b9cd673f8",
+          "title": {
+            "en": "Medical guidance and music mix implementation",
+            "zh": "医疗教学与配乐层次实现"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_RESULT_20261017.md",
+          "registered_sha256": "1724e6af891e4a73c601d59aedca7c5a171c9133d8e05a9e5383995e147df6dd",
+          "title": {
+            "en": "Medical guidance and music mix source result",
+            "zh": "医疗教学与配乐层次源码结果"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_MIX_RESULT_20261017_ZH.md",
+          "registered_sha256": "cfd84a2169ea738801ba81dac7d86bf43fd6a2afb3a2ad480e89e1bd0c6c268f",
+          "title": {
+            "en": "Medical guidance and music mix Chinese review",
+            "zh": "医疗教学与配乐层次中文复核"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_IMPLEMENTATION_20261017.md",
+          "registered_sha256": "dd55c2ec76a5f39424b6485fd3d847b02c06e5b988c9ec820e30295b89a11de5",
+          "title": {
+            "en": "Medical guidance/music playtest implementation",
+            "zh": "Medical guidance/music playtest implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_RESULT_20261017.md",
+          "registered_sha256": "669d53b60bf25cdf9d66f96ae0fb714ade98270b6b7884b3eddeb6f0ab30375e",
+          "title": {
+            "en": "Medical guidance/music playtest result",
+            "zh": "Medical guidance/music playtest result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_GUIDANCE_MUSIC_PLAYTEST_RESULT_20261017_ZH.md",
+          "registered_sha256": "483a7cdcff6dafe63417df13b31dd5bf23991c44c792625a47d464ea0072113b",
+          "title": {
+            "en": "医疗教学与配乐试玩结果",
+            "zh": "医疗教学与配乐试玩结果"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_V1_RELEASE_RESULT_20261017.md",
+          "registered_sha256": "1debdbb825ab6d18717e3b11961a38855a23fcaa784a1a5b31231b7a7f9bd0a5",
+          "title": {
+            "en": "Tutorial1.0 development release result",
+            "zh": "Tutorial1.0 development release result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_V1_RELEASE_RESULT_20261017_ZH.md",
+          "registered_sha256": "bf995ab5f573a7f86ce73e4e16d017116fcb1852c2ec262bb4ce3a1dfb199644",
+          "title": {
+            "en": "教学正式版1.0发布结果",
+            "zh": "教学正式版1.0发布结果"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_V1_RELEASE_IMPLEMENTATION_20261017.md",
+          "registered_sha256": "c58828d4bc3c328d0e66b32284815f57328d46a44b15118e6e6b03312976dee5",
+          "title": {
+            "en": "Tutorial1.0 release implementation",
+            "zh": "Tutorial1.0 release implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/TutorialSftpRetirementV1/DOWNLOAD_README.md",
+          "registered_sha256": "50381b5b26b2053636c1396fcbaa9b8d43983fe1a936c32813b5f8130d2cecb0",
+          "title": {
+            "en": "Tutorial1.0 teammate download",
+            "zh": "Tutorial1.0 teammate download"
+          }
+        },
+        {
+          "path": "Docs/Development/TutorialSftpRetirementV1/DOWNLOAD_README_ZH.md",
+          "registered_sha256": "844a6121d1459cda146f73fea50053d7309246c538811fde65d34ed2be26206b",
+          "title": {
+            "en": "教学正式版组员下载",
+            "zh": "教学正式版组员下载"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_SFTP_RETIREMENT_RESULT_20261017.md",
+          "registered_sha256": "f294f985b99b098b36d7460a9e2d17ae4417db7f5b27b0a3375bbe77f062fb63",
+          "title": {
+            "en": "Obsolete development archive retirement",
+            "zh": "Obsolete development archive retirement"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_SFTP_RETIREMENT_RESULT_20261017_ZH.md",
+          "registered_sha256": "d38cb3c2c76dc84789223d06f950d982a6e71bd6ffb141cdb758d3e352ace59c",
+          "title": {
+            "en": "旧开发试玩包清理记录",
+            "zh": "旧开发试玩包清理记录"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "zh": "匍匐WASD／斜向60厘米/秒，鼠标身体转向须满足逐角度净空和三点支撑；教学无隐藏起终点门槛。",
+          "en": "Prone WASD/diagonals60cm/s; mouse body yaw requires sampled clearance/three supports; lesson has no hidden start/end gate."
+        },
+        {
+          "zh": "守军明确继续后才激活；盟军基础教学结束后显示招募。",
+          "en": "Guards activate only on explicit Continue; Allies appear for recruitment after basics."
+        },
+        {
+          "zh": "备用弹、手雷与烟雾各有限库存、容量与发放账目。",
+          "en": "Reserve rounds, frags and smoke have finite stock, capacity and receipts."
+        },
+        {
+          "zh": "CP0为用户要求的训练存档；CP1只看三守军全灭，不加小队到齐门槛。",
+          "en": "CP0 is the user-requested training save; CP1 requires only three guards dead, without a squad-arrival gate."
+        },
+        {
+          "zh": "走路目标距出生约14米，跑步下一段约18米且至少实际跑12米；绿色路线仅两课。",
+          "en": "Walk target14m from start; Run next leg18m with12m real sprint; route lines only in these lessons."
+        },
+        {
+          "zh": "CP0保存／读档后可向桥方向离圈自然开战，未保存不能自动跳过。",
+          "en": "Saved/restored CP0 starts combat on forward departure; unsaved skip never automatic."
+        },
+        {
+          "zh": "界面与教学默认简体中文；Esc→设置→语言（本页L）切换英文并单独记住，不写入任务存档。",
+          "en": "UI/lessons default to Simplified Chinese; Esc→Settings→Language (or L there) persists language separately from mission saves."
+        }
+      ],
+      "steps": [
+        {
+          "zh": "鼠标观察；Esc暂停并放出鼠标。",
+          "en": "Mouse look; Esc pauses/releases cursor."
+        },
+        {
+          "zh": "WASD走、Shift跑、Space跳、Ctrl蹲；Z趴稳，鼠标转向，四方向各实际15厘米／总2.5米自动进入Z起身。",
+          "en": "WASD walk, Shift run, Space jump, Ctrl crouch; stable Z prone/mouse turn,15cm each direction/2.5m total automatically enters Z stand."
+        },
+        {
+          "zh": "真实开2枪、R装弹；滚轮选择并长按／释放左键投手雷与烟雾。",
+          "en": "Fire two actual shots/reload; wheel and held/released primary throw frag/smoke."
+        },
+        {
+          "zh": "三类有限补给，然后原长按E2秒拆教学雷。",
+          "en": "Finite three-resource resupply, then original two-second E-hold teaching-mine disarm."
+        },
+        {
+          "zh": "固定点分别E对话、另次输入确认Join。",
+          "en": "E dialogue at fixed sites, separate explicit Join input."
+        },
+        {
+          "zh": "CP0圈内E确认保存，明确Continue开始桥头实战。",
+          "en": "E confirmation in CP0; explicit Continue opens combat."
+        },
+        {
+          "zh": "三守军全灭后CP1保存成功结束教程。",
+          "en": "After three guard deaths, durable CP1 saving completes teaching."
+        }
+      ],
+      "open_items": [
+        {
+          "zh": "人工复核手雷称呼和教学保存前后提示。",
+          "en": "Human review grenade terminology and teaching save-state prompts."
+        },
+        {
+          "zh": "后续市区M2/M3与备用招募人员尚未实现。",
+          "en": "Later-city M2/M3 and reserve recruits are not implemented."
+        }
+      ],
+      "media_ids": [
+        "tutorial-copy-20261015-0",
+        "tutorial-copy-20261015-1",
+        "tutorial-copy-20261015-2",
+        "tutorial-copy-20261015-3",
+        "tutorial-startup-20261015-0",
+        "tutorial-startup-20261015-1",
+        "tutorial-startup-20261015-2",
+        "tutorial-startup-20261015-3",
+        "tutorial-damage-prone-20261015-0",
+        "tutorial-damage-prone-20261015-1",
+        "tutorial-damage-prone-20261015-2",
+        "tutorial-damage-prone-20261015-3",
+        "tutorial-damage-prone-20261015-4",
+        "tutorial-damage-prone-20261015-5",
+        "tutorial-latest-v-20261015-0",
+        "tutorial-latest-v-20261015-1",
+        "tutorial-latest-v-20261015-2",
+        "tutorial-latest-v-20261015-3",
+        "tutorial-latest-v-20261015-4",
+        "tutorial-unified-zh-v5-0",
+        "tutorial-unified-zh-v5-1",
+        "tutorial-unified-zh-v5-2",
+        "tutorial-unified-zh-v5-3",
+        "tutorial-unified-zh-v5-4",
+        "tutorial-unified-zh-v5-5",
+        "tutorial-unified-zh-v5-6",
+        "tutorial-unified-zh-v5-7",
+        "tutorial-unified-zh-v5-8",
+        "tutorial-unified-zh-v5-9",
+        "tutorial-unified-zh-v5-10",
+        "tutorial-unified-zh-v5-11",
+        "tutorial-unified-zh-v5-12",
+        "tutorial-unified-zh-v5-13",
+        "tutorial-unified-zh-v5-14",
+        "tutorial-flow-v4-restored",
+        "tutorial-flow-v4-locked",
+        "tutorial-flow-v4-ring",
+        "tutorial-flow-v4-saved",
+        "tutorial-flow-v4-live",
+        "tutorial-flow-v4-720",
+        "tutorial-flow-v4-recruit",
+        "tutorial-flow-v4-layout",
+        "checkpoint-history-v2-list",
+        "checkpoint-history-v2-delete",
+        "checkpoint-history-v2-load",
+        "checkpoint-history-v2-active-delete",
+        "checkpoint-history-v2-final",
+        "checkpoint-history-v2-720",
+        "checkpoint-history-v2-stale",
+        "prone-look-v17-right",
+        "prone-look-v17-left",
+        "prone-look-v17-wall",
+        "prone-look-v17-checklist",
+        "prone-look-v17-complete",
+        "prone-strafe-left-v12",
+        "prone-strafe-right-v12",
+        "tutorial-crawl-setup-1080",
+        "tutorial-crawl-setup-720",
+        "tutorial-relocated-layout",
+        "tutorial-complete-flow",
+        "tutorial-actual-recruit-1080",
+        "tutorial-actual-complete-1080"
+      ],
+      "implementation": {
+        "state": "formal",
+        "build_id": "formal",
+        "note": {
+          "en": "Human-adopted tutorial1.0; unchanged reviewed Game.",
+          "zh": "教学正式版1.0，原样采用已验收Game。"
+        }
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "en": "Medical guidance/music human accepted; inherited8 matching-Game checks. Full-map/NPC/stress/Editor/second-machine remain outside scope.",
+          "zh": "医疗教学与配乐人工通过；继承同Game8组检查。全地图、NPC、压力、Editor与第二机器仍未通过。"
+        }
+      },
+      "locations": [
+        {
+          "id": "player",
+          "foot_xyz_m": [
+            0.91186979,
+            -221.40678907,
+            0.98088717
+          ],
+          "note": {
+            "zh": "新出生准入锚点，后移约23.5米。",
+            "en": "New admitted spawn anchor, about23.5m back."
+          }
+        },
+        {
+          "id": "ally1",
+          "foot_xyz_m": [
+            8.5,
+            -214.75,
+            1.09227524
+          ],
+          "note": {
+            "zh": "新固定盟军1，基础结束后招募。",
+            "en": "New fixed Ally1, recruited after basics."
+          }
+        },
+        {
+          "id": "ally2",
+          "foot_xyz_m": [
+            9,
+            -212,
+            0.97561356
+          ],
+          "note": {
+            "zh": "新固定盟军2。",
+            "en": "New fixed Ally2."
+          }
+        },
+        {
+          "id": "cp0",
+          "foot_xyz_m": [
+            12,
+            -214,
+            1.00802
+          ],
+          "note": {
+            "zh": "训练存档锚点，实际落地另见trace。",
+            "en": "Training-save anchor; actual settled measurements in trace."
+          }
+        }
+      ]
+    },
+    {
+      "id": "allied-recruitment",
+      "kind": "mechanic",
+      "title": {
+        "zh": "盟军对话招募与两个存活名额",
+        "en": "Allied dialogue recruitment and two living slots"
+      },
+      "summary": {
+        "zh": "E对话并明确Join；最多2名存活队员，本G1只登记原两人。",
+        "en": "E dialogue and explicit Join; at most two living members, with only the original pair registered in G1."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "allied-soldier",
+        "paris-city",
+        "first-person"
+      ],
+      "related_ids": [
+        "g1-tutorial",
+        "m2-junction",
+        "m3-crossstreet",
+        "checkpoint"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013.md",
+          "title": {
+            "zh": "完整教学设计 · English",
+            "en": "Complete design · English"
+          },
+          "registered_sha256": "a57a0181bde22eb271dbcbea1c71b7db9a3de5860a07e5863ccefaba049f63e2"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013_ZH.md",
+          "title": {
+            "zh": "完整教学设计 · 中文",
+            "en": "Complete design · Chinese review"
+          },
+          "registered_sha256": "84ca1ff5725764b4a77c2239d4276f215ed737d7ccbfcb10f43918d0657244fa"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013.md",
+          "title": {
+            "zh": "教程开发 · English",
+            "en": "Tutorial development · English"
+          },
+          "registered_sha256": "a3c8ae185c86c0194b0226f21278d8246f261628d042ad564bcdea6a1e140fd3"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013_ZH.md",
+          "title": {
+            "zh": "教程开发 · 中文",
+            "en": "Tutorial development · Chinese review"
+          },
+          "registered_sha256": "0069205562d6983226eb82144ac0b85a16b0d681214127998a6c07fdac06f705"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013.md",
+          "title": {
+            "zh": "教程实际结果 · English",
+            "en": "Actual tutorial result · English"
+          },
+          "registered_sha256": "9ccf7cdc0935cd0a566196fdcf80b6f8a183124594da57b3562cf81058647016"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "教程实际结果 · 中文",
+            "en": "Actual tutorial result · Chinese review"
+          },
+          "registered_sha256": "7d91d598389f3d0df8e2de3ba86e43f4b69f4c71c60d4653694fe26998f24514"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013.md",
+          "registered_sha256": "2298025512ba25192637ed77ffee263bb1dd4e774f9bd4d11cd88d6c17ed1a14",
+          "title": {
+            "zh": "匍匐教学修正开发 · English",
+            "en": "Crawl guidance revision development · English"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013_ZH.md",
+          "registered_sha256": "8681c8b094791adaf930520d3c55efe7034e2cbc5918471f640504381d35dd2b",
+          "title": {
+            "zh": "匍匐教学修正开发 · 中文",
+            "en": "Crawl guidance revision development · Chinese review"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013.md",
+          "registered_sha256": "25a513e69ac4ca812fd36ec154234e3570238e3bcf2daafb0cf1014cdc7a5ac3",
+          "title": {
+            "zh": "匍匐教学修正结果 · English",
+            "en": "Crawl guidance revision results · English"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013_ZH.md",
+          "registered_sha256": "d14f77e765b4f3a2a500b9245e6549ef1812d3ca9f1ada772d27c113a76da953",
+          "title": {
+            "zh": "匍匐教学修正结果 · 中文",
+            "en": "Crawl guidance revision results · Chinese review"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "WASD匍匐开发 · English",
+            "en": "Four-direction prone implementation · English"
+          },
+          "registered_sha256": "3f5e0c21f0219dada897e044724c962151cf4c9fd4cdf4a389e440fb039ad4df"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "WASD匍匐开发 · 中文",
+            "en": "Four-direction prone implementation · Chinese review"
+          },
+          "registered_sha256": "c1d140ca8d7d6c29c15c1ae72fde8614f43f6e73a83bb60f232b0fc33efaba61"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013.md",
+          "title": {
+            "zh": "WASD匍匐结果 · English",
+            "en": "Four-direction prone results · English"
+          },
+          "registered_sha256": "9eb7124d8d6885f901448cd6261febd98687febde5a47e1d1aa13b7b03e140d7"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "WASD匍匐结果 · 中文",
+            "en": "Four-direction prone results · Chinese review"
+          },
+          "registered_sha256": "aace972ea3199efd5b9fab63be4feb3b1a17c5cc495538d97be742b434317488"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "匍匐鼠标／教学开发 · English",
+            "en": "Prone mouse/lesson implementation · English"
+          },
+          "registered_sha256": "21e09d46f8b7777fd7431363b7d48320a6c3796facac7cba6f58f30f26f75eba"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "匍匐鼠标／教学开发 · 中文",
+            "en": "Prone mouse/lesson implementation · Chinese"
+          },
+          "registered_sha256": "926a8518aec4c044e2068f1a4692420168244ed6760c16102b24d149ceba4af3"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013.md",
+          "title": {
+            "zh": "匍匐鼠标／教学结果 · English",
+            "en": "Prone mouse/lesson result · English"
+          },
+          "registered_sha256": "c0780a157a6114b83979e230c290d6790c455c4df4f0265b3b992b30a604de64"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "匍匐鼠标／教学结果 · 中文",
+            "en": "Prone mouse/lesson result · Chinese"
+          },
+          "registered_sha256": "f5df562f71c4c4cb88c03085606be7c0b14e3d9bc0c3846c86a6dd447e24658c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "多检查点开发 · English",
+            "en": "Checkpoint history implementation · English"
+          },
+          "registered_sha256": "168ed71dea42a5c0e336a67a091da8a8413ee01ae26382db6a443650798e2c12"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点开发 · 中文",
+            "en": "Checkpoint history implementation · Chinese"
+          },
+          "registered_sha256": "d0992f6119beb3664e3b51943be63d5539b133fdc4c01ba172119719838e122c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013.md",
+          "title": {
+            "zh": "多检查点结果 · English",
+            "en": "Checkpoint history result · English"
+          },
+          "registered_sha256": "be4e2486d8647787eda91c8685490999597b9d2a3c3f0feb9550e6b1ed8a767f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点结果 · 中文",
+            "en": "Checkpoint history result · Chinese"
+          },
+          "registered_sha256": "c96e5e70203510fc196f70dd028a57c1a76c27b718e2aa6c06de3805bed60b7f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "教学流程修正开发 · English",
+            "en": "Human tutorial flow implementation · English"
+          },
+          "registered_sha256": "e56e63724fbad1da02e7b5d4471703d89e270b59f3bdc30faeb7627c89795593"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正开发 · 中文",
+            "en": "Human tutorial flow implementation · Chinese"
+          },
+          "registered_sha256": "bd3a7f409bc8b70e6fac2e523435412a0557bd21e1c258f0bcb2cf6880c8fdb6"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013.md",
+          "title": {
+            "zh": "教学流程修正结果 · English",
+            "en": "Human tutorial flow result · English"
+          },
+          "registered_sha256": "131ceda04c63fc4278f02cdcf174e82161b1281b04c42061230610dafc124622"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正结果 · 中文",
+            "en": "Human tutorial flow result · Chinese"
+          },
+          "registered_sha256": "89742340549e77f5ffd42062ef89fbe891a0da17ba8ebc3972e0a2dec692e1bb"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0749d8cedf42766eda5183f3136b4b066d6c3733185497105181041cb6e29357"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0ed5b5c722f3cb87b853598a7f2fae817c29df4acd90bebd506e473ae6920840"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "19c68962a03dc531b221e21df9976340024529473c7823aa73ac64d28412b48f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "e27ebe9a0d9cde9fc4e80ae1b60f160b2d3cb15b943330b4cc4c749adb5f3984"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015.md",
+          "registered_sha256": "0eed980bbbffbdf5bbb16325b2f0f650a8da962bcf8fc41b5ebd8b7eab1c0904",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "ad265161c012bb30dcae2a6b90fdcf7c882f4ee72e7ecca024ef845a3be80708",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+          "registered_sha256": "e2cabc886a61bc3584e0e2febf0d9d581fa5340501935e18eb1c63347064e060",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+          "registered_sha256": "5d24488c0c6b4a10a3bb3edf79c062f47098b177f22f8c8e7188285c49aa6cd2",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015.md",
+          "registered_sha256": "0a34c309d7bbcd00b9a59b4146637788cc9dba8db6972adb56070d6d74acd4bc",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "e1502fc93e9fa27e25bff7dd79a2c90d29de16bbc562689e0ff1b136088441cd",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+          "registered_sha256": "c39bb7d5edbd0310096d4a373bf29403ae52ded095a39008fa3916e6868923c0",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+          "registered_sha256": "2dadbdbf2d94f24323aa489e9145c9a63946edd63dd13632b26359aecefdfb95",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "b7de082c31f9133d31257fee2162d1c649fd03b4df84d35214602dc180d762b5",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "d31ae2ce47ccd58364fbb52c41ee874e0ea9a00ac4944efa5ee05f2d40d6fca0",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+          "registered_sha256": "2232c00f2d909904eba788c6aa0d8707658a072c32786cc6cfcd395c1c4e9318",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+          "registered_sha256": "57d595eea48d7243e7e8c1615a7dfca843086dd2b6fb61b7d18fb4c13073c12b",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "50e291343fc9b7d82a9c4d82ac56e68bbb6ceced46f0962b0805cf1c46085486",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "34057c200e869ec7b2e45becfaad91eac35d7c9c83b9048af4e101d78eaccff0",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+          "registered_sha256": "3e394d3d3e606434dee44f363a720b0520a08e8c3c4c496afb3ab117ab28d33a",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+          "registered_sha256": "db0c361f451d9301ce1a5e99f4fdaaab5c538c02181b63f5b6f08fddc6bb33ae",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "zh": "可见近处盟军E打开默认Cancel对话，左右／Enter或鼠标另次确认Join。",
+          "en": "Visible nearby Ally E opens default-Cancel dialogue; later arrows/Enter or mouse explicitly joins."
+        },
+        {
+          "zh": "最多2名存活已招募队员；死者不复活，阵亡释放活名额，落后仍占名额。",
+          "en": "At most two living joined Allies; death releases a living slot without resurrection, lagging still occupies one."
+        },
+        {
+          "zh": "取消、重复与招募不补血、不补弹、不复制角色；接敌视线存在时禁招募。",
+          "en": "Cancel/repeat/recruitment never heals, grants ammo or duplicates actors; hostile contact sight blocks recruitment."
+        },
+        {
+          "zh": "本G1仅原两名人员，尚无M2/M3备用池；已入队者死亡不能重新招募。",
+          "en": "G1 has only the original pair, no M2/M3 reserve pool; dead joined members cannot be re-recruited."
+        },
+        {
+          "zh": "界面与教学默认简体中文；Esc→设置→语言（本页L）切换英文并单独记住，不写入任务存档。",
+          "en": "UI/lessons default to Simplified Chinese; Esc→Settings→Language (or L there) persists language separately from mission saves."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "人工复核手雷称呼和教学保存前后提示。",
+          "en": "Human review grenade terminology and teaching save-state prompts."
+        },
+        {
+          "zh": "后续市区M2/M3与备用招募人员尚未实现。",
+          "en": "Later-city M2/M3 and reserve recruits are not implemented."
+        }
+      ],
+      "media_ids": [
+        "tutorial-copy-20261015-0",
+        "tutorial-copy-20261015-1",
+        "tutorial-copy-20261015-2",
+        "tutorial-copy-20261015-3",
+        "tutorial-startup-20261015-0",
+        "tutorial-startup-20261015-1",
+        "tutorial-startup-20261015-2",
+        "tutorial-startup-20261015-3",
+        "tutorial-damage-prone-20261015-0",
+        "tutorial-damage-prone-20261015-1",
+        "tutorial-damage-prone-20261015-2",
+        "tutorial-damage-prone-20261015-3",
+        "tutorial-damage-prone-20261015-4",
+        "tutorial-damage-prone-20261015-5",
+        "tutorial-latest-v-20261015-0",
+        "tutorial-latest-v-20261015-1",
+        "tutorial-latest-v-20261015-2",
+        "tutorial-latest-v-20261015-3",
+        "tutorial-latest-v-20261015-4",
+        "tutorial-unified-zh-v5-0",
+        "tutorial-unified-zh-v5-1",
+        "tutorial-unified-zh-v5-2",
+        "tutorial-unified-zh-v5-3",
+        "tutorial-unified-zh-v5-4",
+        "tutorial-unified-zh-v5-5",
+        "tutorial-unified-zh-v5-6",
+        "tutorial-unified-zh-v5-7",
+        "tutorial-unified-zh-v5-8",
+        "tutorial-unified-zh-v5-9",
+        "tutorial-unified-zh-v5-10",
+        "tutorial-unified-zh-v5-11",
+        "tutorial-unified-zh-v5-12",
+        "tutorial-unified-zh-v5-13",
+        "tutorial-unified-zh-v5-14",
+        "tutorial-flow-v4-restored",
+        "tutorial-flow-v4-locked",
+        "tutorial-flow-v4-ring",
+        "tutorial-flow-v4-saved",
+        "tutorial-flow-v4-live",
+        "tutorial-flow-v4-720",
+        "tutorial-flow-v4-recruit",
+        "tutorial-flow-v4-layout",
+        "checkpoint-history-v2-list",
+        "checkpoint-history-v2-delete",
+        "checkpoint-history-v2-load",
+        "checkpoint-history-v2-active-delete",
+        "checkpoint-history-v2-final",
+        "checkpoint-history-v2-720",
+        "checkpoint-history-v2-stale",
+        "prone-look-v17-right",
+        "prone-look-v17-left",
+        "prone-look-v17-wall",
+        "prone-look-v17-checklist",
+        "prone-look-v17-complete",
+        "prone-strafe-left-v12",
+        "prone-strafe-right-v12",
+        "tutorial-crawl-setup-1080",
+        "tutorial-crawl-setup-720",
+        "tutorial-relocated-layout",
+        "tutorial-complete-flow",
+        "tutorial-actual-recruit-1080",
+        "tutorial-actual-complete-1080"
+      ],
+      "implementation": {
+        "state": "diagnostic",
+        "build_id": "tutorial-review",
+        "note": {
+          "zh": "统一手雷称呼；CP0成功与暂停页按教学状态显示，保存后引导C桥；动作与存档规则保留。",
+          "en": "Natural grenade labels, context-correct CP0 success/briefing and saved bridge-C guidance; actions and snapshot authority retained."
+        }
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "6组同Game及正常启动通过；实际CP0保存和1080p/720p中文界面复核，人工待审。",
+          "en": "Six final-Game checks and normal startup pass; actual CP0 write and1080p/720p Chinese UI reviewed; human review pending."
+        }
+      }
+    },
+    {
+      "id": "m2-junction",
+      "kind": "mission",
+      "title": {
+        "zh": "M2 进城路口突破",
+        "en": "M2 city-junction assault"
+      },
+      "summary": {
+        "zh": "选择掩体推进或烟幕转移，转角用射击或手雷，可选绕雷补给。",
+        "en": "Choose cover or smoke for approach, firing or a grenade at corners, and optional mined supply detours."
+      },
+      "design_state": "review",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city",
+        "german-soldier",
+        "allied-soldier",
+        "frag-grenade",
+        "smoke-grenade",
+        "pressure-mine",
+        "ammo-box"
+      ],
+      "related_ids": [
+        "g1-tutorial",
+        "postbridge-routes",
+        "m3-crossstreet"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/PARIS_TUTORIAL_POSTBRIDGE_DESIGN_20261012_ZH.md",
+          "title": {
+            "zh": "教程与桥后设计",
+            "en": "Tutorial and post-bridge design · Chinese source"
+          },
+          "registered_sha256": "10a50efde53d7276bc250516c2434f7840d95202af23f777bb8c83b88ac9c7cc"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/PARIS_TUTORIAL_POSTBRIDGE_DESIGN_20261012.md",
+          "title": {
+            "zh": "教程与桥后设计 · English",
+            "en": "Tutorial and post-bridge design"
+          },
+          "registered_sha256": "11641b1f5df9ec71f7ce98a8b0b3700defc66adca3e9851ffd797fb0055e730b"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "初稿三名守军；位置、人数与两条接近路线均未冻结。",
+          "en": "The draft suggests three guards; positions, count and both approaches are not frozen."
+        },
+        {
+          "zh": "必须保留不使用指定消耗品的完成方法；只清除本组守军解锁CP2。",
+          "en": "Keep a completion method without a required consumable; only clearing this group unlocks CP2."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "G1至T2两条走廊均有测绘连接缺口，需实际通行与双向交火验证。",
+          "en": "Both G1-to-T2 corridors have survey connectivity gaps; actual movement and reciprocal combat require validation."
+        },
+        {
+          "zh": "G1完成后需保持后续AI运行，目前正式版仍以G1作为整局阶段。",
+          "en": "Later AI must continue after G1 completion; the formal game still treats G1 as the complete mission."
+        }
+      ],
+      "media_ids": [
+        "design-postbridge"
+      ],
+      "implementation": {
+        "state": "unimplemented",
+        "note": {
+          "zh": "方案尚未接入正式游戏。",
+          "en": "This proposal is not implemented in the formal game."
+        }
+      },
+      "validation": {
+        "state": "pending",
+        "note": {
+          "zh": "需要有界实现与实际验证。",
+          "en": "Bounded implementation and actual validation are required."
+        }
+      }
+    },
+    {
+      "id": "m3-crossstreet",
+      "kind": "mission",
+      "title": {
+        "zh": "M3 横街据点",
+        "en": "M3 cross-street strongpoint"
+      },
+      "summary": {
+        "zh": "两端入口、分散守军与有限补给取舍。",
+        "en": "Two approaches, distributed guards and finite supply decisions."
+      },
+      "design_state": "review",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city",
+        "german-soldier",
+        "allied-soldier",
+        "smoke-grenade",
+        "frag-grenade",
+        "ammo-box"
+      ],
+      "related_ids": [
+        "m2-junction",
+        "postbridge-routes"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/PARIS_TUTORIAL_POSTBRIDGE_DESIGN_20261012_ZH.md",
+          "title": {
+            "zh": "教程与桥后设计",
+            "en": "Tutorial and post-bridge design · Chinese source"
+          },
+          "registered_sha256": "10a50efde53d7276bc250516c2434f7840d95202af23f777bb8c83b88ac9c7cc"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/PARIS_TUTORIAL_POSTBRIDGE_DESIGN_20261012.md",
+          "title": {
+            "zh": "教程与桥后设计 · English",
+            "en": "Tutorial and post-bridge design"
+          },
+          "registered_sha256": "11641b1f5df9ec71f7ce98a8b0b3700defc66adca3e9851ffd797fb0055e730b"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "初稿四名守军分为两组阵位，室外街区先于建筑内部。",
+          "en": "The draft suggests four guards in two supporting positions; outdoor streets precede interiors."
+        },
+        {
+          "zh": "最后登记敌组全灭才结束整局；CP3沿用清场主动保存原则。",
+          "en": "Only the final registered enemy group ends the complete mission; CP3 retains enemy-clear explicit saving."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "先做G1教程＋M2统一试玩；M3人数、点位、小队与交火待验。",
+          "en": "First build the G1 tutorial plus M2 trial; M3 count, sites, squad passage and combat remain unverified."
+        }
+      ],
+      "media_ids": [
+        "design-postbridge"
+      ],
+      "implementation": {
+        "state": "unimplemented",
+        "note": {
+          "zh": "方案尚未接入正式游戏。",
+          "en": "This proposal is not implemented in the formal game."
+        }
+      },
+      "validation": {
+        "state": "pending",
+        "note": {
+          "zh": "需要有界实现与实际验证。",
+          "en": "Bounded implementation and actual validation are required."
+        }
+      }
+    },
+    {
+      "id": "postbridge-routes",
+      "kind": "route",
+      "title": {
+        "zh": "G1 至T2/T3路线与地点",
+        "en": "G1-to-T2/T3 routes and sites"
+      },
+      "summary": {
+        "zh": "25厘米保存/扩展测绘分别记录；测绘连接不是新实体实走。",
+        "en": "Saved and expanded 25 cm surveys are recorded separately; graph links are not new physical traversal."
+      },
+      "design_state": "review",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city"
+      ],
+      "related_ids": [
+        "m2-junction",
+        "m3-crossstreet",
+        "bridge-ab"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/PARIS_TUTORIAL_POSTBRIDGE_DESIGN_20261012_ZH.md",
+          "title": {
+            "zh": "教程与桥后设计",
+            "en": "Tutorial and post-bridge design · Chinese source"
+          },
+          "registered_sha256": "10a50efde53d7276bc250516c2434f7840d95202af23f777bb8c83b88ac9c7cc"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/PARIS_TUTORIAL_POSTBRIDGE_DESIGN_20261012.md",
+          "title": {
+            "zh": "教程与桥后设计 · English",
+            "en": "Tutorial and post-bridge design"
+          },
+          "registered_sha256": "11641b1f5df9ec71f7ce98a8b0b3700defc66adca3e9851ffd797fb0055e730b"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "两套范围不合并；黑色含阻挡、未准入和未知，L0不是建筑一层。",
+          "en": "Never merge the scopes; black includes blocked, unadmitted and unknown cells, and L0 is not a building floor."
+        },
+        {
+          "zh": "CP1至外侧街道、内侧转角均有连接缺口；T2至T3仅测绘图连接。",
+          "en": "Both CP1 approaches have connectivity gaps; T2-to-T3 currently has survey graph links only."
+        }
+      ],
+      "steps": [],
+      "open_items": [],
+      "media_ids": [
+        "design-postbridge"
+      ],
+      "implementation": {
+        "state": "unimplemented",
+        "note": {
+          "zh": "方案尚未接入正式游戏。",
+          "en": "This proposal is not implemented in the formal game."
+        }
+      },
+      "validation": {
+        "state": "survey_only",
+        "note": {
+          "zh": "T2至T3：保存157.02米、扩展158.46米，均非新的UE实走距离。",
+          "en": "T2-to-T3: 157.02 m saved and 158.46 m expanded graph lengths; neither is a new UE traversal distance."
+        }
+      },
+      "locations": [
+        {
+          "id": "CP1",
+          "foot_xyz_m": [
+            70.875,
+            -202.875,
+            1.32784
+          ],
+          "support": "StaticMeshActor_1940 / ConcreteRubble_Patch_01a",
+          "note": {
+            "zh": "现有G1存档位置；不迁移",
+            "en": "Existing G1 save position; retain it."
+          }
+        },
+        {
+          "id": "EAST_EXIT",
+          "foot_xyz_m": [
+            100.875,
+            -199.875,
+            1.351491
+          ],
+          "support": "StaticMeshActor_2082 / tireTrack_Mud_01c",
+          "note": {
+            "zh": "桥头东侧出口候选；至CP1有测绘连接，下一段待查",
+            "en": "Eastern exit candidate; linked to CP1 in the survey, next segment unresolved."
+          }
+        },
+        {
+          "id": "RIVER_APPROACH",
+          "foot_xyz_m": [
+            60.875,
+            -171.875,
+            1.376444
+          ],
+          "support": "StaticMeshActor_1967 / ConcreteRubble_PlainPatch_01c",
+          "note": {
+            "zh": "内侧入口候选；与CP1连接，至转角待查",
+            "en": "Inner approach candidate; linked to CP1, corner connection unresolved."
+          }
+        },
+        {
+          "id": "OUTER_APPROACH",
+          "foot_xyz_m": [
+            120.625,
+            -173.625,
+            1.150944
+          ],
+          "support": "BP_Road_Childs_C_34 / Road_7m",
+          "note": {
+            "zh": "固定请求旁1.768米近邻、局部小组；仅诊断，不冻结为通路",
+            "en": "A 1.768 m nearby diagnostic sample in a local group; not a frozen route."
+          }
+        },
+        {
+          "id": "INNER_TURN",
+          "foot_xyz_m": [
+            64.375,
+            -146.375,
+            1.101501
+          ],
+          "support": "BP_Road_Childs_C_29 / Road_7m",
+          "note": {
+            "zh": "固定请求旁0.707米近邻；向北有测绘连接，南端待查",
+            "en": "A 0.707 m nearby sample; northern survey links exist, southern connection unresolved."
+          }
+        },
+        {
+          "id": "INNER_STREET",
+          "foot_xyz_m": [
+            90.875,
+            -111.875,
+            1.017825
+          ],
+          "support": "StaticMeshActor_2690 / Road_7mx5m_3way",
+          "note": {
+            "zh": "内侧街口候选；与北侧横街有测绘连接，交火待测",
+            "en": "Inner junction candidate; linked to the north cross-street in the survey, combat untested."
+          }
+        },
+        {
+          "id": "T2",
+          "foot_xyz_m": [
+            120.875,
+            -120.875,
+            1.014383
+          ],
+          "support": "BP_Road_Childs_C_20 / Road_7m",
+          "note": {
+            "zh": "沿用旧进城路口候选；CP2圈与守军位置另验",
+            "en": "Existing junction candidate; CP2 and guard sites require separate validation."
+          }
+        },
+        {
+          "id": "NORTH_CROSS",
+          "foot_xyz_m": [
+            120.875,
+            -85.875,
+            1.1015
+          ],
+          "support": "StaticMeshActor_1227 / Road_7mx5m_4way",
+          "note": {
+            "zh": "北侧横街候选；向T2、T3有测绘连接，侧翼射线待测",
+            "en": "North cross-street candidate; surveyed links to T2/T3, flank firing lines untested."
+          }
+        },
+        {
+          "id": "T3",
+          "foot_xyz_m": [
+            53.625,
+            -36.875,
+            1.005658
+          ],
+          "support": "StaticMeshActor_1225 / Road_5m_3way",
+          "note": {
+            "zh": "横街据点候选；CP3与守军位置另验",
+            "en": "Cross-street candidate; CP3 and guard sites require separate validation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bridge-ab",
+      "kind": "route",
+      "title": {
+        "zh": "A/B 桥路线验证",
+        "en": "Bridge A/B route validation"
+      },
+      "summary": {
+        "zh": "固定普通步行四个方向未达另一岸；人工自由入口仍待复核。",
+        "en": "Four fixed walking legs did not reach the opposite bank; the free manual trial still awaits review."
+      },
+      "design_state": "reference",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city",
+        "first-person"
+      ],
+      "related_ids": [
+        "postbridge-routes"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/AB_BRIDGE_PHYSICAL_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "A/B固定路线负面",
+            "en": "A/B fixed-route negatives · Chinese source"
+          },
+          "registered_sha256": "50003993f94d36838d040753b5c761125bc85242e5354e4332ca60b243d71932"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/AB_BRIDGE_PHYSICAL_RESULT_20261013.md",
+          "title": {
+            "zh": "A/B固定路线负面 · English",
+            "en": "A/B fixed-route negatives"
+          },
+          "registered_sha256": "3de9c4db87d6d42f4c2774b7bfdac9d39e0a8238a5429ca18eab185fca4e02a7"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/AB_BRIDGE_MANUAL_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "人工自由入口待复核",
+            "en": "Manual trial awaiting review · Chinese source"
+          },
+          "registered_sha256": "d24a4017aaadc870ead6a8478441dcb28711bcc7fe83b5399d35b3422ac57412"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/AB_BRIDGE_MANUAL_RESULT_20261013.md",
+          "title": {
+            "zh": "人工自由入口待复核 · English",
+            "en": "Manual trial awaiting review"
+          },
+          "registered_sha256": "88bd2ce24878f8f7eaddb943c9e26764ba365b61467dc40a147233a2a01d0c32"
+        }
+      ],
+      "rules": [
+        {
+          "zh": "A正向5.08米、反向2.54米；B正向13.21米、反向10.03米，均未达35厘米终点门槛。",
+          "en": "A outward 5.08 m/reverse 2.54 m; B outward 13.21 m/reverse 10.03 m; none met the 35 cm endpoint gate."
+        },
+        {
+          "zh": "B正向有49个桥面支撑样本，但不是全程走通；四次原生路径查询未通过。",
+          "en": "B outward had 49 deck-support samples but did not traverse the whole route; all four native path queries failed."
+        },
+        {
+          "zh": "固定腿失败不证明所有入口或绕行不可通；人工入口启动不证明人工跨岸成功。",
+          "en": "Fixed-leg failures do not prove all approaches are blocked; launching the manual trial does not prove a manual crossing."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "入口、落脚、阻挡Hit和完整绕行足迹待查；不改碰撞或扫描偏移刷通过。",
+          "en": "Entrances, landing supports, blocking hits and complete detour footprints need investigation; do not relax collisions or scan offsets to manufacture a pass."
+        }
+      ],
+      "media_ids": [],
+      "implementation": {
+        "state": "diagnostic",
+        "note": {
+          "zh": "仅有独立诊断入口，未采用为任务路线。",
+          "en": "Only isolated diagnostic trials exist; these are not adopted mission routes."
+        }
+      },
+      "validation": {
+        "state": "failed_fixed_routes",
+        "note": {
+          "zh": "固定路线诊断从旧正式76派生；人工自由入口从78派生。启动与通过分开。",
+          "en": "Fixed-route diagnostics derive from formal 76; the free manual trial derives from 78. Launch and successful traversal are separate."
+        }
+      }
+    },
+    {
+      "id": "tutorial-checkpoint",
+      "kind": "mechanic",
+      "title": {
+        "zh": "训练CP0与战斗CP1",
+        "en": "Training CP0 and combat CP1"
+      },
+      "summary": {
+        "zh": "CP0保存训练；CP1仅三守军全灭解锁，持久保存后结束教学。",
+        "en": "CP0 saves training; CP1 unlocks only on all three guard deaths and ends teaching after durable saving."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city",
+        "first-person",
+        "allied-soldier",
+        "german-soldier"
+      ],
+      "related_ids": [
+        "g1-tutorial",
+        "checkpoint"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013.md",
+          "title": {
+            "zh": "完整教学设计 · English",
+            "en": "Complete design · English"
+          },
+          "registered_sha256": "a57a0181bde22eb271dbcbea1c71b7db9a3de5860a07e5863ccefaba049f63e2"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013_ZH.md",
+          "title": {
+            "zh": "完整教学设计 · 中文",
+            "en": "Complete design · Chinese review"
+          },
+          "registered_sha256": "84ca1ff5725764b4a77c2239d4276f215ed737d7ccbfcb10f43918d0657244fa"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013.md",
+          "title": {
+            "zh": "教程开发 · English",
+            "en": "Tutorial development · English"
+          },
+          "registered_sha256": "a3c8ae185c86c0194b0226f21278d8246f261628d042ad564bcdea6a1e140fd3"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013_ZH.md",
+          "title": {
+            "zh": "教程开发 · 中文",
+            "en": "Tutorial development · Chinese review"
+          },
+          "registered_sha256": "0069205562d6983226eb82144ac0b85a16b0d681214127998a6c07fdac06f705"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013.md",
+          "title": {
+            "zh": "教程实际结果 · English",
+            "en": "Actual tutorial result · English"
+          },
+          "registered_sha256": "9ccf7cdc0935cd0a566196fdcf80b6f8a183124594da57b3562cf81058647016"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "教程实际结果 · 中文",
+            "en": "Actual tutorial result · Chinese review"
+          },
+          "registered_sha256": "7d91d598389f3d0df8e2de3ba86e43f4b69f4c71c60d4653694fe26998f24514"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013.md",
+          "registered_sha256": "2298025512ba25192637ed77ffee263bb1dd4e774f9bd4d11cd88d6c17ed1a14",
+          "title": {
+            "zh": "匍匐教学修正开发 · English",
+            "en": "Crawl guidance revision development · English"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013_ZH.md",
+          "registered_sha256": "8681c8b094791adaf930520d3c55efe7034e2cbc5918471f640504381d35dd2b",
+          "title": {
+            "zh": "匍匐教学修正开发 · 中文",
+            "en": "Crawl guidance revision development · Chinese review"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013.md",
+          "registered_sha256": "25a513e69ac4ca812fd36ec154234e3570238e3bcf2daafb0cf1014cdc7a5ac3",
+          "title": {
+            "zh": "匍匐教学修正结果 · English",
+            "en": "Crawl guidance revision results · English"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013_ZH.md",
+          "registered_sha256": "d14f77e765b4f3a2a500b9245e6549ef1812d3ca9f1ada772d27c113a76da953",
+          "title": {
+            "zh": "匍匐教学修正结果 · 中文",
+            "en": "Crawl guidance revision results · Chinese review"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "WASD匍匐开发 · English",
+            "en": "Four-direction prone implementation · English"
+          },
+          "registered_sha256": "3f5e0c21f0219dada897e044724c962151cf4c9fd4cdf4a389e440fb039ad4df"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "WASD匍匐开发 · 中文",
+            "en": "Four-direction prone implementation · Chinese review"
+          },
+          "registered_sha256": "c1d140ca8d7d6c29c15c1ae72fde8614f43f6e73a83bb60f232b0fc33efaba61"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013.md",
+          "title": {
+            "zh": "WASD匍匐结果 · English",
+            "en": "Four-direction prone results · English"
+          },
+          "registered_sha256": "9eb7124d8d6885f901448cd6261febd98687febde5a47e1d1aa13b7b03e140d7"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "WASD匍匐结果 · 中文",
+            "en": "Four-direction prone results · Chinese review"
+          },
+          "registered_sha256": "aace972ea3199efd5b9fab63be4feb3b1a17c5cc495538d97be742b434317488"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "匍匐鼠标／教学开发 · English",
+            "en": "Prone mouse/lesson implementation · English"
+          },
+          "registered_sha256": "21e09d46f8b7777fd7431363b7d48320a6c3796facac7cba6f58f30f26f75eba"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "匍匐鼠标／教学开发 · 中文",
+            "en": "Prone mouse/lesson implementation · Chinese"
+          },
+          "registered_sha256": "926a8518aec4c044e2068f1a4692420168244ed6760c16102b24d149ceba4af3"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013.md",
+          "title": {
+            "zh": "匍匐鼠标／教学结果 · English",
+            "en": "Prone mouse/lesson result · English"
+          },
+          "registered_sha256": "c0780a157a6114b83979e230c290d6790c455c4df4f0265b3b992b30a604de64"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "匍匐鼠标／教学结果 · 中文",
+            "en": "Prone mouse/lesson result · Chinese"
+          },
+          "registered_sha256": "f5df562f71c4c4cb88c03085606be7c0b14e3d9bc0c3846c86a6dd447e24658c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "多检查点开发 · English",
+            "en": "Checkpoint history implementation · English"
+          },
+          "registered_sha256": "168ed71dea42a5c0e336a67a091da8a8413ee01ae26382db6a443650798e2c12"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点开发 · 中文",
+            "en": "Checkpoint history implementation · Chinese"
+          },
+          "registered_sha256": "d0992f6119beb3664e3b51943be63d5539b133fdc4c01ba172119719838e122c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013.md",
+          "title": {
+            "zh": "多检查点结果 · English",
+            "en": "Checkpoint history result · English"
+          },
+          "registered_sha256": "be4e2486d8647787eda91c8685490999597b9d2a3c3f0feb9550e6b1ed8a767f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点结果 · 中文",
+            "en": "Checkpoint history result · Chinese"
+          },
+          "registered_sha256": "c96e5e70203510fc196f70dd028a57c1a76c27b718e2aa6c06de3805bed60b7f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "教学流程修正开发 · English",
+            "en": "Human tutorial flow implementation · English"
+          },
+          "registered_sha256": "e56e63724fbad1da02e7b5d4471703d89e270b59f3bdc30faeb7627c89795593"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正开发 · 中文",
+            "en": "Human tutorial flow implementation · Chinese"
+          },
+          "registered_sha256": "bd3a7f409bc8b70e6fac2e523435412a0557bd21e1c258f0bcb2cf6880c8fdb6"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013.md",
+          "title": {
+            "zh": "教学流程修正结果 · English",
+            "en": "Human tutorial flow result · English"
+          },
+          "registered_sha256": "131ceda04c63fc4278f02cdcf174e82161b1281b04c42061230610dafc124622"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正结果 · 中文",
+            "en": "Human tutorial flow result · Chinese"
+          },
+          "registered_sha256": "89742340549e77f5ffd42062ef89fbe891a0da17ba8ebc3972e0a2dec692e1bb"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0749d8cedf42766eda5183f3136b4b066d6c3733185497105181041cb6e29357"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0ed5b5c722f3cb87b853598a7f2fae817c29df4acd90bebd506e473ae6920840"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "19c68962a03dc531b221e21df9976340024529473c7823aa73ac64d28412b48f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "e27ebe9a0d9cde9fc4e80ae1b60f160b2d3cb15b943330b4cc4c749adb5f3984"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015.md",
+          "registered_sha256": "0eed980bbbffbdf5bbb16325b2f0f650a8da962bcf8fc41b5ebd8b7eab1c0904",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "ad265161c012bb30dcae2a6b90fdcf7c882f4ee72e7ecca024ef845a3be80708",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+          "registered_sha256": "e2cabc886a61bc3584e0e2febf0d9d581fa5340501935e18eb1c63347064e060",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+          "registered_sha256": "5d24488c0c6b4a10a3bb3edf79c062f47098b177f22f8c8e7188285c49aa6cd2",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015.md",
+          "registered_sha256": "0a34c309d7bbcd00b9a59b4146637788cc9dba8db6972adb56070d6d74acd4bc",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "e1502fc93e9fa27e25bff7dd79a2c90d29de16bbc562689e0ff1b136088441cd",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+          "registered_sha256": "c39bb7d5edbd0310096d4a373bf29403ae52ded095a39008fa3916e6868923c0",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+          "registered_sha256": "2dadbdbf2d94f24323aa489e9145c9a63946edd63dd13632b26359aecefdfb95",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "b7de082c31f9133d31257fee2162d1c649fd03b4df84d35214602dc180d762b5",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "d31ae2ce47ccd58364fbb52c41ee874e0ea9a00ac4944efa5ee05f2d40d6fca0",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+          "registered_sha256": "2232c00f2d909904eba788c6aa0d8707658a072c32786cc6cfcd395c1c4e9318",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+          "registered_sha256": "57d595eea48d7243e7e8c1615a7dfca843086dd2b6fb61b7d18fb4c13073c12b",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "50e291343fc9b7d82a9c4d82ac56e68bbb6ceced46f0962b0805cf1c46085486",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "34057c200e869ec7b2e45becfaad91eac35d7c9c83b9048af4e101d78eaccff0",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+          "registered_sha256": "3e394d3d3e606434dee44f363a720b0520a08e8c3c4c496afb3ab117ab28d33a",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+          "registered_sha256": "db0c361f451d9301ce1a5e99f4fdaaab5c538c02181b63f5b6f08fddc6bb33ae",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "zh": "CP0基础位完成、两次招募历史／明确略过解锁，与桥头敌组无关。",
+          "en": "CP0 requires completed basics and two joins/explicit skip, independent of bridge guards."
+        },
+        {
+          "zh": "CP1仅三守军全灭解锁；圈内E、资源、身份、checksum与真实回读仍校验。",
+          "en": "CP1 unlocks only on three guard deaths; circle/E, resources, identity, checksum and actual readback still validate."
+        },
+        {
+          "zh": "恢复阶段、生死、队员、资源、设施，不重新奖励／刷敌；损坏新slot回退有效旧slot。",
+          "en": "Restore phase, deaths, membership, resources/facilities without rewards/respawns; damaged newer slot falls back to valid older slot."
+        },
+        {
+          "zh": "每点一条可见记录，同点重存更新；回旧点保留后续记录。",
+          "en": "One visible record per point; revisiting replaces it, older loads preserve later records."
+        },
+        {
+          "zh": "最新有效记录在UI及后端不可删除；旧点确认默认取消。",
+          "en": "Latest valid record protected by UI/backend; old deletion defaults to Cancel."
+        },
+        {
+          "zh": "F9／死亡重试使用当前主动加载／新保存点；删除当前旧点明确提示转用最新。",
+          "en": "F9/death retries the selected/newly saved point; deleting an active older point explicitly moves retry to latest."
+        },
+        {
+          "zh": "完整原快照校验与资源守恒；双副本、提交目录、删除标记，不读取孤立未提交高序号。",
+          "en": "Original full-snapshot/resource validation; dual copies, commit directory and deletion markers reject uncommitted higher revisions."
+        },
+        {
+          "zh": "当前点标记区分CP0／CP1；CP1仅全灭后显示实际贴地金圈及E保存指引。",
+          "en": "Current-point marker distinguishes CP0/CP1; only clearance reveals supported CP1 gold ring/E guidance."
+        },
+        {
+          "zh": "界面与教学默认简体中文；Esc→设置→语言（本页L）切换英文并单独记住，不写入任务存档。",
+          "en": "UI/lessons default to Simplified Chinese; Esc→Settings→Language (or L there) persists language separately from mission saves."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "人工复核手雷称呼和教学保存前后提示。",
+          "en": "Human review grenade terminology and teaching save-state prompts."
+        },
+        {
+          "zh": "后续市区M2/M3与备用招募人员尚未实现。",
+          "en": "Later-city M2/M3 and reserve recruits are not implemented."
+        }
+      ],
+      "media_ids": [
+        "tutorial-copy-20261015-0",
+        "tutorial-copy-20261015-1",
+        "tutorial-copy-20261015-2",
+        "tutorial-copy-20261015-3",
+        "tutorial-startup-20261015-0",
+        "tutorial-startup-20261015-1",
+        "tutorial-startup-20261015-2",
+        "tutorial-startup-20261015-3",
+        "tutorial-damage-prone-20261015-0",
+        "tutorial-damage-prone-20261015-1",
+        "tutorial-damage-prone-20261015-2",
+        "tutorial-damage-prone-20261015-3",
+        "tutorial-damage-prone-20261015-4",
+        "tutorial-damage-prone-20261015-5",
+        "tutorial-latest-v-20261015-0",
+        "tutorial-latest-v-20261015-1",
+        "tutorial-latest-v-20261015-2",
+        "tutorial-latest-v-20261015-3",
+        "tutorial-latest-v-20261015-4",
+        "tutorial-unified-zh-v5-0",
+        "tutorial-unified-zh-v5-1",
+        "tutorial-unified-zh-v5-2",
+        "tutorial-unified-zh-v5-3",
+        "tutorial-unified-zh-v5-4",
+        "tutorial-unified-zh-v5-5",
+        "tutorial-unified-zh-v5-6",
+        "tutorial-unified-zh-v5-7",
+        "tutorial-unified-zh-v5-8",
+        "tutorial-unified-zh-v5-9",
+        "tutorial-unified-zh-v5-10",
+        "tutorial-unified-zh-v5-11",
+        "tutorial-unified-zh-v5-12",
+        "tutorial-unified-zh-v5-13",
+        "tutorial-unified-zh-v5-14",
+        "tutorial-flow-v4-restored",
+        "tutorial-flow-v4-locked",
+        "tutorial-flow-v4-ring",
+        "tutorial-flow-v4-saved",
+        "tutorial-flow-v4-live",
+        "tutorial-flow-v4-720",
+        "tutorial-flow-v4-recruit",
+        "tutorial-flow-v4-layout",
+        "checkpoint-history-v2-list",
+        "checkpoint-history-v2-delete",
+        "checkpoint-history-v2-load",
+        "checkpoint-history-v2-active-delete",
+        "checkpoint-history-v2-final",
+        "checkpoint-history-v2-720",
+        "checkpoint-history-v2-stale",
+        "prone-look-v17-right",
+        "prone-look-v17-left",
+        "prone-look-v17-wall",
+        "prone-look-v17-checklist",
+        "prone-look-v17-complete",
+        "prone-strafe-left-v12",
+        "prone-strafe-right-v12",
+        "tutorial-crawl-setup-1080",
+        "tutorial-crawl-setup-720",
+        "tutorial-relocated-layout",
+        "tutorial-complete-flow",
+        "tutorial-actual-recruit-1080",
+        "tutorial-actual-complete-1080"
+      ],
+      "implementation": {
+        "state": "diagnostic",
+        "build_id": "tutorial-review",
+        "note": {
+          "zh": "统一手雷称呼；CP0成功与暂停页按教学状态显示，保存后引导C桥；动作与存档规则保留。",
+          "en": "Natural grenade labels, context-correct CP0 success/briefing and saved bridge-C guidance; actions and snapshot authority retained."
+        }
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "6组同Game及正常启动通过；实际CP0保存和1080p/720p中文界面复核，人工待审。",
+          "en": "Six final-Game checks and normal startup pass; actual CP0 write and1080p/720p Chinese UI reviewed; human review pending."
+        }
+      }
+    },
+    {
+      "id": "prone-movement",
+      "kind": "mechanic",
+      "title": {
+        "zh": "匍匐四向移动与鼠标观察",
+        "en": "Prone four-direction movement and mouse look"
+      },
+      "summary": {
+        "zh": "真实横移／斜爬与鼠标转向，原身体和支撑保护，四向练习自动推进。",
+        "en": "Actual lateral/diagonal/mouse control with original body/support protection and automatic directional lesson progress."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "first-person",
+        "anim-rifle-animset-pro",
+        "paris-city"
+      ],
+      "related_ids": [
+        "g1-tutorial"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "WASD匍匐开发 · English",
+            "en": "Four-direction prone implementation · English"
+          },
+          "registered_sha256": "3f5e0c21f0219dada897e044724c962151cf4c9fd4cdf4a389e440fb039ad4df"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "WASD匍匐开发 · 中文",
+            "en": "Four-direction prone implementation · Chinese review"
+          },
+          "registered_sha256": "c1d140ca8d7d6c29c15c1ae72fde8614f43f6e73a83bb60f232b0fc33efaba61"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013.md",
+          "title": {
+            "zh": "WASD匍匐结果 · English",
+            "en": "Four-direction prone results · English"
+          },
+          "registered_sha256": "9eb7124d8d6885f901448cd6261febd98687febde5a47e1d1aa13b7b03e140d7"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "WASD匍匐结果 · 中文",
+            "en": "Four-direction prone results · Chinese review"
+          },
+          "registered_sha256": "aace972ea3199efd5b9fab63be4feb3b1a17c5cc495538d97be742b434317488"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "匍匐鼠标／教学开发 · English",
+            "en": "Prone mouse/lesson implementation · English"
+          },
+          "registered_sha256": "21e09d46f8b7777fd7431363b7d48320a6c3796facac7cba6f58f30f26f75eba"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "匍匐鼠标／教学开发 · 中文",
+            "en": "Prone mouse/lesson implementation · Chinese"
+          },
+          "registered_sha256": "926a8518aec4c044e2068f1a4692420168244ed6760c16102b24d149ceba4af3"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013.md",
+          "title": {
+            "zh": "匍匐鼠标／教学结果 · English",
+            "en": "Prone mouse/lesson result · English"
+          },
+          "registered_sha256": "c0780a157a6114b83979e230c290d6790c455c4df4f0265b3b992b30a604de64"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "匍匐鼠标／教学结果 · 中文",
+            "en": "Prone mouse/lesson result · Chinese"
+          },
+          "registered_sha256": "f5df562f71c4c4cb88c03085606be7c0b14e3d9bc0c3846c86a6dd447e24658c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "多检查点开发 · English",
+            "en": "Checkpoint history implementation · English"
+          },
+          "registered_sha256": "168ed71dea42a5c0e336a67a091da8a8413ee01ae26382db6a443650798e2c12"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点开发 · 中文",
+            "en": "Checkpoint history implementation · Chinese"
+          },
+          "registered_sha256": "d0992f6119beb3664e3b51943be63d5539b133fdc4c01ba172119719838e122c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013.md",
+          "title": {
+            "zh": "多检查点结果 · English",
+            "en": "Checkpoint history result · English"
+          },
+          "registered_sha256": "be4e2486d8647787eda91c8685490999597b9d2a3c3f0feb9550e6b1ed8a767f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点结果 · 中文",
+            "en": "Checkpoint history result · Chinese"
+          },
+          "registered_sha256": "c96e5e70203510fc196f70dd028a57c1a76c27b718e2aa6c06de3805bed60b7f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "教学流程修正开发 · English",
+            "en": "Human tutorial flow implementation · English"
+          },
+          "registered_sha256": "e56e63724fbad1da02e7b5d4471703d89e270b59f3bdc30faeb7627c89795593"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正开发 · 中文",
+            "en": "Human tutorial flow implementation · Chinese"
+          },
+          "registered_sha256": "bd3a7f409bc8b70e6fac2e523435412a0557bd21e1c258f0bcb2cf6880c8fdb6"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013.md",
+          "title": {
+            "zh": "教学流程修正结果 · English",
+            "en": "Human tutorial flow result · English"
+          },
+          "registered_sha256": "131ceda04c63fc4278f02cdcf174e82161b1281b04c42061230610dafc124622"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正结果 · 中文",
+            "en": "Human tutorial flow result · Chinese"
+          },
+          "registered_sha256": "89742340549e77f5ffd42062ef89fbe891a0da17ba8ebc3972e0a2dec692e1bb"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0749d8cedf42766eda5183f3136b4b066d6c3733185497105181041cb6e29357"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0ed5b5c722f3cb87b853598a7f2fae817c29df4acd90bebd506e473ae6920840"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "19c68962a03dc531b221e21df9976340024529473c7823aa73ac64d28412b48f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "e27ebe9a0d9cde9fc4e80ae1b60f160b2d3cb15b943330b4cc4c749adb5f3984"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015.md",
+          "registered_sha256": "0eed980bbbffbdf5bbb16325b2f0f650a8da962bcf8fc41b5ebd8b7eab1c0904",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "ad265161c012bb30dcae2a6b90fdcf7c882f4ee72e7ecca024ef845a3be80708",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+          "registered_sha256": "e2cabc886a61bc3584e0e2febf0d9d581fa5340501935e18eb1c63347064e060",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+          "registered_sha256": "5d24488c0c6b4a10a3bb3edf79c062f47098b177f22f8c8e7188285c49aa6cd2",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015.md",
+          "registered_sha256": "0a34c309d7bbcd00b9a59b4146637788cc9dba8db6972adb56070d6d74acd4bc",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "e1502fc93e9fa27e25bff7dd79a2c90d29de16bbc562689e0ff1b136088441cd",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+          "registered_sha256": "c39bb7d5edbd0310096d4a373bf29403ae52ded095a39008fa3916e6868923c0",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+          "registered_sha256": "2dadbdbf2d94f24323aa489e9145c9a63946edd63dd13632b26359aecefdfb95",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "b7de082c31f9133d31257fee2162d1c649fd03b4df84d35214602dc180d762b5",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "d31ae2ce47ccd58364fbb52c41ee874e0ea9a00ac4944efa5ee05f2d40d6fca0",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+          "registered_sha256": "2232c00f2d909904eba788c6aa0d8707658a072c32786cc6cfcd395c1c4e9318",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+          "registered_sha256": "57d595eea48d7243e7e8c1615a7dfca843086dd2b6fb61b7d18fb4c13073c12b",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "50e291343fc9b7d82a9c4d82ac56e68bbb6ceced46f0962b0805cf1c46085486",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "34057c200e869ec7b2e45becfaad91eac35d7c9c83b9048af4e101d78eaccff0",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+          "registered_sha256": "3e394d3d3e606434dee44f363a720b0520a08e8c3c4c496afb3ab117ab28d33a",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+          "registered_sha256": "db0c361f451d9301ce1a5e99f4fdaaab5c538c02181b63f5b6f08fddc6bb33ae",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "zh": "W/S前后、A/D左右、斜向归一化60厘米/秒；鼠标上下观察与左右转身体。",
+          "en": "W/S forward/back, A/D lateral, normalized60cm/s diagonals; mouse view pitch and body yaw."
+        },
+        {
+          "zh": "旋转逐角度检查原身体盒和地面，墙边停止转入、反向可转回；移动保留原未来方向检查。",
+          "en": "Sampled original body/floor guard admits yaw, stops into walls and permits reverse; original future movement admission retained."
+        },
+        {
+          "zh": "教学四键各真实15厘米、累计2.5米自动进入起身，显示缺项；不要求旧起点或终点。",
+          "en": "Each actual key direction15cm/total2.5m automatically enters stand with visible missing items; no old start/end gate."
+        },
+        {
+          "zh": "移动／转向复用既有动作循环，未制作新的横爬或转身动画。",
+          "en": "Existing cycles reused; no new lateral/turning animation authored."
+        },
+        {
+          "zh": "界面与教学默认简体中文；Esc→设置→语言（本页L）切换英文并单独记住，不写入任务存档。",
+          "en": "UI/lessons default to Simplified Chinese; Esc→Settings→Language (or L there) persists language separately from mission saves."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "人工复核手雷称呼和教学保存前后提示。",
+          "en": "Human review grenade terminology and teaching save-state prompts."
+        }
+      ],
+      "media_ids": [
+        "tutorial-copy-20261015-0",
+        "tutorial-copy-20261015-1",
+        "tutorial-copy-20261015-2",
+        "tutorial-copy-20261015-3",
+        "tutorial-startup-20261015-0",
+        "tutorial-startup-20261015-1",
+        "tutorial-startup-20261015-2",
+        "tutorial-startup-20261015-3",
+        "tutorial-damage-prone-20261015-0",
+        "tutorial-damage-prone-20261015-1",
+        "tutorial-damage-prone-20261015-2",
+        "tutorial-damage-prone-20261015-3",
+        "tutorial-damage-prone-20261015-4",
+        "tutorial-damage-prone-20261015-5",
+        "tutorial-latest-v-20261015-0",
+        "tutorial-latest-v-20261015-1",
+        "tutorial-latest-v-20261015-2",
+        "tutorial-latest-v-20261015-3",
+        "tutorial-latest-v-20261015-4",
+        "tutorial-unified-zh-v5-0",
+        "tutorial-unified-zh-v5-1",
+        "tutorial-unified-zh-v5-2",
+        "tutorial-unified-zh-v5-3",
+        "tutorial-unified-zh-v5-4",
+        "tutorial-unified-zh-v5-5",
+        "tutorial-unified-zh-v5-6",
+        "tutorial-unified-zh-v5-7",
+        "tutorial-unified-zh-v5-8",
+        "tutorial-unified-zh-v5-9",
+        "tutorial-unified-zh-v5-10",
+        "tutorial-unified-zh-v5-11",
+        "tutorial-unified-zh-v5-12",
+        "tutorial-unified-zh-v5-13",
+        "tutorial-unified-zh-v5-14",
+        "tutorial-flow-v4-restored",
+        "tutorial-flow-v4-locked",
+        "tutorial-flow-v4-ring",
+        "tutorial-flow-v4-saved",
+        "tutorial-flow-v4-live",
+        "tutorial-flow-v4-720",
+        "tutorial-flow-v4-recruit",
+        "tutorial-flow-v4-layout",
+        "checkpoint-history-v2-list",
+        "checkpoint-history-v2-delete",
+        "checkpoint-history-v2-load",
+        "checkpoint-history-v2-active-delete",
+        "checkpoint-history-v2-final",
+        "checkpoint-history-v2-720",
+        "checkpoint-history-v2-stale",
+        "prone-look-v17-right",
+        "prone-look-v17-left",
+        "prone-look-v17-wall",
+        "prone-look-v17-checklist",
+        "prone-look-v17-complete",
+        "prone-strafe-left-v12",
+        "prone-strafe-right-v12",
+        "prone-strafe-wall-v12"
+      ],
+      "implementation": {
+        "state": "diagnostic",
+        "build_id": "tutorial-review",
+        "note": {
+          "zh": "统一手雷称呼；CP0成功与暂停页按教学状态显示，保存后引导C桥；动作与存档规则保留。",
+          "en": "Natural grenade labels, context-correct CP0 success/briefing and saved bridge-C guidance; actions and snapshot authority retained."
+        }
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "6组同Game及正常启动通过；实际CP0保存和1080p/720p中文界面复核，人工待审。",
+          "en": "Six final-Game checks and normal startup pass; actual CP0 write and1080p/720p Chinese UI reviewed; human review pending."
+        }
+      }
+    },
+    {
+      "id": "checkpoint-history",
+      "kind": "mechanic",
+      "title": {
+        "zh": "多检查点管理",
+        "en": "Checkpoint history"
+      },
+      "summary": {
+        "zh": "任选旧点回档、确认删除旧档、最新有效记录保护，当前重试点与列表排序分别记录。",
+        "en": "Selected checkpoint loads, confirmed old-record deletion, latest-valid protection and explicit current retry point."
+      },
+      "design_state": "confirmed",
+      "revision": "2026-10-13",
+      "asset_ids": [
+        "paris-city",
+        "first-person",
+        "allied-soldier",
+        "german-soldier"
+      ],
+      "related_ids": [
+        "tutorial-checkpoint",
+        "checkpoint",
+        "g1-tutorial"
+      ],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "多检查点开发 · English",
+            "en": "Checkpoint history implementation · English"
+          },
+          "registered_sha256": "168ed71dea42a5c0e336a67a091da8a8413ee01ae26382db6a443650798e2c12"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点开发 · 中文",
+            "en": "Checkpoint history implementation · Chinese"
+          },
+          "registered_sha256": "d0992f6119beb3664e3b51943be63d5539b133fdc4c01ba172119719838e122c"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013.md",
+          "title": {
+            "zh": "多检查点结果 · English",
+            "en": "Checkpoint history result · English"
+          },
+          "registered_sha256": "be4e2486d8647787eda91c8685490999597b9d2a3c3f0feb9550e6b1ed8a767f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "多检查点结果 · 中文",
+            "en": "Checkpoint history result · Chinese"
+          },
+          "registered_sha256": "c96e5e70203510fc196f70dd028a57c1a76c27b718e2aa6c06de3805bed60b7f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013.md",
+          "title": {
+            "zh": "教学流程修正开发 · English",
+            "en": "Human tutorial flow implementation · English"
+          },
+          "registered_sha256": "e56e63724fbad1da02e7b5d4471703d89e270b59f3bdc30faeb7627c89795593"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正开发 · 中文",
+            "en": "Human tutorial flow implementation · Chinese"
+          },
+          "registered_sha256": "bd3a7f409bc8b70e6fac2e523435412a0557bd21e1c258f0bcb2cf6880c8fdb6"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013.md",
+          "title": {
+            "zh": "教学流程修正结果 · English",
+            "en": "Human tutorial flow result · English"
+          },
+          "registered_sha256": "131ceda04c63fc4278f02cdcf174e82161b1281b04c42061230610dafc124622"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013_ZH.md",
+          "title": {
+            "zh": "教学流程修正结果 · 中文",
+            "en": "Human tutorial flow result · Chinese"
+          },
+          "registered_sha256": "89742340549e77f5ffd42062ef89fbe891a0da17ba8ebc3972e0a2dec692e1bb"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0749d8cedf42766eda5183f3136b4b066d6c3733185497105181041cb6e29357"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 实施",
+            "en": "Formal action and Simplified Chinese tutorial implementation"
+          },
+          "registered_sha256": "0ed5b5c722f3cb87b853598a7f2fae817c29df4acd90bebd506e473ae6920840"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "19c68962a03dc531b221e21df9976340024529473c7823aa73ac64d28412b48f"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014_ZH.md",
+          "title": {
+            "zh": "正式动作与简体中文统一教学 · 结果",
+            "en": "Formal action and Simplified Chinese tutorial result"
+          },
+          "registered_sha256": "e27ebe9a0d9cde9fc4e80ae1b60f160b2d3cb15b943330b4cc4c749adb5f3984"
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015.md",
+          "registered_sha256": "0eed980bbbffbdf5bbb16325b2f0f650a8da962bcf8fc41b5ebd8b7eab1c0904",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "ad265161c012bb30dcae2a6b90fdcf7c882f4ee72e7ecca024ef845a3be80708",
+          "title": {
+            "zh": "最新V与中文教程 · 整合开发",
+            "en": "Latest V and Chinese tutorial integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+          "registered_sha256": "e2cabc886a61bc3584e0e2febf0d9d581fa5340501935e18eb1c63347064e060",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+          "registered_sha256": "5d24488c0c6b4a10a3bb3edf79c062f47098b177f22f8c8e7188285c49aa6cd2",
+          "title": {
+            "zh": "最新V与中文教程 · 结果",
+            "en": "Latest V and Chinese tutorial result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015.md",
+          "registered_sha256": "0a34c309d7bbcd00b9a59b4146637788cc9dba8db6972adb56070d6d74acd4bc",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015_ZH.md",
+          "registered_sha256": "e1502fc93e9fa27e25bff7dd79a2c90d29de16bbc562689e0ff1b136088441cd",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 开发",
+            "en": "Tutorial damage/prone integration"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+          "registered_sha256": "c39bb7d5edbd0310096d4a373bf29403ae52ded095a39008fa3916e6868923c0",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+          "registered_sha256": "2dadbdbf2d94f24323aa489e9145c9a63946edd63dd13632b26359aecefdfb95",
+          "title": {
+            "zh": "中文教学受伤与匍匐整合 · 结果",
+            "en": "Tutorial damage/prone result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "b7de082c31f9133d31257fee2162d1c649fd03b4df84d35214602dc180d762b5",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "d31ae2ce47ccd58364fbb52c41ee874e0ea9a00ac4944efa5ee05f2d40d6fca0",
+          "title": {
+            "zh": "教学首次加载修复 · 开发",
+            "en": "Tutorial startup implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+          "registered_sha256": "2232c00f2d909904eba788c6aa0d8707658a072c32786cc6cfcd395c1c4e9318",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+          "registered_sha256": "57d595eea48d7243e7e8c1615a7dfca843086dd2b6fb61b7d18fb4c13073c12b",
+          "title": {
+            "zh": "教学首次加载修复 · 结果",
+            "en": "Tutorial startup result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015.md",
+          "registered_sha256": "50e291343fc9b7d82a9c4d82ac56e68bbb6ceced46f0962b0805cf1c46085486",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015_ZH.md",
+          "registered_sha256": "34057c200e869ec7b2e45becfaad91eac35d7c9c83b9048af4e101d78eaccff0",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 开发",
+            "en": "Tutorial copy implementation"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+          "registered_sha256": "3e394d3d3e606434dee44f363a720b0520a08e8c3c4c496afb3ab117ab28d33a",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+          "registered_sha256": "db0c361f451d9301ce1a5e99f4fdaaab5c538c02181b63f5b6f08fddc6bb33ae",
+          "title": {
+            "zh": "教学提示与存档文案修正 · 结果",
+            "en": "Tutorial copy result"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "zh": "每点一条可见记录，同点重存更新；回旧点保留后续记录。",
+          "en": "One visible record per point; revisiting replaces it, older loads preserve later records."
+        },
+        {
+          "zh": "最新有效记录在UI及后端不可删除；旧点确认默认取消。",
+          "en": "Latest valid record protected by UI/backend; old deletion defaults to Cancel."
+        },
+        {
+          "zh": "F9／死亡重试使用当前主动加载／新保存点；删除当前旧点明确提示转用最新。",
+          "en": "F9/death retries the selected/newly saved point; deleting an active older point explicitly moves retry to latest."
+        },
+        {
+          "zh": "完整原快照校验与资源守恒；双副本、提交目录、删除标记，不读取孤立未提交高序号。",
+          "en": "Original full-snapshot/resource validation; dual copies, commit directory and deletion markers reject uncommitted higher revisions."
+        },
+        {
+          "zh": "界面与教学默认简体中文；Esc→设置→语言（本页L）切换英文并单独记住，不写入任务存档。",
+          "en": "UI/lessons default to Simplified Chinese; Esc→Settings→Language (or L there) persists language separately from mission saves."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "人工复核手雷称呼和教学保存前后提示。",
+          "en": "Human review grenade terminology and teaching save-state prompts."
+        },
+        {
+          "zh": "后续市区M2/M3与备用招募人员尚未实现。",
+          "en": "Later-city M2/M3 and reserve recruits are not implemented."
+        }
+      ],
+      "media_ids": [
+        "tutorial-copy-20261015-0",
+        "tutorial-copy-20261015-1",
+        "tutorial-copy-20261015-2",
+        "tutorial-copy-20261015-3",
+        "tutorial-startup-20261015-0",
+        "tutorial-startup-20261015-1",
+        "tutorial-startup-20261015-2",
+        "tutorial-startup-20261015-3",
+        "tutorial-damage-prone-20261015-0",
+        "tutorial-damage-prone-20261015-1",
+        "tutorial-damage-prone-20261015-2",
+        "tutorial-damage-prone-20261015-3",
+        "tutorial-damage-prone-20261015-4",
+        "tutorial-damage-prone-20261015-5",
+        "tutorial-latest-v-20261015-0",
+        "tutorial-latest-v-20261015-1",
+        "tutorial-latest-v-20261015-2",
+        "tutorial-latest-v-20261015-3",
+        "tutorial-latest-v-20261015-4",
+        "tutorial-unified-zh-v5-0",
+        "tutorial-unified-zh-v5-1",
+        "tutorial-unified-zh-v5-2",
+        "tutorial-unified-zh-v5-3",
+        "tutorial-unified-zh-v5-4",
+        "tutorial-unified-zh-v5-5",
+        "tutorial-unified-zh-v5-6",
+        "tutorial-unified-zh-v5-7",
+        "tutorial-unified-zh-v5-8",
+        "tutorial-unified-zh-v5-9",
+        "tutorial-unified-zh-v5-10",
+        "tutorial-unified-zh-v5-11",
+        "tutorial-unified-zh-v5-12",
+        "tutorial-unified-zh-v5-13",
+        "tutorial-unified-zh-v5-14",
+        "tutorial-flow-v4-restored",
+        "tutorial-flow-v4-locked",
+        "tutorial-flow-v4-ring",
+        "tutorial-flow-v4-saved",
+        "tutorial-flow-v4-live",
+        "tutorial-flow-v4-720",
+        "tutorial-flow-v4-recruit",
+        "tutorial-flow-v4-layout",
+        "checkpoint-history-v2-list",
+        "checkpoint-history-v2-delete",
+        "checkpoint-history-v2-load",
+        "checkpoint-history-v2-active-delete",
+        "checkpoint-history-v2-final",
+        "checkpoint-history-v2-720",
+        "checkpoint-history-v2-stale"
+      ],
+      "implementation": {
+        "state": "diagnostic",
+        "build_id": "tutorial-review",
+        "note": {
+          "zh": "统一手雷称呼；CP0成功与暂停页按教学状态显示，保存后引导C桥；动作与存档规则保留。",
+          "en": "Natural grenade labels, context-correct CP0 success/briefing and saved bridge-C guidance; actions and snapshot authority retained."
+        }
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "6组同Game及正常启动通过；实际CP0保存和1080p/720p中文界面复核，人工待审。",
+          "en": "Six final-Game checks and normal startup pass; actual CP0 write and1080p/720p Chinese UI reviewed; human review pending."
+        }
+      }
+    },
+    {
+      "id": "medical-kits",
+      "kind": "mechanic",
+      "title": {
+        "zh": "有限医疗包",
+        "en": "Finite medical kits"
+      },
+      "summary": {
+        "zh": "当前医疗教程的医疗包模型、回血/包扎动作、掉落拾取均已人工验收；有限医疗规则及既有回档检查保留。",
+        "en": "Human accepted the medical pouch model, healing/bandage action and drop/pickup in the current tutorial trial; finite-medical rules and existing checkpoint checks retained."
+      },
+      "design_state": "review",
+      "revision": "2026-10-17",
+      "asset_ids": [
+        "medical-pouch"
+      ],
+      "related_ids": [
+        "finite-supply",
+        "checkpoint-history",
+        "g1-tutorial"
+      ],
+      "media_ids": [],
+      "documents": [
+        {
+          "path": "Docs/Development/MissionLoopV1/PLAYER_HEALTH_RECOVERY_DESIGN_20261016.md",
+          "title": {
+            "zh": "有限医疗包设计",
+            "en": "Finite medical-kit design"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_IMPLEMENTATION_20261017.md",
+          "registered_sha256": "84f246369ca812e035345c924a41dab1312f6bc04e5834f116450dfe7205c9e8",
+          "title": {
+            "zh": "医疗包玩法源码 · MEDICAL_KITS_GAMEPLAY_IMPLEMENTATION_20261017",
+            "en": "Medical gameplay source · MEDICAL_KITS_GAMEPLAY_IMPLEMENTATION_20261017"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_RULES_20261017.md",
+          "registered_sha256": "df9125763701f30c2664069738aac1f3fbc3f5998023e87a1325a2a7dabcd49d",
+          "title": {
+            "zh": "医疗包玩法源码 · MEDICAL_KITS_GAMEPLAY_RULES_20261017",
+            "en": "Medical gameplay source · MEDICAL_KITS_GAMEPLAY_RULES_20261017"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_RULES_20261017_ZH.md",
+          "registered_sha256": "00129eac065cfac8d63308d6f99350f205152c338e24ee1d220dddaf54090fe5",
+          "title": {
+            "zh": "医疗包玩法源码 · MEDICAL_KITS_GAMEPLAY_RULES_20261017_ZH",
+            "en": "Medical gameplay source · MEDICAL_KITS_GAMEPLAY_RULES_20261017_ZH"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_RESULT_20261017.md",
+          "registered_sha256": "53df209fc2243ce3afc1a9f0461efbd526b0f3be124ee0e74eb0c600c08109a5",
+          "title": {
+            "zh": "医疗包玩法源码 · MEDICAL_KITS_GAMEPLAY_RESULT_20261017",
+            "en": "Medical gameplay source · MEDICAL_KITS_GAMEPLAY_RESULT_20261017"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_KITS_GAMEPLAY_RESULT_20261017_ZH.md",
+          "registered_sha256": "cbc2d6dbc83b529bb5895b0bff9dd14eadc38ac29e3985caa1e6f320efbd60a2",
+          "title": {
+            "zh": "医疗包玩法源码 · MEDICAL_KITS_GAMEPLAY_RESULT_20261017_ZH",
+            "en": "Medical gameplay source · MEDICAL_KITS_GAMEPLAY_RESULT_20261017_ZH"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_PLAYTEST_RESULT_20261017.md",
+          "registered_sha256": "f5f7c77d6e6011012f0a5b9b352530bff2c2c406a1f93555b1e810bc27fafae4",
+          "title": {
+            "zh": "Medical tutorial playtest result",
+            "en": "Medical tutorial playtest result"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_PLAYTEST_RESULT_20261017_ZH.md",
+          "registered_sha256": "dfa7d20d821cebfbcf2ce5fb41242c989d6fed1cdfdfacbf783a18560691f1b1",
+          "title": {
+            "zh": "医疗包教学试玩结果",
+            "en": "医疗包教学试玩结果"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_HUMAN_ACCEPTANCE_RESULT_20261017.md",
+          "registered_sha256": "9415500599c1c922bb3a5f7805036990e58915786c5e2ed1b164d7169c3af8b2",
+          "title": {
+            "zh": "医疗教程三项人工验收（英文）",
+            "en": "Medical tutorial scoped human acceptance (English)"
+          }
+        },
+        {
+          "path": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_HUMAN_ACCEPTANCE_RESULT_20261017_ZH.md",
+          "registered_sha256": "d480084543b2969bfdab06bd38d0b2eec6c4556d05902fc19d381ec5569b34e3",
+          "title": {
+            "zh": "医疗教程三项人工验收（中文）",
+            "en": "Medical tutorial scoped human acceptance (Chinese)"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "zh": "不自动回血、不复活；治疗完成时才同时扣除医疗包并增加生命。取消或受伤打断不消耗。",
+          "en": "No passive regeneration or revival. Deduct the kit and grant health atomically on completion; cancellation or damage interruption costs no kit."
+        },
+        {
+          "zh": "补给点独立有限库存；普通弹药箱不自动提供药品。德军掉落按任务种子和固定身份预先决定，不因重试重抽。",
+          "en": "Supply sites have independent finite stocks; ammunition boxes do not automatically provide medicine. German loot is predetermined by mission seed and stable identity, without retry rerolls."
+        },
+        {
+          "zh": "存档回滚生命、持有量、补给库存、固定掉落和领取状态。旧存档不凭空获得药品或生命。",
+          "en": "Checkpoints restore health, inventory, finite stocks, fixed loot and claims together. Legacy saves receive no invented medicine or health."
+        },
+        {
+          "zh": "教程指定1号德军固定1包，另两名各25%；后续Supply2独立1包，第一段不发药。",
+          "en": "German1 has one guaranteed teaching kit; German2/3 each25%; later Supply2 has one separate kit; none in the first stage."
+        },
+        {
+          "zh": "移除第一段备用箱的模型和交互，新开局合并有限库存；旧档库存身份与收支保留。",
+          "en": "Remove the duplicate training box representation/interaction and consolidate new-session stock; preserve old save identities and receipts."
+        }
+      ],
+      "steps": [],
+      "open_items": [
+        {
+          "zh": "单一弹药箱与完整教程仍待明确人工复核；无完整精细接触、全地图、压力、Editor/PIE或第二台机器验收。",
+          "en": "Single-ammunition-box and complete tutorial human review remain unconfirmed; exhaustive contact, full-map, stress, Editor/PIE and second-machine acceptance remain open."
+        }
+      ],
+      "implementation": {
+        "state": "diagnostic",
+        "note": {
+          "zh": "本次明确要求的独立教学试玩已构建，保留最新握姿/V/Ctrl/教程界面和原档；不是正式采用。",
+          "en": "Requested independent combined tutorial trial built with current grips/V/Ctrl/UI and original saves preserved; not formal adoption."
+        }
+      },
+      "validation": {
+        "state": "scoped_verified",
+        "note": {
+          "zh": "2026年10月17日用户明确通过医疗包建模、回血动作、掉落拾取；对应Game_v17。此前5组同Game检查与无诊断启动证据保留。",
+          "en": "On17 October2026 the human explicitly accepted medical pouch modeling, healing action and drop/pickup on Game_v17. Prior five matching-Game cases and diagnostics-disabled startup evidence retained."
+        }
+      }
+    }
+  ]
+}

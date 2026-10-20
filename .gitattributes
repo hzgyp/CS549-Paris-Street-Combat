@@ -105,3 +105,19 @@ Unreal/Variants/G1MedicalGuidanceMusic20261017/Project/Plugins/ParisBridgeMissio
 # Dated SFTP retirement evidence and teammate handoff keep exact bytes.
 Docs/Development/TutorialSftpRetirementV1/** -text whitespace=cr-at-eol
 Docs/Development/MissionLoopV1/TUTORIAL_SFTP_RETIREMENT_*.md -text whitespace=cr-at-eol
+
+# Exact retained instruction evidence and generated directory display text.
+Docs/Development/InstructionHistory/** -text whitespace=cr-at-eol,-blank-at-eof
+Assets/ASSET_INDEX.md whitespace=cr-at-eol,-blank-at-eof
+Assets/Registry/VERSION_DIRECTORY.md -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+
+# Keep selected metadata and verified source handoff bytes exact.
+Assets/Registry/** -text whitespace=cr-at-eol
+Assets/ASSET_INDEX.md -text
+Assets/ASSET_REGISTER.csv -text whitespace=cr-at-eol
+Docs/Development/CURRENT_*.json -text whitespace=cr-at-eol
+Tools/AssetWorkbench/** -text whitespace=cr-at-eol
+Tools/Simulation/** -text whitespace=cr-at-eol
+
+# Generated version headings preserve their original registered display names.
+Assets/Registry/VERSION_DIRECTORY.md whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

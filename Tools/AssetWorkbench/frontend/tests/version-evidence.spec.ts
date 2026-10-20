@@ -1,0 +1,45 @@
+import {test,expect} from '@playwright/test';
+import {readFileSync,mkdirSync} from 'node:fs';
+import {resolve} from 'node:path';
+import {createHash} from 'node:crypto';
+const root=resolve(process.cwd(),'../../..'),state=resolve(root,'Assets/LocalWorking/AssetWorkbench');
+const shots=resolve(state,'runs/view-pairing-20261017/regression-screenshots');mkdirSync(shots,{recursive:true});
+test.beforeEach(async({context})=>{
+ const s=JSON.parse(readFileSync(resolve(state,'runtime/session.json'),'utf8'));
+ expect((await context.request.post('/api/v1/session',{data:{token:s.token},headers:{Origin:`http://127.0.0.1:${s.port}`}})).ok()).toBeTruthy();
+});
+test('medical history shows the actual failed import and human approval, all pictures and original identity',async({page,context})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ const left='medical-pouch-finish-v2-20261017',right='medical-pouch-stain-v2-20261017';
+ await page.goto('/compare?asset=medical-pouch');await expect(page.locator('.compare-controls select').nth(2)).toHaveValue('medical-pouch-human-accepted-20261017');
+ await page.goto('/compare?asset=medical-pouch&left='+left+'&right='+right);
+ const l=page.locator(`[data-version-id="${left}"]`),r=page.locator(`[data-version-id="${right}"]`);
+ await expect(l).toContainText('136');await expect(r).toContainText('人工确认');
+ await expect(page.locator('.version-index tbody tr')).toHaveCount(14);
+ const img=r.locator('.version-main-image img');await img.evaluate((i:HTMLImageElement)=>i.decode());
+ const src=await img.getAttribute('src');await r.getByRole('button',{name:'截图 2',exact:true}).click();await expect(img).not.toHaveAttribute('src',src!);
+ await r.getByRole('button',{name:'放大截图',exact:true}).click();const dialog=page.getByRole('dialog',{name:'对照截图'});await expect(dialog).toBeVisible();await dialog.locator('img').first().evaluate((i:HTMLImageElement)=>i.decode());await page.keyboard.press('Escape');await expect(dialog).toHaveCount(0);
+ const original=await context.request.get((await r.getByRole('link',{name:'查看原图',exact:true}).getAttribute('href'))!);expect(original.ok()).toBeTruthy();
+ const comparison=(await(await context.request.get('/api/v1/comparisons?left='+left+'&right='+right)).json()).data;
+ const selectedId=(await img.getAttribute('src'))!.split('/media/')[1].split('?')[0],shot=comparison.right.screenshots.find((s:any)=>s.id===selectedId);
+ expect(createHash('sha256').update(await original.body()).digest('hex')).toBe(shot.sha256);
+ await page.locator('.comparison-grid').scrollIntoViewIfNeeded();await page.screenshot({path:resolve(shots,'medical-failed-vs-approved-zh.png'),fullPage:true});
+ await page.getByRole('button',{name:'English',exact:true}).click();await expect(r).toContainText('Human approved');await expect(l).toContainText('136 triangles');
+ await page.screenshot({path:resolve(shots,'medical-failed-vs-approved-en.png'),fullPage:true});
+ await page.reload();await expect(r).toBeVisible();await expect(page.locator('.compare-controls select').nth(1)).toHaveValue(left);
+ await page.setViewportSize({width:1366,height:768});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ expect(errors).toEqual([]);
+});
+test('accepted medical model orbits and zooms; rejected grip keeps offline pictures, later scoped medical gameplay metadata is preserved',async({page,context})=>{
+ await page.goto('/assets/medical-pouch');const stage=page.getByTestId('model-viewport');await expect(stage).toHaveAttribute('data-status','ready');
+ await expect(stage).toHaveAttribute('data-model','medical-pouch-accepted-v1');
+ const cam=await stage.getAttribute('data-camera'),box=(await stage.boundingBox())!;
+ await page.mouse.move(box.x+box.width*.5,box.y+box.height*.5);await page.mouse.down();await page.mouse.move(box.x+box.width*.65,box.y+box.height*.55,{steps:10});await page.mouse.up();await expect.poll(()=>stage.getAttribute('data-camera')).not.toBe(cam);
+ const rotated=await stage.getAttribute('data-camera');await page.mouse.wheel(0,-180);await expect.poll(()=>stage.getAttribute('data-camera')).not.toBe(rotated);
+ await stage.screenshot({path:resolve(shots,'medical-current-3d.png')});
+ const g=(await(await context.request.get('/api/v1/gameplay/medical-kits')).json()).data;expect(g.implementation.state).toBe('diagnostic');expect(g.asset_ids).toEqual(['medical-pouch']);
+ await page.goto('/compare?asset=frag-grenade&left=frag-grenade-thumb-opposition-rejected-20261016&right=frag-grenade-thumb-polish-accepted-20261017');
+ const failed=page.locator('[data-version-id="frag-grenade-thumb-opposition-rejected-20261016"]');await expect(failed).toContainText('人工未通过');await expect(failed).toContainText('横折硬杆');
+ const record=(await(await context.request.get('/api/v1/assets/frag-grenade/revisions')).json()).data.find((r:any)=>r.id==='frag-grenade-thumb-opposition-rejected-20261016');await page.getByLabel('对照视角',{exact:true}).selectOption('unknown:left:'+record.media_ids[0]);await failed.locator('.version-main-image img').evaluate((i:HTMLImageElement)=>i.decode());await expect(failed.locator('.version-thumbnails button')).toHaveCount(12);
+ await page.locator('.comparison-grid').scrollIntoViewIfNeeded();await page.screenshot({path:resolve(shots,'grip-rejected-vs-accepted.png'),fullPage:true});
+});

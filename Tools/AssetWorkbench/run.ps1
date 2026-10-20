@@ -1,4 +1,4 @@
-param([int]$Port = 0, [ValidateSet('127.0.0.1','0.0.0.0')][string]$BindAddress = '', [switch]$NoBrowser)
+param([int]$Port = 0, [ValidateSet('127.0.0.1','0.0.0.0')][string]$BindAddress = '', [switch]$NoBrowser, [switch]$KeepAccessLink)
 $ErrorActionPreference = 'Stop'
 $taskRoot = (Resolve-Path (Join-Path $PSScriptRoot '../..')).Path
 $taskPython = Join-Path $taskRoot 'Assets/LocalWorking/AssetWorkbench/runtime/venv/Scripts/python.exe'
@@ -25,6 +25,7 @@ if (Test-Path -LiteralPath $taskSession) {
     }
 }
 $runArgs = @('-m','app.cli','serve','--port',"$Port",'--host',$BindAddress)
+if ($KeepAccessLink) { $runArgs += '--reuse-access-link' }
 if (-not $NoBrowser) { $runArgs += '--open-browser' }
 $logRoot = Join-Path $taskRoot 'Assets/LocalWorking/AssetWorkbench/runs'
 New-Item -ItemType Directory -Path $logRoot -Force | Out-Null

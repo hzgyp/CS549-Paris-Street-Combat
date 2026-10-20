@@ -1,0 +1,95 @@
+{
+  "status": "local_playtest_delivered_human_review_pending",
+  "date": "2026-10-17",
+  "source_project": "Unreal/Variants/G1AudioTutorial20261017/Project",
+  "source_manifest": "Unreal/Variants/G1AudioTutorial20261017/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "341e91b9bba31747b3e605af94edddc7687032fd97d39c1849e771b5a49f934c",
+  "source_files": 143,
+  "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+  "selected_build": "game_v5",
+  "playable_directory": "tmp/Playtest-G1-Audio-Tutorial-20261017",
+  "playable_entry": "tmp/Playtest-G1-Audio-Tutorial-20261017/PLAY_AUDIO_TUTORIAL.cmd",
+  "user_dir": "G1AudioTutorial20261017",
+  "save_prefix": "ParisCheckpointHistoryV1",
+  "actual_save_copies": 8,
+  "package_file_count": 132,
+  "package_size_bytes": 8669199460,
+  "parent_selector": "Docs/Development/CURRENT_MEDICAL_TUTORIAL_PLAYTEST_REVIEW.json",
+  "checks": [
+    {
+      "result": "tmp/g1-audio-playtest-20261017/checks/audio_1080_v5/RESULT.json",
+      "result_sha256": "29aaf21bbcded8533b58ec5260739510b0270f518902fb30d5d4d023c3b42a59",
+      "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+      "mode": "audio_1080_v5",
+      "scope": "Opt-in independent UserDirs. New audio/menu checks and affected teaching, native medical and selected actual earned CP1 restore. No human/natural-combat/full-map/stress/PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-audio-playtest-20261017/checks/audio_persist_v5/RESULT.json",
+      "result_sha256": "dd5fd7c72ae2986395f181624b648f90adcbdd74b6658ea392a6d2f541363679",
+      "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+      "mode": "audio_persist_v5",
+      "scope": "Opt-in independent UserDirs. New audio/menu checks and affected teaching, native medical and selected actual earned CP1 restore. No human/natural-combat/full-map/stress/PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-audio-playtest-20261017/checks/audio_720_v5/RESULT.json",
+      "result_sha256": "6fc9c8bf0f093fb2579f4d2a41d35a91b202d11ce751d4408fd29ac9a66a25c8",
+      "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+      "mode": "audio_720_v5",
+      "scope": "Opt-in independent UserDirs. New audio/menu checks and affected teaching, native medical and selected actual earned CP1 restore. No human/natural-combat/full-map/stress/PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-audio-playtest-20261017/checks/audio_defaults_v5/RESULT.json",
+      "result_sha256": "4cb3d82ddebec2cde986f4a24d0c5e8151d9d3854f29637febdabb006015dbd4",
+      "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+      "mode": "audio_defaults_v5",
+      "scope": "Opt-in independent UserDirs. New audio/menu checks and affected teaching, native medical and selected actual earned CP1 restore. No human/natural-combat/full-map/stress/PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-audio-playtest-20261017/checks/audio_signal_v5/RESULT.json",
+      "result_sha256": "ac2ecb1decb381d6538fd65ab399865349eff8a44caf044f1449882cfdaa7081",
+      "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+      "mode": "audio_signal_v5",
+      "scope": "Opt-in independent UserDirs. New audio/menu checks and affected teaching, native medical and selected actual earned CP1 restore. No human/natural-combat/full-map/stress/PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-audio-playtest-20261017/checks/teaching_v5/RESULT.json",
+      "result_sha256": "fcaafe91699dad7e6f773088440b034c07b9fd1b06e86299a82f155dc42f6457",
+      "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+      "mode": "copy_training",
+      "scope": "Opt-in independent UserDirs. New audio/menu checks and affected teaching, native medical and selected actual earned CP1 restore. No human/natural-combat/full-map/stress/PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-audio-playtest-20261017/checks/medical_fp_v5/RESULT.json",
+      "result_sha256": "55c25d1dcaa8afd0859c6b35367bb6fb28c7f3aa53937e039db79f0fb0a3b859",
+      "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+      "mode": "fp",
+      "scope": "Opt-in independent UserDirs. New audio/menu checks and affected teaching, native medical and selected actual earned CP1 restore. No human/natural-combat/full-map/stress/PIE/second-machine acceptance."
+    },
+    {
+      "result": "tmp/g1-audio-playtest-20261017/checks/earned_cp1_v5/RESULT.json",
+      "result_sha256": "54ded45a6d0bab4c6404ac684895d51ff834c0f47a4a2fc04f1def1da3604e47",
+      "game_sha256": "5f4591d2daf7bce1e010ff36223e4548a442024f685580195376a5ecf825e546",
+      "mode": "restore_cp1",
+      "scope": "Opt-in independent UserDirs. New audio/menu checks and affected teaching, native medical and selected actual earned CP1 restore. No human/natural-combat/full-map/stress/PIE/second-machine acceptance."
+    }
+  ],
+  "native_manifest": "tmp/g1-medical-playtest-20261017/NATIVE_MANIFEST.json",
+  "audio_contract": "tmp/g1-tutorial-audio-settings-20261017/PACKAGING_CONTRACT.json",
+  "formal_adoption": false,
+  "publication": false,
+  "human_review": "pending",
+  "result": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_RESULT_20261017.md",
+  "result_zh": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_RESULT_20261017_ZH.md",
+  "playable_entry_sha256": "fa269ae05a3c5efda7463db2a9ef41e5a4f3e2b279bc271fa8c5e10a0d97ecff",
+  "normal_startup": "tmp/g1-audio-playtest-20261017/normal_smoke_audio/launch.json",
+  "implementation": "Docs/Development/MissionLoopV1/TUTORIAL_AUDIO_PLAYTEST_IMPLEMENTATION_20261017.md",
+  "human_individual_sounds_accepted": 13,
+  "human_in_game_review": "pending",
+  "preservation": "tmp/g1-audio-playtest-20261017/PROTECTION.json",
+  "source_reconciliation": "tmp/g1-audio-playtest-20261017/ACTION_RECONCILIATION.json",
+  "check_manifest": "tmp/g1-audio-playtest-20261017/CHECKS.json",
+  "schema_version": 1,
+  "revision": 10,
+  "source_snapshot": "Unreal/Variants/G1AudioTutorial20261017/Project",
+  "human_manual_review": "All13 individual sounds listening accepted; new in-game mix/menu/full tutorial human review pending."
+}

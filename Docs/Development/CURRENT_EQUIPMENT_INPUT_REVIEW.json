@@ -1,187 +1,271 @@
 {
-  "status": "manually_reviewed_selected_active_baseline",
-  "revision": "candidate_grenade_equip_build_v4",
-  "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
-  "source_snapshot": "Unreal/Variants/G1GrenadeEquip20261011/Project",
-  "source_manifest": "Unreal/Variants/G1GrenadeEquip20261011/SOURCE_MANIFEST.json",
-  "source_manifest_sha256": "9ac0620c0794c2cc64c0b701d50e7dba4a82941bee7d147be1f72cd604d9312d",
-  "source_files": 76,
-  "active_authoring_project": "tmp/g1-tactical-equipment-20261010/candidate_grenade_equip_v1/Project",
-  "playable_directory": "tmp/Playtest-G1-GrenadeEquip-20261011",
-  "playable_entry": "tmp/Playtest-G1-GrenadeEquip-20261011/PLAY_GRENADE_EQUIP.cmd",
-  "user_dir": "G1GrenadeEquip20261011",
-  "save_prefix": "ParisGrenadeEquipV2",
-  "parent_record": "tmp/g1-grenade-equip-20261011/freeze.json",
-  "parent_source": "Unreal/Variants/G1EquipmentWheel20261011/Project",
-  "implementation": "Docs/Development/MissionLoopV1/GRENADE_EQUIP_REVISION_IMPLEMENTATION_20261011_ZH.md",
-  "result": "Docs/Development/MissionLoopV1/GRENADE_EQUIP_REVISION_RESULT_20261011_ZH.md",
+  "status": "formal86_throwing_binding_adopted",
+  "revision": "build_v8",
+  "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+  "source_snapshot": "Unreal/Variants/G1GrenadePose20261013V8/Project",
+  "source_manifest": "Unreal/Variants/G1GrenadePose20261013V8/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "019d1d8b0407f2f85f89b67488bcc817e455a43486b0ff5838b2e4b581b9f902",
+  "source_files": 86,
+  "active_authoring_project": "tmp/g1-grenade-pose-20261013/candidate_v1/Project/WW2FranceLiberation.uproject",
+  "playable_directory": "tmp/Playtest-G1-GrenadePose-20261013-V8",
+  "playable_entry": "tmp/Playtest-G1-GrenadePose-20261013-V8/PLAY_GRENADE_TRAVERSAL.cmd",
+  "user_dir": "G1Sleeve20261012",
+  "save_prefix": "ParisSleeveV1",
+  "parent_source": "Unreal/Variants/G1GrenadeEquip20261011/Project",
+  "parent_game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d",
+  "implementation": "Docs/Development/SLEEVE_OCCLUSION_IMPLEMENTATION_20261012.md",
+  "result": "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012.md",
+  "result_zh": "Docs/Development/SLEEVE_OCCLUSION_RESULT_20261012_ZH.md",
   "checks": [
     {
-      "mode": "wheel",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/wheel_equipv4/RESULT.json",
+      "identity": "pose_v8",
+      "status": "pass_native_pose",
+      "result": "tmp/g1-grenade-pose-20261013/checks/pose_v8/RESULT.json",
+      "result_sha256": "f3455173cebb00d556a81c683bed89d9554164b084a11b214f9041911386a787",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "pose_live_v8",
+      "status": "pass_native_pose_live",
+      "result": "tmp/g1-grenade-pose-20261013/checks/pose_live_v8/RESULT.json",
+      "result_sha256": "428066b78fc95fc3e921423b4bd7cba62a45a99daaf79df6a4552bc241305e32",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "hands_v8",
+      "status": "pass_native_grenade_hands",
+      "result": "tmp/g1-grenade-pose-20261013/checks/hands_v8/RESULT.json",
+      "result_sha256": "45e428b39d60607a36f062a5f6dfff4dab78e567524be60da5d72b680101f507",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "hands_live_v8",
+      "status": "pass_native_grenade_hands",
+      "result": "tmp/g1-grenade-pose-20261013/checks/hands_live_v8/RESULT.json",
+      "result_sha256": "2373aff2d2964cd8fe25b042f22e52b91477f73cafe8270f15064dd4437461c5",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "wheel_v8",
       "status": "pass_native_wheel",
-      "sha256": "f7b6127dcffc110057c6bee3818b6eaf978ae26e3d42c540f3bc5cfa609ee0da",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+      "result": "tmp/g1-grenade-pose-20261013/checks/wheel_v8/RESULT.json",
+      "result_sha256": "64421df1ab57f7bab6962469a826d7edf8bb789178a931cae0250d6899f18f81",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
     },
     {
-      "mode": "throw",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/throw_equipv4/RESULT.json",
-      "status": "pass_native_throw",
-      "sha256": "31d2d3076a07133236b2df800eb2229dfc73361bb7e1b790f77710bd6ad9b30d",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+      "identity": "input_v8",
+      "status": "pass_native_traversal_input",
+      "result": "tmp/g1-grenade-pose-20261013/checks/input_v8/RESULT.json",
+      "result_sha256": "117825fa1d7dc7247286b54f819556c98761d91d7f3f15742075c75c1eeb94ec",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
     },
     {
-      "mode": "smoke",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/smoke_equipv4/RESULT.json",
-      "status": "pass_native_smoke",
-      "sha256": "bfbb192c1327e0fc157a07f8c09c2aa38e5bbff9f8a4853e2f6a1778dd6a4ba7",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+      "identity": "safety_v8",
+      "status": "pass_native_traversal_safety",
+      "result": "tmp/g1-grenade-pose-20261013/checks/safety_v8/RESULT.json",
+      "result_sha256": "4bbfcfe4afdff7530752782a91374fd0ff360058437ede45bdacb7a6818921ff",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
     },
     {
-      "mode": "p1",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/p1_equipv4/RESULT.json",
+      "identity": "p1_v8",
       "status": "pass_p1_ammo_radar_inventory",
-      "sha256": "e2025c25ab370d69eaeca856dcb45b6bbac4cf7dab988143a5cfb7653a8c927f",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+      "result": "tmp/g1-grenade-pose-20261013/checks/p1_v8/RESULT.json",
+      "result_sha256": "b15498b50afade6fdb6620d9e10626747f59c44784f26b07423da4f13e593ef7",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
     },
     {
-      "mode": "enemy_clear",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/enemy_clear_equipv4/RESULT.json",
-      "status": "pass_enemy_clear_checkpoint",
-      "sha256": "f11e3ff3ff406d015937b012110325c825fc6d6d843392fd68e6ee1cb707a5ac",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "interactions",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/interactions_equipv4/RESULT.json",
-      "status": "pass_native_interactions",
-      "sha256": "09b38f65904a5b88ac482c8e053c6baef2b9d6d55c77bcd927a79e10e0151fe9",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "save_equipment",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/save_equipment_equipv4/RESULT.json",
-      "status": "pass_native_save_equipment",
-      "sha256": "2e1476853b6100781b8e900af4f24547651ce96f6fc6990f098a5b6e532b5a88",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "restore_equipment",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_equipment_equipv4/RESULT.json",
-      "status": "pass_native_restore_equipment",
-      "sha256": "cc6a3e1433fe107da0c56d21ab2ce1e9a3f228ef5115fd47fc3d81b0e915509b",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "restore_legacy",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/restore_legacy_equipv4/RESULT.json",
-      "status": "pass_native_restore_legacy",
-      "sha256": "1dac05375637670ca41c2fc789877f42eee130d6b39f1ac95bd4f08c997f7e97",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "performance",
-      "result": "tmp/g1-tactical-equipment-20261010/checks/performance_equipv4/RESULT.json",
-      "status": "pass_native_performance",
-      "sha256": "82059b6d982b7e38724ad8c45e9857fb98ff3035c3c52a6ceb0334dc4cbf6195",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "ui_equipment_pause",
-      "result": "tmp/g1-combat-ui-20261011/checks/ui_equipment_pause_equipv4/RESULT.json",
-      "status": "pass_ui_equipment_pause",
-      "sha256": "79ddf42438815b52b0a7f692205c61106588d6777d6d9f728003b859a4b2984d",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "ui_pages",
-      "result": "tmp/g1-combat-ui-20261011/checks/ui_pages_equipv4/RESULT.json",
-      "status": "pass_ui_pages",
-      "sha256": "72d3d9a76d183ba8854193faad1122c1c1d31a3351de680a84834c68db72b30f",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "ui_pause",
-      "result": "tmp/g1-combat-ui-20261011/checks/ui_pause_equipv4/RESULT.json",
-      "status": "pass_ui_pause",
-      "sha256": "0e5ff8dc1ee13618c0283548cba24e5db0f1869f85c862f90c653c8237cbe44a",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "ui_confirm",
-      "result": "tmp/g1-combat-ui-20261011/checks/ui_confirm_equipv4/RESULT.json",
-      "status": "pass_ui_confirm",
-      "sha256": "2acd2412a83e8ad83648e6bdeb09e78d970f069a49917c20582c3c16837ed3e0",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
-    },
-    {
-      "mode": "death_frag",
-      "result": "tmp/g1-player-death-20261011/checks/frag_equipv4/RESULT.json",
+      "identity": "death_v8",
       "status": "pass_player_death_frag",
-      "sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
-      "game_sha256": "b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d"
+      "result": "tmp/g1-grenade-pose-20261013/checks/death_v8/RESULT.json",
+      "result_sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "save_v8",
+      "status": "pass_native_save_equipment",
+      "result": "tmp/g1-grenade-pose-20261013/checks/save_v8/RESULT.json",
+      "result_sha256": "b0dce632d6fdc0cac802eabead704eaf0fb5d6c029ce48a87ef1f9153041fc0a",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
+    },
+    {
+      "identity": "restore_v8",
+      "status": "pass_native_restore_equipment",
+      "result": "tmp/g1-grenade-pose-20261013/checks/restore_v8/RESULT.json",
+      "result_sha256": "2a7e1f7a93ba8d94cd53b978b4493abaf86683b2cb08dfe98c33df2bee3e4d08",
+      "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+      "exit_code": 0
     }
   ],
-  "protection": "tmp/g1-tactical-equipment-20261010/candidate_grenade_equip_build_v4/protection.json",
-  "assets": [
-    {
-      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_geometry.json",
-      "size_bytes": 1723576,
-      "sha256": "4f836c22ec91e0d1e5b4c096ea870556466a1a3a54b5c4513639a5c81511acb1"
-    },
-    {
-      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_albedo.png",
-      "size_bytes": 1675918,
-      "sha256": "2eda34c82dc826a6be64d408fd6a6135a028b88724ede250721853522ac246ed"
-    },
-    {
-      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_orm.png",
-      "size_bytes": 1794723,
-      "sha256": "dcccf3a515c0a6b3e755249a6e235de6b84f764aab1f2e52fc001cc437bef8c7"
-    },
-    {
-      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Frag/frag_normal.png",
-      "size_bytes": 1717000,
-      "sha256": "9249335b5e2a7529b2655d5f05c9b663afc1ed649c93a2d3d0e344b2fa02470d"
-    },
-    {
-      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_geometry.json",
-      "size_bytes": 4886498,
-      "sha256": "86b3583147efdc454e9e58f92eb25fbbbf8904e9d2cea6423a11da4e8e8699a2"
-    },
-    {
-      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_albedo.png",
-      "size_bytes": 594581,
-      "sha256": "d6840ae07d79e63df29a6af833e1d44310bede474b0e398f9f157bc8ef1fda1b"
-    },
-    {
-      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_orm.png",
-      "size_bytes": 455586,
-      "sha256": "a073c1ee026af840a942fb9bbc15aea981fefe33ba23d76dec8b9bd085a0952a"
-    },
-    {
-      "path": "Windows/WW2FranceLiberation/Equipment/Grenades/Smoke/smoke_normal.png",
-      "size_bytes": 641222,
-      "sha256": "f8e4744406712ca434cf2b7b91cf6a19e8976cd54a5d780361408dd62999510c"
-    }
-  ],
-  "manual_review": "logic_passed_with_residual_sleeve_occlusion",
+  "protection": "tmp/g1-sleeve-20261012/build_v12/protection.json",
+  "visual_review": "tmp/g1-sleeve-20261012/VISUAL_REVIEW.json",
+  "motion_review": "tmp/g1-sleeve-20261012/checks/motion_v12/TRACE_REVIEW.json",
+  "manual_review": "passed_user_attestation_20261013",
+  "formal_adoption": true,
+  "publication": "Local adopted78; no Git/SFTP/course/video publication",
   "limitations": [
-    "Actual ready/hold frames reviewed; detailed continuous contact and all locomotion transitions remain manual review.",
-    "Temporary FP source only; original body/camera/rifle controls and save schema retained.",
-    "Current roster performance only, not expanded NPC stress or second-machine acceptance."
+    "Tested camera occlusion only; original garment strain persists outside the visible central view.",
+    "Original action hand goals are reach-clamped for the FP display; fine weapon/hand contact and all locomotion states require review.",
+    "No full-map natural combat, expanded-NPC, long-term, PIE, second-machine or course acceptance."
   ],
-  "publication": "Latest three-member SFTP package/runtime bytes verified; teacher audioV2 protected; matching Git publication requested",
-  "editors": "Existing UE Editors remain open",
-  "visual_review": "tmp/g1-grenade-equip-20261011/VISUAL_REVIEW.json",
-  "historical_status": "unselected_unified_grenade_equip_candidate",
-  "selection": "Formal complete-gameplay local baseline",
-  "human_review_at": "2026-10-11T19:44:43.890773-04:00",
-  "human_review_authorization": "用户：已人工验证，还有衣服遮挡小问题，但逻辑没啥问题，把正式版同步到这一版，其他过渡版本可以删除",
-  "remaining_visual_issue": "User reports minor clothing/sleeve occlusion",
-  "retired_playable_recovery_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json",
+  "editor_build": "tmp/g1-sleeve-20261012/editor_build_v2/build-editor.json",
+  "editor_session": "tmp/g1-sleeve-20261012/editor_entry_v2/SESSION.json",
+  "editor_status": "initialized_engine_entry_kept_open",
+  "schema_version": 3,
+  "historical_status": "unselected_local_sleeve_candidate",
+  "human_review_at": "2026-10-13T08:41:24.605688-04:00",
+  "human_review_authorization": "用户：这一版没有问题，同步到正式基线，然后删除过度版本",
+  "human_manual_review": "User confirms no problems and adopts this exact grenade/traversal build14October2026",
   "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
-  "human_manual_review": "Logic accepted by explicit user manual verification11October2026; residual sleeve occlusion reported",
-  "sftp_release": "paris-g1-playtest-20261011-gameplay-v1",
-  "sftp_download": "/releases/paris-g1-playtest-20261011-gameplay-v1/Paris-G1-Gameplay-20261011.zip"
+  "retired_playable_recovery_map": "Docs/Development/G1SleeveBaselineAdoption20261013/RECOVERY_MAP_20261013.json",
+  "hand_repair_candidate": {
+    "status": "manually_reviewed_selected_active_baseline",
+    "revision": "build_v8",
+    "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+    "source_files": 86,
+    "source_snapshot": "Unreal/Variants/G1GrenadePose20261013V8/Project",
+    "source_manifest": "Unreal/Variants/G1GrenadePose20261013V8/SOURCE_MANIFEST.json",
+    "source_manifest_sha256": "019d1d8b0407f2f85f89b67488bcc817e455a43486b0ff5838b2e4b581b9f902",
+    "active_authoring_project": "tmp/g1-grenade-pose-20261013/candidate_v1/Project/WW2FranceLiberation.uproject",
+    "playable_directory": "tmp/Playtest-G1-GrenadePose-20261013-V8",
+    "playable_entry": "tmp/Playtest-G1-GrenadePose-20261013-V8/PLAY_GRENADE_TRAVERSAL.cmd",
+    "user_dir": "G1GrenadePose20261013V8",
+    "save_prefix": "ParisGrenadePoseV8",
+    "parent_source": "Unreal/Variants/G1GrenadeHand20261013V3/Project",
+    "parent_game_sha256": "c326acd1a6d99c810bec9343f5e016e71b826bd014560d6974cfc317476c1749",
+    "implementation": "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_IMPLEMENTATION_20261013_ZH.md",
+    "result": "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+    "result_zh": "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+    "checks": [
+      {
+        "identity": "pose_v8",
+        "status": "pass_native_pose",
+        "result": "tmp/g1-grenade-pose-20261013/checks/pose_v8/RESULT.json",
+        "result_sha256": "f3455173cebb00d556a81c683bed89d9554164b084a11b214f9041911386a787",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "pose_live_v8",
+        "status": "pass_native_pose_live",
+        "result": "tmp/g1-grenade-pose-20261013/checks/pose_live_v8/RESULT.json",
+        "result_sha256": "428066b78fc95fc3e921423b4bd7cba62a45a99daaf79df6a4552bc241305e32",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "hands_v8",
+        "status": "pass_native_grenade_hands",
+        "result": "tmp/g1-grenade-pose-20261013/checks/hands_v8/RESULT.json",
+        "result_sha256": "45e428b39d60607a36f062a5f6dfff4dab78e567524be60da5d72b680101f507",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "hands_live_v8",
+        "status": "pass_native_grenade_hands",
+        "result": "tmp/g1-grenade-pose-20261013/checks/hands_live_v8/RESULT.json",
+        "result_sha256": "2373aff2d2964cd8fe25b042f22e52b91477f73cafe8270f15064dd4437461c5",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "wheel_v8",
+        "status": "pass_native_wheel",
+        "result": "tmp/g1-grenade-pose-20261013/checks/wheel_v8/RESULT.json",
+        "result_sha256": "64421df1ab57f7bab6962469a826d7edf8bb789178a931cae0250d6899f18f81",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "input_v8",
+        "status": "pass_native_traversal_input",
+        "result": "tmp/g1-grenade-pose-20261013/checks/input_v8/RESULT.json",
+        "result_sha256": "117825fa1d7dc7247286b54f819556c98761d91d7f3f15742075c75c1eeb94ec",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "safety_v8",
+        "status": "pass_native_traversal_safety",
+        "result": "tmp/g1-grenade-pose-20261013/checks/safety_v8/RESULT.json",
+        "result_sha256": "4bbfcfe4afdff7530752782a91374fd0ff360058437ede45bdacb7a6818921ff",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "p1_v8",
+        "status": "pass_p1_ammo_radar_inventory",
+        "result": "tmp/g1-grenade-pose-20261013/checks/p1_v8/RESULT.json",
+        "result_sha256": "b15498b50afade6fdb6620d9e10626747f59c44784f26b07423da4f13e593ef7",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "death_v8",
+        "status": "pass_player_death_frag",
+        "result": "tmp/g1-grenade-pose-20261013/checks/death_v8/RESULT.json",
+        "result_sha256": "777f573e30b228c337042e1130746636ac10bd228186c9f841f3018b85691a92",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "save_v8",
+        "status": "pass_native_save_equipment",
+        "result": "tmp/g1-grenade-pose-20261013/checks/save_v8/RESULT.json",
+        "result_sha256": "b0dce632d6fdc0cac802eabead704eaf0fb5d6c029ce48a87ef1f9153041fc0a",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      },
+      {
+        "identity": "restore_v8",
+        "status": "pass_native_restore_equipment",
+        "result": "tmp/g1-grenade-pose-20261013/checks/restore_v8/RESULT.json",
+        "result_sha256": "2a7e1f7a93ba8d94cd53b978b4493abaf86683b2cb08dfe98c33df2bee3e4d08",
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "exit_code": 0
+      }
+    ],
+    "protection": "tmp/g1-grenade-pose-20261013/build_v8/PROTECTION.json",
+    "human_review": "passed_user_attestation_20261014",
+    "formally_adopted": true,
+    "formal_selector_unchanged": false,
+    "grenade_hand": "left_native_hand_and_prop",
+    "release_target_seconds": 0.375,
+    "input_assertions": 61,
+    "input_cases": 9,
+    "rejected_parent": {
+      "revision": "hand_build_v3",
+      "feedback": "手雷初始动作完全变形了",
+      "historical_functional_checks_retained": true
+    },
+    "limitations": [
+      "Exact finger-surface grasp/garment strain, all locomotion/natural combat/stress/PIE/second-machine remain unassessed.",
+      "FP equipped preparation/cancel reuse Loop; original body Start/Cancel and action clocks retained. Equip frame boundaries return immediately to coherent rifle; entry hand eases0.25s.",
+      "Traversal inherits named crate approaches; reverse face unsupported."
+    ],
+    "editor": {
+      "new_entry_or_pie_acceptance": false,
+      "copied_parent_binaries_not_for_entry": true
+    },
+    "schema_version": 3,
+    "historical_status": "grenade_initial_pose_repaired_candidate_manual_review_pending",
+    "human_review_at": "2026-10-14T09:04:24.249446-04:00",
+    "human_review_authorization": "用户：已确认没问题，合并到正式资产，替换当前投掷动作，做完同步到资产管理平台，删除中间测试相关打包，释放空间",
+    "human_manual_review": "User confirms no problems and adopts this exact grenade/traversal build14October2026",
+    "formal_adoption": true,
+    "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
+    "retired_playable_recovery_map": "Docs/Development/G1GrenadeBaselineAdoption20261014/RECOVERY_MAP_20261014.json"
+  },
+  "active_source_files": 86,
+  "human_review": "passed_user_attestation_20261014"
 }

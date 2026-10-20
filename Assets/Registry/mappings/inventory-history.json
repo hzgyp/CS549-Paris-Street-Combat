@@ -4869,6 +4869,393 @@
         "smoke-grenade-model-v1-browser-front",
         "smoke-grenade-model-v1-browser-side"
       ]
+    },
+    {
+      "id": "frag-grenade-formal-inherited-78-20261013",
+      "asset_id": "frag-grenade",
+      "title": "正式78沿用模型v1与投掷玩法",
+      "kind": "integration_revision",
+      "parent_ids": [
+        "frag-grenade-wheel-integration-v4-20261011"
+      ],
+      "document": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+      "model_identity": "afabba30064554eee257648388681999c376a57ea6bd988a9a64f12b0e159b6e",
+      "summary": "原模型字节不改；76玩法已人工采用，78仅更新第一人称显示工作范围。",
+      "scope": "读取人工采用与既有结果；不是本次游戏重跑或新的完整接触验收。",
+      "result": "accepted_with_limits",
+      "media_ids": [
+        "frag-grenade-model-v1-browser-front",
+        "frag-grenade-model-v1-browser-side"
+      ],
+      "metrics": {
+        "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+        "source_manifest_sha256": "aee85c67c53b3e6d2b90131de8974c2f47733c2cbf6a1ed2057c9f5caf74a79e"
+      }
+    },
+    {
+      "id": "smoke-grenade-formal-inherited-78-20261013",
+      "asset_id": "smoke-grenade",
+      "title": "正式78沿用模型v1与投掷玩法",
+      "kind": "integration_revision",
+      "parent_ids": [
+        "smoke-grenade-wheel-integration-v4-20261011"
+      ],
+      "document": "Docs/Development/G1_SLEEVE_BASELINE_ADOPTION_RESULT_20261013_ZH.md",
+      "model_identity": "8ba88a47a95c683398c5f470973a952971cf75123fdb17e7dc8ec6e5b604c1e7",
+      "summary": "原模型字节不改；76玩法已人工采用，78仅更新第一人称显示工作范围。",
+      "scope": "读取人工采用与既有结果；不是本次游戏重跑或新的完整接触验收。",
+      "result": "accepted_with_limits",
+      "media_ids": [
+        "smoke-grenade-model-v1-browser-front",
+        "smoke-grenade-model-v1-browser-side"
+      ],
+      "metrics": {
+        "game_sha256": "48a008bdbe9d2b51c4e7dab77d4bd2eac293727b000d0abc1974d53d056eaab5",
+        "source_manifest_sha256": "aee85c67c53b3e6d2b90131de8974c2f47733c2cbf6a1ed2057c9f5caf74a79e"
+      }
+    },
+    {
+      "id": "anim-rifle-animset-pro-traversal-candidate-v8-20261013",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "traversal-candidate-v8-20261013",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "Original Vault InPlace display plus measured RootMotion trajectory; source83 independent candidate, 10 same-Game runs pass; human review pending. Later actual normal crate-edge Space review fails; see TR002, no candidate human acceptance.",
+      "scope": "Local tested usage of unchanged native assets; formal sleeve78 still selected. Fine contact/natural combat/PIE/stress unassessed.",
+      "document": "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013_ZH.md",
+      "metrics": {
+        "game_sha256": "bcfe60e028b8d63e467d11058e3c95a22c9690e1002df9f06bec73220485690e",
+        "source_files": 83,
+        "same_game_runs": 10,
+        "human_review": "failed_box_edge_input"
+      },
+      "media_ids": []
+    },
+    {
+      "id": "paris-city-traversal-candidate-v8-20261013",
+      "asset_id": "paris-city",
+      "title": "traversal-candidate-v8-20261013",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "Original SM_Crate_01a explicitly scaled to70x150x100cm at measured street support; independent candidate only.",
+      "scope": "Local tested usage of unchanged native assets; formal sleeve78 still selected. Fine contact/natural combat/PIE/stress unassessed.",
+      "document": "Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013_ZH.md",
+      "metrics": {
+        "game_sha256": "bcfe60e028b8d63e467d11058e3c95a22c9690e1002df9f06bec73220485690e",
+        "source_files": 83,
+        "same_game_runs": 10,
+        "human_review": "pending"
+      },
+      "media_ids": []
+    },
+    {
+      "id": "anim-rifle-animset-pro-traversal-input-repair-v13-20261013",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "贴箱翻越输入修复v13",
+      "kind": "inventory_revision",
+      "result": "local_verified_manual_review_pending",
+      "summary": "原资产不改；近胶囊边Space及失败原跳跃回退修复。九项原绑定场景、十项同最终Game通过。",
+      "scope": "Explicit setup/NPC-isolated probes at measured crate; reverse/fine contact/full-map unassessed, formal78 unchanged.",
+      "document": "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "66e69bb5a61a71d3f19f70eb2dd73b0642e1a7236a1adf07f3d2e627ad0ce354",
+        "source_files": 83,
+        "same_game_runs": 10,
+        "input_cases": 9,
+        "input_assertions": 61,
+        "input_samples": 3333,
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "paris-city-traversal-input-repair-v13-20261013",
+      "asset_id": "paris-city",
+      "title": "贴箱翻越输入修复v13",
+      "kind": "inventory_revision",
+      "result": "local_verified_manual_review_pending",
+      "summary": "原资产不改；近胶囊边Space及失败原跳跃回退修复。九项原绑定场景、十项同最终Game通过。",
+      "scope": "Explicit setup/NPC-isolated probes at measured crate; reverse/fine contact/full-map unassessed, formal78 unchanged.",
+      "document": "Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "66e69bb5a61a71d3f19f70eb2dd73b0642e1a7236a1adf07f3d2e627ad0ce354",
+        "source_files": 83,
+        "same_game_runs": 10,
+        "input_cases": 9,
+        "input_assertions": 61,
+        "input_samples": 3333,
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "frag-grenade-hand-side-audit-20261013",
+      "asset_id": "frag-grenade",
+      "title": "左右手不一致核查：确认待修复",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "可见挂件和FP校准使用hand_r，当前原生投掷主要hand_l出手；继承正式78，尚未改投掷。",
+      "scope": "Read-only actual US-mesh compressed native pose/source audit; not full FP contact/timing acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "native_clips": 4,
+        "packages_saved": false,
+        "equipment_source_same_as_formal78": true,
+        "repair_implemented": false,
+        "finding": "confirmed_hand_side_mismatch"
+      }
+    },
+    {
+      "id": "smoke-grenade-hand-side-audit-20261013",
+      "asset_id": "smoke-grenade",
+      "title": "左右手不一致核查：确认待修复",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "可见挂件和FP校准使用hand_r，当前原生投掷主要hand_l出手；继承正式78，尚未改投掷。",
+      "scope": "Read-only actual US-mesh compressed native pose/source audit; not full FP contact/timing acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "native_clips": 4,
+        "packages_saved": false,
+        "equipment_source_same_as_formal78": true,
+        "repair_implemented": false,
+        "finding": "confirmed_hand_side_mismatch"
+      }
+    },
+    {
+      "id": "anim-rifle-animset-pro-hand-side-audit-20261013",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "左右手不一致核查：确认待修复",
+      "kind": "inventory_revision",
+      "result": "recorded",
+      "summary": "可见挂件和FP校准使用hand_r，当前原生投掷主要hand_l出手；继承正式78，尚未改投掷。",
+      "scope": "Read-only actual US-mesh compressed native pose/source audit; not full FP contact/timing acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "native_clips": 4,
+        "packages_saved": false,
+        "equipment_source_same_as_formal78": true,
+        "repair_implemented": false,
+        "finding": "confirmed_hand_side_mismatch"
+      }
+    },
+    {
+      "id": "frag-grenade-left-hand-repair-v2-20261013",
+      "asset_id": "frag-grenade",
+      "title": "左手持握／出手修复与翻越合并v2",
+      "kind": "integration_revision",
+      "result": "recorded",
+      "summary": "Original mesh/native clips retained; prop/palm/FP frame follows left throwing hand and visible-centre release. Formal78 unchanged. Later handoff validation finds Smoke pivot/bounds offset and default birth orientation reset; v2 retained/unselected, v3 follow-up.",
+      "scope": "Nine actual combined sameGame runs, scoped actual poses/cover/resources/save/input; human pending, no fine/all-motion/natural combat acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_V2_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "d520bdd4d902de58aaf0079ad70dbc5bb33b25f357e25105f88d303ab9bb3072",
+        "source_files": 84,
+        "same_game_runs": 9,
+        "render_hand_assertions": 19,
+        "live_hand_assertions": 19,
+        "live_samples": 742,
+        "grenade_hand": "left",
+        "human_review": "unselected_pending_visible_birth_orientation"
+      }
+    },
+    {
+      "id": "smoke-grenade-left-hand-repair-v2-20261013",
+      "asset_id": "smoke-grenade",
+      "title": "左手持握／出手修复与翻越合并v2",
+      "kind": "integration_revision",
+      "result": "recorded",
+      "summary": "Original mesh/native clips retained; prop/palm/FP frame follows left throwing hand and visible-centre release. Formal78 unchanged. Later handoff validation finds Smoke pivot/bounds offset and default birth orientation reset; v2 retained/unselected, v3 follow-up.",
+      "scope": "Nine actual combined sameGame runs, scoped actual poses/cover/resources/save/input; human pending, no fine/all-motion/natural combat acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_V2_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "d520bdd4d902de58aaf0079ad70dbc5bb33b25f357e25105f88d303ab9bb3072",
+        "source_files": 84,
+        "same_game_runs": 9,
+        "render_hand_assertions": 19,
+        "live_hand_assertions": 19,
+        "live_samples": 742,
+        "grenade_hand": "left",
+        "human_review": "unselected_pending_visible_birth_orientation"
+      }
+    },
+    {
+      "id": "anim-rifle-animset-pro-left-hand-repair-v2-20261013",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "左手持握／出手修复与翻越合并v2",
+      "kind": "integration_revision",
+      "result": "recorded",
+      "summary": "Original mesh/native clips retained; prop/palm/FP frame follows left throwing hand and visible-centre release. Formal78 unchanged. Later handoff validation finds Smoke pivot/bounds offset and default birth orientation reset; v2 retained/unselected, v3 follow-up.",
+      "scope": "Nine actual combined sameGame runs, scoped actual poses/cover/resources/save/input; human pending, no fine/all-motion/natural combat acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_V2_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "d520bdd4d902de58aaf0079ad70dbc5bb33b25f357e25105f88d303ab9bb3072",
+        "source_files": 84,
+        "same_game_runs": 9,
+        "render_hand_assertions": 19,
+        "live_hand_assertions": 19,
+        "live_samples": 742,
+        "grenade_hand": "left",
+        "human_review": "unselected_pending_visible_birth_orientation"
+      }
+    },
+    {
+      "id": "frag-grenade-left-hand-repair-v3-20261013",
+      "asset_id": "frag-grenade",
+      "title": "左手持握／出手修复与翻越合并v2",
+      "kind": "integration_revision",
+      "result": "user_rejected_initial_pose",
+      "summary": "Original mesh/native clips retained; prop/palm/FP frame follows left throwing hand and visible-centre release. Formal78 unchanged. Human rejected initial deformation; functional receipts retained; superseded by posev8.",
+      "scope": "Nine actual combined sameGame runs, scoped actual poses/cover/resources/save/input; human pending, no fine/all-motion/natural combat acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "c326acd1a6d99c810bec9343f5e016e71b826bd014560d6974cfc317476c1749",
+        "source_files": 84,
+        "same_game_runs": 9,
+        "render_hand_assertions": 24,
+        "live_hand_assertions": 24,
+        "grenade_hand": "left",
+        "human_review": "rejected_initial_pose"
+      }
+    },
+    {
+      "id": "smoke-grenade-left-hand-repair-v3-20261013",
+      "asset_id": "smoke-grenade",
+      "title": "左手持握／出手修复与翻越合并v2",
+      "kind": "integration_revision",
+      "result": "user_rejected_initial_pose",
+      "summary": "Original mesh/native clips retained; prop/palm/FP frame follows left throwing hand and visible-centre release. Formal78 unchanged. Human rejected initial deformation; functional receipts retained; superseded by posev8.",
+      "scope": "Nine actual combined sameGame runs, scoped actual poses/cover/resources/save/input; human pending, no fine/all-motion/natural combat acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "c326acd1a6d99c810bec9343f5e016e71b826bd014560d6974cfc317476c1749",
+        "source_files": 84,
+        "same_game_runs": 9,
+        "render_hand_assertions": 24,
+        "live_hand_assertions": 24,
+        "grenade_hand": "left",
+        "human_review": "rejected_initial_pose"
+      }
+    },
+    {
+      "id": "anim-rifle-animset-pro-left-hand-repair-v3-20261013",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "左手持握／出手修复与翻越合并v2",
+      "kind": "integration_revision",
+      "result": "user_rejected_initial_pose",
+      "summary": "Original mesh/native clips retained; prop/palm/FP frame follows left throwing hand and visible-centre release. Formal78 unchanged. Human rejected initial deformation; functional receipts retained; superseded by posev8.",
+      "scope": "Nine actual combined sameGame runs, scoped actual poses/cover/resources/save/input; human pending, no fine/all-motion/natural combat acceptance.",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "c326acd1a6d99c810bec9343f5e016e71b826bd014560d6974cfc317476c1749",
+        "source_files": 84,
+        "same_game_runs": 9,
+        "render_hand_assertions": 24,
+        "live_hand_assertions": 24,
+        "grenade_hand": "left",
+        "human_review": "rejected_initial_pose"
+      }
+    },
+    {
+      "id": "frag-grenade-pose-repair-v8-20261014",
+      "asset_id": "frag-grenade",
+      "title": "手雷初始姿势与腕部修复v8",
+      "kind": "integration_revision",
+      "result": "accepted_with_limits",
+      "summary": "用户确认v8无问题，原86/Game正式采用为当前手雷投掷绑定；原模型/native/指姿不改，定量精细/全动作限制保留。",
+      "scope": "11项原同Game检查/25图及人工采用；不扩大PIE/全接触/自然战斗/压力/第二机器。",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [
+        "frag-formal86-ready"
+      ],
+      "metrics": {
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "source_files": 86,
+        "same_game_runs": 11,
+        "human_review": "passed_user_attestation",
+        "formal_adoption": true,
+        "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json"
+      },
+      "human_review_date": "2026-10-14",
+      "current_grip_selection": false,
+      "superseded_for_grip_appearance_by": "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json"
+    },
+    {
+      "id": "smoke-grenade-pose-repair-v8-20261014",
+      "asset_id": "smoke-grenade",
+      "title": "手雷初始姿势与腕部修复v8",
+      "kind": "integration_revision",
+      "result": "accepted_with_limits",
+      "summary": "用户确认v8无问题，原86/Game正式采用为当前手雷投掷绑定；原模型/native/指姿不改，定量精细/全动作限制保留。",
+      "scope": "11项原同Game检查/25图及人工采用；不扩大PIE/全接触/自然战斗/压力/第二机器。",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [
+        "smoke-formal86-ready"
+      ],
+      "metrics": {
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "source_files": 86,
+        "same_game_runs": 11,
+        "human_review": "passed_user_attestation",
+        "formal_adoption": true,
+        "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json"
+      },
+      "human_review_date": "2026-10-14",
+      "current_grip_selection": false,
+      "superseded_for_grip_appearance_by": "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json"
+    },
+    {
+      "id": "first-person-pose-repair-v8-20261014",
+      "asset_id": "first-person",
+      "title": "手雷初始姿势与腕部修复v8",
+      "kind": "integration_revision",
+      "result": "accepted_with_limits",
+      "summary": "用户确认v8无问题，原86/Game正式采用为当前手雷投掷绑定；原模型/native/指姿不改，定量精细/全动作限制保留。",
+      "scope": "11项原同Game检查/25图及人工采用；不扩大PIE/全接触/自然战斗/压力/第二机器。",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [
+        "fp-grenade-formal86"
+      ],
+      "metrics": {
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "source_files": 86,
+        "same_game_runs": 11,
+        "human_review": "passed_user_attestation",
+        "formal_adoption": true,
+        "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json"
+      },
+      "human_review_date": "2026-10-14",
+      "current_grip_selection": false,
+      "superseded_for_grip_appearance_by": "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json"
+    },
+    {
+      "id": "anim-rifle-animset-pro-pose-repair-v8-20261014",
+      "asset_id": "anim-rifle-animset-pro",
+      "title": "手雷初始姿势与腕部修复v8",
+      "kind": "integration_revision",
+      "result": "accepted_with_limits",
+      "summary": "用户确认v8无问题，原86/Game正式采用为当前手雷投掷绑定；原模型/native/指姿不改，定量精细/全动作限制保留。",
+      "scope": "11项原同Game检查/25图及人工采用；不扩大PIE/全接触/自然战斗/压力/第二机器。",
+      "document": "Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md",
+      "media_ids": [],
+      "metrics": {
+        "game_sha256": "d406192855ae53de08c519657491f5cbb3f2f147cbcdf9e11c2173ebc3e0835a",
+        "source_files": 86,
+        "same_game_runs": 11,
+        "human_review": "passed_user_attestation",
+        "formal_adoption": true,
+        "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json"
+      },
+      "human_review_date": "2026-10-14"
     }
   ]
 }

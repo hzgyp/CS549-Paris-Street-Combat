@@ -1,0 +1,139 @@
+{
+  "status": "formal_grip_assets_human_accepted_sftp_verified",
+  "date": "2026-10-17",
+  "source_project": "Unreal/Variants/G1ThumbPolish20261017/Project",
+  "source_manifest": "Unreal/Variants/G1ThumbPolish20261017/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046",
+  "source_files": 125,
+  "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+  "playable_directory": "tmp/Playtest-G1-Thumb-Polish-20261017",
+  "playable_entry": "tmp/Playtest-G1-Thumb-Polish-20261017/PLAY_THUMB_POLISH.cmd",
+  "user_dir": "G1ThumbPolish20261017",
+  "save_prefix": "ParisCheckpointHistoryV1",
+  "actual_save_copies": 7,
+  "parent_selector": "Docs/Development/CURRENT_TUTORIAL_LATEST_PLAYTEST_REVIEW.json",
+  "native_asset": "/Game/ParisCombat/Characters/ThumbPolish20261017/SK_PC_ThumbPolish",
+  "checks": [
+    {
+      "identity": "fp_hold_release",
+      "exit_code": 0,
+      "status": "pass_binding_audit_capture",
+      "checks": 12,
+      "result": "tmp/g1-thumb-polish-playtest-20261017/checks/fp_hold_release/RESULT.json",
+      "mode": "binding_fp",
+      "result_sha256": "0d73eb55a2f831d3d7a686f9b70a0c7d95ccbe11653f699bc3a0bd471afc2b87",
+      "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+      "scope": "Candidate shared FP/V production bindings active; scoped regression and visual review required. Tutorial102 parent, real Tutorial/ProneStrafe/CheckpointHistory flags, original4/8 ammo and1/1 grenades. StartTraining invoked normally; lesson completion is not claimed. Declared AI hold/flat relocation; ordinary V camera, original actual input/resources; no resource injection."
+    },
+    {
+      "identity": "v_actions",
+      "exit_code": 0,
+      "status": "pass_observer_grenade_sequence",
+      "checks": 10,
+      "result": "tmp/g1-thumb-polish-playtest-20261017/checks/v_actions/RESULT.json",
+      "mode": "v_actions",
+      "result_sha256": "edcf735bb2f1b35f1ef2152dddbb864e260bc2c4d9c092e8ed532b5aad26504b",
+      "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+      "scope": "Real controller wheel/primary/Escape/V; declared AI hold and flat site; ordinary V or named supplementary camera. Visual inspection required; no human acceptance."
+    },
+    {
+      "identity": "teaching",
+      "exit_code": 0,
+      "status": "pass_copy_training_actual_CP0_save",
+      "checks": 10,
+      "result": "tmp/g1-thumb-polish-playtest-20261017/checks/teaching/RESULT.json",
+      "mode": "copy_training",
+      "result_sha256": "3b6edbf5d67b2cd9d08326bb072f9132fbc4bbe946ad06474147e169ce88b9c5",
+      "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+      "scope": "Opt-in native movement/input and real durable saves; declared direct-damage fixture only for combat checkpoint checks; not human natural-combat acceptance."
+    },
+    {
+      "identity": "ctrl_prone_lifecycle",
+      "exit_code": 0,
+      "status": "pass_binding_audit_capture",
+      "checks": 21,
+      "result": "tmp/g1-thumb-polish-playtest-20261017/checks/ctrl_prone_lifecycle/RESULT.json",
+      "mode": "binding_lifecycle",
+      "result_sha256": "68724be960267624da6b154e0b4071fbb9e82eebd03860abcf2ccc236c3dd105",
+      "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+      "scope": "Candidate shared FP/V production bindings active; scoped regression and visual review required. Tutorial102 parent, real Tutorial/ProneStrafe/CheckpointHistory flags, original4/8 ammo and1/1 grenades. StartTraining invoked normally; lesson completion is not claimed. Declared AI hold/flat relocation; ordinary V camera, original actual input/resources; no resource injection."
+    },
+    {
+      "identity": "actual_cp1",
+      "exit_code": 0,
+      "status": "pass_flow_cp1_restore",
+      "checks": 4,
+      "result": "tmp/g1-thumb-polish-playtest-20261017/checks/actual_cp1/RESULT.json",
+      "mode": "flow_cp1_restore",
+      "result_sha256": "5e7abfd6a626e415a4d96abf5cefe0f0897dcab70f7684d218e9775c4997ea05",
+      "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+      "scope": "Native path movement, original actual mine/contact/blast/death, original death-menu Load, actual E saves. Original guard damage endpoints are declared clear fixtures; no pawn relocation, mine-state assignment, resource grants or AI isolation. Not human natural-combat/all-map acceptance."
+    }
+  ],
+  "formal_adoption": false,
+  "publication": false,
+  "human_review": "Frag/smoke grips accepted 17 October 2026; other features retain their own review scope",
+  "known_limit": "Smoke palm-side pre-existing contact residue; bounded frames, no full contact/PIE/stress/second-machine acceptance.",
+  "implementation_result": "Docs/Development/MissionLoopV1/THUMB_POLISH_PLAYTEST_RESULT_20261017.md",
+  "native_manifest": "tmp/g1-thumb-polish-playtest-20261017/NATIVE_MANIFEST.json",
+  "runtime_resource_reused_bytes": 8137340773,
+  "runtime_new_supplement_bytes": 944257,
+  "visual_review": "tmp/g1-thumb-polish-playtest-20261017/VISUAL_REVIEW.json",
+  "protection": "tmp/g1-thumb-polish-playtest-20261017/PROTECTION.json",
+  "startup": "tmp/g1-thumb-polish-playtest-20261017/normal_smoke_thumb/launch.json",
+  "build": "tmp/g1-thumb-polish-playtest-20261017/game_v1/build.json",
+  "source_snapshot": "Unreal/Variants/G1ThumbPolish20261017/Project",
+  "revision": "game_v1",
+  "launcher_sha256": "801818447a2ddc91f57024a70a9f56d4689f137b321a49c265bf8776b17cc7e6",
+  "default_language": "zh-Hans",
+  "human_manual_review": "Frag/smoke holding appearance accepted by user 17 October 2026",
+  "check_queue": "tmp/g1-thumb-polish-playtest-20261017/CHECKS.json",
+  "grip_asset_formal_adoption": true,
+  "grip_asset_publication": true,
+  "accepted_grip_selector": "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
+  "asset_manifest": "Assets/Sync/manifests/paris-grenade-grips.json",
+  "asset_manifest_sha256": "038e41e2169b33c11302b3c03fb7fdbd0dca2b1ec5ce8bec18d0ea2c571d6471",
+  "asset_release": "grenade-grips-20261017-v1",
+  "scope": "Frag/smoke holding appearance and matching native/source adapter only. Formal86 and other feature acceptance remain independently routed.",
+  "adoption_result": "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_RESULT_20261017.md",
+  "human_acceptance": {
+    "date": "2026-10-17",
+    "quote": "这版握持手雷，烟雾弹验收通过。",
+    "game_sha256": "946e5f269999d3fd97b5045a37f7954e98dbb19ccc85453ce0a0d8fdec3311f5",
+    "source_manifest_sha256": "eb534c165ddaf0fbe9b6623859631f13a5a9bceafea9ad7f04c91e3918652046"
+  },
+  "editable_asset": {
+    "path": "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Evidence/ThumbWebPolish.blend",
+    "size_bytes": 641179,
+    "sha256": "838a26a255a78072f503c671334947a379405927449348cdec0c66f3c1998bb2",
+    "storage": "sftp",
+    "remote_path": "/objects/sha256/83/838a26a255a78072f503c671334947a379405927449348cdec0c66f3c1998bb2"
+  },
+  "current_previews": [
+    "Assets/LocalShared/SFTP/baselines/grenade-grips-20261017-v1/Evidence/ACCEPTED_RUNTIME_GRIPS.jpg"
+  ],
+  "asset_dependencies": [
+    {
+      "asset_id": "us-paratrooper-original",
+      "asset_version": "character-20261001-v1",
+      "path": "Assets/Sync/manifests/us-paratrooper-original.json",
+      "sha256": "6d9d1a3cf4619bca80205c60958ea29fb3d0689b6759e7b585036549027846a4",
+      "release_manifest": "/releases/character-20261001-v1/us-paratrooper-original.json"
+    },
+    {
+      "asset_id": "rifle-pro-mocap-ue582-selected",
+      "asset_version": "rifle-motion-20261002-v1",
+      "path": "Assets/Sync/manifests/rifle-pro-mocap-ue582-selected.json",
+      "sha256": "55a0fe8112e23355ebdfa69e6eb2c9dd50dbac9a2d27211918e68dc67c179126",
+      "release_manifest": "/releases/rifle-motion-20261002-v1/rifle-pro-mocap-ue582-selected.json"
+    },
+    {
+      "asset_id": "paris-gameplay-native-playtest",
+      "asset_version": "paris-native-playtest-20261008-g1-npc-vfx-v1",
+      "path": "Assets/Sync/manifests/paris-gameplay-native-playtest.json",
+      "sha256": "a52c2cc7aad73b5a2fca42c264056a2717b1f86e88c8bf3b87f088f71300c18c",
+      "release_manifest": "/releases/paris-native-playtest-20261008-g1-npc-vfx-v1/paris-gameplay-native-playtest.json"
+    }
+  ],
+  "rejected_candidates_are_historical": true
+}

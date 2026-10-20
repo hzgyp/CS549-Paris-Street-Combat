@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "status": "local_observer_Z_scoped_verified_human_case_retest_pending",
+  "revision": "build_v6",
+  "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+  "source_snapshot": "Unreal/Variants/G1ProneObserver20261014/Project",
+  "source_manifest": "Unreal/Variants/G1ProneObserver20261014/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "7b8f9e79c6440d4ba82094ef3e0a9bd6631d15c4f64a1cde6f751b101f286053",
+  "source_files": 93,
+  "active_authoring_project": "tmp/g1-prone-observer-20261014/candidate_v1/Project/WW2FranceLiberation.uproject",
+  "playable_directory": "tmp/Playtest-G1-ProneObserver-20261014",
+  "playable_entry": "tmp/Playtest-G1-ProneObserver-20261014/PLAY_PRONE_OBSERVER.cmd",
+  "user_dir": "G1ProneObserver20261014",
+  "save_prefix": "ParisProneObserverV1",
+  "parent_source": "Unreal/Variants/G1ProneTransition20261014/Project",
+  "parent_game_sha256": "52576ee48d1e555fb3f438fe0268155bfff367110092b8adffffac939649c809",
+  "parent_human_review": "Native motion looks fine; stationary V then Z refusal reported. Exact human position unknown.",
+  "manual_review": "pending_observer_retest",
+  "formal_adoption": false,
+  "implementation": "Docs/Development/MissionLoopV1/PRONE_OBSERVER_IMPLEMENTATION_20261014_ZH.md",
+  "result": "Docs/Development/MissionLoopV1/PRONE_OBSERVER_RESULT_20261014_ZH.md",
+  "checks": [
+    {
+      "mode": "observer_equivalence",
+      "status": "pass_native_prone_observer_equivalence",
+      "result": "tmp/g1-prone-observer-20261014/checks/observer_equivalence_v6/RESULT.json",
+      "sha256": "66b40654987a6d11659148ca35528e72aac571bbe1571a34a411f81a67326d11",
+      "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+      "checks": 23
+    },
+    {
+      "mode": "observer_live",
+      "status": "pass_native_prone_observer",
+      "result": "tmp/g1-prone-observer-20261014/checks/observer_live_v6/RESULT.json",
+      "sha256": "e7ccffc659830338565a10809a6d8fe9344aec08a9ed124c7c928f79205d201a",
+      "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+      "checks": 17
+    },
+    {
+      "mode": "observer_toggle",
+      "status": "pass_native_prone_observer_toggle",
+      "result": "tmp/g1-prone-observer-20261014/checks/observer_toggle_v6/RESULT.json",
+      "sha256": "e7a8264bbdd1ca950a2921de4a34dd739aedd27a41b2113eaa5e6d73953e756d",
+      "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+      "checks": 20
+    },
+    {
+      "mode": "observer_safety",
+      "status": "pass_native_prone_observer_safety",
+      "result": "tmp/g1-prone-observer-20261014/checks/observer_safety_v6/RESULT.json",
+      "sha256": "9f360e7793800badfb8afe96cb22affb471cb4e4dfbd94c4fcff4c129aca500d",
+      "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+      "checks": 10
+    },
+    {
+      "mode": "observer_lifecycle",
+      "status": "pass_native_prone_observer_lifecycle",
+      "result": "tmp/g1-prone-observer-20261014/checks/observer_lifecycle_v6/RESULT.json",
+      "sha256": "82485257b946af2b1666f91b854daaa37777c40f97b96ef9902a9038f182b99a",
+      "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+      "checks": 6
+    },
+    {
+      "mode": "first_person",
+      "status": "pass_native_prone_visual_fp",
+      "result": "tmp/g1-prone-observer-20261014/checks/first_person_v6/RESULT.json",
+      "sha256": "1b7fbf4accdd03513b055b18dd87849cdfb4fad2f2cdcb80251b31be0d392a3b",
+      "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+      "checks": 15
+    },
+    {
+      "mode": "traversal_input",
+      "status": "pass_native_traversal_input",
+      "result": "tmp/g1-prone-observer-20261014/checks/traversal_input_v6/RESULT.json",
+      "sha256": "8498dbe44f7d304f16c4d4969517438279bf8a3cfb14c72dff0d33c0d66e5463",
+      "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+      "checks": 61
+    },
+    {
+      "mode": "traversal_visual",
+      "status": "pass_native_traversal_visual",
+      "result": "tmp/g1-prone-observer-20261014/checks/traversal_visual_v6/RESULT.json",
+      "sha256": "00e8d6409762db2487f4e08a3352c07c733a42d2476fa825f75a0165928bb416",
+      "game_sha256": "089ff6987b813349608fb1400cdcb9f9d50d5f79bd3e5b3400f20c8e835ae157",
+      "checks": 9
+    }
+  ],
+  "protection": "tmp/g1-prone-observer-20261014/build_v6/PROTECTION.json",
+  "visual_review": "tmp/g1-prone-observer-20261014/VISUAL_REVIEW.json",
+  "native_package": "Docs/Development/ProneTransition20261014/NATIVE_PACKAGE.json",
+  "matching_editor": "tmp/g1-prone-observer-20261014/editor_build_final/build-editor.json",
+  "repair_scope": [
+    "Original Z native gate and all thresholds retained; no blanket observer-key block found.",
+    "Obstacle/support-specific refusal feedback and actual collision/feet/yaw logs.",
+    "Ordinary V camera sphere clearance with alternate clear sides, readable framing.",
+    "Successful Z clears only its own still-current old rejection hint."
+  ],
+  "human_report": {
+    "stationary_V_then_Z": true,
+    "original_log_preserved": "tmp/g1-prone-observer-20261014/human_original_game.log",
+    "exact_human_location_reproduced": false,
+    "controlled_comparison": "Same feet/yaw FP and TP both reject original spawn rubble; both admit level site. Ordinary V+Z, all native entry/exit/crouch and mid-action view toggles pass."
+  },
+  "limitations": [
+    "Exact original human coordinates/facing not recorded; original event cause cannot be pinned to the controlled rubble object. Human stationary V+Z retest pending.",
+    "Rifle required; original space/support/headroom protections retained.",
+    "Camera alternatives bounded; fully enclosed areas can still constrain framing.",
+    "No whole-map/fine contact/PIE/stress/second-machine/course acceptance; formal86 and tutorial Chinese lane unchanged."
+  ],
+  "publication": "Local independent trial and local metadata only; no adoption, cleanup, Git, SFTP or coursework upload",
+  "observer_combat_binding_audit": {
+    "status": "code_and_tutorial_runtime_confirmed_split_presentation_bindings_not_repaired",
+    "document": "Docs/Development/MissionLoopV1/OBSERVER_ACTION_BINDING_AUDIT_20261014_ZH.md",
+    "runtime_document": "Docs/Development/MissionLoopV1/OBSERVER_TUTORIAL_RUNTIME_AUDIT_20261014_ZH.md",
+    "human_report_version": "unified_tutorial_zh102",
+    "tutorial_game_sha256": "34be2b1d6d732f035b62eadd408a3f351650dde3884c7ecad5e59a4d67ef8d10",
+    "diagnostic_game_sha256": "1b37f0ce54b0c46020335df4ebf755df18755bb1344876d51f4110234204ec81",
+    "new_TP_capture": "completed_scoped_on_tutorial102",
+    "scoped_runtime_runs": 3,
+    "transaction_assertions": 21,
+    "selected_images": 63,
+    "production_code_changed": false,
+    "production_repair_implemented": false,
+    "full_TPS_acceptance": false,
+    "scope": "Exact tutorial102 production bindings plus opt-in104 diagnostics. FP/ordinary V/reload toggles; native transactions verified; presentation defects remain."
+  }
+}

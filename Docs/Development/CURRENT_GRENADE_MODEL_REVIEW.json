@@ -1,5 +1,5 @@
 {
-  "status": "historical_parent_integrated_into_selected76",
+  "status": "historical_parent_integrated_into_selected78",
   "revision": "candidate_grenade_models_v5",
   "game_sha256": "a927caa398cdba4d12b8d9ea9a6e05977f66263c504d70635adc195a8cf4eb59",
   "source_snapshot": "Unreal/Variants/G1GrenadeModels20261011/Project",
@@ -162,7 +162,9 @@
   "publication": "none; no Git/SFTP/adoption",
   "editors": "Existing UE Editors remain open",
   "historical_status": "unselected_unified_grenade_models_candidate",
-  "integrated_into": "g1-complete-gameplay-grenade-equip-20261011",
+  "integrated_into": "g1-sleeve-workspace-20261012-reviewed-20261013",
   "current_baseline": "Docs/Development/CURRENT_DEVELOPMENT_BASELINE.json",
-  "retired_playable_recovery_map": "Docs/Development/G1GameplayBaselineAdoption20261011/RECOVERY_MAP_20261011.json"
+  "retired_playable_recovery_map": "Docs/Development/G1SleeveBaselineAdoption20261013/RECOVERY_MAP_20261013.json",
+  "integrated_into_selected_baseline": "g1-grenade-pose-v8-human-reviewed-20261014",
+  "integration_scope": "Original reviewed feature retained in current86; original feature receipts keep their dated identity."
 }

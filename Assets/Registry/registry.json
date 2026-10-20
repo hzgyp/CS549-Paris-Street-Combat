@@ -18,7 +18,108 @@
     "Failures/MI035-20261011-ui-restore-fixture-alias/ANALYSIS.md",
     "Failures/MI036-20261011-ui-ready-selection-fixture/ANALYSIS.md",
     "Docs/Development/GERMAN_NPC_ALLIED_GRIP_V13_RESULT_20261006.md",
-    "Docs/Development/GERMAN_NPC_FORMAL_V14_RESULT_20261006.md"
+    "Docs/Development/GERMAN_NPC_FORMAL_V14_RESULT_20261006.md",
+    "Docs/Development/AssetWorkbenchV1/GAMEPLAY_INTEGRATION_IMPLEMENTATION_20261013_ZH.md",
+    "Docs/Development/AssetWorkbenchV1/GAMEPLAY_INTEGRATION_RESULT_20261013_ZH.md",
+    "Docs/Development/AssetWorkbenchV1/GAMEPLAY_INTEGRATION_RESULT_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_RESULT_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_REVISION_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_IMPLEMENTATION_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_CHECKPOINT_HISTORY_RESULT_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_IMPLEMENTATION_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_FLOW_FIX_RESULT_20261013_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_IMPLEMENTATION_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014.md",
+    "Docs/Development/MissionLoopV1/G1_TUTORIAL_UNIFIED_ZH_RESULT_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_PLAN_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_IMPLEMENTATION_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_RESULT_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/PRONE_TRANSITION_IMPLEMENTATION_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/PRONE_TRANSITION_RESULT_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/PRONE_TRANSITION_RESULT_20261014.md",
+    "Docs/Development/ProneTransition20261014/NATIVE_PACKAGE.json",
+    "Docs/Development/MissionLoopV1/PRONE_OBSERVER_RESULT_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/PRONE_OBSERVER_IMPLEMENTATION_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/PRONE_OBSERVER_RESULT_20261014.md",
+    "Docs/Development/CURRENT_PRONE_OBSERVER_REVIEW.md",
+    "Docs/Development/MissionLoopV1/OBSERVER_ACTION_BINDING_AUDIT_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/OBSERVER_TUTORIAL_RUNTIME_AUDIT_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/UNIFIED_PERSPECTIVE_IMPLEMENTATION_20261014.md",
+    "Docs/Development/MissionLoopV1/UNIFIED_PERSPECTIVE_IMPLEMENTATION_20261014_ZH.md",
+    "Docs/Development/MissionLoopV1/UNIFIED_PERSPECTIVE_RESULT_20261014.md",
+    "Docs/Development/MissionLoopV1/UNIFIED_PERSPECTIVE_RESULT_20261014_ZH.md",
+    "Failures/UP001-20261014-unified-perspective-bindings/ANALYSIS.md",
+    "Docs/Development/MissionLoopV1/UNIFIED_BODY_REPAIR_RESULT_20261015.md",
+    "Docs/Development/MissionLoopV1/UNIFIED_BODY_REPAIR_RESULT_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/UNIFIED_BODY_REPAIR_20261015.md",
+    "Docs/Development/MissionLoopV1/UNIFIED_BODY_REPAIR_20261015_ZH.md",
+    "Failures/UP002-20261015-missing-arms/ANALYSIS.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_INTEGRATION_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_V_RESULT_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_INTEGRATION_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_DAMAGE_PRONE_RESULT_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_IMPLEMENTATION_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_STARTUP_RESULT_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_COPY_IMPLEMENTATION_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_COPY_RESULT_20261015_ZH.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_PLAYTEST_IMPLEMENTATION_20261016.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_PLAYTEST_RESULT_20261016.md",
+    "Docs/Development/MissionLoopV1/TUTORIAL_LATEST_PLAYTEST_RESULT_20261016_ZH.md",
+    "Failures/TU008-20261016-latest-build-integration/ANALYSIS.md",
+    "Docs/Development/MissionLoopV1/THUMB_OPPOSITION_REPAIR_IMPLEMENTATION_20261016.md",
+    "Docs/Development/MissionLoopV1/THUMB_OPPOSITION_REPAIR_RESULT_20261016.md",
+    "Docs/Development/MissionLoopV1/THUMB_OPPOSITION_REPAIR_RESULT_20261016_ZH.md",
+    "Failures/OG005-20261016-thumb-knuckle-fold/ANALYSIS.md",
+    "Docs/Development/MissionLoopV1/THUMB_NATURAL_ARC_IMPLEMENTATION_20261016.md",
+    "Docs/Development/MissionLoopV1/THUMB_NATURAL_ARC_RESULT_20261016.md",
+    "Docs/Development/MissionLoopV1/THUMB_NATURAL_ARC_RESULT_20261016_ZH.md",
+    "Docs/Development/MissionLoopV1/THUMB_WEB_DIAGNOSTIC_IMPLEMENTATION_20261016.md",
+    "Docs/Development/MissionLoopV1/THUMB_WEB_DIAGNOSTIC_RESULT_20261016.md",
+    "Docs/Development/MissionLoopV1/THUMB_WEB_DIAGNOSTIC_RESULT_20261016_ZH.md",
+    "Docs/Development/MissionLoopV1/THUMB_WEB_POLISH_IMPLEMENTATION_20261016.md",
+    "Docs/Development/MissionLoopV1/THUMB_WEB_POLISH_RESULT_20261016.md",
+    "Docs/Development/MissionLoopV1/THUMB_WEB_POLISH_RESULT_20261016_ZH.md",
+    "Docs/Development/MissionLoopV1/THUMB_POLISH_PLAYTEST_RESULT_20261017.md",
+    "Docs/Development/MissionLoopV1/THUMB_POLISH_PLAYTEST_RESULT_20261017_ZH.md",
+    "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_RESULT_20261017.md",
+    "Docs/Development/MissionLoopV1/THUMB_GRIP_ASSET_ADOPTION_IMPLEMENTATION_20261017.md",
+    "Assets/Sync/THUMB_GRIP_SOURCE_CONTRACT_20261017.json",
+    "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ACCEPTANCE_20261017.md",
+    "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ASSET_ADOPTION_RESULT_20261017.md",
+    "Docs/Development/MissionLoopV1/CROUCH_TRANSITION_ASSET_ADOPTION_IMPLEMENTATION_20261017.md",
+    "Assets/Sync/CROUCH_TRANSITION_SOURCE_CONTRACT_20261017.json",
+    "Docs/Development/CURRENT_MEDICAL_POUCH_ASSET.json",
+    "Docs/Development/MissionLoopV1/MEDKIT_ASSET_ADOPTION_RESULT_20261017.md",
+    "Docs/Development/MissionLoopV1/MEDKIT_ASSET_ADOPTION_IMPLEMENTATION_20261017.md"
   ],
   "selectors": [
     {
@@ -35,13 +136,14 @@
         "paris-city",
         "pressure-mine",
         "frag-grenade",
-        "smoke-grenade"
+        "smoke-grenade",
+        "medical-pouch"
       ]
     },
     {
       "id": "ui-review",
-      "channel": "formal",
-      "title": "当前统一玩法（已正式采用）",
+      "channel": "historical",
+      "title": "保留的袖子78 UI来源（集成当前86）",
       "path": "Docs/Development/CURRENT_UI_REVIEW.json",
       "assets": [
         "german-soldier",
@@ -74,8 +176,8 @@
     },
     {
       "id": "grenade-model-review",
-      "channel": "candidate",
-      "title": "手雷/烟雾弹模型统一评审候选",
+      "channel": "historical",
+      "title": "已采用手雷模型来源（集成当前86）",
       "path": "Docs/Development/CURRENT_GRENADE_MODEL_REVIEW.json",
       "assets": [
         "frag-grenade",
@@ -87,8 +189,8 @@
     },
     {
       "id": "equipment-input-review",
-      "channel": "candidate",
-      "title": "滚轮装备／左键投掷统一评审候选",
+      "channel": "formal",
+      "title": "当前手雷投掷正式86",
       "path": "Docs/Development/CURRENT_EQUIPMENT_INPUT_REVIEW.json",
       "assets": [
         "frag-grenade",
@@ -102,6 +204,146 @@
         "paris-city"
       ],
       "optional": true
+    },
+    {
+      "id": "sleeve-review",
+      "channel": "historical",
+      "title": "已采用袖子78来源（集成当前86）",
+      "path": "Docs/Development/CURRENT_SLEEVE_REVIEW.json",
+      "assets": [
+        "first-person",
+        "frag-grenade",
+        "smoke-grenade"
+      ],
+      "optional": true
+    },
+    {
+      "id": "tutorial-review",
+      "channel": "candidate",
+      "title": "中文教程 · 手雷术语与教学存档提示修正",
+      "path": "Docs/Development/CURRENT_TUTORIAL_REVIEW.json",
+      "assets": [
+        "paris-city",
+        "first-person",
+        "allied-soldier",
+        "german-soldier",
+        "ammo-box",
+        "pressure-mine",
+        "frag-grenade",
+        "smoke-grenade",
+        "recorded-audio"
+      ]
+    },
+    {
+      "id": "player-damage-review",
+      "channel": "candidate",
+      "title": "玩家受伤反馈89 · 用户整版试玩认可 · 匍匐过渡父版",
+      "path": "Docs/Development/CURRENT_PLAYER_DAMAGE_REVIEW.json",
+      "assets": [
+        "first-person",
+        "cue-player-hurt",
+        "recorded-audio"
+      ]
+    },
+    {
+      "id": "prone-transition-review",
+      "channel": "candidate",
+      "title": "Z匍匐93 · V战斗绑定缺口已确认 · 尚未修复",
+      "path": "Docs/Development/CURRENT_PRONE_TRANSITION_REVIEW.json",
+      "assets": [
+        "first-person",
+        "anim-rifle-animset-pro",
+        "cue-player-hurt"
+      ]
+    },
+    {
+      "id": "tutorial-latest-review",
+      "channel": "candidate",
+      "title": "最新教学试玩：第一人称投掷与精简界面（待人工）",
+      "path": "Docs/Development/CURRENT_TUTORIAL_LATEST_PLAYTEST_REVIEW.json",
+      "assets": [
+        "german-soldier",
+        "allied-soldier",
+        "first-person",
+        "recorded-audio",
+        "german-rifle",
+        "paris-city",
+        "pressure-mine",
+        "frag-grenade",
+        "smoke-grenade"
+      ]
+    },
+    {
+      "id": "thumb-polish-playtest-review",
+      "channel": "reviewed",
+      "title": "拇指精修试玩 · 两种握姿已验收",
+      "path": "Docs/Development/CURRENT_THUMB_POLISH_PLAYTEST_REVIEW.json",
+      "assets": [
+        "first-person",
+        "frag-grenade",
+        "smoke-grenade",
+        "paris-city"
+      ]
+    },
+    {
+      "id": "accepted-grenade-grips",
+      "channel": "formal_asset",
+      "title": "已验收手雷与烟雾弹握姿 · 17 October",
+      "path": "Docs/Development/CURRENT_ACCEPTED_GRENADE_GRIPS.json",
+      "assets": [
+        "first-person",
+        "frag-grenade",
+        "smoke-grenade"
+      ]
+    },
+    {
+      "id": "crouch-transition-review",
+      "channel": "formal_asset",
+      "title": "Ctrl 蹲下与起身过渡 · 已验收并正式入库",
+      "path": "Docs/Development/CURRENT_CROUCH_TRANSITION_REVIEW.json",
+      "assets": [
+        "first-person",
+        "allied-soldier"
+      ]
+    },
+    {
+      "id": "tutorial-audio-20261017-game-v5",
+      "channel": "diagnostic",
+      "title": "教学音频试玩 · Game v5 · 待人工复核",
+      "path": "Docs/Development/CURRENT_TUTORIAL_AUDIO_PLAYTEST_REVIEW.json",
+      "assets": [
+        "paris-city",
+        "first-person",
+        "allied-soldier",
+        "german-soldier",
+        "ammo-box",
+        "pressure-mine",
+        "frag-grenade",
+        "smoke-grenade",
+        "medical-pouch"
+      ]
+    },
+    {
+      "id": "tutorial-medical-guidance-music-20261017-game-v8",
+      "channel": "diagnostic",
+      "title": "医疗教学与配乐试玩 · Game v8 · 待人工复核",
+      "path": "Docs/Development/CURRENT_MEDICAL_GUIDANCE_MUSIC_PLAYTEST_REVIEW.json",
+      "assets": [
+        "paris-city",
+        "first-person",
+        "allied-soldier",
+        "german-soldier",
+        "ammo-box",
+        "pressure-mine",
+        "frag-grenade",
+        "smoke-grenade",
+        "medical-pouch"
+      ]
     }
-  ]
+  ],
+  "gameplay": "Assets/Registry/gameplay/designs.json",
+  "research": "Assets/Registry/research/library.json",
+  "library_scope": "Assets/Registry/library-scope.json",
+  "version_reviews": "Assets/Registry/mappings/version-reviews.json",
+  "homepage": "Assets/Registry/mappings/homepage.json"
 }

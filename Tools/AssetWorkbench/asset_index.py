@@ -28,6 +28,14 @@ def build(root=ROOT):
         return json.loads(raw.decode('utf-8-sig'))
     paths = ['Assets/Registry/registry.json']
     reg = load(paths[0])
+    homepage=load(reg['homepage']) if reg.get('homepage') else None
+    if homepage:paths.append(reg['homepage'])
+    library_scope=None
+    if reg.get('library_scope'):
+        from app.library_scope import validate
+        policy=validate(load(reg['library_scope']));paths.append(reg['library_scope'])
+        library_scope={'source':reg['library_scope'],'retired_file_count':len(policy['retired_files']),
+                       'retired_legacy_ids':policy.get('retired_legacy_ids',[])}
     paths += [reg[k] for k in ('assets', 'inventory', 'history', 'inventory_history', 'catalog') if reg.get(k)]
     selectors = sorted(p.relative_to(root).as_posix() for p in (root / 'Docs/Development').glob('CURRENT_*.json'))
     paths += selectors
@@ -38,6 +46,33 @@ def build(root=ROOT):
     revisions = load(reg['history'])['revisions']
     if reg.get('inventory_history'):
         revisions += load(reg['inventory_history'])['revisions']
+    if reg.get('version_reviews'):
+        from app.version_reviews import merge
+        revisions = merge(revisions, load(reg['version_reviews']))
+        paths.append(reg['version_reviews'])
+        for revision in revisions:
+            for view in revision.get('image_views', {}).values():
+                source=view['source']
+                captured[source]=hashlib.sha256((root/source).read_bytes()).hexdigest()
+                paths.append(source)
+            if revision.get('adoption'):
+                authority=revision['adoption']['authority']
+                captured[authority]=hashlib.sha256((root/authority).read_bytes()).hexdigest()
+                paths.append(authority)
+    version_media={};homepage_media={}
+    media_register='Assets/LocalWorking/AssetWorkbench/private-records/media.json'
+    if (reg.get('version_reviews') or homepage) and (root/media_register).is_file():
+        needed={m for r in revisions for m in r.get('media_ids',[])}
+        registered_media=load(media_register)['files']
+        version_media={m['id']:{k:m[k] for k in ('path','sha256','size_bytes','label') if k in m}
+                       for m in registered_media if m['id'] in needed and m.get('kind')!='supplier thumbnail'}
+        if homepage:
+            covers={homepage['release']['cover_id']}|{c['cover_id'] for module in homepage['modules'] for c in module['cards']}
+            homepage_media={m['id']:{k:m[k] for k in ('path','sha256','size_bytes','label','game_sha256','source_record') if k in m} for m in registered_media if m['id'] in covers and m.get('kind')!='supplier thumbnail'}
+            for media in homepage_media.values():
+                if media.get('source_record'):
+                    load(media['source_record']);paths.append(media['source_record'])
+        paths.append(media_register)
     manifests = {m['asset_id']: m for m in load(reg['catalog'])['active_manifests']}
     assets = []
     for source, original in records:
@@ -46,11 +81,35 @@ def build(root=ROOT):
         row['registry_source'] = source
         row['member_count'] = len(inventory.get('members', {}).get(a['id'], []))
         row['preview_route'] = '/assets/' + a['id']
-        row['revisions'] = [{k: r[k] for k in ('id', 'title', 'result', 'document', 'parent_ids', 'model_identity', 'metrics') if k in r} for r in revisions if r['asset_id'] == a['id']]
+        ordered = sorted((r for r in revisions if r['asset_id'] == a['id']), key=lambda r: (not bool(r.get('adoption')), not r.get('adoption', {}).get('primary', False)))
+        row['revisions'] = [{k: r[k] for k in ('id', 'title', 'title_en', 'result', 'document', 'parent_ids', 'model_identity', 'metrics', 'review', 'media_ids', 'scope', 'summary', 'adoption', 'review_state', 'image_views') if k in r} for r in ordered]
         row['manifests'] = [{k: manifests[b][k] for k in ('asset_id', 'asset_version', 'path', 'sha256')} for b in a.get('bundles', []) if b in manifests]
         row['usage_references'] = [{'path': s['path'], 'channel': s['channel'], 'basis': 'registry_family_mapping'} for s in reg.get('selectors', []) if a['id'] in s['assets']]
         row['usage_rules'] = [r for r in inventory.get('usage_rules', []) if r['asset_id'] == a['id']]
         assets.append(row)
+    gameplay=[]
+    if reg.get('gameplay'):
+        from app.gameplay import validate
+        definitions=load(reg['gameplay']);paths.append(reg['gameplay'])
+        gameplay=validate(definitions,{a['id'] for a in assets})
+        for entry in gameplay:
+            for doc in entry['documents']:
+                raw=(root/doc['path']).read_bytes()
+                captured[doc['path']]=hashlib.sha256(raw).hexdigest()
+                paths.append(doc['path'])
+        for asset in assets:
+            asset['gameplay_references']=[{'id':g['id'],'title':g['title'],'kind':g['kind'],'design_state':g['design_state'],'implementation':g['implementation']['state']} for g in gameplay if asset['id'] in g['asset_ids']]
+    research=[]
+    if reg.get('research'):
+        from app.research import build as build_research
+        config=load(reg['research']);paths.append(reg['research'])
+        from app.research_links import references_for
+        research,_,fingerprints=build_research(root,config,asset_ids={a['id'] for a in assets},gameplay_ids={g['id'] for g in gameplay})
+        captured.update(fingerprints);paths.extend(fingerprints)
+        for asset in assets:
+            asset['historical_references']=references_for(research,'asset',asset['id'])
+        for entry in gameplay:
+            entry['historical_references']=references_for(research,'gameplay',entry['id'])
     ids = {a['id'] for a in assets}
     if len(ids) != len(assets):
         raise ValueError('Duplicate asset IDs')
@@ -72,7 +131,51 @@ def build(root=ROOT):
     return {'schema_version': 1, 'scope': 'Metadata navigation; follow current selectors and exact manifests before use.',
             'source_fingerprints': [{'path': p, 'sha256': captured[p]} for p in dict.fromkeys(paths)],
             'current_selectors': selectors, 'missing_references': missing, 'asset_count': len(assets),
-            'member_count': sum(a['member_count'] for a in assets), 'assets': assets}
+            'member_count': sum(a['member_count'] for a in assets), 'assets': assets,
+            'gameplay_source':reg.get('gameplay'),'gameplay_count':len(gameplay),'gameplay':gameplay,
+            'research_source':reg.get('research'),'research_count':len(research),'research':research,
+            'library_scope':library_scope,'version_media':version_media,'homepage_source':reg.get('homepage'),'homepage':homepage,'homepage_media':homepage_media}
+
+
+def version_table(data):
+    def cell(value):return str(value).replace('|','\\|').replace('\n',' ')
+    lines=['# 版本证据目录 / Version evidence directory','','平台刷新时自动同步。过渡版本主要保留图片、问题、修改与判定来源，不要求恢复已删除构建。人工确认只适用于明确记录的范围。',
+           '[资产入口](../ASSET_INDEX.md) · [结构化索引（含图片路径和 SHA256）](asset-index.json)','']
+    for asset in data['assets']:
+        rows=[r for r in asset['revisions'] if r.get('review')]
+        if not rows:continue
+        lines += [f"## {asset['id']} · {asset['name']}",'','| 修订 / Revision | 判定依据 | 问题 | 修改 | 判定理由 | 原图 | 来源 |','| --- | --- | --- | --- | --- | --- | --- | --- |']
+        for r in rows:
+            review=r['review'];shots=[data['version_media'][m] for m in r.get('media_ids',[]) if m in data['version_media']]
+            links=' · '.join(f'[{i+1}](../../{quote(m["path"],safe="/")})' for i,m in enumerate(shots)) or '无登记图 / No registered image'
+            adoption=r.get('adoption');current='**当前采用 / Adopted** · ' if adoption else ''
+            if adoption:
+                current+=f"[采用依据](../../{quote(adoption['authority'],safe='/')}) · 上一版 `{adoption.get('previous_id') or '未登记'}` · "
+            values=[current+f"`{r['id']}` · {cell(r['title'])}",r.get('review_state','pending')+' / '+review['basis']+' / '+r['result']]+[cell(review[k]['zh']+' / '+review[k]['en']) for k in ('problem','changes','decision')]+[links,f'[原记录](../../{quote(r["document"],safe="/")})']
+            lines.append('| '+' | '.join(values)+' |')
+        lines.append('')
+    return '\n'.join(lines)+'\n'
+
+
+def research_table(data):
+    lines=['# 历史资料目录 / Historical reference directory','','平台刷新时自动同步。当前范围：巴黎历史与通用装备资料。原文、日期、权利和限制见结构化索引与资料库。',
+           '[资产入口](../ASSET_INDEX.md) · [结构化索引](asset-index.json)','','| ID | 名称 | 背景 | 类型 | 关联资产 / 玩法 | 来源 |','| --- | --- | --- | --- | --- | --- |']
+    for r in data.get('research',[]):
+        title=r['title'].replace('|','\\|').replace('\n',' ')
+        targets=' · '.join(r['asset_ids']+r.get('gameplay_ids',[])) or '—'
+        lines.append(f"| <a id=\"{r['id']}\"></a>`{r['id']}` | {title} | {r['scope']} | {r['kind']} | {targets} | [{Path(r['register']).name}](../../{quote(r['register'],safe='/')}) |")
+    return '\n'.join(lines)+'\n'
+
+
+def gameplay_table(data):
+    lines=['# 玩法设计目录 / Gameplay directory','','平台刷新时与资产目录自动同步；设计、实现与验证范围分别记录。',
+           '[资产入口](../ASSET_INDEX.md) · [结构化索引](asset-index.json)','','| ID | 名称 / Name | 类型 | 设计 | 实现 | 验证 | 历史资料 | 来源 |','| --- | --- | --- | --- | --- | --- | --- | --- |']
+    for g in data.get('gameplay',[]):
+        links=' · '.join(f'[{i+1}](../../{quote(d["path"],safe="/")})' for i,d in enumerate(g['documents']))
+        title=(g['title']['zh']+' / '+g['title']['en']).replace('|','\\|')
+        refs=' · '.join(f'[资料{i+1}](HISTORICAL_DIRECTORY.md#{r["id"]})' for i,r in enumerate(g.get('historical_references',[]))) or '—'
+        lines.append(f"| `{g['id']}` | {title} | {g['kind']} | {g['design_state']} | {g['implementation']['state']} | {g['validation']['state']} | {refs} | {links} |")
+    return '\n'.join(lines)+'\n'
 
 
 def table(data):
@@ -82,14 +185,15 @@ def table(data):
              '[统一入口](../ASSET_INDEX.md) · [结构化索引](asset-index.json)', '',
              f"共 {data['asset_count']} 条资产/包，{data['member_count']:,} 条已登记成员。版本、关联、manifest和来源指纹见JSON；当前使用需读最新选择器。", '']
     for category in sorted({a['category'] for a in data['assets']}):
-        lines += ['## ' + category, '', '| ID | 名称 / Name | 来源 | 成员 | 资料 |', '| --- | --- | --- | ---: | --- |']
+        lines += ['## ' + category, '', '| ID | 名称 / Name | 来源 | 成员 | 历史资料 | 文档 |', '| --- | --- | --- | ---: | --- | --- |']
         for a in data['assets']:
             if a['category'] != category:
                 continue
             documents = list(dict.fromkeys(a.get('documents', []) + [r['document'] for r in a['revisions'] if r.get('document')]))
             links = ' · '.join(f'[{i+1}](../../{quote(p, safe="/")})' for i, p in enumerate(documents)) or '—'
             name = a['name'] if a.get('name_en') == a['name'] else a['name'] + ' / ' + a.get('name_en', '')
-            lines.append(f"| `{a['id']}` | {cell(name)} | {a['origin']} | {a['member_count']} | {links} |")
+            refs=' · '.join(f'[资料{i+1}](HISTORICAL_DIRECTORY.md#{r["id"]})' for i,r in enumerate(a.get('historical_references',[]))) or '—'
+            lines.append(f"| `{a['id']}` | {cell(name)} | {a['origin']} | {a['member_count']} | {refs} | {links} |")
         lines.append('')
     return '\n'.join(lines) + '\n'
 
@@ -154,6 +258,12 @@ def publish(root, data, cancelled=lambda: False):
         validate_sources(root, data)
         outputs = {'Assets/Registry/asset-index.json': (json.dumps(data, ensure_ascii=False, indent=2) + '\n').encode('utf-8'),
                    'Assets/Registry/ASSET_DIRECTORY.md': table(data).encode('utf-8')}
+        if data.get('gameplay_source'):
+            outputs['Assets/Registry/GAMEPLAY_DIRECTORY.md']=gameplay_table(data).encode('utf-8')
+        if data.get('research_source'):
+            outputs['Assets/Registry/HISTORICAL_DIRECTORY.md']=research_table(data).encode('utf-8')
+        if data.get('version_media'):
+            outputs['Assets/Registry/VERSION_DIRECTORY.md']=version_table(data).encode('utf-8')
         for relative, raw in outputs.items():
             check_cancel()
             path = safe_path(root, relative)
@@ -163,7 +273,7 @@ def publish(root, data, cancelled=lambda: False):
                 changed.append(path)
         validate_sources(root, data)
         check_cancel()
-        yield {'status': 'synced', 'asset_count': data['asset_count'], 'member_count': data['member_count'],
+        yield {'status': 'synced', 'asset_count': data['asset_count'], 'member_count': data['member_count'],'gameplay_count':data.get('gameplay_count',0),'research_count':data.get('research_count',0),
                'files': [{'path': p, 'sha256': hashlib.sha256(raw).hexdigest()} for p, raw in outputs.items()]}
     except BaseException:
         for path in reversed(changed):
@@ -189,6 +299,8 @@ def main():
     parser.add_argument('--asset', help='Exact asset ID filter')
     parser.add_argument('--members', action='store_true')
     parser.add_argument('--animations', action='store_true')
+    parser.add_argument('--gameplay', action='store_true', help='Search registered gameplay rules and missions')
+    parser.add_argument('--research', action='store_true', help='Search historical text, image captions and provenance')
     parser.add_argument('--limit', type=int, default=20)
     args = parser.parse_args()
     expected = build()
@@ -199,13 +311,30 @@ def main():
         return
     if not INDEX.is_file() or read(INDEX) != expected or not TABLE.is_file() or TABLE.read_text(encoding='utf-8') != table(expected):
         raise SystemExit('Index is stale or missing. Use Refresh index in the platform.')
+    if expected.get('gameplay_source'):
+        gtable=ROOT/'Assets/Registry/GAMEPLAY_DIRECTORY.md'
+        if not gtable.is_file() or gtable.read_text(encoding='utf-8')!=gameplay_table(expected):raise SystemExit('Gameplay index is stale. Use Refresh index in the platform.')
+    if expected.get('research_source'):
+        rtable=ROOT/'Assets/Registry/HISTORICAL_DIRECTORY.md'
+        if not rtable.is_file() or rtable.read_text(encoding='utf-8')!=research_table(expected):raise SystemExit('Historical index is stale. Use Refresh index in the platform.')
+    if expected.get('version_media'):
+        vtable=ROOT/'Assets/Registry/VERSION_DIRECTORY.md'
+        if not vtable.is_file() or vtable.read_text(encoding='utf-8')!=version_table(expected):raise SystemExit('Version index is stale. Use Refresh index in the platform.')
     if args.check:
         print(f"Index current; {expected['asset_count']} unique assets; missing references: {len(expected['missing_references'])}")
         return
     if args.asset and args.asset not in {a['id'] for a in expected['assets']}:
         raise SystemExit('Unknown asset ID: ' + args.asset)
     rows = expected['assets']
-    if args.animations:
+    if args.research:
+        rows=expected.get('research',[])
+        if args.asset:rows=[r for r in rows if args.asset in r['asset_ids']]
+        args.asset=None
+    elif args.gameplay:
+        rows=expected.get('gameplay',[])
+        if args.asset:rows=[r for r in rows if args.asset in r['asset_ids']]
+        args.asset=None
+    elif args.animations:
         path = ROOT / 'Assets/LocalWorking/AssetWorkbench/private-records/animation-packs.json'
         if not path.is_file():
             raise SystemExit('Local animation directory unavailable; see Assets/ASSET_INDEX.md')
@@ -213,6 +342,7 @@ def main():
     elif args.members:
         rows = [{'asset_id': aid, **m} for aid, members in read('Assets/Registry/assets/inventory.json')['members'].items() for m in members]
     matches = [r for r in rows if (not args.asset or r.get('asset_id', r.get('id')) == args.asset) and args.query.casefold() in json.dumps(r, ensure_ascii=False).casefold()]
+    if args.research:matches=[{k:v for k,v in r.items() if k not in ('body','search_text')} for r in matches]
     print(json.dumps({'total': len(matches), 'shown': min(len(matches), max(0, args.limit)), 'results': matches[:max(0, args.limit)]}, ensure_ascii=False, indent=2))
 
 

@@ -1,5 +1,8 @@
 // Exact display-string translations. Record identifiers and source excerpts are not translated.
 export const english:Record<string,string>=Object.fromEntries(`
+当前项目文件；已撤下的旧场景文件不计入，原始清单保留。|Current-project files; retired scenario files are excluded. Original manifests are preserved.
+原清单|Original manifest
+已撤下|Retired
 原生动作预览（中性材质）|Native animation preview (neutral material)
 原始动作预览（外部预览人偶、中性材质）|Source animation (external preview mannequin, neutral material)
 AFTER / 右侧|RIGHT
@@ -81,6 +84,7 @@ UI候选|UI candidate
 必填|Required
 快照|Snapshot
 总览|Overview
+NPC交互|NPC interactions
 所有登记文件|All registered files
 所有程度|All severities
 打开使用说明或结果|Usage notes / results
@@ -454,3 +458,22 @@ Object.assign(english,{
  '地图与美术范围，不新增游戏运行验收':'Map and visual scope; no new gameplay runtime acceptance',
  '版本名来自原始交付路径；不宣称本次对原始全包重验':'Version name from the original delivery path; the full original delivery was not reverified here.'
 });
+Object.assign(english,{
+ '玩法设计':'Gameplay design','关联玩法设计':'Linked gameplay design','已采用玩法父版76':'Adopted gameplay parent 76','当前袖子修复正式78':'Current sleeve-corrected baseline 78',
+ '原模型沿用；袖子显示工作范围v12已人工采用，完整形变/接触限制保留。':'Original mesh retained; display workspace v12 adopted, with full deformation/contact limitations retained.',
+ '模型v1沿用；投掷玩法已正式采用，当前78版保留。':'Model v1 retained; throwing mechanics adopted and retained in baseline 78.',
+ '正式78沿用模型v1与投掷玩法':'Baseline 78 retains model v1 and throwing mechanics',
+ '原模型字节不改；76玩法已人工采用，78仅更新第一人称显示工作范围。':'Original model bytes retained; gameplay 76 was adopted, and 78 only updates the first-person display workspace.',
+ '读取人工采用与既有结果；不是本次游戏重跑或新的完整接触验收。':'Adoption and existing results only; no game rerun or new complete-contact acceptance.',
+ '第一人称袖子工作范围v12 · 13October人工正式采用':'First-person sleeve workspace v12 · Adopted on 13 October',
+ '袖子正式78 · 原模型换弹实图':'Sleeve baseline 78 · Original mesh reload capture','袖子正式78 · 烟雾弹显示实图':'Sleeve baseline 78 · Smoke grenade display capture',
+ '真实Game截图':'Actual Game capture','G1教程设计图（中文原图）':'G1 tutorial figure (Chinese original)','桥后区域设计图（中文原图）':'Post-bridge figure (Chinese original)',
+ '设计图':'Design figure','非运行验收':'Not runtime validation',
+ '13 October人工采用；既有9项Game/17张图/1545帧范围保留，不新增全动作验收。':'Adopted on 13 October; existing 9 Game checks, 17 images and 1545-frame scope retained, without complete-motion acceptance.'
+});
+Object.assign(english,{'当前正式版采用；原验证范围保留。':'Adopted in the current baseline; original validation scope retained.',
+ 'G1教学局部25厘米选点图（中文原图）':'G1 tutorial local 25 cm site-selection figure (Chinese original)',
+ 'Mk II 手雷；原几何与PBR沿用，当前正式78版使用模型v1。':'Mk II grenade; original geometry and PBR retained, with model v1 used in formal baseline 78.',
+ 'AN-M8 风格烟雾弹；自建外壳与PBR，当前正式78版使用模型v1。':'AN-M8-style smoke grenade; team-created exterior and PBR, with model v1 used in formal baseline 78.'});
+
+Object.assign(english, {"历史资料":"Historical references", "项目搜索":"Project search", "无匹配记录":"No matching records", "查看全部":"View all", "关联历史资料":"Linked historical references", "查找资产、玩法、历史资料…":"Search assets, gameplay, references…"});

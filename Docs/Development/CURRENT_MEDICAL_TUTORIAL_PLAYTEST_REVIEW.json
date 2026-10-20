@@ -1,0 +1,95 @@
+{
+  "status": "scoped_human_accepted_medical_features",
+  "date": "2026-10-17",
+  "source_project": "Unreal/Variants/G1MedicalTutorial20261017/Project",
+  "source_manifest": "Unreal/Variants/G1MedicalTutorial20261017/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "3062e099ffba973ae72c14ea41e2fe1666c529228abaa4724959f5f3958d2075",
+  "source_files": 137,
+  "game_sha256": "fb84f1e5be059247f77901a20ecbf724a630bc2b3a587050d6cc6a7e50666ba2",
+  "playable_directory": "tmp/Playtest-G1-Medical-Tutorial-20261017",
+  "playable_entry": "tmp/Playtest-G1-Medical-Tutorial-20261017/PLAY_MEDICAL_TUTORIAL.cmd",
+  "user_dir": "G1MedicalTutorial20261017",
+  "save_prefix": "ParisCheckpointHistoryV1",
+  "actual_save_copies": 8,
+  "package_file_count": 118,
+  "package_size_bytes": 8638641404,
+  "parent_selector": "Docs/Development/CURRENT_THUMB_POLISH_PLAYTEST_REVIEW.json",
+  "checks": [
+    {
+      "identity": "medical_fp_v17",
+      "status": "pass_medical_native_input_damage_and_snapshot_roundtrip",
+      "checks": 28,
+      "result": "tmp/g1-medical-playtest-20261017/checks/medical_fp_v17/RESULT.json",
+      "result_sha256": "7fbc126c8f2fdc7f00b4742c565ec451c3fbfb3984947b548f84a766e6589cd6",
+      "game_sha256": "fb84f1e5be059247f77901a20ecbf724a630bc2b3a587050d6cc6a7e50666ba2",
+      "scope": "Opt-in separate UserDir; actual earned CP0 load, original damage endpoints and real E/H/posture/V/save/load inputs. Original PC_EnableCombat(false), AI brain holds and pawn placement are declared fixtures; no health, inventory, claim or mine assignment. No natural-combat/travel or human appearance acceptance."
+    },
+    {
+      "identity": "medical_observer_crouch_v17",
+      "status": "pass_medical_native_input_damage_and_snapshot_roundtrip",
+      "checks": 28,
+      "result": "tmp/g1-medical-playtest-20261017/checks/medical_observer_crouch_v17/RESULT.json",
+      "result_sha256": "0c5210e962b67d3f75e77514f8615869ad19037d787260c439ec3c30845c859a",
+      "game_sha256": "fb84f1e5be059247f77901a20ecbf724a630bc2b3a587050d6cc6a7e50666ba2",
+      "scope": "Opt-in separate UserDir; actual earned CP0 load, original damage endpoints and real E/H/posture/V/save/load inputs. Original PC_EnableCombat(false), AI brain holds and pawn placement are declared fixtures; no health, inventory, claim or mine assignment. No natural-combat/travel or human appearance acceptance."
+    },
+    {
+      "identity": "medical_observer_prone_v17",
+      "status": "pass_medical_native_input_damage_and_snapshot_roundtrip",
+      "checks": 28,
+      "result": "tmp/g1-medical-playtest-20261017/checks/medical_observer_prone_v17/RESULT.json",
+      "result_sha256": "6c7cf21e7024af49f28ac49c25c48f76c0a39de9cda54df5cb4b4db13a102047",
+      "game_sha256": "fb84f1e5be059247f77901a20ecbf724a630bc2b3a587050d6cc6a7e50666ba2",
+      "scope": "Opt-in separate UserDir; actual earned CP0 load, original damage endpoints and real E/H/posture/V/save/load inputs. Original PC_EnableCombat(false), AI brain holds and pawn placement are declared fixtures; no health, inventory, claim or mine assignment. No natural-combat/travel or human appearance acceptance."
+    },
+    {
+      "identity": "teaching_v17",
+      "status": "pass_copy_training_actual_CP0_save",
+      "checks": 10,
+      "result": "tmp/g1-medical-playtest-20261017/checks/teaching_v17/RESULT.json",
+      "result_sha256": "efbc5d53b187880d111a95a71507f74bc11fbdef35ebc3729eb478150f50a306",
+      "game_sha256": "fb84f1e5be059247f77901a20ecbf724a630bc2b3a587050d6cc6a7e50666ba2",
+      "scope": "Opt-in native movement/input and real durable saves; declared direct-damage fixture only for combat checkpoint checks; not human natural-combat acceptance."
+    },
+    {
+      "identity": "legacy_cp0_v17",
+      "status": "pass_restore_cp0",
+      "checks": 26,
+      "result": "tmp/g1-medical-playtest-20261017/checks/legacy_cp0_v17/RESULT.json",
+      "result_sha256": "74f7d28863d210dd8dc8e5abd4ee758d14a3ee379869b4a1cc0e327c9f4fefd4",
+      "game_sha256": "fb84f1e5be059247f77901a20ecbf724a630bc2b3a587050d6cc6a7e50666ba2",
+      "scope": "Opt-in native movement/input and real durable saves; declared direct-damage fixture only for combat checkpoint checks; not human natural-combat acceptance."
+    }
+  ],
+  "native_audit": "tmp/g1-medical-playtest-20261017/NATIVE_AUDIT.json",
+  "formal_adoption": false,
+  "publication": false,
+  "human_review": "accepted_medical_model_healing_action_drop_pickup",
+  "known_limit": "Bounded actual packaged frames/fixtures only; no complete fine-contact/full-map/stress/Editor-PIE/second-machine acceptance.",
+  "result": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_PLAYTEST_RESULT_20261017.md",
+  "result_zh": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_PLAYTEST_RESULT_20261017_ZH.md",
+  "revision": "game_v17",
+  "source_snapshot": "Unreal/Variants/G1MedicalTutorial20261017/Project",
+  "launcher_sha256": "3f774909e654d9c7f2fdde1e401b63f14be8bb151fff9b7eba278bbc7f6f706f",
+  "default_language": "zh-Hans",
+  "native_manifest": "tmp/g1-medical-playtest-20261017/NATIVE_MANIFEST.json",
+  "visual_review": "tmp/g1-medical-playtest-20261017/VISUAL_REVIEW.json",
+  "protection": "tmp/g1-medical-playtest-20261017/PROTECTION.json",
+  "human_acceptance": {
+    "status": "human_accepted",
+    "date": "2026-10-17",
+    "source": "Human message in 地图探索与玩法设计",
+    "quote": "医疗包建模，回血动作，掉落拾取，均通过人工验收。",
+    "accepted_scopes": [
+      "medical_pouch_model",
+      "healing_bandage_action",
+      "drop_pickup"
+    ],
+    "source_manifest_sha256": "3062e099ffba973ae72c14ea41e2fe1666c529228abaa4724959f5f3958d2075",
+    "game_sha256": "fb84f1e5be059247f77901a20ecbf724a630bc2b3a587050d6cc6a7e50666ba2",
+    "playable_entry": "tmp/Playtest-G1-Medical-Tutorial-20261017/PLAY_MEDICAL_TUTORIAL.cmd",
+    "result": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_HUMAN_ACCEPTANCE_RESULT_20261017.md",
+    "result_zh": "Docs/Development/MissionLoopV1/MEDICAL_TUTORIAL_HUMAN_ACCEPTANCE_RESULT_20261017_ZH.md",
+    "scope_limit": "These three features only; single-ammunition-box and complete tutorial acceptance are not inferred."
+  }
+}

@@ -65,6 +65,7 @@ def create_app(root: Path = ROOT, state_dir: Path | None = None, token: str | No
     animations=AnimationLibrary(root,state_dir)
     app.state.animations=animations
     authorities={f'{h.lower()}:{port}' for h in (allowed_hosts or ['127.0.0.1','localhost'])}
+    loopback_authorities={f'127.0.0.1:{port}',f'localhost:{port}'}
     if public_origin:
         authorities.add(public_origin.removeprefix('http://'))
 
@@ -100,20 +101,29 @@ def create_app(root: Path = ROOT, state_dir: Path | None = None, token: str | No
     def sid(value):return store.active(value)
     def wrap(snapshot,data):return Envelope(snapshot_id=snapshot,generated_at=now(),data=data)
 
-    @app.post('/api/v1/session')
-    def login(payload: SessionInput):
-        if not secrets.compare_digest(payload.token,app.state.bootstrap):
-            raise WorkbenchError('SESSION_REQUIRED','访问凭证无效',401)
+    def token_free_local(request:Request):
+        # Local development opens directly; shared/network access still checks its token.
+        return not shared and request.headers.get('host','').lower() in loopback_authorities
+
+    def new_session():
         session_id,csrf=secrets.token_urlsafe(32),secrets.token_urlsafe(24)
         app.state.sessions[session_id]={'csrf':csrf,'expires':time.time()+24*3600}
         response=JSONResponse({'csrf':csrf})
         response.set_cookie('aw_session',session_id,httponly=True,samesite='strict',max_age=24*3600,path='/')
         return response
 
+    @app.post('/api/v1/session')
+    def login(payload: SessionInput, request:Request):
+        if not token_free_local(request) and not secrets.compare_digest(payload.token,app.state.bootstrap):
+            raise WorkbenchError('SESSION_REQUIRED','访问凭证无效',401)
+        return new_session()
+
     @app.get('/api/v1/session')
     def session_status(request:Request):
         session=app.state.sessions.get(request.cookies.get('aw_session',''))
-        if not session or session['expires']<time.time():raise WorkbenchError('SESSION_REQUIRED','会话已失效',401)
+        if not session or session['expires']<time.time():
+            if token_free_local(request):return new_session()
+            raise WorkbenchError('SESSION_REQUIRED','会话已失效',401)
         return {'csrf':session['csrf']}
 
     @app.get('/api/v1/health')
@@ -125,7 +135,8 @@ def create_app(root: Path = ROOT, state_dir: Path | None = None, token: str | No
     @app.get('/api/v1/overview',response_model=Envelope)
     def overview(snapshot_id:str|None=None):
         s=sid(snapshot_id); info=store.info(s)
-        return wrap(s,{'stats':info['stats'],'created':info['created'],'digest':info['digest'],'elapsed_ms':info['elapsed_ms'],'git_head':info['git_head'],'builds':store.list(s,'builds'),'issues':store.list(s,'issues')})
+        homepage=store.list(s,'homepage')
+        return wrap(s,{'stats':info['stats'],'created':info['created'],'digest':info['digest'],'elapsed_ms':info['elapsed_ms'],'git_head':info['git_head'],'builds':store.list(s,'builds'),'issues':store.list(s,'issues'),'homepage':homepage[0] if homepage else None})
 
     def page_rows(s,rows,cursor,limit,query_key):
         offset=0
@@ -175,6 +186,9 @@ def create_app(root: Path = ROOT, state_dir: Path | None = None, token: str | No
             usage.update(build_title=build.get('title',usage['build_id']),build_revision=build.get('revision'),game_sha256=build.get('game_sha256'))
         a['media']=[{k:v for k,v in m.items() if k not in ('path','rights_basis')} for m in store.list(s,'media') if m['id'] in a['media_ids']]
         a['bundle_details']=[b for b in store.list(s,'bundles') if b['id'] in a.get('bundles',[])]
+        a['gameplay']=[{k:g[k] for k in ('id','title','kind','design_state','implementation','validation')} for g in store.list(s,'gameplay') if asset_id in g['asset_ids']]
+        from .research_links import references_for
+        a['historical_references']=references_for(store.list(s,'research'),'asset',asset_id)
         return wrap(s,a)
 
     @app.get('/api/v1/assets/{asset_id}/revisions',response_model=Envelope)
@@ -224,6 +238,38 @@ def create_app(root: Path = ROOT, state_dir: Path | None = None, token: str | No
     def templates(snapshot_id:str|None=None):
         s=sid(snapshot_id);return wrap(s,store.list(s,'templates'))
 
+    @app.get('/api/v1/gameplay',response_model=Envelope)
+    def gameplay(q:str='',kind:str='',implementation:str='',snapshot_id:str|None=None):
+        s=sid(snapshot_id);rows=store.list(s,'gameplay')
+        if kind:rows=[g for g in rows if g['kind']==kind]
+        if implementation:rows=[g for g in rows if g['implementation']['state']==implementation]
+        if q:rows=[g for g in rows if q.casefold() in json.dumps({k:g.get(k) for k in ('id','title','summary','rules','steps','asset_ids','locations')},ensure_ascii=False).casefold()]
+        return wrap(s,{'items':rows,'total':len(rows)})
+
+    @app.get('/api/v1/research',response_model=Envelope)
+    def research(q:str='',scope:str='',kind:str='',snapshot_id:str|None=None):
+        s=sid(snapshot_id);rows=store.list(s,'research')
+        if scope:rows=[r for r in rows if r['scope']==scope]
+        if kind:rows=[r for r in rows if r['kind']==kind]
+        if q:rows=[r for r in rows if q.casefold() in r['search_text']]
+        return wrap(s,{'items':[{k:v for k,v in r.items() if k not in ('body','search_text')} for r in rows],'total':len(rows)})
+
+    @app.get('/api/v1/research/{entry_id}',response_model=Envelope)
+    def research_detail(entry_id:str,snapshot_id:str|None=None):
+        s=sid(snapshot_id);r=store.get(s,'research',entry_id)
+        r.pop('search_text',None)
+        r['assets']=[{k:a.get(k) for k in ('id','name','name_en')} for a in store.list(s,'assets') if a['id'] in r['asset_ids']]
+        r['gameplay']=[{k:g.get(k) for k in ('id','title')} for g in store.list(s,'gameplay') if g['id'] in r.get('gameplay_ids',[])]
+        return wrap(s,r)
+
+    @app.get('/api/v1/gameplay/{entry_id}',response_model=Envelope)
+    def gameplay_detail(entry_id:str,snapshot_id:str|None=None):
+        s=sid(snapshot_id);g=store.get(s,'gameplay',entry_id)
+        g['assets']=[{k:a.get(k) for k in ('id','name','name_en','preview_id','category')} for a in store.list(s,'assets') if a['id'] in g['asset_ids']]
+        from .research_links import references_for
+        g['historical_references']=references_for(store.list(s,'research'),'gameplay',entry_id)
+        return wrap(s,g)
+
     @app.get('/api/v1/templates/{template_id}',response_model=Envelope)
     def template(template_id:str,snapshot_id:str|None=None):
         s=sid(snapshot_id);return wrap(s,store.get(s,'templates',template_id))
@@ -263,7 +309,7 @@ def create_app(root: Path = ROOT, state_dir: Path | None = None, token: str | No
         return Response(raw,media_type='model/gltf-binary',headers={'ETag':f'"{digest}"'})
 
     @app.get('/api/v1/media/{media_id}')
-    def media(media_id:str,request:Request,snapshot_id:str|None=None):
+    def media(media_id:str,request:Request,snapshot_id:str|None=None,original:bool=False):
         s=sid(snapshot_id); m=store.get(s,'media',media_id)
         if m.get('kind')=='supplier thumbnail':raise WorkbenchError('MEDIA_RETIRED','供应商宣传图已从平台移除',410)
         if m.get('audience')!='local_owner':raise WorkbenchError('RIGHTS_NOT_ESTABLISHED','该预览尚未登记本机受众许可',403)
@@ -282,6 +328,11 @@ def create_app(root: Path = ROOT, state_dir: Path | None = None, token: str | No
                     im.verify()
             except Exception:raise WorkbenchError('MIME_MISMATCH','图像签名或解码限制不通过',422)
         else:raise WorkbenchError('MIME_MISMATCH','不支持的媒体格式',403)
+        if m.get('kind')=='historical reference' and not original:
+            with Image.open(io.BytesIO(raw)) as im:
+                im.thumbnail((1600,1600))
+                output=io.BytesIO();im.convert('RGB').save(output,'JPEG',quality=85)
+            return Response(output.getvalue(),media_type='image/jpeg',headers={'ETag':f'"{m["sha256"]}-1600"'})
         headers={'Accept-Ranges':'bytes','ETag':f'"{m["sha256"]}"'}
         range_value=request.headers.get('range')
         if range_value:

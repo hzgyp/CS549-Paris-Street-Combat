@@ -1,0 +1,1598 @@
+{
+  "original": "Docs/Development/InstructionHistory/AGENTS_FULL_20261015_73a02aaa4dce.txt",
+  "original_sha256": "73a02aaa4dce3a75c9c42d38f4d0c2d251242cf5d9e1b2cb1b9c127c8671c67f",
+  "original_bytes": 230989,
+  "paragraphs": [
+    {
+      "start_line": 1,
+      "end_line": 1,
+      "preview": "# Paris Street Combat - Project Instructions",
+      "sha256": "dd2ccf2cc6e19fa6f11ccf815985679cf6011be920daa6c167c0d1f978bc9cdc"
+    },
+    {
+      "start_line": 3,
+      "end_line": 4,
+      "preview": "<!-- tutorial-latest-v-20261015 -->\n- 15October latest V/Chinese tutorial handoff: user requests latest other-window V fixes in tutorial. Read CURRENT_TUTORIAL_LATEST_V_REVIEW and ",
+      "sha256": "90e1979dc738fe663184d210577848f322fdf704a6d198fcefc8d96867f3a704"
+    },
+    {
+      "start_line": 6,
+      "end_line": 7,
+      "preview": "<!-- unified-body-candidate-20261015 -->\n15October body repair after human rejection: source107 G1UnifiedBodyRepair20261015/build_v8/Gamea34b2b59d1da3555d349a864df4f961c1384a0fe11d",
+      "sha256": "9978bd461c4a19624ef7305d7712dc452a460d7f7bed6ba72be63f7ba26a492c"
+    },
+    {
+      "start_line": 10,
+      "end_line": 11,
+      "preview": "<!-- unified-body-human-rejection-20261015 -->\n15October human review REJECTED tutorial107/build_v8: ordinary V walking shows missing arms and floating rifle. Prior transaction/soc",
+      "sha256": "a1b3850b44ebcff66308086175d8bf30cff9636636a5ad953d2057605975fdd9"
+    },
+    {
+      "start_line": 19,
+      "end_line": 20,
+      "preview": "<!-- unified-perspective-candidate-20261014 -->\n- 14October shared FP/V tutorial candidate: user authorizes V reload/recoil/equipment/camera repair and common action binding. Read ",
+      "sha256": "a97feebb3354eab35ebab8e84ad04fee0186e9448c94eca58172f2f7e9b3c4e6"
+    },
+    {
+      "start_line": 23,
+      "end_line": 23,
+      "preview": "<!-- observer-tutorial-runtime-audit-20261014 -->",
+      "sha256": "ef4f0d0179a283c5e8d87233b827f80e4f9aba83dae64eb9684e635607971d3c"
+    },
+    {
+      "start_line": 25,
+      "end_line": 25,
+      "preview": "- 14October exact tutorial102 V runtime audit: human identifies Unified Tutorial Chinese102 and exited. Read OBSERVER_TUTORIAL_RUNTIME_AUDIT_20261014_ZH plus the binding audit. Iso",
+      "sha256": "bb15274ea48bd188d8fe2e35554d2718bd899ba9267c0d264aa26575ae40218b"
+    },
+    {
+      "start_line": 30,
+      "end_line": 30,
+      "preview": "<!-- observer-combat-binding-audit-20261014 -->",
+      "sha256": "aeeb7d2696881f34dff805eecc12d0893b5517800e45f47d24a143e18507754e"
+    },
+    {
+      "start_line": 33,
+      "end_line": 33,
+      "preview": "- 14October V/FP binding audit: shared gameplay inputs/resources do not imply shared presentation. Read OBSERVER_ACTION_BINDING_AUDIT_20261014_ZH. V hides approved FP actor and rev",
+      "sha256": "5321b43dff1d9e11443cc6270ae50fd81add6e384c93047905242910a5faa46f"
+    },
+    {
+      "start_line": 40,
+      "end_line": 40,
+      "preview": "<!-- prone-observer-candidate-20261014 -->",
+      "sha256": "b046ae66c83eb4d5ed20c2585e34d6af7798a73387a32ff19f3c3a3abf7cff21"
+    },
+    {
+      "start_line": 44,
+      "end_line": 44,
+      "preview": "- 14October V/Z follow-up: user says original93 motion looks fine, stationary V→Z refuses. Read CURRENT_PRONE_OBSERVER_REVIEW and PRONE_OBSERVER_RESULT_20261014_ZH. Independent sou",
+      "sha256": "d50de8e58380615023682ef281ea8ccebecd013cccfa3a3f2a07514039d872b7"
+    },
+    {
+      "start_line": 53,
+      "end_line": 53,
+      "preview": "<!-- prone-transition-candidate-20261014 -->",
+      "sha256": "25ea3080c2f3abea0f1071bcbb5397b42a74eba7b7ee2e8f2104c85496cc18d7"
+    },
+    {
+      "start_line": 58,
+      "end_line": 58,
+      "preview": "- 14October native Z posture transition: user passes damage89 and asks standing/prone animation repair. Read CURRENT_PRONE_TRANSITION_REVIEW and PRONE_TRANSITION_IMPLEMENTATION/RES",
+      "sha256": "c14271a84f1db10b22e30f278d99e200ad725cbe6940831541329e1dc4da4ef7"
+    },
+    {
+      "start_line": 69,
+      "end_line": 69,
+      "preview": "<!-- player-damage-feedback-candidate-20261014 -->",
+      "sha256": "795cbca8bce51773ee95ce3080bc36e917b89f9234f4e07a789850bfba0568e2"
+    },
+    {
+      "start_line": 75,
+      "end_line": 75,
+      "preview": "- 14October player damage feedback candidate: user approves full plan and says start. Read CURRENT_PLAYER_DAMAGE_REVIEW and PLAYER_DAMAGE_FEEDBACK_IMPLEMENTATION/RESULT_20261014_ZH",
+      "sha256": "6d5c8601574eca1e3eab7bd2c39db2b5e452de736a40e5078f0a7337dc8bcaca"
+    },
+    {
+      "start_line": 87,
+      "end_line": 87,
+      "preview": "<!-- tutorial-unified-zh-20261014 -->",
+      "sha256": "c3ba0babea77578fac67a70bef9f8e6bbdb0a56cb9c1078e3f107fd37e743a45"
+    },
+    {
+      "start_line": 93,
+      "end_line": 93,
+      "preview": "- 14October combined tutorial/Chinese candidate: user passes exact tutorial91/build_v4 and requests latest formal action86 integration plus Simplified Chinese. Read CURRENT_TUTORIA",
+      "sha256": "1876216db34834da70dcf42798e3194e221f6dc82dc12b6fd2e7999eb615c1b9"
+    },
+    {
+      "start_line": 105,
+      "end_line": 105,
+      "preview": "<!-- grenade-formal-adoption-20261014 -->",
+      "sha256": "31c6d6989642a29c03b5921424fb8b9a5684a5b623fb85bc8de9c8a82de90a04"
+    },
+    {
+      "start_line": 111,
+      "end_line": 111,
+      "preview": "- 14October human-approved formal grenade86 adoption: user confirms v8 no problems, authorizes current throwing binding replacement/platform sync/local intermediate cleanup. Read C",
+      "sha256": "c64d1a88e6aa41ab656572c13f5a335704102e2e85d812c0ddaffc7030afaa30"
+    },
+    {
+      "start_line": 123,
+      "end_line": 123,
+      "preview": "<!-- grenade-pose-repair-v8-20261014 -->",
+      "sha256": "5a234e72eb14e2941f4693dba031e4d92a1fa9bd934b1b2f86937d41fad16056"
+    },
+    {
+      "start_line": 129,
+      "end_line": 129,
+      "preview": "- Latest grenade initial-pose repair completed14October2026: user rejects handv3 initial deformation. Read CURRENT_GRENADE_HAND_REVIEW and GRENADE_POSE_REPAIR_IMPLEMENTATION/RESULT",
+      "sha256": "ad5d42733d2bc657a0e7f61d6e27801fd5fce307bc793a79737979891e40aa49"
+    },
+    {
+      "start_line": 141,
+      "end_line": 141,
+      "preview": "<!-- map-survey-overnight-20261013 -->",
+      "sha256": "3713196aabd81e68c1f35a225e39d6f456bcd2a13623749858c11f6ea42527f0"
+    },
+    {
+      "start_line": 147,
+      "end_line": 147,
+      "preview": "- Firstv3 full admission and queue,14October00:35Eastern: batch_v3_00 real EXIT_AUDIT passesexit0/strict0/16,947 protected files exact,12expanded tiles (65,576cells/177,734links); ",
+      "sha256": "dabc09ffb6723ff121d00a9065db625aca170055d097c28abbd68dd7cb983fc9"
+    },
+    {
+      "start_line": 153,
+      "end_line": 153,
+      "preview": "- Night resource correction,14October early morning: night_v1 completedsaved108/expanded7 before3GiB RAM stop; exit0/strict0/16,947guards exact, originalpartial retained. v2_00 sto",
+      "sha256": "39251220c34e352be627f075ef8b2a0d43718d622085bac453c8aa7e23ac1e43"
+    },
+    {
+      "start_line": 159,
+      "end_line": 159,
+      "preview": "- Latest human-authorized map survey,13October2026: after pausing other CS549 work, user grants tonight for25cm exploration and asks startup verified before sleeping. Read MAP_SURV",
+      "sha256": "56a6c05d80caf4a3b0692c2dd9e3333293a0a9dff3be8b522dee2440becb4de9"
+    },
+    {
+      "start_line": 171,
+      "end_line": 171,
+      "preview": "<!-- grenade-hand-repair-v3-20261013 -->",
+      "sha256": "a42669bb6e4860d5afd3640004ff8e53aaeba40b547473409ffe38429df49857"
+    },
+    {
+      "start_line": 177,
+      "end_line": 177,
+      "preview": "- Latest combined grenade-hand/traversal candidate,13October2026: user requests hand issue fixed before joint test. Read CURRENT_GRENADE_HAND_REVIEW and GRENADE_HAND_REPAIR_IMPLEME",
+      "sha256": "a32477d4871c47b946a13e5be5c1bd1bd0912ede9eac874b6b1944614234ba2a"
+    },
+    {
+      "start_line": 189,
+      "end_line": 189,
+      "preview": "<!-- grenade-hand-repair-v2-20261013 -->",
+      "sha256": "6788f6f3258879568aac1ca941acb2f7fffe67f80953b4112b93bd5163e10db4"
+    },
+    {
+      "start_line": 195,
+      "end_line": 195,
+      "preview": "- Latest combined grenade-hand/traversal candidate,13October2026: user requests hand issue fixed before joint test. Read CURRENT_GRENADE_HAND_REVIEW and GRENADE_HAND_REPAIR_IMPLEME",
+      "sha256": "300e9422f1f62d4603e484e791742e125ea65f003daa7b052a7debf1d9a76fc1"
+    },
+    {
+      "start_line": 207,
+      "end_line": 207,
+      "preview": "<!-- traversal-input-repair-v13-20261013 -->",
+      "sha256": "f9d1d9e02e56dfae2837d9a4c1928d21f4da4bcd6fecb3b318261f9cc2a8b80d"
+    },
+    {
+      "start_line": 213,
+      "end_line": 213,
+      "preview": "- Latest independent traversal input repair,13 October2026: source83 G1TraversalInputRepair20261013, finalbuild_v13 Game66e69bb5a61a71d3f19f70eb2dd73b0642e1a7236a1adf07f3d2e627ad0c",
+      "sha256": "74ceab8fce917f770091e3c3c6741b619d2b484ac6baa7cc51287d8efc08ef5b"
+    },
+    {
+      "start_line": 225,
+      "end_line": 225,
+      "preview": "- Latest local checkpoint-history candidate,13 October2026: user approves selectable checkpoints, confirmed old-record deletion and latest-valid protection after basic prone/tutori",
+      "sha256": "38268105d2ba02f0ee79d64b1eb4a6ee02f7ad7f02d595043584725cea2fb548"
+    },
+    {
+      "start_line": 237,
+      "end_line": 237,
+      "preview": "- Latest ordinary-entry traversal feedback,13 October2026: user reports crate-edge Space neither jumps nor vaults and asks direct desktop testing. Computer-use actual same normal G",
+      "sha256": "dde3195f03fbb95a9f14d31997c976e18727b77c8bc789e94e1ca2d66090ceec"
+    },
+    {
+      "start_line": 249,
+      "end_line": 249,
+      "preview": "- Latest independent low-obstacle traversal candidate,13 October2026: user defers broader action gaps and prioritizes TRAVERSAL_ACTION_MODEL_HANDOFF. Read CURRENT_TRAVERSAL_REVIEW ",
+      "sha256": "b54b4a7efd1de883eed0ee05e8024f6fe8ab0b6d900ddebf2786724f27f22edf"
+    },
+    {
+      "start_line": 261,
+      "end_line": 261,
+      "preview": "## Strict prohibition: agent coursework uploads (13 October 2026)",
+      "sha256": "582ae8edca6872c8e220789e8dd5cd1d65210b9e384b0069f89adaed48704347"
+    },
+    {
+      "start_line": 273,
+      "end_line": 273,
+      "preview": "- Latest user directive: \"严格禁用agent上传我的任何作业\". For every course, file size and platform, agents must not upload, submit, resubmit, replace or send coursework files, reports, answer/",
+      "sha256": "c7db4e9f9b6e3ff2c79e8ae506f9ba3b74aec1ac4419501b23745dcb5fd1f204"
+    },
+    {
+      "start_line": 279,
+      "end_line": 279,
+      "preview": "- Do not select/attach/drag files or pre-stage a coursework upload while leaving only the final Submit click to the user. Do not delegate or bypass this rule through another agent/",
+      "sha256": "bc2a0dc462530a88626d1d60a9b7684b01ee8857364e0c1ff1e9a46d186a98da"
+    },
+    {
+      "start_line": 285,
+      "end_line": 285,
+      "preview": "- Prepare, package and verify locally only; give the user exact paths, contents and actual sizes for manual upload. Prior task approvals, \"continue\", \"finish\", \"publish\", Git/SFTP ",
+      "sha256": "26c4240ebe3b2d90c903ee07eb9d88d17f8dd92e7d90f6908c96c04df68cfd18"
+    },
+    {
+      "start_line": 291,
+      "end_line": 291,
+      "preview": "- Existing authorized development-only Git/SFTP collaboration is not canceled, but it cannot serve as coursework-submission authority or a workaround. Preserve already-published re",
+      "sha256": "e9799dba020a475619fa0a173e01d9f9c001fb0a004f53755b5f5bfdd33d99db"
+    },
+    {
+      "start_line": 297,
+      "end_line": 297,
+      "preview": "- This is an instruction policy, not a platform permission lock. Existing windows must read the new rule before proceeding; do not claim it was propagated to running sessions or ot",
+      "sha256": "c71dc0e02eb4ad1d670c756d05c987463d3a6142e91f118a3c1d03fd61a1639f"
+    },
+    {
+      "start_line": 309,
+      "end_line": 309,
+      "preview": "- Ongoing map survey, 13 October 2026: the user requests continued 25 cm × 25 cm exploration/drawing only when UE is free. Read [the continuation implementation](Docs/Development/M",
+      "sha256": "eb861797fde4257f261e3b46ce91b27c5a15e6aa1116bf3ed349d766b3e2570d"
+    },
+    {
+      "start_line": 321,
+      "end_line": 321,
+      "preview": "- 13 October manual sleeve baseline adoption/local retirement: user confirms sleeve build has no problems, adopts unchanged source78 G1SleeveWorkspace20261012/Game 48a008bdbe9d2b51",
+      "sha256": "8581228aaaac9f5cd3479694676c819eb5466a0885883642ee93bf015c86bea7"
+    },
+    {
+      "start_line": 339,
+      "end_line": 339,
+      "preview": "- 12 October local sleeve candidate: user selects clothing/sleeve occlusion repair. Read CURRENT_SLEEVE_REVIEW and SLEEVE_OCCLUSION_IMPLEMENTATION/RESULT EN+ZH plus SL001. Source78",
+      "sha256": "32c6eb0000d1073686e4e63af6c1e03670b2d61599f6549402af75dc356ee67b"
+    },
+    {
+      "start_line": 351,
+      "end_line": 351,
+      "preview": "- Latest authorized gameplay publication,11October2026: user requests Git commit/push, latest formal76 private SFTP and obsolete packaged cleanup, explicitly preserving teacher del",
+      "sha256": "eed4cab7e9fb0a3b169b58e302cab5e01ccc4ebe885b4a58459e25f0703bc8a6"
+    },
+    {
+      "start_line": 363,
+      "end_line": 363,
+      "preview": "- Latest manual complete-gameplay adoption/local retirement,11October2026: user manually verifies grenade-equip finalv4 logic, reports residual clothing/sleeve occlusion, selects i",
+      "sha256": "e999cc297b3be6cadd9dec0b713dfbc0f623cf453fac493fc2dc6c25b53ecef9"
+    },
+    {
+      "start_line": 381,
+      "end_line": 381,
+      "preview": "- Latest local grenade-equip revision,11 October2026: user rejects source75's rifle pose/empty slots/invisible frag (MI045). Read CURRENT_EQUIPMENT_INPUT_REVIEW and GRENADE_EQUIP_R",
+      "sha256": "38b30f69b6859d93661b4a08bf8fe62feb6b731675f88b9a77829ecf8e886a01"
+    },
+    {
+      "start_line": 393,
+      "end_line": 393,
+      "preview": "- Latest local equipment-wheel input candidate,11 October2026: user requests wheel rifle/frag/smoke and held primary prepare/release throw. Read CURRENT_EQUIPMENT_INPUT_REVIEW and ",
+      "sha256": "beaceb2137eb93edfc5aaa0627066bab4da261b3f222b3d2d3144b8ccd298ab0"
+    },
+    {
+      "start_line": 405,
+      "end_line": 405,
+      "preview": "## Authority and scope",
+      "sha256": "dbe7654739c7587e1425e8412a4b101df26f505ab50e433f690f8c370e25f866"
+    },
+    {
+      "start_line": 417,
+      "end_line": 417,
+      "preview": "- Latest local grenade-model unified candidate,11 October2026: user requests asset-index-first/doc-first placeholder replacement, preserving fingers/weapon/save. Read CURRENT_GRENA",
+      "sha256": "bd7aee00b8ded57c7f750babce7fcecefc2d36b18ff637c2485c2c4e7bd5af47"
+    },
+    {
+      "start_line": 435,
+      "end_line": 435,
+      "preview": "- Asset lookup entry, 11 October 2026: user requires other project windows to consult the asset index first. For asset/source/animation/preview/version/usage questions, read `Asset",
+      "sha256": "1a45fc7e954a54f7378551039119f2a39c06354abd6ccdd51afbf20e63490733"
+    },
+    {
+      "start_line": 447,
+      "end_line": 447,
+      "preview": "- Latest local player-death unified candidate,11 October2026: user requires mine fire feedback and all-player third-person collapse before death/restart UI. Read CURRENT_PLAYER_DEA",
+      "sha256": "4cc12a91e83a7bf45400d8dffbb854d0c39dc58a1dc5ffd35024b4d374adb373"
+    },
+    {
+      "start_line": 459,
+      "end_line": 459,
+      "preview": "- Standing trial placement rule,11 October2026: user explicitly requires trial packages and trial launchers inside the dedicated tmp area, not the project root. New candidates use ",
+      "sha256": "ddf7cf0885f8cf0991b2a5eb6337a67407d086fa991e72a2c5044b6c2ec01b57"
+    },
+    {
+      "start_line": 471,
+      "end_line": 471,
+      "preview": "- Latest field-manual UI candidate,11 October2026: user approves the generated field-manual style and requests actual UI optimization. Read CURRENT_UI_REVIEW.json/md, MissionLoopV1",
+      "sha256": "2c15a543f9dc6394861148e27c09e809da2e95666b42cb0774792b9e62b67697"
+    },
+    {
+      "start_line": 483,
+      "end_line": 483,
+      "preview": "- Latest combat UI unified candidate,11 October2026: user authorizes implementation document then help/mission/player-squad/context UI and one combined equipment trial, preserving ",
+      "sha256": "928e4116424b4d22270fea565934b04e77cafaf8a92118adaf2d4e2ad9b9e07d"
+    },
+    {
+      "start_line": 495,
+      "end_line": 495,
+      "preview": "- Latest Assignment 1/2 document publication, 11 October 2026: user extends course-PDF Git sharing to the current final Paris proposals, unchanged at `Docs/Proposal/CS549_Assignmen",
+      "sha256": "c4827157cc459b5de22ad4c604e70662b401f88d8f732cdc5ab1940a4f292115"
+    },
+    {
+      "start_line": 507,
+      "end_line": 507,
+      "preview": "- Latest course-document storage correction, 11 October 2026: user explicitly requires the accepted final Assignment 3 PDF in Git for team viewing. Small team-authored, public-safe",
+      "sha256": "b9e170309ee34cc714e881da540fab3b9d77049c041fe66eef6abc5e26a6aef1"
+    },
+    {
+      "start_line": 519,
+      "end_line": 519,
+      "preview": "- Latest local mine revision,11 October2026: user rejects the checker-cylinder trap model and requires a visible mine, grounded contact explosion and nearby disarm. Read CURRENT_EQ",
+      "sha256": "b297b3beff45259e06d4fc09e27900f71fabd18489408478b3f23b67e28154ca"
+    },
+    {
+      "start_line": 531,
+      "end_line": 531,
+      "preview": "- Latest tactical equipment unified candidate,11 October2026: user requests completion of grenades, smoke, preplaced enemy traps and finite ammunition supplies before one manual re",
+      "sha256": "f207cce296a9a3cef9523f9500ec83fbb07d7f041d0a886e519b299aa84d40fb"
+    },
+    {
+      "start_line": 543,
+      "end_line": 543,
+      "preview": "- Latest gameplay design direction,10 October2026: user corrects the route/population-only draft and requests grenades, smoke grenades, traps and ammunition resupply points, using ",
+      "sha256": "d136b5f569ae52afc4b5206b42a33971f5d3eeb028c6f2e5a93cabfab0b5ee97"
+    },
+    {
+      "start_line": 555,
+      "end_line": 555,
+      "preview": "- Standing UE operation authorization,10 October2026: user explicitly says \"以后开发需要ue引擎，你就直接开着用，不用管，每次给你点确认挺麻烦的\". For authorized project development and validation, directly launch,",
+      "sha256": "505621b093a3d3486487830620593361e3ff7eff962a84f5e407ebe65be72731"
+    },
+    {
+      "start_line": 567,
+      "end_line": 567,
+      "preview": "- Latest manual formal-baseline adoption/local retirement,10October2026: user manually retests enemy-clear v3 with no issues and explicitly selects it for continued development, pe",
+      "sha256": "d6a8d39f8be3b2bc8ca0ada72c77803803b90f44c673824a4bca2f3c649dda63"
+    },
+    {
+      "start_line": 579,
+      "end_line": 579,
+      "preview": "- Latest checkpoint rule,10 October2026: user explicitly requires every checkpoint's objective/save gate to depend on complete enemy elimination only. For the current G1 registered",
+      "sha256": "73f956260f6287790d6b3a8296946e4c1bc0f1dfb00abf5e9204f63e4d17d7f5"
+    },
+    {
+      "start_line": 591,
+      "end_line": 591,
+      "preview": "- Latest planning-map precision selection, 10 October 2026: the user discards the 1 m black/white edition because coarse sampling can misidentify space. Use only the audited 25 cm ",
+      "sha256": "553e9c17a343672322e267fa6e54f720740c78c71df47c12bd63d8d196e1c3e6"
+    },
+    {
+      "start_line": 603,
+      "end_line": 603,
+      "preview": "- Latest document-image storage rule, 10 October 2026: the user requires illustrations closely associated with project documents to be committed alongside those documents in Git. T",
+      "sha256": "043577dd44cf5accc78975ec725023b1caecd5c714772ef04fb8ad4f0751c927"
+    },
+    {
+      "start_line": 615,
+      "end_line": 615,
+      "preview": "- Latest manual adoption/publication/cleanup authorization,9 October2026: user manually retests Game53ab36d9da1975a2f8e1109fcf6745cc40e96d371fc89fbfa009139b91950aec and explicitly ",
+      "sha256": "648b9890bba3928d247f734f190683460988331c0bd36e05d2312e9c70c3a437"
+    },
+    {
+      "start_line": 627,
+      "end_line": 627,
+      "preview": "- Latest human Foley feedback and measured audio V2,9 October2026: user reports the recorded version is much improved, with player foot phase mismatch and missing jump; other issue",
+      "sha256": "13a1b753a6d9b3ec29ec6feaa916ec7bdbb861f575b3844b6320948a0c1e8da4"
+    },
+    {
+      "start_line": 639,
+      "end_line": 639,
+      "preview": "- Recorded Foley review candidate ready,9 October2026: read `Docs/Development/CURRENT_AUDIO_REVIEW.json` and paired `G1_AUDIO_REALISM_RESULT_20261009.md`. Exact42 `Unreal/Variants/",
+      "sha256": "2f01a6de9c907b6de01233161949c3f830fdd3e511315adcaa3e41b7e00affd5"
+    },
+    {
+      "start_line": 651,
+      "end_line": 651,
+      "preview": "- Latest human sound review,9 October2026: user accepts only AVv3 gunshot and rejects synthetic footsteps/reload realism, also reports a snapped about-face in draft02's action open",
+      "sha256": "5054328ae0ef017312a78749beb14c914759c11c944a11acb79468092598a192"
+    },
+    {
+      "start_line": 663,
+      "end_line": 663,
+      "preview": "- Latest authorized local presentation/audio repair,9 October2026: read `Docs/Development/CURRENT_LOCAL_REPAIR.json`, paired `G1_DEATH_AUDIO_VIDEO_RESULT_20261009.md` and MI014. Th",
+      "sha256": "8b05e81c46567f022a720816ab83ae8c01bf47fff572243dd37feb34ae78fa19"
+    },
+    {
+      "start_line": 675,
+      "end_line": 675,
+      "preview": "- Latest development-baseline selection, 9 October 2026: the user selects the local `tmp/Playtest-G1-HUD-20261009` hud_v3 as the basis for subsequent development and permits retire",
+      "sha256": "98717239c62717ddf14577539e78950e70e9a2adca2378676565e3433005c75d"
+    },
+    {
+      "start_line": 687,
+      "end_line": 687,
+      "preview": "- This is the active CS549 project at `D:\\0.Rutgers\\CS549\\Project-New`.",
+      "sha256": "848c7b9092544c1d6d97252390c62c760051dcf0d89e8fd660ed3a1655cb2e2d"
+    },
+    {
+      "start_line": 693,
+      "end_line": 693,
+      "preview": "- New sessions should read `HANDOFF.md` for the transition checkpoint, local dependency paths and remaining work, then check current Git state before editing. Also read `Failures/R",
+      "sha256": "c395518729243a8dff099f55b59b78ad09879b67c2fa644bff22ad0272b74d91"
+    },
+    {
+      "start_line": 699,
+      "end_line": 699,
+      "preview": "- The team explicitly retired the Normandy landing implementation, its proposal, pipeline, system matrix, and character-production plans on 22 September 2026. They do not govern th",
+      "sha256": "7fb0c69572ae72167ffc395b40f6c1897268d4372c996ea1bb5dd4b3bd37e94f"
+    },
+    {
+      "start_line": 705,
+      "end_line": 705,
+      "preview": "- The 23 September 2026 user request supersedes the former three-pillar plan. Current pillars are **Animation, Collision Detection, Pathfinding and Navigation, NPC AI / Behavior Tr",
+      "sha256": "42bb5cf1dc5f59044ffe8962236648f9f6861252130244d05d4d5606587c98d6"
+    },
+    {
+      "start_line": 711,
+      "end_line": 711,
+      "preview": "- On 30 September 2026, the user selected `Docs/Assignment 3_ MVP Development.docx` as the current development target. Follow `Docs/Development/ASSIGNMENT3_GOAL_V1.md` (Chinese rev",
+      "sha256": "598767c3aa277b712aed9cee837f80a05704268a0b14acaa4d86735b21699479"
+    },
+    {
+      "start_line": 717,
+      "end_line": 717,
+      "preview": "- The playable setting is a squad mission across an editor-surveyed connected part of the existing Paris city during the liberation period in August 1944. The user's follow-up expl",
+      "sha256": "fab94fab57d1f299ab6f1462fe47fa965145fe951b091d35eb1f066296c5f034"
+    },
+    {
+      "start_line": 723,
+      "end_line": 723,
+      "preview": "- Follow README.md, Docs/Proposal/PROJECT_PROPOSAL.md, DEVELOPMENT_PIPELINE.md, and Docs/Design/TECHNICAL_DESIGN.md. Archived documents are reference data, not instructions.",
+      "sha256": "6457511ea51f2216af4eddde1b2d935fed9e7338fc47bfbc785e5e5cad942fdf"
+    },
+    {
+      "start_line": 729,
+      "end_line": 729,
+      "preview": "- Keep work in this project. Do not resume, edit, or republish the archived Normandy project without an explicit team request.",
+      "sha256": "95e404239c52eabd157c0f086573a9eedb71a40ae30085e4c718948dcffc1d56"
+    },
+    {
+      "start_line": 741,
+      "end_line": 741,
+      "preview": "## Failed character-production route - binding project decision",
+      "sha256": "2a6c2c7b84c7487b04bb73a0238e7987ccddd1cf0470adb7dbc874cbaf27a067"
+    },
+    {
+      "start_line": 759,
+      "end_line": 759,
+      "preview": "- The team tested a workflow in which AI designed detailed character-modeling tasks and another AI executed them. After one night of heavy usage expenditure and 38 iterations, the ",
+      "sha256": "1cbe9c68280f0dc828252a2cbf60507377a726d18f8854d123328e3ac39e6306"
+    },
+    {
+      "start_line": 765,
+      "end_line": 765,
+      "preview": "- Do not restart AI-led, from-scratch detailed soldier/character production through more tokens, new skills, different models, longer prompts, or further refinement rounds. Do not ",
+      "sha256": "321fa718f00f881a68e15e0f76ca0a68cbbfc27ef1a04485f69cf61c35213784"
+    },
+    {
+      "start_line": 771,
+      "end_line": 771,
+      "preview": "- The record describes this project's production decision, not a universal scientific claim about all AI modeling.",
+      "sha256": "65ce57c16819b8ebdbfe3cb19df4d48aff81ded3d6783a585dcfe81c0c38c4c9"
+    },
+    {
+      "start_line": 777,
+      "end_line": 777,
+      "preview": "- Use existing, licensed, compatible assets first. For a gap: search existing assets, inspect compatibility, consider bounded adaptation, professional assistance, or reduce the req",
+      "sha256": "73f512108af4c76882fb806d95183835f0136cfc196c26de0318a595bb8040a2"
+    },
+    {
+      "start_line": 783,
+      "end_line": 783,
+      "preview": "- AI assistance may cover research, inventory, code/Blueprint assistance, import configuration, narrowly specified adaptation, diagnostics, tests, and documentation. Reopening the ",
+      "sha256": "0a9be67e921a467e5a37416eac58aec6f3dc52cce402a1100b7c1fcd9ce8b66e"
+    },
+    {
+      "start_line": 789,
+      "end_line": 789,
+      "preview": "- On 27 September 2026, Yupu ended the separate Lux3D/MPFB character pilot. The result was visibly improved but still required substantial production cleanup. Preserve the experime",
+      "sha256": "f3ea42b2883bf2eb86436f4b021a55f33c6e30efb860a1c831eb9b41bfb3b798"
+    },
+    {
+      "start_line": 801,
+      "end_line": 801,
+      "preview": "## Production rules",
+      "sha256": "89447df2a84f5f1b9092c16662713cc0cc11666dd326e92f0a59447aefd64cb5"
+    },
+    {
+      "start_line": 813,
+      "end_line": 813,
+      "preview": "- Git publication request,6 October: Yupu explicitly requests commit/push of the current formal asset integration and its accumulated matching source/configuration/hash/documentati",
+      "sha256": "92ea0e0e525d394be74c39b1253a10204dedd4b1e8e24d2fc266d1782981f9cc"
+    },
+    {
+      "start_line": 825,
+      "end_line": 825,
+      "preview": "- Latest German FORMAL V14 adoption,6 October: Yupu selects previous refined V11 WITH FineWoodV15 rifle as formal MVP visual baseline, deferring remaining polish. Read `Docs/Develo",
+      "sha256": "bb1e7991baf994e32a9b608cb29c0e9551b8582c9201f6d0eb72a1dbf0d276ba"
+    },
+    {
+      "start_line": 837,
+      "end_line": 837,
+      "preview": "- Latest German V13 USER REJECTION,6 October: user says the whole Allied-grasp parameter reuse looks poor, abandons it and directs return to previous refined German model/parameter",
+      "sha256": "1569ab418bfef7976072173dbe3c62544b02e6e79b16668c9559f4b5fe9b747e"
+    },
+    {
+      "start_line": 849,
+      "end_line": 849,
+      "preview": "- Latest German index V12 partial comparison,6 October: read `Docs/Development/GERMAN_NPC_INDEX_GRIP_V12_RESULT_20261006.md` and plan. User accepts V11 lower-three visually only, a",
+      "sha256": "a16cc46acf25281c1d39982ad53c3ddbb241ccd2d3b453e92cf4863b2a0534b2"
+    },
+    {
+      "start_line": 861,
+      "end_line": 861,
+      "preview": "- Latest German lower-three V11 stopped,6 October: user accepts V10 thumb and requests RIGHT middle/ring/little pads on stock. Read `Docs/Development/GERMAN_NPC_LOWER_GRIP_V11_RESU",
+      "sha256": "f83eb8a2a6cca4f64e55a61200bd34d03b23b7175e76d1d1b4e3a2fb5d77aa69"
+    },
+    {
+      "start_line": 873,
+      "end_line": 873,
+      "preview": "- Latest German distal thumb curl V10,6 October: user accepts V9 positioning and minor overlap visually, requests marked tip bend; not native adoption. Read `Docs/Development/GERMA",
+      "sha256": "e683b79d1455c102338bf447a5737e9e5e112e6ffa9f094ee12115a9a8eade5a"
+    },
+    {
+      "start_line": 885,
+      "end_line": 885,
+      "preview": "- Latest German extra2deg V9,6 October: user explicitly requests ONE same-axis continuation from actual V8. Read `Docs/Development/GERMAN_NPC_SCREEN_ROTATE_V9_RESULT_20261006.md` a",
+      "sha256": "45d3e8c3d012e77b86d28b8868cd4ee21df35d5db27ae7ef1965c2481866cb7d"
+    },
+    {
+      "start_line": 897,
+      "end_line": 897,
+      "preview": "- Latest German stock-side screen turn V8,6 October: user approves continuing V7 and marks outward stock-side rotation for palm contact, NOT formal adoption. Read `Docs/Development",
+      "sha256": "79eb8e971a5d3cb5afb5389bf4ee3ce001c899f1bf62fc96115fa08bfcc1ad97"
+    },
+    {
+      "start_line": 909,
+      "end_line": 909,
+      "preview": "- Latest German marked trigger-stock V7,6 October: user explicitly retains V6's raised pure-elevation thumb and directs stock-end down around actual trigger, LEFT support follows. ",
+      "sha256": "840ff4630699a4681454babd568261caa34b923cc2c3360815d4c4199be43594"
+    },
+    {
+      "start_line": 921,
+      "end_line": 921,
+      "preview": "- Latest German right-thumb V6 STOPPED,6 October: user pauses gun seating, identifies incompatible initial RIGHT thumb and authorizes thumb-pose adaptation only. Read `Docs/Develop",
+      "sha256": "0b027c3b0d1942fcb2b8b73fff5cddb84f50ef53a1f7822a52e649ab27280353"
+    },
+    {
+      "start_line": 933,
+      "end_line": 933,
+      "preview": "- Latest German ordered grip V4,6 October: user authorizes modest extra angle, then stock-pivot downward/support fitting and human review. Read `Docs/Development/GERMAN_NPC_ORDERED",
+      "sha256": "a0deaeedf644306920a210eeb3fba9dfa5e536c581b890904af2b658cd9bf264"
+    },
+    {
+      "start_line": 945,
+      "end_line": 945,
+      "preview": "- Latest German small-pivot V3,6 October: user rejects V2's37.6deg as excessive. Read `Docs/Development/GERMAN_NPC_SMALL_PIVOT_V3_RESULT_20261006.md` and plan. Reconstruct V1 trans",
+      "sha256": "9a58332523b6f98a77e82c41c6a3c0886ed5e82469fb0fd3d41abef4c22ac548"
+    },
+    {
+      "start_line": 957,
+      "end_line": 957,
+      "preview": "- Latest German trigger-pivot V2,6 October: user permits rotating stock toward fixed right palm with V1 trigger/index point preserved. Read `Docs/Development/GERMAN_NPC_TRIGGER_PIV",
+      "sha256": "9e681156183fe7062c64529d9316cfc8e259c77b5949e7ca9c643528f539d528"
+    },
+    {
+      "start_line": 969,
+      "end_line": 969,
+      "preview": "- Latest German marked translation V1,6 October: user fixes BOTH hands and permits ONE gun translation only. Read `Docs/Development/GERMAN_NPC_TRANSLATION_V1_RESULT_20261006.md` an",
+      "sha256": "350b2a5c8f8d22e4433fe5caee4bc5fc08f4532da95327465f221e1b2914059e"
+    },
+    {
+      "start_line": 981,
+      "end_line": 981,
+      "preview": "- Latest Allied formal adoption V18 COMPLETE,6 October: Yupu accepts current V16 native appearance and explicitly selects it for ALL standard Allied NPCs. Read `Docs/Development/AL",
+      "sha256": "2cfc035bf0e1e9ac1ada9cc7595f4baf198975aefffee7410b934971f3553925"
+    },
+    {
+      "start_line": 993,
+      "end_line": 993,
+      "preview": "- Latest Allied human viewing entry,6 October14:43EDT: explicit user launch only, read `Docs/Development/ALLIED_NPC_HUMAN_REVIEW_20261006.md`. Visible user-owned PID50884/identity ",
+      "sha256": "35ba43fa1562d53d2dfafd177cb444f910921ad8482d9f5276878d1ec8ae4e38"
+    },
+    {
+      "start_line": 1005,
+      "end_line": 1005,
+      "preview": "- Latest Allied UE candidate V16/lifecycle V17,6 October: user accepts V14 STATIC posture and authorizes UE-native assets. Read `Docs/Development/ALLIED_NPC_UE_BINDING_RESULT_20261",
+      "sha256": "598cabfed043e4f1cf2c2801ee13f47c0aa07fc3ffbef3feb0817027c5f0b8cf"
+    },
+    {
+      "start_line": 1017,
+      "end_line": 1017,
+      "preview": "- Latest Allied FP right-arm analogue V14 completed,6 October: read `Docs/Development/ALLIED_NPC_FP_WRIST_V14_RESULT_20261006.md`/plan. ONE original-length right elbow fit toward v",
+      "sha256": "1d29a0ddf72f49cf0a9c44c131becc4d3ff8e27c3006972365fb6bb84a6af5f6"
+    },
+    {
+      "start_line": 1029,
+      "end_line": 1029,
+      "preview": "- Latest Allied right-arm reference V14,6 October: user requests approved FP parameter analogue for unnatural right wrist. Read `Docs/Development/ALLIED_NPC_FP_WRIST_V14_20261006.m",
+      "sha256": "006982dc8333f6dcde8521015d67aba2707aabe19c1a1da2d447032cdc17e620"
+    },
+    {
+      "start_line": 1041,
+      "end_line": 1041,
+      "preview": "- Latest Allied NPC whole firing assembly V13,6 October: user freezes both",
+      "sha256": "1bc1dbcdb98eb6cdd6c3c542a90e98a051db8a501299d8f6fde532b3418fda1a"
+    },
+    {
+      "start_line": 1047,
+      "end_line": 1047,
+      "preview": "  hand/gun relations and requests both arms repositioned/lower muzzle. Read",
+      "sha256": "ef774ec4742bd5859f48777e247ac93e6f9209bb6f4625fe4fb1b680c7ca8027"
+    },
+    {
+      "start_line": 1053,
+      "end_line": 1053,
+      "preview": "  `Docs/Development/ALLIED_NPC_FIRING_ASSEMBLY_V13_RESULT_20261006.md` and plan.",
+      "sha256": "2da51b5d3398e6e73c7af93fa11a6a414c096991b972f332f467eaa5956b474f"
+    },
+    {
+      "start_line": 1059,
+      "end_line": 1059,
+      "preview": "  ONE33.106degree down/horizontal/actual shoulder-surface-seated assembly from",
+      "sha256": "b57663d7f66c7dbedb815817a5539d8c539c212cbc7d7c3e183ccbd2d8728c66"
+    },
+    {
+      "start_line": 1065,
+      "end_line": 1065,
+      "preview": "  native V12, BOTH source-length chains, digit locals unchanged; muzzle37.129cm",
+      "sha256": "92cc52efa7b6e7acf26d2370d324e41491b671fae90f986ebcfddf1f420b0a2f"
+    },
+    {
+      "start_line": 1071,
+      "end_line": 1071,
+      "preview": "  lower. Native right/left gun-to-hand0.000120/0.000081cm, all ten contact counts",
+      "sha256": "4b21975dbee8188925482b3847f1ca0b2a9c8984e8e91dbd69a95375ea58d692"
+    },
+    {
+      "start_line": 1077,
+      "end_line": 1077,
+      "preview": "  unchanged/index blade10 remains FAILED. Mixed cuff residuals and final shoulder",
+      "sha256": "000bd60067621a26cf72d34d0e715d27a02d892507218bc10acc2ecef3ef834c"
+    },
+    {
+      "start_line": 1083,
+      "end_line": 1083,
+      "preview": "  gap0.360cm explicitly retained;15 original views/four sheets reviewed, static",
+      "sha256": "4f5c267462735cb61e21c8473e83ea2f61e09507e6bb8af85f1542c83ddd4d3e"
+    },
+    {
+      "start_line": 1089,
+      "end_line": 1089,
+      "preview": "  arms continuous, top muzzle/body helmet partly cropped and shoulder partly",
+      "sha256": "5f2893ed303a6ee31822af4cfa72595816b6b6d892d523d2dc9e9450144016fd"
+    },
+    {
+      "start_line": 1095,
+      "end_line": 1095,
+      "preview": "  occluded. No ADS/motion/full-grasp acceptance. Fresh full geometry/native/source",
+      "sha256": "5e2008adf6391e52df54996195b1f880bf044ac9a0e58724c790029ba87396f2"
+    },
+    {
+      "start_line": 1101,
+      "end_line": 1101,
+      "preview": "  checks/611 guards exact; owned PID24840 normal exit0/no engines/A RELEASED.",
+      "sha256": "49d87b8efd0571fa076b92ce9a8bf0334043b4bf197429dc9ca7b61b90ab225b"
+    },
+    {
+      "start_line": 1107,
+      "end_line": 1107,
+      "preview": "  Await Allied review/German deferred, no automatic further fit/digit/source/FP/",
+      "sha256": "1a40f555c3cb5e99e0b4ad15da6fd3fdf5040cdd7fed54f38a38c74462459024"
+    },
+    {
+      "start_line": 1113,
+      "end_line": 1113,
+      "preview": "  B/AI/map/Catalog/save/adoption/deletion/publication/commit/push changes. This",
+      "sha256": "5e436020950e6c163a7bf77fe8f5909bd1f867879ad2f2e6375a0e9f857511d9"
+    },
+    {
+      "start_line": 1119,
+      "end_line": 1119,
+      "preview": "  explicit user scope supersedes V12 fixed-wrist/gun-world stop ONLY for this",
+      "sha256": "ae2dc277e86bb786d0fb119822dfa29484410ee74f0b0a6cfc0f68cc389dec7a"
+    },
+    {
+      "start_line": 1125,
+      "end_line": 1125,
+      "preview": "  completed coupled pose comparison; relative grip/source protections remain.",
+      "sha256": "5753948d06a3c8fb3a887bf95af465e0be929ff22a5d7f75423f7983624e9f3b"
+    },
+    {
+      "start_line": 1137,
+      "end_line": 1137,
+      "preview": "- Latest Allied fingertip curl V12,6 October: user marks tip and explicitly asks a little more curl. Read `Docs/Development/ALLIED_NPC_TIP_CURL_V12_RESULT_20261006.md`/plan. ONE ex",
+      "sha256": "2267cd915bfd8e867533f4cea1aa52a589d15bb6c2cf938122dc60aa630f9a7c"
+    },
+    {
+      "start_line": 1149,
+      "end_line": 1149,
+      "preview": "- Latest Allied marked rearward/index curl V11,6 October: user explicitly permits small gun retreat and index bend. Read `Docs/Development/ALLIED_NPC_INDEX_CURL_V11_RESULT_20261006",
+      "sha256": "ebb03dd16ff6f297450d9ef0a50d9ed7259dbf7eb3f8f055ef46ae8e7b15a811"
+    },
+    {
+      "start_line": 1161,
+      "end_line": 1161,
+      "preview": "- Latest Allied continuous trigger fit V10,6 October: user authorizes calibration without per2degree pauses. Read `Docs/Development/ALLIED_NPC_TRIGGER_FIT_V10_RESULT_20261006.md` /",
+      "sha256": "a7d294aaf4046829da171483da1b213d5136f63507b1380931624b8a6db12e67"
+    },
+    {
+      "start_line": 1173,
+      "end_line": 1173,
+      "preview": "- Latest Allied NPC corrected upward rotation V9,5 October: user clarifies rotation, not whole-gun translation. Read `Docs/Development/ALLIED_NPC_PIVOT_ROTATE_V9_RESULT_20261005.md",
+      "sha256": "9c43252bed9f999f3cfdf9fcc6caf0ed2846ec470612ddadffae106ad68fc235"
+    },
+    {
+      "start_line": 1185,
+      "end_line": 1185,
+      "preview": "- Latest Allied NPC marked pivot raise V7,5 October: user approves fixed right grip and raising gun/whole left support. Read `Docs/Development/ALLIED_NPC_PIVOT_RAISE_V7_RESULT_2026",
+      "sha256": "a63476b2901eb9b4fe76920d1637bf6d9eb47ce8e689cfcbfe2f4a798aaa93e2"
+    },
+    {
+      "start_line": 1197,
+      "end_line": 1197,
+      "preview": "- Latest Allied NPC marked-web V6 comparison,5 October: user resumes left/down gun seating then rotation into fixed left palm. Read `Docs/Development/ALLIED_NPC_MARKED_WEB_V6_RESUL",
+      "sha256": "dfbf1f9bcb0c96248c0c3d0c87a0ea901310fdece87cf30bf59866ef16812f88"
+    },
+    {
+      "start_line": 1209,
+      "end_line": 1209,
+      "preview": "- Latest Allied NPC V5 translation comparison,5 October: user requests extra up0.3cm plus toward-character0.2cm. Read `Docs/Development/ALLIED_NPC_FIT_V5_RESULT_20261005.md` and pl",
+      "sha256": "c658dbd62579cb73fde8b25840e0b94f41c72caef399f47f6b5830afb5973beb"
+    },
+    {
+      "start_line": 1221,
+      "end_line": 1221,
+      "preview": "- Latest Allied NPC second upward comparison,5 October: user rejects V3 fingertip penetration and asks another upward increment. Read `Docs/Development/ALLIED_NPC_RAISE_V4_RESULT_2",
+      "sha256": "409c79767fe84c38e717173dd4580141fbb07b4f9e4d6ca13d7ae583e9ededfe"
+    },
+    {
+      "start_line": 1233,
+      "end_line": 1233,
+      "preview": "- Latest Allied NPC upward comparison,5 October: user directs slight whole-rifle raise, fixed hands/angle. Read `Docs/Development/ALLIED_NPC_RAISE_V3_RESULT_20261005.md` and plan. ",
+      "sha256": "0de953fa41ddb4b085109b2a1a2acfa9af82b2f8cd25763b9f710488a6f233cf"
+    },
+    {
+      "start_line": 1245,
+      "end_line": 1245,
+      "preview": "- Latest Allied NPC translation-only review,5 October: user rejects finger changes and directs ONE gun translation to right-index pad, then three views. Read `Docs/Development/ALLI",
+      "sha256": "65eea3802b9499c362a53bb03a28b1dcc842f76a42ea71dbcd46e2681f1beeef"
+    },
+    {
+      "start_line": 1257,
+      "end_line": 1257,
+      "preview": "- Latest NPC grip baseline,5 October: user requests Allied/German textured three views before marking corrections. Read `Docs/Development/NPC_GRIP_BASELINE_V1_RESULT_20261005.md` a",
+      "sha256": "9422994eeb3faf5ddd272c9a637abcb5fe567baafc7c6082fceeb351b421542c"
+    },
+    {
+      "start_line": 1269,
+      "end_line": 1269,
+      "preview": "- Current approved guard epoch: formal publication intentionally updates Catalog as well as the map. The531 other old rows were exact BEFORE publication; old map/Catalog hashes are",
+      "sha256": "afea74e3378663218de0da22055901fbccae028561476411b5ed15b9c8bfadbc"
+    },
+    {
+      "start_line": 1281,
+      "end_line": 1281,
+      "preview": "- Latest approved FP formal selection,5 October: paired `Docs/Development/FIRST_PERSON_FORMAL_V21_RESULT_20261005.md` / `_ZH.md` and plan govern. Yupu ends hand refinement; formal ",
+      "sha256": "228d7a73312d9da1a2fbfd8929048cd37ac4df02ac5789d7c5abc5b25457bb0b"
+    },
+    {
+      "start_line": 1293,
+      "end_line": 1293,
+      "preview": "- Latest first-person human acceptance,5 October: Yupu accepts current V20 presentation, ends hand refinement and explicitly requests formal replacement with the current modificati",
+      "sha256": "887305b23c9800eecef8f23d71c7c9f6c986e1e31b327248cfbdb3f6db877a63"
+    },
+    {
+      "start_line": 1305,
+      "end_line": 1305,
+      "preview": "- Latest V20 local result,5 October: read paired `Docs/Development/LEFT_SUPPORT_V20_RESULT_20261005.md` / `_ZH.md` and plan. User exception ONLY three LEFT thumb local rotations fr",
+      "sha256": "32e765335798dd4b6f2c90bc990ebe814fd148a5cf12583076947f0730ace64f"
+    },
+    {
+      "start_line": 1317,
+      "end_line": 1317,
+      "preview": "- Latest user left-thumb exception,5 October: user explicitly allows ONLY existing-grasp thumb_01/02/03_l local rotation reuse in a NEW FP display config. Read `Docs/Development/LE",
+      "sha256": "1e63f956cc0bef3a97def70398fd16ea5300fbdf08ef0bbef75ec8185eb6a37f"
+    },
+    {
+      "start_line": 1329,
+      "end_line": 1329,
+      "preview": "- Latest V19 human feedback,5 October: right hand satisfactory and no reload penetration observed in user's test; do not change these to repair left support. Sleeve obstruction is ",
+      "sha256": "797b471a277c7a90ab08072a4c09e8e67a559f52409e1b762844bca94f8f4c82"
+    },
+    {
+      "start_line": 1341,
+      "end_line": 1341,
+      "preview": "- Latest V19 human viewing,5 October11:44EDT: explicit user launch request only, separate manual entry per AN007/`Docs/Development/FP_V19_HUMAN_REVIEW_20261005.md`. User-owned visi",
+      "sha256": "0354eb85e3cfafca414723301819ef995541106a4d6e473abc5effeab45c9acc"
+    },
+    {
+      "start_line": 1353,
+      "end_line": 1353,
+      "preview": "- Latest V19 native holding separation,5 October: user authorizes observed-issue adjustment. Read paired `Docs/Development/FP_UPPER_BODY_V19_RESULT_20261005.md` / `_ZH.md`, plan an",
+      "sha256": "42d5005bf7a3dad1f6d7a8ffcc7535c13f397e31acb0c7e673689e9d3884e21a"
+    },
+    {
+      "start_line": 1365,
+      "end_line": 1365,
+      "preview": "- Latest V18 UE binding,5 October: user authorizes native binding. Read paired `Docs/Development/UE_GRIP_BINDING_V18_RESULT_20261005.md` / `_ZH.md`, plan and AN006. New disabled-by",
+      "sha256": "f8a0a946064dbc2e756c706f566417708a58ee436509ab5e5e1aeddbdec18864"
+    },
+    {
+      "start_line": 1377,
+      "end_line": 1377,
+      "preview": "- Latest V18 hand approval / conditional adoption,5 October09:40EDT: user accepts current hand appearance and requests overall first-person verification before formal adoption and ",
+      "sha256": "1211e63d0a733f99831d538134db07d7fb4f13a390ecabb1799c5bcae36589a1"
+    },
+    {
+      "start_line": 1389,
+      "end_line": 1389,
+      "preview": "- Weapon/hand fitting guide for future player/NPC work: read `Docs/Development/WEAPON_HAND_CONTACT_CALIBRATION_GUIDE.md` (English). Preserve the mature firing-hand pose, fit the ac",
+      "sha256": "e977e0180c9f581ac9e832ba8abe3514078b4e87adf0a1add774b77ab6457fe9"
+    },
+    {
+      "start_line": 1401,
+      "end_line": 1401,
+      "preview": "- Latest requested little-finger correction,5 October: read `Docs/Development/WEAPON_PINKY_LENGTH_V18_20261005.md`. Current V16/V17 pinky locals match D059 to1.43e-14; old V10 exte",
+      "sha256": "6866567d3754185f4256d006540ab35a56356124dd2b77200025478f680fb67c"
+    },
+    {
+      "start_line": 1413,
+      "end_line": 1413,
+      "preview": "- Latest textured inspection,5 October: user requests original textures and three views only. Read `Docs/Development/WEAPON_TEXTURED_THREE_VIEWS_20261005.md`. V17 presentation_v2 r",
+      "sha256": "d02436eceee18edc9127bee6e1a8bdfebfca1fdc4b6c0fee3a2e7f265a7b6fb6"
+    },
+    {
+      "start_line": 1425,
+      "end_line": 1425,
+      "preview": "- Latest user-marked grip pivot,5 October00:11 EDT: user identifies stock/palm pivot with red arrow, authorizes fixed right palm/digits and muzzle raise. Read paired `Docs/Developm",
+      "sha256": "d8f2f28f3f8f39f201ef5b1a4005d4bde080903df896cce34a35b387a0d574c5"
+    },
+    {
+      "start_line": 1437,
+      "end_line": 1437,
+      "preview": "- Latest user-authorized thumb-only gun seating,4 October23:56 EDT: Yupu explicitly permits gun angle/placement adjustment with unchanged right hand and thumb above stock/no penetr",
+      "sha256": "f971f5a9fc46469ebd2a7b5da56f12b0cb9c1ba27ae3103b2355a491dba648c4"
+    },
+    {
+      "start_line": 1449,
+      "end_line": 1449,
+      "preview": "- Latest explicitly requested20degree comparison,4 October: after inspecting10degrees, Yupu asks10 more. This supersedes the previous no-angle-increase stop ONLY for ONE total20deg",
+      "sha256": "b15f13a54fe8a031b3f4dcadbfbc728341924719d9c9db7ff033f951c533c588"
+    },
+    {
+      "start_line": 1461,
+      "end_line": 1461,
+      "preview": "- Latest fixed-right trigger-pivot comparison,4 October: user authorizes right hand -> rotating/raising rifle -> following left arm, eventual overall aiming; approximate10degrees i",
+      "sha256": "591d4083758a8a1289af226de1fbd3ac4881a2fb9a0a95aef06c7d20dd00c359"
+    },
+    {
+      "start_line": 1473,
+      "end_line": 1473,
+      "preview": "- Latest whole-wrist comparison,4 October: user resumes only the proposed intact-grip wrist experiment, superseding the prior pause within this bounded offline scope. Read paired `",
+      "sha256": "221f847650240e490ebfd05589c1df0c33859532dd81b62d8f0d7bf94252afcc"
+    },
+    {
+      "start_line": 1485,
+      "end_line": 1485,
+      "preview": "- Latest user pause,4 October: stop the individual-finger grip route. User proposes the preceding intact grip with a whole RIGHT hand/wrist shift toward the stock; this turn is ass",
+      "sha256": "448ae58d9bea531c1c1d336e94222b6888a3ebba9892e196a9c3070360ec2bfe"
+    },
+    {
+      "start_line": 1497,
+      "end_line": 1497,
+      "preview": "- Latest closed-grip correction,4 October: user rejects thumb-only target; use actual M1 holding photographs before authoring, thumb/web above stock wrist and middle/ring/little fi",
+      "sha256": "eaaca7f09fe55c688932061cabc9cfd549023f40ef97d9f85760946041a9c6f6"
+    },
+    {
+      "start_line": 1509,
+      "end_line": 1509,
+      "preview": "- Latest contact calibration,4 October: user explicitly clarifies RIGHT index/trigger and LEFT support. Read paired `WEAPON_TRIGGER_CONTACT_RESULT_20261004.md` / `_ZH.md`, V2 gun-f",
+      "sha256": "5b7bcc1d29d344562ac62c5da97ec7daab52c6192081a69b4563e47557c3372f"
+    },
+    {
+      "start_line": 1521,
+      "end_line": 1521,
+      "preview": "- Latest trigger-first outcome, 4 October: paired `WEAPON_TRIGGER_ALIGNMENT_RESULT_20261004.md` / `_ZH.md` governs. Actual blade/guard surface review plus ONE offline trigger/pad t",
+      "sha256": "015e54381e5fe962522d50885978026b0cb8e23737a7869c68307da4c1f5396e"
+    },
+    {
+      "start_line": 1533,
+      "end_line": 1533,
+      "preview": "- Latest user correction / accidental-save recovery, 4 October: right-index repair is trigger-first rigid weapon alignment, including separately verified NPC bindings; no finger co",
+      "sha256": "5edca8f7f89e5a2b10c117a9ce34898463ec87b089762962801bfb31bbdbd64f"
+    },
+    {
+      "start_line": 1545,
+      "end_line": 1545,
+      "preview": "- Latest explicit V5 human-viewing request, 4 October: user asks to launch the current compatibility result. Paired `RELOAD_V5_HUMAN_REVIEW_20261004.md` / `_ZH.md` authorizes viewi",
+      "sha256": "c77a27d6dc0a7dd6d02dc571c967217e08b692ba1405735313c6122ebba8f944"
+    },
+    {
+      "start_line": 1557,
+      "end_line": 1557,
+      "preview": "- Latest continued Lane A checkpoint, 4 October: read paired `RELOAD_REPAIR_V5_RESULT_20261004.md` / `_ZH.md`, AN004 and AN005. User explicitly permitted ONE new FP-copy local slee",
+      "sha256": "82fe6008bf810a3a0bdae32fd723063120957232ca4fd178cb98a3eb74b77351"
+    },
+    {
+      "start_line": 1569,
+      "end_line": 1569,
+      "preview": "- Latest V5 timing/coordination checkpoint, 4 October: read paired `RELOAD_REPAIR_V5_RESULT_20261004.md` / `_ZH.md`. Natural-end observation proves temporary body/display clock mis",
+      "sha256": "c3198fa73701537a7dcf05fab74fdd89b4c5d977042d08d8f095e0d0023aefdd"
+    },
+    {
+      "start_line": 1581,
+      "end_line": 1581,
+      "preview": "- Latest human reload review / parallel split, 4 October: Yupu confirms RLD-01 right-index penetration during reload, RLD-02 sleeve fragments obscuring the view, RLD-03 discontinuo",
+      "sha256": "dd8d0a57e62ae95c3aa8cf8ec58bce57fa160af17c4e2190dfafada45f304f80"
+    },
+    {
+      "start_line": 1593,
+      "end_line": 1593,
+      "preview": "- Latest human inspection request, 4 October: Yupu asks to launch the existing game-target preview to see the compatibility issue before authorizing further repair. `RELOAD_BINDING",
+      "sha256": "a821259c26a42f67b222a9d3d8a4baf005572b221721f4e3f4036a7d256f2060"
+    },
+    {
+      "start_line": 1605,
+      "end_line": 1605,
+      "preview": "- Latest approved-source integration outcome, 4 October: Yupu accepts the corrected original D059/mannequin M1 preview; that source acceptance remains intact, but actual-game adopt",
+      "sha256": "7091a4d5575b2a89138332c557e0c6de163f835749fb37f4b4619f75ca873982"
+    },
+    {
+      "start_line": 1617,
+      "end_line": 1617,
+      "preview": "- Latest source-contact adoption request, 4 October: Yupu accepts the corrected original D059/mannequin M1 preview and requests it in the actual game. Read paired `RELOAD_APPROVED_",
+      "sha256": "5dcfc995d1158477b17bacd49dcc71456c54ba5f7be748fd2d60ade0e895d5e7"
+    },
+    {
+      "start_line": 1629,
+      "end_line": 1629,
+      "preview": "- Latest incremental reload diagnostic, 4 October: Yupu authorized bounded sleeve-first adaptation. Read paired `RELOAD_SLEEVE_ADAPTATION_RESULT_20261004.md` / `_ZH.md`, its V2 imp",
+      "sha256": "9a0b2143de6d45f545a09a656ef605d892464a1cd315c54249b5e3f2511296e3"
+    },
+    {
+      "start_line": 1641,
+      "end_line": 1641,
+      "preview": "- Latest existing-animation attempt, 4 October: Yupu authorized duplicate marking and reload/recoil repair using existing motions only. Read paired `WEAPON_ANIMATION_REUSE_RESULT_2",
+      "sha256": "8bdb78293017c15355362ac430b0706454ab5621db2cbc0ced240c132e6dd841"
+    },
+    {
+      "start_line": 1653,
+      "end_line": 1653,
+      "preview": "- Binding animation-repair policy, 4 October: Yupu requires searching the existing purchased Xianyu animation deliveries first, reusing mature finished motions (including reload/re",
+      "sha256": "f12d011d3c846e0d38ac4fadbd6508e5bf32d168b5860b86299d3b9823aeaaa1"
+    },
+    {
+      "start_line": 1665,
+      "end_line": 1665,
+      "preview": "- Latest human action/weapon review, 4 October: Yupu reports four open presentation issues, recorded as REV-01 sprinting hands move without the rifle/contact separates; REV-02 pron",
+      "sha256": "8b83e788227e562114f140c8bca19a0a00843f3625459ebc716c8ded914b60fe"
+    },
+    {
+      "start_line": 1677,
+      "end_line": 1677,
+      "preview": "- Latest German UE/action-review checkpoint, 4 October: Yupu authorizes step 1 only. Read paired `GERMAN_RIFLE_UE_AND_ACTION_REVIEW_V1.md` / `_ZH.md` and `GERMAN_RIFLE_UE_AND_ACTIO",
+      "sha256": "367af11e08309961ce202f108e10166a9ceb3bd0477f69c022b02bb91092271c"
+    },
+    {
+      "start_line": 1689,
+      "end_line": 1689,
+      "preview": "- Latest German model closeout/publication, 4 October: Yupu accepts V15 modeling and separately attests MW2 project use plus private three-member derivative sharing. Read paired `G",
+      "sha256": "c0775f50654aea7ff6ebb677d5e3396db3f809b24dd03529ac188c3256af1276"
+    },
+    {
+      "start_line": 1701,
+      "end_line": 1701,
+      "preview": "- Latest V15 final texture result, 4 October: user positively reviews V14 and authorizes one last fine-granularity pass, not more colour/shape/wear/cloud work. Read paired `GERMAN_",
+      "sha256": "b1f07aa132d70ccbd52111a3397fd45fec50c19846b3446e3c867b13f5730c7e"
+    },
+    {
+      "start_line": 1713,
+      "end_line": 1713,
+      "preview": "- Latest V14 wood-colour result, 4 October: user's correction shifts scope from more wear to dark coated wood. Read paired `GERMAN_RIFLE_WOOD_FINISH_RESULT_20261004.md` / `_ZH.md`,",
+      "sha256": "abb66d587054533a956dc058d97710aa4c1911113adbcaa18403a6e812af429f"
+    },
+    {
+      "start_line": 1725,
+      "end_line": 1725,
+      "preview": "- Latest V13 local material outcome, 4 October: read paired `GERMAN_RIFLE_WOOD_WEAR_RESULT_20261004.md` / `_ZH.md`, GP004/009 and source work_state. New unselected private finish_v",
+      "sha256": "ff49faad34432936dbc64cab875e6f934ac34acf852ff4f2dec629ce7e749228"
+    },
+    {
+      "start_line": 1737,
+      "end_line": 1737,
+      "preview": "- V13 resumption, 4 October: user's “可以，按这个修正细节” authorizes revision2's private bounded wood/barrel/exposed-hardware material implementation, superseding its plan-only pause below.",
+      "sha256": "65c3e124eb72ff09d2647ccf54ee85aaa1f83dbe4fdb2c6d8519c497cca61965"
+    },
+    {
+      "start_line": 1749,
+      "end_line": 1749,
+      "preview": "- Latest coherent wood/steel-wear request, 4 October: user asks a final bounded wood-wear scheme, then explicitly adds barrel aging so old wood does not accompany pristine steel. R",
+      "sha256": "c9bed1efec11379c74063fde205535acbd5e55c016b64a38d1409d6e4cc4ab07"
+    },
+    {
+      "start_line": 1761,
+      "end_line": 1761,
+      "preview": "- Latest M1 texture-transfer result, 4 October: user's actual reuse request supersedes prior comparison-only/no-transfer boundary only for private local materials. Read `GERMAN_RIF",
+      "sha256": "83f3225d4338870f72eec16c7349d61f47f69f7dc23c941ee580bf38f62f2522"
+    },
+    {
+      "start_line": 1773,
+      "end_line": 1773,
+      "preview": "- Latest texture-only weathering, 4 October: user accepts V10 whole form and asks minor aging, superseding its pending-form gate only. Read `GERMAN_RIFLE_WEATHERING_V11_20261004.md",
+      "sha256": "635f94c1100eb24ac77052bacc6ee19ee0a660a832fb330c3753cfa0f1e50880"
+    },
+    {
+      "start_line": 1785,
+      "end_line": 1785,
+      "preview": "- Latest SP-R local adaptation, 4 October: user approves donor modification through satisfaction; prior assessment-only stop is superseded only for this scope. Read `GERMAN_RIFLE_S",
+      "sha256": "c5e15f2555cd2b5a51c67d4692b8d0b814408f1c72b46f4010f21289feb87379"
+    },
+    {
+      "start_line": 1797,
+      "end_line": 1797,
+      "preview": "- Latest purchased-rifle review, 4 October: user requests an existing bought model after V9 uneven finish. Read `Docs/Development/PURCHASED_RIFLE_REUSE_RESULT_20261004.md` / `_ZH.m",
+      "sha256": "a2ee69d7d8512a95380ac7b7f4ad4e1fc69f144f24d18a8d26d695331c498248"
+    },
+    {
+      "start_line": 1809,
+      "end_line": 1809,
+      "preview": "- Latest manual rifle checkpoint, 3 October: user requests manual ordinary Allied-prop finish, not micro mechanics. Read `GERMAN_RIFLE_MANUAL_V9.md` / `_ZH.md`, dated manual result",
+      "sha256": "0d1bba73e5339b33a3848554e51937a629a9e0cb736ba8a8afe60c14c6761dbf"
+    },
+    {
+      "start_line": 1821,
+      "end_line": 1821,
+      "preview": "- Latest authorized local topology attempt, 3 October: user approved receiver/sight/muzzle rebuilding. Read `GERMAN_RIFLE_TOPOLOGY_V8.md`, `GERMAN_RIFLE_TOPOLOGY_V8B.md`, `GERMAN_R",
+      "sha256": "ecccf05065e10ebe706ce32f82eb54f69ddfaf09e9769243770b057a29c0c0c3"
+    },
+    {
+      "start_line": 1833,
+      "end_line": 1833,
+      "preview": "- Latest whole-rifle V7 finish attempt, 3 October: user requests continued refinement until broadly satisfactory. Read `GERMAN_RIFLE_FINISH_V7.md` / `_ZH.md`, dated finish result E",
+      "sha256": "1a7b9e3a8ca483e5dd71e8a6dcff9cffe31e08e76c9726bb9b3c8922c3b6c375"
+    },
+    {
+      "start_line": 1845,
+      "end_line": 1845,
+      "preview": "- Latest real-surface joint repair, 3 October: user approves actual repair after Allied study. Read `GERMAN_RIFLE_SURFACE_JOINT_V6.md` / `_ZH.md`, dated `GERMAN_RIFLE_JOINT_RESULT_",
+      "sha256": "b30854dbd7ded679b4813858d786d3d4200563533a9a7fa3218e34afc8c9b1d3"
+    },
+    {
+      "start_line": 1857,
+      "end_line": 1857,
+      "preview": "- Latest Allied-rifle reference study, 3 October: Yupu requests learning current M1 parameters before German repair. Read `GERMAN_RIFLE_ALLIED_REFERENCE_V5.md` / `_ZH.md` and dated",
+      "sha256": "c9f4c762be10702fcb13f8a490a520a7d45409605fd4e108aa17bd310327eb86"
+    },
+    {
+      "start_line": 1869,
+      "end_line": 1869,
+      "preview": "- Latest Blender surface proof, 3 October: Yupu explicitly requests local skill-based rifle refinement. Read `GERMAN_RIFLE_SURFACE_REFINEMENT_V4.md`, dated result EN/ZH and GP004. ",
+      "sha256": "b7366a6947ef9d5c8769ff0381293e50afea314ce3b3d70ab39e73a4706ee6fe"
+    },
+    {
+      "start_line": 1881,
+      "end_line": 1881,
+      "preview": "- Latest Aholo separation result, 3 October: Yupu permits small additional Aholo use if needed within gift-only credits. One newly documented semantic-part task3920959 used30 gifte",
+      "sha256": "bf71311b0ad8d9db2889392e82baeccb2692c3483df12479fc2278ad59db326c"
+    },
+    {
+      "start_line": 1893,
+      "end_line": 1893,
+      "preview": "- Latest German rifle refinement result, 3 October: Yupu accepts the original base direction and authorizes continued local refinement, not cloud spending/M1/UE/publication. Read `",
+      "sha256": "a96dc898d903a5bd1ea1c439325e912018e2a34d4a58b573d2cf6301c90c6760"
+    },
+    {
+      "start_line": 1905,
+      "end_line": 1905,
+      "preview": "- Latest German-rifle-only pilot, 3 October: Yupu separates German gun modeling from M1 reload. Read `Docs/Development/GERMAN_RIFLE_PILOT_RESULT_20261003.md` / `_ZH.md` and `Failur",
+      "sha256": "035bba75b0d69a0863e85caf40a67d85c562aaab2ec0b5598fe6f7da4d3e79c5"
+    },
+    {
+      "start_line": 1917,
+      "end_line": 1917,
+      "preview": "- Later human reload review / rifle pilot proposal, 3 October: Yupu rejects `Rifle_Reload_2` appearance as very ugly. The earlier no-immediate-replacement recommendation is not vis",
+      "sha256": "6d8159878299d65b4e8c272b4f68c0b0c1dd4446f574625ce0ea3af82840cf3a"
+    },
+    {
+      "start_line": 1929,
+      "end_line": 1929,
+      "preview": "- Latest asset/reload inspection, 3 October: read `Assets/XIAN_YU_ASSET_CATALOG_20261003.md` / `_ZH.md` and `Docs/Development/RELOAD_COMPARISON_20261003.md` / `_ZH.md` before anoth",
+      "sha256": "bd70e348f00ae0a9ad499f4e64d11e3e656f6349ade5fdcec017367e66447dd2"
+    },
+    {
+      "start_line": 1941,
+      "end_line": 1941,
+      "preview": "- Latest confirmed behavior choices, 3 October: Yupu allows short-distance Allied pursuit, requests shared FriendlyFireEnabled (on applies normal damage to actual friendly hits; of",
+      "sha256": "2ebf61b331cda514c72745e416d31a2e4d3905a398a93dd0967c1cd667a84fad"
+    },
+    {
+      "start_line": 1953,
+      "end_line": 1953,
+      "preview": "- Latest behavior-design revision, 3 October: Yupu requires every interaction to terminate in executable character actions and wants explicit decision-tree relationships. Read revi",
+      "sha256": "9982ad22b9a295058a43d5f2ffec06091bf799e88c6094d43753aff20ee42623"
+    },
+    {
+      "start_line": 1965,
+      "end_line": 1965,
+      "preview": "- Latest player-action request/result, 3 October: Yupu requests the other existing character actions, then a behavior draft. Follow `Docs/Development/PLAYER_ACTIONS_IMPLEMENTATION_",
+      "sha256": "a083818bf4bbd301ed7c12b8d56920abb6f64317ed52611740d7c6d14631bb0e"
+    },
+    {
+      "start_line": 1977,
+      "end_line": 1977,
+      "preview": "- Latest explicit team-publication authorization, 3 October: Yupu requests steps 1/2 (fixed SFTP release and matching Git commit/push), with step 3 assigned to teammates. Follow `T",
+      "sha256": "626f28b86066055303521dd88604892f8c53a6324021775d7816c23f6ff01967"
+    },
+    {
+      "start_line": 1989,
+      "end_line": 1989,
+      "preview": "- Latest completed local native migration, 3 October: Yupu reports the complete-arm preview model looks fine but movement stutters, and requests formal UE-controlled integration pl",
+      "sha256": "863db7d716a0f9199f371c1a470f473803b9d4ac92b23255871efaea8ac09fac"
+    },
+    {
+      "start_line": 2001,
+      "end_line": 2001,
+      "preview": "- Current human review, 3 October: visible runtime-only complete-arm preview was opened at Yupu's request, PID `1656`, identity `human_arms_20261003_030649`. Ready report verifies ",
+      "sha256": "acc4849104c0759b9baf8226796b628bc10bca261b7fac44512a8c1656517bc8"
+    },
+    {
+      "start_line": 2013,
+      "end_line": 2013,
+      "preview": "- Latest complete-arm motion checkpoint, 3 October: read `Docs/Development/CONTINUOUS_ARMS_DYNAMIC_RESULT_20261003.md` / `_ZH.md`. Combined coverage is 27 completed images/656 samp",
+      "sha256": "2b25c98967995ccdf6cfbbb4df82b7d7044b36ba66f1e648bae1edcfeecc4f1f"
+    },
+    {
+      "start_line": 2025,
+      "end_line": 2025,
+      "preview": "- Latest human static review, 3 October: Yupu says the complete-arm view is much better and authorizes movement/reload validation. Ordinary-holding direction is accepted by user re",
+      "sha256": "01a85822ea912ff5f9415e88ae084ea77d2746dd30e1f4ef7a0c001eeee3bc3c"
+    },
+    {
+      "start_line": 2037,
+      "end_line": 2037,
+      "preview": "- Latest complete-arm static candidate, 3 October: Yupu authorized another attempt and reaffirmed Call of Duty: WWII (not COD2) as ordinary holding reference. Read `Docs/Developmen",
+      "sha256": "c608bad9810ad9ec4c955b65ea4528862f3b4fe1a64bf4404d12ef4a3bfd3d01"
+    },
+    {
+      "start_line": 2049,
+      "end_line": 2049,
+      "preview": "- Latest bounded restart result, 3 October: FP001 archival is verified. Read `Docs/Development/FIRST_PERSON_PRESENTATION_REBUILD_RESULT_20261003.md` / `_ZH.md`. The new V2 three-po",
+      "sha256": "25f5c48a3c7924801c63e0b165cb4857b7714def8107a8120e05a69c1f5d3485"
+    },
+    {
+      "start_line": 2061,
+      "end_line": 2061,
+      "preview": "- Latest archive-and-restart authorization, 3 October: Yupu requires a dedicated failure archive containing the failed assets, documents and modifications with reasons, and mandato",
+      "sha256": "f2fd5f80853219cf5ae5f0e484c26ad2be378829e3644e760ae85ab72f9127bf"
+    },
+    {
+      "start_line": 2073,
+      "end_line": 2073,
+      "preview": "- Historical reference decision and assessment request, 3 October (superseded by archive/restart above): Yupu explicitly selects Call of Duty: WWII's M1 Garand ordinary first-perso",
+      "sha256": "1e7b101ec316a779e19ebcc88b7e61ae2717d90c4cf52f2131d909ed2229265e"
+    },
+    {
+      "start_line": 2085,
+      "end_line": 2085,
+      "preview": "- Historical human first-person review, 3 October: Yupu reports the candidate looks very strange, like the rifle is pressed against the front of the chest, and requests research/co",
+      "sha256": "b109150b2de45ae0cdc1fff1f17a3886a932ce0a062d470d2960209f3e3694d4"
+    },
+    {
+      "start_line": 2097,
+      "end_line": 2097,
+      "preview": "- Historical archived first-person repair, 3 October: the user explicitly resumed this bounded repair after document-first planning. Read `Failures/FP001-20261003-first-person-view",
+      "sha256": "94b4384b3388f8f3f96eeccdbcc992828ea858921a56d3b53b63cac3281a550e"
+    },
+    {
+      "start_line": 2109,
+      "end_line": 2109,
+      "preview": "- Historical human review and conversation handoff, 2 October: Yupu completed the aiming preview and confirmed arms outside the frame and movement obstructing the camera. Read `Fai",
+      "sha256": "d5c2b1393eb92699c525a65e5751818963e5b283f0a7bb2bf72c2c1fea82fc01"
+    },
+    {
+      "start_line": 2121,
+      "end_line": 2121,
+      "preview": "- Latest aiming review boundary, 2 October: read the V4 alignment plan/result and `Assets/Integration/PLAYER_AIM_TRIAL_INVENTORY_20261002.json`. Three native aiming drafts are unse",
+      "sha256": "0cbcd73cd50982b5b51ad4d6281ca537d22d34964dd9f599fc425a3a63b87f40"
+    },
+    {
+      "start_line": 2133,
+      "end_line": 2133,
+      "preview": "- Latest human scope approval, 2 October: Yupu answered \"开放\" to the proposed bounded upper-body aiming adaptation. The V4 crosshair plan may now add a separate team-owned aiming la",
+      "sha256": "3e992e5d39d33981295ce455ff6c1159f488330020294005a57be8192c47cc95"
+    },
+    {
+      "start_line": 2145,
+      "end_line": 2145,
+      "preview": "- Latest crosshair correction, 2 October: Yupu reports rifle barrel direction disagrees with the crosshair. Follow `Docs/Development/RIFLE_CROSSHAIR_ALIGNMENT_IMPLEMENTATION_V4.md`",
+      "sha256": "0e5c1a5661ae0ebe0f2d685a31e402941143cc17e7a1e2af8697e6bd8fd399bd"
+    },
+    {
+      "start_line": 2157,
+      "end_line": 2157,
+      "preview": "- Latest bounded continuation, 2 October: Yupu confirms walking/reload errors and requests a small leftward rifle shift for thumb contact. Follow `Docs/Development/RIFLE_ACTION_ATT",
+      "sha256": "7ac1d59cb4abca6d6dcdef90babaea2d62dfc0f759456ce09ea6e07d385c7459"
+    },
+    {
+      "start_line": 2169,
+      "end_line": 2169,
+      "preview": "- Latest human rejection/transform-only correction, 2 October: Yupu tested the coarse finger layer, reported severe clipping/degraded fingertips, and requires the original pose and",
+      "sha256": "32c716e3ef6f1a07f51050d6f1cabd7ec6b245a58e9764f21a01026887ed347a"
+    },
+    {
+      "start_line": 2181,
+      "end_line": 2181,
+      "preview": "- Saved gun-only action trial, 2 October: read `Docs/Development/RIFLE_ACTION_ATTACHMENT_RESULT_20261002.md`. Current team map is `d00056e8...09f51f`; `CITY_RIFLE_ACTION_DRAFT_INVE",
+      "sha256": "11157ce83edfa34fda3015b6fcda20658582a0de0b223f7bf6dd6082fe12046a"
+    },
+    {
+      "start_line": 2193,
+      "end_line": 2193,
+      "preview": "- Historical transform-only checkpoint: `WEAPON_TRANSFORM_ONLY_RESULT_20261002.md` and `CITY_WEAPON_TRANSFORM_DRAFT_INVENTORY_20261002.json` retain the previous map `31214e4f...bbe",
+      "sha256": "b4512e9bd04c0b0869e6e6a90fd284cafbb6283676335504618966f27ee706cf"
+    },
+    {
+      "start_line": 2205,
+      "end_line": 2205,
+      "preview": "- Historical rejected holding increment: `WEAPON_GRIP_REPAIR_RESULT_20261002.md` and `CITY_WEAPON_GRIP_DRAFT_INVENTORY_20261002.json` describe the earlier finger-layer map `bd97f1a",
+      "sha256": "9b1e5c33c809f73d2611b22c54f45a8bc67a8ab9564dfa7fb6b677c54c4e2771"
+    },
+    {
+      "start_line": 2217,
+      "end_line": 2217,
+      "preview": "- Latest manual-test correction, 2 October: Yupu rejects the provisional rifle grip and requests correct holding, muzzle flash, material-specific impacts/bullet marks, and run/jump",
+      "sha256": "a39185b04e7cdd64e34e6be61749d985e5e366acff47f915422a09480e3d9d32"
+    },
+    {
+      "start_line": 2229,
+      "end_line": 2229,
+      "preview": "- Navigation-only completion/pause, 2 October: `Docs/Development/PARIS_NAVIGATION_FOUNDATION_RESULT_20261002.md` records clean retained `fresh_v4` coverage, four short/80 m Allied/",
+      "sha256": "93bdb5ab8759fff9cfdf5d589a72de7b88b317739d562110cea2260e2f20e209"
+    },
+    {
+      "start_line": 2241,
+      "end_line": 2241,
+      "preview": "- Latest user scope limit, 2 October: complete only the retained navigation foundation under `Docs/Development/PARIS_NAVIGATION_FOUNDATION_IMPLEMENTATION_V1.md`, then pause. Follow",
+      "sha256": "809b991e128c3648ad6a03ddff945476c56bc7bed1f3ef7201e22830a429c79f"
+    },
+    {
+      "start_line": 2253,
+      "end_line": 2253,
+      "preview": "- Latest navigation checkpoint, 2 October: follow `Docs/Development/PARIS_NAVIGATION_AND_AI_IMPLEMENTATION_V1.md` and `PARIS_NAVIGATION_RESULT_20261002.md`. Unsaved real-city NavMe",
+      "sha256": "12dd9cbe9cecb23eb1190f5a704a5648ac59db44262d44ec620037a89cde08df"
+    },
+    {
+      "start_line": 2265,
+      "end_line": 2265,
+      "preview": "- Current early-package checkpoint, 2 October: private actual-city Windows Development `package_v3` cooked/staged/archived successfully, UAT exit 0, zero cook errors. `packaged_sta",
+      "sha256": "8dc3a0e4a4125a0824989fcf0012e4f3dce0d27727ff48dd578c2b26ee967a6e"
+    },
+    {
+      "start_line": 2277,
+      "end_line": 2277,
+      "preview": "- Latest user review, 2 October: Yupu tried the interactive actual-city setup and reported no problems. Record bounded physical-input/provisional-view/HUD usability as passed by us",
+      "sha256": "c10f8759d50214875de810dd4ec83ecbf337caa67326bfaf79b728b30682e28f"
+    },
+    {
+      "start_line": 2289,
+      "end_line": 2289,
+      "preview": "- Latest actual-city checkpoint, 2 October: S1 setup/input and S2 combat/HUD passed bounded bridge-disabled PIE, not M0/M1/MVP. `Docs/Development/PARIS_COMBAT_AND_HUD_RESULT_202610",
+      "sha256": "74be5c91041cd6281fce56a5e2267e00005d63807a2b9691e9eaa5a22ac95a21"
+    },
+    {
+      "start_line": 2301,
+      "end_line": 2301,
+      "preview": "- Latest 2 October resumption: Yupu authorized continuous development under the corrected asset-first implementation documents, stopping only for genuinely human-required review/de",
+      "sha256": "5112607903c77a89ecd036d6037764571ae474bb9ba512d849ada1dac425f2cb"
+    },
+    {
+      "start_line": 2313,
+      "end_line": 2313,
+      "preview": "- Latest 2 October correction and completed cleanup: the minimum demo uses the verified existing Paris map, characters and motions. Simplification reduces optional features/polish,",
+      "sha256": "8b55dc58c2ee6a938f9a0834bf1a14aa5122e8adc0a9cfbe8d6a503545ea8501"
+    },
+    {
+      "start_line": 2325,
+      "end_line": 2325,
+      "preview": "- On 2 October Yupu approved the Assignment 3 workflow using the presentation stack, then corrected it to integrate directly on existing verified Paris assets and paused developmen",
+      "sha256": "3a28ed8705c748c2d8ecdf4e6a7678fb8fcb5811511c99e7c85161d32dda5a21"
+    },
+    {
+      "start_line": 2337,
+      "end_line": 2337,
+      "preview": "- On 2 October Yupu explicitly approved retaining usable new resources as SFTP baselines and **simplifying reload first**. Follow `Docs/Development/WEAPON_BASELINE_AND_SIMPLIFIED_R",
+      "sha256": "7302e21617281eee694e3fd003575fede9402edf06c7c6154602192fa15f8910"
+    },
+    {
+      "start_line": 2349,
+      "end_line": 2349,
+      "preview": "- Verified 2 October outcome: `Docs/Development/WEAPON_BASELINE_AND_RELOAD_RESULT_20261002.md` records the active 35-file selected rifle-motion baseline and bounded simplified-relo",
+      "sha256": "f746a211402bfd9667f305c166eac1f36ca37ec88ba1e340c6b2ccd1d3bc7d0e"
+    },
+    {
+      "start_line": 2361,
+      "end_line": 2361,
+      "preview": "- The 1 October three-delivery weapon/animation intake is governed by `Docs/Development/WEAPON_ASSET_VALIDATION_V1.md` and its dated `WEAPON_ASSET_VALIDATION_RESULT_20261001.md`. Y",
+      "sha256": "12aeec34d1a0c1de23df98ecce229fe36848fe23d6cc3756df6286daaea5d6f2"
+    },
+    {
+      "start_line": 2373,
+      "end_line": 2373,
+      "preview": "- On 1 October Yupu requested continuous implementation under the manual, stopping only for genuinely human-required reviews/choices. Latest bounded results are `Docs/Development/C",
+      "sha256": "186f4305027d0f2698b6e0f0e32eab3e41f3e1bfc4b655be91e847a9696ddd05"
+    },
+    {
+      "start_line": 2385,
+      "end_line": 2385,
+      "preview": "- Before implementing a work package, write or update its implementation document with scope, prerequisites, concrete package/storage changes, order, acceptance evidence and failur",
+      "sha256": "c22678191267f9b0712684c301b6e385e8683eaeb7740b7e21f7247b5fec941d"
+    },
+    {
+      "start_line": 2391,
+      "end_line": 2391,
+      "preview": "- Actual 1 October P0/P1 and initial partial P2 results are in `Docs/Development/CHARACTER_INTEGRATION_RESULT_20261001.md`; the later shared Blueprint Character/locomotion checkpoi",
+      "sha256": "154ea91fa9cd4b327b1dabf737971c084f21bdae8f0144834613aa429bccb4a6"
+    },
+    {
+      "start_line": 2403,
+      "end_line": 2403,
+      "preview": "- Blueprints are the primary gameplay authoring method. Add C++ only for a specific demonstrated need.",
+      "sha256": "004fd139db688bee82522497f4ae98a590badf23ef66eaf51acd8d1ead380aa6"
+    },
+    {
+      "start_line": 2409,
+      "end_line": 2409,
+      "preview": "- Reuse the existing France Liberation environment. Survey overhead views, walkable connections, collision, sightlines, NavMesh and travel time before selecting an approach, object",
+      "sha256": "2cacba842b037a0931a94442834fd7dd566939a12093db567a352aa16bb76514"
+    },
+    {
+      "start_line": 2415,
+      "end_line": 2415,
+      "preview": "- Initial roster: six soldiers (one Allied player, two Allied NPCs, three German NPCs), not a final population cap. Use shared combatant logic, fixed lighting and a packaged Window",
+      "sha256": "d63e78789abb488abbdcebce1e03a546a601dcfa9a89e8c7c8ec48e35229e10f"
+    },
+    {
+      "start_line": 2421,
+      "end_line": 2421,
+      "preview": "- The latest user correction removes the blanket checkpoint exclusion. Propose saves at selected safe objective boundaries. A retry restores the checkpoint snapshot, including sele",
+      "sha256": "ba0bacd7a907b3c41327edfd348b9e19c2da908eb30f885159f59628394e89a2"
+    },
+    {
+      "start_line": 2427,
+      "end_line": 2427,
+      "preview": "- Use UE NavMesh/MoveTo as the navigation baseline, with student-authored destination assignment, local avoidance, waiting and bounded replanning. A separate custom A* graph is opt",
+      "sha256": "40a5130760201bdfd5be89d1cb706d1bff271fab870a0ba1da425b67e209214b"
+    },
+    {
+      "start_line": 2433,
+      "end_line": 2433,
+      "preview": "- All NPCs share an AIController/Behavior Tree with individual team, role, encounter-group, patrol-route and search-zone settings. Allies follow/regroup and take distinct temporary",
+      "sha256": "6e8c153614e35ceea8746187dcce54878a9e790d39538389bd0807145b790cc1"
+    },
+    {
+      "start_line": 2439,
+      "end_line": 2439,
+      "preview": "- No landing sequence, ocean interaction, dynamic weather, driving, cinematic army, complex allies/civilians, multiplayer, extensive interiors, or unrestricted destruction in the b",
+      "sha256": "659196e85d4ef36c11b8e2b059576585b16f4bfbf9e87e95756aee97f8643fa7"
+    },
+    {
+      "start_line": 2445,
+      "end_line": 2445,
+      "preview": "- The planning reset does not constitute successful runtime validation. Stage and document now; perform runtime, compatibility, historical acceptance, performance, and packaging ch",
+      "sha256": "017146744249aa3bd3d7f787328dd5b53f19480d513c267a2532af2fb52a609a"
+    },
+    {
+      "start_line": 2451,
+      "end_line": 2451,
+      "preview": "- Historical FPS references copied under Reference/Gunplay are candidates, not a ready-to-import dependency closure. Do not execute their old build scripts against the new project ",
+      "sha256": "2d4da479ff41f78504897e89ad3e7b8be5babffa684f2381df85d808e5d87600"
+    },
+    {
+      "start_line": 2457,
+      "end_line": 2457,
+      "preview": "- Do not rename existing `/Game/WW2City` packages on disk. Unreal references require editor-aware migration. Team-authored assets belong under `/Game/ParisCombat`.",
+      "sha256": "cafb6c4c8191b6430826bb08c19cfe880afa11114ca91eb8c7899a8ce100d6a7"
+    },
+    {
+      "start_line": 2463,
+      "end_line": 2463,
+      "preview": "- Preserve the original vendor package locally. The active working environment is `Unreal/ParisStreetCombat/WW2FranceLiberation.uproject`; its original filename is intentional.",
+      "sha256": "682ac4001a9dc5cfa3f28ce0d2f30881db03cdf6e9ca4037809bb4f0998a5b2d"
+    },
+    {
+      "start_line": 2469,
+      "end_line": 2469,
+      "preview": "- Yupu Guo is team leader and integration owner. Proposed revised roles: Guo collision/gunplay and AI integration support; Yuqi Pu animation; Jingdi Wu navigation/NPC AI and bounde",
+      "sha256": "a1a844582815780ef9e4e5dfffb4c30319435c73f336ea5f22587b4b23faaa07"
+    },
+    {
+      "start_line": 2481,
+      "end_line": 2481,
+      "preview": "## Source control and vendor material",
+      "sha256": "2d35507040f78096d6c5167b39d79f5e0a923352e36ce53c47575b4abf42e19d"
+    },
+    {
+      "start_line": 2493,
+      "end_line": 2493,
+      "preview": "- On 30 September 2026, the user authorized making this same repository public after asset/history bytes have been removed from Git and verified private SFTP versions match the pub",
+      "sha256": "62e551e63d9f7bd933819da3cfc0fb7d1f6ddae73315a0862545198655432a9e"
+    },
+    {
+      "start_line": 2499,
+      "end_line": 2499,
+      "preview": "- The subsequent explicit user approval authorized deleting/recreating the same-name GitHub repository to remove verified provider-retained old objects. The rebuilt repository is p",
+      "sha256": "6e31e7bb20c1d24e36caf583ce79d8b73130bdb0ab925d1b883825435f066126"
+    },
+    {
+      "start_line": 2505,
+      "end_line": 2505,
+      "preview": "- Vendor `WW2City` content and associated external actor/object packages are intentionally excluded from Git. Record version, listing, local paths, hashes, and restoration instruct",
+      "sha256": "636e0696bdd7a6dfb36d8db9918077a1b893d255f0c9b7161220a556f808ddb5"
+    },
+    {
+      "start_line": 2511,
+      "end_line": 2511,
+      "preview": "- Do not upload raw commercial/vendor assets until acquisition rights and permitted team sharing have been verified. A local upload manifest or third-party tutorial is not proof of",
+      "sha256": "819880f25e7b18fdfab03cdfff57d4a22cbd8283e589995a7eb71cced35b86e7"
+    },
+    {
+      "start_line": 2517,
+      "end_line": 2517,
+      "preview": "- On 27 September the user selected GitHub for code/small project files and SFTP for large assets. The 30 September follow-up explicitly authorizes migrating existing Git/LFS asset",
+      "sha256": "138e840578935c0f5f553ab9b7ebeeb98325ef2f4467c20942ef1fc0f1143dbb"
+    },
+    {
+      "start_line": 2523,
+      "end_line": 2523,
+      "preview": "- Explain that a source clone needs the external environment dependency restored. Do not claim the GitHub repository alone contains the entire city.",
+      "sha256": "c3fc28e4a3fde46dc76c5ba562f42dd20b5304b130283d8e770b95fa42a84060"
+    },
+    {
+      "start_line": 2529,
+      "end_line": 2529,
+      "preview": "- Keep stable task-specific asset ownership; avoid simultaneous edits to the same Unreal binary.",
+      "sha256": "76dc256ca9b031ea1689cf499bba034aec061549399c40c43091cc7276e36297"
+    },
+    {
+      "start_line": 2541,
+      "end_line": 2541,
+      "preview": "### Mandatory GitHub + SFTP synchronization",
+      "sha256": "6f3db0b3a46edcfe6b27eac64f6237d6cc32d80e70fdbe020fb0827416885a24"
+    },
+    {
+      "start_line": 2553,
+      "end_line": 2553,
+      "preview": "- Latest 1 October 2026 intake clarification: new original model/animation deliveries physically start in `Assets/LocalWorking/Intake/<batch>/`, with bounded processing/testing und",
+      "sha256": "b97b5ff18a1b8a1aeabb9e865557515f10e7d2541ebf88a06fff832bd6296f19"
+    },
+    {
+      "start_line": 2565,
+      "end_line": 2565,
+      "preview": "- On 1 October 2026, Yupu explicitly confirmed the German Soldier WWII, US Paratrooper and Rifle Animset Pro three-member original/derivative sharing gate. The private `character-2",
+      "sha256": "6dc6b43a8a87ee104b2394b69270737234c9a79d9fd679c9c70b18c3b8e6dec7"
+    },
+    {
+      "start_line": 2577,
+      "end_line": 2577,
+      "preview": "- On 1 October 2026, Yupu requires all three members to have read/create/change/delete access to every published SFTP shared area. Use shared-account NTFS Modify, not ACL/owner adm",
+      "sha256": "8178a755b524383a9a6306c1ec58334cf0abbb8e305882577bcbeb6efe38a66e"
+    },
+    {
+      "start_line": 2589,
+      "end_line": 2589,
+      "preview": "- On 1 October 2026, Yupu set the next order: repair the recorded character-asset defects and regress them, publish the permitted adaptation to SFTP, then resume Paris character/we",
+      "sha256": "e42357ee6fc0c859ac183ce782ba2005c0b10cb3ed6f1b66e639cec37861b817"
+    },
+    {
+      "start_line": 2601,
+      "end_line": 2601,
+      "preview": "- For the 30 September soldier/action intake, follow `Assets/CHARACTER_COMPATIBILITY_AND_REPAIR.md` and its test/repair gates. The authorized local lab targets UE **5.8.2** and Ble",
+      "sha256": "7fed89f8db682e06b6c47fa533999b5e86723bd3362b9b7cb135037861deb60e"
+    },
+    {
+      "start_line": 2613,
+      "end_line": 2613,
+      "preview": "- Before development: inspect Git state AND local external-asset changes (Git ignores these); preserve unfinished work; fetch/integrate the intended Git revision safely; read its a",
+      "sha256": "41195896f077b80507467c29e0a6f9d1f26782f27fd49491fd66a905c7c4af44"
+    },
+    {
+      "start_line": 2619,
+      "end_line": 2619,
+      "preview": "- At task/day end: save assets, close affected editors, identify changed/new files and dependencies, upload only those files as new immutable SFTP versions, and verify remote bytes",
+      "sha256": "982a255fd768a37b3ced9d4139bd487e05f966f8d9aaef2b99202fe1c954d1f5"
+    },
+    {
+      "start_line": 2625,
+      "end_line": 2625,
+      "preview": "- Git stores per-file paths, sizes, SHA-256 hashes, SFTP version locations, ownership, dependencies and rights records; SFTP stores the bytes. A changed texture does not require re",
+      "sha256": "e502bc19eab72c6483b416913a24c6b98f5d940b716a05e711a578d484a03184"
+    },
+    {
+      "start_line": 2631,
+      "end_line": 2631,
+      "preview": "- Use the same intake/versioning process for historical assets, new originals and modified Unreal/model assets. Preserve original baselines and published versions; never use a muta",
+      "sha256": "ecdfd75b9b254289cbceb5e8d5c8c242b7df7d1b44226f4d165a4120f831e54b"
+    },
+    {
+      "start_line": 2637,
+      "end_line": 2637,
+      "preview": "- Keep the local SFTP store (`Assets/LocalShared/`) and private Git/LFS backups out of Git. Writable server directories are not permission to overwrite versions or redistribute unl",
+      "sha256": "abf8bdf5837da655e0a8b554a3f460d84811a79202e7aa9eaef59677fe9d934b"
+    },
+    {
+      "start_line": 2649,
+      "end_line": 2649,
+      "preview": "## History and formal deliverables",
+      "sha256": "468e95dad3e87102a6d9a8439834f4ef071d576e6c1c07b1b9504c373b6d7bcf"
+    },
+    {
+      "start_line": 2661,
+      "end_line": 2661,
+      "preview": "- Use HistoricalReference/Paris1944 as the current history index. NormandyContext is retained background, including inactive production notes; its Omaha scope does not transfer aut",
+      "sha256": "ff3a40267622b5f162987513010f779984bc26b4fcfae7c8362ec5ea55b295df"
+    },
+    {
+      "start_line": 2667,
+      "end_line": 2667,
+      "preview": "- Preserve dates, locations, units, rights, provenance, and limitations for every reference. Store links for reference images whose redistribution rights have not been established.",
+      "sha256": "e987d6e0c18ae9099ed98fcdb51b0ed7a6d70ebeb901cf27c27a58a6f99efcb1"
+    },
+    {
+      "start_line": 2673,
+      "end_line": 2673,
+      "preview": "- Asset marketing, game footage, AI images, museum restorations, and later-war manuals are not direct evidence for a specific 1944 encounter.",
+      "sha256": "a7e6a022e3e15f46328d811a64fd76f6cdb4c89c28dbba59dae50de3d4cbe09c"
+    },
+    {
+      "start_line": 2679,
+      "end_line": 2679,
+      "preview": "- Unknown weather values remain unknown. Normandy D-Day weather does not describe August Paris.",
+      "sha256": "1a15d99f8826a172929f2c5900780c06a11d7e9a31bc8ae3a73e0ffd0812553e"
+    },
+    {
+      "start_line": 2685,
+      "end_line": 2685,
+      "preview": "- Project documents and formal deliverables are in English. User-requested Chinese review translations are allowed; keep them synchronized with the English original. Conversational",
+      "sha256": "246a2e64442401fe0c924d956389265ce1bd6d2ca08b508d7f17e671b4e0fc51"
+    },
+    {
+      "start_line": 2691,
+      "end_line": 2691,
+      "preview": "- Do not put word counts, internal QA labels, prompts, or generation-process commentary into submission documents. Keep required course disclosures and asset attribution.",
+      "sha256": "188ed58bc0cdc505bd2b76f671d5e67f6c4526e949075541870b51a0382f1b50"
+    },
+    {
+      "start_line": 2697,
+      "end_line": 2697,
+      "preview": "- Assignment 2 is a report of at most two pages plus actual approval/mentor email proof. Do not invent approval, a mentor, test results, or confirmed course deadlines. Do not send ",
+      "sha256": "3e7ae38883bee0f7e623724936b9d1aff23e044836ad2a9f09fe1b21be5a78bb"
+    }
+  ],
+  "scope": "Lossless original policy/history. Use query helper to read relevant clauses; existing supersession/authorization remains unchanged."
+}

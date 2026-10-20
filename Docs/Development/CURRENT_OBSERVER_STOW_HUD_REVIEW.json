@@ -1,0 +1,88 @@
+{
+  "status": "local_stow_hud_playtest_scoped_verified_human_review_pending",
+  "revision": "build_v4",
+  "game_sha256": "83c7a53f37f1defe993df95c1b77c31a97198aea161dbecdf090b016c6240339",
+  "source_snapshot": "Unreal/Variants/G1ObserverStowHUD20261016/Project",
+  "source_manifest": "Unreal/Variants/G1ObserverStowHUD20261016/SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "99e8c94294625ffd149f1818d0476c695770b89d9f4773eb0c73de8faf366e81",
+  "source_files": 118,
+  "cached_authoring_project": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\g1-observer-grenade-mount-20261015\\candidate_v1\\Project",
+  "playable_directory": "tmp/Playtest-G1-Observer-Stow-HUD-20261016",
+  "playable_entry": "tmp/Playtest-G1-Observer-Stow-HUD-20261016/PLAY_STOW_HUD.cmd",
+  "launcher_sha256": "3fa34683970dfe8f078deaa218d7ac0ff77158327a44fec02865c9573863090a",
+  "user_dir": "G1ObserverStowHUD20261016",
+  "save_prefix": "ParisCheckpointHistoryV1",
+  "default_language": "zh-Hans",
+  "checks": [
+    {
+      "identity": "stow_front_build_v4",
+      "status": "pass_observer_grenade_sequence",
+      "checks": 4,
+      "result": "tmp/g1-observer-stow-hud-20261016/checks/stow_front_build_v4/RESULT.json",
+      "result_sha256": "38e54f4906db975ffb4633f4d5c1a6bc5e8e3bf0a55b64be0d11e302c80565ab"
+    },
+    {
+      "identity": "stow_left_build_v4",
+      "status": "pass_observer_grenade_sequence",
+      "checks": 4,
+      "result": "tmp/g1-observer-stow-hud-20261016/checks/stow_left_build_v4/RESULT.json",
+      "result_sha256": "4e3bc39edda14b18264336979270e3a920991dae31ffa4fb82eb94ce1d2759e0"
+    },
+    {
+      "identity": "stow_rear_build_v4",
+      "status": "pass_observer_grenade_sequence",
+      "checks": 4,
+      "result": "tmp/g1-observer-stow-hud-20261016/checks/stow_rear_build_v4/RESULT.json",
+      "result_sha256": "f4d5e20b03e21520cef362c9fc5b9f525a129df07b4f552f1ab1af6c9ace5c96"
+    },
+    {
+      "identity": "stow_ordinary_build_v4",
+      "status": "pass_observer_grenade_sequence",
+      "checks": 4,
+      "result": "tmp/g1-observer-stow-hud-20261016/checks/stow_ordinary_build_v4/RESULT.json",
+      "result_sha256": "73117a0cb274ad505a5042d618cb311fe1b395a9256c9ebaf74a0b911eb636a6"
+    },
+    {
+      "identity": "prepare_en_build_v4",
+      "status": "pass_observer_grenade_sequence",
+      "checks": 10,
+      "result": "tmp/g1-observer-stow-hud-20261016/checks/prepare_en_build_v4/RESULT.json",
+      "result_sha256": "dddda7f2fed5f1cee5e112fdb82b7b4d85b7ccde2052821f82099698e51e175c"
+    },
+    {
+      "identity": "fp_build_v4",
+      "status": "pass_binding_audit_capture",
+      "checks": 12,
+      "result": "tmp/g1-observer-stow-hud-20261016/checks/fp_build_v4/RESULT.json",
+      "result_sha256": "d34e36bfcacf5c703d988932a4cc1cfa0cd59d66917b880c7035a01d43cac1a9"
+    },
+    {
+      "identity": "lifecycle_build_v4",
+      "status": "pass_binding_audit_capture",
+      "checks": 21,
+      "result": "tmp/g1-observer-stow-hud-20261016/checks/lifecycle_build_v4/RESULT.json",
+      "result_sha256": "9ca134b1cdc5f29f4b536f0b20c20c5defb1bae95a0bb2dde6a901816e1cedf0"
+    }
+  ],
+  "human_review": "pending",
+  "formal_adoption": false,
+  "publication": false,
+  "resource_reuse": {
+    "path": "D:\\0.Rutgers\\CS549\\Project-New\\tmp\\g1-observer-stow-hud-20261016\\build_v4\\Runtime",
+    "game_sha256": "83c7a53f37f1defe993df95c1b77c31a97198aea161dbecdf090b016c6240339",
+    "revision": "build_v4",
+    "parent_game_sha256": "c8f2be25628b0622cbc24991a5981b7165324784df21315bdc37fd4a3aa70ec2",
+    "native_runtime_and_language_inherited_exact": true,
+    "hardlinked_resource_bytes": 8137340773,
+    "copied_small_config_bytes": 14817276,
+    "new_game_bytes": 334104064
+  },
+  "pre_refinement_regression": {
+    "game_sha256": "62e257e01d0ad1b2325315e1483e82ae25a3a41a1ba33cca4ddf8b462db1d46a",
+    "receipt": "tmp/g1-observer-stow-hud-20261016/QUEUE_build_v2.json",
+    "scope": "Full snapshot/CP1 and native tutorial/recruitment regression before belt-clearance/opt-in capture-only refinement; not claimed as final-Game runs"
+  },
+  "normal_startup": "pass_diagnostics_disabled_private_UserDir",
+  "visual_review": "tmp/g1-observer-stow-hud-20261016/VISUAL_REVIEW.json",
+  "protection": "tmp/g1-observer-stow-hud-20261016/build_v4/PROTECTION.json"
+}
