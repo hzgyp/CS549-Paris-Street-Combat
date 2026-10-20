@@ -8,7 +8,7 @@
   "scope": "Tutorial-stage formal development release; not whole-project/course acceptance",
   "playable_directory": "Releases/Paris-Tutorial-1.0-20261017",
   "playable_entry": "Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd",
-  "stable_local_entry": "PLAY_CURRENT_G1.cmd",
+  "stable_local_entry": "Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd",
   "game_sha256": "3bb90f646cbbfb3652bab5fcab23c0af2b3bd2d7add577028e6810a9c5576967",
   "source_snapshot": "Unreal/Variants/G1MedicalGuidanceMusic20261017/Project",
   "source_manifest": "Unreal/Variants/G1MedicalGuidanceMusic20261017/SOURCE_MANIFEST.json",
@@ -183,5 +183,7 @@
     "Matching145 Editor build/PIE/recook and second-machine restoration",
     "Coursework delivery remains human-only"
   ],
-  "future_rule": "Use CURRENT_TUTORIAL_SOURCE_PENDING.json latest combined source; preserve unfinished changes, reconcile action/gameplay chats, build only on explicit human request. Exact accepted Game and original current saves remain preserved."
+  "future_rule": "Use CURRENT_TUTORIAL_SOURCE_PENDING.json latest combined source; preserve unfinished changes, reconcile action/gameplay chats, build only on explicit human request. Exact accepted Game and original current saves remain preserved.",
+  "launcher_policy": "18 October 2026 human decision: use the formal release entry directly; no root launcher.",
+  "launcher_change_result": "Docs/Development/MissionLoopV1/TUTORIAL_DIRECT_ENTRY_RESULT_20261018.md"
 }

@@ -49,7 +49,7 @@ def freeze():
  assert sha(NORMAL/INNER)==GAME
  for name in ['CURRENT_DEVELOPMENT_BASELINE.json','CURRENT_TUTORIAL_SOURCE_PENDING.json','CURRENT_MEDICAL_GUIDANCE_MUSIC_PLAYTEST_REVIEW.json']:
   shutil.copyfile(ROOT/'Docs/Development'/name,PROOF/(name+'.before'))
- for p in ['PLAY_CURRENT_G1.cmd','Assets/Sync/CATALOG.json','Assets/Registry/registry.json','Assets/Registry/gameplay/designs.json','HANDOFF_CURRENT.md']:
+ for p in ['Assets/Sync/CATALOG.json','Assets/Registry/registry.json','Assets/Registry/gameplay/designs.json','HANDOFF_CURRENT.md']:
   shutil.copyfile(ROOT/p,OUT/('before-'+Path(p).name))
  users=Path.home()/'AppData/Local/ParisStreetCombat'
  old=read(TASK/'FREEZE.json');guards=[]

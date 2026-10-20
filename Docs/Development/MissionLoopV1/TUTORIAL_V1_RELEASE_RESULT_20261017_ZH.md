@@ -1,8 +1,10 @@
 # 教学阶段正式版1.0发布结果
 
+**2026-10-18 入口更新：**直接使用[正式版启动脚本](../../../Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd)。根目录转发 CMD 已按用户要求撤下；原正式包、哈希、存档及已记录验收不变。[变更结果](TUTORIAL_DIRECT_ENTRY_RESULT_20261018_ZH.md)。
+
 2026年10月17日。用户明确通过医疗包教学提示与配乐的人工验收，并要求清理中间构建、发布教学正式版以及同步开发Git/SFTP。原样采用已验收145源码/Game，无重新编译、cook、动作/模型修改或存档迁移。未把这次验收扩大为NPC算法、地图绘测、全地图/压力、精细接触、Editor/PIE或第二台机器通过。
 
-本地稳定入口：`PLAY_CURRENT_G1.cmd`；正式目录：`Releases/Paris-Tutorial-1.0-20261017`。旧正式86与本次原试玩保留。继续使用当前实际G1MedicalGuidanceMusic20261017存档/设置，冻结后的95个实际存档文件及353个原用户文件保持一致，分发包不含个人存档/设置。
+本地稳定入口：`Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd`；正式目录：`Releases/Paris-Tutorial-1.0-20261017`。旧正式86与本次原试玩保留。继续使用当前实际G1MedicalGuidanceMusic20261017存档/设置，冻结后的95个实际存档文件及353个原用户文件保持一致，分发包不含个人存档/设置。
 
 正式归档：`tmp/tutorial-release-v1-20261017/Paris-Tutorial-1.0-20261017.zip`，8,266,799,598字节；解压后135文件/8,669,220,463字节。SHA256：`f145c2e06bdc2aeeafc48397575552f91c661dacf3702135fec57c0d2957ab55`。私有开发SFTP：`/releases/paris-tutorial-20261017-v1/Paris-Tutorial-1.0-20261017.zip`，对象、命名归档和清单均完成认证完整回读校验；旧发布、课程包和根ACL不变。Git同步提交另记最终回执；144个公开源码文件逐字节保留，供应商动画曲线留私有SFTP，完整145源码也有私有恢复归档。克隆源码仍需恢复外部资源，重新构建匹配Editor后才可进入。
 

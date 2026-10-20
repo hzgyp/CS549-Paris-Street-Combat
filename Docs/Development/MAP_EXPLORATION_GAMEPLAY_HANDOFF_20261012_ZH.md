@@ -1,5 +1,19 @@
 # 巴黎地图探索与玩法设计新窗口交接
 
+**2026-10-18 当前入口更新：**直接使用[教学正式版启动脚本](../../Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd)；根目录转发 CMD 已按用户要求删除，现有存档和正式包不变。版本以 [CURRENT_TUTORIAL_RELEASE.json](CURRENT_TUTORIAL_RELEASE.json) 为准，下文早期地图与玩法记录保留。[变更结果](MissionLoopV1/TUTORIAL_DIRECT_ENTRY_RESULT_20261018_ZH.md)。
+
+13 October最新人工问题修正已完成：[匍匐鼠标／教学实施](MissionLoopV1/G1_PRONE_LOOK_IMPLEMENTATION_20261013_ZH.md)与[最终结果](MissionLoopV1/G1_PRONE_LOOK_RESULT_20261013_ZH.md)。源码85／build_look_v17，Game `63275254271c5d58a4d1f6bf9eb8d43a175e25b25f7f9bd7498d354fbb1f3ce3`，正常入口 `tmp/Playtest-G1-ProneLook-20261013/PLAY_PRONE_LOOK.cmd`。Z后鼠标左右转身体、上下观察；原身体盒／三点支撑按旋转区间中点及终点检查，墙边停止转入、反向可转回。WASD／斜向原60厘米/秒保持。任意原规则允许的平地趴稳开始计数，四方向各实际15厘米、总2.5米，显示缺项并自动进入Z起身和射击；旧85厘米起点／110厘米终点条件取消。5次同最终Game检查通过：鼠标／墙边／自动完成及完整CP0、四向斜向回归、720p完整基础流程、独立CP0恢复、未开新分支的旧P1。实际图已检查，动作复用原循环，非全图／自然战斗／精细接触验收。18份教程关联文档、新流程图、私有实际帧及四项玩法已本地平台刷新回读，见 `tmp/g1-tutorial-20261013/build_look_v17/SYNC_VERIFIED.json`。TU004保留人工v12拒绝、v13/v16诊断输入期限与v14旧提示问题。正式78／Catalog／1754原生文件保持，未结束用户进程；最后检查旧Game17452已不存在、Editor52532仍运行。等待人工重试，不自动采用／Git/SFTP发布／清理／作业上传。下方v12及之前的鼠标禁用、固定起终点说法均为历史状态。
+
+13 October最新四向匍匐候选已完成：[实施](MissionLoopV1/G1_PRONE_STRAFE_IMPLEMENTATION_20261013_ZH.md)与[结果](MissionLoopV1/G1_PRONE_STRAFE_RESULT_20261013_ZH.md)。源码84／build_strafe_v12，Game `5fe928776e9a9607a98cac33575486b71a6b4021531e89737b8bf50a4d0610b8`；正常试玩入口 `tmp/Playtest-G1-ProneStrafe-20261013/PLAY_PRONE_STRAFE.cmd`。Z后W/S前后、A/D横移、组合键斜爬，保留原60厘米/秒与身体／支撑检查；原鼠标左右转向限制仍保留，横移暂复用原前后爬行循环，未制作新动作资产。四次同最终Game检查通过，覆盖实际方向输入、临时墙边阻挡和反向退出、完整基础教学CP0、独立进程读档与原P1回归；不扩写为全图／自然战斗／动作接触验收。14份关联教程文档、当前流程图、私有实测图片及新增`prone-movement`玩法已通过本地资产平台Refresh；收据 `tmp/g1-tutorial-20261013/build_strafe_v12/SYNC_VERIFIED.json`，索引229项／缺失引用0。等待人工试玩，正式78与Catalog不变，未Git/SFTP发布、清理或作业上传。以下v9的A/D禁用描述是历史状态，当前候选以上述v12为准。
+
+13 October后续人工反馈：v8匍匐教学卡住。现已制作[匍匐指引修正版](MissionLoopV1/G1_TUTORIAL_CRAWL_RESULT_20261013_ZH.md)，源码83／build_crawl_v9，Game `7bc3fd68067eab4a864f78fdeeea21c7faa72446092de055cafeef890702a3c2`。原匍匐只支持W/S，禁止A/D与左右转向；新指引先到起点／趴下前对准箭头，再Z与W。保留实际2.5米／终点及碰撞支撑要求。3次新Game检查通过原控制限制／W/S位移、1080/720完整基础与CP0、真实恢复；原v8诊断曾在趴下时修改朝向，不是普通操控验收，见[TU002](../../Failures/TU002-20261013-prone-tutorial-guidance/ANALYSIS.md)。新入口 `tmp/Playtest-G1-Tutorial-Crawl-20261013/PLAY_TUTORIAL_CRAWL_FIX.cmd`，原用户Game和Editor保留；最新选择器及平台候选以v9为准，仍待人工重试。
+
+13 October完整教程已完成本地统一候选，最新读[教程选择器](CURRENT_TUTORIAL_REVIEW.json)、[完整教学设计](MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013_ZH.md)、[开发文档](MissionLoopV1/G1_TUTORIAL_DEVELOPMENT_20261013_ZH.md)及[实际结果](MissionLoopV1/G1_TUTORIAL_RESULT_20261013_ZH.md)。出生后移约23.5米，两名盟军改为(8.500，−214.750)／(9.000，−212.000)米，基础教学结束才开放对话招募。源码83／build_full_v8，Game `f10e9c8dcd2bb2c4f41d75cefcaefcc60aaeea8d625449ca32aaec7b84d104a1`；正常试玩 `tmp/Playtest-G1-Tutorial-20261013/PLAY_COMPLETE_TUTORIAL.cmd`，隔离UserDir／前缀，无诊断自动输入。
+
+同一最终Game10次运行通过，包含真实基础动作／2.5米连续匍匐／投掷／三类补给／拆雷／两次招募、CP0／CP1写盘和新进程恢复、损坏新slot回退、旧模式回归。原玩家与两名已招募盟军实际过C到对岸；三守军清场检查用声明原伤害端点夹具，不是自然交火证明。CP0是用户要求的训练存档例外，CP1仍只按三守军全灭解锁。训练新点需运行时有界导航生成，保留原agent／默认预算及C危险排除；没有保存地图／原生导航。扩展小地图继续显示独立25厘米范围。
+
+资产平台Refresh index与回读已成功：构建`tutorial-review`、玩法`g1-tutorial`／`allied-recruitment`／`tutorial-checkpoint`关联最终Game、6份中英文文档、新布局／流程图及私有实际截图，精确收据 `tmp/g1-tutorial-20261013/SYNC_VERIFIED.json`。最终正常交火、首次教学体验和人工采用等待用户复核；只有原两名G1招募人员，M2/M3与备用池未开发。正式78、1754原生文件、Catalog及显式保护的旧档保持；现有Editor不关闭。本轮未Git/SFTP发布、清理或作业上传。以下早期设计／76状态是有日期历史，以上最新记录优先。
+
 12 October Git同步说明：用户随后授权按功能发布资产工作台和本交接资料，见
 [本轮发布记录](GIT_FUNCTIONAL_PUBLICATION_20261012_ZH.md)。下文「平台尚未提交」
 是交接编写时的历史快照；新窗口正在写的过桥探索实施／分析／绘图文件仍不在
@@ -15,6 +29,18 @@
 
 ## 接手时先读的文件
 
+13 October最新完整教学方向见[完整教程设计](MissionLoopV1/G1_COMPLETE_TUTORIAL_DESIGN_20261013_ZH.md)：安全基础动作、射击换弹、手雷和烟雾、有限三类补给、拆雷、固定两人对话招募、CP0训练保存，再开放原三名守军，清场后CP1保存结束。CP0是本次用户新增训练阶段例外；战斗CP1仍只按所属敌组全灭解锁。已有[扩展小地图显示候选](MissionLoopV1/EXPANDED_MINIMAP_RESULT_20261013_ZH.md)，改贴图和UV范围，不改真实导航；正式78保持。旧可选第二人和清场后拆雷顺序不再作为当前教学方案。
+
+13 October用户已选到[可匍匐候选N](MissionLoopV1/G1_PRONE_HUMAN_SITE_RESULT_20261013_ZH.md)：最后脚底厘米(91.186979，−22140.678907，99.250298)，原局部图A8。1891条位置记录中，附近有独立连续3.55米匍匐实移，最后再次趴下静止；不是最终点与爬行段终点同一位置的声明。先按此候选安排2～3米练习，接入前核对短廊和起身／NPC占位。原位置记录Game已结束，其他窗口翻越Game不动；独立试玩Esc释放鼠标，Alt+Tab切窗，位置记录版F2记点截图。
+
+13 October最新[教学局部选点与盟军招募设计](MissionLoopV1/G1_TUTORIAL_SITE_AND_RECRUITMENT_DESIGN_20261013_ZH.md)：用户报告教学处不允许匍匐，已提供保存／扩展范围独立25厘米局部图，等待选择附近区域后验连续爬行。建议0/2起步，对话确认招募最多两名活盟军，阵亡空位由后续有限人员池补招；死亡ID、队员槽位和存档资源分别保留，招募不增加checkpoint门槛。人数、点位和实现仍为方案，原78版不改。
+
+13 October用户最新分工：动作与建模由对应窗口负责，本“地图探索与玩法设计”窗口专注玩法、路线和教程。可直接转交[人物动作与建模交接清单](MissionLoopV1/TRAVERSAL_ACTION_MODEL_HANDOFF_20261013_ZH.md)：已有Rifle_Vault_1m／Rifle_Climb_1m及骨架兼容登记，首轮建议有限低障碍翻越；动作窗口回交统一候选与移动／镜头结果，建模窗口回交道具尺寸和接触结果。本窗口根据可用范围选教程和路线用途，不在这里继续动作／模型制作。
+
+13 October后续[人工复核与越障建议](MissionLoopV1/AB_BRIDGE_HUMAN_REVIEW_AND_TRAVERSAL_DESIGN_20261013_ZH.md)：用户确认A对岸房屋／河道没有落脚连接，排除当前可玩跨岸路线；B能沿卡车旁红框通路走过，更新为玩家人工可通行。此前固定直线负面保持，不否定B旁路；AI／小队和返程仍待查。用户提出二段跳，当前建议为单跳＋低障碍翻越／攀上，尚未选择或实施。后续开发从已采用袖子78开始。
+
+13 October实际桥梁检查：[A／B桥原玩家实走结果](MissionLoopV1/AB_BRIDGE_PHYSICAL_RESULT_20261013_ZH.md)。computer-use启动独立formal76诊断v3，四条固定普通步行腿均未达到另一岸；A正向桥缘停止、反向落空，B正向取得49个原桥支撑样本后停止、反向在瓦砾附近停止。不能扩写为全部入口／绕行／跳跃／小队永久不通，A/B仍不登记为采用通路。原C桥证据、正式76、用户档和袖子Editor保留；见BR001与实施方案，未改碰撞／预算、未发布或上传作业。
+
 1. [项目规则](../../AGENTS.md)、[总交接](../../HANDOFF.md)、[失败案例索引](../../Failures/README.md)。
 2. [当前正式选择器](CURRENT_DEVELOPMENT_BASELINE.json)、[正式采用结果](G1_GAMEPLAY_BASELINE_ADOPTION_RESULT_20261011_ZH.md)、[最新同步指南](TEAM_CURRENT_BUILD_20261011_ZH.md)。
 3. [25厘米测绘](MissionLoopV1/FINE_GRID_RESULT_20261007_ZH.md)、[桥梁专项](MissionLoopV1/BRIDGE_CONNECTIVITY_RESULT_20261007_ZH.md)、[UE标准导航实走](MissionLoopV1/UE_STANDARD_NAV_RESULT_20261007_ZH.md)、[导航查询预算诊断](MissionLoopV1/UE_STANDARD_NAV_QUERY_RESULT_20261007_ZH.md)。
@@ -28,7 +54,7 @@
 | 正式源码 | `Unreal/Variants/G1GrenadeEquip20261011/Project`，精确76文件 |
 | 活跃制作工程 | `tmp/g1-tactical-equipment-20261010/candidate_grenade_equip_v1/Project/WW2FranceLiberation.uproject`；历史名称v1内实际是最终build_v4，不能按文件夹名字删除 |
 | 正常试玩 | `tmp/Playtest-G1-GrenadeEquip-20261011/PLAY_GRENADE_EQUIP.cmd` |
-| 稳定入口 | 根目录 `PLAY_CURRENT_G1.cmd`，指向同一正常试玩 |
+| 历史入口与当前入口 | 原根目录 `PLAY_CURRENT_G1.cmd` 已于 2026-10-18 撤下；当前使用[正式版启动脚本](../../Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd) |
 | 存档隔离 | UserDir `G1GrenadeEquip20261011`，前缀 `ParisGrenadeEquipV2`；不覆盖其他版本用户档 |
 | Game SHA256 | `b5357cd4ff39454ec40d72ba96ce8ab379f0e039c83b6170263f631e45c4124d` |
 | 源清单 SHA256 | `9ac0620c0794c2cc64c0b701d50e7dba4a82941bee7d147be1f72cd604d9312d` |

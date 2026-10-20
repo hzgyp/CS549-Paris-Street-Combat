@@ -1,8 +1,39 @@
 # Project index
 
+**Current launch path, 18 October 2026:** use [the formal tutorial launcher](Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd). The root forwarding CMD has been removed at the human’s request; existing saves/settings and the formal package are unchanged. [Routing result](Docs/Development/MissionLoopV1/TUTORIAL_DIRECT_ENTRY_RESULT_20261018.md). Older dated version/acceptance notes below are retained as history.
+
+<!-- prone-observer-candidate-20261014 -->
+14October：[V观察与Z匍匐复查](Docs/Development/MissionLoopV1/PRONE_OBSERVER_RESULT_20261014_ZH.md)已准备独立试玩。平地原地V→Z通过，优化避墙镜头与拒绝提示；保留原地形保护，原人工精确现场待复测，正式86保持。
+
+<!-- prone-transition-candidate-20261014 -->
+14October[Z匍匐过渡93结果](Docs/Development/MissionLoopV1/PRONE_TRANSITION_RESULT_20261014_ZH.md)及[独立普通入口](tmp/Playtest-G1-ProneTransition-20261014/PLAY_PRONE_TRANSITION.cmd)已准备，17次同Game和65帧有限复验通过，人工待试玩；父受伤89整版已获认可，正式86保持。
+
+<!-- player-damage-feedback-candidate-20261014 -->
+14 October[玩家受伤反馈89独立试玩](Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_RESULT_20261014_ZH.md)：18次同Game检查及实际画面/混音通过，人工待审；[普通入口](tmp/Playtest-G1-PlayerDamageFeedback-20261014/PLAY_DAMAGE_FEEDBACK.cmd)，正式86保持。
+
+<!-- player-damage-feedback-plan-20261014 -->
+14 October玩家受伤反馈：[只读核查与待确认修复方案](Docs/Development/MissionLoopV1/PLAYER_DAMAGE_FEEDBACK_PLAN_20261014_ZH.md)。正式86已有血量/低血量变红，缺非致命瞬时提示与受伤音分支；建议红色边缘脉冲、扣血残影、重伤警告及短受伤音。方案未实施，正式入口不变。
+
+<!-- grenade-formal-adoption-20261014 -->
+14 October当前本机正式投掷/开发基线为已人工审核86版，使用 [PLAY_TUTORIAL.cmd](Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd)。[采用与清理](Docs/Development/G1_GRENADE_BASELINE_ADOPTION_20261014_ZH.md)；原模型/原生动画/用户档保留，现有远端/教师交付不变。
+
+<!-- grenade-pose-repair-v8-20261014 -->
+**14 October最新进度：** [手雷初始姿势修复v8结果](Docs/Development/MissionLoopV1/GRENADE_POSE_REPAIR_RESULT_20261013_ZH.md)：旧手侧v3被用户拒绝，历史功能检查保留。新source86/Gamev8通过11项实际检查及25张过渡/持握/投掷画面复验，人工待审核，正式78保持；其他动作缺口暂缓。
+
+<!-- grenade-hand-repair-v3-20261013 -->
+[Grenade hand repair with traversal](Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013.md) / [手雷与翻越一起试玩](Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md)，source84/finalv3、九项最终Game检查通过，人工待审核，正式78保持。
+
+<!-- grenade-hand-repair-v2-20261013 -->
+[Grenade hand repair with traversal](Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013.md) / [手雷与翻越一起试玩](Docs/Development/MissionLoopV1/GRENADE_HAND_REPAIR_RESULT_20261013_ZH.md)，source84/finalv2、九项最终Game检查通过，人工待审核，正式78保持。
+
+<!-- traversal-input-repair-v13-20261013 -->
+[Traversal input repairv13 / new manual entry](Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013.md) · [翻越贴箱修复](Docs/Development/MissionLoopV1/TRAVERSAL_INPUT_REPAIR_RESULT_20261013_ZH.md) · [Confirmed grenade hand-side issue](Docs/Development/MissionLoopV1/GRENADE_HAND_SIDE_AUDIT_20261013.md). Human traversal review pending; formal78 unchanged. Earlierv8 references retain historical scope.
+
 Current scope: an initial configurable six-soldier roster across a surveyed connected city area with configurable objectives, retry and full restart. Reach/Clear sequences are examples. NavMesh/MoveTo is the baseline; custom A* is optional and safe-boundary checkpoints are Should. Current work targets Assignment 3's running MVP and delivery evidence. Later finite NPC groups require pacing, navigation and performance evaluation.
 
 ## Active authority
+
+- [Independent low-obstacle traversal, source83; human review pending](Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013.md) / [翻越回交结果，正式78保持](Docs/Development/MissionLoopV1/LOW_OBSTACLE_TRAVERSAL_RESULT_20261013_ZH.md) / [current candidate](Docs/Development/CURRENT_TRAVERSAL_REVIEW.json)
 
 - [Team playtest restore and launch](Docs/Development/TEAM_PLAYTEST.md) / [组员中文试玩指南](Docs/Development/TEAM_PLAYTEST_ZH.md)
 - [Team publication implementation](Docs/Development/TEAM_PLAYTEST_PUBLICATION_IMPLEMENTATION_V1.md) / [中文实施](Docs/Development/TEAM_PLAYTEST_PUBLICATION_IMPLEMENTATION_V1_ZH.md)
@@ -14,6 +45,7 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 - [Selected native display result](Docs/Development/CONTINUOUS_ARMS_NATIVE_RESULT_20261003.md) / [中文结果](Docs/Development/CONTINUOUS_ARMS_NATIVE_RESULT_20261003_ZH.md)
 - [Current 43 native file checkpoint](Assets/Integration/CITY_CONTINUOUS_ARMS_NATIVE_INVENTORY_20261003.json)
 - [Remaining model and animation requirements](Docs/Development/ASSET_GAPS_20261003.md) / [明日咸鱼清单](Docs/Development/ASSET_GAPS_20261003_ZH.md)
+- [Current character model refinement and action review](Docs/Development/CHARACTER_MODEL_ACTION_REVIEW_20261013.md) / [最新建模微调与动作审核状态](Docs/Development/CHARACTER_MODEL_ACTION_REVIEW_20261013_ZH.md)
 
 - [Complete existing upper limbs experiment V3](Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_IMPLEMENTATION_V3.md) / [中文审阅](Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_IMPLEMENTATION_V3_ZH.md)
 - [Continuous arms static result and accepted direction](Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_RESULT_20261003.md) / [中文结果](Docs/Development/FIRST_PERSON_CONTINUOUS_ARMS_RESULT_20261003_ZH.md)
@@ -122,3 +154,5 @@ Current scope: an initial configurable six-soldier roster across a surveyed conn
 - [Superseded combined proposal builder](Tools/build_proposal.py)
 
 Only the active-authority documents govern new work. Files under Archive, Reference/Gunplay, and HistoricalReference/NormandyContext do not reactivate the former project requirements.
+
+14 October清理完成：[正式86采用与清理结果](Docs/Development/G1_GRENADE_BASELINE_ADOPTION_RESULT_20261014_ZH.md)，48目录已删除，D盘实测净增加15.37GiB；原源码/证据/资产/用户文件保留，平台formal86已读回。

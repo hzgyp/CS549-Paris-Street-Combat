@@ -1,12 +1,14 @@
 ## 2026-10-11：历史父版已合入正式76版
 
+**Current entry, 18 October 2026:** [formal tutorial1.0 launcher](../../Releases/Paris-Tutorial-1.0-20261017/PLAY_TUTORIAL.cmd). This current routing supersedes only the old entry reference below; the checkpoint-build identity and its original UserDir remain historical. [Routing result](MissionLoopV1/TUTORIAL_DIRECT_ENTRY_RESULT_20261018.md).
+
 此专项功能承接到人工认可的当前完整玩法版。上一正式52普通包仅作为既有恢复依赖保留。源码和检测收据保留。运行／开发以[正式基线](CURRENT_DEVELOPMENT_BASELINE.md)为准；不要把以下旧包当当前入口。
 
 # 已人工通过的清场 checkpoint 正式基线
 
 2026-10-10，用户人工复验最新清场 checkpoint v3 无问题，明确选为正式基线。
 唯一当前普通试玩为 `tmp/Playtest-G1-EnemyClear-candidate_v3-20261010/PLAY_G1_REVISION.cmd`；项目根目录
-`PLAY_CURRENT_G1.cmd` 指向同一入口。用户存档继续使用 `%LOCALAPPDATA%/ParisStreetCombat/G1EnemyClearv320261010`。
+`PLAY_CURRENT_G1.cmd` (historical root entry; retired 18 October 2026) 指向同一入口。用户存档继续使用 `%LOCALAPPDATA%/ParisStreetCombat/G1EnemyClearv320261010`。
 
 当前源：`Unreal/Variants/G1EnemyClearCheckpoint20261010/Project`，精确52文件；制作工程：
 `tmp/g1-enemy-clear-checkpoint-20261010/candidate_v3/Project/WW2FranceLiberation.uproject`。Game SHA256 `b40409b08830cc0e1d306ceab0575d7e61db382f50853426bbda58d08f385079`；
